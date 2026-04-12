@@ -1,0 +1,126 @@
+{
+  "domain": "humanities",
+  "entities": [
+    {
+      "name": "贈与",
+      "name_en": "Gift",
+      "name_original": "le don",
+      "description": "贈与とは、経済的交換に還元できない、義務・互酬性・社会的紐帯を生み出す行為の体系である。",
+      "description_detailed": "マルセル・モースが1925年の『贈与論』で提示した概念。未開社会における贈り物の交換を分析し、贈与が単なる経済行為ではなく、与える義務・受け取る義務・返礼する義務という三重の義務体系を通じて社会的紐帯を構築する根本的な社会現象であることを示した。この概念は、近代資本主義が前提とする「合理的な経済人」モデルを根底から問い直し、交換の背後にある社会的・道徳的次元を可視化した。",
+      "impact": "経済人類学の基盤概念となり、レヴィ＝ストロースの交換理論、サーリンズの互酬性論、グレーバーの負債論など、人類学の中心的な議論を生み出した。また、経済学・社会学・哲学にも広く影響を与えた。",
+      "year_proposed": 1925,
+      "year_range": "1925-present",
+      "geographic_origin": "フランス",
+      "status": "active",
+      "paradigm_school": "フランス社会学派",
+      "keywords": ["交換", "互酬性", "義務", "社会的紐帯", "経済人類学"],
+      "source_reliability": "primary",
+      "blind_spot_addressed": "近代資本主義が前提とする「合理的経済人」モデルの限界。経済的交換が社会的・道徳的な義務体系に埋め込まれているという事実。",
+      "reinterpretation_history": "レヴィ＝ストロース（1949）による構造主義的再解釈、サーリンズ（1972）による互酬性の類型化、デリダ（1991）による脱構築的批判、グレーバー（2011）による負債論への発展。",
+      "cultural_context": "ポトラッチ（北西海岸先住民）、クラ交易（トロブリアンド諸島）、ハウ（マオリ）などの民族誌的事例に基づく。",
+      "originator": "マルセル・モース"
+    },
+    {
+      "name": "厚い記述",
+      "name_en": "Thick Description",
+      "name_original": "thick description",
+      "description": "人間の行為を、その行為が埋め込まれている文化的文脈全体の中で解釈的に記述する方法論的概念。",
+      "description_detailed": "クリフォード・ギアツが1973年の『文化の解釈学』で提示した概念。ギルバート・ライルの哲学的議論を援用し、単なる行為の表面的記述（薄い記述）と、行為の意味・文脈・意図を含む多層的な記述（厚い記述）を区別した。人類学の方法論を「法則の発見」から「意味の解釈」へと転換させた画期的な概念提案。",
+      "impact": "解釈人類学の基盤概念となり、人類学を含む人文・社会科学全般の方法論に影響を与えた。質的研究法の理論的基盤としても広く参照される。",
+      "year_proposed": 1973,
+      "year_range": "1973-present",
+      "geographic_origin": "アメリカ",
+      "status": "active",
+      "paradigm_school": "解釈人類学",
+      "keywords": ["解釈", "方法論", "文化", "意味", "民族誌"],
+      "source_reliability": "primary",
+      "blind_spot_addressed": "科学的客観性を追求する実証主義的方法論では捉えられない、人間の行為の意味的次元。",
+      "reinterpretation_history": "マーカス＆フィッシャー（1986）による「人類学の批判」での批判的発展、クリフォード（1988）による民族誌の修辞的分析への展開。",
+      "cultural_context": "バリ島の闘鶏の分析を代表例とする。ウェーバーの理解社会学とライルの行為哲学を人類学に接続した。",
+      "originator": "クリフォード・ギアツ"
+    },
+    {
+      "name": "構造",
+      "name_en": "Structure",
+      "name_original": "structure",
+      "description": "社会・文化現象の表面的多様性の背後にある、普遍的な無意識の論理的パターン。",
+      "description_detailed": "クロード・レヴィ＝ストロースが提示した構造主義人類学の中心概念。ソシュールの構造言語学を人類学に応用し、親族体系・神話・分類体系などの文化現象の背後に、二項対立と変換規則からなる普遍的な深層構造が存在することを主張した。",
+      "impact": "構造主義は人類学だけでなく、言語学・文学批評・哲学・精神分析など人文学全般に革命的な影響を与えた。",
+      "year_proposed": 1949,
+      "year_range": "1949-1990",
+      "geographic_origin": "フランス",
+      "status": "reinterpreted",
+      "paradigm_school": "構造主義",
+      "keywords": ["二項対立", "変換", "深層構造", "普遍性", "無意識"],
+      "source_reliability": "primary",
+      "blind_spot_addressed": "文化現象の表面的な多様性に惑わされ、その背後にある共通の論理構造が見落とされていたこと。",
+      "reinterpretation_history": "デリダ（1966）による脱構築的批判、ブルデュー（1972）による実践理論での批判的継承、ポスト構造主義全般による超克。",
+      "cultural_context": "ブラジル先住民の親族体系分析、アメリカ先住民の神話分析を基盤とする。",
+      "originator": "クロード・レヴィ＝ストロース"
+    }
+  ],
+  "researchers": [
+    {
+      "name": "マルセル・モース",
+      "name_en": "Marcel Mauss",
+      "name_original": "Marcel Mauss",
+      "birth_year": 1872,
+      "death_year": 1950,
+      "nationality": "フランス",
+      "primary_domain": "humanities",
+      "affiliated_institutions": ["パリ大学", "コレージュ・ド・フランス"],
+      "overall_research_theme": "贈与・身体技法・呪術など、近代西洋の枠組みでは捉えきれない社会現象の総体的分析を通じて、人間社会の普遍的な原理を探究した。",
+      "bio_summary": "フランスの社会学者・人類学者。エミール・デュルケームの甥にして後継者。1925年の『贈与論』で経済人類学の基礎を築いた。"
+    },
+    {
+      "name": "クリフォード・ギアツ",
+      "name_en": "Clifford Geertz",
+      "name_original": "Clifford Geertz",
+      "birth_year": 1926,
+      "death_year": 2006,
+      "nationality": "アメリカ",
+      "primary_domain": "humanities",
+      "affiliated_institutions": ["シカゴ大学", "プリンストン高等研究所"],
+      "overall_research_theme": "文化を「意味の網の目」として捉え、解釈学的方法論を通じて人間の象徴的世界を理解する人類学の構築。",
+      "bio_summary": "アメリカの文化人類学者。解釈人類学の創始者。1973年の『文化の解釈学』で「厚い記述」の概念を提示し、人類学の方法論を根本的に転換した。"
+    },
+    {
+      "name": "クロード・レヴィ＝ストロース",
+      "name_en": "Claude Levi-Strauss",
+      "name_original": "Claude Lévi-Strauss",
+      "birth_year": 1908,
+      "death_year": 2009,
+      "nationality": "フランス",
+      "primary_domain": "humanities",
+      "affiliated_institutions": ["コレージュ・ド・フランス"],
+      "overall_research_theme": "親族体系・神話・分類体系の構造分析を通じて、人間精神の普遍的な論理構造を解明する構造主義人類学の構築。",
+      "bio_summary": "フランスの人類学者。構造主義人類学の創始者。ソシュールの構造言語学を人類学に導入し、20世紀の人文学に決定的な影響を与えた。"
+    }
+  ],
+  "relations": [
+    {
+      "source": "構造",
+      "target": "贈与",
+      "relation_type": "derived_from",
+      "description": "レヴィ＝ストロースは、モースの贈与論を構造主義的に再解釈し、贈与交換を女性の交換としての親族体系の構造分析へ発展させた。",
+      "evidence_source": "Lévi-Strauss, C. (1949). Les structures élémentaires de la parenté.",
+      "year": 1949
+    },
+    {
+      "source": "厚い記述",
+      "target": "構造",
+      "relation_type": "critiques",
+      "description": "ギアツの解釈人類学は、レヴィ＝ストロースの構造主義が文化の意味的次元を捨象していることを暗黙に批判し、意味の解釈を中心に据える方法論を対置した。",
+      "evidence_source": "Geertz, C. (1973). The Interpretation of Cultures.",
+      "year": 1973
+    },
+    {
+      "source": "厚い記述",
+      "target": "贈与",
+      "relation_type": "extends",
+      "description": "ギアツの方法論は、モースの総体的社会事実の記述を、より精緻な解釈学的方法として発展させたものと位置づけられる。",
+      "evidence_source": "Ortner, S. (1984). Theory in Anthropology Since the Sixties.",
+      "year": 1984
+    }
+  ]
+}
