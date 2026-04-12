@@ -1,0 +1,49 @@
+{
+  "domain": "social_sciences",
+  "frames": [
+    {"level": 1, "parent": null, "name": "認知心理学", "name_en": "Cognitive Psychology", "description": "知覚、注意、記憶、思考、言語、推論、意思決定など人間の精神プロセス全般を研究する分野。", "estimated_unit_count": 350, "survey_priority": 1, "key_references": ["Neisser (1967) Cognitive Psychology", "Kahneman (2011) Thinking, Fast and Slow"]},
+    {"level": 2, "parent": "認知心理学", "name": "知覚・注意", "name_en": "Perception and Attention", "description": "感覚情報の処理・解釈メカニズムと認知資源の配分を研究する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Broadbent (1958)", "Treisman & Gelade (1980)", "Gibson (1979)"]},
+    {"level": 2, "parent": "認知心理学", "name": "記憶と学習", "name_en": "Memory and Learning", "description": "情報の符号化・貯蔵・検索プロセスおよび学習メカニズムを研究する領域。", "estimated_unit_count": 80, "survey_priority": 1, "key_references": ["Atkinson & Shiffrin (1968)", "Baddeley & Hitch (1974)", "Tulving (1972)"]},
+    {"level": 2, "parent": "認知心理学", "name": "言語・思考・推論", "name_en": "Language, Thinking, and Reasoning", "description": "言語処理、概念形成、推論、問題解決、意思決定を研究する領域。", "estimated_unit_count": 70, "survey_priority": 1, "key_references": ["Chomsky (1959)", "Rosch (1975)", "Johnson-Laird (1983)"]},
+    {"level": 2, "parent": "認知心理学", "name": "感情と認知の統合", "name_en": "Emotion-Cognition Integration", "description": "感情が認知プロセスに与える影響と感情の認知的評価理論を研究する領域。", "estimated_unit_count": 50, "survey_priority": 2, "key_references": ["Lazarus (1991)", "Damasio (1994)"]},
+
+    {"level": 1, "parent": null, "name": "社会心理学", "name_en": "Social Psychology", "description": "個人の思考・感情・行動が他者の存在によってどう影響されるかを研究する分野。", "estimated_unit_count": 400, "survey_priority": 1, "key_references": ["Allport (1954)", "Festinger (1957)", "Tajfel & Turner (1979)"]},
+    {"level": 2, "parent": "社会心理学", "name": "態度・説得・社会的影響", "name_en": "Attitudes, Persuasion, and Social Influence", "description": "態度変容、説得コミュニケーション、服従・同調プロセスを研究する領域。", "estimated_unit_count": 80, "survey_priority": 1, "key_references": ["Petty & Cacioppo (1986)", "Milgram (1974)", "Festinger (1957)"]},
+    {"level": 2, "parent": "社会心理学", "name": "集団・組織プロセス", "name_en": "Group and Organizational Processes", "description": "集団意思決定、社会的手抜き、リーダーシップ、集団間葛藤を研究する領域。", "estimated_unit_count": 70, "survey_priority": 2, "key_references": ["Lewin (1948)", "Janis (1972)"]},
+    {"level": 2, "parent": "社会心理学", "name": "偏見・ステレオタイプ・差別", "name_en": "Prejudice, Stereotyping, and Discrimination", "description": "偏見の形成・維持・低減メカニズムを研究する領域。", "estimated_unit_count": 60, "survey_priority": 1, "key_references": ["Allport (1954)", "Steele & Aronson (1995)", "Greenwald et al. (1998)"]},
+    {"level": 2, "parent": "社会心理学", "name": "対人関係・愛着・親密性", "name_en": "Interpersonal Relations", "description": "友情・恋愛・愛着など対人関係のメカニズムを研究する領域。", "estimated_unit_count": 50, "survey_priority": 2, "key_references": ["Sternberg (1986)", "Hazan & Shaver (1987)"]},
+
+    {"level": 1, "parent": null, "name": "発達心理学", "name_en": "Developmental Psychology", "description": "ライフスパン全体の身体・認知・社会・情動の変化プロセスを研究する分野。", "estimated_unit_count": 320, "survey_priority": 1, "key_references": ["Piaget (1952)", "Erikson (1950)", "Bowlby (1969)"]},
+    {"level": 2, "parent": "発達心理学", "name": "乳幼児・児童期の発達", "name_en": "Infant and Child Development", "description": "出生から学童期の認知・言語・社会・情動発達を研究する領域。", "estimated_unit_count": 80, "survey_priority": 1, "key_references": ["Piaget (1952)", "Vygotsky (1978)", "Premack & Woodruff (1978)"]},
+    {"level": 2, "parent": "発達心理学", "name": "青年期・アイデンティティ発達", "name_en": "Adolescence and Identity", "description": "アイデンティティ形成、道徳発達、青年期の心理を研究する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Erikson (1968)", "Kohlberg (1969)"]},
+    {"level": 2, "parent": "発達心理学", "name": "成人期・老年期発達", "name_en": "Adult and Gerontological Development", "description": "成人期以降の認知・情動・社会的変化を研究する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Baltes (1987)", "Carstensen (1992)"]},
+
+    {"level": 1, "parent": null, "name": "臨床・異常心理学", "name_en": "Clinical and Abnormal Psychology", "description": "精神障害の理解・診断・治療・予防を扱う分野。", "estimated_unit_count": 500, "survey_priority": 1, "key_references": ["Beck (1979)", "Barlow (2014)", "Freud (1900)"]},
+    {"level": 2, "parent": "臨床・異常心理学", "name": "精神病理学と障害分類", "name_en": "Psychopathology and Classification", "description": "精神障害の記述・分類・病因論を研究する領域。", "estimated_unit_count": 80, "survey_priority": 1, "key_references": ["DSM-5 (2013)", "Insel et al. (2010) RDoC"]},
+    {"level": 2, "parent": "臨床・異常心理学", "name": "心理療法と介入", "name_en": "Psychotherapy and Intervention", "description": "多様な心理療法アプローチの理論と効果研究を扱う領域。", "estimated_unit_count": 120, "survey_priority": 1, "key_references": ["Beck (1979)", "Hayes et al. (1999)", "Wampold (2001)"]},
+    {"level": 2, "parent": "臨床・異常心理学", "name": "健康心理学と行動医学", "name_en": "Health Psychology", "description": "心理的要因と身体健康の関係を研究する領域。", "estimated_unit_count": 80, "survey_priority": 2, "key_references": ["Lazarus & Folkman (1984)", "Bandura (1997)"]},
+
+    {"level": 1, "parent": null, "name": "神経・生物心理学", "name_en": "Neuropsychology and Biological Psychology", "description": "脳・神経系・遺伝子と心理・行動の関係を研究する分野。", "estimated_unit_count": 350, "survey_priority": 1, "key_references": ["Kandel et al. (2012)", "Damasio (1994)", "Pinker (1997)"]},
+    {"level": 2, "parent": "神経・生物心理学", "name": "認知神経科学", "name_en": "Cognitive Neuroscience", "description": "認知機能の神経基盤をfMRI・EEG等で解明する領域。", "estimated_unit_count": 100, "survey_priority": 1, "key_references": ["Gazzaniga et al. (2019)", "Posner & Petersen (1990)"]},
+    {"level": 2, "parent": "神経・生物心理学", "name": "行動遺伝学", "name_en": "Behavioral Genetics", "description": "遺伝と環境が知能・性格・精神障害に与える寄与を研究する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Plomin et al. (2016)", "Caspi et al. (2003)"]},
+    {"level": 2, "parent": "神経・生物心理学", "name": "進化心理学", "name_en": "Evolutionary Psychology", "description": "心理メカニズムを進化適応の産物として説明する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Buss (1995)", "Cosmides & Tooby (1992)"]},
+
+    {"level": 1, "parent": null, "name": "パーソナリティ心理学", "name_en": "Personality Psychology", "description": "個人の持続的な思考・感情・行動パターンの記述・説明・予測を研究する分野。", "estimated_unit_count": 250, "survey_priority": 1, "key_references": ["Allport (1937)", "Costa & McCrae (1992)", "Mischel (1968)"]},
+    {"level": 2, "parent": "パーソナリティ心理学", "name": "特性論・Big Five・個人差", "name_en": "Trait Theory and Big Five", "description": "パーソナリティを安定した特性次元で記述・測定する伝統。", "estimated_unit_count": 70, "survey_priority": 1, "key_references": ["Goldberg (1990)", "McCrae & Costa (1987)"]},
+    {"level": 2, "parent": "パーソナリティ心理学", "name": "精神力動論・自己・動機", "name_en": "Psychodynamic Theory, Self, Motivation", "description": "無意識・自己・動機を中心とするパーソナリティ理論群。", "estimated_unit_count": 70, "survey_priority": 2, "key_references": ["Freud (1923)", "Deci & Ryan (1985)"]},
+    {"level": 2, "parent": "パーソナリティ心理学", "name": "人間性心理学・ポジティブ心理学", "name_en": "Humanistic and Positive Psychology", "description": "成長・自己実現・幸福を中心テーマとする領域。", "estimated_unit_count": 80, "survey_priority": 2, "key_references": ["Maslow (1954)", "Seligman (2011)", "Csikszentmihalyi (1990)"]},
+
+    {"level": 1, "parent": null, "name": "文化・先住民心理学", "name_en": "Cultural and Indigenous Psychology", "description": "文化的文脈が心理・行動に与える影響を研究する分野。WEIRD批判を含む。", "estimated_unit_count": 200, "survey_priority": 2, "key_references": ["Hofstede (1980)", "Markus & Kitayama (1991)", "Doi (1973)", "Kim et al. (2006)"]},
+    {"level": 2, "parent": "文化・先住民心理学", "name": "文化比較心理学", "name_en": "Cross-Cultural Psychology", "description": "文化的価値観次元を用いた認知・行動の跨文化比較研究。", "estimated_unit_count": 70, "survey_priority": 2, "key_references": ["Triandis (1995)", "Henrich et al. (2010)"]},
+    {"level": 2, "parent": "文化・先住民心理学", "name": "先住民心理学・土着心理学", "name_en": "Indigenous Psychology", "description": "各民族・地域固有の心理概念に基づく心理学構築の運動。", "estimated_unit_count": 40, "survey_priority": 3, "key_references": ["Kim & Berry (1993)", "Enriquez (1992)"]},
+
+    {"level": 1, "parent": null, "name": "産業・組織心理学", "name_en": "Industrial and Organizational Psychology", "description": "職場における人間行動・動機・パフォーマンスを研究する応用分野。", "estimated_unit_count": 250, "survey_priority": 2, "key_references": ["Hackman & Oldham (1976)", "Bass (1985)"]},
+    {"level": 2, "parent": "産業・組織心理学", "name": "リーダーシップと動機づけ", "name_en": "Leadership and Work Motivation", "description": "変革型リーダーシップ、目標設定理論、自己決定理論の職場応用を研究する領域。", "estimated_unit_count": 80, "survey_priority": 2, "key_references": ["Vroom (1964)", "Locke & Latham (1990)", "Bass & Avolio (1994)"]},
+    {"level": 2, "parent": "産業・組織心理学", "name": "職場ウェルビーイングとストレス", "name_en": "Occupational Well-Being", "description": "バーンアウト、エンゲージメント、JD-Rモデルを研究する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Maslach & Jackson (1981)", "Bakker & Demerouti (2007)"]},
+
+    {"level": 1, "parent": null, "name": "教育・学校心理学", "name_en": "Educational and School Psychology", "description": "学習・教授・動機づけの教育的文脈での心理プロセスを研究する応用分野。", "estimated_unit_count": 200, "survey_priority": 3, "key_references": ["Vygotsky (1978)", "Dweck (2006)", "Bloom (1956)"]},
+    {"level": 2, "parent": "教育・学校心理学", "name": "学習動機づけと達成目標", "name_en": "Learning Motivation", "description": "達成目標理論、成長マインドセット、自己調整学習を研究する領域。", "estimated_unit_count": 60, "survey_priority": 2, "key_references": ["Dweck (1986)", "Elliot & Church (1997)"]},
+
+    {"level": 1, "parent": null, "name": "法・犯罪心理学", "name_en": "Forensic and Criminal Psychology", "description": "法律・司法・犯罪の文脈に心理学を応用する分野。", "estimated_unit_count": 150, "survey_priority": 3, "key_references": ["Loftus (1996)", "Hare (1991)"]}
+  ]
+}
