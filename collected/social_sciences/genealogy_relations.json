@@ -1,0 +1,866 @@
+[
+  {
+    "source": "古典的条件づけ（パブロフ, 1897）",
+    "target": "オペラント条件づけ（スキナー, 1938）",
+    "relation_type": "extends",
+    "description": "スキナーはパブロフの古典的条件づけ（刺激と反応の連合）をさらに発展させ、随意的行動とその結果（強化・罰）の関係に焦点を当てたオペラント条件づけを体系化した。行動主義の中核的系譜を形成する。",
+    "evidence_source": "Skinner, B.F., 1938, The Behavior of Organisms",
+    "year": 1938
+  },
+  {
+    "source": "オペラント条件づけ（スキナー, 1938）",
+    "target": "生成文法（チョムスキー, 1957）",
+    "relation_type": "critiques",
+    "description": "チョムスキーは1959年にスキナーの『言語行動』（1957）を徹底的に批判し、言語習得は強化によって説明できないと主張した。この批判は認知革命の端緒となり、行動主義から認知科学への転換を促した。",
+    "evidence_source": "Chomsky, N., 1959, A Review of B.F. Skinner's Verbal Behavior, Language, 35(1)",
+    "year": 1959
+  },
+  {
+    "source": "オペラント条件づけ（スキナー, 1938）",
+    "target": "社会的学習理論（バンデューラ, 1977）",
+    "relation_type": "critiques",
+    "description": "バンデューラは純粋な行動主義的強化学習だけでは観察学習（モデリング）を説明できないと批判し、直接の強化なしに他者の行動を観察するだけで学習が成立することを示した。",
+    "evidence_source": "Bandura, A., 1977, Social Learning Theory",
+    "year": 1977
+  },
+  {
+    "source": "オペラント条件づけ（スキナー, 1938）",
+    "target": "系統的脱感作（ウォルピ, 1958）",
+    "relation_type": "applies_to_policy",
+    "description": "ウォルピは条件づけの原理（特に逆制止の概念）を不安障害の臨床治療に応用し、段階的な曝露と筋弛緩を組み合わせた系統的脱感作法を開発した。行動療法の実践的基礎を形成した。",
+    "evidence_source": "Wolpe, J., 1958, Psychotherapy by Reciprocal Inhibition",
+    "year": 1958
+  },
+  {
+    "source": "古典的条件づけ（パブロフ, 1897）",
+    "target": "系統的脱感作（ウォルピ, 1958）",
+    "relation_type": "derived_from",
+    "description": "ウォルピの系統的脱感作は、パブロフの条件づけ理論における消去と逆制止の概念を直接的な理論基盤としており、恐怖反応の条件づけを解除するプロセスとして設計された。",
+    "evidence_source": "Wolpe, J., 1958, Psychotherapy by Reciprocal Inhibition",
+    "year": 1958
+  },
+  {
+    "source": "生成文法（チョムスキー, 1957）",
+    "target": "コネクショニズム（ラメルハート＆マクレランド, 1986）",
+    "relation_type": "competes_with",
+    "description": "コネクショニズムはニューラルネットワークによる並列分散処理モデルで、言語や認知を記号的規則なしに学習できると主張し、生成文法の普遍文法・生得的言語知識という前提に正面から対立した。",
+    "evidence_source": "Rumelhart, D.E. & McClelland, J.L., 1986, Parallel Distributed Processing, Vol.1-2",
+    "year": 1986
+  },
+  {
+    "source": "多重貯蔵モデル（アトキンソン＆シフリン, 1968）",
+    "target": "作動記憶モデル（バドリー＆ヒッチ, 1974）",
+    "relation_type": "critiques",
+    "description": "バドリーとヒッチは、アトキンソン＆シフリンの単一の短期記憶ストアという概念では説明しきれない実験結果を踏まえ、中央実行系・音韻ループ・視空間スケッチパッドからなる多成分作動記憶モデルを提唱した。",
+    "evidence_source": "Baddeley, A.D. & Hitch, G., 1974, Working Memory, Psychology of Learning and Motivation, Vol.8",
+    "year": 1974
+  },
+  {
+    "source": "多重貯蔵モデル（アトキンソン＆シフリン, 1968）",
+    "target": "処理水準説（クレイク＆ロックハート, 1972）",
+    "relation_type": "critiques",
+    "description": "クレイクとロックハートは、記憶を独立したストアとして捉えるアトキンソン＆シフリンモデルを批判し、記憶の保持は情報処理の深さ（意味的処理ほど保持が良い）によって決まると主張した。",
+    "evidence_source": "Craik, F.I.M. & Lockhart, R.S., 1972, Levels of Processing, Journal of Verbal Learning and Verbal Behavior, 11",
+    "year": 1972
+  },
+  {
+    "source": "多重貯蔵モデル（アトキンソン＆シフリン, 1968）",
+    "target": "エピソード記憶と意味記憶（タルヴィング, 1972）",
+    "relation_type": "extends",
+    "description": "タルヴィングはアトキンソン＆シフリンの長期記憶概念を拡張し、個人的経験の記憶（エピソード記憶）と一般知識の記憶（意味記憶）を明確に区別する理論的枠組みを提唱した。",
+    "evidence_source": "Tulving, E., 1972, Episodic and Semantic Memory, in Organization of Memory",
+    "year": 1972
+  },
+  {
+    "source": "精神分析（フロイト, 1895）",
+    "target": "対象関係論（クライン, 1946）",
+    "relation_type": "derived_from",
+    "description": "クラインはフロイトの精神分析理論を基盤としながら、乳幼児期の内的対象（母親像等）との関係性に焦点を当て、投影・取り込みなどの原始的防衛機制と発達を記述した。精神分析の英国学派として発展した。",
+    "evidence_source": "Klein, M., 1946, Notes on Some Schizoid Mechanisms, International Journal of Psychoanalysis, 27",
+    "year": 1946
+  },
+  {
+    "source": "対象関係論（クライン, 1946）",
+    "target": "自己心理学（コフート, 1971）",
+    "relation_type": "derived_from",
+    "description": "コフートは対象関係論を含む精神分析の流れから発展し、自己愛と自己対象関係を中心概念に据えた自己心理学を構築した。自我心理学から派生しつつ、対象関係論との対話を重ねた。",
+    "evidence_source": "Kohut, H., 1971, The Analysis of the Self",
+    "year": 1971
+  },
+  {
+    "source": "対象関係論（クライン, 1946）",
+    "target": "愛着理論（ボウルビィ, 1969）",
+    "relation_type": "derived_from",
+    "description": "ボウルビィは対象関係論（クライン、フェアバーン）の影響を受けながら、進化生物学・動物行動学・認知心理学を統合し、乳幼児と養育者の間の情緒的絆を実証科学的に定式化した。",
+    "evidence_source": "Bowlby, J., 1969, Attachment and Loss, Vol.1: Attachment",
+    "year": 1969
+  },
+  {
+    "source": "精神分析（フロイト, 1895）",
+    "target": "来談者中心療法（ロジャーズ, 1951）",
+    "relation_type": "critiques",
+    "description": "ロジャーズは精神分析の権威的・解釈的アプローチに反対し、クライエントの主観的体験と自己実現傾向を重視する非指示的カウンセリングを提唱した。人間性心理学の中心的理論となった。",
+    "evidence_source": "Rogers, C.R., 1951, Client-Centered Therapy",
+    "year": 1951
+  },
+  {
+    "source": "精神分析（フロイト, 1895）",
+    "target": "REBT（エリス, 1957）",
+    "relation_type": "critiques",
+    "description": "エリスは精神分析の長期的・無意識中心のアプローチを非効率とし、非合理的信念が感情的苦悩の源であるとして、論理的・哲学的論駁による短期的介入REBT（論理情動行動療法）を開発した。",
+    "evidence_source": "Ellis, A., 1957, Rational Psychotherapy, Journal of General Psychology, 59",
+    "year": 1957
+  },
+  {
+    "source": "精神分析（フロイト, 1895）",
+    "target": "恐怖管理理論（グリーンバーグほか, 1986）",
+    "relation_type": "derived_from",
+    "description": "グリーンバーグらはベッカーを媒介として、フロイトの死の恐怖（タナトス）と防衛機制の概念を継承しつつ、文化的世界観が死の恐怖を管理するバッファーとして機能するという社会心理学理論を構築した。",
+    "evidence_source": "Greenberg, J., Pyszczynski, T. & Solomon, S., 1986, The Causes and Consequences of a Need for Self-Esteem, in Public Self and Private Self",
+    "year": 1986
+  },
+  {
+    "source": "来談者中心療法（ロジャーズ, 1951）",
+    "target": "動機づけ面接（ミラー＆ロルニック, 1991）",
+    "relation_type": "derived_from",
+    "description": "ミラーとロルニックは、ロジャーズの来談者中心療法の共感・受容・一致の精神を直接の基盤としながら、変化への動機づけを高めるための方向性（傾聴と変化の言語）を体系的に加えた実践的療法を開発した。",
+    "evidence_source": "Miller, W.R. & Rollnick, S., 1991, Motivational Interviewing",
+    "year": 1991
+  },
+  {
+    "source": "来談者中心療法（ロジャーズ, 1951）",
+    "target": "共通要因モデル（ワンポルド, 2001）",
+    "relation_type": "empirically_tests",
+    "description": "ワンポルドはメタ分析を用いて、特定の技法よりも治療関係・共感・期待などの共通要因が心理療法の効果を説明すると実証し、ロジャーズが重視した治療関係の要因が科学的に支持されることを示した。",
+    "evidence_source": "Wampold, B.E., 2001, The Great Psychotherapy Debate",
+    "year": 2001
+  },
+  {
+    "source": "系統的脱感作（ウォルピ, 1958）",
+    "target": "認知療法（ベック, 1967）",
+    "relation_type": "synthesizes",
+    "description": "ベックの認知療法は行動療法（系統的脱感作等）の技法を取り込みながら、認知的歪み（自動思考・スキーマ）の修正を中心に据えた統合的アプローチを構築した。第二世代CBTの基礎となる。",
+    "evidence_source": "Beck, A.T., 1967, Depression: Clinical, Experimental and Theoretical Aspects",
+    "year": 1967
+  },
+  {
+    "source": "REBT（エリス, 1957）",
+    "target": "認知療法（ベック, 1967）",
+    "relation_type": "extends",
+    "description": "ベックはエリスのREBTと並行して認知療法を開発した。REBTが非合理的信念の論駁に重点を置くのに対し、ベックは自動思考・認知の歪みの特定と実証的検証を強調し、より体系的な技法セットを提供した。",
+    "evidence_source": "Beck, A.T., 1967, Depression: Causes and Treatment",
+    "year": 1967
+  },
+  {
+    "source": "認知療法（ベック, 1967）",
+    "target": "DBT（リネハン, 1993）",
+    "relation_type": "extends",
+    "description": "リネハンはベックの認知行動療法をベースとしながら、境界性パーソナリティ障害への対応として弁証法的哲学とマインドフルネスを組み込み、受容と変化の弁証法を核とするDBTを開発した。",
+    "evidence_source": "Linehan, M.M., 1993, Cognitive-Behavioral Treatment of Borderline Personality Disorder",
+    "year": 1993
+  },
+  {
+    "source": "認知療法（ベック, 1967）",
+    "target": "ACT（ヘイズ, 1999）",
+    "relation_type": "critiques",
+    "description": "ヘイズはベックの認知療法が認知内容の変化を目指すことへの疑問から出発し、思考の内容ではなく機能（思考との関係性）を変えることを目標とするACT（アクセプタンス＆コミットメント療法）を開発した。",
+    "evidence_source": "Hayes, S.C., Strosahl, K.D. & Wilson, K.G., 1999, Acceptance and Commitment Therapy",
+    "year": 1999
+  },
+  {
+    "source": "認知療法（ベック, 1967）",
+    "target": "MBCT（シーガルほか, 2002）",
+    "relation_type": "extends",
+    "description": "シーガルらはベックの認知療法の枠組みにマインドフルネス（カバットジンのMBSRを応用）を統合し、うつ病の再発予防に特化したMBCT（マインドフルネス認知療法）を開発した。",
+    "evidence_source": "Segal, Z.V., Williams, J.M.G. & Teasdale, J.D., 2002, Mindfulness-Based Cognitive Therapy for Depression",
+    "year": 2002
+  },
+  {
+    "source": "DBT（リネハン, 1993）",
+    "target": "ACT（ヘイズ, 1999）",
+    "relation_type": "synthesizes",
+    "description": "ACTはDBTとともに第三世代認知行動療法の代表として位置づけられ、双方がマインドフルネス・受容・価値へのコミットメントを重視するという共通の方向性を持つ。ヘイズはリネハンのマインドフルネス統合を参照した。",
+    "evidence_source": "Hayes, S.C., 2004, Acceptance and Commitment Therapy, Relational Frame Theory, and the Third Wave of Behavioral and Cognitive Therapies, Behavior Therapy, 35",
+    "year": 2004
+  },
+  {
+    "source": "限定合理性（サイモン, 1955）",
+    "target": "ヒューリスティクスとバイアス（トベルスキー＆カーネマン, 1974）",
+    "relation_type": "derived_from",
+    "description": "カーネマンとトベルスキーはサイモンの限定合理性（人間は完全合理的に行動できない）という前提を継承しつつ、具体的な認知的ショートカット（ヒューリスティクス）とそこから生じる系統的バイアスを実験的に特定した。",
+    "evidence_source": "Tversky, A. & Kahneman, D., 1974, Judgment under Uncertainty: Heuristics and Biases, Science, 185",
+    "year": 1974
+  },
+  {
+    "source": "ヒューリスティクスとバイアス（トベルスキー＆カーネマン, 1974）",
+    "target": "プロスペクト理論（カーネマン＆トベルスキー, 1979）",
+    "relation_type": "extends",
+    "description": "プロスペクト理論はヒューリスティクス研究で明らかになった損失回避・フレーミング効果・参照点依存などのバイアスを体系化し、期待効用理論に代わる記述的意思決定モデルとして定式化した。",
+    "evidence_source": "Kahneman, D. & Tversky, A., 1979, Prospect Theory: An Analysis of Decision under Risk, Econometrica, 47",
+    "year": 1979
+  },
+  {
+    "source": "プロスペクト理論（カーネマン＆トベルスキー, 1979）",
+    "target": "ナッジ理論（セイラー＆サンスタイン, 2008）",
+    "relation_type": "applies_to_policy",
+    "description": "セイラーとサンスタインはプロスペクト理論等の行動経済学的知見（損失回避・デフォルト効果等）を政策設計に応用し、選択肢の提示方法を変えるだけで人々の行動を望ましい方向に誘導するナッジ理論を構築した。",
+    "evidence_source": "Thaler, R.H. & Sunstein, C.R., 2008, Nudge: Improving Decisions about Health, Wealth, and Happiness",
+    "year": 2008
+  },
+  {
+    "source": "ヒューリスティクスとバイアス（トベルスキー＆カーネマン, 1974）",
+    "target": "二重過程理論（カーネマン, 2011）",
+    "relation_type": "synthesizes",
+    "description": "カーネマンは数十年にわたるヒューリスティクス研究を集大成し、直感的・自動的なシステム1と分析的・意識的なシステム2の相互作用として人間の判断・意思決定を説明する二重過程理論を提示した。",
+    "evidence_source": "Kahneman, D., 2011, Thinking, Fast and Slow",
+    "year": 2011
+  },
+  {
+    "source": "認知的不協和理論（フェスティンガー, 1957）",
+    "target": "自己知覚理論（ベム, 1967）",
+    "relation_type": "competes_with",
+    "description": "ベムは認知的不協和理論の「内的緊張状態」という仮説構成物を不要とし、人は自分の行動を外部観察者と同様に見て態度を推測すると主張した。スキナー派の行動主義的立場からの代替説明として提唱された。",
+    "evidence_source": "Bem, D.J., 1967, Self-Perception: An Alternative Interpretation of Cognitive Dissonance Phenomena, Psychological Review, 74",
+    "year": 1967
+  },
+  {
+    "source": "精緻化見込みモデル（ペティ＆カシオッポ, 1986）",
+    "target": "ヒューリスティック-体系的モデル（シャイケン, 1980）",
+    "relation_type": "competes_with",
+    "description": "ELMとHSMはともに説得における二重過程を提唱する競合モデルである。ELMは中心・周辺の2ルートが排他的に機能するとするのに対し、HSMはヒューリスティック処理と体系的処理が同時・並列に生じうる点が異なる。",
+    "evidence_source": "Chaiken, S., Liberman, A. & Eagly, A.H., 1989, Heuristic and Systematic Information Processing, in Unintended Thought",
+    "year": 1989
+  },
+  {
+    "source": "認知的不協和理論（フェスティンガー, 1957）",
+    "target": "精緻化見込みモデル（ペティ＆カシオッポ, 1986）",
+    "relation_type": "derived_from",
+    "description": "ELMは態度変容研究の文脈において、認知的不協和理論が提示した態度の変化メカニズムを整理・発展させ、動機づけと認知能力という変数によって説得経路を分類する体系的モデルを構築した。",
+    "evidence_source": "Petty, R.E. & Cacioppo, J.T., 1986, Communication and Persuasion: Central and Peripheral Routes to Attitude Change",
+    "year": 1986
+  },
+  {
+    "source": "二重過程理論（カーネマン, 2011）",
+    "target": "精緻化見込みモデル（ペティ＆カシオッポ, 1986）",
+    "relation_type": "synthesizes",
+    "description": "カーネマンのシステム1/システム2の枠組みはELMの中心・周辺ルートという区別と理論的に対応し、互いを強化する。二重過程理論はELMなど社会心理学の先行研究を統合して認知科学的に再定式化した。",
+    "evidence_source": "Kahneman, D., 2011, Thinking, Fast and Slow",
+    "year": 2011
+  },
+  {
+    "source": "社会的比較理論（フェスティンガー, 1954）",
+    "target": "認知的不協和理論（フェスティンガー, 1957）",
+    "relation_type": "extends",
+    "description": "フェスティンガーは社会的比較理論（1954）で意見・能力の評価に社会的参照が用いられることを示した後、認知的不協和理論（1957）でより広い認知間の矛盾と解消プロセスを定式化した。同一著者による理論発展。",
+    "evidence_source": "Festinger, L., 1957, A Theory of Cognitive Dissonance",
+    "year": 1957
+  },
+  {
+    "source": "同調実験（アッシュ, 1951）",
+    "target": "服従の心理（ミルグラム, 1963）",
+    "relation_type": "extends",
+    "description": "ミルグラムはアッシュの同調実験から着想を得て、権威への服従という問題へと研究を拡張した。アッシュが集団的圧力による意見の同調を示したのに対し、ミルグラムは権威者の命令による有害行動への服従を実証した。",
+    "evidence_source": "Milgram, S., 1963, Behavioral Study of Obedience, Journal of Abnormal and Social Psychology, 67",
+    "year": 1963
+  },
+  {
+    "source": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "target": "自己カテゴリー化理論（ターナー, 1987）",
+    "relation_type": "derived_from",
+    "description": "ターナーは社会的アイデンティティ理論（タジフェルとの共同研究）を基盤として、自己カテゴリー化理論を単独で発展させた。集団メンバーシップによる自己定義の認知プロセスをより詳細に記述した派生理論である。",
+    "evidence_source": "Turner, J.C. et al., 1987, Rediscovering the Social Group: A Self-Categorization Theory",
+    "year": 1987
+  },
+  {
+    "source": "現実的集団葛藤理論（シェリフ, 1961）",
+    "target": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "relation_type": "critiques",
+    "description": "タジフェルとターナーはシェリフの現実的資源競争（ロバーズケーブ実験）だけでは集団間偏見を説明できないと批判し、最小集団パラダイム実験によって実際の利益競争なしにも内集団びいきが生じることを実証した。",
+    "evidence_source": "Tajfel, H. & Turner, J.C., 1979, An Integrative Theory of Intergroup Conflict, in The Social Psychology of Intergroup Relations",
+    "year": 1979
+  },
+  {
+    "source": "接触仮説（オルポート, 1954）",
+    "target": "現実的集団葛藤理論（シェリフ, 1961）",
+    "relation_type": "competes_with",
+    "description": "オルポートが適切な条件下での集団間接触が偏見を低減すると主張したのに対し、シェリフは現実的資源競争こそが集団間対立の根本原因であり、接触だけでは解消しないことを実験的に示した。",
+    "evidence_source": "Sherif, M. et al., 1961, Intergroup Conflict and Cooperation: The Robbers Cave Experiment",
+    "year": 1961
+  },
+  {
+    "source": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "target": "ステレオタイプ脅威（スティール＆アロンソン, 1995）",
+    "relation_type": "derived_from",
+    "description": "スティールとアロンソンのステレオタイプ脅威概念は、社会的アイデンティティ理論の「集団カテゴリーの認識が自己評価に影響する」という枠組みを継承し、否定的なステレオタイプを持つ集団成員のパフォーマンス低下メカニズムを実証した。",
+    "evidence_source": "Steele, C.M. & Aronson, J., 1995, Stereotype Threat and the Intellectual Test Performance of African Americans, Journal of Personality and Social Psychology, 69",
+    "year": 1995
+  },
+  {
+    "source": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "target": "暗黙的連合テスト（グリーンワルド, 1998）",
+    "relation_type": "empirically_tests",
+    "description": "グリーンワルドらはIATを開発し、社会的アイデンティティ理論が示唆する内集団びいきや外集団への偏見が意識的制御の及ばない潜在的態度レベルでも存在することを測定可能な形で実証した。",
+    "evidence_source": "Greenwald, A.G., McGhee, D.E. & Schwartz, J.L.K., 1998, Measuring Individual Differences in Implicit Cognition: The Implicit Association Test, JPSP, 74",
+    "year": 1998
+  },
+  {
+    "source": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "target": "社会的支配理論（シダニウス＆プラット, 1999）",
+    "relation_type": "competes_with",
+    "description": "社会的支配理論は社会的アイデンティティ理論が集団間関係を心理的・認知的プロセスで説明することに異議を唱え、社会的階層（支配・従属関係）を維持する進化的・制度的メカニズムをより強調する代替的枠組みを提示した。",
+    "evidence_source": "Sidanius, J. & Pratto, F., 1999, Social Dominance: An Intergroup Theory of Social Hierarchy and Oppression",
+    "year": 1999
+  },
+  {
+    "source": "社会的支配理論（シダニウス＆プラット, 1999）",
+    "target": "システム正当化理論（ジョスト＆バナジ, 1994）",
+    "relation_type": "competes_with",
+    "description": "システム正当化理論は社会的支配理論が地位の高い集団の心理のみを強調することを批判し、不利な立場の集団員もシステムを正当化する動機を持つという逆説（自己否定的なシステム支持）を理論化した。",
+    "evidence_source": "Jost, J.T. & Banaji, M.R., 1994, The Role of Stereotyping in System-Justification and the Production of False Consciousness, British Journal of Social Psychology, 33",
+    "year": 1994
+  },
+  {
+    "source": "認知的不協和理論（フェスティンガー, 1957）",
+    "target": "システム正当化理論（ジョスト＆バナジ, 1994）",
+    "relation_type": "derived_from",
+    "description": "ジョストとバナジはフェスティンガーの認知的不協和理論における心理的一貫性動機を援用し、不平等なシステムを正当化することが認知的不協和を低減するという心理的メカニズムを説明した。",
+    "evidence_source": "Jost, J.T. & Banaji, M.R., 1994, The Role of Stereotyping in System-Justification and the Production of False Consciousness, British Journal of Social Psychology, 33",
+    "year": 1994
+  },
+  {
+    "source": "認知発達段階論（ピアジェ, 1936）",
+    "target": "ZPD（ヴィゴツキー, 1934）",
+    "relation_type": "competes_with",
+    "description": "ヴィゴツキーはピアジェの認知発達が子どもの自律的な段階発展として記述される点に異議を唱え、社会的相互作用（特に熟練者との対話）が認知発達に先行し促進するという社会構成主義的枠組みを提唱した。",
+    "evidence_source": "Vygotsky, L.S., 1934, Thought and Language（邦訳: 思考と言語）",
+    "year": 1934
+  },
+  {
+    "source": "認知発達段階論（ピアジェ, 1936）",
+    "target": "心の理論（バロン＝コーエン, 1985）",
+    "relation_type": "derived_from",
+    "description": "バロン＝コーエンらは、ピアジェの認知発達研究の枠組みを活用しながら、他者の心的状態（信念・欲求）を推論する能力（心の理論）の発達を測定する誤信念課題（サリー・アン課題）を開発した。",
+    "evidence_source": "Baron-Cohen, S., Leslie, A.M. & Frith, U., 1985, Does the Autistic Child Have a 'Theory of Mind'?, Cognition, 21",
+    "year": 1985
+  },
+  {
+    "source": "認知発達段階論（ピアジェ, 1936）",
+    "target": "道徳発達段階論（コールバーグ, 1958）",
+    "relation_type": "derived_from",
+    "description": "コールバーグはピアジェの道徳判断発達研究（2段階）を継承・拡張し、前慣習・慣習・後慣習の3水準6段階からなる体系的な道徳推論の発達理論を構築した。",
+    "evidence_source": "Kohlberg, L., 1958, The Development of Modes of Moral Thinking and Choice in the Years 10 to 16（博士論文）",
+    "year": 1958
+  },
+  {
+    "source": "道徳発達段階論（コールバーグ, 1958）",
+    "target": "ケアの倫理（ギリガン, 1982）",
+    "relation_type": "critiques",
+    "description": "ギリガンはコールバーグの研究対象が主に男性であり、正義・権利を基礎とする男性的な道徳観を普遍化していると批判した。女性の語りから「ケア・責任・関係性」を中核とする別の道徳的声（もうひとつの声）を記述した。",
+    "evidence_source": "Gilligan, C., 1982, In a Different Voice: Psychological Theory and Women's Development",
+    "year": 1982
+  },
+  {
+    "source": "心理社会的発達理論（エリクソン, 1950）",
+    "target": "道徳発達段階論（コールバーグ, 1958）",
+    "relation_type": "derived_from",
+    "description": "コールバーグはエリクソンの心理社会的発達理論が示す発達の段階的・漸成的原理を継承しながら、道徳的推論という特定領域の発達を精緻化した。発達心理学的方法論として共通の系譜を持つ。",
+    "evidence_source": "Kohlberg, L., 1958, doctoral dissertation, University of Chicago",
+    "year": 1958
+  },
+  {
+    "source": "精神分析（フロイト, 1895）",
+    "target": "心理社会的発達理論（エリクソン, 1950）",
+    "relation_type": "derived_from",
+    "description": "エリクソンはフロイトの弟子であり、精神分析的枠組みを継承しながら、心理性的発達理論を社会・文化的文脈へ拡張し、誕生から老年期までの8段階の心理社会的危機を記述した発達理論を構築した。",
+    "evidence_source": "Erikson, E.H., 1950, Childhood and Society",
+    "year": 1950
+  },
+  {
+    "source": "Big Five（コスタ＆マクレー, 1992）",
+    "target": "HEXACO（アシュトン＆リー, 2007）",
+    "relation_type": "extends",
+    "description": "アシュトンとリーはBig Fiveの語彙アプローチを継承しつつ、英語以外の多言語データの語彙研究から正直さ・謙虚さ（H因子）を新たに加えた6因子モデルHEXACOを提唱した。文化的普遍性を高めた拡張である。",
+    "evidence_source": "Ashton, M.C. & Lee, K., 2007, Empirical, Theoretical, and Practical Advantages of the HEXACO Model of Personality Structure, Personality and Social Psychology Review, 11",
+    "year": 2007
+  },
+  {
+    "source": "人-状況論争（ミシェル, 1968）",
+    "target": "Big Five（コスタ＆マクレー, 1992）",
+    "relation_type": "competes_with",
+    "description": "ミシェルの1968年の批判（特性は行動を十分予測できない）はBig Five研究を一時停滞させたが、コスタとマクレーは多様な方法論で特性の一貫性と予測妥当性を実証し、特性アプローチの正当性を回復した。",
+    "evidence_source": "Costa, P.T. & McCrae, R.R., 1992, Revised NEO Personality Inventory (NEO-PI-R) Professional Manual",
+    "year": 1992
+  },
+  {
+    "source": "人-状況論争（ミシェル, 1968）",
+    "target": "CAPS（ミシェル＆ショーダ, 1995）",
+    "relation_type": "extends",
+    "description": "ミシェル自身が特性批判後に建設的応答として開発したCAPSは、状況特定的な認知・感情変数が行動の一貫性を生み出すことを示し、特性概念を棄却するのではなく認知感情システムとして再定式化した。",
+    "evidence_source": "Mischel, W. & Shoda, Y., 1995, A Cognitive-Affective System Theory of Personality, Psychological Review, 102",
+    "year": 1995
+  },
+  {
+    "source": "欲求階層理論（マズロー, 1943）",
+    "target": "自己決定理論（デシ＆ライアン, 1985）",
+    "relation_type": "critiques",
+    "description": "デシとライアンはマズローの欲求階層（自己実現を頂点とする）という概念は科学的実証に乏しいとし、自律性・有能感・関係性という三つの基本的心理欲求が動機づけとウェルビーイングを説明できると実証的に示した。",
+    "evidence_source": "Deci, E.L. & Ryan, R.M., 1985, Intrinsic Motivation and Self-Determination in Human Behavior",
+    "year": 1985
+  },
+  {
+    "source": "欲求階層理論（マズロー, 1943）",
+    "target": "PERMA（セリグマン, 2011）",
+    "relation_type": "derived_from",
+    "description": "セリグマンはマズローが「ポジティブ心理学」という語を最初に使った人物であることを認識し、その人間の肯定的側面・潜在力重視という精神を継承しながら、実証研究に基づくPERMAウェルビーイングモデルを構築した。",
+    "evidence_source": "Seligman, M.E.P., 2011, Flourish: A Visionary New Understanding of Happiness and Well-Being",
+    "year": 2011
+  },
+  {
+    "source": "フロー理論（チクセントミハイ, 1975）",
+    "target": "PERMA（セリグマン, 2011）",
+    "relation_type": "synthesizes",
+    "description": "セリグマンのPERMAモデルのE（Engagement/没頭）は、チクセントミハイのフロー概念と直接対応している。セリグマンはフロー研究を統合しつつ、ウェルビーイングの多次元モデルを構築した。",
+    "evidence_source": "Seligman, M.E.P., 2011, Flourish",
+    "year": 2011
+  },
+  {
+    "source": "自己決定理論（デシ＆ライアン, 1985）",
+    "target": "PERMA（セリグマン, 2011）",
+    "relation_type": "synthesizes",
+    "description": "PERMAモデルは自己決定理論の自律性・有能感・関係性という基本的心理欲求の充足がウェルビーイングの構成要素（肯定的感情・関係性・達成など）と重なることを認識しており、理論的に相補的な関係を持つ。",
+    "evidence_source": "Seligman, M.E.P., 2011, Flourish",
+    "year": 2011
+  },
+  {
+    "source": "g因子/CHC理論（スピアマン, 1904; キャロル, 1993）",
+    "target": "多重知能理論（ガードナー, 1983）",
+    "relation_type": "competes_with",
+    "description": "ガードナーはスピアマンのg因子（一般知能）という単一構成概念に反対し、少なくとも8つの独立した知能（言語的・論理数学的・音楽的・空間的・身体運動的・対人的・内省的・自然探求的）が存在すると主張した。",
+    "evidence_source": "Gardner, H., 1983, Frames of Mind: The Theory of Multiple Intelligences",
+    "year": 1983
+  },
+  {
+    "source": "帰属理論（ハイダー, 1958; ケリー, 1967）",
+    "target": "計画的行動理論（アジェン, 1991）",
+    "relation_type": "derived_from",
+    "description": "アジェンの計画的行動理論は帰属理論の知覚された行動統制という概念を組み込んでいる。また行動意図のモデル（合理的行動理論）に「自分は行動できるか」という知覚的コントロールを加えた発展形として位置づけられる。",
+    "evidence_source": "Ajzen, I., 1991, The Theory of Planned Behavior, Organizational Behavior and Human Decision Processes, 50",
+    "year": 1991
+  },
+  {
+    "source": "社会的学習理論（バンデューラ, 1977）",
+    "target": "計画的行動理論（アジェン, 1991）",
+    "relation_type": "synthesizes",
+    "description": "アジェンの計画的行動理論における「知覚された行動統制」は、バンデューラの自己効力感（特定行動への能力信念）の概念と密接に対応しており、社会的学習理論の知見を行動意図モデルに統合した。",
+    "evidence_source": "Ajzen, I., 1991, The Theory of Planned Behavior, Organizational Behavior and Human Decision Processes, 50",
+    "year": 1991
+  },
+  {
+    "source": "社会的学習理論（バンデューラ, 1977）",
+    "target": "影響力の6原則（チャルディーニ, 1984）",
+    "relation_type": "derived_from",
+    "description": "チャルディーニの社会的証明・権威・好意などの影響原則は、バンデューラが研究した観察学習・モデリングの社会的プロセスと理論的に重なる。他者の行動を手がかりとする規範的影響として共通の基盤を持つ。",
+    "evidence_source": "Cialdini, R.B., 1984, Influence: The Psychology of Persuasion",
+    "year": 1984
+  },
+  {
+    "source": "スキーマ理論（バートレット, 1932）",
+    "target": "多重貯蔵モデル（アトキンソン＆シフリン, 1968）",
+    "relation_type": "derived_from",
+    "description": "バートレットは「War of the Ghosts」実験で記憶が既存の知識構造（スキーマ）によって再構成されることを示した。この知見は後の認知心理学の記憶モデル（多重貯蔵モデルの長期記憶概念）の理論的背景を形成した。",
+    "evidence_source": "Bartlett, F.C., 1932, Remembering: A Study in Experimental and Social Psychology",
+    "year": 1932
+  },
+  {
+    "source": "スキーマ理論（バートレット, 1932）",
+    "target": "プロトタイプ理論（ロッシュ, 1975）",
+    "relation_type": "derived_from",
+    "description": "ロッシュのプロトタイプ理論はバートレットのスキーマ理論が示した知識の組織化・カテゴリー構造という問題を継承し、概念カテゴリーが明確な境界なく「最良事例（プロトタイプ）」を中心に組織されることを実証した。",
+    "evidence_source": "Rosch, E., 1975, Cognitive Representations of Semantic Categories, Journal of Experimental Psychology: General, 104",
+    "year": 1975
+  },
+  {
+    "source": "来談者中心療法（ロジャーズ, 1951）",
+    "target": "欲求階層理論（マズロー, 1943）",
+    "relation_type": "synthesizes",
+    "description": "ロジャーズの「自己実現傾向」とマズローの「自己実現欲求」は同時代的に相互参照され、人間性心理学（第三の力）の哲学的基盤を共に形成した。両理論は人間の成長志向性という共通前提を持つ。",
+    "evidence_source": "Rogers, C.R. & Maslow, A.H., 人間性心理学の共同基盤（1960年代）",
+    "year": 1962
+  },
+  {
+    "source": "精神分析（フロイト, 1895）",
+    "target": "愛着理論（ボウルビィ, 1969）",
+    "relation_type": "critiques",
+    "description": "ボウルビィは精神分析が内的空想を過度に重視し実際の養育関係を軽視すると批判した。精神分析的訓練を受けながらも、進化生物学・認知科学を統合した実証的な愛着理論を構築し、発達精神病理学の基礎を築いた。",
+    "evidence_source": "Bowlby, J., 1969, Attachment and Loss, Vol.1: Attachment",
+    "year": 1969
+  },
+  {
+    "source": "恐怖管理理論（グリーンバーグほか, 1986）",
+    "target": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "relation_type": "synthesizes",
+    "description": "恐怖管理理論は社会的アイデンティティ理論の「集団帰属が自尊感情を高める」という知見を援用し、文化的世界観や集団所属が死の不安を管理するバッファーとして機能することを説明した。",
+    "evidence_source": "Greenberg, J. et al., 1990, Evidence for Terror Management Theory, JPSP, 58",
+    "year": 1990
+  },
+  {
+    "source": "ヒューリスティック-体系的モデル（シャイケン, 1980）",
+    "target": "二重過程理論（カーネマン, 2011）",
+    "relation_type": "synthesizes",
+    "description": "カーネマンのシステム1/システム2モデルはシャイケンのHSMで示されたヒューリスティック処理（速い・自動）と体系的処理（遅い・意識的）の区分と対応しており、社会的情報処理研究の知見を統合している。",
+    "evidence_source": "Kahneman, D., 2011, Thinking, Fast and Slow",
+    "year": 2011
+  },
+  {
+    "source": "オペラント条件づけ（スキナー, 1938）",
+    "target": "REBT（エリス, 1957）",
+    "relation_type": "critiques",
+    "description": "エリスは行動主義的な強化・罰の技法だけでは持続的な心理変化が難しいと判断し、認知（非合理的信念）への直接介入をREBTの中核に置いた。行動主義から認知への移行における重要な転換点である。",
+    "evidence_source": "Ellis, A., 1957, Rational Psychotherapy, Journal of General Psychology, 59",
+    "year": 1957
+  },
+  {
+    "source": "認知的不協和理論（フェスティンガー, 1957）",
+    "target": "計画的行動理論（アジェン, 1991）",
+    "relation_type": "derived_from",
+    "description": "アジェンの計画的行動理論は、行動・態度・意図の一貫性という問題を扱っており、認知的不協和理論が明らかにした態度と行動の不一致問題への応答として発展した。合理的行動理論を経由した系譜を持つ。",
+    "evidence_source": "Ajzen, I., 1991, The Theory of Planned Behavior, Organizational Behavior and Human Decision Processes, 50",
+    "year": 1991
+  },
+  {
+    "source": "社会的比較理論（フェスティンガー, 1954）",
+    "target": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "relation_type": "derived_from",
+    "description": "タジフェルはフェスティンガーの社会的比較理論（自己評価に他者との比較が用いられる）を集団間比較に拡張し、内集団の地位向上による自尊感情の維持という動機を社会的アイデンティティ理論の核心に置いた。",
+    "evidence_source": "Tajfel, H. & Turner, J.C., 1979, An Integrative Theory of Intergroup Conflict",
+    "year": 1979
+  },
+  {
+    "source": "自己知覚理論（ベム, 1967）",
+    "target": "計画的行動理論（アジェン, 1991）",
+    "relation_type": "derived_from",
+    "description": "アジェンの計画的行動理論は自己の態度を内省によって把握できるという前提に立つが、ベムの自己知覚理論（自己の態度は自分の行動観察から推論される）は計画的行動理論が扱う態度形成の補完的メカニズムを提供する。",
+    "evidence_source": "Ajzen, I., 1991, The Theory of Planned Behavior, Organizational Behavior and Human Decision Processes, 50",
+    "year": 1991
+  },
+  {
+    "source": "接触仮説（オルポート, 1954）",
+    "target": "ステレオタイプ脅威（スティール＆アロンソン, 1995）",
+    "relation_type": "empirically_tests",
+    "description": "ステレオタイプ脅威研究はオルポートが提示した「集団間接触における心理的条件」を精緻化し、評価の文脈がステレオタイプ化された集団成員のパフォーマンスに具体的に影響するメカニズムを実証した。",
+    "evidence_source": "Steele, C.M. & Aronson, J., 1995, JPSP, 69",
+    "year": 1995
+  },
+  {
+    "source": "プロトタイプ理論（ロッシュ, 1975）",
+    "target": "コネクショニズム（ラメルハート＆マクレランド, 1986）",
+    "relation_type": "synthesizes",
+    "description": "コネクショニストモデルはロッシュのプロトタイプ理論が示した概念カテゴリーの段階的・連続的な構造を、分散表現（ベクトル空間）として自然に実装できることを示し、認知科学に重要な橋渡しを行った。",
+    "evidence_source": "Rumelhart, D.E. & McClelland, J.L., 1986, Parallel Distributed Processing",
+    "year": 1986
+  },
+  {
+    "source": "ナッジ理論（セイラー＆サンスタイン, 2008）",
+    "target": "計画的行動理論（アジェン, 1991）",
+    "relation_type": "competes_with",
+    "description": "計画的行動理論は行動を意識的な意図・態度・規範の産物とするが、ナッジ理論は選択アーキテクチャの変更（デフォルト設定等）が意図を経由せずに行動を変えられることを示し、意図中心モデルの限界を補完する。",
+    "evidence_source": "Thaler, R.H. & Sunstein, C.R., 2008, Nudge",
+    "year": 2008
+  },
+  {
+    "source": "帰属理論（ハイダー, 1958; ケリー, 1967）",
+    "target": "社会的比較理論（フェスティンガー, 1954）",
+    "relation_type": "competes_with",
+    "description": "ハイダーの帰属理論（行動原因の認知的解釈）とフェスティンガーの社会的比較理論（自己評価のための他者参照）はともに社会的認知の基礎理論であり、自己・他者理解のメカニズムについて異なる説明的視点を提供する。",
+    "evidence_source": "Heider, F., 1958, The Psychology of Interpersonal Relations",
+    "year": 1958
+  },
+  {
+    "source": "服従の心理（ミルグラム, 1963）",
+    "target": "影響力の6原則（チャルディーニ, 1984）",
+    "relation_type": "derived_from",
+    "description": "チャルディーニの権威の原則は、ミルグラムの服従実験が示した「権威ある人物の指示に従う」という人間の傾向を実践的に体系化したものである。ミルグラム実験の知見が影響力研究の基盤として機能した。",
+    "evidence_source": "Cialdini, R.B., 1984, Influence: The Psychology of Persuasion",
+    "year": 1984
+  },
+  {
+    "source": "同調実験（アッシュ, 1951）",
+    "target": "影響力の6原則（チャルディーニ, 1984）",
+    "relation_type": "derived_from",
+    "description": "チャルディーニの社会的証明の原則は、アッシュの同調実験が示した「他者の判断に合わせる」という規範的影響を実践的に定式化したものである。社会的圧力への従順性という共通の研究関心を持つ。",
+    "evidence_source": "Cialdini, R.B., 1984, Influence: The Psychology of Persuasion",
+    "year": 1984
+  },
+  {
+    "source": "自己決定理論（デシ＆ライアン, 1985）",
+    "target": "フロー理論（チクセントミハイ, 1975）",
+    "relation_type": "synthesizes",
+    "description": "自己決定理論のフロー体験との接点は、自律的動機づけが高まると活動への完全没入（フロー）が生じやすいという点で明確に示されており、ポジティブ心理学において両理論は相互補完的な関係にある。",
+    "evidence_source": "Ryan, R.M. & Deci, E.L., 2000, Self-Determination Theory and the Facilitation of Intrinsic Motivation, American Psychologist, 55",
+    "year": 2000
+  },
+  {
+    "source": "CAPS（ミシェル＆ショーダ, 1995）",
+    "target": "Big Five（コスタ＆マクレー, 1992）",
+    "relation_type": "competes_with",
+    "description": "Big Fiveが特性を状況横断的な安定した傾向として記述するのに対し、CAPSは「もし～ならば…する」という状況-行動プロファイルによって行動の一貫性を説明し、両者はパーソナリティの記述水準について対立する。",
+    "evidence_source": "Mischel, W. & Shoda, Y., 1995, A Cognitive-Affective System Theory of Personality, Psychological Review, 102",
+    "year": 1995
+  },
+  {
+    "source": "エピソード記憶と意味記憶（タルヴィング, 1972）",
+    "target": "スキーマ理論（バートレット, 1932）",
+    "relation_type": "extends",
+    "description": "タルヴィングのエピソード・意味記憶の区別は、バートレットが示した記憶の再構成的性質（スキーマによる影響）をより精緻な形で継承する。意味記憶はスキーマ的知識の貯蔵庫として機能するという理論的連続性がある。",
+    "evidence_source": "Tulving, E., 1972, Episodic and Semantic Memory, in Organization of Memory",
+    "year": 1972
+  },
+  {
+    "source": "暗黙的連合テスト（グリーンワルド, 1998）",
+    "target": "ステレオタイプ脅威（スティール＆アロンソン, 1995）",
+    "relation_type": "empirically_tests",
+    "description": "IATはステレオタイプ脅威研究が前提とする「社会集団に関する潜在的連合」を直接測定する手段として機能し、明示的自己報告では捉えにくい自動的ステレオタイプ活性化がパフォーマンスに与える影響の研究を可能にした。",
+    "evidence_source": "Greenwald, A.G. et al., 1998, JPSP, 74",
+    "year": 1998
+  },
+  {
+    "source": "REBT（エリス, 1957）",
+    "target": "ACT（ヘイズ, 1999）",
+    "relation_type": "critiques",
+    "description": "ヘイズはREBTが非合理的信念の「内容」を変えようとする点を批判し、思考の内容を変えるのではなく思考との関係（脱フュージョン・アクセプタンス）を変えるACTを提唱した。認知への別アプローチを提示した。",
+    "evidence_source": "Hayes, S.C., 2004, Acceptance and Commitment Therapy, Behavior Therapy, 35",
+    "year": 2004
+  },
+  {
+    "source": "影響力の6原則（チャルディーニ, 1984）",
+    "target": "ナッジ理論（セイラー＆サンスタイン, 2008）",
+    "relation_type": "synthesizes",
+    "description": "セイラーとサンスタインのナッジ理論は、チャルディーニが示した互恵性・デフォルト効果・社会的証明などの影響原則を、政策・制度設計として体系化したものである。行動科学の実装という共通方向性を持つ。",
+    "evidence_source": "Thaler, R.H. & Sunstein, C.R., 2008, Nudge",
+    "year": 2008
+  },
+  {
+    "source": "スキーマ理論（バートレット, 1932）",
+    "target": "帰属理論（ハイダー, 1958; ケリー, 1967）",
+    "relation_type": "derived_from",
+    "description": "ハイダーの対人関係の心理学はバートレットの認知的枠組み（記憶・知覚の組織化）の影響を受けており、他者の行動を解釈する際にスキーマ的な期待や文脈が帰属判断に影響するという考えの基礎となっている。",
+    "evidence_source": "Heider, F., 1958, The Psychology of Interpersonal Relations",
+    "year": 1958
+  },
+  {
+    "source": "社会的学習理論（バンデューラ, 1977）",
+    "target": "自己決定理論（デシ＆ライアン, 1985）",
+    "relation_type": "derived_from",
+    "description": "デシとライアンの自己決定理論における自己効力感・有能感への注目は、バンデューラの社会的学習理論が強調した自己効力感（特定行動への能力信念）概念を直接継承・発展させたものである。",
+    "evidence_source": "Deci, E.L. & Ryan, R.M., 1985, Intrinsic Motivation and Self-Determination in Human Behavior",
+    "year": 1985
+  },
+  {
+    "source": "古典的条件づけ（パブロフ, 1897）",
+    "target": "認知療法（ベック, 1967）",
+    "relation_type": "derived_from",
+    "description": "認知行動療法の行動的要素（曝露技法・行動活性化）は、古典的条件づけの消去原理を基盤としている。ベックの認知療法は行動療法の技法を統合しており、パブロフ的学習理論との系譜的連続性を持つ。",
+    "evidence_source": "Beck, A.T., 1967, Depression: Clinical, Experimental and Theoretical Aspects",
+    "year": 1967
+  },
+  {
+    "source": "認知発達段階論（ピアジェ, 1936）",
+    "target": "認知療法（ベック, 1967）",
+    "relation_type": "derived_from",
+    "description": "ベックの認知スキーマ概念（世界や自己についての根本的な信念構造）はピアジェのスキーマ・同化・調節概念を臨床場面に応用したものであり、認知発達理論から臨床への橋渡しをなした。",
+    "evidence_source": "Beck, A.T., 1979, Cognitive Therapy of Depression",
+    "year": 1979
+  },
+  {
+    "source": "生成文法（チョムスキー, 1957）",
+    "target": "多重貯蔵モデル（アトキンソン＆シフリン, 1968）",
+    "relation_type": "derived_from",
+    "description": "チョムスキーの生成文法が示した認知の内的規則性という概念は、1950-60年代の認知革命全体を後押しし、記憶を情報処理として研究するアトキンソン＆シフリンモデルの成立を可能にした時代的文脈を形成した。",
+    "evidence_source": "Atkinson, R.C. & Shiffrin, R.M., 1968, Human Memory: A Proposed System, Psychology of Learning and Motivation, 2",
+    "year": 1968
+  },
+  {
+    "source": "ZPD（ヴィゴツキー, 1934）",
+    "target": "社会的学習理論（バンデューラ, 1977）",
+    "relation_type": "synthesizes",
+    "description": "バンデューラの観察学習（モデリング）は、より有能な他者（モデル）から学ぶというヴィゴツキーのZPDの考えと構造的に重なる。社会的文脈での学習という共通の問題意識から発展した相補的関係にある。",
+    "evidence_source": "Bandura, A., 1977, Social Learning Theory",
+    "year": 1977
+  },
+  {
+    "source": "プロスペクト理論（カーネマン＆トベルスキー, 1979）",
+    "target": "二重過程理論（カーネマン, 2011）",
+    "relation_type": "derived_from",
+    "description": "プロスペクト理論で明らかになった損失回避・フレーミング効果等のバイアスは、後の二重過程理論においてシステム1（直感的）の産物として位置づけられ、理論的一貫性が与えられた。",
+    "evidence_source": "Kahneman, D., 2011, Thinking, Fast and Slow",
+    "year": 2011
+  },
+  {
+    "source": "服従の心理（ミルグラム, 1963）",
+    "target": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "relation_type": "derived_from",
+    "description": "ミルグラムの服従実験は権威的文脈での個人の自律性喪失を示したが、社会的アイデンティティ理論はその心理メカニズムをさらに発展させ、集団規範・権威への同化が個人的アイデンティティを上書きするプロセスを理論化した。",
+    "evidence_source": "Tajfel, H. & Turner, J.C., 1979, An Integrative Theory of Intergroup Conflict",
+    "year": 1979
+  },
+  {
+    "source": "心の理論（バロン＝コーエン, 1985）",
+    "target": "ZPD（ヴィゴツキー, 1934）",
+    "relation_type": "competes_with",
+    "description": "バロン＝コーエンの心の理論は生得的モジュール（内的認知機構）として他者理解能力を説明するのに対し、ヴィゴツキーのZPDは他者との社会的相互作用を通じて心の理論的能力が発達するという社会的視点を強調する。",
+    "evidence_source": "Baron-Cohen, S., 1995, Mindblindness: An Essay on Autism and Theory of Mind",
+    "year": 1995
+  },
+  {
+    "source": "帰属理論（ハイダー, 1958; ケリー, 1967）",
+    "target": "ステレオタイプ脅威（スティール＆アロンソン, 1995）",
+    "relation_type": "derived_from",
+    "description": "ステレオタイプ脅威が生じる際、評価状況での外的帰属（「失敗したら自分の能力でなく人種のせいにされる」という知覚）が心理的負担となるという理解は、帰属理論の自己評価への影響という枠組みを前提としている。",
+    "evidence_source": "Steele, C.M. & Aronson, J., 1995, JPSP, 69",
+    "year": 1995
+  },
+  {
+    "source": "欲求階層理論（マズロー, 1943）",
+    "target": "フロー理論（チクセントミハイ, 1975）",
+    "relation_type": "derived_from",
+    "description": "チクセントミハイのフロー体験研究は、マズローが「至高体験（ピーク・エクスペリエンス）」として示した自己実現的状態の概念を継承・精緻化した。特定活動への完全没入という体験の科学的記述として発展した。",
+    "evidence_source": "Csikszentmihalyi, M., 1975, Beyond Boredom and Anxiety",
+    "year": 1975
+  },
+  {
+    "source": "作動記憶モデル（バドリー＆ヒッチ, 1974）",
+    "target": "コネクショニズム（ラメルハート＆マクレランド, 1986）",
+    "relation_type": "competes_with",
+    "description": "コネクショニズムの並列分散処理モデルは、バドリーの作動記憶モデルのような直列的・構造的な記憶アーキテクチャとは対立し、記憶と認知を固定的な「ストア」ではなくネットワークの活性化パターンとして説明する。",
+    "evidence_source": "Rumelhart, D.E. & McClelland, J.L., 1986, Parallel Distributed Processing",
+    "year": 1986
+  },
+  {
+    "source": "接触仮説（オルポート, 1954）",
+    "target": "社会的アイデンティティ理論（タジフェル＆ターナー, 1979）",
+    "relation_type": "empirically_tests",
+    "description": "社会的アイデンティティ理論は接触仮説を理論的に補完し、接触が偏見低減に効果的である条件（等地位・協力・上位目標等）をアイデンティティ再カテゴリー化メカニズムによって説明する。",
+    "evidence_source": "Brewer, M.B. & Miller, N., 1984, Contact and Cooperation, in Groups in Contact",
+    "year": 1984
+  },
+  {
+    "source": "認知的不協和理論（フェスティンガー, 1957）",
+    "target": "帰属理論（ハイダー, 1958; ケリー, 1967）",
+    "relation_type": "synthesizes",
+    "description": "ハイダーの帰属理論とフェスティンガーの認知的不協和理論はともに「認知の一貫性」という動機を共有しており、社会的認知の均衡理論（ハイダー）と不協和低減の動機づけは同一の認知一貫性の枠組みに収まる。",
+    "evidence_source": "Heider, F., 1958, The Psychology of Interpersonal Relations",
+    "year": 1958
+  },
+  {
+    "source": "社会的支配理論（シダニウス＆プラット, 1999）",
+    "target": "恐怖管理理論（グリーンバーグほか, 1986）",
+    "relation_type": "competes_with",
+    "description": "社会的支配理論が集団間階層を進化的・制度的プロセスで説明するのに対し、恐怖管理理論は文化的世界観や集団価値への固執を死の恐怖管理という心理的動機で説明する。集団間差別の起源について対立する説明を提供する。",
+    "evidence_source": "Solomon, S., Greenberg, J. & Pyszczynski, T., 2004, Terror Management Theory, in Handbook of Experimental Existential Psychology",
+    "year": 2004
+  },
+  {
+    "source": "限定合理性（サイモン, 1955）",
+    "target": "二重過程理論（カーネマン, 2011）",
+    "relation_type": "derived_from",
+    "description": "カーネマンの二重過程理論はサイモンの限定合理性という基礎的洞察（人間の認知資源は限られており、最適解ではなく満足解を求める）を体系的に発展させ、システム1/2の分業として再定式化した。",
+    "evidence_source": "Kahneman, D., 2011, Thinking, Fast and Slow",
+    "year": 2011
+  },
+  {
+    "source": "g因子/CHC理論（スピアマン, 1904; キャロル, 1993）",
+    "target": "CAPS（ミシェル＆ショーダ, 1995）",
+    "relation_type": "competes_with",
+    "description": "CHC理論が知能を階層的因子構造として固定的に記述するのに対し、CAPSは認知処理を状況との相互作用的ダイナミクスとして捉える。パーソナリティ心理学における特性論と相互作用論の対立を体現する。",
+    "evidence_source": "Mischel, W. & Shoda, Y., 1995, Psychological Review, 102",
+    "year": 1995
+  },
+  {
+    "source": "処理水準説（クレイク＆ロックハート, 1972）",
+    "target": "作動記憶モデル（バドリー＆ヒッチ, 1974）",
+    "relation_type": "competes_with",
+    "description": "クレイクとロックハートの処理水準説（記憶は固定ストアではなく処理深さの産物）は、バドリーの作動記憶モデル（短期記憶の構造的多成分モデル）と記憶のとらえ方において対立する。両者はともに多重貯蔵モデルへの批判から出発した。",
+    "evidence_source": "Baddeley, A.D., 1978, The Trouble with Levels: A Reexamination of Craik and Lockhart's Framework, Psychological Review, 85",
+    "year": 1978
+  },
+  {
+    "source": "MBCT（シーガルほか, 2002）",
+    "target": "ACT（ヘイズ, 1999）",
+    "relation_type": "synthesizes",
+    "description": "MBCTとACTはともに第三世代認知行動療法としてマインドフルネスと脱中心化（思考からの距離化）を核に持ち、相互に参照・統合されてきた。MBCTがうつ再発予防、ACTが価値へのコミットメントに特化する点が異なる。",
+    "evidence_source": "Teasdale, J.D. et al., 2000, Prevention of Relapse/Recurrence in Major Depression, Journal of Consulting and Clinical Psychology, 68",
+    "year": 2002
+  },
+  {
+    "source": "共通要因モデル（ワンポルド, 2001）",
+    "target": "認知療法（ベック, 1967）",
+    "relation_type": "competes_with",
+    "description": "ワンポルドは認知療法が特定技法（認知再構成）の効果を強調することに異議を唱え、治療関係・共感・期待などの共通要因こそが効果の主な源泉であるとするメタ分析的証拠を提示した。特定要因 vs 共通要因論争の核心。",
+    "evidence_source": "Wampold, B.E., 2001, The Great Psychotherapy Debate",
+    "year": 2001
+  },
+  {
+    "source": "プロスペクト理論（カーネマン＆トベルスキー, 1979）",
+    "target": "限定合理性（サイモン, 1955）",
+    "relation_type": "extends",
+    "description": "プロスペクト理論はサイモンの限定合理性概念を継承し、人間の意思決定が期待効用最大化から逸脱する具体的パターン（損失回避・確率ウェイティング関数）を数学的モデルとして精緻化した。",
+    "evidence_source": "Kahneman, D. & Tversky, A., 1979, Prospect Theory, Econometrica, 47",
+    "year": 1979
+  },
+  {
+    "source": "自己カテゴリー化理論（ターナー, 1987）",
+    "target": "ステレオタイプ脅威（スティール＆アロンソン, 1995）",
+    "relation_type": "derived_from",
+    "description": "スティールのステレオタイプ脅威は、ターナーの自己カテゴリー化理論（評価的文脈により特定のカテゴリーが顕現化する）の枠組みを活用し、特定状況でのカテゴリー顕現化がパフォーマンスに与える影響を記述した。",
+    "evidence_source": "Steele, C.M. & Aronson, J., 1995, JPSP, 69",
+    "year": 1995
+  },
+  {
+    "source": "愛着理論（ボウルビィ, 1969）",
+    "target": "DBT（リネハン, 1993）",
+    "relation_type": "derived_from",
+    "description": "リネハンのDBTは境界性パーソナリティ障害の発症論として、早期の情緒的無効化環境（愛着関係の障害）に着目する。ボウルビィの愛着理論が示す初期関係の内的作業モデルが感情調節困難の基盤という理解に立つ。",
+    "evidence_source": "Linehan, M.M., 1993, Cognitive-Behavioral Treatment of Borderline Personality Disorder",
+    "year": 1993
+  },
+  {
+    "source": "心理社会的発達理論（エリクソン, 1950）",
+    "target": "愛着理論（ボウルビィ, 1969）",
+    "relation_type": "synthesizes",
+    "description": "ボウルビィの愛着理論はエリクソンが示した乳児期の基本的信頼 vs 不信頼という危機（養育者との関係による）という洞察と深く共鳴しており、初期愛着関係の安全基地機能を発達論的に位置づける上で参照されてきた。",
+    "evidence_source": "Bowlby, J., 1988, A Secure Base: Clinical Applications of Attachment Theory",
+    "year": 1988
+  },
+  {
+    "source": "帰属理論（ハイダー, 1958; ケリー, 1967）",
+    "target": "認知的不協和理論（フェスティンガー, 1957）",
+    "relation_type": "synthesizes",
+    "description": "自己帰属（自分の行動をどう解釈するか）と認知的不協和低減は密接に関連する。自己強化的帰属（「私は良いことをした」という解釈）は不協和低減の一形態であり、両理論は態度-行動関係の説明として相補的に機能する。",
+    "evidence_source": "Bem, D.J., 1967, Psychological Review, 74; Kelley, H.H., 1967, Nebraska Symposium",
+    "year": 1967
+  },
+  {
+    "source": "ナッジ理論（セイラー＆サンスタイン, 2008）",
+    "target": "計画的行動理論（アジェン, 1991）",
+    "relation_type": "applies_to_policy",
+    "description": "ナッジ理論は行動変容の政策応用として計画的行動理論の知見（態度・主観的規範・行動統制の影響）を組み込みつつ、デフォルト設定など意識的意図を迂回する設計を付加することで公衆衛生政策に応用される。",
+    "evidence_source": "Thaler, R.H. & Sunstein, C.R., 2008, Nudge",
+    "year": 2008
+  },
+  {
+    "source": "多重知能理論（ガードナー, 1983）",
+    "target": "HEXACO（アシュトン＆リー, 2007）",
+    "relation_type": "competes_with",
+    "description": "多重知能理論が知能の多様性（対人的・内省的知能等）を主張するのに対し、HEXACOはパーソナリティ構造として正直さ・謙虚さや情動性を測定する。知能とパーソナリティの境界という問題で理論的に関連する。",
+    "evidence_source": "Ashton, M.C. & Lee, K., 2007, Personality and Social Psychology Review, 11",
+    "year": 2007
+  },
+  {
+    "source": "PERMA（セリグマン, 2011）",
+    "target": "共通要因モデル（ワンポルド, 2001）",
+    "relation_type": "competes_with",
+    "description": "ポジティブ心理学のPERMAモデルが「機能的健康の促進」を目指すのに対し、ワンポルドの共通要因モデルは臨床的問題の治療に焦点を当てる。両者はウェルビーイングのアプローチとして補完的でもあるが、理論的前提で対立する部分もある。",
+    "evidence_source": "Seligman, M.E.P., 2011, Flourish; Wampold, B.E., 2001, The Great Psychotherapy Debate",
+    "year": 2011
+  }
+]
