@@ -1,0 +1,751 @@
+{
+  "domain": "social_sciences",
+  "concepts": [
+    {
+      "id": "attention_bias_modification_2015",
+      "name": "注意バイアス修正アプローチ（ABM）",
+      "original_name": "Attentional Bias Modification Approach to Anxiety Intervention",
+      "theorist": "Colin MacLeod, Patrick J. F. Clarke",
+      "era_start": 2015,
+      "era_end": null,
+      "field": "臨床心理学・認知心理学",
+      "summary": "不安障害における脅威への注意バイアスを訓練によって修正することで、不安脆弱性と症状を低減できるという治療的アプローチ。ドットプローブ課題を用いて脅威刺激から中性刺激へと注意を移す訓練を行う。初期の有望な知見の一方で、再現失敗やメタ分析による効果の不一致も報告され、実験室と在宅設定での効果差異が検討されている。",
+      "keywords": [
+        "注意バイアス",
+        "認知訓練",
+        "不安",
+        "ドットプローブ課題",
+        "ABM"
+      ],
+      "source_url": "https://journals.sagepub.com/doi/abs/10.1177/2167702614560749",
+      "tags": [
+        "2015",
+        "臨床心理学",
+        "認知バイアス",
+        "治療"
+      ]
+    },
+    {
+      "id": "multiverse_analysis_2016",
+      "name": "マルチバース分析（多元宇宙分析）",
+      "original_name": "Multiverse Analysis",
+      "theorist": "Sara Steegen, Francis Tuerlinckx, Andrew Gelman, Wolf Vanpaemel",
+      "era_start": 2016,
+      "era_end": null,
+      "field": "方法論・研究方法",
+      "summary": "データ処理段階での合理的な選択肢全てに対して分析を実施し、研究の透明性を高める方法論。単一のデータセット分析が誤解を招く可能性を示し、「仕様曲線分析」と並行して開発された。複数の分析選択（外れ値除外基準、変数変換方法、共変量の有無など）を体系的に網羅することで、科学的主張の頑健性を評価する。",
+      "keywords": [
+        "研究方法論",
+        "透明性",
+        "再現性",
+        "仕様曲線",
+        "オープンサイエンス"
+      ],
+      "source_url": "https://journals.sagepub.com/doi/10.1177/1745691616658637",
+      "tags": [
+        "2016",
+        "方法論",
+        "再現性危機",
+        "オープンサイエンス"
+      ]
+    },
+    {
+      "id": "constructed_emotion_theory_2017",
+      "name": "構成感情理論（内受容と予測的符号化）",
+      "original_name": "Theory of Constructed Emotion",
+      "theorist": "Lisa Feldman Barrett",
+      "era_start": 2017,
+      "era_end": null,
+      "field": "感情心理学・神経科学",
+      "summary": "感情は外部刺激への固定した反応ではなく、脳が能動的推論により瞬間ごとに構成するものだという理論。内受容（身体内部の感覚）、概念、社会的現実の三要素から感情が構築される。2017年の論文では能動的推論と内受容予測符号化の枠組みが統合され、快・不快・覚醒度などの基本的感情が内受容予測信号から生じると説明される。",
+      "keywords": [
+        "感情構成",
+        "内受容",
+        "予測符号化",
+        "能動的推論",
+        "感情の基盤神経科学"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC5390700/",
+      "tags": [
+        "2017",
+        "感情心理学",
+        "神経科学",
+        "予測処理"
+      ]
+    },
+    {
+      "id": "network_psychometrics_2017",
+      "name": "精神病理のネットワーク理論",
+      "original_name": "Network Theory of Psychopathology",
+      "theorist": "Denny Borsboom, Angélique Cramer",
+      "era_start": 2017,
+      "era_end": null,
+      "field": "精神病理学・心理測定学",
+      "summary": "精神疾患の症状を互いに因果的に影響し合うノード（節点）の相互作用ネットワークとして捉える理論。症状が共通原因（潜在因子）から生じるという伝統的な潜在変数モデルに代わり、症状間の動的な相互強化を分析の中心に置く。ネットワーク分析ツールとしてIsingモデルやGaussianグラフモデルが活用される。2022年にはBorsboomらが「Network Psychometrics with R」を出版し方法論を体系化した。",
+      "keywords": [
+        "ネットワーク分析",
+        "精神病理",
+        "症状ネットワーク",
+        "因果構造",
+        "心理測定"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9021084/",
+      "tags": [
+        "2017",
+        "精神病理学",
+        "方法論",
+        "ネットワーク科学"
+      ]
+    },
+    {
+      "id": "moral_machine_experiment_2018",
+      "name": "モラルマシン実験（機械倫理の文化差）",
+      "original_name": "The Moral Machine Experiment",
+      "theorist": "Edmond Awad, Sohan Dsouza, Richard Kim, et al. (MIT Media Lab)",
+      "era_start": 2018,
+      "era_end": null,
+      "field": "道徳心理学・AIと社会",
+      "summary": "自律走行車のトロッコ問題について世界233カ国から4000万件の判断データを収集した大規模オンライン実験。個人主義的文化圏の参加者がより多くの人命救助を優先する傾向を示す一方、「西洋」「東洋」「南洋」の三クラスターで道徳的優先順位に体系的な差異があることを示した。AIシステムの設計における文化横断的道徳的多様性の問題を実証した。",
+      "keywords": [
+        "機械倫理",
+        "文化差",
+        "トロッコ問題",
+        "自律走行",
+        "道徳的判断"
+      ],
+      "source_url": "https://www.nature.com/articles/s41586-018-0637-6",
+      "tags": [
+        "2018",
+        "道徳心理学",
+        "AI倫理",
+        "文化心理学",
+        "大規模データ"
+      ]
+    },
+    {
+      "id": "complex_ptsd_icd11_2018",
+      "name": "複雑性PTSDの診断概念（ICD-11版）",
+      "original_name": "Complex PTSD in ICD-11",
+      "theorist": "Marylène Cloitre, Mark Shevlin, Jonathan Bisson, et al.",
+      "era_start": 2018,
+      "era_end": null,
+      "field": "トラウマ心理学・精神医学",
+      "summary": "ICD-11（2018年採択）で初めて正式に認められた複雑性PTSDの診断概念。通常のPTSDの三要素（再体験・回避・脅威感）に加え、「自己組織化の障害」として情動調整困難・否定的自己概念・関係困難の三要素が追加される。慢性・反復性トラウマ（幼少期虐待など）による特有の症状クラスターを区別することで、より精緻な治療計画が可能になった。",
+      "keywords": [
+        "複雑性PTSD",
+        "ICD-11",
+        "トラウマ",
+        "自己組織化障害",
+        "感情調整"
+      ],
+      "source_url": "https://www.cambridge.org/core/journals/the-british-journal-of-psychiatry/article/icd11-complex-posttraumatic-stress-disorder-simplifying-diagnosis-in-trauma-populations/E53B8CD7CF9B725FE651720EE58E93A4",
+      "tags": [
+        "2018",
+        "トラウマ",
+        "診断概念",
+        "臨床心理学"
+      ]
+    },
+    {
+      "id": "psychological_safety_edmondson_2018",
+      "name": "心理的安全性の組織論（恐れのない組織）",
+      "original_name": "The Fearless Organization: Psychological Safety",
+      "theorist": "Amy C. Edmondson",
+      "era_start": 2018,
+      "era_end": null,
+      "field": "組織心理学・チーム行動",
+      "summary": "チームメンバーが対人的リスクを恐れずに発言・失敗報告・挑戦できると信じている状態を「心理的安全性」と定義し、高業績チームの最重要要因として実証した研究。Googleのプロジェクト・アリストテレスが180チームの分析から心理的安全性を筆頭因子として確認したことで広く普及した。2018年の著書「The Fearless Organization」で組織変革への応用が体系化された。",
+      "keywords": [
+        "心理的安全性",
+        "組織学習",
+        "チームダイナミクス",
+        "心理的リスク",
+        "恐れのない組織"
+      ],
+      "source_url": "https://www.library.hbs.edu/working-knowledge/four-steps-to-build-the-psychological-safety-that-high-performing-teams-need-today",
+      "tags": [
+        "2018",
+        "組織心理学",
+        "リーダーシップ",
+        "チーム"
+      ]
+    },
+    {
+      "id": "screen_time_wellbeing_2019",
+      "name": "スクリーンタイムと青少年ウェルビーイングの仕様曲線分析",
+      "original_name": "Association Between Adolescent Well-being and Digital Technology Use",
+      "theorist": "Amy Orben, Andrew K. Przybylski",
+      "era_start": 2019,
+      "era_end": null,
+      "field": "発達心理学・デジタル心理学",
+      "summary": "355,358人のデータに仕様曲線分析を適用し、デジタルテクノロジー使用と青少年ウェルビーイングの負の関連は統計的には検出できるが実際的意義は極めて小さく（説明分散の最大0.4%）、じゃがいもの摂取との関連とほぼ同等であることを示した。「スクリーンタイム有害論」への強力な反証研究として、メディア報道と科学的根拠の乖離を可視化した。",
+      "keywords": [
+        "スクリーンタイム",
+        "仕様曲線分析",
+        "デジタルウェルビーイング",
+        "青少年",
+        "効果量"
+      ],
+      "source_url": "https://www.nature.com/articles/s41562-018-0506-1",
+      "tags": [
+        "2019",
+        "デジタル心理学",
+        "発達心理学",
+        "方法論",
+        "メディア"
+      ]
+    },
+    {
+      "id": "process_based_therapy_2019",
+      "name": "プロセスベース療法（PBT）",
+      "original_name": "Process-Based Therapy",
+      "theorist": "Steven C. Hayes, Stefan G. Hofmann",
+      "era_start": 2019,
+      "era_end": null,
+      "field": "臨床心理学・治療論",
+      "summary": "診断カテゴリに依存せず、認知・注意・感情・行動・自己・動機・生物生理・社会文化という多次元の変化プロセスを個人ごとに特定・修正する新しい治療パラダイム。拡張進化メタモデル（EEMM）に基づき、ACTや統一プロトコルなど「第三世代CBT」を包括する上位フレームワークとして機能する。治療の精度・範囲・深さを向上させるための「プロセス科学」を志向する。",
+      "keywords": [
+        "プロセスベース療法",
+        "個別化治療",
+        "進化メタモデル",
+        "トランスダイアグノスティック",
+        "第三世代CBT"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0272735820300969",
+      "tags": [
+        "2019",
+        "臨床心理学",
+        "治療論",
+        "個別化医療"
+      ]
+    },
+    {
+      "id": "evolutionary_theory_loneliness_2018",
+      "name": "孤独の進化理論（ETL）の拡張",
+      "original_name": "Evolutionary Theory of Loneliness (Extended)",
+      "theorist": "John T. Cacioppo, Stephanie Cacioppo",
+      "era_start": 2018,
+      "era_end": null,
+      "field": "社会心理学・進化心理学",
+      "summary": "孤独感を「社会的孤立の知覚という生物学的シグナル」として捉える進化的枠組みの体系化。孤独は社会的絆の修復を促す短期的サバイバルメカニズムだが、慢性化すると視床下部-下垂体-副腎軸の活性化、免疫抑制、炎症、早期死亡リスクの上昇をもたらす。孤独を公衆衛生上の「現代の流行病」として概念化し、政策的介入の理論的基盤となった。",
+      "keywords": [
+        "孤独",
+        "社会的孤立",
+        "進化的シグナル",
+        "公衆衛生",
+        "HPA軸"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/S0065260118300145",
+      "tags": [
+        "2018",
+        "社会心理学",
+        "進化心理学",
+        "公衆衛生"
+      ]
+    },
+    {
+      "id": "weird_methodology_reform_2020",
+      "name": "WEIRD批判の制度化と文化的距離尺度",
+      "original_name": "Beyond WEIRD Psychology: Measuring Cultural Distance",
+      "theorist": "Michael Muthukrishna, Joseph Henrich, et al.",
+      "era_start": 2020,
+      "era_end": null,
+      "field": "文化心理学・方法論",
+      "summary": "Henrichらの2010年「WEIRD（西洋・高学歴・工業化・豊か・民主主義）批判」を受け、2020年に具体的な方法論的改革として「文化的距離スケール」が開発された。世界任意の集団を比較点として他の集団との心理的・文化的距離を数値化するツールを提供。心理学知見の外的妥当性評価と非WEIRD集団でのサンプリング優先順位付けを可能にする実践的手法として確立された。",
+      "keywords": [
+        "WEIRD批判",
+        "文化的距離",
+        "外的妥当性",
+        "比較文化心理学",
+        "方法論改革"
+      ],
+      "source_url": "https://journals.sagepub.com/doi/10.1177/0956797620916782",
+      "tags": [
+        "2020",
+        "文化心理学",
+        "方法論",
+        "オープンサイエンス"
+      ]
+    },
+    {
+      "id": "active_inference_psychiatry_2020s",
+      "name": "能動的推論と精神病理の自由エネルギー原理",
+      "original_name": "Active Inference and Free Energy Principle in Psychiatry",
+      "theorist": "Karl Friston",
+      "era_start": 2020,
+      "era_end": null,
+      "field": "計算論的精神医学・神経科学",
+      "summary": "脳は「予測誤差の最小化（変分自由エネルギーの最小化）」を通じて知覚・行動・学習を統合するという理論の精神医学的応用。精神疾患を「異常な事前信念」や「信念更新の失敗」として形式化し、統合失調症の陽性症状、うつ病、依存症などを統一的に説明する。2021年のMITプレス書籍「Active Inference」を起点に、臨床応用への実装研究が急増している。",
+      "keywords": [
+        "能動的推論",
+        "自由エネルギー原理",
+        "計算論的精神医学",
+        "予測誤差",
+        "ベイズ脳"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11507080/",
+      "tags": [
+        "2020",
+        "計算論的精神医学",
+        "神経科学",
+        "精神病理学"
+      ]
+    },
+    {
+      "id": "eco_anxiety_framework_2020",
+      "name": "気候不安・エコ不安の心理学的枠組み",
+      "original_name": "Eco-Anxiety and Ecological Grief Framework",
+      "theorist": "Susan Clayton, Christie Manning, Glenn Albrecht",
+      "era_start": 2020,
+      "era_end": null,
+      "field": "環境心理学・臨床心理学",
+      "summary": "気候変動に対する不安・悲嘆・苦悩を独自の心理的構成体として概念化した枠組み。気候変動不安尺度（CCA Scale: Clayton & Karazsia 2020）など測定ツールが整備され、エコ不安・エコ罪悪感・エコ悲嘆を多因子構成体として区別する理論が発展した。2024年には気候不安コンパスが提唱され、対処戦略の解決空間を体系的にマッピングする理論モデルが登場した。",
+      "keywords": [
+        "エコ不安",
+        "気候変動",
+        "生態学的悲嘆",
+        "気候心理学",
+        "環境ストレス"
+      ],
+      "source_url": "https://www.thelancet.com/journals/lanplh/article/PIIS2542-5196(20)30144-3/fulltext",
+      "tags": [
+        "2020",
+        "環境心理学",
+        "気候変動",
+        "感情"
+      ]
+    },
+    {
+      "id": "covid_mental_health_framework_2020",
+      "name": "COVID-19パンデミックのメンタルヘルス理論的枠組み",
+      "original_name": "Psychological Impact Framework of COVID-19 Lockdown",
+      "theorist": "複数研究グループ（Rossi, Pierce, Fancourt他）",
+      "era_start": 2020,
+      "era_end": 2023,
+      "field": "公衆衛生・健康心理学",
+      "summary": "ロックダウン・感染不安・社会的孤立が基本的心理欲求（自律性・有能感・関係性：自己決定理論）の充足を妨げることでメンタルヘルスを悪化させるという概念的枠組み。ロックダウン状況のほうが感染自体への懸念よりも心理的機能に大きく影響することが示された。また、逆境からの心理的利得理論（危機が社会的絆を強化する）も提唱され、レジリエンス研究に接続された。",
+      "keywords": [
+        "コロナ禍",
+        "ロックダウン",
+        "基本的心理欲求",
+        "孤独",
+        "レジリエンス"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC7844215/",
+      "tags": [
+        "2020",
+        "公衆衛生",
+        "パンデミック",
+        "健康心理学"
+      ]
+    },
+    {
+      "id": "digital_phenotyping_2019_2022",
+      "name": "デジタルフェノタイピングによるメンタルヘルス予測",
+      "original_name": "Digital Phenotyping for Mental Health",
+      "theorist": "Jukka-Pekka Onnela (Harvard), Thomas Insel他",
+      "era_start": 2019,
+      "era_end": null,
+      "field": "計算論的心理学・デジタルヘルス",
+      "summary": "スマートフォンの受動センシングデータ（GPS位置、通話パターン、加速度計、キー入力など）を機械学習で解析し、メンタルヘルス状態をリアルタイムで予測・追跡する方法論と理論。臨床症状が顕在化する数日前に抑うつエピソードを予測できることが複数研究で示された。「人間フェノタイプの瞬間ごとの個人レベル定量化」と定義され、2024年の総説では方法論の標準化の必要性が指摘されている。",
+      "keywords": [
+        "デジタルフェノタイピング",
+        "受動センシング",
+        "行動デジタルバイオマーカー",
+        "精神医学予測",
+        "機械学習"
+      ],
+      "source_url": "https://www.tandfonline.com/doi/full/10.1080/09638237.2024.2395537",
+      "tags": [
+        "2019",
+        "デジタルヘルス",
+        "計算論的心理学",
+        "精神医学"
+      ]
+    },
+    {
+      "id": "psychological_inoculation_prebunking_2022",
+      "name": "心理的予防接種理論（プレバンキング）",
+      "original_name": "Psychological Inoculation / Prebunking against Misinformation",
+      "theorist": "Sander van der Linden, Jon Roozenbeek, Stephan Lewandowsky",
+      "era_start": 2022,
+      "era_end": null,
+      "field": "社会心理学・メディア心理学",
+      "summary": "医学的ワクチン接種のアナロジーに基づき、偽情報に対する心理的抵抗力を事前に構築する介入理論。2種類のコアコンポーネント——脅威への事前警告と弱めた偽情報サンプルへの曝露——からなる。2022年のScience Advances論文ではSNS上で実施した介入が操作的言語の特定精度を21ポイント改善し、5ヵ月後まで効果が持続することが示された。Googleによる大規模実装（YouTubeプレロール広告）も実現した。",
+      "keywords": [
+        "プレバンキング",
+        "偽情報",
+        "批判的思考",
+        "説得への抵抗",
+        "メディアリテラシー"
+      ],
+      "source_url": "https://www.science.org/doi/10.1126/sciadv.abo6254",
+      "tags": [
+        "2022",
+        "社会心理学",
+        "偽情報対策",
+        "オンライン介入"
+      ]
+    },
+    {
+      "id": "anxious_generation_theory_2024",
+      "name": "不安な世代理論（スマートフォンを基盤とした幼少期の再配線）",
+      "original_name": "The Anxious Generation: Phone-Based Childhood Rewiring Theory",
+      "theorist": "Jonathan Haidt",
+      "era_start": 2024,
+      "era_end": null,
+      "field": "発達心理学・社会心理学",
+      "summary": "2010〜2015年のスマートフォン普及と「遊びを基盤とした幼少期」から「スマートフォンを基盤とした幼少期」への移行が、特に女子のうつ・不安・自傷の急増の主要因だという理論。2024年著書「The Anxious Generation」で体系化。Orben & Przybylskiらの反証研究とも論争が生じており、因果関係の証拠の強度をめぐる活発な学術議論を引き起こしている。",
+      "keywords": [
+        "スマートフォン",
+        "SNS",
+        "青少年メンタルヘルス",
+        "大再配線",
+        "不安世代"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/The_Anxious_Generation",
+      "tags": [
+        "2024",
+        "発達心理学",
+        "SNS",
+        "青少年"
+      ]
+    },
+    {
+      "id": "minority_stress_intersectionality_2023",
+      "name": "少数者ストレス理論とインターセクショナリティの統合",
+      "original_name": "Minority Stress Theory with Intersectionality",
+      "theorist": "Ilan H. Meyer, David M. Frost et al.",
+      "era_start": 2023,
+      "era_end": null,
+      "field": "社会心理学・LGBTQ+心理学",
+      "summary": "性的・性別少数者が経験する近位ストレス（拒絶期待・アイデンティティ隠蔽・内面化スティグマ）と遠位ストレス（差別・暴力）が心理的健康格差を生み出すというMeyer (2003)の枠組みを、インターセクショナリティ概念と接合させた拡張版。人種的マイノリティかつ性的マイノリティである個人が「重複少数者ストレス」を経験することを実証し、非欧米文化的文脈への適用可能性も検討されている。",
+      "keywords": [
+        "少数者ストレス",
+        "インターセクショナリティ",
+        "LGBTQ+",
+        "スティグマ",
+        "健康格差"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10712335/",
+      "tags": [
+        "2023",
+        "社会心理学",
+        "LGBTQ+",
+        "インターセクショナリティ"
+      ]
+    },
+    {
+      "id": "predictive_processing_psychopathology_2022",
+      "name": "予測処理と精神病理の統合理論",
+      "original_name": "Predictive Processing Models of Psychopathology",
+      "theorist": "Jakob Hohwy, Andy Clark, Philipp Sterzer他",
+      "era_start": 2022,
+      "era_end": null,
+      "field": "計算論的精神医学・認知神経科学",
+      "summary": "脳が「予測機械」として感覚入力を絶えず予測・更新するという予測処理フレームワークを精神病理に適用した統合理論群。統合失調症を「精度加重エラー信号の異常」、自閉スペクトラム症を「感覚予測誤差への過剰な感度」として定式化する。2022年以降、能動的推論（Friston）との統合研究が急増し、神経生理学的証拠との照合も進んでいる。",
+      "keywords": [
+        "予測処理",
+        "精神病理",
+        "精度加重",
+        "予測誤差",
+        "計算論的精神医学"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9074371/",
+      "tags": [
+        "2022",
+        "計算論的精神医学",
+        "予測処理",
+        "統合失調症"
+      ]
+    },
+    {
+      "id": "polyvagal_theory_update_2022",
+      "name": "ポリヴェーガル理論の更新版（安全の科学）",
+      "original_name": "Polyvagal Theory: A Science of Safety",
+      "theorist": "Stephen W. Porges",
+      "era_start": 2022,
+      "era_end": null,
+      "field": "神経心理学・トラウマ心理学",
+      "summary": "迷走神経の進化的階層（腹側迷走神経複合体→交感神経→背側迷走神経）による自律神経制御の理論を「安全の科学」として体系化した2022年改訂版。社会的関与システム（声・顔・耳の神経連結）が腹側迷走神経を通じて安全を促進することを強調する。「ニューロセプション」（安全/危険/生命の脅威の神経的検出）概念が拡充され、2023年「迷走神経のパラドックス」を含む書籍群でさらに更新された。",
+      "keywords": [
+        "ポリヴェーガル",
+        "迷走神経",
+        "ニューロセプション",
+        "社会的関与",
+        "安全"
+      ],
+      "source_url": "https://www.frontiersin.org/journals/integrative-neuroscience/articles/10.3389/fnint.2022.871227/full",
+      "tags": [
+        "2022",
+        "神経心理学",
+        "トラウマ",
+        "自律神経"
+      ]
+    },
+    {
+      "id": "perma_plus4_2021",
+      "name": "PERMA+4ウェルビーイングモデル",
+      "original_name": "PERMA+4 Framework for Work-Related Wellbeing",
+      "theorist": "Margaret Kern, Martin Seligman, et al.",
+      "era_start": 2021,
+      "era_end": null,
+      "field": "ポジティブ心理学・組織心理学",
+      "summary": "Seligman (2011)のPERMAモデル（肯定的感情・エンゲージメント・関係性・意味・達成）に職場文脈での四要素——身体的健康、職場経済的安定、職場環境、その他組織要因——を追加した拡張モデル。2021年のFrontiers in Psychology論文で概念化され、2025年の縦断研究でPERMA+4が将来の従業員ポジティブ機能とパフォーマンスを有意に予測することが確認された。",
+      "keywords": [
+        "PERMA",
+        "ウェルビーイング",
+        "ポジティブ心理学",
+        "職場",
+        "フラリッシング"
+      ],
+      "source_url": "https://public-pages-files-2025.frontiersin.org/journals/psychology/articles/10.3389/fpsyg.2021.817244/pdf",
+      "tags": [
+        "2021",
+        "ポジティブ心理学",
+        "組織心理学",
+        "ウェルビーイング"
+      ]
+    },
+    {
+      "id": "moral_injury_expanded_2018",
+      "name": "道徳的損傷（モラルインジャリー）の理論的拡張",
+      "original_name": "Moral Injury: Expanded Theory and Application",
+      "theorist": "Brett T. Litz, Nathan Stein, Eileen Delaney他",
+      "era_start": 2018,
+      "era_end": null,
+      "field": "トラウマ心理学・軍事心理学",
+      "summary": "深く持つ道徳的信念や期待に反する行為の加担・不阻止・目撃から生じる持続的な心理的・霊的・行動的影響として定義される道徳的損傷概念の理論的精緻化。2018年以降、PTSDとは独立した構成体として実証され、軍事・医療従事者・援助職への適用が拡大。罪悪感・恥・自己非難・道徳的怒りが主要な感情的特徴とされ、MBT（道徳的損傷治療）の開発につながった。",
+      "keywords": [
+        "道徳的損傷",
+        "罪悪感",
+        "道徳的トラウマ",
+        "退役軍人",
+        "医療従事者"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10013561/",
+      "tags": [
+        "2018",
+        "トラウマ心理学",
+        "軍事心理学",
+        "医療従事者"
+      ]
+    },
+    {
+      "id": "decolonizing_psychology_2020s",
+      "name": "心理学の脱植民地化運動の制度化",
+      "original_name": "Decolonizing Psychology: Institutionalization",
+      "theorist": "Heidi Keller, Bame Nsamenang, Linda Tuhiwai Smith他",
+      "era_start": 2020,
+      "era_end": null,
+      "field": "文化心理学・批判的心理学",
+      "summary": "主流心理学理論・研究法がWEIRDサンプルに基づく植民地的・オリエンタリスト的前提を内包しているという批判を実践的改革へと制度化する動き。APA・BPS等の主要学会での脱植民地化ガイドライン策定、Global South発の理論構築（コミュニティ心理学・南米の開放心理学等）、カリキュラム改革が進展。Keller (2025)は「科学的・倫理的必要性としての脱植民地化」を主張した。",
+      "keywords": [
+        "脱植民地化",
+        "文化的普遍性批判",
+        "Global South",
+        "批判的心理学",
+        "方法論改革"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10300435/",
+      "tags": [
+        "2020",
+        "文化心理学",
+        "批判的心理学",
+        "方法論"
+      ]
+    },
+    {
+      "id": "ai_psychotherapy_model_2024",
+      "name": "AI支援心理療法の理論的モデル",
+      "original_name": "Theoretical Framework for AI-Delivered Psychotherapy",
+      "theorist": "複数研究グループ（Woebot Health, Javed Ali他）",
+      "era_start": 2024,
+      "era_end": null,
+      "field": "デジタルメンタルヘルス・臨床心理学",
+      "summary": "ルールベース・機械学習・大規模言語モデル（LLM）の三世代に渡るチャットボット心理療法の体系的枠組み。LLMベースのチャットボットが2024年の新規研究の45%を占めるほど急増。人間の治療者の存在に本質的に結びついた心理的プロセスがあるかを問う理論的問いが生じており、AI提供の変化プロセスの有効性・限界・倫理を扱う新たな理論的枠組みが整備されつつある。",
+      "keywords": [
+        "AI心理療法",
+        "チャットボット",
+        "LLM",
+        "デジタルメンタルヘルス",
+        "治療的同盟"
+      ],
+      "source_url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC12434366/",
+      "tags": [
+        "2024",
+        "デジタルヘルス",
+        "AI",
+        "臨床心理学"
+      ]
+    },
+    {
+      "id": "mentalization_update_2019",
+      "name": "メンタライジング理論の三機制モデル",
+      "original_name": "Mentalization-Based Treatment: Three Mechanisms of Impairment",
+      "theorist": "Peter Fonagy, Anthony Bateman",
+      "era_start": 2019,
+      "era_end": null,
+      "field": "精神分析・臨床心理学",
+      "summary": "境界性パーソナリティ障害（BPD）におけるメンタライジング（自他の行動を心的状態で解釈する能力）の障害を三つの機制——欠如（発達的欠陥）・防衛（解離的回避）・感情調整不全による脱線——として再定式化した更新版理論。早期愛着・トラウマとBPDの関係をより複雑かつ実証可能な形で記述し、MBTの臨床プロトコル改定につながった。8年間の追跡研究で治療終了後5年以上の改善継続が示された。",
+      "keywords": [
+        "メンタライジング",
+        "MBT",
+        "境界性パーソナリティ障害",
+        "愛着",
+        "内省機能"
+      ],
+      "source_url": "https://academic.oup.com/book/1358",
+      "tags": [
+        "2019",
+        "臨床心理学",
+        "精神分析",
+        "BPD"
+      ]
+    },
+    {
+      "id": "4e_cognition_situated_2020s",
+      "name": "4E認知（体化・埋め込み・行為・拡張）の統合枠組み",
+      "original_name": "4E Cognition: Embodied, Embedded, Enactive, Extended",
+      "theorist": "Andy Clark, Alva Noë, Lambros Malafouris, Manuel Heras-Escribano他",
+      "era_start": 2020,
+      "era_end": null,
+      "field": "認知科学・認知心理学",
+      "summary": "認知は脳内だけで起きるのではなく、身体・環境・道具・社会との相互作用に分散的に埋め込まれているという「4E認知」の諸理論を統合する枠組み。生態学的心理学（アフォーダンス知覚）、現象学的伝統（実践的関与）、拡張心（ノートブックや計算機は心の一部）を包括する。2020年代に入り、スポーツ科学・教育・リハビリ領域への具体的応用が急増している。",
+      "keywords": [
+        "体化認知",
+        "拡張心",
+        "アフォーダンス",
+        "状況依存認知",
+        "環境中心的認知"
+      ],
+      "source_url": "https://en.wikipedia.org/wiki/4E_cognition",
+      "tags": [
+        "2020",
+        "認知科学",
+        "認知心理学",
+        "状況論"
+      ]
+    },
+    {
+      "id": "open_science_credibility_revolution_2015",
+      "name": "心理学の信頼性革命とオープンサイエンス運動",
+      "original_name": "Credibility Revolution and Open Science in Psychology",
+      "theorist": "Brian Nosek, Center for Open Science他",
+      "era_start": 2015,
+      "era_end": null,
+      "field": "科学的方法論・心理科学",
+      "summary": "2015年の「再現可能性プロジェクト：心理学」（97件の研究のうち再現成功36%）を起点に、研究透明性・再現性・公正性・アクセス可能性を高める「オープンサイエンス」規範が急速に制度化された改革運動。事前登録報告（registered reports）、オープンデータ・オープン材料、TOP（透明性・開放性推進）ガイドラインが500以上のジャーナル・50以上の組織に採択された。心理学知識の生産様式を根本から変えつつある。",
+      "keywords": [
+        "再現性危機",
+        "オープンサイエンス",
+        "事前登録",
+        "透明性",
+        "信頼性革命"
+      ],
+      "source_url": "https://www.nature.com/articles/s44271-023-00003-2",
+      "tags": [
+        "2015",
+        "方法論",
+        "オープンサイエンス",
+        "再現性"
+      ]
+    },
+    {
+      "id": "fast_frugal_heuristics_ecological_rationality_2021",
+      "name": "高速倹約ヒューリスティクスの生態学的合理性（拡張版）",
+      "original_name": "Fast-and-Frugal Heuristics and Ecological Rationality (Extended)",
+      "theorist": "Gerd Gigerenzer, Ralph Hertwig",
+      "era_start": 2021,
+      "era_end": null,
+      "field": "判断・意思決定心理学",
+      "summary": "ヒューリスティクスは規範的合理性の近似ではなく、環境構造に適応した「生態学的に合理的」な推論だという主張の2021年拡張版。Hertwig et al. (2022)を含む近年の研究では、不確実・複雑な意思決定環境において高速倹約ヒューリスティクスが最適化モデルより高い精度を示すことが医療・法律・経営などの応用領域で実証された。行動経済学の「バイアス論」との根本的対立が継続している。",
+      "keywords": [
+        "ヒューリスティクス",
+        "生態学的合理性",
+        "適応的ツールボックス",
+        "限定合理性",
+        "意思決定"
+      ],
+      "source_url": "https://www.sciencedirect.com/science/article/abs/pii/B9780128124956000094",
+      "tags": [
+        "2021",
+        "判断意思決定",
+        "生態学的合理性",
+        "認知"
+      ]
+    },
+    {
+      "id": "computational_network_mental_health_2025",
+      "name": "心理動態の計算論的ネットワークモデル",
+      "original_name": "Computational Network Models for Mental Health Trajectories",
+      "theorist": "複数研究グループ（van der Krieke, Wichers他）",
+      "era_start": 2023,
+      "era_end": null,
+      "field": "計算論的心理学・精神医学",
+      "summary": "心理的プロセスの動的変化を非線形の計算論的ネットワークモデルで予測・制御する手法。既存の心理ネットワーク分析が線形仮定に依存するのに対し、より柔軟な非線形モデルが心理プロセスの文脈依存的・非線形な展開により適合することを示す。デジタルアプリとの連携により個人内の時系列データをリアルタイムで把握し、介入タイミングを最適化するダイナミック・モデリングへの応用が進んでいる。",
+      "keywords": [
+        "計算論的モデル",
+        "心理ネットワーク",
+        "非線形ダイナミクス",
+        "時系列分析",
+        "個人内変動"
+      ],
+      "source_url": "https://www.nature.com/articles/s41746-025-02252-3",
+      "tags": [
+        "2023",
+        "計算論的心理学",
+        "精神医学",
+        "ネットワーク分析"
+      ]
+    },
+    {
+      "id": "climate_anxiety_compass_2024",
+      "name": "気候不安コンパス（対処戦略のマッピング理論）",
+      "original_name": "The Climate Anxiety Compass",
+      "theorist": "Anne M. van Valkengoed, Linda Steg",
+      "era_start": 2024,
+      "era_end": null,
+      "field": "環境心理学・健康心理学",
+      "summary": "気候変動への不安を引き起こす実存的葛藤——予期される損失・喪失・脅威——に対し、様々な認知的・行動的対処戦略を二次元空間（問題焦点対感情焦点、個人対集団）でマッピングする理論モデル。2024年のJournal of Social Issues掲載論文で、気候不安に対する現在利用可能な対処戦略の解決空間を初めて理論的に構造化した。気候心理療法の実践的指針として活用が始まっている。",
+      "keywords": [
+        "気候不安",
+        "対処戦略",
+        "実存的葛藤",
+        "環境ストレス",
+        "気候心理学"
+      ],
+      "source_url": "https://journals.sagepub.com/doi/10.1177/29768659241293226",
+      "tags": [
+        "2024",
+        "環境心理学",
+        "気候変動",
+        "対処理論"
+      ]
+    },
+    {
+      "id": "bias_blind_spot_update_2024",
+      "name": "バイアス盲点の動機づけ変調（国際的再現研究群）",
+      "original_name": "Motivated Bias Blind Spot and International Replications",
+      "theorist": "Emily Pronin（原理論）; 複数グループによる2024年拡張研究",
+      "era_start": 2024,
+      "era_end": null,
+      "field": "社会認知心理学・メタ認知",
+      "summary": "Pronin et al. (2002)が確立した「バイアス盲点（他者より自分のバイアスを過小評価する傾向）」について、2024〜2025年に動機づけ変調（望ましいバイアスは少なく見積もり、望ましくないバイアスはより多く認識する）が実証され、理論的成熟が進んだ。ブラジル・韓国・欧州サンプルでの事前登録的直接再現研究もほぼ一致した結果を示し、文化横断的頑健性が確認されつつある。",
+      "keywords": [
+        "バイアス盲点",
+        "メタ認知",
+        "ナイーブ実在論",
+        "内省幻想",
+        "動機づけ認知"
+      ],
+      "source_url": "https://online.ucpress.edu/collabra/article/10/1/122158/203038/Theoretical-Maturation-of-the-Bias-Blind-Spot-A",
+      "tags": [
+        "2024",
+        "社会認知心理学",
+        "メタ認知",
+        "バイアス"
+      ]
+    }
+  ]
+}
