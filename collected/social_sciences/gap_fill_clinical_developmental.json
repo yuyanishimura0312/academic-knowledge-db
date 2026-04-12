@@ -1,0 +1,1809 @@
+{
+  "domain": "social_sciences",
+  "concepts": [
+    {
+      "name_ja": "メタ認知療法",
+      "name_en": "Metacognitive Therapy (MCT)",
+      "definition": "認知的注意症候群（CAS：心配・反芻・脅威モニタリング・不適応的コーピング）が心理的障害を維持するという前提に立ち、思考の内容ではなく思考プロセスそのものへの介入を重視する心理療法。メタ認知（「自分の思考についての信念」）を変えることで、あらゆる精神疾患に共通するトランスダイアグノスティックな維持機制を断つ。",
+      "impact_summary": "GAD・PTSD・うつ病・社交不安など複数の障害に有効性が示されており、従来CBTと比較してセッション数が少ないにもかかわらず同等以上の効果を示すメタ分析が相次いでいる。トランスダイアグノスティック・アプローチの先駆的理論として国際的に普及。",
+      "subfield": "臨床心理学・心理療法",
+      "school_of_thought": "認知行動療法第三世代",
+      "era_start": 2008,
+      "era_end": null,
+      "methodology_level": "介入研究・RCT・メタ分析",
+      "application_conditions": "不安・うつ・OCDなど心配や反芻が中心にある障害。思考内容より思考スタイルへの変化を目指す場合。",
+      "when_to_apply": "クライアントが「考えすぎる」パターンにはまっており、従来の認知再構成への抵抗がある場合。",
+      "framing_questions": [
+        "この心配・反芻が問題を解決するのに役立っているか？",
+        "思考そのものに対してどんな信念を持っているか？"
+      ],
+      "opposing_concept_names": [
+        "従来CBT（認知内容への介入）",
+        "マインドフルネスベース療法（観察と受容）"
+      ],
+      "keywords_ja": [
+        "メタ認知",
+        "認知的注意症候群",
+        "心配",
+        "反芻",
+        "トランスダイアグノスティック"
+      ],
+      "keywords_en": [
+        "metacognition",
+        "CAS",
+        "worry",
+        "rumination",
+        "transdiagnostic"
+      ],
+      "status": "確立・普及中",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "エイドリアン・ウェルズ",
+      "originator_name_en": "Adrian Wells",
+      "founding_work_title": "Metacognitive Therapy for Anxiety and Depression",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Guilford Press（書籍）"
+    },
+    {
+      "name_ja": "プロセス基盤CBT（プロセスベース療法）",
+      "name_en": "Process-Based CBT / Process-Based Therapy (PBT)",
+      "definition": "診断カテゴリではなく、認知・感情・注意・行動・自己・動機づけといった変化可能なトランスダイアグノスティックな心理プロセスを介入標的とするCBTの新世代的枠組み。進化科学を基盤として多様な証拠ベース技法を統合し、個人に合わせた定式化を重視する。",
+      "impact_summary": "「なぜこのプロセスが変わると効果があるのか」という媒介・調整変数の検討を促進し、プロトコル依存型治療から個別化治療へのシフトを理論的に基礎づけた。第三世代CBTを集約する理論的傘として評価が高い。",
+      "subfield": "臨床心理学・心理療法",
+      "school_of_thought": "認知行動療法第三世代・進化科学",
+      "era_start": 2018,
+      "era_end": null,
+      "methodology_level": "理論統合・介入研究",
+      "application_conditions": "複雑な併存障害や、診断横断的問題を持つクライアント。エビデンスベースの技法を柔軟に組み合わせたい臨床家。",
+      "when_to_apply": "特定の診断プロトコルが合わない、あるいは複数の問題領域に同時にアプローチしたい場合。",
+      "framing_questions": [
+        "どの心理プロセスが問題を維持しているか？",
+        "どのプロセスへの介入が最も効果的か？"
+      ],
+      "opposing_concept_names": [
+        "診断特異的プロトコル（DSM準拠の一障害一手法）"
+      ],
+      "keywords_ja": [
+        "トランスダイアグノスティック",
+        "プロセス",
+        "個別化",
+        "進化科学",
+        "媒介変数"
+      ],
+      "keywords_en": [
+        "transdiagnostic",
+        "processes",
+        "personalized treatment",
+        "evolution science",
+        "mediators"
+      ],
+      "status": "新興・発展中",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 3,
+      "originator_name": "スティーヴン・ヘイズ、ステファン・ホフマン",
+      "originator_name_en": "Steven C. Hayes, Stefan G. Hofmann",
+      "founding_work_title": "Process-Based CBT: The Science and Core Clinical Competencies of Cognitive Behavioral Therapy",
+      "founding_work_year": 2018,
+      "founding_work_venue": "New Harbinger Publications（書籍）"
+    },
+    {
+      "name_ja": "感情調節困難の多次元モデル",
+      "name_en": "Multidimensional Model of Emotion Regulation Difficulties",
+      "definition": "感情調節を「感情の認識・理解・受容」「情動喚起時の目標指向行動の維持」「衝動統制」「調節方略へのアクセス」の六次元で測定する枠組み。感情調節を単純な抑制・表出モデルではなく複合的スキルセットとして捉え直した。",
+      "impact_summary": "感情調節困難尺度（DERS）が世界50,000件超の研究で使用され、DBT・ACT・CFTなど多様な療法の治療ターゲットと臨床アウトカムを接続する標準的測定ツールとなった。",
+      "subfield": "臨床心理学・感情科学",
+      "school_of_thought": "感情調節理論",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "尺度開発・構造方程式",
+      "application_conditions": "感情調節の問題が中心症状である障害（BPD・うつ・不安・物質依存）。",
+      "when_to_apply": "治療標的の特定や治療効果測定において、感情調節の多面的評価が必要な場合。",
+      "framing_questions": [
+        "感情を受け入れられているか？",
+        "感情的な状態でも目標指向的に行動できるか？"
+      ],
+      "opposing_concept_names": [
+        "感情抑圧モデル",
+        "感情表出モデル"
+      ],
+      "keywords_ja": [
+        "感情調節",
+        "DERS",
+        "衝動制御",
+        "受容",
+        "目標指向行動"
+      ],
+      "keywords_en": [
+        "emotion regulation",
+        "DERS",
+        "impulse control",
+        "acceptance",
+        "goal-directed behavior"
+      ],
+      "status": "確立・標準的測定ツール",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "キム・グラッツ、リザンヌ・ローマー",
+      "originator_name_en": "Kim L. Gratz, Lizabeth Roemer",
+      "founding_work_title": "Multidimensional Assessment of Emotion Regulation and Dysregulation: Development, Factor Structure, and Initial Validation of the Difficulties in Emotion Regulation Scale",
+      "founding_work_year": 2004,
+      "founding_work_venue": "Journal of Psychopathology and Behavioral Assessment"
+    },
+    {
+      "name_ja": "感情障害の統一プロトコル",
+      "name_en": "Unified Protocol for Transdiagnostic Treatment of Emotional Disorders (UP)",
+      "definition": "不安症・気分障害・その他強い感情成分を持つ障害に共通する維持要因（感情反応性の高さ・感情回避）を標的に、マインドフルな感情認識・認知的再評価・回避防止・暴露の四つのコア戦略を一つのプロトコルで提供するトランスダイアグノスティック心理療法。",
+      "impact_summary": "単一プロトコルで複数の診断カテゴリに対応できることを実証し、特に複数障害を持つ患者への効率的な治療提供を可能にした。RCTで67〜85%の患者が反応基準に達し、診断特異的プロトコルと同等の効果が示された。",
+      "subfield": "臨床心理学・心理療法",
+      "school_of_thought": "トランスダイアグノスティックCBT",
+      "era_start": 2011,
+      "era_end": null,
+      "methodology_level": "RCT・臨床試験",
+      "application_conditions": "複数の情動障害を持つ患者、または診断基準が流動的な患者。",
+      "when_to_apply": "診断特異的プロトコルが使用できないコンテクスト（一次医療・プライマリケア）や、複数の問題を同時に扱う必要がある場合。",
+      "framing_questions": [
+        "この感情反応は長期的にどんな結果をもたらすか？",
+        "感情を避けようとすることが問題を維持しているか？"
+      ],
+      "opposing_concept_names": [
+        "診断特異的プロトコル（APA承認の各障害向け単一療法）"
+      ],
+      "keywords_ja": [
+        "感情障害",
+        "トランスダイアグノスティック",
+        "感情回避",
+        "統一プロトコル",
+        "暴露"
+      ],
+      "keywords_en": [
+        "emotional disorders",
+        "transdiagnostic",
+        "emotional avoidance",
+        "unified protocol",
+        "exposure"
+      ],
+      "status": "確立・実証済み",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "デイヴィッド・バーロウ",
+      "originator_name_en": "David H. Barlow",
+      "founding_work_title": "Unified Protocol for Transdiagnostic Treatment of Emotional Disorders: Therapist Guide",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Oxford University Press（書籍）"
+    },
+    {
+      "name_ja": "コンパッション・フォーカスト・セラピー",
+      "name_en": "Compassion Focused Therapy (CFT)",
+      "definition": "進化的視点・神経科学・仏教哲学を統合し、脅威系・欲動系・安心系という三つの感情調節システムのバランスを回復することを目的とする心理療法。特に自己批判や恥が中心にある障害に対し、コンパッション（共感的思いやり）を自己および他者に向ける能力を育成する。",
+      "impact_summary": "摂食障害・うつ病・PTSD・精神病など多様な障害での有効性が示されている。自己批判や恥の問題を抱え、従来のCBTで認知再構成が困難な患者層への新しいアプローチとして国際的に普及した。",
+      "subfield": "臨床心理学・心理療法",
+      "school_of_thought": "進化心理学ベース療法・第三世代CBT",
+      "era_start": 2009,
+      "era_end": null,
+      "methodology_level": "臨床研究・RCT・系統的レビュー",
+      "application_conditions": "自己批判・恥・内なる批判的声が中心問題となっているクライアント。",
+      "when_to_apply": "自己批判が強く、従来の認知再構成や自己肯定アプローチが機能しない場合。",
+      "framing_questions": [
+        "自分自身に友人として接するとしたらどう声をかけるか？",
+        "自己批判の進化的・機能的意味は何か？"
+      ],
+      "opposing_concept_names": [
+        "認知再構成（思考内容の論理的修正）",
+        "自己主張訓練"
+      ],
+      "keywords_ja": [
+        "コンパッション",
+        "自己批判",
+        "恥",
+        "三つの感情システム",
+        "思いやり"
+      ],
+      "keywords_en": [
+        "compassion",
+        "self-criticism",
+        "shame",
+        "three emotion regulation systems",
+        "compassionate mind"
+      ],
+      "status": "確立・普及中",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "ポール・ギルバート",
+      "originator_name_en": "Paul Gilbert",
+      "founding_work_title": "The Compassionate Mind",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Constable（書籍）"
+    },
+    {
+      "name_ja": "行動活性化療法",
+      "name_en": "Behavioral Activation (BA) for Depression",
+      "definition": "うつ病の維持に関わる「活動低下→報酬接触の減少→気分悪化」の悪循環に介入するため、回避行動の特定と段階的な活動増加・価値に基づくスケジューリングを中心とする行動療法。認知の変化を先行条件ではなく結果として位置づける。",
+      "impact_summary": "RCTで完全なCBTと同等の有効性が示され、より短期間・低コストな実施が可能。プライマリケアへの普及や非専門家による提供にも適しており、国際的なうつ病治療ガイドラインに組み込まれている。",
+      "subfield": "臨床心理学・心理療法",
+      "school_of_thought": "行動療法・文脈行動科学",
+      "era_start": 2001,
+      "era_end": null,
+      "methodology_level": "RCT・メタ分析",
+      "application_conditions": "回避行動とアンヘドニアがうつの主要問題として認められる場合。",
+      "when_to_apply": "認知的アプローチへの抵抗があるクライアント、あるいはリソースの少ない環境での治療提供が必要な場合。",
+      "framing_questions": [
+        "どの活動を増やすことで生活の質が改善できるか？",
+        "回避が問題を維持していないか？"
+      ],
+      "opposing_concept_names": [
+        "認知療法（思考内容の変化を優先）"
+      ],
+      "keywords_ja": [
+        "行動活性化",
+        "うつ病",
+        "回避",
+        "報酬",
+        "活動スケジューリング"
+      ],
+      "keywords_en": [
+        "behavioral activation",
+        "depression",
+        "avoidance",
+        "reinforcement",
+        "activity scheduling"
+      ],
+      "status": "確立・ガイドライン収載",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 5,
+      "empirical_support": 5,
+      "originator_name": "クリストファー・マーテル、ソナ・ディミジャン",
+      "originator_name_en": "Christopher R. Martell, Sona Dimidjian",
+      "founding_work_title": "Behavioral Activation for Depression: A Clinician's Guide",
+      "founding_work_year": 2010,
+      "founding_work_venue": "Guilford Press（書籍）"
+    },
+    {
+      "name_ja": "シングルセッション介入",
+      "name_en": "Single Session Therapy (SST) / Single Session Intervention",
+      "definition": "一回の面接を完結した治療単位として設計し、クライアントが最も重要視する問題への具体的行動計画の策定を重視する短期介入の枠組み。特定の理論的モデルではなく、あらゆる療法的オリエンテーションに適用可能な実践哲学として発展した。",
+      "impact_summary": "実際の来談者の30〜55%が一回のみで治療を終了し、その78%が問題改善を報告するというデータから、偶発的な「一回限りセッション」を意図的・計画的に活用する議論が活性化。ウォークインサービス・危機介入・プライマリケアへの応用が進んだ。",
+      "subfield": "臨床心理学・心理療法",
+      "school_of_thought": "簡便療法・解決焦点療法",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "記述的研究・ケーススタディ・成果研究",
+      "application_conditions": "ウォークインサービス、資源の限られた医療環境、危機介入、緊急的な心理的支援。",
+      "when_to_apply": "再受診が困難な状況、あるいは来談者が継続的な治療を求めていない場合に、一回の面接を最大限活用したい場合。",
+      "framing_questions": [
+        "今日のセッションを最大限活かすために、何を達成したいか？",
+        "一歩前進するために今日何をすることができるか？"
+      ],
+      "opposing_concept_names": [
+        "長期精神分析的療法",
+        "週次継続セッション療法"
+      ],
+      "keywords_ja": [
+        "シングルセッション",
+        "一回介入",
+        "ウォークイン",
+        "解決焦点",
+        "短期療法"
+      ],
+      "keywords_en": [
+        "single session therapy",
+        "walk-in",
+        "brief therapy",
+        "solution-focused",
+        "one-at-a-time"
+      ],
+      "status": "確立・実践普及中",
+      "source_reliability": 4,
+      "data_completeness": 3,
+      "predictive_power": 3,
+      "empirical_support": 3,
+      "originator_name": "モシェ・タルモン",
+      "originator_name_en": "Moshe Talmon",
+      "founding_work_title": "Single Session Therapy: Maximizing the Effect of the First (and Often Only) Therapeutic Encounter",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Jossey-Bass（書籍）"
+    },
+    {
+      "name_ja": "インターネット認知行動療法（iCBT）",
+      "name_en": "Internet-Delivered Cognitive Behavioural Therapy (iCBT)",
+      "definition": "CBTの構造化された内容をオンラインで提供する介入形式。セラピスト主導型とセルフガイド型があり、心理教育・認知再構成・行動実験・再発防止などのモジュールをデジタルプラットフォームで提供する。",
+      "impact_summary": "面対面CBTと同等の効果がメタ分析で示されており（Andersson et al., 2014）、地理的制約・スティグマ・待機期間などのアクセスバリアを低減する解決策として主要なガイドラインに組み込まれた。COVID-19後の精神保健サービス変革の中核をなす。",
+      "subfield": "臨床心理学・デジタルヘルス",
+      "school_of_thought": "認知行動療法・デジタルヘルス介入",
+      "era_start": 2009,
+      "era_end": null,
+      "methodology_level": "RCT・系統的レビュー・メタ分析",
+      "application_conditions": "対面サービスへのアクセスが困難な患者。不安・うつを主訴とする成人。",
+      "when_to_apply": "地理的・経済的制約がある場合、またはデジタルリテラシーのある軽中等度の不安・うつ患者への低強度介入として。",
+      "framing_questions": [
+        "患者がデジタル介入を活用できる条件は揃っているか？",
+        "セラピストガイドの有無でどのように効果が変わるか？"
+      ],
+      "opposing_concept_names": [
+        "対面CBT",
+        "対面集中的心理療法"
+      ],
+      "keywords_ja": [
+        "iCBT",
+        "インターネット療法",
+        "デジタルヘルス",
+        "遠隔心理支援",
+        "アクセシビリティ"
+      ],
+      "keywords_en": [
+        "iCBT",
+        "internet-delivered therapy",
+        "digital health",
+        "telepsychology",
+        "accessibility"
+      ],
+      "status": "確立・実装普及中",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "ゲルハルト・アンデルソン、ニック・ティトフ",
+      "originator_name_en": "Gerhard Andersson, Nickolai Titov",
+      "founding_work_title": "Guided Internet-based vs. face-to-face cognitive behavior therapy for psychiatric and somatic disorders: a systematic review and meta-analysis",
+      "founding_work_year": 2014,
+      "founding_work_venue": "World Psychiatry"
+    },
+    {
+      "name_ja": "COM-Bモデル（能力・機会・動機づけ行動モデル）",
+      "name_en": "COM-B Model of Behaviour",
+      "definition": "行動（Behaviour）は能力（Capability）・機会（Opportunity）・動機づけ（Motivation）の三要素がすべて揃ったときに生起するという行動変容の統合モデル。心理的・身体的能力、物理的・社会的機会、自動的・反省的動機づけの六サブカテゴリで構成される。行動変容ホイール（BCW）の中核として位置づけられる。",
+      "impact_summary": "介入設計・政策立案・ヘルスケアにおける行動変容支援において、最も広く使用される統合的枠組みの一つとなった。COVID-19ワクチン接種行動・喫煙・食事・運動など多領域で応用され、19の既存理論を一つのホイールに統合した実用性が評価されている。",
+      "subfield": "健康心理学・行動変容科学",
+      "school_of_thought": "行動科学・健康行動理論",
+      "era_start": 2011,
+      "era_end": null,
+      "methodology_level": "理論統合・介入設計フレームワーク",
+      "application_conditions": "行動変容を促す介入のデザイン・評価。公衆衛生・医療コンプライアンス・職域健康増進。",
+      "when_to_apply": "行動変容の阻害要因を体系的に分析し、適切な介入手法を選択する必要がある場合。",
+      "framing_questions": [
+        "対象者に能力（知識・スキル）はあるか？",
+        "機会（環境・社会的サポート）は整っているか？",
+        "動機づけ（習慣・目標・感情）は行動を支えているか？"
+      ],
+      "opposing_concept_names": [
+        "健康信念モデル（個人の認知のみを重視）",
+        "計画的行動理論（意図のみを重視）"
+      ],
+      "keywords_ja": [
+        "行動変容",
+        "COM-B",
+        "能力",
+        "機会",
+        "動機づけ",
+        "行動変容ホイール"
+      ],
+      "keywords_en": [
+        "behaviour change",
+        "COM-B",
+        "capability",
+        "opportunity",
+        "motivation",
+        "behaviour change wheel"
+      ],
+      "status": "確立・標準的フレームワーク",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "スーザン・ミキー",
+      "originator_name_en": "Susan Michie",
+      "founding_work_title": "The behaviour change wheel: a new method for characterising and designing behaviour change interventions",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Implementation Science"
+    },
+    {
+      "name_ja": "行動変容技法分類（BCTTv1）",
+      "name_en": "Behaviour Change Technique Taxonomy version 1 (BCTTv1)",
+      "definition": "行動変容介入で使用される93種類の技法を16のクラスターに階層的に分類した国際的分類体系。各技法に固有の名称・定義・例が付されており、介入の内容を標準化して報告・比較することを可能にする。",
+      "impact_summary": "国際的コンセンサスのもとで開発され（33カ国400名以上の専門家が参加）、介入研究の再現可能性・体系的レビューの精度・デジタルヘルス介入設計に革命をもたらした。主要論文の引用数は4,830件超。",
+      "subfield": "健康心理学・行動変容科学",
+      "school_of_thought": "行動科学・介入設計",
+      "era_start": 2013,
+      "era_end": null,
+      "methodology_level": "分類学的手法・コンセンサス研究",
+      "application_conditions": "行動変容介入の設計・報告・評価・系統的レビューを行う研究者・実践家。",
+      "when_to_apply": "介入の有効成分を特定したい場合、または標準化された介入記述が必要な研究・実践において。",
+      "framing_questions": [
+        "この介入に含まれる技法は何か？",
+        "同じ技法を使っているとされる研究は本当に同じことをしているか？"
+      ],
+      "opposing_concept_names": [
+        "理論なし介入（アドホック技法選択）"
+      ],
+      "keywords_ja": [
+        "行動変容技法",
+        "BCTTv1",
+        "介入設計",
+        "行動科学",
+        "分類体系"
+      ],
+      "keywords_en": [
+        "behaviour change techniques",
+        "BCTTv1",
+        "intervention design",
+        "behavioural science",
+        "taxonomy"
+      ],
+      "status": "確立・国際標準",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "スーザン・ミキー",
+      "originator_name_en": "Susan Michie",
+      "founding_work_title": "The Behavior Change Technique Taxonomy (v1) of 93 Hierarchically Clustered Techniques: Building an International Consensus for the Reporting of Behavior Change Interventions",
+      "founding_work_year": 2013,
+      "founding_work_venue": "Annals of Behavioral Medicine"
+    },
+    {
+      "name_ja": "実装科学：統合実装フレームワーク（CFIR）",
+      "name_en": "Consolidated Framework for Implementation Research (CFIR)",
+      "definition": "エビデンスベースの介入・プログラムを実際の臨床・組織・地域場面に導入・定着させるプロセスを分析するための統合的フレームワーク。介入特性・外部環境・内部環境・個人特性・実装プロセスの五つの主要ドメインと多数の下位構成概念から成る。",
+      "impact_summary": "19の既存実装理論を統合した包括性が高く評価され、ヘルスサービス研究・公衆衛生・教育・社会福祉など多領域での実装研究の標準的枠組みとなった。2022年に大規模アップデートが行われ、エクイティへの配慮が追加された。",
+      "subfield": "健康心理学・実装科学",
+      "school_of_thought": "実装科学・知識移転",
+      "era_start": 2009,
+      "era_end": null,
+      "methodology_level": "フレームワーク研究・混合研究法",
+      "application_conditions": "エビデンスベース介入の実装・定着を促進または阻害する要因を体系的に分析したい場合。",
+      "when_to_apply": "研究知見を実践の場に橋渡しするプロセスの評価・設計において。",
+      "framing_questions": [
+        "どの文脈的要因がこの介入の実装を阻んでいるか？",
+        "介入特性のどの側面が採用を促進するか？"
+      ],
+      "opposing_concept_names": [
+        "臨床試験のみによる評価（実装プロセスを無視）"
+      ],
+      "keywords_ja": [
+        "実装科学",
+        "CFIR",
+        "知識移転",
+        "実装バリア",
+        "研究実践ギャップ"
+      ],
+      "keywords_en": [
+        "implementation science",
+        "CFIR",
+        "knowledge translation",
+        "implementation barriers",
+        "research-practice gap"
+      ],
+      "status": "確立・広く採用",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "ローラ・ダムスロッダー",
+      "originator_name_en": "Laura J. Damschroder",
+      "founding_work_title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Implementation Science"
+    },
+    {
+      "name_ja": "精神疾患のネットワーク理論",
+      "name_en": "Network Theory of Mental Disorders",
+      "definition": "精神疾患は潜在的な疾患実体から生じる症状の集合ではなく、症状間の直接的な因果的相互作用から生まれるネットワークであるとする理論。症状同士が強く相互連結した場合、自己持続的なループが形成され「精神障害」として現れる。",
+      "impact_summary": "精神疾患の本質論・診断分類・コモービディティ・治療標的の選定に根本的な再考を促した。ネットワーク分析という新しい方法論を精神病理学に導入し、症状間連結の強度を測定することでレジリエンスや脆弱性を数量化する研究が急増した。",
+      "subfield": "精神病理学・臨床心理学",
+      "school_of_thought": "複雑系科学・ネットワーク科学",
+      "era_start": 2008,
+      "era_end": null,
+      "methodology_level": "理論・ネットワーク分析・縦断研究",
+      "application_conditions": "コモービディティの高さや診断境界の曖昧さを説明する必要がある場合。治療ターゲット症状の優先順位付け。",
+      "when_to_apply": "「この患者に最初に介入すべき症状はどれか」を理論的に考える際や、個人内変動の縦断データを解析する場合。",
+      "framing_questions": [
+        "この症状群はどの症状から始まり、どこで維持されているか？",
+        "最も多くの他症状に影響を与える中心的ノードはどれか？"
+      ],
+      "opposing_concept_names": [
+        "潜在変数モデル（共通原因としての障害実体）",
+        "生物医学モデル（神経生物学的基盤のみを重視）"
+      ],
+      "keywords_ja": [
+        "ネットワーク理論",
+        "症状",
+        "因果的相互作用",
+        "精神病理",
+        "コモービディティ"
+      ],
+      "keywords_en": [
+        "network theory",
+        "symptoms",
+        "causal interactions",
+        "psychopathology",
+        "comorbidity"
+      ],
+      "status": "確立・活発な研究分野",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "ダニー・ボルズブーム",
+      "originator_name_en": "Denny Borsboom",
+      "founding_work_title": "A network theory of mental disorders",
+      "founding_work_year": 2017,
+      "founding_work_venue": "World Psychiatry"
+    },
+    {
+      "name_ja": "精神病理の階層分類モデル（HiTOP）",
+      "name_en": "Hierarchical Taxonomy of Psychopathology (HiTOP)",
+      "definition": "DSMやICDのカテゴリ診断に代わり、症状共変動の定量的パターンに基づいて精神病理を連続次元として階層的に分類するモデル。内在化・思考障害・外在化（抑制解除型・拮抗型）・離脱・身体形態の六つのスペクトラムを含む。",
+      "impact_summary": "診断の不均一性・境界問題・診断不安定性・高いコモービディティというDSMの根本的問題を解決するためのエンピリカルな代替案として、国際的な精神医学・心理学研究コンソーシアムが開発。RDoC（米国NIMH）と並ぶ次世代診断システムとして注目される。",
+      "subfield": "精神病理学・臨床心理学",
+      "school_of_thought": "次元的精神病理学・定量的分類学",
+      "era_start": 2017,
+      "era_end": null,
+      "methodology_level": "因子分析・構造方程式・大規模統計",
+      "application_conditions": "診断横断的研究、精神的問題の次元的評価、生物学的基盤研究。",
+      "when_to_apply": "診断境界を超えた共通因子を研究したい場合、または次元的評価ツールの妥当性検証に。",
+      "framing_questions": [
+        "患者の問題はどのスペクトラムに位置するか？",
+        "診断カテゴリを超えて共通する次元は何か？"
+      ],
+      "opposing_concept_names": [
+        "DSM・ICD（カテゴリ診断）",
+        "RDoC（神経生物学的次元）"
+      ],
+      "keywords_ja": [
+        "次元的分類",
+        "精神病理",
+        "スペクトラム",
+        "内在化",
+        "外在化"
+      ],
+      "keywords_en": [
+        "dimensional classification",
+        "psychopathology",
+        "spectrum",
+        "internalizing",
+        "externalizing"
+      ],
+      "status": "確立・研究フレームワーク",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "ローマン・コトフ（他多数のコンソーシアム）",
+      "originator_name_en": "Roman Kotov et al.",
+      "founding_work_title": "The Hierarchical Taxonomy of Psychopathology (HiTOP): A Dimensional Alternative to Traditional Nosologies",
+      "founding_work_year": 2017,
+      "founding_work_venue": "Journal of Abnormal Psychology"
+    },
+    {
+      "name_ja": "計算精神医学",
+      "name_en": "Computational Psychiatry",
+      "definition": "精神障害を数学的計算モデル（特にベイズ推定・強化学習・予測誤差モデル）の観点から定式化し、症状をアルゴリズムの機能不全として記述する神経科学・心理学・AIの学際的研究領域。脳を予測機械と捉え、精神疾患を推論過程の歪みとして理解する。",
+      "impact_summary": "統合失調症（過剰な予測誤差）・自閉症（過度の環境変動推定）・うつ病（負の学習率）など障害特異的な計算上の欠陥モデルが提案され、新薬開発・バイオマーカー研究に新しい方向性を与えた。",
+      "subfield": "神経心理学・精神病理学",
+      "school_of_thought": "計算神経科学・ベイズ脳理論",
+      "era_start": 2012,
+      "era_end": null,
+      "methodology_level": "数理モデル・fMRI・行動実験",
+      "application_conditions": "精神疾患の神経生物学的基盤を計算論的に理解したい場合、バイオマーカー開発研究。",
+      "when_to_apply": "「なぜこの症状が生じるのか」を数学的メカニズムで説明したい研究文脈において。",
+      "framing_questions": [
+        "この障害は計算過程のどの部分の機能不全か？",
+        "予測誤差信号はどのように歪んでいるか？"
+      ],
+      "opposing_concept_names": [
+        "記述的精神医学（症状分類のみ）",
+        "ナラティブ心理療法"
+      ],
+      "keywords_ja": [
+        "計算精神医学",
+        "ベイズ脳",
+        "予測誤差",
+        "強化学習",
+        "精神疾患モデル"
+      ],
+      "keywords_en": [
+        "computational psychiatry",
+        "Bayesian brain",
+        "prediction error",
+        "reinforcement learning",
+        "psychiatric modeling"
+      ],
+      "status": "急速発展中",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 3,
+      "originator_name": "リード・モンタギュー",
+      "originator_name_en": "P. Read Montague",
+      "founding_work_title": "Computational psychiatry",
+      "founding_work_year": 2012,
+      "founding_work_venue": "Trends in Cognitive Sciences"
+    },
+    {
+      "name_ja": "精神病理の一般因子（pファクター）",
+      "name_en": "General Factor of Psychopathology (p-factor)",
+      "definition": "精神疾患の構造に一般知能のg因子と類似した単一の一般因子（p）が存在するとする理論。内在化・外在化・思考障害という三つの上位因子をさらに説明する共通次元として、生涯にわたる精神病理の重症度・機能障害・脆弱性を反映する。",
+      "impact_summary": "カスピらのダニーデン縦断研究から生まれ、コモービディティの高さ・治療抵抗性・精神疾患の重篤化を予測する指標として注目された。脳機能・遺伝・発達的要因との関連研究が急増し、次世代診断システムへの影響が大きい。",
+      "subfield": "精神病理学・臨床心理学",
+      "school_of_thought": "次元的精神病理学・定量的研究",
+      "era_start": 2014,
+      "era_end": null,
+      "methodology_level": "ビファクターモデル・縦断研究・行動遺伝学",
+      "application_conditions": "精神障害の重篤化・慢性化・コモービディティを予測する研究。",
+      "when_to_apply": "複数の精神障害を横断した共通脆弱性を分析したい場合。",
+      "framing_questions": [
+        "精神疾患の共通因子を単一次元で捉えることで何が説明できるか？",
+        "pスコアは生物学的・発達的予測因子と関連するか？"
+      ],
+      "opposing_concept_names": [
+        "DSM診断カテゴリ",
+        "障害特異的因子モデル"
+      ],
+      "keywords_ja": [
+        "一般精神病理因子",
+        "pファクター",
+        "コモービディティ",
+        "ビファクターモデル",
+        "縦断研究"
+      ],
+      "keywords_en": [
+        "general psychopathology",
+        "p-factor",
+        "comorbidity",
+        "bifactor model",
+        "longitudinal study"
+      ],
+      "status": "確立・活発な研究",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "アブシャロム・カスピ、テリー・モフィット",
+      "originator_name_en": "Avshalom Caspi, Terrie E. Moffitt",
+      "founding_work_title": "The p Factor: One General Psychopathology Factor in the Structure of Psychiatric Disorders?",
+      "founding_work_year": 2014,
+      "founding_work_venue": "Clinical Psychological Science"
+    },
+    {
+      "name_ja": "炎症仮説（うつ病炎症理論）",
+      "name_en": "Inflammatory Hypothesis of Depression",
+      "definition": "炎症性サイトカイン（IL-1β・IL-6・TNF-α等）の増加が脳内のモノアミン代謝・神経可塑性・HPA軸を変化させ、うつ病の発症・維持に寄与するという理論。炎症は環境的・遺伝的リスク要因の共通経路として機能し、進化的には感染に対する適応的な病態行動として解釈される。",
+      "impact_summary": "うつ病の生物学的基盤に関する主要な理論的枠組みとなり、抗炎症薬のうつ病への試験的応用・免疫関連バイオマーカー研究・うつ病の生物学的不均一性（サブタイプ）理解を促進した。",
+      "subfield": "精神病理学・神経心理学・健康心理学",
+      "school_of_thought": "生物精神医学・進化医学",
+      "era_start": 2011,
+      "era_end": null,
+      "methodology_level": "生物学的研究・RCT・メタ分析",
+      "application_conditions": "炎症マーカーが高い治療抵抗性うつ病、身体疾患（がん・自己免疫疾患）に関連するうつ状態。",
+      "when_to_apply": "生物学的バイオマーカーを用いたうつ病サブタイプ分類や、抗炎症的介入を検討する場合。",
+      "framing_questions": [
+        "このクライアントのうつに炎症関連の要因が寄与しているか？",
+        "身体的健康状態はうつ状態とどう連動しているか？"
+      ],
+      "opposing_concept_names": [
+        "モノアミン仮説（セロトニン・ドーパミン中心）",
+        "心理社会的モデルのみ"
+      ],
+      "keywords_ja": [
+        "炎症",
+        "サイトカイン",
+        "うつ病",
+        "神経炎症",
+        "病態行動"
+      ],
+      "keywords_en": [
+        "inflammation",
+        "cytokines",
+        "depression",
+        "neuroinflammation",
+        "sickness behavior"
+      ],
+      "status": "活発な研究・部分的確立",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "チャールズ・レイソン、アンドリュー・ミラー",
+      "originator_name_en": "Charles L. Raison, Andrew H. Miller",
+      "founding_work_title": "Is Depression an Inflammatory Disorder?",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Current Psychiatry Reports"
+    },
+    {
+      "name_ja": "コア知識理論",
+      "name_en": "Core Knowledge Theory",
+      "definition": "人間の認知は生得的な「コア知識システム」を基盤として発達するとする理論。物体・行為・数・空間・社会的相手の五つのシステムが出生時あるいは生後早期から機能し、ドメイン固有の表象を形成する。これらは進化的に保存された種固有の能力であり、後の学習の足場となる。",
+      "impact_summary": "ピアジェの段階発達論を超えた乳児認知能力の早期出現を実証的に裏付け、発達心理学・教育心理学・比較認知科学・AIの理論的基礎を更新した。数概念・物体概念の早期発達に関する多数の研究を生み出した。",
+      "subfield": "発達心理学・認知心理学",
+      "school_of_thought": "ネイティビズム・認知発達論",
+      "era_start": 2007,
+      "era_end": null,
+      "methodology_level": "注視実験・行動実験・比較研究",
+      "application_conditions": "乳幼児の認知能力の評価、早期介入プログラムの設計、教育的足場形成の理解。",
+      "when_to_apply": "乳幼児の基礎的認知能力を評価し、発達の遅れを早期に識別する場合。",
+      "framing_questions": [
+        "この能力はコアシステムとして機能しているか？",
+        "コア知識を超えて文化的学習が何を追加するか？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの構成主義（知識は経験から構成される）",
+        "一般的学習理論"
+      ],
+      "keywords_ja": [
+        "コア知識",
+        "生得的認知",
+        "ドメイン特異的",
+        "乳児認知",
+        "物体概念"
+      ],
+      "keywords_en": [
+        "core knowledge",
+        "innate cognition",
+        "domain-specific",
+        "infant cognition",
+        "object concept"
+      ],
+      "status": "確立・継続的発展",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "エリザベス・スペルキー",
+      "originator_name_en": "Elizabeth S. Spelke",
+      "founding_work_title": "Core knowledge",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Developmental Science"
+    },
+    {
+      "name_ja": "ベイズ的発達学習モデル",
+      "name_en": "Bayesian Models of Cognitive Development",
+      "definition": "発達を確率的因果モデル（ベイズネットワーク・グラフィカルモデル）の更新プロセスとして捉える理論。子どもは環境からの観察データを通じて事前確率を更新し、因果関係についての帰納的学習を行う。「Theory Theory（理論・理論）2.0」とも呼ばれ、発達を科学者の仮説検証に類比する。",
+      "impact_summary": "乳幼児がいかに少ない観察から複雑な因果構造を学習するかを説明する数理的基盤を提供した。教育・言語・社会的学習の発達研究にベイズ的枠組みが普及するきっかけとなり、認知発達とAIの架け橋となった。",
+      "subfield": "発達心理学・認知科学",
+      "school_of_thought": "計算論的発達論・ベイズ認知科学",
+      "era_start": 2011,
+      "era_end": null,
+      "methodology_level": "数理モデル・行動実験・計算機シミュレーション",
+      "application_conditions": "幼少期の因果的学習・言語習得・概念発達の研究。",
+      "when_to_apply": "子どもがどのように因果知識を獲得するかを定量的に理解したい場合。",
+      "framing_questions": [
+        "子どもは事前知識（先行確率）と観察をどうバランスさせているか？",
+        "この発達的変化はベイズ更新として形式化できるか？"
+      ],
+      "opposing_concept_names": [
+        "連合学習理論",
+        "段階的構成主義（ピアジェ）"
+      ],
+      "keywords_ja": [
+        "ベイズ学習",
+        "発達",
+        "因果学習",
+        "確率的推論",
+        "認知発達"
+      ],
+      "keywords_en": [
+        "Bayesian learning",
+        "development",
+        "causal learning",
+        "probabilistic inference",
+        "cognitive development"
+      ],
+      "status": "確立・活発な研究",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "アリソン・ゴプニック",
+      "originator_name_en": "Alison Gopnik",
+      "founding_work_title": "The Theory Theory 2.0: Probabilistic Models and Cognitive Development",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Child Development Perspectives"
+    },
+    {
+      "name_ja": "過剰模倣（オーバーイミテーション）",
+      "name_en": "Over-Imitation",
+      "definition": "子ども（および成人）が他者の行為を模倣する際、明らかに不必要で無関係な動作まで忠実に再現する傾向。因果的に不透明な行動を自動的に「因果的に意味がある」と解釈するメカニズムによって生じるとされる。文化的規範の伝達・社会的絆形成・儀礼的行動の起源として解釈される。",
+      "impact_summary": "チンパンジーが不必要な動作を省く傾向と対比されることで、人間特有の「社会的学習バイアス」の進化的基盤を示した。文化的累積進化・儀礼・規範の起源に関する議論に多大な影響を与え、発達・比較認知・文化進化の接点となった。",
+      "subfield": "発達心理学・比較認知科学",
+      "school_of_thought": "社会的学習理論・比較認知進化論",
+      "era_start": 2007,
+      "era_end": null,
+      "methodology_level": "実験的行動研究・比較研究",
+      "application_conditions": "子どもの社会的学習・文化的伝達の研究。",
+      "when_to_apply": "文化的規範伝達・教育・模倣行動の発達を研究・評価する際。",
+      "framing_questions": [
+        "なぜ子どもは明らかに不必要な行動まで模倣するのか？",
+        "過剰模倣はどのような文化的・進化的機能を持つか？"
+      ],
+      "opposing_concept_names": [
+        "選択的模倣（目的のある動作のみを再現）",
+        "因果的推論モデル（合理的模倣）"
+      ],
+      "keywords_ja": [
+        "過剰模倣",
+        "社会的学習",
+        "文化的伝達",
+        "模倣",
+        "発達"
+      ],
+      "keywords_en": [
+        "over-imitation",
+        "social learning",
+        "cultural transmission",
+        "imitation",
+        "development"
+      ],
+      "status": "確立・継続的研究",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 5,
+      "originator_name": "デレク・ライオンズ",
+      "originator_name_en": "Derek E. Lyons",
+      "founding_work_title": "The hidden structure of overimitation",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Proceedings of the National Academy of Sciences"
+    },
+    {
+      "name_ja": "達成感情の制御-価値理論",
+      "name_en": "Control-Value Theory of Achievement Emotions",
+      "definition": "学習活動や成績アウトカムに対する制御認知（コントロール感）と価値認知（重要性・有用性）の組み合わせが多様な達成感情（喜び・希望・誇り・不安・絶望・恥・怒り・退屈）を生み出すとする理論。感情が学習動機・認知資源・自己調整学習を通じて学業成績に影響するメカニズムを統合的に説明する。",
+      "impact_summary": "学業感情の研究を統合する包括的理論として広く採用され、試験不安のみに限定されていた感情研究を多様な正負の感情・活動感情・アウトカム感情へと拡張した。医学・工学・言語教育など多領域での応用研究が急増した。",
+      "subfield": "教育心理学・学習動機づけ",
+      "school_of_thought": "動機づけ理論・教育心理学",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "質問紙・実験・縦断研究",
+      "application_conditions": "学業達成・動機づけ・感情調節に関わる教育介入の設計。",
+      "when_to_apply": "学習者の感情状態が学習パフォーマンスに与える影響を分析・介入したい場合。",
+      "framing_questions": [
+        "学習者はこの課題を自分がコントロールできると感じているか？",
+        "この課題は学習者にとって価値があると思われているか？"
+      ],
+      "opposing_concept_names": [
+        "不安のみに焦点を当てた感情理論",
+        "動機づけの認知的評価理論（感情を含まないモデル）"
+      ],
+      "keywords_ja": [
+        "達成感情",
+        "制御感",
+        "価値",
+        "学業感情",
+        "学習動機"
+      ],
+      "keywords_en": [
+        "achievement emotions",
+        "control appraisal",
+        "value appraisal",
+        "academic emotions",
+        "learning motivation"
+      ],
+      "status": "確立・広く採用",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "ラインハルト・ペクルン",
+      "originator_name_en": "Reinhard Pekrun",
+      "founding_work_title": "The Control-Value Theory of Achievement Emotions: Assumptions, Corollaries, and Implications for Educational Research and Practice",
+      "founding_work_year": 2006,
+      "founding_work_venue": "Educational Psychology Review"
+    },
+    {
+      "name_ja": "状況的期待-価値理論（SEVT）",
+      "name_en": "Situated Expectancy-Value Theory (SEVT)",
+      "definition": "学業達成・行動選択は、成功期待（自己効力感）と課題価値（内在的価値・達成価値・有用性価値・コスト）によって最も直接的に規定されるという動機づけ理論。2009年以降、社会文化的文脈に「位置づけられた（situated）」認知として再定式化され、開発的変化・文脈要因・アイデンティティとの統合が強化された。",
+      "impact_summary": "性別・人種・文化による学業格差の説明、STEM教育への参加動機研究、進路選択理解に広く応用されている。期待と価値の統合が学業パフォーマンス・選択に及ぼす影響の大規模縦断研究の基盤となっている。",
+      "subfield": "教育心理学・発達心理学",
+      "school_of_thought": "動機づけ理論・社会認知理論",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "縦断研究・大規模調査",
+      "application_conditions": "学業動機・進路選択・学業格差の研究と教育介入設計。",
+      "when_to_apply": "「なぜこの学習者はこの科目を選ばないのか」あるいは「どの要因が学業達成に最も影響するか」を分析する場合。",
+      "framing_questions": [
+        "学習者はこの課題を達成できると思っているか？",
+        "この課題は自分にとって価値があると感じているか？何がコストになっているか？"
+      ],
+      "opposing_concept_names": [
+        "自己決定理論（内発的動機中心）",
+        "目標理論（達成目標のみ）"
+      ],
+      "keywords_ja": [
+        "期待価値理論",
+        "課題価値",
+        "動機づけ",
+        "進路選択",
+        "学業格差"
+      ],
+      "keywords_en": [
+        "expectancy-value theory",
+        "task value",
+        "motivation",
+        "career choice",
+        "achievement gap"
+      ],
+      "status": "確立・継続的発展",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 5,
+      "empirical_support": 5,
+      "originator_name": "ジャクリーン・エクルス（ウィグフィールド）",
+      "originator_name_en": "Jacquelynne S. Eccles (Wigfield)",
+      "founding_work_title": "The Development, Testing, and Refinement of Eccles, Wigfield, and Colleagues' Situated Expectancy-Value Model",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Educational Psychology Review（2024年更新版）"
+    },
+    {
+      "name_ja": "興味発達の4段階モデル",
+      "name_en": "Four-Phase Model of Interest Development",
+      "definition": "興味は「誘発された状況的興味→維持された状況的興味→萌芽的個人的興味→確立した個人的興味」の四段階を経て発達するとするモデル。初期の外部刺激による一時的な注意喚起から、内在化された持続的志向性への発達的移行を記述する。",
+      "impact_summary": "「どうすれば関心を持続させるか」という教育的問いに理論的枠組みを提供し、教科教育・博物館学習・デジタル学習環境のデザイン指針として国際的に広く引用されている。感情的・認知的要因の両方を含む点で認知主義的興味理論を超えた。",
+      "subfield": "教育心理学・学習動機づけ",
+      "school_of_thought": "動機づけ理論・発達心理学",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "縦断研究・観察研究・介入研究",
+      "application_conditions": "新しい学習内容や環境への興味喚起と持続的関与を目指す教育設計。",
+      "when_to_apply": "学習者が特定のトピックへの興味を持続させるような授業・カリキュラム・環境を設計する際。",
+      "framing_questions": [
+        "この学習者は今どの段階の興味にあるか？",
+        "次の段階に移行させるために何が必要か？"
+      ],
+      "opposing_concept_names": [
+        "単一の特性的興味モデル",
+        "外発的動機づけモデル"
+      ],
+      "keywords_ja": [
+        "興味",
+        "状況的興味",
+        "個人的興味",
+        "動機づけ",
+        "4段階"
+      ],
+      "keywords_en": [
+        "interest",
+        "situational interest",
+        "individual interest",
+        "motivation",
+        "four-phase model"
+      ],
+      "status": "確立・広く引用",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "スザンヌ・ヒディ、K・アン・レニンジャー",
+      "originator_name_en": "Suzanne Hidi, K. Ann Renninger",
+      "founding_work_title": "The Four-Phase Model of Interest Development",
+      "founding_work_year": 2006,
+      "founding_work_venue": "Educational Psychologist"
+    },
+    {
+      "name_ja": "グリット（粘り強さと情熱）",
+      "name_en": "Grit: Perseverance and Passion for Long-Term Goals",
+      "definition": "長期的な目標に対する情熱と粘り強さの組み合わせとして定義される特性。失敗・逆境・停滞期にもかかわらず努力を維持し続ける能力を指す。IQや才能とは独立して、長期的成果を予測する変数として提案された。",
+      "impact_summary": "ウェストポイント軍士官学校・全米スペリングビー・IvyリーグGPAなど多様な実績指標を予測する変数として実証され、教育政策・人材開発・スポーツ心理に広く浸透した。一方で「グリット教育」の過度な強調や概念的妥当性への批判も活発であり、科学的議論が続いている。",
+      "subfield": "動機づけ心理学・人格心理学",
+      "school_of_thought": "ポジティブ心理学・動機づけ理論",
+      "era_start": 2007,
+      "era_end": null,
+      "methodology_level": "質問紙・縦断研究・フィールド研究",
+      "application_conditions": "長期的な目標達成が求められる文脈（教育・スポーツ・組織）での人材評価・育成。",
+      "when_to_apply": "才能・知性以外の要因が長期成果に寄与するかを評価したい場合。",
+      "framing_questions": [
+        "この人は長期的な困難に直面したとき、どのように対応するか？",
+        "目標への情熱は一貫しているか？"
+      ],
+      "opposing_concept_names": [
+        "知能主義（才能・IQ決定論）",
+        "状況主義（文脈が行動を決定する）"
+      ],
+      "keywords_ja": [
+        "グリット",
+        "粘り強さ",
+        "情熱",
+        "長期目標",
+        "やり抜く力"
+      ],
+      "keywords_en": [
+        "grit",
+        "perseverance",
+        "passion",
+        "long-term goals",
+        "conscientiousness"
+      ],
+      "status": "確立・議論継続",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 3,
+      "empirical_support": 3,
+      "originator_name": "アンジェラ・ダックワース",
+      "originator_name_en": "Angela L. Duckworth",
+      "founding_work_title": "Grit: Perseverance and passion for long-term goals",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "セルフコンパッション理論",
+      "name_en": "Self-Compassion Theory",
+      "definition": "自己への思いやりは「自己親切（自己批判の対極）」「共通人間性（孤立の対極）」「マインドフルネス（過同一化の対極）」の三要素から構成されるとする理論。仏教思想の実証心理学的定式化として、自己批判に代わる健全な自己態度のモデルを提示する。",
+      "impact_summary": "抑うつ・不安・完全主義・バーンアウト・身体イメージなど幅広い問題への有効性が数百の研究で示された。CFTやMSC（マインドフルネスに基づく自己コンパッション訓練）の理論的基盤となり、臨床・教育・組織の各領域に普及した。",
+      "subfield": "動機づけ心理学・臨床心理学",
+      "school_of_thought": "ポジティブ心理学・マインドフルネス",
+      "era_start": 2003,
+      "era_end": null,
+      "methodology_level": "尺度開発・相関研究・RCT",
+      "application_conditions": "自己批判・完全主義・バーンアウト・感情調節困難を抱えるクライアント・学習者・従業員。",
+      "when_to_apply": "自己批判が問題の核心にある場合に、認知再構成の代替として、またはその補完として。",
+      "framing_questions": [
+        "自分の失敗に対して親友に接するように接することができるか？",
+        "苦しみは人間共通の経験であることを認識できるか？"
+      ],
+      "opposing_concept_names": [
+        "自己批判（自己処罰志向）",
+        "自己高揚（過剰な自尊感情）"
+      ],
+      "keywords_ja": [
+        "セルフコンパッション",
+        "自己親切",
+        "共通人間性",
+        "マインドフルネス",
+        "自己批判"
+      ],
+      "keywords_en": [
+        "self-compassion",
+        "self-kindness",
+        "common humanity",
+        "mindfulness",
+        "self-criticism"
+      ],
+      "status": "確立・広く普及",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "クリスティン・ネフ",
+      "originator_name_en": "Kristin D. Neff",
+      "founding_work_title": "Self-Compassion: An Alternative Conceptualization of a Healthy Attitude Toward Oneself",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Self and Identity"
+    },
+    {
+      "name_ja": "意味づけモデル",
+      "name_en": "Meaning Making Model",
+      "definition": "ストレスフルな出来事への適応は「グローバルな意味（世界観・価値観・人生の意義感）」と「状況的意味（出来事に帰属された意味）」の不一致によって生じる苦痛を、意味づけプロセスを通じて解消することによって達成されるとするモデル。スピリチュアリティ・外傷後成長・コーピングを統合する枠組み。",
+      "impact_summary": "がん・喪失・自然災害などへの適応研究に広く応用され、意味づけプロセスのどの側面が心理的適応を予測するかの研究を促進した。Health Psychology・緩和ケア・宗教心理学との橋渡しとなった。",
+      "subfield": "健康心理学・臨床心理学",
+      "school_of_thought": "ポジティブ心理学・実存的心理学",
+      "era_start": 2010,
+      "era_end": null,
+      "methodology_level": "縦断研究・混合研究法",
+      "application_conditions": "深刻な喪失・疾患・トラウマ後の適応プロセスの評価と支援。",
+      "when_to_apply": "クライアントが「なぜこのことが起きたのか」「自分の人生にとって何を意味するのか」という問いと格闘している場合。",
+      "framing_questions": [
+        "この出来事は今のあなたの世界観とどう合っているか・ずれているか？",
+        "意味を見出すことは回復にどのように関わっているか？"
+      ],
+      "opposing_concept_names": [
+        "問題焦点型コーピング（意味づけを扱わない）",
+        "脱感作モデル（感情処理のみ）"
+      ],
+      "keywords_ja": [
+        "意味づけ",
+        "グローバル意味",
+        "状況的意味",
+        "コーピング",
+        "適応"
+      ],
+      "keywords_en": [
+        "meaning making",
+        "global meaning",
+        "situational meaning",
+        "coping",
+        "adjustment"
+      ],
+      "status": "確立・応用研究活発",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "クリスタル・パーク",
+      "originator_name_en": "Crystal L. Park",
+      "founding_work_title": "Making sense of the meaning literature: An integrative review of meaning making and its effects on adjustment to stressful life events",
+      "founding_work_year": 2010,
+      "founding_work_venue": "Psychological Bulletin"
+    },
+    {
+      "name_ja": "外傷後成長（PTG）理論",
+      "name_en": "Posttraumatic Growth (PTG) Theory",
+      "definition": "高度なストレスや外傷的出来事との闘争を通じて経験される肯定的な心理的変化であり、トラウマ以前の適応水準を超えた変容を含む。他者との関係の深化・新たな可能性の開拓・個人的強さ・霊的・実存的変化・生への感謝の五領域での成長として現れる。レジリエンスとは区別される。",
+      "impact_summary": "PTG尺度（PTGI）が世界的に使用され、がん・戦争・災害・喪失など多様な外傷的体験後の成長プロセスの研究を促進した。臨床実践ではトラウマ後の回復を超えた成長への視点を提供し、実存的・スピリチュアルな次元を心理療法に組み込む根拠となった。",
+      "subfield": "臨床心理学・健康心理学",
+      "school_of_thought": "ポジティブ心理学・実存的心理学",
+      "era_start": 1996,
+      "era_end": null,
+      "methodology_level": "尺度開発・縦断研究・定性研究",
+      "application_conditions": "深刻なトラウマ・生命の危機・喪失を経験した人の長期的適応支援。",
+      "when_to_apply": "PTSD症状の軽減後、または回復プロセスの中で意味・価値・アイデンティティの変容に取り組む際。",
+      "framing_questions": [
+        "この困難な経験はあなたを以前とは異なる人間にしたか？",
+        "どのような成長がこの苦しみから生まれたか？"
+      ],
+      "opposing_concept_names": [
+        "PTSD（否定的影響のみ注目）",
+        "レジリエンス（変容なき回復）"
+      ],
+      "keywords_ja": [
+        "外傷後成長",
+        "PTG",
+        "レジリエンス",
+        "トラウマ",
+        "意味"
+      ],
+      "keywords_en": [
+        "posttraumatic growth",
+        "PTG",
+        "resilience",
+        "trauma",
+        "meaning"
+      ],
+      "status": "確立・広く普及",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "リチャード・テデスキ、ローレンス・カルホーン",
+      "originator_name_en": "Richard G. Tedeschi, Lawrence G. Calhoun",
+      "founding_work_title": "Posttraumatic Growth: Conceptual Foundations and Empirical Evidence",
+      "founding_work_year": 2004,
+      "founding_work_venue": "Psychological Inquiry"
+    },
+    {
+      "name_ja": "ジョブ・クラフティング理論",
+      "name_en": "Job Crafting Theory",
+      "definition": "従業員が主体的に仕事のタスク境界・認知的境界・関係的境界を変更することで、仕事の意味と仕事アイデンティティを自ら形成するプロセスの理論。職務設計の受動的受け手ではなく、仕事の能動的再構成者としての従業員像を提示する。",
+      "impact_summary": "自律・意味・帰属の心理的ニーズに根ざした働き方改革の理論的基盤となり、ジョブ・クラフティング介入（JCI）として組織現場に展開された。バーンアウト予防・エンゲージメント向上・ウェルビーイング研究において大規模なメタ分析が蓄積されている。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ポジティブ組織行動・自己決定理論",
+      "era_start": 2001,
+      "era_end": null,
+      "methodology_level": "質問紙・縦断研究・介入研究",
+      "application_conditions": "仕事の意味・エンゲージメント・ウェルビーイングの向上を目指す組織介入。",
+      "when_to_apply": "従業員が仕事に意味を見出せず離職傾向にある場合、またはバーンアウトの予防的介入として。",
+      "framing_questions": [
+        "現在の仕事をどう変えれば、より意味深いものになるか？",
+        "どの業務を増やし、どれを減らすことができるか？"
+      ],
+      "opposing_concept_names": [
+        "職務再設計（組織が設計する）",
+        "職務従順モデル（役割通りに行動する）"
+      ],
+      "keywords_ja": [
+        "ジョブクラフティング",
+        "仕事の意味",
+        "エンゲージメント",
+        "主体的行動",
+        "組織"
+      ],
+      "keywords_en": [
+        "job crafting",
+        "work meaning",
+        "engagement",
+        "proactive behavior",
+        "organization"
+      ],
+      "status": "確立・組織介入に普及",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "エイミー・ルジニウスキ、ジェーン・ダットン",
+      "originator_name_en": "Amy Wrzesniewski, Jane E. Dutton",
+      "founding_work_title": "Crafting a Job: Revisioning Employees as Active Crafters of Their Work",
+      "founding_work_year": 2001,
+      "founding_work_venue": "Academy of Management Review"
+    },
+    {
+      "name_ja": "心理的資本（PsyCap）",
+      "name_en": "Psychological Capital (PsyCap)",
+      "definition": "自己効力感（自信）・楽観性・希望・レジリエンスという四つの状態様ポジティブ心理的リソースの複合構成概念。固定的な人格特性ではなく「状態様（state-like）」であり、短期的な介入で開発可能な従業員の心理的強みとして定式化される。ポジティブ組織行動（POB）の主要概念。",
+      "impact_summary": "職業的パフォーマンス・職務満足・組織コミットメント・ウェルビーイングとの正の関連が複数のメタ分析で確認された。PsyCap開発介入（短時間マイクロ学習含む）の有効性も示されており、人材育成・リーダーシップ開発の実践的フレームワークとして広く採用されている。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ポジティブ組織行動・ポジティブ心理学",
+      "era_start": 2007,
+      "era_end": null,
+      "methodology_level": "尺度開発・RCT・メタ分析",
+      "application_conditions": "組織的ウェルビーイング・パフォーマンス向上・リーダーシップ開発プログラム。",
+      "when_to_apply": "従業員のポジティブな心理的リソースを開発・測定・強化したい場合。",
+      "framing_questions": [
+        "この従業員は困難に直面したとき、自信・希望・楽観性・回復力をどの程度持っているか？",
+        "心理的資本を高める短期的介入は何か？"
+      ],
+      "opposing_concept_names": [
+        "負の感情・弱点焦点モデル",
+        "固定的人格特性論"
+      ],
+      "keywords_ja": [
+        "心理的資本",
+        "PsyCap",
+        "レジリエンス",
+        "希望",
+        "楽観性",
+        "自己効力感"
+      ],
+      "keywords_en": [
+        "psychological capital",
+        "PsyCap",
+        "resilience",
+        "hope",
+        "optimism",
+        "self-efficacy"
+      ],
+      "status": "確立・組織介入に普及",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "フレッド・ルサンス",
+      "originator_name_en": "Fred Luthans",
+      "founding_work_title": "Psychological Capital: Developing the Human Competitive Edge",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Oxford University Press（書籍）"
+    },
+    {
+      "name_ja": "エビデンスベースド・マネジメント",
+      "name_en": "Evidence-Based Management (EBMgt)",
+      "definition": "経営上の意思決定において、科学的研究のエビデンス・組織内データ・ステークホルダーの価値・管理者の経験の四つを批判的に統合するアプローチ。流行や慣習ではなく証拠に基づく組織管理を目指し、医学における「エビデンスベースド・メディスン」を経営に応用したもの。",
+      "impact_summary": "経営研究と実践の間の「研究実践ギャップ」への批判的対応として登場し、管理教育・組織コンサルティングの変革を促した。CEBMA（エビデンスベースド経営センター）の設立や、経営大学院のカリキュラム改革につながった。",
+      "subfield": "産業・組織心理学・経営学",
+      "school_of_thought": "科学的管理論・証拠基盤実践",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "理論・系統的レビュー・フレームワーク",
+      "application_conditions": "組織の意思決定・人材管理・戦略立案においてエビデンスを活用したい場面。",
+      "when_to_apply": "流行的な経営手法や直感に依存した意思決定を批判的に検討する際。",
+      "framing_questions": [
+        "この経営判断はどのようなエビデンスに基づいているか？",
+        "科学的研究は現場の問題に何を言っているか？"
+      ],
+      "opposing_concept_names": [
+        "流行・慣習依存の経営（ファッドベースドマネジメント）",
+        "経験主義のみの意思決定"
+      ],
+      "keywords_ja": [
+        "エビデンスベースド経営",
+        "意思決定",
+        "研究実践ギャップ",
+        "組織管理",
+        "科学的管理"
+      ],
+      "keywords_en": [
+        "evidence-based management",
+        "decision making",
+        "research-practice gap",
+        "organizational management",
+        "scientific management"
+      ],
+      "status": "確立・普及中",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 3,
+      "originator_name": "デニーズ・ルソー",
+      "originator_name_en": "Denise M. Rousseau",
+      "founding_work_title": "Is There Such a Thing as 'Evidence-Based Management'?",
+      "founding_work_year": 2006,
+      "founding_work_venue": "Academy of Management Review"
+    },
+    {
+      "name_ja": "組織正義の4次元モデル",
+      "name_en": "Four-Dimensional Model of Organizational Justice",
+      "definition": "組織的公正を「分配的公正（アウトカムの公平性）」「手続き的公正（意思決定プロセスの公正さ）」「対人的公正（尊厳・礼儀をもった扱い）」「情報的公正（理由・説明の提供）」の四次元から測定する枠組み。先行する二次元・三次元モデルを経て確定された。",
+      "impact_summary": "組織正義尺度（20項目）が国際的に広く使用され、職務満足・組織コミットメント・市民行動・離職意図・信頼などのアウトカムとの関連を研究する標準的ツールとなった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "組織行動論・公正理論",
+      "era_start": 2001,
+      "era_end": null,
+      "methodology_level": "尺度開発・確認的因子分析",
+      "application_conditions": "組織の公正文化評価・ハラスメント防止・リーダーシップ評価・人事政策の検討。",
+      "when_to_apply": "組織内での不公正感が問題になっている場合や、公正文化の組織的測定が必要な場合。",
+      "framing_questions": [
+        "意思決定プロセスは公正だったか？",
+        "担当者から尊厳をもって扱われたか？",
+        "結果についての十分な説明があったか？"
+      ],
+      "opposing_concept_names": [
+        "分配的公正のみのモデル（アウトカムのみに注目）"
+      ],
+      "keywords_ja": [
+        "組織正義",
+        "手続き的公正",
+        "分配的公正",
+        "対人的公正",
+        "情報的公正"
+      ],
+      "keywords_en": [
+        "organizational justice",
+        "procedural justice",
+        "distributive justice",
+        "interpersonal justice",
+        "informational justice"
+      ],
+      "status": "確立・標準的測定ツール",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "ジェイソン・コルキット",
+      "originator_name_en": "Jason A. Colquitt",
+      "founding_work_title": "On the Dimensionality of Organizational Justice: A Construct Validation of a Measure",
+      "founding_work_year": 2001,
+      "founding_work_venue": "Journal of Applied Psychology"
+    },
+    {
+      "name_ja": "累積的文化進化論",
+      "name_en": "Cumulative Cultural Evolution Theory",
+      "definition": "人間文化の特徴は、知識・技術・規範が世代を超えて蓄積され、ラチェット効果（逆戻りなき改善）によって複雑化するという進化的理論。模倣・教示・言語・協力的文化継承を通じた情報の蓄積的伝達が、チンパンジー等との差異を生む。ジョセフ・ヘンリッチの文化的集団選択・遺伝子-文化共進化理論と密接に結びつく。",
+      "impact_summary": "人類の道具技術・言語・制度・宗教の複雑化を進化論的に説明する統合的枠組みを提供した。WEIRDバイアスや文化的学習の社会的条件（集団規模・連結性）との関連研究が拡大し、進化心理学・比較認知・文化人類学を統合した。",
+      "subfield": "進化心理学・文化進化論",
+      "school_of_thought": "進化論・二重継承理論",
+      "era_start": 2009,
+      "era_end": null,
+      "methodology_level": "比較研究・実験・数理モデル",
+      "application_conditions": "文化的複雑性の起源・教育・技術普及・組織学習の進化的理解。",
+      "when_to_apply": "人間の文化的能力が他の霊長類と異なる理由を説明したい場合、または組織の知識蓄積プロセスを進化的に分析する際。",
+      "framing_questions": [
+        "この文化的知識はどのように世代を超えて蓄積されてきたか？",
+        "ラチェット効果はどの条件下で最も機能するか？"
+      ],
+      "opposing_concept_names": [
+        "先天的知識論（学習不要の本能）",
+        "個人学習主義"
+      ],
+      "keywords_ja": [
+        "累積的文化進化",
+        "ラチェット効果",
+        "文化的学習",
+        "模倣",
+        "二重継承"
+      ],
+      "keywords_en": [
+        "cumulative cultural evolution",
+        "ratchet effect",
+        "cultural learning",
+        "imitation",
+        "dual inheritance"
+      ],
+      "status": "確立・活発な研究",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "ジョセフ・ヘンリッチ（マイケル・トマセロと並行）",
+      "originator_name_en": "Joseph Henrich (and Michael Tomasello in parallel)",
+      "founding_work_title": "Ratcheting up the ratchet: on the evolution of cumulative culture",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Philosophical Transactions of the Royal Society B"
+    },
+    {
+      "name_ja": "文化的集団選択・遺伝子-文化共進化理論",
+      "name_en": "Cultural Group Selection and Gene-Culture Coevolution Theory",
+      "definition": "文化的変異に作用する集団間選択が、人間の協力行動・大規模な制度・社会的心理の進化を促進したとする理論。遺伝子と文化は相互に適応圧をかけ合いながら共進化し、人間特有の大規模協力・道徳規範・宗教・社会規範の心理的基盤を形成したと説明する。",
+      "impact_summary": "WEIRD（西洋・教育・工業化・豊かな・民主的）バイアスの問題提起、宗教・道徳・制度の進化的起源研究を刺激した。利己的遺伝子理論や標準的社会科学モデルへの批判として、進化生物学・人類学・経済学・政治学を横断する理論的枠組みとなった。",
+      "subfield": "進化心理学・文化人類学",
+      "school_of_thought": "多層選択理論・文化進化論",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "数理モデル・比較文化研究・行動実験",
+      "application_conditions": "人間の大規模協力・道徳規範・宗教・文化的多様性の進化的・心理的根拠の研究。",
+      "when_to_apply": "なぜ人間は見知らぬ他者と協力するのかを進化的・文化的観点から説明したい場合。",
+      "framing_questions": [
+        "この文化的規範はどのような選択圧の下で形成されたか？",
+        "文化は遺伝子のどのような変異を誘導したか？"
+      ],
+      "opposing_concept_names": [
+        "利己的遺伝子理論（個体レベル選択）",
+        "標準社会科学モデル（文化を生物学から独立と見る）"
+      ],
+      "keywords_ja": [
+        "文化的集団選択",
+        "遺伝子文化共進化",
+        "協力進化",
+        "大規模協力",
+        "WEIRD"
+      ],
+      "keywords_en": [
+        "cultural group selection",
+        "gene-culture coevolution",
+        "cooperation evolution",
+        "large-scale cooperation",
+        "WEIRD"
+      ],
+      "status": "確立・活発な議論",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 3,
+      "originator_name": "ジョセフ・ヘンリッチ",
+      "originator_name_en": "Joseph Henrich",
+      "founding_work_title": "Cultural group selection, coevolutionary processes and large-scale cooperation",
+      "founding_work_year": 2004,
+      "founding_work_venue": "Journal of Economic Behavior & Organization"
+    },
+    {
+      "name_ja": "進化的ミスマッチ仮説",
+      "name_en": "Evolutionary Mismatch Hypothesis",
+      "definition": "人間の遺伝的・発達的基盤は進化的適応環境（EEA）のために形成されたにもかかわらず、現代の環境と大きく乖離（ミスマッチ）しており、その結果として肥満・不安・うつ・近視・不眠などの現代病が生じるとする理論。身体的ミスマッチと心理的ミスマッチの両側面を含む。",
+      "impact_summary": "進化医学・進化精神医学を接続する枠組みとして、生活習慣病・精神疾患・行動の問題を進化的観点から再解釈する研究を促進した。公衆衛生政策・臨床実践・教育設計における環境設計の重要性に理論的基盤を与えた。",
+      "subfield": "進化心理学・健康心理学",
+      "school_of_thought": "進化医学・適応主義",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "比較文化研究・疫学・生態研究",
+      "application_conditions": "現代病・精神障害・行動問題を進化的に説明したい場合。公衆衛生・生活習慣病予防。",
+      "when_to_apply": "クライアントの問題行動が「なぜ進化的に存在するのか」を理解し、環境設計的介入を考える際。",
+      "framing_questions": [
+        "このクライアントの反応は、進化的には適応的だった環境とのミスマッチを示しているか？",
+        "どのような環境変更が問題を軽減するか？"
+      ],
+      "opposing_concept_names": [
+        "文化主義（進化的制約を無視）",
+        "本能主義（環境を考慮しない）"
+      ],
+      "keywords_ja": [
+        "進化的ミスマッチ",
+        "現代病",
+        "適応環境",
+        "進化医学",
+        "生活習慣病"
+      ],
+      "keywords_en": [
+        "evolutionary mismatch",
+        "modern disease",
+        "environment of evolutionary adaptedness",
+        "evolutionary medicine",
+        "lifestyle disease"
+      ],
+      "status": "確立・研究継続",
+      "source_reliability": 5,
+      "data_completeness": 3,
+      "predictive_power": 3,
+      "empirical_support": 3,
+      "originator_name": "ピーター・グラックマン、マーク・ハンソン",
+      "originator_name_en": "Peter Gluckman, Mark Hanson",
+      "founding_work_title": "Mismatch: Why Our World No Longer Fits Our Bodies",
+      "founding_work_year": 2006,
+      "founding_work_venue": "Oxford University Press（書籍）"
+    },
+    {
+      "name_ja": "ヒューマン・コネクトーム",
+      "name_en": "Human Connectome",
+      "definition": "脳内のすべての神経接続の包括的マップである「コネクトーム」を構築・解析し、構造的・機能的接続性が認知・行動・精神疾患に与える影響を理解しようとする神経科学的枠組み。拡散テンソルイメージング（DTI）・fMRIを組み合わせた大規模脳マッピングプロジェクト（HCP）として具体化された。",
+      "impact_summary": "「脳の配線図」を理解するというHuman Connectome Projectを含む国際的大規模研究が展開され、統合失調症・うつ病・ASD・ADHD等の神経生物学的基盤の解明と、個人差の予測可能性研究を飛躍的に前進させた。",
+      "subfield": "神経心理学・認知神経科学",
+      "school_of_thought": "コネクトミクス・システム神経科学",
+      "era_start": 2005,
+      "era_end": null,
+      "methodology_level": "神経画像・グラフ理論・大規模データ解析",
+      "application_conditions": "精神疾患の神経生物学的基盤研究、個人差の予測モデル構築、臨床的バイオマーカー探索。",
+      "when_to_apply": "精神疾患の脳レベルの機構を理解したい場合、または神経画像データを使った個人差研究。",
+      "framing_questions": [
+        "この障害はどの接続性の異常と関連するか？",
+        "脳の構造的ネットワークが行動・認知をどう制約するか？"
+      ],
+      "opposing_concept_names": [
+        "局在主義（単一部位の機能局在論）",
+        "行動主義（脳内機構を無視）"
+      ],
+      "keywords_ja": [
+        "コネクトーム",
+        "脳接続性",
+        "神経画像",
+        "構造的接続",
+        "機能的接続"
+      ],
+      "keywords_en": [
+        "connectome",
+        "brain connectivity",
+        "neuroimaging",
+        "structural connectivity",
+        "functional connectivity"
+      ],
+      "status": "確立・大規模研究進行中",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "オラフ・スポーンス",
+      "originator_name_en": "Olaf Sporns",
+      "founding_work_title": "The Human Connectome: A Structural Description of the Human Brain",
+      "founding_work_year": 2005,
+      "founding_work_venue": "PLoS Computational Biology"
+    },
+    {
+      "name_ja": "デフォルトモードネットワークと精神疾患",
+      "name_en": "Default Mode Network and Psychopathology",
+      "definition": "安静時に活性化する脳の内省的ネットワーク（DMN）の異常な機能的接続が、うつ病・統合失調症・ASD・PTSD等の精神疾患の症状メカニズム（特に反芻・自己言及的思考・社会認知の異常）を生み出すとする神経科学的理論。",
+      "impact_summary": "「脳の休止状態」の機能的意味を明らかにし、安静時fMRI研究という新しい研究パラダイムを確立した。うつ病における反芻とDMN過活性の関連は特に実証的蓄積が大きく、neuromodulation療法（TMS・DBS）の標的として臨床応用が進んでいる。",
+      "subfield": "神経心理学・臨床神経科学",
+      "school_of_thought": "システム神経科学・認知神経科学",
+      "era_start": 2005,
+      "era_end": null,
+      "methodology_level": "fMRI・メタ分析・縦断研究",
+      "application_conditions": "精神疾患の神経基盤研究、ニューロモジュレーション治療の標的同定。",
+      "when_to_apply": "うつ病・PTSDなどにおける反芻・自己言及的思考の神経基盤を研究・治療する際。",
+      "framing_questions": [
+        "この患者の症状はDMNの過剰活性と関連するか？",
+        "DMNの接続性パターンはどのような認知・感情症状を予測するか？"
+      ],
+      "opposing_concept_names": [
+        "局所的病変モデル",
+        "純粋な心理学的モデル（神経基盤を無視）"
+      ],
+      "keywords_ja": [
+        "デフォルトモードネットワーク",
+        "DMN",
+        "反芻",
+        "うつ病",
+        "安静時fMRI"
+      ],
+      "keywords_en": [
+        "default mode network",
+        "DMN",
+        "rumination",
+        "depression",
+        "resting-state fMRI"
+      ],
+      "status": "確立・活発な研究",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "マーカス・レイクル（DMN概念）、ゼヴ・ハマーニー（うつ病との関連）",
+      "originator_name_en": "Marcus Raichle (DMN concept), Ziv Ben-Zion / Sheline et al. (depression link)",
+      "founding_work_title": "Depressive Rumination, the Default-Mode Network, and the Dark Matter of Clinical Neuroscience",
+      "founding_work_year": 2015,
+      "founding_work_venue": "Biological Psychiatry"
+    },
+    {
+      "name_ja": "脳-コンピュータ・インターフェースの心理学",
+      "name_en": "Brain-Computer Interface (BCI) Psychology",
+      "definition": "電気的脳活動（EEG・ECoG・局所電位等）を直接コンピュータコマンドや補助装置に変換することで、運動機能を失った患者のコミュニケーション・移動・環境制御を可能にする技術の心理学的基盤。ユーザーの認知・感情・学習プロセスとBCI制御の相互作用を研究する。",
+      "impact_summary": "ALS・脊髄損傷・重度脳性麻痺患者のコミュニケーション手段として臨床応用が進み、神経リハビリテーション・ニューロフィードバック・認知増強の基盤となった。マスク/ニューラリンク等の民間BCI開発により社会的注目が急上昇している。",
+      "subfield": "神経心理学・リハビリ心理学",
+      "school_of_thought": "神経工学・応用神経科学",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "臨床研究・コントロール実験・技術開発",
+      "application_conditions": "重篤な運動障害・コミュニケーション障害を持つ患者へのリハビリ・補助技術。",
+      "when_to_apply": "音声・動作による通常コミュニケーションが困難な患者への代替コミュニケーション手段を検討する場合。",
+      "framing_questions": [
+        "この患者は脳波を通じてどの程度のコミュニケーション制御を学習できるか？",
+        "BCIトレーニングにはどのような認知的・動機的要因が影響するか？"
+      ],
+      "opposing_concept_names": [
+        "侵襲的外科手術のみ",
+        "既存の補助技術（視線追跡・スイッチ通信）"
+      ],
+      "keywords_ja": [
+        "脳コンピュータインターフェース",
+        "BCI",
+        "神経工学",
+        "ニューロフィードバック",
+        "補助技術"
+      ],
+      "keywords_en": [
+        "brain-computer interface",
+        "BCI",
+        "neuroprosthetics",
+        "neurofeedback",
+        "assistive technology"
+      ],
+      "status": "急速発展中・臨床応用段階",
+      "source_reliability": 5,
+      "data_completeness": 4,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "ジョナサン・ウォルポウ",
+      "originator_name_en": "Jonathan R. Wolpaw",
+      "founding_work_title": "Brain-Computer Interfaces: Principles and Practice",
+      "founding_work_year": 2012,
+      "founding_work_venue": "Oxford University Press（書籍）"
+    },
+    {
+      "name_ja": "自己調整学習の社会認知モデル（改訂版）",
+      "name_en": "Social Cognitive Model of Self-Regulated Learning (Revised)",
+      "definition": "自己調整学習（SRL）を、予期段階（目標設定・計画・動機づけ信念）・遂行段階（モニタリング・自己制御）・自己省察段階（自己評価・帰属・自己反応）の循環的三段階として定式化するモデル。バンデューラの三項相互決定論（個人・行動・環境）を学習プロセスに統合し、自己効力感の中心的役割を強調する。2009年に最終更新版が提示された。",
+      "impact_summary": "学習者の主体的学習能力開発のための教育的介入研究の基盤となり、オンライン学習・生涯学習・医学教育など多領域に応用された。コーチング・メンタリング・学習支援システム設計の理論的基盤として世界的に採用されている。",
+      "subfield": "教育心理学・動機づけ心理学",
+      "school_of_thought": "社会認知理論・動機づけ理論",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "縦断研究・実験的研究・質問紙",
+      "application_conditions": "学習者の自律的学習能力の評価と強化。教師・コーチによるSRL指導設計。",
+      "when_to_apply": "学習者が自分の学習プロセスをモニタリング・調整する能力の強化を目指す教育支援において。",
+      "framing_questions": [
+        "学習者は自分の理解状況を正確にモニタリングできているか？",
+        "失敗の後、学習者はどのような原因帰属と自己反応を示すか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的学習理論（内的プロセスを無視）",
+        "能力固定論"
+      ],
+      "keywords_ja": [
+        "自己調整学習",
+        "SRL",
+        "自己効力感",
+        "メタ認知",
+        "動機づけ"
+      ],
+      "keywords_en": [
+        "self-regulated learning",
+        "SRL",
+        "self-efficacy",
+        "metacognition",
+        "motivation"
+      ],
+      "status": "確立・標準的理論",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "バリー・ジマーマン",
+      "originator_name_en": "Barry J. Zimmerman",
+      "founding_work_title": "Attaining Self-Regulation: A Social Cognitive Perspective",
+      "founding_work_year": 2000,
+      "founding_work_venue": "Handbook of Self-Regulation (Academic Press)（書籍章）"
+    },
+    {
+      "name_ja": "心理的柔軟性モデル（ACT）",
+      "name_en": "Psychological Flexibility Model (ACT)",
+      "definition": "受容・脱フュージョン・今この瞬間への接触・文脈としての自己・価値・コミットされた行動の六つのコアプロセスからなる心理的健康のモデル。心理的柔軟性とは「状況に応じて、今この瞬間にオープンに、注意深く、価値に基づいた行動を取る能力」と定義される。関係フレーム理論（RFT）という行動科学の基礎的理論に根拠を置く。",
+      "impact_summary": "ACTの有効性が慢性疼痛・うつ・不安・職場ストレス・パフォーマンス向上など200件超のRCTで実証された。心理的柔軟性という単一構成概念が精神的健康の中核的指標として広く使用され、健康心理学・産業心理学・コーチングに普及した。",
+      "subfield": "臨床心理学・健康心理学",
+      "school_of_thought": "文脈行動科学・第三世代CBT",
+      "era_start": 1999,
+      "era_end": null,
+      "methodology_level": "RCT・メタ分析・過程研究",
+      "application_conditions": "感情回避・実験的回避・認知フュージョンが問題の維持に寄与している場合全般。",
+      "when_to_apply": "思考・感情との戦いをやめ、価値に基づく行動を増やすことを目的とする介入において。",
+      "framing_questions": [
+        "この思考は役立っているか、それとも邪魔しているか？",
+        "本当に大切にしたい価値は何か？"
+      ],
+      "opposing_concept_names": [
+        "認知的コントロール（思考・感情の抑制）",
+        "感情回避モデル"
+      ],
+      "keywords_ja": [
+        "心理的柔軟性",
+        "ACT",
+        "受容",
+        "脱フュージョン",
+        "価値",
+        "コミット行動"
+      ],
+      "keywords_en": [
+        "psychological flexibility",
+        "ACT",
+        "acceptance",
+        "defusion",
+        "values",
+        "committed action"
+      ],
+      "status": "確立・広く普及",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 5,
+      "originator_name": "スティーヴン・ヘイズ",
+      "originator_name_en": "Steven C. Hayes",
+      "founding_work_title": "Acceptance and Commitment Therapy: Model, Processes and Outcomes",
+      "founding_work_year": 2006,
+      "founding_work_venue": "Behaviour Research and Therapy"
+    },
+    {
+      "name_ja": "COM-Bモデル",
+      "name_en": "COM-B Model of Behaviour",
+      "definition": "行動（Behaviour）は能力（Capability）・機会（Opportunity）・動機づけ（Motivation）の三要素がすべて揃ったときに生起するという行動変容の統合モデル。心理的・身体的能力、物理的・社会的機会、自動的・反省的動機づけの六サブカテゴリで構成され、行動変容ホイール（BCW）の中核をなす。",
+      "impact_summary": "19の既存理論を一つのホイールに統合した実用性が評価され、COVID-19ワクチン接種行動・喫煙・食事・運動など多領域で応用された。国際的な行動変容介入設計の最も広く使用される統合的枠組みの一つとなった。",
+      "subfield": "健康心理学・行動変容科学",
+      "school_of_thought": "行動科学・健康行動理論",
+      "era_start": 2011,
+      "era_end": null,
+      "methodology_level": "理論統合・介入設計フレームワーク",
+      "application_conditions": "行動変容を促す介入のデザイン・評価。公衆衛生・医療コンプライアンス・職域健康増進。",
+      "when_to_apply": "行動変容の阻害要因を体系的に分析し、適切な介入手法を選択する必要がある場合。",
+      "framing_questions": [
+        "対象者に能力（知識・スキル）はあるか？",
+        "機会（環境・社会的サポート）は整っているか？",
+        "動機づけは行動を支えているか？"
+      ],
+      "opposing_concept_names": [
+        "健康信念モデル（個人の認知のみを重視）",
+        "計画的行動理論（意図のみを重視）"
+      ],
+      "keywords_ja": [
+        "行動変容",
+        "COM-B",
+        "能力",
+        "機会",
+        "動機づけ",
+        "行動変容ホイール"
+      ],
+      "keywords_en": [
+        "behaviour change",
+        "COM-B",
+        "capability",
+        "opportunity",
+        "motivation",
+        "behaviour change wheel"
+      ],
+      "status": "確立・標準的フレームワーク",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 4,
+      "empirical_support": 4,
+      "originator_name": "スーザン・ミキー",
+      "originator_name_en": "Susan Michie",
+      "founding_work_title": "The behaviour change wheel: a new method for characterising and designing behaviour change interventions",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Implementation Science"
+    },
+    {
+      "name_ja": "統合実装フレームワーク（CFIR）",
+      "name_en": "Consolidated Framework for Implementation Research (CFIR)",
+      "definition": "エビデンスベースの介入を実際の臨床・組織・地域場面に導入・定着させるプロセスを分析するための統合的フレームワーク。介入特性・外部環境・内部環境・個人特性・実装プロセスの五つのドメインと多数の下位構成概念から成る。19の既存実装理論を統合して構築された。",
+      "impact_summary": "ヘルスサービス研究・公衆衛生・教育・社会福祉など多領域での実装研究の標準的枠組みとなった。2022年に大規模アップデートが行われ、エクイティへの配慮が追加された。最も広く応用されている実装科学フレームワークの一つ。",
+      "subfield": "健康心理学・実装科学",
+      "school_of_thought": "実装科学・知識移転",
+      "era_start": 2009,
+      "era_end": null,
+      "methodology_level": "フレームワーク研究・混合研究法",
+      "application_conditions": "エビデンスベース介入の実装・定着を促進または阻害する要因を体系的に分析したい場合。",
+      "when_to_apply": "研究知見を実践の場に橋渡しするプロセスの評価・設計において。",
+      "framing_questions": [
+        "どの文脈的要因がこの介入の実装を阻んでいるか？",
+        "介入特性のどの側面が採用を促進するか？"
+      ],
+      "opposing_concept_names": [
+        "臨床試験のみによる評価（実装プロセスを無視）"
+      ],
+      "keywords_ja": [
+        "実装科学",
+        "CFIR",
+        "知識移転",
+        "実装バリア",
+        "研究実践ギャップ"
+      ],
+      "keywords_en": [
+        "implementation science",
+        "CFIR",
+        "knowledge translation",
+        "implementation barriers",
+        "research-practice gap"
+      ],
+      "status": "確立・広く採用",
+      "source_reliability": 5,
+      "data_completeness": 5,
+      "predictive_power": 3,
+      "empirical_support": 4,
+      "originator_name": "ローラ・ダムスロッダー",
+      "originator_name_en": "Laura J. Damschroder",
+      "founding_work_title": "Fostering implementation of health services research findings into practice: a consolidated framework for advancing implementation science",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Implementation Science"
+    }
+  ]
+}
