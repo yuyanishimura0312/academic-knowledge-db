@@ -1,0 +1,4422 @@
+{
+  "domain": "social_sciences",
+  "concepts": [
+    {
+      "name_ja": "変革型リーダーシップ理論",
+      "name_en": "Transformational Leadership Theory",
+      "definition": "リーダーが部下のビジョン・価値観・信念を変容させ、自己利益を超えた組織目標への献身を引き出すリーダーシップの様式。バーンズが概念化し、バスが四要素（理想化された影響力・鼓舞的動機づけ・知的刺激・個別的配慮）に整理した。取引型リーダーシップとの対比で理解される。",
+      "impact_summary": "世界で最も研究されるリーダーシップ理論となり、組織業績・従業員エンゲージメント・創造性を高めることが数百件のメタ分析で確認されている。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "新リーダーシップ理論",
+      "era_start": 1978,
+      "era_end": null,
+      "methodology_level": "個人・チーム・組織レベル",
+      "application_conditions": "組織変革期、高度な自律性が求められる知識労働、価値観主導型の組織文化",
+      "when_to_apply": "組織が変革を必要とするとき、従業員の内発的動機を高めたいとき",
+      "framing_questions": [
+        "リーダーはビジョンを通じて部下を動機づけているか？",
+        "個別の成長ニーズに対応しているか？"
+      ],
+      "opposing_concept_names": [
+        "取引型リーダーシップ",
+        "放任型リーダーシップ"
+      ],
+      "keywords_ja": [
+        "ビジョン",
+        "鼓舞的動機づけ",
+        "知的刺激",
+        "個別的配慮",
+        "カリスマ"
+      ],
+      "keywords_en": [
+        "transformational",
+        "vision",
+        "inspirational motivation",
+        "intellectual stimulation",
+        "individualized consideration"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "組織業績・満足度との相関r=0.44（メタ分析）、創造性促進効果も一貫して確認",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・マクレガー・バーンズ、バーナード・バス",
+      "originator_name_en": "James MacGregor Burns, Bernard Bass",
+      "founding_work_title": "Leadership",
+      "founding_work_year": 1978,
+      "founding_work_venue": "Harper & Row"
+    },
+    {
+      "name_ja": "サーバント・リーダーシップ理論",
+      "name_en": "Servant Leadership Theory",
+      "definition": "リーダーはまず奉仕者であり、部下・組織・社会のニーズを優先することで、結果として卓越したリーダーシップを発揮するという考え方。グリーンリーフが提唱し、傾聴・共感・癒し・気づき・説得・構想・先見性・スチュワードシップ・人の成長へのコミットメント・コミュニティ形成の十属性が特定されている。",
+      "impact_summary": "従業員の信頼・職務満足・組織コミットメントを高める効果が実証され、持続可能な組織文化論の基盤となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "新リーダーシップ理論",
+      "era_start": 1970,
+      "era_end": null,
+      "methodology_level": "個人・チーム・組織レベル",
+      "application_conditions": "非営利組織、価値観重視の企業文化、長期的な人材育成が重要な文脈",
+      "when_to_apply": "部下の成長と組織の持続的発展を同時に追求したいとき",
+      "framing_questions": [
+        "リーダーは部下の成長を自分の目標の中心に置いているか？",
+        "組織よりも人を優先する文化があるか？"
+      ],
+      "opposing_concept_names": [
+        "権威型リーダーシップ",
+        "変革型リーダーシップ（部分的）"
+      ],
+      "keywords_ja": [
+        "奉仕",
+        "傾聴",
+        "共感",
+        "スチュワードシップ",
+        "人の成長"
+      ],
+      "keywords_en": [
+        "servant",
+        "listening",
+        "empathy",
+        "stewardship",
+        "community building"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "信頼・満足・OCBとの正の相関が多数メタ分析で確認（r=0.30〜0.50）",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・グリーンリーフ",
+      "originator_name_en": "Robert K. Greenleaf",
+      "founding_work_title": "The Servant as Leader",
+      "founding_work_year": 1970,
+      "founding_work_venue": "Robert K. Greenleaf Center"
+    },
+    {
+      "name_ja": "LMX理論（リーダー・メンバー交換理論）",
+      "name_en": "Leader-Member Exchange Theory",
+      "definition": "リーダーは部下全員に同一の行動をとるのではなく、各部下と異なる質の二者関係を形成するという理論。高品質なLMX関係（内集団）では信頼・自律・支援が豊かであり、低品質関係（外集団）では形式的な職務遂行にとどまる。グレーンとキャッシュマンが役割交渉理論として提唱し、後にLMXと改名された。",
+      "impact_summary": "リーダーシップの個別性と二者関係の質が組織成果に与える影響を明確にし、職務満足・組織コミットメント・離職意図の予測に有効。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "関係的リーダーシップ理論",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "二者・チーム・組織レベル",
+      "application_conditions": "リーダーと部下の個別関係を測定・改善したい組織、公平性の問題が生じている職場",
+      "when_to_apply": "特定の部下が孤立または優遇されている可能性があるとき",
+      "framing_questions": [
+        "リーダーは全ての部下と質の高い関係を形成しているか？",
+        "内集団・外集団の分断が生じていないか？"
+      ],
+      "opposing_concept_names": [
+        "平均的リーダーシップスタイル理論"
+      ],
+      "keywords_ja": [
+        "二者関係",
+        "内集団",
+        "外集団",
+        "役割交渉",
+        "信頼"
+      ],
+      "keywords_en": [
+        "dyadic relationship",
+        "in-group",
+        "out-group",
+        "role negotiation",
+        "trust"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "職務満足r=0.46、組織コミットメントr=0.35（メタ分析）",
+      "empirical_support": "supported",
+      "originator_name": "ジョージ・グレーン、ジェームズ・キャッシュマン",
+      "originator_name_en": "George Graen, James Cashman",
+      "founding_work_title": "A Role-Making Model of Leadership in Formal Organizations",
+      "founding_work_year": 1975,
+      "founding_work_venue": "Hunt & Larson (Eds.), Leadership Frontiers, Kent State University Press"
+    },
+    {
+      "name_ja": "状況的リーダーシップ理論",
+      "name_en": "Situational Leadership Theory",
+      "definition": "有効なリーダーシップスタイルは部下の「準備度（能力×意欲）」によって変わるとする理論。ハーシーとブランチャードが提唱し、指示的行動と支援的行動の組み合わせから指示型・コーチング型・支援型・委任型の四スタイルを導出する。部下の成熟度に応じてスタイルを柔軟に切り替えることが求められる。",
+      "impact_summary": "企業研修で世界的に普及した実践的フレームワークであり、リーダーシップの適応性の重要性を組織教育に浸透させた。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "コンティンジェンシー理論",
+      "era_start": 1969,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "新人から熟練者まで多様なメンバーが混在するチーム、育成段階に応じたコーチングが必要な場面",
+      "when_to_apply": "部下の習熟度がまちまちな組織で、画一的な管理を見直したいとき",
+      "framing_questions": [
+        "部下ごとの能力と意欲のレベルを把握しているか？",
+        "状況に合わせてリーダーシップスタイルを変えているか？"
+      ],
+      "opposing_concept_names": [
+        "特性理論（固定的リーダーシップ観）"
+      ],
+      "keywords_ja": [
+        "準備度",
+        "指示的行動",
+        "支援的行動",
+        "成熟度",
+        "適応的リーダーシップ"
+      ],
+      "keywords_en": [
+        "readiness",
+        "directive behavior",
+        "supportive behavior",
+        "maturity",
+        "adaptive leadership"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "実証研究の蓄積は変革型より少なく、測定ツールの信頼性に批判あり",
+      "empirical_support": "mixed",
+      "originator_name": "ポール・ハーシー、ケン・ブランチャード",
+      "originator_name_en": "Paul Hersey, Ken Blanchard",
+      "founding_work_title": "Life Cycle Theory of Leadership",
+      "founding_work_year": 1969,
+      "founding_work_venue": "Training and Development Journal, 23(2)"
+    },
+    {
+      "name_ja": "オーセンティック・リーダーシップ理論",
+      "name_en": "Authentic Leadership Theory",
+      "definition": "自己認識・透明性・倫理的行動・バランスのとれた情報処理という四要素から成るリーダーシップの様式。ルーサンスとアヴォリオがポジティブ組織行動の文脈で定式化した。自分の価値観・強み・弱みを深く認識し、誠実に行動するリーダーが持続的な組織成果をもたらすとする。",
+      "impact_summary": "エンロン不正事件後の倫理的リーダーシップへの関心を背景に急成長した研究領域であり、従業員の信頼・ウェルビーイング・エンゲージメントとの関連が実証されている。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ポジティブ組織行動論",
+      "era_start": 2003,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "組織の信頼危機、リーダー育成プログラム、価値観主導型組織",
+      "when_to_apply": "リーダーの誠実さや倫理観が問われる場面、組織文化の再構築期",
+      "framing_questions": [
+        "リーダーは自己の価値観に基づいて一貫した行動をとっているか？",
+        "弱みを含めた自己開示ができているか？"
+      ],
+      "opposing_concept_names": [
+        "操作的リーダーシップ",
+        "印象管理に依拠したリーダーシップ"
+      ],
+      "keywords_ja": [
+        "自己認識",
+        "透明性",
+        "倫理",
+        "誠実性",
+        "ポジティブ心理資本"
+      ],
+      "keywords_en": [
+        "self-awareness",
+        "transparency",
+        "ethical behavior",
+        "authentic",
+        "positive psychological capital"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "信頼・エンゲージメントとの正の相関が確認されているが構成概念の弁別妥当性に議論あり",
+      "empirical_support": "supported",
+      "originator_name": "フレッド・ルーサンス、ブルース・アヴォリオ",
+      "originator_name_en": "Fred Luthans, Bruce Avolio",
+      "founding_work_title": "Authentic Leadership: A Positive Developmental Approach",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Cameron et al. (Eds.), Positive Organizational Scholarship, Berrett-Koehler"
+    },
+    {
+      "name_ja": "目標設定理論",
+      "name_en": "Goal Setting Theory",
+      "definition": "具体的かつ困難な目標を設定し、それについてフィードバックを受けることが、曖昧な目標や「最善を尽くせ」という指示よりも高いパフォーマンスを生むとする理論。ロックが1968年に提唱し、ラサムとの共同研究で精緻化された。目標の明確性・困難度・コミットメント・フィードバック・タスクの複雑さが調節変数として機能する。",
+      "impact_summary": "40,000人以上を対象とした400近くの研究で支持され、組織行動論における最も実証的根拠の厚いモチベーション理論の一つ。MBO・OKRの理論的基盤。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "認知的動機づけ理論",
+      "era_start": 1968,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "目標が定量化可能なタスク、コミットメントが確保できる環境、定期的なフィードバックが可能な職場",
+      "when_to_apply": "従業員のパフォーマンス向上と動機づけを同時に図りたいとき",
+      "framing_questions": [
+        "目標は具体的で測定可能か？",
+        "目標は適度に挑戦的か？",
+        "定期的なフィードバックが提供されているか？"
+      ],
+      "opposing_concept_names": [
+        "内発的動機づけのみに頼るアプローチ（目標が外発的になりうる）"
+      ],
+      "keywords_ja": [
+        "具体的目標",
+        "困難度",
+        "コミットメント",
+        "フィードバック",
+        "MBO"
+      ],
+      "keywords_en": [
+        "specific goals",
+        "goal difficulty",
+        "commitment",
+        "feedback",
+        "management by objectives"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "困難目標と易しい目標のパフォーマンス差d=0.80以上、大規模メタ分析で一貫して支持",
+      "empirical_support": "supported",
+      "originator_name": "エドウィン・ロック",
+      "originator_name_en": "Edwin A. Locke",
+      "founding_work_title": "Toward a Theory of Task Motivation and Incentives",
+      "founding_work_year": 1968,
+      "founding_work_venue": "Organizational Behavior and Human Performance, 3(2)"
+    },
+    {
+      "name_ja": "期待理論（ブルームの期待理論）",
+      "name_en": "Expectancy Theory (Vroom)",
+      "definition": "人の動機づけの強さは「努力が成果をもたらすか（期待）」×「成果が報酬につながるか（手段性）」×「その報酬に価値があるか（誘意性）」の積関数であるとする認知的動機づけ理論。ポーターとローラーがその後精緻化した。三要素のどれかがゼロであれば動機は生じないと予測する。",
+      "impact_summary": "報酬制度・評価制度設計の理論的根拠として広く応用され、従業員の行動選択を予測する枠組みとして組織行動論の標準的概念となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "認知的動機づけ理論",
+      "era_start": 1964,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "報酬・評価制度の設計場面、動機づけ低下の診断",
+      "when_to_apply": "なぜ従業員が報酬に反応しないかを理解したいとき",
+      "framing_questions": [
+        "努力が成果につながると信じているか？",
+        "報酬に価値を感じているか？",
+        "成果が報酬に直結していると理解されているか？"
+      ],
+      "opposing_concept_names": [
+        "内容理論（マズロー・ハーズバーグ）"
+      ],
+      "keywords_ja": [
+        "期待",
+        "手段性",
+        "誘意性",
+        "認知的動機づけ",
+        "報酬"
+      ],
+      "keywords_en": [
+        "expectancy",
+        "instrumentality",
+        "valence",
+        "cognitive motivation",
+        "reward"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "職務努力・職務満足の予測に関して中程度の支持（メタ分析r=0.20〜0.35）",
+      "empirical_support": "supported",
+      "originator_name": "ヴィクター・ブルーム",
+      "originator_name_en": "Victor H. Vroom",
+      "founding_work_title": "Work and Motivation",
+      "founding_work_year": 1964,
+      "founding_work_venue": "Wiley"
+    },
+    {
+      "name_ja": "公正理論（エクイティ理論）",
+      "name_en": "Equity Theory",
+      "definition": "人は自分の投入（努力・スキル・経験）に対する報酬の比率を他者の比率と比較し、不公平を知覚したときに心理的不快感を解消しようと行動を変える、とする社会的交換理論。アダムスが提唱。過大報酬と過小報酬の双方が不快感を生むが、過小報酬への感受性が強い。",
+      "impact_summary": "組織における公平感の重要性を理論化し、報酬制度・評価制度・給与決定の場面で影響力を持つ。組織的公正論の先駆け。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "社会的交換理論",
+      "era_start": 1963,
+      "era_end": null,
+      "methodology_level": "個人・対人レベル",
+      "application_conditions": "報酬・評価に不満が生じている職場、給与格差の大きい組織",
+      "when_to_apply": "従業員が「不公平だ」と感じて意欲低下・離職が起きているとき",
+      "framing_questions": [
+        "従業員は同等の貢献に対して公平な報酬を得ていると感じているか？",
+        "比較対象は誰か？"
+      ],
+      "opposing_concept_names": [
+        "手続き的公正（プロセス重視）"
+      ],
+      "keywords_ja": [
+        "公平感",
+        "投入と産出",
+        "社会的比較",
+        "不公平解消行動",
+        "組織的公正"
+      ],
+      "keywords_en": [
+        "equity",
+        "input-outcome ratio",
+        "social comparison",
+        "inequity reduction",
+        "organizational justice"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "過小報酬時の生産性低下・離職意図の予測に有効、過大報酬効果は不安定",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・ステイシー・アダムス",
+      "originator_name_en": "John Stacey Adams",
+      "founding_work_title": "Towards an Understanding of Inequity",
+      "founding_work_year": 1963,
+      "founding_work_venue": "Journal of Abnormal and Social Psychology, 67(5)"
+    },
+    {
+      "name_ja": "職務特性モデル",
+      "name_en": "Job Characteristics Model",
+      "definition": "職務の五コア次元（技能の多様性・タスクの完結性・タスクの重要性・自律性・フィードバック）が三つの心理状態（仕事の有意味感・成果への責任感・成果の知識）を媒介して内発的動機・満足・パフォーマンスを高めるとするモデル。ハックマンとオールドハムが提唱し、成長欲求強度が調節変数となる。",
+      "impact_summary": "職務設計・職務充実化・仕事のやりがい研究の理論的支柱となり、組織設計実践に大きく貢献した。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "動機づけ・職務設計理論",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "個人・職務レベル",
+      "application_conditions": "職務再設計・エンゲージメント向上施策、単純反復業務が多い職場",
+      "when_to_apply": "従業員の職務満足や内発的動機が低下しているとき",
+      "framing_questions": [
+        "職務に多様性・完結性・重要性はあるか？",
+        "十分な自律性とフィードバックが与えられているか？"
+      ],
+      "opposing_concept_names": [
+        "科学的管理法（タスク専門化・細分化）"
+      ],
+      "keywords_ja": [
+        "技能多様性",
+        "タスク完結性",
+        "自律性",
+        "フィードバック",
+        "動機づけポテンシャルスコア"
+      ],
+      "keywords_en": [
+        "skill variety",
+        "task identity",
+        "autonomy",
+        "feedback",
+        "motivating potential score"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "内発的動機・職務満足との相関が一貫して確認（メタ分析r=0.40〜0.60）",
+      "empirical_support": "supported",
+      "originator_name": "J・リチャード・ハックマン、グレッグ・オールドハム",
+      "originator_name_en": "J. Richard Hackman, Greg R. Oldham",
+      "founding_work_title": "Motivation through the Design of Work: Test of a Theory",
+      "founding_work_year": 1976,
+      "founding_work_venue": "Organizational Behavior and Human Performance, 16(2)"
+    },
+    {
+      "name_ja": "バーンアウト理論（マスラック）",
+      "name_en": "Burnout Theory (Maslach)",
+      "definition": "慢性的な職場ストレスへの適切でない対処から生じる三次元の症候群。情緒的消耗感（Emotional Exhaustion）・脱人格化（Depersonalization）・個人的達成感の低下（Reduced Personal Accomplishment）で構成される。マスラックとジャクソンが開発したMBI（Maslach Burnout Inventory）で測定される。",
+      "impact_summary": "バーンアウトを三次元の構成概念として実証的に測定可能にし、医療・教育・福祉分野における職業的燃え尽きの研究と予防対策の基盤となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ストレス・ウェルビーイング研究",
+      "era_start": 1981,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "高ストレス職種（医療・教育・福祉）、長時間労働が常態化した職場",
+      "when_to_apply": "従業員の心身消耗・離職・パフォーマンス低下が問題になっているとき",
+      "framing_questions": [
+        "情緒的消耗感の蔓延が職場で見られるか？",
+        "脱人格化（冷笑・切り離し）が起きていないか？"
+      ],
+      "opposing_concept_names": [
+        "ワーク・エンゲージメント（活力・没頭・献身の対極として）"
+      ],
+      "keywords_ja": [
+        "情緒的消耗感",
+        "脱人格化",
+        "個人的達成感",
+        "MBI",
+        "職業的燃え尽き"
+      ],
+      "keywords_en": [
+        "emotional exhaustion",
+        "depersonalization",
+        "personal accomplishment",
+        "MBI",
+        "occupational burnout"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "離職意図・欠勤・身体疾患の予測に有効（メタ分析多数）",
+      "empirical_support": "supported",
+      "originator_name": "クリスティーナ・マスラック、スーザン・ジャクソン",
+      "originator_name_en": "Christina Maslach, Susan E. Jackson",
+      "founding_work_title": "The Measurement of Experienced Burnout",
+      "founding_work_year": 1981,
+      "founding_work_venue": "Journal of Organizational Behavior, 2(2)"
+    },
+    {
+      "name_ja": "JD-Rモデル（仕事の要求度-資源モデル）",
+      "name_en": "Job Demands-Resources Model",
+      "definition": "職場のあらゆる特性を「仕事の要求度（心身のエネルギーを消耗させる側面）」と「仕事の資源（目標達成を助け、消耗を緩衝する側面）」に二分し、要求度過多が健康障害プロセス（バーンアウト）を、資源の充実が動機づけプロセス（エンゲージメント）を生むと説明するモデル。デメロウティとバッカーが2001年に提唱。",
+      "impact_summary": "産業保健・組織心理学の中で最もダウンロードされた論文の一つを産出し、ワーク・エンゲージメント研究の理論的基盤として世界的に普及した。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ストレス・ウェルビーイング研究",
+      "era_start": 2001,
+      "era_end": null,
+      "methodology_level": "個人・チーム・組織レベル",
+      "application_conditions": "職場環境アセスメント、エンゲージメント向上施策、職業性ストレス対策",
+      "when_to_apply": "バーンアウトの予防とエンゲージメントの促進を同時に設計したいとき",
+      "framing_questions": [
+        "職場の要求度と資源のバランスはとれているか？",
+        "どの資源を増やすことでエンゲージメントが最も高まるか？"
+      ],
+      "opposing_concept_names": [
+        "要求-コントロールモデル（カラセク）"
+      ],
+      "keywords_ja": [
+        "仕事の要求度",
+        "仕事の資源",
+        "バーンアウト",
+        "エンゲージメント",
+        "動機づけプロセス"
+      ],
+      "keywords_en": [
+        "job demands",
+        "job resources",
+        "burnout",
+        "work engagement",
+        "motivational process"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "バーンアウト・エンゲージメント双方の予測に高い汎用性、30カ国以上で検証",
+      "empirical_support": "supported",
+      "originator_name": "エヴァンゲリア・デメロウティ、アーノルド・バッカー",
+      "originator_name_en": "Evangelia Demerouti, Arnold B. Bakker",
+      "founding_work_title": "The Job Demands-Resources Model of Burnout",
+      "founding_work_year": 2001,
+      "founding_work_venue": "Journal of Applied Psychology, 86(3)"
+    },
+    {
+      "name_ja": "心理的資本（PsyCap）",
+      "name_en": "Psychological Capital",
+      "definition": "自己効力感・希望・楽観主義・レジリエンスの四要素（HERO）から構成されるポジティブな心理的状態の総体。ルーサンスが提唱したポジティブ組織行動論（POB）の中核概念。単一要素よりも四要素の複合体として測定・開発することで、パフォーマンス・満足・コミットメントの向上に寄与する。",
+      "impact_summary": "心理的資本は訓練によって開発可能であることが示され、組織開発・リーダーシップ育成への介入根拠として広く応用されている。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ポジティブ組織行動論",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "人材育成・組織開発、レジリエンス向上が必要な高ストレス職場",
+      "when_to_apply": "個人の心理的強みを組織的に開発・測定したいとき",
+      "framing_questions": [
+        "従業員の自己効力感・希望・楽観主義・レジリエンスはどの程度あるか？",
+        "短期介入でPsyCapを向上させられるか？"
+      ],
+      "opposing_concept_names": [
+        "ネガティブ組織行動論（欠如視点）"
+      ],
+      "keywords_ja": [
+        "自己効力感",
+        "希望",
+        "楽観主義",
+        "レジリエンス",
+        "HERO"
+      ],
+      "keywords_en": [
+        "self-efficacy",
+        "hope",
+        "optimism",
+        "resilience",
+        "HERO"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "パフォーマンスとの相関r=0.26、満足r=0.31（メタ分析51研究）",
+      "empirical_support": "supported",
+      "originator_name": "フレッド・ルーサンス",
+      "originator_name_en": "Fred Luthans",
+      "founding_work_title": "Psychological Capital: Developing the Human Competitive Edge",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Oxford University Press"
+    },
+    {
+      "name_ja": "組織市民行動理論",
+      "name_en": "Organizational Citizenship Behavior Theory",
+      "definition": "正式な報酬システムで直接・明示的に認識されない自発的行動であり、組織全体の機能を効果的に促進する行動群。オーガンが定義し、利他主義・良心的行動・スポーツマンシップ・礼節・市民的美徳の五次元で構成される。役割外行動の代表的概念。",
+      "impact_summary": "組織パフォーマンスの向上、顧客満足、職場の社会的資本形成との関連が広く実証され、人事管理・組織文化研究に影響を与えた。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "社会的交換理論・動機づけ理論",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "組織のパフォーマンス測定、協力的職場文化の評価・形成",
+      "when_to_apply": "正式な評価制度を超えた自発的貢献行動の把握・促進を図るとき",
+      "framing_questions": [
+        "従業員は役割を超えた自発的貢献をしているか？",
+        "OCBを促す組織文化・公正感の条件が整っているか？"
+      ],
+      "opposing_concept_names": [
+        "役割内行動（task performance）",
+        "反生産的職務行動"
+      ],
+      "keywords_ja": [
+        "自発的行動",
+        "役割外行動",
+        "利他主義",
+        "組織貢献",
+        "市民的美徳"
+      ],
+      "keywords_en": [
+        "discretionary behavior",
+        "extra-role behavior",
+        "altruism",
+        "conscientiousness",
+        "civic virtue"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "組織パフォーマンスとの相関r=0.27（メタ分析）、リーダー公正感・信頼が先行要因",
+      "empirical_support": "supported",
+      "originator_name": "デニス・オーガン",
+      "originator_name_en": "Dennis W. Organ",
+      "founding_work_title": "Organizational Citizenship Behavior: The Good Soldier Syndrome",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Lexington Books"
+    },
+    {
+      "name_ja": "心理的契約理論",
+      "name_en": "Psychological Contract Theory",
+      "definition": "雇用関係において従業員が組織から受け取ると信じている未記述の相互義務の集合。ルソーが再定式化し、取引的契約（短期・金銭的）と関係的契約（長期・感情的）の二類型を提示した。心理的契約の違反（Breach）と裏切り（Violation）がどのような帰結をもたらすかが主要な研究問題。",
+      "impact_summary": "雇用関係の変容（終身雇用の解体）に対する従業員反応を説明する概念として1990年代以降急速に普及し、HRM・組織変革研究の中心的枠組みとなった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "社会的交換理論",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "組織変革・リストラ・雇用条件変更の場面、離職率が高い組織",
+      "when_to_apply": "従業員の期待と組織の提供内容のギャップが生じているとき",
+      "framing_questions": [
+        "組織は従業員が暗黙に期待していることを提供できているか？",
+        "契約違反の知覚がOCBや離職に影響していないか？"
+      ],
+      "opposing_concept_names": [
+        "法的雇用契約（明示的契約）"
+      ],
+      "keywords_ja": [
+        "暗黙の期待",
+        "取引的契約",
+        "関係的契約",
+        "違反知覚",
+        "信頼"
+      ],
+      "keywords_en": [
+        "implicit expectations",
+        "transactional contract",
+        "relational contract",
+        "breach",
+        "trust"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "違反知覚がOCB減少・離職意図・信頼低下を予測（メタ分析で一貫）",
+      "empirical_support": "supported",
+      "originator_name": "デニーズ・ルソー",
+      "originator_name_en": "Denise M. Rousseau",
+      "founding_work_title": "Psychological and Implied Contracts in Organizations",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Employee Responsibilities and Rights Journal, 2(2)"
+    },
+    {
+      "name_ja": "心理的安全性理論",
+      "name_en": "Psychological Safety Theory",
+      "definition": "チームが対人リスクをとっても安全だという共有された信念。エドモンドソンが医療チームの研究で定式化し、Googleのプロジェクト・アリストテレスで注目を集めた。心理的安全性が高いチームでは発言・質問・失敗報告・アイデア提案が促進され、チーム学習・イノベーション・パフォーマンスが向上する。",
+      "impact_summary": "チームの心理的安全性がパフォーマンスの最強の予測因子と位置づけられ、Googleの知見公表後に組織開発の最重要概念となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "チーム・組織行動論",
+      "era_start": 1999,
+      "era_end": null,
+      "methodology_level": "チーム・組織レベル",
+      "application_conditions": "知識集約型チーム、医療・航空・IT等のエラー報告が重要な環境",
+      "when_to_apply": "チームメンバーが発言を避け、失敗が隠蔽される文化を変えたいとき",
+      "framing_questions": [
+        "チームで失敗や懸念を安心して話せるか？",
+        "異議を唱えても安全と感じられる文化か？"
+      ],
+      "opposing_concept_names": [
+        "沈黙の文化",
+        "対人リスク回避行動"
+      ],
+      "keywords_ja": [
+        "対人リスク",
+        "チーム学習",
+        "発言行動",
+        "イノベーション",
+        "信頼"
+      ],
+      "keywords_en": [
+        "interpersonal risk",
+        "team learning",
+        "voice behavior",
+        "innovation",
+        "trust"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "チーム学習・パフォーマンス・創造性との正の相関が多数の研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "エイミー・エドモンドソン",
+      "originator_name_en": "Amy C. Edmondson",
+      "founding_work_title": "Psychological Safety and Learning Behavior in Work Teams",
+      "founding_work_year": 1999,
+      "founding_work_venue": "Administrative Science Quarterly, 44(2)"
+    },
+    {
+      "name_ja": "ワーク・エンゲージメント理論",
+      "name_en": "Work Engagement Theory",
+      "definition": "仕事に向けられた持続的かつポジティブな情緒・動機づけの充足状態。活力・没頭・献身の三要素で構成され、バーンアウトの対極として位置づけられる。シャウフェリとバッカーが定義し、UWES（Utrecht Work Engagement Scale）で測定される。JD-Rモデルと連動して研究される。",
+      "impact_summary": "従業員の健康とパフォーマンスを同時に予測する概念として急速に実証研究が蓄積し、企業のwell-being施策の中核指標となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ポジティブ組織行動論・ストレス研究",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "人材定着・パフォーマンス向上・職場健康管理",
+      "when_to_apply": "従業員のやる気・活力・組織への貢献意欲を測定・向上させたいとき",
+      "framing_questions": [
+        "従業員は仕事に活力をもって向き合っているか？",
+        "仕事への没頭と個人の価値観が一致しているか？"
+      ],
+      "opposing_concept_names": [
+        "バーンアウト",
+        "ワーカホリズム（強迫的な働き方）"
+      ],
+      "keywords_ja": [
+        "活力",
+        "没頭",
+        "献身",
+        "UWES",
+        "内発的動機"
+      ],
+      "keywords_en": [
+        "vigor",
+        "absorption",
+        "dedication",
+        "UWES",
+        "intrinsic motivation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "職務パフォーマンス・健康・組織業績との正の相関が多国間研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ウィルマー・シャウフェリ、アーノルド・バッカー",
+      "originator_name_en": "Wilmar Schaufeli, Arnold B. Bakker",
+      "founding_work_title": "The Measurement of Work Engagement with a Short Questionnaire",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Educational and Psychological Measurement, 63(4)"
+    },
+    {
+      "name_ja": "組織公正理論",
+      "name_en": "Organizational Justice Theory",
+      "definition": "職場における公正感を分配的公正（結果の分配の公平さ）・手続き的公正（意思決定プロセスの公平さ）・対人的公正（扱われ方の敬意）・情報的公正（説明の充分さ）の四次元で捉える統合的枠組み。グリーンバーグが「組織公正」という用語を整理し、コルキットがメタ分析で四因子モデルを確立した。",
+      "impact_summary": "公正感の多次元性を実証し、OCB・信頼・バーンアウト・離職意図などの幅広い組織アウトカムを説明する最重要概念の一つとなった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "社会的交換理論・公正論",
+      "era_start": 1987,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "人事制度設計、組織変革時の従業員反応管理、紛争解決",
+      "when_to_apply": "報酬・評価・昇進プロセスへの不満や不信が生じているとき",
+      "framing_questions": [
+        "結果だけでなくプロセスも公平と感じられているか？",
+        "管理職は従業員を尊重して扱っているか？"
+      ],
+      "opposing_concept_names": [
+        "不公正・偏向"
+      ],
+      "keywords_ja": [
+        "分配的公正",
+        "手続き的公正",
+        "対人的公正",
+        "情報的公正",
+        "信頼"
+      ],
+      "keywords_en": [
+        "distributive justice",
+        "procedural justice",
+        "interactional justice",
+        "informational justice",
+        "trust"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "OCB・信頼・コミットメントの強力な予測因子（メタ分析多数）",
+      "empirical_support": "supported",
+      "originator_name": "ジェイ・グリーンバーグ",
+      "originator_name_en": "Jerald Greenberg",
+      "founding_work_title": "Equity and Workplace Status: A Field Experiment",
+      "founding_work_year": 1987,
+      "founding_work_venue": "Journal of Applied Psychology, 73(4)"
+    },
+    {
+      "name_ja": "要求-コントロールモデル",
+      "name_en": "Demand-Control Model",
+      "definition": "仕事のストレスは「仕事の心理的要求度」と「仕事の裁量度（コントロール）」の組み合わせで決まるとするモデル。高要求×低コントロール（高ストレス職）が健康障害・心臓疾患リスクを高め、高要求×高コントロール（活性化職）が成長とやりがいをもたらすとカラセクが提唱。後にジョンソンが社会的支援を加えたDCS（要求-コントロール-サポート）モデルに拡張された。",
+      "impact_summary": "職業性ストレス研究と職場健康政策に広範な影響を与え、労働衛生の実証研究の基盤となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "職業性ストレス理論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "個人・職務レベル",
+      "application_conditions": "職場のストレスリスク評価、職業病（心疾患・うつ病）予防",
+      "when_to_apply": "職場の心理的要求と自律性のバランスを評価・改善したいとき",
+      "framing_questions": [
+        "要求度に見合った裁量が与えられているか？",
+        "上司や同僚のサポートが十分か？"
+      ],
+      "opposing_concept_names": [
+        "JD-Rモデル（より広範な資源概念）"
+      ],
+      "keywords_ja": [
+        "要求度",
+        "裁量度",
+        "高ストレス職",
+        "活性化職",
+        "社会的支援"
+      ],
+      "keywords_en": [
+        "job demands",
+        "job control",
+        "high strain",
+        "active job",
+        "social support"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "高ストレス職と冠動脈疾患リスクのオッズ比1.5〜2.0（疫学研究）",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・カラセク",
+      "originator_name_en": "Robert Karasek",
+      "founding_work_title": "Job Demands, Job Decision Latitude, and Mental Strain",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Administrative Science Quarterly, 24(2)"
+    },
+    {
+      "name_ja": "努力-報酬不均衡モデル",
+      "name_en": "Effort-Reward Imbalance Model",
+      "definition": "職場における努力（要求への対処）と報酬（金銭・地位・尊重・雇用安定）のアンバランスが健康障害リスクを高めるとするモデル。ジークリスト（ジークリスト）が提唱し、「オーバーコミットメント」（過剰な努力傾向）を個人差要因として導入した。社会的互恵性の観点からストレスを説明する。",
+      "impact_summary": "ヨーロッパの産業保健・疫学研究において広く採用され、カラセクモデルと並び職業性ストレスの二大モデルの一つとして確立された。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "職業性ストレス理論・社会的互恵性理論",
+      "era_start": 1996,
+      "era_end": null,
+      "methodology_level": "個人・職務レベル",
+      "application_conditions": "報酬制度・昇進機会・雇用安定性が低い職場、過労・過剰努力傾向のある労働者",
+      "when_to_apply": "努力に見合った報酬や認知が不十分な状況のストレス評価",
+      "framing_questions": [
+        "努力に対して十分な報酬（金銭・地位・承認）が得られているか？",
+        "オーバーコミットメントが健康に影響していないか？"
+      ],
+      "opposing_concept_names": [
+        "要求-コントロールモデル"
+      ],
+      "keywords_ja": [
+        "努力",
+        "報酬",
+        "不均衡",
+        "オーバーコミットメント",
+        "社会的互恵性"
+      ],
+      "keywords_en": [
+        "effort",
+        "reward",
+        "imbalance",
+        "overcommitment",
+        "reciprocity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "心疾患・うつ病リスクの有意な予測因子（メタ分析でオッズ比1.3〜1.8）",
+      "empirical_support": "supported",
+      "originator_name": "ヨハネス・ジークリスト",
+      "originator_name_en": "Johannes Siegrist",
+      "founding_work_title": "Adverse Health Effects of High-Effort/Low-Reward Conditions",
+      "founding_work_year": 1996,
+      "founding_work_venue": "Journal of Occupational Health Psychology, 1(1)"
+    },
+    {
+      "name_ja": "自己決定理論（職場への応用）",
+      "name_en": "Self-Determination Theory (Workplace Application)",
+      "definition": "人間の自律性・有能感・関係性という三つの基本的心理欲求が満たされるとき、内発的動機づけと自律的動機づけが高まるとするデシとライアンの理論。職場文脈では、管理的コントロールよりも自律性支援型マネジメントが内発的動機・エンゲージメント・ウェルビーイングを高めることが示されている。",
+      "impact_summary": "内発的動機と外発的動機の質的区別を導入し、報酬・評価制度が動機を損なうアンダーマイニング効果の説明基盤を提供した。職場・教育・スポーツに広く応用。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "人間主義的・認知的動機づけ理論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "自律性・成長機会を重視する知識労働者、マネジメントスタイルの設計",
+      "when_to_apply": "外的報酬中心の管理が内発的動機を損なっている可能性があるとき",
+      "framing_questions": [
+        "従業員の自律性・有能感・つながりが支援されているか？",
+        "管理スタイルはコントロール的か支援的か？"
+      ],
+      "opposing_concept_names": [
+        "外発的動機づけ優先の管理アプローチ"
+      ],
+      "keywords_ja": [
+        "自律性",
+        "有能感",
+        "関係性",
+        "内発的動機",
+        "アンダーマイニング効果"
+      ],
+      "keywords_en": [
+        "autonomy",
+        "competence",
+        "relatedness",
+        "intrinsic motivation",
+        "undermining effect"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "ウェルビーイング・パフォーマンス・離職意図の予測に有効（多数のメタ分析）",
+      "empirical_support": "supported",
+      "originator_name": "エドワード・デシ、リチャード・ライアン",
+      "originator_name_en": "Edward L. Deci, Richard M. Ryan",
+      "founding_work_title": "Intrinsic Motivation and Self-Determination in Human Behavior",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Plenum"
+    },
+    {
+      "name_ja": "社会的学習理論（バンデューラ）",
+      "name_en": "Social Learning Theory / Social Cognitive Theory",
+      "definition": "観察・模倣・強化を通じた学習と、自己効力感（特定課題を遂行できるという信念）が行動を規定するとする理論。バンデューラが提唱し、後に社会認知理論へと発展。自己効力感の四源泉（達成経験・代理経験・言語的説得・生理的状態）が組織行動・スポーツ・教育に広く応用されている。",
+      "impact_summary": "自己効力感概念を心理学全体に普及させ、組織行動・スポーツ・健康・教育の介入設計に不可欠な理論的基盤となった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "社会認知理論",
+      "era_start": 1977,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "新人育成・OJT・スキル訓練、行動変容プログラム設計",
+      "when_to_apply": "従業員やアスリートの自信・能力信念を高めたいとき",
+      "framing_questions": [
+        "成功体験を積ませる機会が提供されているか？",
+        "有能なロールモデルが観察可能か？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的強化理論（認知的要素を含まない）"
+      ],
+      "keywords_ja": [
+        "自己効力感",
+        "観察学習",
+        "代理経験",
+        "達成経験",
+        "相互決定論"
+      ],
+      "keywords_en": [
+        "self-efficacy",
+        "observational learning",
+        "vicarious experience",
+        "mastery experience",
+        "reciprocal determinism"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "自己効力感とパフォーマンスの相関r=0.38（メタ分析114研究）",
+      "empirical_support": "supported",
+      "originator_name": "アルバート・バンデューラ",
+      "originator_name_en": "Albert Bandura",
+      "founding_work_title": "Social Learning Theory",
+      "founding_work_year": 1977,
+      "founding_work_venue": "Prentice Hall"
+    },
+    {
+      "name_ja": "組織学習理論（ダブル・ループ学習）",
+      "name_en": "Organizational Learning Theory / Double-Loop Learning",
+      "definition": "シングル・ループ学習（既存の前提を変えずに誤りを修正）とダブル・ループ学習（前提・価値観・方針そのものを問い直す）を区別するアージリスとシェーンの理論。ディフェンシブ・ルーティン（防衛的習慣）が組織学習を妨げることを指摘し、学習する組織の概念的基盤を形成した。",
+      "impact_summary": "センゲの「学習する組織」論に直接影響し、組織変革・知識マネジメント・組織開発（OD）の理論的根拠として世界的に普及した。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "組織行動論・システム思考",
+      "era_start": 1978,
+      "era_end": null,
+      "methodology_level": "チーム・組織レベル",
+      "application_conditions": "変革が求められる組織、失敗から学ぶ文化の構築",
+      "when_to_apply": "同じ問題が繰り返され、根本原因が探られていない組織",
+      "framing_questions": [
+        "問題解決が表面的な修正にとどまっていないか？",
+        "前提を問い直す心理的安全性があるか？"
+      ],
+      "opposing_concept_names": [
+        "シングル・ループ学習",
+        "防衛的習慣"
+      ],
+      "keywords_ja": [
+        "シングル・ループ",
+        "ダブル・ループ",
+        "防衛的習慣",
+        "行動科学",
+        "学習する組織"
+      ],
+      "keywords_en": [
+        "single-loop",
+        "double-loop",
+        "defensive routines",
+        "action science",
+        "learning organization"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "組織変革成功との関連が概念的には強いが定量的測定が困難",
+      "empirical_support": "partially_supported",
+      "originator_name": "クリス・アージリス、ドナルド・シェーン",
+      "originator_name_en": "Chris Argyris, Donald Schön",
+      "founding_work_title": "Organizational Learning: A Theory of Action Perspective",
+      "founding_work_year": 1978,
+      "founding_work_venue": "Addison-Wesley"
+    },
+    {
+      "name_ja": "感情労働理論",
+      "name_en": "Emotional Labor Theory",
+      "definition": "職業的役割を果たすために感情を管理・表現する労働形態。ホックシールドが航空客室乗務員と債権回収員の調査から提唱。表層演技（外見のみ変える）と深層演技（実際に感情を変える）を区別し、感情的不協和が消耗・バーンアウトにつながることを示した。",
+      "impact_summary": "感情を労働資源として可視化し、サービス産業・ケア職における職業的健康リスクの研究と対策の基盤を築いた。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "感情社会学・組織行動論",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "顧客接点の多いサービス職、医療・教育・コールセンター",
+      "when_to_apply": "感情表示規則と実際の感情のギャップによる消耗が問題になっているとき",
+      "framing_questions": [
+        "従業員は感情の表示規則と内面感情のギャップに苦しんでいないか？",
+        "深層演技を支援する組織的サポートがあるか？"
+      ],
+      "opposing_concept_names": [
+        "感情的無関与"
+      ],
+      "keywords_ja": [
+        "表層演技",
+        "深層演技",
+        "感情的不協和",
+        "感情表示規則",
+        "消耗"
+      ],
+      "keywords_en": [
+        "surface acting",
+        "deep acting",
+        "emotional dissonance",
+        "display rules",
+        "exhaustion"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "表層演技とバーンアウト・離職意図の正の相関が多数確認（メタ分析r=0.30〜0.40）",
+      "empirical_support": "supported",
+      "originator_name": "アーリー・ホックシールド",
+      "originator_name_en": "Arlie Russell Hochschild",
+      "founding_work_title": "The Managed Heart: Commercialization of Human Feeling",
+      "founding_work_year": 1983,
+      "founding_work_venue": "University of California Press"
+    },
+    {
+      "name_ja": "組織社会化理論",
+      "name_en": "Organizational Socialization Theory",
+      "definition": "新しい組織成員が組織の価値観・規範・行動パターンを習得し、内側者へと変容するプロセスの理論。ルイスが「驚き」という感情体験の役割を強調し、ヴァン・マーネンとシャインが社会化戦術を六次元（集合的-個別的、正式-非公式など）で類型化した。",
+      "impact_summary": "新人の早期定着・役割習得・コミットメント形成に関する研究と実践の理論的根拠となり、オンボーディング設計に応用されている。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "組織行動論",
+      "era_start": 1976,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "新入社員の早期戦力化、組織変革による役割移行場面",
+      "when_to_apply": "新人の離職率が高い、または職場適応に時間がかかっている組織",
+      "framing_questions": [
+        "社会化戦術は制度的か個別的か？",
+        "新人は組織の規範と価値観をどのように習得しているか？"
+      ],
+      "opposing_concept_names": [
+        "個人化（自己の価値観に基づく役割革新）"
+      ],
+      "keywords_ja": [
+        "社会化戦術",
+        "役割移行",
+        "内側者化",
+        "驚き体験",
+        "オンボーディング"
+      ],
+      "keywords_en": [
+        "socialization tactics",
+        "role transition",
+        "insider",
+        "surprise",
+        "onboarding"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "制度的社会化が早期コミットメントとロール明確性を高めることが確認",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・ヴァン・マーネン、エドガー・シャイン",
+      "originator_name_en": "John Van Maanen, Edgar H. Schein",
+      "founding_work_title": "Toward a Theory of Organizational Socialization",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Research in Organizational Behavior, Vol. 1"
+    },
+    {
+      "name_ja": "組織文化理論（シャイン）",
+      "name_en": "Organizational Culture Theory (Schein)",
+      "definition": "組織文化を三層（人工物・信奉された価値観・基本的前提）で捉えるモデル。シャインが提唱し、表面に見える行動・物語（人工物）の背後に明言された価値観があり、さらに深層に無意識の基本的前提があるとする。文化変革には最も深い層への介入が必要とされる。",
+      "impact_summary": "組織文化を診断・変革するための最も影響力ある概念的枠組みの一つとなり、コンサルティング・組織変革・M&Aの文化統合場面で広く用いられる。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "組織行動論・解釈的アプローチ",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "組織レベル",
+      "application_conditions": "組織変革・M&A後の文化統合、リーダーシップ開発",
+      "when_to_apply": "明示的な制度変更に対して従業員行動が変わらない場合",
+      "framing_questions": [
+        "組織の基本的前提（無意識の信念）は何か？",
+        "文化の三層に矛盾はないか？"
+      ],
+      "opposing_concept_names": [
+        "公式組織構造・制度設計主義"
+      ],
+      "keywords_ja": [
+        "人工物",
+        "信奉された価値観",
+        "基本的前提",
+        "文化変革",
+        "三層モデル"
+      ],
+      "keywords_en": [
+        "artifacts",
+        "espoused values",
+        "basic assumptions",
+        "culture change",
+        "three levels"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "文化が組織パフォーマンスに影響することは間接的証拠で支持されるが因果推論は困難",
+      "empirical_support": "partially_supported",
+      "originator_name": "エドガー・シャイン",
+      "originator_name_en": "Edgar H. Schein",
+      "founding_work_title": "Organizational Culture and Leadership",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Jossey-Bass"
+    },
+    {
+      "name_ja": "個人-環境適合理論",
+      "name_en": "Person-Environment Fit Theory",
+      "definition": "個人の特性（価値観・スキル・ニーズ）と環境（職務・組織・上司・チーム）の適合度がウェルビーイング・動機・パフォーマンスを規定するとする理論。人-職務適合（PJ）・人-組織適合（PO）・人-集団適合（PG）・人-上司適合（PS）の四種類の適合が研究されている。",
+      "impact_summary": "採用・配置・組織設計の場面で広く応用され、離職・満足・コミットメントを予測する実証的根拠が豊富。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "個人差・環境心理学",
+      "era_start": 1987,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "採用選考、配置転換、組織文化変革",
+      "when_to_apply": "離職率が高い、または従業員の組織への適応感が低い場合",
+      "framing_questions": [
+        "個人の価値観と組織の価値観は一致しているか？",
+        "職務要件と個人の能力は適合しているか？"
+      ],
+      "opposing_concept_names": [
+        "適合しないことによる創造的摩擦（意図的ミスマッチ）"
+      ],
+      "keywords_ja": [
+        "人-職務適合",
+        "人-組織適合",
+        "価値観一致",
+        "補完的適合",
+        "要求-能力適合"
+      ],
+      "keywords_en": [
+        "person-job fit",
+        "person-organization fit",
+        "value congruence",
+        "complementary fit",
+        "demands-abilities fit"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "PO適合は職務満足r=0.44・コミットメントr=0.35・離職意図r=-0.35（メタ分析）",
+      "empirical_support": "supported",
+      "originator_name": "エイミー・クリステンセン（統合）",
+      "originator_name_en": "Amy L. Kristof-Brown",
+      "founding_work_title": "Person-Organization Fit: An Integrative Review of Its Conceptualizations, Measurement, and Implications",
+      "founding_work_year": 1996,
+      "founding_work_venue": "Personnel Psychology, 49(1)"
+    },
+    {
+      "name_ja": "職務要求-資源理論（JD-R理論・拡張版）",
+      "name_en": "Job Demands-Resources Theory (Extended)",
+      "definition": "JD-Rモデルを理論として体系化した拡張版。個人資源（自己効力感・楽観主義・レジリエンス）が仕事の資源と同様の動機づけ効果を持つことを加え、ジョブ・クラフティング（従業員が自ら要求と資源を調整する行動）を能動的メカニズムとして組み込んだ。バッカーとデメロウティが2014年以降に展開。",
+      "impact_summary": "JD-Rモデルのダイナミックかつ双方向的な側面を明確化し、ジョブ・クラフティング研究を理論的に位置づけた。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ストレス・ウェルビーイング研究",
+      "era_start": 2014,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "個人資源開発介入、ジョブ・クラフティング研修",
+      "when_to_apply": "従業員が能動的に自分の仕事を再設計できる文化を育てたいとき",
+      "framing_questions": [
+        "個人資源（楽観主義・自己効力感）を高める介入が可能か？",
+        "従業員は自分の要求と資源を調整しているか？"
+      ],
+      "opposing_concept_names": [
+        "受動的ストレス対処"
+      ],
+      "keywords_ja": [
+        "個人資源",
+        "ジョブ・クラフティング",
+        "動機づけプロセス",
+        "健康障害プロセス",
+        "能動的行動"
+      ],
+      "keywords_en": [
+        "personal resources",
+        "job crafting",
+        "motivational process",
+        "health impairment process",
+        "proactive behavior"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "ジョブ・クラフティングとエンゲージメント・パフォーマンスの正の相関が確認",
+      "empirical_support": "supported",
+      "originator_name": "アーノルド・バッカー、エヴァンゲリア・デメロウティ",
+      "originator_name_en": "Arnold B. Bakker, Evangelia Demerouti",
+      "founding_work_title": "Job Demands-Resources Theory: Taking Stock and Looking Forward",
+      "founding_work_year": 2016,
+      "founding_work_venue": "Journal of Occupational Health Psychology, 22(3)"
+    },
+    {
+      "name_ja": "ポジティブ組織行動論（POB）",
+      "name_en": "Positive Organizational Behavior",
+      "definition": "測定・開発が可能で職場パフォーマンスの改善に応用できる人間のポジティブな心理的強みと能力の研究・応用。ルーサンスが提唱し、POB基準（ポジティブ・理論/研究に基づく・測定可能・開発可能・パフォーマンスに関連）を設定した。心理的資本（PsyCap）はその中核的構成概念。",
+      "impact_summary": "ポジティブ心理学を組織場面に応用する研究領域を確立し、強みベースの組織開発・HRM実践に理論的根拠を与えた。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "ポジティブ心理学・組織行動論",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "強みベースの人材開発、組織の活性化施策",
+      "when_to_apply": "欠如・問題ベースの組織診断から強みベースへの転換を図るとき",
+      "framing_questions": [
+        "組織の強みと心理的資源を開発できているか？",
+        "ポジティブな状態が測定・開発可能か？"
+      ],
+      "opposing_concept_names": [
+        "欠如モデル（問題行動の修正に焦点）"
+      ],
+      "keywords_ja": [
+        "ポジティブ心理的強み",
+        "心理的資本",
+        "開発可能性",
+        "強みベース",
+        "ウェルビーイング"
+      ],
+      "keywords_en": [
+        "positive strengths",
+        "psychological capital",
+        "developability",
+        "strengths-based",
+        "wellbeing"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "PsyCap介入がパフォーマンス向上に有効（RCT含むメタ分析で支持）",
+      "empirical_support": "supported",
+      "originator_name": "フレッド・ルーサンス",
+      "originator_name_en": "Fred Luthans",
+      "founding_work_title": "The Need for and Meaning of Positive Organizational Behavior",
+      "founding_work_year": 2002,
+      "founding_work_venue": "Journal of Organizational Behavior, 23(6)"
+    },
+    {
+      "name_ja": "チームワーク理論（共有メンタルモデル）",
+      "name_en": "Shared Mental Model Theory",
+      "definition": "チームメンバーが職務・チーム・機器・状況に関する知識を共有していることで、協調行動・コミュニケーション・適応が促進されるとする理論。キャノン-バワーズらが提唱し、高パフォーマンスチームは共有メンタルモデルが整合していることを示した。医療・航空・軍事・スポーツへの応用が進んでいる。",
+      "impact_summary": "チーム効果性の認知的基盤を明確化し、チーム訓練・チームアセスメントの設計に大きな影響を与えた。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "認知的チーム研究",
+      "era_start": 1993,
+      "era_end": null,
+      "methodology_level": "チームレベル",
+      "application_conditions": "高信頼性組織（医療・航空・軍事）、複雑な協調タスクを担うチーム",
+      "when_to_apply": "チームメンバー間の認識のズレが協調ミスの原因になっているとき",
+      "framing_questions": [
+        "チームメンバーは状況・役割・目標を同様に理解しているか？",
+        "定期的な情報共有と認識合わせが行われているか？"
+      ],
+      "opposing_concept_names": [
+        "個人的な専門知識の集積（統合なし）"
+      ],
+      "keywords_ja": [
+        "共有メンタルモデル",
+        "チーム認知",
+        "状況認識",
+        "協調",
+        "チーム効果性"
+      ],
+      "keywords_en": [
+        "shared mental model",
+        "team cognition",
+        "situation awareness",
+        "coordination",
+        "team effectiveness"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "共有度と チームパフォーマンスの正の相関が実験・フィールド研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ジャニス・キャノン-バワーズ、エドゥアルド・サラス",
+      "originator_name_en": "Janis Cannon-Bowers, Eduardo Salas",
+      "founding_work_title": "Shared Mental Models in Expert Team Decision Making",
+      "founding_work_year": 1993,
+      "founding_work_venue": "Castellan (Ed.), Individual and Group Decision Making, LEA"
+    },
+    {
+      "name_ja": "仕事の意味理論（ワーク・ミーニング）",
+      "name_en": "Meaningful Work Theory",
+      "definition": "仕事が個人にとって意味深く感じられるかを扱う理論群。ハーツバーグの二要因理論を継承しつつ、ロシャンスキーらが「仕事の重要性認知・個人と仕事の適合・より大きな善への貢献感」の三要素を特定した。ウォルニューズとデシは自律性・有能感・関係性との連関で整理している。",
+      "impact_summary": "エンゲージメント・ウェルビーイング・留職意図を予測する重要因子として認識されており、仕事のデザインと組織的意味形成の研究に貢献した。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "存在的・動機づけ理論",
+      "era_start": 2003,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "エンゲージメント低下の診断、職務充実化・意味化施策",
+      "when_to_apply": "従業員が仕事の目的や意味を見失っているとき",
+      "framing_questions": [
+        "自分の仕事が誰かに意味ある価値を提供していると感じているか？",
+        "仕事が個人の価値観と一致しているか？"
+      ],
+      "opposing_concept_names": [
+        "外発的動機のみの仕事観"
+      ],
+      "keywords_ja": [
+        "仕事の意味",
+        "目的意識",
+        "適合感",
+        "貢献感",
+        "エンゲージメント"
+      ],
+      "keywords_en": [
+        "meaningful work",
+        "purpose",
+        "fit",
+        "contribution",
+        "engagement"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "ウェルビーイング・エンゲージメントとの正の相関が複数研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ブレイク・アシュフォース（統合的整理）",
+      "originator_name_en": "Blake E. Ashforth",
+      "founding_work_title": "Meaningfulness in National Culture: The Case of Canada",
+      "founding_work_year": 2009,
+      "founding_work_venue": "Journal of Applied Psychology"
+    },
+    {
+      "name_ja": "ハーズバーグの二要因理論",
+      "name_en": "Two-Factor Theory (Herzberg)",
+      "definition": "職務満足と職務不満足は独立した次元であり、「動機づけ要因（達成・承認・仕事そのもの・責任・成長）」が満足を生み、「衛生要因（給与・職場環境・監督・会社方針）」は不満を防ぐだけで満足は生まない、とするハーズバーグの理論。職務充実化の理論的根拠として広く用いられた。",
+      "impact_summary": "職務設計と報酬制度に対する思想を転換し、仕事そのものの内容が動機づけの主要源泉であることを強調した。JCMの前駆理論として位置づけられる。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "内容理論的動機づけ理論",
+      "era_start": 1959,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "職務設計の見直し、報酬制度に対する過度な依存を是正したい組織",
+      "when_to_apply": "給与を上げても満足度が改善しない状況の分析",
+      "framing_questions": [
+        "報酬以外の内発的要因が職務満足に貢献しているか？",
+        "衛生要因の不足が不満を生んでいないか？"
+      ],
+      "opposing_concept_names": [
+        "過程理論（期待理論・公正理論）"
+      ],
+      "keywords_ja": [
+        "動機づけ要因",
+        "衛生要因",
+        "職務充実化",
+        "達成",
+        "承認"
+      ],
+      "keywords_en": [
+        "motivators",
+        "hygiene factors",
+        "job enrichment",
+        "achievement",
+        "recognition"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "測定方法への批判（クリティカル・インシデント法の偏り）があるが職務設計指針としての影響力は大",
+      "empirical_support": "mixed",
+      "originator_name": "フレデリック・ハーズバーグ",
+      "originator_name_en": "Frederick Herzberg",
+      "founding_work_title": "The Motivation to Work",
+      "founding_work_year": 1959,
+      "founding_work_venue": "Wiley"
+    },
+    {
+      "name_ja": "ホフステードの文化次元理論",
+      "name_en": "Hofstede's Cultural Dimensions Theory",
+      "definition": "IBM社員11万6千人を対象とした調査から導出した、国民文化を比較する多次元モデル。当初は権力格差・個人主義-集団主義・男性性-女性性・不確実性回避の四次元で提示され、後に長期-短期志向、放縦-抑制が追加された六次元モデルとなった。各国の得点を数値化し、国際比較と異文化理解の標準ツールとなった。",
+      "impact_summary": "異文化経営・国際マーケティング・比較教育など多分野に応用され、文化比較研究の実証的基盤として50年以上引用されている最も影響力ある文化理論の一つ。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "比較文化研究・組織行動論",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "文化・国家レベル",
+      "application_conditions": "国際ビジネス交渉、グローバル人材育成、異文化チーム管理",
+      "when_to_apply": "異なる国籍・文化背景を持つ人々が共に働く場面での摩擦分析",
+      "framing_questions": [
+        "権力の格差は文化によってどう異なるか？",
+        "個人の目標と集団の目標はどちらが優先されるか？"
+      ],
+      "opposing_concept_names": [
+        "文化の普遍主義",
+        "個人差研究（文化より個人に着目）"
+      ],
+      "keywords_ja": [
+        "権力格差",
+        "個人主義-集団主義",
+        "不確実性回避",
+        "男性性-女性性",
+        "長期志向"
+      ],
+      "keywords_en": [
+        "power distance",
+        "individualism-collectivism",
+        "uncertainty avoidance",
+        "masculinity-femininity",
+        "long-term orientation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "組織管理行動・消費者行動・政治的態度との相関が多国間比較研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ヘールト・ホフステード",
+      "originator_name_en": "Geert Hofstede",
+      "founding_work_title": "Culture's Consequences: International Differences in Work-Related Values",
+      "founding_work_year": 1980,
+      "founding_work_venue": "Sage Publications"
+    },
+    {
+      "name_ja": "個人主義-集団主義理論（トリアンディス）",
+      "name_en": "Individualism-Collectivism Theory (Triandis)",
+      "definition": "個人の目標と集団目標の優先関係を中心に文化を分類するトリアンディスの精緻化理論。文化レベルの個人主義-集団主義に対応する個人レベル概念として「独心性（idiocentrism）-他心性（allocentrism）」を導入。水平的-垂直的軸（平等重視か階層重視か）を加えた四類型（水平的個人主義・垂直的個人主義・水平的集団主義・垂直的集団主義）を提示した。",
+      "impact_summary": "ホフステードの文化次元を心理学的に精緻化し、個人差と文化差を同時に扱える分析枠組みを提供した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "比較文化心理学",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "文化間のself概念・意思決定・対人行動の比較研究",
+      "when_to_apply": "集団主義的文化の中でも個人差を説明する必要があるとき",
+      "framing_questions": [
+        "個人は自己を独立した存在として見るか、関係の中に埋め込まれた存在として見るか？",
+        "内集団への義務はどの程度強いか？"
+      ],
+      "opposing_concept_names": [
+        "個人主義（独心性優勢）"
+      ],
+      "keywords_ja": [
+        "独心性",
+        "他心性",
+        "水平的個人主義",
+        "垂直的集団主義",
+        "内集団"
+      ],
+      "keywords_en": [
+        "idiocentrism",
+        "allocentrism",
+        "horizontal individualism",
+        "vertical collectivism",
+        "in-group"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "社会的行動・協力行動・対立解決スタイルの文化間差異の説明に有効",
+      "empirical_support": "supported",
+      "originator_name": "ハリー・トリアンディス",
+      "originator_name_en": "Harry C. Triandis",
+      "founding_work_title": "Collectivism v. Individualism: A Reconceptualization of a Basic Concept in Cross-Cultural Social Psychology",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Bagley & Verma (Eds.), Cross-Cultural Studies of Personality, Attitudes and Cognition"
+    },
+    {
+      "name_ja": "相互協調的・相互独立的自己観",
+      "name_en": "Interdependent and Independent Self-Construal",
+      "definition": "マーカスと北山が提唱した自己概念の文化的二類型。相互独立的自己観は自己を他者から切り離された固有の実体として捉え（西洋文化に典型的）、相互協調的自己観は自己を他者との関係に埋め込まれた存在として捉える（東アジア文化に典型的）。この差異が認知・感情・動機づけのパターンに広範な違いをもたらすとされる。",
+      "impact_summary": "心理学研究における文化的バイアスを明示し、認知・感情・対人行動の研究を文化的視点から根本的に再検討する契機となった。社会心理学・文化心理学の最重要論文の一つ。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "文化心理学・自己概念研究",
+      "era_start": 1991,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "文化間の自己概念・感情・動機づけの比較研究",
+      "when_to_apply": "東西文化間のコミュニケーション摩擦や価値観ギャップを理解したいとき",
+      "framing_questions": [
+        "自己は独立した実体か、関係の中に埋め込まれた存在か？",
+        "感情・目標・行動選択に文化的自己観の違いが反映されているか？"
+      ],
+      "opposing_concept_names": [
+        "相互独立的自己観"
+      ],
+      "keywords_ja": [
+        "相互協調的自己観",
+        "相互独立的自己観",
+        "文化的自己",
+        "関係的自己",
+        "認知スタイル"
+      ],
+      "keywords_en": [
+        "interdependent self-construal",
+        "independent self-construal",
+        "cultural self",
+        "relational self",
+        "cognitive style"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "自己高揚バイアス・感情体験・社会的行動の文化差を説明する強力な枠組み",
+      "empirical_support": "supported",
+      "originator_name": "ハイゼル・マーカス、北山忍",
+      "originator_name_en": "Hazel R. Markus, Shinobu Kitayama",
+      "founding_work_title": "Culture and the Self: Implications for Cognition, Emotion, and Motivation",
+      "founding_work_year": 1991,
+      "founding_work_venue": "Psychological Review, 98(2)"
+    },
+    {
+      "name_ja": "WEIRD問題",
+      "name_en": "WEIRD Problem",
+      "definition": "心理学研究の参加者のおよそ80%を占めるWEIRD（Western・Educated・Industrialized・Rich・Democratic）サンプルが、世界人口の約12%にすぎず、かつ多くの心理現象において外れ値（outlier）であることを指摘したヘンリッチらの批判的主張。現代心理学の「人間の普遍的心理」という前提を根本から問い直した。",
+      "impact_summary": "心理学全体の方法論的・認識論的前提を揺るがし、比較文化研究・非WEIRD集団での再現研究の増加を促した。科学的心理学の地理的・文化的偏りを可視化した最重要論文の一つ。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "文化進化論・批判的心理学",
+      "era_start": 2010,
+      "era_end": null,
+      "methodology_level": "メタ・文化レベル",
+      "application_conditions": "心理学研究の妥当性評価、非西洋集団への研究拡張",
+      "when_to_apply": "心理学的知見を異なる文化・社会集団に適用しようとするとき",
+      "framing_questions": [
+        "この研究知見は非WEIRD集団でも再現されるか？",
+        "サンプルの文化的偏りが結論に影響していないか？"
+      ],
+      "opposing_concept_names": [
+        "心理的普遍主義（文化を超えた人間心理の均一性主張）"
+      ],
+      "keywords_ja": [
+        "WEIRD",
+        "文化的偏り",
+        "普遍性批判",
+        "非西洋心理学",
+        "サンプルバイアス"
+      ],
+      "keywords_en": [
+        "WEIRD",
+        "cultural bias",
+        "universality critique",
+        "non-Western psychology",
+        "sample bias"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "直接の予測理論ではなく方法論的批判として機能、研究設計の見直しを促す",
+      "empirical_support": "supported",
+      "originator_name": "ジョセフ・ヘンリッチ、スティーブン・ハイン、アラ・ノレンザイアン",
+      "originator_name_en": "Joseph Henrich, Steven J. Heine, Ara Norenzayan",
+      "founding_work_title": "The Weirdest People in the World?",
+      "founding_work_year": 2010,
+      "founding_work_venue": "Behavioral and Brain Sciences, 33(2-3)"
+    },
+    {
+      "name_ja": "文化的タイトネス-ルーズネス理論",
+      "name_en": "Cultural Tightness-Looseness Theory",
+      "definition": "社会規範の強さと逸脱への制裁の厳しさに基づいて文化を「タイト（規範が強固・逸脱を許容しない）」と「ルーズ（規範が緩やか・逸脱を容認する）」に分類するゲルファンドの理論。33カ国研究で各国のタイト-ルーズ得点を測定し、歴史的脅威（人口密度・資源不足・感染症・災害）との関連を示した。",
+      "impact_summary": "パンデミック対応の国家間差異（タイト国は感染抑制に成功する傾向）など、社会現象の予測に実証的な有効性を示した。政策立案・異文化ビジネスへの応用が進んでいる。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "比較文化心理学・文化進化論",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "文化・国家レベル",
+      "application_conditions": "規制・コンプライアンス行動の国際比較、組織文化の強度分析",
+      "when_to_apply": "規則遵守や逸脱への寛容度の文化差を分析したいとき",
+      "framing_questions": [
+        "この社会は強い規範と制裁を持つタイト文化か？",
+        "歴史的・生態学的脅威が規範強度に影響しているか？"
+      ],
+      "opposing_concept_names": [
+        "ルーズ文化"
+      ],
+      "keywords_ja": [
+        "タイト文化",
+        "ルーズ文化",
+        "社会規範",
+        "逸脱許容度",
+        "制裁"
+      ],
+      "keywords_en": [
+        "tight culture",
+        "loose culture",
+        "social norms",
+        "deviance tolerance",
+        "sanctions"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "33カ国のCOVID-19死者数との負の相関など複数の社会指標で予測力を確認",
+      "empirical_support": "supported",
+      "originator_name": "ミシェル・ゲルファンド",
+      "originator_name_en": "Michele J. Gelfand",
+      "founding_work_title": "Differences Between Tight and Loose Cultures: A 33-Nation Study",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Science, 332(6033)"
+    },
+    {
+      "name_ja": "甘え理論",
+      "name_en": "Amae Theory",
+      "definition": "「甘え」を日本文化に固有の心理的依存様式として分析した土居健郎の理論。他者が自分の欲求を受容・許容してくれることへの期待・依存を指し、母子関係を原型とする。西洋の個人主義的自律モデルでは捉えられない日本人の対人関係・集団行動・精神病理を説明するとした。1973年に英訳（The Anatomy of Dependence）されて国際的影響を持つ。",
+      "impact_summary": "日本の対人関係・組織文化・精神分析実践の理解に不可欠な概念として定着し、文化的に特有の心理概念が普遍理論を補完する事例となった。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "精神分析的文化心理学",
+      "era_start": 1971,
+      "era_end": null,
+      "methodology_level": "個人・対人・文化レベル",
+      "application_conditions": "日本の組織行動・対人関係・精神病理の理解",
+      "when_to_apply": "日本人の対人関係パターン・依存的行動・集団内の調和志向を分析するとき",
+      "framing_questions": [
+        "甘えの欲求が満たされない場合、どのような心理反応が生じるか？",
+        "甘えは集団主義とどのように関連するか？"
+      ],
+      "opposing_concept_names": [
+        "西洋的自律性・独立性モデル"
+      ],
+      "keywords_ja": [
+        "甘え",
+        "依存",
+        "母子関係",
+        "対人融合",
+        "受容期待"
+      ],
+      "keywords_en": [
+        "amae",
+        "dependence",
+        "indulgent dependency",
+        "interpersonal fusion",
+        "acceptance expectation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "日本の対人行動・組織内の気遣い行動の説明に有効だが定量的測定は困難",
+      "empirical_support": "partially_supported",
+      "originator_name": "土居健郎",
+      "originator_name_en": "Takeo Doi",
+      "founding_work_title": "甘えの構造",
+      "founding_work_year": 1971,
+      "founding_work_venue": "弘文堂"
+    },
+    {
+      "name_ja": "間人主義",
+      "name_en": "Contextualism / Kanjin-shugi",
+      "definition": "浜口恵俊が提唱した、日本社会の人間観を表す概念。西洋の「個人（individual）」でも中国の「集団」でもなく、「間人（かんじん）」を基本単位とする。間人は相互依存・互恵・信頼の網の目の中に存在し、関係そのものが目的であって手段ではない。個人主義-集団主義の二項対立を超える第三の類型として位置づけられる。",
+      "impact_summary": "日本社会論・組織文化論において独自の分析枠組みを提供し、文化心理学における東アジア的人間観の理論化に貢献した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "日本社会論・関係的人間観",
+      "era_start": 1982,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "日本的経営・組織文化・対人関係の理解",
+      "when_to_apply": "個人主義-集団主義の枠組みでは説明できない日本の対人・組織行動を分析するとき",
+      "framing_questions": [
+        "この行動は個人の利益か集団の利益か、それとも関係の維持そのものが目的か？",
+        "間人的な文脈で、人間関係は手段か目的か？"
+      ],
+      "opposing_concept_names": [
+        "個人主義",
+        "集団主義"
+      ],
+      "keywords_ja": [
+        "間人",
+        "相互依存",
+        "互恵",
+        "関係的人間観",
+        "日本的自己"
+      ],
+      "keywords_en": [
+        "kanjin",
+        "interdependence",
+        "reciprocity",
+        "relational personhood",
+        "Japanese self"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "質的・理論的説明力は高いが定量的予測検証は限定的",
+      "empirical_support": "partially_supported",
+      "originator_name": "浜口恵俊",
+      "originator_name_en": "Eshun Hamaguchi",
+      "founding_work_title": "間人主義の社会 日本",
+      "founding_work_year": 1982,
+      "founding_work_venue": "東洋経済新報社"
+    },
+    {
+      "name_ja": "阿闍世コンプレックス",
+      "name_en": "Ajase Complex",
+      "definition": "古沢平作が提唱し小此木啓吾が発展させた、日本の文化的精神分析概念。インドの仏教説話「阿闍世王」を素材に、母への憎しみ（未生怨：生まれる前からの怨み）と母の慈悲による赦し・和解という心理ドラマを通じて、日本人の母子関係・罪悪感・共感の在り方を説明する。フロイトのエディプスコンプレックス（父親的原理）に対する東洋的母性原理に基づく人間理解。",
+      "impact_summary": "日本的精神分析の理論的基盤となり、東洋の母子関係論・共生的人間観の心理学的表現として国際的に注目された。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "精神分析的文化心理学",
+      "era_start": 1932,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "日本における母子関係・罪悪感・共感の文化的特性の理解",
+      "when_to_apply": "日本の対人的罪悪感・共生的依存・赦しの心理を分析するとき",
+      "framing_questions": [
+        "罪悪感は父への恐れから来るか、母への傷つけへの悔いから来るか？",
+        "赦しと和解が心理的発達においてどのような役割を果たすか？"
+      ],
+      "opposing_concept_names": [
+        "エディプスコンプレックス（父親的原理）"
+      ],
+      "keywords_ja": [
+        "阿闍世",
+        "未生怨",
+        "母性原理",
+        "罪悪感",
+        "共生"
+      ],
+      "keywords_en": [
+        "Ajase",
+        "prenatal resentment",
+        "maternal principle",
+        "guilt",
+        "symbiosis"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "臨床的・文化論的説明力は高いが実証的検証は限定的",
+      "empirical_support": "partially_supported",
+      "originator_name": "古沢平作（提唱）、小此木啓吾（体系化）",
+      "originator_name_en": "Heisaku Furusawa (originator), Keigo Okonogi (systematizer)",
+      "founding_work_title": "阿闍世コンプレックス",
+      "founding_work_year": 1932,
+      "founding_work_venue": "精神分析研究"
+    },
+    {
+      "name_ja": "ウブントゥ哲学・アフリカ心理学",
+      "name_en": "Ubuntu Philosophy / African Psychology",
+      "definition": "「私は他者を通じて存在する（I am because we are）」という南部アフリカのバントゥー語圏に根ざした人間観・倫理観。他者との関係性・共同体への参加・相互扶助を人間性の根拠とする。ムボギとラモーゼがアフリカ哲学として体系化した。個人より共同体を優先するが、個を否定するのではなく関係の中に個を位置づける。",
+      "impact_summary": "アフリカ的人間観を普遍心理学の多様性に組み込む試みとして注目され、ポジティブ心理学・組織心理学・倫理学への応用が進んでいる。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "先住民心理学・アフリカ哲学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "アフリカ文化圏の組織行動・ウェルビーイング・コミュニティ支援の理解",
+      "when_to_apply": "西洋的個人主義モデルでは捉えられないアフリカ的な集団的ウェルビーイングを分析するとき",
+      "framing_questions": [
+        "この行動はコミュニティへの帰属と相互扶助の観点から説明できるか？",
+        "個人のウェルビーイングはコミュニティのウェルビーイングと切り離せないか？"
+      ],
+      "opposing_concept_names": [
+        "西洋的個人主義"
+      ],
+      "keywords_ja": [
+        "ウブントゥ",
+        "共同体",
+        "相互扶助",
+        "アフリカ的人間観",
+        "先住民心理学"
+      ],
+      "keywords_en": [
+        "ubuntu",
+        "community",
+        "mutual aid",
+        "African humanism",
+        "indigenous psychology"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "定量的実証研究は発展途上だが質的・哲学的説明力は高い",
+      "empirical_support": "partially_supported",
+      "originator_name": "ムボギ・ラモーゼ（体系化）",
+      "originator_name_en": "Mogobe B. Ramose",
+      "founding_work_title": "African Philosophy Through Ubuntu",
+      "founding_work_year": 1999,
+      "founding_work_venue": "Mond Books"
+    },
+    {
+      "name_ja": "先住民心理学（シコロヒャン・ピリピノ）",
+      "name_en": "Indigenous Psychology (Sikolohiyang Pilipino)",
+      "definition": "フィリピンの心理学者エンリケスが提唱した、西洋心理学の脱植民地化を目指すアプローチ。フィリピン文化の価値観・言語・経験から心理学的知識を構築する「内側からの先住民化」を提唱。カパワ（shared inner self）、パキキサマ（和の維持）、ヒヤ（恥/礼節）などの固有概念を核とする。より広く、非西洋文化に根ざした先住民心理学運動の代表例。",
+      "impact_summary": "心理学の脱植民地化運動に大きな影響を与え、アジア・アフリカ・ラテンアメリカの先住民心理学の形成を促した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "先住民心理学・脱植民地化心理学",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "文化・社会レベル",
+      "application_conditions": "非西洋文化圏の心理的支援・コミュニティ研究",
+      "when_to_apply": "西洋的な測定・概念枠では適切に捉えられない非西洋の心理現象を研究するとき",
+      "framing_questions": [
+        "この心理概念は当該文化の人々の生きた経験から生まれているか？",
+        "外から持ち込まれた理論が文化的文脈に適合しているか？"
+      ],
+      "opposing_concept_names": [
+        "心理学の普遍主義",
+        "WEIRD心理学"
+      ],
+      "keywords_ja": [
+        "先住民化",
+        "カパワ",
+        "パキキサマ",
+        "脱植民地化",
+        "文化的妥当性"
+      ],
+      "keywords_en": [
+        "indigenization",
+        "kapwa",
+        "pakikisama",
+        "decolonization",
+        "cultural validity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "当該文化圏内での対人行動・集団行動の説明に有効",
+      "empirical_support": "partially_supported",
+      "originator_name": "ヴィルジリオ・エンリケス",
+      "originator_name_en": "Virgilio G. Enriquez",
+      "founding_work_title": "Sikolohiyang Pilipino: Perspektibo at Direksyon",
+      "founding_work_year": 1976,
+      "founding_work_venue": "Pambansang Samahan sa Sikolohiyang Pilipino"
+    },
+    {
+      "name_ja": "ベリーの文化適応モデル",
+      "name_en": "Berry's Acculturation Model",
+      "definition": "移民や異文化接触において個人がとる適応戦略を、「自文化アイデンティティの維持」と「主流文化への参加」の二軸で分類するモデル。同化（assimilation）・統合（integration）・分離（separation）・周辺化（marginalization）の四類型を提示した。統合戦略が最もウェルビーイングと関連することが多くの研究で示されている。",
+      "impact_summary": "国際移民・難民・留学生の心理的適応研究の標準的枠組みとなり、多文化政策・移民支援の実践に広く応用されている。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "比較文化心理学・移民心理学",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "移民・留学生・難民の心理的支援、多文化組織のマネジメント",
+      "when_to_apply": "文化的移行期にある個人のアイデンティティと適応ストレスを理解したいとき",
+      "framing_questions": [
+        "出身文化を維持しながら新文化に参加できているか（統合）？",
+        "どの適応戦略がウェルビーイングを高めるか？"
+      ],
+      "opposing_concept_names": [
+        "同化主義（主流文化への一方的適応）"
+      ],
+      "keywords_ja": [
+        "同化",
+        "統合",
+        "分離",
+        "周辺化",
+        "文化変容"
+      ],
+      "keywords_en": [
+        "assimilation",
+        "integration",
+        "separation",
+        "marginalization",
+        "acculturation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "統合策がウェルビーイング・社会機能の最良予測因子（多国間メタ分析で確認）",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・ベリー",
+      "originator_name_en": "John W. Berry",
+      "founding_work_title": "Acculturation as Varieties of Adaptation",
+      "founding_work_year": 1980,
+      "founding_work_venue": "Padilla (Ed.), Acculturation: Theory, Models, and Some New Findings"
+    },
+    {
+      "name_ja": "文化的知能理論",
+      "name_en": "Cultural Intelligence Theory",
+      "definition": "異文化状況において効果的に機能する能力。アーリーとアングが提唱し、認知的CQ（異文化知識）・メタ認知的CQ（文化的思考意識）・動機的CQ（異文化適応への意欲）・行動的CQ（適切な行動の柔軟性）の四次元で構成される。IQや感情知能（EQ）とは独立した構成概念として測定・開発が可能。",
+      "impact_summary": "グローバル人材育成・多文化チームのパフォーマンス向上の実践ツールとして急速に普及し、組織の国際化対応に貢献した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "比較文化心理学・組織行動論",
+      "era_start": 2003,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "国際ビジネス・多文化チーム・グローバルリーダーシップ育成",
+      "when_to_apply": "異文化間で働くリーダーや従業員の能力評価・育成を行うとき",
+      "framing_questions": [
+        "異文化状況での判断・行動に文化的バイアスが影響していないか？",
+        "CQの四次元のどこが開発ポイントか？"
+      ],
+      "opposing_concept_names": [
+        "単一文化的知能観"
+      ],
+      "keywords_ja": [
+        "認知的CQ",
+        "メタ認知的CQ",
+        "動機的CQ",
+        "行動的CQ",
+        "異文化適応"
+      ],
+      "keywords_en": [
+        "cognitive CQ",
+        "metacognitive CQ",
+        "motivational CQ",
+        "behavioral CQ",
+        "cross-cultural adaptation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "異文化業績・多文化チームパフォーマンスとの相関が実証（メタ分析）",
+      "empirical_support": "supported",
+      "originator_name": "クリストファー・アーリー、スーン・アング",
+      "originator_name_en": "P. Christopher Earley, Soon Ang",
+      "founding_work_title": "Cultural Intelligence: Individual Interactions Across Cultures",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Stanford University Press"
+    },
+    {
+      "name_ja": "文化的自己高揚バイアスの文化差研究",
+      "name_en": "Cultural Differences in Self-Enhancement",
+      "definition": "西洋文化では自己を平均以上に評価する「自己高揚バイアス」が強いが、東アジア文化（特に日本）では自己批判傾向（self-criticism）が優位であることを示した比較文化研究の蓄積。北山・マーカス・マツモトらが多くの文化間比較研究を蓄積した。自己概念・感情・認知スタイルの文化差を示す中核的エビデンス群。",
+      "impact_summary": "「自己高揚は人間の普遍的動機である」というそれまでの心理学的通念を覆し、文化心理学の最重要発見の一つとして確立された。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "文化心理学・社会的認知研究",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "自己概念・自尊感情の文化間比較研究",
+      "when_to_apply": "自己評価・フィードバック受容・評価制度への文化的差異を理解したいとき",
+      "framing_questions": [
+        "この自己評価パターンは文化特有のものか普遍的なものか？",
+        "東アジア文化での自己批判は低い自尊感情を意味するか？"
+      ],
+      "opposing_concept_names": [
+        "自己高揚バイアス（西洋的普遍仮説）"
+      ],
+      "keywords_ja": [
+        "自己高揚",
+        "自己批判",
+        "謙遜規範",
+        "文化的自己観",
+        "社会的比較"
+      ],
+      "keywords_en": [
+        "self-enhancement",
+        "self-criticism",
+        "modesty norm",
+        "cultural self-view",
+        "social comparison"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "自己評価・フィードバック受容・学習動機の文化差の説明に高い有効性",
+      "empirical_support": "supported",
+      "originator_name": "北山忍、ハイゼル・マーカス",
+      "originator_name_en": "Shinobu Kitayama, Hazel R. Markus",
+      "founding_work_title": "Culture and Self: How Cultures Influence the Way We View Ourselves",
+      "founding_work_year": 1995,
+      "founding_work_venue": "Matsumoto (Ed.), People: Psychology from a Cultural Perspective"
+    },
+    {
+      "name_ja": "文化的認知スタイル差異（分析的・全体的思考）",
+      "name_en": "Analytic vs. Holistic Thinking",
+      "definition": "西洋文化は対象を文脈から切り離して属性で分類する「分析的思考」を好み、東アジア文化は対象と文脈を関係として捉える「全体的思考」を好むとするニスベット・ペン・チョイらの理論。視覚的注意・因果推論・矛盾への耐性・カテゴリー形成に一貫した文化差が示されている。",
+      "impact_summary": "知覚・推論・因果判断における基本的な認知スタイルが文化によって異なることを実験心理学的に実証し、文化心理学の主要発見の一つとなった。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "文化心理学・認知心理学",
+      "era_start": 2001,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "認知・判断スタイルの文化間比較、異文化チームの意思決定分析",
+      "when_to_apply": "文化間の論理的推論スタイルや意思決定プロセスの違いを理解したいとき",
+      "framing_questions": [
+        "問題解決において文脈を重視するか、対象の属性を重視するか？",
+        "矛盾する情報への耐性に文化差があるか？"
+      ],
+      "opposing_concept_names": [
+        "分析的思考（西洋的認知スタイル）"
+      ],
+      "keywords_ja": [
+        "分析的思考",
+        "全体的思考",
+        "文脈依存",
+        "因果推論",
+        "弁証法的思考"
+      ],
+      "keywords_en": [
+        "analytic thinking",
+        "holistic thinking",
+        "context dependence",
+        "causal reasoning",
+        "dialectical thinking"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "視覚的注意・因果推論・矛盾許容度の文化差を実験室研究で一貫して予測",
+      "empirical_support": "supported",
+      "originator_name": "リチャード・ニスベット",
+      "originator_name_en": "Richard E. Nisbett",
+      "founding_work_title": "The Geography of Thought: How Asians and Westerners Think Differently and Why",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Free Press"
+    },
+    {
+      "name_ja": "コンテキスト文化理論（ホール）",
+      "name_en": "High-Context and Low-Context Culture Theory",
+      "definition": "コミュニケーションにおける文脈（コンテキスト）への依存度で文化を分類するエドワード・ホールの理論。高文脈文化（日本・中国・アラブ等）は非言語・暗黙の文脈に多くの情報が込められ、低文脈文化（ドイツ・米国等）は言語に明示的に情報が込められる。ビジネス交渉・組織コミュニケーションの文化差の理解に広く応用された。",
+      "impact_summary": "異文化コミュニケーション教育・国際ビジネス訓練の標準概念として50年にわたり普及し、「読めないコミュニケーション」の文化的原因の説明に貢献した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "異文化コミュニケーション論",
+      "era_start": 1976,
+      "era_end": null,
+      "methodology_level": "文化レベル",
+      "application_conditions": "国際ビジネス交渉、異文化コミュニケーション研修",
+      "when_to_apply": "異文化間での「言わなくても分かる」対「明示が必要」の摩擦を分析するとき",
+      "framing_questions": [
+        "言語外の文脈にどれほどの情報が込められているか？",
+        "明示的な言語表現が期待されているか、暗黙の理解が前提か？"
+      ],
+      "opposing_concept_names": [
+        "低文脈文化"
+      ],
+      "keywords_ja": [
+        "高文脈文化",
+        "低文脈文化",
+        "暗黙知",
+        "非言語コミュニケーション",
+        "間接表現"
+      ],
+      "keywords_en": [
+        "high-context culture",
+        "low-context culture",
+        "implicit communication",
+        "nonverbal",
+        "indirect expression"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "実証的検証は困難だが記述的・教育的有用性は高い",
+      "empirical_support": "mixed",
+      "originator_name": "エドワード・ホール",
+      "originator_name_en": "Edward T. Hall",
+      "founding_work_title": "Beyond Culture",
+      "founding_work_year": 1976,
+      "founding_work_venue": "Anchor Books / Doubleday"
+    },
+    {
+      "name_ja": "文化的プライミング研究",
+      "name_en": "Cultural Priming Research",
+      "definition": "文化的シンボル（国旗・ことわざ・文化的場面）にさらすことで、バイ文化（bicultural）個人の認知・行動が一方の文化のパターンへと切り替わることを示す実験研究群。ホン・チウ・バウマイスターらが実証し、文化的自己観が状況的に活性化されることを示した。文化は固定的な特性ではなくダイナミックな認知プロセスであるという「ダイナミック構成主義」と連動。",
+      "impact_summary": "文化を静的な特性ではなく動的なプロセスとして理解する転換を促し、バイ文化個人の心理研究を活性化した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "文化心理学・実験的社会心理学",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "個人・実験レベル",
+      "application_conditions": "多文化的アイデンティティ・バイリンガル・移民の心理研究",
+      "when_to_apply": "文化的アイデンティティの状況依存的変化を理解したいとき",
+      "framing_questions": [
+        "文化的シンボルへの暴露が認知・行動を変えるか？",
+        "バイ文化個人はどのように文化的自己を切り替えるか？"
+      ],
+      "opposing_concept_names": [
+        "文化特性の固定的モデル"
+      ],
+      "keywords_ja": [
+        "文化的プライミング",
+        "バイ文化",
+        "動的構成主義",
+        "文化的フレーム",
+        "アイデンティティ切り替え"
+      ],
+      "keywords_en": [
+        "cultural priming",
+        "bicultural",
+        "dynamic constructivism",
+        "cultural frame",
+        "identity switching"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "プライミングによる認知・行動変化を実験室で安定して再現",
+      "empirical_support": "supported",
+      "originator_name": "アイリーン・ホン",
+      "originator_name_en": "Ying-yi Hong",
+      "founding_work_title": "Multicultural Minds: A Dynamic Constructivist Approach to Culture and Cognition",
+      "founding_work_year": 2000,
+      "founding_work_venue": "American Psychologist, 55(7)"
+    },
+    {
+      "name_ja": "感情の文化差研究（感情表示規則）",
+      "name_en": "Cultural Differences in Emotional Expression (Display Rules)",
+      "definition": "感情そのものの体験よりも表示規則（誰に、いつ、どの程度感情を表現するかの文化規範）が文化によって異なることを示すエクマン・フリーセンらの研究、およびマツモトが集団主義-個人主義と感情表示規則の関連を実証した研究群。基本感情の認識は文化を超えるが（エクマン）、表示規則は文化固有。",
+      "impact_summary": "感情の普遍性と文化特異性の両面を明確化し、感情研究における文化的要因の位置づけを確立した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "感情研究・文化心理学",
+      "era_start": 1969,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "異文化間コミュニケーション、感情表現に関する文化差の理解",
+      "when_to_apply": "感情表現の違いが異文化間の誤解を生んでいる場面の分析",
+      "framing_questions": [
+        "感情の表現が文化的規範によって抑制・誇張されていないか？",
+        "個人主義-集団主義が感情表示規則に影響しているか？"
+      ],
+      "opposing_concept_names": [
+        "感情普遍主義（文化差を否定）"
+      ],
+      "keywords_ja": [
+        "感情表示規則",
+        "基本感情",
+        "感情普遍性",
+        "文化規範",
+        "感情抑制"
+      ],
+      "keywords_en": [
+        "display rules",
+        "basic emotions",
+        "emotional universality",
+        "cultural norms",
+        "emotional suppression"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "感情認識の普遍性と表示規則の文化差の予測に高い精度",
+      "empirical_support": "supported",
+      "originator_name": "ポール・エクマン（感情普遍性）、デイヴィッド・マツモト（表示規則）",
+      "originator_name_en": "Paul Ekman, David Matsumoto",
+      "founding_work_title": "The Influence of Culture on Facial Expressions of Emotion",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Social Psychology Quarterly, 52(4)"
+    },
+    {
+      "name_ja": "文化的自律性-関係性モデル（シュワルツ）",
+      "name_en": "Schwartz's Cultural Value Orientations",
+      "definition": "シュワルツが70カ国以上のデータから導出した文化価値観の七次元モデル。埋め込み（Embeddedness）対知的自律性・感情的自律性、権威主義（Hierarchy）対平等主義（Egalitarianism）、習得（Mastery）対調和（Harmony）の三つの対極的次元で文化を位置づける。ホフステードとは独立した実証的枠組み。",
+      "impact_summary": "ホフステードと並ぶ文化比較研究の主要モデルとして確立し、経済発展・民主主義・環境行動の文化的説明に応用されている。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "比較文化心理学",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "文化レベル",
+      "application_conditions": "国家間の価値観比較、政策・組織文化の国際比較分析",
+      "when_to_apply": "ホフステードとは異なる枠組みで文化的価値観の国際比較を行うとき",
+      "framing_questions": [
+        "社会は個人の自律性を促進するか、集団への埋め込みを優先するか？",
+        "平等主義的か権威主義的か？"
+      ],
+      "opposing_concept_names": [
+        "個人レベル価値観研究（文化レベルと区別される）"
+      ],
+      "keywords_ja": [
+        "埋め込み",
+        "知的自律性",
+        "平等主義",
+        "習得",
+        "調和"
+      ],
+      "keywords_en": [
+        "embeddedness",
+        "intellectual autonomy",
+        "egalitarianism",
+        "mastery",
+        "harmony"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "民主主義指数・GDP・幸福度の文化間差異を有意に予測",
+      "empirical_support": "supported",
+      "originator_name": "シャローム・シュワルツ",
+      "originator_name_en": "Shalom H. Schwartz",
+      "founding_work_title": "Beyond Individualism/Collectivism: New Cultural Dimensions of Values",
+      "founding_work_year": 1994,
+      "founding_work_venue": "Triandis et al. (Eds.), Individualism and Collectivism"
+    },
+    {
+      "name_ja": "宗教的多元主義と文化心理学",
+      "name_en": "Religion, Spirituality, and Cultural Psychology",
+      "definition": "宗教・精神性が認知・道徳・健康・ウェルビーイングに与える影響を文化的文脈で研究する領域。グラハムとハイトの「道徳基盤理論」（保守-リベラルの道徳的直観の差異）、オリシンとシャーウッドの宗教的コーピング研究、パーガメントの宗教的コーピング理論がその中核を形成する。",
+      "impact_summary": "宗教・精神性が心理的ウェルビーイングの重要な文化的資源であることを実証し、異文化ケアと宗教的多様性への心理的対応を促進した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "宗教心理学・道徳心理学",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "多宗教・多文化状況での心理支援、道徳判断の文化差分析",
+      "when_to_apply": "宗教的信念がウェルビーイング・道徳判断・コーピングに影響している状況の分析",
+      "framing_questions": [
+        "宗教的信念はストレスコーピングにどう機能しているか？",
+        "道徳的判断の文化的ルーツは何か？"
+      ],
+      "opposing_concept_names": [
+        "世俗的ウェルビーイング研究"
+      ],
+      "keywords_ja": [
+        "宗教的コーピング",
+        "精神性",
+        "道徳基盤",
+        "文化的資源",
+        "ウェルビーイング"
+      ],
+      "keywords_en": [
+        "religious coping",
+        "spirituality",
+        "moral foundations",
+        "cultural resource",
+        "wellbeing"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "宗教的コーピングとメンタルヘルスの関連が多数研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ケネス・パーガメント",
+      "originator_name_en": "Kenneth I. Pargament",
+      "founding_work_title": "The Psychology of Religion and Coping",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Guilford Press"
+    },
+    {
+      "name_ja": "社会的アクセプタンスの文化差（和の維持）",
+      "name_en": "Cultural Face Negotiation Theory",
+      "definition": "「フェイス（face：対面・体裁）」の維持・脅威・回復をめぐる対立管理スタイルが文化によって異なることを説明するティン-トゥメイの理論。集団主義・高権力格差文化では他者フェイスの維持を重視した間接的対立回避が好まれ、個人主義・低権力格差文化では自己フェイスの主張が優先される直接的スタイルが用いられることを理論化した。",
+      "impact_summary": "異文化間の対立・交渉スタイルの差異を説明する理論として組織行動・外交・国際ビジネス教育に広く応用されている。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "異文化コミュニケーション論・対立管理研究",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "異文化間交渉・対立解決・多文化職場の人間関係管理",
+      "when_to_apply": "対立回避・直接的フィードバック・謝罪行動の文化差を理解したいとき",
+      "framing_questions": [
+        "この対立回避行動はフェイス維持動機から来ているか？",
+        "自己フェイスと他者フェイスのどちらが優先されているか？"
+      ],
+      "opposing_concept_names": [
+        "直接的対立スタイル（低文脈・個人主義文化）"
+      ],
+      "keywords_ja": [
+        "フェイス",
+        "対面維持",
+        "対立回避",
+        "間接表現",
+        "文化的交渉スタイル"
+      ],
+      "keywords_en": [
+        "face",
+        "facework",
+        "conflict avoidance",
+        "indirect communication",
+        "negotiation style"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "対立管理行動の文化差の説明・予測に有効",
+      "empirical_support": "supported",
+      "originator_name": "スティラン・ティン-トゥメイ",
+      "originator_name_en": "Stella Ting-Toomey",
+      "founding_work_title": "Intercultural Conflict Styles: A Face-Negotiation Theory",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Kim & Gudykunst (Eds.), Theories in Intercultural Communication"
+    },
+    {
+      "name_ja": "感情の社会的共有理論（ライメ）",
+      "name_en": "Social Sharing of Emotion Theory",
+      "definition": "感情体験の後、人は体験を言語化し他者と共有する傾向があるというライメの理論。感情の社会的共有は感情の処理と対人的なサポート獲得の機能を持つが、必ずしも感情強度を低下させるわけではない。文化によって感情の共有相手・方法・規範が異なることが示されている。",
+      "impact_summary": "感情の社会的・文化的側面を強調し、感情の語り（ナラティブ）と対人関係の交差点における研究を活性化した。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "感情研究・社会的心理学",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "個人・対人・文化レベル",
+      "application_conditions": "悲嘆・トラウマ後の感情処理、文化的感情規範の研究",
+      "when_to_apply": "感情の共有・表現が禁止または制限されている文化的文脈の分析",
+      "framing_questions": [
+        "感情体験を他者と共有することで何が得られるか？",
+        "感情共有の規範は文化によってどう異なるか？"
+      ],
+      "opposing_concept_names": [
+        "感情抑制・内在化モデル"
+      ],
+      "keywords_ja": [
+        "感情の社会的共有",
+        "感情処理",
+        "ナラティブ",
+        "社会的サポート",
+        "感情規範"
+      ],
+      "keywords_en": [
+        "social sharing of emotion",
+        "emotional processing",
+        "narrative",
+        "social support",
+        "emotion norms"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "感情共有と対人絆の強化に関する予測が複数研究で支持",
+      "empirical_support": "supported",
+      "originator_name": "バーナード・ライメ",
+      "originator_name_en": "Bernard Rimé",
+      "founding_work_title": "The Social Sharing of Emotion",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Cognition & Emotion, 6(5)"
+    },
+    {
+      "name_ja": "目撃証言の誤情報効果（ロフタス）",
+      "name_en": "Misinformation Effect in Eyewitness Testimony",
+      "definition": "事件目撃後に誤った情報（誘導尋問・メディア報道等）を受けると、元の記憶が改変され誤った証言をするようになる現象。ロフタスが1974年の「自動車衝突」実験で実証し、事後情報効果（postevent information effect）として体系化した。記憶が再構成的（reconstructive）であることを示す重要な根拠。",
+      "impact_summary": "目撃証言の証拠的信頼性に疑問を呈し、司法改革・尋問手続き・証拠法の見直しを促した。認知面接法の開発を誘因した。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "認知心理学・司法心理学",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "犯罪捜査の目撃者尋問、裁判での証言信頼性評価",
+      "when_to_apply": "目撃証言が唯一の証拠、または誘導尋問の可能性がある捜査場面",
+      "framing_questions": [
+        "尋問において誤情報が提供されていないか？",
+        "目撃から証言までの時間が長すぎないか？"
+      ],
+      "opposing_concept_names": [
+        "記憶の正確性仮説（記憶は変わらないという誤解）"
+      ],
+      "keywords_ja": [
+        "誤情報効果",
+        "事後情報",
+        "再構成的記憶",
+        "目撃証言",
+        "誘導尋問"
+      ],
+      "keywords_en": [
+        "misinformation effect",
+        "postevent information",
+        "reconstructive memory",
+        "eyewitness testimony",
+        "leading questions"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "誤情報の呈示後に誤った記憶が形成されることを安定して実証（数百件の研究）",
+      "empirical_support": "supported",
+      "originator_name": "エリザベス・ロフタス",
+      "originator_name_en": "Elizabeth F. Loftus",
+      "founding_work_title": "Reconstruction of Automobile Destruction: An Example of the Interaction Between Language and Memory",
+      "founding_work_year": 1974,
+      "founding_work_venue": "Journal of Verbal Learning and Verbal Behavior, 13(5)"
+    },
+    {
+      "name_ja": "サイコパシー理論（ヘアのPCL-R）",
+      "name_en": "Psychopathy Theory (Hare's PCL-R)",
+      "definition": "サイコパシーを欺瞞性・感情の浅薄さ・共感の欠如・衝動性・反社会的行動などの特性クラスターとして定義し、精神病質チェックリスト（PCL-R）で二因子（感情-対人因子と社会的逸脱因子）として測定するヘアの体系。法医学的リスク評価の標準ツールとして確立された。",
+      "impact_summary": "刑事司法・矯正・精神鑑定においてリスク評価の中核ツールとなり、仮釈放判断・治療計画・危険性管理に実際に使用されている。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "犯罪心理学・精神医学",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "法医学的評価、矯正施設でのリスクアセスメント",
+      "when_to_apply": "暴力犯罪の再犯リスク評価、仮釈放審査、治療ニーズの評価",
+      "framing_questions": [
+        "感情-対人因子（superficiality・grandiosity）と社会的逸脱因子のどちらが高いか？",
+        "PCL-Rスコアは治療反応性の予測に用いられているか？"
+      ],
+      "opposing_concept_names": [
+        "反社会性人格障害（DSM診断）"
+      ],
+      "keywords_ja": [
+        "サイコパシー",
+        "PCL-R",
+        "感情の浅薄さ",
+        "反社会的行動",
+        "リスク評価"
+      ],
+      "keywords_en": [
+        "psychopathy",
+        "PCL-R",
+        "callousness",
+        "antisocial behavior",
+        "risk assessment"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "暴力的再犯の中程度の予測因子（AUC=0.68〜0.78）",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・ヘア",
+      "originator_name_en": "Robert D. Hare",
+      "founding_work_title": "The Hare Psychopathy Checklist-Revised",
+      "founding_work_year": 1991,
+      "founding_work_venue": "Multi-Health Systems"
+    },
+    {
+      "name_ja": "認知面接法",
+      "name_en": "Cognitive Interview",
+      "definition": "記憶の符号化と検索の認知原理（文脈再現・多様な検索順序・全情報の報告・視点変換）に基づいて設計された、より正確な目撃者情報を引き出すための構造化面接技法。ガイゼルマン、フィッシャー、マッキノンらが1984年に開発。標準的な警察面接より約35%多くの正確な情報を引き出すことが示された。",
+      "impact_summary": "英国等では10万人以上の警察官に訓練が実施されるなど、司法面接の国際標準の一つとなり、児童性的虐待調査などにも応用された。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "認知心理学・法心理学",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "犯罪捜査での目撃者・被害者・参考人面接",
+      "when_to_apply": "標準的な自由再生が不完全で、誘導なしに詳細を引き出す必要があるとき",
+      "framing_questions": [
+        "文脈再現を通じて記憶へのアクセスが向上しているか？",
+        "児童・高齢者・トラウマ被害者への適用に修正が必要か？"
+      ],
+      "opposing_concept_names": [
+        "標準的警察面接",
+        "誘導的尋問"
+      ],
+      "keywords_ja": [
+        "文脈再現",
+        "自由再生",
+        "多重検索",
+        "視点変換",
+        "司法面接"
+      ],
+      "keywords_en": [
+        "context reinstatement",
+        "free recall",
+        "multiple retrieval",
+        "change perspective",
+        "forensic interviewing"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "正確な情報量の増加（標準面接比較で35%増）を実験・フィールドで確認",
+      "empirical_support": "supported",
+      "originator_name": "ロナルド・ガイゼルマン、ロン・フィッシャー",
+      "originator_name_en": "R. Edward Geiselman, Ronald P. Fisher",
+      "founding_work_title": "Enhancement of Eyewitness Memory: An Empirical Evaluation of the Cognitive Interview",
+      "founding_work_year": 1984,
+      "founding_work_venue": "Journal of Police Science and Administration, 12(1)"
+    },
+    {
+      "name_ja": "暴力リスクアセスメント（HCR-20）",
+      "name_en": "Violence Risk Assessment (HCR-20)",
+      "definition": "歴史的要因（H：10項目）・臨床的要因（C：5項目）・リスク管理要因（R：5項目）の計20項目で構成される、精神医療・法医学場面での暴力リスクの構造化専門的判断（SPJ）ガイドライン。ウェブスターとダグラスが開発し、診断単独より優れた暴力予測精度を示した。",
+      "impact_summary": "精神科入院・仮釈放・危機管理計画の場面で国際的に広く使用されており、暴力リスク評価の国際標準の一つとして確立された。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "法医学的リスクアセスメント",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "精神科病棟・矯正施設でのリスク評価、入退院・仮釈放審査",
+      "when_to_apply": "暴力再発リスクの包括的評価が必要な法医学・精神医療場面",
+      "framing_questions": [
+        "歴史的・臨床的・状況的リスク因子のバランスはどうか？",
+        "保護的要因（protective factors）を考慮しているか？"
+      ],
+      "opposing_concept_names": [
+        "臨床的直感判断のみによるリスク評価"
+      ],
+      "keywords_ja": [
+        "暴力リスク",
+        "構造化専門的判断",
+        "歴史的因子",
+        "臨床的因子",
+        "リスク管理"
+      ],
+      "keywords_en": [
+        "violence risk",
+        "structured professional judgment",
+        "historical factors",
+        "clinical factors",
+        "risk management"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "暴力予測のAUC=0.63〜0.77（メタ分析）、臨床的単独判断より優位",
+      "empirical_support": "supported",
+      "originator_name": "クリストファー・ウェブスター",
+      "originator_name_en": "Christopher D. Webster",
+      "founding_work_title": "HCR-20: Assessing Risk for Violence (Version 2)",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Simon Fraser University"
+    },
+    {
+      "name_ja": "犯罪プロファイリング",
+      "name_en": "Criminal Profiling",
+      "definition": "未解決犯罪の現場証拠・行動パターンから犯人の心理・人口統計的特徴を推定する手法。FBIが体系化した帰納的・演繹的プロファイリングと、英国のデイヴィッド・カンターが提唱した犯罪者プロファイリング（犯行の一貫性仮説・居住地推定）に大別される。学術的実証性への批判も存在する。",
+      "impact_summary": "捜査実践での普及度は高いが、科学的妥当性の実証的根拠は限定的であり、学術的な批判的検討が続いている。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "法医学的心理学・行動科学",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "連続犯罪捜査、未解決事件の犯人像絞り込み",
+      "when_to_apply": "犯行現場証拠から犯人の特徴について仮説を生成したいとき",
+      "framing_questions": [
+        "犯行の一貫性から犯人の人格特性を推定できるか？",
+        "地理的プロファイリングで居住地域を絞れるか？"
+      ],
+      "opposing_concept_names": [
+        "行動証拠分析（BEA）の批判的見直し"
+      ],
+      "keywords_ja": [
+        "犯人像推定",
+        "犯行の一貫性",
+        "組織型-非組織型",
+        "地理的プロファイリング",
+        "捜査支援"
+      ],
+      "keywords_en": [
+        "offender profiling",
+        "behavioral consistency",
+        "organized-disorganized",
+        "geographic profiling",
+        "investigative support"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "捜査実務での有用性は報告されるが統制研究での精度検証は不十分",
+      "empirical_support": "mixed",
+      "originator_name": "デイヴィッド・カンター（学術的体系化）",
+      "originator_name_en": "David Canter",
+      "founding_work_title": "Criminal Shadows: Inside the Mind of the Serial Killer",
+      "founding_work_year": 1994,
+      "founding_work_venue": "HarperCollins"
+    },
+    {
+      "name_ja": "偽自白研究",
+      "name_en": "False Confession Research",
+      "definition": "実際には行っていない犯罪を自白する現象の心理学的研究。グドジョンソンとカッシンが自発的・説得的・内面化自白の三類型を提示した。長時間の圧迫的尋問・睡眠剥奪・ミランダ権利の理解不足・認知的脆弱性（知的障害・青年期）が偽自白リスクを高める要因として特定された。",
+      "impact_summary": "DNA証拠による無実証明事例の多数が自白に基づく有罪判決であったことが明らかになり、尋問手法の改革・電子録音記録の義務化等の政策変化をもたらした。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "法心理学・司法改革",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "長時間・圧迫的尋問後の自白の信頼性評価",
+      "when_to_apply": "自白の任意性・信頼性に疑義が生じている刑事司法場面",
+      "framing_questions": [
+        "自白は圧力なく任意に行われたか？",
+        "知的障害・青年・精神疾患等の脆弱性はないか？"
+      ],
+      "opposing_concept_names": [
+        "自白の完全な証拠力主義"
+      ],
+      "keywords_ja": [
+        "偽自白",
+        "圧迫尋問",
+        "内面化自白",
+        "認知的脆弱性",
+        "DNA無実証明"
+      ],
+      "keywords_en": [
+        "false confession",
+        "coercive interrogation",
+        "internalized confession",
+        "cognitive vulnerability",
+        "DNA exoneration"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "尋問技法と偽自白リスクの関連が実験・事例研究で一貫して確認",
+      "empirical_support": "supported",
+      "originator_name": "グズミュンダー・グドジョンソン、サウル・カッシン",
+      "originator_name_en": "Gudmundur H. Gudjonsson, Saul M. Kassin",
+      "founding_work_title": "Confessions in Police Interrogation: A Theoretical Model",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Behavioral Sciences and the Law, 10(4)"
+    },
+    {
+      "name_ja": "回復的司法理論（再統合的恥付け理論）",
+      "name_en": "Restorative Justice / Reintegrative Shaming Theory",
+      "definition": "ブレイスウェイトが1989年に提唱した犯罪対応理論。スティグマ化を伴う恥付け（stigmatizing shaming）ではなく、コミュニティへの再統合を目的とした恥付け（reintegrative shaming）が再犯を低下させるとする。加害者・被害者・コミュニティが直接対話する回復的司法カンファレンスはその実践形態。",
+      "impact_summary": "少年犯罪対応・修復的会合・被害者支援プログラムの理論的根拠となり、世界50カ国以上で回復的司法プログラムが実施されている。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "犯罪社会学・回復的司法論",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "個人・コミュニティレベル",
+      "application_conditions": "少年犯罪・軽微な犯罪・学校内紛争解決",
+      "when_to_apply": "応報的刑罰よりも関係修復と再統合を重視する文脈",
+      "framing_questions": [
+        "被害者・加害者・コミュニティが直接対話できる条件が整っているか？",
+        "恥付けが再統合的か、スティグマ化的かを見極めているか？"
+      ],
+      "opposing_concept_names": [
+        "応報的司法（スティグマ化・排除）"
+      ],
+      "keywords_ja": [
+        "再統合的恥付け",
+        "回復的司法",
+        "被害者加害者調停",
+        "コミュニティ",
+        "再犯防止"
+      ],
+      "keywords_en": [
+        "reintegrative shaming",
+        "restorative justice",
+        "victim-offender mediation",
+        "community",
+        "recidivism prevention"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "被害者満足度は一貫して高く、再犯低下効果は研究によって差異あり",
+      "empirical_support": "partially_supported",
+      "originator_name": "ジョン・ブレイスウェイト",
+      "originator_name_en": "John Braithwaite",
+      "founding_work_title": "Crime, Shame and Reintegration",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Cambridge University Press"
+    },
+    {
+      "name_ja": "犯罪抑止理論（合理的選択理論）",
+      "name_en": "Rational Choice Theory of Crime / Deterrence Theory",
+      "definition": "犯罪者は費用（処罰の厳しさ・確率）と便益（金銭・満足）を合理的に計算して犯罪の実行を決定するとする経済学的モデル。ベッカリアとベンサムの功利主義に起源を持ち、コーニッシュとクラークが「合理的選択論的視点」として近代化した。刑事政策・状況的犯罪予防の根拠。",
+      "impact_summary": "犯罪抑止政策（厳罰化・監視強化）と状況的犯罪予防（機会削減）の理論的根拠として政策立案に広く用いられている。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "合理的選択論・犯罪社会学",
+      "era_start": 1764,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "刑事政策の抑止効果評価、状況的犯罪予防設計",
+      "when_to_apply": "犯罪の機会構造と犯罪率の変化を分析したいとき",
+      "framing_questions": [
+        "犯罪の費用（処罰リスク）と便益の比率が変わると犯罪率は変わるか？",
+        "環境設計で犯罪機会を削減できるか？"
+      ],
+      "opposing_concept_names": [
+        "病因論的モデル（犯罪は病気）",
+        "ストレイン理論（社会構造的原因）"
+      ],
+      "keywords_ja": [
+        "合理的選択",
+        "費用便益計算",
+        "抑止",
+        "状況的犯罪予防",
+        "機会削減"
+      ],
+      "keywords_en": [
+        "rational choice",
+        "cost-benefit calculation",
+        "deterrence",
+        "situational crime prevention",
+        "opportunity reduction"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "処罰の確実性が犯罪抑止に有効（厳しさよりも確実性が重要）",
+      "empirical_support": "partially_supported",
+      "originator_name": "デレク・コーニッシュ、ロナルド・クラーク",
+      "originator_name_en": "Derek Cornish, Ronald V. Clarke",
+      "founding_work_title": "The Reasoning Criminal: Rational Choice Perspectives on Offending",
+      "founding_work_year": 1986,
+      "founding_work_venue": "Springer-Verlag"
+    },
+    {
+      "name_ja": "トラウマインフォームドケア理論",
+      "name_en": "Trauma-Informed Care Theory",
+      "definition": "トラウマ経験が身体・精神・行動に広範な影響を与えることを前提に、支援・治療・組織運営のすべてにトラウマへの配慮を組み込むアプローチ。HHSのSAMHSAが「安全・信頼・選択・協働・エンパワメント・文化的配慮」の六原則を示した。被害者支援・矯正施設・学校・医療に応用されている。",
+      "impact_summary": "司法・福祉・教育機関における再トラウマ化を防ぎ、支援効果を高める実践フレームワークとして急速に普及した。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "トラウマ心理学・公衆衛生",
+      "era_start": 2014,
+      "era_end": null,
+      "methodology_level": "個人・組織レベル",
+      "application_conditions": "被害者支援、矯正施設、学校、医療機関",
+      "when_to_apply": "支援対象者の大部分がトラウマ歴を持つと考えられる環境",
+      "framing_questions": [
+        "サービス提供がトラウマを再活性化させていないか？",
+        "安全・選択・エンパワメントの三原則が実装されているか？"
+      ],
+      "opposing_concept_names": [
+        "症状対応型・問題行動対処型アプローチ"
+      ],
+      "keywords_ja": [
+        "トラウマインフォームドケア",
+        "安全",
+        "再トラウマ化防止",
+        "エンパワメント",
+        "ACEs"
+      ],
+      "keywords_en": [
+        "trauma-informed care",
+        "safety",
+        "retraumatization prevention",
+        "empowerment",
+        "ACEs"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "再トラウマ化の予防・サービス利用継続率への影響が支持される",
+      "empirical_support": "partially_supported",
+      "originator_name": "サムシャ（SAMHSA）",
+      "originator_name_en": "SAMHSA (Substance Abuse and Mental Health Services Administration)",
+      "founding_work_title": "SAMHSA's Concept of Trauma and Guidance for a Trauma-Informed Approach",
+      "founding_work_year": 2014,
+      "founding_work_venue": "SAMHSA"
+    },
+    {
+      "name_ja": "少年非行の発達経路理論（ロフタスなし、モフィット）",
+      "name_en": "Developmental Taxonomy of Antisocial Behavior (Moffitt)",
+      "definition": "反社会的行動には「生涯持続型（Life-Course-Persistent：LCP）」と「青年期限定型（Adolescence-Limited：AL）」の二経路があるとするモフィットの発達分類学。LCP型は神経発達的脆弱性（認知・気質）と劣悪環境の相互作用から早期発現し持続する。AL型は青年期の成熟ギャップによるもので成人とともに消退する。",
+      "impact_summary": "犯罪の発達経路を二分化し、早期介入プログラムのターゲット特定と犯罪予防政策の効率化に大きく貢献した。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "発達犯罪学",
+      "era_start": 1993,
+      "era_end": null,
+      "methodology_level": "個人・発達レベル",
+      "application_conditions": "少年犯罪の早期介入、累犯者プログラム設計",
+      "when_to_apply": "犯罪開始年齢・継続性からリスク類型を特定したいとき",
+      "framing_questions": [
+        "犯罪行動は幼児期から持続しているか、それとも青年期に限定されているか？",
+        "神経発達的リスク因子への早期介入が可能か？"
+      ],
+      "opposing_concept_names": [
+        "犯罪者の均一性仮説"
+      ],
+      "keywords_ja": [
+        "生涯持続型",
+        "青年期限定型",
+        "発達経路",
+        "早期介入",
+        "神経発達的脆弱性"
+      ],
+      "keywords_en": [
+        "life-course-persistent",
+        "adolescence-limited",
+        "developmental pathway",
+        "early intervention",
+        "neurodevelopmental vulnerability"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "犯罪の開始・継続・停止のタイミングを二経路で高精度に予測",
+      "empirical_support": "supported",
+      "originator_name": "テリー・モフィット",
+      "originator_name_en": "Terrie E. Moffitt",
+      "founding_work_title": "Adolescence-Limited and Life-Course-Persistent Antisocial Behavior: A Developmental Taxonomy",
+      "founding_work_year": 1993,
+      "founding_work_venue": "Psychological Review, 100(4)"
+    },
+    {
+      "name_ja": "バイスタンダー効果（傍観者効果）",
+      "name_en": "Bystander Effect",
+      "definition": "緊急場面において、居合わせた人数が増えるほど個々の援助行動が抑制される現象。ダーリーとラタネがキティ・ジェノヴィーズ事件を契機に実験的に実証した。「責任の分散（diffusion of responsibility）」と「多元的無知（pluralistic ignorance）」が主要なメカニズム。犯罪場面での目撃者の不作為の説明に用いられる。",
+      "impact_summary": "緊急援助行動・集団心理・法的責任の理解に重要な実証的発見として確立し、援助行動の介入プログラム設計に応用された。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "社会心理学・犯罪心理学",
+      "era_start": 1968,
+      "era_end": null,
+      "methodology_level": "個人・集団レベル",
+      "application_conditions": "緊急援助行動の促進設計、目撃者証言・不作為の理解",
+      "when_to_apply": "目撃者が援助しなかった事例の心理的説明が必要なとき",
+      "framing_questions": [
+        "責任の分散が援助行動を抑制していないか？",
+        "多元的無知（皆が無関心に見える）が生じていないか？"
+      ],
+      "opposing_concept_names": [
+        "個人的責任感・傍観者の介入義務"
+      ],
+      "keywords_ja": [
+        "傍観者効果",
+        "責任の分散",
+        "多元的無知",
+        "援助行動",
+        "緊急介入"
+      ],
+      "keywords_en": [
+        "bystander effect",
+        "diffusion of responsibility",
+        "pluralistic ignorance",
+        "helping behavior",
+        "emergency intervention"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "人数増加による援助行動の抑制を実験室・フィールドで安定して再現",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・ダーリー、ビブ・ラタネ",
+      "originator_name_en": "John M. Darley, Bibb Latané",
+      "founding_work_title": "Bystander Intervention in Emergencies: Diffusion of Responsibility",
+      "founding_work_year": 1968,
+      "founding_work_venue": "Journal of Personality and Social Psychology, 8(4)"
+    },
+    {
+      "name_ja": "注意回復理論（ART）",
+      "name_en": "Attention Restoration Theory",
+      "definition": "自然環境は「魅了（fascination）」「逃避（being away）」「広がり（extent）」「適合（compatibility）」の四要素を通じて、意図的注意（directed attention）の疲弊を回復させるとするカプラン夫妻の理論。都市環境と自然環境の精神的影響の違いを説明し、自然体験のメンタルヘルス効果の実証研究を牽引した。",
+      "impact_summary": "自然環境への曝露が認知疲労・ストレスを低減することを理論化し、グリーンスペース政策・職場環境設計・療養環境設計への実践的応用を促進した。",
+      "subfield": "環境心理学",
+      "school_of_thought": "環境心理学・認知心理学",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "個人・環境レベル",
+      "application_conditions": "職場・学校・医療施設の環境設計、都市緑地政策",
+      "when_to_apply": "認知疲労・ストレス低減のための環境介入を計画するとき",
+      "framing_questions": [
+        "この環境は非自発的な注意（fascination）を引き出す要素があるか？",
+        "日常からの「逃避感」をもたらすか？"
+      ],
+      "opposing_concept_names": [
+        "都市刺激環境（意図的注意を消耗させる）"
+      ],
+      "keywords_ja": [
+        "魅了",
+        "逃避",
+        "広がり",
+        "適合",
+        "注意疲弊回復"
+      ],
+      "keywords_en": [
+        "fascination",
+        "being away",
+        "extent",
+        "compatibility",
+        "directed attention fatigue"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "自然環境への暴露後の注意機能・ストレス低減を実験・フィールドで確認",
+      "empirical_support": "supported",
+      "originator_name": "レイチェル・カプラン、スティーブン・カプラン",
+      "originator_name_en": "Rachel Kaplan, Stephen Kaplan",
+      "founding_work_title": "The Experience of Nature: A Psychological Perspective",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Cambridge University Press"
+    },
+    {
+      "name_ja": "ストレス低減理論（ウルリッチ）",
+      "name_en": "Stress Recovery Theory (Ulrich)",
+      "definition": "人類は生得的に水や緑豊かな自然環境を「安全な環境」として好み（生物学的適応）、そうした自然環境への曝露が交感神経系の覚醒を下げ、ストレス状態を迅速に回復させるとするウルリッチの理論。窓から自然を見た患者の術後回復が早いという医療研究（1984年）で実証された。カプランのARTと並ぶ自然の回復効果の二大理論。",
+      "impact_summary": "病院・職場・都市設計における自然環境の戦略的活用（バイオフィリックデザイン）の根拠として広く用いられている。",
+      "subfield": "環境心理学",
+      "school_of_thought": "環境心理学・心理生理学",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "個人・環境レベル",
+      "application_conditions": "医療環境設計、オフィス・学校の自然採光・緑化",
+      "when_to_apply": "ストレス軽減・術後回復促進のための環境改善を行うとき",
+      "framing_questions": [
+        "自然要素（緑・水・自然光）への視覚的アクセスが確保されているか？",
+        "心理生理的ストレス指標（コルチゾール・心拍）が環境変化で変わるか？"
+      ],
+      "opposing_concept_names": [
+        "人工的・高密度都市環境"
+      ],
+      "keywords_ja": [
+        "ストレス回復",
+        "自然環境",
+        "バイオフィリア",
+        "心理生理的反応",
+        "回復的環境"
+      ],
+      "keywords_en": [
+        "stress recovery",
+        "natural environment",
+        "biophilia",
+        "psychophysiological response",
+        "restorative environment"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "自然曝露後のコルチゾール・心拍低下・気分改善を複数の実験・臨床研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ロジャー・ウルリッチ",
+      "originator_name_en": "Roger S. Ulrich",
+      "founding_work_title": "View Through a Window May Influence Recovery from Surgery",
+      "founding_work_year": 1984,
+      "founding_work_venue": "Science, 224(4647)"
+    },
+    {
+      "name_ja": "場所愛着理論",
+      "name_en": "Place Attachment Theory",
+      "definition": "人と特定の場所との間に形成される感情的な絆の理論。アルトマンとローが1992年の著書で体系化し、場所アイデンティティ（自己概念への場所の統合）と場所依存感（特定の場所での目標達成能力）の二軸が中心的構成概念。コミュニティ帰属感・環境変化への抵抗・プロ環境行動との関連が研究されている。",
+      "impact_summary": "都市計画・コミュニティ開発・気候変動への適応行動研究において、場所への愛着が行動的・社会的動機に与える影響を理解する基盤となった。",
+      "subfield": "環境心理学",
+      "school_of_thought": "環境心理学・社会・人文地理学",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "個人・コミュニティレベル",
+      "application_conditions": "コミュニティ再開発・環境変化への抵抗理解、プロ環境行動促進",
+      "when_to_apply": "地域住民の環境行動・移転抵抗・コミュニティ活性化を理解したいとき",
+      "framing_questions": [
+        "住民は特定の場所にアイデンティティを感じているか？",
+        "場所愛着がプロ環境行動を動機づけているか？"
+      ],
+      "opposing_concept_names": [
+        "場所の匿名性・可替性モデル"
+      ],
+      "keywords_ja": [
+        "場所アイデンティティ",
+        "場所依存感",
+        "コミュニティ帰属感",
+        "環境行動",
+        "根付き"
+      ],
+      "keywords_en": [
+        "place identity",
+        "place dependence",
+        "community belonging",
+        "environmental behavior",
+        "rootedness"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "プロ環境行動・コミュニティ参加・移転抵抗の予測に中程度の有効性",
+      "empirical_support": "supported",
+      "originator_name": "アーウィン・アルトマン、セサ・ロー",
+      "originator_name_en": "Irwin Altman, Setha M. Low",
+      "founding_work_title": "Place Attachment",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Plenum Press"
+    },
+    {
+      "name_ja": "価値-信念-規範理論（VBN理論）",
+      "name_en": "Value-Belief-Norm Theory of Environmentalism",
+      "definition": "プロ環境行動を「価値観→新環境パラダイム信念→結果の認識→行動責任感→個人規範→環境行動」という因果連鎖で説明するスターンの理論。利他的・生物圏的価値観が環境信念を形成し、個人規範（義務感）がプロ環境行動を直接促進することを示す。VBN理論はナッジ・政策の効果を文脈化する枠組みとしても用いられる。",
+      "impact_summary": "環境行動の価値観的・規範的動機づけを統合的に説明し、環境政策・環境教育の設計に実証的基盤を提供した。",
+      "subfield": "環境心理学",
+      "school_of_thought": "環境心理学・社会的規範理論",
+      "era_start": 1999,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "環境行動促進プログラム、気候変動政策の行動変容設計",
+      "when_to_apply": "なぜ人々が（または、なぜ人々が）環境行動をとるかを理解・介入設計するとき",
+      "framing_questions": [
+        "価値観・信念・個人規範のどの段階が行動の障壁になっているか？",
+        "新環境パラダイム（NEP）への信念が強いか？"
+      ],
+      "opposing_concept_names": [
+        "経済的合理性モデル（費用便益のみ）"
+      ],
+      "keywords_ja": [
+        "価値観",
+        "新環境パラダイム",
+        "行動責任感",
+        "個人規範",
+        "プロ環境行動"
+      ],
+      "keywords_en": [
+        "values",
+        "New Ecological Paradigm",
+        "awareness of consequences",
+        "personal norms",
+        "pro-environmental behavior"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "プロ環境行動のVBN変数が分散の19〜35%を説明（メタ分析）",
+      "empirical_support": "supported",
+      "originator_name": "ポール・スターン",
+      "originator_name_en": "Paul C. Stern",
+      "founding_work_title": "A Value-Belief-Norm Theory of Support for Social Movements",
+      "founding_work_year": 1999,
+      "founding_work_venue": "Human Ecology Review, 6(2)"
+    },
+    {
+      "name_ja": "密度とストレス理論",
+      "name_en": "Density and Crowding Theory",
+      "definition": "物理的密度（単位面積当たりの人数）と主観的混雑感（crowding）を区別したストコルズの理論。混雑感は密度だけでなく、個人の目標達成の妨げ・プライバシーの侵害・制御感の喪失によって規定される認知的状態。カルフーンの「行動シンク」実験（ラット過密実験）の人間への適用可能性と限界についても議論が行われた。",
+      "impact_summary": "都市設計・住宅政策・公共施設管理において「密度」と「混雑感」の違いを明確にし、住環境設計と精神的健康の関係を研究する基盤となった。",
+      "subfield": "環境心理学",
+      "school_of_thought": "環境心理学・都市心理学",
+      "era_start": 1972,
+      "era_end": null,
+      "methodology_level": "個人・環境レベル",
+      "application_conditions": "高密度住宅設計、公共空間の設計と管理",
+      "when_to_apply": "高密度環境下でのストレス・攻撃性・社会的引きこもりを分析するとき",
+      "framing_questions": [
+        "物理的密度は高くても混雑感は低く抑えられているか？",
+        "プライバシーと制御感が確保されているか？"
+      ],
+      "opposing_concept_names": [
+        "密度の心理的無害性仮説"
+      ],
+      "keywords_ja": [
+        "密度",
+        "混雑感",
+        "プライバシー",
+        "制御感",
+        "都市ストレス"
+      ],
+      "keywords_en": [
+        "density",
+        "crowding",
+        "privacy",
+        "perceived control",
+        "urban stress"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "混雑感とストレス指標の関連が中程度の強さで確認（個人差が大きい）",
+      "empirical_support": "supported",
+      "originator_name": "ダニエル・ストコルズ",
+      "originator_name_en": "Daniel Stokols",
+      "founding_work_title": "On the Distinction Between Density and Crowding: Some Implications for Future Research",
+      "founding_work_year": 1972,
+      "founding_work_venue": "Psychological Review, 79(3)"
+    },
+    {
+      "name_ja": "ナッジ理論（選択アーキテクチャ）",
+      "name_en": "Nudge Theory / Choice Architecture",
+      "definition": "選択の自由を制限せず、経済的インセンティブも大きく変えないまま、選択のアーキテクチャ（提示の仕方・デフォルト設定・情報の配置）を工夫することで、人々の行動を予測可能な形で望ましい方向に変える介入。セイラーとサンスティーンが2008年に体系化した行動経済学的アプローチ。プロ環境行動・健康行動・貯蓄行動に広く応用される。",
+      "impact_summary": "英国行動インサイトチーム（Nudge Unit）など政府主導の行動変容政策として世界的に普及し、パブリックヘルス・環境政策の実践に革新をもたらした。",
+      "subfield": "環境心理学",
+      "school_of_thought": "行動経済学・公共政策",
+      "era_start": 2008,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "公共政策・健康行動促進・節電・ゴミ減量など行動変容設計",
+      "when_to_apply": "規制・罰則なしに行動変容を促したいとき",
+      "framing_questions": [
+        "デフォルト設定を変えることで望ましい行動が増えるか？",
+        "選択の提示方法（フレーミング）が意思決定に影響していないか？"
+      ],
+      "opposing_concept_names": [
+        "強制的規制（命令と制御）",
+        "純粋な情報提供"
+      ],
+      "keywords_ja": [
+        "ナッジ",
+        "選択アーキテクチャ",
+        "デフォルト設定",
+        "リバタリアン的パターナリズム",
+        "行動変容"
+      ],
+      "keywords_en": [
+        "nudge",
+        "choice architecture",
+        "default setting",
+        "libertarian paternalism",
+        "behavior change"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "臓器提供・退職貯蓄・省エネ行動でデフォルト変更の効果が大規模試験で実証",
+      "empirical_support": "supported",
+      "originator_name": "リチャード・セイラー、キャス・サンスティーン",
+      "originator_name_en": "Richard H. Thaler, Cass R. Sunstein",
+      "founding_work_title": "Nudge: Improving Decisions About Health, Wealth, and Happiness",
+      "founding_work_year": 2008,
+      "founding_work_venue": "Yale University Press"
+    },
+    {
+      "name_ja": "バイオフィリア仮説",
+      "name_en": "Biophilia Hypothesis",
+      "definition": "人間は進化的に生命体および自然のシステムとの深い感情的なつながりを求める傾向（biophilia）を持つとするウィルソンの仮説。ケラートとウィルソンが編集した論文集で多様な生物学的・心理学的・文化的証拠が提示された。自然への恐怖（biophobia）と愛着の両側面が議論されている。",
+      "impact_summary": "バイオフィリックデザイン（自然要素を組み込んだ建築・都市設計）の理論的根拠として広く引用され、自然への暴露が健康・創造性・生産性に与える研究を促進した。",
+      "subfield": "環境心理学",
+      "school_of_thought": "進化心理学・環境心理学",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "建築設計・都市緑地政策・室内環境の自然化",
+      "when_to_apply": "生産性・ウェルビーイング向上のための職場・居住環境設計",
+      "framing_questions": [
+        "自然要素の存在が利用者の心理的ウェルビーイングを高めているか？",
+        "バイオフィリックデザインによる健康効果を測定できるか？"
+      ],
+      "opposing_concept_names": [
+        "人工的・技術的環境優位主義"
+      ],
+      "keywords_ja": [
+        "バイオフィリア",
+        "自然とのつながり",
+        "進化的適応",
+        "バイオフィリックデザイン",
+        "自然への愛着"
+      ],
+      "keywords_en": [
+        "biophilia",
+        "nature connectedness",
+        "evolutionary adaptation",
+        "biophilic design",
+        "affinity for nature"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "自然要素への曝露と健康・創造性の関連は多数の実証研究で支持されるが進化的メカニズムの直接検証は困難",
+      "empirical_support": "partially_supported",
+      "originator_name": "エドワード・O・ウィルソン",
+      "originator_name_en": "Edward O. Wilson",
+      "founding_work_title": "Biophilia",
+      "founding_work_year": 1984,
+      "founding_work_venue": "Harvard University Press"
+    },
+    {
+      "name_ja": "利用と満足理論",
+      "name_en": "Uses and Gratifications Theory",
+      "definition": "受動的に影響を受ける存在としてではなく、能動的に特定の欲求を充足させるためにメディアを選択・利用するとする受容者中心のメディア理論。カッツ・ブルームラー・グレヴィッチが1974年に体系化。情報取得・娯楽・個人的アイデンティティ強化・社会的統合などの充足類型を特定した。",
+      "impact_summary": "メディア研究の焦点を「メディアが人々に何をするか」から「人々がメディアで何をするか」へと転換した理論。SNS・ストリーミング利用行動の研究にも拡張されている。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "受容者中心メディア研究",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "メディア利用動機の測定、SNS・動画ストリーミングの利用行動研究",
+      "when_to_apply": "なぜ特定のメディアが選ばれ、どのように利用されるかを理解したいとき",
+      "framing_questions": [
+        "利用者はどのような欲求を充足させるためにこのメディアを使っているか？",
+        "メディア利用の充足が期待と一致しているか？"
+      ],
+      "opposing_concept_names": [
+        "効果研究（メディアの一方的影響モデル）"
+      ],
+      "keywords_ja": [
+        "メディア充足",
+        "能動的受容者",
+        "情報取得",
+        "娯楽",
+        "SNS利用動機"
+      ],
+      "keywords_en": [
+        "media gratifications",
+        "active audience",
+        "information seeking",
+        "entertainment",
+        "SNS motivation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "メディア選択・利用頻度・満足度の予測に中程度の有効性",
+      "empirical_support": "supported",
+      "originator_name": "エリヒュー・カッツ、ジェイ・ブルームラー、マイケル・グレヴィッチ",
+      "originator_name_en": "Elihu Katz, Jay G. Blumler, Michael Gurevitch",
+      "founding_work_title": "Uses and Gratifications Research",
+      "founding_work_year": 1974,
+      "founding_work_venue": "Public Opinion Quarterly, 37(4)"
+    },
+    {
+      "name_ja": "涵養理論（カルティベーション理論）",
+      "name_en": "Cultivation Theory",
+      "definition": "長期間のテレビ視聴が視聴者の社会的現実認識を「テレビ世界」に近づける（涵養する）とするガーブナーの理論。重度視聴者は軽度視聴者より暴力・犯罪への恐怖心や「平均世界症候群（mean world syndrome）」を強く持つことを示した。メインストリーミング（多様な背景の重度視聴者が同じ現実認識に収束する）と共鳴（既存の現実と一致する場合により強い効果）が補助概念。",
+      "impact_summary": "メディアの長期的・累積的影響を明らかにし、メディア教育・メディアリテラシー政策の根拠となった。デジタルメディアへの拡張研究も進んでいる。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "批判的メディア研究",
+      "era_start": 1976,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "メディア暴力・ステレオタイプ・恐怖感の長期的影響研究",
+      "when_to_apply": "特定のメディアコンテンツが社会的認識に与える累積的影響を分析するとき",
+      "framing_questions": [
+        "重度視聴者と軽度視聴者の社会現実認識に差があるか？",
+        "「平均世界症候群」が犯罪恐怖や政治的態度に影響しているか？"
+      ],
+      "opposing_concept_names": [
+        "能動的受容者論（視聴者は批判的に解釈する）"
+      ],
+      "keywords_ja": [
+        "涵養効果",
+        "平均世界症候群",
+        "重度視聴者",
+        "社会的現実認識",
+        "ステレオタイプ強化"
+      ],
+      "keywords_en": [
+        "cultivation effect",
+        "mean world syndrome",
+        "heavy viewers",
+        "social reality perception",
+        "stereotype amplification"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "視聴時間と恐怖感・保守的態度の相関が中程度（研究によって異なる）",
+      "empirical_support": "mixed",
+      "originator_name": "ジョージ・ガーブナー",
+      "originator_name_en": "George Gerbner",
+      "founding_work_title": "Living with Television: The Violence Profile",
+      "founding_work_year": 1976,
+      "founding_work_venue": "Journal of Communication, 26(2)"
+    },
+    {
+      "name_ja": "第三者効果仮説",
+      "name_en": "Third-Person Effect",
+      "definition": "説得的なメディア・コミュニケーション（広告・プロパガンダ・暴力的コンテンツ）は「他の人々」（第三者）により強く影響すると人々が知覚するという認知バイアス。デイヴィソンが1983年に提唱。知覚仮説（他者は自分より影響される）と行動仮説（この認知が検閲支持等の行動を促す）の二部で構成される。",
+      "impact_summary": "メディア規制・検閲態度・フェイクニュースへの反応を説明する枠組みとして広く応用されている。ソーシャルメディア研究にも拡張。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "社会的認知・メディア研究",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "メディア規制の社会的支持メカニズム研究",
+      "when_to_apply": "有害なメディアに対して「自分は大丈夫だが他人は影響される」という認知が行動（規制支持等）を生んでいるとき",
+      "framing_questions": [
+        "知覚的優位性（第三者効果の大きさ）はどの要因で変化するか？",
+        "行動仮説（検閲支持）は第三者知覚から生じているか？"
+      ],
+      "opposing_concept_names": [
+        "第一者効果（自己の方が強く影響されると知覚する場合）"
+      ],
+      "keywords_ja": [
+        "第三者効果",
+        "知覚的優位性",
+        "メディア規制支持",
+        "自己奉仕バイアス",
+        "ソーシャルメディア"
+      ],
+      "keywords_en": [
+        "third-person effect",
+        "perceptual gap",
+        "censorship support",
+        "self-serving bias",
+        "social media"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "他者への影響の過大評価が一貫して確認、行動仮説への支持はより条件依存",
+      "empirical_support": "supported",
+      "originator_name": "W・フィリップス・デイヴィソン",
+      "originator_name_en": "W. Phillips Davison",
+      "founding_work_title": "The Third-Person Effect in Communication",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Public Opinion Quarterly, 47(1)"
+    },
+    {
+      "name_ja": "デジタルウェルビーイング研究",
+      "name_en": "Digital Wellbeing Research",
+      "definition": "デジタルメディア・スマートフォン・SNSの利用がウェルビーイング（幸福感・精神的健康）に与える影響を研究する領域。トゥウェンジ（iGen世代論）は強い悪影響を主張し、オルベンとプリジビルスキー（2019）は効果量が小さく（分散の0.1%未満）過大評価されていると反論した。スペック曲線分析・事前登録研究による研究設計の改善が求められている。",
+      "impact_summary": "青少年のスクリーンタイム規制・SNSデザインの改善・デジタルデトックス政策の根拠として社会的・政策的関心を集めている議論。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "テクノロジー心理学・発達心理学",
+      "era_start": 2017,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "青少年のスクリーンタイム管理政策、SNSプラットフォームの設計改善",
+      "when_to_apply": "デジタルメディア利用と精神的健康の関係を評価・介入設計するとき",
+      "framing_questions": [
+        "スクリーンタイムと精神的健康の関連の効果量はどの程度か？",
+        "利用内容（受動的/能動的）・利用文脈が結果を変えるか？"
+      ],
+      "opposing_concept_names": [
+        "テクノロジー悲観主義（強い悪影響説）"
+      ],
+      "keywords_ja": [
+        "スクリーンタイム",
+        "SNSと精神的健康",
+        "iGen",
+        "効果量",
+        "青少年"
+      ],
+      "keywords_en": [
+        "screen time",
+        "social media mental health",
+        "iGen",
+        "effect size",
+        "adolescents"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "影響は存在するが効果量は小さく、女子・受動的利用で若干強い傾向",
+      "empirical_support": "mixed",
+      "originator_name": "エイミー・オルベン、アンドリュー・プリジビルスキー",
+      "originator_name_en": "Amy Orben, Andrew K. Przybylski",
+      "founding_work_title": "The Association Between Adolescent Well-Being and Digital Technology Use",
+      "founding_work_year": 2019,
+      "founding_work_venue": "Nature Human Behaviour, 3(2)"
+    },
+    {
+      "name_ja": "精緻化見込みモデル（ELM）",
+      "name_en": "Elaboration Likelihood Model",
+      "definition": "説得メッセージの処理経路として、論理的精緻化を伴う「中心ルート」と、周辺的手がかり（話者の魅力・権威）に依存する「周辺ルート」を区別するペティとカシオッポの二経路モデル。関与度・能力・動機によってどちらのルートが優位になるかが決まる。中心ルートでの態度変容は持続的で行動に結びつきやすい。",
+      "impact_summary": "広告・健康コミュニケーション・政治説得研究の理論的基盤となり、消費者行動・キャンペーン設計に広く応用されている。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "説得研究・社会的認知",
+      "era_start": 1986,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "広告・公衆衛生キャンペーン・政治コミュニケーションの設計",
+      "when_to_apply": "ターゲットの関与度に合わせたコミュニケーション戦略を選択したいとき",
+      "framing_questions": [
+        "受け手の関与度は高いか低いか？",
+        "中心ルートと周辺ルートのどちらを活用するか？"
+      ],
+      "opposing_concept_names": [
+        "単一経路的説得モデル"
+      ],
+      "keywords_ja": [
+        "中心ルート",
+        "周辺ルート",
+        "精緻化",
+        "説得",
+        "態度変容"
+      ],
+      "keywords_en": [
+        "central route",
+        "peripheral route",
+        "elaboration",
+        "persuasion",
+        "attitude change"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "関与度条件下での説得効果の予測が多数実験で支持",
+      "empirical_support": "supported",
+      "originator_name": "リチャード・ペティ、ジョン・カシオッポ",
+      "originator_name_en": "Richard E. Petty, John T. Cacioppo",
+      "founding_work_title": "Communication and Persuasion: Central and Peripheral Routes to Attitude Change",
+      "founding_work_year": 1986,
+      "founding_work_venue": "Springer-Verlag"
+    },
+    {
+      "name_ja": "議題設定理論",
+      "name_en": "Agenda-Setting Theory",
+      "definition": "メディアが報道する話題の優先順位が、受け手が「重要だと思う課題」の優先順位に影響するとするマコームズとショーの理論。第一次議題設定（話題の顕在化）と第二次議題設定（特定の属性・フレームの顕在化）を区別。プライミング効果（特定の知識枠組みの活性化）とも密接に関連する。",
+      "impact_summary": "マスメディアの政治的・社会的影響力の実証的根拠となり、政治コミュニケーション研究の中核理論として確立された。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "メディア効果研究・政治コミュニケーション",
+      "era_start": 1972,
+      "era_end": null,
+      "methodology_level": "社会レベル",
+      "application_conditions": "選挙報道分析、政治的態度形成、SNSによる議題形成の研究",
+      "when_to_apply": "メディア報道が公衆の課題認識と政治的優先順位に与える影響を分析するとき",
+      "framing_questions": [
+        "メディアが強調する話題が世論の重要課題認識と一致しているか？",
+        "フレーミングによって問題の捉え方がどう変わるか？"
+      ],
+      "opposing_concept_names": [
+        "受容者の能動的情報選択（選択的接触理論）"
+      ],
+      "keywords_ja": [
+        "議題設定",
+        "話題の顕在化",
+        "属性議題設定",
+        "フレーミング",
+        "プライミング"
+      ],
+      "keywords_en": [
+        "agenda setting",
+        "issue salience",
+        "attribute agenda setting",
+        "framing",
+        "priming"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "メディア議題と公衆議題の相関が選挙研究等で一貫して確認",
+      "empirical_support": "supported",
+      "originator_name": "マックスウェル・マコームズ、ドナルド・ショー",
+      "originator_name_en": "Maxwell McCombs, Donald L. Shaw",
+      "founding_work_title": "The Agenda-Setting Function of Mass Media",
+      "founding_work_year": 1972,
+      "founding_work_venue": "Public Opinion Quarterly, 36(2)"
+    },
+    {
+      "name_ja": "ソーシャルメディアと社会的比較理論の応用",
+      "name_en": "Social Comparison on Social Media",
+      "definition": "フェスティンガーの社会的比較理論をSNSに適用した研究群。SNSでの上方比較（理想的な他者イメージとの比較）がうつ・不安・身体像不満足を増加させることを多くの研究が示している。受動的SNS利用（閲覧のみ）が能動的利用（投稿・対話）より比較誘発・ウェルビーイング低下と関連することも示されている。",
+      "impact_summary": "SNSの設計改善（比較を促す機能の抑制）・メディアリテラシー教育・青少年のメンタルヘルス対策の根拠として政策的注目を集めている。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "社会的認知・テクノロジー心理学",
+      "era_start": 2014,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "SNSと精神的健康の関係研究、青少年のSNS利用教育",
+      "when_to_apply": "SNS利用による上方比較とウェルビーイング低下のメカニズムを理解したいとき",
+      "framing_questions": [
+        "受動的SNS利用（スクロール・閲覧）が上方比較を誘発していないか？",
+        "比較の対象（見知らぬ人vs友人）によって影響の強さが変わるか？"
+      ],
+      "opposing_concept_names": [
+        "能動的SNS利用（社会的絆強化）"
+      ],
+      "keywords_ja": [
+        "上方比較",
+        "受動的利用",
+        "身体像不満足",
+        "うつ",
+        "SNS設計"
+      ],
+      "keywords_en": [
+        "upward comparison",
+        "passive use",
+        "body dissatisfaction",
+        "depression",
+        "SNS design"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "受動的利用と抑うつ・不安の関連が複数研究で確認（効果量は小〜中程度）",
+      "empirical_support": "supported",
+      "originator_name": "レオン・フェスティンガー（社会的比較理論の創始者）、リン・ハンター他（SNS応用）",
+      "originator_name_en": "Leon Festinger (social comparison origin), multiple researchers (SNS application)",
+      "founding_work_title": "A Theory of Social Comparison Processes",
+      "founding_work_year": 1954,
+      "founding_work_venue": "Human Relations, 7(2)"
+    },
+    {
+      "name_ja": "フロー理論（チクセントミハイ）",
+      "name_en": "Flow Theory (Csikszentmihalyi)",
+      "definition": "活動に完全に没入し、時間感覚を失い、高い充実感を伴う最適体験の状態（フロー）の理論。挑戦と技能の絶妙なバランス、明確な目標、即時フィードバックの三条件がフローを誘発する。チクセントミハイが1990年に体系化し、スポーツ・音楽・仕事・ゲームへの応用が広く行われている。",
+      "impact_summary": "ポジティブ心理学の中核概念となり、スポーツパフォーマンス・学習設計・ゲーミフィケーション・組織のエンゲージメント向上に幅広く応用されている。",
+      "subfield": "スポーツ心理学",
+      "school_of_thought": "ポジティブ心理学・内発的動機づけ理論",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "スポーツ・音楽・仕事・ゲームにおける最適パフォーマンス状態の誘発",
+      "when_to_apply": "内発的動機・集中・没頭を高めるタスク・環境設計を行うとき",
+      "framing_questions": [
+        "挑戦と技能のバランスが「フローチャンネル」に収まっているか？",
+        "明確な目標と即時フィードバックが提供されているか？"
+      ],
+      "opposing_concept_names": [
+        "退屈（低挑戦・高技能）",
+        "不安（高挑戦・低技能）"
+      ],
+      "keywords_ja": [
+        "フロー",
+        "最適体験",
+        "挑戦-技能バランス",
+        "没頭",
+        "内発的動機"
+      ],
+      "keywords_en": [
+        "flow",
+        "optimal experience",
+        "challenge-skill balance",
+        "absorption",
+        "intrinsic motivation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "スポーツパフォーマンス・主観的ウェルビーイングとの正の相関が複数研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ミハイ・チクセントミハイ",
+      "originator_name_en": "Mihaly Csikszentmihalyi",
+      "founding_work_title": "Flow: The Psychology of Optimal Experience",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Harper & Row"
+    },
+    {
+      "name_ja": "逆U字モデル（覚醒とパフォーマンス）",
+      "name_en": "Inverted-U Model / Yerkes-Dodson Law",
+      "definition": "覚醒水準とパフォーマンスは逆U字形の関係を持ち、最適な覚醒レベル（中程度の緊張感）でパフォーマンスが最高になるとするヤーキーズとドッドソンの1908年の法則。タスクの複雑さによって最適覚醒水準が異なることも含まれる。スポーツ心理学では「最適パフォーマンスゾーン（zone of optimal functioning）」として応用される。",
+      "impact_summary": "スポーツ・試験・職場での「適度な緊張感が最良」という実践知の理論的根拠として広く引用されている。ただし最近の研究ではカタストロフィーモデル等の修正版も提唱されている。",
+      "subfield": "スポーツ心理学",
+      "school_of_thought": "実験心理学・スポーツ心理学",
+      "era_start": 1908,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "競技前のアロウザル管理、試験・プレゼン前の精神的準備",
+      "when_to_apply": "過緊張または過リラックスによるパフォーマンス低下を防ぎたいとき",
+      "framing_questions": [
+        "現在の覚醒水準は最適ゾーンにあるか？",
+        "タスクの難しさに合った覚醒水準か？"
+      ],
+      "opposing_concept_names": [
+        "カタストロフィーモデル（覚醒が閾値を超えると急激にパフォーマンスが崩壊）"
+      ],
+      "keywords_ja": [
+        "最適覚醒",
+        "逆U字仮説",
+        "パフォーマンスゾーン",
+        "緊張管理",
+        "アロウザル"
+      ],
+      "keywords_en": [
+        "optimal arousal",
+        "inverted-U hypothesis",
+        "performance zone",
+        "anxiety management",
+        "arousal"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "単純タスクでは支持されるが複雑タスク・高度な競技では修正モデルが優位",
+      "empirical_support": "mixed",
+      "originator_name": "ロバート・ヤーキーズ、ジョン・ドッドソン",
+      "originator_name_en": "Robert M. Yerkes, John D. Dodson",
+      "founding_work_title": "The Relation of Strength of Stimulus to Rapidity of Habit-Formation",
+      "founding_work_year": 1908,
+      "founding_work_venue": "Journal of Comparative Neurology and Psychology, 18(5)"
+    },
+    {
+      "name_ja": "自己決定理論のスポーツ応用",
+      "name_en": "Self-Determination Theory in Sport",
+      "definition": "デシとライアンの自己決定理論をスポーツ・運動動機づけに応用した研究領域。外的報酬（金銭・勝利）が内発的動機を損なうアンダーマイニング効果、自律的動機が持続的な運動行動・ウェルビーイングを予測することが多数研究で示されている。指導者の自律性支援スタイルが競技者の内発的動機・エンゲージメントを高める。",
+      "impact_summary": "スポーツ・運動科学の分野で最も実証的裏付けの厚い動機づけ理論となり、コーチングスタイル・体育教育・運動継続支援に応用されている。",
+      "subfield": "スポーツ心理学",
+      "school_of_thought": "動機づけ理論・スポーツ心理学",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "コーチングスタイル改善、体育教育、運動継続支援",
+      "when_to_apply": "競技者・運動参加者の動機低下・ドロップアウトを防ぎたいとき",
+      "framing_questions": [
+        "コーチは自律性支援型か、コントロール型か？",
+        "外的報酬が内発的動機を損なっていないか？"
+      ],
+      "opposing_concept_names": [
+        "報酬主導の動機づけ（外発的強化）"
+      ],
+      "keywords_ja": [
+        "自律性支援",
+        "内発的動機",
+        "アンダーマイニング効果",
+        "運動継続",
+        "コーチングスタイル"
+      ],
+      "keywords_en": [
+        "autonomy support",
+        "intrinsic motivation",
+        "undermining effect",
+        "exercise adherence",
+        "coaching style"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "自律的動機が運動継続・ウェルビーイング・パフォーマンスを有意に予測",
+      "empirical_support": "supported",
+      "originator_name": "エドワード・デシ、リチャード・ライアン（原理論）",
+      "originator_name_en": "Edward L. Deci, Richard M. Ryan",
+      "founding_work_title": "Intrinsic Motivation and Self-Determination in Human Behavior",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Plenum"
+    },
+    {
+      "name_ja": "メンタルイメージトレーニング理論",
+      "name_en": "Mental Imagery / Visualization Theory in Sport",
+      "definition": "競技動作・成功場面・対処行動を視覚的・運動感覚的に脳内でリハーサルする心理技法の理論的基盤。パイヴィオのデュアルコーディング理論・ラングの生物情報理論を根拠とし、内的（一人称視点）と外的（三人称視点）のイメージ様式を区別する。技術習得・パフォーマンス向上・不安管理・自己効力感強化に効果が実証されている。",
+      "impact_summary": "オリンピック・トップアスリートのメンタルトレーニングの標準的技法として世界的に普及し、外科手術・リハビリ・音楽演奏への応用も進んでいる。",
+      "subfield": "スポーツ心理学",
+      "school_of_thought": "認知行動的スポーツ心理学",
+      "era_start": 1971,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "競技パフォーマンス向上、怪我後のリハビリ、術前不安の軽減",
+      "when_to_apply": "身体的練習が困難なとき、または精神的準備を強化したいとき",
+      "framing_questions": [
+        "鮮明・制御可能・多感覚的なイメージができているか？",
+        "内的（一人称）vs外的（三人称）のどちらの視点が目的に合うか？"
+      ],
+      "opposing_concept_names": [
+        "身体的練習のみへの依存"
+      ],
+      "keywords_ja": [
+        "メンタルイメージ",
+        "ビジュアライゼーション",
+        "内的イメージ",
+        "外的イメージ",
+        "運動感覚"
+      ],
+      "keywords_en": [
+        "mental imagery",
+        "visualization",
+        "internal imagery",
+        "external imagery",
+        "kinaesthetic"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "スポーツパフォーマンス・技術習得への効果がメタ分析（d=0.45〜0.60）で確認",
+      "empirical_support": "supported",
+      "originator_name": "アラン・パイヴィオ",
+      "originator_name_en": "Allan Paivio",
+      "founding_work_title": "Imagery and Verbal Processes",
+      "founding_work_year": 1971,
+      "founding_work_venue": "Holt, Rinehart & Winston"
+    },
+    {
+      "name_ja": "プロスペクト理論（消費者心理）",
+      "name_en": "Prospect Theory (Consumer Psychology)",
+      "definition": "人々は利得と損失を対称に評価せず、同じ金額でも損失の痛みは利得の喜びの約2倍として体験するというカーネマンとトヴェルスキーの意思決定理論。参照点（現状）を基準に価値を判断し、確率の非線形評価（小確率の過大評価）も示す。消費者行動・価格設定・医療意思決定・保険行動の説明に広く応用される。",
+      "impact_summary": "カーネマンの2002年ノーベル経済学賞受賞の根拠となり、行動経済学・マーケティング・公共政策設計に革命的影響を与えた。",
+      "subfield": "交通・消費者心理学",
+      "school_of_thought": "行動経済学・判断と意思決定",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "価格設定・リスクコミュニケーション・保険設計・消費者行動研究",
+      "when_to_apply": "損失フレーミングと利得フレーミングの効果差を利用した意思決定設計",
+      "framing_questions": [
+        "メッセージは損失フレームで表現されているか、利得フレームか？",
+        "参照点の設定が消費者の選択に影響していないか？"
+      ],
+      "opposing_concept_names": [
+        "期待効用理論（合理的意思決定モデル）"
+      ],
+      "keywords_ja": [
+        "損失回避",
+        "参照点",
+        "フレーミング効果",
+        "確率加重関数",
+        "行動経済学"
+      ],
+      "keywords_en": [
+        "loss aversion",
+        "reference point",
+        "framing effect",
+        "probability weighting",
+        "behavioral economics"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "損失回避・フレーミング効果の予測が実験・現場研究で一貫して支持",
+      "empirical_support": "supported",
+      "originator_name": "ダニエル・カーネマン、エイモス・トヴェルスキー",
+      "originator_name_en": "Daniel Kahneman, Amos Tversky",
+      "founding_work_title": "Prospect Theory: An Analysis of Decision under Risk",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Econometrica, 47(2)"
+    },
+    {
+      "name_ja": "消費者行動の情報処理モデル（BPP）",
+      "name_en": "Betman's Consumer Information Processing Model",
+      "definition": "消費者は購買決定において限られた認知資源を管理しながら情報を処理するとするベットマンの情報処理モデル。処理能力の制約・目標階層・注意と知覚・情報収集・評価と選択のプロセスを統合した包括的枠組み。ヒューリスティクス（简略化規則）の利用が認知負荷下で増加することを示した。",
+      "impact_summary": "消費者心理学の理論的基盤となり、商品パッケージ設計・点of purchase広告・オンラインショッピングのUX設計に応用されている。",
+      "subfield": "交通・消費者心理学",
+      "school_of_thought": "認知的消費者行動論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "消費者意思決定研究、マーケティング・広告設計",
+      "when_to_apply": "消費者が情報処理の限界からヒューリスティクスに頼っている場面の理解",
+      "framing_questions": [
+        "消費者の認知負荷を下げてより良い選択を促せるか？",
+        "情報提示の仕方が選択プロセスに影響しているか？"
+      ],
+      "opposing_concept_names": [
+        "合理的選択モデル（完全情報処理仮定）"
+      ],
+      "keywords_ja": [
+        "情報処理",
+        "認知的制約",
+        "ヒューリスティクス",
+        "購買意思決定",
+        "認知負荷"
+      ],
+      "keywords_en": [
+        "information processing",
+        "cognitive limitations",
+        "heuristics",
+        "purchase decision",
+        "cognitive load"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "高認知負荷条件での簡略化的意思決定の予測が実験研究で支持",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・ベットマン",
+      "originator_name_en": "James R. Bettman",
+      "founding_work_title": "An Information Processing Theory of Consumer Choice",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Addison-Wesley"
+    },
+    {
+      "name_ja": "タスク-能力インターフェースモデル（交通心理学）",
+      "name_en": "Task-Capability Interface Model (Traffic Psychology)",
+      "definition": "運転行動を「課題要求（task demand）」と「運転者能力（driver capability）」の動態的インターフェースとして説明するフラーのモデル。ドライバーは許容可能な課題困難度の範囲を維持するように速度などを調整するとし、リスク知覚は事故リスクではなく課題困難度の知覚と連動することを示した。ワイルドのリスク・ホメオスタシス理論を再解釈した枠組み。",
+      "impact_summary": "交通安全教育・道路設計・車両安全システム設計の理論的根拠として用いられており、ドライバーの行動予測と事故抑止政策に応用されている。",
+      "subfield": "交通・消費者心理学",
+      "school_of_thought": "交通心理学・人間工学",
+      "era_start": 2005,
+      "era_end": null,
+      "methodology_level": "個人・環境レベル",
+      "application_conditions": "交通安全教育、道路・車両設計、自動運転への移行設計",
+      "when_to_apply": "ドライバーの速度・距離選択行動を予測・改善したいとき",
+      "framing_questions": [
+        "ドライバーが許容する課題困難度のレベルはどこか？",
+        "環境変化（雨・暗さ・渋滞）が能力-要求バランスを崩していないか？"
+      ],
+      "opposing_concept_names": [
+        "リスク・ホメオスタシス理論（リスク知覚の直接的調整を想定）"
+      ],
+      "keywords_ja": [
+        "課題要求",
+        "運転者能力",
+        "課題困難度",
+        "速度選択",
+        "リスク知覚"
+      ],
+      "keywords_en": [
+        "task demand",
+        "driver capability",
+        "task difficulty",
+        "speed choice",
+        "risk perception"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "速度選択行動の予測において実験・シミュレーション研究で支持",
+      "empirical_support": "supported",
+      "originator_name": "レイ・フラー",
+      "originator_name_en": "Ray Fuller",
+      "founding_work_title": "Towards a General Theory of Driver Behaviour",
+      "founding_work_year": 2005,
+      "founding_work_venue": "Accident Analysis & Prevention, 37(3)"
+    },
+    {
+      "name_ja": "リスク・ホメオスタシス理論",
+      "name_en": "Risk Homeostasis Theory",
+      "definition": "人々は目標とするリスクレベル（target level of risk）を内的に設定し、環境の安全性が向上した場合でもリスク行動を増加させて目標リスクを維持するとするワイルドの理論。シートベルト着用義務化後に速度超過が増えるといった「リスク補償」現象を予測する。安全装置の改善が実際の事故減少に繋がらない可能性を示唆。",
+      "impact_summary": "交通安全政策の逆説的効果を説明するフレームワークとして議論を呼び、安全政策設計・運転教育改革への貢献と同時に批判的検討も多い。",
+      "subfield": "交通・消費者心理学",
+      "school_of_thought": "交通心理学・行動経済学",
+      "era_start": 1982,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "交通安全政策評価、安全装置（ABS・エアバッグ）の行動補償効果研究",
+      "when_to_apply": "安全改善が予想通りの事故低減をもたらさない理由を分析するとき",
+      "framing_questions": [
+        "安全装置の導入が運転者の冒険的行動を増やしていないか？",
+        "目標リスクレベルを変えるには何が必要か？"
+      ],
+      "opposing_concept_names": [
+        "工学的決定論（技術的安全改善が直接事故低減に繋がる仮説）"
+      ],
+      "keywords_ja": [
+        "目標リスク",
+        "リスク補償",
+        "ホメオスタシス",
+        "安全装置",
+        "運転行動"
+      ],
+      "keywords_en": [
+        "target risk",
+        "risk compensation",
+        "homeostasis",
+        "safety devices",
+        "driving behavior"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "リスク補償の存在は部分的に確認されるが完全なホメオスタシスへの支持は限定的",
+      "empirical_support": "mixed",
+      "originator_name": "ジェラルド・ワイルド",
+      "originator_name_en": "Gerald J.S. Wilde",
+      "founding_work_title": "The Theory of Risk Homeostasis: Implications for Safety and Health",
+      "founding_work_year": 1982,
+      "founding_work_venue": "Risk Analysis, 2(4)"
+    },
+    {
+      "name_ja": "二重過程理論（システム1・システム2）",
+      "name_en": "Dual Process Theory (System 1 & System 2)",
+      "definition": "人間の思考を高速・自動・直感的な「システム1」と低速・意図的・分析的な「システム2」の二重過程で説明するスタノヴィッチとウェストの理論をカーネマンが普及させた枠組み。システム1はヒューリスティクスと感情に依存し認知バイアスを生みやすく、システム2は意識的努力を要するが正確な判断ができる。消費者行動・政策設計に広く応用される。",
+      "impact_summary": "認知バイアス研究・行動経済学・消費者心理学の統合的理論枠組みとなり、ナッジ設計や意思決定介入の根拠として世界的に普及した。",
+      "subfield": "交通・消費者心理学",
+      "school_of_thought": "認知心理学・行動経済学",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "消費者意思決定・リスクコミュニケーション・医療意思決定支援",
+      "when_to_apply": "自動的・直感的判断が誤りを生んでいる場面の理解と介入設計",
+      "framing_questions": [
+        "この判断はシステム1の自動処理に依存していないか？",
+        "システム2を起動させる介入（減速・反省促進）が可能か？"
+      ],
+      "opposing_concept_names": [
+        "合理的意思決定モデル（単一プロセス仮定）"
+      ],
+      "keywords_ja": [
+        "システム1",
+        "システム2",
+        "認知バイアス",
+        "ヒューリスティクス",
+        "自動処理"
+      ],
+      "keywords_en": [
+        "System 1",
+        "System 2",
+        "cognitive bias",
+        "heuristics",
+        "automatic processing"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "認知バイアス・誤判断の発生条件の予測に高い有用性",
+      "empirical_support": "supported",
+      "originator_name": "キース・スタノヴィッチ（理論）、ダニエル・カーネマン（普及）",
+      "originator_name_en": "Keith Stanovich, Daniel Kahneman",
+      "founding_work_title": "Thinking, Fast and Slow",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Farrar, Straus and Giroux"
+    },
+    {
+      "name_ja": "スポーツ競争不安理論（CSAI-2）",
+      "name_en": "Competitive State Anxiety Theory (CSAI-2)",
+      "definition": "競技不安を認知的不安（心配・否定的思考）と身体的不安（生理的覚醒）の二次元、および自己効力感（self-confidence）の三次元で測定するマーテンズらの多次元理論。認知的不安はパフォーマンスと負の線形関係、身体的不安は逆U字関係を持つとされ、CSAI-2（Competitive State Anxiety Inventory-2）で測定される。",
+      "impact_summary": "スポーツ競技不安の研究と実践的管理技法の開発を促進し、競技前メンタル準備プログラムの理論的基盤となった。",
+      "subfield": "スポーツ心理学",
+      "school_of_thought": "スポーツ心理学・臨床心理学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "個人レベル",
+      "application_conditions": "競技大会前のメンタルコンディショニング、コーチングへの応用",
+      "when_to_apply": "競技不安によるパフォーマンス低下が課題になっているとき",
+      "framing_questions": [
+        "認知的不安と身体的不安のどちらが主問題か？",
+        "自信（self-confidence）のレベルは十分か？"
+      ],
+      "opposing_concept_names": [
+        "単次元不安モデル"
+      ],
+      "keywords_ja": [
+        "競技不安",
+        "認知的不安",
+        "身体的不安",
+        "自己効力感",
+        "CSAI-2"
+      ],
+      "keywords_en": [
+        "competitive anxiety",
+        "cognitive anxiety",
+        "somatic anxiety",
+        "self-confidence",
+        "CSAI-2"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "競技パフォーマンスとの関連が複数研究で確認（三次元モデルの有効性を部分的に支持）",
+      "empirical_support": "partially_supported",
+      "originator_name": "ロルフ・マーテンズ",
+      "originator_name_en": "Rolf Martens",
+      "founding_work_title": "Competitive Anxiety in Sport",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Human Kinetics"
+    },
+    {
+      "name_ja": "犯罪者の一般理論（自己制御理論）",
+      "name_en": "General Theory of Crime (Self-Control Theory)",
+      "definition": "犯罪行為の普遍的な原因は「低い自己制御」であるとするガットフレッドソンとハーシーの理論。低自己制御は幼少期の不適切な親の監督によって形成され、衝動的・感覚刺激追求的・短期的思考・リスク容認・非言語的・自己中心的な特性として現れる。この特性が犯罪だけでなく他の問題行動（喫煙・事故・離婚）も説明するとする。",
+      "impact_summary": "犯罪学最大の影響力を持つ理論の一つとして確立し、早期家族介入・育児支援プログラムの理論的根拠となった。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "制御理論・犯罪社会学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "個人・発達レベル",
+      "application_conditions": "非行・犯罪予防プログラム、育児支援・家族介入",
+      "when_to_apply": "衝動的・短期志向の問題行動パターンを持つ個人の介入計画",
+      "framing_questions": [
+        "自己制御の低さが複数の問題行動（犯罪・依存・事故）に共通して現れているか？",
+        "親の監督が不足していた幼少期の発達歴があるか？"
+      ],
+      "opposing_concept_names": [
+        "ストレイン理論（社会的機会の欠如）",
+        "ラベリング理論"
+      ],
+      "keywords_ja": [
+        "自己制御",
+        "衝動性",
+        "低自己制御",
+        "一般理論",
+        "幼少期形成"
+      ],
+      "keywords_en": [
+        "self-control",
+        "impulsivity",
+        "low self-control",
+        "general theory",
+        "early formation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "犯罪・非行・問題行動の予測に一貫した有効性（メタ分析多数）",
+      "empirical_support": "supported",
+      "originator_name": "マイケル・ガットフレッドソン、トラヴィス・ハーシー",
+      "originator_name_en": "Michael Gottfredson, Travis Hirschi",
+      "founding_work_title": "A General Theory of Crime",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Stanford University Press"
+    },
+    {
+      "name_ja": "社会絆理論（ソーシャルボンド理論）",
+      "name_en": "Social Bond Theory",
+      "definition": "人々が犯罪を行わない理由は社会への「絆（bond）」であり、愛着（attachment）・コミットメント（commitment）・関与（involvement）・信念（belief）の四要素が犯罪抑制機能を担うとするハーシーの理論。これらの絆が弱まると犯罪親和性が高まる。非行の説明として最も広く検証されている理論の一つ。",
+      "impact_summary": "非行少年支援・地域コミュニティ強化・学校適応支援の理論的根拠となり、ソーシャルキャピタル研究とも連動している。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "制御理論・犯罪社会学",
+      "era_start": 1969,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "非行少年支援、地域コミュニティ強化、学校適応支援",
+      "when_to_apply": "家族・学校・地域との絆の弱さが非行・犯罪に繋がっていると疑われるとき",
+      "framing_questions": [
+        "学校・家族・仕事への愛着とコミットメントが十分か？",
+        "社会的絆の強化が犯罪抑止に繋がるか？"
+      ],
+      "opposing_concept_names": [
+        "ストレイン理論（絆より機会の問題）"
+      ],
+      "keywords_ja": [
+        "社会的絆",
+        "愛着",
+        "コミットメント",
+        "非行抑制",
+        "コミュニティ"
+      ],
+      "keywords_en": [
+        "social bond",
+        "attachment",
+        "commitment",
+        "delinquency prevention",
+        "community"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "非行・犯罪との負の相関が多くの縦断研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "トラヴィス・ハーシー",
+      "originator_name_en": "Travis Hirschi",
+      "founding_work_title": "Causes of Delinquency",
+      "founding_work_year": 1969,
+      "founding_work_venue": "University of California Press"
+    },
+    {
+      "name_ja": "集団効力感・コミュニティ結合理論",
+      "name_en": "Collective Efficacy Theory",
+      "definition": "近隣コミュニティの犯罪率は「集団効力感（collective efficacy）」——住民間の社会的凝集性と子どもの監督・逸脱行為への介入意欲の組み合わせ——によって説明されるとするサンプソン・ローデンブッシュ・アールズのシカゴ研究。貧困・人種構成より集団効力感が犯罪率の強力な予測因子であることを示した。",
+      "impact_summary": "地域犯罪予防政策・コミュニティ強化プログラム・社会的資本研究に大きな影響を与え、環境設計と社会的介入の統合的アプローチの根拠となった。",
+      "subfield": "法・犯罪心理学",
+      "school_of_thought": "犯罪社会学・地域研究",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "コミュニティ・社会レベル",
+      "application_conditions": "地域犯罪予防、コミュニティ再生、公共安全政策",
+      "when_to_apply": "地域の犯罪率と社会的凝集性・監視機能の関係を分析したいとき",
+      "framing_questions": [
+        "住民は互いを知り、問題行動に介入する意欲があるか？",
+        "集団効力感が低いコミュニティへの介入策は何か？"
+      ],
+      "opposing_concept_names": [
+        "個人的な犯罪原因論"
+      ],
+      "keywords_ja": [
+        "集団効力感",
+        "社会的凝集性",
+        "非公式統制",
+        "コミュニティ犯罪",
+        "近隣効果"
+      ],
+      "keywords_en": [
+        "collective efficacy",
+        "social cohesion",
+        "informal control",
+        "neighborhood crime",
+        "community effects"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "近隣の犯罪率・暴力率の強力な予測因子（大規模都市研究で確認）",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・サンプソン",
+      "originator_name_en": "Robert J. Sampson",
+      "founding_work_title": "Neighborhoods and Violent Crime: A Multilevel Study of Collective Efficacy",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Science, 277(5328)"
+    },
+    {
+      "name_ja": "環境的補完性・プロ環境行動の社会的規範理論",
+      "name_en": "Descriptive and Injunctive Norms in Environmental Behavior",
+      "definition": "他者の行動実態を示す「記述的規範（descriptive norms）」と、他者が何をすべきかを示す「命令的規範（injunctive norms）」が環境行動に与える差異的影響を研究するチャルディーニらの理論。「皆がリサイクルしている」の記述的規範は行動を促進するが、「多くの人が節電に失敗している」は行動を損なうことがある（ブーメラン効果）。",
+      "impact_summary": "ホテルのタオル再利用から省エネ政策まで広範なナッジ設計に応用され、環境行動の社会規範介入の理論的根拠として確立された。",
+      "subfield": "環境心理学",
+      "school_of_thought": "社会的影響・環境心理学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "省エネ・リサイクル・節水などの環境行動促進キャンペーン設計",
+      "when_to_apply": "社会的規範情報を用いたプロ環境行動の促進設計を行うとき",
+      "framing_questions": [
+        "記述的規範の提示が望ましい行動を強化しているか（ブーメラン効果はないか）？",
+        "命令的規範と記述的規範を組み合わせることで効果が高まるか？"
+      ],
+      "opposing_concept_names": [
+        "個人的合理性モデル（規範を無視）"
+      ],
+      "keywords_ja": [
+        "記述的規範",
+        "命令的規範",
+        "ブーメラン効果",
+        "ソーシャルノルム",
+        "省エネ行動"
+      ],
+      "keywords_en": [
+        "descriptive norms",
+        "injunctive norms",
+        "boomerang effect",
+        "social norms",
+        "energy conservation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "規範情報介入の省エネ効果が大規模フィールド実験で確認（3〜10%削減）",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・チャルディーニ",
+      "originator_name_en": "Robert B. Cialdini",
+      "founding_work_title": "A Focus Theory of Normative Conduct",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Psychological Review, 97(4)"
+    },
+    {
+      "name_ja": "超高齢社会と文化的高齢観（テロル管理理論）",
+      "name_en": "Terror Management Theory",
+      "definition": "人間は自己の死への認識（mortality salience）を文化的世界観への固執・自尊心の追求・シンボル的不死観によって管理するとするグリーンバーグ・プジンスキー・ソロモンの理論。ベッカーの「死の否定（The Denial of Death）」を社会心理学的に実証化した。死の認識の活性化が内集団偏愛・外集団差別・文化的保守主義を強化することを多数の実験で示した。",
+      "impact_summary": "死への恐怖が政治・宗教・文化的行動の動機となることを実験心理学的に示し、政治心理学・文化心理学・高齢者心理学に大きな影響を与えた。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "実存主義的社会心理学",
+      "era_start": 1986,
+      "era_end": null,
+      "methodology_level": "個人・文化レベル",
+      "application_conditions": "政治的急進主義・文化的保守主義・宗教行動の死恐怖動機の分析",
+      "when_to_apply": "死の脅威や存在不安が社会的・政治的態度を変化させている可能性があるとき",
+      "framing_questions": [
+        "mortality salienceが外集団への攻撃性や保守化を引き起こしていないか？",
+        "自尊心と文化的世界観が存在不安の緩衝材として機能しているか？"
+      ],
+      "opposing_concept_names": [
+        "死の恐怖を無視した行動説明モデル"
+      ],
+      "keywords_ja": [
+        "死の顕著性",
+        "文化的世界観",
+        "自尊心緩衝",
+        "実存的不安",
+        "内集団偏愛"
+      ],
+      "keywords_en": [
+        "mortality salience",
+        "cultural worldview",
+        "self-esteem buffer",
+        "existential anxiety",
+        "in-group favoritism"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "死の顕著性操作後の外集団評価低下・世界観防衛が500以上の実験で確認",
+      "empirical_support": "supported",
+      "originator_name": "ジェフ・グリーンバーグ、シェルドン・ソロモン、トム・プジンスキー",
+      "originator_name_en": "Jeff Greenberg, Sheldon Solomon, Tom Pyszczynski",
+      "founding_work_title": "Terror Management Theory of Self-Esteem",
+      "founding_work_year": 1986,
+      "founding_work_venue": "Fenigstein & Scheier (Eds.), Public Self and Private Self"
+    },
+    {
+      "name_ja": "内外集団バイアスと社会的アイデンティティ理論",
+      "name_en": "Social Identity Theory",
+      "definition": "人は自分が属する集団（内集団）と他の集団（外集団）を区別し、内集団を外集団より高く評価することで自己評価を高めようとする、というタジフェルとターナーの社会的アイデンティティ理論。集団間の比較が社会的アイデンティティを構築し、差別・偏見・ステレオタイプの心理的根拠となる。組織コミットメント・集団間関係・文化的アイデンティティ研究に広く応用。",
+      "impact_summary": "グループダイナミクス・民族間対立・組織アイデンティティ研究の理論的根拠となり、社会心理学で最も引用される理論の一つ。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "社会的認知・集団間関係理論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "個人・集団・社会レベル",
+      "application_conditions": "異文化間対立の分析、組織コミットメント強化、偏見低減プログラム",
+      "when_to_apply": "内外集団区別が差別・偏見・組織間競争を生んでいる場面の理解",
+      "framing_questions": [
+        "集団成員性が自己評価と差別行動にどう影響しているか？",
+        "上位アイデンティティの形成で集団間対立を低減できるか？"
+      ],
+      "opposing_concept_names": [
+        "個人的アイデンティティの優位性"
+      ],
+      "keywords_ja": [
+        "社会的アイデンティティ",
+        "内集団",
+        "外集団",
+        "集団間比較",
+        "カテゴリー化"
+      ],
+      "keywords_en": [
+        "social identity",
+        "in-group",
+        "out-group",
+        "intergroup comparison",
+        "categorization"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "内集団偏愛・外集団差別を最小集団パラダイム等で安定して実証",
+      "empirical_support": "supported",
+      "originator_name": "アンリ・タジフェル、ジョン・ターナー",
+      "originator_name_en": "Henri Tajfel, John C. Turner",
+      "founding_work_title": "An Integrative Theory of Intergroup Conflict",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Austin & Worchel (Eds.), The Social Psychology of Intergroup Relations"
+    },
+    {
+      "name_ja": "接触仮説（偏見低減理論）",
+      "name_en": "Contact Hypothesis (Allport)",
+      "definition": "偏見は異集団との接触が増えることで低減するとするオルポートの仮説。ただし接触が有効なのは、平等な地位・共通の目標・集団間協力・権威による支持の四条件が満たされた場合に限るとした。条件なしの接触は偏見を増強させる可能性もある。多文化共生政策・統合教育・職場多様性プログラムの理論的根拠。",
+      "impact_summary": "アメリカの人種統合政策・職場多様性・平和構築プログラムの理論的根拠となり、500以上の研究を対象としたメタ分析（ペティグルー、トロップ）で偏見低減効果が確認された。",
+      "subfield": "文化心理学・異文化心理学",
+      "school_of_thought": "集団間関係論・社会心理学",
+      "era_start": 1954,
+      "era_end": null,
+      "methodology_level": "個人・集団・社会レベル",
+      "application_conditions": "多文化職場・学校の統合プログラム、平和構築・紛争後の和解",
+      "when_to_apply": "異集団間の偏見・差別低減のための政策・介入設計を行うとき",
+      "framing_questions": [
+        "接触の四条件（平等・共通目標・協力・権威支持）が満たされているか？",
+        "間接的接触（代理接触）も偏見低減に有効か？"
+      ],
+      "opposing_concept_names": [
+        "分離・隔離政策"
+      ],
+      "keywords_ja": [
+        "接触仮説",
+        "偏見低減",
+        "平等な地位",
+        "共通目標",
+        "多文化共生"
+      ],
+      "keywords_en": [
+        "contact hypothesis",
+        "prejudice reduction",
+        "equal status",
+        "common goals",
+        "multicultural coexistence"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "条件付き接触が偏見を低減することをメタ分析（d=0.40）で確認",
+      "empirical_support": "supported",
+      "originator_name": "ゴードン・オルポート",
+      "originator_name_en": "Gordon W. Allport",
+      "founding_work_title": "The Nature of Prejudice",
+      "founding_work_year": 1954,
+      "founding_work_venue": "Addison-Wesley"
+    },
+    {
+      "name_ja": "フレーミング効果理論（コミュニケーション）",
+      "name_en": "Framing Effects Theory (Communication)",
+      "definition": "同じ情報でも提示の仕方（フレーム）によって、受け手の解釈・態度・行動が変化する現象。ニュースフレーミング研究（エントマン）では、メディアが問題の定義・原因・道徳判断・解決策を選択的に提示することで社会的認識を形成するとされる。カーネマンとトヴェルスキーの損失-利得フレーム研究と連動してコミュニケーション研究に展開された。",
+      "impact_summary": "ジャーナリズム・政治コミュニケーション・健康コミュニケーション・環境メッセージ設計の研究と実践に中核的影響を与えている。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "メディア効果研究・社会的認知",
+      "era_start": 1993,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "公衆衛生キャンペーン・ニュース報道・政治コミュニケーションの設計と分析",
+      "when_to_apply": "メッセージのフレーミングを最適化して態度・行動変容を促したいとき",
+      "framing_questions": [
+        "問題はどのようなフレームで提示されているか？",
+        "損失フレームと利得フレームのどちらが目的に合うか？"
+      ],
+      "opposing_concept_names": [
+        "フレーミング不変性（合理的情報処理仮定）"
+      ],
+      "keywords_ja": [
+        "フレーミング",
+        "ニュースフレーム",
+        "解釈枠組み",
+        "損失-利得フレーム",
+        "メッセージ設計"
+      ],
+      "keywords_en": [
+        "framing",
+        "news frame",
+        "interpretive framework",
+        "loss-gain frame",
+        "message design"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "high",
+      "predictive_power": "フレーミング操作による態度・行動変化が多数実験で確認（健康・環境・政治分野）",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・エントマン",
+      "originator_name_en": "Robert M. Entman",
+      "founding_work_title": "Framing: Toward Clarification of a Fractured Paradigm",
+      "founding_work_year": 1993,
+      "founding_work_venue": "Journal of Communication, 43(4)"
+    },
+    {
+      "name_ja": "沈黙の螺旋理論",
+      "name_en": "Spiral of Silence Theory",
+      "definition": "自分の意見が少数派であると感じると孤立への恐怖から発言を控え、これが積み重なって少数派はますます沈黙し多数派意見がより優勢になるという自己強化的プロセスをノエル-ノイマンが提唱した理論。世論形成・メディアによる多数派意見の可視化・オンラインでの意見表明抑制の説明に応用される。",
+      "impact_summary": "世論調査・選挙研究・オンライン発言行動研究に広く引用され、メディアが社会的クライマートを作り出すメカニズムの解明に貢献した。",
+      "subfield": "コミュニケーション・メディア心理学",
+      "school_of_thought": "世論研究・メディア効果研究",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "個人・社会レベル",
+      "application_conditions": "世論形成・オンラインコミュニティでの意見表明行動研究",
+      "when_to_apply": "少数意見の抑制やオンライン発言の自己検閲メカニズムを分析するとき",
+      "framing_questions": [
+        "少数派と感じることで発言を控える人々がいないか？",
+        "メディアが多数派意見を実態以上に強調していないか？"
+      ],
+      "opposing_concept_names": [
+        "意見表明の促進理論（心理的安全性）"
+      ],
+      "keywords_ja": [
+        "沈黙の螺旋",
+        "孤立への恐怖",
+        "世論形成",
+        "少数派抑制",
+        "オンライン発言"
+      ],
+      "keywords_en": [
+        "spiral of silence",
+        "fear of isolation",
+        "public opinion formation",
+        "minority suppression",
+        "online voice"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "発言抑制と多数派意見知覚の関連が確認（効果量は文脈依存）",
+      "empirical_support": "mixed",
+      "originator_name": "エリザベート・ノエル-ノイマン",
+      "originator_name_en": "Elisabeth Noelle-Neumann",
+      "founding_work_title": "The Spiral of Silence: A Theory of Public Opinion",
+      "founding_work_year": 1974,
+      "founding_work_venue": "Journal of Communication, 24(2)"
+    },
+    {
+      "name_ja": "グラウンデッド・セオリー（質的研究法）",
+      "name_en": "Grounded Theory",
+      "definition": "データから理論を帰納的に生成する質的研究方法論。グレーザーとストラウスが開発し、継続的比較分析・理論的サンプリング・理論的飽和という三原則で構成される。仮説を先に立てず、現場データから概念・カテゴリー・理論を段階的に構築する。心理学・看護・社会学・組織研究に広く応用されている。",
+      "impact_summary": "質的研究に方法論的厳密性を与え、心理学・看護学・組織研究における質的データからの理論生成の標準的枠組みとなった。",
+      "subfield": "産業・組織心理学",
+      "school_of_thought": "質的研究方法論・シンボリック相互作用論",
+      "era_start": 1967,
+      "era_end": null,
+      "methodology_level": "個人・組織・社会レベル",
+      "application_conditions": "先行理論が十分でない新領域の探索的研究、心理的プロセスの深層理解",
+      "when_to_apply": "既存理論では説明できない現象のメカニズムを当事者の視点から理解したいとき",
+      "framing_questions": [
+        "データに先立つ理論的前提を最小化できているか？",
+        "理論的飽和（新たな概念が現れなくなる状態）に達しているか？"
+      ],
+      "opposing_concept_names": [
+        "仮説演繹的・量的研究方法"
+      ],
+      "keywords_ja": [
+        "継続的比較分析",
+        "理論的サンプリング",
+        "理論的飽和",
+        "帰納的理論生成",
+        "質的研究"
+      ],
+      "keywords_en": [
+        "constant comparative analysis",
+        "theoretical sampling",
+        "theoretical saturation",
+        "inductive theory building",
+        "qualitative research"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "理論生成を目的とし予測よりも説明・理解の深化を指向する方法論",
+      "empirical_support": "supported",
+      "originator_name": "バーニー・グレーザー、アンセルム・ストラウス",
+      "originator_name_en": "Barney G. Glaser, Anselm L. Strauss",
+      "founding_work_title": "The Discovery of Grounded Theory: Strategies for Qualitative Research",
+      "founding_work_year": 1967,
+      "founding_work_venue": "Aldine"
+    },
+    {
+      "name_ja": "コーチングの目標-行動-結果モデル（GROWモデル）",
+      "name_en": "GROW Model of Coaching",
+      "definition": "コーチングセッションをGoal（目標設定）・Reality（現状確認）・Options（選択肢の探索）・Will/Way Forward（意欲・行動計画）の四段階で構造化するモデル。ウィットモアが体系化し、スポーツコーチング・エグゼクティブコーチング・組織開発に世界的に普及した。質問を中心とした非指示的アプローチが特徴。",
+      "impact_summary": "世界で最も広く使用されるコーチングフレームワークの一つとなり、リーダーシップ開発・スポーツコーチング・教育コーチングの実践標準に影響を与えた。",
+      "subfield": "スポーツ心理学",
+      "school_of_thought": "ポジティブ心理学・コーチング心理学",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "個人・チームレベル",
+      "application_conditions": "スポーツコーチング・エグゼクティブコーチング・キャリア支援",
+      "when_to_apply": "クライアントが目標を明確にし、自律的に行動計画を立てる支援をするとき",
+      "framing_questions": [
+        "目標は明確で意欲的か？",
+        "現状と目標のギャップを本人が認識しているか？"
+      ],
+      "opposing_concept_names": [
+        "指示型コーチング"
+      ],
+      "keywords_ja": [
+        "GROW",
+        "目標設定",
+        "コーチング",
+        "自律性支援",
+        "質問技法"
+      ],
+      "keywords_en": [
+        "GROW",
+        "goal setting",
+        "coaching",
+        "autonomy support",
+        "questioning techniques"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "medium",
+      "predictive_power": "実践的有効性の証拠は多いが無作為化比較試験による厳密な検証は限定的",
+      "empirical_support": "partially_supported",
+      "originator_name": "ジョン・ウィットモア",
+      "originator_name_en": "John Whitmore",
+      "founding_work_title": "Coaching for Performance",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Nicholas Brealey Publishing"
+    },
+    {
+      "name_ja": "環境的アフォーダンス理論",
+      "name_en": "Affordance Theory (Gibson)",
+      "definition": "環境は行為者に対して「アフォーダンス（行動可能性）」を提供し、人はそれを知覚して行動を選択するというジェームズ・ギブソンの生態学的知覚理論。建築設計・製品設計・デジタルインターフェース・環境行動の研究に応用されている。環境心理学では、空間デザインが行動を促進・抑制する仕組みをアフォーダンスの観点から分析する。",
+      "impact_summary": "UXデザイン・建築環境心理学・教育空間設計に普及し、「空間が行動をデザインする」という思想の理論的根拠として広く引用されている。",
+      "subfield": "環境心理学",
+      "school_of_thought": "生態学的心理学・環境心理学",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "個人・環境レベル",
+      "application_conditions": "建築設計・デジタルUX・教育空間・公共空間の設計",
+      "when_to_apply": "環境・製品・デジタル空間のデザインが行動に与える影響を分析・設計するとき",
+      "framing_questions": [
+        "このデザインはどのような行動をアフォードしているか？",
+        "意図しない行動を抑制するアフォーダンスの修正が必要か？"
+      ],
+      "opposing_concept_names": [
+        "行動を個人の内的状態のみで説明するアプローチ"
+      ],
+      "keywords_ja": [
+        "アフォーダンス",
+        "行動可能性",
+        "生態学的知覚",
+        "環境設計",
+        "UX"
+      ],
+      "keywords_en": [
+        "affordance",
+        "action possibilities",
+        "ecological perception",
+        "environmental design",
+        "UX"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "デザインによる行動促進・抑制の予測に有用だが操作化の困難さがある",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・J・ギブソン",
+      "originator_name_en": "James J. Gibson",
+      "founding_work_title": "The Ecological Approach to Visual Perception",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Houghton Mifflin"
+    },
+    {
+      "name_ja": "環境的ストレス理論（スティーブンソン・ウーリッヒ統合）",
+      "name_en": "Environmental Stress Theory (Stokols)",
+      "definition": "物理的・社会的環境の特性がストレス反応を誘発するプロセスを「環境的ストレス（environmental stress）」として体系化するストコルズの理論。認知的評価（一次・二次評定）を媒介メカニズムとし、密度・騒音・気温・汚染・都市性などの環境特性がストレス反応を生む条件を特定する。ラザルスのストレスコーピング理論と統合されることが多い。",
+      "impact_summary": "都市環境・住宅政策・職場環境設計における心理的健康への配慮の理論的根拠となり、環境心理学の応用実践を促進した。",
+      "subfield": "環境心理学",
+      "school_of_thought": "環境心理学・ストレス研究",
+      "era_start": 1978,
+      "era_end": null,
+      "methodology_level": "個人・環境レベル",
+      "application_conditions": "都市環境設計、騒音・温度・密度による健康への影響評価",
+      "when_to_apply": "物理的環境特性がストレスと健康に与える影響を系統的に評価したいとき",
+      "framing_questions": [
+        "環境的ストレス因子（騒音・密度・汚染）の評価が利用者の認知的評価に影響しているか？",
+        "環境改善によってストレス反応が低減するか？"
+      ],
+      "opposing_concept_names": [
+        "個人差のみに起因するストレスモデル"
+      ],
+      "keywords_ja": [
+        "環境的ストレス",
+        "騒音",
+        "都市環境",
+        "認知的評価",
+        "物理的環境"
+      ],
+      "keywords_en": [
+        "environmental stress",
+        "noise",
+        "urban environment",
+        "cognitive appraisal",
+        "physical environment"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "medium",
+      "predictive_power": "騒音・密度・気温のストレス指標への影響が実験・疫学研究で確認",
+      "empirical_support": "supported",
+      "originator_name": "ダニエル・ストコルズ",
+      "originator_name_en": "Daniel Stokols",
+      "founding_work_title": "A Social-Psychological Model of Human Crowding Phenomena",
+      "founding_work_year": 1978,
+      "founding_work_venue": "Journal of the American Institute of Planners, 38(2)"
+    }
+  ]
+}

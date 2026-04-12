@@ -1,0 +1,3647 @@
+{
+  "domain": "social_sciences",
+  "concepts": [
+    {
+      "name_ja": "ビッグ・ファイブ／五因子モデル",
+      "name_en": "Big Five / Five Factor Model (FFM)",
+      "definition": "人格を開放性・誠実性・外向性・協調性・神経症傾向の5次元で記述する特性論。語彙的アプローチから帰納的に導出され、コスタ＆マクレーがNEO PI-Rとして操作化した。文化横断的に再現され、特性論の標準的枠組みとなっている。",
+      "impact_summary": "人格心理学の「共通言語」として世界的に採用。教育・臨床・産業・社会心理学において最も広く使用される測定枠組み。遺伝率40〜60%が双生児研究で確認済み。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "特性論・語彙的アプローチ",
+      "era_start": 1961,
+      "era_end": null,
+      "methodology_level": "個人差測定・因子分析",
+      "application_conditions": "人格の個人差を比較・予測する際に有効。文化的偏りが生じやすい極端な非西洋サンプルでは注意が必要。",
+      "when_to_apply": "採用選考・臨床アセスメント・学術研究での人格測定",
+      "framing_questions": [
+        "この人物の誠実性と職業的成果は関連するか？",
+        "神経症傾向はメンタルヘルスリスクと関連するか？"
+      ],
+      "opposing_concept_names": [
+        "HEXACO（6因子）",
+        "状況論（ミシェル）"
+      ],
+      "keywords_ja": [
+        "開放性",
+        "誠実性",
+        "外向性",
+        "協調性",
+        "神経症傾向",
+        "NEO PI-R"
+      ],
+      "keywords_en": [
+        "openness",
+        "conscientiousness",
+        "extraversion",
+        "agreeableness",
+        "neuroticism",
+        "NEO PI-R"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "誠実性は職業的成果（r≈0.23）、神経症傾向は精神的健康リスクを中程度予測",
+      "empirical_support": "確立",
+      "originator_name": "コスタ、マクレー",
+      "originator_name_en": "Paul T. Costa, Robert R. McCrae",
+      "founding_work_title": "An Introduction to the Five-Factor Model and Its Applications",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Journal of Personality"
+    },
+    {
+      "name_ja": "HEXACOモデル",
+      "name_en": "HEXACO Model of Personality",
+      "definition": "ビッグ・ファイブに「誠実さ・謙虚さ（H因子）」を追加した6因子モデル。アシュトン＆リーが多言語語彙研究から発見。英語のみに依拠したBig Fiveが見逃した協調性・情動性の再分割とH因子を中心に構成。",
+      "impact_summary": "H因子（ナルシシズム・マキャベリズム・反社会的行動の予測）の追加でダークトライアドや倫理的行動の予測力が向上。Big Fiveを超える文化的妥当性を持つと主張される。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "特性論・語彙的アプローチ",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "因子分析・多言語語彙研究",
+      "application_conditions": "倫理的行動・反社会的行動・誠実性を中心的関心とする研究。Big Fiveとの比較で優位性が最も明確に現れる。",
+      "when_to_apply": "汚職・不正行動・組織倫理の予測研究",
+      "framing_questions": [
+        "H因子の低さはどの程度不正行動を予測するか？",
+        "Big Fiveでは捉えられない変数をH因子が説明するか？"
+      ],
+      "opposing_concept_names": [
+        "Big Five/FFM"
+      ],
+      "keywords_ja": [
+        "誠実さ・謙虚さ",
+        "H因子",
+        "6因子",
+        "倫理的行動",
+        "語彙的アプローチ"
+      ],
+      "keywords_en": [
+        "Honesty-Humility",
+        "H factor",
+        "six factors",
+        "ethical behavior",
+        "lexical approach"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "ナルシシズム・不誠実な行動においてBig Fiveより高い予測力",
+      "empirical_support": "支持あり",
+      "originator_name": "アシュトン、リー",
+      "originator_name_en": "Michael C. Ashton, Kibeom Lee",
+      "founding_work_title": "Empirical, Theoretical, and Practical Advantages of the HEXACO Model of Personality Structure",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Personality and Social Psychology Review"
+    },
+    {
+      "name_ja": "PENモデル（アイゼンク）",
+      "name_en": "PEN Model of Personality (Eysenck)",
+      "definition": "精神病傾向(P)・外向性(E)・神経症傾向(N)の3次元を中枢神経系の生物学的基盤（上行性網様体賦活系、辺縁系）と結びつけた特性論。3次元は直交し、精神科的疾患の連続体的理解を提供する。",
+      "impact_summary": "人格の生物学的基盤という方向性を開拓。Big Fiveの先行モデルとして位置づけられ、精神医学との接点を持つ人格理論として今日も参照される。神経症傾向と外向性の構成概念は後継理論に受け継がれた。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "生物学的特性論",
+      "era_start": 1947,
+      "era_end": null,
+      "methodology_level": "生物心理学・因子分析",
+      "application_conditions": "精神疾患の連続体的モデル、生理指標との相関研究",
+      "when_to_apply": "神経生理学的変数と人格の関係を調べる研究",
+      "framing_questions": [
+        "皮膚電気活動・EEGと外向性は関連するか？"
+      ],
+      "opposing_concept_names": [
+        "Big Five（5因子の方が精緻）",
+        "状況主義"
+      ],
+      "keywords_ja": [
+        "精神病傾向",
+        "外向性",
+        "神経症傾向",
+        "上行性網様体賦活系",
+        "EPQ"
+      ],
+      "keywords_en": [
+        "psychoticism",
+        "extraversion",
+        "neuroticism",
+        "ARAS",
+        "EPQ"
+      ],
+      "status": "legacy/active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "神経症傾向と精神病理の関係は確立；精神病傾向因子の妥当性は議論あり",
+      "empirical_support": "部分的支持",
+      "originator_name": "ハンス・アイゼンク",
+      "originator_name_en": "Hans J. Eysenck",
+      "founding_work_title": "Dimensions of Personality",
+      "founding_work_year": 1947,
+      "founding_work_venue": "Kegan Paul"
+    },
+    {
+      "name_ja": "16PF（キャッテル）",
+      "name_en": "Sixteen Personality Factor Questionnaire (16PF)",
+      "definition": "レイモンド・キャッテルが語彙仮説に基づきデータを因子分析して導いた16の根源特性（source traits）モデル。表面特性（surface traits）の背後にある根本因子を測定し、3層の階層構造（一次・二次・三次因子）を持つ。",
+      "impact_summary": "現代の語彙的アプローチの先駆。Big Fiveは16PFの二次因子分析から生まれた。産業・臨床・研究に幅広く応用された人格測定の古典的ツール。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "語彙的特性論",
+      "era_start": 1949,
+      "era_end": null,
+      "methodology_level": "因子分析・自己報告",
+      "application_conditions": "包括的な人格プロファイリングが必要な場面",
+      "when_to_apply": "採用・キャリア相談・臨床アセスメント",
+      "framing_questions": [
+        "16因子で個人の行動予測精度は向上するか？"
+      ],
+      "opposing_concept_names": [
+        "Big Five（より簡潔な5因子モデル）"
+      ],
+      "keywords_ja": [
+        "根源特性",
+        "表面特性",
+        "因子分析",
+        "語彙仮説",
+        "階層モデル"
+      ],
+      "keywords_en": [
+        "source traits",
+        "surface traits",
+        "factor analysis",
+        "lexical hypothesis",
+        "hierarchical model"
+      ],
+      "status": "legacy/active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "多次元測定で行動予測；Big Fiveとの重複が大きく独自の予測力は限定的",
+      "empirical_support": "確立",
+      "originator_name": "レイモンド・キャッテル",
+      "originator_name_en": "Raymond B. Cattell",
+      "founding_work_title": "Description and Measurement of Personality",
+      "founding_work_year": 1946,
+      "founding_work_venue": "World Book Co."
+    },
+    {
+      "name_ja": "ダークトライアド",
+      "name_en": "Dark Triad",
+      "definition": "ナルシシズム・マキャベリズム・精神病質（サブクリニカル）の3つの社会的に有害な人格特性を一括して捉える構成概念。パウルフス＆ウィリアムズが2002年に命名。共通する特徴は自己高揚・感情的冷淡さ・欺瞞性・攻撃性。",
+      "impact_summary": "反社会的行動・職場の有害行動・ロマンティックな搾取の予測に広く応用。HEXACO H因子の低スコア群と高い相関。「悪意ある人格」の研究を活性化し、リーダーシップ研究・犯罪心理学にも波及。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "特性論・人格病理の連続体モデル",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "自己報告質問紙・行動実験",
+      "application_conditions": "反社会的行動・組織不正・有害なリーダーシップの予測",
+      "when_to_apply": "採用スクリーニング・犯罪心理・人間関係トラブルの分析",
+      "framing_questions": [
+        "ダークトライアドスコアは職場の反生産的行動を予測するか？"
+      ],
+      "opposing_concept_names": [
+        "Light Triad（カナンガラ）",
+        "協調性・共感能力"
+      ],
+      "keywords_ja": [
+        "ナルシシズム",
+        "マキャベリズム",
+        "精神病質",
+        "反社会的行動",
+        "Dark Tetrad"
+      ],
+      "keywords_en": [
+        "narcissism",
+        "Machiavellianism",
+        "psychopathy",
+        "antisocial behavior",
+        "Dark Tetrad"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "反社会的行動をr≈0.3前後で予測；3因子の弁別妥当性に議論あり",
+      "empirical_support": "支持あり",
+      "originator_name": "パウルフス、ウィリアムズ",
+      "originator_name_en": "Delroy L. Paulhus, Kevin M. Williams",
+      "founding_work_title": "The Dark Triad of Personality: Narcissism, Machiavellianism, and Psychopathy",
+      "founding_work_year": 2002,
+      "founding_work_venue": "Journal of Research in Personality"
+    },
+    {
+      "name_ja": "人-状況論争",
+      "name_en": "Person-Situation Debate",
+      "definition": "1968年にミシェルが『Personality and Assessment』で「状況横断的な行動の一貫性は0.30程度に過ぎない」と主張し起こった論争。状況要因と人格特性のどちらが行動をより規定するかを巡り、状況主義・相互作用論が登場した。",
+      "impact_summary": "状況の力の重要性を確認し、特性論を精緻化させるきっかけとなった。相互作用論・CAPS理論の出現を促し、「特性×状況」の交互作用研究の礎となった。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "状況主義・相互作用論",
+      "era_start": 1968,
+      "era_end": null,
+      "methodology_level": "観察研究・メタ分析",
+      "application_conditions": "行動の一貫性を検討する場面；特性測定値と実際の行動の乖離を理解したい場合",
+      "when_to_apply": "予測研究のデザイン設計、測定妥当性の評価",
+      "framing_questions": [
+        "人格測定値と実際の行動の相関はなぜ0.30程度にとどまるのか？"
+      ],
+      "opposing_concept_names": [
+        "特性論（Allport、Big Five）"
+      ],
+      "keywords_ja": [
+        "行動の一貫性",
+        "0.30相関",
+        "状況主義",
+        "相互作用論",
+        "ミシェル"
+      ],
+      "keywords_en": [
+        "behavioral consistency",
+        "0.30 correlation",
+        "situationism",
+        "interactionism",
+        "Mischel"
+      ],
+      "status": "resolved/active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "単一状況での行動予測は低い；集積化すると上昇",
+      "empirical_support": "確立（論争は解決済みとする見方が多い）",
+      "originator_name": "ウォルター・ミシェル",
+      "originator_name_en": "Walter Mischel",
+      "founding_work_title": "Personality and Assessment",
+      "founding_work_year": 1968,
+      "founding_work_venue": "Wiley"
+    },
+    {
+      "name_ja": "認知-感情処理システム（CAPS）",
+      "name_en": "Cognitive-Affective Processing System (CAPS)",
+      "definition": "ミシェル＆ショーダが1995年に提唱した人格モデル。5種の認知-感情ユニット（符号化・期待・感情・目標・コンピテンシー）が状況手がかりに応じてネットワーク的に活性化し、「もし〜なら〜する（if-then）」という状況特異的行動シグネチャを生み出すとする。",
+      "impact_summary": "人-状況論争を解決し、状況横断的な一貫性と状況内変動を統合的に説明。臨床応用（拒絶感受性理論）にも発展。社会認知的人格研究の枠組みを定着させた。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "社会認知的人格理論",
+      "era_start": 1995,
+      "era_end": null,
+      "methodology_level": "観察・実験・計算モデル",
+      "application_conditions": "個人の状況特異的な行動パターン（if-thenシグネチャ）を記述・予測する場合",
+      "when_to_apply": "臨床・発達・社会心理学研究",
+      "framing_questions": [
+        "特定の人物はどのような状況手がかりに対してどのような一貫したパターンを示すか？"
+      ],
+      "opposing_concept_names": [
+        "特性論（Big Five）",
+        "純粋な状況主義"
+      ],
+      "keywords_ja": [
+        "if-thenシグネチャ",
+        "認知-感情ユニット",
+        "状況手がかり",
+        "行動の一貫性",
+        "ショーダ"
+      ],
+      "keywords_en": [
+        "if-then signatures",
+        "cognitive-affective units",
+        "situational cues",
+        "behavioral consistency",
+        "Shoda"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "if-thenパターンの個人差は安定して観察される",
+      "empirical_support": "支持あり",
+      "originator_name": "ミシェル、ショーダ",
+      "originator_name_en": "Walter Mischel, Yuichi Shoda",
+      "founding_work_title": "A Cognitive-Affective System Theory of Personality",
+      "founding_work_year": 1995,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "強化感受性理論（グレイ）",
+      "name_en": "Reinforcement Sensitivity Theory (RST)",
+      "definition": "ジェフリー・グレイが提唱し後に改訂された生物学的人格理論。行動抑制システム（BIS）・行動活性化システム（BAS）・戦闘/逃走/凍結システム（FFFS）の3神経系が不安・恐怖・衝動性・接近動機を制御するとする。",
+      "impact_summary": "神経生物学的に基づく気質・人格の説明枠組みを提供。不安・衝動性・精神病理の個人差を生理学的に予測可能にした。キャービン＆ホワイトのBIS/BAS尺度として広く使用。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "生物学的人格理論",
+      "era_start": 1970,
+      "era_end": null,
+      "methodology_level": "動物実験・神経薬理学・自己報告",
+      "application_conditions": "不安・衝動性・報酬/罰への感受性の個人差を扱う研究",
+      "when_to_apply": "精神病理（不安障害・うつ・ADHD）と人格の関係を検討する場面",
+      "framing_questions": [
+        "BISの高さはどの程度不安障害リスクを予測するか？"
+      ],
+      "opposing_concept_names": [
+        "アイゼンクのPENモデル（競合する生物学的モデル）"
+      ],
+      "keywords_ja": [
+        "BIS",
+        "BAS",
+        "FFFS",
+        "不安感受性",
+        "報酬感受性"
+      ],
+      "keywords_en": [
+        "BIS",
+        "BAS",
+        "FFFS",
+        "anxiety sensitivity",
+        "reward sensitivity"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "BISスコアは不安障害・うつを中程度予測；BASは衝動性・双極性障害リスクと関連",
+      "empirical_support": "支持あり",
+      "originator_name": "ジェフリー・グレイ",
+      "originator_name_en": "Jeffrey A. Gray",
+      "founding_work_title": "The Neuropsychology of Anxiety",
+      "founding_work_year": 1982,
+      "founding_work_venue": "Oxford University Press"
+    },
+    {
+      "name_ja": "特性活性化理論",
+      "name_en": "Trait Activation Theory (TAT)",
+      "definition": "テット＆バーネットが提唱。人格特性は状況に関連した手がかり（要求・促進因子・制約・解放因子・障害）があって初めて行動として表出されるとする相互作用的モデル。特性の発現を「潜在的→顕在的」とする。",
+      "impact_summary": "人格と状況の相互作用を組織的に分析するフレームワークを提供。職場での人格予測力の向上、P-E（人-環境）フィット研究に応用。人格×状況デザインの理論的根拠となった。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "相互作用論的人格理論",
+      "era_start": 1998,
+      "era_end": null,
+      "methodology_level": "多水準分析・組織研究",
+      "application_conditions": "職務環境と人格の適合性を評価する場面",
+      "when_to_apply": "HRM・採用・チームデザイン",
+      "framing_questions": [
+        "この職場環境はどの特性を活性化させる手がかりを持つか？"
+      ],
+      "opposing_concept_names": [
+        "純粋特性論（状況を無視する立場）"
+      ],
+      "keywords_ja": [
+        "特性活性化",
+        "状況手がかり",
+        "P-Eフィット",
+        "人格と職務",
+        "相互作用論"
+      ],
+      "keywords_en": [
+        "trait activation",
+        "situational cues",
+        "person-environment fit",
+        "personality-job performance",
+        "interactionism"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "職務文脈での人格予測力を中程度向上",
+      "empirical_support": "支持あり",
+      "originator_name": "テット、バーネット",
+      "originator_name_en": "Robert P. Tett, Dawn D. Burnett",
+      "founding_work_title": "A Personality Trait-Based Interactionist Model of Job Performance",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Journal of Applied Psychology"
+    },
+    {
+      "name_ja": "アロポート特性論",
+      "name_en": "Allport's Trait Theory",
+      "definition": "ゴードン・オールポートが提唱した人格特性の階層モデル。枢要特性（人格全体を支配）・中心特性（5〜10個の基本傾向）・二次特性（文脈依存の習慣）の3層に分類。個人の独自性（idiographic approach）を重視。",
+      "impact_summary": "現代特性論の出発点。語彙仮説を定式化し、因子分析的アプローチの土台を築いた。「人格心理学の父」として位置づけられ、人格測定の体系化に貢献。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "特性論・個性記述的アプローチ",
+      "era_start": 1937,
+      "era_end": null,
+      "methodology_level": "記述的・語彙的分析",
+      "application_conditions": "個人の人格の全体像を記述する際の参照枠組み",
+      "when_to_apply": "臨床的ケース記述・文化比較・歴史的参照",
+      "framing_questions": [
+        "この人物の枢要特性は何か？"
+      ],
+      "opposing_concept_names": [
+        "集団記述的アプローチ（Big Five）"
+      ],
+      "keywords_ja": [
+        "枢要特性",
+        "中心特性",
+        "語彙仮説",
+        "個性記述的",
+        "人格の統一性"
+      ],
+      "keywords_en": [
+        "cardinal traits",
+        "central traits",
+        "lexical hypothesis",
+        "idiographic approach",
+        "personal dispositions"
+      ],
+      "status": "legacy",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "概念的・理論的貢献が主；定量的予測力の検証は限定的",
+      "empirical_support": "歴史的基盤",
+      "originator_name": "ゴードン・オールポート",
+      "originator_name_en": "Gordon W. Allport",
+      "founding_work_title": "Personality: A Psychological Interpretation",
+      "founding_work_year": 1937,
+      "founding_work_venue": "Holt"
+    },
+    {
+      "name_ja": "欲求階層説（マズロー）",
+      "name_en": "Hierarchy of Needs (Maslow)",
+      "definition": "生理・安全・愛と所属・承認・自己実現の5段階欲求を階層ピラミッドで示したモデル。下位欲求がある程度充足されることで上位欲求が動機として浮上すると仮定する。マズローは1943年に『Psychological Review』で発表。",
+      "impact_summary": "経営学・教育学・カウンセリングに広く普及し、人間主義的動機観の代表理論となった。ただし実証的検証は乏しく「ポップ心理学化」した面もある。現代の改訂版では階層性の柔軟化・認知的欲求の追加が提案されている。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "人間主義心理学",
+      "era_start": 1943,
+      "era_end": null,
+      "methodology_level": "理論・症例研究",
+      "application_conditions": "動機の大枠を整理する際の参照枠組みとして有用；厳密な科学的予測には不適",
+      "when_to_apply": "組織マネジメント・教育設計・動機理解の入門的説明",
+      "framing_questions": [
+        "従業員の動機付けの現状はどの欲求段階に対応するか？"
+      ],
+      "opposing_concept_names": [
+        "自己決定理論（より実証的）",
+        "二要因理論（ハーズバーグ）"
+      ],
+      "keywords_ja": [
+        "自己実現",
+        "欲求の階層",
+        "生理的欲求",
+        "安全欲求",
+        "ピーク体験"
+      ],
+      "keywords_en": [
+        "self-actualization",
+        "hierarchy of needs",
+        "physiological needs",
+        "safety needs",
+        "peak experience"
+      ],
+      "status": "classic/contested",
+      "source_reliability": "中",
+      "data_completeness": "低〜中",
+      "predictive_power": "階層性の実証的支持は弱い；欲求の存在自体は認められる",
+      "empirical_support": "部分的",
+      "originator_name": "アブラハム・マズロー",
+      "originator_name_en": "Abraham H. Maslow",
+      "founding_work_title": "A Theory of Human Motivation",
+      "founding_work_year": 1943,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "自己決定理論（SDT）",
+      "name_en": "Self-Determination Theory (SDT)",
+      "definition": "デシ＆ライアンが開発した包括的動機理論。自律性・有能感・関係性の3つの基本的心理欲求の充足が内発的動機・ウェルビーイングを支えるとする。内発的動機と様々な段階の外発的動機を連続体（内面化スペクトラム）として整理。",
+      "impact_summary": "教育・スポーツ・組織・臨床・医療コンプライアンス研究に広く応用。内発的動機の「アンダーマイニング効果」を実験的に実証。動機理論の中でも実証的根拠が最も充実した体系の一つ。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "人間主義・社会認知的動機理論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究・介入研究",
+      "application_conditions": "動機づけ環境の設計・評価に有効；基本欲求阻害の程度により予測精度が変わる",
+      "when_to_apply": "教育・組織・医療介入設計",
+      "framing_questions": [
+        "この環境は自律性・有能感・関係性の欲求を支援しているか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的強化理論",
+        "外発的動機中心モデル"
+      ],
+      "keywords_ja": [
+        "自律性",
+        "有能感",
+        "関係性",
+        "内発的動機",
+        "外発的動機",
+        "内面化"
+      ],
+      "keywords_en": [
+        "autonomy",
+        "competence",
+        "relatedness",
+        "intrinsic motivation",
+        "internalization"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "学業成績・職業的ウェルビーイング・身体活動維持を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "デシ、ライアン",
+      "originator_name_en": "Edward L. Deci, Richard M. Ryan",
+      "founding_work_title": "Intrinsic Motivation and Self-Determination in Human Behavior",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Plenum"
+    },
+    {
+      "name_ja": "フロー理論",
+      "name_en": "Flow Theory (Optimal Experience)",
+      "definition": "チクセントミハイが提唱した「最適経験」の理論。スキルと挑戦のバランスが取れた際に生じる完全没入・自動性・自意識の消失・時間感覚の歪みを特徴とする意識状態。課題の明確さ・即時フィードバックもフロー条件とされる。",
+      "impact_summary": "ゲームデザイン・教育・スポーツ・創造性研究に応用。幸福感・生産性・学習効率の向上と関連。EMA（経験サンプリング法）の普及と連動して研究が拡大。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "ポジティブ心理学",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "経験サンプリング法（ESM）・実験",
+      "application_conditions": "タスク設計・学習環境・ゲームデザインに適用可能",
+      "when_to_apply": "創造的作業・教育介入・UX設計",
+      "framing_questions": [
+        "このタスク設計はスキルと難易度のバランスを取っているか？"
+      ],
+      "opposing_concept_names": [
+        "覚醒理論（単純な活性化モデル）"
+      ],
+      "keywords_ja": [
+        "フロー",
+        "最適経験",
+        "没入",
+        "スキル-挑戦バランス",
+        "自動性"
+      ],
+      "keywords_en": [
+        "flow",
+        "optimal experience",
+        "immersion",
+        "skill-challenge balance",
+        "autotelic"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "主観的ウェルビーイング・創造的パフォーマンスを中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "ミハイ・チクセントミハイ",
+      "originator_name_en": "Mihaly Csikszentmihalyi",
+      "founding_work_title": "Beyond Boredom and Anxiety",
+      "founding_work_year": 1975,
+      "founding_work_venue": "Jossey-Bass"
+    },
+    {
+      "name_ja": "PERMAモデル",
+      "name_en": "PERMA Model of Well-Being",
+      "definition": "セリグマンが2011年の著書『Flourish』で提唱したウェルビーイングの5要素モデル。ポジティブ感情（P）・エンゲージメント（E）・ポジティブな関係性（R）・意味（M）・達成（A）の充足が「繁栄（flourishing）」をもたらすとする。",
+      "impact_summary": "ポジティブ心理学の実践的枠組みとして教育・組織・コーチングに普及。PERMAプロファイラーによる測定が可能。苦しみの除去だけでなく繁栄の促進という目標を心理学に与えた。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "ポジティブ心理学",
+      "era_start": 2011,
+      "era_end": null,
+      "methodology_level": "自己報告・介入研究",
+      "application_conditions": "ウェルビーイング向上介入の設計・評価",
+      "when_to_apply": "組織・教育機関のウェルビーイング施策",
+      "framing_questions": [
+        "5要素のうちどの側面が最も低下しているか？"
+      ],
+      "opposing_concept_names": [
+        "主観的ウェルビーイング（快楽主義的モデル）"
+      ],
+      "keywords_ja": [
+        "ポジティブ感情",
+        "エンゲージメント",
+        "意味",
+        "達成",
+        "繁栄"
+      ],
+      "keywords_en": [
+        "positive emotion",
+        "engagement",
+        "relationships",
+        "meaning",
+        "accomplishment"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "ウェルビーイング指標を中程度予測；5因子の独立性に議論",
+      "empirical_support": "支持あり",
+      "originator_name": "マーティン・セリグマン",
+      "originator_name_en": "Martin E. P. Seligman",
+      "founding_work_title": "Flourish",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Free Press"
+    },
+    {
+      "name_ja": "自己効力感理論",
+      "name_en": "Self-Efficacy Theory",
+      "definition": "バンデューラが社会学習理論から発展させた概念。特定行動を遂行できるという信念（自己効力感）が行動の開始・持続・努力量を規定するとする。4つの情報源（達成経験・代理経験・言語的説得・生理的状態）から形成される。",
+      "impact_summary": "動機・学習・健康行動・臨床介入研究に絶大な影響。BanduraのSocial Cognitive Theoryの核心概念。世界的に最も引用される心理学的構成概念の一つ。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会認知理論",
+      "era_start": 1977,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究・介入研究",
+      "application_conditions": "行動変容・学習成果・スポーツパフォーマンス・健康行動の予測",
+      "when_to_apply": "行動変容プログラム設計・教育介入・臨床治療",
+      "framing_questions": [
+        "この介入は自己効力感の4情報源を活用しているか？"
+      ],
+      "opposing_concept_names": [
+        "期待理論（Vroom）",
+        "アトリビューション理論"
+      ],
+      "keywords_ja": [
+        "自己効力感",
+        "達成経験",
+        "代理経験",
+        "行動変容",
+        "社会認知理論"
+      ],
+      "keywords_en": [
+        "self-efficacy",
+        "mastery experience",
+        "vicarious experience",
+        "behavior change",
+        "social cognitive theory"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "学業成績r≈0.38、健康行動維持・スポーツパフォーマンスを中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "アルバート・バンデューラ",
+      "originator_name_en": "Albert Bandura",
+      "founding_work_title": "Self-Efficacy: Toward a Unifying Theory of Behavioral Change",
+      "founding_work_year": 1977,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "自己不一致理論",
+      "name_en": "Self-Discrepancy Theory",
+      "definition": "ヒギンズが1987年に提唱。現実自己・理想自己・義務自己の3領域の乖離が特定の情動を引き起こすとする。現実−理想の乖離は失意・うつ（落ち込み系感情）を、現実−義務の乖離は動揺・不安（興奮系感情）を生む。",
+      "impact_summary": "うつと不安の認知的説明モデルとして臨床的に応用。制御焦点理論（促進焦点vs予防焦点）の概念的基盤となり、消費者行動・説得研究にも展開。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会認知的動機理論",
+      "era_start": 1987,
+      "era_end": null,
+      "methodology_level": "実験・自己報告",
+      "application_conditions": "うつ・不安の認知的要因を検討する場面",
+      "when_to_apply": "臨床介入・説得コミュニケーション設計",
+      "framing_questions": [
+        "この人物の主たる感情は失意系か不安系か？"
+      ],
+      "opposing_concept_names": [
+        "自己概念明瞭性理論（キャンベル）"
+      ],
+      "keywords_ja": [
+        "理想自己",
+        "義務自己",
+        "現実自己",
+        "うつ",
+        "不安"
+      ],
+      "keywords_en": [
+        "ideal self",
+        "ought self",
+        "actual self",
+        "dejection",
+        "agitation"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "うつ・不安の分化を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "E・トリー・ヒギンズ",
+      "originator_name_en": "E. Tory Higgins",
+      "founding_work_title": "Self-Discrepancy: A Theory Relating Self and Affect",
+      "founding_work_year": 1987,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "制御焦点理論",
+      "name_en": "Regulatory Focus Theory",
+      "definition": "ヒギンズが自己不一致理論を発展させた動機理論。促進焦点（理想・希望・成長を目指す）と予防焦点（義務・責任・安全を重視する）の2つの制御システムが動機・認知・感情・行動に体系的に異なる影響を与える。",
+      "impact_summary": "説得・マーケティング・意思決定・リーダーシップ・健康行動研究に広く応用。適合性効果（framing matchが効果を高める）の実証的発見は説得研究を刷新した。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会認知的動機理論",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究",
+      "application_conditions": "説得・健康行動変容・組織行動の研究",
+      "when_to_apply": "介入メッセージのフレーミング設計",
+      "framing_questions": [
+        "ターゲット層は促進焦点主体か予防焦点主体か？"
+      ],
+      "opposing_concept_names": [
+        "接近-回避動機モデル"
+      ],
+      "keywords_ja": [
+        "促進焦点",
+        "予防焦点",
+        "適合性効果",
+        "フレーミング",
+        "動機"
+      ],
+      "keywords_en": [
+        "promotion focus",
+        "prevention focus",
+        "regulatory fit",
+        "framing",
+        "motivation"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "説得効果・意思決定・健康行動を中程度予測",
+      "empirical_support": "確立",
+      "originator_name": "E・トリー・ヒギンズ",
+      "originator_name_en": "E. Tory Higgins",
+      "founding_work_title": "Beyond Pleasure and Pain",
+      "founding_work_year": 1997,
+      "founding_work_venue": "American Psychologist"
+    },
+    {
+      "name_ja": "自己概念明瞭性",
+      "name_en": "Self-Concept Clarity (SCC)",
+      "definition": "キャンベルが1996年に操作化した自己の構造的側面。自己に関する信念が明確・自信に満ちた・内的一貫性・時間的安定性を持つ程度。低SCC（自己概念の曖昧さ）は神経症傾向・低自尊心・慢性的自己分析と関連する。",
+      "impact_summary": "自己概念の「内容」でなく「構造」に注目した新視点を提供。アイデンティティ研究・文化差研究（東アジアで低SCC傾向）・精神的健康の予測に応用。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会認知的自己理論",
+      "era_start": 1996,
+      "era_end": null,
+      "methodology_level": "自己報告・12項目SCC尺度",
+      "application_conditions": "アイデンティティ安定性・精神的健康・文化差研究",
+      "when_to_apply": "臨床スクリーニング・文化比較研究",
+      "framing_questions": [
+        "この文化的文脈でSCCはどのように形成されるか？"
+      ],
+      "opposing_concept_names": [
+        "自己不一致理論（内容の不一致に注目）"
+      ],
+      "keywords_ja": [
+        "自己概念",
+        "アイデンティティ安定性",
+        "神経症傾向",
+        "文化差",
+        "自己の明確さ"
+      ],
+      "keywords_en": [
+        "self-concept clarity",
+        "identity stability",
+        "neuroticism",
+        "cultural differences",
+        "self-knowledge"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "ウェルビーイング・神経症傾向を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "ジェニファー・キャンベル",
+      "originator_name_en": "Jennifer D. Campbell",
+      "founding_work_title": "Self-Concept Clarity: Measurement, Personality Correlates, and Cultural Boundaries",
+      "founding_work_year": 1996,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "恐怖管理理論",
+      "name_en": "Terror Management Theory (TMT)",
+      "definition": "グリーンバーグ・ピジスジンスキー・ソロモンがベッカーの『死の否定』を基に展開した社会心理学理論。死の不可避性の認識が潜在的な恐怖を生み、文化的世界観への信奉と自尊心がバッファとして機能するとする。死の顕現性（mortality salience）が文化的偏見・内集団びいきを強化する。",
+      "impact_summary": "宗教・ナショナリズム・偏見・消費行動・政治心理学を死への恐怖から統一的に説明。500以上の実験で死の顕現性効果が確認され、社会心理学で最も検証された理論の一つ。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "実存的心理学・社会認知",
+      "era_start": 1986,
+      "era_end": null,
+      "methodology_level": "実験（死の顕現性パラダイム）",
+      "application_conditions": "文化的偏見・宗教的信念・自尊心の機能を研究する際",
+      "when_to_apply": "政治心理学・宗教心理学・消費行動研究",
+      "framing_questions": [
+        "死への恐怖がこの集団の文化的行動を説明するか？"
+      ],
+      "opposing_concept_names": [
+        "不確実性管理理論",
+        "意味管理理論"
+      ],
+      "keywords_ja": [
+        "死の顕現性",
+        "文化的世界観",
+        "自尊心バッファ",
+        "実存的不安",
+        "内集団びいき"
+      ],
+      "keywords_en": [
+        "mortality salience",
+        "cultural worldview",
+        "self-esteem buffer",
+        "existential anxiety",
+        "in-group favoritism"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "死の顕現性操作後の偏見・文化防衛行動を中程度予測",
+      "empirical_support": "確立",
+      "originator_name": "グリーンバーグ、ピジスジンスキー、ソロモン",
+      "originator_name_en": "Jeff Greenberg, Tom Pyszczynski, Sheldon Solomon",
+      "founding_work_title": "Evidence for Terror Management Theory: I. The Effects of Mortality Salience on Reactions to Those Who Violate or Uphold Cultural Values",
+      "founding_work_year": 1986,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "学習性無力感",
+      "name_en": "Learned Helplessness",
+      "definition": "セリグマンが犬の実験から開発し人間の抑うつ理論に発展させた概念。制御不能なストレッサーへの反復暴露が「自分には状況をコントロールできない」という認知を形成し、その後制御可能な状況でも受動的行動が続く状態。1978年にアブラムソンらが帰属スタイル（内的・安定・全般的）を加え改訂。",
+      "impact_summary": "うつ病の認知モデルとして影響が大きく、認知行動療法の理論的基盤の一部を形成。楽観主義・悲観主義研究（説明スタイル）に発展し、学校・職場でのモチベーション研究に応用。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "認知行動的動機理論",
+      "era_start": 1967,
+      "era_end": null,
+      "methodology_level": "動物実験・人間実験・臨床研究",
+      "application_conditions": "うつ・無気力・動機低下のメカニズムを説明する場面",
+      "when_to_apply": "抑うつの認知的説明・介入設計",
+      "framing_questions": [
+        "この行動パターンは学習された無力感によるものか？"
+      ],
+      "opposing_concept_names": [
+        "自己効力感理論（能動的コントロール感）"
+      ],
+      "keywords_ja": [
+        "制御不能",
+        "うつ",
+        "帰属スタイル",
+        "説明スタイル",
+        "楽観主義"
+      ],
+      "keywords_en": [
+        "uncontrollability",
+        "depression",
+        "attribution style",
+        "explanatory style",
+        "optimism"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "悲観的説明スタイルとうつ発症リスクを中程度予測",
+      "empirical_support": "確立",
+      "originator_name": "マーティン・セリグマン",
+      "originator_name_en": "Martin E. P. Seligman",
+      "founding_work_title": "Learned Helplessness",
+      "founding_work_year": 1975,
+      "founding_work_venue": "W. H. Freeman"
+    },
+    {
+      "name_ja": "グリット（粘り強さ）",
+      "name_en": "Grit: Perseverance and Passion for Long-Term Goals",
+      "definition": "ダックワースが2007年に提唱した非認知的特性。長期目標への情熱（一貫した関心）と粘り強さ（失敗や停滞を越えた持続的努力）の2因子から構成される。知能・才能とは独立して長期的成果を予測するとされる。",
+      "impact_summary": "陸軍士官学校定着率・スペリングビー順位・学業成績を予測。教育政策・コーチング・HR領域で広く応用されたが、Big Fiveの誠実性との弁別妥当性・予測増分には批判的研究もある。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "積極的心理学・非認知能力研究",
+      "era_start": 2007,
+      "era_end": null,
+      "methodology_level": "自己報告・縦断研究",
+      "application_conditions": "長期的成果の予測；誠実性との識別が必要",
+      "when_to_apply": "教育・採用・コーチング",
+      "framing_questions": [
+        "情熱の一貫性と粘り強さは独立した予測力を持つか？"
+      ],
+      "opposing_concept_names": [
+        "誠実性（Big Five）との重複を指摘する立場"
+      ],
+      "keywords_ja": [
+        "粘り強さ",
+        "情熱",
+        "長期目標",
+        "非認知能力",
+        "グリット尺度"
+      ],
+      "keywords_en": [
+        "perseverance",
+        "passion",
+        "long-term goals",
+        "non-cognitive ability",
+        "grit scale"
+      ],
+      "status": "active/contested",
+      "source_reliability": "中〜高",
+      "data_completeness": "中〜高",
+      "predictive_power": "長期成果の分散の4%程度を説明；誠実性統制後は低下",
+      "empirical_support": "部分的支持",
+      "originator_name": "アンジェラ・ダックワース",
+      "originator_name_en": "Angela L. Duckworth",
+      "founding_work_title": "Grit: Perseverance and Passion for Long-Term Goals",
+      "founding_work_year": 2007,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "マインドセット理論（ドゥエック）",
+      "name_en": "Mindset Theory / Implicit Theories of Intelligence",
+      "definition": "ドゥエックが開発した知能の暗黙理論に基づくモデル。知能は固定的だと信じる「固定マインドセット（entity theory）」と、努力で伸びると信じる「成長マインドセット（incremental theory）」の2種を区別。後者は挑戦への接近・粘り強さ・学習動機と関連する。",
+      "impact_summary": "教育・組織・スポーツで広く応用された。称賛の仕方（能力vs努力）によってマインドセットが変化することが示され、教育介入の根拠となった。一部の大規模再現研究で効果量が縮小し再現性に議論。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会認知的動機理論",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "実験・介入研究・縦断研究",
+      "application_conditions": "学習環境・フィードバック設計に応用可能",
+      "when_to_apply": "教育介入・コーチング・HRマネジメント",
+      "framing_questions": [
+        "このフィードバックは成長マインドセットを促進するか？"
+      ],
+      "opposing_concept_names": [
+        "知能の固定観念（entity theory）"
+      ],
+      "keywords_ja": [
+        "成長マインドセット",
+        "固定マインドセット",
+        "知能の暗黙理論",
+        "称賛",
+        "努力"
+      ],
+      "keywords_en": [
+        "growth mindset",
+        "fixed mindset",
+        "implicit theories of intelligence",
+        "praise",
+        "effort"
+      ],
+      "status": "active/contested",
+      "source_reliability": "中〜高",
+      "data_completeness": "中〜高",
+      "predictive_power": "学習動機・挑戦接近を中程度予測；大規模研究で効果量は縮小",
+      "empirical_support": "部分的支持",
+      "originator_name": "キャロル・ドゥエック",
+      "originator_name_en": "Carol S. Dweck",
+      "founding_work_title": "A Social-Cognitive Approach to Motivation and Personality",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "ナラティブ・アイデンティティ論",
+      "name_en": "Narrative Identity Theory",
+      "definition": "マクアダムスが提唱した人格の第3層理論。人は過去を再構成し未来を想像する「内面化された人生物語」を作ることでアイデンティティの統一性と目的を得るとする。贖罪的語りと汚染的語りが精神的健康を対照的に予測。",
+      "impact_summary": "人格の3層モデル（特性・特徴的適応・ナラティブ）を完成。臨床・発達・文化心理学に応用。語りの構造（エージェンシー・コミュニオン・贖罪テーマ）がウェルビーイング・成熟と関連することが確認された。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "人生物語アプローチ・人格心理学",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "面接・語り分析・縦断研究",
+      "application_conditions": "アイデンティティ発達・ウェルビーイング・文化的自己観の研究",
+      "when_to_apply": "臨床面接・人生史研究・質的調査",
+      "framing_questions": [
+        "この人物の人生物語における支配的テーマは何か？"
+      ],
+      "opposing_concept_names": [
+        "特性論（ナラティブ層を無視）"
+      ],
+      "keywords_ja": [
+        "人生物語",
+        "贖罪テーマ",
+        "汚染テーマ",
+        "エージェンシー",
+        "コミュニオン"
+      ],
+      "keywords_en": [
+        "life story",
+        "redemption sequences",
+        "contamination sequences",
+        "agency",
+        "communion"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "贖罪テーマは精神的健康・市民的関与を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "ダン・マクアダムス",
+      "originator_name_en": "Dan P. McAdams",
+      "founding_work_title": "Power, Intimacy, and the Life Story",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Guilford Press"
+    },
+    {
+      "name_ja": "基本感情理論（エクマン）",
+      "name_en": "Basic Emotions Theory (Ekman)",
+      "definition": "エクマンが普遍性研究から構築した理論。怒り・恐怖・嫌悪・悲しみ・幸福・驚きの6種（後に軽蔑を追加し7種）の感情は種に固有の神経プログラムを持ち、文化横断的に同一の顔面表情と対応するとする。",
+      "impact_summary": "人類普遍の感情カテゴリーを実証的に検討する枠組みを確立。ダーウィン的感情進化論の現代的展開。ただしバレットらの構成感情理論が普遍性に強く異議を唱えており、現在も論争中。",
+      "subfield": "感情心理学",
+      "school_of_thought": "進化的感情理論・基本感情論",
+      "era_start": 1969,
+      "era_end": null,
+      "methodology_level": "顔面表情分析・文化横断実験",
+      "application_conditions": "顔面表情研究・感情認識技術・異文化コミュニケーション",
+      "when_to_apply": "感情検出システム・顔面表情研究設計",
+      "framing_questions": [
+        "この顔面表情は文化横断的に同一感情として認識されるか？"
+      ],
+      "opposing_concept_names": [
+        "構成感情理論（バレット）",
+        "次元モデル（ラッセル）"
+      ],
+      "keywords_ja": [
+        "基本感情",
+        "顔面表情の普遍性",
+        "FACS",
+        "感情プログラム",
+        "文化横断性"
+      ],
+      "keywords_en": [
+        "basic emotions",
+        "universality of facial expressions",
+        "FACS",
+        "affect program",
+        "cross-cultural"
+      ],
+      "status": "contested",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "表情認識の文化横断性は確認されるが「完全普遍性」は否定されつつある",
+      "empirical_support": "部分的（普遍性仮説は修正中）",
+      "originator_name": "ポール・エクマン",
+      "originator_name_en": "Paul Ekman",
+      "founding_work_title": "Pan-Cultural Elements in Facial Displays of Emotion",
+      "founding_work_year": 1969,
+      "founding_work_venue": "Science"
+    },
+    {
+      "name_ja": "構成感情理論（バレット）",
+      "name_en": "Theory of Constructed Emotion (Barrett)",
+      "definition": "リサ・フェルドマン・バレットが提唱する感情の構成主義的理論。感情はあらかじめ決まった神経回路を持つものではなく、脳が過去の経験・概念・文化的カテゴリーを用いて身体状態を能動的に「構成」する予測処理の産物であるとする。",
+      "impact_summary": "感情の普遍性・自然種性に根本的疑問を提起。感情神経科学・感情検出技術・法律（感情による判断の見直し）・臨床心理学への広範な影響。予測的符号化・能動的推論との統合が進む。",
+      "subfield": "感情心理学",
+      "school_of_thought": "心理的構成主義",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "fMRI・EMA・概念分析",
+      "application_conditions": "感情の個人差・文化差・感情語彙が行動に与える影響の研究",
+      "when_to_apply": "感情の神経科学研究・異文化感情研究",
+      "framing_questions": [
+        "この感情反応は文化的概念によってどう構成されているか？"
+      ],
+      "opposing_concept_names": [
+        "基本感情理論（エクマン）"
+      ],
+      "keywords_ja": [
+        "予測的符号化",
+        "感情の構成",
+        "概念行為モデル",
+        "内受容感覚",
+        "文化的概念"
+      ],
+      "keywords_en": [
+        "predictive coding",
+        "psychological construction",
+        "conceptual act model",
+        "interoception",
+        "cultural concepts"
+      ],
+      "status": "active/competing",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "感情の個人差・文化差の説明力が高い",
+      "empirical_support": "支持あり（蓄積中）",
+      "originator_name": "リサ・フェルドマン・バレット",
+      "originator_name_en": "Lisa Feldman Barrett",
+      "founding_work_title": "The Theory of Constructed Emotion: An Active Inference Account of Interoception and Categorization",
+      "founding_work_year": 2017,
+      "founding_work_venue": "Social Cognitive and Affective Neuroscience"
+    },
+    {
+      "name_ja": "評価理論（ラザルス）",
+      "name_en": "Cognitive Appraisal Theory of Emotion (Lazarus)",
+      "definition": "ラザルスが提唱した感情の認知的評価モデル。一次評価（状況がどの程度自分にとって重要か：脅威/挑戦/損失）と二次評価（対処可能性）の組み合わせが特定の感情・ストレス反応を生み出すとする。感情ごとの「核的関係テーマ」を特定。",
+      "impact_summary": "ストレス-コーピング研究の基礎理論となり、健康心理学・臨床心理学に多大な影響。感情が認知的評価の産物であるという立場を実証研究で支持し、感情の認知革命を先導した。",
+      "subfield": "感情心理学",
+      "school_of_thought": "認知的感情理論",
+      "era_start": 1966,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究・インタビュー",
+      "application_conditions": "ストレス・コーピング・健康心理学研究",
+      "when_to_apply": "ストレス管理介入・感情調節介入の設計",
+      "framing_questions": [
+        "この状況への評価を変えることで感情反応は変わるか？"
+      ],
+      "opposing_concept_names": [
+        "基本感情論（評価に先行する感情を主張）",
+        "構成感情理論"
+      ],
+      "keywords_ja": [
+        "一次評価",
+        "二次評価",
+        "コーピング",
+        "核的関係テーマ",
+        "ストレス"
+      ],
+      "keywords_en": [
+        "primary appraisal",
+        "secondary appraisal",
+        "coping",
+        "core relational theme",
+        "stress"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "ストレス反応・感情種別を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "リチャード・ラザルス",
+      "originator_name_en": "Richard S. Lazarus",
+      "founding_work_title": "Psychological Stress and the Coping Process",
+      "founding_work_year": 1966,
+      "founding_work_venue": "McGraw-Hill"
+    },
+    {
+      "name_ja": "感情の二因子理論（シャクター＆シンガー）",
+      "name_en": "Two-Factor Theory of Emotion (Schachter-Singer)",
+      "definition": "シャクター＆シンガーが1962年に発表。感情は生理的覚醒（factor 1）と、その覚醒に対する認知的ラベリング（factor 2）の組み合わせから生まれるとする。覚醒は非特異的であり、文脈によって異なる感情ラベルが付与される。エピネフリン実験で実証。",
+      "impact_summary": "感情と認知の相互作用研究の出発点。誤帰属効果（吊り橋実験）の理論的根拠。ただし実験の再現性問題が指摘されており、現在の感情科学では修正モデルが主流。",
+      "subfield": "感情心理学",
+      "school_of_thought": "認知的感情理論",
+      "era_start": 1962,
+      "era_end": null,
+      "methodology_level": "実験（エピネフリン注射・状況操作）",
+      "application_conditions": "覚醒の誤帰属・感情と認知の相互作用を研究する場面",
+      "when_to_apply": "説得・感情調節の研究",
+      "framing_questions": [
+        "この覚醒はどの感情ラベルに帰属されているか？"
+      ],
+      "opposing_concept_names": [
+        "ジェームズ-ランゲ説（生理が感情を決定）",
+        "構成感情理論"
+      ],
+      "keywords_ja": [
+        "生理的覚醒",
+        "認知的ラベリング",
+        "誤帰属",
+        "エピネフリン実験",
+        "吊り橋効果"
+      ],
+      "keywords_en": [
+        "physiological arousal",
+        "cognitive labeling",
+        "misattribution",
+        "epinephrine experiment",
+        "two-factor"
+      ],
+      "status": "legacy/contested",
+      "source_reliability": "中",
+      "data_completeness": "中",
+      "predictive_power": "誤帰属効果は確認されるが完全なモデルとしては批判あり",
+      "empirical_support": "部分的",
+      "originator_name": "スタンリー・シャクター、ジェローム・シンガー",
+      "originator_name_en": "Stanley Schachter, Jerome E. Singer",
+      "founding_work_title": "Cognitive, Social, and Physiological Determinants of Emotional State",
+      "founding_work_year": 1962,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "感情制御のプロセスモデル（グロス）",
+      "name_en": "Process Model of Emotion Regulation (Gross)",
+      "definition": "グロスが提唱した感情制御の段階モデル。状況選択・状況修正・注意展開・認知変化（認知的再評価）・反応調整（表出抑制）の5段階を感情生成プロセスに対応させ、各段階での介入効果の違いを予測する。再評価は抑制より適応的とされる。",
+      "impact_summary": "感情制御研究の標準的枠組みとなり、臨床・神経科学・社会心理学を統合。認知的再評価の優位性（ウェルビーイング・社会関係・生理応答）が多数の研究で支持された。",
+      "subfield": "感情心理学",
+      "school_of_thought": "感情制御理論",
+      "era_start": 1998,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究・神経画像",
+      "application_conditions": "感情制御介入・臨床介入の効果研究",
+      "when_to_apply": "CBT・マインドフルネス・ストレス管理プログラム",
+      "framing_questions": [
+        "この介入は再評価か抑制か、どちらの感情制御方略に依拠しているか？"
+      ],
+      "opposing_concept_names": [
+        "感情カタルシス仮説（表出の解放が有益という仮説）"
+      ],
+      "keywords_ja": [
+        "認知的再評価",
+        "表出抑制",
+        "感情制御",
+        "5段階プロセス",
+        "ERQ"
+      ],
+      "keywords_en": [
+        "cognitive reappraisal",
+        "expressive suppression",
+        "emotion regulation",
+        "five-step process",
+        "ERQ"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "再評価vs抑制のウェルビーイング差をd≈0.40程度予測",
+      "empirical_support": "確立",
+      "originator_name": "ジェームズ・グロス",
+      "originator_name_en": "James J. Gross",
+      "founding_work_title": "Antecedent- and Response-Focused Emotion Regulation: Divergent Consequences for Experience, Expression, and Physiology",
+      "founding_work_year": 1998,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "感情知能の能力モデル（メイヤー＆サロヴェイ）",
+      "name_en": "Ability Model of Emotional Intelligence (Mayer-Salovey)",
+      "definition": "メイヤー＆サロヴェイが提唱した感情知能の4分枝モデル。感情の知覚・感情の思考促進・感情の理解・感情の管理の4能力を階層的に配置。MCSEITによる客観的能力測定を行い、自己報告型EIモデルと区別する。",
+      "impact_summary": "感情知能を測定可能な認知能力として定義し、科学的研究を可能にした。ゴールマンの大衆向けEIとは異なる実証的枠組みを提供。リーダーシップ・意思決定・ウェルビーイング研究に応用。",
+      "subfield": "感情心理学",
+      "school_of_thought": "能力型感情知能理論",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "能力テスト（MSCEIT）・実験",
+      "application_conditions": "感情処理能力の客観的測定が必要な研究・実践",
+      "when_to_apply": "リーダーシップ評価・臨床評価・感情処理研究",
+      "framing_questions": [
+        "感情知能は一般知能とは独立した能力因子か？"
+      ],
+      "opposing_concept_names": [
+        "特性感情知能モデル（ペティデス）",
+        "混合モデル（ゴールマン）"
+      ],
+      "keywords_ja": [
+        "感情知能",
+        "4分枝モデル",
+        "MSCEIT",
+        "感情の知覚",
+        "感情の管理"
+      ],
+      "keywords_en": [
+        "emotional intelligence",
+        "four-branch model",
+        "MSCEIT",
+        "perceiving emotion",
+        "managing emotion"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "リーダーシップ・社会的成果を中程度予測；一般知能との弁別に議論",
+      "empirical_support": "支持あり",
+      "originator_name": "メイヤー、サロヴェイ",
+      "originator_name_en": "John D. Mayer, Peter Salovey",
+      "founding_work_title": "Emotional Intelligence",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Imagination, Cognition and Personality"
+    },
+    {
+      "name_ja": "感情の次元モデル（ラッセルの環状モデル）",
+      "name_en": "Circumplex Model of Affect (Russell)",
+      "definition": "ラッセルが1980年に提案した感情の2次元表現。快-不快（валентность）と覚醒-沈静の直交する2軸上に全ての感情状態を配置する。感情は離散的カテゴリーでなく連続的次元の組み合わせとして理解される。",
+      "impact_summary": "感情の次元的測定の標準となり、感情神経科学・UX・音楽感情研究に広く応用。バレットの構成感情理論の前提となる次元モデルとして影響力を持ち続ける。",
+      "subfield": "感情心理学",
+      "school_of_thought": "次元的感情理論",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "語彙分析・多次元尺度構成法",
+      "application_conditions": "感情の連続体を測定する研究・UX・HCI研究",
+      "when_to_apply": "感情測定ツール設計・感情の分類と比較",
+      "framing_questions": [
+        "この感情状態はvalence-arousal空間のどこに位置するか？"
+      ],
+      "opposing_concept_names": [
+        "基本感情論（離散カテゴリーを主張）"
+      ],
+      "keywords_ja": [
+        "快-不快",
+        "覚醒",
+        "環状モデル",
+        "感情次元",
+        "コア・アフェクト"
+      ],
+      "keywords_en": [
+        "valence",
+        "arousal",
+        "circumplex model",
+        "affective dimensions",
+        "core affect"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "感情状態の2次元で多くの感情現象を説明可能",
+      "empirical_support": "確立",
+      "originator_name": "ジェームズ・A・ラッセル",
+      "originator_name_en": "James A. Russell",
+      "founding_work_title": "A Circumplex Model of Affect",
+      "founding_work_year": 1980,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "プルチックの感情の輪",
+      "name_en": "Plutchik's Wheel of Emotions",
+      "definition": "プルチックが進化心理進化論的観点から提案した感情モデル。怒り・恐怖・悲しみ・喜び・信頼・嫌悪・予期・驚きの8基本感情が円錐形の輪で表現され、強度・極性・混合関係を視覚化。",
+      "impact_summary": "感情の視覚的表現として教育・デザイン・感情リテラシー教育に広く普及。進化的適応機能との対応（戦闘-逃走など）が感情の機能的理解を促した。",
+      "subfield": "感情心理学",
+      "school_of_thought": "進化的感情理論",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "理論構築・測定尺度開発",
+      "application_conditions": "感情教育・感情リテラシー・感情の視覚化",
+      "when_to_apply": "感情教育・デザイン・臨床的感情語彙拡張",
+      "framing_questions": [
+        "この感情はどの基本感情の混合か？"
+      ],
+      "opposing_concept_names": [
+        "次元モデル（離散カテゴリーを否定）"
+      ],
+      "keywords_ja": [
+        "8基本感情",
+        "感情の輪",
+        "進化的感情",
+        "感情混合",
+        "強度"
+      ],
+      "keywords_en": [
+        "eight basic emotions",
+        "wheel of emotions",
+        "evolutionary emotions",
+        "mixed emotions",
+        "intensity"
+      ],
+      "status": "classic/applied",
+      "source_reliability": "中",
+      "data_completeness": "中",
+      "predictive_power": "概念的・教育的ツールとして有用；厳密な予測モデルとしては限定的",
+      "empirical_support": "部分的",
+      "originator_name": "ロバート・プルチック",
+      "originator_name_en": "Robert Plutchik",
+      "founding_work_title": "Emotion: A Psychoevolutionary Synthesis",
+      "founding_work_year": 1980,
+      "founding_work_venue": "Harper & Row"
+    },
+    {
+      "name_ja": "パンクセップの情動神経科学（7つの感情システム）",
+      "name_en": "Affective Neuroscience: Seven Primary Emotional Systems (Panksepp)",
+      "definition": "パンクセップが哺乳類脳の電気刺激・薬理実験から特定した7つの一次感情命令システム。SEEKING（期待）・RAGE（怒り）・FEAR（恐怖）・LUST（欲情）・CARE（養育）・PANIC/GRIEF（悲嘆）・PLAY（遊び）。哺乳類共通の深部脳回路に基づく。",
+      "impact_summary": "感情の神経生物学的基盤を哺乳類共通のシステムとして実証。うつ・不安・愛着・依存の神経回路理解に応用。ヒトを超えた動物の主観的感情研究（アフェクティブ・コンシャスネス）の基盤となった。",
+      "subfield": "感情心理学",
+      "school_of_thought": "情動神経科学・進化的感情理論",
+      "era_start": 1982,
+      "era_end": null,
+      "methodology_level": "動物実験・脳刺激・神経薬理",
+      "application_conditions": "精神疾患の神経回路理解・感情の進化的起源研究",
+      "when_to_apply": "精神薬理学・情動障害の神経基盤研究",
+      "framing_questions": [
+        "この感情障害はどの一次感情システムの過活性化/低活性化と対応するか？"
+      ],
+      "opposing_concept_names": [
+        "構成感情理論（感情の離散回路を否定）"
+      ],
+      "keywords_ja": [
+        "SEEKING",
+        "FEAR",
+        "CARE",
+        "PLAY",
+        "情動神経科学",
+        "一次感情"
+      ],
+      "keywords_en": [
+        "SEEKING",
+        "FEAR",
+        "CARE",
+        "PLAY",
+        "affective neuroscience",
+        "primary emotions"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "精神疾患の感情的側面を神経回路レベルで中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "ヤーク・パンクセップ",
+      "originator_name_en": "Jaak Panksepp",
+      "founding_work_title": "Affective Neuroscience: The Foundations of Human and Animal Emotions",
+      "founding_work_year": 1998,
+      "founding_work_venue": "Oxford University Press"
+    },
+    {
+      "name_ja": "ソマティック・マーカー仮説",
+      "name_en": "Somatic Marker Hypothesis (Damasio)",
+      "definition": "ダマシオが提唱した意思決定理論。身体状態（内臓・筋肉・皮膚などの変化）がマーカーとして脳内に記録され、腹内側前頭前野（vmPFC）で認知情報と統合されて意思決定に影響する。vmPFC損傷患者のギャンブル課題（IGT）での障害が実証根拠となった。",
+      "impact_summary": "「感情なしに良い意思決定はできない」という命題を神経科学的に検証。経済学の期待効用理論への反論として注目。脳損傷・精神疾患（反社会性障害）の意思決定障害の説明に応用。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "情動的神経科学・具身化認知",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "脳損傷患者研究・fMRI・IGTタスク",
+      "application_conditions": "意思決定の神経基盤・感情と理性の相互作用の研究",
+      "when_to_apply": "神経経済学・臨床神経心理学・精神疾患の意思決定研究",
+      "framing_questions": [
+        "vmPFC損傷がなぜ社会的意思決定障害をもたらすか？"
+      ],
+      "opposing_concept_names": [
+        "純粋理性モデル（感情を意思決定から排除）"
+      ],
+      "keywords_ja": [
+        "ソマティック・マーカー",
+        "vmPFC",
+        "ギャンブル課題（IGT）",
+        "感情と意思決定",
+        "アイオワ・ギャンブリング・タスク"
+      ],
+      "keywords_en": [
+        "somatic markers",
+        "vmPFC",
+        "Iowa Gambling Task",
+        "emotion and decision-making",
+        "Damasio"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "vmPFC損傷後の意思決定障害を予測；健常者への一般化は議論中",
+      "empirical_support": "支持あり（批判的レビューも存在）",
+      "originator_name": "アントニオ・ダマシオ",
+      "originator_name_en": "Antonio R. Damasio",
+      "founding_work_title": "Descartes' Error: Emotion, Reason, and the Human Brain",
+      "founding_work_year": 1994,
+      "founding_work_venue": "Putnam"
+    },
+    {
+      "name_ja": "ミラーニューロン理論",
+      "name_en": "Mirror Neuron Theory",
+      "definition": "リッツォラッティらがマカクザルのF5野で発見したミラーニューロン（自分が行動する時と他者の行動を観察する時に発火するニューロン）を基にした理論。ヒトではMNS（ミラーニューロンシステム）が模倣・共感・意図理解・言語の基盤とされる。",
+      "impact_summary": "模倣学習・共感・社会認知・言語進化の神経基盤として広大な研究を引き起こした。ただし「共感の神経基盤」としての解釈は過度に拡大されたとの批判があり、ASD研究での「壊れたミラー」仮説は現在否定的見解が多い。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "社会認知神経科学",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "単一ニューロン記録・fMRI・TMS",
+      "application_conditions": "模倣・共感・社会的理解の神経基盤研究",
+      "when_to_apply": "社会認知神経科学・模倣学習研究",
+      "framing_questions": [
+        "MNSの活性化はどの程度共感的反応と相関するか？"
+      ],
+      "opposing_concept_names": [
+        "純粋認知説（心の理論の内省的アプローチ）"
+      ],
+      "keywords_ja": [
+        "ミラーニューロン",
+        "模倣",
+        "共感",
+        "意図理解",
+        "社会認知"
+      ],
+      "keywords_en": [
+        "mirror neurons",
+        "imitation",
+        "empathy",
+        "intention understanding",
+        "social cognition"
+      ],
+      "status": "active/contested",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "共感・社会的理解との関連は確認されるが因果関係は未確立",
+      "empirical_support": "部分的（広義のMNSは支持；強い解釈には懐疑論）",
+      "originator_name": "リッツォラッティ、ガレーゼ",
+      "originator_name_en": "Giacomo Rizzolatti, Vittorio Gallese",
+      "founding_work_title": "Premotor Cortex and the Recognition of Motor Actions",
+      "founding_work_year": 1996,
+      "founding_work_venue": "Cognitive Brain Research"
+    },
+    {
+      "name_ja": "デフォルトモードネットワーク（DMN）",
+      "name_en": "Default Mode Network (DMN)",
+      "definition": "ライクルが2001年に命名した安静時（タスク非従事時）に活性化する脳ネットワーク（内側前頭前野・後部帯状皮質・楔前部・外側側頭葉・側頭頭頂接合部）。自己参照処理・心的放浪・回顧・将来計画・他者の心の推測（心の理論）に関与。",
+      "impact_summary": "「休息時の脳活動も情報処理である」という認識を確立。うつ・統合失調症・アルツハイマー型認知症はDMNの異常活動と関連することが判明。マインドフルネス・創造性・自己意識の神経基盤として活発に研究中。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "機能的神経解剖学",
+      "era_start": 2001,
+      "era_end": null,
+      "methodology_level": "fMRI（安静時機能的結合）・PET",
+      "application_conditions": "自己参照処理・精神病理・マインドフルネス研究",
+      "when_to_apply": "神経精神医学研究・自己意識研究",
+      "framing_questions": [
+        "DMNの過活性はこの精神疾患においてどのような症状と対応するか？"
+      ],
+      "opposing_concept_names": [
+        "タスク従事ネットワーク（DMN拮抗）"
+      ],
+      "keywords_ja": [
+        "デフォルトモード",
+        "安静時機能的結合",
+        "自己参照処理",
+        "心的放浪",
+        "内側前頭前野"
+      ],
+      "keywords_en": [
+        "default mode network",
+        "resting-state fMRI",
+        "self-referential processing",
+        "mind-wandering",
+        "mPFC"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "精神疾患・認知機能・自己意識の指標として高い",
+      "empirical_support": "確立",
+      "originator_name": "マーカス・ライクル",
+      "originator_name_en": "Marcus E. Raichle",
+      "founding_work_title": "A Default Mode of Brain Function",
+      "founding_work_year": 2001,
+      "founding_work_venue": "PNAS"
+    },
+    {
+      "name_ja": "グローバル・ワークスペース理論",
+      "name_en": "Global Workspace Theory (GWT)",
+      "definition": "バーズが1988年に提唱し、ドゥアンヌが神経実装版（GNW）として発展させた意識理論。脳内の局所的無意識処理モジュールが「グローバル・ワークスペース」でブロードキャストされることで意識的処理が生じる。前頭-頭頂ネットワークが実装部位とされる。",
+      "impact_summary": "意識の計算論的・神経科学的説明として最も実証的支持を受けた理論の一つ。意識の神経相関（NCC）研究のフレームワークとして機能し、人工意識・麻酔・睡眠研究に応用。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "意識の神経科学",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "EEG・fMRI・計算論的モデル",
+      "application_conditions": "意識・無意識処理の境界・マスキング実験・麻酔研究",
+      "when_to_apply": "意識の神経科学研究・AI意識設計",
+      "framing_questions": [
+        "この刺激はグローバル・ワークスペースに「点火（ignition）」するか？"
+      ],
+      "opposing_concept_names": [
+        "高次思考理論（HOT）",
+        "統合情報理論（IIT）"
+      ],
+      "keywords_ja": [
+        "グローバル・ワークスペース",
+        "ブロードキャスト",
+        "意識の点火",
+        "前頭-頭頂ネットワーク",
+        "無意識モジュール"
+      ],
+      "keywords_en": [
+        "global workspace",
+        "broadcast",
+        "ignition",
+        "fronto-parietal network",
+        "unconscious modules"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "意識的知覚の神経指標を高精度で予測",
+      "empirical_support": "確立",
+      "originator_name": "バーズ、ドゥアンヌ",
+      "originator_name_en": "Bernard J. Baars, Stanislas Dehaene",
+      "founding_work_title": "A Cognitive Theory of Consciousness",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Cambridge University Press"
+    },
+    {
+      "name_ja": "予測コーディング（フリストンの自由エネルギー原理）",
+      "name_en": "Predictive Coding / Free Energy Principle (Friston)",
+      "definition": "フリストンが統合した脳の計算論的理論。脳は常にトップダウンの予測を生成し、ボトムアップの感覚入力との「予測誤差」を最小化するよう行動・知覚・学習を行うとする。自由エネルギー（驚き）の最小化として定式化される。",
+      "impact_summary": "知覚・行動・学習・感情・意識・精神病理を統一的に説明する枠組みとして神経科学・AIに大きな影響。能動的推論（active inference）として感情・動機も統合。最も引用される神経科学論文の著者の一人。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "ベイズ脳理論・計算論的神経科学",
+      "era_start": 2005,
+      "era_end": null,
+      "methodology_level": "計算論的モデル・fMRI・EEG",
+      "application_conditions": "知覚・行動・学習・精神病理の神経計算論的説明",
+      "when_to_apply": "AI設計・神経科学・精神疾患の計算論的モデリング",
+      "framing_questions": [
+        "この知覚/行動は予測誤差の最小化としてモデル化できるか？"
+      ],
+      "opposing_concept_names": [
+        "純粋なボトムアップ処理モデル"
+      ],
+      "keywords_ja": [
+        "予測コーディング",
+        "自由エネルギー原理",
+        "予測誤差",
+        "能動的推論",
+        "ベイズ脳"
+      ],
+      "keywords_en": [
+        "predictive coding",
+        "free energy principle",
+        "prediction error",
+        "active inference",
+        "Bayesian brain"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高（数学的形式化は確立）",
+      "predictive_power": "知覚・学習・精神病理を定量的に予測可能",
+      "empirical_support": "強い（神経実装の詳細は継続中）",
+      "originator_name": "カール・フリストン",
+      "originator_name_en": "Karl J. Friston",
+      "founding_work_title": "The Free-Energy Principle: A Unified Brain Theory?",
+      "founding_work_year": 2010,
+      "founding_work_venue": "Nature Reviews Neuroscience"
+    },
+    {
+      "name_ja": "体化認知／4E認知",
+      "name_en": "Embodied Cognition / 4E Cognition",
+      "definition": "ヴァレラ・トンプソン・ロッシュが『身体化された心』で提唱したエナクティビズムを中心に、認知は「体化（embodied）・埋め込まれた（embedded）・延長された（extended）・実行的（enacted）」であるとする枠組み。認知は脳だけでなく身体-環境の相互作用から生成される。",
+      "impact_summary": "古典的計算論的認知科学への根本的批判として影響。ロボット工学・UX・言語学・感情研究・医療に体化認知の視点をもたらした。延長した心（クラーク＆チャーマーズ）・身体化された感情（バレット）との連携。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "現象学・構成主義的認知科学",
+      "era_start": 1991,
+      "era_end": null,
+      "methodology_level": "現象学的分析・実験・ロボット工学",
+      "application_conditions": "身体とその環境との相互作用が認知に与える影響の研究",
+      "when_to_apply": "UX設計・具身化AIシステム・感情・言語研究",
+      "framing_questions": [
+        "この認知プロセスは脳内計算のみで説明できるか、身体-環境の動的結合が必要か？"
+      ],
+      "opposing_concept_names": [
+        "計算主義（脳=コンピュータ比喩）",
+        "表象主義"
+      ],
+      "keywords_ja": [
+        "体化認知",
+        "エナクティビズム",
+        "4E認知",
+        "延長した心",
+        "オートポイエーシス"
+      ],
+      "keywords_en": [
+        "embodied cognition",
+        "enactivism",
+        "4E cognition",
+        "extended mind",
+        "autopoiesis"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "実験的予測力は限定的；理論的・概念的影響力は大きい",
+      "empirical_support": "部分的支持",
+      "originator_name": "ヴァレラ、トンプソン、ロッシュ",
+      "originator_name_en": "Francisco J. Varela, Evan Thompson, Eleanor Rosch",
+      "founding_work_title": "The Embodied Mind: Cognitive Science and Human Experience",
+      "founding_work_year": 1991,
+      "founding_work_venue": "MIT Press"
+    },
+    {
+      "name_ja": "二重過程理論（カーネマン）",
+      "name_en": "Dual Process Theory (Kahneman)",
+      "definition": "カーネマンが整理した「速い思考（システム1）と遅い思考（システム2）」の二重処理枠組み。システム1は自動的・直感的・並列処理・ヒューリスティクス依存；システム2は意識的・分析的・逐次処理・努力を要する。スタノヴィッチ＆ウェストの定式化も重要。",
+      "impact_summary": "行動経済学・判断と意思決定・社会心理学に革命的影響。認知バイアス研究の統合枠組みとなり、ノーベル経済学賞（2002）に貢献。ナッジ設計・リスクコミュニケーションに応用。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "認知心理学・行動経済学",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "認知実験・判断タスク",
+      "application_conditions": "認知バイアス・意思決定設計・ナッジの設計",
+      "when_to_apply": "行動変容介入・リスクコミュニケーション・UI設計",
+      "framing_questions": [
+        "このバイアスはシステム1の自動処理から生じているか？"
+      ],
+      "opposing_concept_names": [
+        "単一過程モデル"
+      ],
+      "keywords_ja": [
+        "システム1",
+        "システム2",
+        "認知バイアス",
+        "ヒューリスティクス",
+        "ナッジ"
+      ],
+      "keywords_en": [
+        "System 1",
+        "System 2",
+        "cognitive bias",
+        "heuristics",
+        "nudge"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "認知バイアスの発生条件を中〜高精度で予測",
+      "empirical_support": "確立",
+      "originator_name": "ダニエル・カーネマン",
+      "originator_name_en": "Daniel Kahneman",
+      "founding_work_title": "Thinking, Fast and Slow",
+      "founding_work_year": 2011,
+      "founding_work_venue": "Farrar, Straus and Giroux"
+    },
+    {
+      "name_ja": "配偶者選択理論（バス）",
+      "name_en": "Mate Preference Theory (Buss)",
+      "definition": "バスが37文化での大規模調査（N=10,047）で検証した進化心理学的配偶者選択理論。女性は資源獲得能力・地位を、男性は若さ・外見的魅力を重視する性差が文化横断的に一貫して確認されるとする。ダーウィンの性選択理論・トライヴァースの親の投資理論を基盤とする。",
+      "impact_summary": "配偶者選択の普遍的性差を多文化研究で実証し進化心理学の中心的データとなった。ただし文化的変動・WEIRD（西洋・教育高水準・産業化・富裕・民主的）サンプルへの依存への批判が続く。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化心理学・性選択理論",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "多文化調査・進化論的予測検証",
+      "application_conditions": "配偶者選択の性差・文化横断比較研究",
+      "when_to_apply": "恋愛・配偶者選択・性差研究",
+      "framing_questions": [
+        "文化的・社会的変動を統制してもなお進化的性差は残るか？"
+      ],
+      "opposing_concept_names": [
+        "社会的役割理論（イーグリー）",
+        "社会構成主義"
+      ],
+      "keywords_ja": [
+        "配偶者選択",
+        "性差",
+        "資源獲得能力",
+        "外見的魅力",
+        "37文化研究"
+      ],
+      "keywords_en": [
+        "mate preferences",
+        "sex differences",
+        "resource acquisition",
+        "physical attractiveness",
+        "37-culture study"
+      ],
+      "status": "active/contested",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "配偶者選択の性差を中程度予測；文化的修正要因が大きい",
+      "empirical_support": "支持あり（文化的変動の説明は課題）",
+      "originator_name": "デービッド・バス",
+      "originator_name_en": "David M. Buss",
+      "founding_work_title": "Sex Differences in Human Mate Preferences: Evolutionary Hypotheses Tested in 37 Cultures",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Behavioral and Brain Sciences"
+    },
+    {
+      "name_ja": "互恵的利他主義",
+      "name_en": "Reciprocal Altruism (Trivers)",
+      "definition": "トライヴァースが1971年に提唱した非血縁個体間の利他行動の進化論的説明。将来の返礼を期待して他者を援助することが適応的でありえるとする（将来の割引が低く再会確率が高い場合）。詐欺師検出メカニズムとの共進化を予測。",
+      "impact_summary": "協力の進化を非血縁個体間にまで拡張し、友情・信頼・道徳的感情（感謝・罪悪感・怒り）の進化的起源を説明。繰り返しゲームの理論（アクセルロッド）・コスミデスのチート検出理論の前提となった。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化心理学・社会生物学",
+      "era_start": 1971,
+      "era_end": null,
+      "methodology_level": "理論・ゲーム理論・観察研究",
+      "application_conditions": "協力行動・信頼・道徳感情の進化的起源の研究",
+      "when_to_apply": "社会的交換・組織行動・倫理研究",
+      "framing_questions": [
+        "この協力行動は互恵的利他主義として説明できるか？"
+      ],
+      "opposing_concept_names": [
+        "血縁選択（血縁個体間の利他主義）"
+      ],
+      "keywords_ja": [
+        "互恵的利他主義",
+        "詐欺師検出",
+        "協力の進化",
+        "友情",
+        "感謝"
+      ],
+      "keywords_en": [
+        "reciprocal altruism",
+        "cheater detection",
+        "evolution of cooperation",
+        "gratitude",
+        "trust"
+      ],
+      "status": "established",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "繰り返し相互作用での協力行動を高精度で予測",
+      "empirical_support": "確立",
+      "originator_name": "ロバート・トライヴァース",
+      "originator_name_en": "Robert L. Trivers",
+      "founding_work_title": "The Evolution of Reciprocal Altruism",
+      "founding_work_year": 1971,
+      "founding_work_venue": "Quarterly Review of Biology"
+    },
+    {
+      "name_ja": "包括適応度・血縁選択",
+      "name_en": "Inclusive Fitness / Kin Selection (Hamilton)",
+      "definition": "ハミルトンが1964年に提唱した利他行動の遺伝的理論。「ハミルトンの法則（rb > c：血縁度r × 利益b > コストc）」が満たされる場合に利他的遺伝子が選択される。自然選択の単位を個体から遺伝子へと拡張した。",
+      "impact_summary": "社会生物学の基礎を確立し、真社会性（真アリ・ミツバチ）・親族庇護・利他的行動の遺伝的説明を可能にした。進化心理学・動物行動学の理論的礎。リチャード・ドーキンス『利己的な遺伝子』の基盤。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化生物学・社会生物学",
+      "era_start": 1964,
+      "era_end": null,
+      "methodology_level": "数理モデル・野外研究",
+      "application_conditions": "血縁個体間の援助行動・真社会性の進化研究",
+      "when_to_apply": "家族行動・相続・血縁ネットワーク研究",
+      "framing_questions": [
+        "この利他行動の受益者との血縁度は？利益とコストのバランスは？"
+      ],
+      "opposing_concept_names": [
+        "グループ選択説（ウィン-エドワーズ）"
+      ],
+      "keywords_ja": [
+        "包括適応度",
+        "ハミルトンの法則",
+        "血縁選択",
+        "利他主義",
+        "真社会性"
+      ],
+      "keywords_en": [
+        "inclusive fitness",
+        "Hamilton's rule",
+        "kin selection",
+        "altruism",
+        "eusociality"
+      ],
+      "status": "established",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "血縁个体間の援助行動を定量的に予測",
+      "empirical_support": "確立",
+      "originator_name": "ウィリアム・D・ハミルトン",
+      "originator_name_en": "William D. Hamilton",
+      "founding_work_title": "The Genetical Evolution of Social Behaviour",
+      "founding_work_year": 1964,
+      "founding_work_venue": "Journal of Theoretical Biology"
+    },
+    {
+      "name_ja": "チート検出モジュール",
+      "name_en": "Cheater Detection Module (Cosmides & Tooby)",
+      "definition": "コスミデス＆トゥービーが1989年のウェイソン選択課題の応用実験から提唱。「もし利益Bを受け取るなら条件Aを満たせ」という社会契約型ルールに対して、人間は約束の違反者（詐欺師）を自動的・高精度で検出する特化した神経回路を持つとする進化的モジュール仮説。",
+      "impact_summary": "論理的推論の領域特異性を実証し、大規模モジュール論の証拠として引用。「条件文の論理は難しい」という一般則に対し、社会的文脈では飛躍的に向上する演繹推論のパラドックスを解いた。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化心理学・大規模モジュール論",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "実験（ウェイソン選択課題）",
+      "application_conditions": "社会的推論・詐欺師検出・協力の進化研究",
+      "when_to_apply": "社会的交換行動・法的判断・道徳判断研究",
+      "framing_questions": [
+        "この論理課題は社会的契約型に変換すると正答率が上昇するか？"
+      ],
+      "opposing_concept_names": [
+        "一般的論理能力説（領域一般的推論）"
+      ],
+      "keywords_ja": [
+        "チート検出",
+        "社会契約アルゴリズム",
+        "ウェイソン課題",
+        "領域特異的モジュール",
+        "進化的モジュール"
+      ],
+      "keywords_en": [
+        "cheater detection",
+        "social contract algorithm",
+        "Wason selection task",
+        "domain-specific module",
+        "evolutionary module"
+      ],
+      "status": "active/contested",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "社会的文脈での論理推論の向上を予測；モジュール性の解釈には代替説あり",
+      "empirical_support": "支持あり（モジュール性の解釈は議論中）",
+      "originator_name": "コスミデス、トゥービー",
+      "originator_name_en": "Leda Cosmides, John Tooby",
+      "founding_work_title": "The Logic of Social Exchange: Has Natural Selection Shaped How Humans Reason?",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Cognition"
+    },
+    {
+      "name_ja": "進化的ミスマッチ仮説",
+      "name_en": "Evolutionary Mismatch Hypothesis",
+      "definition": "人間の心理・行動機構は旧石器時代の環境（EEA：進化的適応環境）に適応しているが、現代環境（食物過剰・情報洪水・社会的孤立・慢性的安全）とのズレが精神的・身体的疾患を生むとする仮説。肥満・うつ・ADHD・孤独感などのミスマッチ産物とされる。",
+      "impact_summary": "現代病理の進化的解釈枠組みを提供。進化医学・進化精神医学に影響。生活習慣改善・社会設計への応用。ただし過度なアダプテーション・ストーリーへの批判がある。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化心理学・進化医学",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "比較文化研究・疫学・動物行動学",
+      "application_conditions": "現代の行動・精神疾患の進化的説明",
+      "when_to_apply": "公衆衛生・精神疾患の起源論的理解",
+      "framing_questions": [
+        "この行動パターンはEEAでは適応的だったが現代では有害か？"
+      ],
+      "opposing_concept_names": [
+        "文化論的説明（環境要因を一次原因とする立場）"
+      ],
+      "keywords_ja": [
+        "ミスマッチ",
+        "EEA",
+        "旧石器的環境",
+        "現代病",
+        "進化的適応"
+      ],
+      "keywords_en": [
+        "mismatch",
+        "EEA",
+        "Paleolithic environment",
+        "modern disease",
+        "evolutionary adaptation"
+      ],
+      "status": "active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "現代疾患の分布パターンを中程度説明；因果検証は難しい",
+      "empirical_support": "部分的支持",
+      "originator_name": "トゥービー、コスミデス",
+      "originator_name_en": "John Tooby, Leda Cosmides",
+      "founding_work_title": "The Psychological Foundations of Culture",
+      "founding_work_year": 1992,
+      "founding_work_venue": "The Adapted Mind (Oxford University Press)"
+    },
+    {
+      "name_ja": "親の投資理論",
+      "name_en": "Parental Investment Theory (Trivers)",
+      "definition": "トライヴァースが1972年に提唱した性選択の拡張理論。親の投資量が多い性（通常は女性）が配偶者選択に慎重であり、投資量の少ない性（通常は男性）が同性間競争において積極的となるとする。人間の性差行動の多くをこの非対称性から説明。",
+      "impact_summary": "配偶者選択・性差行動・繁殖戦略の進化的説明の基盤。バスの配偶者選択研究・性的葛藤理論に直接つながる。ダーウィンの性選択理論を非対称投資として形式化した点で革新的。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化生物学・社会生物学",
+      "era_start": 1972,
+      "era_end": null,
+      "methodology_level": "理論・動物観察・ゲーム理論",
+      "application_conditions": "性差行動・配偶者選択・育児行動の研究",
+      "when_to_apply": "繁殖行動・性差研究",
+      "framing_questions": [
+        "この性差行動は投資の非対称性から予測されるか？"
+      ],
+      "opposing_concept_names": [
+        "社会的役割理論"
+      ],
+      "keywords_ja": [
+        "親の投資",
+        "性選択",
+        "性差行動",
+        "配偶者選択",
+        "投資の非対称性"
+      ],
+      "keywords_en": [
+        "parental investment",
+        "sexual selection",
+        "sex differences",
+        "mate choice",
+        "investment asymmetry"
+      ],
+      "status": "established",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "性差行動のパターンを定量的に予測",
+      "empirical_support": "確立",
+      "originator_name": "ロバート・トライヴァース",
+      "originator_name_en": "Robert L. Trivers",
+      "founding_work_title": "Parental Investment and Sexual Selection",
+      "founding_work_year": 1972,
+      "founding_work_venue": "Sexual Selection and the Descent of Man (Aldine)"
+    },
+    {
+      "name_ja": "性的葛藤理論",
+      "name_en": "Sexual Conflict Theory",
+      "definition": "両性の最適繁殖戦略が対立するために生じる拮抗的共進化（軍拡競争）を記述する進化理論。雄は交尾頻度を最大化しようとし、雌はコスト回避のため抵抗する。この対立が雄の操作的形質と雌の防御的対抗形質の共進化を生む。",
+      "impact_summary": "交尾の強制・性的ハラスメント・性的操作の進化的説明。追跡-逃避進化・感覚的搾取モデルとして発展。ヒトの性的葛藤・親子間葛藤・配偶者暴力の進化的分析に応用。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化生物学・性選択理論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "理論・動物実験・数理モデル",
+      "application_conditions": "性差行動・配偶者葛藤・DV研究の進化的解釈",
+      "when_to_apply": "性的葛藤の文脈で行動を解釈する場面",
+      "framing_questions": [
+        "この行動は雄の操作戦略か雌の対抗戦略か？"
+      ],
+      "opposing_concept_names": [
+        "性的調和説（両性利益の一致を前提）"
+      ],
+      "keywords_ja": [
+        "性的葛藤",
+        "拮抗的共進化",
+        "追跡-逃避",
+        "性的操作",
+        "対抗適応"
+      ],
+      "keywords_en": [
+        "sexual conflict",
+        "antagonistic coevolution",
+        "chase-away selection",
+        "sexual manipulation",
+        "counter-adaptation"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "雌雄間の形質の軍拡競争パターンを予測",
+      "empirical_support": "支持あり",
+      "originator_name": "パーカー",
+      "originator_name_en": "Geoffrey A. Parker",
+      "founding_work_title": "Sexual Selection and Sexual Conflict",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Sexual Selection and Reproductive Competition in Insects (Academic Press)"
+    },
+    {
+      "name_ja": "ライフヒストリー理論",
+      "name_en": "Life History Theory",
+      "definition": "進化的視点から個体がどのように繁殖・成長・生存に資源を配分するかを記述する理論。高死亡率・不予測環境では早い生活史戦略（早期成熟・多子・少投資）、低死亡率・予測可能環境では遅い生活史戦略（遅延成熟・少子・高投資）を採用するとする。",
+      "impact_summary": "幼少期ストレスと思春期・繁殖タイミングの研究、ダークトライアドの進化的起源説明に応用。「心理社会的加速仮説」として早期逆境→早い生活史戦略へのシフトが支持された。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化生物学・進化心理学",
+      "era_start": 1977,
+      "era_end": null,
+      "methodology_level": "進化論的予測検証・縦断研究",
+      "application_conditions": "発達・繁殖・リスク行動の個人差を進化的に説明する場面",
+      "when_to_apply": "幼少期逆境・リスク行動・繁殖タイミング研究",
+      "framing_questions": [
+        "この個体の繁殖戦略は速い生活史シフトを示すか？"
+      ],
+      "opposing_concept_names": [
+        "文化的成熟モデル（純粋な社会化説）"
+      ],
+      "keywords_ja": [
+        "速い生活史",
+        "遅い生活史",
+        "早期逆境",
+        "繁殖タイミング",
+        "資源配分"
+      ],
+      "keywords_en": [
+        "fast life history",
+        "slow life history",
+        "early adversity",
+        "reproductive timing",
+        "resource allocation"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "逆境指標と繁殖タイミング・リスク行動を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "スターンズ、カプラン＆ガンジェスタッド",
+      "originator_name_en": "Stephen C. Stearns; Hillard Kaplan & Steven W. Gangestad",
+      "founding_work_title": "Life History Theory and Evolutionary Psychology",
+      "founding_work_year": 2004,
+      "founding_work_venue": "The Handbook of Evolutionary Psychology (Wiley)"
+    },
+    {
+      "name_ja": "連合心理学（連立心理・部族本能仮説）",
+      "name_en": "Coalitional Psychology / Tribal Instinct Hypothesis",
+      "definition": "人間が集団間競争の長い進化史の中で、内集団への忠誠・外集団への疑念・連立形成・地位競争に特化した心理メカニズムを進化させたとする仮説。ヴァン・ヴュート「男性戦士仮説」もここに含まれる。",
+      "impact_summary": "政治的分断・宗教的紛争・組織内政治・差別の進化的根拠を提供。社会的アイデンティティ理論との接合が進む。「部族的本能」が文化的制度設計に与える影響を進化的視点で論じた。",
+      "subfield": "進化心理学",
+      "school_of_thought": "進化心理学・社会生物学",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "進化論的予測検証・実験社会心理学",
+      "application_conditions": "集団間競争・組織政治・偏見の進化的起源研究",
+      "when_to_apply": "政治心理学・組織行動・集団間関係研究",
+      "framing_questions": [
+        "この集団間行動は進化的な連立心理から説明できるか？"
+      ],
+      "opposing_concept_names": [
+        "純粋な社会学的集団理論"
+      ],
+      "keywords_ja": [
+        "連立心理学",
+        "部族本能",
+        "男性戦士仮説",
+        "内集団忠誠",
+        "集団間競争"
+      ],
+      "keywords_en": [
+        "coalitional psychology",
+        "tribal instincts",
+        "male warrior hypothesis",
+        "ingroup loyalty",
+        "intergroup conflict"
+      ],
+      "status": "active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "集団間行動・差別の性差・連立形成を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "トゥービー、コスミデス",
+      "originator_name_en": "John Tooby, Leda Cosmides",
+      "founding_work_title": "Friendship and the Banker's Paradox",
+      "founding_work_year": 1996,
+      "founding_work_venue": "Proceedings of the British Academy"
+    },
+    {
+      "name_ja": "双生児法・行動遺伝学",
+      "name_en": "Twin Method / Behavioral Genetics",
+      "definition": "一卵性双生児（MZ: 遺伝的一致100%）と二卵性双生児（DZ: 平均50%）の表現型類似度を比較することで遺伝・共有環境・非共有環境の寄与率（遺伝率）を推定する方法論体系。人格・知能・精神疾患の遺伝率研究の基盤。",
+      "impact_summary": "人格特性の遺伝率40〜60%を多数の研究で確認。「非共有環境」の重要性を発見しプロミンの「家族は子どもを似させない」仮説を生んだ。GxE研究・GWAS研究の前提基盤として今なお中心的。",
+      "subfield": "行動遺伝学",
+      "school_of_thought": "行動遺伝学",
+      "era_start": 1875,
+      "era_end": null,
+      "methodology_level": "双生児比較・構造方程式モデリング",
+      "application_conditions": "遺伝・環境の寄与率分解；集団レベルの推定",
+      "when_to_apply": "人格・精神疾患・認知能力の遺伝的基盤研究",
+      "framing_questions": [
+        "この表現型の遺伝率はどの程度か？非共有環境の影響は何か？"
+      ],
+      "opposing_concept_names": [
+        "純粋な環境論（遺伝的影響を否定）"
+      ],
+      "keywords_ja": [
+        "遺伝率",
+        "一卵性双生児",
+        "二卵性双生児",
+        "非共有環境",
+        "行動遺伝学"
+      ],
+      "keywords_en": [
+        "heritability",
+        "MZ twins",
+        "DZ twins",
+        "non-shared environment",
+        "behavioral genetics"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "集団レベルでの遺伝寄与率を安定して推定",
+      "empirical_support": "確立",
+      "originator_name": "ゴルトン（先駆者）",
+      "originator_name_en": "Francis Galton (pioneer)",
+      "founding_work_title": "The History of Twins as a Criterion of the Relative Powers of Nature and Nurture",
+      "founding_work_year": 1875,
+      "founding_work_venue": "Fraser's Magazine"
+    },
+    {
+      "name_ja": "GxE相互作用研究",
+      "name_en": "Gene-Environment Interaction (GxE)",
+      "definition": "遺伝型が異なると環境への反応が変わる（またはその逆）相互作用を研究するパラダイム。ストレス-素因モデル・差異的感受性モデル（ベルスキー）・ヴァンテージ感受性モデルとして展開。MAOA遺伝子×虐待→反社会的行動（カスピら）がモデル研究。",
+      "impact_summary": "遺伝的素因が環境によって増幅または緩和されることを実証。精神疾患のリスク研究・ポジティブ発達の個人差研究に適用。「ランとレーンの両方に反応しやすい素質がある個体（蘭と雑草仮説）」の枠組み。",
+      "subfield": "行動遺伝学",
+      "school_of_thought": "発達精神病理学・分子遺伝学",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "分子遺伝学×縦断コホート研究",
+      "application_conditions": "特定遺伝子型×特定環境の組み合わせを持つ縦断サンプルが必要",
+      "when_to_apply": "精神疾患リスク・早期介入の効果研究",
+      "framing_questions": [
+        "この遺伝子型を持つ個体はこの環境変化に特に敏感か？"
+      ],
+      "opposing_concept_names": [
+        "主効果モデル（遺伝または環境のみを見る立場）"
+      ],
+      "keywords_ja": [
+        "GxE",
+        "差異的感受性",
+        "素因-ストレスモデル",
+        "MAOA遺伝子",
+        "蘭と雑草仮説"
+      ],
+      "keywords_en": [
+        "GxE",
+        "differential susceptibility",
+        "diathesis-stress model",
+        "MAOA gene",
+        "orchid-dandelion hypothesis"
+      ],
+      "status": "active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "特定のGxE組み合わせで精神疾患リスクを中程度予測；多くの個別研究で再現性問題あり",
+      "empirical_support": "部分的支持（大規模再現が課題）",
+      "originator_name": "カスピら",
+      "originator_name_en": "Avshalom Caspi et al.",
+      "founding_work_title": "Role of Genotype in the Cycle of Violence in Maltreated Children",
+      "founding_work_year": 2002,
+      "founding_work_venue": "Science"
+    },
+    {
+      "name_ja": "エピジェネティクスと行動",
+      "name_en": "Behavioral Epigenetics",
+      "definition": "DNAメチル化・ヒストン修飾などのエピジェネティック機構が、遺伝子配列の変化なしに遺伝子発現を制御し、行動・人格・精神疾患に影響する研究領域。ミーニーらのラット母子研究（母親の養育行動→グルココルチコイド受容体のメチル化）が基盤的知見。",
+      "impact_summary": "幼少期逆境の生物学的刻印（biological embedding）を実証。世代間伝達のメカニズムとして議論。BDNF遺伝子・グルココルチコイド受容体のメチル化が精神疾患・人格発達との関連で研究されている。",
+      "subfield": "行動遺伝学",
+      "school_of_thought": "分子神経科学・発達心理学",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "分子生物学・動物モデル・人間コホート研究",
+      "application_conditions": "幼少期逆境の生物学的影響・精神疾患の分子基盤研究",
+      "when_to_apply": "早期介入・精神疾患の予防研究",
+      "framing_questions": [
+        "この幼少期経験はどの遺伝子のメチル化パターンを変えるか？"
+      ],
+      "opposing_concept_names": [
+        "純粋な遺伝決定論"
+      ],
+      "keywords_ja": [
+        "DNAメチル化",
+        "ヒストン修飾",
+        "グルココルチコイド受容体",
+        "幼少期逆境",
+        "世代間伝達"
+      ],
+      "keywords_en": [
+        "DNA methylation",
+        "histone modification",
+        "glucocorticoid receptor",
+        "early adversity",
+        "intergenerational transmission"
+      ],
+      "status": "active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "特定のメチル化マーカーと精神疾患リスクは中程度関連",
+      "empirical_support": "支持あり（ヒト研究はまだ発展途上）",
+      "originator_name": "ミーニー",
+      "originator_name_en": "Michael J. Meaney",
+      "founding_work_title": "Maternal Care, Gene Expression, and the Transmission of Individual Differences in Stress Reactivity",
+      "founding_work_year": 2001,
+      "founding_work_venue": "Annual Review of Neuroscience"
+    },
+    {
+      "name_ja": "GWASによる人格の多因子遺伝",
+      "name_en": "GWAS Findings on Personality Polygenic Architecture",
+      "definition": "ゲノムワイド関連解析（GWAS）による人格特性（特に神経症傾向）の多因子遺伝構造の解明。複数の大規模メタ解析（N=449,484）で神経症傾向に関連する136以上の独立したゲノム領域が特定された。各遺伝子の効果量は小さく高度に多因子性。",
+      "impact_summary": "人格の遺伝的基盤が数百〜数千の微小効果を持つ変異の集積であることを確認。PRS（多因子リスクスコア）の作成が可能になり、精神疾患リスクの生物学的マーカーとして応用。",
+      "subfield": "行動遺伝学",
+      "school_of_thought": "分子遺伝学・量的遺伝学",
+      "era_start": 2010,
+      "era_end": null,
+      "methodology_level": "GWAS・ポリジェニックスコア解析",
+      "application_conditions": "集団レベルでの遺伝的リスク予測；個人レベルの予測精度は現時点で低い",
+      "when_to_apply": "精神疾患の遺伝的リスク研究・人格の遺伝的基盤の探索",
+      "framing_questions": [
+        "神経症傾向のポリジェニックスコアはうつ発症リスクを予測するか？"
+      ],
+      "opposing_concept_names": [
+        "単一遺伝子決定論"
+      ],
+      "keywords_ja": [
+        "GWAS",
+        "多因子遺伝",
+        "神経症傾向",
+        "ポリジェニックスコア",
+        "遺伝的アーキテクチャ"
+      ],
+      "keywords_en": [
+        "GWAS",
+        "polygenic architecture",
+        "neuroticism",
+        "polygenic score",
+        "genetic architecture"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高（急速に拡大中）",
+      "predictive_power": "神経症傾向の遺伝的分散の10〜15%を説明（SNPベース遺伝率）",
+      "empirical_support": "確立（継続的更新）",
+      "originator_name": "スミスら（大規模メタ解析）",
+      "originator_name_en": "Daniel J. Smith et al. (meta-analysis consortium)",
+      "founding_work_title": "Meta-Analysis of Genome-Wide Association Studies for Neuroticism in 449,484 Individuals",
+      "founding_work_year": 2018,
+      "founding_work_venue": "Nature Genetics"
+    },
+    {
+      "name_ja": "ルリアの機能システム論",
+      "name_en": "Luria's Theory of Functional Brain Systems",
+      "definition": "アレクサンドル・ルリアが提唱した脳の3機能システム論。第1ユニット（脳幹・網様体：覚醒・注意調節）、第2ユニット（側頭・頭頂・後頭葉：情報受容・分析・保存）、第3ユニット（前頭葉：計画・プログラミング・制御・検証）が協調的に機能するとする。",
+      "impact_summary": "神経心理学的アセスメントの理論的基盤。前頭葉の実行機能概念の先駆。教育・臨床神経心理学に影響し、PASS理論（ナグリエリ）として現代の知能検査に継承されている。",
+      "subfield": "神経心理学",
+      "school_of_thought": "神経心理学・ヴィゴツキー派",
+      "era_start": 1962,
+      "era_end": null,
+      "methodology_level": "脳損傷患者研究・神経心理学的アセスメント",
+      "application_conditions": "脳損傷後の機能障害のアセスメントと介入計画",
+      "when_to_apply": "臨床神経心理学・リハビリテーション計画",
+      "framing_questions": [
+        "この患者の認知障害はどの機能ユニットの損傷と対応するか？"
+      ],
+      "opposing_concept_names": [
+        "局在化理論（モジュール論）",
+        "全体論的アプローチ"
+      ],
+      "keywords_ja": [
+        "3機能ユニット",
+        "前頭葉",
+        "覚醒ユニット",
+        "計画ユニット",
+        "PASS理論"
+      ],
+      "keywords_en": [
+        "three functional units",
+        "frontal lobe",
+        "arousal unit",
+        "planning unit",
+        "PASS theory"
+      ],
+      "status": "legacy/active",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "脳損傷症状のパターンを概念的に分類する枠組みとして有用",
+      "empirical_support": "確立（概念的枠組みとして）",
+      "originator_name": "アレクサンドル・ルリア",
+      "originator_name_en": "Alexander R. Luria",
+      "founding_work_title": "Higher Cortical Functions in Man",
+      "founding_work_year": 1962,
+      "founding_work_venue": "Moscow University Press"
+    },
+    {
+      "name_ja": "二重乖離法",
+      "name_en": "Double Dissociation Method",
+      "definition": "テューバーが1955年に命名した神経心理学の方法論。病変Aが機能Xを障害し機能Yを保持し、病変Bが機能Yを障害し機能Xを保持する場合、XとYは神経的に分離したシステムであると推論できる。単一乖離の解釈上の曖昧さを解決する。",
+      "impact_summary": "認知モジュールの分離的神経基盤を実証する金字塔的方法論。ブローカ/ウェルニッケ失語の古典的事例から、記憶（陳述vs手続き）・感情・視覚処理の分離まで広く応用。認知神経心理学の方法論的根幹。",
+      "subfield": "神経心理学",
+      "school_of_thought": "認知神経心理学",
+      "era_start": 1955,
+      "era_end": null,
+      "methodology_level": "脳損傷患者研究・症例比較",
+      "application_conditions": "脳内の2つの機能システムの独立性を証明する場面",
+      "when_to_apply": "認知神経心理学研究・モジュール性の検討",
+      "framing_questions": [
+        "この2つの機能は独立した神経回路を持つか？"
+      ],
+      "opposing_concept_names": [
+        "全体論的連結主義（モジュール性の否定）"
+      ],
+      "keywords_ja": [
+        "二重乖離",
+        "単一乖離",
+        "認知モジュール",
+        "神経的分離",
+        "脳損傷"
+      ],
+      "keywords_en": [
+        "double dissociation",
+        "single dissociation",
+        "cognitive modules",
+        "neural separability",
+        "brain lesion"
+      ],
+      "status": "established",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "認知システムの独立性を推論する枠組みとして有効",
+      "empirical_support": "確立",
+      "originator_name": "テューバー",
+      "originator_name_en": "Hans-Lukas Teuber",
+      "founding_work_title": "Physiological Psychology",
+      "founding_work_year": 1955,
+      "founding_work_venue": "Annual Review of Psychology"
+    },
+    {
+      "name_ja": "前頭葉症候群・遂行機能障害",
+      "name_en": "Frontal Lobe Syndrome / Dysexecutive Syndrome",
+      "definition": "前頭前野の損傷によって生じる人格・行動・実行機能の変容の総称。腹内側前頭前野損傷では「獲得型反社会性（偽精神病質）」、背外側前頭前野損傷では計画・柔軟性・ワーキングメモリの遂行機能障害が生じる。フィニアス・ゲージ事例が歴史的起点。",
+      "impact_summary": "前頭葉と人格・社会的行動の関係を確立。実行機能・抑制制御の神経基盤として精神医学・教育・法医学に応用。ADHDや精神病質の神経心理学的理解の基盤となった。",
+      "subfield": "神経心理学",
+      "school_of_thought": "臨床神経心理学",
+      "era_start": 1848,
+      "era_end": null,
+      "methodology_level": "症例研究・脳損傷研究・神経画像",
+      "application_conditions": "前頭葉損傷・ADHD・精神病質・TBIのアセスメント",
+      "when_to_apply": "臨床神経心理学・法医学的評価",
+      "framing_questions": [
+        "この行動変容パターンは前頭葉のどの部位の機能障害と一致するか？"
+      ],
+      "opposing_concept_names": [
+        "局所病変特異説（前頭葉の均一な機能を否定）"
+      ],
+      "keywords_ja": [
+        "前頭葉症候群",
+        "実行機能障害",
+        "腹内側前頭前野",
+        "フィニアス・ゲージ",
+        "獲得型反社会性"
+      ],
+      "keywords_en": [
+        "frontal lobe syndrome",
+        "dysexecutive syndrome",
+        "vmPFC",
+        "Phineas Gage",
+        "acquired sociopathy"
+      ],
+      "status": "established",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "前頭葉損傷部位と行動障害のパターンを中〜高精度で予測",
+      "empirical_support": "確立",
+      "originator_name": "ダマシオ（現代的定式化）",
+      "originator_name_en": "Antonio R. Damasio (modern formulation)",
+      "founding_work_title": "The Return of Phineas Gage: Clues about the Brain from the Skull of a Famous Patient",
+      "founding_work_year": 1994,
+      "founding_work_venue": "Science"
+    },
+    {
+      "name_ja": "愛着理論（ボウルビィ）",
+      "name_en": "Attachment Theory (Bowlby)",
+      "definition": "ボウルビィが進化・エソロジー・認知発達を統合して構築した理論。乳幼児期の一次養育者との愛着関係が「内的作業モデル（IWM）」を形成し、自己と他者への期待・情動調節・関係パターンとして生涯に影響するとする。",
+      "impact_summary": "発達心理学・臨床心理学・神経科学を橋渡しする理論として最も影響力が大きい。エインズワースの「見知らぬ状況法」で実証され、成人愛着研究・母子看護・親子介入プログラムに応用。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "発達・進化・精神分析的統合",
+      "era_start": 1958,
+      "era_end": null,
+      "methodology_level": "観察・面接・縦断研究",
+      "application_conditions": "関係パターン・愛着スタイル・感情調節障害の理解",
+      "when_to_apply": "臨床・発達・家族研究・早期介入",
+      "framing_questions": [
+        "この成人の関係パターンは幼少期の愛着スタイルとどう対応するか？"
+      ],
+      "opposing_concept_names": [
+        "強化学習モデルによる愛着（行動主義的説明）"
+      ],
+      "keywords_ja": [
+        "愛着スタイル",
+        "内的作業モデル",
+        "安全基地",
+        "見知らぬ状況法",
+        "感情調節"
+      ],
+      "keywords_en": [
+        "attachment styles",
+        "internal working model",
+        "secure base",
+        "strange situation",
+        "emotion regulation"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "関係満足度・精神的健康・子どもの発達を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "ジョン・ボウルビィ",
+      "originator_name_en": "John Bowlby",
+      "founding_work_title": "The Nature of the Child's Tie to His Mother",
+      "founding_work_year": 1958,
+      "founding_work_venue": "International Journal of Psychoanalysis"
+    },
+    {
+      "name_ja": "気質の類型論（トマス＆チェス）",
+      "name_en": "Temperament Theory (Thomas & Chess)",
+      "definition": "トマス＆チェスがニューヨーク縦断研究から帰納的に抽出した気質の9次元（活動水準・接近/回避傾向・適応性・反応強度など）と、それから派生する3類型（扱いやすい/扱いにくい/慣れるのに時間がかかる）。「適合性（goodness of fit）」概念が中心。",
+      "impact_summary": "生物学的気質と養育環境の適合性という視点を発達心理学に導入。DSM障害の予防的枠組みとして応用。気質研究の実証的出発点として後続の Rothbart、Kagan らの研究に影響。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "気質研究・発達心理学",
+      "era_start": 1956,
+      "era_end": null,
+      "methodology_level": "縦断観察・親へのインタビュー",
+      "application_conditions": "子どもの行動問題の予防的介入；親子適合性の評価",
+      "when_to_apply": "育児相談・発達評価・早期介入",
+      "framing_questions": [
+        "この子どもの気質と養育環境の間に適合性の問題があるか？"
+      ],
+      "opposing_concept_names": [
+        "社会化理論（環境のみが行動を決める）"
+      ],
+      "keywords_ja": [
+        "気質",
+        "扱いやすい/難しい",
+        "適合性",
+        "9次元",
+        "縦断研究"
+      ],
+      "keywords_en": [
+        "temperament",
+        "easy/difficult child",
+        "goodness of fit",
+        "nine dimensions",
+        "longitudinal study"
+      ],
+      "status": "classic/active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "行動問題の発達リスクを中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "トマス、チェス",
+      "originator_name_en": "Alexander Thomas, Stella Chess",
+      "founding_work_title": "Temperament and Behavior Disorders in Children",
+      "founding_work_year": 1968,
+      "founding_work_venue": "NYU Press"
+    },
+    {
+      "name_ja": "フロイトの精神分析理論",
+      "name_en": "Freudian Psychoanalytic Theory",
+      "definition": "フロイトが発展させた人格の力動理論。イド（本能的衝動）・自我（現実原則）・超自我（道徳的検閲）の構造と、意識・前意識・無意識の地誌的モデルを中心に置く。防衛機制（抑圧・投影・昇華など）が不安管理の手段として機能する。",
+      "impact_summary": "無意識概念・防衛機制・転移・発達段階論を通じて20世紀の心理学・精神医学・文化全体に絶大な影響。実証的検証は限定的だが、現代の神経精神分析・愛着理論・潜在的認知研究と接続が進む。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "精神分析",
+      "era_start": 1895,
+      "era_end": null,
+      "methodology_level": "症例研究・臨床観察",
+      "application_conditions": "無意識的動機・防衛機制・転移を分析する臨床文脈",
+      "when_to_apply": "精神分析的心理療法・人格の深層理解",
+      "framing_questions": [
+        "この行動パターンはどの防衛機制によって維持されているか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義（無意識を否定）",
+        "認知行動療法"
+      ],
+      "keywords_ja": [
+        "イド",
+        "自我",
+        "超自我",
+        "無意識",
+        "防衛機制"
+      ],
+      "keywords_en": [
+        "id",
+        "ego",
+        "superego",
+        "unconscious",
+        "defense mechanisms"
+      ],
+      "status": "legacy/contested",
+      "source_reliability": "中",
+      "data_completeness": "中",
+      "predictive_power": "実証的予測力は低い；臨床的洞察としての有用性は継続",
+      "empirical_support": "部分的（選択的実証）",
+      "originator_name": "ジークムント・フロイト",
+      "originator_name_en": "Sigmund Freud",
+      "founding_work_title": "The Interpretation of Dreams",
+      "founding_work_year": 1900,
+      "founding_work_venue": "Franz Deuticke"
+    },
+    {
+      "name_ja": "エリクソンの心理社会的発達段階論",
+      "name_en": "Erikson's Psychosocial Stages of Development",
+      "definition": "エリクソンが提唱した生涯発達理論。乳幼児期から老年期までの8段階（後に妻ジョーンが9段階目を追加）で各段階に固有の「心理社会的危機」（信頼vs不信・自律性vs恥と疑惑など）があり、その解決がアイデンティティと人格発達を形成するとする。",
+      "impact_summary": "発達を生涯過程として捉える視点を確立。「アイデンティティ危機」の概念はポップカルチャーにまで普及。発達心理学・教育・カウンセリングで広く参照されるが実証的検証は少ない。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "精神分析的発達理論",
+      "era_start": 1950,
+      "era_end": null,
+      "methodology_level": "臨床観察・理論構築",
+      "application_conditions": "生涯発達の段階的理解；アイデンティティ形成の支援",
+      "when_to_apply": "教育・カウンセリング・発達支援",
+      "framing_questions": [
+        "この個人は現在の発達段階の危機をどのように解決しようとしているか？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの認知発達理論（認知に特化）"
+      ],
+      "keywords_ja": [
+        "心理社会的発達",
+        "アイデンティティ危機",
+        "8段階",
+        "生涯発達",
+        "発達課題"
+      ],
+      "keywords_en": [
+        "psychosocial development",
+        "identity crisis",
+        "eight stages",
+        "lifespan development",
+        "developmental tasks"
+      ],
+      "status": "classic/active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "発達段階の概念的枠組みとして有用；定量的予測は限定的",
+      "empirical_support": "部分的",
+      "originator_name": "エリク・エリクソン",
+      "originator_name_en": "Erik H. Erikson",
+      "founding_work_title": "Childhood and Society",
+      "founding_work_year": 1950,
+      "founding_work_venue": "Norton"
+    },
+    {
+      "name_ja": "個人構成理論（ケリー）",
+      "name_en": "Personal Construct Theory (Kelly)",
+      "definition": "ジョージ・ケリーが1955年に提唱した認知的人格理論。人は「個人的構成概念（二極の認知的次元）」を用いて世界を予測する「科学者としての人間」モデル。レパートリー・グリッドで個人固有の構成概念システムを測定する。",
+      "impact_summary": "認知療法・CBT・構成主義的心理療法の先駆。個人の主観的世界の構造を体系的に測定する方法（Rep Grid）を開発。現象学的・人間主義的アプローチと認知科学の橋渡し。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "構成主義的人格理論",
+      "era_start": 1955,
+      "era_end": null,
+      "methodology_level": "レパートリー・グリッド・臨床面接",
+      "application_conditions": "個人の認知的世界地図の理解；変化のアセスメント",
+      "when_to_apply": "臨床心理・キャリアカウンセリング・組織行動研究",
+      "framing_questions": [
+        "この人物の中核的構成概念はどのように構成されているか？"
+      ],
+      "opposing_concept_names": [
+        "集団記述的特性論（Big Five）"
+      ],
+      "keywords_ja": [
+        "個人的構成概念",
+        "レパートリー・グリッド",
+        "科学者としての人間",
+        "二極性",
+        "認知的人格論"
+      ],
+      "keywords_en": [
+        "personal constructs",
+        "repertory grid",
+        "person as scientist",
+        "bipolarity",
+        "cognitive personality theory"
+      ],
+      "status": "legacy/active",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "個人固有の認知構造の記述に優れる；集団比較には不向き",
+      "empirical_support": "支持あり（質的・臨床的証拠）",
+      "originator_name": "ジョージ・ケリー",
+      "originator_name_en": "George A. Kelly",
+      "founding_work_title": "The Psychology of Personal Constructs",
+      "founding_work_year": 1955,
+      "founding_work_venue": "Norton"
+    },
+    {
+      "name_ja": "ロジャースの人間中心アプローチ",
+      "name_en": "Person-Centered Theory (Rogers)",
+      "definition": "カール・ロジャースが1940年代に開発した人間主義的人格・心理療法理論。全ての人間は自己実現の傾向を持ち、無条件の肯定的関心・共感的理解・純粋性（一致）の3条件が整う治療的関係で本来の自己が開花するとする。",
+      "impact_summary": "「治療者の人間性が変化をもたらす」という視点で精神療法を刷新。カウンセリング・教育・組織開発・対話実践に広く応用。実証研究では「共感・無条件の肯定的関心」が治療成果の予測因子として確認されている。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "人間主義心理学",
+      "era_start": 1942,
+      "era_end": null,
+      "methodology_level": "臨床研究・自己報告・過程研究",
+      "application_conditions": "クライアント中心の治療・自己成長支援・対話ファシリテーション",
+      "when_to_apply": "カウンセリング・コーチング・教育",
+      "framing_questions": [
+        "この治療関係は共感・純粋性・無条件の肯定的関心を提供しているか？"
+      ],
+      "opposing_concept_names": [
+        "精神分析（指示的解釈）",
+        "行動療法（技術中心）"
+      ],
+      "keywords_ja": [
+        "無条件の肯定的関心",
+        "共感的理解",
+        "純粋性",
+        "自己実現傾向",
+        "来談者中心療法"
+      ],
+      "keywords_en": [
+        "unconditional positive regard",
+        "empathic understanding",
+        "congruence",
+        "actualizing tendency",
+        "person-centered therapy"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "治療同盟（ワーキングアライアンス）変数として心理療法成果を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "カール・ロジャース",
+      "originator_name_en": "Carl R. Rogers",
+      "founding_work_title": "Counseling and Psychotherapy",
+      "founding_work_year": 1942,
+      "founding_work_venue": "Houghton Mifflin"
+    },
+    {
+      "name_ja": "社会的アイデンティティ理論",
+      "name_en": "Social Identity Theory (Tajfel & Turner)",
+      "definition": "タジフェル＆ターナーが提唱した集団と自己の関係理論。人は社会的カテゴリー化を行い、自分が属する集団（内集団）と比較集団（外集団）を区別することで、ポジティブな独自性から自尊心を獲得しようとするとする。",
+      "impact_summary": "集団間関係・偏見・差別・内集団びいき・外集団差別化の理論的基盤。ターナーの自己カテゴリー化理論へと発展。組織行動・政治心理学・多文化研究に広く応用。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会的アイデンティティ理論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "最小集団パラダイム・実験",
+      "application_conditions": "集団間関係・偏見・組織同一視の研究",
+      "when_to_apply": "組織行動・集団間関係・多文化マネジメント",
+      "framing_questions": [
+        "この内集団びいきは社会的アイデンティティの脅威への反応か？"
+      ],
+      "opposing_concept_names": [
+        "個人主義的自己理論",
+        "現実的集団葛藤理論"
+      ],
+      "keywords_ja": [
+        "社会的アイデンティティ",
+        "社会的カテゴリー化",
+        "内集団びいき",
+        "外集団差別化",
+        "自尊心"
+      ],
+      "keywords_en": [
+        "social identity",
+        "social categorization",
+        "ingroup favoritism",
+        "outgroup discrimination",
+        "self-esteem"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "集団間行動・偏見・組織行動を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "タジフェル、ターナー",
+      "originator_name_en": "Henri Tajfel, John C. Turner",
+      "founding_work_title": "An Integrative Theory of Intergroup Conflict",
+      "founding_work_year": 1979,
+      "founding_work_venue": "The Social Psychology of Intergroup Relations (Brooks/Cole)"
+    },
+    {
+      "name_ja": "McClellandの動機理論（三大欲求）",
+      "name_en": "McClelland's Theory of Needs (nAch, nAff, nPow)",
+      "definition": "マクレランドが提唱した学習された動機の理論。達成欲求（nAch）・親和欲求（nAff）・権力欲求（nPow）の3つが文化・経験を通じて学習され、個人の動機プロファイルを構成する。TATによる投影的測定で個人の主要動機を評価。",
+      "impact_summary": "起業家精神・リーダーシップ・国家経済発展の予測に応用。「nAchが高い国は経済発展する」という仮説は国際比較研究の対象となった。人事・組織開発での動機診断ツールとして普及。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会学習的動機理論",
+      "era_start": 1953,
+      "era_end": null,
+      "methodology_level": "投影法（TAT）・実験・調査",
+      "application_conditions": "動機プロファイルの個人差・リーダーシップ・組織行動",
+      "when_to_apply": "採用アセスメント・リーダーシップ開発",
+      "framing_questions": [
+        "この人物の主たる動機源はnAch・nAff・nPowのどれか？"
+      ],
+      "opposing_concept_names": [
+        "マズローの欲求階層（固定的階層）"
+      ],
+      "keywords_ja": [
+        "達成欲求",
+        "親和欲求",
+        "権力欲求",
+        "TAT",
+        "学習された動機"
+      ],
+      "keywords_en": [
+        "need for achievement",
+        "need for affiliation",
+        "need for power",
+        "TAT",
+        "learned motives"
+      ],
+      "status": "classic/active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "起業家行動・リーダーシップを中程度予測；TATの信頼性に議論",
+      "empirical_support": "部分的支持",
+      "originator_name": "デービッド・マクレランド",
+      "originator_name_en": "David C. McClelland",
+      "founding_work_title": "The Achievement Motive",
+      "founding_work_year": 1953,
+      "founding_work_venue": "Appleton-Century-Crofts"
+    },
+    {
+      "name_ja": "レジリエンス理論（ボナーノ）",
+      "name_en": "Resilience Theory (Bonanno)",
+      "definition": "ボナーノが提唱した喪失・外傷後の軌跡理論。回復力（最小影響軌跡）・回復軌跡・慢性機能不全・遅延発症の4軌跡を区別し、「レジリエンスが最も一般的な反応（65%以上）」であることを実証。単線的なグリーフ段階説に異議を唱えた。",
+      "impact_summary": "「逆境後に一時的に機能低下しても必ず回復できる」から「多くの人はそもそも急性期の大きな苦悩を経験しない」への認識転換。喪失・外傷研究・緊急支援の設計に影響。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "ポジティブ心理学・臨床心理学",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "縦断研究・軌跡分析",
+      "application_conditions": "喪失・災害・外傷後の適応の研究",
+      "when_to_apply": "緊急支援・グリーフカウンセリング・災害心理学",
+      "framing_questions": [
+        "この集団はどの適応軌跡を辿っているか？"
+      ],
+      "opposing_concept_names": [
+        "段階的悲嘆モデル（キュブラー-ロス）"
+      ],
+      "keywords_ja": [
+        "レジリエンス",
+        "適応軌跡",
+        "最小影響軌跡",
+        "回復軌跡",
+        "喪失後適応"
+      ],
+      "keywords_en": [
+        "resilience",
+        "adaptation trajectories",
+        "minimal impact resilience",
+        "recovery trajectory",
+        "bereavement"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "喪失後の適応軌跡の分布を中程度予測；個人予測は困難",
+      "empirical_support": "支持あり",
+      "originator_name": "ジョージ・ボナーノ",
+      "originator_name_en": "George A. Bonanno",
+      "founding_work_title": "Loss, Trauma, and Human Resilience",
+      "founding_work_year": 2004,
+      "founding_work_venue": "American Psychologist"
+    },
+    {
+      "name_ja": "アイゼンクの覚醒理論",
+      "name_en": "Eysenck's Arousal Theory of Extraversion",
+      "definition": "アイゼンクが提唱した外向性の生物学的説明。内向者は上行性網様体賦活系（ARAS）の基底活性水準が高く（慢性的に過覚醒）、外向者は低い（慢性的に低覚醒）。そのため外向者は外部刺激を求め、内向者は回避するとする。ヤーキーズ-ドッドソン則との結合で逆U字型パフォーマンス予測を行う。",
+      "impact_summary": "人格の生物学的基盤研究の端緒。EEG・皮膚電気活動・薬物研究で部分的支持。コーヒーと外向性の研究、BGMと作業効率研究に応用。PENモデルの神経生理学的基盤として機能。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "生物学的人格理論",
+      "era_start": 1967,
+      "era_end": null,
+      "methodology_level": "生理実験・EEG・薬物実験",
+      "application_conditions": "外向性の神経生理学的基盤研究",
+      "when_to_apply": "人格神経科学・環境設計研究",
+      "framing_questions": [
+        "外向者と内向者は覚醒水準の差によってどう異なる行動を示すか？"
+      ],
+      "opposing_concept_names": [
+        "強化感受性理論（グレイ）",
+        "Big Five外向性（神経基盤を特定しない）"
+      ],
+      "keywords_ja": [
+        "覚醒水準",
+        "内向性-外向性",
+        "ARAS",
+        "逆U字型",
+        "コーヒー・レモン実験"
+      ],
+      "keywords_en": [
+        "arousal level",
+        "introversion-extraversion",
+        "ARAS",
+        "inverted-U",
+        "cortical arousal"
+      ],
+      "status": "legacy/active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中〜高",
+      "predictive_power": "外向性と刺激求求行動・BGM効果を中程度予測",
+      "empirical_support": "部分的支持",
+      "originator_name": "ハンス・アイゼンク",
+      "originator_name_en": "Hans J. Eysenck",
+      "founding_work_title": "The Biological Basis of Personality",
+      "founding_work_year": 1967,
+      "founding_work_venue": "C.C. Thomas"
+    },
+    {
+      "name_ja": "ヴィゴツキーの社会文化理論（ZPD）",
+      "name_en": "Vygotsky's Sociocultural Theory / Zone of Proximal Development",
+      "definition": "ヴィゴツキーが提唱した認知発達の社会文化的理論。学習は一人での問題解決能力（現在の発達水準）と援助ありの問題解決能力（最近接発達領域：ZPD）の間の協働的活動を通じて起こるとする。言語・記号が高次精神機能を媒介する。",
+      "impact_summary": "教育・学習科学に多大な影響。スキャフォールディング（足場作り）実践の理論的基盤。対話的学習・協同学習・コーチングの設計原理として世界的に応用。ピアジェの個人主義的認知発達論への有力な対案。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "社会文化的認知発達理論",
+      "era_start": 1930,
+      "era_end": null,
+      "methodology_level": "観察・実験・教育実践",
+      "application_conditions": "学習環境設計・教育介入・スキャフォールディング実践",
+      "when_to_apply": "教育・スキル開発・コーチング",
+      "framing_questions": [
+        "この学習活動は学習者のZPDを活用しているか？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの段階的認知発達論（個人的構成主義）"
+      ],
+      "keywords_ja": [
+        "ZPD",
+        "最近接発達領域",
+        "スキャフォールディング",
+        "社会文化的発達",
+        "内化"
+      ],
+      "keywords_en": [
+        "ZPD",
+        "zone of proximal development",
+        "scaffolding",
+        "sociocultural development",
+        "internalization"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "協働的学習の効果を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "レフ・ヴィゴツキー",
+      "originator_name_en": "Lev S. Vygotsky",
+      "founding_work_title": "Mind in Society",
+      "founding_work_year": 1978,
+      "founding_work_venue": "Harvard University Press (posthumous compilation)"
+    },
+    {
+      "name_ja": "愛着スタイルの成人版（エインズワース→ヘイザン＆シェイヴァー）",
+      "name_en": "Adult Attachment Styles (Ainsworth → Hazan & Shaver)",
+      "definition": "エインズワースの乳幼児愛着類型（安全・回避・不安-両価）を成人の恋愛関係に拡張した理論。ヘイザン＆シェイヴァーが1987年に自己報告型成人愛着測定を導入。バーソロミューの4類型（安全・回避-軽視・不安・恐れ-回避）が現在の標準。",
+      "impact_summary": "成人の対人関係・パートナーシップ・精神的健康を広範に予測。愛着神経科学（シミンスキーら）・臨床介入（愛着に基づく療法）に拡張。最も活発な人格・臨床研究領域の一つ。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "愛着理論",
+      "era_start": 1987,
+      "era_end": null,
+      "methodology_level": "自己報告・面接（AAI）・縦断研究",
+      "application_conditions": "成人の対人関係・パートナー選択・臨床介入",
+      "when_to_apply": "カップルカウンセリング・愛着関連の臨床研究",
+      "framing_questions": [
+        "この対人パターンはどの成人愛着スタイルと対応するか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的関係学習モデル"
+      ],
+      "keywords_ja": [
+        "安全型",
+        "回避型",
+        "不安型",
+        "成人愛着",
+        "バーソロミュー4類型"
+      ],
+      "keywords_en": [
+        "secure attachment",
+        "avoidant attachment",
+        "anxious attachment",
+        "adult attachment",
+        "Bartholomew typology"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "関係満足度・精神的健康・感情調節を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "エインズワース（基礎）、ヘイザン＆シェイヴァー（成人拡張）",
+      "originator_name_en": "Mary Ainsworth; Cindy Hazan, Phillip R. Shaver",
+      "founding_work_title": "Romantic Love Conceptualized as an Attachment Process",
+      "founding_work_year": 1987,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "内受容感覚・能動的推論（フリストン＆バレット統合モデル）",
+      "name_en": "Interoceptive Inference / Active Inference in Emotion",
+      "definition": "フリストンの予測コーディング枠組みをバレットの構成感情理論と統合したモデル。脳は身体内部状態（内受容感覚）を予測し、予測誤差を最小化するために行動と知覚を能動的に調整する。感情はこの内受容的予測処理の産物として構成される。",
+      "impact_summary": "感情・行動・精神疾患（うつ・不安・摂食障害）の内受容的基盤を統一的に説明。アロスタシス（先行的恒常性維持）と感情の関係を形式化。感情の計算論的神経科学の最前線。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "ベイズ脳理論・感情神経科学",
+      "era_start": 2016,
+      "era_end": null,
+      "methodology_level": "計算論的モデル・fMRI・内受容測定",
+      "application_conditions": "感情・精神疾患の神経計算論的研究",
+      "when_to_apply": "感情神経科学・精神疾患の計算論的理解",
+      "framing_questions": [
+        "この感情障害は内受容的予測の歪みとして説明できるか？"
+      ],
+      "opposing_concept_names": [
+        "純粋な基本感情モデル"
+      ],
+      "keywords_ja": [
+        "内受容感覚",
+        "能動的推論",
+        "アロスタシス",
+        "感情の構成",
+        "予測誤差"
+      ],
+      "keywords_en": [
+        "interoception",
+        "active inference",
+        "allostasis",
+        "constructed emotion",
+        "prediction error"
+      ],
+      "status": "active（最前線）",
+      "source_reliability": "高",
+      "data_completeness": "中（発展中）",
+      "predictive_power": "感情の個人差・精神疾患の感情的側面を計算論的に予測",
+      "empirical_support": "支持あり（蓄積中）",
+      "originator_name": "フリストン、バレット",
+      "originator_name_en": "Karl J. Friston, Lisa Feldman Barrett",
+      "founding_work_title": "Active Interoceptive Inference and the Emotional Brain",
+      "founding_work_year": 2016,
+      "founding_work_venue": "Philosophical Transactions of the Royal Society B"
+    },
+    {
+      "name_ja": "社会的学習理論（バンデューラ）",
+      "name_en": "Social Learning Theory (Bandura)",
+      "definition": "バンデューラが1977年に体系化した学習理論。強化を直接経験しなくても他者の行動とその結果を観察（モデリング）することで学習が成立するとする。注意・保持・運動再生・動機づけの4段階過程で観察学習を説明。ボボ人形実験が実証的根拠。",
+      "impact_summary": "行動主義の強化原理を超えた認知的学習モデルを確立。攻撃性の学習・メディア暴力研究・自己効力感理論の前提となった。社会認知理論へと発展し、今日の動機・発達・臨床研究の基盤。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "社会認知理論",
+      "era_start": 1963,
+      "era_end": null,
+      "methodology_level": "実験（ボボ人形）・観察研究",
+      "application_conditions": "モデリングを活用した行動変容・教育・媒体効果研究",
+      "when_to_apply": "教育設計・メディア効果研究・行動変容プログラム",
+      "framing_questions": [
+        "この行動はどのモデルの観察から学習されたか？"
+      ],
+      "opposing_concept_names": [
+        "古典的行動主義（直接強化のみを仮定）"
+      ],
+      "keywords_ja": [
+        "観察学習",
+        "モデリング",
+        "ボボ人形",
+        "社会認知理論",
+        "代理強化"
+      ],
+      "keywords_en": [
+        "observational learning",
+        "modeling",
+        "Bobo doll",
+        "social cognitive theory",
+        "vicarious reinforcement"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "攻撃性・向社会的行動・スキル習得を中〜高程度予測",
+      "empirical_support": "確立",
+      "originator_name": "アルバート・バンデューラ",
+      "originator_name_en": "Albert Bandura",
+      "founding_work_title": "Social Learning and Personality Development",
+      "founding_work_year": 1963,
+      "founding_work_venue": "Holt, Rinehart & Winston"
+    },
+    {
+      "name_ja": "プロスペクト理論（カーネマン＆トベルスキー）",
+      "name_en": "Prospect Theory (Kahneman & Tversky)",
+      "definition": "カーネマン＆トベルスキーが1979年に提唱した意思決定の記述的理論。人は利得より損失をより強く感じ（損失回避）、参照点からの変化に対して価値を評価し、高確率を過小評価・低確率を過大評価する確率加重関数を持つ。期待効用理論への現実的代替。",
+      "impact_summary": "行動経済学の礎となりカーネマンのノーベル賞（2002）に貢献。ファイナンス・マーケティング・政策設計・医療意思決定に応用。損失回避の概念はナッジ・説得研究の中核。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "行動経済学・判断と意思決定",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "実験・選択タスク",
+      "application_conditions": "リスク下の意思決定・損失フレームの設計",
+      "when_to_apply": "ファイナンス・保険・ナッジ政策・説得研究",
+      "framing_questions": [
+        "この意思決定は損失回避・確率加重によってどう歪められているか？"
+      ],
+      "opposing_concept_names": [
+        "期待効用理論（合理的行為者モデル）"
+      ],
+      "keywords_ja": [
+        "損失回避",
+        "参照点",
+        "確率加重",
+        "価値関数",
+        "フレーミング効果"
+      ],
+      "keywords_en": [
+        "loss aversion",
+        "reference point",
+        "probability weighting",
+        "value function",
+        "framing effect"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "リスク下の選択行動を期待効用理論より高精度で予測",
+      "empirical_support": "確立",
+      "originator_name": "カーネマン、トベルスキー",
+      "originator_name_en": "Daniel Kahneman, Amos Tversky",
+      "founding_work_title": "Prospect Theory: An Analysis of Decision under Risk",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Econometrica"
+    },
+    {
+      "name_ja": "マインドフルネスと注意制御（カバットジン、ビショップら）",
+      "name_en": "Mindfulness and Attentional Regulation",
+      "definition": "カバットジンが仏教瞑想を脱宗教化して開発したMBSRを起点に、ビショップらが「現在への注意の持続的な向け直し（再志向）」と「経験への受容的態度」の2因子モデルとして科学的に操作化した枠組み。注意調節・感情制御・メタ認知の訓練として理解される。",
+      "impact_summary": "うつ再発予防（MBCT）・慢性痛・不安・消耗症候群への介入効果が多くのRCTで示された。神経科学研究でDMN活動抑制・前帯状皮質の変化との関連が確認。医療・教育・組織に普及。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "第三世代CBT・注意科学",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "RCT・神経画像・自己報告",
+      "application_conditions": "うつ・不安・ストレスの介入；注意制御訓練",
+      "when_to_apply": "臨床介入・職場ウェルビーイング・パフォーマンス向上",
+      "framing_questions": [
+        "このMBSR/MBCT介入は注意制御と再評価のどちらをより強化するか？"
+      ],
+      "opposing_concept_names": [
+        "従来のCBT（思考内容の変化を中心に置く）"
+      ],
+      "keywords_ja": [
+        "マインドフルネス",
+        "MBSR",
+        "MBCT",
+        "注意制御",
+        "現在への気づき"
+      ],
+      "keywords_en": [
+        "mindfulness",
+        "MBSR",
+        "MBCT",
+        "attentional control",
+        "present-moment awareness"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "うつ再発予防d≈0.61；不安・ストレス軽減d≈0.5",
+      "empirical_support": "確立",
+      "originator_name": "カバットジン",
+      "originator_name_en": "Jon Kabat-Zinn",
+      "founding_work_title": "Full Catastrophe Living",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Delacorte"
+    },
+    {
+      "name_ja": "統合情報理論（IIT）",
+      "name_en": "Integrated Information Theory (IIT)",
+      "definition": "トノーニが提唱した意識の数理的理論。意識とは統合された因果構造の量（Φ：ファイ）に等しいとする。Φが大きいシステムは意識を持ち、Φ=0のシステムには意識がない。脳の後部皮質がΦの座とされる。GWTと直接競合する。",
+      "impact_summary": "意識の「困難な問題」に数学的解答を試みた理論として注目。高次思考理論・GWTとの対比で意識研究を活発化。意識指標（PCI）の開発につながり、植物状態患者の評価に応用されつつある。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "意識の数理的理論",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "数理モデル・TMS-EEG（PCI）",
+      "application_conditions": "意識レベルの定量的評価；植物状態・麻酔研究",
+      "when_to_apply": "意識研究・神経科学・AI意識の哲学的議論",
+      "framing_questions": [
+        "このシステムのΦ値は意識の存在を示すか？"
+      ],
+      "opposing_concept_names": [
+        "グローバル・ワークスペース理論",
+        "高次思考理論"
+      ],
+      "keywords_ja": [
+        "統合情報量Φ",
+        "意識",
+        "後部皮質",
+        "PCI",
+        "トノーニ"
+      ],
+      "keywords_en": [
+        "integrated information Phi",
+        "consciousness",
+        "posterior cortex",
+        "PCI",
+        "Tononi"
+      ],
+      "status": "active/contested",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "意識レベルの指標（PCI）として中程度の弁別力",
+      "empirical_support": "部分的支持（哲学的批判も多い）",
+      "originator_name": "トノーニ",
+      "originator_name_en": "Giulio Tononi",
+      "founding_work_title": "Consciousness as Integrated Information: A Provisional Manifesto",
+      "founding_work_year": 2008,
+      "founding_work_venue": "Biological Bulletin"
+    },
+    {
+      "name_ja": "制御過程理論（セルフ・レギュレーション；カーバー＆シェイアー）",
+      "name_en": "Control Process Theory / Self-Regulation (Carver & Scheier)",
+      "definition": "カーバー＆シェイアーが提唱したサイボネティクス的自己制御モデル。人は目標（参照値）と現状の比較を通じてフィードバックループを形成し、差異を縮小（接近目標）または拡大（回避目標）するよう行動する。感情は制御過程のメタモニタリングの産物。",
+      "impact_summary": "自己制御・目標追求・先延ばし・楽観主義の研究に広く応用。カーバー＆シェイアーのBIS/BAS尺度（強化感受性理論と連動）はBIS/BAS研究の標準測定として普及。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "自己制御理論",
+      "era_start": 1982,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究・自己報告",
+      "application_conditions": "目標達成・健康行動維持・先延ばし研究",
+      "when_to_apply": "コーチング・行動変容介入設計",
+      "framing_questions": [
+        "この自己制御の失敗はフィードバックループのどの部分の機能不全か？"
+      ],
+      "opposing_concept_names": [
+        "強化学習モデル（フィードバックなし）"
+      ],
+      "keywords_ja": [
+        "フィードバックループ",
+        "参照値",
+        "自己制御",
+        "目標追求",
+        "楽観主義"
+      ],
+      "keywords_en": [
+        "feedback loop",
+        "reference value",
+        "self-regulation",
+        "goal pursuit",
+        "optimism"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "中〜高",
+      "predictive_power": "目標追求・健康行動を中程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "カーバー、シェイアー",
+      "originator_name_en": "Charles S. Carver, Michael F. Scheier",
+      "founding_work_title": "Control Theory: A Useful Conceptual Framework for Personality-Social, Clinical, and Health Psychology",
+      "founding_work_year": 1982,
+      "founding_work_venue": "Psychological Bulletin"
+    },
+    {
+      "name_ja": "オートポイエーシスと4E認知（ルーマン＋ヴァレラ）",
+      "name_en": "Autopoiesis in Cognitive Science",
+      "definition": "マトゥラーナ＆ヴァレラが生物学から導入した「自己産出（autopoiesis）」概念が認知科学に与えた影響。生命系は自らの構成要素を生産・維持する閉じた組織として定義され、認知は生命システムの自律的維持過程そのものである。エナクティビズムの生物学的基盤。",
+      "impact_summary": "認知を情報処理でなく生命的自律性として捉える転換をもたらした。第二世代サイバネティクス・複雑系研究・体化認知に影響。社会学（ルーマンの社会システム論）にも波及。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "エナクティビズム・複雑系科学",
+      "era_start": 1972,
+      "era_end": null,
+      "methodology_level": "理論・数理生物学",
+      "application_conditions": "認知の境界定義・生命システムとしての認知の理解",
+      "when_to_apply": "AIの意識論・生物学的認知研究の哲学的基盤",
+      "framing_questions": [
+        "この認知システムはオートポイエティックな自律性を持つか？"
+      ],
+      "opposing_concept_names": [
+        "計算主義（外部入出力処理モデル）"
+      ],
+      "keywords_ja": [
+        "オートポイエーシス",
+        "自律性",
+        "エナクティビズム",
+        "閉鎖的組織",
+        "マトゥラーナ"
+      ],
+      "keywords_en": [
+        "autopoiesis",
+        "autonomy",
+        "enactivism",
+        "organizational closure",
+        "Maturana"
+      ],
+      "status": "active（哲学・理論）",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "直接的な実験的予測より理論的枠組みとして機能",
+      "empirical_support": "概念的支持",
+      "originator_name": "マトゥラーナ、ヴァレラ",
+      "originator_name_en": "Humberto R. Maturana, Francisco J. Varela",
+      "founding_work_title": "Autopoiesis and Cognition: The Realization of the Living",
+      "founding_work_year": 1980,
+      "founding_work_venue": "D. Reidel"
+    },
+    {
+      "name_ja": "感情の機能的アセスメント（情動知能応用版）",
+      "name_en": "Emotional Regulation in Clinical Practice (Third-Wave CBT)",
+      "definition": "受容とコミットメント療法（ACT）・弁証法的行動療法（DBT）・マインドフルネス認知療法（MBCT）に代表される「第三世代CBT」の感情制御モデル。感情を変化させるのではなく、感情との関係（脱フュージョン・受容・マインドフルな観察）を変えることで心理的柔軟性を高める。",
+      "impact_summary": "辺縁性人格障害（DBT）・不安・慢性疼痛・うつ（ACT・MBCT）への実証的効果が確認。感情制御の「変化モデル」から「受容モデル」への転換を実践的に体系化。グロスのプロセスモデルとの統合が議論されている。",
+      "subfield": "感情心理学",
+      "school_of_thought": "第三世代認知行動療法",
+      "era_start": 1993,
+      "era_end": null,
+      "methodology_level": "RCT・過程研究",
+      "application_conditions": "感情調節困難・BPD・慢性疼痛・うつの治療",
+      "when_to_apply": "臨床介入・感情調節訓練",
+      "framing_questions": [
+        "この介入は感情の変化か感情との関係の変化を狙うか？"
+      ],
+      "opposing_concept_names": [
+        "古典的CBT（認知の変化が主目標）"
+      ],
+      "keywords_ja": [
+        "ACT",
+        "DBT",
+        "MBCT",
+        "心理的柔軟性",
+        "脱フュージョン"
+      ],
+      "keywords_en": [
+        "ACT",
+        "DBT",
+        "MBCT",
+        "psychological flexibility",
+        "defusion"
+      ],
+      "status": "dominant",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "BPDにDBTでd≈0.50〜0.80；ACTはうつ・不安でCBT同等の効果",
+      "empirical_support": "確立",
+      "originator_name": "ヘイズ（ACT）、リネハン（DBT）",
+      "originator_name_en": "Steven C. Hayes (ACT), Marsha M. Linehan (DBT)",
+      "founding_work_title": "Acceptance and Commitment Therapy / Cognitive-Behavioral Treatment of Borderline Personality Disorder",
+      "founding_work_year": 1993,
+      "founding_work_venue": "Guilford Press"
+    },
+    {
+      "name_ja": "権威主義的パーソナリティ理論",
+      "name_en": "Authoritarian Personality Theory (Adorno et al.)",
+      "definition": "アドルノらが1950年に発表した社会心理学的人格研究。ファシズム的傾向（F尺度）・偏見・権威への盲目的服従・内集団への過同一化・外集団への攻撃性を一つの人格シンドロームとして記述。幼少期の厳格な養育と関連するとされる。",
+      "impact_summary": "ナチズム・独裁主義への心理学的説明として影響大。政治心理学・偏見研究の源流。F尺度の方法論的問題（黙従バイアス）が指摘され、後にアルテマイヤーがRWA（右翼的権威主義）尺度で刷新。今日では政治的保守主義・権威主義研究の基礎文献。",
+      "subfield": "特性論・パーソナリティ構造",
+      "school_of_thought": "批判理論・社会心理学",
+      "era_start": 1950,
+      "era_end": null,
+      "methodology_level": "質問紙・臨床面接・投影法",
+      "application_conditions": "政治的態度・偏見・集団間関係の研究",
+      "when_to_apply": "政治心理学・偏見・過激主義研究",
+      "framing_questions": [
+        "この政治的行動パターンは権威主義的人格と対応するか？"
+      ],
+      "opposing_concept_names": [
+        "個人主義的自律モデル"
+      ],
+      "keywords_ja": [
+        "権威主義的人格",
+        "F尺度",
+        "RWA",
+        "偏見",
+        "服従"
+      ],
+      "keywords_en": [
+        "authoritarian personality",
+        "F-scale",
+        "RWA",
+        "prejudice",
+        "obedience"
+      ],
+      "status": "classic/active（RWAとして更新）",
+      "source_reliability": "中〜高",
+      "data_completeness": "中〜高",
+      "predictive_power": "偏見・政治的態度を中程度予測",
+      "empirical_support": "部分的支持（F尺度は方法論的批判；RWAは支持）",
+      "originator_name": "アドルノ、フレンケル-ブランズウィック、レビンソン、サンフォード",
+      "originator_name_en": "Theodor W. Adorno, Else Frenkel-Brunswik, Daniel J. Levinson, R. Nevitt Sanford",
+      "founding_work_title": "The Authoritarian Personality",
+      "founding_work_year": 1950,
+      "founding_work_venue": "Harper & Row"
+    },
+    {
+      "name_ja": "コンパッション焦点療法（CFT）",
+      "name_en": "Compassion-Focused Therapy (CFT)",
+      "definition": "ポール・ギルバートが提唱した、恥・自己批判に基づく精神病理に対する進化的・神経科学的根拠を持つ療法。三つの感情調節システム（脅威・駆動・落ち着き/ケア）を統合し、自己へのコンパッション（自己慈悲）の育成を中核とする。",
+      "impact_summary": "恥・自己批判が中心の精神病理（うつ・BPD・外傷後ストレス）への介入効果が確認されつつある。マインドフルネス・第三世代CBT・進化心理学・愛着理論の統合として注目。",
+      "subfield": "感情心理学",
+      "school_of_thought": "第三世代CBT・進化的心理療法",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "RCT・過程研究",
+      "application_conditions": "高い自己批判・恥・自己嫌悪を持つ患者",
+      "when_to_apply": "うつ・BPD・摂食障害の臨床介入",
+      "framing_questions": [
+        "この患者の苦しみの中心は自己批判と恥か？"
+      ],
+      "opposing_concept_names": [
+        "認知再構成中心のCBT"
+      ],
+      "keywords_ja": [
+        "コンパッション",
+        "自己批判",
+        "恥",
+        "三つの感情システム",
+        "自己慈悲"
+      ],
+      "keywords_en": [
+        "compassion",
+        "self-criticism",
+        "shame",
+        "three affect regulation systems",
+        "self-compassion"
+      ],
+      "status": "active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "恥・自己批判の低減とウェルビーイング改善を中程度予測",
+      "empirical_support": "支持あり（蓄積中）",
+      "originator_name": "ポール・ギルバート",
+      "originator_name_en": "Paul Gilbert",
+      "founding_work_title": "Compassion-Focused Therapy",
+      "founding_work_year": 2010,
+      "founding_work_venue": "Routledge"
+    },
+    {
+      "name_ja": "多感覚統合理論（マクガーク効果・クロスモーダル）",
+      "name_en": "Multisensory Integration (McGurk Effect / Cross-Modal Processing)",
+      "definition": "脳が複数の感覚モダリティ（視覚・聴覚・触覚など）から入力された信号を最大事後確率推定（ベイズ的統合）によって統合する過程。マクガーク効果（視覚と聴覚の矛盾が知覚を変化させる）が代表的証拠。スタインとメレディスが神経基盤を特定。",
+      "impact_summary": "感覚処理の受動性から能動的統合処理への認識転換。VR・AR・リハビリテーション（義肢感覚統合）・感覚統合障害（ASD）研究に応用。予測コーディングの感覚統合への応用として理論的発展。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "知覚神経科学・ベイズ脳理論",
+      "era_start": 1976,
+      "era_end": null,
+      "methodology_level": "実験・神経画像・電気生理",
+      "application_conditions": "感覚統合の研究・VR/AR設計・リハビリテーション",
+      "when_to_apply": "HCI・感覚処理障害の評価・神経リハビリ",
+      "framing_questions": [
+        "この知覚判断はどのようなモダリティ間の統合によって生じているか？"
+      ],
+      "opposing_concept_names": [
+        "感覚モダリティの独立処理モデル"
+      ],
+      "keywords_ja": [
+        "多感覚統合",
+        "マクガーク効果",
+        "クロスモーダル",
+        "ベイズ統合",
+        "感覚融合"
+      ],
+      "keywords_en": [
+        "multisensory integration",
+        "McGurk effect",
+        "cross-modal",
+        "Bayesian integration",
+        "sensory fusion"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "感覚統合の結果を確率論的に予測",
+      "empirical_support": "確立",
+      "originator_name": "マクガーク＆マクドナルド",
+      "originator_name_en": "Harry McGurk, John MacDonald",
+      "founding_work_title": "Hearing Lips and Seeing Voices",
+      "founding_work_year": 1976,
+      "founding_work_venue": "Nature"
+    },
+    {
+      "name_ja": "ニューロイメージングに基づく疼痛の社会的排除モデル",
+      "name_en": "Social Pain Theory (Eisenberger & Lieberman)",
+      "definition": "アイゼンバーガー＆リーバーマンが提唱した社会的疼痛理論。サイバーボール実験（オンライン排除）で、社会的排除が身体的疼痛と同じ神経基盤（前部帯状皮質・前島）を活性化することを実証。社会的絆の維持に身体的疼痛警告システムが転用された進化的仮説。",
+      "impact_summary": "「傷ついた」という比喩が神経科学的に文字通りであることを示した。社会的孤立・いじめ・失恋の神経基盤研究に影響。鎮痛薬（アセトアミノフェン）が社会的痛みも軽減する知見が話題に。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "社会認知神経科学",
+      "era_start": 2003,
+      "era_end": null,
+      "methodology_level": "fMRI・サイバーボール実験",
+      "application_conditions": "社会的排除・孤独・いじめの神経基盤研究",
+      "when_to_apply": "社会的絆・孤独・いじめ研究",
+      "framing_questions": [
+        "この社会的排除体験はどの神経回路で処理されているか？"
+      ],
+      "opposing_concept_names": [
+        "感情と身体感覚の独立モデル"
+      ],
+      "keywords_ja": [
+        "社会的疼痛",
+        "前部帯状皮質",
+        "サイバーボール",
+        "社会的排除",
+        "身体的疼痛との共通基盤"
+      ],
+      "keywords_en": [
+        "social pain",
+        "anterior cingulate cortex",
+        "Cyberball",
+        "social exclusion",
+        "shared neural basis"
+      ],
+      "status": "active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中",
+      "predictive_power": "社会的排除後の苦悩と前部帯状皮質活動の関連を中程度予測",
+      "empirical_support": "支持あり（一部の知見は再現性が問題）",
+      "originator_name": "アイゼンバーガー、リーバーマン",
+      "originator_name_en": "Naomi I. Eisenberger, Matthew D. Lieberman",
+      "founding_work_title": "Does Rejection Hurt? An fMRI Study of Social Exclusion",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Science"
+    },
+    {
+      "name_ja": "精神病質の神経心理学的モデル（ヘア）",
+      "name_en": "Psychopathy: Neuropsychological Model (Hare)",
+      "definition": "ロバート・ヘアが開発したPCL-R（精神病質チェックリスト改訂版）を測定ツールとし、精神病質の中核特性（感情的離脱・衝動性・反社会的行動）の神経心理学的基盤（扁桃体機能不全・腹内側前頭前野障害・恐怖処理欠如）を記述するモデル。",
+      "impact_summary": "法医学・犯罪心理学・裁判鑑定の標準的ツールとしてPCL-Rが確立。精神病質の神経科学研究（恐怖反応の欠如・共感脳の低活動）に多大な影響。ダークトライアド・サブクリニカル精神病質研究の基盤。",
+      "subfield": "神経心理学",
+      "school_of_thought": "法医学的神経心理学",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "臨床面接・PCL-R評価・神経画像",
+      "application_conditions": "法医学的評価・危険性アセスメント・精神病質研究",
+      "when_to_apply": "裁判鑑定・矯正施設・精神病質の神経科学研究",
+      "framing_questions": [
+        "PCL-Rスコアは再犯リスクを予測するか？"
+      ],
+      "opposing_concept_names": [
+        "反社会性人格障害DSM診断（行動のみを基準とする）"
+      ],
+      "keywords_ja": [
+        "精神病質",
+        "PCL-R",
+        "恐怖欠如",
+        "扁桃体機能不全",
+        "共感欠如"
+      ],
+      "keywords_en": [
+        "psychopathy",
+        "PCL-R",
+        "fear deficit",
+        "amygdala dysfunction",
+        "empathy deficit"
+      ],
+      "status": "dominant（法医学領域）",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "再犯・暴力リスクをr≈0.27〜0.35で予測",
+      "empirical_support": "確立",
+      "originator_name": "ロバート・ヘア",
+      "originator_name_en": "Robert D. Hare",
+      "founding_work_title": "The Hare Psychopathy Checklist-Revised",
+      "founding_work_year": 1991,
+      "founding_work_venue": "Multi-Health Systems"
+    },
+    {
+      "name_ja": "ポリヴェーガル理論（ポージェス）",
+      "name_en": "Polyvagal Theory (Porges)",
+      "definition": "ポージェスが提唱した自律神経系の進化的3段階モデル。背側迷走神経（凍結反応）・交感神経（闘争-逃走）・腹側迷走神経（社会的関与システム：顔-心臓連結）の階層的活性化が感情・社会的行動・トラウマ反応を決定するとする。",
+      "impact_summary": "トラウマ・PTSD・自閉スペクトラム・解離の治療において「身体」への注目を促進。ソマティックな心理療法（ソマティック・エクスペリエンシング・SE）の理論的基盤として広まった。ただし一部の神経解剖学的主張への批判がある。",
+      "subfield": "神経心理学",
+      "school_of_thought": "自律神経系・進化的神経生理学",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "生理測定（HRV）・動物研究・臨床観察",
+      "application_conditions": "トラウマ・PTSD・自閉スペクトラムの治療",
+      "when_to_apply": "トラウマ療法・身体志向心理療法",
+      "framing_questions": [
+        "この患者の反応は凍結・闘争逃走・社会的関与のどの状態か？"
+      ],
+      "opposing_concept_names": [
+        "従来の2段階自律神経モデル（交感-副交感のみ）"
+      ],
+      "keywords_ja": [
+        "腹側迷走神経",
+        "社会的関与システム",
+        "凍結反応",
+        "HRV",
+        "トラウマ"
+      ],
+      "keywords_en": [
+        "ventral vagus",
+        "social engagement system",
+        "freeze response",
+        "HRV",
+        "trauma"
+      ],
+      "status": "active/contested",
+      "source_reliability": "中",
+      "data_completeness": "中",
+      "predictive_power": "HRVとウェルビーイング・社会的行動の関連は中程度確認；神経解剖学的主張は批判あり",
+      "empirical_support": "部分的支持",
+      "originator_name": "スティーヴン・ポージェス",
+      "originator_name_en": "Stephen W. Porges",
+      "founding_work_title": "Orienting in a Defensive World: Mammalian Modifications of Our Evolutionary Heritage",
+      "founding_work_year": 1995,
+      "founding_work_venue": "Psychophysiology"
+    },
+    {
+      "name_ja": "物語的自己論（ガルヴァーノ）",
+      "name_en": "Narrative Self and Temporal Identity",
+      "definition": "リクール・ギャラガーらが哲学的に展開し心理学と接続した自己の時間的連続性の理論。自己には「最小自己（min self：刻々の体験の持ち主）」と「ナラティブ自己（narrative self：時間的連続性を持つ自伝的構成体）」の2層があるとする。4E認知と統合される。",
+      "impact_summary": "解離・健忘・認知症における自己感覚の変容を記述する枠組みを提供。「自己は構成された物語」という構成主義的自己論の神経現象学版として影響。マクアダムスのナラティブ・アイデンティティとの接続。",
+      "subfield": "認知神経科学",
+      "school_of_thought": "現象学的神経科学・4E認知",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "哲学的分析・神経現象学・臨床観察",
+      "application_conditions": "自己感覚の変容・解離・記憶障害の理解",
+      "when_to_apply": "臨床神経心理学・哲学的心理学研究",
+      "framing_questions": [
+        "この患者の自己感覚の変容は最小自己かナラティブ自己の層の問題か？"
+      ],
+      "opposing_concept_names": [
+        "不変的本質的自己論"
+      ],
+      "keywords_ja": [
+        "最小自己",
+        "ナラティブ自己",
+        "自伝的記憶",
+        "時間的アイデンティティ",
+        "解離"
+      ],
+      "keywords_en": [
+        "minimal self",
+        "narrative self",
+        "autobiographical memory",
+        "temporal identity",
+        "dissociation"
+      ],
+      "status": "active（理論的）",
+      "source_reliability": "高",
+      "data_completeness": "中",
+      "predictive_power": "哲学的・概念的枠組みとして有用；定量的予測は限定",
+      "empirical_support": "概念的支持",
+      "originator_name": "ギャラガー、リクール",
+      "originator_name_en": "Shaun Gallagher; Paul Ricoeur",
+      "founding_work_title": "The Self in Question",
+      "founding_work_year": 2000,
+      "founding_work_venue": "Journal of Consciousness Studies"
+    },
+    {
+      "name_ja": "超自我・内面化された道徳基準（精神分析的発達論）",
+      "name_en": "Moral Development and Internalization of Standards",
+      "definition": "フロイト→コールバーグ→ホフマンへと続く道徳内面化の発達理論。フロイトは超自我の形成として、コールバーグは認知的段階として（慣習以前・慣習・脱慣習）、ホフマンは共感の発達と罪悪感の役割として道徳発達を記述。",
+      "impact_summary": "道徳教育・裁判判断・社会化の心理学的基盤として重要。コールバーグの道徳判断面接は多文化研究に応用。ギリガンの「ケアの倫理」がコールバーグへの性差批判として登場。",
+      "subfield": "動機・自己・人間性",
+      "school_of_thought": "発達心理学・道徳心理学",
+      "era_start": 1958,
+      "era_end": null,
+      "methodology_level": "面接・ジレンマ課題・縦断研究",
+      "application_conditions": "道徳的発達の評価・倫理的意思決定研究",
+      "when_to_apply": "教育・法的判断・倫理研究",
+      "framing_questions": [
+        "この行動者の道徳判断はどの発達段階に対応するか？"
+      ],
+      "opposing_concept_names": [
+        "道徳的直感主義（ハイト）"
+      ],
+      "keywords_ja": [
+        "道徳発達",
+        "コールバーグ段階",
+        "超自我",
+        "共感",
+        "罪悪感"
+      ],
+      "keywords_en": [
+        "moral development",
+        "Kohlberg stages",
+        "superego",
+        "empathy",
+        "guilt"
+      ],
+      "status": "classic/active",
+      "source_reliability": "中〜高",
+      "data_completeness": "中〜高",
+      "predictive_power": "道徳判断の段階と親社会的行動を中程度予測",
+      "empirical_support": "部分的支持",
+      "originator_name": "コールバーグ",
+      "originator_name_en": "Lawrence Kohlberg",
+      "founding_work_title": "The Development of Modes of Moral Thinking and Choice in the Years 10 to 16",
+      "founding_work_year": 1958,
+      "founding_work_venue": "University of Chicago (dissertation)"
+    },
+    {
+      "name_ja": "道徳基盤理論（ハイト）",
+      "name_en": "Moral Foundations Theory (Haidt)",
+      "definition": "ハイト＆ジョセフが提唱した道徳の進化的・文化的構造理論。危害/ケア・公正/互恵・忠誠/裏切り・権威/転覆・純粋さ/卑劣の5（後に6）つの道徳基盤が普遍的な心理的道徳モジュールに対応し、文化・政治的イデオロギーによって異なる重みで使用されるとする。",
+      "impact_summary": "政治的分断（リベラルvs保守）の心理的説明として大きな影響。「リベラルは危害と公正に依拠し、保守は全6基盤を使用する」という知見は政治心理学・教育・対話設計に応用。",
+      "subfield": "進化心理学",
+      "school_of_thought": "道徳心理学・進化心理学",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "調査・実験・文化比較",
+      "application_conditions": "道徳的・政治的多様性の理解；対話設計",
+      "when_to_apply": "政治心理学・組織倫理・社会分断の研究",
+      "framing_questions": [
+        "このメッセージはどの道徳基盤に訴求しているか？"
+      ],
+      "opposing_concept_names": [
+        "コールバーグの認知発達的道徳論（危害と公正のみを重視）"
+      ],
+      "keywords_ja": [
+        "道徳基盤",
+        "危害/ケア",
+        "公正",
+        "忠誠",
+        "純粋さ",
+        "保守とリベラル"
+      ],
+      "keywords_en": [
+        "moral foundations",
+        "harm/care",
+        "fairness",
+        "loyalty",
+        "purity",
+        "conservative vs liberal"
+      ],
+      "status": "active",
+      "source_reliability": "高",
+      "data_completeness": "高",
+      "predictive_power": "政治的態度・道徳的判断を中〜高程度予測",
+      "empirical_support": "支持あり",
+      "originator_name": "ジョナサン・ハイト",
+      "originator_name_en": "Jonathan Haidt",
+      "founding_work_title": "The Moral Emotions",
+      "founding_work_year": 2003,
+      "founding_work_venue": "Handbook of Affective Sciences (Oxford)"
+    }
+  ]
+}

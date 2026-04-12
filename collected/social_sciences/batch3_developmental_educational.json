@@ -1,0 +1,3906 @@
+{
+  "domain": "social_sciences",
+  "concepts": [
+    {
+      "name_ja": "ピアジェの認知発達段階論",
+      "name_en": "Piaget's Theory of Cognitive Development",
+      "definition": "子どもの認知は感覚運動期（0〜2歳）、前操作期（2〜7歳）、具体的操作期（7〜11歳）、形式的操作期（11歳〜）の4段階を順序不変に通過して発達するという構成主義的理論。同化・調節・均衡化の過程を通じてスキーマが更新される。",
+      "impact_summary": "20世紀教育心理学最大の理論的枠組みを提供し、発見学習・構成主義教育の基盤となった。認知発達研究の実証的研究パラダイムを確立し、後の情報処理論・新ピアジェ派に多大な影響を与えた。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "構成主義・認知発達論",
+      "era_start": 1952,
+      "era_end": null,
+      "methodology_level": "観察・実験・臨床的面接",
+      "application_conditions": "子どもの現在の認知発達段階を診断したうえで、段階に合った教材・発問・課題を設定する場面",
+      "when_to_apply": "就学前〜中学校段階の教育設計、カリキュラム開発、認知評価",
+      "framing_questions": [
+        "この子どもは今どの発達段階にいるか？",
+        "この課題は子どもの認知水準と合っているか？"
+      ],
+      "opposing_concept_names": [
+        "ヴィゴツキーの社会文化理論",
+        "行動主義学習理論",
+        "成熟主義"
+      ],
+      "keywords_ja": [
+        "スキーマ",
+        "同化",
+        "調節",
+        "均衡化",
+        "保存概念",
+        "自己中心性"
+      ],
+      "keywords_en": [
+        "schema",
+        "assimilation",
+        "accommodation",
+        "equilibration",
+        "conservation",
+        "egocentrism"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "段階の順序性は文化横断的に支持。ただし段階の出現年齢は文化・課題・訓練により前後する。",
+      "empirical_support": "supported",
+      "originator_name": "ジャン・ピアジェ",
+      "originator_name_en": "Jean Piaget",
+      "founding_work_title": "The Origins of Intelligence in Children",
+      "founding_work_year": 1952,
+      "founding_work_venue": "International Universities Press"
+    },
+    {
+      "name_ja": "愛着理論（ボウルビィ）",
+      "name_en": "Attachment Theory (Bowlby)",
+      "definition": "乳幼児が主要養育者に対して形成する情動的絆（愛着）が、進化的適応としてプログラムされており、内的作業モデル（IWM）として対人関係・情動調整の鋳型を形成するという理論。分離不安・安全基地・探索行動の概念を核とする。",
+      "impact_summary": "20世紀の発達・臨床・社会心理学最大の理論的影響を持ち、育児政策・施設養育改革・精神保健臨床の基盤となった。エインズワースの実験、成人愛着研究、メンタライゼーション理論へと接続した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "進化的発達論・精神分析統合",
+      "era_start": 1958,
+      "era_end": null,
+      "methodology_level": "縦断的観察・実験・AAI（成人愛着面接）",
+      "application_conditions": "養育環境の評価・親子支援・施設養育・心理療法の関係性基盤",
+      "when_to_apply": "乳幼児期の発達支援、早期介入プログラム、心理療法、親訓練",
+      "framing_questions": [
+        "この子どもは安全基地を持っているか？",
+        "内的作業モデルはどのように形成されているか？"
+      ],
+      "opposing_concept_names": [
+        "フロイトの口唇欲求説",
+        "行動主義的条件付け理論",
+        "成熟主義"
+      ],
+      "keywords_ja": [
+        "安全基地",
+        "内的作業モデル",
+        "分離不安",
+        "愛着行動システム",
+        "親密性"
+      ],
+      "keywords_en": [
+        "secure base",
+        "internal working model",
+        "separation anxiety",
+        "attachment behavioral system",
+        "proximity seeking"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "愛着安定性は後の情動調整・仲間関係・学業達成を中程度に予測。d=0.30〜0.50の範囲。",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・ボウルビィ",
+      "originator_name_en": "John Bowlby",
+      "founding_work_title": "The nature of the child's tie to his mother",
+      "founding_work_year": 1958,
+      "founding_work_venue": "International Journal of Psychoanalysis"
+    },
+    {
+      "name_ja": "愛着分類理論（エインズワース）",
+      "name_en": "Strange Situation Procedure and Attachment Classifications (Ainsworth)",
+      "definition": "ストレンジ・シチュエーション法（SSP）を用いて乳児の愛着を安定型（B）・回避型（A）・アンビバレント型（C）に分類し、後にメイン＆ソロモンが無秩序型（D）を追加した実証的枠組み。母親の感受性が愛着安定性の主要予測因子とされる。",
+      "impact_summary": "愛着理論を実験的に検証可能にし、個人差研究の「金標準」を提供。数十年にわたる縦断研究・介入研究を生み出し、発達・臨床心理学に変革をもたらした。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "愛着理論・発達心理学実証主義",
+      "era_start": 1969,
+      "era_end": null,
+      "methodology_level": "実験的観察（SSP）・縦断研究",
+      "application_conditions": "乳幼児の愛着分類、養育者感受性の評価、早期介入効果測定",
+      "when_to_apply": "乳幼児期（9〜18か月）の愛着評価、育児支援プログラム評価",
+      "framing_questions": [
+        "子どもは養育者を安全基地として活用しているか？",
+        "再会場面で子どもはどのように反応するか？"
+      ],
+      "opposing_concept_names": [
+        "気質優先論",
+        "ハーロウの接触快適性理論（補完）"
+      ],
+      "keywords_ja": [
+        "ストレンジ・シチュエーション",
+        "安定型",
+        "回避型",
+        "アンビバレント型",
+        "無秩序型",
+        "感受性"
+      ],
+      "keywords_en": [
+        "Strange Situation",
+        "secure",
+        "avoidant",
+        "ambivalent",
+        "disorganized",
+        "maternal sensitivity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "安定型は就学後の社会的適応・学業成績を中程度予測。r=0.20〜0.40。",
+      "empirical_support": "supported",
+      "originator_name": "メアリー・エインズワース",
+      "originator_name_en": "Mary Ainsworth",
+      "founding_work_title": "Infancy in Uganda: Infant Care and the Growth of Love",
+      "founding_work_year": 1967,
+      "founding_work_venue": "Johns Hopkins University Press"
+    },
+    {
+      "name_ja": "心の理論（フォルス・ビリーフ）",
+      "name_en": "Theory of Mind (False Belief)",
+      "definition": "他者が自分とは異なる信念・意図・欲望・感情を持つことを理解し、他者の行動をその心的状態から予測・説明する能力。ウィマーとパーナーのフォルス・ビリーフ課題が発達の指標として確立。サリー・アン課題での4歳前後の通過が典型的発達の目安。",
+      "impact_summary": "ASD認知理論・共感研究・社会的認知発達研究の中枢概念となった。バロン＝コーエン、フリスらによるASD研究で「心盲」仮説の基盤として国際的に発展。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "認知発達論・社会的認知",
+      "era_start": 1978,
+      "era_end": null,
+      "methodology_level": "実験（フォルス・ビリーフ課題・サリー・アン課題）",
+      "application_conditions": "社会的認知の発達的評価、ASD診断・支援、共感・道徳教育",
+      "when_to_apply": "3〜5歳の社会的認知発達評価、ASD支援プログラム設計",
+      "framing_questions": [
+        "子どもは他者の誤った信念を理解できるか？",
+        "社会的行動の背景に心的状態推論があるか？"
+      ],
+      "opposing_concept_names": [
+        "シミュレーション理論",
+        "心盲仮説への反論（ネストレンジャーら）"
+      ],
+      "keywords_ja": [
+        "フォルス・ビリーフ",
+        "心盲",
+        "サリー・アン課題",
+        "誤信念",
+        "心的状態"
+      ],
+      "keywords_en": [
+        "false belief",
+        "mindblindness",
+        "Sally-Anne task",
+        "mental state attribution",
+        "intentionality"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "4歳通過率は後の社会的適応・言語・道徳発達と中程度相関。",
+      "empirical_support": "supported",
+      "originator_name": "ハインツ・ウィマーとヨゼフ・パーナー",
+      "originator_name_en": "Heinz Wimmer and Josef Perner",
+      "founding_work_title": "Beliefs about beliefs: Representation and constraining function of wrong beliefs in young children's understanding of deception",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Cognition"
+    },
+    {
+      "name_ja": "言語習得装置理論（チョムスキー）",
+      "name_en": "Language Acquisition Device (Chomsky)",
+      "definition": "人間には生得的な普遍文法（UG）を処理するための生物学的に規定された言語習得装置（LAD）が存在し、これが貧困刺激論拠（貧しい入力からでも文法規則を習得できる事実）を説明するという生得論的理論。",
+      "impact_summary": "行動主義的言語学習観を覆し、認知言語学・生成文法・神経言語学の発展を促した。言語発達研究の理論的出発点として世界中の研究者に影響を与えた。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "生得論・生成文法",
+      "era_start": 1959,
+      "era_end": null,
+      "methodology_level": "理論的・言語学的分析、跨言語比較",
+      "application_conditions": "言語習得の生得的基盤を仮定する研究・教育設計",
+      "when_to_apply": "言語発達の正常・逸脱評価、第二言語習得理論の比較",
+      "framing_questions": [
+        "子どもが受けている言語入力は習得を完全に説明できるか？",
+        "普遍的文法規則は環境から学べるか？"
+      ],
+      "opposing_concept_names": [
+        "トマセロの用法基盤理論",
+        "ブルーナーのLASS",
+        "行動主義スキナー理論"
+      ],
+      "keywords_ja": [
+        "普遍文法",
+        "言語習得装置",
+        "貧困刺激論拠",
+        "生得論",
+        "変形生成文法"
+      ],
+      "keywords_en": [
+        "Universal Grammar",
+        "Language Acquisition Device",
+        "poverty of stimulus",
+        "nativism",
+        "transformational generative grammar"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "神経画像研究・言語障害研究で部分的支持。ただしUGの神経基盤は特定されていない。",
+      "empirical_support": "contested",
+      "originator_name": "ノーム・チョムスキー",
+      "originator_name_en": "Noam Chomsky",
+      "founding_work_title": "A Review of B. F. Skinner's Verbal Behavior",
+      "founding_work_year": 1959,
+      "founding_work_venue": "Language"
+    },
+    {
+      "name_ja": "用法基盤言語習得理論（トマセロ）",
+      "name_en": "Usage-Based Theory of Language Acquisition (Tomasello)",
+      "definition": "子どもは生得的文法規則ではなく、他者の伝達意図を理解する共同注意・模倣・パターン抽出能力を通じて、実際に使用された言語例から徐々に文法を構築するという構成主義的言語習得理論。",
+      "impact_summary": "チョムスキー生得論への最大の対抗理論として、認知言語学・発達語用論・言語類型論研究に革命をもたらした。共同注意研究・文化学習理論との統合により実証研究が急拡大した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "構成主義・認知言語学",
+      "era_start": 1992,
+      "era_end": null,
+      "methodology_level": "縦断的観察・実験・コーパス分析",
+      "application_conditions": "言語療法・第二言語教育・言語発達評価",
+      "when_to_apply": "語用論的・文法的発達支援、言語障害の機能的評価",
+      "framing_questions": [
+        "子どもは特定の動詞フレームをどのように一般化しているか？",
+        "共同注意の発達と語彙習得の関係は？"
+      ],
+      "opposing_concept_names": [
+        "チョムスキーの普遍文法・LAD",
+        "ピンカーの言語本能論"
+      ],
+      "keywords_ja": [
+        "共同注意",
+        "伝達意図理解",
+        "スキーマ構築",
+        "項目基盤学習",
+        "文化学習"
+      ],
+      "keywords_en": [
+        "joint attention",
+        "communicative intention",
+        "item-based learning",
+        "construction grammar",
+        "cultural learning"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "共同注意スコアが語彙習得速度を中〜高程度で予測（r=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "マイケル・トマセロ",
+      "originator_name_en": "Michael Tomasello",
+      "founding_work_title": "First Verbs: A Case Study of Early Grammatical Development",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Cambridge University Press"
+    },
+    {
+      "name_ja": "言語習得支援システム（ブルーナー）",
+      "name_en": "Language Acquisition Support System (Bruner)",
+      "definition": "チョムスキーのLAD（言語習得装置）を補完するものとして、養育者が子どもとのやり取りにおいて提供する構造化された社会的・言語的文脈（日課、ゲーム、共同注視）がLASSを構成し、言語発達を支えるという理論。",
+      "impact_summary": "社会語用論的言語発達研究の先駆けとなり、親子相互作用・足場かけ研究・共同注意研究へと接続した。ブルーナーの発達理論の重要な柱として文化的学習研究に影響を与えた。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "社会文化的発達論・構成主義",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "自然観察・縦断的事例研究",
+      "application_conditions": "親子相互作用の言語的質の評価、早期言語介入プログラム設計",
+      "when_to_apply": "乳幼児期の言語発達支援、言語遅滞の予防的介入",
+      "framing_questions": [
+        "養育者は日常的にどのような言語的足場かけを提供しているか？",
+        "共同注意場面での言語入力の質はどうか？"
+      ],
+      "opposing_concept_names": [
+        "チョムスキーの生得論（LAD単独説）"
+      ],
+      "keywords_ja": [
+        "足場かけ",
+        "日課",
+        "共同注視",
+        "フォーマット",
+        "社会的相互作用"
+      ],
+      "keywords_en": [
+        "scaffolding",
+        "joint attention",
+        "format",
+        "social interaction",
+        "language routines"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "親の言語的感受性と子の語彙発達の相関は中程度（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "ジェローム・ブルーナー",
+      "originator_name_en": "Jerome Bruner",
+      "founding_work_title": "Child's Talk: Learning to Use Language",
+      "founding_work_year": 1983,
+      "founding_work_venue": "W.W. Norton"
+    },
+    {
+      "name_ja": "コールバーグの道徳発達段階論",
+      "name_en": "Kohlberg's Stages of Moral Development",
+      "definition": "道徳的推論は前慣習的（罰回避・利己的交換）、慣習的（良い子・法と秩序）、後慣習的（社会契約・普遍的原則）の3水準6段階を段階的に発達するというピアジェ拡張理論。ハインツのジレンマを用いた面接法で測定。",
+      "impact_summary": "道徳教育研究・発達倫理学の基盤を提供し、60年代以降の道徳心理学を支配した。ギリガンの批判を経て「ケアの倫理」論争を生み、道徳発達研究の多様化を促した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "認知発達的道徳論",
+      "era_start": 1958,
+      "era_end": null,
+      "methodology_level": "面接（道徳的ジレンマ）・縦断的研究",
+      "application_conditions": "道徳教育カリキュラム設計、道徳的推論の発達評価",
+      "when_to_apply": "学校教育での道徳授業設計、青年期・成人期の市民教育",
+      "framing_questions": [
+        "この人物の道徳的推論はどの段階にあるか？",
+        "公正と権利の観点からどう判断しているか？"
+      ],
+      "opposing_concept_names": [
+        "ギリガンのケアの倫理",
+        "ハイトの道徳基盤理論",
+        "社会直観主義"
+      ],
+      "keywords_ja": [
+        "前慣習的",
+        "慣習的",
+        "後慣習的",
+        "ハインツのジレンマ",
+        "公正原則"
+      ],
+      "keywords_en": [
+        "preconventional",
+        "conventional",
+        "postconventional",
+        "Heinz dilemma",
+        "justice principle"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "道徳的推論段階と道徳的行動の相関は低〜中程度（r=0.25〜0.40）。文化普遍性については議論継続中。",
+      "empirical_support": "contested",
+      "originator_name": "ローレンス・コールバーグ",
+      "originator_name_en": "Lawrence Kohlberg",
+      "founding_work_title": "The Development of Modes of Moral Thinking and Choice in the Years 10 to 16",
+      "founding_work_year": 1958,
+      "founding_work_venue": "Doctoral dissertation, University of Chicago"
+    },
+    {
+      "name_ja": "ケアの倫理（ギリガン）",
+      "name_en": "Ethics of Care (Gilligan)",
+      "definition": "コールバーグの公正倫理は男性中心であり、女性には関係性・応答性・責任を中心とした「ケアの倫理」という異なる道徳的声がある、という異議申し立て理論。生存志向→慣習的ケア→統合的ケアの3段階を提唱。",
+      "impact_summary": "フェミニスト倫理学・ジェンダー心理学の礎石となり、道徳発達研究における文化的・ジェンダー的多様性への視点を開いた。ケア倫理は看護・福祉・教育の職業倫理に応用された。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "フェミニスト発達論・関係論的倫理",
+      "era_start": 1982,
+      "era_end": null,
+      "methodology_level": "質的面接・ナラティブ分析",
+      "application_conditions": "ジェンダーに配慮した道徳教育、対人的ケアが問われる臨床・福祉文脈",
+      "when_to_apply": "女性・マイノリティの道徳発達評価、関係性重視の倫理教育",
+      "framing_questions": [
+        "この判断は公正（権利）ではなくケア（関係性）の観点から何を示しているか？",
+        "傷つく人への応答性がどう配慮されているか？"
+      ],
+      "opposing_concept_names": [
+        "コールバーグの公正倫理",
+        "普遍主義的道徳哲学"
+      ],
+      "keywords_ja": [
+        "ケアの倫理",
+        "関係性",
+        "応答性",
+        "責任",
+        "異なる声"
+      ],
+      "keywords_en": [
+        "ethics of care",
+        "relationality",
+        "responsiveness",
+        "responsibility",
+        "different voice"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "ケア志向の道徳推論と思いやり行動の相関は中程度。ジェンダー差については研究ごとに結果が異なる。",
+      "empirical_support": "supported",
+      "originator_name": "キャロル・ギリガン",
+      "originator_name_en": "Carol Gilligan",
+      "founding_work_title": "In a Different Voice: Psychological Theory and Women's Development",
+      "founding_work_year": 1982,
+      "founding_work_venue": "Harvard University Press"
+    },
+    {
+      "name_ja": "社会的参照",
+      "name_en": "Social Referencing",
+      "definition": "8〜12か月頃の乳児が不確かな状況において養育者の表情・声・身振りを参照し、その情動的シグナルに基づいて自分の行動（接近・回避）を調整する発達的能力。感情の社会的調整の最初期形態。",
+      "impact_summary": "情動発達・社会的認知・愛着理論の接点として多数の縦断・実験研究を生み出した。安全基地行動・共同注意との連続線上で乳児の社会的認知発達を説明する重要概念となった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "発達社会心理学・情動発達論",
+      "era_start": 1981,
+      "era_end": null,
+      "methodology_level": "実験的観察（ビジュアルクリフ・新奇物体課題）",
+      "application_conditions": "乳幼児の情動発達評価、不安・恐怖反応の発達的理解",
+      "when_to_apply": "8〜18か月の社会的認知発達評価、発達支援・親訓練",
+      "framing_questions": [
+        "乳児は養育者の情動シグナルをどの程度活用しているか？",
+        "表情認知と行動調整の連動はいつ確立するか？"
+      ],
+      "opposing_concept_names": [
+        "直接知覚論（ギブソン）",
+        "自律的情動調整理論"
+      ],
+      "keywords_ja": [
+        "情動的シグナル",
+        "不確実状況",
+        "接近・回避",
+        "乳児",
+        "表情参照"
+      ],
+      "keywords_en": [
+        "emotional signal",
+        "uncertainty",
+        "approach-avoidance",
+        "infant",
+        "facial expression referencing"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "社会的参照能力は後の共同注意・言語発達・ASD リスク指標として中程度の予測力。",
+      "empirical_support": "supported",
+      "originator_name": "メアリー・クリニート（フェインマンとの共著）",
+      "originator_name_en": "Mary Klinnert (with James Feinman)",
+      "founding_work_title": "Social referencing: The infant's use of emotional signals from a friendly adult with mother present",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Developmental Psychology"
+    },
+    {
+      "name_ja": "気質理論（トーマス・チェス）",
+      "name_en": "Temperament Theory (Thomas and Chess)",
+      "definition": "乳児期から観察される生物学的に根拠を持つ反応スタイルの個人差を気質とし、扱いやすい・扱いにくい・慣れるのが遅いの3類型（9次元の評価基盤）に分類。「適合性の良さ」（環境と気質の適合度）が適応の鍵概念。",
+      "impact_summary": "乳幼児研究における個人差視点を確立し、気質・親子相互作用・発達精神病理学の研究を牽引した。カーガンの行動抑制気質研究・ビッグファイブ気質論への基盤となった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "生物学的発達論・個人差心理学",
+      "era_start": 1963,
+      "era_end": null,
+      "methodology_level": "親への構造化面接・縦断的観察（NYLSプロジェクト）",
+      "application_conditions": "乳幼児の行動問題の早期評価、養育スタイルの個別化",
+      "when_to_apply": "生後2か月〜幼児期の行動的個人差評価、育児支援",
+      "framing_questions": [
+        "この子どもの気質タイプはどれか？",
+        "環境と気質の適合性（goodness of fit）はどうか？"
+      ],
+      "opposing_concept_names": [
+        "行動遺伝学的気質論（バス・プロミン）",
+        "状況主義的行動論"
+      ],
+      "keywords_ja": [
+        "気質",
+        "扱いやすい子",
+        "扱いにくい子",
+        "適合性の良さ",
+        "NYLSプロジェクト"
+      ],
+      "keywords_en": [
+        "temperament",
+        "easy child",
+        "difficult child",
+        "goodness of fit",
+        "NYLS"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "困難気質は問題行動・精神病理のリスクを中程度予測。適合性が調整変数として機能（r=0.25〜0.40）。",
+      "empirical_support": "supported",
+      "originator_name": "アレクサンダー・トーマスとステラ・チェス",
+      "originator_name_en": "Alexander Thomas and Stella Chess",
+      "founding_work_title": "Behavioral Individuality in Early Childhood",
+      "founding_work_year": 1963,
+      "founding_work_venue": "New York University Press"
+    },
+    {
+      "name_ja": "知覚発達の生態学的理論（E.ギブソン）",
+      "name_en": "Ecological Theory of Perceptual Development (Eleanor Gibson)",
+      "definition": "乳幼児は能動的な探索を通じて環境のアフォーダンス（行為可能性）を直接知覚することを学ぶという理論。視覚的断崖実験を通じて深度知覚と社会的参照の連動を示した。知覚学習は弁別化と特定化のプロセスとして定式化される。",
+      "impact_summary": "乳幼児の知覚発達研究に実験的方法論をもたらし、アフォーダンス概念を発達心理学に導入した。エコロジカル・アプローチの発達版として運動発達・環境設計研究に影響を与えた。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "生態学的心理学・知覚学習論",
+      "era_start": 1969,
+      "era_end": null,
+      "methodology_level": "実験的観察・縦断的研究",
+      "application_conditions": "乳幼児の知覚・運動発達評価、保育環境設計、発達支援",
+      "when_to_apply": "乳幼児期の深度知覚・運動発達評価、アフォーダンスを活用した環境設計",
+      "framing_questions": [
+        "この環境は子どもにどのようなアフォーダンスを提供しているか？",
+        "知覚と運動の協調はどの段階まで発達しているか？"
+      ],
+      "opposing_concept_names": [
+        "構成主義的知覚論（ピアジェ）",
+        "情報処理論的知覚観"
+      ],
+      "keywords_ja": [
+        "アフォーダンス",
+        "視覚的断崖",
+        "知覚学習",
+        "弁別化",
+        "能動的探索"
+      ],
+      "keywords_en": [
+        "affordance",
+        "visual cliff",
+        "perceptual learning",
+        "differentiation",
+        "active exploration"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "深度知覚・移動能力の発達指標として実験的妥当性が高い。",
+      "empirical_support": "supported",
+      "originator_name": "エレノア・ギブソン",
+      "originator_name_en": "Eleanor J. Gibson",
+      "founding_work_title": "Principles of Perceptual Learning and Development",
+      "founding_work_year": 1969,
+      "founding_work_venue": "Appleton-Century-Crofts"
+    },
+    {
+      "name_ja": "共同注意と共有意図性（トマセロ）",
+      "name_en": "Joint Attention and Shared Intentionality (Tomasello)",
+      "definition": "9〜12か月頃に生じる「9か月革命」として、乳児が他者との注意・意図・行為を共有する能力（共同注意・指さし追従・道具的学習）を獲得し、これが言語・文化学習・心の理論の発達基盤となるという理論。",
+      "impact_summary": "霊長類との比較研究・ASD研究・言語発達研究の理論的中枢となり、ヒト固有の文化学習能力の進化的・発達的起源を解明する枠組みを提供した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "比較発達認知科学・文化学習論",
+      "era_start": 1995,
+      "era_end": null,
+      "methodology_level": "実験・縦断的観察・比較研究",
+      "application_conditions": "ASD早期スクリーニング、言語発達評価、社会的認知支援",
+      "when_to_apply": "9〜18か月の社会的認知発達評価、ASD早期介入",
+      "framing_questions": [
+        "乳児は他者の視線・指さしを追従しているか？",
+        "共同注意はいつ確立し、言語発達とどう連動するか？"
+      ],
+      "opposing_concept_names": [
+        "生得論的心の理論（バロン＝コーエン）",
+        "連合学習説"
+      ],
+      "keywords_ja": [
+        "共同注意",
+        "指さし追従",
+        "共有意図性",
+        "文化学習",
+        "9か月革命"
+      ],
+      "keywords_en": [
+        "joint attention",
+        "gaze following",
+        "shared intentionality",
+        "cultural learning",
+        "9-month revolution"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "共同注意スコアはその後の語彙発達・心の理論通過を高程度予測（r=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "マイケル・トマセロ",
+      "originator_name_en": "Michael Tomasello",
+      "founding_work_title": "The Cultural Origins of Human Cognition",
+      "founding_work_year": 1999,
+      "founding_work_venue": "Harvard University Press"
+    },
+    {
+      "name_ja": "ピアジェの道徳発達論",
+      "name_en": "Piaget's Theory of Moral Development",
+      "definition": "道徳発達は他律的道徳（ルールは神聖不可侵・結果主義・イマネント・ジャスティス）から自律的道徳（ルールは相互合意・意図主義・公平性）へと認知発達に伴って移行するという2段階論。",
+      "impact_summary": "コールバーグ道徳発達段階論の直接的先行研究となり、認知発達と道徳推論の連動という研究プログラムを確立した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "構成主義的道徳発達論",
+      "era_start": 1932,
+      "era_end": null,
+      "methodology_level": "臨床的面接・実験（球投げゲーム観察）",
+      "application_conditions": "幼児〜児童期の道徳推論評価、道徳教育の段階設計",
+      "when_to_apply": "就学前〜小学校での道徳教育課程設計",
+      "framing_questions": [
+        "この子どもは意図と結果のどちらで道徳的判断をしているか？"
+      ],
+      "opposing_concept_names": [
+        "コールバーグの多段階論",
+        "社会直観主義（ハイト）"
+      ],
+      "keywords_ja": [
+        "他律的道徳",
+        "自律的道徳",
+        "イマネント・ジャスティス",
+        "意図主義",
+        "公平性"
+      ],
+      "keywords_en": [
+        "heteronomous morality",
+        "autonomous morality",
+        "immanent justice",
+        "intentionality",
+        "equity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "認知発達段階（操作的思考）との相関は中程度。",
+      "empirical_support": "supported",
+      "originator_name": "ジャン・ピアジェ",
+      "originator_name_en": "Jean Piaget",
+      "founding_work_title": "The Moral Judgment of the Child",
+      "founding_work_year": 1932,
+      "founding_work_venue": "Kegan Paul"
+    },
+    {
+      "name_ja": "行動抑制気質とカーガンの理論",
+      "name_en": "Behavioral Inhibition Temperament (Kagan)",
+      "definition": "見知らぬ人・物・状況に対して一貫して引っ込み思案・恐れ・回避を示す気質的個人差（行動抑制・BIS）。生後4か月の高反応性乳児が青年期の社会的不安・内向性につながるという縦断的理論。前頭前皮質-扁桃体回路の活性化パターンとの対応が示されている。",
+      "impact_summary": "気質の神経生物学的基盤研究を開拓し、不安障害・社会的不安の発達的起源の理解に貢献。後のビッグファイブ神経症傾向・内向性研究・発達精神病理学に接続した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "生物学的気質論・発達神経科学",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "縦断的実験・生理指標（心拍・コルチゾール）・観察",
+      "application_conditions": "社会的不安リスク乳幼児の早期識別、予防的介入",
+      "when_to_apply": "生後4か月〜幼児期の気質評価、社会的不安の早期予防",
+      "framing_questions": [
+        "この乳児は高反応性（行動抑制）か？",
+        "気質と養育環境の相互作用でリスクはどう変わるか？"
+      ],
+      "opposing_concept_names": [
+        "トーマス・チェスの慣れるのが遅い類型（重複）",
+        "学習理論的社会恐怖論"
+      ],
+      "keywords_ja": [
+        "行動抑制",
+        "高反応性乳児",
+        "社会的不安",
+        "扁桃体",
+        "縦断研究"
+      ],
+      "keywords_en": [
+        "behavioral inhibition",
+        "high-reactive infant",
+        "social anxiety",
+        "amygdala",
+        "longitudinal study"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "高反応性乳児の約30〜40%が思春期に内向性・社会的不安を示す（中程度予測）。",
+      "empirical_support": "supported",
+      "originator_name": "ジェローム・カーガン",
+      "originator_name_en": "Jerome Kagan",
+      "founding_work_title": "The Nature of the Child",
+      "founding_work_year": 1984,
+      "founding_work_venue": "Basic Books"
+    },
+    {
+      "name_ja": "無秩序型愛着とメイン・ヘッセ理論",
+      "name_en": "Disorganized Attachment (Main and Hesse)",
+      "definition": "養育者が乳児にとって同時に「脅威」と「安全源」である矛盾した状況で生じる愛着無秩序（D型）を定式化した理論。親の未解決の喪失・トラウマが乳児への恐怖誘発行動を通じてD型愛着を生む世代間伝達モデルも含む。",
+      "impact_summary": "虐待・ネグレクト・親の未解決トラウマの世代間連鎖研究に理論的基盤を提供し、発達精神病理学・臨床介入研究の重要分野を形成した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "愛着理論・発達精神病理学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "SSP・成人愛着面接（AAI）・縦断研究",
+      "application_conditions": "虐待・ネグレクトリスク家庭での早期介入、発達精神病理のスクリーニング",
+      "when_to_apply": "虐待被害乳幼児の評価、世代間伝達介入プログラム",
+      "framing_questions": [
+        "親の未解決トラウマが子どもの愛着に及ぼしている影響はあるか？",
+        "恐怖誘発行動が観察されるか？"
+      ],
+      "opposing_concept_names": [
+        "安定型・不安定型愛着の2分法"
+      ],
+      "keywords_ja": [
+        "無秩序型愛着",
+        "未解決トラウマ",
+        "恐怖誘発行動",
+        "世代間伝達",
+        "AAI"
+      ],
+      "keywords_en": [
+        "disorganized attachment",
+        "unresolved trauma",
+        "frightening behavior",
+        "intergenerational transmission",
+        "AAI"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "D型は攻撃性・解離・反応性愛着障害のリスクを高程度に予測（d=0.50〜0.80）。",
+      "empirical_support": "supported",
+      "originator_name": "メアリー・メインとエリク・ヘッセ",
+      "originator_name_en": "Mary Main and Erik Hesse",
+      "founding_work_title": "Parents' unresolved traumatic experiences are related to infant disorganized attachment status",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Attachment in the Preschool Years (eds. Greenberg, Cicchetti, Cummings), University of Chicago Press"
+    },
+    {
+      "name_ja": "メンタライゼーション理論（フォナギー）",
+      "name_en": "Mentalization / Reflective Functioning Theory (Fonagy)",
+      "definition": "自己と他者の行動を心的状態（欲求・信念・感情・意図）の観点から解釈する能力（メンタライゼーション）が、安定した愛着関係の中で発達し、情動調整・自己感の形成・精神病理の予防に中心的役割を果たすという理論。",
+      "impact_summary": "BPD（境界性パーソナリティ障害）の治療（MBT）・親訓練（親の省察機能）・発達精神病理学の実践的理論となり、愛着理論と精神分析の統合を実現した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "愛着理論・精神分析統合・発達精神病理学",
+      "era_start": 1991,
+      "era_end": null,
+      "methodology_level": "AAI省察機能評価・臨床研究・縦断研究",
+      "application_conditions": "BPD・愛着問題の心理療法、育児支援（親の省察機能向上プログラム）",
+      "when_to_apply": "愛着問題・発達精神病理の臨床評価・治療設計",
+      "framing_questions": [
+        "この養育者は子どもの心的状態を省察的に理解できているか？",
+        "クライアントはどの程度メンタライゼーション能力を持つか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的親訓練",
+        "認知行動療法的心の理論訓練"
+      ],
+      "keywords_ja": [
+        "メンタライゼーション",
+        "省察機能",
+        "情動調整",
+        "BPD",
+        "MBT"
+      ],
+      "keywords_en": [
+        "mentalization",
+        "reflective functioning",
+        "affect regulation",
+        "BPD",
+        "MBT"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "省察機能スコアが養育の質・子どもの愛着安定性を中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "ピーター・フォナギー",
+      "originator_name_en": "Peter Fonagy",
+      "founding_work_title": "Attachment and Reflective Function: Their Role in Self-Organization",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Development and Psychopathology"
+    },
+    {
+      "name_ja": "バンデューラの社会的認知理論と自己効力感",
+      "name_en": "Social Cognitive Theory and Self-Efficacy (Bandura)",
+      "definition": "人は観察学習（モデリング）によって他者の行動・結果を代理経験として学習し、自己効力感（特定課題をうまく遂行できるという確信）が行動の動機づけ・選択・持続を規定するという相互決定論的モデル。",
+      "impact_summary": "行動主義を超えて認知・行動・環境の相互決定論を確立し、自己効力感概念は教育・健康・組織心理学の中心的予測変数となった。メタ分析でd=0.60〜0.80の予測力が確認されている。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "社会的認知理論",
+      "era_start": 1977,
+      "era_end": null,
+      "methodology_level": "実験・縦断・メタ分析",
+      "application_conditions": "学習動機づけの低下・不安・回避行動への介入、スキル訓練設計",
+      "when_to_apply": "教育・職業訓練・健康行動変容・スポーツ指導",
+      "framing_questions": [
+        "この人物はこの課題について何を信じているか？",
+        "どの経験が自己効力感を高められるか？"
+      ],
+      "opposing_concept_names": [
+        "外発的動機づけ理論",
+        "原因帰属理論（ワイナー）"
+      ],
+      "keywords_ja": [
+        "自己効力感",
+        "観察学習",
+        "モデリング",
+        "相互決定論",
+        "代理強化"
+      ],
+      "keywords_en": [
+        "self-efficacy",
+        "observational learning",
+        "modeling",
+        "reciprocal determinism",
+        "vicarious reinforcement"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "自己効力感は学業成績・健康行動・職業パフォーマンスを高程度予測（d=0.60〜0.90）。",
+      "empirical_support": "supported",
+      "originator_name": "アルバート・バンデューラ",
+      "originator_name_en": "Albert Bandura",
+      "founding_work_title": "Social Learning Theory",
+      "founding_work_year": 1977,
+      "founding_work_venue": "Prentice Hall"
+    },
+    {
+      "name_ja": "エリクソンの心理社会的発達段階論",
+      "name_en": "Erikson's Stages of Psychosocial Development",
+      "definition": "基本的信頼vs不信・自律性vs恥・自主性vs罪悪感・勤勉性vs劣等感・同一性vs役割混乱・親密性vs孤立・生殖性vs停滞・統合性vs絶望の8段階の心理社会的危機を一生涯にわたって乗り越えていくという発達理論。",
+      "impact_summary": "フロイト心理性的論を社会・文化次元に拡張し、アイデンティティ概念を心理学に定着させた。青年期研究・生涯発達心理学・老年期研究の基盤となり、マーシャの同一性地位理論を生み出した。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "新フロイト派・精神分析・生涯発達論",
+      "era_start": 1950,
+      "era_end": null,
+      "methodology_level": "臨床的観察・事例研究・理論的統合",
+      "application_conditions": "ライフスタイルの移行支援・青年期アイデンティティ支援・老年期の意味と統合支援",
+      "when_to_apply": "青年期カウンセリング、老年期ケア、生涯発達支援",
+      "framing_questions": [
+        "この個人は今どの発達危機の段階にいるか？",
+        "過去の危機はどのように解決されているか？"
+      ],
+      "opposing_concept_names": [
+        "フロイトの心理性的発達論",
+        "バルテスのライフスパン理論（補完）"
+      ],
+      "keywords_ja": [
+        "アイデンティティ",
+        "心理社会的危機",
+        "同一性vs役割混乱",
+        "生殖性",
+        "統合性"
+      ],
+      "keywords_en": [
+        "identity",
+        "psychosocial crisis",
+        "identity vs. role confusion",
+        "generativity",
+        "ego integrity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "アイデンティティ解決は幸福感・精神的健康・キャリア適応を中程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "エリク・エリクソン",
+      "originator_name_en": "Erik Erikson",
+      "founding_work_title": "Childhood and Society",
+      "founding_work_year": 1950,
+      "founding_work_venue": "W.W. Norton"
+    },
+    {
+      "name_ja": "マーシャの同一性地位理論",
+      "name_en": "Marcia's Identity Status Theory",
+      "definition": "エリクソンの同一性概念を探索（モラトリアム）と関与（コミットメント）の2次元で操作化し、同一性達成・モラトリアム・早期閉鎖・同一性拡散の4つの同一性地位に分類する理論。",
+      "impact_summary": "青年期同一性研究の実証的基盤を提供し、半世紀以上の縦断・横断研究を生み出した。職業・宗教・政治・ジェンダー領域への拡張適用が進んだ。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "自我心理学・青年期発達論",
+      "era_start": 1966,
+      "era_end": null,
+      "methodology_level": "半構造化面接（EOMEIS）・縦断研究",
+      "application_conditions": "青年期のアイデンティティ発達評価、学校・キャリアカウンセリング",
+      "when_to_apply": "思春期〜成人形成期（18〜25歳）のアイデンティティ支援",
+      "framing_questions": [
+        "この青年は探索しているか、関与しているか？",
+        "現在どの同一性地位にあるか？"
+      ],
+      "opposing_concept_names": [
+        "エリクソンの連続的発達論",
+        "ナラティブ・アイデンティティ論（マクアダムズ）"
+      ],
+      "keywords_ja": [
+        "同一性達成",
+        "モラトリアム",
+        "早期閉鎖",
+        "同一性拡散",
+        "探索と関与"
+      ],
+      "keywords_en": [
+        "identity achievement",
+        "moratorium",
+        "foreclosure",
+        "identity diffusion",
+        "exploration and commitment"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "同一性達成は精神的健康・自尊感情・適応的対処を中〜高程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・マーシャ",
+      "originator_name_en": "James Marcia",
+      "founding_work_title": "Development and validation of ego identity status",
+      "founding_work_year": 1966,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "成人形成期理論（アーネット）",
+      "name_en": "Emerging Adulthood Theory (Arnett)",
+      "definition": "18〜25歳頃は青年期でも成人期でもない「成人形成期」という独自の発達期であり、同一性探索・不安定性・自己中心性・可能性感覚・中間感という5つの特徴を持つという現代社会固有の段階論。",
+      "impact_summary": "高度工業社会における成人移行の遅延を発達的に理論化し、大学生・20代支援の臨床・教育的実践に枠組みを提供した。批判もあるが、高所得国では広く支持されている。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "生涯発達論・文化的発達論",
+      "era_start": 2000,
+      "era_end": null,
+      "methodology_level": "横断的・縦断的サーベイ・質的面接",
+      "application_conditions": "大学生支援・20代のキャリア・関係性支援、高所得国の移行期理解",
+      "when_to_apply": "大学生・20代の発達支援・カウンセリング",
+      "framing_questions": [
+        "この若者は成人形成期特有の不安定性に対処しているか？",
+        "可能性感覚は維持されているか？"
+      ],
+      "opposing_concept_names": [
+        "従来の青年期終了観（18歳成人）",
+        "文化相対的移行期論"
+      ],
+      "keywords_ja": [
+        "成人形成期",
+        "同一性探索",
+        "不安定性",
+        "可能性感覚",
+        "中間感"
+      ],
+      "keywords_en": [
+        "emerging adulthood",
+        "identity exploration",
+        "instability",
+        "feeling in-between",
+        "possibilities"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "高所得国では適用度高いが、低所得国・伝統的社会では適用限界あり。",
+      "empirical_support": "supported",
+      "originator_name": "ジェフリー・アーネット",
+      "originator_name_en": "Jeffrey Jensen Arnett",
+      "founding_work_title": "Emerging adulthood: A theory of development from the late teens through the twenties",
+      "founding_work_year": 2000,
+      "founding_work_venue": "American Psychologist"
+    },
+    {
+      "name_ja": "自己概念の発達論（ハーター）",
+      "name_en": "Self-Concept Development (Harter)",
+      "definition": "自己概念が年齢とともに差異化・統合・抽象化される発達プロセスを記述し、多次元的自己知覚尺度（SPPC）による実証的測定を確立した理論。青年期の「偽の自己」や能力感と実際能力のギャップ分析で知られる。",
+      "impact_summary": "自尊感情・自己概念研究に実証的測定ツールを提供し、教育的介入・臨床評価の実践基盤となった。青年期の自己感の脆弱性に関する理解を深めた。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "発達自己心理学",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "尺度開発・横断的・縦断的研究",
+      "application_conditions": "児童・青年の自己評価・自尊感情の評価、学校カウンセリング",
+      "when_to_apply": "小学校〜高校生の自己概念・自尊感情の発達的評価",
+      "framing_questions": [
+        "この青年の自己評価はどの領域で高く、どの領域で低いか？",
+        "理想自己と現実自己のギャップはどの程度か？"
+      ],
+      "opposing_concept_names": [
+        "グローバル自尊感情論（ローゼンバーグ）"
+      ],
+      "keywords_ja": [
+        "多次元自己知覚",
+        "自尊感情",
+        "能力感",
+        "偽の自己",
+        "青年期の自己"
+      ],
+      "keywords_en": [
+        "multidimensional self-perception",
+        "self-esteem",
+        "perceived competence",
+        "false self",
+        "adolescent self"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "能力感と学業・社会的適応の相関はr=0.40〜0.60。",
+      "empirical_support": "supported",
+      "originator_name": "スーザン・ハーター",
+      "originator_name_en": "Susan Harter",
+      "founding_work_title": "Manual for the Self-Perception Profile for Children",
+      "founding_work_year": 1985,
+      "founding_work_venue": "University of Denver"
+    },
+    {
+      "name_ja": "思春期の脳発達とデュアルシステムズモデル",
+      "name_en": "Dual Systems Model of Adolescent Risk-Taking (Steinberg)",
+      "definition": "青年期のリスク行動は、扁桃体・腹側線条体を中心とする社会情動システム（報酬感受性が高く早期成熟）と、前頭前皮質を中心とする認知制御システム（成熟が遅い）の発達的非同期から生じるという神経発達モデル。",
+      "impact_summary": "青年期の意思決定・危険行動・法的責任能力の理解に科学的根拠を提供し、少年司法改革・青年期健康教育・臨床実践に影響を与えた。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "発達神経科学・行動神経科学",
+      "era_start": 2008,
+      "era_end": null,
+      "methodology_level": "fMRI・縦断的行動研究・メタ分析",
+      "application_conditions": "青年期リスク行動の理解・予防、法的判断能力の発達的評価",
+      "when_to_apply": "思春期〜青年期（10〜25歳）のリスク行動支援・予防教育",
+      "framing_questions": [
+        "この青年のリスク行動は認知制御の未熟さと社会情動的感受性の非同期から説明できるか？"
+      ],
+      "opposing_concept_names": [
+        "合理的行為者モデル",
+        "感覚追求一元論"
+      ],
+      "keywords_ja": [
+        "デュアルシステムズ",
+        "前頭前皮質",
+        "腹側線条体",
+        "報酬感受性",
+        "認知制御"
+      ],
+      "keywords_en": [
+        "dual systems",
+        "prefrontal cortex",
+        "ventral striatum",
+        "reward sensitivity",
+        "cognitive control"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "社会的文脈での報酬感受性と危険行動の相関は中〜高程度（d=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "ローレンス・スタインバーグ",
+      "originator_name_en": "Laurence Steinberg",
+      "founding_work_title": "A dual systems model of adolescent risk-taking",
+      "founding_work_year": 2008,
+      "founding_work_venue": "Developmental Psychobiology"
+    },
+    {
+      "name_ja": "ナラティブ・アイデンティティ理論（マクアダムズ）",
+      "name_en": "Narrative Identity Theory (McAdams)",
+      "definition": "人は過去・現在・想像上の未来を統合した内在化された「個人的神話（ライフストーリー）」を構築し、これがアイデンティティと人生の意味・一体感を提供するという理論。贖罪と汚染のナラティブパターンが精神的健康を予測する。",
+      "impact_summary": "アイデンティティ研究を物語論・質的研究と結びつけ、生涯発達・ウェルビーイング・道徳的人格の理解に新たな枠組みを提供した。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "ナラティブ心理学・生涯発達論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "半構造化ナラティブ面接・内容分析",
+      "application_conditions": "成人期の意味づけ・アイデンティティ支援、ナラティブ・セラピー",
+      "when_to_apply": "青年期後期〜成人期のアイデンティティ・意味づけ研究・介入",
+      "framing_questions": [
+        "このライフストーリーの支配的テーマは何か？",
+        "贖罪型か汚染型かでウェルビーイングはどう違うか？"
+      ],
+      "opposing_concept_names": [
+        "マーシャの構造的地位論",
+        "ハーターの自己概念論"
+      ],
+      "keywords_ja": [
+        "ライフストーリー",
+        "個人的神話",
+        "贖罪ナラティブ",
+        "汚染ナラティブ",
+        "意味づけ"
+      ],
+      "keywords_en": [
+        "life story",
+        "personal myth",
+        "redemption narrative",
+        "contamination narrative",
+        "meaning-making"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "贖罪ナラティブは精神的健康・ウェルビーイングを中程度予測（r=0.30〜0.45）。",
+      "empirical_support": "supported",
+      "originator_name": "ダン・マクアダムズ",
+      "originator_name_en": "Dan P. McAdams",
+      "founding_work_title": "Power, Intimacy, and the Life Story",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Dorsey Press"
+    },
+    {
+      "name_ja": "バルテスのライフスパン発達理論",
+      "name_en": "Baltes' Lifespan Developmental Theory",
+      "definition": "発達は生涯にわたり、多方向・多次元・可塑性・歴史的埋め込み・文脈依存・複数規律性という6原則に支配される。発達は常に獲得と喪失の動的バランスであり、加齢に伴い獲得優位から喪失管理へとシフトするという枠組み。",
+      "impact_summary": "老年期心理学・成功的老化研究・発達支援の基盤理論となり、SOCモデル・知恵の心理学へと接続した。生涯発達の非線型・双方向性モデルとして世界的影響力を持つ。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "ライフスパン心理学・生涯発達論",
+      "era_start": 1987,
+      "era_end": null,
+      "methodology_level": "縦断的研究・比較研究・理論統合",
+      "application_conditions": "老年期支援・リハビリ・キャリア開発・生涯学習設計",
+      "when_to_apply": "成人後期〜老年期の発達支援・研究・政策立案",
+      "framing_questions": [
+        "この段階での獲得と喪失のバランスはどうか？",
+        "可塑性はどの程度残存しているか？"
+      ],
+      "opposing_concept_names": [
+        "成熟主義（一方向的衰退モデル）",
+        "ピアジェの段階論（老年期を含まない）"
+      ],
+      "keywords_ja": [
+        "多方向性",
+        "可塑性",
+        "獲得と喪失",
+        "歴史的埋め込み",
+        "生涯発達"
+      ],
+      "keywords_en": [
+        "multidirectionality",
+        "plasticity",
+        "gains and losses",
+        "historical embeddedness",
+        "lifespan development"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "老年期の多元的発達軌跡を説明する枠組みとして広く支持。",
+      "empirical_support": "supported",
+      "originator_name": "パウル・バルテス",
+      "originator_name_en": "Paul B. Baltes",
+      "founding_work_title": "Theoretical propositions of life-span developmental psychology: On the dynamics between growth and decline",
+      "founding_work_year": 1987,
+      "founding_work_venue": "Developmental Psychology"
+    },
+    {
+      "name_ja": "SOCモデル（選択・最適化・補償）",
+      "name_en": "Selection, Optimization, and Compensation (SOC) Model",
+      "definition": "加齢に伴う資源制限に対し、目標の選択・達成手段の最適化・代替手段による補償の3プロセスを通じて成功的老化・適応を実現するという発達的適応モデル。ピアニストのルービンシュタインの例が有名。",
+      "impact_summary": "老年期の成功的老化・レジリエンス研究・産業組織心理学の実践的枠組みとなった。加齢研究のみならず職場・リハビリ・慢性疾患管理への応用が広がった。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "ライフスパン心理学・適応理論",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "質問紙（SOC尺度）・縦断的研究・実験",
+      "application_conditions": "老年期の目標適応支援、慢性疾患・障害者リハビリ、職場のエイジング管理",
+      "when_to_apply": "成人後期〜老年期の生活適応支援・個別化支援",
+      "framing_questions": [
+        "この人物は何を選択し、どう最適化し、どこで補償しているか？",
+        "SOC戦略の使用頻度はウェルビーイングとどう関連するか？"
+      ],
+      "opposing_concept_names": [
+        "ディスエンゲージメント理論（カミングスとヘンリー）"
+      ],
+      "keywords_ja": [
+        "選択",
+        "最適化",
+        "補償",
+        "成功的老化",
+        "適応"
+      ],
+      "keywords_en": [
+        "selection",
+        "optimization",
+        "compensation",
+        "successful aging",
+        "adaptive capacity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "SOC戦略使用頻度は主観的ウェルビーイング・機能的適応を中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "パウル・バルテスとマーガレット・バルテス",
+      "originator_name_en": "Paul B. Baltes and Margret M. Baltes",
+      "founding_work_title": "Psychological perspectives on successful aging: The model of selective optimization with compensation",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Successful Aging: Perspectives from the Behavioral Sciences (eds. Baltes & Baltes), Cambridge University Press"
+    },
+    {
+      "name_ja": "社会情動的選択性理論（カーステンセン）",
+      "name_en": "Socioemotional Selectivity Theory (Carstensen)",
+      "definition": "人生の残り時間の知覚が社会的目標の選択を規定し、時間が限られていると感じるほど情動的意味のある目標・関係性を優先し（ポジティビティ効果）、知識取得・拡張目標は後退するという動機づけ理論。加齢で生じる現象だが、末期患者など若者でも観察される。",
+      "impact_summary": "老年期のポジティビティ効果・社会関係の縮小・情動調整の改善を統一的に説明し、老年期の心理的適応研究の主要理論となった。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "動機づけ理論・老年心理学",
+      "era_start": 1991,
+      "era_end": null,
+      "methodology_level": "実験・サーベイ・縦断的研究・ESM法",
+      "application_conditions": "老年期のウェルビーイング支援、終末期ケア、慢性疾患患者の動機づけ支援",
+      "when_to_apply": "老年期の社会関係・情動調整の評価と支援",
+      "framing_questions": [
+        "この人物は時間的展望をどう知覚しているか？",
+        "情動的目標と知識取得目標のバランスはどうか？"
+      ],
+      "opposing_concept_names": [
+        "活動理論（ハヴィガースト）",
+        "拡張構築理論（フレドリクソン）"
+      ],
+      "keywords_ja": [
+        "ポジティビティ効果",
+        "時間的展望",
+        "情動的目標",
+        "社会関係の縮小",
+        "選択性"
+      ],
+      "keywords_en": [
+        "positivity effect",
+        "future time perspective",
+        "emotional goals",
+        "social selectivity",
+        "SST"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "時間的展望の制限は情動目標優先を高程度予測（d=0.50〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "ローラ・カーステンセン",
+      "originator_name_en": "Laura L. Carstensen",
+      "founding_work_title": "Selectivity theory: Social activity in life-span context",
+      "founding_work_year": 1991,
+      "founding_work_venue": "Annual Review of Gerontology and Geriatrics"
+    },
+    {
+      "name_ja": "ベルリン知恵パラダイム（バルテス）",
+      "name_en": "Berlin Wisdom Paradigm (Baltes)",
+      "definition": "知恵を「人生の基本的な実際問題に関する専門知識（ファクチュアル知識・手続的知識・ライフスパン文脈主義・相対主義・不確実性管理の5基準）」と定義し、声明法による実験的測定を確立したモデル。",
+      "impact_summary": "知恵の科学的研究を可能にした先駆的枠組みで、老年期の強みとしての知恵に焦点を当てた肯定的老化研究を開拓した。スタンバーグの均衡理論と並ぶ主要知恵モデル。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "ライフスパン心理学・老年心理学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "声明法・プロトコル分析・縦断的研究",
+      "application_conditions": "老年期の専門的意思決定能力評価、知恵に基づくメンタリング・コンサルティング",
+      "when_to_apply": "老年期の認知的強みの評価・活用支援",
+      "framing_questions": [
+        "この人物の知恵関連知識はどの5基準でどのレベルか？",
+        "実人生課題への対応において知恵はどう機能しているか？"
+      ],
+      "opposing_concept_names": [
+        "流動性知能-結晶性知能モデル（キャッテル）",
+        "スタンバーグの均衡理論（競合モデル）"
+      ],
+      "keywords_ja": [
+        "ファクチュアル知識",
+        "手続的知識",
+        "ライフスパン文脈主義",
+        "不確実性管理",
+        "声明法"
+      ],
+      "keywords_en": [
+        "factual knowledge",
+        "procedural knowledge",
+        "lifespan contextualism",
+        "uncertainty management",
+        "think-aloud protocol"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "知恵関連知識スコアは実人生問題解決の質を中程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "パウル・バルテス",
+      "originator_name_en": "Paul B. Baltes",
+      "founding_work_title": "Wisdom: Its structure and function in regulating successful life span development",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Handbook of the Life Span (eds. Birren & Schaie)"
+    },
+    {
+      "name_ja": "認知予備力仮説（スターン）",
+      "name_en": "Cognitive Reserve Hypothesis (Stern)",
+      "definition": "教育歴・職業的複雑性・精神的活動などによって獲得された神経認知的資源（認知予備力）が、脳神経変性に対する耐性を高め、アルツハイマー病等の臨床的発症を遅らせるという仮説。脳予備力（解剖学的）と区別される能動的メカニズムを想定。",
+      "impact_summary": "老年期認知研究・認知症予防政策・生涯学習推進の科学的根拠として世界的に影響を持ち、教育投資の神経科学的正当化を提供した。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "認知神経科学・老年神経心理学",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "疫学的縦断研究・神経画像研究・メタ分析",
+      "application_conditions": "認知症予防プログラム設計、生涯学習・職業訓練の認知健康効果評価",
+      "when_to_apply": "成人後期〜老年期の認知健康維持プログラム設計",
+      "framing_questions": [
+        "この人物の認知予備力レベルはどの程度か？",
+        "認知刺激活動が認知機能維持にどの程度貢献しているか？"
+      ],
+      "opposing_concept_names": [
+        "脳予備力モデル（受動的組織量説）"
+      ],
+      "keywords_ja": [
+        "認知予備力",
+        "脳予備力",
+        "教育歴",
+        "アルツハイマー病",
+        "神経可塑性"
+      ],
+      "keywords_en": [
+        "cognitive reserve",
+        "brain reserve",
+        "education",
+        "Alzheimer's disease",
+        "neural plasticity"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "教育年数が認知症発症を平均4〜5年遅延（疫学的推定）。メタ分析でOR=0.54〜0.60。",
+      "empirical_support": "supported",
+      "originator_name": "ヤーコフ・スターン",
+      "originator_name_en": "Yaakov Stern",
+      "founding_work_title": "What is cognitive reserve? Theory and research application of the reserve concept",
+      "founding_work_year": 2002,
+      "founding_work_venue": "Journal of the International Neuropsychological Society"
+    },
+    {
+      "name_ja": "均衡理論（知恵のバランス理論・スタンバーグ）",
+      "name_en": "Balance Theory of Wisdom (Sternberg)",
+      "definition": "知恵とは、内省的・対人的・外的利益のバランスをとりながら、短・長期の適応・環境形成・環境選択を通じて公共善に向けた暗黙的知識の倫理的応用であるという定義。成功的知能の応用としての知恵を位置づける。",
+      "impact_summary": "知恵を公共善・倫理と結びつけた規範的モデルとして教育実践・リーダーシップ開発・市民教育への応用が提案されている。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "知能・認知理論・発達心理学",
+      "era_start": 1998,
+      "era_end": null,
+      "methodology_level": "理論・事例分析・教育介入研究",
+      "application_conditions": "リーダーシップ開発・倫理教育・市民教育",
+      "when_to_apply": "成人期のリーダーシップ・倫理的判断力の評価・育成",
+      "framing_questions": [
+        "この判断は個人・対人・社会的利益のバランスをとっているか？",
+        "長期的公共善に向けた暗黙知が活用されているか？"
+      ],
+      "opposing_concept_names": [
+        "ベルリン知恵パラダイム（専門知識重視）"
+      ],
+      "keywords_ja": [
+        "均衡",
+        "暗黙知",
+        "公共善",
+        "倫理的応用",
+        "知恵"
+      ],
+      "keywords_en": [
+        "balance",
+        "tacit knowledge",
+        "common good",
+        "ethical application",
+        "wisdom"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "知恵に基づくリーダーシップと組織成果の相関は探索的段階。",
+      "empirical_support": "contested",
+      "originator_name": "ロバート・スタンバーグ",
+      "originator_name_en": "Robert J. Sternberg",
+      "founding_work_title": "A balance theory of wisdom",
+      "founding_work_year": 1998,
+      "founding_work_venue": "Review of General Psychology"
+    },
+    {
+      "name_ja": "自己決定理論（デシ・ライアン）",
+      "name_en": "Self-Determination Theory (Deci and Ryan)",
+      "definition": "内発的動機づけの最大化と外発的動機づけの内面化は、自律性・有能感・関係性の3つの基本的心理的欲求の充足によって実現されるという有機的統合理論。欲求充足が自律的調整・ウェルビーイングを生み出す。",
+      "impact_summary": "教育・医療・スポーツ・職場研究の全域で動機づけの実証的枠組みとして採用され、世界最多引用数を誇る動機づけ理論の一つ。アンダーマイニング効果の再評価にも影響。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "人間主義的心理学・動機づけ理論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "実験・質問紙・メタ分析・ESM法",
+      "application_conditions": "学習意欲の低下・外発的報酬によるアンダーマイニング・自律支援型指導",
+      "when_to_apply": "学校教育・職場・スポーツ・医療場面での動機づけ支援",
+      "framing_questions": [
+        "3つの基本的欲求のどれが充足または阻害されているか？",
+        "この調整様式は外的から内的へどう移行できるか？"
+      ],
+      "opposing_concept_names": [
+        "強化理論（スキナー）",
+        "外発的動機づけ主義"
+      ],
+      "keywords_ja": [
+        "内発的動機づけ",
+        "自律性",
+        "有能感",
+        "関係性",
+        "アンダーマイニング効果"
+      ],
+      "keywords_en": [
+        "intrinsic motivation",
+        "autonomy",
+        "competence",
+        "relatedness",
+        "undermining effect"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "自律的動機づけは学業達成・ウェルビーイング・健康行動を高程度予測（d=0.50〜0.80）。",
+      "empirical_support": "supported",
+      "originator_name": "エドワード・デシとリチャード・ライアン",
+      "originator_name_en": "Edward L. Deci and Richard M. Ryan",
+      "founding_work_title": "Intrinsic Motivation and Self-Determination in Human Behavior",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Plenum Press"
+    },
+    {
+      "name_ja": "達成目標理論（エリオット・ドゥエック）",
+      "name_en": "Achievement Goal Theory (Elliot and Dweck)",
+      "definition": "達成行動の目的を숙達接近・숙達回避・遂行接近・遂行回避の4象限（2×2枠組み、エリオット2001）に分類し、各ゴール志向が認知・情動・行動に異なる影響を持つという理論。숙達接近が最も適応的とされる。",
+      "impact_summary": "学習動機づけ研究の基盤的枠組みとなり、自己決定理論・マインドセット理論と統合されて教育実践・スポーツ心理学に広く応用されている。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "達成動機理論・社会認知論",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "実験・質問紙・縦断研究",
+      "application_conditions": "学習動機づけの評価と介入、テスト不安・完璧主義への対応",
+      "when_to_apply": "学校・大学・スポーツ指導での動機づけ診断と改善",
+      "framing_questions": [
+        "この学習者のゴール志向はどの象限か？",
+        "숙達回避や遂行回避の兆候はあるか？"
+      ],
+      "opposing_concept_names": [
+        "強化理論",
+        "自己効力感論（バンデューラ、補完）"
+      ],
+      "keywords_ja": [
+        "숙達接近",
+        "숙達回避",
+        "遂行接近",
+        "遂行回避",
+        "2×2達成目標枠組み"
+      ],
+      "keywords_en": [
+        "mastery-approach",
+        "mastery-avoidance",
+        "performance-approach",
+        "performance-avoidance",
+        "2x2 achievement goal framework"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "숙達접近はGPA・内発的動機づけを中程度予測（r=0.25〜0.45）。",
+      "empirical_support": "supported",
+      "originator_name": "キャロル・ドゥエックとアンドリュー・エリオット",
+      "originator_name_en": "Carol Dweck and Andrew Elliot",
+      "founding_work_title": "Goals: An approach to motivation and achievement",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Journal of Personality and Social Psychology"
+    },
+    {
+      "name_ja": "成長マインドセット理論（ドゥエック）",
+      "name_en": "Growth Mindset Theory (Dweck)",
+      "definition": "知能を固定と見なす固定マインドセットと、努力によって伸びると見なす成長マインドセット（知能増大論）の違いが、失敗への反応・目標志向・学業達成に系統的差異を生むという暗黙的知能理論。",
+      "impact_summary": "世界中の学校・企業・スポーツ組織でのマインドセット介入プログラムを生み出し、教育実践に最も広く普及した動機づけ理論の一つ。ただし再現性問題と効果量の過大評価についての批判も続く。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "社会認知論・達成動機理論",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "実験・縦断研究・介入研究・メタ分析",
+      "application_conditions": "挫折・失敗体験後の適応的対処、努力の価値観育成",
+      "when_to_apply": "学校教育・企業研修・スポーツ指導でのマインドセット介入",
+      "framing_questions": [
+        "この人物は知能を固定と見ているか成長可能と見ているか？",
+        "失敗への反応がどのマインドセットを示しているか？"
+      ],
+      "opposing_concept_names": [
+        "固定マインドセット（エンティティ理論）"
+      ],
+      "keywords_ja": [
+        "成長マインドセット",
+        "固定マインドセット",
+        "暗黙的知能理論",
+        "増大論",
+        "努力の価値"
+      ],
+      "keywords_en": [
+        "growth mindset",
+        "fixed mindset",
+        "implicit theories of intelligence",
+        "incremental theory",
+        "effort value"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "メタ分析では学業成績への効果量d=0.10〜0.20（小）。初期研究より効果量は小さい。",
+      "empirical_support": "contested",
+      "originator_name": "キャロル・ドゥエック",
+      "originator_name_en": "Carol S. Dweck",
+      "founding_work_title": "A social-cognitive approach to motivation and personality",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "自己調整学習モデル（ジマーマン）",
+      "name_en": "Self-Regulated Learning Model (Zimmerman)",
+      "definition": "学習者が自発的に目標設定・方略計画（予見段階）、モニタリング・自己制御（遂行段階）、自己評価・帰属（自己省察段階）の循環的プロセスを通じて学習を調整するという社会認知的SRLモデル。",
+      "impact_summary": "自己調整学習研究の標準的枠組みとなり、学習方略訓練・メタ認知教育・学業的問題への臨床的介入の基盤を提供した。現在もSRL研究の引用頻度最高モデルの一つ。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "社会認知理論・メタ認知論",
+      "era_start": 1986,
+      "era_end": null,
+      "methodology_level": "観察・インタビュー・実験・縦断研究",
+      "application_conditions": "学習困難・先延ばし・メタ認知不足への介入、学習方略指導",
+      "when_to_apply": "小学校〜大学・成人学習のSRL支援・指導設計",
+      "framing_questions": [
+        "この学習者はどの段階（予見・遂行・省察）でつまずいているか？",
+        "帰属スタイルは適応的か？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的学習管理論",
+        "外部調整依存型学習"
+      ],
+      "keywords_ja": [
+        "予見段階",
+        "遂行段階",
+        "自己省察段階",
+        "メタ認知",
+        "循環的SRL"
+      ],
+      "keywords_en": [
+        "forethought phase",
+        "performance phase",
+        "self-reflection phase",
+        "metacognition",
+        "cyclical SRL"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "SRLスコアはGPA・学業達成を高程度予測（r=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "バリー・ジマーマン",
+      "originator_name_en": "Barry J. Zimmerman",
+      "founding_work_title": "Developing self-fulfilling cycles of academic regulation: An analysis of exemplary instructional models",
+      "founding_work_year": 1986,
+      "founding_work_venue": "Journal of Educational Psychology"
+    },
+    {
+      "name_ja": "期待価値理論（エクルズ）",
+      "name_en": "Expectancy-Value Theory of Achievement Motivation (Eccles)",
+      "definition": "学業達成と進路選択は「成功への期待（自己効力感に類似）」と「主観的課題価値（達成価値・内的価値・有用価値・コスト）」の積によって決定されるというモデル。女子のSTEM離れを説明した枠組みとして著名。",
+      "impact_summary": "進路選択・ジェンダー格差・STEM教育研究の基盤理論となり、近年「状況化期待価値理論（SEVT）」として改訂されながら研究が続く。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "動機づけ理論・教育心理学",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "縦断的サーベイ・質問紙・実験",
+      "application_conditions": "進路選択支援・STEM教育のジェンダー格差解消・動機づけ診断",
+      "when_to_apply": "中学〜高校・大学での進路指導・科目選択支援",
+      "framing_questions": [
+        "この学習者は成功への期待と課題価値のどちらが低いか？",
+        "コストへの知覚が選択をどう制限しているか？"
+      ],
+      "opposing_concept_names": [
+        "自己決定理論（補完）",
+        "帰属理論（ワイナー）"
+      ],
+      "keywords_ja": [
+        "成功への期待",
+        "主観的課題価値",
+        "達成価値",
+        "有用価値",
+        "コスト"
+      ],
+      "keywords_en": [
+        "expectancy for success",
+        "subjective task value",
+        "attainment value",
+        "utility value",
+        "cost"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "期待と価値はGPA・理系進路選択を高程度予測（r=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "ジャクリーン・エクルズ",
+      "originator_name_en": "Jacquelynne S. Eccles",
+      "founding_work_title": "Expectancies, values and academic behaviors",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Achievement and Achievement Motives (ed. Spence), W.H. Freeman"
+    },
+    {
+      "name_ja": "テスト効果と検索練習理論",
+      "name_en": "Testing Effect and Retrieval Practice",
+      "definition": "テスト（検索練習）は再読と比較して長期記憶への定着を大幅に促進するという現象。検索行為自体が記憶痕跡を強化する「困難さが望ましい（desirable difficulties）」学習効果の中核概念。ロディガーとカーピック（2006）が実験的に精緻化。",
+      "impact_summary": "教育心理学でエビデンスが最も強固な学習方略の一つ。フラッシュカード・間隔を置いたテスト・プレテストなどの実践的応用を支持し、教育改革に影響を与えた。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "認知心理学・記憶研究",
+      "era_start": 2006,
+      "era_end": null,
+      "methodology_level": "実験研究・メタ分析",
+      "application_conditions": "学習方略指導、教科書・LMSの設計改善",
+      "when_to_apply": "全学校段階・成人学習での記憶定着改善",
+      "framing_questions": [
+        "この授業・教材は検索練習の機会を十分に設けているか？",
+        "テストを評価ではなく学習手段として活用しているか？"
+      ],
+      "opposing_concept_names": [
+        "単純再読戦略",
+        "集中学習（マスト練習）"
+      ],
+      "keywords_ja": [
+        "検索練習",
+        "テスト効果",
+        "困難さが望ましい",
+        "長期記憶",
+        "フラッシュカード"
+      ],
+      "keywords_en": [
+        "retrieval practice",
+        "testing effect",
+        "desirable difficulties",
+        "long-term retention",
+        "flashcard"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "検索練習は再読比較で記憶保持を高程度向上（d=0.50〜0.80）。",
+      "empirical_support": "supported",
+      "originator_name": "ヘンリー・ロディガーとジェフリー・カーピック",
+      "originator_name_en": "Henry L. Roediger and Jeffrey D. Karpicke",
+      "founding_work_title": "Test-enhanced learning: Taking memory tests improves long-term retention",
+      "founding_work_year": 2006,
+      "founding_work_venue": "Psychological Science"
+    },
+    {
+      "name_ja": "間隔効果と分散学習",
+      "name_en": "Spacing Effect and Distributed Practice",
+      "definition": "同じ学習量であれば、集中して一度に学ぶよりも時間的に分散して練習したほうが長期記憶定着が優れるという現象（エビングハウス1885が発見）。間隔が長いほど検索難度が上がり、困難さが定着を促進する（困難さの望ましさ理論と交差）。",
+      "impact_summary": "最も再現性が高い学習研究の知見の一つで、反復学習・スペースド・リピティション・システム（SRS）の理論的基盤となり、Anki等の学習アプリに実装されている。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "記憶心理学・教育心理学",
+      "era_start": 1885,
+      "era_end": null,
+      "methodology_level": "実験研究・メタ分析",
+      "application_conditions": "長期記憶を要する学習（語学・医学知識・資格試験）の学習計画設計",
+      "when_to_apply": "全学習段階・生涯学習での効率的学習スケジュール設計",
+      "framing_questions": [
+        "この学習計画は分散練習を取り入れているか？",
+        "最適な間隔設定はどのくらいか？"
+      ],
+      "opposing_concept_names": [
+        "集中学習（マスト練習）"
+      ],
+      "keywords_ja": [
+        "間隔効果",
+        "分散練習",
+        "スペースド・リピティション",
+        "長期記憶",
+        "エビングハウス"
+      ],
+      "keywords_en": [
+        "spacing effect",
+        "distributed practice",
+        "spaced repetition",
+        "long-term memory",
+        "Ebbinghaus"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "分散学習は集中学習比で記憶保持を高程度向上（d=0.40〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "ヘルマン・エビングハウス",
+      "originator_name_en": "Hermann Ebbinghaus",
+      "founding_work_title": "Über das Gedächtnis (Memory: A Contribution to Experimental Psychology)",
+      "founding_work_year": 1885,
+      "founding_work_venue": "Duncker & Humblot"
+    },
+    {
+      "name_ja": "認知負荷理論（スウェラー）",
+      "name_en": "Cognitive Load Theory (Sweller)",
+      "definition": "人間のワーキングメモリ容量は限られており、内在的負荷（素材の複雑さ）・外在的負荷（不適切な指導設計）・生成的負荷（スキーマ構築）の3種類の認知負荷の管理が学習効率を決定するという教育設計理論。バデリーのワーキングメモリモデルを基盤とする。",
+      "impact_summary": "教育工学・インストラクショナルデザインに最も実証的影響を与えた理論の一つで、例示解・分割注意効果・冗長性効果・完成例効果などの設計原則を導いた。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知心理学・インストラクショナルデザイン",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "実験研究・メタ分析",
+      "application_conditions": "複雑な概念・手順の指導設計、教材・UI設計",
+      "when_to_apply": "教材設計・授業設計・eラーニング開発",
+      "framing_questions": [
+        "この指導は外在的負荷を最小化しているか？",
+        "生成的負荷の促進に最適化されているか？"
+      ],
+      "opposing_concept_names": [
+        "発見学習（ブルーナー）",
+        "構成主義的最小限指導"
+      ],
+      "keywords_ja": [
+        "内在的負荷",
+        "外在的負荷",
+        "生成的負荷",
+        "ワーキングメモリ",
+        "例示解"
+      ],
+      "keywords_en": [
+        "intrinsic load",
+        "extraneous load",
+        "germane load",
+        "working memory",
+        "worked examples"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "外在的負荷削減は学習成果を高程度向上（d=0.50〜0.90）。",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・スウェラー",
+      "originator_name_en": "John Sweller",
+      "founding_work_title": "Cognitive load during problem solving: Effects on learning",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Cognitive Science"
+    },
+    {
+      "name_ja": "近接発達領域と足場かけ（ヴィゴツキー）",
+      "name_en": "Zone of Proximal Development and Scaffolding (Vygotsky)",
+      "definition": "現在の独力到達水準と、有能な他者（教師・ピア）の援助のもとで到達できる潜在的水準の差を「近接発達領域（ZPD）」と定義し、この領域での適切な支援（足場かけ、scaffoldingはウッドら1976が命名）が発達を促進するという理論。",
+      "impact_summary": "社会文化的学習論・構成主義教育・協調学習の基盤となり、教育実践における教師の役割を「伝達者」から「共同構成者」へと再定義した。",
+      "subfield": "教育心理学",
+      "school_of_thought": "社会文化的発達論",
+      "era_start": 1934,
+      "era_end": null,
+      "methodology_level": "実験・臨床的観察・教育的研究",
+      "application_conditions": "教授法設計・個別化学習支援・協調学習環境設計",
+      "when_to_apply": "全学校段階での個別化支援・差別化指導・特別支援教育",
+      "framing_questions": [
+        "この課題はZPDの範囲内か？",
+        "支援（足場かけ）の量と種類は適切か？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの個人内認知論",
+        "行動主義的訓練観"
+      ],
+      "keywords_ja": [
+        "近接発達領域",
+        "足場かけ",
+        "他者調整から自己調整",
+        "内言",
+        "社会文化的学習"
+      ],
+      "keywords_en": [
+        "zone of proximal development",
+        "scaffolding",
+        "other-regulation to self-regulation",
+        "private speech",
+        "sociocultural learning"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "ZPD内での指導は学習成果を高程度向上。足場かけ実験でd=0.50〜0.80。",
+      "empirical_support": "supported",
+      "originator_name": "レフ・ヴィゴツキー",
+      "originator_name_en": "Lev S. Vygotsky",
+      "founding_work_title": "Thought and Language",
+      "founding_work_year": 1934,
+      "founding_work_venue": "Social'no-ekonomicheskoe (Posthumous; English translation 1962, MIT Press)"
+    },
+    {
+      "name_ja": "発見学習理論（ブルーナー）",
+      "name_en": "Discovery Learning Theory (Bruner)",
+      "definition": "学習者は知識を受動的に受け取るのではなく、問題解決・探索・仮説検証を通じて能動的に構築（発見）することで最も深く学ぶという構成主義的教育理論。スパイラル・カリキュラムと3つの表象モード（行動的・映像的・象徴的）を提唱。",
+      "impact_summary": "構成主義教育運動の中核概念となり、探究学習・STEM教育・問題解決型学習（PBL）の理論的基盤を提供した。ブルーナーの1960年代教育改革運動「知識の構造」論文と連動。",
+      "subfield": "教育心理学",
+      "school_of_thought": "構成主義・認知発達的教育論",
+      "era_start": 1961,
+      "era_end": null,
+      "methodology_level": "実験・教育実践研究・事例研究",
+      "application_conditions": "概念の深い理解・問題解決力・内発的動機の育成",
+      "when_to_apply": "STEM教育・探究学習・高次思考力育成",
+      "framing_questions": [
+        "この授業は学習者が自ら発見・構築できる環境を提供しているか？",
+        "3つの表象モードの段階を踏んでいるか？"
+      ],
+      "opposing_concept_names": [
+        "認知負荷理論的直接指導",
+        "有意味受容学習（オースベル）"
+      ],
+      "keywords_ja": [
+        "発見学習",
+        "スパイラル・カリキュラム",
+        "行動的表象",
+        "映像的表象",
+        "象徴的表象"
+      ],
+      "keywords_en": [
+        "discovery learning",
+        "spiral curriculum",
+        "enactive representation",
+        "iconic representation",
+        "symbolic representation"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "高能力・動機づけの高い学習者で効果大。初心者・低能力学習者では直接指導優位。",
+      "empirical_support": "contested",
+      "originator_name": "ジェローム・ブルーナー",
+      "originator_name_en": "Jerome Bruner",
+      "founding_work_title": "The act of discovery",
+      "founding_work_year": 1961,
+      "founding_work_venue": "Harvard Educational Review"
+    },
+    {
+      "name_ja": "有意味受容学習とアドバンスト・オーガナイザー（オースベル）",
+      "name_en": "Meaningful Receptive Learning and Advance Organizers (Ausubel)",
+      "definition": "新しい情報を既有の認知構造（スキーマ）に意味的に結びつける「同化」によって学習が成立するという理論。授業前に提示する「アドバンスト・オーガナイザー（先行オーガナイザー）」が認知構造との橋渡し役を担う。「最も重要な学習因は学習者がすでに知っていることである」。",
+      "impact_summary": "概念地図（ノーバック）の直接的基盤となり、説明的教授法（講義）の認知的合理化を可能にした。知識の階層的構造化・先行学習診断の教育実践に影響を与えた。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知的教育心理学",
+      "era_start": 1963,
+      "era_end": null,
+      "methodology_level": "実験・理論研究",
+      "application_conditions": "体系的な知識・概念の教授、講義型授業の改善",
+      "when_to_apply": "新単元導入時の先行知識活性化、講義設計",
+      "framing_questions": [
+        "学習者はこの新情報を結びつける既有知識を持っているか？",
+        "先行オーガナイザーが認知的橋渡しを提供しているか？"
+      ],
+      "opposing_concept_names": [
+        "発見学習（ブルーナー）",
+        "白紙状態からの構築（急進的構成主義）"
+      ],
+      "keywords_ja": [
+        "有意味学習",
+        "先行オーガナイザー",
+        "同化理論",
+        "認知構造",
+        "既有知識"
+      ],
+      "keywords_en": [
+        "meaningful learning",
+        "advance organizer",
+        "assimilation theory",
+        "cognitive structure",
+        "prior knowledge"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "先行オーガナイザーの効果量はd=0.30〜0.50（メタ分析）。",
+      "empirical_support": "supported",
+      "originator_name": "デイヴィッド・オースベル",
+      "originator_name_en": "David P. Ausubel",
+      "founding_work_title": "The Psychology of Meaningful Verbal Learning",
+      "founding_work_year": 1963,
+      "founding_work_venue": "Grune & Stratton"
+    },
+    {
+      "name_ja": "ブルームのタキソノミー",
+      "name_en": "Bloom's Taxonomy of Educational Objectives",
+      "definition": "教育目標を知識・理解・応用・分析・総合・評価の6階層（認知領域）に分類した目標分類学。2001年にアンダーソン＆クラースウォールが動詞形に改訂し（記憶する・理解する・応用する・分析する・評価する・創造する）、知識次元（事実的・概念的・手続的・メタ認知的）を追加。",
+      "impact_summary": "世界中の教育目標設定・授業設計・テスト設計の標準枠組みとなり、高次思考力育成の指針として60年以上にわたって使用され続けている。",
+      "subfield": "教育心理学",
+      "school_of_thought": "行動目標論・認知教育論",
+      "era_start": 1956,
+      "era_end": null,
+      "methodology_level": "理論・カリキュラム分析・教育評価研究",
+      "application_conditions": "授業・カリキュラム設計、学習目標の明確化、評価設計",
+      "when_to_apply": "全学校段階のカリキュラム・テスト設計",
+      "framing_questions": [
+        "この学習目標はどの認知レベルを要求しているか？",
+        "下位レベルから上位レベルへの段階的設計になっているか？"
+      ],
+      "opposing_concept_names": [
+        "能力・コンピテンシー中心の教育論"
+      ],
+      "keywords_ja": [
+        "認知領域",
+        "教育目標分類",
+        "高次思考",
+        "知識次元",
+        "創造する"
+      ],
+      "keywords_en": [
+        "cognitive domain",
+        "taxonomy of educational objectives",
+        "higher-order thinking",
+        "knowledge dimension",
+        "creating"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "教育目標の明確化は学業達成を中程度向上（実装研究でd=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "ベンジャミン・ブルーム",
+      "originator_name_en": "Benjamin S. Bloom",
+      "founding_work_title": "Taxonomy of Educational Objectives, Handbook I: Cognitive Domain",
+      "founding_work_year": 1956,
+      "founding_work_venue": "David McKay"
+    },
+    {
+      "name_ja": "社会文化的発達論（ヴィゴツキー）",
+      "name_en": "Sociocultural Theory of Cognitive Development (Vygotsky)",
+      "definition": "認知の高次機能は対人間の社会的相互作用（言語・道具・記号）の内面化によって形成されるという理論。「間主観的なものが個人内のものになる」という内面化原則と、言語が思考を媒介するという考えを核とする文化歴史的心理学。",
+      "impact_summary": "20世紀最重要発達理論の一つ。ZPD・足場かけ・内言・内面化概念を通じて教育・発達・認知神経科学に多大な影響を与えた。社会文化的アプローチの基礎を確立した。",
+      "subfield": "生態学的・文化的発達",
+      "school_of_thought": "文化歴史的心理学・社会文化論",
+      "era_start": 1934,
+      "era_end": null,
+      "methodology_level": "実験・臨床的観察・文化比較",
+      "application_conditions": "文化的学習・言語的媒介が重要な教育・発達支援文脈すべて",
+      "when_to_apply": "全学校段階・異文化学習環境・言語療法",
+      "framing_questions": [
+        "この認知課題は文化的道具（言語・記号）の内面化によって達成されているか？",
+        "社会的対話が思考をどう形成しているか？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの個体内構成主義",
+        "行動主義"
+      ],
+      "keywords_ja": [
+        "内面化",
+        "言語と思考",
+        "内言",
+        "心理的道具",
+        "文化歴史的"
+      ],
+      "keywords_en": [
+        "internalization",
+        "language and thought",
+        "private speech",
+        "psychological tools",
+        "cultural-historical"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "言語的媒介と認知発達の連動は多数の文化横断研究で支持。",
+      "empirical_support": "supported",
+      "originator_name": "レフ・ヴィゴツキー",
+      "originator_name_en": "Lev S. Vygotsky",
+      "founding_work_title": "Myshlenie i rech' (Thought and Language)",
+      "founding_work_year": 1934,
+      "founding_work_venue": "Sotsekgiz (English translation 1962, MIT Press)"
+    },
+    {
+      "name_ja": "ブロンフェンブレンナーの生態学的システム理論",
+      "name_en": "Bronfenbrenner's Ecological Systems Theory",
+      "definition": "子どもの発達は、マイクロシステム（直接環境）・メゾシステム（環境間連携）・エクソシステム（間接影響）・マクロシステム（文化・制度）・クロノシステム（時間的変化）という入れ子状の環境システムの相互作用によって規定されるという理論。後にPPCT（プロセス・人物・文脈・時間）モデルへ発展。",
+      "impact_summary": "発達研究に文脈・生態学的視点をもたらし、社会政策・家族支援・学校改革の研究枠組みとして世界的に最も使用される発達理論の一つとなった。",
+      "subfield": "生態学的・文化的発達",
+      "school_of_thought": "生態学的発達論・システム論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "自然的観察・縦断的研究・政策評価",
+      "application_conditions": "家族・学校・地域環境の総合的な発達支援設計",
+      "when_to_apply": "子ども・家族支援政策設計・学校改革・地域開発",
+      "framing_questions": [
+        "この子どもを取り巻く環境システムのどのレベルが問題か？",
+        "各システム間の連携はどうなっているか？"
+      ],
+      "opposing_concept_names": [
+        "個体内発達論（ピアジェ）",
+        "行動遺伝学的還元主義"
+      ],
+      "keywords_ja": [
+        "マイクロシステム",
+        "メゾシステム",
+        "エクソシステム",
+        "マクロシステム",
+        "クロノシステム"
+      ],
+      "keywords_en": [
+        "microsystem",
+        "mesosystem",
+        "exosystem",
+        "macrosystem",
+        "chronosystem"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "多水準環境要因の組み合わせが発達アウトカムを中〜高程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "ユーリー・ブロンフェンブレンナー",
+      "originator_name_en": "Urie Bronfenbrenner",
+      "founding_work_title": "The Ecology of Human Development",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Harvard University Press"
+    },
+    {
+      "name_ja": "ロゴフの「思考の徒弟制」理論",
+      "name_en": "Apprenticeship in Thinking / Guided Participation (Rogoff)",
+      "definition": "子どもの認知発達は、文化的実践のコミュニティへの参加（見習い・ガイド付き参加・参加的流用）を通じて行われるという社会文化的発達論。ラテンアメリカ先住民コミュニティの研究を通じて、文化固有の学習形態を記述した。",
+      "impact_summary": "先住民・非西洋的な学習形態の研究を開拓し、普遍主義的発達論（ピアジェ・コールバーグ）への文化多様性的対抗軸を提供した。参加型学習・コミュニティ・オブ・プラクティスとの接続も深い。",
+      "subfield": "生態学的・文化的発達",
+      "school_of_thought": "社会文化的発達論・人類学的教育論",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "民族誌的観察・比較文化研究",
+      "application_conditions": "文化的に多様な子どもへの教育・支援、先住民教育、移民家庭支援",
+      "when_to_apply": "異文化間教育・多文化共生教育・非公式学習場面の理解",
+      "framing_questions": [
+        "この子どもはどのような文化的実践に参加しているか？",
+        "参加と流用を通じた学習がどう生じているか？"
+      ],
+      "opposing_concept_names": [
+        "普遍主義的段階論（ピアジェ）",
+        "脱文脈的認知テスト観"
+      ],
+      "keywords_ja": [
+        "ガイド付き参加",
+        "参加的流用",
+        "文化的実践",
+        "徒弟制",
+        "先住民学習"
+      ],
+      "keywords_en": [
+        "guided participation",
+        "participatory appropriation",
+        "cultural practice",
+        "apprenticeship",
+        "indigenous learning"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "文化的学習形態の記述的精度は高いが、普遍的予測モデルとしての検証は限定的。",
+      "empirical_support": "supported",
+      "originator_name": "バーバラ・ロゴフ",
+      "originator_name_en": "Barbara Rogoff",
+      "founding_work_title": "Apprenticeship in Thinking: Cognitive Development in Social Context",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Oxford University Press"
+    },
+    {
+      "name_ja": "状況的学習論とコミュニティ・オブ・プラクティス",
+      "name_en": "Situated Learning and Communities of Practice (Lave and Wenger)",
+      "definition": "学習は個人の頭の中で生じるものではなく、実践コミュニティへの参加（周辺的正統参加から中心的成員へ）の過程として生じるという理論。知識は状況・文脈に埋め込まれており、文脈から切り離した学習は非効率である。",
+      "impact_summary": "職業訓練・組織学習・知識管理の枠組みとなり、企業内学習・師弟関係・オンラインコミュニティへの応用が広がった。フォーマル教育批判としても機能した。",
+      "subfield": "生態学的・文化的発達",
+      "school_of_thought": "社会文化的学習論・実践論",
+      "era_start": 1991,
+      "era_end": null,
+      "methodology_level": "民族誌的観察・事例研究",
+      "application_conditions": "職場学習・徒弟制訓練・オンラインコミュニティ・専門家育成",
+      "when_to_apply": "職業訓練・組織学習設計・専門職教育",
+      "framing_questions": [
+        "この学習環境は正統的な実践参加を可能にしているか？",
+        "初心者から熟練者への移行路はどう設計されているか？"
+      ],
+      "opposing_concept_names": [
+        "脱文脈的学校学習観",
+        "情報処理論的学習観"
+      ],
+      "keywords_ja": [
+        "周辺的正統参加",
+        "コミュニティ・オブ・プラクティス",
+        "状況的学習",
+        "正統性",
+        "実践参加"
+      ],
+      "keywords_en": [
+        "legitimate peripheral participation",
+        "community of practice",
+        "situated learning",
+        "legitimacy",
+        "practice participation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "職場学習・徒弟制型訓練の成果を定性的に説明する枠組みとして有効。",
+      "empirical_support": "supported",
+      "originator_name": "ジャン・レイヴとエティエンヌ・ウェンガー",
+      "originator_name_en": "Jean Lave and Etienne Wenger",
+      "founding_work_title": "Situated Learning: Legitimate Peripheral Participation",
+      "founding_work_year": 1991,
+      "founding_work_venue": "Cambridge University Press"
+    },
+    {
+      "name_ja": "ASD認知モデル：心の理論欠如仮説（バロン＝コーエン）",
+      "name_en": "Theory of Mind Deficit Hypothesis of Autism (Baron-Cohen)",
+      "definition": "自閉スペクトラム症（ASD）の中核的社会的障害は、他者の心的状態（信念・意図・欲求）を推論する能力（心の理論）の発達的欠如（「心盲」）によって説明されるという認知仮説。バロン＝コーエン・レスリー・フリスのサリー・アン実験（1985）で実証。",
+      "impact_summary": "ASD研究・診断・支援の基盤理論となり、社会的認知訓練プログラムの設計に影響を与えた。ただし高機能ASDでの通過率・二次的心の理論・情動的共感との乖離など批判もある。",
+      "subfield": "発達障害",
+      "school_of_thought": "認知神経発達論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "実験（フォルス・ビリーフ課題）・神経画像研究",
+      "application_conditions": "ASDの社会的障害の評価・社会認知訓練プログラムの設計",
+      "when_to_apply": "ASDの診断評価・支援計画・社会性支援教育",
+      "framing_questions": [
+        "この個人はフォルス・ビリーフ課題を通過しているか？",
+        "一次・二次心の理論のどちらで困難があるか？"
+      ],
+      "opposing_concept_names": [
+        "弱い中枢性統合仮説（フリス）",
+        "実行機能障害説",
+        "社会的動機づけ理論"
+      ],
+      "keywords_ja": [
+        "心盲",
+        "フォルス・ビリーフ",
+        "サリー・アン課題",
+        "社会的認知",
+        "ASD"
+      ],
+      "keywords_en": [
+        "mindblindness",
+        "false belief",
+        "Sally-Anne task",
+        "social cognition",
+        "ASD"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "サリー・アン課題の失敗はASD診断を高程度予測するが、高機能ASDでは通過率が高く汎用性に限界。",
+      "empirical_support": "contested",
+      "originator_name": "サイモン・バロン＝コーエン、アラン・レスリー、ウタ・フリス",
+      "originator_name_en": "Simon Baron-Cohen, Alan Leslie, and Uta Frith",
+      "founding_work_title": "Does the autistic child have a 'theory of mind'?",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Cognition"
+    },
+    {
+      "name_ja": "弱い中枢性統合仮説（フリス）",
+      "name_en": "Weak Central Coherence Theory (Frith)",
+      "definition": "ASDの認知的特性として、文脈全体・全体的意味よりも細部・局所処理を優先する傾向（弱い中枢性統合）があるという理論。「木を見て森を見ない」認知スタイルであり、隠れた図形検出・ブロックデザインの優秀さとして現れる。",
+      "impact_summary": "ASDの強みと困難の両方を説明する枠組みを提供し、神経多様性の観点からASD認知を肯定的に評価する視点を支持した。心の理論欠如仮説・実行機能説を補完する認知モデル。",
+      "subfield": "発達障害",
+      "school_of_thought": "認知神経発達論",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "実験（埋め込み図形・ブロックデザイン）・神経画像研究",
+      "application_conditions": "ASDの認知的強み（細部処理）を活用した教育・職業支援",
+      "when_to_apply": "ASDの認知プロファイル評価、強みを活かした職業マッチング",
+      "framing_questions": [
+        "この課題は全体統合か局所処理のどちらが要求されるか？",
+        "局所処理優位がどのように強みと困難として現れているか？"
+      ],
+      "opposing_concept_names": [
+        "心の理論欠如仮説（バロン＝コーエン）",
+        "実行機能障害説"
+      ],
+      "keywords_ja": [
+        "中枢性統合",
+        "局所処理",
+        "全体処理",
+        "細部への注目",
+        "ASD認知"
+      ],
+      "keywords_en": [
+        "central coherence",
+        "local processing",
+        "global processing",
+        "detail focus",
+        "ASD cognition"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "局所処理優位はASD群で一貫して観察されるが個人差が大きい。",
+      "empirical_support": "supported",
+      "originator_name": "ウタ・フリス",
+      "originator_name_en": "Uta Frith",
+      "founding_work_title": "Autism: Explaining the Enigma",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Blackwell"
+    },
+    {
+      "name_ja": "実行機能障害説（ASD・ADHD共通）",
+      "name_en": "Executive Function Deficit Theory (Russell)",
+      "definition": "ASDとADHDの共通認知障害として、計画・抑制・認知的柔軟性・ワーキングメモリ・モニタリングなどの実行機能の欠如を仮定する理論。ASDでは柔軟性と計画の障害が顕著で、ADHDでは抑制制御の障害が中核とされる。",
+      "impact_summary": "ASDとADHDの認知的オーバーラップと差異を説明する共通枠組みとして、神経心理学的評価・認知リハビリ・学校支援設計に活用されている。",
+      "subfield": "発達障害",
+      "school_of_thought": "神経心理学・認知神経発達論",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "神経心理学的検査・実験・神経画像研究",
+      "application_conditions": "ASD・ADHDの神経心理学的評価、教育的支援・認知訓練",
+      "when_to_apply": "ASD・ADHDの包括的神経心理評価・教育支援計画",
+      "framing_questions": [
+        "どの実行機能（抑制・柔軟性・計画）が障害されているか？",
+        "実行機能プロファイルがASDかADHDかを弁別しているか？"
+      ],
+      "opposing_concept_names": [
+        "心の理論欠如仮説（ASD単独説）"
+      ],
+      "keywords_ja": [
+        "実行機能",
+        "抑制制御",
+        "認知的柔軟性",
+        "計画",
+        "ワーキングメモリ"
+      ],
+      "keywords_en": [
+        "executive function",
+        "inhibitory control",
+        "cognitive flexibility",
+        "planning",
+        "working memory"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "実行機能指標はASD・ADHD群と定型発達群を中〜高程度弁別（d=0.50〜0.90）。",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・ラッセル",
+      "originator_name_en": "James Russell",
+      "founding_work_title": "Autism as an Executive Disorder",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Oxford University Press"
+    },
+    {
+      "name_ja": "バークレーのADHD抑制モデル",
+      "name_en": "Barkley's Behavioral Inhibition Model of ADHD",
+      "definition": "ADHDの本質的障害は行動抑制（反応抑制・進行中反応の中断・干渉制御）の欠如であり、これが（1）ワーキングメモリ、（2）情動・動機・覚醒の自己調整、（3）内言の内面化、（4）行動分析と統合の4つの実行機能を二次的に障害するという統一理論。",
+      "impact_summary": "ADHDを「不注意」ではなく「自己調整障害」として再定義し、薬物療法・行動療法・教育的支援の統合的枠組みを提供した。最も引用されるADHD理論の一つ。",
+      "subfield": "発達障害",
+      "school_of_thought": "神経発達論・行動神経科学",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "実験・縦断的臨床研究・神経画像研究",
+      "application_conditions": "ADHDの包括的理解・支援設計・薬物療法効果の理論的説明",
+      "when_to_apply": "ADHD診断評価・治療計画・学校支援プラン策定",
+      "framing_questions": [
+        "この行動は抑制制御の障害から説明できるか？",
+        "どの実行機能が最も障害されているか？"
+      ],
+      "opposing_concept_names": [
+        "注意欠如モデル（不注意中心説）",
+        "動機づけ欠如説"
+      ],
+      "keywords_ja": [
+        "行動抑制",
+        "自己調整",
+        "ワーキングメモリ",
+        "ADHD",
+        "実行機能"
+      ],
+      "keywords_en": [
+        "behavioral inhibition",
+        "self-regulation",
+        "working memory",
+        "ADHD",
+        "executive functions"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "抑制制御指標はADHD重症度・学業・社会適応を高程度予測（d=0.60〜0.90）。",
+      "empirical_support": "supported",
+      "originator_name": "ラッセル・バークレー",
+      "originator_name_en": "Russell A. Barkley",
+      "founding_work_title": "Behavioral inhibition, sustained attention, and executive functions: Constructing a unifying theory of ADHD",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Psychological Bulletin"
+    },
+    {
+      "name_ja": "音韻欠如仮説（発達性読字障害）",
+      "name_en": "Phonological Deficit Hypothesis of Developmental Dyslexia",
+      "definition": "発達性読字障害（ディスレクシア）の根本原因は、音素（最小音韻単位）を意識し操作する音韻意識の障害にあり、これが文字と音の対応（字音対応）の習得を困難にするという認知的仮説。音韻表象の質的欠如が深部原因とされる。",
+      "impact_summary": "読字障害の診断・早期スクリーニング・介入（音韻訓練プログラム）の科学的基盤となり、世界中の特別支援教育政策に影響を与えた。",
+      "subfield": "発達障害",
+      "school_of_thought": "認知神経発達論・読み書き研究",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "実験・縦断的研究・神経画像研究・メタ分析",
+      "application_conditions": "読字障害の早期スクリーニング・音韻訓練プログラムの実施",
+      "when_to_apply": "就学前〜小学校での読字障害リスク評価と早期介入",
+      "framing_questions": [
+        "音韻意識課題（非語復唱・頭音除去）で障害が見られるか？",
+        "音韻訓練は読み書き能力向上につながっているか？"
+      ],
+      "opposing_concept_names": [
+        "視覚・眼球運動仮説",
+        "小脳仮説（ニコルソン）",
+        "マグノセルラー仮説"
+      ],
+      "keywords_ja": [
+        "音韻意識",
+        "字音対応",
+        "ディスレクシア",
+        "音素",
+        "音韻表象"
+      ],
+      "keywords_en": [
+        "phonological awareness",
+        "grapheme-phoneme correspondence",
+        "dyslexia",
+        "phoneme",
+        "phonological representation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "幼児期の音韻意識は後の読字能力を高程度予測（r=0.50〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "マグナス・ルンドバーグとリンデア・スタニングほか（シェイウィッツら）",
+      "originator_name_en": "Lynette Bradley and Peter Bryant (Stanovich, Shaywitz et al.)",
+      "founding_work_title": "Categorizing sounds and learning to read — a causal connection",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Nature"
+    },
+    {
+      "name_ja": "スタンバーグの三元知能理論",
+      "name_en": "Triarchic Theory of Intelligence (Sternberg)",
+      "definition": "知能を分析的知能（学術・問題解決）・創造的知能（新奇状況への対処）・実際的知能（日常・職業への適応）の三側面からとらえる理論。成功的知能（successful intelligence）とは三者のバランスによって人生目標を達成する能力である。",
+      "impact_summary": "IQテスト一元論への批判として発達教育・才能教育・職業カウンセリングに影響を与えた。「成功的知能」に基づく三元教授法が教育実践に応用された。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知発達論・知能理論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "実験・縦断的研究・教育介入研究",
+      "application_conditions": "多面的才能評価・個別化学習設計・職業適性評価",
+      "when_to_apply": "才能教育・学習障害評価・キャリアカウンセリング",
+      "framing_questions": [
+        "この学習者の三側面の強みと弱みはどこか？",
+        "分析偏重の評価が創造的・実際的知能を見落としていないか？"
+      ],
+      "opposing_concept_names": [
+        "g因子説（スピアマン）",
+        "IQ一元論"
+      ],
+      "keywords_ja": [
+        "分析的知能",
+        "創造的知能",
+        "実際的知能",
+        "成功的知能",
+        "三元知能"
+      ],
+      "keywords_en": [
+        "analytical intelligence",
+        "creative intelligence",
+        "practical intelligence",
+        "successful intelligence",
+        "triarchic theory"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "三元知能の三次元弁別に関しては実証的支持が限定的。実際的知能の測定困難さが課題。",
+      "empirical_support": "contested",
+      "originator_name": "ロバート・スタンバーグ",
+      "originator_name_en": "Robert J. Sternberg",
+      "founding_work_title": "Beyond IQ: A Triarchic Theory of Human Intelligence",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Cambridge University Press"
+    },
+    {
+      "name_ja": "望ましい困難さ理論（ビョーク）",
+      "name_en": "Desirable Difficulties Theory (Bjork)",
+      "definition": "学習時に主観的に困難に感じられるが長期記憶定着を促進する「望ましい困難さ」（間隔効果・インターリービング・テスト効果・生成効果・文脈変化等）が存在するという理論。学習の「容易さ（パフォーマンス）」と「強さ（学習）」を区別する。",
+      "impact_summary": "認知心理学の学習研究と教育実践を架橋する枠組みとなり、有効な学習方略の普及に貢献した。Make It Stick等の著作を通じて教育現場への実装が進んだ。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "認知心理学・記憶研究",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "実験研究・メタ分析",
+      "application_conditions": "学習方略の最適化、テスト設計、訓練プログラム設計",
+      "when_to_apply": "全学習段階・職業訓練・スポーツ訓練での学習効率向上",
+      "framing_questions": [
+        "この学習活動は短期パフォーマンスを犠牲にして長期保持を高めているか？",
+        "複数の望ましい困難さが組み合わさっているか？"
+      ],
+      "opposing_concept_names": [
+        "容易さ優先学習観",
+        "流暢性の錯覚（metacognitive illusion）"
+      ],
+      "keywords_ja": [
+        "望ましい困難さ",
+        "インターリービング",
+        "生成効果",
+        "長期記憶",
+        "パフォーマンスと学習の乖離"
+      ],
+      "keywords_en": [
+        "desirable difficulties",
+        "interleaving",
+        "generation effect",
+        "long-term retention",
+        "performance-learning dissociation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "複数の望ましい困難さ組み合わせによる記憶向上効果は複数のメタ分析で支持（d=0.40〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・ビョーク",
+      "originator_name_en": "Robert A. Bjork",
+      "founding_work_title": "Memory and metamemory considerations in the training of human beings",
+      "founding_work_year": 1994,
+      "founding_work_venue": "Metacognition: Knowing About Knowing (eds. Metcalfe & Shimamura), MIT Press"
+    },
+    {
+      "name_ja": "インターリービング効果",
+      "name_en": "Interleaving Effect",
+      "definition": "同一科目内で複数の問題タイプを混在させて練習（インターリービング）すると、ブロック練習より短期パフォーマンスは下がるが長期的な識別能力と転移が向上するという学習現象。望ましい困難さの一つとしてビョーク系統の研究で精緻化された。",
+      "impact_summary": "数学・自然科学の問題演習設計、スポーツ練習計画、医学教育での事例ベース学習の改善に応用されている。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知心理学・記憶研究",
+      "era_start": 1978,
+      "era_end": null,
+      "methodology_level": "実験研究・教室フィールド研究",
+      "application_conditions": "複数のスキルや概念を学ぶ訓練・練習設計",
+      "when_to_apply": "数学・外国語・スポーツ・医学教育での練習設計",
+      "framing_questions": [
+        "この練習はブロック型かインターリービング型か？",
+        "問題タイプの識別訓練として機能しているか？"
+      ],
+      "opposing_concept_names": [
+        "ブロック練習（massed blocked practice）"
+      ],
+      "keywords_ja": [
+        "インターリービング",
+        "混在練習",
+        "問題識別",
+        "転移",
+        "長期保持"
+      ],
+      "keywords_en": [
+        "interleaving",
+        "mixed practice",
+        "discrimination learning",
+        "transfer",
+        "long-term retention"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "インターリービングは保持テスト・転移テストでブロック比d=0.40〜0.60の優位。",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・シュルマン",
+      "originator_name_en": "John A. Shea (with Robin Morgan)",
+      "founding_work_title": "Contextual interference effects on the acquisition, retention, and transfer of a motor skill",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Journal of Experimental Psychology: Human Learning and Memory"
+    },
+    {
+      "name_ja": "先住民・非西洋的発達観（文化的多様性視点）",
+      "name_en": "Indigenous and Non-Western Developmental Perspectives",
+      "definition": "普遍主義的な西洋中心の発達段階論（ピアジェ・コールバーグ・エリクソン）への批判として、各文化・民族が持つ子どもの発達・学習・道徳形成に関する独自の理論（民俗発達論）が実践的重要性を持つという視点。アフリカのウブントゥ、先住民のランドベースト学習等が例示される。",
+      "impact_summary": "文化的に感応性のある発達支援・教育設計・心理的アセスメントへの転換を促した。グローバル南北の格差・植民地的普遍主義批判の文脈でも重要な枠組み。",
+      "subfield": "生態学的・文化的発達",
+      "school_of_thought": "文化人類学的発達論・批判的発達心理学",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "民族誌・比較文化研究・ナラティブ研究",
+      "application_conditions": "多文化・先住民コミュニティでの教育・発達支援設計",
+      "when_to_apply": "異文化間教育・先住民教育・多文化ソーシャルワーク",
+      "framing_questions": [
+        "この発達評価基準は西洋的偏りを持っていないか？",
+        "この文化固有の発達概念はどのような実践につながるか？"
+      ],
+      "opposing_concept_names": [
+        "普遍主義的発達段階論",
+        "脱文化的心理測定観"
+      ],
+      "keywords_ja": [
+        "民俗発達論",
+        "ウブントゥ",
+        "ランドベースト学習",
+        "文化的感受性",
+        "植民地主義批判"
+      ],
+      "keywords_en": [
+        "ethnodevelopmental theory",
+        "Ubuntu",
+        "land-based learning",
+        "cultural responsiveness",
+        "decolonization"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "中",
+      "predictive_power": "文化適合型教育・支援の成果向上に関する研究は増加中だが体系化途上。",
+      "empirical_support": "emerging",
+      "originator_name": "複数（リビコフ、マシンダ・ツワナほか）",
+      "originator_name_en": "Multiple contributors (including Nsamenang, Super and Harkness)",
+      "founding_work_title": "Human Development in Cultural Context: A Third World Perspective",
+      "founding_work_year": 1992,
+      "founding_work_venue": "Sage Publications"
+    },
+    {
+      "name_ja": "帰属理論（ワイナー）",
+      "name_en": "Attribution Theory of Achievement (Weiner)",
+      "definition": "成功・失敗の原因帰属（能力・努力・課題難度・運の4分類）を、内外的統制・安定性・統制可能性の3次元で分類し、帰属スタイルが感情（誇り・恥・感謝・罪悪感）と将来の動機づけを決定するという理論。",
+      "impact_summary": "動機づけ教育・学習支援・スポーツ心理学の実践的枠組みとして広く普及し、テスト不安・学習性無力感への帰属的介入（再帰属訓練）の基盤となった。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "動機づけ理論・社会認知論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "実験・質問紙・縦断研究",
+      "application_conditions": "学習意欲の低下・無力感・失敗経験後の動機づけ回復支援",
+      "when_to_apply": "学習困難・挫折体験への介入、テスト不安の認知行動的支援",
+      "framing_questions": [
+        "この学習者は失敗をどこに帰属しているか？",
+        "能力への内的固定帰属が無力感を生んでいないか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義強化論",
+        "自己決定理論（補完）"
+      ],
+      "keywords_ja": [
+        "帰属スタイル",
+        "内外的統制",
+        "安定性",
+        "統制可能性",
+        "再帰属訓練"
+      ],
+      "keywords_en": [
+        "attribution style",
+        "locus of control",
+        "stability",
+        "controllability",
+        "reattribution training"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "努力帰属は粘り強さと達成を中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "バーナード・ワイナー",
+      "originator_name_en": "Bernard Weiner",
+      "founding_work_title": "A theory of motivation for some classroom experiences",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Journal of Educational Psychology"
+    },
+    {
+      "name_ja": "バデリーのワーキングメモリモデル",
+      "name_en": "Baddeley's Working Memory Model",
+      "definition": "中央実行系・音韻ループ・視空間スケッチパッド・エピソード的バッファーの4要素からなるワーキングメモリの多成分モデル。情報を能動的に保持・操作する短期記憶の精緻化版として、学習・推論・読み書き・計算の基盤とされる。",
+      "impact_summary": "認知負荷理論・マルチメディア学習理論の神経認知的基盤を提供し、学習困難・発達障害の神経心理学的評価の標準ツールとなった。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知心理学・神経心理学",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "実験・神経心理学的検査・神経画像研究",
+      "application_conditions": "学習困難・発達障害の認知評価、教授法設計",
+      "when_to_apply": "読み書き・計算困難の神経心理学的評価、認知訓練設計",
+      "framing_questions": [
+        "この学習者のどのワーキングメモリ成分が弱いか？",
+        "指導設計はワーキングメモリ容量を考慮しているか？"
+      ],
+      "opposing_concept_names": [
+        "短期記憶の一元的記憶貯蔵庫モデル（アトキンソン・シフリン）"
+      ],
+      "keywords_ja": [
+        "中央実行系",
+        "音韻ループ",
+        "視空間スケッチパッド",
+        "エピソード的バッファー",
+        "ワーキングメモリ"
+      ],
+      "keywords_en": [
+        "central executive",
+        "phonological loop",
+        "visuospatial sketchpad",
+        "episodic buffer",
+        "working memory"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "ワーキングメモリ容量は読み・計算・推論成績を高程度予測（r=0.50〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "アラン・バデリーとグラハム・ヒッチ",
+      "originator_name_en": "Alan Baddeley and Graham Hitch",
+      "founding_work_title": "Working memory",
+      "founding_work_year": 1974,
+      "founding_work_venue": "Psychology of Learning and Motivation (Vol. 8), Academic Press"
+    },
+    {
+      "name_ja": "生態学的知覚理論（J.J.ギブソン）",
+      "name_en": "Ecological Theory of Perception / Affordance Theory (James J. Gibson)",
+      "definition": "知覚は感覚データの頭内構成ではなく、環境の光学的情報流から行為可能性（アフォーダンス）を直接に検出するプロセスであるという直接知覚論。発達的には子どもはアフォーダンスの探索・弁別を通じて知覚能力を獲得する（エレノア・ギブソンへ接続）。",
+      "impact_summary": "ロボティクス・UI設計・環境デザイン・スポーツ科学・発達心理学に影響を与え、「アフォーダンス」概念は認知科学・デザイン分野の基本語彙となった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "生態学的心理学",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "実験・理論分析・生態学的観察",
+      "application_conditions": "学習環境設計・運動発達支援・知覚リハビリ",
+      "when_to_apply": "環境設計・運動発達評価・知覚訓練",
+      "framing_questions": [
+        "この環境は子どもにとってどのようなアフォーダンスを提供するか？",
+        "知覚と行為は循環的に連動しているか？"
+      ],
+      "opposing_concept_names": [
+        "構成主義的知覚論（ヘルムホルツ）",
+        "情報処理的知覚論"
+      ],
+      "keywords_ja": [
+        "アフォーダンス",
+        "直接知覚",
+        "光学的流動",
+        "行為可能性",
+        "環境情報"
+      ],
+      "keywords_en": [
+        "affordance",
+        "direct perception",
+        "optic flow",
+        "action possibility",
+        "ecological information"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "アフォーダンス知覚と行動選択の連動は実験的・生態学的研究で高い支持。",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・J・ギブソン",
+      "originator_name_en": "James J. Gibson",
+      "founding_work_title": "The Ecological Approach to Visual Perception",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Houghton Mifflin"
+    },
+    {
+      "name_ja": "インタラクショニズム（発達的相互作用論）",
+      "name_en": "Transactional Model of Development (Sameroff)",
+      "definition": "子どもの発達は子ども自身の特性と養育環境（親・文脈）の双方向的継続的相互作用（トランザクション）によって形成されるという動的モデル。親の行動→子の発達→親の認知→子の行動の連鎖が強調される。",
+      "impact_summary": "遺伝と環境の二項対立を超え、発達的介入（子の発達支援と親支援の両方が必要）の理論的根拠を提供した。リスク研究・早期介入研究の標準的枠組みの一つ。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "発達システム論",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "縦断的観察・介入研究",
+      "application_conditions": "ハイリスク乳幼児の発達支援、親子相互作用介入プログラム",
+      "when_to_apply": "乳幼児期の総合的発達支援・早期介入プログラム設計",
+      "framing_questions": [
+        "この子どもの発達問題は子どものみの問題か、親子相互作用の産物か？",
+        "介入は親と子の双方に向けられているか？"
+      ],
+      "opposing_concept_names": [
+        "成熟主義的一方向モデル",
+        "環境決定論"
+      ],
+      "keywords_ja": [
+        "トランザクション",
+        "相互作用",
+        "双方向的影響",
+        "ハイリスク乳幼児",
+        "早期介入"
+      ],
+      "keywords_en": [
+        "transactional model",
+        "bidirectional interaction",
+        "high-risk infant",
+        "early intervention",
+        "reciprocal influence"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "親子相互作用の質と子の発達アウトカムの縦断的予測力は中〜高程度。",
+      "empirical_support": "supported",
+      "originator_name": "アーノルド・サメロフとマイケル・チャンドラー",
+      "originator_name_en": "Arnold J. Sameroff and Michael J. Chandler",
+      "founding_work_title": "Reproductive risk and the continuum of caretaking casualty",
+      "founding_work_year": 1975,
+      "founding_work_venue": "Review of Child Development Research (Vol. 4)"
+    },
+    {
+      "name_ja": "動的システム理論（発達）",
+      "name_en": "Dynamic Systems Theory of Development (Thelen and Smith)",
+      "definition": "発達は遺伝的プログラムや個別要因ではなく、身体・脳・環境・課題・行動の複数要素の非線型・自己組織化的相互作用から創発するという理論。歩行・把握などの運動発達を出発点とし、認知発達への拡張が進んだ。",
+      "impact_summary": "段階論的・プログラム論的発達観に代わる非線型・創発的発達モデルを提供し、運動発達・認知発達・言語発達研究の新パラダイムとなった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "複雑系・発達システム論",
+      "era_start": 1994,
+      "era_end": null,
+      "methodology_level": "縦断的高密度観察・実験・コンピュータシミュレーション",
+      "application_conditions": "運動発達・認知発達の非線型変化の理解と支援",
+      "when_to_apply": "運動発達評価・認知発達研究・発達リハビリ",
+      "framing_questions": [
+        "この発達変化は段階的か非線型な創発的変化か？",
+        "発達の「制御パラメータ」はどの要素か？"
+      ],
+      "opposing_concept_names": [
+        "成熟主義的段階論",
+        "情報処理論的発達観"
+      ],
+      "keywords_ja": [
+        "自己組織化",
+        "創発",
+        "非線型",
+        "アトラクター",
+        "動的システム"
+      ],
+      "keywords_en": [
+        "self-organization",
+        "emergence",
+        "nonlinearity",
+        "attractor",
+        "dynamic systems"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "個々の発達変化の定性的説明力は高いが、定量的予測は研究途上。",
+      "empirical_support": "supported",
+      "originator_name": "エスター・シェレンとリンダ・スミス",
+      "originator_name_en": "Esther Thelen and Linda B. Smith",
+      "founding_work_title": "A Dynamic Systems Approach to the Development of Cognition and Action",
+      "founding_work_year": 1994,
+      "founding_work_venue": "MIT Press"
+    },
+    {
+      "name_ja": "新ピアジェ派理論（ケース）",
+      "name_en": "Neo-Piagetian Theory (Case)",
+      "definition": "ピアジェの発達段階論を情報処理論・神経発達科学と統合し、ワーキングメモリの拡大とスキーマの統合によって中心的概念構造が段階的に発達するという新ピアジェ派の代表的枠組み。4段階の発展的スキーマ統合を提唱。",
+      "impact_summary": "ピアジェの段階論と情報処理論の橋渡しを行い、数概念・社会的認知・空間認知の発達研究に実証的枠組みを提供した。教育への段階論的応用を精緻化した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "新ピアジェ派・認知発達論",
+      "era_start": 1985,
+      "era_end": null,
+      "methodology_level": "実験・縦断的研究",
+      "application_conditions": "算数・空間認知・社会認知の発達的評価・指導設計",
+      "when_to_apply": "小学校〜中学校の数・空間・社会的概念の発達的支援",
+      "framing_questions": [
+        "この課題はどの中心的概念構造段階を要求しているか？",
+        "ワーキングメモリ容量と課題要求は合致しているか？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェ原典段階論",
+        "情報処理論単独説"
+      ],
+      "keywords_ja": [
+        "中心的概念構造",
+        "ワーキングメモリ拡大",
+        "スキーマ統合",
+        "新ピアジェ派",
+        "段階的発達"
+      ],
+      "keywords_en": [
+        "central conceptual structure",
+        "working memory expansion",
+        "schema integration",
+        "Neo-Piagetian",
+        "stage-like development"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "中心的概念構造段階は課題達成を中〜高程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "ロビー・ケース",
+      "originator_name_en": "Robbie Case",
+      "founding_work_title": "Intellectual Development: Birth to Adulthood",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Academic Press"
+    },
+    {
+      "name_ja": "学習性無力感（セリグマン）",
+      "name_en": "Learned Helplessness (Seligman)",
+      "definition": "コントロール不能な嫌悪体験の反復により、将来のコントロール可能な状況でも無力感・動機欠如・認知障害を示す状態。帰属スタイル（内的・安定的・全般的な否定的帰属）との統合モデルが発達・教育・臨床研究の基盤となった。",
+      "impact_summary": "抑うつ・学業失敗・テスト不安研究の中核概念となり、認知行動療法・楽観主義介入・ポジティブ心理学の先駆的基盤となった。教育的無力感の介入研究にも直結。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "行動主義・認知行動論",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "実験（動物・人間）・縦断的研究",
+      "application_conditions": "慢性的失敗体験による動機欠如・抑うつへの介入",
+      "when_to_apply": "学習困難・抑うつリスク生徒・失敗体験が蓄積した学習者支援",
+      "framing_questions": [
+        "この無力感はコントロール不能体験の学習的産物か？",
+        "帰属スタイルの変容で改善可能か？"
+      ],
+      "opposing_concept_names": [
+        "自己決定理論（補完）",
+        "成長マインドセット論（対抗）"
+      ],
+      "keywords_ja": [
+        "無力感",
+        "コントロール不能",
+        "帰属スタイル",
+        "抑うつ",
+        "楽観主義"
+      ],
+      "keywords_en": [
+        "helplessness",
+        "uncontrollability",
+        "attributional style",
+        "depression",
+        "optimism"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "否定的帰属スタイルは抑うつ・学業不振を中〜高程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "マーティン・セリグマン",
+      "originator_name_en": "Martin E. P. Seligman",
+      "founding_work_title": "Helplessness: On Depression, Development, and Death",
+      "founding_work_year": 1975,
+      "founding_work_venue": "W. H. Freeman"
+    },
+    {
+      "name_ja": "フロー理論（チクセントミハイ）",
+      "name_en": "Flow Theory (Csikszentmihalyi)",
+      "definition": "スキルと課題難度の適切なバランスにより、活動に完全に没入した「フロー」状態（自意識の消失・時間感覚の歪曲・活動の内在的報酬）が生じるという最適体験理論。学習・創造・遊びへの応用が広範。",
+      "impact_summary": "ポジティブ心理学・学習動機づけ・ゲームデザイン・創造性研究に多大な影響を与え、最適学習体験の設計論として教育・組織・スポーツ場面に応用されている。",
+      "subfield": "学習動機づけ",
+      "school_of_thought": "ポジティブ心理学・動機づけ理論",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "ESM法（経験サンプリング）・インタビュー・縦断的研究",
+      "application_conditions": "最適な学習体験・没入感・内発的動機づけの促進設計",
+      "when_to_apply": "教育設計・ゲームデザイン・スポーツ指導・創造的作業環境設計",
+      "framing_questions": [
+        "課題難度とスキル水準のバランスはフローゾーンにあるか？",
+        "フロー体験が内発的動機づけをどう支えているか？"
+      ],
+      "opposing_concept_names": [
+        "外発的強化理論",
+        "退屈・不安の二極状態"
+      ],
+      "keywords_ja": [
+        "フロー",
+        "最適体験",
+        "没入",
+        "課題とスキルのバランス",
+        "内在的報酬"
+      ],
+      "keywords_en": [
+        "flow",
+        "optimal experience",
+        "immersion",
+        "challenge-skill balance",
+        "autotelic"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "フロー体験は主観的ウェルビーイング・パフォーマンスを中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "ミハイ・チクセントミハイ",
+      "originator_name_en": "Mihaly Csikszentmihalyi",
+      "founding_work_title": "Beyond Boredom and Anxiety",
+      "founding_work_year": 1975,
+      "founding_work_venue": "Jossey-Bass"
+    },
+    {
+      "name_ja": "発達的神経科学：前頭前皮質の成熟と認知発達",
+      "name_en": "Prefrontal Cortex Maturation and Cognitive Development",
+      "definition": "前頭前皮質（PFC）は成人期まで成熟が続き（約25歳）、その段階的髄鞘化と灰白質剪定のプロセスが、抑制制御・計画・ワーキングメモリ・認知的柔軟性などの高次認知機能の発達と対応するという神経発達理論。",
+      "impact_summary": "思春期のリスク行動・衝動性・判断力未熟の神経科学的根拠を提供し、少年司法・学校規律・青年期支援の政策に影響を与えた。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "発達神経科学",
+      "era_start": 1999,
+      "era_end": null,
+      "methodology_level": "神経画像研究（fMRI・DTI）・縦断的神経発達研究",
+      "application_conditions": "思春期の衝動制御・意思決定困難の神経発達的理解",
+      "when_to_apply": "思春期の行動支援・少年司法・薬物予防教育",
+      "framing_questions": [
+        "この青年の判断・抑制困難はPFCの未成熟と一致するか？",
+        "発達的可塑性を活かした介入タイミングはいつか？"
+      ],
+      "opposing_concept_names": [
+        "成熟主義的成人能力論",
+        "環境決定論"
+      ],
+      "keywords_ja": [
+        "前頭前皮質",
+        "髄鞘化",
+        "灰白質剪定",
+        "認知制御",
+        "神経発達"
+      ],
+      "keywords_en": [
+        "prefrontal cortex",
+        "myelination",
+        "synaptic pruning",
+        "cognitive control",
+        "neurodevelopment"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "PFC成熟指標と実行機能・衝動制御の縦断的相関は中〜高程度（r=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "BJ・ケイシーほか（ジェイ・ギッドら含む）",
+      "originator_name_en": "B.J. Casey, Jay N. Giedd, Kathleen M. Thomas",
+      "founding_work_title": "Structural and functional brain development and its relation to cognitive development",
+      "founding_work_year": 2000,
+      "founding_work_venue": "Biological Psychology"
+    },
+    {
+      "name_ja": "メタ認知理論（フラベル）",
+      "name_en": "Metacognition Theory (Flavell)",
+      "definition": "自分自身の認知プロセス（記憶・理解・思考）についての知識（メタ認知的知識）とモニタリング・制御（メタ認知的制御）の総体を「メタ認知」と定義した理論。「考えることについて考える」能力の発達を記述する。",
+      "impact_summary": "自己調整学習・学習方略研究・批判的思考教育の中核概念となり、学習困難支援と学習スキル訓練の理論的基盤を提供した。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知発達論・教育心理学",
+      "era_start": 1976,
+      "era_end": null,
+      "methodology_level": "観察・インタビュー・実験研究",
+      "application_conditions": "学習方略指導・読解指導・数学的問題解決の自己モニタリング育成",
+      "when_to_apply": "小学校以降全学習段階でのメタ認知的学習指導",
+      "framing_questions": [
+        "この学習者は自分の理解を正確にモニタリングできているか？",
+        "どのメタ認知方略が欠如しているか？"
+      ],
+      "opposing_concept_names": [
+        "行動主義的習熟観",
+        "メタ認知なき流暢性学習"
+      ],
+      "keywords_ja": [
+        "メタ認知",
+        "認知的モニタリング",
+        "メタ認知的知識",
+        "自己調整",
+        "思考の思考"
+      ],
+      "keywords_en": [
+        "metacognition",
+        "cognitive monitoring",
+        "metacognitive knowledge",
+        "self-regulation",
+        "thinking about thinking"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "メタ認知的方略使用は学業成績を中〜高程度予測（d=0.40〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "ジョン・フラベル",
+      "originator_name_en": "John H. Flavell",
+      "founding_work_title": "Metacognitive aspects of problem solving",
+      "founding_work_year": 1976,
+      "founding_work_venue": "The Nature of Intelligence (ed. Resnick), Lawrence Erlbaum"
+    },
+    {
+      "name_ja": "概念変化学習論（ポスナーほか）",
+      "name_en": "Conceptual Change Theory (Posner, Strike, Hewson, Gertzog)",
+      "definition": "学習者が保持する素朴概念（誤概念）が科学的概念の習得を妨げるとき、既存概念への不満・新概念の理解可能性・妥当性・適用可能性の4条件が揃って初めて概念変化が生じるという理論。概念変容論とも呼ばれる。",
+      "impact_summary": "理科教育・数学教育における誤概念研究と授業設計に革命をもたらし、概念変化を促す問い・予測・観察・説明サイクルの指導設計に影響を与えた。",
+      "subfield": "教育心理学",
+      "school_of_thought": "構成主義的教育心理学",
+      "era_start": 1982,
+      "era_end": null,
+      "methodology_level": "実験・授業研究・縦断的研究",
+      "application_conditions": "理科・数学の素朴概念を持つ学習者への概念的理解促進",
+      "when_to_apply": "物理・生物・数学の根本概念の指導",
+      "framing_questions": [
+        "学習者はどのような誤概念を持っているか？",
+        "概念変化の4条件を授業でどう達成するか？"
+      ],
+      "opposing_concept_names": [
+        "知識転移論（表面的類似による学習）",
+        "単純強化理論"
+      ],
+      "keywords_ja": [
+        "素朴概念",
+        "誤概念",
+        "概念変化",
+        "不満",
+        "新概念の理解可能性"
+      ],
+      "keywords_en": [
+        "misconception",
+        "naive concept",
+        "conceptual change",
+        "dissatisfaction",
+        "intelligibility"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "概念変化を促す教授法は理解の深さと保持を中程度向上（d=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "ジョージ・ポスナー、ケネス・ストライク、ピーター・ヒューソン、ウィリアム・ガーツォグ",
+      "originator_name_en": "George Posner, Kenneth Strike, Peter Hewson, William Gertzog",
+      "founding_work_title": "Accommodation of a scientific conception: Toward a theory of conceptual change",
+      "founding_work_year": 1982,
+      "founding_work_venue": "Science Education"
+    },
+    {
+      "name_ja": "問題解決型学習（PBL）の理論的基盤",
+      "name_en": "Problem-Based Learning: Theoretical Foundations (Barrows)",
+      "definition": "実際的・複雑・現実的な問題を出発点とし、学習者が協働で問題解決プロセスを経ることによって知識・思考力・協働スキルを獲得するという教育アプローチ。バロウズが医学教育で確立し、全教育段階に拡張された。",
+      "impact_summary": "医学教育改革を皮切りに工学・看護・法学・小中学校教育まで世界的に普及した。自己主導的学習・批判的思考・チームワーク育成の実践的枠組みを提供した。",
+      "subfield": "教育心理学",
+      "school_of_thought": "構成主義・状況的学習論",
+      "era_start": 1980,
+      "era_end": null,
+      "methodology_level": "教育実践研究・実験・メタ分析",
+      "application_conditions": "高次思考力・問題解決力・協働スキルの育成が目標の場面",
+      "when_to_apply": "医学・工学・看護・小中高・大学教育での問題解決指導",
+      "framing_questions": [
+        "この問題はPBLの出発点として適切な複雑性と現実性を持つか？",
+        "学習者は問題解決プロセスを自己主導できているか？"
+      ],
+      "opposing_concept_names": [
+        "認知負荷理論的直接指導",
+        "講義中心教授法"
+      ],
+      "keywords_ja": [
+        "問題基盤学習",
+        "自己主導学習",
+        "協働学習",
+        "メタ認知",
+        "現実的問題"
+      ],
+      "keywords_en": [
+        "problem-based learning",
+        "self-directed learning",
+        "collaborative learning",
+        "metacognition",
+        "authentic problem"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "PBLは知識保持・臨床推論・自己主導学習で混合的証拠（d=0.15〜0.40、文脈依存）。",
+      "empirical_support": "contested",
+      "originator_name": "ハワード・バロウズ",
+      "originator_name_en": "Howard S. Barrows",
+      "founding_work_title": "Problem-Based Learning: An Approach to Medical Education",
+      "founding_work_year": 1980,
+      "founding_work_venue": "Springer"
+    },
+    {
+      "name_ja": "転移可能な知識の理論（アナロジー学習・ゲンター）",
+      "name_en": "Analogical Reasoning and Transfer (Gentner)",
+      "definition": "新たな問題を類似した既知構造へのアナロジー（構造マッピング）によって解釈することが理解と転移を促進するという構造マッピング理論。表面的類似より関係的構造の共有が転移の鍵であると主張する。",
+      "impact_summary": "科学的推論・数学的概念理解・言語習得の転移研究に理論的基盤を提供し、類推に基づく教授法（比較・事例対比指導）の科学的根拠となった。",
+      "subfield": "教育心理学",
+      "school_of_thought": "認知心理学・類推推論論",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "実験研究・計算モデル",
+      "application_conditions": "概念的理解・科学・数学・言語の関係的構造理解の促進",
+      "when_to_apply": "新概念導入・科学・数学・社会科での比較・類推的指導",
+      "framing_questions": [
+        "この比較・類推は表面的か構造的か？",
+        "構造的アナロジーが転移を促進しているか？"
+      ],
+      "opposing_concept_names": [
+        "表面的類似転移論"
+      ],
+      "keywords_ja": [
+        "構造マッピング",
+        "アナロジー",
+        "関係的転移",
+        "表面的類似",
+        "構造的一致"
+      ],
+      "keywords_en": [
+        "structure mapping",
+        "analogy",
+        "relational transfer",
+        "surface similarity",
+        "structural alignment"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "構造的アナロジー訓練は概念転移を中〜高程度向上（d=0.40〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "デドレ・ゲンター",
+      "originator_name_en": "Dedre Gentner",
+      "founding_work_title": "Structure-mapping: A theoretical framework for analogy",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Cognitive Science"
+    },
+    {
+      "name_ja": "生産的失敗理論（カプール）",
+      "name_en": "Productive Failure Theory (Kapur)",
+      "definition": "解法を事前に教えず、まず困難な問題に取り組ませて失敗させることが、後続の指導後に深い概念理解・転移を促進するという逆直感的学習理論。「失敗の生産性」という「望ましい困難さ」の変形。",
+      "impact_summary": "数学・科学教育の実践的研究で注目を集め、直接指導と探索学習のシーケンス設計の再考を促した。比較的新しい理論だが再現研究が積み重なっている。",
+      "subfield": "教育心理学",
+      "school_of_thought": "構成主義・認知発達的教育論",
+      "era_start": 2010,
+      "era_end": null,
+      "methodology_level": "実験研究・教室フィールド研究",
+      "application_conditions": "数学・理科での概念的深化・転移促進の指導設計",
+      "when_to_apply": "中学〜大学・職業訓練での数学・理科の概念指導",
+      "framing_questions": [
+        "解法提示前の探索的失敗期間が設けられているか？",
+        "失敗経験が後続学習の活性化につながっているか？"
+      ],
+      "opposing_concept_names": [
+        "認知負荷理論的直接指導（初心者には直接指導優位）"
+      ],
+      "keywords_ja": [
+        "生産的失敗",
+        "探索的学習",
+        "失敗の生産性",
+        "概念的理解",
+        "転移"
+      ],
+      "keywords_en": [
+        "productive failure",
+        "exploratory learning",
+        "failure productivity",
+        "conceptual understanding",
+        "transfer"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "生産的失敗は直接指導比で転移テストにd=0.30〜0.50の優位。",
+      "empirical_support": "supported",
+      "originator_name": "マヌー・カプール",
+      "originator_name_en": "Manu Kapur",
+      "founding_work_title": "Productive failure",
+      "founding_work_year": 2010,
+      "founding_work_venue": "Cognition and Instruction"
+    },
+    {
+      "name_ja": "道徳基盤理論（ハイト）",
+      "name_en": "Moral Foundations Theory (Haidt)",
+      "definition": "道徳的直観は（1）ケア/危害、（2）公正/欺き、（3）忠誠/背信、（4）権威/転覆、（5）神聖/堕落の5つ（後に6つ）の生得的モジュールを持ち、文化によって各基盤の重視度が異なるという社会直観主義的道徳理論。道徳的推論は直観の事後正当化に過ぎないと主張。",
+      "impact_summary": "政治的多様性・文化的道徳差異の説明に影響を与え、道徳心理学・政治心理学・文化研究の重要枠組みとなった。コールバーグの推論中心モデルへの根本的批判を提供した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "進化的心理学・社会直観主義",
+      "era_start": 2004,
+      "era_end": null,
+      "methodology_level": "質問紙・実験・文化比較研究",
+      "application_conditions": "道徳的多様性の理解・道徳教育設計・政治的分断の理解",
+      "when_to_apply": "道徳教育・市民教育・異文化コミュニケーション",
+      "framing_questions": [
+        "この道徳的判断はどの基盤に基づいているか？",
+        "文化による基盤の重視度の差がどのような対立を生んでいるか？"
+      ],
+      "opposing_concept_names": [
+        "コールバーグの推論中心道徳発達論",
+        "ギリガンのケアの倫理"
+      ],
+      "keywords_ja": [
+        "道徳基盤",
+        "社会直観主義",
+        "直観と推論",
+        "文化的道徳多様性",
+        "6基盤"
+      ],
+      "keywords_en": [
+        "moral foundations",
+        "moral intuitionism",
+        "intuition and reasoning",
+        "cultural moral diversity",
+        "six foundations"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "道徳基盤スコアは政治的イデオロギー・道徳的判断を中〜高程度予測（r=0.40〜0.60）。",
+      "empirical_support": "supported",
+      "originator_name": "ジョナサン・ハイト",
+      "originator_name_en": "Jonathan Haidt",
+      "founding_work_title": "The emotional dog and its rational tail: A social intuitionist approach to moral judgment",
+      "founding_work_year": 2001,
+      "founding_work_venue": "Psychological Review"
+    },
+    {
+      "name_ja": "共感・向社会性の発達理論（ホフマン）",
+      "name_en": "Empathy and Prosocial Development Theory (Hoffman)",
+      "definition": "共感は反射的情動伝染から段階的に他者視点取得・認知的共感・共感的苦悩・共感的関心へと発達し、道徳的動機づけ（罪悪感・義務感）と連動して向社会的行動を生むという発達論。",
+      "impact_summary": "共感の発達的メカニズムを記述する主要理論として、社会情動的学習（SEL）・道徳教育・反いじめプログラムの科学的基盤となった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "社会認知的道徳発達論",
+      "era_start": 1975,
+      "era_end": null,
+      "methodology_level": "観察・実験・縦断的研究",
+      "application_conditions": "共感・向社会性の発達評価と育成プログラム設計",
+      "when_to_apply": "就学前〜小学校の情動教育・道徳教育・SELプログラム",
+      "framing_questions": [
+        "この子どもの共感はどの発達段階にあるか？",
+        "共感的苦悩から共感的関心への移行が生じているか？"
+      ],
+      "opposing_concept_names": [
+        "純粋認知的共感論（心の理論のみ）",
+        "利己的共感論"
+      ],
+      "keywords_ja": [
+        "共感",
+        "向社会性",
+        "視点取得",
+        "共感的関心",
+        "道徳的動機"
+      ],
+      "keywords_en": [
+        "empathy",
+        "prosocial behavior",
+        "perspective taking",
+        "empathic concern",
+        "moral motivation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "共感スコアは向社会的行動を中程度予測（r=0.25〜0.45）。",
+      "empirical_support": "supported",
+      "originator_name": "マーティン・ホフマン",
+      "originator_name_en": "Martin L. Hoffman",
+      "founding_work_title": "Developmental synthesis of affect and cognition and its implications for altruistic motivation",
+      "founding_work_year": 1975,
+      "founding_work_venue": "Developmental Psychology"
+    },
+    {
+      "name_ja": "発達的精神病理学の視点（シチェッティ）",
+      "name_en": "Developmental Psychopathology Perspective (Cicchetti)",
+      "definition": "精神病理は正常発達の逸脱として理解され、発達の複数の経路・多様な帰結（等結果性・多結果性）・リスクと保護要因の相互作用というレンズで分析されるべきという研究領域の視点。虐待・愛着障害・抑うつの発達的理解に適用。",
+      "impact_summary": "臨床発達心理学・精神病理学・予防科学の統合的枠組みとなり、リスクと回復力研究・早期介入研究の標準的パラダイムを確立した。",
+      "subfield": "発達障害",
+      "school_of_thought": "発達精神病理学",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "縦断的コホート研究・発達的介入研究",
+      "application_conditions": "精神病理のリスクアセスメント・予防的介入・治療目標の発達的設定",
+      "when_to_apply": "虐待・ネグレクト被害児・ハイリスク家族への包括的支援設計",
+      "framing_questions": [
+        "この症状は発達経路のどの時点での逸脱か？",
+        "リスク要因と保護要因のバランスはどうか？"
+      ],
+      "opposing_concept_names": [
+        "成人精神病理モデルの子どもへの単純適用"
+      ],
+      "keywords_ja": [
+        "等結果性",
+        "多結果性",
+        "リスク要因",
+        "保護要因",
+        "発達経路"
+      ],
+      "keywords_en": [
+        "equifinality",
+        "multifinality",
+        "risk factors",
+        "protective factors",
+        "developmental pathways"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "リスク・保護要因の組み合わせが精神病理アウトカムを中〜高程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "ダンテ・シチェッティ",
+      "originator_name_en": "Dante Cicchetti",
+      "founding_work_title": "The emergence of developmental psychopathology",
+      "founding_work_year": 1984,
+      "founding_work_venue": "Child Development"
+    },
+    {
+      "name_ja": "レジリエンス発達論（ガーメジーとマステン）",
+      "name_en": "Developmental Resilience Theory (Garmezy and Masten)",
+      "definition": "深刻なリスク・逆境・ストレスにさらされながらも良好な発達アウトカムを示す現象（レジリエンス）が、個人内資産・家族要因・コミュニティ支援の保護要因によって媒介されるという理論。レジリエンスは特性ではなくプロセスとして概念化される。",
+      "impact_summary": "脆弱性モデルからの転換として、ポジティブ発達・予防科学・学校基盤介入の科学的根拠を提供した。子ども・成人・コミュニティレベルのレジリエンス研究を形成した。",
+      "subfield": "発達障害",
+      "school_of_thought": "発達精神病理学・ポジティブ発達論",
+      "era_start": 1974,
+      "era_end": null,
+      "methodology_level": "縦断的コホート研究・比較研究",
+      "application_conditions": "ハイリスク児の保護要因強化、逆境体験後の回復力支援",
+      "when_to_apply": "虐待・貧困・自然災害等の逆境体験後の支援設計",
+      "framing_questions": [
+        "この子どもはどのような保護要因を持っているか？",
+        "レジリエンスのプロセスがどのように機能しているか？"
+      ],
+      "opposing_concept_names": [
+        "脆弱性一元論",
+        "傷ついた子ども観"
+      ],
+      "keywords_ja": [
+        "レジリエンス",
+        "保護要因",
+        "逆境",
+        "適応的発達",
+        "プロセスとしてのレジリエンス"
+      ],
+      "keywords_en": [
+        "resilience",
+        "protective factors",
+        "adversity",
+        "adaptive development",
+        "resilience as process"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "保護要因の数と質がレジリエンスアウトカムを中〜高程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "ノーマン・ガーメジーとアン・マステン",
+      "originator_name_en": "Norman Garmezy and Ann S. Masten",
+      "founding_work_title": "Stress, competence, and development: Continuities in the study of schizophrenic adults, children vulnerable to psychopathology, and the search for stress-resistant children",
+      "founding_work_year": 1984,
+      "founding_work_venue": "American Journal of Orthopsychiatry"
+    },
+    {
+      "name_ja": "早期経験と感受性期理論",
+      "name_en": "Sensitive Periods in Development (Knudsen)",
+      "definition": "発達の特定時期（感受性期）に環境入力が神経回路形成に特に大きな影響を与えるという理論。視覚・言語・愛着など機能域ごとに感受性期の幅と強度が異なる。臨界期（critical period）の穏やかな版として概念化される。",
+      "impact_summary": "早期介入・早期教育・言語療法・音楽教育の「最適なタイミング」論の科学的根拠となった。ネグレクト・虐待の神経発達的損傷とその回復可能性の理解に影響を与えた。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "発達神経科学・神経発達論",
+      "era_start": 1981,
+      "era_end": null,
+      "methodology_level": "動物実験・神経画像研究・縦断的研究",
+      "application_conditions": "早期教育・言語療法・音楽教育・虐待影響評価",
+      "when_to_apply": "乳幼児〜学齢期の早期介入と感受性期を考慮した支援計画",
+      "framing_questions": [
+        "この発達領域の感受性期はいつか？",
+        "感受性期を逃した場合の可塑性はどの程度残るか？"
+      ],
+      "opposing_concept_names": [
+        "可塑性均一論（どの時期でも同等）",
+        "成熟待ち論"
+      ],
+      "keywords_ja": [
+        "感受性期",
+        "臨界期",
+        "神経可塑性",
+        "早期経験",
+        "最適な時期"
+      ],
+      "keywords_en": [
+        "sensitive period",
+        "critical period",
+        "neural plasticity",
+        "early experience",
+        "timing of development"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "感受性期内の介入は感受性期外の介入より効果量が高い（域依存）。",
+      "empirical_support": "supported",
+      "originator_name": "エリック・クヌートセン（ハッベルとウィーゼルの先行研究も含む）",
+      "originator_name_en": "Eric I. Knudsen (building on Hubel and Wiesel)",
+      "founding_work_title": "A sensitive period for sharpening frequency tuning by monaural deprivation in the owl auditory system",
+      "founding_work_year": 1985,
+      "founding_work_venue": "Journal of Neuroscience"
+    },
+    {
+      "name_ja": "同一性資本理論（コテ）",
+      "name_en": "Identity Capital Theory (Côté)",
+      "definition": "個人が社会的・文化的文脈の中で同一性を発達させるために動員する資源（同一性資本：内的・外的資源）の蓄積と活用が、現代成人移行の成否を左右するという社会学的・発達心理学的理論。マーシャの同一性地位論をより社会構造的に拡張。",
+      "impact_summary": "成人形成期研究・高等教育研究・キャリア発達研究に新たな社会構造的視点をもたらし、若者支援政策の理論的枠組みとなった。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "発達社会学・アイデンティティ理論",
+      "era_start": 1996,
+      "era_end": null,
+      "methodology_level": "縦断的サーベイ・質的研究",
+      "application_conditions": "大学生・若者の同一性発達支援・キャリア教育",
+      "when_to_apply": "大学・若者支援機関でのアイデンティティ・キャリア支援",
+      "framing_questions": [
+        "この若者はどのような同一性資本を持っているか？",
+        "社会構造がアイデンティティ形成をどう制約・促進しているか？"
+      ],
+      "opposing_concept_names": [
+        "個人主義的アイデンティティ論",
+        "マーシャの純構造的地位論"
+      ],
+      "keywords_ja": [
+        "同一性資本",
+        "社会構造",
+        "成人移行",
+        "資源動員",
+        "ポジショニング"
+      ],
+      "keywords_en": [
+        "identity capital",
+        "social structure",
+        "adult transition",
+        "resource mobilization",
+        "positioning"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "同一性資本の量はキャリア・社会的適応の成功を中程度予測。",
+      "empirical_support": "supported",
+      "originator_name": "ジェームズ・コテ",
+      "originator_name_en": "James E. Côté",
+      "founding_work_title": "Sociological perspectives on identity formation: The culture-identity link and identity capital",
+      "founding_work_year": 1996,
+      "founding_work_venue": "Journal of Adolescence"
+    },
+    {
+      "name_ja": "家庭学習環境論（ティゼードとモートン）",
+      "name_en": "Home Learning Environment Theory",
+      "definition": "家庭での読み聞かせ・教育的会話・学習材料の提供・学習支援行動などの総体（家庭学習環境：HLE）が、SES（社会経済的地位）を統制しても認知・言語・学業発達を独立して予測するという理論的枠組み。",
+      "impact_summary": "早期家庭支援・親訓練プログラム・就学前教育政策の科学的根拠を提供し、SES格差に潜むメカニズムとしての家庭環境の役割を明確化した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "生態学的発達論・教育格差研究",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "縦断的研究・構造方程式モデリング",
+      "application_conditions": "ハイリスク家庭の早期介入・親訓練・格差縮小プログラム設計",
+      "when_to_apply": "乳幼児〜就学前の家庭環境評価と支援",
+      "framing_questions": [
+        "この家庭の学習環境はどの程度豊かか？",
+        "HLEを改善する介入が認知発達格差を縮小するか？"
+      ],
+      "opposing_concept_names": [
+        "遺伝決定論",
+        "SES単独説"
+      ],
+      "keywords_ja": [
+        "家庭学習環境",
+        "読み聞かせ",
+        "教育的相互作用",
+        "SES格差",
+        "認知刺激"
+      ],
+      "keywords_en": [
+        "home learning environment",
+        "book reading",
+        "educational interaction",
+        "SES gap",
+        "cognitive stimulation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "HLEは語彙・読字・算数の発達を中〜高程度予測（β=0.30〜0.50、SES統制後）。",
+      "empirical_support": "supported",
+      "originator_name": "ジャック・ティゼードとペニー・モートン（ラメイとブロック等も含む）",
+      "originator_name_en": "Jack Tizard, Penny Mortimore (plus Ramey, Bradley et al.)",
+      "founding_work_title": "The Home Observation for Measurement of the Environment (HOME)",
+      "founding_work_year": 1984,
+      "founding_work_venue": "Little Rock: University of Arkansas Press (Caldwell & Bradley)"
+    },
+    {
+      "name_ja": "選好注視法・驚き反応法による乳幼児認知研究パラダイム",
+      "name_en": "Preferential Looking and Violation of Expectation Paradigm (Fantz and Baillargeon)",
+      "definition": "乳児が新奇刺激を既知刺激より長く注視する（選好注視法）、また不可能事象に驚き反応を示す（驚き反応法）という実験パラダイムを用いて、言語前の乳児の認知・概念・物理的知識を非侵襲的に測定する方法論的枠組み。",
+      "impact_summary": "乳児認知研究の革命的方法論として、物体概念・数概念・社会的認知・因果推論などの乳児期早期における発達について膨大な実証データを生み出した。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "実験的発達認知科学",
+      "era_start": 1961,
+      "era_end": null,
+      "methodology_level": "実験（注視時間測定）・眼球運動計測",
+      "application_conditions": "言語前乳児の認知発達評価・ASD早期スクリーニング",
+      "when_to_apply": "乳幼児期（0〜24か月）の認知・社会的認知評価",
+      "framing_questions": [
+        "乳児はこの概念（物体永続・数・社会性）をどの時期に獲得しているか？",
+        "驚き反応が概念知識の証拠として機能しているか？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの感覚運動的構成主義（物体永続は後期）"
+      ],
+      "keywords_ja": [
+        "選好注視法",
+        "驚き反応法",
+        "注視時間",
+        "物体概念",
+        "乳児認知"
+      ],
+      "keywords_en": [
+        "preferential looking",
+        "violation of expectation",
+        "looking time",
+        "object concept",
+        "infant cognition"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "注視時間指標は後の認知発達を中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・ファンツ（後にルネ・ベアジョン等が精緻化）",
+      "originator_name_en": "Robert Fantz (extended by Renée Baillargeon et al.)",
+      "founding_work_title": "Pattern discrimination and selective attention as determinants of perceptual development from birth",
+      "founding_work_year": 1963,
+      "founding_work_venue": "Perceptual Development in Children (eds. Kidd & Rivoire)"
+    },
+    {
+      "name_ja": "数概念の発達（スターキーとゲルマン）",
+      "name_en": "Number Concept Development (Starkey and Gelman)",
+      "definition": "数感覚（subitizing・近似数システム）は乳児期から存在し、正確な小数の弁別と言語的計数・基数性原理（最後に数えた数が総量を表す）の理解が幼児期に段階的に発達するという数発達理論。",
+      "impact_summary": "算数教育・数学学習困難（発達性算数障害）研究の基盤となり、数感覚訓練プログラムの設計に影響を与えた。近似数システム研究との統合が進んでいる。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "認知発達論・数学教育心理学",
+      "era_start": 1978,
+      "era_end": null,
+      "methodology_level": "実験・縦断的研究",
+      "application_conditions": "就学前〜小学校低学年の数発達評価・算数教育設計",
+      "when_to_apply": "就学前の数概念発達評価・算数学習困難の早期支援",
+      "framing_questions": [
+        "この子どもは基数性原理を理解しているか？",
+        "近似数システムの精度はどの水準か？"
+      ],
+      "opposing_concept_names": [
+        "ピアジェの保存概念優先論（数は操作期以降）"
+      ],
+      "keywords_ja": [
+        "数感覚",
+        "基数性原理",
+        "近似数システム",
+        "subitizing",
+        "数概念"
+      ],
+      "keywords_en": [
+        "number sense",
+        "cardinality principle",
+        "approximate number system",
+        "subitizing",
+        "number concept"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "就学前の数感覚スコアは後の算数成績を高程度予測（r=0.50〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "ロシェル・ゲルマンとC.R.ガリステル",
+      "originator_name_en": "Rochel Gelman and C.R. Gallistel",
+      "founding_work_title": "The Child's Understanding of Number",
+      "founding_work_year": 1978,
+      "founding_work_venue": "Harvard University Press"
+    },
+    {
+      "name_ja": "言語相対性仮説（サピア＝ウォーフ仮説）の発達的検討",
+      "name_en": "Linguistic Relativity in Cognitive Development (Whorf hypothesis)",
+      "definition": "言語の構造が思考・認知（空間・時間・色・数等の概念化）に影響を与えるという言語相対性仮説の穏やかな版（weak relativity）の発達的検討。子どもが言語固有の文法カテゴリーを習得することで認知的分類が形成されるという。",
+      "impact_summary": "発達心理学・言語認知科学・跨文化比較研究の交点として、空間認知・時間認知・色カテゴリー形成の言語的影響を示す実証研究を生み出した。",
+      "subfield": "生態学的・文化的発達",
+      "school_of_thought": "認知言語学・文化的発達論",
+      "era_start": 1956,
+      "era_end": null,
+      "methodology_level": "実験・比較文化研究・縦断的研究",
+      "application_conditions": "多言語教育・異文化間認知差異の理解・認知発達の文化的文脈研究",
+      "when_to_apply": "多文化・多言語環境での認知発達研究・教育",
+      "framing_questions": [
+        "使用言語の文法カテゴリーが空間・時間認知をどう形成しているか？",
+        "言語による分類が思考の範疇をどう規定しているか？"
+      ],
+      "opposing_concept_names": [
+        "普遍主義的認知発達論",
+        "思考先行言語後行論"
+      ],
+      "keywords_ja": [
+        "言語相対性",
+        "サピア＝ウォーフ仮説",
+        "文化的認知",
+        "空間認知",
+        "言語と思考"
+      ],
+      "keywords_en": [
+        "linguistic relativity",
+        "Sapir-Whorf hypothesis",
+        "cultural cognition",
+        "spatial cognition",
+        "language and thought"
+      ],
+      "status": "debated",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "言語の強い版（決定論）は支持なし。穏やかな版は空間・時間認知で部分的支持。",
+      "empirical_support": "contested",
+      "originator_name": "ベンジャミン・ウォーフとエドワード・サピア",
+      "originator_name_en": "Benjamin Lee Whorf and Edward Sapir",
+      "founding_work_title": "Science and Linguistics",
+      "founding_work_year": 1940,
+      "founding_work_venue": "Technology Review"
+    },
+    {
+      "name_ja": "精緻化理論（ライゲルース）",
+      "name_en": "Elaboration Theory of Instruction (Reigeluth)",
+      "definition": "複雑な内容を教える際、最も簡単で典型的な全体像（エピトーム）から始め、詳細化・精緻化・統合のサイクルを繰り返すことで段階的に専門知識を構築するという体系的カリキュラム設計理論。ブルーナーのスパイラル・カリキュラムの精緻化版。",
+      "impact_summary": "インストラクショナルデザイン・カリキュラム設計・eラーニングコース設計の実践的フレームワークとして広く使用されている。",
+      "subfield": "教育心理学",
+      "school_of_thought": "インストラクショナルデザイン・認知的教育論",
+      "era_start": 1979,
+      "era_end": null,
+      "methodology_level": "教育実践研究・カリキュラム設計研究",
+      "application_conditions": "複雑な知識・スキル体系のカリキュラム・コース設計",
+      "when_to_apply": "教科カリキュラム設計・企業研修プログラム・eラーニングコース開発",
+      "framing_questions": [
+        "このコースは最も基礎的なエピトームから精緻化が進む構造になっているか？",
+        "全体と部分の統合サイクルが設けられているか？"
+      ],
+      "opposing_concept_names": [
+        "部分から全体への積み上げ型設計"
+      ],
+      "keywords_ja": [
+        "エピトーム",
+        "精緻化",
+        "スパイラル設計",
+        "統合",
+        "カリキュラムシーケンス"
+      ],
+      "keywords_en": [
+        "epitome",
+        "elaboration",
+        "spiral design",
+        "integration",
+        "curriculum sequence"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "精緻化理論に基づくコース設計は概念的理解と転移を中程度向上。",
+      "empirical_support": "supported",
+      "originator_name": "チャールズ・ライゲルース",
+      "originator_name_en": "Charles M. Reigeluth",
+      "founding_work_title": "TICCIT project and Elaboration Theory",
+      "founding_work_year": 1979,
+      "founding_work_venue": "Instructional Design: Theories and Models (ed. Reigeluth), Lawrence Erlbaum"
+    },
+    {
+      "name_ja": "ポジティブ青年発達論（ラーナー）",
+      "name_en": "Positive Youth Development Theory (Lerner)",
+      "definition": "青年期の発達は問題行動の抑制ではなく、5つのC（有能感・自信・絆・人格・気遣い）を育む強み基盤型アプローチによって促進されるべきであり、個人と文脈の整合（adaptive developmental regulation）が鍵とする理論。",
+      "impact_summary": "青年期支援・放課後プログラム・地域開発の枠組みを問題予防から強み育成へと転換させ、4-Hプログラム等の評価研究に科学的基盤を提供した。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "発達システム論・ポジティブ発達論",
+      "era_start": 2002,
+      "era_end": null,
+      "methodology_level": "縦断的コホート研究・プログラム評価",
+      "application_conditions": "学校・コミュニティ・放課後プログラムにおける青年支援設計",
+      "when_to_apply": "中学〜高校生を対象とした強みベース支援プログラム",
+      "framing_questions": [
+        "この青年支援プログラムは5つのCを育んでいるか？",
+        "個人と文脈の整合はどの程度達成されているか？"
+      ],
+      "opposing_concept_names": [
+        "問題行動予防中心の青年支援観"
+      ],
+      "keywords_ja": [
+        "ポジティブ青年発達",
+        "5つのC",
+        "強みベース",
+        "発達資産",
+        "文脈整合"
+      ],
+      "keywords_en": [
+        "positive youth development",
+        "5Cs",
+        "strength-based",
+        "developmental assets",
+        "adaptive developmental regulation"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "5C指標は学業・市民参加・精神的健康を中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "リチャード・ラーナー",
+      "originator_name_en": "Richard M. Lerner",
+      "founding_work_title": "Concepts and Theories of Human Development",
+      "founding_work_year": 2002,
+      "founding_work_venue": "Lawrence Erlbaum"
+    },
+    {
+      "name_ja": "乳幼児の数感覚と近似数システム（ドゥアンヌ）",
+      "name_en": "Approximate Number System and Core Knowledge (Dehaene)",
+      "definition": "人間（および多くの動物）は生得的に量の近似的比較を可能にする近似数システム（ANS）を持ち、この非言語的数感覚が後の学校的算数・数学能力の基礎を形成するという理論。コア知識システムの一つとして位置づけられる（スペルク等との接続）。",
+      "impact_summary": "算数教育・発達性算数障害研究・脳神経科学的数処理研究の統合的枠組みを提供した。数感覚訓練プログラム（Number Sense）の科学的根拠となった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "認知神経科学・コア知識論",
+      "era_start": 1997,
+      "era_end": null,
+      "methodology_level": "神経画像研究・実験・縦断的研究",
+      "application_conditions": "算数学習困難（発達性算数障害）の評価・早期介入設計",
+      "when_to_apply": "就学前〜小学校低学年の数感覚評価と数学学習支援",
+      "framing_questions": [
+        "この子どもの近似数システムの精度（Weber分率）はどの水準か？",
+        "ANS精度と算数成績の乖離はどの程度か？"
+      ],
+      "opposing_concept_names": [
+        "純粋言語的数概念論",
+        "ピアジェの操作期以降の数理解論"
+      ],
+      "keywords_ja": [
+        "近似数システム",
+        "数感覚",
+        "コア知識",
+        "Weber分率",
+        "発達性算数障害"
+      ],
+      "keywords_en": [
+        "approximate number system",
+        "number sense",
+        "core knowledge",
+        "Weber fraction",
+        "developmental dyscalculia"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "ANS精度は算数・数学成績を中程度予測（r=0.30〜0.50）。",
+      "empirical_support": "supported",
+      "originator_name": "スタニスラス・ドゥアンヌ",
+      "originator_name_en": "Stanislas Dehaene",
+      "founding_work_title": "The Number Sense: How the Mind Creates Mathematics",
+      "founding_work_year": 1997,
+      "founding_work_venue": "Oxford University Press"
+    },
+    {
+      "name_ja": "情報処理的発達論（スターンバーグの処理速度仮説含む）",
+      "name_en": "Information Processing Approach to Development (Case, Dempster, Kail)",
+      "definition": "加齢に伴う処理速度の向上とワーキングメモリ容量の拡大が、複雑な認知課題のパフォーマンス向上を説明するという情報処理論的発達モデル。神経髄鞘化に伴う処理速度の加齢変化が中核メカニズムとされる。",
+      "impact_summary": "発達的変化を生物学的・情報処理論的メカニズムで説明する枠組みを提供し、認知加速訓練・特別支援教育における個別化の科学的根拠となった。",
+      "subfield": "乳幼児・児童発達",
+      "school_of_thought": "情報処理論的発達論",
+      "era_start": 1984,
+      "era_end": null,
+      "methodology_level": "実験・縦断的研究・神経心理学的測定",
+      "application_conditions": "処理速度・ワーキングメモリ制限による学習困難の評価と支援",
+      "when_to_apply": "学習困難・発達障害の神経心理学的評価・個別化指導設計",
+      "framing_questions": [
+        "この学習困難は処理速度あるいはWM容量の制限から説明できるか？",
+        "認知訓練で処理効率を向上できるか？"
+      ],
+      "opposing_concept_names": [
+        "段階論的発達論（量的変化の否定）"
+      ],
+      "keywords_ja": [
+        "処理速度",
+        "ワーキングメモリ容量",
+        "認知効率",
+        "神経髄鞘化",
+        "情報処理発達"
+      ],
+      "keywords_en": [
+        "processing speed",
+        "working memory capacity",
+        "cognitive efficiency",
+        "myelination",
+        "information processing development"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "処理速度は認知発達的アウトカムを高程度予測（r=0.50〜0.70）。",
+      "empirical_support": "supported",
+      "originator_name": "ロバート・カイル",
+      "originator_name_en": "Robert Kail",
+      "founding_work_title": "Developmental functions for speeds of cognitive processes",
+      "founding_work_year": 1991,
+      "founding_work_venue": "Journal of Experimental Child Psychology"
+    },
+    {
+      "name_ja": "道徳的アイデンティティ理論（ブレイシ）",
+      "name_en": "Moral Identity Theory (Blasi)",
+      "definition": "道徳的行為の最も強力な動機づけは道徳的推論（コールバーグ）ではなく、「道徳的であること」が自己概念の中核をなす度合い（道徳的アイデンティティの中心性）にあるという理論。自己一致動機が道徳行動を推進する。",
+      "impact_summary": "道徳的動機づけ・道徳教育・徳教育の理論的基盤を補完し、アクアイノとリードによる道徳的アイデンティティ尺度開発へと発展した。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "道徳発達論・自己論",
+      "era_start": 1983,
+      "era_end": null,
+      "methodology_level": "理論・質問紙・実験研究",
+      "application_conditions": "道徳教育・徳育・市民教育の設計と評価",
+      "when_to_apply": "青年期〜成人期の道徳的行動支援・人格教育",
+      "framing_questions": [
+        "この人物にとって道徳性は自己概念の中核か周辺か？",
+        "道徳的アイデンティティの中心性が道徳行動を予測しているか？"
+      ],
+      "opposing_concept_names": [
+        "コールバーグの推論中心モデル",
+        "状況主義的道徳論"
+      ],
+      "keywords_ja": [
+        "道徳的アイデンティティ",
+        "自己一致動機",
+        "道徳行動",
+        "徳教育",
+        "中心性"
+      ],
+      "keywords_en": [
+        "moral identity",
+        "self-consistency motivation",
+        "moral action",
+        "character education",
+        "centrality"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "道徳的アイデンティティの中心性は道徳行動を中程度予測（r=0.25〜0.45）。",
+      "empirical_support": "supported",
+      "originator_name": "オーグスト・ブレイシ",
+      "originator_name_en": "Augusto Blasi",
+      "founding_work_title": "Moral cognition and moral action: A theoretical perspective",
+      "founding_work_year": 1983,
+      "founding_work_venue": "Developmental Review"
+    },
+    {
+      "name_ja": "発達資産理論（サーチ・インスティテュート）",
+      "name_en": "Developmental Assets Framework (Search Institute)",
+      "definition": "青少年の健全発達に必要な40の発達資産（外的資産20：支援・境界・期待・建設的時間利用、内的資産20：学習への関与・ポジティブな価値・社会的能力・ポジティブな同一性）を定式化したフレームワーク。資産数が多いほど危険行動が減りウェルビーイングが高まる。",
+      "impact_summary": "地域・学校・家族の青少年支援プログラムの設計・評価の標準ツールとなり、米国を中心に世界的に普及した。ポジティブ青年発達論の実践版として機能している。",
+      "subfield": "青年期・アイデンティティ",
+      "school_of_thought": "ポジティブ発達論・コミュニティ発達論",
+      "era_start": 1990,
+      "era_end": null,
+      "methodology_level": "大規模サーベイ・プログラム評価研究",
+      "application_conditions": "学校・地域・家庭連携での青少年支援プログラム設計",
+      "when_to_apply": "中学〜高校生を対象とした地域包括支援プログラム",
+      "framing_questions": [
+        "この青少年が持つ発達資産の数と種類はどうか？",
+        "外的・内的資産のどちらが不足しているか？"
+      ],
+      "opposing_concept_names": [
+        "問題行動予防中心の青少年支援"
+      ],
+      "keywords_ja": [
+        "発達資産",
+        "外的資産",
+        "内的資産",
+        "危険行動",
+        "ウェルビーイング"
+      ],
+      "keywords_en": [
+        "developmental assets",
+        "external assets",
+        "internal assets",
+        "risk behavior",
+        "well-being"
+      ],
+      "status": "active",
+      "source_reliability": "secondary",
+      "data_completeness": "中",
+      "predictive_power": "資産数は危険行動を中〜高程度逆予測（r=0.35〜0.55）。",
+      "empirical_support": "supported",
+      "originator_name": "サーチ・インスティテュート（ペーター・ベンソン）",
+      "originator_name_en": "Search Institute (Peter L. Benson)",
+      "founding_work_title": "The Troubled Journey: A Portrait of 6th-12th Grade Youth",
+      "founding_work_year": 1990,
+      "founding_work_venue": "Search Institute"
+    },
+    {
+      "name_ja": "生涯発達における選択的注意と認知加齢",
+      "name_en": "Selective Attention Decline and Cognitive Aging (Hasher and Zacks)",
+      "definition": "加齢に伴い無関連情報の抑制機能が低下し、ワーキングメモリへの不要情報の侵入が増加することで、処理速度の低下・記憶困難・課題切り替え困難が生じるという抑制欠如理論。",
+      "impact_summary": "認知加齢の認知メカニズムを処理速度低下理論（バードほか）と並行して説明し、老年期の認知支援・環境設計（注意散漫要因の排除）の根拠となった。",
+      "subfield": "成人期・老年期",
+      "school_of_thought": "認知心理学・認知加齢論",
+      "era_start": 1988,
+      "era_end": null,
+      "methodology_level": "実験・縦断的研究",
+      "application_conditions": "老年期の認知困難の評価と環境的支援設計",
+      "when_to_apply": "老年期の認知機能評価・認知支援環境設計・認知症予防",
+      "framing_questions": [
+        "この認知困難は抑制制御の低下による情報干渉から説明できるか？",
+        "環境から無関連刺激を除去することで改善するか？"
+      ],
+      "opposing_concept_names": [
+        "処理速度低下単独説（バード）",
+        "使用退化説"
+      ],
+      "keywords_ja": [
+        "抑制欠如",
+        "選択的注意",
+        "ワーキングメモリ汚染",
+        "認知加齢",
+        "干渉"
+      ],
+      "keywords_en": [
+        "inhibitory deficit",
+        "selective attention",
+        "working memory interference",
+        "cognitive aging",
+        "distractor suppression"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "高",
+      "predictive_power": "抑制機能指標は老年期の認知アウトカムを中程度予測（r=0.35〜0.55）。",
+      "empirical_support": "supported",
+      "originator_name": "リン・ハッシャーとローズ・ザックス",
+      "originator_name_en": "Lynn Hasher and Rose T. Zacks",
+      "founding_work_title": "Working memory, comprehension, and aging: A review and a new view",
+      "founding_work_year": 1988,
+      "founding_work_venue": "Psychology of Learning and Motivation (Vol. 22)"
+    },
+    {
+      "name_ja": "認知的徒弟制理論（コリンズ・ブラウン・ニューマン）",
+      "name_en": "Cognitive Apprenticeship Theory (Collins, Brown, Newman)",
+      "definition": "専門家が暗黙的・内在化された認知スキルを可視化（モデリング）し、コーチング・足場かけ・フェーディング・明確化・省察・探索の6手法を通じて学習者が段階的に自律へ向かうという教授モデル。伝統的徒弟制を認知的学習に応用。",
+      "impact_summary": "数学・理科・読み書き指導の明示的思考可視化教授法の基盤となり、PBL・メンタリング・オンライン学習設計に広く応用されている。",
+      "subfield": "教育心理学",
+      "school_of_thought": "状況的学習論・構成主義",
+      "era_start": 1989,
+      "era_end": null,
+      "methodology_level": "実践事例研究・教授実験",
+      "application_conditions": "専門的思考プロセスの明示化が必要な指導場面（読解・数学・プログラミング等）",
+      "when_to_apply": "専門職教育・数学・理科・読み書き指導の設計",
+      "framing_questions": [
+        "専門家の思考プロセスが可視化・モデリングされているか？",
+        "足場かけからフェーディングへの移行が計画されているか？"
+      ],
+      "opposing_concept_names": [
+        "受動的知識伝達型教授法"
+      ],
+      "keywords_ja": [
+        "モデリング",
+        "コーチング",
+        "足場かけ",
+        "フェーディング",
+        "思考の可視化"
+      ],
+      "keywords_en": [
+        "modeling",
+        "coaching",
+        "scaffolding",
+        "fading",
+        "making thinking visible"
+      ],
+      "status": "active",
+      "source_reliability": "primary",
+      "data_completeness": "中",
+      "predictive_power": "認知的徒弟制に基づく指導は理解・問題解決を中程度向上。",
+      "empirical_support": "supported",
+      "originator_name": "アラン・コリンズ、ジョン・シーリー・ブラウン、スーザン・ニューマン",
+      "originator_name_en": "Allan Collins, John Seely Brown, and Susan E. Newman",
+      "founding_work_title": "Cognitive apprenticeship: Teaching the crafts of reading, writing, and mathematics",
+      "founding_work_year": 1989,
+      "founding_work_venue": "Knowing, Learning, and Instruction (ed. Resnick), Lawrence Erlbaum"
+    }
+  ]
+}
