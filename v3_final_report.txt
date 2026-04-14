@@ -1,0 +1,257 @@
+================================================================================
+  ACADEMIC KNOWLEDGE DATABASE - V3 FINAL QUALITY AUDIT REPORT
+  Date: 2026-04-14
+  Database: ~/projects/research/academic-knowledge-db/academic.db
+================================================================================
+
+1. DATABASE OVERVIEW
+================================================================================
+
+  Domain                  | Records | Avg Completeness | Min  | Max
+  ------------------------+---------+------------------+------+-----
+  social_theory           |     851 |             94.1 |   42 |  100
+  natural_discovery       |   1,761 |             85.8 |   70 |   95
+  humanities_concept      |   1,203 |             79.2 |   60 |   95
+  engineering_method      |     420 |             82.2 |   70 |   95
+  arts_question           |     468 |             73.0 |   55 |   95
+  ------------------------+---------+------------------+------+-----
+  TOTAL                   |   4,703 |             84.3 |      |
+
+  Supporting tables:
+    - cross_domain_relations: 0 records (NOT YET POPULATED)
+    - social_theory_relations: 124 records
+    - natural_discovery_relations: 12 records
+    - humanities_concept_relations: 0
+    - engineering_method_relations: 0
+    - arts_question_relations: 0
+    - Researchers: 7 (natural_discovery only)
+    - Publications: 3 (natural_discovery only)
+    - survey_frame: populated
+
+2. DATA INTEGRITY CHECK RESULTS
+================================================================================
+
+  Check                        | ST   | ND   | HC   | EM   | AQ
+  -----------------------------+------+------+------+------+------
+  NULL name_ja                 |    0 |    0 |    0 |    0 |    0
+  Empty name_ja                |    0 |    0 |    0 |    0 |    0
+  NULL definition              |    0 |    0 |    0 |    0 |    0
+  Empty definition             |    0 |    0 |    0 |    0 |    0
+  NULL era_start               |    0 |    0 |    0 |    0 |    0
+  era_start < -500             |    0 |    0 |    0 |    0 |    0
+  era_start > 2025             |    0 |    0 |    0 |    0 |    0
+  Duplicate name_en            |    0 |    0 |    0 |    0 |    0
+  NULL data_completeness       |    0 |    0 |    0 |    0 |    0
+
+  RESULT: ALL CRITICAL INTEGRITY CHECKS PASS
+
+3. COLUMN FILL RATES (%)
+================================================================================
+
+  Column                  | ST     | ND     | HC     | EM     | AQ
+  ------------------------+--------+--------+--------+--------+--------
+  name_ja                 | 100.0  | 100.0  | 100.0  | 100.0  | 100.0
+  name_en                 |  96.3  | 100.0  | 100.0  | 100.0  | 100.0
+  name_original           |   0.0  |   0.0  |   4.7  |   0.0  |   0.0
+  definition              | 100.0  | 100.0  | 100.0  | 100.0  | 100.0
+  impact_summary          |  90.9  |  92.3  |  83.5  | 100.0  | 100.0
+  subfield                |  96.3  | 100.0  | 100.0  | 100.0  | 100.0
+  school_of_thought       |  84.2  | 100.0  | 100.0  | 100.0  |  85.0
+  era_start               | 100.0  | 100.0  | 100.0  | 100.0  | 100.0
+  era_end                 |   0.1  |   0.3  |   0.5  |   0.0  |   0.2
+  methodology_level       |  84.2  |  92.3  |  91.7  | 100.0  |  83.3
+  target_domain           | 100.0  | 100.0  |  91.7  | 100.0  |  83.3
+  application_conditions  |  84.2  | 100.0  | 100.0  |  90.9  |  83.3
+  when_to_apply           |  84.2  | 100.0  | 100.0  | 100.0  |  85.0
+  framing_questions       |  84.2  | 100.0  | 100.0  | 100.0  |  83.3
+  opposing_concept_names  |  90.9  |  68.0  | 100.0  |  81.1  |  83.3
+  keywords_ja             |  96.3  |  92.3  | 100.0  | 100.0  |  83.3
+  keywords_en             |  96.3  |  92.3  | 100.0  | 100.0  |  83.3
+  status                  | 100.0  | 100.0  | 100.0  | 100.0  | 100.0
+  source_reliability      | 100.0  | 100.0  | 100.0  | 100.0  | 100.0
+
+  Domain-Specific Columns:
+
+  social_theory:
+    predictive_power        100.0%
+    operationalization      100.0%
+    empirical_support       100.0%
+    policy_implications     100.0%
+
+  natural_discovery:
+    mathematical_formulation  57.5%
+    experimental_verification 57.8%
+    applicable_scale          57.8%
+    precision_level          100.0%
+
+  humanities_concept:
+    blind_spot_addressed     100.0%
+    reinterpretation_history 100.0%
+    cultural_context         100.0%
+
+  engineering_method:
+    technology_readiness_level 100.0%
+    related_patents              0.0%
+    industry_applications      100.0%
+    problem_type               100.0%
+    scientific_basis           100.0%
+
+  arts_question:
+    target_assumption        100.0%
+    medium                   100.0%
+    representative_works     100.0%
+    movement_affiliation     100.0%
+    sensory_dimension        100.0%
+
+4. WEAKEST 3 COLUMNS PER DOMAIN
+================================================================================
+
+  social_theory:
+    1. name_original (0.0%) - never populated
+    2. era_end (0.1%) - almost never set
+    3. school_of_thought (84.2%) - missing for ~134 records
+
+  natural_discovery:
+    1. name_original (0.0%) - never populated
+    2. era_end (0.3%) - almost never set
+    3. mathematical_formulation (57.5%) - 747 records missing
+
+  humanities_concept:
+    1. name_original (4.7%) - only 57 records
+    2. era_end (0.5%) - almost never set
+    3. impact_summary (83.5%) - 198 records missing
+
+  engineering_method:
+    1. name_original (0.0%) - never populated
+    2. related_patents (0.0%) - never populated
+    3. era_end (0.0%) - never set
+
+  arts_question:
+    1. name_original (0.0%) - never populated
+    2. era_end (0.2%) - almost never set
+    3. methodology_level (83.3%) - 78 records missing
+
+5. CONSISTENCY CHECK RESULTS
+================================================================================
+
+  era_start values:
+    - social_theory: 1764-2025 (reasonable for social science)
+    - natural_discovery: 1686-2025 (reasonable, starts ~Newton era)
+    - humanities_concept: -380 to 2023 (includes ancient philosophy, valid)
+    - engineering_method: 1782-2024 (reasonable, starts ~industrial revolution)
+    - arts_question: 1750-2024 (reasonable)
+    RESULT: ALL VALID
+
+  empirical_support (social_theory):
+    - supported: 489 (57.5%)
+    - partially_supported: 345 (40.5%)
+    - contested: 17 (2.0%)
+    RESULT: ALL VALUES NORMALIZED TO 3 VALID CATEGORIES
+
+  status values (all domains):
+    - Valid categories: active, dominant, legacy, incorporated, debated,
+      contested, established, emerging, foundational, partially_confirmed,
+      superseded, historical, disputed, revised, declining
+    RESULT: ALL NORMALIZED (no Japanese text remaining)
+
+6. ISSUES FOUND AND FIXED
+================================================================================
+
+  Issue                                  | Count | Fix Applied
+  ---------------------------------------+-------+-----------------------------------
+  Future era_start (2026) in ST          |     2 | Set to 2024 (or already fixed)
+  Non-numeric data_completeness in ST    |   400 | Converted text->int (高=85, 中=60,
+                                         |       | etc.) and recalculated from fill rate
+  NULL data_completeness in ST           |   134 | Calculated from actual column fills
+  NULL data_completeness in ND           |   633 | Calculated from actual column fills
+  NULL data_completeness in AQ           |    78 | Calculated from actual column fills
+  NULL era_start in HC                   |    40 | Set to 1950/1960 (anthropological
+                                         |       | concepts without clear origin date)
+  Japanese empirical_support values      |    16 | Normalized to English enum values
+  Japanese status values in ST           |   ~30 | Normalized to English enum values
+  Japanese status values in ND           |   ~40 | Normalized to English enum values
+  Empty status in ST                     |    31 | Set to 'active'
+  Empty status in AQ                     |    78 | Set to 'active'
+  Empty source_reliability in ST         |    77 | Set to 'secondary'
+  Variant status strings (with parens)   |   ~15 | Normalized to base category
+
+  NOTE: Some fixes were already applied in a prior session. The audit confirmed
+  all issues are now resolved.
+
+7. REMAINING KNOWN LIMITATIONS
+================================================================================
+
+  7.1 Structural Gaps:
+    - name_original column: 0% fill rate across 4/5 domains. This column is
+      effectively unused and could be dropped or populated in a future phase.
+    - era_end column: <1% fill rate across all domains. Most entries only have
+      era_start. This is a design limitation for ongoing/active concepts.
+    - related_patents (engineering_method): 0% fill rate. Would require
+      patent database integration.
+
+  7.2 Data Gaps:
+    - natural_discovery: mathematical_formulation, experimental_verification,
+      and applicable_scale are only ~58% filled (742+ records missing)
+    - Cross-domain relations table: EMPTY (0 records). This is a major gap
+      for the intended cross-disciplinary knowledge graph functionality.
+    - Researchers table: only 7 records (natural_discovery). No researchers
+      linked for 4/5 domains.
+    - Publications table: only 3 records total.
+    - Relations tables: only social_theory (124) and natural_discovery (12)
+      have any intra-domain relations.
+
+  7.3 Content Quality:
+    - 31 records in social_theory have low completeness (42-68 range),
+      representing recently added entries with sparse data
+    - humanities_concept and arts_question have lower average completeness
+      (79.2 and 73.0 respectively) compared to other domains
+
+  7.4 Coverage:
+    - Total records (4,703) are concentrated:
+      natural_discovery (37.4%) > humanities_concept (25.6%) >
+      social_theory (18.1%) > arts_question (10.0%) > engineering_method (8.9%)
+    - Engineering and arts domains are underrepresented relative to their
+      knowledge breadth
+
+8. OVERALL QUALITY SCORES
+================================================================================
+
+  Scoring methodology: Weighted composite of
+    - Data integrity (30%): NULL criticals, duplicates, valid ranges
+    - Column fill rate (25%): Average fill across all meaningful columns
+    - Value consistency (20%): Normalized enums, valid categories
+    - Completeness score (15%): Average data_completeness
+    - Relations/context (10%): Researchers, publications, relations
+
+  Domain                  | Integrity | Fill  | Consistency | Completeness | Relations | TOTAL
+  ------------------------+-----------+-------+-------------+--------------+-----------+-------
+  social_theory           |   30/30   | 22/25 |    20/20    |    14/15     |    5/10   | 91/100
+  natural_discovery       |   30/30   | 21/25 |    19/20    |    13/15     |    3/10   | 86/100
+  humanities_concept      |   30/30   | 22/25 |    20/20    |    12/15     |    1/10   | 85/100
+  engineering_method      |   30/30   | 21/25 |    20/20    |    12/15     |    1/10   | 84/100
+  arts_question           |   30/30   | 20/25 |    20/20    |    11/15     |    1/10   | 82/100
+  ------------------------+-----------+-------+-------------+--------------+-----------+-------
+  OVERALL DATABASE SCORE  |                                                           | 86/100
+
+9. RECOMMENDATIONS FOR NEXT PHASE
+================================================================================
+
+  Priority 1 (High Impact):
+    - Populate cross_domain_relations table (currently empty)
+    - Add researcher and publication links for all domains
+    - Fill intra-domain relations for HC, EM, AQ
+
+  Priority 2 (Data Quality):
+    - Fill natural_discovery mathematical_formulation/experimental_verification
+      (~742 records missing)
+    - Improve arts_question completeness (avg 73.0, lowest of all domains)
+    - Add more engineering_method and arts_question entries for coverage parity
+
+  Priority 3 (Maintenance):
+    - Consider dropping name_original column (0% usage) or repurposing it
+    - Consider dropping era_end or making it optional in completeness calc
+    - Drop related_patents or plan a patent DB integration
+
+================================================================================
+  END OF REPORT
+================================================================================
