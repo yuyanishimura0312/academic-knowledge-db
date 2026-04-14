@@ -1,0 +1,5002 @@
+[
+  {
+    "id": "fa77b6fb-1fed-4fa9-802f-c49b720aefd8",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定量的（統計的推定、信頼区間付き）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7cbadd25-8f28-4ec9-ba81-ea3282025a13",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "245c56b0-5f81-49c5-b428-c5629bab054a",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1844c402-1e1f-4be7-83c0-2f8c1e5b5991",
+    "school_of_thought": "島嶼生物地理学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d1024100-b2fe-47e3-827e-541a403d7ad0",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "aedebeaa-f056-4d6f-ad92-e4b134fc7c63",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "16da22c9-7158-43c2-95cb-1fe43c70b47b",
+    "school_of_thought": "島嶼生物地理学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "41cf13f2-b59f-457b-b267-5194803a5886",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "07fe13f6-b8d3-4839-ba7f-e6cf0d33c601",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "05978c5e-7bf6-4f2f-aeef-e4ed5e0275d9",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "定量的（統計的推定、信頼区間付き）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1748e45a-b116-45ea-9e91-328aa68ae78c",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0e298868-2cba-4a96-94dd-bd1206a5eab0",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5a7bc841-38f1-4a2c-87bd-26a687487473",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f09da1eb-27d4-4def-b989-e3da4fb8e07d",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bfe6ca9c-f767-4825-9321-f1329750fa2f",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9e7c5e62-2573-4573-8375-c891d5c02353",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e4d4fb3e-5235-4181-9067-4375caf783cb",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "96552beb-c8c2-4450-9b6e-12925e53d195",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "73cee6a1-96f8-4b4d-a6e3-d401d97ad190",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（指標値による評価）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0fb628c7-7664-4b00-81b7-66b1d9daf9cc",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "80188946-eceb-4e41-8df0-a3ad2737a74b",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "88f75558-96f4-4c0a-ab50-594fa0bb1bb7",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b3f3472d-84ad-4690-86ed-6496ac1b1131",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "野生個体群の管理・回復計画を立案するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d830c14a-0d59-486e-9609-bfd4b0bdbdc1",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "33199c03-c596-4148-8a40-fef1b1d4705c",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8655b6d5-9468-485a-a3eb-dea2ee4dbedd",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5a3e867e-325a-4e47-a67c-701180258812",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "70b7fc2e-79f5-4499-bc3a-41f0bdb0b22a",
+    "school_of_thought": "島嶼生物地理学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "aed8db71-ba5d-4e82-8074-d3cf41e5b872",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "群集の構成と種間相互作用のパターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0f190878-86e6-4d60-ab5a-107089b32035",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b184c12a-c3a0-42c6-8281-f682df6865c5",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6ce04626-7c80-4c7c-b343-4f23c479b215",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "be09570c-204f-46fd-a26f-921a3ff98229",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1e2ce799-e576-4782-b288-6f2aa6cfb772",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9b2f110e-81b1-4639-b9c2-6b2e089a7f9d",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c928a4a1-967e-4950-93e9-6ead6f6bd40f",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体群の増減動態を予測し、管理方策を検討するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9a53485d-1434-42ae-b569-499ce3604c2b",
+    "school_of_thought": "保全生物学",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2c9983ad-1129-4a7c-bdb7-f5858ee9870d",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b0b296ef-72bc-4efd-941f-c6d13016e823",
+    "school_of_thought": "侵入生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "71e162fe-b346-4432-9c58-45dffea41d2e",
+    "school_of_thought": "景観生態学・パッチダイナミクス理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9829cabd-27f8-42cd-a88d-e5e356acec2e",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "fa7ff79e-4acc-4e40-9ac4-050561b8a9a3",
+    "school_of_thought": "血縁選択理論・包括適応度理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "aef8750b-963e-412a-a551-b0c0db976709",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b0d9710b-a4ce-4a48-94d2-a8218864b33a",
+    "school_of_thought": "保全生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2326eb3a-a92f-416c-a868-ccc8cdf8d72a",
+    "school_of_thought": "血縁選択理論・包括適応度理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d6842b84-5d14-44b1-9c5c-744bf76749a6",
+    "school_of_thought": "血縁選択理論・包括適応度理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8901c3d5-b988-42a2-b062-3557c03298ce",
+    "school_of_thought": "血縁選択理論・包括適応度理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "770d931f-0a30-4129-9b37-9a3b8e444cad",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "52dee352-3192-41c1-9409-2b49b65f2204",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "92724b24-2f7b-43a7-b7fd-285979098c1e",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "78f10c80-5f9b-44db-bb1a-d520e39abfee",
+    "school_of_thought": "水域生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "32044f11-6719-4c7a-86ed-9284cd724028",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e3b3a778-665a-4eb8-8418-2adfbc3a3038",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生息地間の連結性とコリドーの保全効果を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "747ce42d-d020-40c0-9744-f0d862be2740",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9b22ab4e-b8bf-4b8d-9700-9ee61a24aacb",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d2308412-ec2a-4e18-959b-8f9494f91098",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "aa02aa21-d793-4d86-95f7-b12aa50a6110",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "de4599bc-7794-49fa-b91f-6c0a20e2d7bf",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "abf884c2-e6c3-4fd9-b36e-cb37aff0f55f",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3b56afda-854b-4445-be79-fbf478bcfbf4",
+    "school_of_thought": "土壌生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "土壌生態系の構造と機能を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "63b6264b-380a-4579-af33-820e1fcc1b1a",
+    "school_of_thought": "送粉生態学・植物繁殖生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "770864b3-6375-46b1-9576-d29aa9af2aad",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "39d53cd1-26fe-4d6b-8c46-e5b1099fc81c",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "61c5c983-3e6a-4342-91fb-969d40d96c81",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9d5040dd-37f1-4ce7-a1a1-98f1513c8dfd",
+    "school_of_thought": "微生物生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "微生物群集の構造・機能・多様性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a86e9950-50d1-42bf-8945-c3d508ac73ea",
+    "school_of_thought": "生態系安定性・レジリエンス理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の安定性・レジリエンスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "45aaafef-e99e-4dd9-b3e4-0eb45f5eff37",
+    "school_of_thought": "水域生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5a8b25b7-8545-4100-86d5-2d1e61a68645",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6df2acdf-b511-417b-9b93-a4b046f63e85",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "野生個体群の管理・回復計画を立案するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "218c4e50-ecc9-4446-86a7-531425b69959",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c696e2b8-39ec-419f-8ffa-9fe425f49e5a",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d8cc387d-4b58-4893-b43a-dd044903ee3e",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体群の増減動態を予測し、管理方策を検討するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "84eaae8d-e804-4faf-8fa6-d13947ac2247",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "115c5ab2-6856-48a5-823a-10ac40c7cdea",
+    "school_of_thought": "水域生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b4fdbfb2-177a-49df-9d65-aa27b3445903",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f49c1e2f-d5d6-4505-b058-d7cc0567026a",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4199779f-adac-4348-b358-9ea37667d5dc",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a7068c93-f79d-4953-9031-04d1f058efe3",
+    "school_of_thought": "遷移理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "植生遷移の過程と要因を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3fb91dd0-c5da-43bd-9743-66aa9f16bef6",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3ac45d6f-cf65-45f1-91e2-b4e270516da2",
+    "school_of_thought": "島嶼生物地理学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "fdd0f074-9d0b-4e53-81d9-7307388c99a1",
+    "school_of_thought": "代謝生態学・エネルギー理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "177118d6-298c-49e6-987d-e7b732171789",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bddb19e1-4e4d-4a75-8742-32b99c85bd1f",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b871712d-b709-41a7-aba6-a15a8857110f",
+    "school_of_thought": "共生理論・相利共生理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の相利共生関係の進化と維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "318d7b15-eb0b-4343-8afe-277de7710bc7",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "81e186a3-a9ef-4614-87bd-37fed7c4cbb4",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a098cf2c-3e8f-407f-b1be-867bde63fe11",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "831af5d0-3967-4e84-b7d0-c4bb5a989921",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "da73109a-72d2-4ba6-ad4d-9c92bcacdd28",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0ea27a0d-9904-439b-b5b4-f9e7c3a2df07",
+    "school_of_thought": "景観生態学・パッチダイナミクス理論",
+    "precision_level": "半定量的（経験則・スケーリング則）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e4c98225-481b-4cc3-89d7-4904900b2962",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3f406f1e-8a22-4640-acf7-6b860caa6951",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5f2bd17a-138b-4499-9a6a-1fae113b6ff0",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "fffd4824-cc82-4881-8cd1-3a52c7c02ed2",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6bd2be63-d433-4ca2-8e86-9c9df4693fd9",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f0a466ef-8100-4e97-86a3-c593ef86ea9d",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7a584e8e-6a37-4f00-899e-33ed1bd76aed",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "811a3fe7-f8b3-4968-b111-707480ca2dd8",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "cc55e8b6-a8e5-4db1-80df-b3e94bebba91",
+    "school_of_thought": "代謝生態学・エネルギー理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系のエネルギー流とその効率を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "13098bd0-4d07-460a-ae1e-872c259f57cf",
+    "school_of_thought": "数理生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの一般法則を数理モデルで導出するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "40f3b542-a39b-4b08-b8aa-066e803779f7",
+    "school_of_thought": "生態ネットワーク理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的ネットワーク（食物網・相互作用網）の構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8ae9b943-baae-489e-9bd4-a12198ee608c",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "定量的（統計的推定、信頼区間付き）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1c0a9967-9f98-4e1b-81a4-0137430c23a4",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "06fd06e4-1915-4891-8119-2603620476ce",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a7d4e14a-2526-4e12-a96c-73e6805a6f74",
+    "school_of_thought": "遷移理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "植生遷移の過程と要因を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "30f3f6e1-b22b-473b-9aeb-31909ef16b0b",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "密度依存的な個体群調節メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "58ae6982-4e0e-4508-a5fe-de607ed4e7bd",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d4a449ee-85b4-46f1-9ce6-0f3f772387e2",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f79accb3-cdaf-466a-bfaf-cbb46517be50",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "28310cd4-0269-47f6-8a69-0dfdd4a199e7",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3329b04d-7adc-4ef6-b486-7a8b3acaa887",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9dccdaea-2254-4e11-916f-6bd3c40c5d12",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ca677740-3ab9-4aee-abfd-6b8fd8374bc2",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "fd4ae532-7637-482f-90fb-4796b388127a",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "042bfe19-c331-43a0-ac5f-b6cb82cf545f",
+    "school_of_thought": "代謝生態学・エネルギー理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生物の体サイズと生態学的特性の関係を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f8f83127-f86f-4609-b705-b920310727c2",
+    "school_of_thought": "空間生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの空間的構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1b6e77eb-731d-40cd-89a1-32feaa3df6c0",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "79eb6ebb-aa7e-4411-a489-52a17d08adfd",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "444ca68e-e242-4f36-ace1-1aab080ba8fe",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a866ae15-537e-459c-9f17-74784c999344",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "df1b5871-f8f9-4f3e-973c-3fab94a6888f",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "適応放散のパターンとメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d21e9ec6-5a91-4bb6-9667-b46f62145630",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間競争の帰結と共存条件を分析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b1846e9f-8cef-40d2-9327-12a6803075f1",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "群集の構成と種間相互作用のパターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e4036472-2bfb-4781-9068-7d0ff75c861e",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "935414e5-43c6-43ab-88f6-7b09ba8a1a5f",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "aa976d4d-1b10-4684-9191-d4bc50351bdb",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d67d018c-e08d-4e5d-89a1-a481866dad79",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "08fdb243-19f8-4531-b46a-c1b22b9ab8de",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の物質循環プロセスを定量化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "294a98b5-3320-40ad-8d56-ac94af84181f",
+    "school_of_thought": "数理生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの一般法則を数理モデルで導出するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0b1648fa-11ed-407e-9099-89e4f9dc272d",
+    "school_of_thought": "火災生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生息地間の連結性とコリドーの保全効果を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d60dc358-e7de-4a86-af84-3a7ab91129cf",
+    "school_of_thought": "数理生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ec19f824-702c-431b-a0a5-23e1cab8e4da",
+    "school_of_thought": "空間生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの空間的構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "097c75ae-faee-4534-b316-5529c7d8cb33",
+    "school_of_thought": "宿主-寄生者理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "野生個体群の管理・回復計画を立案するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9eafda05-42d1-4bb2-9f1c-6e68e0d105f8",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の物質循環プロセスを定量化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2027882f-8eb0-41e9-b2f3-e902c6f9752d",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7418f3a0-0fcb-47d5-b328-608ed0ff9b5d",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f0c1aa6e-bec6-4f03-a490-d5b4d636cfc8",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c4bd88cb-301d-46e5-ae92-ac2b687d8b75",
+    "school_of_thought": "ロトカ=ヴォルテラ理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8188b7d3-bad5-4197-9d5b-084e528f7d52",
+    "school_of_thought": "ロトカ=ヴォルテラ理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9cdca8f0-213c-4773-b9e3-e2934830fccf",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c6e02d99-0f2d-4ff7-a60d-c831fb01fb94",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの一般法則を数理モデルで導出するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3de48e6e-178e-499c-870d-5d29b63afea0",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "種分化のメカニズムと条件を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c9930fda-98c0-471e-9e00-cc659f5896c7",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "05d43e5e-e690-4cc8-b928-d4a925a4b980",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの空間的構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5e31078c-f6bc-4de3-9200-59eb70d1711e",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0ab0f2b2-cbce-4864-a76c-5464d8b0ed15",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "744be4b0-6ac9-4b91-aa25-e07045774678",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "73f518c4-dec7-49fc-81e9-732a250e707e",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ee015f01-62f6-4e8d-b06a-aa84f260df47",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4891d791-d14e-4c5d-84ee-32aa3aca6ace",
+    "school_of_thought": "共生理論・相利共生理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の相利共生関係の進化と維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b0445ef4-f12f-4e5a-afc9-b4b0c107bf75",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5a99e05a-7b1b-4b11-bf52-965de82b2955",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1079306c-f1a6-455b-a192-105d880bf7bf",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "81cf49a5-24cb-4c7d-8a5a-78e54fb26972",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態系の安定性・レジリエンスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "11bd278d-ed1e-427f-a75a-7f6a2f0c6094",
+    "school_of_thought": "数理生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5390aacc-cdb3-43b3-930b-1ebf3d0e7031",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8da238e5-3bec-46ed-b0f0-f8a534f61837",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "60a9fe8c-902d-49ac-9ce6-ab33efe7a2a9",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f356f7a8-6c84-4465-960d-2f359c6a139c",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f4408b8e-1c63-420e-a699-4af9960e2ab0",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "22484a19-6525-4817-85a1-7d56e637e979",
+    "school_of_thought": "生態ネットワーク理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生息地間の連結性とコリドーの保全効果を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8173eab5-1acf-4e28-94f9-c62808bcf32f",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "085c48bc-e162-4d3b-b00f-c3c86052e359",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3a997273-3e4d-41ec-9cab-b89fdca2cbe4",
+    "school_of_thought": "保全生物学",
+    "precision_level": "定量的（統計的推定、信頼区間付き）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "20936450-41e4-4a96-910a-025c254636b2",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d8f11a92-d506-4598-9bfb-a6d256ed1357",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "群集の構成と種間相互作用のパターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "acc521fe-9829-4f2a-a36a-860b333919f0",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0f8d8fde-7aab-469d-9165-5947c0c311dd",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "窒素循環と生態系の生産性の関係を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e49cbcd5-edc1-4830-a4ff-d9cf2f42fd4d",
+    "school_of_thought": "生態系サービス論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "生態系サービスの評価と管理を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "fcd4e64d-172f-4a89-a887-ab69fbee39b9",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（経験則・スケーリング則）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9555a2a7-d087-4e0a-934f-c45ec7e620e8",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（経験則・スケーリング則）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8bc2d9f6-177d-4bc2-bf0a-b8d9354401aa",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c80edc4d-3929-4482-bcee-c679748bb277",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "宿主-寄生者の相互作用と個体群動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "479556f2-aa28-457f-b581-51dfc6ac2957",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b69cbabc-e049-4773-9d5b-134f814856f4",
+    "school_of_thought": "ロトカ=ヴォルテラ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8b03f923-1f8a-4d7b-8f50-c5f47eeab2b7",
+    "school_of_thought": "数理生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの一般法則を数理モデルで導出するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "dc8ef5bc-3746-4f5f-8ce2-5056fd67e651",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8dffda5b-fefa-42b9-86be-dfd212cbee73",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "01a47010-2581-4799-bf4a-61167f80025b",
+    "school_of_thought": "血縁選択理論・包括適応度理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8f5469c6-e378-49ef-9ad8-b487724d273e",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3645efdc-4d43-4e9a-a948-cbf35cd887fc",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c6a175c8-0a4f-4f4e-a07a-d64a63e0e648",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "719e88b1-1847-4105-a7df-5476c2075800",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8e230065-7963-496b-877a-1688974d2cb7",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "密度依存的な個体群調節メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "89094661-06cf-43b7-af31-e30907e099b8",
+    "school_of_thought": "共生理論・相利共生理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の相利共生関係の進化と維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "32d7431f-07cc-4e20-9e30-71ed21ec27e4",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2aabd473-e15c-431a-9f91-6c678990f029",
+    "school_of_thought": "水域生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生物多様性の保全計画の立案や絶滅リスクの評価を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "dcecf3bb-ca50-49a9-80a7-4129323a2e95",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "群集の構成と種間相互作用のパターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6bfa6e26-5b61-44b9-9387-8fe3d89364c7",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1aa26283-5406-4f6c-b2a2-d063eee21f97",
+    "school_of_thought": "数理生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの一般法則を数理モデルで導出するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9d18e8c9-db88-427b-ba74-449637d72e0b",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d7b8aa65-c96b-404d-801f-c83c5955316a",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2cea59d3-0e24-47cc-9b88-bf7ed8fc5a20",
+    "school_of_thought": "景観生態学・パッチダイナミクス理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "80676307-4cf5-4351-b2f0-4dc11fb942d5",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6c740edf-b9ea-4a7e-a9dc-65ab3f25dcc6",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6433ea30-1537-417e-803d-10a9ddc35fff",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "密度依存的な個体群調節メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bc6bc0ff-b5f8-4216-a82f-da12ed658c64",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5397da98-e003-4bce-9c1e-d7f3b387e06e",
+    "school_of_thought": "生態系安定性・レジリエンス理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の安定性・レジリエンスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5201e157-9222-44d5-aab6-b869ed005836",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "パッチ状の生息地における個体群・群集動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "911849c6-c9c8-4e55-bcf0-b6ac341de7ea",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8302f98d-eb41-4097-a4e7-d6a9c388e820",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種分化のメカニズムと条件を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f2f09062-f8df-4a12-8926-89a4324fc2da",
+    "school_of_thought": "生態系サービス論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系サービスの評価と管理を行うとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1ade4a4d-233f-496f-a0f5-135c6567174d",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種分化のメカニズムと条件を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0d8f9d74-80a7-421d-a2ec-c2233cdae423",
+    "school_of_thought": "空間生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の一次生産量とその制御要因を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "da5d430b-7829-4d78-bf3f-daab1307117e",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "保護区の設計・配置を最適化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8d076cb2-3ae6-4dc7-a833-27f5d9e69057",
+    "school_of_thought": "血縁選択理論・包括適応度理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "80486d9b-1a65-43e2-b9e2-5103908786f7",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9ac80e4c-c162-4cc9-a53a-98cb527a0425",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "52015da2-7e9e-4a3f-82f6-971dbbd9ff0e",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "26cb236a-ff73-421a-9768-7e073e0d3d9b",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "277e41f4-850e-4b20-a742-f1e3ec8093d3",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0cd27de0-e8b8-4c92-bdcf-72b776e27b31",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "04cd751e-eecd-4e89-978e-df011e667dff",
+    "school_of_thought": "応用生態学・環境科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的知見を環境管理・資源管理に応用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "584c9022-bdc1-4ad9-bfe9-4faf0c4445af",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "cfcbf0fb-1491-44f5-a8c9-b94965f8f49c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの空間的構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7b36a84b-fdbc-40a5-b6c9-f92050395c07",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の相利共生関係の進化と維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2851efe1-6c1a-474f-a5b5-fb8b8ab09be3",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "67b5d05a-f119-4666-9496-18823c1c3df2",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2836a487-3211-40e9-9a89-cd9323ad035c",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c7dbace3-d39b-4dec-8a35-e6c0acee7b90",
+    "school_of_thought": "性選択理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1491eb14-a4ef-4a6f-927c-07feba99666a",
+    "school_of_thought": "性選択理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f961cd52-e8b6-41b2-8c9d-68f69fd9c42f",
+    "school_of_thought": "進化生態学・適応進化理論",
+    "precision_level": "半定量的（指標値による評価）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "62defaee-d156-428a-9d4c-8e5937e8945f",
+    "school_of_thought": "宿主-寄生者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "宿主-寄生者の相互作用と個体群動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "69861c73-f0a2-408a-87fd-d5fbe25b05d2",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "cef3e5d6-fba7-487d-996f-103766a57d03",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c5aa72e3-a14f-4bd8-bea2-781c9e2b7f84",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a8da9dac-3475-4d68-ac39-81b1840059f6",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0aa21e6f-b45f-4c5e-a01c-352733316887",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c9684a1d-2da8-46b4-b538-7beddb49ad3c",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ee46fc72-468e-4d21-84b2-b3e1cdaf5a4b",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "00ae5b1d-0325-4821-bf03-89b2a4d7f2fa",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "19b0ae60-38e6-4706-80a0-de514c460708",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生活史戦略のトレードオフと最適化を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0685369c-001c-4c05-bc7f-9edaf6bcf763",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "cc317cad-3a6b-42ae-a947-a7ec82eb0d67",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3a8e7750-99b7-4d01-bda5-3ae9d4986d70",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0407b6e5-0d1b-4627-9d8e-e2b61f55436c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0ad299d0-9069-4d4f-b08a-98fb9670aa08",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6aa4754f-c14a-4f7d-9736-2611b8d7cf10",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "181ea70d-1df6-4d74-86a2-d813a2d8c33b",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bd952a76-e3cf-44c5-b4fd-3e9708531d33",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5400e7cf-7502-42af-9fda-d5762484aa7c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6a2a70c2-5602-424f-a2fc-96b35c2c161b",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "105eb5ab-9815-47fc-8205-dc3172cb694a",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c92bf9b4-69b1-4007-ac8f-236f9f087484",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e6e88b21-a292-49cf-9361-2631ecbdbe7c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ca57e081-eba5-48a7-ade3-c6c957411273",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "55664dec-970b-4436-9a83-d08e75913d2c",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "eb496529-f94c-4c8b-b5f4-c087a7ce16cf",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "20c293cc-06a6-44ea-a9ed-6e56152ef33f",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9b4e35c0-6b58-4585-8680-ac4faa1c6712",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4230b87b-041e-4f35-b0e1-50ca172abfab",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5c3fc3df-c000-4475-ab9c-0afa9adb136c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "種分化のメカニズムと条件を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8ff35d45-576b-4d80-b8b0-535cb2210199",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7ab77075-48a7-4af7-8fdb-d4b113ef5f08",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間競争の帰結と共存条件を分析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "eccae397-c173-45c4-b1dc-9fa5ddded5a5",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "450bbbb7-db1b-48a8-8f58-52c34b887c54",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a3cc8629-42a7-499d-be4c-3d15518ee124",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5cf31fb7-2638-4c97-add9-d2102df26f32",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b8e55446-40f3-4fc4-ad98-10f5ced28002",
+    "school_of_thought": "性選択理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9e23fcf4-53ac-4a49-acd9-8131bd8cc8e7",
+    "school_of_thought": "性選択理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ebcb2b94-f31b-4d99-9dbc-7e863cbf002b",
+    "school_of_thought": "宿主-寄生者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ac685a5f-11ea-4c80-8066-98b5bef51b28",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9ddd8bbf-91db-4ab5-9011-8eb7f8e42688",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ff642f54-85a9-4e12-8922-17de70719ef8",
+    "school_of_thought": "進化生態学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a7d9212b-173f-4e82-a946-7082628a4939",
+    "school_of_thought": "島嶼生物地理学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7dc58f26-daa9-4faf-a295-a208e74e93b3",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "パッチ状の生息地における個体群・群集動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8c56cb8d-fa6b-46b0-8736-a39135509dc4",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "44000b02-749f-4d86-94cc-4be071731cc1",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2fa2b76e-e0d4-4352-a279-d8859cea4c0b",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間競争の帰結と共存条件を分析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ec6a3920-d3a0-41b8-8b0d-0c524325a0a9",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5c153abf-6183-4bcf-9eba-2551354cb561",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3cc89c76-5eb8-4aa4-ba03-344bc55f6c4b",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bebe6324-2e04-4423-ac93-163ab43c9f6c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種分化のメカニズムと条件を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "246b77bd-694c-4298-bb9a-48c8abdb4459",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9c806b55-c8a5-4869-b4d1-cfa9c1ed6f27",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "568d4e6e-6b2f-4106-9b25-1533f8e302fb",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "536efcde-3f7a-4b58-a8db-8b00de5fbc9e",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5c403f1b-c4d6-4b5c-8681-2867e6e17c05",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c751c8eb-8e74-479c-beab-788a92d80874",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a326c9cf-36e7-43c2-b34c-f6024f6698f9",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a6980344-a8b9-426f-ad81-71c5070e9367",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d2fe299d-c3a5-4cf0-bf7e-e1a8d7dac822",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "43ceae92-5942-4381-85c3-5ea33e8bd515",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4193b6e7-d4f3-4961-9706-ad5d04cf3adc",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9e2376c9-032d-421b-a243-d6935a246d06",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "598c5283-323e-455d-8263-b77b605b7614",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "94acc81b-2277-4c44-b852-6f016f9a4397",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f301a72d-af8b-4a18-b17e-0e6543f2205a",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "群集の構成と種間相互作用のパターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "025f29ca-0df4-4d33-a0b6-a1e7ea5f1a37",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1e40546d-534c-4029-9a46-27704267344f",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "99f66703-a89c-473c-a9b8-abe9f2374d20",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e7fe2f6f-e6de-4462-adf9-09447b538597",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "236deb82-0303-48fa-ad41-efa2aabdbab2",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5b35fe8b-c69d-4e99-8ed5-17eaf71e3635",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "766c04b9-1497-42e1-9659-e25eb8f1059d",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f961c2d3-50ad-46bb-8559-e06e6b3d1ced",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b74d2ae5-284c-4054-9e28-aeb85ffc1131",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4c8c8b0e-526b-4fd3-bbe0-515b4ac3b9ff",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a137231d-0474-4be0-8c7b-13c821025ff3",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "05199e61-21fb-4db8-b161-25cf4644bb32",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "cf697e77-a5e7-4535-9982-971e0e24de9d",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c461a10a-caa5-4576-b3b8-cba6f385a29b",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a6d53450-ce14-4fc5-a200-7908da66eeef",
+    "school_of_thought": "進化生態学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f7c300dd-30f8-4346-8417-06a19e9d9b3e",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7cfac9aa-1bea-4565-b5c5-f4f83d469bc2",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "130bf8c9-ea22-4fd1-897a-bd3d8eb4c50e",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "26ec9ced-db6a-4f77-a3e9-e0782ac43872",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e4e3d702-1b24-478f-a3c6-fa1180a5a499",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9526d29b-22dc-4ea6-ab52-2875b58de5d8",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d8d571fd-5ec2-4e78-9317-74747b6327f8",
+    "school_of_thought": "景観生態学・パッチダイナミクス理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "景観の断片化が生物多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a3bde1e5-6275-483b-a2bd-d1f4dfba4efb",
+    "school_of_thought": "景観生態学・パッチダイナミクス理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "27a826a1-bff6-4c1a-8880-564de237dbf6",
+    "school_of_thought": "景観生態学・パッチダイナミクス理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "パッチ状の生息地における個体群・群集動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "30a62951-69b2-4158-ab32-d2f02c774e91",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "密度依存的な個体群調節メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4ff2e70e-6324-41d2-bb91-62e110777ed6",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "905f5dfa-4393-4cc3-9a11-3fc6ecc7623a",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f8ce0f66-be0e-41e6-973a-0a9a3341525c",
+    "school_of_thought": "生態系安定性・レジリエンス理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の安定性・レジリエンスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0ef40490-7e26-47da-96a3-cbb349ffb6bb",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f0d86eae-8fb0-4636-88a6-4013bbfda03c",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c8170386-8a8e-4d22-a606-fc1caa1e87c5",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e9b269e3-a569-4496-be0b-90cdc22cce8a",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "07d79135-c655-4f79-a781-44be18925374",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "95b5945b-72f9-411b-8de2-e2561b951bb8",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7672466e-6b2f-4c97-be9d-320b0c4e3f85",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0d9a4fcf-a158-4d96-befb-72c5e63e2e21",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1e34b0c9-e3de-4113-9f4c-566d8206163b",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "27f7176f-a799-4db0-8ad5-0067ea58c915",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "密度依存的な個体群調節メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1cae3ee5-8c00-47ab-9bfd-89cf9b0426d9",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f9363c47-da07-4005-a89c-0d2bbab8aa71",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2de23dcf-2024-4c6f-b6b0-5fb48aa7cac6",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "df9dda3b-a1f6-470c-a7f0-7f16f4014862",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f7386cdc-e519-4dd9-a24a-18d3202641e5",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bffc678d-faf5-4c13-bf14-02bc11065e43",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ec3c7f16-79e6-481d-bf98-1ed7e91fd4fc",
+    "school_of_thought": "競争理論・共存理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "495a39fb-4c00-40cd-a804-098752d75ede",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d1b1189b-e087-4ace-bdbe-c7ae6d55fcca",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4073f031-43d9-4616-96bc-a605abd412fb",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ed4d6381-bf59-4d0d-91fb-88b4ee8e5b8b",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "12f6c74b-6322-4352-8c24-c3df42b89103",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6afa5fd9-bce6-49d9-9c9c-3ce273b6fed9",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9b99c262-139c-4db1-9e95-5db8bbe72eca",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a65e2afd-dc06-48c3-8aaf-00c416df9631",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9bf2a44c-e3b8-4ccf-9915-2d7077a50703",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "817bca00-1cf5-4da1-9940-10719bbcbbb7",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "fcf4ea60-c0dd-4c40-8c4e-e4e603577d51",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ddf4c7d0-1751-44bb-ad0a-ce7738dcace2",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "00affc21-0625-46c0-9204-747188b15d91",
+    "school_of_thought": "最適採餌理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "eb5a2952-0965-4b2a-984a-cb3d66521d46",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a9390cd6-6765-4c66-ae13-9877188ee405",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "eb9ed67a-dc99-4a8b-bb81-4dfc8279ad86",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1d382871-436b-4ce4-8052-b037a134b8ff",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "90c1afc0-8ea6-4557-bbd2-22c382bed00d",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "84e38822-5511-442a-a713-8840b9a9eb7b",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b8694a3f-4c3a-4e6d-8c89-00e72fe1ec04",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "86ee1024-1525-4b28-a500-2067b3932df7",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b5132e9c-d149-4c81-a3f0-af7c07a2698a",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b3a8e779-a3c5-4918-baf0-1ee77d9c4b73",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8ee3ac21-3430-47c5-b626-94d6cec7c92e",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b91330db-79db-4ade-943a-a7112d65bacb",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e6b5bcd1-81bd-49a5-833f-ecaef65beeee",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1e737deb-fb09-4272-aff7-42f3fb0cc8ff",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a3c5d606-ae5c-4ab4-a835-8584be8790b7",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d8e4d167-21bf-4944-926b-9ca7eadf025d",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "744e6132-8afa-4b48-9852-ae8517ec374e",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7741e795-f480-4e16-96b4-94aaa38eddcc",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "86bf1c4c-217c-4dd0-a1b2-8bcb2c5c6162",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "eedc3324-e343-4d5b-8517-dcb53720657e",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a54f619f-ea3c-45b1-b630-b13edc0c0ae6",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0c993781-2927-4876-afa0-f70e0d9de95a",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8f1fc77b-2bc4-4331-88e9-d9ca59021374",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "84939d85-a1a8-479b-806a-bbddca1443e2",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3a65e6ac-ab16-4f67-9b7a-a0968eaef2ab",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d3272f69-9713-407b-98b8-3a904aac48d4",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "密度依存的な個体群調節メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d07f3ed3-5e9b-48bd-b66c-92077f6bed0e",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7a6d04ee-88a9-435b-965e-a61350123308",
+    "school_of_thought": "密度依存制御理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3d3d6895-0246-48f2-a58d-4288db02a287",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7bfeb36c-482c-4a4c-a633-3161dbfc4742",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bd9cc8a1-aa3e-43dc-b0d0-ea9271c66242",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3878405e-c69d-4bd8-bf7c-8e2350641d3f",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b2c847d5-2902-4f28-9da6-477879736332",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4b6a3263-732f-4fbe-998e-27df8b9c81a0",
+    "school_of_thought": "進化生態学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1c8ae966-475c-4099-bb3d-282edeb5ff5d",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ba0858af-a740-46d9-bd89-801541cd3144",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5b14fa3a-a736-459c-9eab-4f9eb8146e57",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1277eeb1-c57f-48b4-a379-ed32e44ba07d",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "05bf54d4-be47-4657-a26c-52a4abcb6569",
+    "school_of_thought": "進化生態学・適応進化理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "種分化のメカニズムと条件を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3aca44a5-90e3-42b8-b2aa-33086b1635e2",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "30a5e234-7432-4491-91a5-e14405ca5103",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b2e94af1-0273-4448-a782-8e54d4c999c6",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体群の増減動態を予測し、管理方策を検討するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "21ea4978-64db-48b9-9e42-3818dedecdf8",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bc30d19c-31f1-4dc1-a73c-b3b9a42a32fb",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "85c902a6-8d9f-4964-909a-f4c2c703d584",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2d328c7a-1426-43b6-8131-9eb1136aafca",
+    "school_of_thought": "島嶼生物地理学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "島嶼の種数パターンや保護区設計に島嶼理論を適用するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e449bd7a-6d62-4716-8e5e-fd5e66ea892d",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d9f3880c-0f3a-49cd-a16a-1d277b8cc732",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2e048612-0666-4631-836a-40757cda65e4",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "群集の構成と種間相互作用のパターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f0c65b35-6c8a-458b-b2c0-c84680877ba9",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "471c348a-361c-4464-8e47-4fdbeaf0a28a",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "98bdc7cd-02d1-446d-8f7b-72728bac88f0",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "529aa916-70cc-4f94-8fe2-3cf269c508dc",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e97cdf9b-dd0b-4691-b3c7-b50e7365bc5f",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "674b75bc-9b44-476a-9552-060a3b6a6086",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "パッチ状の生息地における個体群・群集動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8be4e9c5-c32f-46bc-88e1-8bb56415c0a7",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "01e0aa71-758f-452f-9e69-82970730f233",
+    "school_of_thought": "進化生態学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "84aab476-e0d4-4458-8909-cd9b98ff5404",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "環境への適応メカニズムとその生態学的帰結を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9b81aadd-d472-404b-8e28-8808eebbcb59",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種の絶滅リスクを定量的に評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1e9af52d-ba74-4128-8630-589200e3ab85",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "外来種の侵入リスクと生態系への影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3171d42a-78d6-4cc4-8022-427194366f6c",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7695da5a-3040-4e2b-b1ce-ddd319bd0c75",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "30588efd-d424-4f95-86cf-cb69f4015150",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "07a6a5ad-28b3-4f34-88dd-8b0b3e67ba6d",
+    "school_of_thought": "中立理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4fb610d3-7679-4cac-9df6-c1bbf9aa81eb",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0ac2d777-a33c-454a-8cbc-113c2654c725",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "34fa4390-7850-44e7-ac3e-ce714022dae6",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4fcf7aa2-9d18-465b-a4d2-50dcba9a8146",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "714eccec-99a0-472a-a3c9-196eb416ffcd",
+    "school_of_thought": "量的遺伝学・適応進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "表現型の可塑性と環境応答を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "51404c91-777f-403d-92f3-4cb10dc657c6",
+    "school_of_thought": "生態系安定性・レジリエンス理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の安定性・レジリエンスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4c5cf5bb-a660-4553-b3ec-130229b3faf8",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "55320581-f173-4974-8ad6-b319fab27fd4",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の相利共生関係の進化と維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5d0b747a-04df-46f1-aedd-5763639c83dd",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "野生個体群の管理・回復計画を立案するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b20cc04a-b839-40e0-a021-fe96f02e1b51",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e5eb5020-99f1-42d2-9666-f4fb4e7f0753",
+    "school_of_thought": "配偶システム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "666416e5-f52b-4528-892c-4dc4838e3984",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8809c7c2-3ced-4ff4-bb9e-b2c1bfeed688",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7d9ac685-5699-44d0-9ef3-95bbe523151d",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ffb39801-e154-447c-a239-cbf90a655d07",
+    "school_of_thought": "空間生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的パターンの空間的構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e4ea99c0-5705-4e3f-9dd6-331812aa0beb",
+    "school_of_thought": "代謝生態学・エネルギー理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化が生態学的パターンに及ぼす影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d1bc6d66-aa43-4c62-8396-ab1b7b9f53db",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0f8eb966-f37c-490d-b4e6-48f71c964c0b",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体群の増減動態を予測し、管理方策を検討するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5f4eb460-b6ec-4c96-8d9e-b053ed5363b0",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c49156a4-d883-44a0-b7b3-c9a53a7c18bf",
+    "school_of_thought": "適応進化理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態学的パターンを数理モデルで解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bc7df7b4-1e60-459f-98ba-7edcec40df32",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "01f0fc44-f7cf-47b9-ad9d-162b260b6628",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1684d7f0-7c3c-4105-84ec-d4a906daa4b7",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6a9ec248-6cc3-4875-91ac-8d7a6199529f",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態学的ネットワーク（食物網・相互作用網）の構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "24e35118-d7fb-4ce9-a6d8-05c929cea6cc",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "進化的プロセスが生態学的パターンに与える影響を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d0a48c58-6dc2-41da-87cc-ffd8eddf416f",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3a8d9ba4-856a-4e53-a6cb-4496676577ce",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "12f4a99b-b53a-4ca4-a357-9bf97ad1ae37",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "利他行動の進化と血縁選択のメカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e1cd32ce-ec1f-4b14-9be6-baf6b7ebf248",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "6bc60cdb-be3e-489b-a007-ba82102c0ae6",
+    "school_of_thought": "行動生態学・社会生物学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "動物の行動戦略の適応的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0b6c78ae-262a-400a-93d9-af5f24fb0fcf",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "繁殖戦略と配偶システムの進化的意義を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9fbcf31e-bad7-4207-9607-08edd32f2c44",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "46bdae5b-a344-4b4f-86f4-019bff3be6b4",
+    "school_of_thought": "共進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種間の共進化パターンと相互適応を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "14739fcf-da76-49b8-9d19-0e5187114d61",
+    "school_of_thought": "最適採餌理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の採餌行動の最適性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b1a87ce8-08c0-405d-a808-ee2c001f8866",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e7fa21a7-1193-40b7-a2f0-437207b57dd0",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "dce22735-b27d-450a-89a4-f1b3e97c0515",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "df09ce37-ed30-49f5-a4f2-eca1be2dd1ec",
+    "school_of_thought": "ニッチ理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ef3cdd26-106a-46a9-bbc2-68f63697f4f2",
+    "school_of_thought": "種子生態学・更新動態論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "競争種がどのように共存するかのメカニズムを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ff1fbb5e-e534-44c7-83b6-47563d16a458",
+    "school_of_thought": "性選択理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "性選択と配偶者選択の進化メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "92ffaacf-1613-447f-98d4-90bfd8fd0e79",
+    "school_of_thought": "個体群動態論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態系のエネルギー流とその効率を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "ee684051-84ca-48df-9fc3-e9961a4109f7",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d94ba0a3-9c9f-4baf-a8f5-1c192de9c099",
+    "school_of_thought": "代謝生態学・エネルギー理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4b44d90f-b113-4590-9266-91393af27500",
+    "school_of_thought": "代謝生態学・エネルギー理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の一次生産量とその制御要因を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b5f5e186-abf2-438a-9491-382e695d9218",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0d9a2515-2408-4c10-aec6-8c098011aff2",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "窒素循環と生態系の生産性の関係を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "96059274-ef72-4ed6-bdb3-f7fab1f8f6fa",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "窒素循環と生態系の生産性の関係を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "21e7f39a-b685-4d47-940e-87d9b19b9868",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "7e34e11a-2b7c-4c25-a05f-6875a81bce06",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "5fecdace-18ce-4830-8871-8662337277c2",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の一次生産量とその制御要因を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d2598e39-3f41-43ae-9d8c-ebde0388f5d0",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "74ee3871-78f0-4858-8ab0-24e22e1dde66",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "3df8e06c-c5a9-417d-b7aa-2ef81f80bc8c",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "95a1cd5d-33a5-4119-8f32-7aa4cef47e04",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "動物のコミュニケーション・信号の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "21b728e9-53c3-4418-b797-6e72b36a5367",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "101a5df6-1240-4169-8e40-5e6c226015f8",
+    "school_of_thought": "地球システム科学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "気候変動が生態系に与える影響を予測・評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1c15d811-97c6-4b1f-a514-bd6d25392138",
+    "school_of_thought": "生態系機能理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態系の物質循環やエネルギーフローの動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "9995ca13-b414-4dd1-81c0-d4602d8a234e",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "d257f9fa-b593-4a78-96c1-f51290e1de61",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8efbec4a-845f-4192-b0ca-1b7f9dc99821",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0c8c8e8c-9756-444e-b31d-3b9cf746ddf4",
+    "school_of_thought": "遷移理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "植生遷移の過程と要因を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8ab98e29-7d63-47d3-8423-074b217aac3d",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e7db79f2-ea14-4ecd-b1ee-436e3b391f29",
+    "school_of_thought": "生態系安定性・レジリエンス理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態系の安定性・レジリエンスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f27a7480-14f0-48c8-ab55-0bde9a2aa995",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a047797a-8bc9-4a6a-8326-d81134b56f9f",
+    "school_of_thought": "水域生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "有機物分解と物質還元の過程を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "10874918-2033-4b3d-ad07-ec8f924f8d37",
+    "school_of_thought": "メタ個体群理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系のエネルギー流とその効率を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "384b5491-f065-4524-892b-efda75f7b7eb",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "76c7b814-f23d-4f31-83cc-e1445340c719",
+    "school_of_thought": "分散生態学",
+    "precision_level": "定量的（統計的推定、信頼区間付き）",
+    "when_to_apply": "個体の分散パターンと個体群の空間構造を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "374e6207-6f57-4664-b04d-ed2be0a7c4e1",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1b9026bf-a914-4d54-832b-e528292cab6f",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0fedf0e4-2ae7-4e1f-830f-9db9cf6f4103",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e4e4d6bf-5de3-4199-ad85-07d2201c3276",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4dcaa821-0dec-4f12-948f-47fd878d7ed4",
+    "school_of_thought": "生態系機能理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の物質循環やエネルギーフローの動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "8983088d-4fa3-4a80-b12a-b38fa2d8492d",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0619f388-4868-4240-b7f6-6a74be350627",
+    "school_of_thought": "捕食者-被食者理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "捕食者-被食者の個体群動態を解析・予測するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "0622085e-752f-4d13-a8de-20c260b38584",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "生態系のエネルギー流とその効率を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "712ee91d-8fa9-4ab8-b787-1fa4ebc77ef6",
+    "school_of_thought": "社会生物学・協力進化理論",
+    "precision_level": "半定量的（経験則・スケーリング則）",
+    "when_to_apply": "動物の社会行動・協力行動の進化を理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "67c3a133-2e07-45aa-a34b-25317eeb19f9",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4f766cfc-9910-4e1b-ba87-77502ac5b7bb",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の物質循環プロセスを定量化するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "e7884ccb-f5fe-4969-b3f1-30da137b966d",
+    "school_of_thought": "生態系機能理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の物質循環やエネルギーフローの動態を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "c37338eb-49dd-4a2a-9101-3915fddb5f27",
+    "school_of_thought": "分散生態学",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種多様性のパターンとその維持メカニズムを理解するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bc823ae0-4122-45af-91da-6ad0a34aaa0f",
+    "school_of_thought": "群集生態学理論",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "微生物群集の構造・機能・多様性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "f7b4719c-bb88-4ade-b070-11b44507aafa",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "a22f8133-200a-4182-8e73-191994f596ce",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "定性的（概念的フレームワーク）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "bab3408c-96ad-4ebc-bcc7-6e6a518b7c9f",
+    "school_of_thought": "攪乱-多様性理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "撹乱が群集構造や多様性に与える影響を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "13f46261-f988-425b-be9a-60479486d66b",
+    "school_of_thought": "進化ゲーム理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "リン循環と栄養塩制限を評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "4ac1ff3f-2801-4346-8e3a-60fb70ebda6b",
+    "school_of_thought": "ダーウィン進化論・現代統合説",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "種のニッチ分化と資源利用パターンを解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "2766b710-9484-46a0-a6c8-50d4043e9267",
+    "school_of_thought": "生物地球化学",
+    "precision_level": "半定量的（フィールドデータに基づく統計的推定）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "b96b2507-e7ff-438f-9205-f4b8e258fd09",
+    "school_of_thought": "生物多様性理論",
+    "precision_level": "半定量的（モデル依存、オーダー推定）",
+    "when_to_apply": "生態系の炭素収支とフラックスを評価するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  },
+  {
+    "id": "1faaa771-b06a-4570-94af-ac28f6afd96c",
+    "school_of_thought": "食物網理論・栄養カスケード理論",
+    "precision_level": "半定量的（数理モデルによる近似）",
+    "when_to_apply": "食物網の構造と安定性を解析するとき",
+    "mathematical_formulation": null,
+    "experimental_verification": null,
+    "applicable_scale": null,
+    "definition": null
+  }
+]
