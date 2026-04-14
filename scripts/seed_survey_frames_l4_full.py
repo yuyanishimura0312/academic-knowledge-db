@@ -11,11 +11,11 @@ import sqlite3, os, uuid, sys, importlib.util
 DB_PATH = os.path.expanduser("~/projects/research/academic-knowledge-db/academic.db")
 
 DOMAIN_FILES = {
-    "social_theory":      "/tmp/l4_social_theory.py",
-    "natural_discovery":   "/tmp/l4_natural_discovery.py",
-    "humanities_concept":  "/tmp/l4_humanities_concept.py",
-    "engineering_method":  "/tmp/l4_engineering_method.py",
-    "arts_question":       "/tmp/l4_arts_question.py",
+    "social_theory":      os.path.join(os.path.dirname(__file__), "l4_data", "l4_social_theory.py"),
+    "natural_discovery":   os.path.join(os.path.dirname(__file__), "l4_data", "l4_natural_discovery.py"),
+    "humanities_concept":  os.path.join(os.path.dirname(__file__), "l4_data", "l4_humanities_concept.py"),
+    "engineering_method":  os.path.join(os.path.dirname(__file__), "l4_data", "l4_engineering_method.py"),
+    "arts_question":       os.path.join(os.path.dirname(__file__), "l4_data", "l4_arts_question.py"),
 }
 
 DOMAIN_VARNAMES = {
