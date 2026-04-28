@@ -36,7 +36,7 @@ def export_domain_json(domain, output_path=None):
     conn.row_factory = dict_factory
 
     # Entities
-    entities = conn.execute(f"SELECT * FROM {table} ORDER BY year_proposed").fetchall()
+    entities = conn.execute(f"SELECT * FROM {table} ORDER BY era_start").fetchall()
 
     # Parse JSON array fields
     for e in entities:
@@ -49,11 +49,11 @@ def export_domain_json(domain, output_path=None):
                     pass
 
     # Relations
-    rel_table = f"{table}_relation"
+    rel_table = f"{table}_relations"
     relations = conn.execute(f"SELECT * FROM {rel_table}").fetchall()
 
     # Researchers linked to this domain
-    link_table = f"{table}_researcher_link"
+    link_table = f"{table}_researchers"
     links = conn.execute(f"SELECT * FROM {link_table}").fetchall()
     researcher_ids = set(l["researcher_id"] for l in links)
 
@@ -61,7 +61,7 @@ def export_domain_json(domain, output_path=None):
     if researcher_ids:
         placeholders = ",".join(["?"] * len(researcher_ids))
         researchers = conn.execute(
-            f"SELECT * FROM researcher WHERE id IN ({placeholders})",
+            f"SELECT * FROM researchers WHERE id IN ({placeholders})",
             list(researcher_ids)
         ).fetchall()
         for r in researchers:
@@ -74,7 +74,7 @@ def export_domain_json(domain, output_path=None):
 
     # Cross-domain relations involving this domain
     cross = conn.execute(
-        "SELECT * FROM cross_domain_relation WHERE source_domain=? OR target_domain=?",
+        "SELECT * FROM cross_domain_relations WHERE source_domain=? OR target_domain=?",
         (domain, domain)
     ).fetchall()
 
@@ -117,7 +117,7 @@ def export_domain_csv(domain, output_dir=None):
     conn = sqlite3.connect(DB_PATH)
     conn.row_factory = dict_factory
 
-    entities = conn.execute(f"SELECT * FROM {table} ORDER BY year_proposed").fetchall()
+    entities = conn.execute(f"SELECT * FROM {table} ORDER BY era_start").fetchall()
     conn.close()
 
     if not entities:

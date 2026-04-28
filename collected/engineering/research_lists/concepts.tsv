@@ -1,0 +1,113 @@
+# Engineering Historical Concepts - Research-verified list
+# Format: era_start | name_en | name_ja | key_engineer
+
+# === Pre-1800 ===
+-312 | Roman Aqueduct Engineering | ローマ水道工学 | Appius Claudius Caecus
+-250 | Archimedean Screw | アルキメデスのスクリュー | Archimedes
+100 | Roman Concrete (Opus Caementicium) | ローマン・コンクリート | Roman engineers
+105 | Papermaking | 製紙術 | Cai Lun
+1040 | Movable Type Printing | 活版印刷術（畢昇） | Bi Sheng
+1088 | Mechanical Clock | 機械式時計 | Su Song
+1450 | Gutenberg Printing Press | グーテンベルク印刷機 | Johannes Gutenberg
+1500 | Leonardo's Engineering Designs | レオナルド・ダ・ヴィンチの工学設計 | Leonardo da Vinci
+1589 | Knitting Frame | 靴下編み機 | William Lee
+1698 | Savery's Steam Pump | セイヴァリーの蒸気ポンプ | Thomas Savery
+1712 | Newcomen Steam Engine | ニューコメンの蒸気機関 | Thomas Newcomen
+1733 | Flying Shuttle | 飛び杼 | John Kay
+1764 | Spinning Jenny | スピニング・ジェニー | James Hargreaves
+1769 | Watt's Steam Engine | ワットの蒸気機関 | James Watt
+1779 | Iron Bridge (Coalbrookdale) | 鉄橋（コールブルックデール） | Abraham Darby III
+1783 | Montgolfier Hot Air Balloon | モンゴルフィエ熱気球 | Montgolfier brothers
+1793 | Cotton Gin | 綿繰り機 | Eli Whitney
+1796 | Hydraulic Press | 水圧プレス | Joseph Bramah
+
+# === 19th Century ===
+1804 | Steam Locomotive | 蒸気機関車 | Richard Trevithick
+1807 | Steamboat (Commercial) | 蒸気船（商用） | Robert Fulton
+1825 | Railway Engineering (Stockton-Darlington) | 鉄道工学 | George Stephenson
+1831 | Electric Generator (Dynamo) | 発電機（ダイナモ） | Michael Faraday
+1837 | Electric Telegraph | 電信 | Samuel Morse
+1839 | Daguerreotype Photography | ダゲレオタイプ写真術 | Louis Daguerre
+1844 | Morse Code Communication | モールス信号通信 | Samuel Morse
+1855 | Bessemer Steel Process | ベッセマー製鋼法 | Henry Bessemer
+1856 | Synthetic Dye (Mauveine) | 合成染料（モーヴ） | William Henry Perkin
+1858 | Transatlantic Telegraph Cable | 大西洋横断電信ケーブル | Cyrus West Field
+1860 | Internal Combustion Engine (Otto Cycle) | 内燃機関（オットーサイクル） | Nikolaus Otto
+1866 | Dynamite | ダイナマイト | Alfred Nobel
+1876 | Telephone | 電話 | Alexander Graham Bell
+1877 | Phonograph | 蓄音機 | Thomas Edison
+1879 | Incandescent Light Bulb | 白熱電球 | Thomas Edison
+1882 | Pearl Street Power Station | パールストリート発電所 | Thomas Edison
+1884 | Steam Turbine | 蒸気タービン | Charles Parsons
+1885 | Automobile (Motorcar) | 自動車（モーターカー） | Karl Benz
+1886 | AC Power System | 交流電力システム | Nikola Tesla
+1888 | Alternating Current Motor | 交流モーター | Nikola Tesla
+1895 | Diesel Engine | ディーゼルエンジン | Rudolf Diesel
+1895 | Wireless Telegraphy | 無線電信 | Guglielmo Marconi
+1895 | X-ray Imaging | X線撮影 | Wilhelm Roentgen
+1896 | Cinematography | シネマトグラフ | Lumiere brothers
+1896 | Hydroelectric Power Plant | 水力発電所 | Nikola Tesla (Niagara)
+1898 | Remote Control | 無線遠隔操作 | Nikola Tesla
+1893 | Taylor's Scientific Management | テイラーの科学的管理法 | Frederick Taylor
+
+# === Early 20th Century (1900-1950) ===
+1903 | Powered Flight | 動力飛行 | Wright brothers
+1908 | Ford Assembly Line | フォード式組立ライン | Henry Ford
+1906 | Triode Vacuum Tube | 三極真空管 | Lee de Forest
+1910 | Reinforced Concrete Construction | 鉄筋コンクリート工法 | Auguste Perret
+1913 | Moving Assembly Line | 移動式組立ライン | Henry Ford
+1920 | Radio Broadcasting | ラジオ放送 | Various
+1924 | Shewhart Control Chart | シューハート管理図 | Walter Shewhart
+1926 | Liquid-fueled Rocket | 液体燃料ロケット | Robert Goddard
+1928 | Television (Mechanical/Electronic) | テレビジョン | Philo Farnsworth
+1930 | Jet Engine (Concept) | ジェットエンジン（概念） | Frank Whittle
+1935 | Radar | レーダー | Robert Watson-Watt
+1936 | Turing Machine | チューリングマシン | Alan Turing
+1937 | Jet Engine (Prototype) | ジェットエンジン（試作） | Frank Whittle/Hans von Ohain
+1938 | Nylon (Synthetic Polymer) | ナイロン（合成高分子） | Wallace Carothers
+1942 | Nuclear Reactor (Chicago Pile-1) | 原子炉（シカゴ・パイル1） | Enrico Fermi
+1943 | Colossus Computer | コロッサス・コンピュータ | Tommy Flowers
+1945 | ENIAC | ENIAC（電子計算機） | Eckert/Mauchly
+1945 | Operations Research | オペレーションズ・リサーチ | Patrick Blackett
+1947 | Transistor | トランジスタ | Bardeen/Brattain/Shockley
+1948 | Information Theory | 情報理論 | Claude Shannon
+1949 | Stored-Program Computer | プログラム内蔵方式コンピュータ | von Neumann
+
+# === Mid 20th Century (1950-1980) ===
+1951 | Nuclear Power Plant | 原子力発電所 | Various
+1954 | Solar Cell (Silicon) | 太陽電池（シリコン） | Chapin/Fuller/Pearson
+1956 | Hard Disk Drive | ハードディスクドライブ | IBM (RAMAC)
+1957 | FORTRAN Programming Language | FORTRANプログラミング言語 | John Backus
+1958 | Integrated Circuit | 集積回路 | Jack Kilby/Robert Noyce
+1959 | MOSFET | MOSFET | Dawon Kahng/Martin Atalla
+1960 | COBOL Programming Language | COBOLプログラミング言語 | Grace Hopper
+1962 | Communication Satellite (Telstar) | 通信衛星（テルスター） | Bell Labs
+1963 | Computer-Aided Design (CAD) | コンピュータ支援設計 | Ivan Sutherland
+1965 | Moore's Law | ムーアの法則 | Gordon Moore
+1968 | Structured Programming | 構造化プログラミング | Edsger Dijkstra
+1969 | ARPANET | ARPANET | DARPA
+1970 | Relational Database Model | 関係データベースモデル | Edgar Codd
+1971 | Microprocessor (Intel 4004) | マイクロプロセッサ | Intel (Hoff/Faggin)
+1972 | C Programming Language | C言語 | Dennis Ritchie
+1973 | Ethernet | イーサネット | Robert Metcalfe
+1973 | Mobile Phone (Prototype) | 携帯電話（試作） | Martin Cooper
+1975 | Fast Fourier Transform (Implementation) | 高速フーリエ変換（実装） | Cooley/Tukey
+1976 | Public-Key Cryptography | 公開鍵暗号 | Diffie/Hellman
+1977 | Fiber Optic Communication | 光ファイバー通信 | Corning Glass
+1978 | Total Quality Control (TQC) | 総合的品質管理 | Kaoru Ishikawa
+1950 | Deming's Quality Management | デミングの品質管理 | W. Edwards Deming
+
+# === Late 20th Century (1980-2000) ===
+1981 | IBM Personal Computer | IBM PC | IBM
+1983 | TCP/IP Protocol | TCP/IPプロトコル | Vint Cerf/Bob Kahn
+1983 | C++ Programming Language | C++言語 | Bjarne Stroustrup
+1984 | VLSI Design Methodology | VLSI設計手法 | Mead/Conway
+1985 | GNU Project / Free Software | GNUプロジェクト／自由ソフトウェア | Richard Stallman
+1989 | World Wide Web | ワールド・ワイド・ウェブ | Tim Berners-Lee
+1991 | Linux Kernel | Linuxカーネル | Linus Torvalds
+1993 | Global Positioning System (GPS) | GPS（全地球測位システム） | US DoD
+1995 | Java Programming Language | Java言語 | James Gosling
+1995 | Agile Software Development (Precursor) | アジャイルソフトウェア開発（前身） | Various
+1996 | USB Standard | USB規格 | USB Implementers Forum
+1997 | WiFi (IEEE 802.11) | Wi-Fi | IEEE
+1998 | Google Search Algorithm (PageRank) | Google検索アルゴリズム（PageRank） | Page/Brin
