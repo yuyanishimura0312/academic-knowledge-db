@@ -9,200 +9,53 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-
     :root {
-      --bg: #FFFFFF;
-      --surface: #FFFFFF;
-      --surface-alt: #F7F7F5;
-      --text: #121212;
-      --text-muted: #6B6B6B;
-      --text-secondary: #555555;
-      --border: #D9D9D9;
-      --border-light: #EEEEEE;
-      --accent: #CC1400;
-      --accent-muted: rgba(204,20,0,0.06);
+      --bg: #FFFFFF; --card: #FFFFFF; --text: #121212; --text-secondary: #555555;
+      --text-muted: #6B6B6B; --border: #D9D9D9; --border-light: #EEEEEE;
+      --surface: #F7F7F5; --accent-warm: #CC1400; --accent-muted: rgba(204,20,0,0.06);
+      --accent: #CC1400; --surface-alt: #F7F7F5;
+      --font: "Noto Sans JP", sans-serif; --font-serif: "Noto Serif JP", serif;
+      --green: #16A34A; --blue: #2563EB; --purple: #7C3AED; --orange: #EA580C; --cyan: #0891B2;
       --radius: 8px;
-      --shadow: 0 1px 4px rgba(0,0,0,0.06);
     }
     [data-theme="dark"] {
-      --bg: #121212;
-      --surface: #1A1A1A;
-      --surface-alt: #1A1A1A;
-      --text: #E0E0E0;
-      --text-muted: #8A8A8A;
-      --text-secondary: #AAAAAA;
-      --border: #333333;
-      --border-light: #2A2A2A;
-      --accent: #FF4444;
-      --accent-muted: rgba(255,68,68,0.1);
+      --bg: #121212; --card: #1A1A1A; --text: #E0E0E0; --text-secondary: #AAAAAA;
+      --text-muted: #8A8A8A; --border: #333333; --border-light: #2A2A2A;
+      --surface: #1A1A1A; --surface-alt: #1A1A1A;
+      --accent-warm: #FF4444; --accent: #FF4444; --accent-muted: rgba(255,68,68,0.1);
     }
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body { font-family: var(--font); color: var(--text); background: var(--bg); line-height: 1.7; max-width: 1100px; margin: 0 auto; padding: 24px 20px; }
+    .back { display: inline-block; margin-bottom: 20px; font-size: 0.82rem; color: var(--text-secondary); text-decoration: none; }
+    .back:hover { color: var(--text); }
+    h1 { font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }
+    .db-id { font-family: monospace; font-size: 0.72rem; font-weight: 700; color: var(--accent-warm); background: var(--accent-muted); padding: 2px 8px; margin-right: 8px; }
+    .subtitle { font-size: 0.84rem; color: var(--text-secondary); margin-bottom: 12px; }
+    .desc { font-size: 0.84rem; color: var(--text); margin-bottom: 24px; line-height: 1.8; }
+    .theme-toggle { position: fixed; top: 16px; right: 16px; background: var(--surface); border: 1px solid var(--border); padding: 6px 10px; cursor: pointer; font-size: 1rem; z-index: 100; }
+    .overview { display: grid; grid-template-columns: repeat(auto-fill, minmax(130px, 1fr)); gap: 10px; margin-bottom: 28px; }
+    .overview-card { background: var(--surface); border: 1px solid var(--border-light); padding: 14px; text-align: center; }
+    .overview-value { font-family: var(--font-serif); font-size: 1.3rem; font-weight: 700; }
+    .overview-value.accent { color: var(--accent-warm); }
+    .overview-label { font-size: 0.68rem; color: var(--text-muted); margin-top: 2px; }
+    h3 { font-family: var(--font-serif); font-size: 1rem; font-weight: 700; margin: 28px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }
 
-    body {
-      font-family: 'Noto Sans JP', sans-serif;
-      background: var(--bg);
-      color: var(--text);
-      min-height: 100vh;
-      line-height: 1.7;
-      transition: background 0.2s, color 0.2s;
-    }
-
-    /* ===== HEADER ===== */
-    header {
-      background: var(--bg);
-      color: var(--text);
-      padding: 16px 32px;
-      position: sticky;
-      top: 0;
-      z-index: 100;
-      border-top: 3px solid var(--accent);
-      border-bottom: 1px solid var(--border);
-    }
-
-    .header-inner {
-      max-width: 1280px;
-      margin: 0 auto;
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      gap: 16px;
-      flex-wrap: wrap;
-    }
-
-    .header-title {
-      font-family: 'Noto Serif JP', serif;
-      font-size: 1.25rem;
-      font-weight: 700;
-      letter-spacing: 0.02em;
-    }
-
-    .header-subtitle {
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      margin-top: 2px;
-    }
-
-    /* ===== SEARCH ===== */
-    .search-box {
-      display: flex;
-      align-items: center;
-      background: var(--surface-alt);
-      border: 1px solid var(--border);
-      border-radius: 24px;
-      padding: 6px 16px;
-      gap: 8px;
-      min-width: 240px;
-    }
-
-    .search-box input {
-      background: none;
-      border: none;
-      color: var(--text);
-      font-family: 'Noto Sans JP', sans-serif;
-      font-size: 0.9rem;
-      outline: none;
-      width: 100%;
-    }
-
+    /* Search */
+    .search-box { display: flex; align-items: center; background: var(--surface); border: 1px solid var(--border); border-radius: 24px; padding: 6px 16px; gap: 8px; min-width: 240px; margin-bottom: 20px; }
+    .search-box input { background: none; border: none; color: var(--text); font-family: var(--font); font-size: 0.88rem; outline: none; width: 100%; }
     .search-box input::placeholder { color: var(--text-muted); }
+    .search-count { font-size: 0.72rem; background: var(--accent-muted); color: var(--accent-warm); padding: 2px 8px; border-radius: 12px; white-space: nowrap; }
 
-    .search-icon { opacity: 0.7; font-size: 0.9rem; }
+    /* Tabs */
+    .tabs-wrapper { display: flex; gap: 0; border-bottom: 1px solid var(--border); margin-bottom: 24px; overflow-x: auto; }
+    .tab-btn { background: none; border: none; border-bottom: 3px solid transparent; padding: 10px 16px; cursor: pointer; display: flex; align-items: center; gap: 6px; white-space: nowrap; font-family: var(--font); font-size: 0.84rem; color: var(--text-muted); transition: all 0.2s; }
+    .tab-btn:hover { color: var(--tab-color, var(--accent-warm)); }
+    .tab-btn.active { color: var(--tab-color, var(--accent-warm)); border-bottom-color: var(--tab-color, var(--accent-warm)); font-weight: 600; }
+    .tab-count { font-size: 0.7rem; background: var(--surface); padding: 2px 8px; border-radius: 12px; }
+    .tab-btn.active .tab-count { background: var(--tab-color, var(--accent-warm)); color: white; }
 
-    .search-count {
-      font-size: 0.75rem;
-      background: var(--accent-muted);
-      color: var(--accent);
-      padding: 2px 8px;
-      border-radius: 12px;
-      white-space: nowrap;
-    }
-
-    /* ===== STATS BAR ===== */
-    .stats-bar {
-      background: var(--surface-alt);
-      border-bottom: 1px solid var(--border);
-      padding: 12px 32px;
-    }
-
-    .stats-inner {
-      max-width: 1280px;
-      margin: 0 auto;
-      display: flex;
-      gap: 32px;
-      flex-wrap: wrap;
-      align-items: center;
-    }
-
-    .stat-pill {
-      font-size: 0.85rem;
-      color: var(--text-muted);
-    }
-
-    .stat-pill strong {
-      color: var(--accent);
-      font-size: 1.1rem;
-    }
-
-    /* ===== TABS ===== */
-    .tabs-wrapper {
-      background: var(--surface);
-      border-bottom: 1px solid var(--border);
-      position: sticky;
-      top: 56px;
-      z-index: 90;
-    }
-
-    .tabs-inner {
-      max-width: 1280px;
-      margin: 0 auto;
-      display: flex;
-      gap: 0;
-      overflow-x: auto;
-      padding: 0 16px;
-    }
-
-    .tab-btn {
-      background: none;
-      border: none;
-      border-bottom: 3px solid transparent;
-      padding: 14px 20px;
-      cursor: pointer;
-      display: flex;
-      align-items: center;
-      gap: 8px;
-      white-space: nowrap;
-      font-family: 'Noto Sans JP', sans-serif;
-      font-size: 0.9rem;
-      color: var(--text-muted);
-      transition: all 0.2s;
-    }
-
-    .tab-btn:hover { color: var(--tab-color, var(--accent)); }
-
-    .tab-btn.active {
-      color: var(--tab-color, var(--accent));
-      border-bottom-color: var(--tab-color, var(--accent));
-      font-weight: 500;
-    }
-
-    .tab-count {
-      font-size: 0.75rem;
-      background: var(--surface-alt);
-      padding: 2px 8px;
-      border-radius: 12px;
-    }
-
-    .tab-btn.active .tab-count {
-      background: var(--tab-color, var(--accent));
-      color: white;
-    }
-
-    /* ===== MAIN CONTENT ===== */
-    .main {
-      max-width: 1280px;
-      margin: 0 auto;
-      padding: 24px 16px 48px;
-    }
+    /* Main */
+    .main { padding: 0; }
 
     .tab-content { display: none; }
     .tab-content.active { display: block; }
@@ -220,8 +73,8 @@
     }
 
     .domain-title {
-      font-family: 'Noto Serif JP', serif;
-      font-size: 1.4rem;
+      font-family: var(--font-serif);
+      font-size: 1.1rem;
       font-weight: 700;
     }
 
@@ -436,83 +289,44 @@
       font-size: 0.9rem;
     }
 
-    /* ===== FOOTER ===== */
-    footer {
-      text-align: center;
-      padding: 24px;
-      font-size: 0.8rem;
-      color: var(--text-muted);
-      border-top: 1px solid var(--border);
-      margin-top: 24px;
     }
 
     /* ===== RESPONSIVE ===== */
     @media (max-width: 640px) {
-      header { padding: 16px; }
-      .header-inner { flex-direction: column; align-items: flex-start; }
       .search-box { min-width: 100%; }
-      .stats-bar { padding: 10px 16px; }
       .main { padding: 16px 10px 32px; }
       .domain-header { flex-direction: column; align-items: flex-start; }
     }
   </style>
 </head>
 <body>
+<button class="theme-toggle" onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'':'dark'">&#9790;</button>
+<a class="back" href="https://yuyanishimura0312.github.io/miratuku-news-v2/databases.html">&larr; データベース一覧に戻る</a>
 
-<header>
-  <div class="header-inner">
-    <div>
-      <div class="header-title"><span style="color:var(--accent);font-weight:700">AK</span> 学術知識データベース</div>
-      <div class="header-subtitle">Academic Knowledge Database — 人文・社会・自然・工学・芸術</div>
-    </div>
-    <div style="display:flex;align-items:center;gap:12px">
-      <div class="search-box">
-        <span class="search-icon">&#x1F50D;</span>
-        <input type="text" id="searchInput" placeholder="概念名・定義を検索..." autocomplete="off">
-        <span class="search-count" id="searchCount"></span>
-      </div>
-      <button onclick="var h=document.documentElement;h.dataset.theme=h.dataset.theme==='dark'?'':'dark'" style="background:var(--surface-alt);border:1px solid var(--border);color:var(--text-muted);cursor:pointer;padding:4px 10px;font-size:0.72rem;font-family:'Noto Sans JP',sans-serif">DARK</button>
-    </div>
-  </div>
-</header>
+<h1><span class="db-id">AK</span>学術知識データベース</h1>
+<p class="subtitle">Academic Knowledge Database &mdash; 5分野の学術知識を体系的に構造化</p>
+<p class="desc">人文学・社会科学・自然科学・工学・芸術の5分野にわたる学術的概念・理論・発見・手法を体系的に収集し、定義・系譜関係・分野横断接続を構造化したデータベース。各エントリにはLLMによる定義文・学派分類が付与されている。</p>
 
-<div class="stats-bar">
-  <div class="stats-inner">
-    <div class="stat-pill"><strong>4,703</strong> 総エントリ</div>
-    <div class="stat-pill"><strong>457</strong> サブフィールド</div>
-    <div class="stat-pill"><strong>683</strong> 系譜関係</div>
-    <div class="stat-pill"><strong>50</strong> 分野横断関係</div>
-    <div class="stat-pill"><strong>5</strong> 分野</div>
-  </div>
+<div class="overview">
+  <div class="overview-card"><div class="overview-value accent">4,703</div><div class="overview-label">総エントリ</div></div>
+  <div class="overview-card"><div class="overview-value">457</div><div class="overview-label">サブフィールド</div></div>
+  <div class="overview-card"><div class="overview-value">683</div><div class="overview-label">系譜関係</div></div>
+  <div class="overview-card"><div class="overview-value">50</div><div class="overview-label">分野横断関係</div></div>
+  <div class="overview-card"><div class="overview-value">5</div><div class="overview-label">分野</div></div>
+</div>
+
+<div class="search-box">
+  <input type="text" id="searchInput" placeholder="概念名・定義を検索..." autocomplete="off">
+  <span class="search-count" id="searchCount"></span>
 </div>
 
 <div class="tabs-wrapper">
-  <div class="tabs-inner">
-      <button class="tab-btn active" data-tab="humanities_concept" style="--tab-color:var(--accent-warm, #CC1400)">
-        <span class="tab-name">人文学</span>
-        <span class="tab-count">1203件</span>
-      </button>
-      <button class="tab-btn " data-tab="social_theory" style="--tab-color:var(--blue, #2563EB)">
-        <span class="tab-name">社会科学</span>
-        <span class="tab-count">851件</span>
-      </button>
-      <button class="tab-btn " data-tab="natural_discovery" style="--tab-color:var(--green, #16A34A)">
-        <span class="tab-name">自然科学</span>
-        <span class="tab-count">1761件</span>
-      </button>
-      <button class="tab-btn " data-tab="engineering_method" style="--tab-color:var(--purple, #7C3AED)">
-        <span class="tab-name">工学</span>
-        <span class="tab-count">420件</span>
-      </button>
-      <button class="tab-btn " data-tab="arts_question" style="--tab-color:var(--orange, #EA580C)">
-        <span class="tab-name">芸術</span>
-        <span class="tab-count">468件</span>
-      </button>
-    <button class="tab-btn" data-tab="cross" style="--tab-color:#555">
-      <span class="tab-name">分野横断関係</span>
-      <span class="tab-count">50件</span>
-    </button>
-  </div>
+  <button class="tab-btn active" data-tab="humanities_concept" style="--tab-color:var(--accent-warm)">人文学 <span class="tab-count">1203</span></button>
+  <button class="tab-btn" data-tab="social_theory" style="--tab-color:var(--blue)">社会科学 <span class="tab-count">851</span></button>
+  <button class="tab-btn" data-tab="natural_discovery" style="--tab-color:var(--green)">自然科学 <span class="tab-count">1761</span></button>
+  <button class="tab-btn" data-tab="engineering_method" style="--tab-color:var(--purple)">工学 <span class="tab-count">420</span></button>
+  <button class="tab-btn" data-tab="arts_question" style="--tab-color:var(--orange)">芸術 <span class="tab-count">468</span></button>
+  <button class="tab-btn" data-tab="cross" style="--tab-color:var(--text-muted)">分野横断 <span class="tab-count">50</span></button>
 </div>
 
 <main class="main">
@@ -37530,9 +37344,9 @@
   </div>
 </main>
 
-<footer>
-  Academic Knowledge Database &copy; 2026 — 4,703 entries across 5 domains
-</footer>
+<div style="text-align:center;padding:32px 0;font-size:0.72rem;color:var(--text-muted);border-top:1px solid var(--border-light);margin-top:40px">
+  AK &mdash; 学術知識データベース &copy; 2026
+</div>
 
 <script>
   // ===== TAB SWITCHING =====
