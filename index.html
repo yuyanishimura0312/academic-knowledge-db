@@ -62,49 +62,48 @@
 
     /* ===== DOMAIN HEADER ===== */
     .domain-header {
-      border-radius: var(--radius);
-      padding: 16px 20px;
+      padding: 14px 16px;
       margin-bottom: 20px;
       display: flex;
       align-items: center;
       justify-content: space-between;
       flex-wrap: wrap;
       gap: 12px;
+      border-bottom: 1px solid var(--border);
     }
 
     .domain-title {
       font-family: var(--font-serif);
-      font-size: 1.1rem;
+      font-size: 1rem;
       font-weight: 700;
     }
 
     .domain-stats {
       display: flex;
-      gap: 20px;
+      gap: 16px;
       flex-wrap: wrap;
     }
 
     .stat-item {
-      font-size: 0.85rem;
+      font-size: 0.78rem;
       color: var(--text-muted);
     }
 
     .stat-item strong {
       color: var(--text);
-      font-size: 1.05rem;
+      font-size: 0.92rem;
+      font-family: var(--font-serif);
     }
 
     /* ===== SUBFIELDS ===== */
     .subfields-container {
       display: flex;
       flex-direction: column;
-      gap: 8px;
+      gap: 10px;
     }
 
     .subfield-block {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
+      border: 1px solid var(--border-light);
       overflow: hidden;
     }
 
@@ -112,104 +111,98 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
-      padding: 12px 16px;
+      padding: 10px 16px;
       cursor: pointer;
       user-select: none;
       list-style: none;
       gap: 12px;
-      border-left: 4px solid var(--sf-color, var(--accent));
-      background: var(--surface-alt);
+      border-left: 3px solid var(--sf-color, var(--accent-warm));
+      background: var(--surface);
     }
 
     .subfield-summary::-webkit-details-marker { display: none; }
 
     .subfield-summary::before {
-      content: '▶';
-      font-size: 0.65rem;
-      color: var(--sf-color, var(--accent));
+      content: '▸';
+      font-size: 0.78rem;
+      color: var(--text-muted);
       transition: transform 0.2s;
       flex-shrink: 0;
     }
 
     .subfield-block[open] > .subfield-summary::before {
-      transform: rotate(90deg);
+      content: '▾';
     }
 
     .sf-name {
-      font-weight: 500;
-      font-size: 0.95rem;
+      font-weight: 600;
+      font-size: 0.88rem;
       flex: 1;
     }
 
     .sf-count {
-      font-size: 0.72rem;
-      color: white;
-      padding: 2px 10px;
+      font-size: 0.68rem;
+      color: var(--text-muted);
+      background: var(--surface);
+      border: 1px solid var(--border-light);
+      padding: 2px 8px;
       border-radius: 12px;
       flex-shrink: 0;
     }
 
     .subfield-entries {
-      padding: 8px 12px 12px;
+      padding: 4px 16px 12px;
       display: flex;
       flex-direction: column;
-      gap: 4px;
+      gap: 0;
     }
 
     /* ===== ENTRY ITEMS ===== */
     .entry-item {
-      border: 1px solid var(--surface, #F7F7F5);
-      border-radius: 6px;
-      overflow: hidden;
+      border-bottom: 1px solid var(--border-light);
+    }
+
+    .entry-item:last-child {
+      border-bottom: none;
     }
 
     .entry-summary {
-      padding: 8px 12px;
+      padding: 8px 0;
       cursor: pointer;
       user-select: none;
       list-style: none;
-      font-size: 0.88rem;
+      font-size: 0.84rem;
       color: var(--text);
-      background: var(--surface, #F7F7F5);
-      transition: background 0.15s;
+      transition: color 0.15s;
     }
 
     .entry-summary::-webkit-details-marker { display: none; }
 
     .entry-summary::before {
-      content: '▶ ';
-      font-size: 0.6rem;
-      color: var(--text-muted);
-      transition: transform 0.15s;
-      display: inline-block;
+      content: '';
     }
 
-    .entry-item[open] > .entry-summary::before {
-      transform: rotate(90deg);
-    }
-
-    .entry-summary:hover { background: var(--surface, #F7F7F5); }
+    .entry-summary:hover { color: var(--accent-warm); }
 
     .entry-body {
-      padding: 10px 16px 12px;
-      background: var(--surface);
-      border-top: 1px solid var(--surface, #F7F7F5);
+      padding: 4px 0 12px;
     }
 
     .entry-def {
-      font-size: 0.87rem;
-      color: var(--text-muted);
-      line-height: 1.75;
+      font-size: 0.82rem;
+      color: var(--text-secondary);
+      line-height: 1.8;
       margin-bottom: 8px;
     }
 
     .entry-school {
       display: inline-block;
-      font-size: 0.75rem;
-      background: var(--surface, #F7F7F5);
-      color: var(--text-muted);
-      padding: 2px 10px;
+      font-size: 0.68rem;
+      background: var(--accent-muted);
+      color: var(--accent-warm);
+      padding: 2px 8px;
       border-radius: 12px;
+      font-weight: 600;
     }
 
     /* ===== CROSS-DOMAIN SECTION ===== */
@@ -221,42 +214,44 @@
       font-family: 'Noto Serif JP', serif;
       font-size: 1.2rem;
       font-weight: 700;
-      color: var(--accent);
+      color: var(--text);
       margin-bottom: 16px;
       padding-bottom: 8px;
-      border-bottom: 2px solid var(--accent);
+      border-bottom: 1px solid var(--border);
     }
 
     .cross-table-wrapper {
       overflow-x: auto;
-      border-radius: var(--radius);
-      border: 1px solid var(--border);
+      border: 1px solid var(--border-light);
     }
 
     .cross-table {
       width: 100%;
       border-collapse: collapse;
-      font-size: 0.85rem;
-      background: var(--surface);
+      font-size: 0.82rem;
     }
 
     .cross-table th {
-      background: var(--surface, #F7F7F5);
-      padding: 10px 14px;
+      background: var(--surface);
+      padding: 6px 10px;
       text-align: left;
-      font-weight: 500;
-      border-bottom: 2px solid var(--border);
+      font-weight: 600;
+      font-size: 0.72rem;
+      color: var(--text-muted);
+      text-transform: uppercase;
+      letter-spacing: 0.03em;
+      border-bottom: 1px solid var(--border);
       white-space: nowrap;
     }
 
     .cross-table td {
-      padding: 8px 14px;
-      border-bottom: 1px solid var(--surface, #F7F7F5);
+      padding: 6px 10px;
+      border-bottom: 1px solid var(--border-light);
       vertical-align: top;
     }
 
     .cross-table tr:last-child td { border-bottom: none; }
-    .cross-table tr:hover td { background: var(--bg, #FFFFFF); }
+    .cross-table tr:hover td { background: var(--accent-muted); }
 
     .domain-badge {
       display: inline-block;
@@ -308,7 +303,7 @@
 <p class="desc">人文学・社会科学・自然科学・工学・芸術の5分野にわたる学術的概念・理論・発見・手法を体系的に収集し、定義・系譜関係・分野横断接続を構造化したデータベース。各エントリにはLLMによる定義文・学派分類が付与されている。</p>
 
 <div class="overview">
-  <div class="overview-card"><div class="overview-value accent">4,703</div><div class="overview-label">総エントリ</div></div>
+  <div class="overview-card"><div class="overview-value">4,703</div><div class="overview-label">総エントリ</div></div>
   <div class="overview-card"><div class="overview-value">457</div><div class="overview-label">サブフィールド</div></div>
   <div class="overview-card"><div class="overview-value">683</div><div class="overview-label">系譜関係</div></div>
   <div class="overview-card"><div class="overview-value">50</div><div class="overview-label">分野横断関係</div></div>
@@ -331,7 +326,7 @@
 
 <main class="main">
     <div class="tab-content active" id="tab-humanities_concept">
-      <div class="domain-header" style="background:var(--accent-muted);border-left:4px solid var(--accent-warm, #CC1400)">
+      <div class="domain-header" style="border-left:3px solid var(--accent-warm)">
         <h2 class="domain-title" style="color:var(--accent-warm, #CC1400)">人文学</h2>
         <div class="domain-stats">
           <span class="stat-item"><strong>1203</strong> エントリ</span>
@@ -9780,7 +9775,7 @@
       </div>
     </div>
     <div class="tab-content " id="tab-social_theory">
-      <div class="domain-header" style="background:rgba(37,99,235,0.06);border-left:4px solid var(--blue, #2563EB)">
+      <div class="domain-header" style="border-left:3px solid var(--blue)">
         <h2 class="domain-title" style="color:var(--blue, #2563EB)">社会科学</h2>
         <div class="domain-stats">
           <span class="stat-item"><strong>851</strong> エントリ</span>
@@ -17197,7 +17192,7 @@
       </div>
     </div>
     <div class="tab-content " id="tab-natural_discovery">
-      <div class="domain-header" style="background:rgba(22,163,74,0.06);border-left:4px solid var(--green, #16A34A)">
+      <div class="domain-header" style="border-left:3px solid var(--green)">
         <h2 class="domain-title" style="color:var(--green, #16A34A)">自然科学</h2>
         <div class="domain-stats">
           <span class="stat-item"><strong>1761</strong> エントリ</span>
@@ -30008,7 +30003,7 @@
       </div>
     </div>
     <div class="tab-content " id="tab-engineering_method">
-      <div class="domain-header" style="background:rgba(124,58,237,0.06);border-left:4px solid var(--purple, #7C3AED)">
+      <div class="domain-header" style="border-left:3px solid var(--purple)">
         <h2 class="domain-title" style="color:var(--purple, #7C3AED)">工学</h2>
         <div class="domain-stats">
           <span class="stat-item"><strong>420</strong> エントリ</span>
@@ -33296,7 +33291,7 @@
       </div>
     </div>
     <div class="tab-content " id="tab-arts_question">
-      <div class="domain-header" style="background:rgba(234,88,12,0.06);border-left:4px solid var(--orange, #EA580C)">
+      <div class="domain-header" style="border-left:3px solid var(--orange)">
         <h2 class="domain-title" style="color:var(--orange, #EA580C)">芸術</h2>
         <div class="domain-stats">
           <span class="stat-item"><strong>468</strong> エントリ</span>
