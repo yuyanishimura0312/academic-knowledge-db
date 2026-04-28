@@ -1,0 +1,129 @@
+# Natural Sciences Historical Concepts - Research-verified list
+# Format: era_start | name_en | name_ja | key_scientist
+# Sources: Wikipedia, Britannica, scientific history references
+
+# === Pre-1700 ===
+-340 | Aristotelian Physics | アリストテレス自然学 | Aristotle
+-300 | Euclidean Geometry | ユークリッド幾何学 | Euclid
+-250 | Archimedes' Principle | アルキメデスの原理 | Archimedes
+-250 | Archimedean Lever | アルキメデスのてこの原理 | Archimedes
+150 | Ptolemaic Geocentric Model | プトレマイオスの天動説 | Ptolemy
+830 | Algebra (Al-Khwarizmi) | 代数学（アル・フワーリズミー） | Al-Khwarizmi
+1021 | Alhazen's Optics | アルハゼンの光学 | Ibn al-Haytham
+1543 | Copernican Heliocentrism | コペルニクスの地動説 | Nicolaus Copernicus
+1543 | Vesalian Anatomy | ヴェサリウスの人体解剖学 | Andreas Vesalius
+1572 | Brahe's Observational Astronomy | ティコ・ブラーエの観測天文学 | Tycho Brahe
+1600 | Gilbert's Magnetism | ギルバートの磁気学 | William Gilbert
+1604 | Galilean Kinematics | ガリレオの運動学 | Galileo Galilei
+1609 | Kepler's Laws of Planetary Motion | ケプラーの惑星運動の法則 | Johannes Kepler
+1620 | Snell's Law of Refraction | スネルの屈折の法則 | Willebrord Snellius
+1628 | Harveyian Blood Circulation | ハーヴェイの血液循環説 | William Harvey
+1643 | Torricelli's Vacuum | トリチェリの真空 | Evangelista Torricelli
+1644 | Cartesian Mechanics | デカルトの機械論的自然哲学 | Rene Descartes
+1654 | Pascal's Probability Theory | パスカルの確率論 | Blaise Pascal
+1662 | Boyle's Law | ボイルの法則 | Robert Boyle
+1665 | Hooke's Microscopy | フックの顕微鏡観察 | Robert Hooke
+1666 | Newton's Optics (Spectrum) | ニュートンの光学（スペクトル） | Isaac Newton
+1676 | Leeuwenhoek's Microbiology | レーウェンフックの微生物学 | Antonie van Leeuwenhoek
+1687 | Newtonian Mechanics | ニュートン力学 | Isaac Newton
+1687 | Newton's Law of Universal Gravitation | ニュートンの万有引力の法則 | Isaac Newton
+1687 | Newton's Three Laws of Motion | ニュートンの運動の三法則 | Isaac Newton
+1684 | Leibniz's Calculus | ライプニッツの微積分法 | Gottfried Leibniz
+
+# === 18th Century (1700-1800) ===
+1735 | Linnaean Taxonomy | リンネの分類学 | Carl Linnaeus
+1738 | Bernoulli's Fluid Dynamics | ベルヌーイの流体力学 | Daniel Bernoulli
+1748 | Euler's Mathematical Analysis | オイラーの数学的解析 | Leonhard Euler
+1752 | Franklin's Electrical Theory | フランクリンの電気理論 | Benjamin Franklin
+1766 | Cavendish's Hydrogen Discovery | キャヴェンディッシュの水素発見 | Henry Cavendish
+1772 | Priestley's Oxygen Discovery | プリーストリーの酸素発見 | Joseph Priestley
+1785 | Coulomb's Law | クーロンの法則 | Charles-Augustin de Coulomb
+1787 | Lavoisier's Oxygen Theory | ラヴォアジエの酸素説 | Antoine Lavoisier
+1789 | Lavoisier's Conservation of Mass | ラヴォアジエの質量保存の法則 | Antoine Lavoisier
+1796 | Jenner's Vaccination | ジェンナーの種痘法 | Edward Jenner
+1798 | Malthusian Population Theory | マルサスの人口論 | Thomas Malthus
+1799 | Laplacian Determinism | ラプラスの決定論 | Pierre-Simon Laplace
+1755 | Kant-Laplace Nebular Hypothesis | カント＝ラプラスの星雲説 | Kant/Laplace
+1760 | Black's Latent Heat | ブラックの潜熱 | Joseph Black
+1774 | Priestly's Phlogiston Refutation | フロギストン説の否定 | Lavoisier
+1783 | Herschel's Infrared Discovery | ハーシェルの赤外線発見 | William Herschel
+
+# === 19th Century (1800-1900) ===
+1803 | Dalton's Atomic Theory | ドルトンの原子説 | John Dalton
+1805 | Young's Wave Theory of Light | ヤングの光の波動説 | Thomas Young
+1811 | Avogadro's Molecular Hypothesis | アヴォガドロの分子仮説 | Amedeo Avogadro
+1820 | Oersted's Electromagnetism | エルステッドの電磁気学 | Hans Christian Oersted
+1824 | Carnot's Thermodynamic Cycle | カルノーの熱力学サイクル | Sadi Carnot
+1827 | Ohm's Law | オームの法則 | Georg Simon Ohm
+1831 | Faraday's Electromagnetic Induction | ファラデーの電磁誘導 | Michael Faraday
+1838 | Cell Theory | 細胞説 | Schleiden/Schwann
+1842 | Conservation of Energy (First Law) | エネルギー保存の法則（熱力学第一法則） | Julius Robert von Mayer
+1847 | Helmholtz's Conservation of Energy | ヘルムホルツのエネルギー保存則 | Hermann von Helmholtz
+1850 | Second Law of Thermodynamics | 熱力学第二法則 | Rudolf Clausius
+1856 | Bessemer's Steel Process | ベッセマー製鋼法 | Henry Bessemer
+1859 | Darwin's Natural Selection | ダーウィンの自然選択説 | Charles Darwin
+1859 | Darwin's Theory of Evolution | ダーウィンの進化論 | Charles Darwin
+1864 | Maxwell's Electromagnetic Theory | マクスウェルの電磁気理論 | James Clerk Maxwell
+1865 | Mendel's Laws of Inheritance | メンデルの遺伝の法則 | Gregor Mendel
+1869 | Periodic Table | 周期表 | Dmitri Mendeleev
+1871 | Boltzmann's Statistical Mechanics | ボルツマンの統計力学 | Ludwig Boltzmann
+1876 | Gibbs's Chemical Thermodynamics | ギブズの化学熱力学 | J. Willard Gibbs
+1882 | Koch's Postulates (Germ Theory) | コッホの原則（細菌学） | Robert Koch
+1864 | Pasteur's Germ Theory | パスツールの細菌説 | Louis Pasteur
+1887 | Hertz's Electromagnetic Waves | ヘルツの電磁波 | Heinrich Hertz
+1887 | Michelson-Morley Experiment | マイケルソン＝モーリーの実験 | Michelson/Morley
+1895 | X-ray Discovery | X線の発見 | Wilhelm Roentgen
+1896 | Radioactivity Discovery | 放射能の発見 | Henri Becquerel
+1897 | Electron Discovery | 電子の発見 | J.J. Thomson
+1829 | Non-Euclidean Geometry | 非ユークリッド幾何学 | Lobachevsky/Bolyai
+1859 | Riemann Geometry | リーマン幾何学 | Bernhard Riemann
+
+# === Early 20th Century (1900-1950) ===
+1900 | Planck's Quantum Hypothesis | プランクの量子仮説 | Max Planck
+1905 | Special Relativity | 特殊相対性理論 | Albert Einstein
+1905 | Photoelectric Effect (Light Quanta) | 光電効果（光量子説） | Albert Einstein
+1905 | Brownian Motion Theory | ブラウン運動の理論 | Albert Einstein
+1909 | Rutherford's Atomic Model | ラザフォードの原子模型 | Ernest Rutherford
+1911 | Superconductivity | 超伝導 | Heike Kamerlingh Onnes
+1913 | Bohr's Atomic Model | ボーアの原子模型 | Niels Bohr
+1915 | General Relativity | 一般相対性理論 | Albert Einstein
+1915 | Continental Drift Theory | 大陸移動説 | Alfred Wegener
+1924 | De Broglie Wave-Particle Duality | ド・ブロイの粒子波動二重性 | Louis de Broglie
+1925 | Heisenberg's Matrix Mechanics | ハイゼンベルクの行列力学 | Werner Heisenberg
+1926 | Schrödinger's Wave Equation | シュレーディンガーの波動方程式 | Erwin Schrodinger
+1927 | Heisenberg's Uncertainty Principle | ハイゼンベルクの不確定性原理 | Werner Heisenberg
+1927 | Copenhagen Interpretation | コペンハーゲン解釈 | Niels Bohr
+1928 | Dirac Equation | ディラック方程式 | Paul Dirac
+1929 | Hubble's Expanding Universe | ハッブルの膨張宇宙 | Edwin Hubble
+1932 | Neutron Discovery | 中性子の発見 | James Chadwick
+1932 | Positron Discovery | 陽電子の発見 | Carl Anderson
+1935 | Yukawa's Meson Theory | 湯川の中間子論 | Hideki Yukawa
+1938 | Nuclear Fission | 核分裂 | Hahn/Strassmann
+1944 | Schrödinger's What is Life? | シュレーディンガーの「生命とは何か」 | Erwin Schrodinger
+1946 | Big Bang Nucleosynthesis | ビッグバン元素合成 | George Gamow
+1948 | Quantum Electrodynamics (QED) | 量子電磁力学 | Feynman/Schwinger/Tomonaga
+1948 | Cybernetics | サイバネティクス | Norbert Wiener
+
+# === Mid 20th Century (1950-1990) ===
+1953 | DNA Double Helix Structure | DNA二重らせん構造 | Watson/Crick
+1957 | BCS Theory of Superconductivity | BCS超伝導理論 | Bardeen/Cooper/Schrieffer
+1958 | Central Dogma of Molecular Biology | 分子生物学のセントラルドグマ | Francis Crick
+1960 | Laser Invention | レーザーの発明 | Theodore Maiman
+1961 | Standard Model (Particle Physics) | 標準模型（素粒子物理学） | Glashow/Weinberg/Salam
+1962 | Kuhn's Paradigm Shift | クーンのパラダイムシフト | Thomas Kuhn
+1963 | Plate Tectonics | プレートテクトニクス | various
+1963 | Chaos Theory (Lorenz) | カオス理論（ローレンツ） | Edward Lorenz
+1964 | Higgs Mechanism | ヒッグス機構 | Peter Higgs
+1964 | Quarks | クォーク | Murray Gell-Mann
+1965 | Cosmic Microwave Background | 宇宙マイクロ波背景放射 | Penzias/Wilson
+1966 | Genetic Code Deciphered | 遺伝暗号の解読 | Nirenberg/Khorana
+1968 | Pulsars Discovery | パルサーの発見 | Jocelyn Bell Burnell
+1970 | Reverse Transcriptase | 逆転写酵素 | Temin/Baltimore
+1973 | Black Hole Thermodynamics | ブラックホール熱力学 | Jacob Bekenstein
+1975 | Monoclonal Antibodies | モノクローナル抗体 | Kohler/Milstein
+1977 | RNA Splicing (Introns) | RNAスプライシング（イントロン） | Sharp/Roberts
+1980 | Inflationary Universe | インフレーション宇宙論 | Alan Guth
+1983 | Polymerase Chain Reaction (PCR) | ポリメラーゼ連鎖反応 | Kary Mullis
+1984 | String Theory (First Superstring Revolution) | 超弦理論（第一次超弦革命） | Green/Schwarz
+1985 | Fullerene Discovery | フラーレンの発見 | Kroto/Curl/Smalley
+1990 | Human Genome Project (Launch) | ヒトゲノム計画（開始） | Collins/Venter
