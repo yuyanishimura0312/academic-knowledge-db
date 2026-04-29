@@ -7,8 +7,12 @@ Targets concepts with definitions < 100 chars. Uses Claude API in small batches.
 import json
 import sqlite3
 import subprocess
+import sys
 import time
 from pathlib import Path
+
+# Unbuffered output
+sys.stdout.reconfigure(line_buffering=True)
 
 DB_PATH = Path(__file__).parent.parent / "academic.db"
 
