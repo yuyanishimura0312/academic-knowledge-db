@@ -240,8 +240,8 @@ resize();
 // Give each century-ish bucket proportional screen space
 const WORLD_W = 10000;
 const SEGS = [
-  {s:-500, e:500, w:0.10}, {s:500, e:1500, w:0.08}, {s:1500, e:1800, w:0.10},
-  {s:1800, e:1900, w:0.14}, {s:1900, e:1960, w:0.16}, {s:1960, e:2000, w:0.20}, {s:2000, e:2026, w:0.22},
+  {s:-500, e:500, w:0.08}, {s:500, e:1500, w:0.06}, {s:1500, e:1800, w:0.08},
+  {s:1800, e:1900, w:0.10}, {s:1900, e:1960, w:0.14}, {s:1960, e:2000, w:0.28}, {s:2000, e:2026, w:0.26},
 ];
 function eraToX(era) {
   let off = 0;
@@ -280,10 +280,10 @@ function buildLaneLabels() {
 }
 
 // ═══════ Data Processing ═══════
-function hashJitter(id) {
+function hashNum(str) {
   let h = 0;
-  for (let i = 0; i < id.length; i++) h = ((h << 5) - h + id.charCodeAt(i)) | 0;
-  return (h % 1000) / 1000 - 0.5;
+  for (let i = 0; i < str.length; i++) h = ((h << 5) - h + str.charCodeAt(i)) | 0;
+  return h;
 }
 
 function process() {
@@ -298,10 +298,33 @@ function process() {
 
   nodeMap.clear(); posMap.clear(); linkIdx.clear();
   const lH = laneH();
+
+  // Group by domain+subfield for structured Y positioning
+  const domainGroups = new Map();
+  nodes.forEach(n => {
+    const key = n.domain;
+    if (!domainGroups.has(key)) domainGroups.set(key, new Map());
+    const sfMap = domainGroups.get(key);
+    const sf = n.subfield || "other";
+    if (!sfMap.has(sf)) sfMap.set(sf, []);
+    sfMap.get(sf).push(n);
+  });
+
   nodes.forEach(n => {
     nodeMap.set(n.id, n);
     const wx = eraToX(n.era_start);
-    const sy = laneY(n.domain) + hashJitter(n.id) * lH * 0.7;
+    const baseY = laneY(n.domain);
+
+    // Subfield-based vertical spread
+    const sfMap = domainGroups.get(n.domain);
+    const subfields = sfMap ? [...sfMap.keys()] : [];
+    const sfIdx = subfields.indexOf(n.subfield || "other");
+    const sfCount = subfields.length || 1;
+    const sfBand = (sfIdx / sfCount - 0.5) * lH * 0.75;
+    // Small random jitter within subfield band
+    const microJitter = ((hashNum(n.id) % 200) / 200 - 0.5) * (lH / sfCount) * 0.6;
+    const sy = baseY + sfBand + microJitter;
+
     posMap.set(n.id, { wx, sy });
   });
   links.forEach((l, i) => {
