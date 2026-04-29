@@ -8,814 +8,634 @@
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
   <style>
     :root {
-      --bg: #FFFFFF; --card: #FFFFFF; --text: #121212; --text-secondary: #555;
-      --text-muted: #999; --border: #E0E0E0; --border-light: #F0F0F0;
-      --surface: #F7F7F5; --accent: #CC1400; --accent-muted: rgba(204,20,0,0.06);
-      --font: "Noto Sans JP", sans-serif; --font-serif: "Noto Serif JP", serif;
+      --bg: #FAFAF8; --card: #FFF; --text: #1A1A1A; --text2: #555; --muted: #999;
+      --border: #E5E5E5; --surface: #F0EFEC; --accent: #CC1400;
+      --font: "Noto Sans JP", system-ui, sans-serif;
+      --serif: "Noto Serif JP", Georgia, serif;
       --hum: #CC1400; --soc: #2563EB; --nat: #16A34A; --eng: #7C3AED; --art: #EA580C;
     }
     [data-theme="dark"] {
-      --bg: #0A0A0A; --card: #161616; --text: #E0E0E0; --text-secondary: #AAA;
-      --text-muted: #666; --border: #2A2A2A; --border-light: #1E1E1E;
-      --surface: #111; --accent: #FF4444; --accent-muted: rgba(255,68,68,0.08);
+      --bg: #0C0C0C; --card: #181818; --text: #DDD; --text2: #999; --muted: #555;
+      --border: #282828; --surface: #141414; --accent: #EE3333;
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: var(--font); color: var(--text); background: var(--bg); overflow: hidden; -webkit-font-smoothing: antialiased; }
+    body { font-family: var(--font); color: var(--text); background: var(--bg); overflow: hidden; }
 
-    /* ── Header ── */
-    .header {
+    /* ── Top bar ── */
+    .top {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
-      background: var(--bg); border-bottom: 1px solid var(--border);
-      padding: 0 20px; height: 48px;
-      display: flex; align-items: center; gap: 16px;
+      height: 44px; background: var(--card); border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; padding: 0 16px; gap: 12px;
     }
-    .header a.back { font-size: 0.75rem; color: var(--text-muted); text-decoration: none; letter-spacing: 0.02em; }
-    .header a.back:hover { color: var(--text); }
-    .header h1 { font-family: var(--font-serif); font-size: 0.92rem; font-weight: 700; white-space: nowrap; }
-    .header .spacer { flex: 1; }
+    .top a { font-size: 0.72rem; color: var(--muted); text-decoration: none; }
+    .top a:hover { color: var(--text); }
+    .top h1 { font-family: var(--serif); font-size: 0.88rem; font-weight: 700; }
+    .top .spacer { flex: 1; }
+    .top .stats { font-size: 0.64rem; color: var(--muted); display: flex; gap: 8px; }
+    .top .stats b { color: var(--text2); }
+    .btn-s { background: var(--surface); border: 1px solid var(--border); border-radius: 4px;
+      padding: 2px 6px; cursor: pointer; font-size: 0.78rem; color: var(--muted); }
+    .btn-s:hover { color: var(--text); border-color: var(--muted); }
 
-    /* ── Controls Bar ── */
-    .controls-bar {
-      position: fixed; top: 48px; left: 0; right: 0; z-index: 99;
-      background: var(--surface); border-bottom: 1px solid var(--border-light);
-      padding: 6px 20px; display: flex; align-items: center; gap: 12px;
-      flex-wrap: wrap;
+    /* ── Filter bar ── */
+    .filters {
+      position: fixed; top: 44px; left: 0; right: 0; z-index: 99;
+      height: 34px; background: var(--surface); border-bottom: 1px solid var(--border);
+      display: flex; align-items: center; padding: 0 16px; gap: 8px; overflow-x: auto;
     }
-    .domain-filter { display: flex; gap: 3px; }
-    .domain-chip {
-      font-size: 0.66rem; padding: 3px 10px; border-radius: 14px;
-      cursor: pointer; border: 1px solid var(--border); background: var(--bg);
-      color: var(--text-muted); transition: all 0.15s; user-select: none;
-      font-weight: 500; letter-spacing: 0.02em;
+    .chip {
+      font-size: 0.62rem; padding: 2px 9px; border-radius: 12px; cursor: pointer;
+      border: 1px solid var(--border); background: var(--card); color: var(--muted);
+      white-space: nowrap; font-weight: 500; transition: all 0.15s; user-select: none;
     }
-    .domain-chip:hover { border-color: var(--text-muted); }
-    .domain-chip.active { color: white; border-color: transparent; }
-    .domain-chip[data-domain="humanities_concept"].active { background: var(--hum); }
-    .domain-chip[data-domain="social_theory"].active { background: var(--soc); }
-    .domain-chip[data-domain="natural_discovery"].active { background: var(--nat); }
-    .domain-chip[data-domain="engineering_method"].active { background: var(--eng); }
-    .domain-chip[data-domain="arts_question"].active { background: var(--art); }
-
-    .sep { width: 1px; height: 16px; background: var(--border); }
-
-    .era-control { display: flex; align-items: center; gap: 6px; }
-    .era-control label { font-size: 0.66rem; color: var(--text-muted); font-weight: 500; }
-    .era-control input[type="range"] { width: 140px; accent-color: var(--accent); }
-    .era-val { font-family: "SF Mono", "Menlo", monospace; font-size: 0.68rem; color: var(--text); min-width: 36px; text-align: center; }
-
-    .search-wrap {
-      display: flex; align-items: center; gap: 4px;
-      background: var(--bg); border: 1px solid var(--border); border-radius: 14px;
-      padding: 2px 10px; min-width: 160px;
+    .chip:hover { border-color: var(--muted); }
+    .chip.on { color: #fff; border-color: transparent; }
+    .chip[data-d="humanities_concept"].on { background: var(--hum); }
+    .chip[data-d="social_theory"].on { background: var(--soc); }
+    .chip[data-d="natural_discovery"].on { background: var(--nat); }
+    .chip[data-d="engineering_method"].on { background: var(--eng); }
+    .chip[data-d="arts_question"].on { background: var(--art); }
+    .vr { width: 1px; height: 14px; background: var(--border); flex-shrink: 0; }
+    .filters label { font-size: 0.62rem; color: var(--muted); }
+    .filters input[type="range"] { width: 100px; accent-color: var(--accent); }
+    .era-v { font-size: 0.64rem; color: var(--text2); font-variant-numeric: tabular-nums; min-width: 30px; text-align: center; }
+    .search-box {
+      background: var(--card); border: 1px solid var(--border); border-radius: 12px;
+      padding: 1px 8px; display: flex; align-items: center;
     }
-    .search-wrap input {
-      background: none; border: none; color: var(--text); font-family: var(--font);
-      font-size: 0.72rem; outline: none; width: 100%;
-    }
-    .search-wrap input::placeholder { color: var(--text-muted); }
+    .search-box input { border: none; background: none; font-size: 0.66rem; width: 100px;
+      outline: none; color: var(--text); font-family: var(--font); }
+    .search-box input::placeholder { color: var(--muted); }
 
-    .stats-bar {
-      margin-left: auto; display: flex; gap: 10px; font-size: 0.64rem; color: var(--text-muted);
-      white-space: nowrap;
-    }
-    .stats-bar strong { color: var(--text); font-weight: 600; }
-
-    .btn-icon {
-      background: var(--bg); border: 1px solid var(--border); width: 28px; height: 28px;
-      display: flex; align-items: center; justify-content: center;
-      cursor: pointer; font-size: 0.82rem; border-radius: 6px; color: var(--text-muted);
-    }
-    .btn-icon:hover { border-color: var(--text-muted); color: var(--text); }
-
-    /* ── Timeline Ruler ── */
-    .timeline-ruler {
-      position: fixed; top: 84px; left: 0; right: 0; z-index: 98;
-      height: 28px; background: var(--bg); border-bottom: 1px solid var(--border-light);
+    /* ── Timeline ruler ── */
+    .ruler {
+      position: fixed; top: 78px; left: 120px; right: 0; z-index: 98;
+      height: 24px; background: var(--card); border-bottom: 1px solid var(--border);
       overflow: hidden;
     }
-    .timeline-ruler canvas { width: 100%; height: 100%; }
+    .ruler canvas { width: 100%; height: 100%; }
 
-    /* ── Main Canvas ── */
-    .canvas-wrap {
-      position: fixed; top: 112px; left: 0; right: 0; bottom: 0;
+    /* ── Lane labels (left sidebar) ── */
+    .lane-labels {
+      position: fixed; top: 102px; left: 0; bottom: 0; width: 120px;
+      z-index: 97; background: var(--card); border-right: 1px solid var(--border);
+      display: flex; flex-direction: column;
+    }
+    .lane-label {
+      flex: 1; display: flex; align-items: center; justify-content: flex-end;
+      padding-right: 12px; font-size: 0.72rem; font-weight: 600;
+      font-family: var(--serif); border-bottom: 1px solid var(--border);
+      cursor: default;
+    }
+
+    /* ── Main canvas ── */
+    .main-area {
+      position: fixed; top: 102px; left: 120px; right: 0; bottom: 0;
       overflow: hidden; cursor: grab;
     }
-    .canvas-wrap:active { cursor: grabbing; }
-    .canvas-wrap canvas { display: block; }
+    .main-area:active { cursor: grabbing; }
+    .main-area canvas { display: block; }
 
-    /* ── Detail Panel ── */
-    .detail-panel {
-      position: fixed; top: 112px; right: 0; bottom: 0; width: 320px;
+    /* ── Detail panel ── */
+    .panel {
+      position: fixed; top: 102px; right: 0; bottom: 0; width: 300px;
       background: var(--card); border-left: 1px solid var(--border);
-      z-index: 90; transform: translateX(100%); transition: transform 0.25s ease;
-      overflow-y: auto; padding: 20px;
+      z-index: 96; transform: translateX(100%); transition: transform 0.2s ease;
+      overflow-y: auto; padding: 16px;
     }
-    .detail-panel.open { transform: translateX(0); }
-    .dp-close { position: absolute; top: 10px; right: 12px; cursor: pointer; font-size: 1.1rem; color: var(--text-muted); background: none; border: none; }
-    .dp-close:hover { color: var(--text); }
-    .dp-domain { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 4px; }
-    .dp-name { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 700; line-height: 1.4; margin-bottom: 2px; }
-    .dp-en { font-size: 0.76rem; color: var(--text-muted); margin-bottom: 8px; }
-    .dp-era { font-size: 0.72rem; color: var(--accent); font-weight: 500; margin-bottom: 12px; }
-    .dp-def { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 12px; }
-    .dp-meta { font-size: 0.68rem; color: var(--text-muted); }
-    .dp-meta span { display: inline-block; background: var(--surface); padding: 2px 8px; border-radius: 10px; margin: 2px 4px 2px 0; }
-    .dp-connections { margin-top: 16px; border-top: 1px solid var(--border-light); padding-top: 12px; }
-    .dp-connections h4 { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
-    .dp-conn-item { font-size: 0.72rem; padding: 4px 0; border-bottom: 1px solid var(--border-light); cursor: pointer; color: var(--text-secondary); }
-    .dp-conn-item:hover { color: var(--accent); }
+    .panel.open { transform: translateX(0); }
+    .panel .close { position: absolute; top: 8px; right: 10px; cursor: pointer;
+      background: none; border: none; font-size: 1rem; color: var(--muted); }
+    .panel .close:hover { color: var(--text); }
+    .p-dom { font-size: 0.6rem; font-weight: 700; letter-spacing: 0.06em; margin-bottom: 2px; }
+    .p-name { font-family: var(--serif); font-size: 1rem; font-weight: 700; line-height: 1.35; }
+    .p-en { font-size: 0.72rem; color: var(--muted); margin-bottom: 6px; }
+    .p-era { font-size: 0.68rem; color: var(--accent); font-weight: 500; margin-bottom: 10px; }
+    .p-def { font-size: 0.74rem; color: var(--text2); line-height: 1.7; margin-bottom: 10px; }
+    .p-tags span { font-size: 0.62rem; background: var(--surface); padding: 1px 7px;
+      border-radius: 8px; display: inline-block; margin: 1px 2px; color: var(--muted); }
+    .p-conn { margin-top: 12px; border-top: 1px solid var(--border); padding-top: 10px; }
+    .p-conn h4 { font-size: 0.66rem; color: var(--muted); font-weight: 600; margin-bottom: 4px; }
+    .p-conn-item { font-size: 0.68rem; padding: 3px 0; cursor: pointer; color: var(--text2);
+      border-bottom: 1px solid var(--border); }
+    .p-conn-item:hover { color: var(--accent); }
 
     /* ── Legend ── */
     .legend {
-      position: fixed; bottom: 12px; left: 12px; z-index: 90;
-      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
-      padding: 8px 12px; font-size: 0.62rem; opacity: 0.9;
+      position: fixed; bottom: 10px; right: 10px; z-index: 96;
+      font-size: 0.58rem; color: var(--muted); background: var(--card);
+      border: 1px solid var(--border); border-radius: 6px; padding: 6px 10px;
+      opacity: 0.85;
     }
-    .legend-row { display: flex; align-items: center; gap: 5px; margin: 1px 0; color: var(--text-muted); }
-    .legend-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
+    .legend div { display: flex; align-items: center; gap: 4px; margin: 1px 0; }
+    .legend .dot { width: 6px; height: 6px; border-radius: 50%; }
+    .legend .zoom-hint { margin-top: 4px; border-top: 1px solid var(--border); padding-top: 4px; }
 
     /* ── Loading ── */
-    .loading {
-      position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-      font-size: 0.82rem; color: var(--text-muted); z-index: 300; text-align: center;
-    }
-    .loading-bar { width: 120px; height: 2px; background: var(--border); margin: 8px auto 0; border-radius: 1px; overflow: hidden; }
-    .loading-bar::after { content: ''; display: block; width: 40%; height: 100%; background: var(--accent); animation: loading 1s ease infinite; }
-    @keyframes loading { 0% { transform: translateX(-100%); } 100% { transform: translateX(350%); } }
+    .loading { position: fixed; top: 50%; left: 50%; transform: translate(-50%,-50%);
+      z-index: 200; text-align: center; font-size: 0.78rem; color: var(--muted); }
+    .ld-bar { width: 100px; height: 2px; background: var(--border); margin: 6px auto;
+      border-radius: 1px; overflow: hidden; }
+    .ld-bar::after { content: ''; display: block; width: 30%; height: 100%;
+      background: var(--accent); animation: ld 0.8s ease infinite; }
+    @keyframes ld { 0%{transform:translateX(-100%)} 100%{transform:translateX(400%)} }
 
-    /* ── Responsive ── */
-    @media (max-width: 768px) {
-      .detail-panel { width: 100%; }
-      .search-wrap { min-width: 100px; }
-      .era-control input[type="range"] { width: 80px; }
+    @media(max-width:768px) {
+      .lane-labels { width: 60px; }
+      .lane-label { font-size: 0.58rem; padding-right: 6px; }
+      .ruler, .main-area { left: 60px; }
+      .panel { width: 100%; }
     }
   </style>
 </head>
 <body>
-
-<div class="header">
-  <a class="back" href="index.html">&larr; DB</a>
+<div class="top">
+  <a href="index.html">&larr; DB</a>
   <h1>学術知識の系譜</h1>
   <div class="spacer"></div>
-  <button class="btn-icon" onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'':'dark'" title="テーマ切替">&#9790;</button>
+  <div class="stats">
+    <span><b id="sN">0</b> 概念</span>
+    <span><b id="sL">0</b> 関係</span>
+  </div>
+  <button class="btn-s" onclick="resetZoom()">全体表示</button>
+  <button class="btn-s" onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'':'dark';requestRedraw()">&#9790;</button>
 </div>
 
-<div class="controls-bar">
-  <div class="domain-filter">
-    <span class="domain-chip active" data-domain="humanities_concept">人文学</span>
-    <span class="domain-chip active" data-domain="social_theory">社会科学</span>
-    <span class="domain-chip active" data-domain="natural_discovery">自然科学</span>
-    <span class="domain-chip active" data-domain="engineering_method">工学</span>
-    <span class="domain-chip active" data-domain="arts_question">芸術</span>
-  </div>
-  <div class="sep"></div>
-  <div class="era-control">
-    <label>時代</label>
-    <span class="era-val" id="eraMinVal">BCE 500</span>
-    <input type="range" id="eraStart" min="-500" max="2025" value="-500" step="10">
-    <input type="range" id="eraEnd" min="-500" max="2025" value="2025" step="10">
-    <span class="era-val" id="eraMaxVal">2025</span>
-  </div>
-  <div class="sep"></div>
-  <div class="search-wrap">
-    <input type="text" id="searchInput" placeholder="検索..." autocomplete="off">
-  </div>
-  <div class="stats-bar">
-    <span><strong id="visibleNodes">0</strong> 概念</span>
-    <span><strong id="visibleLinks">0</strong> 関係</span>
-  </div>
+<div class="filters">
+  <span class="chip on" data-d="humanities_concept">人文学</span>
+  <span class="chip on" data-d="social_theory">社会科学</span>
+  <span class="chip on" data-d="natural_discovery">自然科学</span>
+  <span class="chip on" data-d="engineering_method">工学</span>
+  <span class="chip on" data-d="arts_question">芸術</span>
+  <div class="vr"></div>
+  <label>時代</label>
+  <span class="era-v" id="evMin">-500</span>
+  <input type="range" id="rMin" min="-500" max="2025" value="-500" step="10">
+  <input type="range" id="rMax" min="-500" max="2025" value="2025" step="10">
+  <span class="era-v" id="evMax">2025</span>
+  <div class="vr"></div>
+  <div class="search-box"><input type="text" id="searchIn" placeholder="検索..."></div>
 </div>
 
-<div class="timeline-ruler"><canvas id="rulerCanvas"></canvas></div>
-<div class="canvas-wrap" id="canvasWrap"><canvas id="mainCanvas"></canvas></div>
+<div class="ruler"><canvas id="rCvs"></canvas></div>
+<div class="lane-labels" id="laneLabels"></div>
+<div class="main-area" id="mainArea"><canvas id="mCvs"></canvas></div>
 
-<div class="detail-panel" id="detailPanel">
-  <button class="dp-close" id="dpClose">&times;</button>
-  <div id="dpContent"></div>
+<div class="panel" id="panel">
+  <button class="close" onclick="closePanel()">&times;</button>
+  <div id="panelBody"></div>
 </div>
 
 <div class="legend">
-  <div class="legend-row"><div class="legend-dot" style="background:var(--hum)"></div>人文学</div>
-  <div class="legend-row"><div class="legend-dot" style="background:var(--soc)"></div>社会科学</div>
-  <div class="legend-row"><div class="legend-dot" style="background:var(--nat)"></div>自然科学</div>
-  <div class="legend-row"><div class="legend-dot" style="background:var(--eng)"></div>工学</div>
-  <div class="legend-row"><div class="legend-dot" style="background:var(--art)"></div>芸術</div>
+  <div><div class="dot" style="background:var(--hum)"></div>人文学</div>
+  <div><div class="dot" style="background:var(--soc)"></div>社会科学</div>
+  <div><div class="dot" style="background:var(--nat)"></div>自然科学</div>
+  <div><div class="dot" style="background:var(--eng)"></div>工学</div>
+  <div><div class="dot" style="background:var(--art)"></div>芸術</div>
+  <div class="zoom-hint">スクロール: 横ズーム / ドラッグ: 移動</div>
 </div>
 
-<div class="loading" id="loading">読み込み中<div class="loading-bar"></div></div>
+<div class="loading" id="loading">読み込み中<div class="ld-bar"></div></div>
 
 <script>
-// ── Constants ──
-const COLORS = {
-  humanities_concept: "#CC1400",
-  social_theory: "#2563EB",
-  natural_discovery: "#16A34A",
-  engineering_method: "#7C3AED",
-  arts_question: "#EA580C",
-};
-const DOMAIN_ORDER = ["humanities_concept","social_theory","natural_discovery","engineering_method","arts_question"];
-const DOMAIN_LABELS = { humanities_concept:"人文学", social_theory:"社会科学", natural_discovery:"自然科学", engineering_method:"工学", arts_question:"芸術" };
-const ERA_BANDS = [
-  { label:"古代", s:-500, e:500 },
-  { label:"中世", s:500, e:1500 },
-  { label:"近世", s:1500, e:1800 },
-  { label:"19C", s:1800, e:1900 },
-  { label:"20C前半", s:1900, e:1960 },
-  { label:"20C後半", s:1960, e:2000 },
-  { label:"21C", s:2000, e:2026 },
-];
+// ═══════ Config ═══════
+const COLORS = { humanities_concept:"#CC1400", social_theory:"#2563EB", natural_discovery:"#16A34A", engineering_method:"#7C3AED", arts_question:"#EA580C" };
+const DORDER = ["humanities_concept","social_theory","natural_discovery","engineering_method","arts_question"];
+const DLABEL = { humanities_concept:"人文学", social_theory:"社会科学", natural_discovery:"自然科学", engineering_method:"工学", arts_question:"芸術" };
 
-// ── State ──
-let allData = null;
-let activeDomains = new Set(DOMAIN_ORDER);
-let eraMin = -500, eraMax = 2025;
-let searchQuery = "";
-let panX = 0, panY = 0, scale = 1;
-let isDragging = false, dragStartX = 0, dragStartY = 0, dragPanX = 0, dragPanY = 0;
-let hoveredNode = null, selectedNode = null;
-let filteredNodes = [], filteredLinks = [];
-let nodePositions = new Map(); // id -> {x, y}
-let nodeLinkMap = new Map(); // id -> [link indices]
-let nodeMapById = new Map(); // id -> node
+// ═══════ State ═══════
+let data = null;
+let activeD = new Set(DORDER);
+let eraMin = -500, eraMax = 2025, query = "";
+let offsetX = 0;       // horizontal pan in pixels
+let zoomX = 1;          // horizontal zoom factor
+let nodes = [], links = [];
+let posMap = new Map();  // id -> {x, y}  (x=world, y=screen-fraction 0..1)
+let nodeMap = new Map(); // id -> node
+let linkIdx = new Map(); // id -> [linkIndex]
+let hovered = null, selected = null;
+let dragging = false, dragSX = 0, dragOX = 0;
+let _redraw = true;
 
-// ── Canvas Setup ──
-const wrap = document.getElementById("canvasWrap");
-const canvas = document.getElementById("mainCanvas");
-const ctx = canvas.getContext("2d");
-const rulerCanvas = document.getElementById("rulerCanvas");
-const rulerCtx = rulerCanvas.getContext("2d");
+const mainArea = document.getElementById("mainArea");
+const cvs = document.getElementById("mCvs");
+const ctx = cvs.getContext("2d");
+const rCvs = document.getElementById("rCvs");
+const rCtx = rCvs.getContext("2d");
 
-let W, H;
+let W, H, dpr;
 function resize() {
-  const dpr = window.devicePixelRatio || 1;
-  W = wrap.clientWidth;
-  H = wrap.clientHeight;
-  canvas.width = W * dpr; canvas.height = H * dpr;
-  canvas.style.width = W + "px"; canvas.style.height = H + "px";
-  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
-
-  const rw = rulerCanvas.parentElement.clientWidth;
-  rulerCanvas.width = rw * dpr; rulerCanvas.height = 28 * dpr;
-  rulerCanvas.style.width = rw + "px"; rulerCanvas.style.height = "28px";
-  rulerCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  dpr = window.devicePixelRatio || 1;
+  W = mainArea.clientWidth; H = mainArea.clientHeight;
+  cvs.width = W * dpr; cvs.height = H * dpr;
+  cvs.style.width = W + "px"; cvs.style.height = H + "px";
+  const rw = rCvs.parentElement.clientWidth;
+  rCvs.width = rw * dpr; rCvs.height = 24 * dpr;
+  rCvs.style.width = rw + "px"; rCvs.style.height = "24px";
+  buildLaneLabels();
 }
 resize();
 
-// ── Coordinate Helpers ──
-const WORLD_WIDTH = 8000;
-const LANE_PAD_TOP = 30;
-
-// Non-linear era mapping: gives more space to dense modern periods
-// Segments: BCE-500→500 (15%), 500→1500 (12%), 1500→1800 (13%), 1800→1900 (15%), 1900→1960 (15%), 1960→2000 (15%), 2000→2026 (15%)
-const ERA_SEGMENTS = [
-  { s: -500, e: 500,  pct: 0.12 },
-  { s: 500,  e: 1500, pct: 0.10 },
-  { s: 1500, e: 1800, pct: 0.12 },
-  { s: 1800, e: 1900, pct: 0.14 },
-  { s: 1900, e: 1960, pct: 0.16 },
-  { s: 1960, e: 2000, pct: 0.18 },
-  { s: 2000, e: 2026, pct: 0.18 },
+// ═══════ Non-linear era → worldX ═══════
+// Give each century-ish bucket proportional screen space
+const WORLD_W = 10000;
+const SEGS = [
+  {s:-500, e:500, w:0.10}, {s:500, e:1500, w:0.08}, {s:1500, e:1800, w:0.10},
+  {s:1800, e:1900, w:0.14}, {s:1900, e:1960, w:0.16}, {s:1960, e:2000, w:0.20}, {s:2000, e:2026, w:0.22},
 ];
-
-function xForEra(era) {
-  let offset = 0;
-  for (const seg of ERA_SEGMENTS) {
-    if (era <= seg.s) return offset * WORLD_WIDTH;
-    if (era <= seg.e) {
-      const frac = (era - seg.s) / (seg.e - seg.s);
-      return (offset + frac * seg.pct) * WORLD_WIDTH;
-    }
-    offset += seg.pct;
+function eraToX(era) {
+  let off = 0;
+  for (const s of SEGS) {
+    if (era <= s.s) return off * WORLD_W;
+    if (era <= s.e) return (off + ((era - s.s) / (s.e - s.s)) * s.w) * WORLD_W;
+    off += s.w;
   }
-  return WORLD_WIDTH;
+  return WORLD_W;
+}
+function xToScreen(wx) { return wx * zoomX + offsetX; }
+function screenToX(sx) { return (sx - offsetX) / zoomX; }
+
+// ═══════ Y: fixed screen lanes ═══════
+function activeLanes() { return DORDER.filter(d => activeD.has(d)); }
+function laneY(domain) {
+  const lanes = activeLanes();
+  const idx = lanes.indexOf(domain);
+  if (idx < 0) return -999;
+  const lH = H / lanes.length;
+  return idx * lH + lH / 2;
+}
+function laneH() { const n = activeLanes().length; return n > 0 ? H / n : H; }
+
+// ═══════ Lane labels ═══════
+function buildLaneLabels() {
+  const el = document.getElementById("laneLabels");
+  el.innerHTML = "";
+  activeLanes().forEach(d => {
+    const div = document.createElement("div");
+    div.className = "lane-label";
+    div.style.color = COLORS[d];
+    div.textContent = DLABEL[d];
+    el.appendChild(div);
+  });
 }
 
-function yForDomain(domain) {
-  const idx = DOMAIN_ORDER.indexOf(domain);
-  if (idx < 0) return H / 2;
-  const activeDomList = DOMAIN_ORDER.filter(d => activeDomains.has(d));
-  const ai = activeDomList.indexOf(domain);
-  if (ai < 0) return -999;
-  const laneH = (H - LANE_PAD_TOP) / activeDomList.length;
-  return LANE_PAD_TOP + ai * laneH + laneH / 2;
+// ═══════ Data Processing ═══════
+function hashJitter(id) {
+  let h = 0;
+  for (let i = 0; i < id.length; i++) h = ((h << 5) - h + id.charCodeAt(i)) | 0;
+  return (h % 1000) / 1000 - 0.5;
 }
 
-function laneHeight() {
-  const n = DOMAIN_ORDER.filter(d => activeDomains.has(d)).length;
-  return n > 0 ? (H - LANE_PAD_TOP) / n : H;
-}
-
-function worldToScreen(wx, wy) {
-  return { x: wx * scale + panX, y: wy * scale + panY };
-}
-
-function screenToWorld(sx, sy) {
-  return { x: (sx - panX) / scale, y: (sy - panY) / scale };
-}
-
-// ── Data Processing ──
-function processData() {
-  if (!allData) return;
-
-  // Deterministic jitter from id hash
-  function hashJitter(id) {
-    let h = 0;
-    for (let i = 0; i < id.length; i++) h = ((h << 5) - h + id.charCodeAt(i)) | 0;
-    return (h % 1000) / 1000 - 0.5; // -0.5 to 0.5
-  }
-
-  filteredNodes = allData.nodes.filter(n =>
-    activeDomains.has(n.domain) &&
-    n.era_start != null &&
+function process() {
+  if (!data) return;
+  nodes = data.nodes.filter(n =>
+    activeD.has(n.domain) && n.era_start != null &&
     n.era_start >= eraMin && n.era_start <= eraMax &&
-    (!searchQuery || (n.name_ja && n.name_ja.includes(searchQuery)) || (n.name_en && n.name_en.toLowerCase().includes(searchQuery.toLowerCase())))
+    (!query || (n.name_ja || "").includes(query) || (n.name_en || "").toLowerCase().includes(query.toLowerCase()))
   );
+  const ids = new Set(nodes.map(n => n.id));
+  links = data.links.filter(l => ids.has(l.source) && ids.has(l.target));
 
-  const nodeIds = new Set(filteredNodes.map(n => n.id));
-  filteredLinks = allData.links.filter(l => nodeIds.has(l.source) && nodeIds.has(l.target));
-
-  // Build node map
-  nodeMapById.clear();
-  filteredNodes.forEach(n => nodeMapById.set(n.id, n));
-
-  // Build positions
-  nodePositions.clear();
-  const lH = laneHeight();
-  filteredNodes.forEach(n => {
-    const wx = xForEra(n.era_start);
-    const baseY = yForDomain(n.domain);
-    const jitter = hashJitter(n.id) * lH * 0.65;
-    nodePositions.set(n.id, { x: wx, y: baseY + jitter });
+  nodeMap.clear(); posMap.clear(); linkIdx.clear();
+  const lH = laneH();
+  nodes.forEach(n => {
+    nodeMap.set(n.id, n);
+    const wx = eraToX(n.era_start);
+    const sy = laneY(n.domain) + hashJitter(n.id) * lH * 0.7;
+    posMap.set(n.id, { wx, sy });
+  });
+  links.forEach((l, i) => {
+    if (!linkIdx.has(l.source)) linkIdx.set(l.source, []);
+    if (!linkIdx.has(l.target)) linkIdx.set(l.target, []);
+    linkIdx.get(l.source).push(i);
+    linkIdx.get(l.target).push(i);
   });
 
-  // Build link map for fast lookup
-  nodeLinkMap.clear();
-  filteredLinks.forEach((l, i) => {
-    if (!nodeLinkMap.has(l.source)) nodeLinkMap.set(l.source, []);
-    if (!nodeLinkMap.has(l.target)) nodeLinkMap.set(l.target, []);
-    nodeLinkMap.get(l.source).push(i);
-    nodeLinkMap.get(l.target).push(i);
-  });
-
-  // Stats
-  document.getElementById("visibleNodes").textContent = filteredNodes.length.toLocaleString();
-  document.getElementById("visibleLinks").textContent = filteredLinks.length.toLocaleString();
+  document.getElementById("sN").textContent = nodes.length.toLocaleString();
+  document.getElementById("sL").textContent = links.length.toLocaleString();
+  buildLaneLabels();
 }
 
-// ── Rendering (Canvas 2D) ──
+// ═══════ Drawing ═══════
 function draw() {
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
   ctx.clearRect(0, 0, W, H);
-  ctx.save();
-  ctx.translate(panX, panY);
-  ctx.scale(scale, scale);
+  const dark = document.documentElement.dataset.theme === "dark";
 
-  const isDark = document.documentElement.dataset.theme === "dark";
-
-  // Visible bounds in world coords
-  const tl = screenToWorld(0, 0);
-  const br = screenToWorld(W, H);
+  // Visible world-x range
+  const wxL = screenToX(0), wxR = screenToX(W);
 
   // ── Era bands ──
-  ERA_BANDS.forEach((era, i) => {
-    const x1 = xForEra(era.s), x2 = xForEra(era.e);
-    if (x2 < tl.x || x1 > br.x) return;
-
-    // Era column background
+  SEGS.forEach((seg, i) => {
+    const sx1 = xToScreen(eraToX(seg.s));
+    const sx2 = xToScreen(eraToX(seg.e));
+    if (sx2 < 0 || sx1 > W) return;
     if (i % 2 === 0) {
-      ctx.fillStyle = isDark ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.022)";
-      ctx.fillRect(x1, tl.y, x2 - x1, br.y - tl.y);
+      ctx.fillStyle = dark ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.025)";
+      ctx.fillRect(sx1, 0, sx2 - sx1, H);
     }
-
-    // Era boundary line
-    ctx.strokeStyle = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)";
-    ctx.lineWidth = 0.5 / scale;
-    ctx.setLineDash([4 / scale, 4 / scale]);
-    ctx.beginPath();
-    ctx.moveTo(x1, tl.y);
-    ctx.lineTo(x1, br.y);
-    ctx.stroke();
+    // boundary
+    ctx.strokeStyle = dark ? "rgba(255,255,255,0.05)" : "rgba(0,0,0,0.06)";
+    ctx.lineWidth = 0.5;
+    ctx.setLineDash([3, 3]);
+    ctx.beginPath(); ctx.moveTo(sx1, 0); ctx.lineTo(sx1, H); ctx.stroke();
     ctx.setLineDash([]);
-
-    // Era label at top
-    if (scale > 0.08) {
-      const labelSize = Math.max(8, Math.min(16, 13 / scale));
-      ctx.fillStyle = isDark ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.08)";
-      ctx.font = `700 ${labelSize}px "Noto Serif JP", serif`;
-      ctx.textAlign = "center";
-      ctx.fillText(era.label, (x1 + x2) / 2, tl.y + 20 / scale);
-    }
   });
 
-  // ── Domain lane backgrounds & labels ──
-  const activeDomList = DOMAIN_ORDER.filter(d => activeDomains.has(d));
-  const lH = laneHeight();
-  activeDomList.forEach((domain, i) => {
-    const y = yForDomain(domain);
-    const yTop = y - lH / 2;
-
-    // Lane background
-    if (i % 2 === 0) {
-      ctx.fillStyle = isDark ? "rgba(255,255,255,0.012)" : "rgba(0,0,0,0.012)";
-      ctx.fillRect(tl.x, yTop, br.x - tl.x, lH);
+  // ── Lane separators ──
+  const lanes = activeLanes();
+  const lH = laneH();
+  lanes.forEach((d, i) => {
+    const y = i * lH + lH;
+    if (i < lanes.length - 1) {
+      ctx.strokeStyle = dark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.06)";
+      ctx.lineWidth = 0.5;
+      ctx.beginPath(); ctx.moveTo(0, y); ctx.lineTo(W, y); ctx.stroke();
     }
-
-    // Lane separator line
-    ctx.strokeStyle = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)";
-    ctx.lineWidth = 0.5 / scale;
-    ctx.beginPath();
-    ctx.moveTo(tl.x, yTop + lH);
-    ctx.lineTo(br.x, yTop + lH);
-    ctx.stroke();
-
-    // Domain label (fixed at left edge of visible area)
-    const labelX = tl.x + 8 / scale;
-    const labelSize = Math.max(9, Math.min(14, 12 / scale));
-    ctx.font = `700 ${labelSize}px "Noto Serif JP", serif`;
-    ctx.fillStyle = COLORS[domain];
-    ctx.globalAlpha = 0.5;
-    ctx.textAlign = "left";
-    ctx.fillText(DOMAIN_LABELS[domain], labelX, y + labelSize / 3);
-    ctx.globalAlpha = 1;
   });
 
   // ── Links ──
-  const highlightId = hoveredNode ? hoveredNode.id : selectedNode ? selectedNode.id : null;
-  const connectedLinks = new Set();
-  if (highlightId && nodeLinkMap.has(highlightId)) {
-    nodeLinkMap.get(highlightId).forEach(i => connectedLinks.add(i));
-  }
+  const hlId = hovered ? hovered.id : selected ? selected.id : null;
+  const connSet = new Set();
+  if (hlId && linkIdx.has(hlId)) linkIdx.get(hlId).forEach(i => connSet.add(i));
 
-  filteredLinks.forEach((l, idx) => {
-    const sp = nodePositions.get(l.source);
-    const tp = nodePositions.get(l.target);
+  links.forEach((l, idx) => {
+    const sp = posMap.get(l.source), tp = posMap.get(l.target);
     if (!sp || !tp) return;
-    // Frustum cull
-    const minX = Math.min(sp.x, tp.x), maxX = Math.max(sp.x, tp.x);
-    if (maxX < tl.x || minX > br.x) return;
+    const sx1 = xToScreen(sp.wx), sx2 = xToScreen(tp.wx);
+    if (Math.max(sx1, sx2) < -50 || Math.min(sx1, sx2) > W + 50) return;
 
-    const isHighlighted = connectedLinks.has(idx);
-    const alpha = highlightId ? (isHighlighted ? 0.7 : 0.04) : 0.2;
-
-    // Find source domain color via map
-    const sn = nodeMapById.get(l.source);
-    ctx.strokeStyle = sn ? COLORS[sn.domain] : "#999";
-    ctx.globalAlpha = alpha;
-    ctx.lineWidth = Math.max(0.5, (l.strength || 5) / 6) / (highlightId && !isHighlighted ? scale : 1);
-    if (l.cross_domain) ctx.setLineDash([4 / scale, 3 / scale]);
-    else ctx.setLineDash([]);
-
+    const isHL = connSet.has(idx);
+    ctx.globalAlpha = hlId ? (isHL ? 0.6 : 0.03) : 0.15;
+    const sn = nodeMap.get(l.source);
+    ctx.strokeStyle = sn ? COLORS[sn.domain] : "#888";
+    ctx.lineWidth = isHL ? 1.5 : 0.5;
+    if (l.cross_domain) { ctx.setLineDash([3, 2]); } else { ctx.setLineDash([]); }
     ctx.beginPath();
-    const mx = (sp.x + tp.x) / 2;
-    ctx.moveTo(sp.x, sp.y);
-    ctx.bezierCurveTo(mx, sp.y, mx, tp.y, tp.x, tp.y);
+    const mx = (sx1 + sx2) / 2;
+    ctx.moveTo(sx1, sp.sy);
+    ctx.bezierCurveTo(mx, sp.sy, mx, tp.sy, sx2, tp.sy);
     ctx.stroke();
   });
   ctx.globalAlpha = 1;
   ctx.setLineDash([]);
 
   // ── Nodes ──
-  const nodeRadius = Math.max(1.5, Math.min(4, 3 / Math.sqrt(scale)));
-  const foundRadius = nodeRadius * 1.5;
-  const showLabels = scale > 1.8;
-  const showLabelsPartial = scale > 0.8;
+  // Semantic zoom: determine what to show
+  const pixPerYear = zoomX * (WORLD_W / 2526); // rough px per year
+  const showLabels = pixPerYear > 8;
+  const showFoundationalLabels = pixPerYear > 2;
+  const nodeR = Math.max(1.5, Math.min(4, 2.5));
 
-  filteredNodes.forEach(n => {
-    const p = nodePositions.get(n.id);
+  // Sort: foundational first for priority rendering
+  const sorted = [...nodes].sort((a, b) => (b.status === "foundational" ? 1 : 0) - (a.status === "foundational" ? 1 : 0));
+
+  // Label collision: simple horizontal skip
+  const usedLabelSlots = [];
+  function canPlaceLabel(sx, sy, textW) {
+    for (const s of usedLabelSlots) {
+      if (Math.abs(sy - s.y) < 10 && sx < s.x + s.w + 4 && sx + textW > s.x - 4) return false;
+    }
+    return true;
+  }
+
+  sorted.forEach(n => {
+    const p = posMap.get(n.id);
     if (!p) return;
-    // Frustum cull
-    if (p.x < tl.x - 20 || p.x > br.x + 20 || p.y < tl.y - 20 || p.y > br.y + 20) return;
+    const sx = xToScreen(p.wx);
+    if (sx < -10 || sx > W + 10) return;
 
-    const isFoundational = n.status === "foundational";
-    const r = isFoundational ? foundRadius : nodeRadius;
-    const isHovered = hoveredNode && hoveredNode.id === n.id;
-    const isSelected = selectedNode && selectedNode.id === n.id;
-    const isConnected = highlightId && nodeLinkMap.has(n.id) &&
-      (n.id === highlightId || nodeLinkMap.get(n.id).some(i => connectedLinks.has(i)));
+    const isFnd = n.status === "foundational";
+    const isHov = hovered && hovered.id === n.id;
+    const isSel = selected && selected.id === n.id;
+    const isConn = hlId && (n.id === hlId || (linkIdx.has(n.id) && linkIdx.get(n.id).some(i => connSet.has(i))));
 
-    ctx.beginPath();
-    ctx.arc(p.x, p.y, isHovered ? r * 2.5 : isSelected ? r * 2 : r, 0, Math.PI * 2);
-    ctx.fillStyle = COLORS[n.domain] || "#999";
-    ctx.globalAlpha = highlightId ? (isConnected || isHovered ? 1 : 0.15) : (isFoundational ? 0.9 : 0.7);
-    ctx.fill();
+    const r = isHov ? 6 : isSel ? 5 : isFnd ? nodeR * 1.4 : nodeR;
+    ctx.globalAlpha = hlId ? (isConn || isHov ? 1 : 0.12) : (isFnd ? 0.85 : 0.55);
 
-    // White stroke
-    if (isHovered || isSelected) {
-      ctx.strokeStyle = isDark ? "#333" : "white";
-      ctx.lineWidth = 1.5 / scale;
+    ctx.fillStyle = COLORS[n.domain];
+    ctx.beginPath(); ctx.arc(sx, p.sy, r, 0, Math.PI * 2); ctx.fill();
+
+    if (isHov || isSel) {
+      ctx.strokeStyle = dark ? "#444" : "#fff";
+      ctx.lineWidth = 1.5;
       ctx.stroke();
     }
+
+    // Label
+    const wantLabel = showLabels || (showFoundationalLabels && isFnd) || isHov || isSel;
+    if (wantLabel && n.name_ja) {
+      const fs = isHov || isSel ? 11 : isFnd ? 9 : 8;
+      ctx.font = `${isFnd ? 500 : 400} ${fs}px "Noto Sans JP", sans-serif`;
+      const tw = ctx.measureText(n.name_ja).width;
+      const lx = sx + r + 3, ly = p.sy + fs / 3;
+
+      if (isHov || isSel || canPlaceLabel(lx, ly, tw)) {
+        ctx.fillStyle = dark ? "rgba(255,255,255,0.75)" : "rgba(0,0,0,0.7)";
+        ctx.globalAlpha = hlId ? (isConn || isHov ? 0.9 : 0.1) : 0.8;
+        ctx.fillText(n.name_ja, lx, ly);
+        if (!isHov && !isSel) usedLabelSlots.push({ x: lx, y: ly, w: tw });
+      }
+    }
     ctx.globalAlpha = 1;
-
-    // Labels
-    if (showLabels || (showLabelsPartial && isFoundational) || isHovered || isSelected) {
-      ctx.fillStyle = isDark ? "rgba(255,255,255,0.8)" : "rgba(0,0,0,0.75)";
-      const fs = Math.max(6, Math.min(10, 9 / scale));
-      ctx.font = `${isFoundational ? 500 : 400} ${fs}px "Noto Sans JP", sans-serif`;
-      ctx.textAlign = "left";
-      ctx.fillText(n.name_ja || "", p.x + r + 3, p.y + fs / 3);
-    }
   });
-
-  ctx.restore();
 }
 
-// ── Timeline Ruler ──
+// ── Ruler ──
 function drawRuler() {
-  const rw = rulerCanvas.width / (window.devicePixelRatio || 1);
-  const rh = 28;
-  rulerCtx.clearRect(0, 0, rw, rh);
-  const isDark = document.documentElement.dataset.theme === "dark";
+  rCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+  const rw = rCvs.width / dpr, rh = 24;
+  rCtx.clearRect(0, 0, rw, rh);
+  const dark = document.documentElement.dataset.theme === "dark";
 
-  // Map world X to ruler X (uses same xForEra)
-  function rulerX(era) {
-    const wx = xForEra(era);
-    return wx * scale + panX;
-  }
+  const pxPY = zoomX * (WORLD_W / 2526);
+  let interval = 500;
+  if (pxPY > 0.5) interval = 200;
+  if (pxPY > 1.5) interval = 100;
+  if (pxPY > 4) interval = 50;
+  if (pxPY > 10) interval = 20;
+  if (pxPY > 25) interval = 10;
 
-  // Determine tick interval based on effective scale
-  const effScale = scale * (WORLD_WIDTH / 2526); // normalize
-  let interval = 100;
-  if (effScale > 1.5) interval = 50;
-  if (effScale > 4) interval = 20;
-  if (effScale > 10) interval = 10;
-  if (effScale > 25) interval = 5;
+  rCtx.font = '9px "Noto Sans JP", sans-serif';
+  rCtx.textAlign = "center";
 
-  const startEra = Math.floor((-500) / interval) * interval;
-  const endEra = 2026;
-
-  rulerCtx.font = '10px "Noto Sans JP", sans-serif';
-  rulerCtx.textAlign = "center";
-
-  for (let y = startEra; y <= endEra; y += interval) {
-    const rx = rulerX(y);
-    if (rx < -50 || rx > rw + 50) continue;
-
-    const isMajor = y % 500 === 0;
-    const isMedium = y % 100 === 0;
-
-    rulerCtx.strokeStyle = isDark ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)";
-    rulerCtx.lineWidth = isMajor ? 1.5 : 0.5;
-    rulerCtx.beginPath();
-    rulerCtx.moveTo(rx, isMajor ? 6 : isMedium ? 14 : 20);
-    rulerCtx.lineTo(rx, rh);
-    rulerCtx.stroke();
-
-    if (isMajor || (isMedium && scale > 0.3)) {
-      rulerCtx.fillStyle = isDark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.45)";
-      const label = y < 0 ? `${Math.abs(y)}BCE` : `${y}`;
-      rulerCtx.fillText(label, rx, 12);
+  for (let y = -500; y <= 2026; y += interval) {
+    const rx = xToScreen(eraToX(y));
+    if (rx < -30 || rx > rw + 30) continue;
+    const major = y % 500 === 0;
+    rCtx.strokeStyle = dark ? "rgba(255,255,255,0.2)" : "rgba(0,0,0,0.15)";
+    rCtx.lineWidth = major ? 1 : 0.5;
+    rCtx.beginPath(); rCtx.moveTo(rx, major ? 5 : 15); rCtx.lineTo(rx, rh); rCtx.stroke();
+    if (major || interval <= 100) {
+      rCtx.fillStyle = dark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.5)";
+      rCtx.fillText(y < 0 ? `${Math.abs(y)}BCE` : `${y}`, rx, 12);
     }
   }
-
-  // Era range highlight
-  const rxMin = rulerX(eraMin);
-  const rxMax = rulerX(eraMax);
-  rulerCtx.fillStyle = isDark ? "rgba(255,68,68,0.08)" : "rgba(204,20,0,0.04)";
-  rulerCtx.fillRect(rxMin, 0, rxMax - rxMin, rh);
 }
 
-// ── Animation Loop ──
-let needsRedraw = true;
+// ═══════ Animation ═══════
+function requestRedraw() { _redraw = true; }
 function loop() {
-  if (needsRedraw) {
-    draw();
-    drawRuler();
-    needsRedraw = false;
-  }
+  if (_redraw) { draw(); drawRuler(); _redraw = false; }
   requestAnimationFrame(loop);
 }
 
-// ── Hit Test ──
+// ═══════ Hit test ═══════
 function hitTest(sx, sy) {
-  const wp = screenToWorld(sx, sy);
-  const hitR = 8 / scale;
-  let closest = null, closestDist = Infinity;
-  for (const n of filteredNodes) {
-    const p = nodePositions.get(n.id);
+  let best = null, bestD = 12;
+  for (const n of nodes) {
+    const p = posMap.get(n.id);
     if (!p) continue;
-    const dx = p.x - wp.x, dy = p.y - wp.y;
-    const dist = Math.sqrt(dx * dx + dy * dy);
-    if (dist < hitR && dist < closestDist) {
-      closest = n;
-      closestDist = dist;
-    }
+    const nx = xToScreen(p.wx);
+    const dx = nx - sx, dy = p.sy - sy;
+    const d = Math.sqrt(dx * dx + dy * dy);
+    if (d < bestD) { best = n; bestD = d; }
   }
-  return closest;
+  return best;
 }
 
-// ── Detail Panel ──
-function showDetail(node) {
-  selectedNode = node;
-  const panel = document.getElementById("detailPanel");
-  const content = document.getElementById("dpContent");
-  const eraStr = node.era_start < 0 ? `${Math.abs(node.era_start)} BCE` : `${node.era_start}`;
-
-  // Find connections
-  const connLinks = filteredLinks.filter(l => l.source === node.id || l.target === node.id);
-  let connHtml = "";
-  if (connLinks.length > 0) {
-    connHtml = `<div class="dp-connections"><h4>関連概念 (${connLinks.length})</h4>`;
+// ═══════ Panel ═══════
+function showPanel(node) {
+  selected = node;
+  const panel = document.getElementById("panel");
+  const body = document.getElementById("panelBody");
+  const era = node.era_start < 0 ? `${Math.abs(node.era_start)} BCE` : node.era_start;
+  const connLinks = links.filter(l => l.source === node.id || l.target === node.id);
+  let connHTML = "";
+  if (connLinks.length) {
+    connHTML = `<div class="p-conn"><h4>関連 (${connLinks.length})</h4>`;
     connLinks.forEach(l => {
-      const otherId = l.source === node.id ? l.target : l.source;
-      const other = filteredNodes.find(n => n.id === otherId);
-      if (other) {
-        const dir = l.source === node.id ? "&rarr;" : "&larr;";
-        connHtml += `<div class="dp-conn-item" data-id="${otherId}">${dir} ${other.name_ja} (${other.era_start})</div>`;
-      }
+      const oid = l.source === node.id ? l.target : l.source;
+      const o = nodeMap.get(oid);
+      if (o) connHTML += `<div class="p-conn-item" data-id="${oid}">${l.source === node.id ? "&rarr;" : "&larr;"} ${o.name_ja} (${o.era_start})</div>`;
     });
-    connHtml += "</div>";
+    connHTML += "</div>";
   }
-
-  content.innerHTML = `
-    <div class="dp-domain" style="color:${COLORS[node.domain]}">${DOMAIN_LABELS[node.domain]}</div>
-    <div class="dp-name">${node.name_ja}</div>
-    <div class="dp-en">${node.name_en || ""}</div>
-    <div class="dp-era">${eraStr}年〜</div>
-    ${node.definition ? `<div class="dp-def">${node.definition}</div>` : ""}
-    <div class="dp-meta">
-      ${node.subfield ? `<span>${node.subfield}</span>` : ""}
-      ${node.school ? `<span>${node.school}</span>` : ""}
-      ${node.status ? `<span>${node.status}</span>` : ""}
-    </div>
-    ${connHtml}
-  `;
+  body.innerHTML = `
+    <div class="p-dom" style="color:${COLORS[node.domain]}">${DLABEL[node.domain]}</div>
+    <div class="p-name">${node.name_ja}</div>
+    <div class="p-en">${node.name_en || ""}</div>
+    <div class="p-era">${era}年〜</div>
+    ${node.definition ? `<div class="p-def">${node.definition}</div>` : ""}
+    <div class="p-tags">${node.subfield ? `<span>${node.subfield}</span>` : ""}${node.school ? `<span>${node.school}</span>` : ""}</div>
+    ${connHTML}`;
   panel.classList.add("open");
-
-  // Navigate to connected concept
-  content.querySelectorAll(".dp-conn-item").forEach(el => {
+  body.querySelectorAll(".p-conn-item").forEach(el => {
     el.addEventListener("click", () => {
-      const target = filteredNodes.find(n => n.id === el.dataset.id);
-      if (target) {
-        showDetail(target);
-        const tp = nodePositions.get(target.id);
-        if (tp) {
-          panX = W / 2 - tp.x * scale;
-          panY = H / 2 - tp.y * scale;
-          needsRedraw = true;
-        }
-      }
+      const t = nodeMap.get(el.dataset.id);
+      if (t) { showPanel(t); const tp = posMap.get(t.id); if (tp) { offsetX = W / 2 - tp.wx * zoomX; requestRedraw(); } }
     });
   });
+  requestRedraw();
 }
+function closePanel() { document.getElementById("panel").classList.remove("open"); selected = null; requestRedraw(); }
 
-function closeDetail() {
-  document.getElementById("detailPanel").classList.remove("open");
-  selectedNode = null;
-  needsRedraw = true;
-}
-
-// ── Mouse / Touch Events ──
-canvas.addEventListener("mousedown", e => {
-  isDragging = true;
-  dragStartX = e.clientX; dragStartY = e.clientY;
-  dragPanX = panX; dragPanY = panY;
+// ═══════ Events ═══════
+cvs.addEventListener("mousedown", e => {
+  dragging = true; dragSX = e.clientX; dragOX = offsetX;
+  hovered = null;
 });
-
-canvas.addEventListener("mousemove", e => {
-  if (isDragging) {
-    panX = dragPanX + (e.clientX - dragStartX);
-    panY = dragPanY + (e.clientY - dragStartY);
-    needsRedraw = true;
+cvs.addEventListener("mousemove", e => {
+  const rect = cvs.getBoundingClientRect();
+  if (dragging) {
+    offsetX = dragOX + (e.clientX - dragSX);
+    requestRedraw();
   } else {
-    const rect = canvas.getBoundingClientRect();
-    const prev = hoveredNode;
-    hoveredNode = hitTest(e.clientX - rect.left, e.clientY - rect.top);
-    if (hoveredNode !== prev) {
-      canvas.style.cursor = hoveredNode ? "pointer" : "grab";
-      needsRedraw = true;
-    }
+    const prev = hovered;
+    hovered = hitTest(e.clientX - rect.left, e.clientY - rect.top);
+    if (hovered !== prev) { cvs.style.cursor = hovered ? "pointer" : "grab"; requestRedraw(); }
   }
 });
-
-canvas.addEventListener("mouseup", e => {
-  if (isDragging && Math.abs(e.clientX - dragStartX) < 3 && Math.abs(e.clientY - dragStartY) < 3) {
-    // It was a click
-    const rect = canvas.getBoundingClientRect();
-    const node = hitTest(e.clientX - rect.left, e.clientY - rect.top);
-    if (node) showDetail(node);
-    else closeDetail();
+cvs.addEventListener("mouseup", e => {
+  if (dragging && Math.abs(e.clientX - dragSX) < 4) {
+    const rect = cvs.getBoundingClientRect();
+    const n = hitTest(e.clientX - rect.left, e.clientY - rect.top);
+    if (n) showPanel(n); else closePanel();
   }
-  isDragging = false;
+  dragging = false;
 });
+cvs.addEventListener("mouseleave", () => { dragging = false; if (hovered) { hovered = null; requestRedraw(); } });
 
-canvas.addEventListener("wheel", e => {
+cvs.addEventListener("wheel", e => {
   e.preventDefault();
-  const rect = canvas.getBoundingClientRect();
+  const rect = cvs.getBoundingClientRect();
   const mx = e.clientX - rect.left;
-  const my = e.clientY - rect.top;
-  const delta = e.deltaY > 0 ? 0.9 : 1.1;
-  const newScale = Math.max(0.05, Math.min(30, scale * delta));
-
-  panX = mx - (mx - panX) * (newScale / scale);
-  panY = my - (my - panY) * (newScale / scale);
-  scale = newScale;
-  needsRedraw = true;
+  const factor = e.deltaY > 0 ? 0.9 : 1.1;
+  const newZ = Math.max(0.02, Math.min(50, zoomX * factor));
+  offsetX = mx - (mx - offsetX) * (newZ / zoomX);
+  zoomX = newZ;
+  requestRedraw();
 }, { passive: false });
 
-// Touch support
-let lastTouchDist = 0;
-canvas.addEventListener("touchstart", e => {
-  if (e.touches.length === 1) {
-    isDragging = true;
-    dragStartX = e.touches[0].clientX; dragStartY = e.touches[0].clientY;
-    dragPanX = panX; dragPanY = panY;
-  } else if (e.touches.length === 2) {
-    lastTouchDist = Math.hypot(e.touches[1].clientX - e.touches[0].clientX, e.touches[1].clientY - e.touches[0].clientY);
-  }
+// Touch
+let lastTD = 0;
+cvs.addEventListener("touchstart", e => {
+  if (e.touches.length === 1) { dragging = true; dragSX = e.touches[0].clientX; dragOX = offsetX; }
+  else if (e.touches.length === 2) { lastTD = Math.abs(e.touches[1].clientX - e.touches[0].clientX); }
 }, { passive: true });
-
-canvas.addEventListener("touchmove", e => {
+cvs.addEventListener("touchmove", e => {
   e.preventDefault();
-  if (e.touches.length === 1 && isDragging) {
-    panX = dragPanX + (e.touches[0].clientX - dragStartX);
-    panY = dragPanY + (e.touches[0].clientY - dragStartY);
-    needsRedraw = true;
+  if (e.touches.length === 1 && dragging) {
+    offsetX = dragOX + (e.touches[0].clientX - dragSX);
+    requestRedraw();
   } else if (e.touches.length === 2) {
-    const dist = Math.hypot(e.touches[1].clientX - e.touches[0].clientX, e.touches[1].clientY - e.touches[0].clientY);
-    const delta = dist / lastTouchDist;
+    const d = Math.abs(e.touches[1].clientX - e.touches[0].clientX);
     const cx = (e.touches[0].clientX + e.touches[1].clientX) / 2;
-    const cy = (e.touches[0].clientY + e.touches[1].clientY) / 2;
-    const rect = canvas.getBoundingClientRect();
-    const mx = cx - rect.left, my = cy - rect.top;
-    const newScale = Math.max(0.05, Math.min(30, scale * delta));
-    panX = mx - (mx - panX) * (newScale / scale);
-    panY = my - (my - panY) * (newScale / scale);
-    scale = newScale;
-    lastTouchDist = dist;
-    needsRedraw = true;
+    const rect = cvs.getBoundingClientRect();
+    const mx = cx - rect.left;
+    const factor = d / (lastTD || 1);
+    const newZ = Math.max(0.02, Math.min(50, zoomX * factor));
+    offsetX = mx - (mx - offsetX) * (newZ / zoomX);
+    zoomX = newZ;
+    lastTD = d;
+    requestRedraw();
   }
 }, { passive: false });
+cvs.addEventListener("touchend", () => { dragging = false; });
 
-canvas.addEventListener("touchend", () => { isDragging = false; });
-
-// ── Controls ──
-document.querySelectorAll(".domain-chip").forEach(chip => {
-  chip.addEventListener("click", () => {
-    const d = chip.dataset.domain;
-    chip.classList.toggle("active");
-    if (chip.classList.contains("active")) activeDomains.add(d);
-    else activeDomains.delete(d);
-    processData();
-    needsRedraw = true;
+// Controls
+document.querySelectorAll(".chip").forEach(c => {
+  c.addEventListener("click", () => {
+    const d = c.dataset.d;
+    c.classList.toggle("on");
+    if (c.classList.contains("on")) activeD.add(d); else activeD.delete(d);
+    process(); requestRedraw();
   });
 });
-
-document.getElementById("eraStart").addEventListener("input", e => {
-  eraMin = parseInt(e.target.value);
+document.getElementById("rMin").addEventListener("input", e => {
+  eraMin = +e.target.value;
   if (eraMin > eraMax) { eraMin = eraMax; e.target.value = eraMin; }
-  document.getElementById("eraMinVal").textContent = eraMin < 0 ? `BCE ${Math.abs(eraMin)}` : eraMin;
-  processData();
-  needsRedraw = true;
+  document.getElementById("evMin").textContent = eraMin < 0 ? eraMin : eraMin;
+  process(); requestRedraw();
 });
-
-document.getElementById("eraEnd").addEventListener("input", e => {
-  eraMax = parseInt(e.target.value);
+document.getElementById("rMax").addEventListener("input", e => {
+  eraMax = +e.target.value;
   if (eraMax < eraMin) { eraMax = eraMin; e.target.value = eraMax; }
-  document.getElementById("eraMaxVal").textContent = eraMax;
-  processData();
-  needsRedraw = true;
+  document.getElementById("evMax").textContent = eraMax;
+  process(); requestRedraw();
+});
+let sDeb;
+document.getElementById("searchIn").addEventListener("input", e => {
+  clearTimeout(sDeb);
+  sDeb = setTimeout(() => { query = e.target.value.trim(); process(); requestRedraw(); }, 200);
 });
 
-let searchDebounce;
-document.getElementById("searchInput").addEventListener("input", e => {
-  clearTimeout(searchDebounce);
-  searchDebounce = setTimeout(() => {
-    searchQuery = e.target.value.trim();
-    processData();
-    needsRedraw = true;
-  }, 200);
+function resetZoom() {
+  zoomX = W / WORLD_W * 0.95;
+  offsetX = W * 0.025;
+  requestRedraw();
+}
+
+window.addEventListener("resize", () => { resize(); process(); requestRedraw(); });
+
+// ═══════ Load ═══════
+fetch("genealogy_data.json").then(r => r.json()).then(d => {
+  data = d;
+  document.getElementById("loading").style.display = "none";
+  process();
+  resetZoom();
+  loop();
 });
-
-document.getElementById("dpClose").addEventListener("click", closeDetail);
-
-window.addEventListener("resize", () => { resize(); processData(); needsRedraw = true; });
-
-// ── Initial Load ──
-fetch("genealogy_data.json")
-  .then(r => r.json())
-  .then(data => {
-    allData = data;
-    document.getElementById("loading").style.display = "none";
-    processData();
-
-    // Auto-fit to show all content
-    if (filteredNodes.length > 0) {
-      let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
-      nodePositions.forEach(p => {
-        if (p.x < minX) minX = p.x;
-        if (p.x > maxX) maxX = p.x;
-        if (p.y < minY) minY = p.y;
-        if (p.y > maxY) maxY = p.y;
-      });
-      const worldW = maxX - minX || 1;
-      const worldH = maxY - minY || 1;
-      scale = Math.min(W * 0.9 / worldW, H * 0.85 / worldH, 3);
-      panX = (W - worldW * scale) / 2 - minX * scale;
-      panY = (H - worldH * scale) / 2 - minY * scale;
-    }
-    needsRedraw = true;
-    loop();
-  });
 </script>
 </body>
 </html>
