@@ -236,6 +236,7 @@ let hoveredNode = null, selectedNode = null;
 let filteredNodes = [], filteredLinks = [];
 let nodePositions = new Map(); // id -> {x, y}
 let nodeLinkMap = new Map(); // id -> [link indices]
+let nodeMapById = new Map(); // id -> node
 
 // ── Canvas Setup ──
 const wrap = document.getElementById("canvasWrap");
@@ -261,11 +262,32 @@ function resize() {
 resize();
 
 // ── Coordinate Helpers ──
-const WORLD_WIDTH = 6000;
+const WORLD_WIDTH = 8000;
 const LANE_PAD_TOP = 30;
 
+// Non-linear era mapping: gives more space to dense modern periods
+// Segments: BCE-500→500 (15%), 500→1500 (12%), 1500→1800 (13%), 1800→1900 (15%), 1900→1960 (15%), 1960→2000 (15%), 2000→2026 (15%)
+const ERA_SEGMENTS = [
+  { s: -500, e: 500,  pct: 0.12 },
+  { s: 500,  e: 1500, pct: 0.10 },
+  { s: 1500, e: 1800, pct: 0.12 },
+  { s: 1800, e: 1900, pct: 0.14 },
+  { s: 1900, e: 1960, pct: 0.16 },
+  { s: 1960, e: 2000, pct: 0.18 },
+  { s: 2000, e: 2026, pct: 0.18 },
+];
+
 function xForEra(era) {
-  return ((era - (-500)) / (2026 - (-500))) * WORLD_WIDTH;
+  let offset = 0;
+  for (const seg of ERA_SEGMENTS) {
+    if (era <= seg.s) return offset * WORLD_WIDTH;
+    if (era <= seg.e) {
+      const frac = (era - seg.s) / (seg.e - seg.s);
+      return (offset + frac * seg.pct) * WORLD_WIDTH;
+    }
+    offset += seg.pct;
+  }
+  return WORLD_WIDTH;
 }
 
 function yForDomain(domain) {
@@ -312,6 +334,10 @@ function processData() {
   const nodeIds = new Set(filteredNodes.map(n => n.id));
   filteredLinks = allData.links.filter(l => nodeIds.has(l.source) && nodeIds.has(l.target));
 
+  // Build node map
+  nodeMapById.clear();
+  filteredNodes.forEach(n => nodeMapById.set(n.id, n));
+
   // Build positions
   nodePositions.clear();
   const lH = laneHeight();
@@ -353,27 +379,63 @@ function draw() {
   ERA_BANDS.forEach((era, i) => {
     const x1 = xForEra(era.s), x2 = xForEra(era.e);
     if (x2 < tl.x || x1 > br.x) return;
-    ctx.fillStyle = i % 2 === 0 ? (isDark ? "rgba(255,255,255,0.015)" : "rgba(0,0,0,0.018)") : "transparent";
-    ctx.fillRect(x1, 0, x2 - x1, H / scale + Math.abs(panY / scale));
-    // Era label
-    if (scale > 0.15) {
-      ctx.fillStyle = isDark ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.06)";
-      ctx.font = `700 ${Math.min(14, 11/scale)}px "Noto Serif JP", serif`;
+
+    // Era column background
+    if (i % 2 === 0) {
+      ctx.fillStyle = isDark ? "rgba(255,255,255,0.02)" : "rgba(0,0,0,0.022)";
+      ctx.fillRect(x1, tl.y, x2 - x1, br.y - tl.y);
+    }
+
+    // Era boundary line
+    ctx.strokeStyle = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)";
+    ctx.lineWidth = 0.5 / scale;
+    ctx.setLineDash([4 / scale, 4 / scale]);
+    ctx.beginPath();
+    ctx.moveTo(x1, tl.y);
+    ctx.lineTo(x1, br.y);
+    ctx.stroke();
+    ctx.setLineDash([]);
+
+    // Era label at top
+    if (scale > 0.08) {
+      const labelSize = Math.max(8, Math.min(16, 13 / scale));
+      ctx.fillStyle = isDark ? "rgba(255,255,255,0.12)" : "rgba(0,0,0,0.08)";
+      ctx.font = `700 ${labelSize}px "Noto Serif JP", serif`;
       ctx.textAlign = "center";
-      ctx.fillText(era.label, (x1 + x2) / 2, 22 / scale);
+      ctx.fillText(era.label, (x1 + x2) / 2, tl.y + 20 / scale);
     }
   });
 
-  // ── Domain lane lines ──
+  // ── Domain lane backgrounds & labels ──
   const activeDomList = DOMAIN_ORDER.filter(d => activeDomains.has(d));
+  const lH = laneHeight();
   activeDomList.forEach((domain, i) => {
     const y = yForDomain(domain);
-    ctx.strokeStyle = isDark ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.04)";
-    ctx.lineWidth = 1 / scale;
+    const yTop = y - lH / 2;
+
+    // Lane background
+    if (i % 2 === 0) {
+      ctx.fillStyle = isDark ? "rgba(255,255,255,0.012)" : "rgba(0,0,0,0.012)";
+      ctx.fillRect(tl.x, yTop, br.x - tl.x, lH);
+    }
+
+    // Lane separator line
+    ctx.strokeStyle = isDark ? "rgba(255,255,255,0.06)" : "rgba(0,0,0,0.05)";
+    ctx.lineWidth = 0.5 / scale;
     ctx.beginPath();
-    ctx.moveTo(tl.x, y);
-    ctx.lineTo(br.x, y);
+    ctx.moveTo(tl.x, yTop + lH);
+    ctx.lineTo(br.x, yTop + lH);
     ctx.stroke();
+
+    // Domain label (fixed at left edge of visible area)
+    const labelX = tl.x + 8 / scale;
+    const labelSize = Math.max(9, Math.min(14, 12 / scale));
+    ctx.font = `700 ${labelSize}px "Noto Serif JP", serif`;
+    ctx.fillStyle = COLORS[domain];
+    ctx.globalAlpha = 0.5;
+    ctx.textAlign = "left";
+    ctx.fillText(DOMAIN_LABELS[domain], labelX, y + labelSize / 3);
+    ctx.globalAlpha = 1;
   });
 
   // ── Links ──
@@ -394,8 +456,8 @@ function draw() {
     const isHighlighted = connectedLinks.has(idx);
     const alpha = highlightId ? (isHighlighted ? 0.7 : 0.04) : 0.2;
 
-    // Find source domain color
-    const sn = filteredNodes.find(n => n.id === l.source);
+    // Find source domain color via map
+    const sn = nodeMapById.get(l.source);
     ctx.strokeStyle = sn ? COLORS[sn.domain] : "#999";
     ctx.globalAlpha = alpha;
     ctx.lineWidth = Math.max(0.5, (l.strength || 5) / 6) / (highlightId && !isHighlighted ? scale : 1);
@@ -464,18 +526,19 @@ function drawRuler() {
   rulerCtx.clearRect(0, 0, rw, rh);
   const isDark = document.documentElement.dataset.theme === "dark";
 
-  // Map world X to ruler X
+  // Map world X to ruler X (uses same xForEra)
   function rulerX(era) {
     const wx = xForEra(era);
     return wx * scale + panX;
   }
 
-  // Determine tick interval based on scale
+  // Determine tick interval based on effective scale
+  const effScale = scale * (WORLD_WIDTH / 2526); // normalize
   let interval = 100;
-  if (scale > 0.5) interval = 50;
-  if (scale > 1) interval = 20;
-  if (scale > 3) interval = 10;
-  if (scale > 8) interval = 5;
+  if (effScale > 1.5) interval = 50;
+  if (effScale > 4) interval = 20;
+  if (effScale > 10) interval = 10;
+  if (effScale > 25) interval = 5;
 
   const startEra = Math.floor((-500) / interval) * interval;
   const endEra = 2026;
