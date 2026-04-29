@@ -6,117 +6,148 @@
   <title>学術知識の系譜 | Academic Knowledge Genealogy</title>
   <link rel="icon" href="https://esse-sense.com/favicon.ico">
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
-  <script src="https://d3js.org/d3.v7.min.js"></script>
   <style>
     :root {
       --bg: #FFFFFF; --card: #FFFFFF; --text: #121212; --text-secondary: #555;
-      --text-muted: #6B6B6B; --border: #D9D9D9; --border-light: #EEE;
+      --text-muted: #999; --border: #E0E0E0; --border-light: #F0F0F0;
       --surface: #F7F7F5; --accent: #CC1400; --accent-muted: rgba(204,20,0,0.06);
       --font: "Noto Sans JP", sans-serif; --font-serif: "Noto Serif JP", serif;
+      --hum: #CC1400; --soc: #2563EB; --nat: #16A34A; --eng: #7C3AED; --art: #EA580C;
     }
     [data-theme="dark"] {
-      --bg: #0A0A0A; --card: #1A1A1A; --text: #E0E0E0; --text-secondary: #AAA;
-      --text-muted: #8A8A8A; --border: #333; --border-light: #2A2A2A;
-      --surface: #141414; --accent: #FF4444; --accent-muted: rgba(255,68,68,0.1);
+      --bg: #0A0A0A; --card: #161616; --text: #E0E0E0; --text-secondary: #AAA;
+      --text-muted: #666; --border: #2A2A2A; --border-light: #1E1E1E;
+      --surface: #111; --accent: #FF4444; --accent-muted: rgba(255,68,68,0.08);
     }
     * { box-sizing: border-box; margin: 0; padding: 0; }
-    body { font-family: var(--font); color: var(--text); background: var(--bg); overflow: hidden; }
+    body { font-family: var(--font); color: var(--text); background: var(--bg); overflow: hidden; -webkit-font-smoothing: antialiased; }
 
-    /* Header */
+    /* ── Header ── */
     .header {
       position: fixed; top: 0; left: 0; right: 0; z-index: 100;
       background: var(--bg); border-bottom: 1px solid var(--border);
-      padding: 10px 20px; display: flex; align-items: center; gap: 16px;
+      padding: 0 20px; height: 48px;
+      display: flex; align-items: center; gap: 16px;
+    }
+    .header a.back { font-size: 0.75rem; color: var(--text-muted); text-decoration: none; letter-spacing: 0.02em; }
+    .header a.back:hover { color: var(--text); }
+    .header h1 { font-family: var(--font-serif); font-size: 0.92rem; font-weight: 700; white-space: nowrap; }
+    .header .spacer { flex: 1; }
+
+    /* ── Controls Bar ── */
+    .controls-bar {
+      position: fixed; top: 48px; left: 0; right: 0; z-index: 99;
+      background: var(--surface); border-bottom: 1px solid var(--border-light);
+      padding: 6px 20px; display: flex; align-items: center; gap: 12px;
       flex-wrap: wrap;
     }
-    .header h1 { font-family: var(--font-serif); font-size: 1rem; font-weight: 700; white-space: nowrap; }
-    .header .back { font-size: 0.78rem; color: var(--text-secondary); text-decoration: none; }
-    .header .back:hover { color: var(--text); }
-
-    /* Controls */
-    .controls {
-      display: flex; gap: 8px; align-items: center; flex-wrap: wrap; flex: 1;
-    }
-    .domain-filter {
-      display: flex; gap: 4px; align-items: center;
-    }
+    .domain-filter { display: flex; gap: 3px; }
     .domain-chip {
-      font-size: 0.68rem; padding: 3px 8px; border-radius: 12px;
-      cursor: pointer; border: 1px solid var(--border); background: var(--surface);
-      color: var(--text-muted); transition: all 0.2s; user-select: none;
+      font-size: 0.66rem; padding: 3px 10px; border-radius: 14px;
+      cursor: pointer; border: 1px solid var(--border); background: var(--bg);
+      color: var(--text-muted); transition: all 0.15s; user-select: none;
+      font-weight: 500; letter-spacing: 0.02em;
     }
+    .domain-chip:hover { border-color: var(--text-muted); }
     .domain-chip.active { color: white; border-color: transparent; }
-    .domain-chip[data-domain="humanities_concept"].active { background: #CC1400; }
-    .domain-chip[data-domain="social_theory"].active { background: #2563EB; }
-    .domain-chip[data-domain="natural_discovery"].active { background: #16A34A; }
-    .domain-chip[data-domain="engineering_method"].active { background: #7C3AED; }
-    .domain-chip[data-domain="arts_question"].active { background: #EA580C; }
+    .domain-chip[data-domain="humanities_concept"].active { background: var(--hum); }
+    .domain-chip[data-domain="social_theory"].active { background: var(--soc); }
+    .domain-chip[data-domain="natural_discovery"].active { background: var(--nat); }
+    .domain-chip[data-domain="engineering_method"].active { background: var(--eng); }
+    .domain-chip[data-domain="arts_question"].active { background: var(--art); }
 
-    .era-slider {
-      display: flex; align-items: center; gap: 6px; font-size: 0.72rem; color: var(--text-muted);
+    .sep { width: 1px; height: 16px; background: var(--border); }
+
+    .era-control { display: flex; align-items: center; gap: 6px; }
+    .era-control label { font-size: 0.66rem; color: var(--text-muted); font-weight: 500; }
+    .era-control input[type="range"] { width: 140px; accent-color: var(--accent); }
+    .era-val { font-family: "SF Mono", "Menlo", monospace; font-size: 0.68rem; color: var(--text); min-width: 36px; text-align: center; }
+
+    .search-wrap {
+      display: flex; align-items: center; gap: 4px;
+      background: var(--bg); border: 1px solid var(--border); border-radius: 14px;
+      padding: 2px 10px; min-width: 160px;
     }
-    .era-slider input[type="range"] { width: 120px; }
-    .era-label { font-family: monospace; font-size: 0.72rem; min-width: 48px; }
+    .search-wrap input {
+      background: none; border: none; color: var(--text); font-family: var(--font);
+      font-size: 0.72rem; outline: none; width: 100%;
+    }
+    .search-wrap input::placeholder { color: var(--text-muted); }
 
     .stats-bar {
-      font-size: 0.68rem; color: var(--text-muted); margin-left: auto;
-      display: flex; gap: 12px; white-space: nowrap;
+      margin-left: auto; display: flex; gap: 10px; font-size: 0.64rem; color: var(--text-muted);
+      white-space: nowrap;
     }
-    .stats-bar strong { color: var(--text); }
+    .stats-bar strong { color: var(--text); font-weight: 600; }
 
-    .theme-toggle {
-      background: var(--surface); border: 1px solid var(--border);
-      padding: 4px 8px; cursor: pointer; font-size: 0.9rem;
+    .btn-icon {
+      background: var(--bg); border: 1px solid var(--border); width: 28px; height: 28px;
+      display: flex; align-items: center; justify-content: center;
+      cursor: pointer; font-size: 0.82rem; border-radius: 6px; color: var(--text-muted);
     }
+    .btn-icon:hover { border-color: var(--text-muted); color: var(--text); }
 
-    /* Canvas */
-    .canvas-container {
-      position: fixed; top: 52px; left: 0; right: 0; bottom: 0;
+    /* ── Timeline Ruler ── */
+    .timeline-ruler {
+      position: fixed; top: 84px; left: 0; right: 0; z-index: 98;
+      height: 28px; background: var(--bg); border-bottom: 1px solid var(--border-light);
+      overflow: hidden;
     }
-    svg { width: 100%; height: 100%; }
+    .timeline-ruler canvas { width: 100%; height: 100%; }
 
-    /* Timeline axis */
-    .timeline-axis line { stroke: var(--border-light); }
-    .timeline-axis text { fill: var(--text-muted); font-size: 10px; font-family: var(--font); }
-
-    /* Nodes & links */
-    .link { stroke-opacity: 0.3; fill: none; }
-    .link.cross-domain { stroke-dasharray: 4 2; }
-    .node circle { cursor: pointer; stroke-width: 1.5; }
-    .node text { font-size: 8px; fill: var(--text); pointer-events: none; }
-
-    /* Tooltip */
-    .tooltip {
-      position: fixed; pointer-events: none; z-index: 200;
-      background: var(--card); border: 1px solid var(--border);
-      padding: 10px 14px; max-width: 320px; font-size: 0.78rem;
-      box-shadow: 0 4px 12px rgba(0,0,0,0.1); display: none;
+    /* ── Main Canvas ── */
+    .canvas-wrap {
+      position: fixed; top: 112px; left: 0; right: 0; bottom: 0;
+      overflow: hidden; cursor: grab;
     }
-    .tooltip .tt-name { font-weight: 700; font-family: var(--font-serif); margin-bottom: 2px; }
-    .tooltip .tt-en { font-size: 0.72rem; color: var(--text-muted); }
-    .tooltip .tt-era { font-size: 0.68rem; color: var(--accent); margin: 4px 0; }
-    .tooltip .tt-def { font-size: 0.72rem; color: var(--text-secondary); line-height: 1.5; margin-top: 4px; }
-    .tooltip .tt-field { font-size: 0.66rem; background: var(--surface); display: inline-block; padding: 1px 6px; border-radius: 8px; margin-top: 4px; }
+    .canvas-wrap:active { cursor: grabbing; }
+    .canvas-wrap canvas { display: block; }
 
-    /* Legend */
+    /* ── Detail Panel ── */
+    .detail-panel {
+      position: fixed; top: 112px; right: 0; bottom: 0; width: 320px;
+      background: var(--card); border-left: 1px solid var(--border);
+      z-index: 90; transform: translateX(100%); transition: transform 0.25s ease;
+      overflow-y: auto; padding: 20px;
+    }
+    .detail-panel.open { transform: translateX(0); }
+    .dp-close { position: absolute; top: 10px; right: 12px; cursor: pointer; font-size: 1.1rem; color: var(--text-muted); background: none; border: none; }
+    .dp-close:hover { color: var(--text); }
+    .dp-domain { font-size: 0.62rem; font-weight: 600; letter-spacing: 0.05em; text-transform: uppercase; margin-bottom: 4px; }
+    .dp-name { font-family: var(--font-serif); font-size: 1.05rem; font-weight: 700; line-height: 1.4; margin-bottom: 2px; }
+    .dp-en { font-size: 0.76rem; color: var(--text-muted); margin-bottom: 8px; }
+    .dp-era { font-size: 0.72rem; color: var(--accent); font-weight: 500; margin-bottom: 12px; }
+    .dp-def { font-size: 0.78rem; color: var(--text-secondary); line-height: 1.7; margin-bottom: 12px; }
+    .dp-meta { font-size: 0.68rem; color: var(--text-muted); }
+    .dp-meta span { display: inline-block; background: var(--surface); padding: 2px 8px; border-radius: 10px; margin: 2px 4px 2px 0; }
+    .dp-connections { margin-top: 16px; border-top: 1px solid var(--border-light); padding-top: 12px; }
+    .dp-connections h4 { font-size: 0.72rem; font-weight: 600; color: var(--text-muted); margin-bottom: 6px; }
+    .dp-conn-item { font-size: 0.72rem; padding: 4px 0; border-bottom: 1px solid var(--border-light); cursor: pointer; color: var(--text-secondary); }
+    .dp-conn-item:hover { color: var(--accent); }
+
+    /* ── Legend ── */
     .legend {
-      position: fixed; bottom: 16px; left: 16px; z-index: 100;
-      background: var(--card); border: 1px solid var(--border);
-      padding: 8px 12px; font-size: 0.68rem;
+      position: fixed; bottom: 12px; left: 12px; z-index: 90;
+      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+      padding: 8px 12px; font-size: 0.62rem; opacity: 0.9;
     }
-    .legend-item { display: flex; align-items: center; gap: 6px; margin: 2px 0; }
-    .legend-dot { width: 8px; height: 8px; border-radius: 50%; }
+    .legend-row { display: flex; align-items: center; gap: 5px; margin: 1px 0; color: var(--text-muted); }
+    .legend-dot { width: 7px; height: 7px; border-radius: 50%; flex-shrink: 0; }
 
-    /* Era labels on the background */
-    .era-bg-label {
-      font-family: var(--font-serif); font-size: 11px; fill: var(--border);
-      font-weight: 700; opacity: 0.4;
-    }
-
-    /* Loading */
+    /* ── Loading ── */
     .loading {
       position: fixed; top: 50%; left: 50%; transform: translate(-50%, -50%);
-      font-size: 0.9rem; color: var(--text-muted); z-index: 300;
+      font-size: 0.82rem; color: var(--text-muted); z-index: 300; text-align: center;
+    }
+    .loading-bar { width: 120px; height: 2px; background: var(--border); margin: 8px auto 0; border-radius: 1px; overflow: hidden; }
+    .loading-bar::after { content: ''; display: block; width: 40%; height: 100%; background: var(--accent); animation: loading 1s ease infinite; }
+    @keyframes loading { 0% { transform: translateX(-100%); } 100% { transform: translateX(350%); } }
+
+    /* ── Responsive ── */
+    @media (max-width: 768px) {
+      .detail-panel { width: 100%; }
+      .search-wrap { min-width: 100px; }
+      .era-control input[type="range"] { width: 80px; }
     }
   </style>
 </head>
@@ -125,272 +156,603 @@
 <div class="header">
   <a class="back" href="index.html">&larr; DB</a>
   <h1>学術知識の系譜</h1>
-  <div class="controls">
-    <div class="domain-filter">
-      <span class="domain-chip active" data-domain="humanities_concept">人文学</span>
-      <span class="domain-chip active" data-domain="social_theory">社会科学</span>
-      <span class="domain-chip active" data-domain="natural_discovery">自然科学</span>
-      <span class="domain-chip active" data-domain="engineering_method">工学</span>
-      <span class="domain-chip active" data-domain="arts_question">芸術</span>
-    </div>
-    <div class="era-slider">
-      <span class="era-label" id="eraMin">-500</span>
-      <input type="range" id="eraRange" min="-500" max="2025" value="2025" step="10">
-      <span class="era-label" id="eraMax">2025</span>
-    </div>
+  <div class="spacer"></div>
+  <button class="btn-icon" onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'':'dark'" title="テーマ切替">&#9790;</button>
+</div>
+
+<div class="controls-bar">
+  <div class="domain-filter">
+    <span class="domain-chip active" data-domain="humanities_concept">人文学</span>
+    <span class="domain-chip active" data-domain="social_theory">社会科学</span>
+    <span class="domain-chip active" data-domain="natural_discovery">自然科学</span>
+    <span class="domain-chip active" data-domain="engineering_method">工学</span>
+    <span class="domain-chip active" data-domain="arts_question">芸術</span>
+  </div>
+  <div class="sep"></div>
+  <div class="era-control">
+    <label>時代</label>
+    <span class="era-val" id="eraMinVal">BCE 500</span>
+    <input type="range" id="eraStart" min="-500" max="2025" value="-500" step="10">
+    <input type="range" id="eraEnd" min="-500" max="2025" value="2025" step="10">
+    <span class="era-val" id="eraMaxVal">2025</span>
+  </div>
+  <div class="sep"></div>
+  <div class="search-wrap">
+    <input type="text" id="searchInput" placeholder="検索..." autocomplete="off">
   </div>
   <div class="stats-bar">
     <span><strong id="visibleNodes">0</strong> 概念</span>
     <span><strong id="visibleLinks">0</strong> 関係</span>
   </div>
-  <button class="theme-toggle" onclick="document.documentElement.dataset.theme=document.documentElement.dataset.theme==='dark'?'':'dark'">&#9790;</button>
 </div>
 
-<div class="canvas-container" id="canvas"></div>
-<div class="tooltip" id="tooltip"></div>
-<div class="loading" id="loading">データ読込中...</div>
+<div class="timeline-ruler"><canvas id="rulerCanvas"></canvas></div>
+<div class="canvas-wrap" id="canvasWrap"><canvas id="mainCanvas"></canvas></div>
+
+<div class="detail-panel" id="detailPanel">
+  <button class="dp-close" id="dpClose">&times;</button>
+  <div id="dpContent"></div>
+</div>
 
 <div class="legend">
-  <div class="legend-item"><div class="legend-dot" style="background:#CC1400"></div> 人文学</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#2563EB"></div> 社会科学</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#16A34A"></div> 自然科学</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#7C3AED"></div> 工学</div>
-  <div class="legend-item"><div class="legend-dot" style="background:#EA580C"></div> 芸術</div>
+  <div class="legend-row"><div class="legend-dot" style="background:var(--hum)"></div>人文学</div>
+  <div class="legend-row"><div class="legend-dot" style="background:var(--soc)"></div>社会科学</div>
+  <div class="legend-row"><div class="legend-dot" style="background:var(--nat)"></div>自然科学</div>
+  <div class="legend-row"><div class="legend-dot" style="background:var(--eng)"></div>工学</div>
+  <div class="legend-row"><div class="legend-dot" style="background:var(--art)"></div>芸術</div>
 </div>
 
+<div class="loading" id="loading">読み込み中<div class="loading-bar"></div></div>
+
 <script>
-const W = window.innerWidth;
-const H = window.innerHeight - 52;
-const DOMAIN_COLORS = {
+// ── Constants ──
+const COLORS = {
   humanities_concept: "#CC1400",
   social_theory: "#2563EB",
   natural_discovery: "#16A34A",
   engineering_method: "#7C3AED",
   arts_question: "#EA580C",
 };
-const DOMAIN_Y_OFFSETS = {
-  humanities_concept: 0,
-  social_theory: 1,
-  natural_discovery: 2,
-  engineering_method: 3,
-  arts_question: 4,
-};
+const DOMAIN_ORDER = ["humanities_concept","social_theory","natural_discovery","engineering_method","arts_question"];
+const DOMAIN_LABELS = { humanities_concept:"人文学", social_theory:"社会科学", natural_discovery:"自然科学", engineering_method:"工学", arts_question:"芸術" };
+const ERA_BANDS = [
+  { label:"古代", s:-500, e:500 },
+  { label:"中世", s:500, e:1500 },
+  { label:"近世", s:1500, e:1800 },
+  { label:"19C", s:1800, e:1900 },
+  { label:"20C前半", s:1900, e:1960 },
+  { label:"20C後半", s:1960, e:2000 },
+  { label:"21C", s:2000, e:2026 },
+];
 
+// ── State ──
 let allData = null;
-let activeDomains = new Set(Object.keys(DOMAIN_COLORS));
-let eraMax = 2025;
-let svg, g, xScale, zoom;
+let activeDomains = new Set(DOMAIN_ORDER);
+let eraMin = -500, eraMax = 2025;
+let searchQuery = "";
+let panX = 0, panY = 0, scale = 1;
+let isDragging = false, dragStartX = 0, dragStartY = 0, dragPanX = 0, dragPanY = 0;
+let hoveredNode = null, selectedNode = null;
+let filteredNodes = [], filteredLinks = [];
+let nodePositions = new Map(); // id -> {x, y}
+let nodeLinkMap = new Map(); // id -> [link indices]
 
-// Setup SVG
-svg = d3.select("#canvas").append("svg")
-  .attr("width", W).attr("height", H);
+// ── Canvas Setup ──
+const wrap = document.getElementById("canvasWrap");
+const canvas = document.getElementById("mainCanvas");
+const ctx = canvas.getContext("2d");
+const rulerCanvas = document.getElementById("rulerCanvas");
+const rulerCtx = rulerCanvas.getContext("2d");
 
-g = svg.append("g");
+let W, H;
+function resize() {
+  const dpr = window.devicePixelRatio || 1;
+  W = wrap.clientWidth;
+  H = wrap.clientHeight;
+  canvas.width = W * dpr; canvas.height = H * dpr;
+  canvas.style.width = W + "px"; canvas.style.height = H + "px";
+  ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
 
-zoom = d3.zoom()
-  .scaleExtent([0.1, 20])
-  .on("zoom", (e) => g.attr("transform", e.transform));
+  const rw = rulerCanvas.parentElement.clientWidth;
+  rulerCanvas.width = rw * dpr; rulerCanvas.height = 28 * dpr;
+  rulerCanvas.style.width = rw + "px"; rulerCanvas.style.height = "28px";
+  rulerCtx.setTransform(dpr, 0, 0, dpr, 0, 0);
+}
+resize();
 
-svg.call(zoom);
+// ── Coordinate Helpers ──
+const WORLD_WIDTH = 6000;
+const LANE_PAD_TOP = 30;
 
-// Tooltip
-const tooltip = d3.select("#tooltip");
-
-function showTooltip(event, d) {
-  const era = d.era_start < 0 ? `${Math.abs(d.era_start)} BCE` : `${d.era_start}`;
-  tooltip.style("display", "block")
-    .style("left", (event.clientX + 12) + "px")
-    .style("top", (event.clientY - 10) + "px")
-    .html(`
-      <div class="tt-name">${d.name_ja}</div>
-      <div class="tt-en">${d.name_en}</div>
-      <div class="tt-era">${era}年〜 / ${d.domain_label}</div>
-      ${d.definition ? `<div class="tt-def">${d.definition}</div>` : ''}
-      ${d.subfield ? `<span class="tt-field">${d.subfield}</span>` : ''}
-    `);
+function xForEra(era) {
+  return ((era - (-500)) / (2026 - (-500))) * WORLD_WIDTH;
 }
 
-function hideTooltip() {
-  tooltip.style("display", "none");
+function yForDomain(domain) {
+  const idx = DOMAIN_ORDER.indexOf(domain);
+  if (idx < 0) return H / 2;
+  const activeDomList = DOMAIN_ORDER.filter(d => activeDomains.has(d));
+  const ai = activeDomList.indexOf(domain);
+  if (ai < 0) return -999;
+  const laneH = (H - LANE_PAD_TOP) / activeDomList.length;
+  return LANE_PAD_TOP + ai * laneH + laneH / 2;
 }
 
-// Load data
+function laneHeight() {
+  const n = DOMAIN_ORDER.filter(d => activeDomains.has(d)).length;
+  return n > 0 ? (H - LANE_PAD_TOP) / n : H;
+}
+
+function worldToScreen(wx, wy) {
+  return { x: wx * scale + panX, y: wy * scale + panY };
+}
+
+function screenToWorld(sx, sy) {
+  return { x: (sx - panX) / scale, y: (sy - panY) / scale };
+}
+
+// ── Data Processing ──
+function processData() {
+  if (!allData) return;
+
+  // Deterministic jitter from id hash
+  function hashJitter(id) {
+    let h = 0;
+    for (let i = 0; i < id.length; i++) h = ((h << 5) - h + id.charCodeAt(i)) | 0;
+    return (h % 1000) / 1000 - 0.5; // -0.5 to 0.5
+  }
+
+  filteredNodes = allData.nodes.filter(n =>
+    activeDomains.has(n.domain) &&
+    n.era_start != null &&
+    n.era_start >= eraMin && n.era_start <= eraMax &&
+    (!searchQuery || (n.name_ja && n.name_ja.includes(searchQuery)) || (n.name_en && n.name_en.toLowerCase().includes(searchQuery.toLowerCase())))
+  );
+
+  const nodeIds = new Set(filteredNodes.map(n => n.id));
+  filteredLinks = allData.links.filter(l => nodeIds.has(l.source) && nodeIds.has(l.target));
+
+  // Build positions
+  nodePositions.clear();
+  const lH = laneHeight();
+  filteredNodes.forEach(n => {
+    const wx = xForEra(n.era_start);
+    const baseY = yForDomain(n.domain);
+    const jitter = hashJitter(n.id) * lH * 0.65;
+    nodePositions.set(n.id, { x: wx, y: baseY + jitter });
+  });
+
+  // Build link map for fast lookup
+  nodeLinkMap.clear();
+  filteredLinks.forEach((l, i) => {
+    if (!nodeLinkMap.has(l.source)) nodeLinkMap.set(l.source, []);
+    if (!nodeLinkMap.has(l.target)) nodeLinkMap.set(l.target, []);
+    nodeLinkMap.get(l.source).push(i);
+    nodeLinkMap.get(l.target).push(i);
+  });
+
+  // Stats
+  document.getElementById("visibleNodes").textContent = filteredNodes.length.toLocaleString();
+  document.getElementById("visibleLinks").textContent = filteredLinks.length.toLocaleString();
+}
+
+// ── Rendering (Canvas 2D) ──
+function draw() {
+  ctx.clearRect(0, 0, W, H);
+  ctx.save();
+  ctx.translate(panX, panY);
+  ctx.scale(scale, scale);
+
+  const isDark = document.documentElement.dataset.theme === "dark";
+
+  // Visible bounds in world coords
+  const tl = screenToWorld(0, 0);
+  const br = screenToWorld(W, H);
+
+  // ── Era bands ──
+  ERA_BANDS.forEach((era, i) => {
+    const x1 = xForEra(era.s), x2 = xForEra(era.e);
+    if (x2 < tl.x || x1 > br.x) return;
+    ctx.fillStyle = i % 2 === 0 ? (isDark ? "rgba(255,255,255,0.015)" : "rgba(0,0,0,0.018)") : "transparent";
+    ctx.fillRect(x1, 0, x2 - x1, H / scale + Math.abs(panY / scale));
+    // Era label
+    if (scale > 0.15) {
+      ctx.fillStyle = isDark ? "rgba(255,255,255,0.08)" : "rgba(0,0,0,0.06)";
+      ctx.font = `700 ${Math.min(14, 11/scale)}px "Noto Serif JP", serif`;
+      ctx.textAlign = "center";
+      ctx.fillText(era.label, (x1 + x2) / 2, 22 / scale);
+    }
+  });
+
+  // ── Domain lane lines ──
+  const activeDomList = DOMAIN_ORDER.filter(d => activeDomains.has(d));
+  activeDomList.forEach((domain, i) => {
+    const y = yForDomain(domain);
+    ctx.strokeStyle = isDark ? "rgba(255,255,255,0.04)" : "rgba(0,0,0,0.04)";
+    ctx.lineWidth = 1 / scale;
+    ctx.beginPath();
+    ctx.moveTo(tl.x, y);
+    ctx.lineTo(br.x, y);
+    ctx.stroke();
+  });
+
+  // ── Links ──
+  const highlightId = hoveredNode ? hoveredNode.id : selectedNode ? selectedNode.id : null;
+  const connectedLinks = new Set();
+  if (highlightId && nodeLinkMap.has(highlightId)) {
+    nodeLinkMap.get(highlightId).forEach(i => connectedLinks.add(i));
+  }
+
+  filteredLinks.forEach((l, idx) => {
+    const sp = nodePositions.get(l.source);
+    const tp = nodePositions.get(l.target);
+    if (!sp || !tp) return;
+    // Frustum cull
+    const minX = Math.min(sp.x, tp.x), maxX = Math.max(sp.x, tp.x);
+    if (maxX < tl.x || minX > br.x) return;
+
+    const isHighlighted = connectedLinks.has(idx);
+    const alpha = highlightId ? (isHighlighted ? 0.7 : 0.04) : 0.2;
+
+    // Find source domain color
+    const sn = filteredNodes.find(n => n.id === l.source);
+    ctx.strokeStyle = sn ? COLORS[sn.domain] : "#999";
+    ctx.globalAlpha = alpha;
+    ctx.lineWidth = Math.max(0.5, (l.strength || 5) / 6) / (highlightId && !isHighlighted ? scale : 1);
+    if (l.cross_domain) ctx.setLineDash([4 / scale, 3 / scale]);
+    else ctx.setLineDash([]);
+
+    ctx.beginPath();
+    const mx = (sp.x + tp.x) / 2;
+    ctx.moveTo(sp.x, sp.y);
+    ctx.bezierCurveTo(mx, sp.y, mx, tp.y, tp.x, tp.y);
+    ctx.stroke();
+  });
+  ctx.globalAlpha = 1;
+  ctx.setLineDash([]);
+
+  // ── Nodes ──
+  const nodeRadius = Math.max(1.5, Math.min(4, 3 / Math.sqrt(scale)));
+  const foundRadius = nodeRadius * 1.5;
+  const showLabels = scale > 1.8;
+  const showLabelsPartial = scale > 0.8;
+
+  filteredNodes.forEach(n => {
+    const p = nodePositions.get(n.id);
+    if (!p) return;
+    // Frustum cull
+    if (p.x < tl.x - 20 || p.x > br.x + 20 || p.y < tl.y - 20 || p.y > br.y + 20) return;
+
+    const isFoundational = n.status === "foundational";
+    const r = isFoundational ? foundRadius : nodeRadius;
+    const isHovered = hoveredNode && hoveredNode.id === n.id;
+    const isSelected = selectedNode && selectedNode.id === n.id;
+    const isConnected = highlightId && nodeLinkMap.has(n.id) &&
+      (n.id === highlightId || nodeLinkMap.get(n.id).some(i => connectedLinks.has(i)));
+
+    ctx.beginPath();
+    ctx.arc(p.x, p.y, isHovered ? r * 2.5 : isSelected ? r * 2 : r, 0, Math.PI * 2);
+    ctx.fillStyle = COLORS[n.domain] || "#999";
+    ctx.globalAlpha = highlightId ? (isConnected || isHovered ? 1 : 0.15) : (isFoundational ? 0.9 : 0.7);
+    ctx.fill();
+
+    // White stroke
+    if (isHovered || isSelected) {
+      ctx.strokeStyle = isDark ? "#333" : "white";
+      ctx.lineWidth = 1.5 / scale;
+      ctx.stroke();
+    }
+    ctx.globalAlpha = 1;
+
+    // Labels
+    if (showLabels || (showLabelsPartial && isFoundational) || isHovered || isSelected) {
+      ctx.fillStyle = isDark ? "rgba(255,255,255,0.8)" : "rgba(0,0,0,0.75)";
+      const fs = Math.max(6, Math.min(10, 9 / scale));
+      ctx.font = `${isFoundational ? 500 : 400} ${fs}px "Noto Sans JP", sans-serif`;
+      ctx.textAlign = "left";
+      ctx.fillText(n.name_ja || "", p.x + r + 3, p.y + fs / 3);
+    }
+  });
+
+  ctx.restore();
+}
+
+// ── Timeline Ruler ──
+function drawRuler() {
+  const rw = rulerCanvas.width / (window.devicePixelRatio || 1);
+  const rh = 28;
+  rulerCtx.clearRect(0, 0, rw, rh);
+  const isDark = document.documentElement.dataset.theme === "dark";
+
+  // Map world X to ruler X
+  function rulerX(era) {
+    const wx = xForEra(era);
+    return wx * scale + panX;
+  }
+
+  // Determine tick interval based on scale
+  let interval = 100;
+  if (scale > 0.5) interval = 50;
+  if (scale > 1) interval = 20;
+  if (scale > 3) interval = 10;
+  if (scale > 8) interval = 5;
+
+  const startEra = Math.floor((-500) / interval) * interval;
+  const endEra = 2026;
+
+  rulerCtx.font = '10px "Noto Sans JP", sans-serif';
+  rulerCtx.textAlign = "center";
+
+  for (let y = startEra; y <= endEra; y += interval) {
+    const rx = rulerX(y);
+    if (rx < -50 || rx > rw + 50) continue;
+
+    const isMajor = y % 500 === 0;
+    const isMedium = y % 100 === 0;
+
+    rulerCtx.strokeStyle = isDark ? "rgba(255,255,255,0.15)" : "rgba(0,0,0,0.12)";
+    rulerCtx.lineWidth = isMajor ? 1.5 : 0.5;
+    rulerCtx.beginPath();
+    rulerCtx.moveTo(rx, isMajor ? 6 : isMedium ? 14 : 20);
+    rulerCtx.lineTo(rx, rh);
+    rulerCtx.stroke();
+
+    if (isMajor || (isMedium && scale > 0.3)) {
+      rulerCtx.fillStyle = isDark ? "rgba(255,255,255,0.5)" : "rgba(0,0,0,0.45)";
+      const label = y < 0 ? `${Math.abs(y)}BCE` : `${y}`;
+      rulerCtx.fillText(label, rx, 12);
+    }
+  }
+
+  // Era range highlight
+  const rxMin = rulerX(eraMin);
+  const rxMax = rulerX(eraMax);
+  rulerCtx.fillStyle = isDark ? "rgba(255,68,68,0.08)" : "rgba(204,20,0,0.04)";
+  rulerCtx.fillRect(rxMin, 0, rxMax - rxMin, rh);
+}
+
+// ── Animation Loop ──
+let needsRedraw = true;
+function loop() {
+  if (needsRedraw) {
+    draw();
+    drawRuler();
+    needsRedraw = false;
+  }
+  requestAnimationFrame(loop);
+}
+
+// ── Hit Test ──
+function hitTest(sx, sy) {
+  const wp = screenToWorld(sx, sy);
+  const hitR = 8 / scale;
+  let closest = null, closestDist = Infinity;
+  for (const n of filteredNodes) {
+    const p = nodePositions.get(n.id);
+    if (!p) continue;
+    const dx = p.x - wp.x, dy = p.y - wp.y;
+    const dist = Math.sqrt(dx * dx + dy * dy);
+    if (dist < hitR && dist < closestDist) {
+      closest = n;
+      closestDist = dist;
+    }
+  }
+  return closest;
+}
+
+// ── Detail Panel ──
+function showDetail(node) {
+  selectedNode = node;
+  const panel = document.getElementById("detailPanel");
+  const content = document.getElementById("dpContent");
+  const eraStr = node.era_start < 0 ? `${Math.abs(node.era_start)} BCE` : `${node.era_start}`;
+
+  // Find connections
+  const connLinks = filteredLinks.filter(l => l.source === node.id || l.target === node.id);
+  let connHtml = "";
+  if (connLinks.length > 0) {
+    connHtml = `<div class="dp-connections"><h4>関連概念 (${connLinks.length})</h4>`;
+    connLinks.forEach(l => {
+      const otherId = l.source === node.id ? l.target : l.source;
+      const other = filteredNodes.find(n => n.id === otherId);
+      if (other) {
+        const dir = l.source === node.id ? "&rarr;" : "&larr;";
+        connHtml += `<div class="dp-conn-item" data-id="${otherId}">${dir} ${other.name_ja} (${other.era_start})</div>`;
+      }
+    });
+    connHtml += "</div>";
+  }
+
+  content.innerHTML = `
+    <div class="dp-domain" style="color:${COLORS[node.domain]}">${DOMAIN_LABELS[node.domain]}</div>
+    <div class="dp-name">${node.name_ja}</div>
+    <div class="dp-en">${node.name_en || ""}</div>
+    <div class="dp-era">${eraStr}年〜</div>
+    ${node.definition ? `<div class="dp-def">${node.definition}</div>` : ""}
+    <div class="dp-meta">
+      ${node.subfield ? `<span>${node.subfield}</span>` : ""}
+      ${node.school ? `<span>${node.school}</span>` : ""}
+      ${node.status ? `<span>${node.status}</span>` : ""}
+    </div>
+    ${connHtml}
+  `;
+  panel.classList.add("open");
+
+  // Navigate to connected concept
+  content.querySelectorAll(".dp-conn-item").forEach(el => {
+    el.addEventListener("click", () => {
+      const target = filteredNodes.find(n => n.id === el.dataset.id);
+      if (target) {
+        showDetail(target);
+        const tp = nodePositions.get(target.id);
+        if (tp) {
+          panX = W / 2 - tp.x * scale;
+          panY = H / 2 - tp.y * scale;
+          needsRedraw = true;
+        }
+      }
+    });
+  });
+}
+
+function closeDetail() {
+  document.getElementById("detailPanel").classList.remove("open");
+  selectedNode = null;
+  needsRedraw = true;
+}
+
+// ── Mouse / Touch Events ──
+canvas.addEventListener("mousedown", e => {
+  isDragging = true;
+  dragStartX = e.clientX; dragStartY = e.clientY;
+  dragPanX = panX; dragPanY = panY;
+});
+
+canvas.addEventListener("mousemove", e => {
+  if (isDragging) {
+    panX = dragPanX + (e.clientX - dragStartX);
+    panY = dragPanY + (e.clientY - dragStartY);
+    needsRedraw = true;
+  } else {
+    const rect = canvas.getBoundingClientRect();
+    const prev = hoveredNode;
+    hoveredNode = hitTest(e.clientX - rect.left, e.clientY - rect.top);
+    if (hoveredNode !== prev) {
+      canvas.style.cursor = hoveredNode ? "pointer" : "grab";
+      needsRedraw = true;
+    }
+  }
+});
+
+canvas.addEventListener("mouseup", e => {
+  if (isDragging && Math.abs(e.clientX - dragStartX) < 3 && Math.abs(e.clientY - dragStartY) < 3) {
+    // It was a click
+    const rect = canvas.getBoundingClientRect();
+    const node = hitTest(e.clientX - rect.left, e.clientY - rect.top);
+    if (node) showDetail(node);
+    else closeDetail();
+  }
+  isDragging = false;
+});
+
+canvas.addEventListener("wheel", e => {
+  e.preventDefault();
+  const rect = canvas.getBoundingClientRect();
+  const mx = e.clientX - rect.left;
+  const my = e.clientY - rect.top;
+  const delta = e.deltaY > 0 ? 0.9 : 1.1;
+  const newScale = Math.max(0.05, Math.min(30, scale * delta));
+
+  panX = mx - (mx - panX) * (newScale / scale);
+  panY = my - (my - panY) * (newScale / scale);
+  scale = newScale;
+  needsRedraw = true;
+}, { passive: false });
+
+// Touch support
+let lastTouchDist = 0;
+canvas.addEventListener("touchstart", e => {
+  if (e.touches.length === 1) {
+    isDragging = true;
+    dragStartX = e.touches[0].clientX; dragStartY = e.touches[0].clientY;
+    dragPanX = panX; dragPanY = panY;
+  } else if (e.touches.length === 2) {
+    lastTouchDist = Math.hypot(e.touches[1].clientX - e.touches[0].clientX, e.touches[1].clientY - e.touches[0].clientY);
+  }
+}, { passive: true });
+
+canvas.addEventListener("touchmove", e => {
+  e.preventDefault();
+  if (e.touches.length === 1 && isDragging) {
+    panX = dragPanX + (e.touches[0].clientX - dragStartX);
+    panY = dragPanY + (e.touches[0].clientY - dragStartY);
+    needsRedraw = true;
+  } else if (e.touches.length === 2) {
+    const dist = Math.hypot(e.touches[1].clientX - e.touches[0].clientX, e.touches[1].clientY - e.touches[0].clientY);
+    const delta = dist / lastTouchDist;
+    const cx = (e.touches[0].clientX + e.touches[1].clientX) / 2;
+    const cy = (e.touches[0].clientY + e.touches[1].clientY) / 2;
+    const rect = canvas.getBoundingClientRect();
+    const mx = cx - rect.left, my = cy - rect.top;
+    const newScale = Math.max(0.05, Math.min(30, scale * delta));
+    panX = mx - (mx - panX) * (newScale / scale);
+    panY = my - (my - panY) * (newScale / scale);
+    scale = newScale;
+    lastTouchDist = dist;
+    needsRedraw = true;
+  }
+}, { passive: false });
+
+canvas.addEventListener("touchend", () => { isDragging = false; });
+
+// ── Controls ──
+document.querySelectorAll(".domain-chip").forEach(chip => {
+  chip.addEventListener("click", () => {
+    const d = chip.dataset.domain;
+    chip.classList.toggle("active");
+    if (chip.classList.contains("active")) activeDomains.add(d);
+    else activeDomains.delete(d);
+    processData();
+    needsRedraw = true;
+  });
+});
+
+document.getElementById("eraStart").addEventListener("input", e => {
+  eraMin = parseInt(e.target.value);
+  if (eraMin > eraMax) { eraMin = eraMax; e.target.value = eraMin; }
+  document.getElementById("eraMinVal").textContent = eraMin < 0 ? `BCE ${Math.abs(eraMin)}` : eraMin;
+  processData();
+  needsRedraw = true;
+});
+
+document.getElementById("eraEnd").addEventListener("input", e => {
+  eraMax = parseInt(e.target.value);
+  if (eraMax < eraMin) { eraMax = eraMin; e.target.value = eraMax; }
+  document.getElementById("eraMaxVal").textContent = eraMax;
+  processData();
+  needsRedraw = true;
+});
+
+let searchDebounce;
+document.getElementById("searchInput").addEventListener("input", e => {
+  clearTimeout(searchDebounce);
+  searchDebounce = setTimeout(() => {
+    searchQuery = e.target.value.trim();
+    processData();
+    needsRedraw = true;
+  }, 200);
+});
+
+document.getElementById("dpClose").addEventListener("click", closeDetail);
+
+window.addEventListener("resize", () => { resize(); processData(); needsRedraw = true; });
+
+// ── Initial Load ──
 fetch("genealogy_data.json")
   .then(r => r.json())
   .then(data => {
     allData = data;
-    d3.select("#loading").style("display", "none");
-    render();
-  });
+    document.getElementById("loading").style.display = "none";
+    processData();
 
-function render() {
-  if (!allData) return;
-
-  // Filter
-  const nodes = allData.nodes.filter(n =>
-    activeDomains.has(n.domain) &&
-    n.era_start !== null &&
-    n.era_start <= eraMax
-  );
-
-  const nodeIds = new Set(nodes.map(n => n.id));
-  const links = allData.links.filter(l =>
-    nodeIds.has(l.source) && nodeIds.has(l.target)
-  );
-
-  // Update stats
-  d3.select("#visibleNodes").text(nodes.length.toLocaleString());
-  d3.select("#visibleLinks").text(links.length.toLocaleString());
-
-  // Scales
-  const eraExtent = d3.extent(nodes, d => d.era_start);
-  xScale = d3.scaleLinear()
-    .domain([Math.min(-500, eraExtent[0] || -500), Math.max(2025, eraExtent[1] || 2025)])
-    .range([80, W * 4]);
-
-  const laneHeight = H / 5.5;
-  const yForDomain = (domain) => {
-    const offset = DOMAIN_Y_OFFSETS[domain] || 0;
-    return 60 + offset * laneHeight;
-  };
-
-  // Assign positions with jitter to avoid overlap
-  const nodeMap = {};
-  const positionMap = {};
-  nodes.forEach(n => {
-    const baseY = yForDomain(n.domain);
-    const jitter = (Math.random() - 0.5) * laneHeight * 0.7;
-    n.x = xScale(n.era_start);
-    n.y = baseY + jitter;
-    nodeMap[n.id] = n;
-    positionMap[n.id] = { x: n.x, y: n.y };
-  });
-
-  // Clear and redraw
-  g.selectAll("*").remove();
-
-  // Era background bands
-  const eras = [
-    { label: "古代", start: -500, end: 500 },
-    { label: "中世", start: 500, end: 1500 },
-    { label: "近世", start: 1500, end: 1800 },
-    { label: "19世紀", start: 1800, end: 1900 },
-    { label: "20世紀前半", start: 1900, end: 1960 },
-    { label: "20世紀後半", start: 1960, end: 2000 },
-    { label: "21世紀", start: 2000, end: 2026 },
-  ];
-
-  eras.forEach((era, i) => {
-    const x1 = xScale(era.start);
-    const x2 = xScale(era.end);
-    g.append("rect")
-      .attr("x", x1).attr("y", 0)
-      .attr("width", x2 - x1).attr("height", H)
-      .attr("fill", i % 2 === 0 ? "rgba(0,0,0,0.02)" : "rgba(0,0,0,0.00)");
-    g.append("text")
-      .attr("class", "era-bg-label")
-      .attr("x", (x1 + x2) / 2).attr("y", 30)
-      .attr("text-anchor", "middle")
-      .text(era.label);
-  });
-
-  // Domain lane labels
-  Object.entries(DOMAIN_Y_OFFSETS).forEach(([domain, idx]) => {
-    if (!activeDomains.has(domain)) return;
-    const meta = allData.domains[domain];
-    g.append("text")
-      .attr("x", 10).attr("y", yForDomain(domain))
-      .attr("fill", DOMAIN_COLORS[domain])
-      .attr("font-size", "10px")
-      .attr("font-weight", "600")
-      .attr("font-family", '"Noto Serif JP", serif')
-      .text(meta.label);
-  });
-
-  // Draw links
-  const linkG = g.append("g").attr("class", "links");
-  linkG.selectAll("path")
-    .data(links)
-    .enter().append("path")
-    .attr("class", d => "link" + (d.cross_domain ? " cross-domain" : ""))
-    .attr("d", d => {
-      const s = positionMap[d.source];
-      const t = positionMap[d.target];
-      if (!s || !t) return "";
-      const mx = (s.x + t.x) / 2;
-      return `M${s.x},${s.y} C${mx},${s.y} ${mx},${t.y} ${t.x},${t.y}`;
-    })
-    .attr("stroke", d => {
-      const s = nodeMap[d.source];
-      return s ? DOMAIN_COLORS[s.domain] || "#999" : "#999";
-    })
-    .attr("stroke-width", d => Math.max(0.5, (d.strength || 5) / 5));
-
-  // Draw nodes
-  const nodeG = g.append("g").attr("class", "nodes");
-  const nodeEls = nodeG.selectAll("g.node")
-    .data(nodes)
-    .enter().append("g")
-    .attr("class", "node")
-    .attr("transform", d => `translate(${d.x},${d.y})`);
-
-  nodeEls.append("circle")
-    .attr("r", d => d.status === "foundational" ? 4 : 2.5)
-    .attr("fill", d => DOMAIN_COLORS[d.domain] || "#999")
-    .attr("stroke", "white")
-    .attr("opacity", 0.8)
-    .on("mouseover", function(event, d) {
-      d3.select(this).attr("r", 8).attr("opacity", 1);
-      showTooltip(event, d);
-      // Highlight connected links
-      linkG.selectAll("path")
-        .attr("stroke-opacity", l => (l.source === d.id || l.target === d.id) ? 0.9 : 0.1);
-    })
-    .on("mouseout", function(event, d) {
-      d3.select(this).attr("r", d.status === "foundational" ? 4 : 2.5).attr("opacity", 0.8);
-      hideTooltip();
-      linkG.selectAll("path").attr("stroke-opacity", 0.3);
-    });
-
-  // Initial zoom to fit
-  const bounds = g.node().getBBox();
-  if (bounds.width > 0 && bounds.height > 0) {
-    const dx = bounds.width, dy = bounds.height;
-    const x = bounds.x, y = bounds.y;
-    const scale = Math.min(0.9 * W / dx, 0.9 * H / dy, 2);
-    const translate = [W / 2 - scale * (x + dx / 2), H / 2 - scale * (y + dy / 2)];
-    svg.transition().duration(500)
-      .call(zoom.transform, d3.zoomIdentity.translate(translate[0], translate[1]).scale(scale));
-  }
-}
-
-// Domain filter
-document.querySelectorAll(".domain-chip").forEach(chip => {
-  chip.addEventListener("click", () => {
-    const domain = chip.dataset.domain;
-    chip.classList.toggle("active");
-    if (chip.classList.contains("active")) {
-      activeDomains.add(domain);
-    } else {
-      activeDomains.delete(domain);
+    // Auto-fit to show all content
+    if (filteredNodes.length > 0) {
+      let minX = Infinity, maxX = -Infinity, minY = Infinity, maxY = -Infinity;
+      nodePositions.forEach(p => {
+        if (p.x < minX) minX = p.x;
+        if (p.x > maxX) maxX = p.x;
+        if (p.y < minY) minY = p.y;
+        if (p.y > maxY) maxY = p.y;
+      });
+      const worldW = maxX - minX || 1;
+      const worldH = maxY - minY || 1;
+      scale = Math.min(W * 0.9 / worldW, H * 0.85 / worldH, 3);
+      panX = (W - worldW * scale) / 2 - minX * scale;
+      panY = (H - worldH * scale) / 2 - minY * scale;
     }
-    render();
+    needsRedraw = true;
+    loop();
   });
-});
-
-// Era slider
-const eraRange = document.getElementById("eraRange");
-eraRange.addEventListener("input", () => {
-  eraMax = parseInt(eraRange.value);
-  document.getElementById("eraMax").textContent = eraMax;
-  render();
-});
-
-// Resize
-window.addEventListener("resize", () => {
-  svg.attr("width", window.innerWidth).attr("height", window.innerHeight - 52);
-  render();
-});
 </script>
 </body>
 </html>
