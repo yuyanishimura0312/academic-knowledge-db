@@ -1,0 +1,347 @@
+{
+  "domain": "innovation_studies",
+  "domain_ja": "イノベーション学",
+  "scoping_date": "2026-05-01",
+  "axis": "シュンペーターの認知的枠組みを軸、全産業横断、学術的知識体系構築",
+  "estimation_basis": {
+    "handbooks_analyzed": [
+      "Oxford Handbook of Innovation (Fagerberg, Mowery & Nelson, 2005) - 21章",
+      "Oxford Handbook of Innovation Management (Dodgson, Gann & Phillips, 2014) - 35章",
+      "Innovation Studies: Evolution and Future Challenges (Fagerberg, Martin & Andersen, 2013) - 14章",
+      "Managing Innovation 6th ed (Tidd & Bessant, 2017) - 18章",
+      "Systems of Innovation (Edquist, 1997)",
+      "Sectoral Systems of Innovation (Malerba, 2004)",
+      "National Systems of Innovation (Lundvall 1992; Nelson 1993)",
+      "Elgar Companion to Neo-Schumpeterian Economics"
+    ],
+    "total_handbook_chapters": 88,
+    "avg_theories_per_chapter": 8.2,
+    "deduplication_factor": 0.79,
+    "methodology": "章数 x 章あたり平均理論数 x 重複除去率"
+  },
+  "total_estimated_theories": 720,
+  "target_at_70pct": 504,
+  "current_db_status": {
+    "existing_entries": 4,
+    "gap_to_target": 500,
+    "coverage_pct": 0.8
+  },
+  "era_distribution": {
+    "genesis": {
+      "period": "1911-1960",
+      "estimated_pct": 4,
+      "estimated_count": 29,
+      "target_count": 20,
+      "current_count": 0,
+      "gap": 20
+    },
+    "institutionalization": {
+      "period": "1960-1985",
+      "estimated_pct": 11,
+      "estimated_count": 79,
+      "target_count": 55,
+      "current_count": 0,
+      "gap": 55
+    },
+    "expansion": {
+      "period": "1985-2000",
+      "estimated_pct": 20,
+      "estimated_count": 144,
+      "target_count": 101,
+      "current_count": 0,
+      "gap": 101
+    },
+    "explosion": {
+      "period": "2000-2015",
+      "estimated_pct": 38,
+      "estimated_count": 274,
+      "target_count": 192,
+      "current_count": 2,
+      "gap": 190
+    },
+    "contemporary": {
+      "period": "2015-2026",
+      "estimated_pct": 27,
+      "estimated_count": 194,
+      "target_count": 136,
+      "current_count": 2,
+      "gap": 134
+    }
+  },
+  "subfield_targets": [
+    {
+      "subfield": "neo_schumpeterian_economics",
+      "subfield_ja": "ネオ・シュンペーター派経済学",
+      "total_estimated": 80,
+      "target_70pct": 56,
+      "current_count": 0,
+      "gap": 56,
+      "priority": 1,
+      "era_breakdown": {
+        "genesis": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "institutionalization": {"estimated": 15, "target": 11, "current": 0, "gap": 11},
+        "expansion": {"estimated": 22, "target": 15, "current": 0, "gap": 15},
+        "explosion": {"estimated": 23, "target": 16, "current": 0, "gap": 16},
+        "contemporary": {"estimated": 12, "target": 8, "current": 0, "gap": 8}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation (Fagerberg et al.)",
+        "Innovation Studies: Evolution and Future Challenges (Fagerberg et al. 2013)",
+        "Elgar Companion to Neo-Schumpeterian Economics (Hanusch ed.)"
+      ]
+    },
+    {
+      "subfield": "innovation_systems",
+      "subfield_ja": "イノベーションシステム論（NIS・RIS・TIS・SIS）",
+      "total_estimated": 88,
+      "target_70pct": 62,
+      "current_count": 0,
+      "gap": 62,
+      "priority": 2,
+      "era_breakdown": {
+        "genesis": {"estimated": 2, "target": 1, "current": 0, "gap": 1},
+        "institutionalization": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "expansion": {"estimated": 25, "target": 18, "current": 0, "gap": 18},
+        "explosion": {"estimated": 33, "target": 23, "current": 0, "gap": 23},
+        "contemporary": {"estimated": 20, "target": 14, "current": 0, "gap": 14}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Part II",
+        "Systems of Innovation (Edquist, 1997)",
+        "Sectoral Systems of Innovation (Malerba, 2004)",
+        "National Systems of Innovation (Lundvall 1992; Nelson 1993)"
+      ]
+    },
+    {
+      "subfield": "technology_paradigms_regimes",
+      "subfield_ja": "技術パラダイム・技術レジーム論",
+      "total_estimated": 58,
+      "target_70pct": 41,
+      "current_count": 0,
+      "gap": 41,
+      "priority": 3,
+      "era_breakdown": {
+        "genesis": {"estimated": 4, "target": 3, "current": 0, "gap": 3},
+        "institutionalization": {"estimated": 12, "target": 8, "current": 0, "gap": 8},
+        "expansion": {"estimated": 18, "target": 13, "current": 0, "gap": 13},
+        "explosion": {"estimated": 14, "target": 10, "current": 0, "gap": 10},
+        "contemporary": {"estimated": 10, "target": 7, "current": 0, "gap": 7}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Ch.13",
+        "Innovation Studies: Evolution (Fagerberg et al. 2013)"
+      ]
+    },
+    {
+      "subfield": "disruptive_innovation_industrial_dynamics",
+      "subfield_ja": "破壊的イノベーション・産業ダイナミクス",
+      "total_estimated": 65,
+      "target_70pct": 46,
+      "current_count": 0,
+      "gap": 46,
+      "priority": 4,
+      "era_breakdown": {
+        "genesis": {"estimated": 3, "target": 2, "current": 0, "gap": 2},
+        "institutionalization": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "expansion": {"estimated": 14, "target": 10, "current": 0, "gap": 10},
+        "explosion": {"estimated": 25, "target": 18, "current": 0, "gap": 18},
+        "contemporary": {"estimated": 15, "target": 11, "current": 0, "gap": 11}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Management (Dodgson et al.)",
+        "Managing Innovation (Tidd & Bessant)"
+      ]
+    },
+    {
+      "subfield": "open_innovation_ecosystems",
+      "subfield_ja": "オープンイノベーション・エコシステム論",
+      "total_estimated": 70,
+      "target_70pct": 49,
+      "current_count": 1,
+      "gap": 48,
+      "priority": 5,
+      "era_breakdown": {
+        "genesis": {"estimated": 0, "target": 0, "current": 0, "gap": 0},
+        "institutionalization": {"estimated": 4, "target": 3, "current": 0, "gap": 3},
+        "expansion": {"estimated": 10, "target": 7, "current": 0, "gap": 7},
+        "explosion": {"estimated": 32, "target": 22, "current": 1, "gap": 21},
+        "contemporary": {"estimated": 24, "target": 17, "current": 0, "gap": 17}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Management Ch.22-23",
+        "New Frontiers in Open Innovation (Chesbrough et al. 2014)"
+      ]
+    },
+    {
+      "subfield": "knowledge_learning_capabilities",
+      "subfield_ja": "知識・学習・組織能力論",
+      "total_estimated": 75,
+      "target_70pct": 53,
+      "current_count": 0,
+      "gap": 53,
+      "priority": 6,
+      "era_breakdown": {
+        "genesis": {"estimated": 3, "target": 2, "current": 0, "gap": 2},
+        "institutionalization": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "expansion": {"estimated": 20, "target": 14, "current": 0, "gap": 14},
+        "explosion": {"estimated": 27, "target": 19, "current": 0, "gap": 19},
+        "contemporary": {"estimated": 17, "target": 12, "current": 0, "gap": 12}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Ch.5",
+        "Oxford Handbook of Innovation Management Ch.7"
+      ]
+    },
+    {
+      "subfield": "innovation_process_management",
+      "subfield_ja": "イノベーションプロセス・マネジメント",
+      "total_estimated": 62,
+      "target_70pct": 43,
+      "current_count": 0,
+      "gap": 43,
+      "priority": 7,
+      "era_breakdown": {
+        "genesis": {"estimated": 2, "target": 1, "current": 0, "gap": 1},
+        "institutionalization": {"estimated": 7, "target": 5, "current": 0, "gap": 5},
+        "expansion": {"estimated": 14, "target": 10, "current": 0, "gap": 10},
+        "explosion": {"estimated": 24, "target": 17, "current": 0, "gap": 17},
+        "contemporary": {"estimated": 15, "target": 11, "current": 0, "gap": 11}
+      },
+      "key_handbooks": [
+        "Managing Innovation (Tidd & Bessant) Part II",
+        "Oxford Handbook of Innovation Management Ch.24-29"
+      ]
+    },
+    {
+      "subfield": "innovation_measurement_policy",
+      "subfield_ja": "イノベーション測定・政策",
+      "total_estimated": 55,
+      "target_70pct": 39,
+      "current_count": 1,
+      "gap": 38,
+      "priority": 8,
+      "era_breakdown": {
+        "genesis": {"estimated": 2, "target": 1, "current": 0, "gap": 1},
+        "institutionalization": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "expansion": {"estimated": 13, "target": 9, "current": 0, "gap": 9},
+        "explosion": {"estimated": 18, "target": 13, "current": 0, "gap": 13},
+        "contemporary": {"estimated": 14, "target": 10, "current": 1, "gap": 9}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Ch.6",
+        "Oslo Manual 2018 (OECD)"
+      ]
+    },
+    {
+      "subfield": "entrepreneurship_venture",
+      "subfield_ja": "起業家精神・ベンチャー論",
+      "total_estimated": 60,
+      "target_70pct": 42,
+      "current_count": 0,
+      "gap": 42,
+      "priority": 9,
+      "era_breakdown": {
+        "genesis": {"estimated": 6, "target": 4, "current": 0, "gap": 4},
+        "institutionalization": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "expansion": {"estimated": 12, "target": 8, "current": 0, "gap": 8},
+        "explosion": {"estimated": 22, "target": 15, "current": 0, "gap": 15},
+        "contemporary": {"estimated": 12, "target": 9, "current": 0, "gap": 9}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Management",
+        "Journal of Business Venturing"
+      ]
+    },
+    {
+      "subfield": "sectoral_innovation_patterns",
+      "subfield_ja": "セクター別イノベーション・産業パターン",
+      "total_estimated": 45,
+      "target_70pct": 32,
+      "current_count": 0,
+      "gap": 32,
+      "priority": 10,
+      "era_breakdown": {
+        "genesis": {"estimated": 2, "target": 1, "current": 0, "gap": 1},
+        "institutionalization": {"estimated": 8, "target": 6, "current": 0, "gap": 6},
+        "expansion": {"estimated": 14, "target": 10, "current": 0, "gap": 10},
+        "explosion": {"estimated": 14, "target": 10, "current": 0, "gap": 10},
+        "contemporary": {"estimated": 7, "target": 5, "current": 0, "gap": 5}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Part III",
+        "Sectoral Systems of Innovation (Malerba, 2004)"
+      ]
+    },
+    {
+      "subfield": "social_innovation_sustainability",
+      "subfield_ja": "社会的イノベーション・サステナビリティ・トランジション",
+      "total_estimated": 40,
+      "target_70pct": 28,
+      "current_count": 0,
+      "gap": 28,
+      "priority": 11,
+      "era_breakdown": {
+        "genesis": {"estimated": 0, "target": 0, "current": 0, "gap": 0},
+        "institutionalization": {"estimated": 2, "target": 1, "current": 0, "gap": 1},
+        "expansion": {"estimated": 4, "target": 3, "current": 0, "gap": 3},
+        "explosion": {"estimated": 17, "target": 12, "current": 0, "gap": 12},
+        "contemporary": {"estimated": 17, "target": 12, "current": 0, "gap": 12}
+      },
+      "key_handbooks": [
+        "Oxford Handbook of Innovation Management Ch.15-16",
+        "Research Policy: Sustainability Transitions"
+      ]
+    },
+    {
+      "subfield": "digital_innovation_ai",
+      "subfield_ja": "デジタルイノベーション・AI/GPT",
+      "total_estimated": 62,
+      "target_70pct": 43,
+      "current_count": 0,
+      "gap": 43,
+      "priority": 12,
+      "era_breakdown": {
+        "genesis": {"estimated": 0, "target": 0, "current": 0, "gap": 0},
+        "institutionalization": {"estimated": 0, "target": 0, "current": 0, "gap": 0},
+        "expansion": {"estimated": 2, "target": 1, "current": 0, "gap": 1},
+        "explosion": {"estimated": 22, "target": 15, "current": 0, "gap": 15},
+        "contemporary": {"estimated": 38, "target": 27, "current": 0, "gap": 27}
+      },
+      "key_handbooks": [
+        "Technovation: Digital Platforms & Generative AI",
+        "Information Systems Research: Digital Innovation"
+      ]
+    }
+  ],
+  "gap_priority_top10": [
+    {"rank": 1, "subfield": "イノベーションシステム論", "era": "explosion (2000-2015)", "gap": 23},
+    {"rank": 2, "subfield": "オープンイノベーション", "era": "explosion (2000-2015)", "gap": 21},
+    {"rank": 3, "subfield": "知識・学習・組織能力論", "era": "explosion (2000-2015)", "gap": 19},
+    {"rank": 4, "subfield": "イノベーションシステム論", "era": "expansion (1985-2000)", "gap": 18},
+    {"rank": 5, "subfield": "破壊的イノベーション", "era": "explosion (2000-2015)", "gap": 18},
+    {"rank": 6, "subfield": "オープンイノベーション", "era": "contemporary (2015-2026)", "gap": 17},
+    {"rank": 7, "subfield": "イノベーションプロセス", "era": "explosion (2000-2015)", "gap": 17},
+    {"rank": 8, "subfield": "ネオ・シュンペーター派", "era": "explosion (2000-2015)", "gap": 16},
+    {"rank": 9, "subfield": "ネオ・シュンペーター派", "era": "expansion (1985-2000)", "gap": 15},
+    {"rank": 10, "subfield": "破壊的イノベーション", "era": "expansion (1985-2000) + contemporary", "gap": 15}
+  ],
+  "collection_strategy": {
+    "phase1_priority": "ネオ・シュンペーター派 + イノベーションシステム論 + 知識能力論（3領域で171件 = 目標の34%）",
+    "phase2_priority": "破壊的イノベーション + オープンイノベーション + プロセス論（3領域で138件 = 27%）",
+    "phase3_priority": "残り6領域（195件 = 39%）",
+    "total_phases": 3,
+    "estimated_total_target": 504
+  },
+  "cross_db_connections": {
+    "TA_tech_acceleration": "技術パラダイム転換事例の実証データソース（227Kレコード）",
+    "GPT_QoL": "汎用技術の社会的価値生成（34,715事象）→ 創造的破壊の産業横断分析",
+    "SIF_social_innovation": "社会的構造変革事例（1,096事象）→ 社会的イノベーション実証",
+    "GF_great_figures": "歴史上の起業家・イノベーター（9,178人物）→ 起業家精神の事例基盤",
+    "SG_signals": "現在進行中のイノベーションシグナル（7,668件）→ リアルタイム検証",
+    "SI_sangaku": "産業現場のイノベーション需要（492,646件）→ セクター別パターン実証",
+    "IR_investment": "VC投資パターン（4,180組織）→ 技術レジームと投資の対応",
+    "PD_policy": "政策データ（221,788行）→ NIS・ミッション志向政策の実態",
+    "AD_ai_development": "AI発展データ（2,236論文）→ AI as GPT分析",
+    "FK_foresight": "フォーサイト知識基盤（45,323レポート）→ フォーサイト×イノベーション"
+  }
+}
