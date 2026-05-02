@@ -1,0 +1,157 @@
+{
+  "domain": "startup",
+  "domain_id": "SU",
+  "table_name": "startup_theory",
+  "total_target": 10000,
+  "subfield_count": 14,
+  "per_subfield_target": 714,
+  "id_prefix": "su",
+  "description": "スタートアップ領域の学術的知識体系。起業家精神の理論的基盤から、VC・エコシステム・スケーリング・エグジット・社会的インパクトまでの全領域を網羅",
+  "existing_connections": {
+    "innovation_theory.entrepreneurship_venture": "701 entries (base theory)",
+    "innovation_theory.platform_digital_innovation": "713 entries (platform startups)",
+    "innovation_theory.open_innovation_ecosystems": "706 entries (ecosystem theory)"
+  },
+  "subfields": [
+    {
+      "id": "S01",
+      "name_en": "entrepreneurial_cognition_behavior",
+      "name_ja": "起業家の認知・行動理論",
+      "target": 714,
+      "key_researchers": ["Saras Sarasvathy", "Scott Shane", "Robert Baron", "Melissa Cardon", "Dean Shepherd"],
+      "key_works": ["Effectuation (2001)", "A General Theory of Entrepreneurship (2003)", "Entrepreneurial Passion (2009)"],
+      "era_range": "1961-2026",
+      "description": "起業家の意思決定プロセス、認知バイアス、エフェクチュエーション、起業家的情熱、レジリエンス"
+    },
+    {
+      "id": "S02",
+      "name_en": "opportunity_recognition_creation",
+      "name_ja": "機会認識・機会創造理論",
+      "target": 714,
+      "key_researchers": ["Scott Shane", "S. Venkataraman", "Alvarez & Barney", "Per Davidsson", "Dimo Dimov"],
+      "key_works": ["The Promise of Entrepreneurship (2000)", "Discovery vs Creation (2007)", "Opportunities & Entrepreneurship (2015)"],
+      "era_range": "1973-2026",
+      "description": "機会発見 vs 機会創造論争、起業家的警戒性、機会の評価プロセス、不確実性下の判断"
+    },
+    {
+      "id": "S03",
+      "name_en": "venture_capital_financing",
+      "name_ja": "ベンチャーキャピタル・スタートアップファイナンス",
+      "target": 714,
+      "key_researchers": ["Paul Gompers", "Josh Lerner", "Steven Kaplan", "William Sahlman", "Antoinette Schoar"],
+      "key_works": ["The Venture Capital Cycle (1999)", "Kaplan & Stromberg contracts (2003)", "The Money of Invention (2001)"],
+      "era_range": "1946-2026",
+      "description": "VC投資理論、ステージファイナンス、バリュエーション、タームシート、LP-GP構造、CVC"
+    },
+    {
+      "id": "S04",
+      "name_en": "startup_ecosystem_clusters",
+      "name_ja": "スタートアップエコシステム・クラスター",
+      "target": 714,
+      "key_researchers": ["Daniel Isenberg", "Brad Feld", "AnnaLee Saxenian", "Colin Mason", "Erik Stam"],
+      "key_works": ["Startup Communities (2012)", "Regional Advantage (1994)", "The Entrepreneurial Ecosystem (2015)"],
+      "era_range": "1970-2026",
+      "description": "シリコンバレーモデル、エコシステムの構成要素、クラスター理論、地域差、政策介入"
+    },
+    {
+      "id": "S05",
+      "name_en": "lean_startup_methodology",
+      "name_ja": "リーンスタートアップ・アジャイル開発方法論",
+      "target": 714,
+      "key_researchers": ["Eric Ries", "Steve Blank", "Alexander Osterwalder", "Ash Maurya", "Bob Dorf"],
+      "key_works": ["The Lean Startup (2011)", "The Four Steps to the Epiphany (2005)", "Business Model Generation (2010)"],
+      "era_range": "1997-2026",
+      "description": "MVP、ピボット、顧客開発、ビジネスモデルキャンバス、仮説検証、アジャイル手法"
+    },
+    {
+      "id": "S06",
+      "name_en": "scaling_growth_strategy",
+      "name_ja": "スケーリング・成長戦略",
+      "target": 714,
+      "key_researchers": ["Reid Hoffman", "Verne Harnish", "Geoffrey Moore", "Peter Thiel", "Ben Horowitz"],
+      "key_works": ["Blitzscaling (2018)", "Scaling Up (2014)", "Crossing the Chasm (1991)", "Zero to One (2014)"],
+      "era_range": "1991-2026",
+      "description": "ブリッツスケーリング、PMF、グロースハッキング、ネットワーク効果、指数関数的成長"
+    },
+    {
+      "id": "S07",
+      "name_en": "startup_failure_pivot_resilience",
+      "name_ja": "スタートアップの失敗・ピボット・レジリエンス",
+      "target": 714,
+      "key_researchers": ["Dean Shepherd", "Jason Cope", "Melissa Cardon", "Holger Patzelt", "Rita McGrath"],
+      "key_works": ["Learning from Failure (2003)", "Entrepreneurial Grief (2009)", "Discovery-Driven Planning (1995)"],
+      "era_range": "1995-2026",
+      "description": "失敗からの学習、起業家の悲嘆プロセス、ピボット戦略、再起業、スティグマ"
+    },
+    {
+      "id": "S08",
+      "name_en": "technology_deep_tech_startups",
+      "name_ja": "テクノロジー・ディープテックスタートアップ",
+      "target": 714,
+      "key_researchers": ["Josh Lerner", "Scott Stern", "Iain Cockburn", "Annamaria Conti", "Matt Marx"],
+      "key_works": ["The Architecture of Innovation (2012)", "Commercializing University Research (2007)"],
+      "era_range": "1980-2026",
+      "description": "大学発ベンチャー、技術移転、ディープテック、バイオテック、AI/MLスタートアップ、IP戦略"
+    },
+    {
+      "id": "S09",
+      "name_en": "platform_digital_startups",
+      "name_ja": "プラットフォーム・デジタルスタートアップ",
+      "target": 714,
+      "key_researchers": ["Annabelle Gawer", "Michael Cusumano", "Feng Zhu", "Andrei Hagiu", "Tom Eisenmann"],
+      "key_works": ["Platform Revolution (2016)", "Why Startups Fail (2021)", "Matchmakers (2016)"],
+      "era_range": "1995-2026",
+      "description": "プラットフォーム戦略、マーケットプレイス、SaaS、API経済、チキン・エッグ問題、ネットワーク効果"
+    },
+    {
+      "id": "S10",
+      "name_en": "exit_ipo_ma_strategy",
+      "name_ja": "エグジット・IPO・M&A戦略",
+      "target": 714,
+      "key_researchers": ["Jay Ritter", "Tim Loughran", "Steven Kaplan", "Ilya Strebulaev", "Douglas Cumming"],
+      "key_works": ["IPO Underpricing (2002)", "Venture Capital and IPO (2004)", "The Oxford Handbook of VC (2012)"],
+      "era_range": "1963-2026",
+      "description": "IPO理論、M&Aによるエグジット、SPAC、直接上場、バリュエーション、ユニコーン"
+    },
+    {
+      "id": "S11",
+      "name_en": "social_impact_sustainable_startups",
+      "name_ja": "ソーシャル・インパクト・サステナブルスタートアップ",
+      "target": 714,
+      "key_researchers": ["Muhammad Yunus", "Greg Dees", "Alex Nicholls", "Johanna Mair", "Roger Martin"],
+      "key_works": ["Social Entrepreneurship (2006)", "Getting Beyond Better (2015)", "Banker to the Poor (1999)"],
+      "era_range": "1983-2026",
+      "description": "社会的起業、インパクト投資、B Corp、ESGスタートアップ、BOP、マイクロファイナンス"
+    },
+    {
+      "id": "S12",
+      "name_en": "founder_team_dynamics",
+      "name_ja": "創業者・チームダイナミクス",
+      "target": 714,
+      "key_researchers": ["Noam Wasserman", "Kathleen Eisenhardt", "James Baron", "Martin Ruef", "Diane Burton"],
+      "key_works": ["The Founder's Dilemmas (2012)", "Organizational Blueprints (1999)", "The Sociology of Entrepreneurship (2010)"],
+      "era_range": "1965-2026",
+      "description": "創業チーム形成、共同創業者ダイナミクス、CEO交代、組織ブループリント、多様性と業績"
+    },
+    {
+      "id": "S13",
+      "name_en": "startup_policy_regulation",
+      "name_ja": "スタートアップ政策・規制環境",
+      "target": 714,
+      "key_researchers": ["Josh Lerner", "David Audretsch", "Mariana Mazzucato", "Erik Stam", "Zoltan Acs"],
+      "key_works": ["Boulevard of Broken Dreams (2009)", "The Entrepreneurial State (2013)", "Startup Act (2012)"],
+      "era_range": "1953-2026",
+      "description": "起業促進政策、規制サンドボックス、税制優遇、SBIR、産業クラスター政策、起業家ビザ"
+    },
+    {
+      "id": "S14",
+      "name_en": "global_emerging_market_startups",
+      "name_ja": "グローバル・新興市場スタートアップ",
+      "target": 714,
+      "key_researchers": ["Tarun Khanna", "Navi Radjou", "Vijay Govindarajan", "Yuen Yuen Ang", "Dan Isenberg"],
+      "key_works": ["Winning in Emerging Markets (2010)", "Jugaad Innovation (2012)", "Reverse Innovation (2012)"],
+      "era_range": "1990-2026",
+      "description": "新興国スタートアップ、フルーガルイノベーション、リバースイノベーション、制度的空白、中国/インド/アフリカ"
+    }
+  ]
+}
