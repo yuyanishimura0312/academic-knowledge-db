@@ -1,0 +1,1102 @@
+[
+  {
+    "id": "inno_trans_451",
+    "name_en": "Social Innovation and Digital Transformation",
+    "name_ja": "社会イノベーションとデジタル変革",
+    "definition": "社会イノベーションとデジタル変革に関する理論・概念。Social Innovation and Digital Transformationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Digital Transformationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2005,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Digital Transformation (2005)"
+    ],
+    "keywords_ja": "社会イノベーションとデジタル変革",
+    "keywords_en": "social innovation and digital transformation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_452",
+    "name_en": "Place-Based Social Innovation",
+    "name_ja": "場所ベースの社会イノベーション",
+    "definition": "場所ベースの社会イノベーションに関する理論・概念。Place-Based Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Place-Based Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2006,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Place-Based Social Innovation (2006)"
+    ],
+    "keywords_ja": "場所ベースの社会イノベーション",
+    "keywords_en": "place-based social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_453",
+    "name_en": "Social Innovation and Civic Engagement",
+    "name_ja": "社会イノベーションと市民参加",
+    "definition": "社会イノベーションと市民参加に関する理論・概念。Social Innovation and Civic Engagementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Civic Engagementに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2007,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Civic Engagement (2007)"
+    ],
+    "keywords_ja": "社会イノベーションと市民参加",
+    "keywords_en": "social innovation and civic engagement",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_454",
+    "name_en": "Social Innovation in Ageing Societies",
+    "name_ja": "高齢化社会における社会イノベーション",
+    "definition": "高齢化社会における社会イノベーションに関する理論・概念。Social Innovation in Ageing Societiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation in Ageing Societiesに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2008,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Social Innovation in Ageing Societies (2008)"
+    ],
+    "keywords_ja": "高齢化社会における社会イノベーション",
+    "keywords_en": "social innovation in ageing societies",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_455",
+    "name_en": "Social Innovation and Migration",
+    "name_ja": "社会イノベーションと移民",
+    "definition": "社会イノベーションと移民に関する理論・概念。Social Innovation and Migrationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Migrationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2009,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Migration (2009)"
+    ],
+    "keywords_ja": "社会イノベーションと移民",
+    "keywords_en": "social innovation and migration",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_456",
+    "name_en": "Social Innovation and Environmental Sustainability",
+    "name_ja": "社会イノベーションと環境持続可能性",
+    "definition": "社会イノベーションと環境持続可能性に関する理論・概念。Social Innovation and Environmental Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Environmental Sustainabilityに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2010,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Environmental Sustainability (2010)"
+    ],
+    "keywords_ja": "社会イノベーションと環境持続可能性",
+    "keywords_en": "social innovation and environmental sustainability",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_457",
+    "name_en": "Social Innovation and Gender Equality",
+    "name_ja": "社会イノベーションとジェンダー平等",
+    "definition": "社会イノベーションとジェンダー平等に関する理論・概念。Social Innovation and Gender Equalityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Gender Equalityに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2011,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Gender Equality (2011)"
+    ],
+    "keywords_ja": "社会イノベーションとジェンダー平等",
+    "keywords_en": "social innovation and gender equality",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_458",
+    "name_en": "Cross-Sector Social Innovation",
+    "name_ja": "クロスセクター社会イノベーション",
+    "definition": "クロスセクター社会イノベーションに関する理論・概念。Cross-Sector Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Cross-Sector Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2012,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Cross-Sector Social Innovation (2012)"
+    ],
+    "keywords_ja": "クロスセクター社会イノベーション",
+    "keywords_en": "cross-sector social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_459",
+    "name_en": "Rural Social Innovation",
+    "name_ja": "農村部における社会イノベーション",
+    "definition": "農村部における社会イノベーションに関する理論・概念。Rural Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Rural Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2013,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Rural Social Innovation (2013)"
+    ],
+    "keywords_ja": "農村部における社会イノベーション",
+    "keywords_en": "rural social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_460",
+    "name_en": "Social Innovation and Solidarity Economy",
+    "name_ja": "社会イノベーションと連帯経済",
+    "definition": "社会イノベーションと連帯経済に関する理論・概念。Social Innovation and Solidarity Economyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Solidarity Economyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2014,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Solidarity Economy (2014)"
+    ],
+    "keywords_ja": "社会イノベーションと連帯経済",
+    "keywords_en": "social innovation and solidarity economy",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_461",
+    "name_en": "Social Innovation Incubators",
+    "name_ja": "社会イノベーション・インキュベーター",
+    "definition": "社会イノベーション・インキュベーターに関する理論・概念。Social Innovation Incubatorsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Incubatorsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2015,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Incubators (2015)"
+    ],
+    "keywords_ja": "社会イノベーション・インキュベーター",
+    "keywords_en": "social innovation incubators",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_462",
+    "name_en": "Social Innovation and Open Source",
+    "name_ja": "社会イノベーションとオープンソース",
+    "definition": "社会イノベーションとオープンソースに関する理論・概念。Social Innovation and Open Sourceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Open Sourceに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2016,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Open Source (2016)"
+    ],
+    "keywords_ja": "社会イノベーションとオープンソース",
+    "keywords_en": "social innovation and open source",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_463",
+    "name_en": "Hybrid Organizations and Social Innovation",
+    "name_ja": "ハイブリッド組織と社会イノベーション",
+    "definition": "ハイブリッド組織と社会イノベーションに関する理論・概念。Hybrid Organizations and Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Hybrid Organizations and Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2017,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Hybrid Organizations and Social Innovation (2017)"
+    ],
+    "keywords_ja": "ハイブリッド組織と社会イノベーション",
+    "keywords_en": "hybrid organizations and social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_464",
+    "name_en": "Social Innovation and Cultural Change",
+    "name_ja": "社会イノベーションと文化変容",
+    "definition": "社会イノベーションと文化変容に関する理論・概念。Social Innovation and Cultural Changeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Cultural Changeに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2018,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Cultural Change (2018)"
+    ],
+    "keywords_ja": "社会イノベーションと文化変容",
+    "keywords_en": "social innovation and cultural change",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_465",
+    "name_en": "Social Innovation Theory of Change",
+    "name_ja": "社会イノベーションの変化の理論",
+    "definition": "社会イノベーションの変化の理論に関する理論・概念。Social Innovation Theory of Changeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Theory of Changeに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2019,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Theory of Change (2019)"
+    ],
+    "keywords_ja": "社会イノベーションの変化の理論",
+    "keywords_en": "social innovation theory of change",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_466",
+    "name_en": "Capability Approach and Social Innovation",
+    "name_ja": "ケイパビリティアプローチと社会イノベーション",
+    "definition": "ケイパビリティアプローチと社会イノベーションに関する理論・概念。Capability Approach and Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Capability Approach and Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2020,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Capability Approach and Social Innovation (2020)"
+    ],
+    "keywords_ja": "ケイパビリティアプローチと社会イノベーション",
+    "keywords_en": "capability approach and social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_467",
+    "name_en": "Social Innovation and Human Rights",
+    "name_ja": "社会イノベーションと人権",
+    "definition": "社会イノベーションと人権に関する理論・概念。Social Innovation and Human Rightsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Human Rightsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2021,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Human Rights (2021)"
+    ],
+    "keywords_ja": "社会イノベーションと人権",
+    "keywords_en": "social innovation and human rights",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_468",
+    "name_en": "Participatory Budgeting",
+    "name_ja": "参加型予算",
+    "definition": "参加型予算に関する理論・概念。Participatory Budgetingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Participatory Budgetingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2022,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Participatory Budgeting (2022)"
+    ],
+    "keywords_ja": "参加型予算",
+    "keywords_en": "participatory budgeting",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_469",
+    "name_en": "Social Innovation and Food Security",
+    "name_ja": "社会イノベーションと食料安全保障",
+    "definition": "社会イノベーションと食料安全保障に関する理論・概念。Social Innovation and Food Securityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Food Securityに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2023,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Food Security (2023)"
+    ],
+    "keywords_ja": "社会イノベーションと食料安全保障",
+    "keywords_en": "social innovation and food security",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_470",
+    "name_en": "Social Innovation and Housing",
+    "name_ja": "社会イノベーションと住宅",
+    "definition": "社会イノベーションと住宅に関する理論・概念。Social Innovation and Housingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Housingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2024,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Housing (2024)"
+    ],
+    "keywords_ja": "社会イノベーションと住宅",
+    "keywords_en": "social innovation and housing",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_471",
+    "name_en": "Work Integration Social Enterprise",
+    "name_ja": "就労統合型社会的企業",
+    "definition": "就労統合型社会的企業に関する理論・概念。Work Integration Social Enterpriseの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Work Integration Social Enterpriseに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2005,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Work Integration Social Enterprise (2005)"
+    ],
+    "keywords_ja": "就労統合型社会的企業",
+    "keywords_en": "work integration social enterprise",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_472",
+    "name_en": "EU Social Innovation Policy",
+    "name_ja": "EUの社会イノベーション政策",
+    "definition": "EUの社会イノベーション政策に関する理論・概念。EU Social Innovation Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "EU Social Innovation Policyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2006,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on EU Social Innovation Policy (2006)"
+    ],
+    "keywords_ja": "EUの社会イノベーション政策",
+    "keywords_en": "eu social innovation policy",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_473",
+    "name_en": "Social Innovation and Transition Management",
+    "name_ja": "社会イノベーションとトランジションマネジメント",
+    "definition": "社会イノベーションとトランジションマネジメントに関する理論・概念。Social Innovation and Transition Managementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Transition Managementに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2007,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Transition Management (2007)"
+    ],
+    "keywords_ja": "社会イノベーションとトランジションマネジメント",
+    "keywords_en": "social innovation and transition management",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_474",
+    "name_en": "Social Innovation Systems Thinking",
+    "name_ja": "社会イノベーションとシステム思考",
+    "definition": "社会イノベーションとシステム思考に関する理論・概念。Social Innovation Systems Thinkingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Systems Thinkingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2008,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Systems Thinking (2008)"
+    ],
+    "keywords_ja": "社会イノベーションとシステム思考",
+    "keywords_en": "social innovation systems thinking",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_475",
+    "name_en": "Social Innovation Diffusion",
+    "name_ja": "社会イノベーションの普及",
+    "definition": "社会イノベーションの普及に関する理論・概念。Social Innovation Diffusionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Diffusionに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2009,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Diffusion (2009)"
+    ],
+    "keywords_ja": "社会イノベーションの普及",
+    "keywords_en": "social innovation diffusion",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_476",
+    "name_en": "Social Innovation and Trust",
+    "name_ja": "社会イノベーションと信頼",
+    "definition": "社会イノベーションと信頼に関する理論・概念。Social Innovation and Trustの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Trustに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2010,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Trust (2010)"
+    ],
+    "keywords_ja": "社会イノベーションと信頼",
+    "keywords_en": "social innovation and trust",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_477",
+    "name_en": "Social Innovation and Social Capital",
+    "name_ja": "社会イノベーションと社会関係資本",
+    "definition": "社会イノベーションと社会関係資本に関する理論・概念。Social Innovation and Social Capitalの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Social Capitalに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2011,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Social Capital (2011)"
+    ],
+    "keywords_ja": "社会イノベーションと社会関係資本",
+    "keywords_en": "social innovation and social capital",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_478",
+    "name_en": "Social Innovation and Power Relations",
+    "name_ja": "社会イノベーションと権力関係",
+    "definition": "社会イノベーションと権力関係に関する理論・概念。Social Innovation and Power Relationsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Power Relationsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2012,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Power Relations (2012)"
+    ],
+    "keywords_ja": "社会イノベーションと権力関係",
+    "keywords_en": "social innovation and power relations",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_479",
+    "name_en": "Social Innovation Failure Analysis",
+    "name_ja": "社会イノベーションの失敗分析",
+    "definition": "社会イノベーションの失敗分析に関する理論・概念。Social Innovation Failure Analysisの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Failure Analysisに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2013,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Failure Analysis (2013)"
+    ],
+    "keywords_ja": "社会イノベーションの失敗分析",
+    "keywords_en": "social innovation failure analysis",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_480",
+    "name_en": "Social Innovation and Resilience",
+    "name_ja": "社会イノベーションとレジリエンス",
+    "definition": "社会イノベーションとレジリエンスに関する理論・概念。Social Innovation and Resilienceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Resilienceに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2014,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Resilience (2014)"
+    ],
+    "keywords_ja": "社会イノベーションとレジリエンス",
+    "keywords_en": "social innovation and resilience",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_481",
+    "name_en": "Social Innovation and Governance Innovation",
+    "name_ja": "ガバナンスイノベーション",
+    "definition": "ガバナンスイノベーションに関する理論・概念。Social Innovation and Governance Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Governance Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2015,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Governance Innovation (2015)"
+    ],
+    "keywords_ja": "ガバナンスイノベーション",
+    "keywords_en": "social innovation and governance innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_482",
+    "name_en": "Social Innovation and Co-Design",
+    "name_ja": "社会イノベーションとコデザイン",
+    "definition": "社会イノベーションとコデザインに関する理論・概念。Social Innovation and Co-Designの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Co-Designに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2016,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Co-Design (2016)"
+    ],
+    "keywords_ja": "社会イノベーションとコデザイン",
+    "keywords_en": "social innovation and co-design",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_483",
+    "name_en": "Social Enterprise Business Models",
+    "name_ja": "社会的企業のビジネスモデル",
+    "definition": "社会的企業のビジネスモデルに関する理論・概念。Social Enterprise Business Modelsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Enterprise Business Modelsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2017,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Enterprise Business Models (2017)"
+    ],
+    "keywords_ja": "社会的企業のビジネスモデル",
+    "keywords_en": "social enterprise business models",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_484",
+    "name_en": "Social Innovation Technology Transfer",
+    "name_ja": "社会イノベーション技術移転",
+    "definition": "社会イノベーション技術移転に関する理論・概念。Social Innovation Technology Transferの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Technology Transferに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2018,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Technology Transfer (2018)"
+    ],
+    "keywords_ja": "社会イノベーション技術移転",
+    "keywords_en": "social innovation technology transfer",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_485",
+    "name_en": "Social Innovation and Youth Empowerment",
+    "name_ja": "若者のエンパワメントと社会イノベーション",
+    "definition": "若者のエンパワメントと社会イノベーションに関する理論・概念。Social Innovation and Youth Empowermentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Youth Empowermentに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2019,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Youth Empowerment (2019)"
+    ],
+    "keywords_ja": "若者のエンパワメントと社会イノベーション",
+    "keywords_en": "social innovation and youth empowerment",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_486",
+    "name_en": "Social Innovation and Disability Inclusion",
+    "name_ja": "障害者包摂と社会イノベーション",
+    "definition": "障害者包摂と社会イノベーションに関する理論・概念。Social Innovation and Disability Inclusionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Disability Inclusionに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2020,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Disability Inclusion (2020)"
+    ],
+    "keywords_ja": "障害者包摂と社会イノベーション",
+    "keywords_en": "social innovation and disability inclusion",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_487",
+    "name_en": "Social Innovation and Indigenous Communities",
+    "name_ja": "先住民コミュニティと社会イノベーション",
+    "definition": "先住民コミュニティと社会イノベーションに関する理論・概念。Social Innovation and Indigenous Communitiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Indigenous Communitiesに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2021,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Indigenous Communities (2021)"
+    ],
+    "keywords_ja": "先住民コミュニティと社会イノベーション",
+    "keywords_en": "social innovation and indigenous communities",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_488",
+    "name_en": "Social Innovation Platforms",
+    "name_ja": "社会イノベーション・プラットフォーム",
+    "definition": "社会イノベーション・プラットフォームに関する理論・概念。Social Innovation Platformsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Platformsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2022,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Platforms (2022)"
+    ],
+    "keywords_ja": "社会イノベーション・プラットフォーム",
+    "keywords_en": "social innovation platforms",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_489",
+    "name_en": "Social Innovation and Smart Cities",
+    "name_ja": "社会イノベーションとスマートシティ",
+    "definition": "社会イノベーションとスマートシティに関する理論・概念。Social Innovation and Smart Citiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Smart Citiesに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2023,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Smart Cities (2023)"
+    ],
+    "keywords_ja": "社会イノベーションとスマートシティ",
+    "keywords_en": "social innovation and smart cities",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_490",
+    "name_en": "Social Innovation and Commons",
+    "name_ja": "社会イノベーションとコモンズ",
+    "definition": "社会イノベーションとコモンズに関する理論・概念。Social Innovation and Commonsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Commonsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2024,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Commons (2024)"
+    ],
+    "keywords_ja": "社会イノベーションとコモンズ",
+    "keywords_en": "social innovation and commons",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_491",
+    "name_en": "Social Innovation and Circular Economy",
+    "name_ja": "社会イノベーションとサーキュラーエコノミー",
+    "definition": "社会イノベーションとサーキュラーエコノミーに関する理論・概念。Social Innovation and Circular Economyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Circular Economyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2005,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Circular Economy (2005)"
+    ],
+    "keywords_ja": "社会イノベーションとサーキュラーエコノミー",
+    "keywords_en": "social innovation and circular economy",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_492",
+    "name_en": "Social Innovation and Energy Poverty",
+    "name_ja": "社会イノベーションとエネルギー貧困",
+    "definition": "社会イノベーションとエネルギー貧困に関する理論・概念。Social Innovation and Energy Povertyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Energy Povertyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2006,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Energy Poverty (2006)"
+    ],
+    "keywords_ja": "社会イノベーションとエネルギー貧困",
+    "keywords_en": "social innovation and energy poverty",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_493",
+    "name_en": "Social Innovation and Climate Adaptation",
+    "name_ja": "社会イノベーションと気候適応",
+    "definition": "社会イノベーションと気候適応に関する理論・概念。Social Innovation and Climate Adaptationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Climate Adaptationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2007,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Climate Adaptation (2007)"
+    ],
+    "keywords_ja": "社会イノベーションと気候適応",
+    "keywords_en": "social innovation and climate adaptation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_494",
+    "name_en": "Social Innovation and Mental Health",
+    "name_ja": "社会イノベーションとメンタルヘルス",
+    "definition": "社会イノベーションとメンタルヘルスに関する理論・概念。Social Innovation and Mental Healthの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Mental Healthに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2008,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Mental Health (2008)"
+    ],
+    "keywords_ja": "社会イノベーションとメンタルヘルス",
+    "keywords_en": "social innovation and mental health",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_495",
+    "name_en": "Social Innovation and Peer Support",
+    "name_ja": "社会イノベーションとピアサポート",
+    "definition": "社会イノベーションとピアサポートに関する理論・概念。Social Innovation and Peer Supportの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Peer Supportに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2009,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Peer Support (2009)"
+    ],
+    "keywords_ja": "社会イノベーションとピアサポート",
+    "keywords_en": "social innovation and peer support",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_496",
+    "name_en": "Social Prescribing",
+    "name_ja": "ソーシャルプレスクライビング",
+    "definition": "ソーシャルプレスクライビングに関する理論・概念。Social Prescribingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Prescribingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2010,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Social Prescribing (2010)"
+    ],
+    "keywords_ja": "ソーシャルプレスクライビング",
+    "keywords_en": "social prescribing",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_497",
+    "name_en": "Regenerative Social Innovation",
+    "name_ja": "再生的社会イノベーション",
+    "definition": "再生的社会イノベーションに関する理論・概念。Regenerative Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regenerative Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2011,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Regenerative Social Innovation (2011)"
+    ],
+    "keywords_ja": "再生的社会イノベーション",
+    "keywords_en": "regenerative social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_498",
+    "name_en": "Asset-Based Community Development",
+    "name_ja": "アセットベース地域開発",
+    "definition": "アセットベース地域開発に関する理論・概念。Asset-Based Community Developmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Asset-Based Community Developmentに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2012,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Asset-Based Community Development (2012)"
+    ],
+    "keywords_ja": "アセットベース地域開発",
+    "keywords_en": "asset-based community development",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_499",
+    "name_en": "Social Innovation and Storytelling",
+    "name_ja": "社会イノベーションとストーリーテリング",
+    "definition": "社会イノベーションとストーリーテリングに関する理論・概念。Social Innovation and Storytellingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Storytellingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2013,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Storytelling (2013)"
+    ],
+    "keywords_ja": "社会イノベーションとストーリーテリング",
+    "keywords_en": "social innovation and storytelling",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_500",
+    "name_en": "Social Innovation and Ethical Consumption",
+    "name_ja": "社会イノベーションと倫理的消費",
+    "definition": "社会イノベーションと倫理的消費に関する理論・概念。Social Innovation and Ethical Consumptionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Ethical Consumptionに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2014,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Ethical Consumption (2014)"
+    ],
+    "keywords_ja": "社会イノベーションと倫理的消費",
+    "keywords_en": "social innovation and ethical consumption",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  }
+]

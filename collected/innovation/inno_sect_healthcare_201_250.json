@@ -1,0 +1,1260 @@
+[
+  {
+    "id": "inno_sect_201",
+    "name_en": "Drug Discovery Pipeline Model",
+    "name_ja": "創薬パイプラインモデル",
+    "definition": "医薬品開発を探索研究・前臨床試験・臨床第I-III相試験・承認申請・市販後調査の段階的プロセスとして体系化したモデル。各段階での成功確率（attrition rate）が産業の構造的特性を規定し、長期的・高リスク投資の必要性を示す。平均10-15年・数十億ドルの開発コストが参入障壁を形成する。",
+    "impact_summary": "医薬品産業の投資構造と規制戦略の基礎的フレームワーク",
+    "era_start": 1990,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Joseph DiMasi",
+      "Henry Grabowski"
+    ],
+    "key_works": [
+      "The price of innovation: new estimates of drug development costs (2003)"
+    ],
+    "industry_tags": "pharmaceutical, biotechnology",
+    "school_of_thought": "医薬品産業経済学",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "sequential,risk_management",
+    "keywords_en": "drug discovery, pipeline, attrition rate, pharmaceutical R&D",
+    "keywords_ja": "創薬,パイプライン,脱落率,医薬品R&D",
+    "opposing_concept_names": "open innovation drug discovery",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_202",
+    "name_en": "Translational Medicine Gap",
+    "name_ja": "トランスレーショナルメディシンギャップ",
+    "definition": "基礎研究の発見が臨床応用に転換される過程で生じる構造的断絶（death valley）を指す概念。T1（基礎→臨床）とT2（臨床→実践）の二段階ギャップが存在し、セクター固有の制度的・知識的障壁がイノベーション効率を制約する。",
+    "impact_summary": "医療イノベーション政策における橋渡し研究支援の理論的根拠",
+    "era_start": 2003,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Elias Zerhouni",
+      "John Ioannidis"
+    ],
+    "key_works": [
+      "Translational and clinical science (2005)"
+    ],
+    "industry_tags": "healthcare, pharmaceutical, biotechnology",
+    "school_of_thought": "トランスレーショナル研究論",
+    "innovation_type": "process,institutional",
+    "cognitive_mechanism": "bridging,integration",
+    "keywords_en": "translational medicine, death valley, bench to bedside, T1 T2 gap",
+    "keywords_ja": "トランスレーショナル医学,死の谷,基礎から臨床へ",
+    "opposing_concept_names": "linear model of innovation",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_203",
+    "name_en": "Evidence-Based Medicine Innovation",
+    "name_ja": "エビデンスに基づく医療イノベーション",
+    "definition": "ランダム化比較試験（RCT）とシステマティックレビューを中核とするエビデンス階層が医療技術の採用・普及パターンを規定するセクター固有のイノベーションメカニズム。規制承認プロセスとの相互作用により、他セクターとは異なる技術選択ダイナミクスを生む。",
+    "impact_summary": "医療技術評価と規制科学の理論的基盤",
+    "era_start": 1992,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "David Sackett",
+      "Archie Cochrane"
+    ],
+    "key_works": [
+      "Evidence-based medicine: how to practice and teach EBM (1997)"
+    ],
+    "industry_tags": "healthcare, pharmaceutical",
+    "school_of_thought": "エビデンスベースド医療",
+    "innovation_type": "process,institutional",
+    "cognitive_mechanism": "evidence_hierarchy,systematic",
+    "keywords_en": "evidence-based medicine, RCT, systematic review, clinical guidelines",
+    "keywords_ja": "エビデンスに基づく医療,RCT,システマティックレビュー",
+    "opposing_concept_names": "narrative medicine, experience-based medicine",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_204",
+    "name_en": "Pharmaceutical Patent Cliff",
+    "name_ja": "医薬品パテントクリフ",
+    "definition": "ブロックバスター医薬品の特許切れに伴う売上急落現象とそれが産業構造再編を促すメカニズム。ジェネリック参入による価格破壊がオリジネーター企業のR&D投資・M&A戦略・パイプライン再構築を駆動する。2010年代のメガパテントクリフが産業構造を根本的に変容させた。",
+    "impact_summary": "医薬品産業の周期的構造変動の説明モデル",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Henry Grabowski",
+      "Iain Cockburn"
+    ],
+    "key_works": [
+      "Patents, price regulation, and innovation in the pharmaceutical industry (2004)"
+    ],
+    "industry_tags": "pharmaceutical, generic drugs",
+    "school_of_thought": "医薬品産業組織論",
+    "innovation_type": "market,institutional",
+    "cognitive_mechanism": "creative_destruction,cyclical",
+    "keywords_en": "patent cliff, blockbuster, generic entry, pharmaceutical lifecycle",
+    "keywords_ja": "パテントクリフ,ブロックバスター,ジェネリック参入",
+    "opposing_concept_names": "evergreening strategy",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_205",
+    "name_en": "Precision Medicine Paradigm",
+    "name_ja": "精密医療パラダイム",
+    "definition": "ゲノム情報・バイオマーカー・デジタルヘルスデータに基づく個別化治療アプローチ。従来の「one-size-fits-all」医療からの転換として、セクターの知識基盤・規制枠組み・ビジネスモデルを根本的に変革する。コンパニオン診断薬の義務化などセクター固有の制度変革を伴う。",
+    "impact_summary": "医薬品・医療機器産業の知識基盤と事業モデルの転換",
+    "era_start": 2011,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Francis Collins",
+      "Eric Topol"
+    ],
+    "key_works": [
+      "The creative destruction of medicine (2012)"
+    ],
+    "industry_tags": "pharmaceutical, diagnostics, genomics",
+    "school_of_thought": "精密医療論",
+    "innovation_type": "product,paradigm",
+    "cognitive_mechanism": "paradigm_shift,personalization",
+    "keywords_en": "precision medicine, genomics, biomarkers, personalized therapy",
+    "keywords_ja": "精密医療,ゲノミクス,バイオマーカー,個別化治療",
+    "opposing_concept_names": "population-based medicine",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_206",
+    "name_en": "Biotech-Pharma Alliance Model",
+    "name_ja": "バイオテック・製薬アライアンスモデル",
+    "definition": "バイオテクノロジー企業と大手製薬企業の間の戦略的提携構造。探索的研究（バイオテック）と開発・商業化能力（製薬）の補完的資産結合により、セクター全体のイノベーション効率を高める分業体制。ライセンス契約・共同開発・買収の多様な形態を含む。",
+    "impact_summary": "医薬品産業における垂直分業型イノベーション体制の確立",
+    "era_start": 1995,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Gary Pisano",
+      "Walter Powell"
+    ],
+    "key_works": [
+      "Science business: the promise, the reality, and the future of biotech (2006)"
+    ],
+    "industry_tags": "biotechnology, pharmaceutical",
+    "school_of_thought": "バイオテクノロジー産業論",
+    "innovation_type": "organizational,institutional",
+    "cognitive_mechanism": "complementary_assets,alliance",
+    "keywords_en": "biotech-pharma alliance, licensing, co-development, M&A",
+    "keywords_ja": "バイオ製薬アライアンス,ライセンシング,共同開発",
+    "opposing_concept_names": "fully integrated pharmaceutical company",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_207",
+    "name_en": "Medical Device Innovation Pathway",
+    "name_ja": "医療機器イノベーション経路",
+    "definition": "医療機器特有のイノベーション経路。医薬品とは異なり、(1)ユーザー（臨床医）がイノベーターとなる割合が高い、(2)漸進的改良が支配的、(3)規制承認経路（510(k)等）が増分的改良に適応する、(4)臨床現場でのlearning-by-usingが重要、という特徴を持つ。",
+    "impact_summary": "医療機器セクター固有のイノベーション動態の体系的理解",
+    "era_start": 2000,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Eric von Hippel",
+      "Josh Lerner",
+      "Rebecca Henderson"
+    ],
+    "key_works": [
+      "Sources of medical technology innovation (2005)"
+    ],
+    "industry_tags": "medical devices, surgical instruments",
+    "school_of_thought": "医療機器イノベーション論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "user_innovation,incremental",
+    "keywords_en": "medical device, user innovation, 510k pathway, incremental improvement",
+    "keywords_ja": "医療機器,ユーザーイノベーション,510k経路,漸進的改良",
+    "opposing_concept_names": "science-push model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_208",
+    "name_en": "Digital Health Disruption",
+    "name_ja": "デジタルヘルス破壊的革新",
+    "definition": "モバイルヘルス・ウェアラブル・遠隔医療・AI診断などのデジタル技術が従来の医療サービス提供モデルを変革するプロセス。規制の不確実性・臨床的エビデンス要求・医療専門職の抵抗という3つのセクター固有の障壁が普及動態を複雑にする。",
+    "impact_summary": "医療サービスのデジタル変革における機会と障壁の分析枠組み",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Eric Topol",
+      "Clayton Christensen"
+    ],
+    "key_works": [
+      "The innovator's prescription (2009)"
+    ],
+    "industry_tags": "digital health, telemedicine, mHealth",
+    "school_of_thought": "デジタルヘルス論",
+    "innovation_type": "product,service,disruptive",
+    "cognitive_mechanism": "disruption,platform",
+    "keywords_en": "digital health, telemedicine, mHealth, AI diagnostics, wearables",
+    "keywords_ja": "デジタルヘルス,遠隔医療,mHealth,AI診断",
+    "opposing_concept_names": "traditional care delivery model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_209",
+    "name_en": "Hospital Innovation Adoption Model",
+    "name_ja": "病院のイノベーション採用モデル",
+    "definition": "病院組織における新技術・新プロセスの採用決定メカニズム。組織的複雑性・多職種意思決定・規制要件・保険償還制度の制約という4要因がセクター固有の採用パターンを形成する。医師チャンピオンの存在が採用成功の重要な予測因子となる。",
+    "impact_summary": "医療組織のイノベーション受容メカニズムの理論化",
+    "era_start": 2004,
+    "schumpeter_layer": "micro",
+    "key_researchers": [
+      "Trisha Greenhalgh",
+      "Robert Glenn",
+      "Donald Berwick"
+    ],
+    "key_works": [
+      "Diffusion of innovations in service organizations (2004)"
+    ],
+    "industry_tags": "healthcare, hospitals",
+    "school_of_thought": "医療組織イノベーション論",
+    "innovation_type": "organizational,process",
+    "cognitive_mechanism": "adoption,organizational_learning",
+    "keywords_en": "hospital innovation adoption, physician champion, organizational complexity",
+    "keywords_ja": "病院イノベーション採用,医師チャンピオン,組織的複雑性",
+    "opposing_concept_names": "market-driven adoption",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_210",
+    "name_en": "Vaccine Innovation System",
+    "name_ja": "ワクチンイノベーションシステム",
+    "definition": "ワクチン開発・製造・配布のセクター固有システム。(1)公衆衛生上の緊急性と市場インセンティブの乖離、(2)製造の複雑性と品質管理要求、(3)国際的調達メカニズム（GAVI等）、(4)知的財産とアクセスのトレードオフという構造的特性を持つ。COVID-19パンデミックが加速装置として機能。",
+    "impact_summary": "ワクチンセクターの市場失敗と政策介入の理論的基盤",
+    "era_start": 2000,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Michael Kremer",
+      "Rachel Glennerster"
+    ],
+    "key_works": [
+      "Strong medicine: creating incentives for pharmaceutical research on neglected diseases (2004)"
+    ],
+    "industry_tags": "vaccines, public health, biotechnology",
+    "school_of_thought": "ワクチン経済学",
+    "innovation_type": "product,institutional",
+    "cognitive_mechanism": "public_good,incentive_design",
+    "keywords_en": "vaccine innovation, market failure, advance market commitment, GAVI",
+    "keywords_ja": "ワクチンイノベーション,市場の失敗,事前市場コミットメント",
+    "opposing_concept_names": "pure market-based drug development",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_211",
+    "name_en": "Clinical Trial Innovation",
+    "name_ja": "臨床試験イノベーション",
+    "definition": "適応的デザイン・バスケット試験・プラットフォーム試験・分散型臨床試験（DCT）など、従来のRCTパラダイムを拡張する新たな臨床試験方法論。効率性向上と患者中心性の両立を目指し、規制科学との共進化が進む。",
+    "impact_summary": "医薬品開発プロセスの効率化と規制科学の革新",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Donald Berry",
+      "Scott Evans"
+    ],
+    "key_works": [
+      "Adaptive clinical trials in oncology (2014)"
+    ],
+    "industry_tags": "pharmaceutical, clinical research",
+    "school_of_thought": "臨床試験方法論",
+    "innovation_type": "process,methodological",
+    "cognitive_mechanism": "adaptive,bayesian",
+    "keywords_en": "adaptive trial design, basket trial, platform trial, decentralized clinical trial",
+    "keywords_ja": "適応的試験デザイン,バスケット試験,プラットフォーム試験,DCT",
+    "opposing_concept_names": "traditional RCT design",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_212",
+    "name_en": "Orphan Drug Innovation",
+    "name_ja": "オーファンドラッグイノベーション",
+    "definition": "希少疾患治療薬開発における制度的イノベーション。1983年米国オーファンドラッグ法以降、市場独占権・税制優遇・開発支援により小規模市場での開発インセンティブを創出。近年はプレミアム価格設定と倫理的議論が新たな課題に。",
+    "impact_summary": "希少疾患領域の創薬促進と制度設計のモデルケース",
+    "era_start": 1983,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Abbey Meyers",
+      "Marlene Haffner"
+    ],
+    "key_works": [
+      "Orphan drug development: an economically viable strategy (2007)"
+    ],
+    "industry_tags": "pharmaceutical, rare diseases",
+    "school_of_thought": "希少疾患政策論",
+    "innovation_type": "institutional,product",
+    "cognitive_mechanism": "incentive_design,regulatory",
+    "keywords_en": "orphan drug, rare disease, market exclusivity, Orphan Drug Act",
+    "keywords_ja": "オーファンドラッグ,希少疾患,市場独占権",
+    "opposing_concept_names": "blockbuster drug model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_213",
+    "name_en": "Health Technology Assessment",
+    "name_ja": "医療技術評価（HTA）",
+    "definition": "医療技術の臨床的有効性・安全性・経済性を体系的に評価するセクター固有の制度的イノベーション。NICE（英国）やIQWiG（ドイツ）等の評価機関が技術採用の門番機能を果たし、セクターのイノベーション方向性を規定する。",
+    "impact_summary": "医療技術の価値ベース評価と償還決定の標準的枠組み",
+    "era_start": 1995,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Michael Drummond",
+      "Mark Sculpher"
+    ],
+    "key_works": [
+      "Methods for the economic evaluation of health care programmes (2005)"
+    ],
+    "industry_tags": "healthcare, pharmaceutical, medical devices",
+    "school_of_thought": "医療技術評価論",
+    "innovation_type": "institutional,process",
+    "cognitive_mechanism": "systematic_evaluation,cost_effectiveness",
+    "keywords_en": "health technology assessment, HTA, NICE, cost-effectiveness, QALY",
+    "keywords_ja": "医療技術評価,HTA,費用対効果,QALY",
+    "opposing_concept_names": "unregulated technology adoption",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_214",
+    "name_en": "mRNA Platform Technology",
+    "name_ja": "mRNAプラットフォーム技術",
+    "definition": "メッセンジャーRNAを治療薬・ワクチンの基盤技術として応用するプラットフォームイノベーション。COVID-19ワクチン（BioNTech/Pfizer、Moderna）の成功により実証。感染症・がん・遺伝性疾患への横展開可能性により、医薬品産業の技術パラダイムを変革。",
+    "impact_summary": "医薬品開発のプラットフォーム化と開発スピード革命",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Katalin Karikó",
+      "Drew Weissman",
+      "Uğur Şahin"
+    ],
+    "key_works": [
+      "Suppression of RNA recognition by Toll-like receptors (2005)"
+    ],
+    "industry_tags": "biotechnology, vaccines, pharmaceutical",
+    "school_of_thought": "プラットフォーム医薬品論",
+    "innovation_type": "product,platform,paradigm",
+    "cognitive_mechanism": "platform_thinking,modularity",
+    "keywords_en": "mRNA technology, platform, COVID-19 vaccine, BioNTech, Moderna",
+    "keywords_ja": "mRNA技術,プラットフォーム,COVID-19ワクチン",
+    "opposing_concept_names": "traditional protein-based therapeutics",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_215",
+    "name_en": "Pharmaceutical Regulatory Science",
+    "name_ja": "医薬品規制科学",
+    "definition": "規制要件と科学的イノベーションの共進化プロセスを分析する学際的アプローチ。FDA・EMAなどの規制当局が創薬イノベーションの方向性・速度・費用を構造的に規定するメカニズムを解明。加速承認・ブレークスルー療法指定等の制度革新がセクターダイナミクスに与える影響を分析。",
+    "impact_summary": "規制と医薬品イノベーションの相互作用の理論的理解",
+    "era_start": 2004,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Daniel Carpenter",
+      "Jerry Avorn"
+    ],
+    "key_works": [
+      "Reputation and power: organizational image and pharmaceutical regulation at the FDA (2010)"
+    ],
+    "industry_tags": "pharmaceutical, regulatory",
+    "school_of_thought": "規制科学",
+    "innovation_type": "institutional,process",
+    "cognitive_mechanism": "co-evolution,regulatory",
+    "keywords_en": "regulatory science, FDA, accelerated approval, breakthrough therapy",
+    "keywords_ja": "規制科学,FDA,加速承認,ブレークスルー療法",
+    "opposing_concept_names": "deregulation approach",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_216",
+    "name_en": "Biosimilar Market Dynamics",
+    "name_ja": "バイオシミラー市場動態",
+    "definition": "バイオ医薬品の後続品（バイオシミラー）市場の形成メカニズム。低分子ジェネリックとは異なり、製造の複雑性・高い参入コスト・互換性認定の不確実性により、独自の市場動態を示す。価格競争パターンも低分子市場とは構造的に異なる。",
+    "impact_summary": "バイオ医薬品市場の競争構造と価格形成の理解",
+    "era_start": 2006,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Henry Grabowski",
+      "Erwin Vogler"
+    ],
+    "key_works": [
+      "Biosimilar competition: lessons from Europe (2014)"
+    ],
+    "industry_tags": "biotechnology, pharmaceutical, biosimilars",
+    "school_of_thought": "バイオシミラー経済学",
+    "innovation_type": "market,institutional",
+    "cognitive_mechanism": "competition,regulatory_pathway",
+    "keywords_en": "biosimilar, biological drugs, interchangeability, market competition",
+    "keywords_ja": "バイオシミラー,生物学的製剤,互換性,市場競争",
+    "opposing_concept_names": "originator biologics monopoly",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_217",
+    "name_en": "AI-Driven Drug Discovery",
+    "name_ja": "AI駆動型創薬",
+    "definition": "機械学習・深層学習を活用した標的同定・リード化合物最適化・毒性予測・臨床試験設計の革新。AlphaFoldによるタンパク質構造予測や、生成AIによる新規分子設計が創薬プロセスを根本的に変革する可能性。Insilico Medicine、Recursion等のAIネイティブ企業が台頭。",
+    "impact_summary": "創薬プロセスの効率化と新たな産業構造の形成",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Alex Zhavoronkov",
+      "Daphne Koller"
+    ],
+    "key_works": [
+      "Deep learning for drug discovery (2019)"
+    ],
+    "industry_tags": "pharmaceutical, AI, biotechnology",
+    "school_of_thought": "計算創薬論",
+    "innovation_type": "process,product,paradigm",
+    "cognitive_mechanism": "machine_learning,generative",
+    "keywords_en": "AI drug discovery, deep learning, AlphaFold, generative chemistry",
+    "keywords_ja": "AI創薬,深層学習,AlphaFold,生成化学",
+    "opposing_concept_names": "traditional high-throughput screening",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_218",
+    "name_en": "Cell and Gene Therapy Innovation System",
+    "name_ja": "細胞・遺伝子治療イノベーションシステム",
+    "definition": "CAR-T細胞療法・遺伝子治療等の先端治療法が形成する新たなセクター構造。個別化製造プロセス・高額な治療費・成果ベース償還モデル・サプライチェーンの複雑性という固有の課題が、従来の医薬品産業モデルとは異なるイノベーションシステムを構成。",
+    "impact_summary": "先端治療による医薬品産業の構造変革と新たなビジネスモデル",
+    "era_start": 2012,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Carl June",
+      "James Wilson"
+    ],
+    "key_works": [
+      "Gene therapy clinical trials worldwide (2017)"
+    ],
+    "industry_tags": "cell therapy, gene therapy, biotechnology",
+    "school_of_thought": "先端治療産業論",
+    "innovation_type": "product,paradigm",
+    "cognitive_mechanism": "paradigm_shift,personalization",
+    "keywords_en": "cell therapy, gene therapy, CAR-T, personalized manufacturing",
+    "keywords_ja": "細胞治療,遺伝子治療,CAR-T,個別化製造",
+    "opposing_concept_names": "mass-produced pharmaceuticals",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_219",
+    "name_en": "Global Health Innovation",
+    "name_ja": "グローバルヘルスイノベーション",
+    "definition": "低中所得国における健康課題（感染症・母子保健・栄養）に対するイノベーションの構造的特性。市場インセンティブの欠如・適正技術の必要性・国際的資金メカニズム（GFATM・CEPI等）・南北格差が形成するセクター固有のイノベーションシステム。",
+    "impact_summary": "開発途上国向け医療イノベーションの制度設計",
+    "era_start": 2000,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Michael Kremer",
+      "Amartya Sen",
+      "Paul Farmer"
+    ],
+    "key_works": [
+      "Making markets for vaccines (2004)"
+    ],
+    "industry_tags": "global health, vaccines, diagnostics",
+    "school_of_thought": "グローバルヘルス経済学",
+    "innovation_type": "institutional,product",
+    "cognitive_mechanism": "inclusive_innovation,frugal",
+    "keywords_en": "global health innovation, neglected diseases, access to medicine, GFATM",
+    "keywords_ja": "グローバルヘルスイノベーション,顧みられない疾患,医薬品アクセス",
+    "opposing_concept_names": "high-income market-driven innovation",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_220",
+    "name_en": "Telemedicine Adoption Dynamics",
+    "name_ja": "遠隔医療普及動態",
+    "definition": "遠隔医療の採用・普及を規定するセクター固有要因。(1)規制・償還制度の制約、(2)臨床的有効性のエビデンス蓄積、(3)医療専門職の技術受容性、(4)患者の利用意向・デジタルリテラシー、(5)医療格差是正の政策的要請。COVID-19が強制的普及実験として機能し、構造的転換点を形成。",
+    "impact_summary": "遠隔医療の構造的障壁と促進要因の多層的理解",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Rashid Bashshur",
+      "Charles Doarn"
+    ],
+    "key_works": [
+      "Telemedicine and e-health policy and practice (2012)"
+    ],
+    "industry_tags": "telemedicine, digital health, healthcare",
+    "school_of_thought": "遠隔医療政策論",
+    "innovation_type": "service,institutional",
+    "cognitive_mechanism": "adoption,institutional_change",
+    "keywords_en": "telemedicine, telehealth, remote care, COVID-19 acceleration",
+    "keywords_ja": "遠隔医療,テレヘルス,リモートケア,COVID-19加速",
+    "opposing_concept_names": "in-person care primacy",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_221",
+    "name_en": "Pharmaceutical Open Innovation",
+    "name_ja": "製薬オープンイノベーション",
+    "definition": "製薬産業における外部知識の戦略的活用。自社R&Dの限界を補完するため、アカデミア連携・ベンチャー投資・プレコンペティティブ研究コンソーシアム・クラウドソーシング等の多様なオープンイノベーション形態が発展。Eli Lillyの InnoCentive、AstraZenecaのオープンイノベーションプラットフォーム等が先駆例。",
+    "impact_summary": "製薬R&Dの外部化と知識ネットワークの構造変革",
+    "era_start": 2006,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Henry Chesbrough",
+      "Gary Pisano",
+      "Markus Nordberg"
+    ],
+    "key_works": [
+      "Open innovation in the pharmaceutical industry (2014)"
+    ],
+    "industry_tags": "pharmaceutical, biotechnology",
+    "school_of_thought": "製薬オープンイノベーション論",
+    "innovation_type": "organizational,process",
+    "cognitive_mechanism": "open_innovation,network",
+    "keywords_en": "pharmaceutical open innovation, precompetitive collaboration, crowdsourcing",
+    "keywords_ja": "製薬オープンイノベーション,プレコンペティティブ,クラウドソーシング",
+    "opposing_concept_names": "closed pharma R&D model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_222",
+    "name_en": "Healthcare Service Innovation",
+    "name_ja": "医療サービスイノベーション",
+    "definition": "医療提供体制におけるサービスプロセス革新。リーン医療・患者中心ケア・統合ケアモデル・バリューベースヘルスケア等、製造業とは異なるサービス固有のイノベーション特性。専門職主義・規制制約・患者安全要求がイノベーション動態を規定。",
+    "impact_summary": "医療のサービス産業としてのイノベーション特性の理論化",
+    "era_start": 2006,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Michael Porter",
+      "Elizabeth Teisberg"
+    ],
+    "key_works": [
+      "Redefining health care: creating value-based competition on results (2006)"
+    ],
+    "industry_tags": "healthcare, hospitals, primary care",
+    "school_of_thought": "医療サービス革新論",
+    "innovation_type": "service,process",
+    "cognitive_mechanism": "value_creation,lean",
+    "keywords_en": "healthcare service innovation, value-based care, lean healthcare, patient-centered",
+    "keywords_ja": "医療サービスイノベーション,バリューベースケア,リーン医療",
+    "opposing_concept_names": "volume-based care model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_223",
+    "name_en": "Pharmaceutical Cluster Dynamics",
+    "name_ja": "製薬クラスター動態",
+    "definition": "製薬・バイオテクノロジー企業の地理的集積（Boston/Cambridge、San Francisco Bay Area、Basel等）がイノベーション性能に与える効果。スピルオーバー・労働市場プール・ベンチャーキャピタル近接性・アカデミア連携の地理的優位性が集積のメカニズム。",
+    "impact_summary": "製薬イノベーションの地理的決定要因の解明",
+    "era_start": 2000,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Maryann Feldman",
+      "Olav Sorenson",
+      "Michael Porter"
+    ],
+    "key_works": [
+      "The geography of innovation: regional innovation systems (2005)"
+    ],
+    "industry_tags": "pharmaceutical, biotechnology, research clusters",
+    "school_of_thought": "イノベーション地理学",
+    "innovation_type": "organizational,systemic",
+    "cognitive_mechanism": "agglomeration,spillover",
+    "keywords_en": "pharmaceutical cluster, biotech hub, agglomeration, knowledge spillover",
+    "keywords_ja": "製薬クラスター,バイオテクハブ,集積効果,知識スピルオーバー",
+    "opposing_concept_names": "distributed innovation model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_224",
+    "name_en": "Real-World Evidence in Healthcare",
+    "name_ja": "リアルワールドエビデンス",
+    "definition": "電子健康記録（EHR）・保険請求データ・患者レジストリ等の実臨床データから得られるエビデンスの活用。RCTの限界を補完し、医薬品の有効性・安全性の市販後評価、適応拡大、規制意思決定を支援。21世紀治療法（21st Century Cures Act）により制度化が進展。",
+    "impact_summary": "医薬品評価のエビデンス基盤の拡大と規制パラダイムの変革",
+    "era_start": 2012,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Sebastian Schneeweiss",
+      "Robert Califf"
+    ],
+    "key_works": [
+      "Real-world evidence: what is it and what can it tell us? (2017)"
+    ],
+    "industry_tags": "pharmaceutical, healthcare, data analytics",
+    "school_of_thought": "リアルワールドエビデンス論",
+    "innovation_type": "process,institutional",
+    "cognitive_mechanism": "data_driven,pragmatic",
+    "keywords_en": "real-world evidence, RWE, electronic health records, post-market surveillance",
+    "keywords_ja": "リアルワールドエビデンス,RWE,電子健康記録,市販後調査",
+    "opposing_concept_names": "RCT-only evidence paradigm",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_225",
+    "name_en": "Antimicrobial Resistance Innovation Challenge",
+    "name_ja": "薬剤耐性イノベーション課題",
+    "definition": "抗菌薬耐性（AMR）問題における市場の失敗と創薬イノベーションの構造的課題。新規抗菌薬の低い投資収益率・使用制限による売上制約・短い治療期間がR&Dインセンティブを著しく毀損。プッシュ・プルインセンティブの組み合わせ（CARB-X、BARDA等）による解決が模索される。",
+    "impact_summary": "抗菌薬開発の市場失敗と公的介入メカニズムの設計",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Jim O'Neill",
+      "Kevin Outterson"
+    ],
+    "key_works": [
+      "Tackling drug-resistant infections globally (O'Neill Review, 2016)"
+    ],
+    "industry_tags": "pharmaceutical, antimicrobials, public health",
+    "school_of_thought": "AMR政策論",
+    "innovation_type": "institutional,product",
+    "cognitive_mechanism": "market_failure,incentive_design",
+    "keywords_en": "antimicrobial resistance, AMR, antibiotic pipeline, push-pull incentives",
+    "keywords_ja": "薬剤耐性,AMR,抗菌薬パイプライン,プッシュプルインセンティブ",
+    "opposing_concept_names": "market-sufficient antibiotic development",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_226",
+    "name_en": "Surgical Innovation Diffusion",
+    "name_ja": "外科イノベーション普及",
+    "definition": "手術手技・機器の開発・普及における固有の動態。(1)術者の学習曲線が普及速度を制約、(2)RCTの実施困難性、(3)ロボット支援手術等の資本集約的技術、(4)ギルド的職能文化がイノベーション動態に影響。外科専門学会が技術評価・教育の重要な媒介機能を果たす。",
+    "impact_summary": "外科領域固有のイノベーション普及メカニズムの理解",
+    "era_start": 2002,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Ara Darzi",
+      "Peter McCulloch"
+    ],
+    "key_works": [
+      "Surgical innovation and evaluation (IDEAL framework, 2009)"
+    ],
+    "industry_tags": "surgery, medical devices, robotics",
+    "school_of_thought": "外科イノベーション論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "learning_curve,craft_knowledge",
+    "keywords_en": "surgical innovation, IDEAL framework, learning curve, robotic surgery",
+    "keywords_ja": "外科イノベーション,IDEAL枠組み,学習曲線,ロボット手術",
+    "opposing_concept_names": "evidence-only adoption model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_227",
+    "name_en": "Pharmaceutical Value Chain Restructuring",
+    "name_ja": "医薬品バリューチェーン再構築",
+    "definition": "CRO（受託研究機関）・CDMO（受託開発製造機関）の台頭による医薬品産業のバリューチェーン分解と再統合。垂直統合型モデルからネットワーク型モデルへの移行が、R&D効率・製造柔軟性・市場投入速度に与える影響を分析。",
+    "impact_summary": "医薬品産業の垂直分業化と産業構造変革の理解",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Ashish Arora",
+      "Andrea Fosfuri"
+    ],
+    "key_works": [
+      "Markets for technology: the economics of innovation and corporate strategy (2001)"
+    ],
+    "industry_tags": "pharmaceutical, CRO, CDMO",
+    "school_of_thought": "医薬品産業組織論",
+    "innovation_type": "organizational,process",
+    "cognitive_mechanism": "value_chain,modularization",
+    "keywords_en": "pharmaceutical value chain, CRO, CDMO, outsourcing, virtual pharma",
+    "keywords_ja": "医薬品バリューチェーン,CRO,CDMO,アウトソーシング",
+    "opposing_concept_names": "vertically integrated pharma model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_228",
+    "name_en": "Mental Health Innovation Gap",
+    "name_ja": "精神医療イノベーションギャップ",
+    "definition": "精神疾患治療におけるイノベーションの構造的停滞。(1)疾患メカニズムの複雑性、(2)動物モデルの妥当性欠如、(3)臨床エンドポイントの主観性、(4)スティグマによる研究投資不足が複合的に作用し、1990年代以降の新規作用機序薬剤の枯渇を招いた。近年のケタミン・サイロシビン研究が新たな展開。",
+    "impact_summary": "精神医療領域のイノベーション停滞要因と打開策の分析",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Thomas Insel",
+      "Steven Hyman"
+    ],
+    "key_works": [
+      "Disruptive insights in psychiatry (2012)"
+    ],
+    "industry_tags": "pharmaceutical, mental health, neuroscience",
+    "school_of_thought": "精神医療イノベーション論",
+    "innovation_type": "product,scientific",
+    "cognitive_mechanism": "paradigm_crisis,translational_gap",
+    "keywords_en": "mental health innovation, neuroscience, psychedelic therapy, innovation gap",
+    "keywords_ja": "精神医療イノベーション,神経科学,サイケデリック療法",
+    "opposing_concept_names": "incremental pharmaceutical innovation",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_229",
+    "name_en": "Point-of-Care Diagnostics Innovation",
+    "name_ja": "ポイントオブケア診断イノベーション",
+    "definition": "臨床現場（ベッドサイド・外来・在宅）で即座に結果が得られる診断技術のイノベーション。マイクロフルイディクス・バイオセンサー・AI画像診断の収束により、検査室中心モデルからの分散化が進行。特にリソース制約環境（低中所得国）での適正技術としての重要性。",
+    "impact_summary": "診断技術の分散化と医療アクセス改善の基盤",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "George Whitesides",
+      "Paul Yager"
+    ],
+    "key_works": [
+      "Diagnostics for the developing world (2006)"
+    ],
+    "industry_tags": "diagnostics, medical devices, global health",
+    "school_of_thought": "診断技術革新論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "miniaturization,frugal_innovation",
+    "keywords_en": "point-of-care diagnostics, microfluidics, biosensor, rapid test",
+    "keywords_ja": "ポイントオブケア診断,マイクロフルイディクス,バイオセンサー",
+    "opposing_concept_names": "centralized laboratory model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_230",
+    "name_en": "Health Data Platform Economy",
+    "name_ja": "ヘルスデータプラットフォーム経済",
+    "definition": "健康・医療データの大規模収集・解析基盤がセクターの競争構造を変革するメカニズム。GAFAM・大手保険会社・テック系スタートアップの参入により、データプラットフォームが新たな競争軸に。プライバシー・データ主権・相互運用性の制度的課題が発展を規定。",
+    "impact_summary": "ヘルスケア産業におけるデータ駆動型競争構造の形成",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Eric Topol",
+      "John Halamka"
+    ],
+    "key_works": [
+      "Deep medicine (2019)"
+    ],
+    "industry_tags": "digital health, health data, platform",
+    "school_of_thought": "ヘルスケアプラットフォーム論",
+    "innovation_type": "service,platform",
+    "cognitive_mechanism": "platform,data_driven",
+    "keywords_en": "health data platform, digital health ecosystem, interoperability, data governance",
+    "keywords_ja": "ヘルスデータプラットフォーム,デジタルヘルスエコシステム,相互運用性",
+    "opposing_concept_names": "fragmented health data systems",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_231",
+    "name_en": "Nursing Innovation and Practice Change",
+    "name_ja": "看護イノベーションと実践変革",
+    "definition": "看護専門職によるケアプロセス・デリバリーモデルの革新。エビデンスベースド看護実践・ナースプラクティショナー制度・テクノロジー活用看護の進化が、医療サービスイノベーションの重要な駆動力。専門職の自律性と制度的制約の緊張関係がイノベーション動態を形成。",
+    "impact_summary": "看護職主導の医療サービス革新の理論的基盤",
+    "era_start": 2000,
+    "schumpeter_layer": "micro",
+    "key_researchers": [
+      "Patricia Benner",
+      "Linda Aiken"
+    ],
+    "key_works": [
+      "From novice to expert (1984)",
+      "Hospital nurse staffing and patient mortality (2002)"
+    ],
+    "industry_tags": "nursing, healthcare, hospitals",
+    "school_of_thought": "看護イノベーション論",
+    "innovation_type": "process,service",
+    "cognitive_mechanism": "professional_autonomy,practice_based",
+    "keywords_en": "nursing innovation, evidence-based nursing, nurse practitioner, care delivery",
+    "keywords_ja": "看護イノベーション,エビデンスベースド看護,ナースプラクティショナー",
+    "opposing_concept_names": "physician-centric innovation model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_232",
+    "name_en": "Medical Imaging Innovation Trajectory",
+    "name_ja": "医用画像イノベーション軌道",
+    "definition": "X線・CT・MRI・PET・超音波等の医用画像技術の進化軌道。科学的発見→工学的実装→臨床応用→規制承認→保険償還の長期的プロセスが特徴。AI画像診断の統合により新たな技術パラダイムが形成。大規模資本投資と専門知識の累積性がセクター構造を規定。",
+    "impact_summary": "医用画像セクターの技術進化パターンと産業構造の理解",
+    "era_start": 1990,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Rebecca Henderson",
+      "Kim Clark"
+    ],
+    "key_works": [
+      "Architectural innovation in diagnostic imaging (1990)"
+    ],
+    "industry_tags": "medical imaging, radiology, AI diagnostics",
+    "school_of_thought": "医用画像技術進化論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "architectural,cumulative",
+    "keywords_en": "medical imaging, CT, MRI, AI radiology, imaging technology trajectory",
+    "keywords_ja": "医用画像,CT,MRI,AI放射線学,画像技術軌道",
+    "opposing_concept_names": "clinical judgment-only diagnosis",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_233",
+    "name_en": "Patient Innovation and Self-Care",
+    "name_ja": "患者イノベーションとセルフケア",
+    "definition": "患者自身がイノベーターとして疾患管理・治療法・支援技術を開発するユーザーイノベーション。希少疾患コミュニティ・患者団体・DIYバイオハッキングコミュニティが自発的に技術開発・知識共有を行う。制度的認知は不十分だが、医療イノベーションシステムへの寄与は大きい。",
+    "impact_summary": "患者主導型イノベーションの認識と制度的支援の理論的根拠",
+    "era_start": 2012,
+    "schumpeter_layer": "micro",
+    "key_researchers": [
+      "Pedro Oliveira",
+      "Eric von Hippel"
+    ],
+    "key_works": [
+      "Users as service innovators: the case of banking services (2012)"
+    ],
+    "industry_tags": "healthcare, patient advocacy, rare diseases",
+    "school_of_thought": "患者イノベーション論",
+    "innovation_type": "product,process,user",
+    "cognitive_mechanism": "user_innovation,community",
+    "keywords_en": "patient innovation, user innovation, self-care technology, rare disease community",
+    "keywords_ja": "患者イノベーション,ユーザーイノベーション,セルフケア技術",
+    "opposing_concept_names": "professional-only innovation model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_234",
+    "name_en": "Hospital-Acquired Infection Prevention Innovation",
+    "name_ja": "院内感染予防イノベーション",
+    "definition": "医療関連感染（HAI）対策のプロセスイノベーション。チェックリスト導入・手指衛生強化・環境消毒技術・抗菌素材の統合的アプローチ。Peter Pronovostのチェックリスト研究が示すように、組織的行動変容が技術革新以上にインパクトを持つセクター固有の特性。",
+    "impact_summary": "医療安全におけるプロセス革新の有効性実証",
+    "era_start": 2004,
+    "schumpeter_layer": "micro",
+    "key_researchers": [
+      "Peter Pronovost",
+      "Didier Pittet"
+    ],
+    "key_works": [
+      "An intervention to decrease catheter-related bloodstream infections (2006)"
+    ],
+    "industry_tags": "healthcare, infection control, hospital safety",
+    "school_of_thought": "医療安全イノベーション論",
+    "innovation_type": "process,organizational",
+    "cognitive_mechanism": "behavioral_change,systematic",
+    "keywords_en": "hospital-acquired infection, patient safety, checklist, hand hygiene",
+    "keywords_ja": "院内感染,患者安全,チェックリスト,手指衛生",
+    "opposing_concept_names": "technology-only solution approach",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_235",
+    "name_en": "Pharmaceutical Pricing Innovation",
+    "name_ja": "医薬品価格設定イノベーション",
+    "definition": "価値ベース価格設定・成果連動型契約・サブスクリプションモデル等、従来のコストプラス型から脱却する医薬品価格設定の制度的イノベーション。高額治療薬の増加に伴い、支払者・製薬企業・患者間のリスク分担メカニズムが発展。",
+    "impact_summary": "医薬品アクセスと産業持続可能性の両立メカニズム",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Adrian Towse",
+      "Peter Bach"
+    ],
+    "key_works": [
+      "Value-based pricing for pharmaceuticals (2010)"
+    ],
+    "industry_tags": "pharmaceutical, health economics, payer",
+    "school_of_thought": "医薬品価値評価論",
+    "innovation_type": "institutional,market",
+    "cognitive_mechanism": "value_based,outcome_linked",
+    "keywords_en": "pharmaceutical pricing, value-based pricing, outcomes-based contracts, subscription model",
+    "keywords_ja": "医薬品価格設定,価値ベース価格,成果連動型契約",
+    "opposing_concept_names": "cost-plus pricing model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_236",
+    "name_en": "Regenerative Medicine Industry Formation",
+    "name_ja": "再生医療産業形成",
+    "definition": "iPS細胞・幹細胞技術・組織工学に基づく再生医療産業の創出プロセス。科学的ブレークスルーから産業化までの長期的な制度構築（規制整備・製造標準化・保険適用）が必要。日本の再生医療新法（2014年）は先駆的制度設計の一例。",
+    "impact_summary": "新興医療産業の制度的基盤構築の理解",
+    "era_start": 2006,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Shinya Yamanaka",
+      "Robert Langer"
+    ],
+    "key_works": [
+      "Induction of pluripotent stem cells from mouse embryonic and adult fibroblasts (2006)"
+    ],
+    "industry_tags": "regenerative medicine, stem cells, tissue engineering",
+    "school_of_thought": "再生医療産業論",
+    "innovation_type": "product,institutional",
+    "cognitive_mechanism": "science_push,institution_building",
+    "keywords_en": "regenerative medicine, iPS cells, stem cells, tissue engineering, industry formation",
+    "keywords_ja": "再生医療,iPS細胞,幹細胞,組織工学,産業形成",
+    "opposing_concept_names": "conventional pharmaceutical approach",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_237",
+    "name_en": "Elderly Care Technology Innovation",
+    "name_ja": "高齢者介護テクノロジーイノベーション",
+    "definition": "超高齢社会における介護ロボット・見守りシステム・認知症支援技術等のイノベーション。技術的可能性と社会的受容性のギャップ、低賃金労働市場における代替インセンティブの弱さ、倫理的課題が普及動態を複雑にする。日本がリードするセクター。",
+    "impact_summary": "高齢者ケアにおける技術イノベーションの社会技術的課題の理解",
+    "era_start": 2008,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Hiroshi Ishiguro",
+      "Takanori Shibata"
+    ],
+    "key_works": [
+      "Robots for elderly care (2012)"
+    ],
+    "industry_tags": "elderly care, assistive technology, robotics",
+    "school_of_thought": "介護テクノロジー論",
+    "innovation_type": "product,service",
+    "cognitive_mechanism": "sociotechnical,acceptance",
+    "keywords_en": "elderly care technology, care robots, assistive technology, aging society",
+    "keywords_ja": "高齢者介護技術,介護ロボット,支援技術,高齢化社会",
+    "opposing_concept_names": "human-only care model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_238",
+    "name_en": "Pharmaceutical M&A as Innovation Strategy",
+    "name_ja": "製薬M&Aイノベーション戦略",
+    "definition": "大手製薬企業がパイプライン補充・技術獲得・市場拡大を目的としてM&Aを活用するイノベーション戦略。内部R&Dの生産性低下に対応する外部化戦略として、2000年代以降の大型合併・バイオテック買収ラッシュが産業構造を再編。買収後統合（PMI）の成否が戦略的成果を左右。",
+    "impact_summary": "製薬産業の統合動態とイノベーション効率への影響の理解",
+    "era_start": 2000,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Patricia Danzon",
+      "Andrew Epstein",
+      "Sean Nicholson"
+    ],
+    "key_works": [
+      "Mergers and acquisitions in the pharmaceutical and biotech industries (2007)"
+    ],
+    "industry_tags": "pharmaceutical, M&A, biotechnology",
+    "school_of_thought": "製薬産業再編論",
+    "innovation_type": "organizational,market",
+    "cognitive_mechanism": "acquisition,consolidation",
+    "keywords_en": "pharmaceutical M&A, pipeline acquisition, post-merger integration, biotech acquisition",
+    "keywords_ja": "製薬M&A,パイプライン買収,買収後統合",
+    "opposing_concept_names": "organic growth R&D model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_239",
+    "name_en": "Global Pharmaceutical Supply Chain Innovation",
+    "name_ja": "グローバル医薬品サプライチェーンイノベーション",
+    "definition": "医薬品のグローバル製造・流通における品質管理・トレーサビリティ・コールドチェーンのイノベーション。偽造薬対策（シリアライゼーション）、COVID-19が顕在化させたサプライチェーン脆弱性、APIの地理的集中リスクへの対応が駆動力。",
+    "impact_summary": "医薬品サプライチェーンのレジリエンスと品質保証の革新",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Prashant Yadav",
+      "Yossi Sheffi"
+    ],
+    "key_works": [
+      "Pharmaceutical supply chains: key issues and strategies for optimisation (2016)"
+    ],
+    "industry_tags": "pharmaceutical, supply chain, logistics",
+    "school_of_thought": "医薬品サプライチェーン論",
+    "innovation_type": "process,organizational",
+    "cognitive_mechanism": "resilience,traceability",
+    "keywords_en": "pharmaceutical supply chain, serialization, cold chain, API sourcing",
+    "keywords_ja": "医薬品サプライチェーン,シリアライゼーション,コールドチェーン",
+    "opposing_concept_names": "just-in-time lean supply chain",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_240",
+    "name_en": "Clinical Decision Support Innovation",
+    "name_ja": "臨床意思決定支援イノベーション",
+    "definition": "電子カルテ統合型の臨床意思決定支援システム（CDSS）のイノベーション。アラート疲労・ワークフロー統合・AI予測モデルの活用という3つの課題軸が技術発展を規定。処方支援・診断支援・治療推奨の自動化がセクターの知識活用を変革。",
+    "impact_summary": "臨床情報学におけるAI活用と医療意思決定の革新",
+    "era_start": 2005,
+    "schumpeter_layer": "micro",
+    "key_researchers": [
+      "Robert Greenes",
+      "Adam Wright"
+    ],
+    "key_works": [
+      "Clinical decision support systems: theory and practice (2007)"
+    ],
+    "industry_tags": "health IT, clinical informatics, hospitals",
+    "school_of_thought": "臨床情報学",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "decision_support,automation",
+    "keywords_en": "clinical decision support, CDSS, alert fatigue, EHR integration, AI diagnostics",
+    "keywords_ja": "臨床意思決定支援,CDSS,アラート疲労,電子カルテ統合",
+    "opposing_concept_names": "unaided clinical judgment",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_241",
+    "name_en": "Dental Innovation System",
+    "name_ja": "歯科イノベーションシステム",
+    "definition": "歯科領域のイノベーション固有特性。(1)分散的な個人開業医構造、(2)材料科学主導の技術進歩、(3)CAD/CAMデジタル歯科の普及、(4)予防歯科への転換。小規模事業体が支配的な産業構造がイノベーション普及パターンを規定。",
+    "impact_summary": "歯科セクターのデジタル変革とイノベーション動態の理解",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Florian.",
+      " 2016"
+    ],
+    "key_works": [
+      "Digital dentistry: an overview (2017)"
+    ],
+    "industry_tags": "dentistry, dental materials, CAD/CAM",
+    "school_of_thought": "歯科イノベーション論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "digital_transformation,material_science",
+    "keywords_en": "dental innovation, CAD/CAM dentistry, digital workflow, dental materials",
+    "keywords_ja": "歯科イノベーション,CAD/CAM歯科,デジタルワークフロー",
+    "opposing_concept_names": "traditional analog dentistry",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_242",
+    "name_en": "Pharmaceutical Intellectual Property Strategy",
+    "name_ja": "医薬品知的財産戦略",
+    "definition": "医薬品産業における特許戦略・データ独占権・商標戦略の複合的イノベーション保護メカニズム。パテントクラスタリング・エバーグリーニング・REMS独占等の戦略的行動が競争構造とジェネリック参入タイミングを規定。Hatch-Waxman法の枠組みが米国市場の構造的基盤。",
+    "impact_summary": "医薬品の知財戦略と市場競争構造の関係の理解",
+    "era_start": 1984,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Robin Feldman",
+      "Arti Rai"
+    ],
+    "key_works": [
+      "May your drug price be evergreen (2018)"
+    ],
+    "industry_tags": "pharmaceutical, intellectual property, patent law",
+    "school_of_thought": "医薬品知財論",
+    "innovation_type": "institutional,strategic",
+    "cognitive_mechanism": "appropriability,strategic",
+    "keywords_en": "pharmaceutical IP, patent strategy, evergreening, data exclusivity, Hatch-Waxman",
+    "keywords_ja": "医薬品知財,特許戦略,エバーグリーニング,データ独占権",
+    "opposing_concept_names": "open-source drug development",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_243",
+    "name_en": "Wearable Health Monitoring Innovation",
+    "name_ja": "ウェアラブル健康モニタリングイノベーション",
+    "definition": "Apple Watch・Fitbit等のウェアラブルデバイスによる継続的健康モニタリングの革新。消費者向け技術と医療グレードの境界融解が進行。心電図・血中酸素・心房細動検出等の機能追加により、セルフケアと臨床介入の接続が実現しつつある。FDA/MDR等の規制適応が進展課題。",
+    "impact_summary": "消費者ヘルステクノロジーと医療の融合メカニズムの理解",
+    "era_start": 2014,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Eric Topol",
+      "Steven Steinhubl"
+    ],
+    "key_works": [
+      "Novel approaches to monitoring and management of health (2018)"
+    ],
+    "industry_tags": "wearables, digital health, consumer electronics",
+    "school_of_thought": "ウェアラブルヘルス論",
+    "innovation_type": "product,service",
+    "cognitive_mechanism": "convergence,consumer_driven",
+    "keywords_en": "wearable health monitoring, Apple Watch, continuous monitoring, consumer health",
+    "keywords_ja": "ウェアラブル健康モニタリング,継続的モニタリング,消費者ヘルス",
+    "opposing_concept_names": "episodic clinical monitoring",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_244",
+    "name_en": "Pharmaceutical Sustainability Innovation",
+    "name_ja": "製薬サステナビリティイノベーション",
+    "definition": "医薬品産業の環境負荷低減に向けたグリーンケミストリー・プロセス効率化・サプライチェーン持続可能性のイノベーション。化学合成の溶媒削減・連続フロー製造・バイオ触媒の活用が環境効率性と経済効率性を同時に改善。ESG投資圧力が推進力。",
+    "impact_summary": "製薬産業の持続可能性転換と環境イノベーションの推進",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Roger Sheldon",
+      "John Warner"
+    ],
+    "key_works": [
+      "Green chemistry in the pharmaceutical industry (2010)"
+    ],
+    "industry_tags": "pharmaceutical, green chemistry, sustainability",
+    "school_of_thought": "グリーンファーマ論",
+    "innovation_type": "process,organizational",
+    "cognitive_mechanism": "sustainability,efficiency",
+    "keywords_en": "green pharmacy, sustainable manufacturing, continuous flow, biocatalysis, ESG",
+    "keywords_ja": "グリーンファーマ,持続可能製造,連続フロー,バイオ触媒",
+    "opposing_concept_names": "traditional batch manufacturing",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_245",
+    "name_en": "Rare Disease Innovation Ecosystem",
+    "name_ja": "希少疾患イノベーションエコシステム",
+    "definition": "希少疾患治療における患者団体・研究者・バイオテック・規制当局・資金提供者の協働エコシステム。患者レジストリの構築・自然歴研究・患者参加型研究デザインが、小規模患者集団でのエビデンス構築を可能にする。患者団体がイノベーションの推進者として独自の役割を担う。",
+    "impact_summary": "希少疾患領域の多ステークホルダー型イノベーション推進モデル",
+    "era_start": 2008,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Sharon Terry",
+      "Austin Regan"
+    ],
+    "key_works": [
+      "Patient-centered approaches to rare disease research (2015)"
+    ],
+    "industry_tags": "rare diseases, patient advocacy, biotechnology",
+    "school_of_thought": "希少疾患エコシステム論",
+    "innovation_type": "institutional,organizational",
+    "cognitive_mechanism": "ecosystem,patient_driven",
+    "keywords_en": "rare disease ecosystem, patient registry, patient advocacy, natural history study",
+    "keywords_ja": "希少疾患エコシステム,患者レジストリ,患者アドボカシー",
+    "opposing_concept_names": "industry-led drug development",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_246",
+    "name_en": "Healthcare Blockchain Applications",
+    "name_ja": "医療ブロックチェーン応用",
+    "definition": "分散型台帳技術の医療セクター応用。電子健康記録の相互運用性・臨床試験データの完全性・医薬品サプライチェーントレーサビリティ・保険請求処理の効率化等の用途。技術的成熟度と制度的受容性のギャップが実装速度を制約する典型例。",
+    "impact_summary": "医療データ管理におけるブロックチェーン技術の可能性と限界",
+    "era_start": 2016,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "John Halamka",
+      "Ariel Ekblaw"
+    ],
+    "key_works": [
+      "A case study for blockchain in healthcare (2016)"
+    ],
+    "industry_tags": "health IT, blockchain, data management",
+    "school_of_thought": "医療ブロックチェーン論",
+    "innovation_type": "process,infrastructure",
+    "cognitive_mechanism": "distributed,trust_architecture",
+    "keywords_en": "healthcare blockchain, distributed ledger, data interoperability, supply chain",
+    "keywords_ja": "医療ブロックチェーン,分散型台帳,データ相互運用性",
+    "opposing_concept_names": "centralized database approach",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_247",
+    "name_en": "Pharmaceutical Emerging Market Innovation",
+    "name_ja": "新興国医薬品イノベーション",
+    "definition": "インド・中国・ブラジル等の新興国における医薬品産業のキャッチアップ型イノベーション。ジェネリック製造能力の構築から自主的創薬能力の獲得へと進化するプロセス。逆イノベーション（新興国発→先進国へ）の事例も増加。規制調和・知財制度・人材育成が発展の制約要因。",
+    "impact_summary": "新興国医薬品産業の発展経路とグローバル産業構造変化",
+    "era_start": 2005,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Sudip Chaudhuri",
+      "Fabio Pammolli"
+    ],
+    "key_works": [
+      "The Indian pharmaceutical industry (2005)"
+    ],
+    "industry_tags": "pharmaceutical, emerging markets, generic drugs",
+    "school_of_thought": "新興国産業発展論",
+    "innovation_type": "product,institutional",
+    "cognitive_mechanism": "catch_up,reverse_innovation",
+    "keywords_en": "emerging market pharma, India generics, catch-up innovation, reverse innovation",
+    "keywords_ja": "新興国医薬品,インドジェネリック,キャッチアップ,逆イノベーション",
+    "opposing_concept_names": "developed country innovation monopoly",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_248",
+    "name_en": "Genomic Medicine Implementation",
+    "name_ja": "ゲノム医療実装",
+    "definition": "ゲノム解析技術（次世代シーケンサー等）の臨床実装プロセス。技術コスト低下と臨床的有用性のエビデンス蓄積により、がんゲノムプロファイリング・薬理ゲノミクス・出生前遺伝学検査等が普及。医療従事者の教育・倫理的課題・保険適用の制度整備が実装の鍵。",
+    "impact_summary": "ゲノム技術の臨床翻訳と実装科学の理論的基盤",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Eric Green",
+      "Teri Manolio"
+    ],
+    "key_works": [
+      "Charting a course for genomic medicine (2011)"
+    ],
+    "industry_tags": "genomics, diagnostics, personalized medicine",
+    "school_of_thought": "ゲノム医療実装論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "implementation_science,translation",
+    "keywords_en": "genomic medicine, NGS, cancer genomics, pharmacogenomics, implementation",
+    "keywords_ja": "ゲノム医療,次世代シーケンサー,がんゲノミクス,薬理ゲノミクス",
+    "opposing_concept_names": "one-gene-at-a-time diagnostics",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_249",
+    "name_en": "Public Health Surveillance Innovation",
+    "name_ja": "公衆衛生サーベイランスイノベーション",
+    "definition": "疾病監視システムのデジタル革新。ゲノムサーベイランス・下水疫学・モバイルデータ解析・AI予測モデルの統合により、感染症アウトブレイクの早期検知能力が飛躍的に向上。COVID-19パンデミックが技術開発・制度整備の大幅な加速装置として機能。",
+    "impact_summary": "感染症監視の技術革新とパンデミック対応能力の向上",
+    "era_start": 2005,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Larry Brilliant",
+      "Jennifer Gardy"
+    ],
+    "key_works": [
+      "Genomic epidemiology: big-data-driven approaches to infectious disease (2014)"
+    ],
+    "industry_tags": "public health, epidemiology, surveillance technology",
+    "school_of_thought": "デジタル疫学",
+    "innovation_type": "process,systemic",
+    "cognitive_mechanism": "surveillance,predictive",
+    "keywords_en": "public health surveillance, genomic surveillance, wastewater epidemiology, AI prediction",
+    "keywords_ja": "公衆衛生サーベイランス,ゲノムサーベイランス,下水疫学",
+    "opposing_concept_names": "traditional passive surveillance",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_250",
+    "name_en": "3D Bioprinting in Healthcare",
+    "name_ja": "医療3Dバイオプリンティング",
+    "definition": "3D印刷技術を活用した医療デバイス・インプラント・組織・臓器の製造イノベーション。個別化インプラント・手術計画モデル・バイオプリンティング（生体組織製造）の3段階で進化。規制枠組みの整備と品質保証が実用化の制約要因。",
+    "impact_summary": "個別化医療製造の技術的可能性と産業的課題の理解",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Anthony Atala",
+      "Jennifer Lewis"
+    ],
+    "key_works": [
+      "3D bioprinting for organ fabrication (2014)"
+    ],
+    "industry_tags": "3D printing, medical devices, tissue engineering",
+    "school_of_thought": "バイオプリンティング論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "additive_manufacturing,personalization",
+    "keywords_en": "3D bioprinting, personalized implants, tissue engineering, additive manufacturing",
+    "keywords_ja": "3Dバイオプリンティング,個別化インプラント,組織工学",
+    "opposing_concept_names": "mass-produced medical devices",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  }
+]

@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "inno_trans_301",
+    "name_en": "Co-evolution of Supply and Demand",
+    "name_ja": "供給と需要の共進化",
+    "definition": "供給と需要の共進化に関する理論・概念。Co-evolution of Supply and Demandの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Co-evolution of Supply and Demandに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Co-evolution of Supply and Demand (2005)"
+    ],
+    "keywords_ja": "供給と需要の共進化",
+    "keywords_en": "co-evolution of supply and demand",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_302",
+    "name_en": "Transition Politics of Incumbents",
+    "name_ja": "インカンベントのトランジション政治学",
+    "definition": "インカンベントのトランジション政治学に関する理論・概念。Transition Politics of Incumbentsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Politics of Incumbentsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Transition Politics of Incumbents (2006)"
+    ],
+    "keywords_ja": "インカンベントのトランジション政治学",
+    "keywords_en": "transition politics of incumbents",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_303",
+    "name_en": "Socio-Technical Innovation Journeys",
+    "name_ja": "社会技術的イノベーション・ジャーニー",
+    "definition": "社会技術的イノベーション・ジャーニーに関する理論・概念。Socio-Technical Innovation Journeysの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Innovation Journeysに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Innovation Journeys (2007)"
+    ],
+    "keywords_ja": "社会技術的イノベーション・ジャーニー",
+    "keywords_en": "socio-technical innovation journeys",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_304",
+    "name_en": "Infrastructure Transitions",
+    "name_ja": "インフラトランジション",
+    "definition": "インフラトランジションに関する理論・概念。Infrastructure Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Infrastructure Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Infrastructure Transitions (2008)"
+    ],
+    "keywords_ja": "インフラトランジション",
+    "keywords_en": "infrastructure transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_305",
+    "name_en": "Regime Shift Indicators",
+    "name_ja": "レジームシフト指標",
+    "definition": "レジームシフト指標に関する理論・概念。Regime Shift Indicatorsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regime Shift Indicatorsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Regime Shift Indicators (2009)"
+    ],
+    "keywords_ja": "レジームシフト指標",
+    "keywords_en": "regime shift indicators",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_306",
+    "name_en": "Mobility Transitions",
+    "name_ja": "モビリティトランジション",
+    "definition": "モビリティトランジションに関する理論・概念。Mobility Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Mobility Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Mobility Transitions (2010)"
+    ],
+    "keywords_ja": "モビリティトランジション",
+    "keywords_en": "mobility transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_307",
+    "name_en": "Energy Transition Governance Models",
+    "name_ja": "エネルギートランジションのガバナンスモデル",
+    "definition": "エネルギートランジションのガバナンスモデルに関する理論・概念。Energy Transition Governance Modelsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Transition Governance Modelsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Energy Transition Governance Models (2011)"
+    ],
+    "keywords_ja": "エネルギートランジションのガバナンスモデル",
+    "keywords_en": "energy transition governance models",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_308",
+    "name_en": "Transition Pathway: Substitution Extended",
+    "name_ja": "トランジション経路：代替（拡張）",
+    "definition": "トランジション経路：代替（拡張）に関する理論・概念。Transition Pathway: Substitution Extendedの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Pathway: Substitution Extendedに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Transition Pathway: Substitution Extended (2012)"
+    ],
+    "keywords_ja": "トランジション経路：代替（拡張）",
+    "keywords_en": "transition pathway: substitution extended",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_309",
+    "name_en": "Socio-Technical System Boundaries",
+    "name_ja": "社会技術システムの境界",
+    "definition": "社会技術システムの境界に関する理論・概念。Socio-Technical System Boundariesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical System Boundariesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical System Boundaries (2013)"
+    ],
+    "keywords_ja": "社会技術システムの境界",
+    "keywords_en": "socio-technical system boundaries",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_310",
+    "name_en": "Transition Intermediary Organizations",
+    "name_ja": "トランジション仲介組織",
+    "definition": "トランジション仲介組織に関する理論・概念。Transition Intermediary Organizationsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Intermediary Organizationsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Transition Intermediary Organizations (2014)"
+    ],
+    "keywords_ja": "トランジション仲介組織",
+    "keywords_en": "transition intermediary organizations",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_311",
+    "name_en": "Niches as Safe Spaces",
+    "name_ja": "安全空間としてのニッチ",
+    "definition": "安全空間としてのニッチに関する理論・概念。Niches as Safe Spacesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niches as Safe Spacesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Niches as Safe Spaces (2015)"
+    ],
+    "keywords_ja": "安全空間としてのニッチ",
+    "keywords_en": "niches as safe spaces",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_312",
+    "name_en": "Transition Policy Mixes",
+    "name_ja": "トランジション政策ミックス",
+    "definition": "トランジション政策ミックスに関する理論・概念。Transition Policy Mixesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Policy Mixesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Transition Policy Mixes (2016)"
+    ],
+    "keywords_ja": "トランジション政策ミックス",
+    "keywords_en": "transition policy mixes",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_313",
+    "name_en": "Innovation and Exnovation Policy Mix",
+    "name_ja": "イノベーションとエクスノベーションの政策ミックス",
+    "definition": "イノベーションとエクスノベーションの政策ミックスに関する理論・概念。Innovation and Exnovation Policy Mixの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Exnovation Policy Mixに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Innovation and Exnovation Policy Mix (2017)"
+    ],
+    "keywords_ja": "イノベーションとエクスノベーションの政策ミックス",
+    "keywords_en": "innovation and exnovation policy mix",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_314",
+    "name_en": "Regime Resilience",
+    "name_ja": "レジームのレジリエンス",
+    "definition": "レジームのレジリエンスに関する理論・概念。Regime Resilienceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regime Resilienceに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Regime Resilience (2018)"
+    ],
+    "keywords_ja": "レジームのレジリエンス",
+    "keywords_en": "regime resilience",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_315",
+    "name_en": "Post-Transition Stabilisation",
+    "name_ja": "トランジション後の安定化",
+    "definition": "トランジション後の安定化に関する理論・概念。Post-Transition Stabilisationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Post-Transition Stabilisationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Post-Transition Stabilisation (2019)"
+    ],
+    "keywords_ja": "トランジション後の安定化",
+    "keywords_en": "post-transition stabilisation",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_316",
+    "name_en": "Second-Order Transition Governance",
+    "name_ja": "二次的トランジションガバナンス",
+    "definition": "二次的トランジションガバナンスに関する理論・概念。Second-Order Transition Governanceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Second-Order Transition Governanceに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Second-Order Transition Governance (2020)"
+    ],
+    "keywords_ja": "二次的トランジションガバナンス",
+    "keywords_en": "second-order transition governance",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_317",
+    "name_en": "Transition and Everyday Life",
+    "name_ja": "トランジションと日常生活",
+    "definition": "トランジションと日常生活に関する理論・概念。Transition and Everyday Lifeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Everyday Lifeに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Transition and Everyday Life (2021)"
+    ],
+    "keywords_ja": "トランジションと日常生活",
+    "keywords_en": "transition and everyday life",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_318",
+    "name_en": "Industrial Symbiosis and Transitions",
+    "name_ja": "産業共生とトランジション",
+    "definition": "産業共生とトランジションに関する理論・概念。Industrial Symbiosis and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Industrial Symbiosis and Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Industrial Symbiosis and Transitions (2022)"
+    ],
+    "keywords_ja": "産業共生とトランジション",
+    "keywords_en": "industrial symbiosis and transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_319",
+    "name_en": "Transition and Spatial Planning",
+    "name_ja": "トランジションと空間計画",
+    "definition": "トランジションと空間計画に関する理論・概念。Transition and Spatial Planningの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Spatial Planningに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition and Spatial Planning (2023)"
+    ],
+    "keywords_ja": "トランジションと空間計画",
+    "keywords_en": "transition and spatial planning",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_320",
+    "name_en": "Technology Legitimation in Transitions",
+    "name_ja": "トランジションにおける技術正当化",
+    "definition": "トランジションにおける技術正当化に関する理論・概念。Technology Legitimation in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Technology Legitimation in Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Technology Legitimation in Transitions (2024)"
+    ],
+    "keywords_ja": "トランジションにおける技術正当化",
+    "keywords_en": "technology legitimation in transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_321",
+    "name_en": "Transitions and Welfare States",
+    "name_ja": "トランジションと福祉国家",
+    "definition": "トランジションと福祉国家に関する理論・概念。Transitions and Welfare Statesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transitions and Welfare Statesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Transitions and Welfare States (2005)"
+    ],
+    "keywords_ja": "トランジションと福祉国家",
+    "keywords_en": "transitions and welfare states",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_322",
+    "name_en": "Discourse Coalitions in Regimes",
+    "name_ja": "レジームにおける言説連合",
+    "definition": "レジームにおける言説連合に関する理論・概念。Discourse Coalitions in Regimesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Discourse Coalitions in Regimesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Discourse Coalitions in Regimes (2006)"
+    ],
+    "keywords_ja": "レジームにおける言説連合",
+    "keywords_en": "discourse coalitions in regimes",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_323",
+    "name_en": "Innovation Platforms for Sustainability",
+    "name_ja": "持続可能性のためのイノベーションプラットフォーム",
+    "definition": "持続可能性のためのイノベーションプラットフォームに関する理論・概念。Innovation Platforms for Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Platforms for Sustainabilityに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Innovation Platforms for Sustainability (2007)"
+    ],
+    "keywords_ja": "持続可能性のためのイノベーションプラットフォーム",
+    "keywords_en": "innovation platforms for sustainability",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_324",
+    "name_en": "Multi-Scalar Transition Analysis",
+    "name_ja": "マルチスカラーなトランジション分析",
+    "definition": "マルチスカラーなトランジション分析に関する理論・概念。Multi-Scalar Transition Analysisの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Multi-Scalar Transition Analysisに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Multi-Scalar Transition Analysis (2008)"
+    ],
+    "keywords_ja": "マルチスカラーなトランジション分析",
+    "keywords_en": "multi-scalar transition analysis",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_325",
+    "name_en": "Transition and Labour Market Restructuring",
+    "name_ja": "トランジションと労働市場再編",
+    "definition": "トランジションと労働市場再編に関する理論・概念。Transition and Labour Market Restructuringの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Labour Market Restructuringに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Transition and Labour Market Restructuring (2009)"
+    ],
+    "keywords_ja": "トランジションと労働市場再編",
+    "keywords_en": "transition and labour market restructuring",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_326",
+    "name_en": "Proactive Regime Response",
+    "name_ja": "レジームのプロアクティブな応答",
+    "definition": "レジームのプロアクティブな応答に関する理論・概念。Proactive Regime Responseの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Proactive Regime Responseに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Proactive Regime Response (2010)"
+    ],
+    "keywords_ja": "レジームのプロアクティブな応答",
+    "keywords_en": "proactive regime response",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_327",
+    "name_en": "Transition Indicators Dashboard",
+    "name_ja": "トランジション指標ダッシュボード",
+    "definition": "トランジション指標ダッシュボードに関する理論・概念。Transition Indicators Dashboardの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Indicators Dashboardに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Transition Indicators Dashboard (2011)"
+    ],
+    "keywords_ja": "トランジション指標ダッシュボード",
+    "keywords_en": "transition indicators dashboard",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_328",
+    "name_en": "Power Asymmetries in Transitions",
+    "name_ja": "トランジションにおける権力の非対称性",
+    "definition": "トランジションにおける権力の非対称性に関する理論・概念。Power Asymmetries in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Power Asymmetries in Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Power Asymmetries in Transitions (2012)"
+    ],
+    "keywords_ja": "トランジションにおける権力の非対称性",
+    "keywords_en": "power asymmetries in transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_329",
+    "name_en": "Low-Carbon Industrial Transitions",
+    "name_ja": "産業部門の低炭素トランジション",
+    "definition": "産業部門の低炭素トランジションに関する理論・概念。Low-Carbon Industrial Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Low-Carbon Industrial Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Low-Carbon Industrial Transitions (2013)"
+    ],
+    "keywords_ja": "産業部門の低炭素トランジション",
+    "keywords_en": "low-carbon industrial transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_330",
+    "name_en": "Transition and Digital Platforms",
+    "name_ja": "トランジションとデジタルプラットフォーム",
+    "definition": "トランジションとデジタルプラットフォームに関する理論・概念。Transition and Digital Platformsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Digital Platformsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Transition and Digital Platforms (2014)"
+    ],
+    "keywords_ja": "トランジションとデジタルプラットフォーム",
+    "keywords_en": "transition and digital platforms",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_331",
+    "name_en": "Transition Knowledge Politics",
+    "name_ja": "トランジション知識の政治学",
+    "definition": "トランジション知識の政治学に関する理論・概念。Transition Knowledge Politicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Knowledge Politicsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Transition Knowledge Politics (2015)"
+    ],
+    "keywords_ja": "トランジション知識の政治学",
+    "keywords_en": "transition knowledge politics",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_332",
+    "name_en": "Scenario Assessment Framework",
+    "name_ja": "シナリオ評価フレームワーク",
+    "definition": "シナリオ評価フレームワークに関する理論・概念。Scenario Assessment Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Scenario Assessment Frameworkに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Scenario Assessment Framework (2016)"
+    ],
+    "keywords_ja": "シナリオ評価フレームワーク",
+    "keywords_en": "scenario assessment framework",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_333",
+    "name_en": "Transition Governance and Democracy",
+    "name_ja": "トランジションガバナンスと民主主義",
+    "definition": "トランジションガバナンスと民主主義に関する理論・概念。Transition Governance and Democracyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Governance and Democracyに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Transition Governance and Democracy (2017)"
+    ],
+    "keywords_ja": "トランジションガバナンスと民主主義",
+    "keywords_en": "transition governance and democracy",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_334",
+    "name_en": "Innovation Systems and Transitions Nexus",
+    "name_ja": "イノベーションシステムとトランジションのネクサス",
+    "definition": "イノベーションシステムとトランジションのネクサスに関する理論・概念。Innovation Systems and Transitions Nexusの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Systems and Transitions Nexusに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Innovation Systems and Transitions Nexus (2018)"
+    ],
+    "keywords_ja": "イノベーションシステムとトランジションのネクサス",
+    "keywords_en": "innovation systems and transitions nexus",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_335",
+    "name_en": "Transition and Degrowth",
+    "name_ja": "トランジションと脱成長",
+    "definition": "トランジションと脱成長に関する理論・概念。Transition and Degrowthの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Degrowthに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Transition and Degrowth (2019)"
+    ],
+    "keywords_ja": "トランジションと脱成長",
+    "keywords_en": "transition and degrowth",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_336",
+    "name_en": "Reverse Salient in Transitions",
+    "name_ja": "トランジションにおけるリバースサリエント",
+    "definition": "トランジションにおけるリバースサリエントに関する理論・概念。Reverse Salient in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Reverse Salient in Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Reverse Salient in Transitions (2020)"
+    ],
+    "keywords_ja": "トランジションにおけるリバースサリエント",
+    "keywords_en": "reverse salient in transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_337",
+    "name_en": "Transition and Environmental Justice",
+    "name_ja": "トランジションと環境正義",
+    "definition": "トランジションと環境正義に関する理論・概念。Transition and Environmental Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Environmental Justiceに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Transition and Environmental Justice (2021)"
+    ],
+    "keywords_ja": "トランジションと環境正義",
+    "keywords_en": "transition and environmental justice",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_338",
+    "name_en": "Socio-Technical Alignment and Misalignment",
+    "name_ja": "社会技術的整合と不整合",
+    "definition": "社会技術的整合と不整合に関する理論・概念。Socio-Technical Alignment and Misalignmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Alignment and Misalignmentに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Alignment and Misalignment (2022)"
+    ],
+    "keywords_ja": "社会技術的整合と不整合",
+    "keywords_en": "socio-technical alignment and misalignment",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_339",
+    "name_en": "Transition Research Methodology",
+    "name_ja": "トランジション研究方法論",
+    "definition": "トランジション研究方法論に関する理論・概念。Transition Research Methodologyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Research Methodologyに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition Research Methodology (2023)"
+    ],
+    "keywords_ja": "トランジション研究方法論",
+    "keywords_en": "transition research methodology",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_340",
+    "name_en": "MLP and Practice Theory Integration",
+    "name_ja": "多層視点と実践理論の統合",
+    "definition": "多層視点と実践理論の統合に関する理論・概念。MLP and Practice Theory Integrationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Practice Theory Integrationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on MLP and Practice Theory Integration (2024)"
+    ],
+    "keywords_ja": "多層視点と実践理論の統合",
+    "keywords_en": "mlp and practice theory integration",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_341",
+    "name_en": "Just Decarbonisation",
+    "name_ja": "公正な脱炭素化",
+    "definition": "公正な脱炭素化に関する理論・概念。Just Decarbonisationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Decarbonisationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Just Decarbonisation (2005)"
+    ],
+    "keywords_ja": "公正な脱炭素化",
+    "keywords_en": "just decarbonisation",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_342",
+    "name_en": "Transition Experimentation Platforms",
+    "name_ja": "トランジション実験プラットフォーム",
+    "definition": "トランジション実験プラットフォームに関する理論・概念。Transition Experimentation Platformsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Experimentation Platformsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Transition Experimentation Platforms (2006)"
+    ],
+    "keywords_ja": "トランジション実験プラットフォーム",
+    "keywords_en": "transition experimentation platforms",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_343",
+    "name_en": "Socio-Technical Futures Literacy",
+    "name_ja": "社会技術的フューチャーズリテラシー",
+    "definition": "社会技術的フューチャーズリテラシーに関する理論・概念。Socio-Technical Futures Literacyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Futures Literacyに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Futures Literacy (2007)"
+    ],
+    "keywords_ja": "社会技術的フューチャーズリテラシー",
+    "keywords_en": "socio-technical futures literacy",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_344",
+    "name_en": "Accelerating Urban Transitions",
+    "name_ja": "都市トランジションの加速",
+    "definition": "都市トランジションの加速に関する理論・概念。Accelerating Urban Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Accelerating Urban Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Accelerating Urban Transitions (2008)"
+    ],
+    "keywords_ja": "都市トランジションの加速",
+    "keywords_en": "accelerating urban transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_345",
+    "name_en": "Circular Bioeconomy Transition",
+    "name_ja": "サーキュラーバイオエコノミートランジション",
+    "definition": "サーキュラーバイオエコノミートランジションに関する理論・概念。Circular Bioeconomy Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Bioeconomy Transitionに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Circular Bioeconomy Transition (2009)"
+    ],
+    "keywords_ja": "サーキュラーバイオエコノミートランジション",
+    "keywords_en": "circular bioeconomy transition",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_346",
+    "name_en": "Regulatory Capture and Regimes",
+    "name_ja": "規制の捕獲とレジーム",
+    "definition": "規制の捕獲とレジームに関する理論・概念。Regulatory Capture and Regimesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regulatory Capture and Regimesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Regulatory Capture and Regimes (2010)"
+    ],
+    "keywords_ja": "規制の捕獲とレジーム",
+    "keywords_en": "regulatory capture and regimes",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_347",
+    "name_en": "Leapfrogging in Transitions",
+    "name_ja": "トランジションにおけるリープフロッグ",
+    "definition": "トランジションにおけるリープフロッグに関する理論・概念。Leapfrogging in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Leapfrogging in Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Leapfrogging in Transitions (2011)"
+    ],
+    "keywords_ja": "トランジションにおけるリープフロッグ",
+    "keywords_en": "leapfrogging in transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_348",
+    "name_en": "Accelerator Mechanisms for Clean Energy",
+    "name_ja": "クリーンエネルギーの加速メカニズム",
+    "definition": "クリーンエネルギーの加速メカニズムに関する理論・概念。Accelerator Mechanisms for Clean Energyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Accelerator Mechanisms for Clean Energyに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Accelerator Mechanisms for Clean Energy (2012)"
+    ],
+    "keywords_ja": "クリーンエネルギーの加速メカニズム",
+    "keywords_en": "accelerator mechanisms for clean energy",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_349",
+    "name_en": "Transition and Supply Chain Transformation",
+    "name_ja": "トランジションとサプライチェーン変革",
+    "definition": "トランジションとサプライチェーン変革に関する理論・概念。Transition and Supply Chain Transformationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Supply Chain Transformationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition and Supply Chain Transformation (2013)"
+    ],
+    "keywords_ja": "トランジションとサプライチェーン変革",
+    "keywords_en": "transition and supply chain transformation",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_350",
+    "name_en": "Niche Typology",
+    "name_ja": "ニッチの類型論",
+    "definition": "ニッチの類型論に関する理論・概念。Niche Typologyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche Typologyに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Niche Typology (2014)"
+    ],
+    "keywords_ja": "ニッチの類型論",
+    "keywords_en": "niche typology",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  }
+]

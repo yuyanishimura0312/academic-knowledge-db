@@ -1,0 +1,1107 @@
+[
+  {
+    "id": "inno_trans_601",
+    "name_en": "Energy Access Justice",
+    "name_ja": "エネルギーアクセス正義",
+    "definition": "エネルギーアクセス正義に関する理論・概念。Energy Access Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Access Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2005,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Raphael Heffron",
+      "Darren McCauley"
+    ],
+    "key_works": [
+      "Key work on Energy Access Justice (2005)"
+    ],
+    "keywords_ja": "エネルギーアクセス正義",
+    "keywords_en": "energy access justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_602",
+    "name_en": "Regional Economic Diversification",
+    "name_ja": "地域経済多様化",
+    "definition": "地域経済多様化に関する理論・概念。Regional Economic Diversificationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regional Economic Diversificationに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2006,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Regional Economic Diversification (2006)"
+    ],
+    "keywords_ja": "地域経済多様化",
+    "keywords_en": "regional economic diversification",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_603",
+    "name_en": "Restorative Energy Justice",
+    "name_ja": "修復的エネルギー正義",
+    "definition": "修復的エネルギー正義に関する理論・概念。Restorative Energy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Restorative Energy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2007,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Kirsten Jenkins"
+    ],
+    "key_works": [
+      "Key work on Restorative Energy Justice (2007)"
+    ],
+    "keywords_ja": "修復的エネルギー正義",
+    "keywords_en": "restorative energy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_604",
+    "name_en": "Just Transition and Trade Unions",
+    "name_ja": "公正なトランジションと労働組合",
+    "definition": "公正なトランジションと労働組合に関する理論・概念。Just Transition and Trade Unionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Trade Unionsに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2008,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "David Schlosberg"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Trade Unions (2008)"
+    ],
+    "keywords_ja": "公正なトランジションと労働組合",
+    "keywords_en": "just transition and trade unions",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_605",
+    "name_en": "Energy Sovereignty",
+    "name_ja": "エネルギー主権",
+    "definition": "エネルギー主権に関する理論・概念。Energy Sovereigntyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Sovereigntyに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2009,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Dimitris Stevis"
+    ],
+    "key_works": [
+      "Key work on Energy Sovereignty (2009)"
+    ],
+    "keywords_ja": "エネルギー主権",
+    "keywords_en": "energy sovereignty",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_606",
+    "name_en": "Just Transition and Mental Health",
+    "name_ja": "公正なトランジションとメンタルヘルス",
+    "definition": "公正なトランジションとメンタルヘルスに関する理論・概念。Just Transition and Mental Healthの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Mental Healthに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2010,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Edouard Morena"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Mental Health (2010)"
+    ],
+    "keywords_ja": "公正なトランジションとメンタルヘルス",
+    "keywords_en": "just transition and mental health",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_607",
+    "name_en": "Energy Justice and Urban Planning",
+    "name_ja": "エネルギー正義と都市計画",
+    "definition": "エネルギー正義と都市計画に関する理論・概念。Energy Justice and Urban Planningの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Justice and Urban Planningに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2011,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Stefan Bouzarovski"
+    ],
+    "key_works": [
+      "Key work on Energy Justice and Urban Planning (2011)"
+    ],
+    "keywords_ja": "エネルギー正義と都市計画",
+    "keywords_en": "energy justice and urban planning",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_608",
+    "name_en": "Just Transition Indicators",
+    "name_ja": "公正なトランジションの指標",
+    "definition": "公正なトランジションの指標に関する理論・概念。Just Transition Indicatorsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition Indicatorsに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2012,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Noel Healy"
+    ],
+    "key_works": [
+      "Key work on Just Transition Indicators (2012)"
+    ],
+    "keywords_ja": "公正なトランジションの指標",
+    "keywords_en": "just transition indicators",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_609",
+    "name_en": "Energy Justice and Transport",
+    "name_ja": "エネルギー正義と交通",
+    "definition": "エネルギー正義と交通に関する理論・概念。Energy Justice and Transportの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Justice and Transportに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2013,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Johanna Bozuwa"
+    ],
+    "key_works": [
+      "Key work on Energy Justice and Transport (2013)"
+    ],
+    "keywords_ja": "エネルギー正義と交通",
+    "keywords_en": "energy justice and transport",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_610",
+    "name_en": "Just Transition Social Protection",
+    "name_ja": "公正なトランジションと社会保護",
+    "definition": "公正なトランジションと社会保護に関する理論・概念。Just Transition Social Protectionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition Social Protectionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2014,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Jennie Stephens"
+    ],
+    "key_works": [
+      "Key work on Just Transition Social Protection (2014)"
+    ],
+    "keywords_ja": "公正なトランジションと社会保護",
+    "keywords_en": "just transition social protection",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_611",
+    "name_en": "Energy Justice and Heat",
+    "name_ja": "エネルギー正義と暖房",
+    "definition": "エネルギー正義と暖房に関する理論・概念。Energy Justice and Heatの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Justice and Heatに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2015,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Raphael Heffron",
+      "Darren McCauley"
+    ],
+    "key_works": [
+      "Key work on Energy Justice and Heat (2015)"
+    ],
+    "keywords_ja": "エネルギー正義と暖房",
+    "keywords_en": "energy justice and heat",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_612",
+    "name_en": "Just Transition in Petrochemical Regions",
+    "name_ja": "石油化学地域の公正なトランジション",
+    "definition": "石油化学地域の公正なトランジションに関する理論・概念。Just Transition in Petrochemical Regionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition in Petrochemical Regionsに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2016,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Just Transition in Petrochemical Regions (2016)"
+    ],
+    "keywords_ja": "石油化学地域の公正なトランジション",
+    "keywords_en": "just transition in petrochemical regions",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_613",
+    "name_en": "Renewable Energy Siting Justice",
+    "name_ja": "再エネ立地の正義",
+    "definition": "再エネ立地の正義に関する理論・概念。Renewable Energy Siting Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Renewable Energy Siting Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2017,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Kirsten Jenkins"
+    ],
+    "key_works": [
+      "Key work on Renewable Energy Siting Justice (2017)"
+    ],
+    "keywords_ja": "再エネ立地の正義",
+    "keywords_en": "renewable energy siting justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_614",
+    "name_en": "Just Transition and Food Systems",
+    "name_ja": "公正なトランジションと食料システム",
+    "definition": "公正なトランジションと食料システムに関する理論・概念。Just Transition and Food Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Food Systemsに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2018,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "David Schlosberg"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Food Systems (2018)"
+    ],
+    "keywords_ja": "公正なトランジションと食料システム",
+    "keywords_en": "just transition and food systems",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_615",
+    "name_en": "Nuclear Phase-Out Justice",
+    "name_ja": "脱原発の正義",
+    "definition": "脱原発の正義に関する理論・概念。Nuclear Phase-Out Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Nuclear Phase-Out Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2019,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Dimitris Stevis"
+    ],
+    "key_works": [
+      "Key work on Nuclear Phase-Out Justice (2019)"
+    ],
+    "keywords_ja": "脱原発の正義",
+    "keywords_en": "nuclear phase-out justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_616",
+    "name_en": "Just Transition and Circular Economy",
+    "name_ja": "公正なトランジションとサーキュラーエコノミー",
+    "definition": "公正なトランジションとサーキュラーエコノミーに関する理論・概念。Just Transition and Circular Economyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Circular Economyに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2020,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Edouard Morena"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Circular Economy (2020)"
+    ],
+    "keywords_ja": "公正なトランジションとサーキュラーエコノミー",
+    "keywords_en": "just transition and circular economy",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_617",
+    "name_en": "Energy Colonialism",
+    "name_ja": "エネルギー植民地主義",
+    "definition": "エネルギー植民地主義に関する理論・概念。Energy Colonialismの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Colonialismに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2021,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Stefan Bouzarovski"
+    ],
+    "key_works": [
+      "Key work on Energy Colonialism (2021)"
+    ],
+    "keywords_ja": "エネルギー植民地主義",
+    "keywords_en": "energy colonialism",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_618",
+    "name_en": "Just Transition and Youth",
+    "name_ja": "公正なトランジションと若者",
+    "definition": "公正なトランジションと若者に関する理論・概念。Just Transition and Youthの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Youthに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2022,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Noel Healy"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Youth (2022)"
+    ],
+    "keywords_ja": "公正なトランジションと若者",
+    "keywords_en": "just transition and youth",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_619",
+    "name_en": "Smart Meters and Energy Justice",
+    "name_ja": "スマートメーターとエネルギー正義",
+    "definition": "スマートメーターとエネルギー正義に関する理論・概念。Smart Meters and Energy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Smart Meters and Energy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2023,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Johanna Bozuwa"
+    ],
+    "key_works": [
+      "Key work on Smart Meters and Energy Justice (2023)"
+    ],
+    "keywords_ja": "スマートメーターとエネルギー正義",
+    "keywords_en": "smart meters and energy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_620",
+    "name_en": "Housing Retrofit Justice",
+    "name_ja": "住宅改修の正義",
+    "definition": "住宅改修の正義に関する理論・概念。Housing Retrofit Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Housing Retrofit Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2024,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Jennie Stephens"
+    ],
+    "key_works": [
+      "Key work on Housing Retrofit Justice (2024)"
+    ],
+    "keywords_ja": "住宅改修の正義",
+    "keywords_en": "housing retrofit justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_621",
+    "name_en": "Hydrogen Economy Justice",
+    "name_ja": "水素経済の正義",
+    "definition": "水素経済の正義に関する理論・概念。Hydrogen Economy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Hydrogen Economy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2005,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Raphael Heffron",
+      "Darren McCauley"
+    ],
+    "key_works": [
+      "Key work on Hydrogen Economy Justice (2005)"
+    ],
+    "keywords_ja": "水素経済の正義",
+    "keywords_en": "hydrogen economy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_622",
+    "name_en": "Agricultural Workers and Just Transition",
+    "name_ja": "農業労働者と公正なトランジション",
+    "definition": "農業労働者と公正なトランジションに関する理論・概念。Agricultural Workers and Just Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Agricultural Workers and Just Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2006,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Agricultural Workers and Just Transition (2006)"
+    ],
+    "keywords_ja": "農業労働者と公正なトランジション",
+    "keywords_en": "agricultural workers and just transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_623",
+    "name_en": "Battery Supply Chain Justice",
+    "name_ja": "バッテリーサプライチェーンの正義",
+    "definition": "バッテリーサプライチェーンの正義に関する理論・概念。Battery Supply Chain Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Battery Supply Chain Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2007,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Kirsten Jenkins"
+    ],
+    "key_works": [
+      "Key work on Battery Supply Chain Justice (2007)"
+    ],
+    "keywords_ja": "バッテリーサプライチェーンの正義",
+    "keywords_en": "battery supply chain justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_624",
+    "name_en": "Small Island States Just Transition",
+    "name_ja": "小島嶼国の公正なトランジション",
+    "definition": "小島嶼国の公正なトランジションに関する理論・概念。Small Island States Just Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Small Island States Just Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2008,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "David Schlosberg"
+    ],
+    "key_works": [
+      "Key work on Small Island States Just Transition (2008)"
+    ],
+    "keywords_ja": "小島嶼国の公正なトランジション",
+    "keywords_en": "small island states just transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_625",
+    "name_en": "Air Quality and Energy Justice",
+    "name_ja": "大気質とエネルギー正義",
+    "definition": "大気質とエネルギー正義に関する理論・概念。Air Quality and Energy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Air Quality and Energy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2009,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Dimitris Stevis"
+    ],
+    "key_works": [
+      "Key work on Air Quality and Energy Justice (2009)"
+    ],
+    "keywords_ja": "大気質とエネルギー正義",
+    "keywords_en": "air quality and energy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_626",
+    "name_en": "Just Transition Governance Mechanisms",
+    "name_ja": "公正なトランジションのガバナンスメカニズム",
+    "definition": "公正なトランジションのガバナンスメカニズムに関する理論・概念。Just Transition Governance Mechanismsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition Governance Mechanismsに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2010,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Edouard Morena"
+    ],
+    "key_works": [
+      "Key work on Just Transition Governance Mechanisms (2010)"
+    ],
+    "keywords_ja": "公正なトランジションのガバナンスメカニズム",
+    "keywords_en": "just transition governance mechanisms",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_627",
+    "name_en": "Energy Democracy and Community Ownership",
+    "name_ja": "エネルギーデモクラシーとコミュニティ所有",
+    "definition": "エネルギーデモクラシーとコミュニティ所有に関する理論・概念。Energy Democracy and Community Ownershipの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Democracy and Community Ownershipに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2011,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Stefan Bouzarovski"
+    ],
+    "key_works": [
+      "Key work on Energy Democracy and Community Ownership (2011)"
+    ],
+    "keywords_ja": "エネルギーデモクラシーとコミュニティ所有",
+    "keywords_en": "energy democracy and community ownership",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_628",
+    "name_en": "Just Transition in National Plans",
+    "name_ja": "国家開発計画における公正なトランジション",
+    "definition": "国家開発計画における公正なトランジションに関する理論・概念。Just Transition in National Plansの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition in National Plansに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2012,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Noel Healy"
+    ],
+    "key_works": [
+      "Key work on Just Transition in National Plans (2012)"
+    ],
+    "keywords_ja": "国家開発計画における公正なトランジション",
+    "keywords_en": "just transition in national plans",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_629",
+    "name_en": "Energy Capabilities Approach",
+    "name_ja": "エネルギー・ケイパビリティアプローチ",
+    "definition": "エネルギー・ケイパビリティアプローチに関する理論・概念。Energy Capabilities Approachの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Capabilities Approachに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2013,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Johanna Bozuwa"
+    ],
+    "key_works": [
+      "Key work on Energy Capabilities Approach (2013)"
+    ],
+    "keywords_ja": "エネルギー・ケイパビリティアプローチ",
+    "keywords_en": "energy capabilities approach",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_630",
+    "name_en": "Intergenerational Energy Equity",
+    "name_ja": "世代間エネルギー公平",
+    "definition": "世代間エネルギー公平に関する理論・概念。Intergenerational Energy Equityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Intergenerational Energy Equityに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2014,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Jennie Stephens"
+    ],
+    "key_works": [
+      "Key work on Intergenerational Energy Equity (2014)"
+    ],
+    "keywords_ja": "世代間エネルギー公平",
+    "keywords_en": "intergenerational energy equity",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_631",
+    "name_en": "Energy Justice and Data Privacy",
+    "name_ja": "エネルギー正義とデータプライバシー",
+    "definition": "エネルギー正義とデータプライバシーに関する理論・概念。Energy Justice and Data Privacyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Justice and Data Privacyに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2015,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Raphael Heffron",
+      "Darren McCauley"
+    ],
+    "key_works": [
+      "Key work on Energy Justice and Data Privacy (2015)"
+    ],
+    "keywords_ja": "エネルギー正義とデータプライバシー",
+    "keywords_en": "energy justice and data privacy",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_632",
+    "name_en": "Just Transition and Debt Relief",
+    "name_ja": "公正なトランジションと債務救済",
+    "definition": "公正なトランジションと債務救済に関する理論・概念。Just Transition and Debt Reliefの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Debt Reliefに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2016,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Debt Relief (2016)"
+    ],
+    "keywords_ja": "公正なトランジションと債務救済",
+    "keywords_en": "just transition and debt relief",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_633",
+    "name_en": "Energy Prosumerism and Justice",
+    "name_ja": "エネルギープロシューマリズムと正義",
+    "definition": "エネルギープロシューマリズムと正義に関する理論・概念。Energy Prosumerism and Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Prosumerism and Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2017,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Kirsten Jenkins"
+    ],
+    "key_works": [
+      "Key work on Energy Prosumerism and Justice (2017)"
+    ],
+    "keywords_ja": "エネルギープロシューマリズムと正義",
+    "keywords_en": "energy prosumerism and justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_634",
+    "name_en": "Just Transition and Reparations",
+    "name_ja": "公正なトランジションと賠償",
+    "definition": "公正なトランジションと賠償に関する理論・概念。Just Transition and Reparationsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition and Reparationsに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2018,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "David Schlosberg"
+    ],
+    "key_works": [
+      "Key work on Just Transition and Reparations (2018)"
+    ],
+    "keywords_ja": "公正なトランジションと賠償",
+    "keywords_en": "just transition and reparations",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_635",
+    "name_en": "EV Transition Justice",
+    "name_ja": "EVトランジションの正義",
+    "definition": "EVトランジションの正義に関する理論・概念。EV Transition Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "EV Transition Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2019,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Dimitris Stevis"
+    ],
+    "key_works": [
+      "Key work on EV Transition Justice (2019)"
+    ],
+    "keywords_ja": "EVトランジションの正義",
+    "keywords_en": "ev transition justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_636",
+    "name_en": "Loss and Damage and Just Transition",
+    "name_ja": "ロスアンドダメージと公正なトランジション",
+    "definition": "ロスアンドダメージと公正なトランジションに関する理論・概念。Loss and Damage and Just Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Loss and Damage and Just Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2020,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Edouard Morena"
+    ],
+    "key_works": [
+      "Key work on Loss and Damage and Just Transition (2020)"
+    ],
+    "keywords_ja": "ロスアンドダメージと公正なトランジション",
+    "keywords_en": "loss and damage and just transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_637",
+    "name_en": "Energy Sufficiency Concept",
+    "name_ja": "エネルギー充足概念",
+    "definition": "エネルギー充足概念に関する理論・概念。Energy Sufficiency Conceptの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Energy Sufficiency Conceptに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2021,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Stefan Bouzarovski"
+    ],
+    "key_works": [
+      "Key work on Energy Sufficiency Concept (2021)"
+    ],
+    "keywords_ja": "エネルギー充足概念",
+    "keywords_en": "energy sufficiency concept",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_638",
+    "name_en": "Participatory Energy Planning",
+    "name_ja": "参加型エネルギー計画",
+    "definition": "参加型エネルギー計画に関する理論・概念。Participatory Energy Planningの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Participatory Energy Planningに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2022,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Noel Healy"
+    ],
+    "key_works": [
+      "Key work on Participatory Energy Planning (2022)"
+    ],
+    "keywords_ja": "参加型エネルギー計画",
+    "keywords_en": "participatory energy planning",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_639",
+    "name_en": "Microgrid Justice",
+    "name_ja": "マイクログリッドの正義",
+    "definition": "マイクログリッドの正義に関する理論・概念。Microgrid Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Microgrid Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2023,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Johanna Bozuwa"
+    ],
+    "key_works": [
+      "Key work on Microgrid Justice (2023)"
+    ],
+    "keywords_ja": "マイクログリッドの正義",
+    "keywords_en": "microgrid justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_640",
+    "name_en": "Just Transition Narrative Frameworks",
+    "name_ja": "公正なトランジションのナラティブ",
+    "definition": "公正なトランジションのナラティブに関する理論・概念。Just Transition Narrative Frameworksの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Just Transition Narrative Frameworksに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2024,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Jennie Stephens"
+    ],
+    "key_works": [
+      "Key work on Just Transition Narrative Frameworks (2024)"
+    ],
+    "keywords_ja": "公正なトランジションのナラティブ",
+    "keywords_en": "just transition narrative frameworks",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_641",
+    "name_en": "Carbon Pricing and Energy Justice",
+    "name_ja": "炭素価格とエネルギー正義",
+    "definition": "炭素価格とエネルギー正義に関する理論・概念。Carbon Pricing and Energy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Carbon Pricing and Energy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2005,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Raphael Heffron",
+      "Darren McCauley"
+    ],
+    "key_works": [
+      "Key work on Carbon Pricing and Energy Justice (2005)"
+    ],
+    "keywords_ja": "炭素価格とエネルギー正義",
+    "keywords_en": "carbon pricing and energy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_642",
+    "name_en": "Fossil Fuel Workers Transition",
+    "name_ja": "化石燃料労働者のトランジション",
+    "definition": "化石燃料労働者のトランジションに関する理論・概念。Fossil Fuel Workers Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Fossil Fuel Workers Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2006,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Fossil Fuel Workers Transition (2006)"
+    ],
+    "keywords_ja": "化石燃料労働者のトランジション",
+    "keywords_en": "fossil fuel workers transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_643",
+    "name_en": "Green Finance and Energy Justice",
+    "name_ja": "グリーンファイナンスとエネルギー正義",
+    "definition": "グリーンファイナンスとエネルギー正義に関する理論・概念。Green Finance and Energy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Green Finance and Energy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2007,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Kirsten Jenkins"
+    ],
+    "key_works": [
+      "Key work on Green Finance and Energy Justice (2007)"
+    ],
+    "keywords_ja": "グリーンファイナンスとエネルギー正義",
+    "keywords_en": "green finance and energy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_644",
+    "name_en": "Climate Migration and Just Transition",
+    "name_ja": "気候移民と公正なトランジション",
+    "definition": "気候移民と公正なトランジションに関する理論・概念。Climate Migration and Just Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Climate Migration and Just Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2008,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "David Schlosberg"
+    ],
+    "key_works": [
+      "Key work on Climate Migration and Just Transition (2008)"
+    ],
+    "keywords_ja": "気候移民と公正なトランジション",
+    "keywords_en": "climate migration and just transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_645",
+    "name_en": "Cooking Fuels Justice",
+    "name_ja": "調理用燃料の正義",
+    "definition": "調理用燃料の正義に関する理論・概念。Cooking Fuels Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Cooking Fuels Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2009,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Dimitris Stevis"
+    ],
+    "key_works": [
+      "Key work on Cooking Fuels Justice (2009)"
+    ],
+    "keywords_ja": "調理用燃料の正義",
+    "keywords_en": "cooking fuels justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_646",
+    "name_en": "Social Dialogue for Just Transition",
+    "name_ja": "公正なトランジションのための社会的対話",
+    "definition": "公正なトランジションのための社会的対話に関する理論・概念。Social Dialogue for Just Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Dialogue for Just Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2010,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Edouard Morena"
+    ],
+    "key_works": [
+      "Key work on Social Dialogue for Just Transition (2010)"
+    ],
+    "keywords_ja": "公正なトランジションのための社会的対話",
+    "keywords_en": "social dialogue for just transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_647",
+    "name_en": "Waste Pickers and Energy Justice",
+    "name_ja": "ウェイストピッカーとエネルギー正義",
+    "definition": "ウェイストピッカーとエネルギー正義に関する理論・概念。Waste Pickers and Energy Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Waste Pickers and Energy Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2011,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Stefan Bouzarovski"
+    ],
+    "key_works": [
+      "Key work on Waste Pickers and Energy Justice (2011)"
+    ],
+    "keywords_ja": "ウェイストピッカーとエネルギー正義",
+    "keywords_en": "waste pickers and energy justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_648",
+    "name_en": "Extractive Industries Just Transition",
+    "name_ja": "採取産業の公正なトランジション",
+    "definition": "採取産業の公正なトランジションに関する理論・概念。Extractive Industries Just Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Extractive Industries Just Transitionに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2012,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Noel Healy"
+    ],
+    "key_works": [
+      "Key work on Extractive Industries Just Transition (2012)"
+    ],
+    "keywords_ja": "採取産業の公正なトランジション",
+    "keywords_en": "extractive industries just transition",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_649",
+    "name_en": "Cooling Access Justice",
+    "name_ja": "冷房アクセスの正義",
+    "definition": "冷房アクセスの正義に関する理論・概念。Cooling Access Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Cooling Access Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2013,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Johanna Bozuwa"
+    ],
+    "key_works": [
+      "Key work on Cooling Access Justice (2013)"
+    ],
+    "keywords_ja": "冷房アクセスの正義",
+    "keywords_en": "cooling access justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_650",
+    "name_en": "Global Climate Governance and Justice",
+    "name_ja": "グローバル気候ガバナンスと正義",
+    "definition": "グローバル気候ガバナンスと正義に関する理論・概念。Global Climate Governance and Justiceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Global Climate Governance and Justiceに関する理論的貢献として、エネルギー正義論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "エネルギー正義論",
+    "era_start": 2014,
+    "innovation_type": "social,justice,sustainability",
+    "cognitive_mechanism": "justice,equity",
+    "key_researchers": [
+      "Jennie Stephens"
+    ],
+    "key_works": [
+      "Key work on Global Climate Governance and Justice (2014)"
+    ],
+    "keywords_ja": "グローバル気候ガバナンスと正義",
+    "keywords_en": "global climate governance and justice",
+    "opposing_concept_names": "efficiency-only transition",
+    "schumpeter_layer": "macro"
+  }
+]
