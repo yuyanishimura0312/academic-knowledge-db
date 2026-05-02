@@ -1,0 +1,192 @@
+{
+  "domain": {
+    "id": "business_development_bm",
+    "name_ja": "事業開発とビジネスモデル開発",
+    "name_en": "Business Development & Business Model Innovation",
+    "parent_field": "Strategic Management / Innovation Management",
+    "academic_position": "Strategic Management の応用領域。Innovation Management、Entrepreneurship、Strategy の交差点に位置する実践志向の学術領域。"
+  },
+  "core_handbooks": [
+    "Oxford Handbook of Innovation Management (Dodgson, Gann, Phillips, 2014)",
+    "Oxford Handbook of Creativity, Innovation, and Entrepreneurship (2015) - Zott & Amit chapter",
+    "Oxford Handbook of Open Innovation (2024) - Lu & Tucci",
+    "Cambridge: Business Model Innovation (2024)",
+    "Strategic Management Journal annual reviews",
+    "Academy of Management Annals (BMI reviews)",
+    "Long Range Planning (BMI special issues 2010, 2013, 2017)",
+    "Journal of Business Research (1973-2024 longitudinal review)"
+  ],
+  "subfields": [
+    {
+      "id": "bmi_theory",
+      "name_ja": "ビジネスモデル理論・フレームワーク",
+      "name_en": "Business Model Theory & Frameworks",
+      "target_count": 600,
+      "key_researchers": ["Osterwalder", "Pigneur", "Zott", "Amit", "Magretta", "Teece"],
+      "anchors": ["Business Model Canvas", "Magic Triangle", "RCOV Framework", "Activity System View"],
+      "era_focus": "1998-2025"
+    },
+    {
+      "id": "bmi_process",
+      "name_ja": "BMIプロセス・動的能力",
+      "name_en": "Business Model Innovation Process",
+      "target_count": 600,
+      "key_researchers": ["Chesbrough", "Markides", "Casadesus-Masanell", "Foss", "Saebi"],
+      "anchors": ["BMI as transformation", "Dynamic capabilities for BM", "Process perspective"],
+      "era_focus": "2002-2025"
+    },
+    {
+      "id": "digital_platform",
+      "name_ja": "デジタル・プラットフォームビジネスモデル",
+      "name_en": "Digital & Platform Business Models",
+      "target_count": 700,
+      "key_researchers": ["Parker", "Van Alstyne", "Choudary", "Cusumano", "Gawer", "Eisenmann", "Evans"],
+      "anchors": ["Two-sided markets", "Network effects", "Platform envelopment", "Multi-homing"],
+      "era_focus": "2003-2025"
+    },
+    {
+      "id": "alliance",
+      "name_ja": "戦略的提携・パートナーシップ",
+      "name_en": "Strategic Alliances & Partnerships",
+      "target_count": 500,
+      "key_researchers": ["Gulati", "Dyer", "Singh", "Doz", "Hamel", "Kale"],
+      "anchors": ["Relational view", "Alliance capability", "Joint venture governance"],
+      "era_focus": "1989-2025"
+    },
+    {
+      "id": "corp_venture",
+      "name_ja": "コーポレートベンチャー・社内起業",
+      "name_en": "Corporate Venturing & Intrapreneurship",
+      "target_count": 450,
+      "key_researchers": ["Burgelman", "Pinchot", "Block", "MacMillan", "Garvin", "Govindarajan"],
+      "anchors": ["Internal corporate venture", "Skunkworks", "Corporate accelerator", "Strategic renewal"],
+      "era_focus": "1983-2025"
+    },
+    {
+      "id": "market_entry",
+      "name_ja": "新市場参入・成長戦略",
+      "name_en": "New Market Entry & Growth Strategy",
+      "target_count": 500,
+      "key_researchers": ["Ansoff", "Porter", "Day", "Govindarajan", "Khanna", "Palepu"],
+      "anchors": ["Ansoff Matrix", "Market entry mode", "Bottom-of-Pyramid", "Born globals"],
+      "era_focus": "1957-2025"
+    },
+    {
+      "id": "open_innov",
+      "name_ja": "オープンイノベーション・外部協創",
+      "name_en": "Open Innovation & External Collaboration",
+      "target_count": 600,
+      "key_researchers": ["Chesbrough", "Vanhaverbeke", "West", "Lakhani", "Boudreau"],
+      "anchors": ["Outside-in/Inside-out", "Crowdsourcing", "Innovation intermediaries", "Open business model"],
+      "era_focus": "2003-2025"
+    },
+    {
+      "id": "lean_startup",
+      "name_ja": "リーンスタートアップ・顧客開発",
+      "name_en": "Lean Startup & Customer Development",
+      "target_count": 500,
+      "key_researchers": ["Ries", "Blank", "Maurya", "Cooper", "Vlaskovits"],
+      "anchors": ["Build-Measure-Learn", "MVP", "Customer Discovery", "Pivot", "Validated Learning"],
+      "era_focus": "2005-2025"
+    },
+    {
+      "id": "disruptive",
+      "name_ja": "破壊的イノベーション・産業変革",
+      "name_en": "Disruptive Innovation & Industry Transformation",
+      "target_count": 600,
+      "key_researchers": ["Christensen", "Raynor", "McDonald", "King", "Baumann"],
+      "anchors": ["Low-end disruption", "New-market disruption", "Job-to-be-done", "S-curves"],
+      "era_focus": "1995-2025"
+    },
+    {
+      "id": "subscription_saas",
+      "name_ja": "サブスクリプション・SaaSモデル",
+      "name_en": "Subscription, SaaS & Recurring Revenue Models",
+      "target_count": 350,
+      "key_researchers": ["Tzuo", "Nijssen", "Skok", "Mehta", "Steinman"],
+      "anchors": ["Recurring revenue", "Customer success", "LTV/CAC", "Churn", "Net Dollar Retention"],
+      "era_focus": "2008-2025"
+    },
+    {
+      "id": "sustainable_bm",
+      "name_ja": "サステナビリティ・循環型ビジネスモデル",
+      "name_en": "Sustainable & Circular Business Models",
+      "target_count": 500,
+      "key_researchers": ["Bocken", "Geissdoerfer", "Stubbs", "Cohen", "Boons", "Schaltegger"],
+      "anchors": ["Sustainable BM", "Circular economy BM", "Triple bottom line", "Regenerative business"],
+      "era_focus": "2010-2025"
+    },
+    {
+      "id": "channel_gtm",
+      "name_ja": "販売チャネル・GTM戦略",
+      "name_en": "Sales, Channel & Go-to-Market Strategy",
+      "target_count": 400,
+      "key_researchers": ["Stern", "El-Ansary", "Anderson", "Anderson E", "Friedman", "Coughlan"],
+      "anchors": ["Channel governance", "Direct vs indirect", "Channel conflict", "Go-to-market design"],
+      "era_focus": "1988-2025"
+    },
+    {
+      "id": "b2b_enterprise",
+      "name_ja": "B2B・エンタープライズ営業開発",
+      "name_en": "B2B & Enterprise Sales Development",
+      "target_count": 350,
+      "key_researchers": ["Rackham", "Adamson", "Dixon", "Tracy", "Webster"],
+      "anchors": ["SPIN selling", "Challenger sale", "ABM", "Solution selling", "Value selling"],
+      "era_focus": "1988-2025"
+    },
+    {
+      "id": "ma_corp_dev",
+      "name_ja": "M&A・コーポレートデベロップメント",
+      "name_en": "M&A and Corporate Development",
+      "target_count": 500,
+      "key_researchers": ["Haspeslagh", "Jemison", "Kaplan", "Hoskisson", "Cartwright", "Schoenberg"],
+      "anchors": ["Acquisition integration", "Strategic fit", "Cultural integration", "PMI", "Divestment strategy"],
+      "era_focus": "1991-2025"
+    }
+  ],
+  "totals": {
+    "subfields_count": 14,
+    "target_total_concepts": 7150,
+    "target_relations": "21450-35750 (3-5x)",
+    "target_min": 5000,
+    "target_max": 10000,
+    "fits_within_band": true
+  },
+  "schema": {
+    "table_concepts": "business_development_bm_theory",
+    "table_relations": "business_development_bm_theory_relations",
+    "id_prefix": "BDBM",
+    "domain_specific_columns": [
+      "industry_applicability TEXT (multi-value: B2B/B2C/B2B2C/Platform)",
+      "case_companies TEXT (JSON array of representative companies)",
+      "implementation_complexity INTEGER (1-5)"
+    ]
+  },
+  "cross_domain_links": {
+    "management_studies (MG)": "重複候補 100-200件、cross_domain_relationsで結合",
+    "innovation_theory (IT) - if exists": "BMI概念の50-100件は IT と重複の可能性",
+    "social_theory (psychology pilot)": "顧客行動・組織行動で connector"
+  },
+  "must_have_anchors": [
+    "Osterwalder & Pigneur (2010) Business Model Generation",
+    "Zott & Amit (2010) Activity Systems Perspective",
+    "Teece (2010) Business Models, Business Strategy and Innovation",
+    "Christensen (1997) The Innovator's Dilemma",
+    "Chesbrough (2003) Open Innovation",
+    "Ries (2011) The Lean Startup",
+    "Blank (2013) The Four Steps to the Epiphany",
+    "Parker, Van Alstyne, Choudary (2016) Platform Revolution",
+    "Bocken et al. (2014) Sustainable Business Model Archetypes",
+    "Adamson, Dixon (2011) The Challenger Sale"
+  ],
+  "phase_0_quality_gate": {
+    "subfields_in_target_band": "14 ∈ [10, 15] ✓",
+    "total_concepts_in_band": "7150 ∈ [5000, 10000] ✓",
+    "max_min_subfield_ratio": "700/350 = 2.0 (boundary, watch均等性)",
+    "academic_anchors_identified": "10 必須ankers ✓"
+  },
+  "next_phase": {
+    "phase_1": "DB schema 生成 + 必須理論チェックリスト (各サブフィールドで 創設者・転換点・現代・批判 = 56エントリ最低保証)",
+    "prerequisite_blocker": "academic-knowledge-db リポジトリと academic.db が新Mac上にまだ存在しない (projects/ 未migration)。setup-new-mac.sh の repo clone 後に Phase 1 を起動可能。"
+  }
+}
