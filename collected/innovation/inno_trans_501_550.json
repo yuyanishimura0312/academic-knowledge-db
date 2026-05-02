@@ -1,0 +1,1106 @@
+[
+  {
+    "id": "inno_trans_501",
+    "name_en": "Time Banking Innovation",
+    "name_ja": "タイムバンキングイノベーション",
+    "definition": "タイムバンキングイノベーションに関する理論・概念。Time Banking Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Time Banking Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2015,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Time Banking Innovation (2015)"
+    ],
+    "keywords_ja": "タイムバンキングイノベーション",
+    "keywords_en": "time banking innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_502",
+    "name_en": "Community Land Trusts",
+    "name_ja": "コミュニティ・ランド・トラスト",
+    "definition": "コミュニティ・ランド・トラストに関する理論・概念。Community Land Trustsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Community Land Trustsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2016,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Community Land Trusts (2016)"
+    ],
+    "keywords_ja": "コミュニティ・ランド・トラスト",
+    "keywords_en": "community land trusts",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_503",
+    "name_en": "Social Innovation and Cooperativism",
+    "name_ja": "社会イノベーションと協同組合主義",
+    "definition": "社会イノベーションと協同組合主義に関する理論・概念。Social Innovation and Cooperativismの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Cooperativismに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2017,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Cooperativism (2017)"
+    ],
+    "keywords_ja": "社会イノベーションと協同組合主義",
+    "keywords_en": "social innovation and cooperativism",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_504",
+    "name_en": "B Corporation Movement",
+    "name_ja": "Bコーポレーション運動",
+    "definition": "Bコーポレーション運動に関する理論・概念。B Corporation Movementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "B Corporation Movementに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2018,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on B Corporation Movement (2018)"
+    ],
+    "keywords_ja": "Bコーポレーション運動",
+    "keywords_en": "b corporation movement",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_505",
+    "name_en": "Social Innovation and Impact Investing",
+    "name_ja": "社会イノベーションとインパクト投資",
+    "definition": "社会イノベーションとインパクト投資に関する理論・概念。Social Innovation and Impact Investingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Impact Investingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2019,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Impact Investing (2019)"
+    ],
+    "keywords_ja": "社会イノベーションとインパクト投資",
+    "keywords_en": "social innovation and impact investing",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_506",
+    "name_en": "Public Service Innovation",
+    "name_ja": "公共サービスイノベーション",
+    "definition": "公共サービスイノベーションに関する理論・概念。Public Service Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Public Service Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2020,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Public Service Innovation (2020)"
+    ],
+    "keywords_ja": "公共サービスイノベーション",
+    "keywords_en": "public service innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_507",
+    "name_en": "Social Innovation and Design Thinking",
+    "name_ja": "社会イノベーションとデザインシンキング",
+    "definition": "社会イノベーションとデザインシンキングに関する理論・概念。Social Innovation and Design Thinkingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Design Thinkingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2021,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Design Thinking (2021)"
+    ],
+    "keywords_ja": "社会イノベーションとデザインシンキング",
+    "keywords_en": "social innovation and design thinking",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_508",
+    "name_en": "Social Return on Investment",
+    "name_ja": "社会的投資収益率（SROI）",
+    "definition": "社会的投資収益率（SROI）に関する理論・概念。Social Return on Investmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Return on Investmentに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2022,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Social Return on Investment (2022)"
+    ],
+    "keywords_ja": "社会的投資収益率（SROI）",
+    "keywords_en": "social return on investment",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_509",
+    "name_en": "Social Innovation Research Methods",
+    "name_ja": "社会イノベーションの研究方法論",
+    "definition": "社会イノベーションの研究方法論に関する理論・概念。Social Innovation Research Methodsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Research Methodsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2023,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Research Methods (2023)"
+    ],
+    "keywords_ja": "社会イノベーションの研究方法論",
+    "keywords_en": "social innovation research methods",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_510",
+    "name_en": "Collective Impact Framework",
+    "name_ja": "コレクティブインパクト・フレームワーク",
+    "definition": "コレクティブインパクト・フレームワークに関する理論・概念。Collective Impact Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Collective Impact Frameworkに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2024,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Collective Impact Framework (2024)"
+    ],
+    "keywords_ja": "コレクティブインパクト・フレームワーク",
+    "keywords_en": "collective impact framework",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_511",
+    "name_en": "Grassroots Innovation Theory",
+    "name_ja": "グラスルーツイノベーション理論",
+    "definition": "グラスルーツイノベーション理論に関する理論・概念。Grassroots Innovation Theoryの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Grassroots Innovation Theoryに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2005,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Adrian Smith",
+      "Gill Seyfang"
+    ],
+    "key_works": [
+      "Key work on Grassroots Innovation Theory (2005)"
+    ],
+    "keywords_ja": "グラスルーツイノベーション理論",
+    "keywords_en": "grassroots innovation theory",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_512",
+    "name_en": "Frugal Innovation Framework",
+    "name_ja": "フルーガルイノベーション・フレームワーク",
+    "definition": "フルーガルイノベーション・フレームワークに関する理論・概念。Frugal Innovation Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Frugal Innovation Frameworkに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2006,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Anil Gupta"
+    ],
+    "key_works": [
+      "Key work on Frugal Innovation Framework (2006)"
+    ],
+    "keywords_ja": "フルーガルイノベーション・フレームワーク",
+    "keywords_en": "frugal innovation framework",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_513",
+    "name_en": "Inclusive Innovation Theory",
+    "name_ja": "インクルーシブイノベーション理論",
+    "definition": "インクルーシブイノベーション理論に関する理論・概念。Inclusive Innovation Theoryの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Inclusive Innovation Theoryに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2007,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "R.A. Mashelkar"
+    ],
+    "key_works": [
+      "Key work on Inclusive Innovation Theory (2007)"
+    ],
+    "keywords_ja": "インクルーシブイノベーション理論",
+    "keywords_en": "inclusive innovation theory",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_514",
+    "name_en": "Jugaad Innovation",
+    "name_ja": "ジュガードイノベーション",
+    "definition": "ジュガードイノベーションに関する理論・概念。Jugaad Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Jugaad Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2008,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Navi Radjou"
+    ],
+    "key_works": [
+      "Key work on Jugaad Innovation (2008)"
+    ],
+    "keywords_ja": "ジュガードイノベーション",
+    "keywords_en": "jugaad innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_515",
+    "name_en": "Bottom-of-Pyramid Innovation",
+    "name_ja": "BoPイノベーション",
+    "definition": "BoPイノベーションに関する理論・概念。Bottom-of-Pyramid Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Bottom-of-Pyramid Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2009,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "C.K. Prahalad"
+    ],
+    "key_works": [
+      "Key work on Bottom-of-Pyramid Innovation (2009)"
+    ],
+    "keywords_ja": "BoPイノベーション",
+    "keywords_en": "bottom-of-pyramid innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_516",
+    "name_en": "Appropriate Technology Movement",
+    "name_ja": "適正技術運動",
+    "definition": "適正技術運動に関する理論・概念。Appropriate Technology Movementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Appropriate Technology Movementに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2010,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "E.F. Schumacher"
+    ],
+    "key_works": [
+      "Key work on Appropriate Technology Movement (2010)"
+    ],
+    "keywords_ja": "適正技術運動",
+    "keywords_en": "appropriate technology movement",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_517",
+    "name_en": "Innovation for Development",
+    "name_ja": "開発のためのイノベーション",
+    "definition": "開発のためのイノベーションに関する理論・概念。Innovation for Developmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation for Developmentに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2011,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Raphael Kaplinsky"
+    ],
+    "key_works": [
+      "Key work on Innovation for Development (2011)"
+    ],
+    "keywords_ja": "開発のためのイノベーション",
+    "keywords_en": "innovation for development",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_518",
+    "name_en": "Reverse Innovation",
+    "name_ja": "リバースイノベーション",
+    "definition": "リバースイノベーションに関する理論・概念。Reverse Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Reverse Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2012,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Vijay Govindarajan"
+    ],
+    "key_works": [
+      "Key work on Reverse Innovation (2012)"
+    ],
+    "keywords_ja": "リバースイノベーション",
+    "keywords_en": "reverse innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_519",
+    "name_en": "Necessity-Driven Innovation",
+    "name_ja": "必要性駆動型イノベーション",
+    "definition": "必要性駆動型イノベーションに関する理論・概念。Necessity-Driven Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Necessity-Driven Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2013,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "David Grimm"
+    ],
+    "key_works": [
+      "Key work on Necessity-Driven Innovation (2013)"
+    ],
+    "keywords_ja": "必要性駆動型イノベーション",
+    "keywords_en": "necessity-driven innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_520",
+    "name_en": "Informal Sector Innovation",
+    "name_ja": "インフォーマルセクターイノベーション",
+    "definition": "インフォーマルセクターイノベーションに関する理論・概念。Informal Sector Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Informal Sector Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2014,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Sabine Hielscher"
+    ],
+    "key_works": [
+      "Key work on Informal Sector Innovation (2014)"
+    ],
+    "keywords_ja": "インフォーマルセクターイノベーション",
+    "keywords_en": "informal sector innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_521",
+    "name_en": "Pro-Poor Innovation Policy",
+    "name_ja": "プロプア・イノベーション政策",
+    "definition": "プロプア・イノベーション政策に関する理論・概念。Pro-Poor Innovation Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Pro-Poor Innovation Policyに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2015,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Adrian Smith",
+      "Gill Seyfang"
+    ],
+    "key_works": [
+      "Key work on Pro-Poor Innovation Policy (2015)"
+    ],
+    "keywords_ja": "プロプア・イノベーション政策",
+    "keywords_en": "pro-poor innovation policy",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_522",
+    "name_en": "Innovation and Inequality",
+    "name_ja": "イノベーションと不平等",
+    "definition": "イノベーションと不平等に関する理論・概念。Innovation and Inequalityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Inequalityに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2016,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Anil Gupta"
+    ],
+    "key_works": [
+      "Key work on Innovation and Inequality (2016)"
+    ],
+    "keywords_ja": "イノベーションと不平等",
+    "keywords_en": "innovation and inequality",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_523",
+    "name_en": "Community Innovation",
+    "name_ja": "コミュニティイノベーション",
+    "definition": "コミュニティイノベーションに関する理論・概念。Community Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Community Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2017,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "R.A. Mashelkar"
+    ],
+    "key_works": [
+      "Key work on Community Innovation (2017)"
+    ],
+    "keywords_ja": "コミュニティイノベーション",
+    "keywords_en": "community innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_524",
+    "name_en": "Grassroots Innovation Movements",
+    "name_ja": "グラスルーツイノベーション運動",
+    "definition": "グラスルーツイノベーション運動に関する理論・概念。Grassroots Innovation Movementsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Grassroots Innovation Movementsに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2018,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Navi Radjou"
+    ],
+    "key_works": [
+      "Key work on Grassroots Innovation Movements (2018)"
+    ],
+    "keywords_ja": "グラスルーツイノベーション運動",
+    "keywords_en": "grassroots innovation movements",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_525",
+    "name_en": "Frugal Engineering",
+    "name_ja": "フルーガルエンジニアリング",
+    "definition": "フルーガルエンジニアリングに関する理論・概念。Frugal Engineeringの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Frugal Engineeringに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2019,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "C.K. Prahalad"
+    ],
+    "key_works": [
+      "Key work on Frugal Engineering (2019)"
+    ],
+    "keywords_ja": "フルーガルエンジニアリング",
+    "keywords_en": "frugal engineering",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_526",
+    "name_en": "Innovation in Resource-Constrained Settings",
+    "name_ja": "資源制約下のイノベーション",
+    "definition": "資源制約下のイノベーションに関する理論・概念。Innovation in Resource-Constrained Settingsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation in Resource-Constrained Settingsに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2020,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "E.F. Schumacher"
+    ],
+    "key_works": [
+      "Key work on Innovation in Resource-Constrained Settings (2020)"
+    ],
+    "keywords_ja": "資源制約下のイノベーション",
+    "keywords_en": "innovation in resource-constrained settings",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_527",
+    "name_en": "Social Technology Innovation",
+    "name_ja": "ソーシャルテクノロジーイノベーション",
+    "definition": "ソーシャルテクノロジーイノベーションに関する理論・概念。Social Technology Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Technology Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2021,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Raphael Kaplinsky"
+    ],
+    "key_works": [
+      "Key work on Social Technology Innovation (2021)"
+    ],
+    "keywords_ja": "ソーシャルテクノロジーイノベーション",
+    "keywords_en": "social technology innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_528",
+    "name_en": "Maker Movement and Innovation",
+    "name_ja": "メイカームーブメントとイノベーション",
+    "definition": "メイカームーブメントとイノベーションに関する理論・概念。Maker Movement and Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Maker Movement and Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2022,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Vijay Govindarajan"
+    ],
+    "key_works": [
+      "Key work on Maker Movement and Innovation (2022)"
+    ],
+    "keywords_ja": "メイカームーブメントとイノベーション",
+    "keywords_en": "maker movement and innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_529",
+    "name_en": "Fab Lab and Distributed Innovation",
+    "name_ja": "ファブラボと分散型イノベーション",
+    "definition": "ファブラボと分散型イノベーションに関する理論・概念。Fab Lab and Distributed Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Fab Lab and Distributed Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2023,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "David Grimm"
+    ],
+    "key_works": [
+      "Key work on Fab Lab and Distributed Innovation (2023)"
+    ],
+    "keywords_ja": "ファブラボと分散型イノベーション",
+    "keywords_en": "fab lab and distributed innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_530",
+    "name_en": "Innovation and SDGs",
+    "name_ja": "イノベーションとSDGs",
+    "definition": "イノベーションとSDGsに関する理論・概念。Innovation and SDGsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and SDGsに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2024,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Sabine Hielscher"
+    ],
+    "key_works": [
+      "Key work on Innovation and SDGs (2024)"
+    ],
+    "keywords_ja": "イノベーションとSDGs",
+    "keywords_en": "innovation and sdgs",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_531",
+    "name_en": "Innovation for Sustainability in Developing Countries",
+    "name_ja": "途上国のサステナビリティイノベーション",
+    "definition": "途上国のサステナビリティイノベーションに関する理論・概念。Innovation for Sustainability in Developing Countriesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation for Sustainability in Developing Countriesに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2005,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Adrian Smith",
+      "Gill Seyfang"
+    ],
+    "key_works": [
+      "Key work on Innovation for Sustainability in Developing Countries (2005)"
+    ],
+    "keywords_ja": "途上国のサステナビリティイノベーション",
+    "keywords_en": "innovation for sustainability in developing countries",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_532",
+    "name_en": "Grassroots Innovation and Energy Access",
+    "name_ja": "グラスルーツイノベーションとエネルギーアクセス",
+    "definition": "グラスルーツイノベーションとエネルギーアクセスに関する理論・概念。Grassroots Innovation and Energy Accessの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Grassroots Innovation and Energy Accessに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2006,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Anil Gupta"
+    ],
+    "key_works": [
+      "Key work on Grassroots Innovation and Energy Access (2006)"
+    ],
+    "keywords_ja": "グラスルーツイノベーションとエネルギーアクセス",
+    "keywords_en": "grassroots innovation and energy access",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_533",
+    "name_en": "Inclusive Innovation in Agriculture",
+    "name_ja": "農業におけるインクルーシブイノベーション",
+    "definition": "農業におけるインクルーシブイノベーションに関する理論・概念。Inclusive Innovation in Agricultureの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Inclusive Innovation in Agricultureに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2007,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "R.A. Mashelkar"
+    ],
+    "key_works": [
+      "Key work on Inclusive Innovation in Agriculture (2007)"
+    ],
+    "keywords_ja": "農業におけるインクルーシブイノベーション",
+    "keywords_en": "inclusive innovation in agriculture",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_534",
+    "name_en": "Innovation and Gender in Development",
+    "name_ja": "開発におけるイノベーションとジェンダー",
+    "definition": "開発におけるイノベーションとジェンダーに関する理論・概念。Innovation and Gender in Developmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Gender in Developmentに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2008,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Navi Radjou"
+    ],
+    "key_works": [
+      "Key work on Innovation and Gender in Development (2008)"
+    ],
+    "keywords_ja": "開発におけるイノベーションとジェンダー",
+    "keywords_en": "innovation and gender in development",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_535",
+    "name_en": "Frugal Innovation in Healthcare",
+    "name_ja": "医療におけるフルーガルイノベーション",
+    "definition": "医療におけるフルーガルイノベーションに関する理論・概念。Frugal Innovation in Healthcareの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Frugal Innovation in Healthcareに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2009,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "C.K. Prahalad"
+    ],
+    "key_works": [
+      "Key work on Frugal Innovation in Healthcare (2009)"
+    ],
+    "keywords_ja": "医療におけるフルーガルイノベーション",
+    "keywords_en": "frugal innovation in healthcare",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_536",
+    "name_en": "Innovation Hubs in Africa",
+    "name_ja": "アフリカのイノベーションハブ",
+    "definition": "アフリカのイノベーションハブに関する理論・概念。Innovation Hubs in Africaの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Hubs in Africaに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2010,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "E.F. Schumacher"
+    ],
+    "key_works": [
+      "Key work on Innovation Hubs in Africa (2010)"
+    ],
+    "keywords_ja": "アフリカのイノベーションハブ",
+    "keywords_en": "innovation hubs in africa",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_537",
+    "name_en": "Grassroots Digital Innovation",
+    "name_ja": "グラスルーツ・デジタルイノベーション",
+    "definition": "グラスルーツ・デジタルイノベーションに関する理論・概念。Grassroots Digital Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Grassroots Digital Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2011,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Raphael Kaplinsky"
+    ],
+    "key_works": [
+      "Key work on Grassroots Digital Innovation (2011)"
+    ],
+    "keywords_ja": "グラスルーツ・デジタルイノベーション",
+    "keywords_en": "grassroots digital innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_538",
+    "name_en": "Innovation and Traditional Knowledge",
+    "name_ja": "イノベーションと伝統知識",
+    "definition": "イノベーションと伝統知識に関する理論・概念。Innovation and Traditional Knowledgeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Traditional Knowledgeに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2012,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Vijay Govindarajan"
+    ],
+    "key_works": [
+      "Key work on Innovation and Traditional Knowledge (2012)"
+    ],
+    "keywords_ja": "イノベーションと伝統知識",
+    "keywords_en": "innovation and traditional knowledge",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_539",
+    "name_en": "Climate Adaptation Innovation in Developing Countries",
+    "name_ja": "途上国の気候適応イノベーション",
+    "definition": "途上国の気候適応イノベーションに関する理論・概念。Climate Adaptation Innovation in Developing Countriesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Climate Adaptation Innovation in Developing Countriesに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2013,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "David Grimm"
+    ],
+    "key_works": [
+      "Key work on Climate Adaptation Innovation in Developing Countries (2013)"
+    ],
+    "keywords_ja": "途上国の気候適応イノベーション",
+    "keywords_en": "climate adaptation innovation in developing countries",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_540",
+    "name_en": "Inclusive Business Model Innovation",
+    "name_ja": "インクルーシブ・ビジネスモデルイノベーション",
+    "definition": "インクルーシブ・ビジネスモデルイノベーションに関する理論・概念。Inclusive Business Model Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Inclusive Business Model Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2014,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Sabine Hielscher"
+    ],
+    "key_works": [
+      "Key work on Inclusive Business Model Innovation (2014)"
+    ],
+    "keywords_ja": "インクルーシブ・ビジネスモデルイノベーション",
+    "keywords_en": "inclusive business model innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_541",
+    "name_en": "Grassroots Water Access Innovation",
+    "name_ja": "グラスルーツ水アクセスイノベーション",
+    "definition": "グラスルーツ水アクセスイノベーションに関する理論・概念。Grassroots Water Access Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Grassroots Water Access Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2015,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Adrian Smith",
+      "Gill Seyfang"
+    ],
+    "key_works": [
+      "Key work on Grassroots Water Access Innovation (2015)"
+    ],
+    "keywords_ja": "グラスルーツ水アクセスイノベーション",
+    "keywords_en": "grassroots water access innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_542",
+    "name_en": "Innovation and Livelihoods",
+    "name_ja": "イノベーションと生計",
+    "definition": "イノベーションと生計に関する理論・概念。Innovation and Livelihoodsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Livelihoodsに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2016,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Anil Gupta"
+    ],
+    "key_works": [
+      "Key work on Innovation and Livelihoods (2016)"
+    ],
+    "keywords_ja": "イノベーションと生計",
+    "keywords_en": "innovation and livelihoods",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_543",
+    "name_en": "Frugal Innovation and Sustainability",
+    "name_ja": "フルーガルイノベーションとサステナビリティ",
+    "definition": "フルーガルイノベーションとサステナビリティに関する理論・概念。Frugal Innovation and Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Frugal Innovation and Sustainabilityに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2017,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "R.A. Mashelkar"
+    ],
+    "key_works": [
+      "Key work on Frugal Innovation and Sustainability (2017)"
+    ],
+    "keywords_ja": "フルーガルイノベーションとサステナビリティ",
+    "keywords_en": "frugal innovation and sustainability",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_544",
+    "name_en": "Community-Led Sanitation Innovation",
+    "name_ja": "コミュニティ主導型衛生イノベーション",
+    "definition": "コミュニティ主導型衛生イノベーションに関する理論・概念。Community-Led Sanitation Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Community-Led Sanitation Innovationに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2018,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Navi Radjou"
+    ],
+    "key_works": [
+      "Key work on Community-Led Sanitation Innovation (2018)"
+    ],
+    "keywords_ja": "コミュニティ主導型衛生イノベーション",
+    "keywords_en": "community-led sanitation innovation",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_545",
+    "name_en": "Innovation and Food Sovereignty",
+    "name_ja": "イノベーションと食料主権",
+    "definition": "イノベーションと食料主権に関する理論・概念。Innovation and Food Sovereigntyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Food Sovereigntyに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2019,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "C.K. Prahalad"
+    ],
+    "key_works": [
+      "Key work on Innovation and Food Sovereignty (2019)"
+    ],
+    "keywords_ja": "イノベーションと食料主権",
+    "keywords_en": "innovation and food sovereignty",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_546",
+    "name_en": "Grassroots Innovation Scaling",
+    "name_ja": "グラスルーツイノベーションのスケーリング",
+    "definition": "グラスルーツイノベーションのスケーリングに関する理論・概念。Grassroots Innovation Scalingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Grassroots Innovation Scalingに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2020,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "E.F. Schumacher"
+    ],
+    "key_works": [
+      "Key work on Grassroots Innovation Scaling (2020)"
+    ],
+    "keywords_ja": "グラスルーツイノベーションのスケーリング",
+    "keywords_en": "grassroots innovation scaling",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_547",
+    "name_en": "Innovation and Social Inclusion",
+    "name_ja": "イノベーションと社会的包摂",
+    "definition": "イノベーションと社会的包摂に関する理論・概念。Innovation and Social Inclusionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Social Inclusionに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2021,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Raphael Kaplinsky"
+    ],
+    "key_works": [
+      "Key work on Innovation and Social Inclusion (2021)"
+    ],
+    "keywords_ja": "イノベーションと社会的包摂",
+    "keywords_en": "innovation and social inclusion",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_548",
+    "name_en": "Low-Tech Innovation for Sustainability",
+    "name_ja": "ローテクサステナビリティイノベーション",
+    "definition": "ローテクサステナビリティイノベーションに関する理論・概念。Low-Tech Innovation for Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Low-Tech Innovation for Sustainabilityに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2022,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Vijay Govindarajan"
+    ],
+    "key_works": [
+      "Key work on Low-Tech Innovation for Sustainability (2022)"
+    ],
+    "keywords_ja": "ローテクサステナビリティイノベーション",
+    "keywords_en": "low-tech innovation for sustainability",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_549",
+    "name_en": "Innovation and Vulnerable Communities",
+    "name_ja": "脆弱コミュニティのイノベーション",
+    "definition": "脆弱コミュニティのイノベーションに関する理論・概念。Innovation and Vulnerable Communitiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation and Vulnerable Communitiesに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2023,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "David Grimm"
+    ],
+    "key_works": [
+      "Key work on Innovation and Vulnerable Communities (2023)"
+    ],
+    "keywords_ja": "脆弱コミュニティのイノベーション",
+    "keywords_en": "innovation and vulnerable communities",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  },
+  {
+    "id": "inno_trans_550",
+    "name_en": "Appropriate Innovation Systems",
+    "name_ja": "適正イノベーションシステム",
+    "definition": "適正イノベーションシステムに関する理論・概念。Appropriate Innovation Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Appropriate Innovation Systemsに関する理論的貢献として、インクルーシブイノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "インクルーシブイノベーション論",
+    "era_start": 2024,
+    "innovation_type": "inclusive,frugal,grassroots",
+    "cognitive_mechanism": "inclusive,empowerment",
+    "key_researchers": [
+      "Sabine Hielscher"
+    ],
+    "key_works": [
+      "Key work on Appropriate Innovation Systems (2024)"
+    ],
+    "keywords_ja": "適正イノベーションシステム",
+    "keywords_en": "appropriate innovation systems",
+    "opposing_concept_names": "top-down technology transfer",
+    "schumpeter_layer": "micro"
+  }
+]

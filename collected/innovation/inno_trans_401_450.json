@@ -1,0 +1,1108 @@
+[
+  {
+    "id": "inno_trans_401",
+    "name_en": "Repair Economy Innovation",
+    "name_ja": "リペアエコノミーイノベーション",
+    "definition": "リペアエコノミーイノベーションに関する理論・概念。Repair Economy Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Repair Economy Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2005,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on Repair Economy Innovation (2005)"
+    ],
+    "keywords_ja": "リペアエコノミーイノベーション",
+    "keywords_en": "repair economy innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_402",
+    "name_en": "Circular Economy Education",
+    "name_ja": "サーキュラーエコノミー教育",
+    "definition": "サーキュラーエコノミー教育に関する理論・概念。Circular Economy Educationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Educationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2006,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Circular Economy Education (2006)"
+    ],
+    "keywords_ja": "サーキュラーエコノミー教育",
+    "keywords_en": "circular economy education",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_403",
+    "name_en": "Circular Regional Innovation System",
+    "name_ja": "サーキュラー地域イノベーションシステム",
+    "definition": "サーキュラー地域イノベーションシステムに関する理論・概念。Circular Regional Innovation Systemの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Regional Innovation Systemに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2007,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Circular Regional Innovation System (2007)"
+    ],
+    "keywords_ja": "サーキュラー地域イノベーションシステム",
+    "keywords_en": "circular regional innovation system",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_404",
+    "name_en": "Waste-to-Energy Innovation",
+    "name_ja": "廃棄物エネルギーイノベーション",
+    "definition": "廃棄物エネルギーイノベーションに関する理論・概念。Waste-to-Energy Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Waste-to-Energy Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2008,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Waste-to-Energy Innovation (2008)"
+    ],
+    "keywords_ja": "廃棄物エネルギーイノベーション",
+    "keywords_en": "waste-to-energy innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_405",
+    "name_en": "Circular Water Systems",
+    "name_ja": "サーキュラー水システム",
+    "definition": "サーキュラー水システムに関する理論・概念。Circular Water Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Water Systemsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2009,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Circular Water Systems (2009)"
+    ],
+    "keywords_ja": "サーキュラー水システム",
+    "keywords_en": "circular water systems",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_406",
+    "name_en": "Value Hill Model",
+    "name_ja": "バリューヒルモデル",
+    "definition": "バリューヒルモデルに関する理論・概念。Value Hill Modelの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Value Hill Modelに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2010,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Value Hill Model (2010)"
+    ],
+    "keywords_ja": "バリューヒルモデル",
+    "keywords_en": "value hill model",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_407",
+    "name_en": "Circular Automotive Innovation",
+    "name_ja": "サーキュラー自動車イノベーション",
+    "definition": "サーキュラー自動車イノベーションに関する理論・概念。Circular Automotive Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Automotive Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2011,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Circular Automotive Innovation (2011)"
+    ],
+    "keywords_ja": "サーキュラー自動車イノベーション",
+    "keywords_en": "circular automotive innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_408",
+    "name_en": "Circular Fashion Innovation",
+    "name_ja": "サーキュラーファッションイノベーション",
+    "definition": "サーキュラーファッションイノベーションに関する理論・概念。Circular Fashion Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Fashion Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2012,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Circular Fashion Innovation (2012)"
+    ],
+    "keywords_ja": "サーキュラーファッションイノベーション",
+    "keywords_en": "circular fashion innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_409",
+    "name_en": "Material Passport Innovation",
+    "name_ja": "マテリアルパスポートイノベーション",
+    "definition": "マテリアルパスポートイノベーションに関する理論・概念。Material Passport Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Material Passport Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2013,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Material Passport Innovation (2013)"
+    ],
+    "keywords_ja": "マテリアルパスポートイノベーション",
+    "keywords_en": "material passport innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_410",
+    "name_en": "Circular Agriculture",
+    "name_ja": "サーキュラー農業",
+    "definition": "サーキュラー農業に関する理論・概念。Circular Agricultureの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Agricultureに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2014,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Circular Agriculture (2014)"
+    ],
+    "keywords_ja": "サーキュラー農業",
+    "keywords_en": "circular agriculture",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_411",
+    "name_en": "Circular Rare Earth Recovery",
+    "name_ja": "レアアースのサーキュラー回収",
+    "definition": "レアアースのサーキュラー回収に関する理論・概念。Circular Rare Earth Recoveryの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Rare Earth Recoveryに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2015,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on Circular Rare Earth Recovery (2015)"
+    ],
+    "keywords_ja": "レアアースのサーキュラー回収",
+    "keywords_en": "circular rare earth recovery",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_412",
+    "name_en": "Circular Business Ecosystem",
+    "name_ja": "サーキュラービジネスエコシステム",
+    "definition": "サーキュラービジネスエコシステムに関する理論・概念。Circular Business Ecosystemの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Business Ecosystemに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2016,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Circular Business Ecosystem (2016)"
+    ],
+    "keywords_ja": "サーキュラービジネスエコシステム",
+    "keywords_en": "circular business ecosystem",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_413",
+    "name_en": "Design for Longevity",
+    "name_ja": "長寿命設計",
+    "definition": "長寿命設計に関する理論・概念。Design for Longevityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Design for Longevityに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2017,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Design for Longevity (2017)"
+    ],
+    "keywords_ja": "長寿命設計",
+    "keywords_en": "design for longevity",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_414",
+    "name_en": "Circular Local Government Policy",
+    "name_ja": "サーキュラー地方政府政策",
+    "definition": "サーキュラー地方政府政策に関する理論・概念。Circular Local Government Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Local Government Policyに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2018,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Circular Local Government Policy (2018)"
+    ],
+    "keywords_ja": "サーキュラー地方政府政策",
+    "keywords_en": "circular local government policy",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_415",
+    "name_en": "Circular Procurement",
+    "name_ja": "サーキュラー調達",
+    "definition": "サーキュラー調達に関する理論・概念。Circular Procurementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Procurementに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2019,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Circular Procurement (2019)"
+    ],
+    "keywords_ja": "サーキュラー調達",
+    "keywords_en": "circular procurement",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_416",
+    "name_en": "Circular Impact Assessment",
+    "name_ja": "サーキュラー影響評価",
+    "definition": "サーキュラー影響評価に関する理論・概念。Circular Impact Assessmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Impact Assessmentに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2020,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Circular Impact Assessment (2020)"
+    ],
+    "keywords_ja": "サーキュラー影響評価",
+    "keywords_en": "circular impact assessment",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_417",
+    "name_en": "Resource Efficiency Innovation",
+    "name_ja": "資源効率イノベーション",
+    "definition": "資源効率イノベーションに関する理論・概念。Resource Efficiency Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Resource Efficiency Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2021,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Resource Efficiency Innovation (2021)"
+    ],
+    "keywords_ja": "資源効率イノベーション",
+    "keywords_en": "resource efficiency innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_418",
+    "name_en": "Circular Packaging Innovation",
+    "name_ja": "サーキュラー包装イノベーション",
+    "definition": "サーキュラー包装イノベーションに関する理論・概念。Circular Packaging Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Packaging Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2022,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Circular Packaging Innovation (2022)"
+    ],
+    "keywords_ja": "サーキュラー包装イノベーション",
+    "keywords_en": "circular packaging innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_419",
+    "name_en": "Nutrient Cycling Innovation",
+    "name_ja": "栄養循環イノベーション",
+    "definition": "栄養循環イノベーションに関する理論・概念。Nutrient Cycling Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Nutrient Cycling Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2023,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Nutrient Cycling Innovation (2023)"
+    ],
+    "keywords_ja": "栄養循環イノベーション",
+    "keywords_en": "nutrient cycling innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_420",
+    "name_en": "Circular Platform Business",
+    "name_ja": "サーキュラープラットフォームビジネス",
+    "definition": "サーキュラープラットフォームビジネスに関する理論・概念。Circular Platform Businessの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Platform Businessに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2024,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Circular Platform Business (2024)"
+    ],
+    "keywords_ja": "サーキュラープラットフォームビジネス",
+    "keywords_en": "circular platform business",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_421",
+    "name_en": "Second-Hand Economy Innovation",
+    "name_ja": "中古経済イノベーション",
+    "definition": "中古経済イノベーションに関する理論・概念。Second-Hand Economy Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Second-Hand Economy Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2005,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on Second-Hand Economy Innovation (2005)"
+    ],
+    "keywords_ja": "中古経済イノベーション",
+    "keywords_en": "second-hand economy innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_422",
+    "name_en": "Circular Mining Innovation",
+    "name_ja": "サーキュラー鉱業イノベーション",
+    "definition": "サーキュラー鉱業イノベーションに関する理論・概念。Circular Mining Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Mining Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2006,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Circular Mining Innovation (2006)"
+    ],
+    "keywords_ja": "サーキュラー鉱業イノベーション",
+    "keywords_en": "circular mining innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_423",
+    "name_en": "Circular Certification Systems",
+    "name_ja": "サーキュラー認証システム",
+    "definition": "サーキュラー認証システムに関する理論・概念。Circular Certification Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Certification Systemsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2007,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Circular Certification Systems (2007)"
+    ],
+    "keywords_ja": "サーキュラー認証システム",
+    "keywords_en": "circular certification systems",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_424",
+    "name_en": "Circular Energy Storage",
+    "name_ja": "サーキュラーエネルギー貯蔵",
+    "definition": "サーキュラーエネルギー貯蔵に関する理論・概念。Circular Energy Storageの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Energy Storageに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2008,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Circular Energy Storage (2008)"
+    ],
+    "keywords_ja": "サーキュラーエネルギー貯蔵",
+    "keywords_en": "circular energy storage",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_425",
+    "name_en": "Eco-Industrial Park Innovation",
+    "name_ja": "エコ産業団地イノベーション",
+    "definition": "エコ産業団地イノベーションに関する理論・概念。Eco-Industrial Park Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Eco-Industrial Park Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2009,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Eco-Industrial Park Innovation (2009)"
+    ],
+    "keywords_ja": "エコ産業団地イノベーション",
+    "keywords_en": "eco-industrial park innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_426",
+    "name_en": "Circular Healthcare",
+    "name_ja": "サーキュラーヘルスケア",
+    "definition": "サーキュラーヘルスケアに関する理論・概念。Circular Healthcareの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Healthcareに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2010,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Circular Healthcare (2010)"
+    ],
+    "keywords_ja": "サーキュラーヘルスケア",
+    "keywords_en": "circular healthcare",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_427",
+    "name_en": "Deposit-Return System Innovation",
+    "name_ja": "デポジットリターンシステム",
+    "definition": "デポジットリターンシステムに関する理論・概念。Deposit-Return System Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Deposit-Return System Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2011,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Deposit-Return System Innovation (2011)"
+    ],
+    "keywords_ja": "デポジットリターンシステム",
+    "keywords_en": "deposit-return system innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_428",
+    "name_en": "Circular Economy and 3D Printing",
+    "name_ja": "サーキュラーエコノミーと3Dプリンティング",
+    "definition": "サーキュラーエコノミーと3Dプリンティングに関する理論・概念。Circular Economy and 3D Printingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy and 3D Printingに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2012,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Circular Economy and 3D Printing (2012)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーと3Dプリンティング",
+    "keywords_en": "circular economy and 3d printing",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_429",
+    "name_en": "Circular Smart Materials",
+    "name_ja": "サーキュラースマートマテリアル",
+    "definition": "サーキュラースマートマテリアルに関する理論・概念。Circular Smart Materialsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Smart Materialsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2013,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Circular Smart Materials (2013)"
+    ],
+    "keywords_ja": "サーキュラースマートマテリアル",
+    "keywords_en": "circular smart materials",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_430",
+    "name_en": "Doughnut Economics and Circular Innovation",
+    "name_ja": "ドーナツ経済学とサーキュラーイノベーション",
+    "definition": "ドーナツ経済学とサーキュラーイノベーションに関する理論・概念。Doughnut Economics and Circular Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Doughnut Economics and Circular Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2014,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Doughnut Economics and Circular Innovation (2014)"
+    ],
+    "keywords_ja": "ドーナツ経済学とサーキュラーイノベーション",
+    "keywords_en": "doughnut economics and circular innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_431",
+    "name_en": "Social Innovation Definition and Typology",
+    "name_ja": "社会イノベーションの定義と類型論",
+    "definition": "社会イノベーションの定義と類型論に関する理論・概念。Social Innovation Definition and Typologyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Definition and Typologyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2005,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Definition and Typology (2005)"
+    ],
+    "keywords_ja": "社会イノベーションの定義と類型論",
+    "keywords_en": "social innovation definition and typology",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_432",
+    "name_en": "Social Enterprise as Innovation Vehicle",
+    "name_ja": "イノベーション手段としての社会的企業",
+    "definition": "イノベーション手段としての社会的企業に関する理論・概念。Social Enterprise as Innovation Vehicleの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Enterprise as Innovation Vehicleに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2006,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Social Enterprise as Innovation Vehicle (2006)"
+    ],
+    "keywords_ja": "イノベーション手段としての社会的企業",
+    "keywords_en": "social enterprise as innovation vehicle",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_433",
+    "name_en": "Social Entrepreneurship Theory",
+    "name_ja": "社会的起業家精神の理論",
+    "definition": "社会的起業家精神の理論に関する理論・概念。Social Entrepreneurship Theoryの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Entrepreneurship Theoryに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2007,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Entrepreneurship Theory (2007)"
+    ],
+    "keywords_ja": "社会的起業家精神の理論",
+    "keywords_en": "social entrepreneurship theory",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_434",
+    "name_en": "Institutional Entrepreneurship for Social Change",
+    "name_ja": "社会変革のための制度的起業家精神",
+    "definition": "社会変革のための制度的起業家精神に関する理論・概念。Institutional Entrepreneurship for Social Changeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Institutional Entrepreneurship for Social Changeに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2008,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Institutional Entrepreneurship for Social Change (2008)"
+    ],
+    "keywords_ja": "社会変革のための制度的起業家精神",
+    "keywords_en": "institutional entrepreneurship for social change",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_435",
+    "name_en": "Social Innovation Ecosystem",
+    "name_ja": "社会イノベーション・エコシステム",
+    "definition": "社会イノベーション・エコシステムに関する理論・概念。Social Innovation Ecosystemの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Ecosystemに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2009,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Ecosystem (2009)"
+    ],
+    "keywords_ja": "社会イノベーション・エコシステム",
+    "keywords_en": "social innovation ecosystem",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_436",
+    "name_en": "Social Impact Assessment",
+    "name_ja": "社会的インパクト評価",
+    "definition": "社会的インパクト評価に関する理論・概念。Social Impact Assessmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Impact Assessmentに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2010,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Social Impact Assessment (2010)"
+    ],
+    "keywords_ja": "社会的インパクト評価",
+    "keywords_en": "social impact assessment",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_437",
+    "name_en": "Social Innovation and Public Policy",
+    "name_ja": "社会イノベーションと公共政策",
+    "definition": "社会イノベーションと公共政策に関する理論・概念。Social Innovation and Public Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Public Policyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2011,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Public Policy (2011)"
+    ],
+    "keywords_ja": "社会イノベーションと公共政策",
+    "keywords_en": "social innovation and public policy",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_438",
+    "name_en": "Community-Based Social Innovation",
+    "name_ja": "コミュニティベースの社会イノベーション",
+    "definition": "コミュニティベースの社会イノベーションに関する理論・概念。Community-Based Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Community-Based Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2012,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Community-Based Social Innovation (2012)"
+    ],
+    "keywords_ja": "コミュニティベースの社会イノベーション",
+    "keywords_en": "community-based social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_439",
+    "name_en": "Social Innovation Scaling",
+    "name_ja": "社会イノベーションのスケーリング",
+    "definition": "社会イノベーションのスケーリングに関する理論・概念。Social Innovation Scalingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Scalingに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2013,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Scaling (2013)"
+    ],
+    "keywords_ja": "社会イノベーションのスケーリング",
+    "keywords_en": "social innovation scaling",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_440",
+    "name_en": "Social Innovation and Welfare Reform",
+    "name_ja": "社会イノベーションと福祉改革",
+    "definition": "社会イノベーションと福祉改革に関する理論・概念。Social Innovation and Welfare Reformの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Welfare Reformに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2014,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Welfare Reform (2014)"
+    ],
+    "keywords_ja": "社会イノベーションと福祉改革",
+    "keywords_en": "social innovation and welfare reform",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_441",
+    "name_en": "Social Innovation in Education",
+    "name_ja": "教育における社会イノベーション",
+    "definition": "教育における社会イノベーションに関する理論・概念。Social Innovation in Educationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation in Educationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2015,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Geoff Mulgan"
+    ],
+    "key_works": [
+      "Key work on Social Innovation in Education (2015)"
+    ],
+    "keywords_ja": "教育における社会イノベーション",
+    "keywords_en": "social innovation in education",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_442",
+    "name_en": "Social Innovation in Healthcare",
+    "name_ja": "医療における社会イノベーション",
+    "definition": "医療における社会イノベーションに関する理論・概念。Social Innovation in Healthcareの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation in Healthcareに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2016,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jacques Defourny"
+    ],
+    "key_works": [
+      "Key work on Social Innovation in Healthcare (2016)"
+    ],
+    "keywords_ja": "医療における社会イノベーション",
+    "keywords_en": "social innovation in healthcare",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_443",
+    "name_en": "Social Innovation and Democracy",
+    "name_ja": "社会イノベーションと民主的ガバナンス",
+    "definition": "社会イノベーションと民主的ガバナンスに関する理論・概念。Social Innovation and Democracyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Democracyに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2017,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Gregory Dees"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Democracy (2017)"
+    ],
+    "keywords_ja": "社会イノベーションと民主的ガバナンス",
+    "keywords_en": "social innovation and democracy",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_444",
+    "name_en": "Social Innovation Networks",
+    "name_ja": "社会イノベーションネットワーク",
+    "definition": "社会イノベーションネットワークに関する理論・概念。Social Innovation Networksの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Networksに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2018,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Julie Battilana"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Networks (2018)"
+    ],
+    "keywords_ja": "社会イノベーションネットワーク",
+    "keywords_en": "social innovation networks",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_445",
+    "name_en": "Social Impact Bonds",
+    "name_ja": "ソーシャルインパクトボンド",
+    "definition": "ソーシャルインパクトボンドに関する理論・概念。Social Impact Bondsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Impact Bondsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2019,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frances Westley"
+    ],
+    "key_works": [
+      "Key work on Social Impact Bonds (2019)"
+    ],
+    "keywords_ja": "ソーシャルインパクトボンド",
+    "keywords_en": "social impact bonds",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_446",
+    "name_en": "Social Innovation Labs",
+    "name_ja": "社会イノベーションラボ",
+    "definition": "社会イノベーションラボに関する理論・概念。Social Innovation Labsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Labsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2020,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Robin Murray"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Labs (2020)"
+    ],
+    "keywords_ja": "社会イノベーションラボ",
+    "keywords_en": "social innovation labs",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_447",
+    "name_en": "Social Innovation and Social Movements",
+    "name_ja": "社会イノベーションと社会運動",
+    "definition": "社会イノベーションと社会運動に関する理論・概念。Social Innovation and Social Movementsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation and Social Movementsに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2021,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Frank Moulaert"
+    ],
+    "key_works": [
+      "Key work on Social Innovation and Social Movements (2021)"
+    ],
+    "keywords_ja": "社会イノベーションと社会運動",
+    "keywords_en": "social innovation and social movements",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_448",
+    "name_en": "Social Economy Innovation",
+    "name_ja": "社会的経済イノベーション",
+    "definition": "社会的経済イノベーションに関する理論・概念。Social Economy Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Economy Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2022,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Jürgen Howaldt"
+    ],
+    "key_works": [
+      "Key work on Social Economy Innovation (2022)"
+    ],
+    "keywords_ja": "社会的経済イノベーション",
+    "keywords_en": "social economy innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_449",
+    "name_en": "Social Innovation Measurement",
+    "name_ja": "社会イノベーション計測",
+    "definition": "社会イノベーション計測に関する理論・概念。Social Innovation Measurementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Social Innovation Measurementに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2023,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Alex Nicholls"
+    ],
+    "key_works": [
+      "Key work on Social Innovation Measurement (2023)"
+    ],
+    "keywords_ja": "社会イノベーション計測",
+    "keywords_en": "social innovation measurement",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  },
+  {
+    "id": "inno_trans_450",
+    "name_en": "Co-Production as Social Innovation",
+    "name_ja": "共同生産としての社会イノベーション",
+    "definition": "共同生産としての社会イノベーションに関する理論・概念。Co-Production as Social Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Co-Production as Social Innovationに関する理論的貢献として、社会イノベーション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "社会イノベーション論",
+    "era_start": 2024,
+    "innovation_type": "social,institutional",
+    "cognitive_mechanism": "social,participatory",
+    "key_researchers": [
+      "Ezio Manzini"
+    ],
+    "key_works": [
+      "Key work on Co-Production as Social Innovation (2024)"
+    ],
+    "keywords_ja": "共同生産としての社会イノベーション",
+    "keywords_en": "co-production as social innovation",
+    "opposing_concept_names": "market-only approach",
+    "schumpeter_layer": "meso"
+  }
+]

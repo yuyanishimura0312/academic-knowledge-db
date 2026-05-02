@@ -1,0 +1,1002 @@
+[
+  {
+    "id": "inno_sect_301",
+    "name_en": "Green Revolution Innovation System",
+    "name_ja": "緑の革命イノベーションシステム",
+    "definition": "1960-70年代の高収量品種・化学肥料・灌漑の組み合わせによる農業生産性革命。ノーマン・ボーローグの矮性小麦品種が起点。CGIAR研究センター群が制度的基盤を提供。南アジア・東南アジアの食糧安全保障に大きく貢献したが、環境負荷・社会的格差の拡大という負の側面も招いた。",
+    "impact_summary": "20世紀最大の農業技術革命の構造的分析と教訓",
+    "era_start": 1960,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Norman Borlaug",
+      "M.S. Swaminathan"
+    ],
+    "key_works": [
+      "The Green Revolution revisited (2009)"
+    ],
+    "industry_tags": "agriculture, crop breeding, food security",
+    "school_of_thought": "緑の革命研究",
+    "innovation_type": "product,process,systemic",
+    "cognitive_mechanism": "technology_package,institutional",
+    "keywords_en": "Green Revolution, high-yield varieties, CGIAR, food security",
+    "keywords_ja": "緑の革命,高収量品種,CGIAR,食糧安全保障",
+    "opposing_concept_names": "agroecology",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_302",
+    "name_en": "Precision Agriculture",
+    "name_ja": "精密農業",
+    "definition": "GPS・リモートセンシング・IoTセンサー・ドローン・AI分析を活用した農地管理の精密化。可変施肥・精密灌漑・病害虫モニタリングにより投入資材の最適化と環境負荷低減を両立するデータ駆動型農業への構造的転換。",
+    "impact_summary": "農業のデジタル変革と持続可能な集約化の技術基盤",
+    "era_start": 1995,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "John Stafford",
+      "Simon Blackmore"
+    ],
+    "key_works": [
+      "Precision agriculture for sustainability (2017)"
+    ],
+    "industry_tags": "agriculture, agtech, IoT, drones",
+    "school_of_thought": "精密農業論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "data_driven,optimization",
+    "keywords_en": "precision agriculture, GPS farming, variable rate technology, remote sensing",
+    "keywords_ja": "精密農業,GPS農業,可変施肥技術,リモートセンシング",
+    "opposing_concept_names": "uniform field management",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_303",
+    "name_en": "Agricultural Biotechnology Innovation",
+    "name_ja": "農業バイオテクノロジーイノベーション",
+    "definition": "遺伝子組換え作物・ゲノム編集・分子マーカー育種等のバイオテクノロジーの農業応用。Bt作物・除草剤耐性作物の商業化以降、規制・消費者受容・知的財産の3軸が産業動態を規定。新興のゲノム編集作物は規制環境が未確定。",
+    "impact_summary": "農業バイオテクノロジーの産業化と社会的受容の動態",
+    "era_start": 1996,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Robert Fraley",
+      "Pamela Ronald"
+    ],
+    "key_works": [
+      "Genetically modified crops: past, present, and future (2016)"
+    ],
+    "industry_tags": "agricultural biotech, GMO, crop improvement",
+    "school_of_thought": "農業バイオテクノロジー論",
+    "innovation_type": "product,institutional",
+    "cognitive_mechanism": "science_push,regulatory",
+    "keywords_en": "agricultural biotechnology, GMO, CRISPR crops, Bt crops",
+    "keywords_ja": "農業バイオテクノロジー,遺伝子組換え作物,CRISPRクロップ",
+    "opposing_concept_names": "organic farming movement",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_304",
+    "name_en": "Vertical Farming Innovation",
+    "name_ja": "垂直農法イノベーション",
+    "definition": "屋内の多層栽培システムによる都市型農業の革新。LED照明・水耕栽培・環境制御・AIモニタリングの統合により水使用量95%削減・農薬不要・周年生産を実現。エネルギーコスト・初期投資・作物種類の制約が経済的課題。",
+    "impact_summary": "都市型食料生産の技術的可能性と経済的課題",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Dickson Despommier",
+      "Toyoki Kozai"
+    ],
+    "key_works": [
+      "The vertical farm (2010)"
+    ],
+    "industry_tags": "vertical farming, indoor agriculture, agtech",
+    "school_of_thought": "垂直農法論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "controlled_environment,urban",
+    "keywords_en": "vertical farming, indoor agriculture, LED cultivation, hydroponics",
+    "keywords_ja": "垂直農法,屋内農業,LED栽培,水耕栽培",
+    "opposing_concept_names": "traditional open-field agriculture",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_305",
+    "name_en": "Alternative Protein Innovation",
+    "name_ja": "代替タンパク質イノベーション",
+    "definition": "植物性肉・培養肉・昆虫タンパク・精密発酵による代替タンパク質の産業形成。環境負荷低減・動物福祉・食糧安全保障の3つの動機が推進。消費者受容・規制枠組み・価格パリティが市場拡大の鍵。",
+    "impact_summary": "食品セクターにおけるタンパク質供給の構造的転換",
+    "era_start": 2013,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Pat Brown",
+      "Mark Post"
+    ],
+    "key_works": [
+      "The future of meat (2019)"
+    ],
+    "industry_tags": "alternative protein, cultured meat, plant-based",
+    "school_of_thought": "代替タンパク質論",
+    "innovation_type": "product,paradigm",
+    "cognitive_mechanism": "substitution,sustainability",
+    "keywords_en": "alternative protein, plant-based meat, cultured meat, precision fermentation",
+    "keywords_ja": "代替タンパク質,植物性肉,培養肉,精密発酵",
+    "opposing_concept_names": "conventional animal agriculture",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_306",
+    "name_en": "Digital Agriculture Platform",
+    "name_ja": "デジタル農業プラットフォーム",
+    "definition": "農業データの統合プラットフォーム。気象データ・土壌データ・衛星画像・機械データ・市場データを統合し意思決定支援を提供。Climate Corporation・John Deereのプラットフォーム戦略がセクターを変革。データ所有権と独占の懸念が課題。",
+    "impact_summary": "農業のプラットフォーム化とデータ経済の形成",
+    "era_start": 2013,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "David Rose",
+      "Jason Lowenberg-DeBoer"
+    ],
+    "key_works": [
+      "Digital agriculture challenges and opportunities (2019)"
+    ],
+    "industry_tags": "digital agriculture, agtech, data platform",
+    "school_of_thought": "デジタル農業論",
+    "innovation_type": "service,platform",
+    "cognitive_mechanism": "platform,data_integration",
+    "keywords_en": "digital agriculture platform, farm data, precision analytics",
+    "keywords_ja": "デジタル農業プラットフォーム,農業データ,精密分析",
+    "opposing_concept_names": "intuition-based farming",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_307",
+    "name_en": "Agroecology Innovation",
+    "name_ja": "アグロエコロジーイノベーション",
+    "definition": "生態学的原理に基づく農業システムの設計。生物多様性・土壌健全性・生態系サービスを活用した持続可能な食料生産。在来知識とモダンサイエンスの統合により化学集約型農業への対抗パラダイムとして発展。FAO・IPES-Foodが推進。",
+    "impact_summary": "持続可能な農業パラダイムの理論と実践の体系化",
+    "era_start": 1990,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Miguel Altieri",
+      "Steve Gliessman"
+    ],
+    "key_works": [
+      "Agroecology: the science of sustainable agriculture (1995)"
+    ],
+    "industry_tags": "agroecology, sustainable agriculture, biodiversity",
+    "school_of_thought": "アグロエコロジー論",
+    "innovation_type": "systemic,process",
+    "cognitive_mechanism": "ecological,indigenous_knowledge",
+    "keywords_en": "agroecology, biodiversity farming, ecosystem services",
+    "keywords_ja": "アグロエコロジー,生物多様性農業,生態系サービス",
+    "opposing_concept_names": "chemical-intensive monoculture",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_308",
+    "name_en": "Food Safety Innovation System",
+    "name_ja": "食品安全イノベーションシステム",
+    "definition": "HACCP・ゲノムトレーサビリティ・ブロックチェーン追跡・迅速検査キットによる食品安全管理の革新。フードチェーン全体のリスク管理アプローチ。BSE危機等のスキャンダルが制度革新の契機となりデジタル化と国際的調和が加速。",
+    "impact_summary": "食品安全管理のデジタル化と国際標準の進展",
+    "era_start": 1997,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Sara Mortimore",
+      "Frank Yiannas"
+    ],
+    "key_works": [
+      "A new era of smarter food safety (2020)"
+    ],
+    "industry_tags": "food safety, traceability, HACCP",
+    "school_of_thought": "食品安全管理論",
+    "innovation_type": "process,institutional",
+    "cognitive_mechanism": "risk_management,traceability",
+    "keywords_en": "food safety, HACCP, blockchain traceability, rapid testing",
+    "keywords_ja": "食品安全,HACCP,ブロックチェーン追跡,迅速検査",
+    "opposing_concept_names": "end-product testing only",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_309",
+    "name_en": "Agricultural Robotics",
+    "name_ja": "農業ロボティクス",
+    "definition": "自動運転トラクター・収穫ロボット・除草ロボット・ドローン農薬散布等の農業用ロボット技術。労働力不足・高齢化・精密作業の需要が開発を駆動。果菜類の自動収穫は認識・把持・操作の統合という技術的難度が残る。",
+    "impact_summary": "農業の自動化と労働力問題への技術的解決",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Simon Blackmore",
+      "Eldert van Henten"
+    ],
+    "key_works": [
+      "Agricultural robots for field operations (2014)"
+    ],
+    "industry_tags": "agricultural robotics, autonomous vehicles, drones",
+    "school_of_thought": "農業ロボティクス論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "automation,AI_perception",
+    "keywords_en": "agricultural robots, autonomous tractor, harvesting robot, drone",
+    "keywords_ja": "農業ロボット,自動運転トラクター,収穫ロボット,ドローン",
+    "opposing_concept_names": "manual labor-intensive farming",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_310",
+    "name_en": "Food Processing Innovation",
+    "name_ja": "食品加工イノベーション",
+    "definition": "高圧処理・パルス電場・超音波処理・コールドプラズマ等の非加熱殺菌技術を中心とする食品加工の革新。栄養価・風味の維持と安全性の両立を実現。クリーンラベル・ミニマルプロセッシングの消費者トレンドが技術開発を駆動。",
+    "impact_summary": "食品加工技術の革新と品質保持メカニズム",
+    "era_start": 2000,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Gustavo Barbosa-Cánovas",
+      "Daniel Knorr"
+    ],
+    "key_works": [
+      "Nonthermal processing technologies for food (2011)"
+    ],
+    "industry_tags": "food processing, HPP, novel food technology",
+    "school_of_thought": "食品加工技術論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "non_thermal,quality_preservation",
+    "keywords_en": "food processing, HPP, PEF, cold plasma, clean label",
+    "keywords_ja": "食品加工,高圧処理,パルス電場,コールドプラズマ",
+    "opposing_concept_names": "traditional thermal processing",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_311",
+    "name_en": "Seed Industry Consolidation",
+    "name_ja": "種子産業統合",
+    "definition": "種子産業のM&Aによる寡占化がイノベーションパターンに与える影響分析。Bayer-Monsanto、Corteva、Syngenta-ChemChinaの3大グループへの集約。知的財産の集中・品種多様性低下リスクと研究開発投資増大の両面を分析。農家の選択肢と種子主権の議論。",
+    "impact_summary": "種子産業の構造変革がイノベーション方向性に与える影響",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Jack Kloppenburg",
+      "Philip Howard"
+    ],
+    "key_works": [
+      "First the seed (2004)"
+    ],
+    "industry_tags": "seed industry, agricultural inputs, IP",
+    "school_of_thought": "種子産業論",
+    "innovation_type": "organizational,market",
+    "cognitive_mechanism": "consolidation,IP_concentration",
+    "keywords_en": "seed industry, consolidation, Monsanto-Bayer, seed sovereignty",
+    "keywords_ja": "種子産業,統合,種子主権,知的財産",
+    "opposing_concept_names": "open-source seed movement",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_312",
+    "name_en": "Regenerative Agriculture",
+    "name_ja": "リジェネラティブ農業",
+    "definition": "土壌健全性の回復を中核とする農業アプローチ。不耕起栽培・被覆作物・多様な輪作・統合的家畜管理により炭素固定・水循環改善・生物多様性回復を目指す。パタゴニア・General Mills等の企業参入がメインストリーム化を加速。",
+    "impact_summary": "土壌再生型農業パラダイムの理論と市場形成",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Gabe Brown",
+      "David Montgomery"
+    ],
+    "key_works": [
+      "Growing a revolution (2017)"
+    ],
+    "industry_tags": "regenerative agriculture, soil health, carbon",
+    "school_of_thought": "リジェネラティブ農業論",
+    "innovation_type": "systemic,process",
+    "cognitive_mechanism": "soil_health,carbon_sequestration",
+    "keywords_en": "regenerative agriculture, soil health, carbon sequestration, cover crops",
+    "keywords_ja": "リジェネラティブ農業,土壌健全性,炭素固定,被覆作物",
+    "opposing_concept_names": "conventional tillage agriculture",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_313",
+    "name_en": "Aquaculture Innovation",
+    "name_ja": "養殖イノベーション",
+    "definition": "養殖業の技術的革新。閉鎖循環式養殖（RAS）・沖合養殖・統合的多栄養段階養殖（IMTA）・AI給餌最適化により環境負荷低減と生産効率向上を追求。水産資源の持続可能な利用と食糧安全保障への貢献。ノルウェー・チリが産業をリード。",
+    "impact_summary": "養殖業の技術革新と持続可能性の両立",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Ragnar Nortvedt",
+      "Malcolm Beveridge"
+    ],
+    "key_works": [
+      "Aquaculture: farming aquatic animals and plants (2012)"
+    ],
+    "industry_tags": "aquaculture, fish farming, marine technology",
+    "school_of_thought": "養殖イノベーション論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "closed_loop,precision",
+    "keywords_en": "aquaculture, RAS, IMTA, sustainable fish farming, AI feeding",
+    "keywords_ja": "養殖,閉鎖循環式養殖,IMTA,AI給餌",
+    "opposing_concept_names": "wild-catch fisheries",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_314",
+    "name_en": "Smart Irrigation Innovation",
+    "name_ja": "スマート灌漑イノベーション",
+    "definition": "土壌水分センサー・気象データ・衛星画像・AI予測モデルを統合した灌漑の最適化。農業用水消費を30-50%削減可能。点滴灌漑からデジタル制御灌漑への進化により水ストレス地域での食糧生産の持続可能性を確保。",
+    "impact_summary": "灌漑のデジタル化による水利用効率の飛躍的向上",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Isaya Kisekka",
+      "Netafim team"
+    ],
+    "key_works": [
+      "Smart irrigation systems (2018)"
+    ],
+    "industry_tags": "irrigation, water technology, agtech",
+    "school_of_thought": "スマート灌漑論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "water_optimization,sensor",
+    "keywords_en": "smart irrigation, drip irrigation, soil moisture sensor, water efficiency",
+    "keywords_ja": "スマート灌漑,点滴灌漑,土壌水分センサー,水利用効率",
+    "opposing_concept_names": "flood irrigation",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_315",
+    "name_en": "Agricultural Gene Editing",
+    "name_ja": "農業遺伝子編集",
+    "definition": "CRISPR-Cas9等のゲノム編集技術の作物改良への応用。外来遺伝子を挿入しないため従来のGMO規制とは異なる枠組みが検討される。耐病性・品質改良・気候適応品種の迅速開発が可能。米国・日本は緩和的、EUは予防的な規制スタンス。",
+    "impact_summary": "農業ゲノム編集の技術・規制・社会的受容の動態",
+    "era_start": 2016,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Caixia Gao",
+      "Yiping Qi"
+    ],
+    "key_works": [
+      "Gene-edited crops: past, present, and future (2020)"
+    ],
+    "industry_tags": "gene editing, crop improvement, CRISPR",
+    "school_of_thought": "農業ゲノム編集論",
+    "innovation_type": "product,institutional",
+    "cognitive_mechanism": "precision_breeding,regulatory",
+    "keywords_en": "agricultural gene editing, CRISPR crops, non-transgenic, precision breeding",
+    "keywords_ja": "農業遺伝子編集,CRISPRクロップ,非トランスジェニック",
+    "opposing_concept_names": "traditional breeding only",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_316",
+    "name_en": "Food Waste Innovation",
+    "name_ja": "フードウェイストイノベーション",
+    "definition": "フードロス・食品廃棄物削減のためのイノベーション。予測AI・ダイナミックプライシング・アップサイクル食品・余剰食品マッチングプラットフォーム・堆肥化技術の統合的革新。SDG目標12.3がグローバルな政策的駆動力。Too Good To Go等のプラットフォームが台頭。",
+    "impact_summary": "フードロス削減の技術・ビジネスモデル革新",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Toine Timmermans",
+      "Dana Gunders"
+    ],
+    "key_works": [
+      "Wasted: how America is losing up to 40% of its food (2012)"
+    ],
+    "industry_tags": "food waste, circular economy, sustainability",
+    "school_of_thought": "フードウェイスト論",
+    "innovation_type": "process,service",
+    "cognitive_mechanism": "circular,platform",
+    "keywords_en": "food waste, food loss, upcycling, surplus food platform",
+    "keywords_ja": "フードロス,食品廃棄物,アップサイクル,余剰食品",
+    "opposing_concept_names": "linear take-make-waste model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_317",
+    "name_en": "Agricultural Insurance Innovation",
+    "name_ja": "農業保険イノベーション",
+    "definition": "インデックス型保険・衛星ベースパラメトリック保険・ブロックチェーン自動支払い等の農業保険の革新。天候リスク・価格リスク・病害虫リスクへの対応。小規模農家のリスク管理能力向上と金融包摂に寄与。新興国でのモバイル保険が発展。",
+    "impact_summary": "農業リスク管理のデジタル化と金融包摂の促進",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Daniel Clarke",
+      "Ruth Vargas Hill"
+    ],
+    "key_works": [
+      "Making index insurance work for the poorest (2014)"
+    ],
+    "industry_tags": "agricultural insurance, parametric, fintech",
+    "school_of_thought": "農業保険イノベーション論",
+    "innovation_type": "service,institutional",
+    "cognitive_mechanism": "parametric,financial_inclusion",
+    "keywords_en": "agricultural insurance, index-based, parametric, satellite monitoring",
+    "keywords_ja": "農業保険,インデックス型保険,パラメトリック,衛星",
+    "opposing_concept_names": "traditional crop insurance",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_318",
+    "name_en": "Microbiome-Based Agriculture",
+    "name_ja": "マイクロバイオーム農業",
+    "definition": "土壌・植物マイクロバイオームの活用による作物生産性向上・病害抵抗性強化。バイオスティミュラント・微生物製剤・根圏エンジニアリングが化学農薬・化学肥料の代替手段として発展。Indigo Agriculture・Pivot Bio等のスタートアップが産業化を推進。",
+    "impact_summary": "マイクロバイオーム活用による持続可能な農業の推進",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Jeff Smith",
+      "Gwyn Bevan"
+    ],
+    "key_works": [
+      "Plant microbiome community composition (2018)"
+    ],
+    "industry_tags": "microbiome, biostimulant, agricultural biotech",
+    "school_of_thought": "農業マイクロバイオーム論",
+    "innovation_type": "product,scientific",
+    "cognitive_mechanism": "microbiome,biological",
+    "keywords_en": "soil microbiome, biostimulant, microbial inoculant, rhizosphere",
+    "keywords_ja": "土壌マイクロバイオーム,バイオスティミュラント,微生物製剤",
+    "opposing_concept_names": "chemical-only crop protection",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_319",
+    "name_en": "Organic Agriculture Certification",
+    "name_ja": "有機農業認証イノベーション",
+    "definition": "有機農業の認証制度の進化。USDA Organic・EU有機規制・JAS有機の国際的枠組み。認証コスト・小規模農家の参入障壁・参加型保証システム（PGS）の発展。有機市場の拡大に伴う認証の信頼性維持と制度革新の必要性。",
+    "impact_summary": "有機農業認証制度の進化とグローバル市場形成",
+    "era_start": 1990,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Brian Baker",
+      "Matthew Slater"
+    ],
+    "key_works": [
+      "Organic agriculture: a global perspective (2006)"
+    ],
+    "industry_tags": "organic agriculture, certification, food market",
+    "school_of_thought": "有機農業制度論",
+    "innovation_type": "institutional,market",
+    "cognitive_mechanism": "certification,trust",
+    "keywords_en": "organic certification, USDA organic, PGS, organic market",
+    "keywords_ja": "有機認証,USDA有機,PGS,有機市場",
+    "opposing_concept_names": "unregulated organic claims",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_320",
+    "name_en": "Climate-Smart Agriculture",
+    "name_ja": "気候スマート農業",
+    "definition": "気候変動への適応・緩和・食糧安全保障を同時に追求する農業アプローチ。FAOが2010年に提唱。耐乾燥品種・保全農業・アグロフォレストリー・水管理改善の統合。気候変動適応基金・カーボンクレジットが資金メカニズム。",
+    "impact_summary": "気候変動対応型農業の統合的枠組みと実践",
+    "era_start": 2010,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Leslie Lipper",
+      "David Zilberman"
+    ],
+    "key_works": [
+      "Climate-smart agriculture for food security (2014)"
+    ],
+    "industry_tags": "climate-smart agriculture, adaptation, mitigation",
+    "school_of_thought": "気候スマート農業論",
+    "innovation_type": "systemic,institutional",
+    "cognitive_mechanism": "adaptation,triple_win",
+    "keywords_en": "climate-smart agriculture, CSA, adaptation, mitigation, food security",
+    "keywords_ja": "気候スマート農業,CSA,適応,緩和,食糧安全保障",
+    "opposing_concept_names": "climate-ignoring agriculture",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_321",
+    "name_en": "Fermentation Technology Innovation",
+    "name_ja": "発酵技術イノベーション",
+    "definition": "伝統的発酵から精密発酵・バイオマス発酵への進化。微生物を活用したタンパク質・脂肪・香料・着色料の生産。Perfect Day（乳タンパク質）・Impossible Foods（ヘム）等が先駆。合成生物学との融合により食品成分の脱動物化が加速。",
+    "impact_summary": "発酵技術の進化による食品原料生産の変革",
+    "era_start": 2014,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Ryan Pandya",
+      "David Lipman"
+    ],
+    "key_works": [
+      "Precision fermentation and the future of food (2020)"
+    ],
+    "industry_tags": "fermentation, precision fermentation, food tech",
+    "school_of_thought": "精密発酵論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "bioprocess,synthetic_biology",
+    "keywords_en": "precision fermentation, biomass fermentation, microbial protein",
+    "keywords_ja": "精密発酵,バイオマス発酵,微生物タンパク質",
+    "opposing_concept_names": "traditional animal-derived ingredients",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_322",
+    "name_en": "Agricultural Extension Innovation",
+    "name_ja": "農業普及イノベーション",
+    "definition": "農業技術・知識の農家への普及方法の革新。ICTベース普及（モバイルアプリ・音声サービス・動画プラットフォーム）・農家間ネットワーク・デモンストレーション農場の進化。特にアフリカ・南アジアでのデジタル普及が注目。",
+    "impact_summary": "農業知識普及のデジタル変革とラストマイル到達",
+    "era_start": 2010,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Jock Anderson",
+      "Gershon Feder"
+    ],
+    "key_works": [
+      "Agricultural extension: good intentions and hard realities (2004)"
+    ],
+    "industry_tags": "agricultural extension, ICT4D, knowledge transfer",
+    "school_of_thought": "農業普及革新論",
+    "innovation_type": "service,institutional",
+    "cognitive_mechanism": "knowledge_transfer,digital",
+    "keywords_en": "agricultural extension, ICT, mobile advisory, farmer network",
+    "keywords_ja": "農業普及,ICT,モバイルアドバイザリー,農家ネットワーク",
+    "opposing_concept_names": "top-down extension model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_323",
+    "name_en": "Supply Chain Blockchain in Food",
+    "name_ja": "食品サプライチェーンブロックチェーン",
+    "definition": "ブロックチェーン技術による食品サプライチェーンの透明性・追跡可能性の向上。Walmart・IBM Food Trustの大規模導入。産地偽装防止・リコール迅速化・消費者への情報提供。技術的成熟度とコスト対効果の検証が進行中。",
+    "impact_summary": "食品サプライチェーンの信頼性構築における分散型技術の役割",
+    "era_start": 2017,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Frank Yiannas",
+      "Marco Iansiti"
+    ],
+    "key_works": [
+      "Blockchain for food traceability (2019)"
+    ],
+    "industry_tags": "blockchain, food supply chain, traceability",
+    "school_of_thought": "食品ブロックチェーン論",
+    "innovation_type": "process,infrastructure",
+    "cognitive_mechanism": "distributed_trust,transparency",
+    "keywords_en": "food blockchain, IBM Food Trust, traceability, provenance",
+    "keywords_ja": "食品ブロックチェーン,追跡可能性,産地証明",
+    "opposing_concept_names": "paper-based traceability",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_324",
+    "name_en": "Controlled Environment Agriculture",
+    "name_ja": "環境制御型農業",
+    "definition": "温室・植物工場における環境パラメータ（光・温度・湿度・CO2・養液）の精密制御。オランダのガラス温室モデルが世界標準。エネルギー効率・自動化・AI制御の統合により年間を通じた安定生産を実現。高付加価値作物に特化。",
+    "impact_summary": "環境制御農業の技術体系と経済モデルの確立",
+    "era_start": 2000,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Ep Heuvelink",
+      "Toyoki Kozai"
+    ],
+    "key_works": [
+      "Plant factory: an indoor vertical farming system (2016)"
+    ],
+    "industry_tags": "CEA, greenhouse, plant factory",
+    "school_of_thought": "環境制御農業論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "precision_control,optimization",
+    "keywords_en": "controlled environment agriculture, greenhouse, plant factory, climate control",
+    "keywords_ja": "環境制御型農業,温室,植物工場,気候制御",
+    "opposing_concept_names": "open-field rain-fed agriculture",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_325",
+    "name_en": "Livestock Precision Farming",
+    "name_ja": "精密畜産",
+    "definition": "IoTセンサー・ウェアラブル・AI画像解析による家畜の個体管理の精密化。発情検知・疾病早期発見・飼料最適化・行動モニタリングにより生産性向上と動物福祉の両立を追求。酪農・養豚・養鶏の各セクターで普及が進行。",
+    "impact_summary": "畜産業のデジタル変革と個体精密管理の実現",
+    "era_start": 2012,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Daniel Berckmans",
+      "Ilan Halachmi"
+    ],
+    "key_works": [
+      "Precision livestock farming (2017)"
+    ],
+    "industry_tags": "precision livestock, dairy, IoT sensors",
+    "school_of_thought": "精密畜産論",
+    "innovation_type": "process,product",
+    "cognitive_mechanism": "individual_monitoring,AI",
+    "keywords_en": "precision livestock, wearable sensors, estrus detection, health monitoring",
+    "keywords_ja": "精密畜産,ウェアラブルセンサー,発情検知,健康モニタリング",
+    "opposing_concept_names": "herd-level management only",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_326",
+    "name_en": "Agricultural Drone Technology",
+    "name_ja": "農業ドローン技術",
+    "definition": "UAV（無人航空機）の農業応用。空撮マッピング・NDVI植生指数分析・精密散布（農薬・肥料・種子）・鳥獣害対策。日本のヤマハ無人ヘリが先駆。DJI Agras等の専用機が普及。規制枠組みの整備と操縦者訓練が課題。",
+    "impact_summary": "ドローンによる農業の空中革命と精密管理の実現",
+    "era_start": 2013,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Haoyang Sun",
+      "Lan Yubin"
+    ],
+    "key_works": [
+      "Agricultural drones for precision farming (2019)"
+    ],
+    "industry_tags": "agricultural drones, UAV, remote sensing",
+    "school_of_thought": "農業ドローン論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "aerial,precision_application",
+    "keywords_en": "agricultural drone, UAV, NDVI, precision spraying, crop mapping",
+    "keywords_ja": "農業ドローン,UAV,NDVI,精密散布,作物マッピング",
+    "opposing_concept_names": "ground-only field scouting",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_327",
+    "name_en": "Functional Food Innovation",
+    "name_ja": "機能性食品イノベーション",
+    "definition": "健康機能を付加した食品の開発・マーケティング・規制の革新。特定保健用食品（トクホ）・機能性表示食品（日本）・Novel Food規制（EU）の制度的枠組み。科学的エビデンスの要求水準と消費者理解のギャップが課題。プロバイオティクス・オメガ3等の市場拡大。",
+    "impact_summary": "食品と健康の境界領域における制度的イノベーション",
+    "era_start": 1991,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Mark Messina",
+      "Bruce German"
+    ],
+    "key_works": [
+      "Functional foods: concept to product (2004)"
+    ],
+    "industry_tags": "functional food, nutraceutical, health food",
+    "school_of_thought": "機能性食品論",
+    "innovation_type": "product,institutional",
+    "cognitive_mechanism": "health_claim,evidence",
+    "keywords_en": "functional food, health claims, probiotics, FOSHU, novel food",
+    "keywords_ja": "機能性食品,ヘルスクレーム,プロバイオティクス,トクホ",
+    "opposing_concept_names": "food as mere sustenance",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_328",
+    "name_en": "Agri-Food Startup Ecosystem",
+    "name_ja": "アグリフードスタートアップエコシステム",
+    "definition": "農業・食品セクターにおけるスタートアップエコシステムの形成。VC投資の急増（2021年512億ドル）・アクセラレーター（IndieBio・Techstars Farm to Fork）・企業ベンチャーキャピタル（Cargill、ADM等）の発展。深い技術（ディープテック）とスケーリングの課題。",
+    "impact_summary": "アグリフードテック投資エコシステムの構造と動態",
+    "era_start": 2014,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Louisa Burwood-Taylor",
+      "Seana Day"
+    ],
+    "key_works": [
+      "AgFunder annual report (2022)"
+    ],
+    "industry_tags": "agrifood startup, venture capital, foodtech",
+    "school_of_thought": "アグリフードVC論",
+    "innovation_type": "organizational,market",
+    "cognitive_mechanism": "ecosystem,venture",
+    "keywords_en": "agrifood startup, venture capital, accelerator, foodtech investment",
+    "keywords_ja": "アグリフードスタートアップ,ベンチャーキャピタル,フードテック投資",
+    "opposing_concept_names": "incumbent-only innovation",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_329",
+    "name_en": "Soil Carbon Monitoring Innovation",
+    "name_ja": "土壌炭素モニタリングイノベーション",
+    "definition": "衛星リモートセンシング・近赤外分光法・eDNA分析による土壌炭素量の大規模・低コスト計測技術の革新。カーボンクレジット市場の基盤インフラとして重要性が増大。MRV（測定・報告・検証）の標準化が農業カーボンマーケットの発展を左右。",
+    "impact_summary": "土壌炭素計測の技術革新とカーボン市場の基盤構築",
+    "era_start": 2018,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Keith Paustian",
+      "Raphael Viscarra Rossel"
+    ],
+    "key_works": [
+      "Soil carbon monitoring for climate action (2020)"
+    ],
+    "industry_tags": "soil carbon, MRV, carbon credits, remote sensing",
+    "school_of_thought": "土壌炭素モニタリング論",
+    "innovation_type": "process,infrastructure",
+    "cognitive_mechanism": "measurement,verification",
+    "keywords_en": "soil carbon monitoring, MRV, carbon credits, spectroscopy",
+    "keywords_ja": "土壌炭素モニタリング,MRV,カーボンクレジット,分光法",
+    "opposing_concept_names": "manual soil sampling only",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_330",
+    "name_en": "Plant-Based Dairy Innovation",
+    "name_ja": "植物性乳製品イノベーション",
+    "definition": "大豆・アーモンド・オーツ・ココナッツ等を原料とする植物性ミルク・チーズ・ヨーグルトの技術・市場革新。Oatlyのオーツミルクが象徴的成功例。精密発酵によるカゼイン・乳清タンパク質の生産が次の技術フロンティア。環境意識と健康志向が需要を駆動。",
+    "impact_summary": "乳製品セクターにおける植物性代替品の市場形成",
+    "era_start": 2014,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "David Julian McClements",
+      "Paul Mozdziak"
+    ],
+    "key_works": [
+      "Future foods: alternative proteins and sustainability (2022)"
+    ],
+    "industry_tags": "plant-based dairy, oat milk, food tech",
+    "school_of_thought": "植物性乳製品論",
+    "innovation_type": "product,market",
+    "cognitive_mechanism": "substitution,consumer_driven",
+    "keywords_en": "plant-based dairy, oat milk, Oatly, precision fermentation dairy",
+    "keywords_ja": "植物性乳製品,オーツミルク,精密発酵乳製品",
+    "opposing_concept_names": "conventional dairy industry",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_331",
+    "name_en": "Agricultural Water Recycling",
+    "name_ja": "農業用水リサイクル",
+    "definition": "処理済み排水・雨水貯留・灌漑排水の再利用による農業用水の循環利用。膜処理・自然浄化・AIモニタリングの統合。イスラエルが先進事例（処理排水の87%を農業に再利用）。水ストレスの増大がグローバルな採用を加速。",
+    "impact_summary": "農業用水の循環利用技術と制度の発展",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Blanca Jiménez",
+      "Takashi Asano"
+    ],
+    "key_works": [
+      "Water reuse in agriculture (2013)"
+    ],
+    "industry_tags": "water recycling, irrigation, water technology",
+    "school_of_thought": "農業水循環論",
+    "innovation_type": "process,infrastructure",
+    "cognitive_mechanism": "circular_water,treatment",
+    "keywords_en": "agricultural water recycling, wastewater reuse, membrane treatment",
+    "keywords_ja": "農業用水リサイクル,排水再利用,膜処理",
+    "opposing_concept_names": "freshwater-only irrigation",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_332",
+    "name_en": "Insect Farming Innovation",
+    "name_ja": "昆虫養殖イノベーション",
+    "definition": "食用・飼料用昆虫の大規模養殖技術の革新。ブラックソルジャーフライ・ミールワーム・コオロギの自動化養殖。有機廃棄物の資源化と高タンパク飼料・食品の生産を両立する循環型モデル。EU Novel Food規制の承認が市場拡大の転換点。",
+    "impact_summary": "昆虫養殖産業の技術・規制・市場形成の動態",
+    "era_start": 2014,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Arnold van Huis",
+      "Dennis Oonincx"
+    ],
+    "key_works": [
+      "Edible insects: future prospects for food and feed security (2013)"
+    ],
+    "industry_tags": "insect farming, alternative protein, circular economy",
+    "school_of_thought": "昆虫養殖論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "circular,novel_protein",
+    "keywords_en": "insect farming, black soldier fly, mealworm, edible insects",
+    "keywords_ja": "昆虫養殖,ブラックソルジャーフライ,ミールワーム,食用昆虫",
+    "opposing_concept_names": "traditional protein sources only",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_333",
+    "name_en": "Food Personalization Technology",
+    "name_ja": "食のパーソナライゼーション技術",
+    "definition": "個人のゲノム・マイクロバイオーム・代謝プロファイル・嗜好データに基づくパーソナライズド栄養の技術革新。Viome・DayTwo等のスタートアップが個別化食事推奨を提供。3Dフードプリンティングによる形状・食感・栄養のカスタマイズ。",
+    "impact_summary": "個別化栄養アプローチの技術と市場形成",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "José Ordovás",
+      "Eran Segal"
+    ],
+    "key_works": [
+      "Personalized nutrition by prediction of glycemic responses (2015)"
+    ],
+    "industry_tags": "personalized nutrition, nutrigenomics, food tech",
+    "school_of_thought": "パーソナライズド栄養論",
+    "innovation_type": "product,service",
+    "cognitive_mechanism": "personalization,data_driven",
+    "keywords_en": "personalized nutrition, nutrigenomics, microbiome diet, 3D food printing",
+    "keywords_ja": "パーソナライズド栄養,ニュートリゲノミクス,マイクロバイオーム食事",
+    "opposing_concept_names": "one-size-fits-all dietary guidelines",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_334",
+    "name_en": "Agricultural Carbon Credit Market",
+    "name_ja": "農業カーボンクレジット市場",
+    "definition": "農業由来の温室効果ガス削減・炭素固定をクレジット化する市場メカニズムの形成。不耕起・被覆作物・アグロフォレストリー等の実践に経済的インセンティブを付与。Indigo Carbon・Nori等のプラットフォームが登場。MRVの信頼性と永続性の保証が課題。",
+    "impact_summary": "農業のカーボンマーケット参入と気候変動対策への貢献",
+    "era_start": 2019,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Timothy Searchinger",
+      "Keith Paustian"
+    ],
+    "key_works": [
+      "Agricultural carbon markets and climate mitigation (2021)"
+    ],
+    "industry_tags": "carbon credits, agriculture, climate finance",
+    "school_of_thought": "農業カーボン市場論",
+    "innovation_type": "market,institutional",
+    "cognitive_mechanism": "market_mechanism,incentive",
+    "keywords_en": "agricultural carbon credits, carbon market, MRV, Indigo Carbon",
+    "keywords_ja": "農業カーボンクレジット,炭素市場,MRV",
+    "opposing_concept_names": "regulation-only climate policy",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_335",
+    "name_en": "Crop Wild Relatives Conservation",
+    "name_ja": "作物野生近縁種保全イノベーション",
+    "definition": "作物の野生近縁種（CWR）を気候変動適応育種の遺伝資源として保全・活用するイノベーション。Svalbardグローバル種子貯蔵庫・CGIAR遺伝資源センター・ゲノミクスによる有用遺伝子同定の統合。名古屋議定書に基づく遺伝資源アクセスと利益配分（ABS）の制度的枠組み。",
+    "impact_summary": "遺伝資源保全と気候適応育種の統合戦略",
+    "era_start": 2008,
+    "schumpeter_layer": "macro",
+    "key_researchers": [
+      "Nigel Maxted",
+      "Luigi Guarino"
+    ],
+    "key_works": [
+      "Crop wild relatives: a manual of in situ conservation (2012)"
+    ],
+    "industry_tags": "genetic resources, conservation, breeding",
+    "school_of_thought": "遺伝資源保全論",
+    "innovation_type": "institutional,scientific",
+    "cognitive_mechanism": "conservation,genetic_diversity",
+    "keywords_en": "crop wild relatives, Svalbard, genetic resources, climate adaptation breeding",
+    "keywords_ja": "作物野生近縁種,スヴァールバル,遺伝資源,気候適応育種",
+    "opposing_concept_names": "monoculture genetic uniformity",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_336",
+    "name_en": "Urban Agriculture Innovation",
+    "name_ja": "都市農業イノベーション",
+    "definition": "都市空間における食料生産の革新。屋上農園・コミュニティガーデン・コンテナファーム・地下農場の多様な形態。食糧安全保障・コミュニティ形成・教育・環境改善の複合的価値。土地利用規制・経済的持続可能性が制約要因。",
+    "impact_summary": "都市農業の多機能的価値と社会イノベーションの理解",
+    "era_start": 2008,
+    "schumpeter_layer": "micro",
+    "key_researchers": [
+      "Dickson Despommier",
+      "Will Allen"
+    ],
+    "key_works": [
+      "Continuous productive urban landscapes (2005)"
+    ],
+    "industry_tags": "urban agriculture, community garden, food security",
+    "school_of_thought": "都市農業論",
+    "innovation_type": "service,organizational",
+    "cognitive_mechanism": "multifunctional,community",
+    "keywords_en": "urban agriculture, rooftop farm, community garden, container farm",
+    "keywords_ja": "都市農業,屋上農園,コミュニティガーデン,コンテナファーム",
+    "opposing_concept_names": "rural-only agriculture model",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_337",
+    "name_en": "Agri-Food E-Commerce",
+    "name_ja": "農産物Eコマース",
+    "definition": "農産物のオンライン直販・産直プラットフォームの革新。中間流通の省略による農家収入向上と消費者価格低下の両立。Alibaba・ピンドゥオドゥオの中国市場が先行。日本のポケットマルシェ・食べチョク等の国内事例。コールドチェーン・ラストマイル配送が物流上の課題。",
+    "impact_summary": "農産物流通のデジタル化と産直モデルの台頭",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Thomas Reardon",
+      "Kevin Chen"
+    ],
+    "key_works": [
+      "E-commerce in agrifood systems (2021)"
+    ],
+    "industry_tags": "e-commerce, agrifood, direct-to-consumer",
+    "school_of_thought": "農産物Eコマース論",
+    "innovation_type": "service,market",
+    "cognitive_mechanism": "disintermediation,platform",
+    "keywords_en": "agri-food e-commerce, direct-to-consumer, farm-to-table platform",
+    "keywords_ja": "農産物Eコマース,産地直送,ファームトゥテーブル",
+    "opposing_concept_names": "traditional wholesale market system",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_338",
+    "name_en": "Biological Crop Protection",
+    "name_ja": "生物的作物保護",
+    "definition": "天敵昆虫・微生物農薬・RNA干渉（RNAi）・フェロモントラップ等による化学農薬代替のイノベーション。統合的病害虫管理（IPM）の中核技術。環境規制の強化と消費者のオーガニック志向が市場拡大を駆動。バイエル・BASF等大手の参入が加速。",
+    "impact_summary": "生物的防除による持続可能な作物保護の産業化",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Joop van Lenteren",
+      "Mark Glare"
+    ],
+    "key_works": [
+      "Biological control: global impacts, challenges and future (2010)"
+    ],
+    "industry_tags": "biological crop protection, biopesticide, IPM",
+    "school_of_thought": "生物的防除論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "biological,ecological",
+    "keywords_en": "biological control, biopesticide, RNAi, IPM, natural enemies",
+    "keywords_ja": "生物的防除,バイオ農薬,RNAi,IPM,天敵",
+    "opposing_concept_names": "chemical pesticide-only approach",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_339",
+    "name_en": "Post-Harvest Loss Reduction",
+    "name_ja": "収穫後ロス削減イノベーション",
+    "definition": "途上国を中心とする収穫後損失（30-40%）の削減技術。低コスト貯蔵技術（密封袋・金属サイロ）・太陽光乾燥機・モバイル冷蔵・低温物流の革新。インフラ制約下での適正技術アプローチが重要。Purdue Improved Crop Storage (PICS) 等の成功事例。",
+    "impact_summary": "途上国の収穫後ロス削減による食糧安全保障の向上",
+    "era_start": 2005,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Lisa Kitinoja",
+      "Dieudonne Baributsa"
+    ],
+    "key_works": [
+      "Postharvest loss innovations (2018)"
+    ],
+    "industry_tags": "post-harvest, storage, food security",
+    "school_of_thought": "収穫後技術論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "appropriate_technology,frugal",
+    "keywords_en": "post-harvest loss, hermetic storage, PICS bags, cold chain",
+    "keywords_ja": "収穫後ロス,密封貯蔵,PICsバッグ,コールドチェーン",
+    "opposing_concept_names": "neglect of post-harvest systems",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  },
+  {
+    "id": "inno_sect_340",
+    "name_en": "Seaweed Farming Innovation",
+    "name_ja": "海藻養殖イノベーション",
+    "definition": "海藻の大規模養殖と多用途活用（食品・飼料・肥料・バイオ燃料・バイオプラスチック・炭素固定）のイノベーション。淡水不要・耕地不要・肥料不要の利点。アジア（中国・インドネシア・日本）が生産の大半。欧米での産業化と規模拡大が新たなフロンティア。",
+    "impact_summary": "海藻養殖のブルーバイオエコノミーとしての可能性",
+    "era_start": 2015,
+    "schumpeter_layer": "meso",
+    "key_researchers": [
+      "Charles Yarish",
+      "Thierry Chopin"
+    ],
+    "key_works": [
+      "Seaweed in health and disease prevention (2016)"
+    ],
+    "industry_tags": "seaweed farming, marine bioeconomy, aquaculture",
+    "school_of_thought": "海藻バイオエコノミー論",
+    "innovation_type": "product,process",
+    "cognitive_mechanism": "multi_use,marine",
+    "keywords_en": "seaweed farming, kelp, blue bioeconomy, carbon sequestration",
+    "keywords_ja": "海藻養殖,ケルプ,ブルーバイオエコノミー,炭素固定",
+    "opposing_concept_names": "land-based agriculture only",
+    "category": "D_directionality",
+    "subfield": "sectoral_innovation_patterns"
+  }
+]

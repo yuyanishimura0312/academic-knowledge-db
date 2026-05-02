@@ -1,0 +1,1117 @@
+[
+  {
+    "id": "inno_trans_201",
+    "name_en": "MLP and Agency",
+    "name_ja": "MLPとエージェンシー",
+    "definition": "MLPとエージェンシーに関する理論・概念。MLP and Agencyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Agencyに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on MLP and Agency (2005)"
+    ],
+    "keywords_ja": "MLPとエージェンシー",
+    "keywords_en": "mlp and agency",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_202",
+    "name_en": "MLP Geography Extension",
+    "name_ja": "MLPの地理的拡張",
+    "definition": "MLPの地理的拡張に関する理論・概念。MLP Geography Extensionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP Geography Extensionに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on MLP Geography Extension (2006)"
+    ],
+    "keywords_ja": "MLPの地理的拡張",
+    "keywords_en": "mlp geography extension",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_203",
+    "name_en": "MLP Power and Politics",
+    "name_ja": "MLPにおける権力と政治",
+    "definition": "MLPにおける権力と政治に関する理論・概念。MLP Power and Politicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP Power and Politicsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on MLP Power and Politics (2007)"
+    ],
+    "keywords_ja": "MLPにおける権力と政治",
+    "keywords_en": "mlp power and politics",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_204",
+    "name_en": "Regime Destabilisation",
+    "name_ja": "レジーム不安定化",
+    "definition": "レジーム不安定化に関する理論・概念。Regime Destabilisationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regime Destabilisationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on Regime Destabilisation (2008)"
+    ],
+    "keywords_ja": "レジーム不安定化",
+    "keywords_en": "regime destabilisation",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_205",
+    "name_en": "MLP Temporality and Sequence",
+    "name_ja": "MLPの時間性と順序",
+    "definition": "MLPの時間性と順序に関する理論・概念。MLP Temporality and Sequenceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP Temporality and Sequenceに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on MLP Temporality and Sequence (2009)"
+    ],
+    "keywords_ja": "MLPの時間性と順序",
+    "keywords_en": "mlp temporality and sequence",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_206",
+    "name_en": "Niche-Regime Interaction Dynamics",
+    "name_ja": "ニッチ-レジーム相互作用ダイナミクス",
+    "definition": "ニッチ-レジーム相互作用ダイナミクスに関する理論・概念。Niche-Regime Interaction Dynamicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche-Regime Interaction Dynamicsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on Niche-Regime Interaction Dynamics (2010)"
+    ],
+    "keywords_ja": "ニッチ-レジーム相互作用ダイナミクス",
+    "keywords_en": "niche-regime interaction dynamics",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_207",
+    "name_en": "MLP and Cultural Legitimacy",
+    "name_ja": "MLPと文化的正当性",
+    "definition": "MLPと文化的正当性に関する理論・概念。MLP and Cultural Legitimacyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Cultural Legitimacyに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on MLP and Cultural Legitimacy (2011)"
+    ],
+    "keywords_ja": "MLPと文化的正当性",
+    "keywords_en": "mlp and cultural legitimacy",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_208",
+    "name_en": "MLP and User Practices",
+    "name_ja": "MLPとユーザー実践",
+    "definition": "MLPとユーザー実践に関する理論・概念。MLP and User Practicesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and User Practicesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on MLP and User Practices (2012)"
+    ],
+    "keywords_ja": "MLPとユーザー実践",
+    "keywords_en": "mlp and user practices",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_209",
+    "name_en": "MLP and Civil Society Actors",
+    "name_ja": "MLPと市民社会アクター",
+    "definition": "MLPと市民社会アクターに関する理論・概念。MLP and Civil Society Actorsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Civil Society Actorsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on MLP and Civil Society Actors (2013)"
+    ],
+    "keywords_ja": "MLPと市民社会アクター",
+    "keywords_en": "mlp and civil society actors",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_210",
+    "name_en": "Transition Pathway: Reconfiguration Extended",
+    "name_ja": "トランジション経路：再構成（拡張）",
+    "definition": "トランジション経路：再構成（拡張）に関する理論・概念。Transition Pathway: Reconfiguration Extendedの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Pathway: Reconfiguration Extendedに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on Transition Pathway: Reconfiguration Extended (2014)"
+    ],
+    "keywords_ja": "トランジション経路：再構成（拡張）",
+    "keywords_en": "transition pathway: reconfiguration extended",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_211",
+    "name_en": "Transition Pathway: De-alignment and Re-alignment Extended",
+    "name_ja": "トランジション経路：脱整合と再整合（拡張）",
+    "definition": "トランジション経路：脱整合と再整合（拡張）に関する理論・概念。Transition Pathway: De-alignment and Re-alignment Extendedの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Pathway: De-alignment and Re-alignment Extendedに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Transition Pathway: De-alignment and Re-alignment Extended (2015)"
+    ],
+    "keywords_ja": "トランジション経路：脱整合と再整合（拡張）",
+    "keywords_en": "transition pathway: de-alignment and re-alignment extended",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_212",
+    "name_en": "Transition Intermediaries",
+    "name_ja": "トランジション仲介者",
+    "definition": "トランジション仲介者に関する理論・概念。Transition Intermediariesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Intermediariesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Transition Intermediaries (2016)"
+    ],
+    "keywords_ja": "トランジション仲介者",
+    "keywords_en": "transition intermediaries",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_213",
+    "name_en": "Landscape Dynamics Typology",
+    "name_ja": "ランドスケープダイナミクス類型論",
+    "definition": "ランドスケープダイナミクス類型論に関する理論・概念。Landscape Dynamics Typologyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Landscape Dynamics Typologyに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Landscape Dynamics Typology (2017)"
+    ],
+    "keywords_ja": "ランドスケープダイナミクス類型論",
+    "keywords_en": "landscape dynamics typology",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_214",
+    "name_en": "Global MLP Framework",
+    "name_ja": "グローバルMLPフレームワーク",
+    "definition": "グローバルMLPフレームワークに関する理論・概念。Global MLP Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Global MLP Frameworkに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on Global MLP Framework (2018)"
+    ],
+    "keywords_ja": "グローバルMLPフレームワーク",
+    "keywords_en": "global mlp framework",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_215",
+    "name_en": "MLP and Developing Countries",
+    "name_ja": "MLPと発展途上国",
+    "definition": "MLPと発展途上国に関する理論・概念。MLP and Developing Countriesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Developing Countriesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on MLP and Developing Countries (2019)"
+    ],
+    "keywords_ja": "MLPと発展途上国",
+    "keywords_en": "mlp and developing countries",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_216",
+    "name_en": "Multi-Regime Interaction",
+    "name_ja": "マルチレジーム相互作用",
+    "definition": "マルチレジーム相互作用に関する理論・概念。Multi-Regime Interactionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Multi-Regime Interactionに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on Multi-Regime Interaction (2020)"
+    ],
+    "keywords_ja": "マルチレジーム相互作用",
+    "keywords_en": "multi-regime interaction",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_217",
+    "name_en": "Regime Complexity and Internal Differentiation",
+    "name_ja": "レジームの複雑性と内部分化",
+    "definition": "レジームの複雑性と内部分化に関する理論・概念。Regime Complexity and Internal Differentiationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regime Complexity and Internal Differentiationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Regime Complexity and Internal Differentiation (2021)"
+    ],
+    "keywords_ja": "レジームの複雑性と内部分化",
+    "keywords_en": "regime complexity and internal differentiation",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_218",
+    "name_en": "MLP and Institutions",
+    "name_ja": "MLPと制度",
+    "definition": "MLPと制度に関する理論・概念。MLP and Institutionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Institutionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on MLP and Institutions (2022)"
+    ],
+    "keywords_ja": "MLPと制度",
+    "keywords_en": "mlp and institutions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_219",
+    "name_en": "Niche Empowerment Strategies",
+    "name_ja": "ニッチのエンパワメント戦略",
+    "definition": "ニッチのエンパワメント戦略に関する理論・概念。Niche Empowerment Strategiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche Empowerment Strategiesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on Niche Empowerment Strategies (2023)"
+    ],
+    "keywords_ja": "ニッチのエンパワメント戦略",
+    "keywords_en": "niche empowerment strategies",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_220",
+    "name_en": "MLP and Finance",
+    "name_ja": "MLPと金融",
+    "definition": "MLPと金融に関する理論・概念。MLP and Financeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Financeに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on MLP and Finance (2024)"
+    ],
+    "keywords_ja": "MLPと金融",
+    "keywords_en": "mlp and finance",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_221",
+    "name_en": "Socio-Technical Lock-in Mechanisms",
+    "name_ja": "社会技術的ロックインメカニズム",
+    "definition": "社会技術的ロックインメカニズムに関する理論・概念。Socio-Technical Lock-in Mechanismsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Lock-in Mechanismsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Lock-in Mechanisms (2005)"
+    ],
+    "keywords_ja": "社会技術的ロックインメカニズム",
+    "keywords_en": "socio-technical lock-in mechanisms",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_222",
+    "name_en": "Carbon Lock-in",
+    "name_ja": "炭素ロックイン",
+    "definition": "炭素ロックインに関する理論・概念。Carbon Lock-inの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Carbon Lock-inに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Carbon Lock-in (2006)"
+    ],
+    "keywords_ja": "炭素ロックイン",
+    "keywords_en": "carbon lock-in",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_223",
+    "name_en": "Phase Model of Transitions",
+    "name_ja": "トランジションの段階モデル",
+    "definition": "トランジションの段階モデルに関する理論・概念。Phase Model of Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Phase Model of Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Phase Model of Transitions (2007)"
+    ],
+    "keywords_ja": "トランジションの段階モデル",
+    "keywords_en": "phase model of transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_224",
+    "name_en": "Transition Management",
+    "name_ja": "トランジション・マネジメント",
+    "definition": "トランジション・マネジメントに関する理論・概念。Transition Managementの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Managementに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on Transition Management (2008)"
+    ],
+    "keywords_ja": "トランジション・マネジメント",
+    "keywords_en": "transition management",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_225",
+    "name_en": "Transition Arena",
+    "name_ja": "トランジション・アリーナ",
+    "definition": "トランジション・アリーナに関する理論・概念。Transition Arenaの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Arenaに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition Arena (2009)"
+    ],
+    "keywords_ja": "トランジション・アリーナ",
+    "keywords_en": "transition arena",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_226",
+    "name_en": "Transition Experiments",
+    "name_ja": "トランジション実験",
+    "definition": "トランジション実験に関する理論・概念。Transition Experimentsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Experimentsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on Transition Experiments (2010)"
+    ],
+    "keywords_ja": "トランジション実験",
+    "keywords_en": "transition experiments",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_227",
+    "name_en": "Reflexive Governance for Sustainability",
+    "name_ja": "持続可能性のための再帰的ガバナンス",
+    "definition": "持続可能性のための再帰的ガバナンスに関する理論・概念。Reflexive Governance for Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Reflexive Governance for Sustainabilityに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Reflexive Governance for Sustainability (2011)"
+    ],
+    "keywords_ja": "持続可能性のための再帰的ガバナンス",
+    "keywords_en": "reflexive governance for sustainability",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_228",
+    "name_en": "Strategic Niche Management Extensions",
+    "name_ja": "戦略的ニッチマネジメント拡張",
+    "definition": "戦略的ニッチマネジメント拡張に関する理論・概念。Strategic Niche Management Extensionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Strategic Niche Management Extensionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on Strategic Niche Management Extensions (2012)"
+    ],
+    "keywords_ja": "戦略的ニッチマネジメント拡張",
+    "keywords_en": "strategic niche management extensions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_229",
+    "name_en": "Niche Accumulation Dynamics",
+    "name_ja": "ニッチ蓄積ダイナミクス",
+    "definition": "ニッチ蓄積ダイナミクスに関する理論・概念。Niche Accumulation Dynamicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche Accumulation Dynamicsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on Niche Accumulation Dynamics (2013)"
+    ],
+    "keywords_ja": "ニッチ蓄積ダイナミクス",
+    "keywords_en": "niche accumulation dynamics",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_230",
+    "name_en": "MLP and Digital Technologies",
+    "name_ja": "MLPとデジタル技術",
+    "definition": "MLPとデジタル技術に関する理論・概念。MLP and Digital Technologiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Digital Technologiesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on MLP and Digital Technologies (2014)"
+    ],
+    "keywords_ja": "MLPとデジタル技術",
+    "keywords_en": "mlp and digital technologies",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_231",
+    "name_en": "MLP and Decline Studies",
+    "name_ja": "MLPと衰退研究",
+    "definition": "MLPと衰退研究に関する理論・概念。MLP and Decline Studiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Decline Studiesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on MLP and Decline Studies (2015)"
+    ],
+    "keywords_ja": "MLPと衰退研究",
+    "keywords_en": "mlp and decline studies",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_232",
+    "name_en": "Whole System Reconfiguration",
+    "name_ja": "システム全体の再構成",
+    "definition": "システム全体の再構成に関する理論・概念。Whole System Reconfigurationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Whole System Reconfigurationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Whole System Reconfiguration (2016)"
+    ],
+    "keywords_ja": "システム全体の再構成",
+    "keywords_en": "whole system reconfiguration",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_233",
+    "name_en": "MLP and Backlash Dynamics",
+    "name_ja": "MLPとバックラッシュダイナミクス",
+    "definition": "MLPとバックラッシュダイナミクスに関する理論・概念。MLP and Backlash Dynamicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Backlash Dynamicsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on MLP and Backlash Dynamics (2017)"
+    ],
+    "keywords_ja": "MLPとバックラッシュダイナミクス",
+    "keywords_en": "mlp and backlash dynamics",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_234",
+    "name_en": "MLP Micro-foundations",
+    "name_ja": "MLPのミクロ的基礎",
+    "definition": "MLPのミクロ的基礎に関する理論・概念。MLP Micro-foundationsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP Micro-foundationsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on MLP Micro-foundations (2018)"
+    ],
+    "keywords_ja": "MLPのミクロ的基礎",
+    "keywords_en": "mlp micro-foundations",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_235",
+    "name_en": "Expectations Dynamics in Transitions",
+    "name_ja": "トランジションにおける期待のダイナミクス",
+    "definition": "トランジションにおける期待のダイナミクスに関する理論・概念。Expectations Dynamics in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Expectations Dynamics in Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Expectations Dynamics in Transitions (2019)"
+    ],
+    "keywords_ja": "トランジションにおける期待のダイナミクス",
+    "keywords_en": "expectations dynamics in transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_236",
+    "name_en": "Transition Geographies of Uneven Development",
+    "name_ja": "不均等発展のトランジション地理学",
+    "definition": "不均等発展のトランジション地理学に関する理論・概念。Transition Geographies of Uneven Developmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Geographies of Uneven Developmentに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on Transition Geographies of Uneven Development (2020)"
+    ],
+    "keywords_ja": "不均等発展のトランジション地理学",
+    "keywords_en": "transition geographies of uneven development",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_237",
+    "name_en": "MLP and Emotional Dimensions",
+    "name_ja": "MLPと感情的次元",
+    "definition": "MLPと感情的次元に関する理論・概念。MLP and Emotional Dimensionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Emotional Dimensionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on MLP and Emotional Dimensions (2021)"
+    ],
+    "keywords_ja": "MLPと感情的次元",
+    "keywords_en": "mlp and emotional dimensions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_238",
+    "name_en": "Urban Transitions Framework",
+    "name_ja": "都市トランジションフレームワーク",
+    "definition": "都市トランジションフレームワークに関する理論・概念。Urban Transitions Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Urban Transitions Frameworkに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on Urban Transitions Framework (2022)"
+    ],
+    "keywords_ja": "都市トランジションフレームワーク",
+    "keywords_en": "urban transitions framework",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_239",
+    "name_en": "Multi-Level Governance of Transitions",
+    "name_ja": "トランジションの多層ガバナンス",
+    "definition": "トランジションの多層ガバナンスに関する理論・概念。Multi-Level Governance of Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Multi-Level Governance of Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on Multi-Level Governance of Transitions (2023)"
+    ],
+    "keywords_ja": "トランジションの多層ガバナンス",
+    "keywords_en": "multi-level governance of transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_240",
+    "name_en": "Transformative Innovation Policy",
+    "name_ja": "変革的イノベーション政策",
+    "definition": "変革的イノベーション政策に関する理論・概念。Transformative Innovation Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transformative Innovation Policyに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on Transformative Innovation Policy (2024)"
+    ],
+    "keywords_ja": "変革的イノベーション政策",
+    "keywords_en": "transformative innovation policy",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_241",
+    "name_en": "Exnovation",
+    "name_ja": "エクスノベーション",
+    "definition": "エクスノベーションに関する理論・概念。Exnovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Exnovationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Exnovation (2005)"
+    ],
+    "keywords_ja": "エクスノベーション",
+    "keywords_en": "exnovation",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_242",
+    "name_en": "Windows of Opportunity in Transitions",
+    "name_ja": "トランジションにおける機会の窓",
+    "definition": "トランジションにおける機会の窓に関する理論・概念。Windows of Opportunity in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Windows of Opportunity in Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Windows of Opportunity in Transitions (2006)"
+    ],
+    "keywords_ja": "トランジションにおける機会の窓",
+    "keywords_en": "windows of opportunity in transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_243",
+    "name_en": "Transition Governance Instruments Typology",
+    "name_ja": "トランジションガバナンス手段の類型論",
+    "definition": "トランジションガバナンス手段の類型論に関する理論・概念。Transition Governance Instruments Typologyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Governance Instruments Typologyに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Transition Governance Instruments Typology (2007)"
+    ],
+    "keywords_ja": "トランジションガバナンス手段の類型論",
+    "keywords_en": "transition governance instruments typology",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_244",
+    "name_en": "Protective Space Reconceptualization",
+    "name_ja": "保護空間の再概念化",
+    "definition": "保護空間の再概念化に関する理論・概念。Protective Space Reconceptualizationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Protective Space Reconceptualizationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on Protective Space Reconceptualization (2008)"
+    ],
+    "keywords_ja": "保護空間の再概念化",
+    "keywords_en": "protective space reconceptualization",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_245",
+    "name_en": "MLP and Business Models for Sustainability",
+    "name_ja": "MLPと持続可能性ビジネスモデル",
+    "definition": "MLPと持続可能性ビジネスモデルに関する理論・概念。MLP and Business Models for Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Business Models for Sustainabilityに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on MLP and Business Models for Sustainability (2009)"
+    ],
+    "keywords_ja": "MLPと持続可能性ビジネスモデル",
+    "keywords_en": "mlp and business models for sustainability",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_246",
+    "name_en": "Socio-Technical Imaginaries in Transitions",
+    "name_ja": "トランジションにおける社会技術的想像力",
+    "definition": "トランジションにおける社会技術的想像力に関する理論・概念。Socio-Technical Imaginaries in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Imaginaries in Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Imaginaries in Transitions (2010)"
+    ],
+    "keywords_ja": "トランジションにおける社会技術的想像力",
+    "keywords_en": "socio-technical imaginaries in transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_247",
+    "name_en": "Incumbent Firm Strategies in Transitions",
+    "name_ja": "トランジションにおける既存企業戦略",
+    "definition": "トランジションにおける既存企業戦略に関する理論・概念。Incumbent Firm Strategies in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Incumbent Firm Strategies in Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Incumbent Firm Strategies in Transitions (2011)"
+    ],
+    "keywords_ja": "トランジションにおける既存企業戦略",
+    "keywords_en": "incumbent firm strategies in transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_248",
+    "name_en": "Polycentric Transition Governance",
+    "name_ja": "多中心的トランジションガバナンス",
+    "definition": "多中心的トランジションガバナンスに関する理論・概念。Polycentric Transition Governanceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Polycentric Transition Governanceに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on Polycentric Transition Governance (2012)"
+    ],
+    "keywords_ja": "多中心的トランジションガバナンス",
+    "keywords_en": "polycentric transition governance",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_249",
+    "name_en": "Narratives of Transition",
+    "name_ja": "トランジションのナラティブ",
+    "definition": "トランジションのナラティブに関する理論・概念。Narratives of Transitionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Narratives of Transitionに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on Narratives of Transition (2013)"
+    ],
+    "keywords_ja": "トランジションのナラティブ",
+    "keywords_en": "narratives of transition",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_250",
+    "name_en": "MLP and Quantitative Methods",
+    "name_ja": "MLPと定量的手法",
+    "definition": "MLPと定量的手法に関する理論・概念。MLP and Quantitative Methodsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Quantitative Methodsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on MLP and Quantitative Methods (2014)"
+    ],
+    "keywords_ja": "MLPと定量的手法",
+    "keywords_en": "mlp and quantitative methods",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  }
+]

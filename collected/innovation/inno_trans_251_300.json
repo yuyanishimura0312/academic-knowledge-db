@@ -1,0 +1,1115 @@
+[
+  {
+    "id": "inno_trans_251",
+    "name_en": "MLP and Health Systems",
+    "name_ja": "MLPと医療システム",
+    "definition": "MLPと医療システムに関する理論・概念。MLP and Health Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Health Systemsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on MLP and Health Systems (2015)"
+    ],
+    "keywords_ja": "MLPと医療システム",
+    "keywords_en": "mlp and health systems",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_252",
+    "name_en": "MLP and Food System Transitions",
+    "name_ja": "MLPと食料システムトランジション",
+    "definition": "MLPと食料システムトランジションに関する理論・概念。MLP and Food System Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Food System Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on MLP and Food System Transitions (2016)"
+    ],
+    "keywords_ja": "MLPと食料システムトランジション",
+    "keywords_en": "mlp and food system transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_253",
+    "name_en": "MLP and Water System Transitions",
+    "name_ja": "MLPと水システムトランジション",
+    "definition": "MLPと水システムトランジションに関する理論・概念。MLP and Water System Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Water System Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on MLP and Water System Transitions (2017)"
+    ],
+    "keywords_ja": "MLPと水システムトランジション",
+    "keywords_en": "mlp and water system transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_254",
+    "name_en": "Niche-Niche Interactions",
+    "name_ja": "ニッチ間相互作用",
+    "definition": "ニッチ間相互作用に関する理論・概念。Niche-Niche Interactionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche-Niche Interactionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on Niche-Niche Interactions (2018)"
+    ],
+    "keywords_ja": "ニッチ間相互作用",
+    "keywords_en": "niche-niche interactions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_255",
+    "name_en": "Acceleration Mechanisms in Transitions",
+    "name_ja": "トランジションにおける加速メカニズム",
+    "definition": "トランジションにおける加速メカニズムに関する理論・概念。Acceleration Mechanisms in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Acceleration Mechanisms in Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Acceleration Mechanisms in Transitions (2019)"
+    ],
+    "keywords_ja": "トランジションにおける加速メカニズム",
+    "keywords_en": "acceleration mechanisms in transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_256",
+    "name_en": "MLP and Sustainability Assessment",
+    "name_ja": "MLPと持続可能性評価",
+    "definition": "MLPと持続可能性評価に関する理論・概念。MLP and Sustainability Assessmentの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Sustainability Assessmentに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on MLP and Sustainability Assessment (2020)"
+    ],
+    "keywords_ja": "MLPと持続可能性評価",
+    "keywords_en": "mlp and sustainability assessment",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_257",
+    "name_en": "Niche Governance Strategies",
+    "name_ja": "ニッチガバナンス戦略",
+    "definition": "ニッチガバナンス戦略に関する理論・概念。Niche Governance Strategiesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche Governance Strategiesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Niche Governance Strategies (2021)"
+    ],
+    "keywords_ja": "ニッチガバナンス戦略",
+    "keywords_en": "niche governance strategies",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_258",
+    "name_en": "MLP and Distributional Effects",
+    "name_ja": "MLPと分配的効果",
+    "definition": "MLPと分配的効果に関する理論・概念。MLP and Distributional Effectsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Distributional Effectsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on MLP and Distributional Effects (2022)"
+    ],
+    "keywords_ja": "MLPと分配的効果",
+    "keywords_en": "mlp and distributional effects",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_259",
+    "name_en": "Regime Reconfiguration from Within",
+    "name_ja": "レジーム内部からの再構成",
+    "definition": "レジーム内部からの再構成に関する理論・概念。Regime Reconfiguration from Withinの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regime Reconfiguration from Withinに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on Regime Reconfiguration from Within (2023)"
+    ],
+    "keywords_ja": "レジーム内部からの再構成",
+    "keywords_en": "regime reconfiguration from within",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_260",
+    "name_en": "MLP and Actor-Network Theory Integration",
+    "name_ja": "MLPとアクターネットワーク理論の統合",
+    "definition": "MLPとアクターネットワーク理論の統合に関する理論・概念。MLP and Actor-Network Theory Integrationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Actor-Network Theory Integrationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on MLP and Actor-Network Theory Integration (2024)"
+    ],
+    "keywords_ja": "MLPとアクターネットワーク理論の統合",
+    "keywords_en": "mlp and actor-network theory integration",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_261",
+    "name_en": "Transition Monitoring and Evaluation Framework",
+    "name_ja": "トランジションのモニタリング・評価フレームワーク",
+    "definition": "トランジションのモニタリング・評価フレームワークに関する理論・概念。Transition Monitoring and Evaluation Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Monitoring and Evaluation Frameworkに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Transition Monitoring and Evaluation Framework (2005)"
+    ],
+    "keywords_ja": "トランジションのモニタリング・評価フレームワーク",
+    "keywords_en": "transition monitoring and evaluation framework",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_262",
+    "name_en": "MLP and Circular Economy Nexus",
+    "name_ja": "MLPとサーキュラーエコノミーの接合",
+    "definition": "MLPとサーキュラーエコノミーの接合に関する理論・概念。MLP and Circular Economy Nexusの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Circular Economy Nexusに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on MLP and Circular Economy Nexus (2006)"
+    ],
+    "keywords_ja": "MLPとサーキュラーエコノミーの接合",
+    "keywords_en": "mlp and circular economy nexus",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_263",
+    "name_en": "Sustainability Transition Failures",
+    "name_ja": "持続可能性トランジションの失敗",
+    "definition": "持続可能性トランジションの失敗に関する理論・概念。Sustainability Transition Failuresの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Sustainability Transition Failuresに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Sustainability Transition Failures (2007)"
+    ],
+    "keywords_ja": "持続可能性トランジションの失敗",
+    "keywords_en": "sustainability transition failures",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_264",
+    "name_en": "MLP and Indigenous Knowledge Systems",
+    "name_ja": "MLPと先住民知識システム",
+    "definition": "MLPと先住民知識システムに関する理論・概念。MLP and Indigenous Knowledge Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Indigenous Knowledge Systemsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on MLP and Indigenous Knowledge Systems (2008)"
+    ],
+    "keywords_ja": "MLPと先住民知識システム",
+    "keywords_en": "mlp and indigenous knowledge systems",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_265",
+    "name_en": "Transition Conflicts and Contestation",
+    "name_ja": "トランジションにおける紛争と異議",
+    "definition": "トランジションにおける紛争と異議に関する理論・概念。Transition Conflicts and Contestationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Conflicts and Contestationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition Conflicts and Contestation (2009)"
+    ],
+    "keywords_ja": "トランジションにおける紛争と異議",
+    "keywords_en": "transition conflicts and contestation",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_266",
+    "name_en": "Post-Normal Science and Transitions",
+    "name_ja": "ポストノーマルサイエンスとトランジション",
+    "definition": "ポストノーマルサイエンスとトランジションに関する理論・概念。Post-Normal Science and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Post-Normal Science and Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on Post-Normal Science and Transitions (2010)"
+    ],
+    "keywords_ja": "ポストノーマルサイエンスとトランジション",
+    "keywords_en": "post-normal science and transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_267",
+    "name_en": "MLP and Migration-Sustainability Nexus",
+    "name_ja": "MLPと移民-持続可能性ネクサス",
+    "definition": "MLPと移民-持続可能性ネクサスに関する理論・概念。MLP and Migration-Sustainability Nexusの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Migration-Sustainability Nexusに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on MLP and Migration-Sustainability Nexus (2011)"
+    ],
+    "keywords_ja": "MLPと移民-持続可能性ネクサス",
+    "keywords_en": "mlp and migration-sustainability nexus",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_268",
+    "name_en": "MLP and Gender Dimensions",
+    "name_ja": "MLPとジェンダー次元",
+    "definition": "MLPとジェンダー次元に関する理論・概念。MLP and Gender Dimensionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Gender Dimensionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on MLP and Gender Dimensions (2012)"
+    ],
+    "keywords_ja": "MLPとジェンダー次元",
+    "keywords_en": "mlp and gender dimensions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_269",
+    "name_en": "MLP and Behavioral Economics",
+    "name_ja": "MLPと行動経済学",
+    "definition": "MLPと行動経済学に関する理論・概念。MLP and Behavioral Economicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Behavioral Economicsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on MLP and Behavioral Economics (2013)"
+    ],
+    "keywords_ja": "MLPと行動経済学",
+    "keywords_en": "mlp and behavioral economics",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_270",
+    "name_en": "MLP and Complex Systems Theory",
+    "name_ja": "MLPと複雑系理論",
+    "definition": "MLPと複雑系理論に関する理論・概念。MLP and Complex Systems Theoryの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Complex Systems Theoryに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on MLP and Complex Systems Theory (2014)"
+    ],
+    "keywords_ja": "MLPと複雑系理論",
+    "keywords_en": "mlp and complex systems theory",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_271",
+    "name_en": "Niche Internal Governance",
+    "name_ja": "ニッチの内部ガバナンス",
+    "definition": "ニッチの内部ガバナンスに関する理論・概念。Niche Internal Governanceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Niche Internal Governanceに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Niche Internal Governance (2015)"
+    ],
+    "keywords_ja": "ニッチの内部ガバナンス",
+    "keywords_en": "niche internal governance",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_272",
+    "name_en": "MLP and COVID-19 Disruptions",
+    "name_ja": "MLPとCOVID-19の破壊的影響",
+    "definition": "MLPとCOVID-19の破壊的影響に関する理論・概念。MLP and COVID-19 Disruptionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and COVID-19 Disruptionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Lars Coenen",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on MLP and COVID-19 Disruptions (2016)"
+    ],
+    "keywords_ja": "MLPとCOVID-19の破壊的影響",
+    "keywords_en": "mlp and covid-19 disruptions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_273",
+    "name_en": "MLP and Demand-Side Transitions",
+    "name_ja": "MLPと需要側トランジション",
+    "definition": "MLPと需要側トランジションに関する理論・概念。MLP and Demand-Side Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Demand-Side Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Frank Geels",
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on MLP and Demand-Side Transitions (2017)"
+    ],
+    "keywords_ja": "MLPと需要側トランジション",
+    "keywords_en": "mlp and demand-side transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_274",
+    "name_en": "MLP and Policy Feedback Loops",
+    "name_ja": "MLPと政策フィードバックループ",
+    "definition": "MLPと政策フィードバックループに関する理論・概念。MLP and Policy Feedback Loopsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Policy Feedback Loopsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Peter Kivimaa"
+    ],
+    "key_works": [
+      "Key work on MLP and Policy Feedback Loops (2018)"
+    ],
+    "keywords_ja": "MLPと政策フィードバックループ",
+    "keywords_en": "mlp and policy feedback loops",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_275",
+    "name_en": "MLP and Path Creation",
+    "name_ja": "MLPと経路創造",
+    "definition": "MLPと経路創造に関する理論・概念。MLP and Path Creationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Path Creationに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Adrian Smith",
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on MLP and Path Creation (2019)"
+    ],
+    "keywords_ja": "MLPと経路創造",
+    "keywords_en": "mlp and path creation",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_276",
+    "name_en": "MLP and Inter-generational Perspectives",
+    "name_ja": "MLPと世代間視点",
+    "definition": "MLPと世代間視点に関する理論・概念。MLP and Inter-generational Perspectivesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Inter-generational Perspectivesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Johan Schot"
+    ],
+    "key_works": [
+      "Key work on MLP and Inter-generational Perspectives (2020)"
+    ],
+    "keywords_ja": "MLPと世代間視点",
+    "keywords_en": "mlp and inter-generational perspectives",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_277",
+    "name_en": "Anticipatory Governance for Transitions",
+    "name_ja": "トランジションのための先見的ガバナンス",
+    "definition": "トランジションのための先見的ガバナンスに関する理論・概念。Anticipatory Governance for Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Anticipatory Governance for Transitionsに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Anticipatory Governance for Transitions (2021)"
+    ],
+    "keywords_ja": "トランジションのための先見的ガバナンス",
+    "keywords_en": "anticipatory governance for transitions",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_278",
+    "name_en": "MLP and System Builders",
+    "name_ja": "MLPとシステムビルダー",
+    "definition": "MLPとシステムビルダーに関する理論・概念。MLP and System Buildersの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and System Buildersに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jochen Markard"
+    ],
+    "key_works": [
+      "Key work on MLP and System Builders (2022)"
+    ],
+    "keywords_ja": "MLPとシステムビルダー",
+    "keywords_en": "mlp and system builders",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_279",
+    "name_en": "MLP and Sector Coupling",
+    "name_ja": "MLPとセクターカップリング",
+    "definition": "MLPとセクターカップリングに関する理論・概念。MLP and Sector Couplingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Sector Couplingに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "Jan Rotmans"
+    ],
+    "key_works": [
+      "Key work on MLP and Sector Coupling (2023)"
+    ],
+    "keywords_ja": "MLPとセクターカップリング",
+    "keywords_en": "mlp and sector coupling",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_280",
+    "name_en": "MLP and Planetary Boundaries",
+    "name_ja": "MLPと地球の境界",
+    "definition": "MLPと地球の境界に関する理論・概念。MLP and Planetary Boundariesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "MLP and Planetary Boundariesに関する理論的貢献として、MLP学派の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "MLP学派",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "system,paradigm",
+    "key_researchers": [
+      "René Kemp"
+    ],
+    "key_works": [
+      "Key work on MLP and Planetary Boundaries (2024)"
+    ],
+    "keywords_ja": "MLPと地球の境界",
+    "keywords_en": "mlp and planetary boundaries",
+    "opposing_concept_names": "linear innovation model",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_281",
+    "name_en": "Socio-Technical Configuration",
+    "name_ja": "社会技術的構成",
+    "definition": "社会技術的構成に関する理論・概念。Socio-Technical Configurationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Configurationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2005,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Configuration (2005)"
+    ],
+    "keywords_ja": "社会技術的構成",
+    "keywords_en": "socio-technical configuration",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_282",
+    "name_en": "Socio-Technical Regime Extended",
+    "name_ja": "社会技術レジーム（拡張概念）",
+    "definition": "社会技術レジーム（拡張概念）に関する理論・概念。Socio-Technical Regime Extendedの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Regime Extendedに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2006,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Regime Extended (2006)"
+    ],
+    "keywords_ja": "社会技術レジーム（拡張概念）",
+    "keywords_en": "socio-technical regime extended",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_283",
+    "name_en": "Socio-Technical Experimentation",
+    "name_ja": "社会技術的実験",
+    "definition": "社会技術的実験に関する理論・概念。Socio-Technical Experimentationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Experimentationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2007,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Experimentation (2007)"
+    ],
+    "keywords_ja": "社会技術的実験",
+    "keywords_en": "socio-technical experimentation",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_284",
+    "name_en": "TIS for Sustainability",
+    "name_ja": "持続可能性のためのTIS",
+    "definition": "持続可能性のためのTISに関する理論・概念。TIS for Sustainabilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "TIS for Sustainabilityに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2008,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on TIS for Sustainability (2008)"
+    ],
+    "keywords_ja": "持続可能性のためのTIS",
+    "keywords_en": "tis for sustainability",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_285",
+    "name_en": "Socio-Technical Momentum",
+    "name_ja": "社会技術的モメンタム",
+    "definition": "社会技術的モメンタムに関する理論・概念。Socio-Technical Momentumの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Momentumに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2009,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Momentum (2009)"
+    ],
+    "keywords_ja": "社会技術的モメンタム",
+    "keywords_en": "socio-technical momentum",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_286",
+    "name_en": "Socio-Material Transitions",
+    "name_ja": "社会-物質的トランジション",
+    "definition": "社会-物質的トランジションに関する理論・概念。Socio-Material Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Material Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2010,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Socio-Material Transitions (2010)"
+    ],
+    "keywords_ja": "社会-物質的トランジション",
+    "keywords_en": "socio-material transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_287",
+    "name_en": "Socio-Technical Regime Typology",
+    "name_ja": "社会技術レジームの類型論",
+    "definition": "社会技術レジームの類型論に関する理論・概念。Socio-Technical Regime Typologyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Regime Typologyに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2011,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Regime Typology (2011)"
+    ],
+    "keywords_ja": "社会技術レジームの類型論",
+    "keywords_en": "socio-technical regime typology",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_288",
+    "name_en": "Large Technical System Theory and Transitions",
+    "name_ja": "大規模技術システム理論とトランジション",
+    "definition": "大規模技術システム理論とトランジションに関する理論・概念。Large Technical System Theory and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Large Technical System Theory and Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2012,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Large Technical System Theory and Transitions (2012)"
+    ],
+    "keywords_ja": "大規模技術システム理論とトランジション",
+    "keywords_en": "large technical system theory and transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_289",
+    "name_en": "Socio-Cognitive Transitions",
+    "name_ja": "社会-認知的トランジション",
+    "definition": "社会-認知的トランジションに関する理論・概念。Socio-Cognitive Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Cognitive Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2013,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Socio-Cognitive Transitions (2013)"
+    ],
+    "keywords_ja": "社会-認知的トランジション",
+    "keywords_en": "socio-cognitive transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_290",
+    "name_en": "System Innovation",
+    "name_ja": "システムイノベーション",
+    "definition": "システムイノベーションに関する理論・概念。System Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "System Innovationに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2014,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on System Innovation (2014)"
+    ],
+    "keywords_ja": "システムイノベーション",
+    "keywords_en": "system innovation",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_291",
+    "name_en": "Socio-Technical Scenario Methods",
+    "name_ja": "社会技術シナリオ手法",
+    "definition": "社会技術シナリオ手法に関する理論・概念。Socio-Technical Scenario Methodsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Scenario Methodsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Scenario Methods (2015)"
+    ],
+    "keywords_ja": "社会技術シナリオ手法",
+    "keywords_en": "socio-technical scenario methods",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_292",
+    "name_en": "Sustainability Transitions and Innovation Ecosystems",
+    "name_ja": "サステナビリティトランジションとイノベーションエコシステム",
+    "definition": "サステナビリティトランジションとイノベーションエコシステムに関する理論・概念。Sustainability Transitions and Innovation Ecosystemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Sustainability Transitions and Innovation Ecosystemsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Sustainability Transitions and Innovation Ecosystems (2016)"
+    ],
+    "keywords_ja": "サステナビリティトランジションとイノベーションエコシステム",
+    "keywords_en": "sustainability transitions and innovation ecosystems",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_293",
+    "name_en": "Transition Typology: Mission-Oriented",
+    "name_ja": "トランジション類型：ミッション指向型",
+    "definition": "トランジション類型：ミッション指向型に関する理論・概念。Transition Typology: Mission-Orientedの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Typology: Mission-Orientedに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Transition Typology: Mission-Oriented (2017)"
+    ],
+    "keywords_ja": "トランジション類型：ミッション指向型",
+    "keywords_en": "transition typology: mission-oriented",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_294",
+    "name_en": "Transition Narratives and Counter-Narratives",
+    "name_ja": "トランジションナラティブと対抗ナラティブ",
+    "definition": "トランジションナラティブと対抗ナラティブに関する理論・概念。Transition Narratives and Counter-Narrativesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Narratives and Counter-Narrativesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Transition Narratives and Counter-Narratives (2018)"
+    ],
+    "keywords_ja": "トランジションナラティブと対抗ナラティブ",
+    "keywords_en": "transition narratives and counter-narratives",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_295",
+    "name_en": "Socio-Technical Tipping Points",
+    "name_ja": "社会技術的ティッピングポイント",
+    "definition": "社会技術的ティッピングポイントに関する理論・概念。Socio-Technical Tipping Pointsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Tipping Pointsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Tipping Points (2019)"
+    ],
+    "keywords_ja": "社会技術的ティッピングポイント",
+    "keywords_en": "socio-technical tipping points",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_296",
+    "name_en": "Technological Substitution in Transitions",
+    "name_ja": "トランジションにおける技術的代替",
+    "definition": "トランジションにおける技術的代替に関する理論・概念。Technological Substitution in Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Technological Substitution in Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Technological Substitution in Transitions (2020)"
+    ],
+    "keywords_ja": "トランジションにおける技術的代替",
+    "keywords_en": "technological substitution in transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_297",
+    "name_en": "Regime Reproduction Mechanisms",
+    "name_ja": "レジーム再生産メカニズム",
+    "definition": "レジーム再生産メカニズムに関する理論・概念。Regime Reproduction Mechanismsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regime Reproduction Mechanismsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Regime Reproduction Mechanisms (2021)"
+    ],
+    "keywords_ja": "レジーム再生産メカニズム",
+    "keywords_en": "regime reproduction mechanisms",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_298",
+    "name_en": "Socio-Technical Visions",
+    "name_ja": "社会技術ビジョン",
+    "definition": "社会技術ビジョンに関する理論・概念。Socio-Technical Visionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Socio-Technical Visionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Socio-Technical Visions (2022)"
+    ],
+    "keywords_ja": "社会技術ビジョン",
+    "keywords_en": "socio-technical visions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_299",
+    "name_en": "Transition Backcasting",
+    "name_ja": "トランジションバックキャスティング",
+    "definition": "トランジションバックキャスティングに関する理論・概念。Transition Backcastingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Backcastingに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition Backcasting (2023)"
+    ],
+    "keywords_ja": "トランジションバックキャスティング",
+    "keywords_en": "transition backcasting",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_300",
+    "name_en": "Landscape and Climate Change",
+    "name_ja": "ランドスケープと気候変動",
+    "definition": "ランドスケープと気候変動に関する理論・概念。Landscape and Climate Changeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Landscape and Climate Changeに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Landscape and Climate Change (2024)"
+    ],
+    "keywords_ja": "ランドスケープと気候変動",
+    "keywords_en": "landscape and climate change",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  }
+]

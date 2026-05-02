@@ -1,0 +1,1112 @@
+[
+  {
+    "id": "inno_trans_351",
+    "name_en": "Transition Stalling and Reversal",
+    "name_ja": "トランジションの停滞と逆行",
+    "definition": "トランジションの停滞と逆行に関する理論・概念。Transition Stalling and Reversalの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition Stalling and Reversalに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2015,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Frank Geels"
+    ],
+    "key_works": [
+      "Key work on Transition Stalling and Reversal (2015)"
+    ],
+    "keywords_ja": "トランジションの停滞と逆行",
+    "keywords_en": "transition stalling and reversal",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_352",
+    "name_en": "Smart Grid Governance Transitions",
+    "name_ja": "スマートグリッドガバナンスのトランジション",
+    "definition": "スマートグリッドガバナンスのトランジションに関する理論・概念。Smart Grid Governance Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Smart Grid Governance Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2016,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Jochen Markard",
+      "Bernhard Truffer"
+    ],
+    "key_works": [
+      "Key work on Smart Grid Governance Transitions (2016)"
+    ],
+    "keywords_ja": "スマートグリッドガバナンスのトランジション",
+    "keywords_en": "smart grid governance transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_353",
+    "name_en": "Stranded Assets and Transitions",
+    "name_ja": "座礁資産とトランジション",
+    "definition": "座礁資産とトランジションに関する理論・概念。Stranded Assets and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Stranded Assets and Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2017,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Harriet Bulkeley"
+    ],
+    "key_works": [
+      "Key work on Stranded Assets and Transitions (2017)"
+    ],
+    "keywords_ja": "座礁資産とトランジション",
+    "keywords_en": "stranded assets and transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_354",
+    "name_en": "Responsible Innovation and Transitions",
+    "name_ja": "責任あるイノベーションとトランジション",
+    "definition": "責任あるイノベーションとトランジションに関する理論・概念。Responsible Innovation and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Responsible Innovation and Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2018,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Anna Bergek",
+      "Marko Hekkert"
+    ],
+    "key_works": [
+      "Key work on Responsible Innovation and Transitions (2018)"
+    ],
+    "keywords_ja": "責任あるイノベーションとトランジション",
+    "keywords_en": "responsible innovation and transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_355",
+    "name_en": "Cooperative Ownership and Transitions",
+    "name_ja": "協同組合的所有とトランジション",
+    "definition": "協同組合的所有とトランジションに関する理論・概念。Cooperative Ownership and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Cooperative Ownership and Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2019,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Benjamin Sovacool"
+    ],
+    "key_works": [
+      "Key work on Cooperative Ownership and Transitions (2019)"
+    ],
+    "keywords_ja": "協同組合的所有とトランジション",
+    "keywords_en": "cooperative ownership and transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_356",
+    "name_en": "Nature-Based Solutions and Transitions",
+    "name_ja": "自然を基盤とした解決策とトランジション",
+    "definition": "自然を基盤とした解決策とトランジションに関する理論・概念。Nature-Based Solutions and Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Nature-Based Solutions and Transitionsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2020,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Elizabeth Shove"
+    ],
+    "key_works": [
+      "Key work on Nature-Based Solutions and Transitions (2020)"
+    ],
+    "keywords_ja": "自然を基盤とした解決策とトランジション",
+    "keywords_en": "nature-based solutions and transitions",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_357",
+    "name_en": "Digital Twins for Transition Planning",
+    "name_ja": "トランジション計画のためのデジタルツイン",
+    "definition": "トランジション計画のためのデジタルツインに関する理論・概念。Digital Twins for Transition Planningの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Digital Twins for Transition Planningに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2021,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Andy Stirling"
+    ],
+    "key_works": [
+      "Key work on Digital Twins for Transition Planning (2021)"
+    ],
+    "keywords_ja": "トランジション計画のためのデジタルツイン",
+    "keywords_en": "digital twins for transition planning",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_358",
+    "name_en": "Meta-Analysis of Transition Cases",
+    "name_ja": "トランジション事例のメタ分析",
+    "definition": "トランジション事例のメタ分析に関する理論・概念。Meta-Analysis of Transition Casesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Meta-Analysis of Transition Casesに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2022,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Florian Kern"
+    ],
+    "key_works": [
+      "Key work on Meta-Analysis of Transition Cases (2022)"
+    ],
+    "keywords_ja": "トランジション事例のメタ分析",
+    "keywords_en": "meta-analysis of transition cases",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_359",
+    "name_en": "Transition and Biopolitics",
+    "name_ja": "トランジションとバイオポリティクス",
+    "definition": "トランジションとバイオポリティクスに関する理論・概念。Transition and Biopoliticsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Biopoliticsに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2023,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Rob Raven"
+    ],
+    "key_works": [
+      "Key work on Transition and Biopolitics (2023)"
+    ],
+    "keywords_ja": "トランジションとバイオポリティクス",
+    "keywords_en": "transition and biopolitics",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_360",
+    "name_en": "Transition and Cooperative Governance",
+    "name_ja": "トランジションと協調的ガバナンス",
+    "definition": "トランジションと協調的ガバナンスに関する理論・概念。Transition and Cooperative Governanceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transition and Cooperative Governanceに関する理論的貢献として、トランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "トランジション論",
+    "era_start": 2024,
+    "innovation_type": "systemic,sustainability",
+    "cognitive_mechanism": "systemic,processual",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Transition and Cooperative Governance (2024)"
+    ],
+    "keywords_ja": "トランジションと協調的ガバナンス",
+    "keywords_en": "transition and cooperative governance",
+    "opposing_concept_names": "static system analysis",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_361",
+    "name_en": "Circular Economy as System Innovation",
+    "name_ja": "システムイノベーションとしてのサーキュラーエコノミー",
+    "definition": "システムイノベーションとしてのサーキュラーエコノミーに関する理論・概念。Circular Economy as System Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy as System Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2005,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on Circular Economy as System Innovation (2005)"
+    ],
+    "keywords_ja": "システムイノベーションとしてのサーキュラーエコノミー",
+    "keywords_en": "circular economy as system innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_362",
+    "name_en": "Cradle-to-Cradle Design",
+    "name_ja": "クレイドル・トゥ・クレイドル設計",
+    "definition": "クレイドル・トゥ・クレイドル設計に関する理論・概念。Cradle-to-Cradle Designの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Cradle-to-Cradle Designに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2006,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Cradle-to-Cradle Design (2006)"
+    ],
+    "keywords_ja": "クレイドル・トゥ・クレイドル設計",
+    "keywords_en": "cradle-to-cradle design",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_363",
+    "name_en": "Product-Service System Innovation",
+    "name_ja": "プロダクト・サービス・システムイノベーション",
+    "definition": "プロダクト・サービス・システムイノベーションに関する理論・概念。Product-Service System Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Product-Service System Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2007,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Product-Service System Innovation (2007)"
+    ],
+    "keywords_ja": "プロダクト・サービス・システムイノベーション",
+    "keywords_en": "product-service system innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_364",
+    "name_en": "Industrial Ecology and Circular Transitions",
+    "name_ja": "産業エコロジーとサーキュラートランジション",
+    "definition": "産業エコロジーとサーキュラートランジションに関する理論・概念。Industrial Ecology and Circular Transitionsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Industrial Ecology and Circular Transitionsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2008,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Industrial Ecology and Circular Transitions (2008)"
+    ],
+    "keywords_ja": "産業エコロジーとサーキュラートランジション",
+    "keywords_en": "industrial ecology and circular transitions",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_365",
+    "name_en": "Circular Business Model Innovation",
+    "name_ja": "サーキュラー・ビジネスモデルイノベーション",
+    "definition": "サーキュラー・ビジネスモデルイノベーションに関する理論・概念。Circular Business Model Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Business Model Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2009,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Circular Business Model Innovation (2009)"
+    ],
+    "keywords_ja": "サーキュラー・ビジネスモデルイノベーション",
+    "keywords_en": "circular business model innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_366",
+    "name_en": "Sharing Economy and Circularity",
+    "name_ja": "シェアリングエコノミーとサーキュラリティ",
+    "definition": "シェアリングエコノミーとサーキュラリティに関する理論・概念。Sharing Economy and Circularityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Sharing Economy and Circularityに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2010,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Sharing Economy and Circularity (2010)"
+    ],
+    "keywords_ja": "シェアリングエコノミーとサーキュラリティ",
+    "keywords_en": "sharing economy and circularity",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_367",
+    "name_en": "Biomimicry in Circular Design",
+    "name_ja": "サーキュラーデザインにおけるバイオミミクリー",
+    "definition": "サーキュラーデザインにおけるバイオミミクリーに関する理論・概念。Biomimicry in Circular Designの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Biomimicry in Circular Designに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2011,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Biomimicry in Circular Design (2011)"
+    ],
+    "keywords_ja": "サーキュラーデザインにおけるバイオミミクリー",
+    "keywords_en": "biomimicry in circular design",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_368",
+    "name_en": "Reverse Logistics Innovation",
+    "name_ja": "リバースロジスティクスイノベーション",
+    "definition": "リバースロジスティクスイノベーションに関する理論・概念。Reverse Logistics Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Reverse Logistics Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2012,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Reverse Logistics Innovation (2012)"
+    ],
+    "keywords_ja": "リバースロジスティクスイノベーション",
+    "keywords_en": "reverse logistics innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_369",
+    "name_en": "Circular Economy Policy Framework",
+    "name_ja": "サーキュラーエコノミー政策フレームワーク",
+    "definition": "サーキュラーエコノミー政策フレームワークに関する理論・概念。Circular Economy Policy Frameworkの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Policy Frameworkに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2013,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Circular Economy Policy Framework (2013)"
+    ],
+    "keywords_ja": "サーキュラーエコノミー政策フレームワーク",
+    "keywords_en": "circular economy policy framework",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_370",
+    "name_en": "Design for Disassembly",
+    "name_ja": "分解設計",
+    "definition": "分解設計に関する理論・概念。Design for Disassemblyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Design for Disassemblyに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2014,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Design for Disassembly (2014)"
+    ],
+    "keywords_ja": "分解設計",
+    "keywords_en": "design for disassembly",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_371",
+    "name_en": "Material Flow Analysis for Circularity",
+    "name_ja": "サーキュラリティのためのマテリアルフロー分析",
+    "definition": "サーキュラリティのためのマテリアルフロー分析に関する理論・概念。Material Flow Analysis for Circularityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Material Flow Analysis for Circularityに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2015,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on Material Flow Analysis for Circularity (2015)"
+    ],
+    "keywords_ja": "サーキュラリティのためのマテリアルフロー分析",
+    "keywords_en": "material flow analysis for circularity",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_372",
+    "name_en": "Extended Producer Responsibility",
+    "name_ja": "拡大生産者責任のイノベーション",
+    "definition": "拡大生産者責任のイノベーションに関する理論・概念。Extended Producer Responsibilityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Extended Producer Responsibilityに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2016,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Extended Producer Responsibility (2016)"
+    ],
+    "keywords_ja": "拡大生産者責任のイノベーション",
+    "keywords_en": "extended producer responsibility",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_373",
+    "name_en": "Circular Economy Indicators",
+    "name_ja": "サーキュラーエコノミー指標と計測",
+    "definition": "サーキュラーエコノミー指標と計測に関する理論・概念。Circular Economy Indicatorsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Indicatorsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2017,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Circular Economy Indicators (2017)"
+    ],
+    "keywords_ja": "サーキュラーエコノミー指標と計測",
+    "keywords_en": "circular economy indicators",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_374",
+    "name_en": "Remanufacturing as Strategy",
+    "name_ja": "戦略としてのリマニュファクチャリング",
+    "definition": "戦略としてのリマニュファクチャリングに関する理論・概念。Remanufacturing as Strategyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Remanufacturing as Strategyに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2018,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Remanufacturing as Strategy (2018)"
+    ],
+    "keywords_ja": "戦略としてのリマニュファクチャリング",
+    "keywords_en": "remanufacturing as strategy",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_375",
+    "name_en": "Circular Economy and Digital Tech",
+    "name_ja": "サーキュラーエコノミーとデジタル技術",
+    "definition": "サーキュラーエコノミーとデジタル技術に関する理論・概念。Circular Economy and Digital Techの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy and Digital Techに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2019,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Circular Economy and Digital Tech (2019)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーとデジタル技術",
+    "keywords_en": "circular economy and digital tech",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_376",
+    "name_en": "Urban Mining Innovation",
+    "name_ja": "都市鉱山イノベーション",
+    "definition": "都市鉱山イノベーションに関する理論・概念。Urban Mining Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Urban Mining Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2020,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Urban Mining Innovation (2020)"
+    ],
+    "keywords_ja": "都市鉱山イノベーション",
+    "keywords_en": "urban mining innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_377",
+    "name_en": "Circular Construction",
+    "name_ja": "サーキュラー建設イノベーション",
+    "definition": "サーキュラー建設イノベーションに関する理論・概念。Circular Constructionの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Constructionに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2021,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Circular Construction (2021)"
+    ],
+    "keywords_ja": "サーキュラー建設イノベーション",
+    "keywords_en": "circular construction",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_378",
+    "name_en": "Circular Food Systems",
+    "name_ja": "サーキュラー食料システム",
+    "definition": "サーキュラー食料システムに関する理論・概念。Circular Food Systemsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Food Systemsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2022,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Circular Food Systems (2022)"
+    ],
+    "keywords_ja": "サーキュラー食料システム",
+    "keywords_en": "circular food systems",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_379",
+    "name_en": "Circular Textile Innovation",
+    "name_ja": "サーキュラーテキスタイルイノベーション",
+    "definition": "サーキュラーテキスタイルイノベーションに関する理論・概念。Circular Textile Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Textile Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2023,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Circular Textile Innovation (2023)"
+    ],
+    "keywords_ja": "サーキュラーテキスタイルイノベーション",
+    "keywords_en": "circular textile innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_380",
+    "name_en": "Circular Plastics Innovation",
+    "name_ja": "サーキュラープラスチックイノベーション",
+    "definition": "サーキュラープラスチックイノベーションに関する理論・概念。Circular Plastics Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Plastics Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2024,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Circular Plastics Innovation (2024)"
+    ],
+    "keywords_ja": "サーキュラープラスチックイノベーション",
+    "keywords_en": "circular plastics innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_381",
+    "name_en": "Circular Economy Consumer Behavior",
+    "name_ja": "サーキュラーエコノミーと消費者行動",
+    "definition": "サーキュラーエコノミーと消費者行動に関する理論・概念。Circular Economy Consumer Behaviorの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Consumer Behaviorに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2005,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on Circular Economy Consumer Behavior (2005)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーと消費者行動",
+    "keywords_en": "circular economy consumer behavior",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_382",
+    "name_en": "Circular Ecosystem Design",
+    "name_ja": "サーキュラーエコシステム設計",
+    "definition": "サーキュラーエコシステム設計に関する理論・概念。Circular Ecosystem Designの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Ecosystem Designに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2006,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Circular Ecosystem Design (2006)"
+    ],
+    "keywords_ja": "サーキュラーエコシステム設計",
+    "keywords_en": "circular ecosystem design",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_383",
+    "name_en": "Performance Economy Model",
+    "name_ja": "パフォーマンス・エコノミーモデル",
+    "definition": "パフォーマンス・エコノミーモデルに関する理論・概念。Performance Economy Modelの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Performance Economy Modelに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2007,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Performance Economy Model (2007)"
+    ],
+    "keywords_ja": "パフォーマンス・エコノミーモデル",
+    "keywords_en": "performance economy model",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_384",
+    "name_en": "Circular Supply Chain Innovation",
+    "name_ja": "サーキュラーサプライチェーンイノベーション",
+    "definition": "サーキュラーサプライチェーンイノベーションに関する理論・概念。Circular Supply Chain Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Supply Chain Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2008,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Circular Supply Chain Innovation (2008)"
+    ],
+    "keywords_ja": "サーキュラーサプライチェーンイノベーション",
+    "keywords_en": "circular supply chain innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_385",
+    "name_en": "Regenerative Design Principles",
+    "name_ja": "再生的デザイン原則",
+    "definition": "再生的デザイン原則に関する理論・概念。Regenerative Design Principlesの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Regenerative Design Principlesに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2009,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Regenerative Design Principles (2009)"
+    ],
+    "keywords_ja": "再生的デザイン原則",
+    "keywords_en": "regenerative design principles",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_386",
+    "name_en": "Circular Economy Transition Barriers",
+    "name_ja": "サーキュラーエコノミー移行の障壁",
+    "definition": "サーキュラーエコノミー移行の障壁に関する理論・概念。Circular Economy Transition Barriersの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Transition Barriersに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2010,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Circular Economy Transition Barriers (2010)"
+    ],
+    "keywords_ja": "サーキュラーエコノミー移行の障壁",
+    "keywords_en": "circular economy transition barriers",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_387",
+    "name_en": "Industrial Symbiosis Networks",
+    "name_ja": "産業共生ネットワーク",
+    "definition": "産業共生ネットワークに関する理論・概念。Industrial Symbiosis Networksの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Industrial Symbiosis Networksに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2011,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Industrial Symbiosis Networks (2011)"
+    ],
+    "keywords_ja": "産業共生ネットワーク",
+    "keywords_en": "industrial symbiosis networks",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_388",
+    "name_en": "Circular Economy Governance",
+    "name_ja": "サーキュラーエコノミーガバナンス",
+    "definition": "サーキュラーエコノミーガバナンスに関する理論・概念。Circular Economy Governanceの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Governanceに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2012,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Circular Economy Governance (2012)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーガバナンス",
+    "keywords_en": "circular economy governance",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_389",
+    "name_en": "Zero Waste Innovation",
+    "name_ja": "ゼロウェイストイノベーション",
+    "definition": "ゼロウェイストイノベーションに関する理論・概念。Zero Waste Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Zero Waste Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2013,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Zero Waste Innovation (2013)"
+    ],
+    "keywords_ja": "ゼロウェイストイノベーション",
+    "keywords_en": "zero waste innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_390",
+    "name_en": "Circular Economy and Blockchain",
+    "name_ja": "サーキュラーエコノミーとブロックチェーン",
+    "definition": "サーキュラーエコノミーとブロックチェーンに関する理論・概念。Circular Economy and Blockchainの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy and Blockchainに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2014,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Circular Economy and Blockchain (2014)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーとブロックチェーン",
+    "keywords_en": "circular economy and blockchain",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_391",
+    "name_en": "LCA for Circular Economy",
+    "name_ja": "サーキュラーエコノミーのためのLCA",
+    "definition": "サーキュラーエコノミーのためのLCAに関する理論・概念。LCA for Circular Economyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "LCA for Circular Economyに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2015,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken"
+    ],
+    "key_works": [
+      "Key work on LCA for Circular Economy (2015)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーのためのLCA",
+    "keywords_en": "lca for circular economy",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_392",
+    "name_en": "Chemical Leasing",
+    "name_ja": "ケミカルリーシング",
+    "definition": "ケミカルリーシングに関する理論・概念。Chemical Leasingの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Chemical Leasingに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2016,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Michael Braungart",
+      "William McDonough"
+    ],
+    "key_works": [
+      "Key work on Chemical Leasing (2016)"
+    ],
+    "keywords_ja": "ケミカルリーシング",
+    "keywords_en": "chemical leasing",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_393",
+    "name_en": "Upcycling Innovation",
+    "name_ja": "アップサイクリングイノベーション",
+    "definition": "アップサイクリングイノベーションに関する理論・概念。Upcycling Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Upcycling Innovationに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2017,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Oksana Mont"
+    ],
+    "key_works": [
+      "Key work on Upcycling Innovation (2017)"
+    ],
+    "keywords_ja": "アップサイクリングイノベーション",
+    "keywords_en": "upcycling innovation",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_394",
+    "name_en": "Circular Electronics",
+    "name_ja": "電子機器のサーキュラーエコノミー",
+    "definition": "電子機器のサーキュラーエコノミーに関する理論・概念。Circular Electronicsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Electronicsに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2018,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Marian Chertow"
+    ],
+    "key_works": [
+      "Key work on Circular Electronics (2018)"
+    ],
+    "keywords_ja": "電子機器のサーキュラーエコノミー",
+    "keywords_en": "circular electronics",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_395",
+    "name_en": "Modular Design for Circularity",
+    "name_ja": "サーキュラリティのためのモジュラー設計",
+    "definition": "サーキュラリティのためのモジュラー設計に関する理論・概念。Modular Design for Circularityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Modular Design for Circularityに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2019,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Nancy Bocken",
+      "Steve Short"
+    ],
+    "key_works": [
+      "Key work on Modular Design for Circularity (2019)"
+    ],
+    "keywords_ja": "サーキュラリティのためのモジュラー設計",
+    "keywords_en": "modular design for circularity",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_396",
+    "name_en": "Circular Economy and AI",
+    "name_ja": "サーキュラーエコノミーとAI",
+    "definition": "サーキュラーエコノミーとAIに関する理論・概念。Circular Economy and AIの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy and AIに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2020,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Koen Frenken"
+    ],
+    "key_works": [
+      "Key work on Circular Economy and AI (2020)"
+    ],
+    "keywords_ja": "サーキュラーエコノミーとAI",
+    "keywords_en": "circular economy and ai",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_397",
+    "name_en": "Bio-Circular Economy",
+    "name_ja": "バイオサーキュラーエコノミー",
+    "definition": "バイオサーキュラーエコノミーに関する理論・概念。Bio-Circular Economyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Bio-Circular Economyに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2021,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Janine Benyus"
+    ],
+    "key_works": [
+      "Key work on Bio-Circular Economy (2021)"
+    ],
+    "keywords_ja": "バイオサーキュラーエコノミー",
+    "keywords_en": "bio-circular economy",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_398",
+    "name_en": "Circular Economy Finance",
+    "name_ja": "サーキュラーエコノミー金融",
+    "definition": "サーキュラーエコノミー金融に関する理論・概念。Circular Economy Financeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Economy Financeに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2022,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "V. Daniel R. Guide Jr."
+    ],
+    "key_works": [
+      "Key work on Circular Economy Finance (2022)"
+    ],
+    "keywords_ja": "サーキュラーエコノミー金融",
+    "keywords_en": "circular economy finance",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_399",
+    "name_en": "Closed-Loop Supply Chain",
+    "name_ja": "クローズドループサプライチェーン",
+    "definition": "クローズドループサプライチェーンに関する理論・概念。Closed-Loop Supply Chainの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Closed-Loop Supply Chainに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2023,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Walter Stahel"
+    ],
+    "key_works": [
+      "Key work on Closed-Loop Supply Chain (2023)"
+    ],
+    "keywords_ja": "クローズドループサプライチェーン",
+    "keywords_en": "closed-loop supply chain",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_400",
+    "name_en": "Circular Social Enterprise",
+    "name_ja": "サーキュラー社会的企業",
+    "definition": "サーキュラー社会的企業に関する理論・概念。Circular Social Enterpriseの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Circular Social Enterpriseに関する理論的貢献として、サーキュラーエコノミー論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "サーキュラーエコノミー論",
+    "era_start": 2024,
+    "innovation_type": "circular,sustainability",
+    "cognitive_mechanism": "circular,systemic",
+    "key_researchers": [
+      "Kate Raworth"
+    ],
+    "key_works": [
+      "Key work on Circular Social Enterprise (2024)"
+    ],
+    "keywords_ja": "サーキュラー社会的企業",
+    "keywords_en": "circular social enterprise",
+    "opposing_concept_names": "linear economy",
+    "schumpeter_layer": "macro"
+  }
+]

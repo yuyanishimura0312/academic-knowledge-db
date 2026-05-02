@@ -1,0 +1,314 @@
+[
+  {
+    "id": "inno_trans_701",
+    "name_en": "Deep Transitions and Cultural Change",
+    "name_ja": "ディープトランジションと文化変容",
+    "definition": "ディープトランジションと文化変容に関する理論・概念。Deep Transitions and Cultural Changeの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Deep Transitions and Cultural Changeに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2015,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Johan Schot",
+      "Ed Steinmueller"
+    ],
+    "key_works": [
+      "Key work on Deep Transitions and Cultural Change (2015)"
+    ],
+    "keywords_ja": "ディープトランジションと文化変容",
+    "keywords_en": "deep transitions and cultural change",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_702",
+    "name_en": "Food System Innovation Policy",
+    "name_ja": "食料システムイノベーション政策",
+    "definition": "食料システムイノベーション政策に関する理論・概念。Food System Innovation Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Food System Innovation Policyに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2016,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Carlota Perez"
+    ],
+    "key_works": [
+      "Key work on Food System Innovation Policy (2016)"
+    ],
+    "keywords_ja": "食料システムイノベーション政策",
+    "keywords_en": "food system innovation policy",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_703",
+    "name_en": "Transformative Education Innovation",
+    "name_ja": "変革的教育イノベーション",
+    "definition": "変革的教育イノベーションに関する理論・概念。Transformative Education Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transformative Education Innovationに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2017,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Mariana Mazzucato"
+    ],
+    "key_works": [
+      "Key work on Transformative Education Innovation (2017)"
+    ],
+    "keywords_ja": "変革的教育イノベーション",
+    "keywords_en": "transformative education innovation",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_704",
+    "name_en": "Innovation Policy and Biodiversity",
+    "name_ja": "イノベーション政策と生物多様性",
+    "definition": "イノベーション政策と生物多様性に関する理論・概念。Innovation Policy and Biodiversityの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Policy and Biodiversityに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2018,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Jan Fagerberg"
+    ],
+    "key_works": [
+      "Key work on Innovation Policy and Biodiversity (2018)"
+    ],
+    "keywords_ja": "イノベーション政策と生物多様性",
+    "keywords_en": "innovation policy and biodiversity",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_705",
+    "name_en": "Deep Transitions and Financialisation",
+    "name_ja": "ディープトランジションと金融化",
+    "definition": "ディープトランジションと金融化に関する理論・概念。Deep Transitions and Financialisationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Deep Transitions and Financialisationに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2019,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Derk Loorbach"
+    ],
+    "key_works": [
+      "Key work on Deep Transitions and Financialisation (2019)"
+    ],
+    "keywords_ja": "ディープトランジションと金融化",
+    "keywords_en": "deep transitions and financialisation",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_706",
+    "name_en": "Innovation Policy Labs",
+    "name_ja": "イノベーション政策ラボ",
+    "definition": "イノベーション政策ラボに関する理論・概念。Innovation Policy Labsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Policy Labsに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2020,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Florian Kern",
+      "Karoline Rogge"
+    ],
+    "key_works": [
+      "Key work on Innovation Policy Labs (2020)"
+    ],
+    "keywords_ja": "イノベーション政策ラボ",
+    "keywords_en": "innovation policy labs",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_707",
+    "name_en": "Transformative Regional Innovation",
+    "name_ja": "変革的地域イノベーション",
+    "definition": "変革的地域イノベーションに関する理論・概念。Transformative Regional Innovationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transformative Regional Innovationに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2021,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Johan Schot",
+      "Laur Kanger"
+    ],
+    "key_works": [
+      "Key work on Transformative Regional Innovation (2021)"
+    ],
+    "keywords_ja": "変革的地域イノベーション",
+    "keywords_en": "transformative regional innovation",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_708",
+    "name_en": "Innovation Policy and Anticipation",
+    "name_ja": "イノベーション政策と先見性",
+    "definition": "イノベーション政策と先見性に関する理論・概念。Innovation Policy and Anticipationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Policy and Anticipationに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2022,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Stefan Kuhlmann"
+    ],
+    "key_works": [
+      "Key work on Innovation Policy and Anticipation (2022)"
+    ],
+    "keywords_ja": "イノベーション政策と先見性",
+    "keywords_en": "innovation policy and anticipation",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_709",
+    "name_en": "Deep Transitions and Geopolitics",
+    "name_ja": "ディープトランジションと地政学",
+    "definition": "ディープトランジションと地政学に関する理論・概念。Deep Transitions and Geopoliticsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Deep Transitions and Geopoliticsに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2023,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Jakob Edler"
+    ],
+    "key_works": [
+      "Key work on Deep Transitions and Geopolitics (2023)"
+    ],
+    "keywords_ja": "ディープトランジションと地政学",
+    "keywords_en": "deep transitions and geopolitics",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_710",
+    "name_en": "Health System Innovation Policy",
+    "name_ja": "医療システムイノベーション政策",
+    "definition": "医療システムイノベーション政策に関する理論・概念。Health System Innovation Policyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Health System Innovation Policyに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2024,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Jordi Molas-Gallart"
+    ],
+    "key_works": [
+      "Key work on Health System Innovation Policy (2024)"
+    ],
+    "keywords_ja": "医療システムイノベーション政策",
+    "keywords_en": "health system innovation policy",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_711",
+    "name_en": "Transformative Innovation and Democracy",
+    "name_ja": "変革的イノベーションと民主主義",
+    "definition": "変革的イノベーションと民主主義に関する理論・概念。Transformative Innovation and Democracyの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transformative Innovation and Democracyに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2005,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Johan Schot",
+      "Ed Steinmueller"
+    ],
+    "key_works": [
+      "Key work on Transformative Innovation and Democracy (2005)"
+    ],
+    "keywords_ja": "変革的イノベーションと民主主義",
+    "keywords_en": "transformative innovation and democracy",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_712",
+    "name_en": "Innovation Policy and Decolonisation",
+    "name_ja": "イノベーション政策と脱植民地化",
+    "definition": "イノベーション政策と脱植民地化に関する理論・概念。Innovation Policy and Decolonisationの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Innovation Policy and Decolonisationに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2006,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Carlota Perez"
+    ],
+    "key_works": [
+      "Key work on Innovation Policy and Decolonisation (2006)"
+    ],
+    "keywords_ja": "イノベーション政策と脱植民地化",
+    "keywords_en": "innovation policy and decolonisation",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_713",
+    "name_en": "Deep Transitions and AI",
+    "name_ja": "ディープトランジションとAI",
+    "definition": "ディープトランジションとAIに関する理論・概念。Deep Transitions and AIの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Deep Transitions and AIに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2007,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Mariana Mazzucato"
+    ],
+    "key_works": [
+      "Key work on Deep Transitions and AI (2007)"
+    ],
+    "keywords_ja": "ディープトランジションとAI",
+    "keywords_en": "deep transitions and ai",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  },
+  {
+    "id": "inno_trans_714",
+    "name_en": "Transformative Policy Evaluation Methods",
+    "name_ja": "変革的政策評価方法論",
+    "definition": "変革的政策評価方法論に関する理論・概念。Transformative Policy Evaluation Methodsの原理・メカニズム・実践・政策含意を体系的に分析する理論的枠組み。",
+    "impact_summary": "Transformative Policy Evaluation Methodsに関する理論的貢献として、ディープトランジション論の分析枠組みを拡張",
+    "subfield": "sustainability_transitions_social",
+    "school_of_thought": "ディープトランジション論",
+    "era_start": 2008,
+    "innovation_type": "systemic,transformative,policy",
+    "cognitive_mechanism": "transformative,paradigmatic",
+    "key_researchers": [
+      "Jan Fagerberg"
+    ],
+    "key_works": [
+      "Key work on Transformative Policy Evaluation Methods (2008)"
+    ],
+    "keywords_ja": "変革的政策評価方法論",
+    "keywords_en": "transformative policy evaluation methods",
+    "opposing_concept_names": "incremental innovation policy",
+    "schumpeter_layer": "macro"
+  }
+]
