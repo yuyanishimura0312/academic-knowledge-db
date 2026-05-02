@@ -1,0 +1,238 @@
+{
+  "domain": "humanities",
+  "topic": "詩学（Poetics）",
+  "survey_date": "2026-05-02",
+  "methodology": "handbook_entry_count_aggregation",
+  "primary_sources": [
+    "Princeton Encyclopedia of Poetry and Poetics (4th ed., ~1,350 entries)",
+    "Oxford Handbook of Philosophy and Literature (23 chapters)",
+    "Handbook of Narratology (2nd ed., de Gruyter 2014, 34 terms)",
+    "Stanford Encyclopedia of Philosophy (aesthetics/literature entries)",
+    "Cambridge Companion to Narrative (David Herman ed.)",
+    "Routledge Encyclopedia of Narrative Theory"
+  ],
+  "total_estimated_concepts": 1650,
+  "target_at_70pct": 1155,
+  "current_db_count": 57,
+  "current_coverage_pct": 3.5,
+  "confidence_level": "medium-high",
+  "confidence_notes": "推定は複数の権威あるハンドブック横断的な項目数カウントに基づく。詩学の領域境界が美学・修辞学・ナラトロジー・文学理論と重複するため、±15-20%の誤差範囲あり。",
+  "era_distribution": {
+    "古代〜中世": {
+      "period": "BC500-1500",
+      "estimated_pct": 12,
+      "estimated_count": 198,
+      "current_db": 6,
+      "gap": 133,
+      "target_70pct": 139
+    },
+    "ルネサンス〜啓蒙期": {
+      "period": "1500-1800",
+      "estimated_pct": 10,
+      "estimated_count": 165,
+      "current_db": 8,
+      "gap": 108,
+      "target_70pct": 116
+    },
+    "19世紀": {
+      "period": "1800-1900",
+      "estimated_pct": 11,
+      "estimated_count": 182,
+      "current_db": 1,
+      "gap": 126,
+      "target_70pct": 127
+    },
+    "前半20世紀": {
+      "period": "1900-1960",
+      "estimated_pct": 18,
+      "estimated_count": 297,
+      "current_db": 6,
+      "gap": 202,
+      "target_70pct": 208
+    },
+    "後半20世紀": {
+      "period": "1960-1990",
+      "estimated_pct": 28,
+      "estimated_count": 462,
+      "current_db": 8,
+      "gap": 315,
+      "target_70pct": 323
+    },
+    "現代前期": {
+      "period": "1990-2010",
+      "estimated_pct": 13,
+      "estimated_count": 215,
+      "current_db": 18,
+      "gap": 133,
+      "target_70pct": 151
+    },
+    "現代後期": {
+      "period": "2010-2026",
+      "estimated_pct": 8,
+      "estimated_count": 132,
+      "current_db": 10,
+      "gap": 82,
+      "target_70pct": 92
+    }
+  },
+  "subfield_targets": [
+    {
+      "subfield": "構造主義詩学",
+      "subfield_en": "Structuralist Poetics",
+      "total_estimated": 110,
+      "target_70pct": 77,
+      "current_db": 3,
+      "gap": 74,
+      "priority": 1,
+      "key_handbooks": ["Handbook of Narratology", "Princeton Encyclopedia"]
+    },
+    {
+      "subfield": "近代美学・詩学",
+      "subfield_en": "Modern Aesthetics & Poetics",
+      "total_estimated": 95,
+      "target_70pct": 67,
+      "current_db": 10,
+      "gap": 57,
+      "priority": 2,
+      "key_handbooks": ["Stanford Encyclopedia of Philosophy", "Oxford Handbook"]
+    },
+    {
+      "subfield": "修辞学・弁論術",
+      "subfield_en": "Rhetoric & Rhetorical Poetics",
+      "total_estimated": 88,
+      "target_70pct": 62,
+      "current_db": 0,
+      "gap": 62,
+      "priority": 3,
+      "key_handbooks": ["Princeton Encyclopedia", "Cambridge Companion to Ancient Rhetoric"]
+    },
+    {
+      "subfield": "古典詩学",
+      "subfield_en": "Classical Poetics",
+      "total_estimated": 85,
+      "target_70pct": 60,
+      "current_db": 2,
+      "gap": 58,
+      "priority": 4,
+      "key_handbooks": ["Aristotle Poetics commentaries", "Princeton Encyclopedia"]
+    },
+    {
+      "subfield": "比較詩学",
+      "subfield_en": "Comparative Poetics",
+      "total_estimated": 78,
+      "target_70pct": 55,
+      "current_db": 0,
+      "gap": 55,
+      "priority": 5,
+      "key_handbooks": ["Princeton Encyclopedia (Indian/Japanese/Chinese poetics)"]
+    },
+    {
+      "subfield": "ポスト構造主義詩学",
+      "subfield_en": "Poststructuralist Poetics",
+      "total_estimated": 75,
+      "target_70pct": 53,
+      "current_db": 1,
+      "gap": 52,
+      "priority": 6,
+      "key_handbooks": ["Stanford Encyclopedia (deconstruction)", "Princeton Encyclopedia"]
+    },
+    {
+      "subfield": "認知詩学",
+      "subfield_en": "Cognitive Poetics",
+      "total_estimated": 68,
+      "target_70pct": 48,
+      "current_db": 0,
+      "gap": 48,
+      "priority": 7,
+      "key_handbooks": ["Princeton Encyclopedia (cognitive poetics, metaphor)"]
+    },
+    {
+      "subfield": "中世・ルネサンス詩学",
+      "subfield_en": "Medieval & Renaissance Poetics",
+      "total_estimated": 65,
+      "target_70pct": 46,
+      "current_db": 4,
+      "gap": 42,
+      "priority": 8,
+      "key_handbooks": ["Cambridge History of Literary Criticism", "Princeton Encyclopedia"]
+    },
+    {
+      "subfield": "現象学的詩学",
+      "subfield_en": "Phenomenological Poetics",
+      "total_estimated": 62,
+      "target_70pct": 43,
+      "current_db": 0,
+      "gap": 43,
+      "priority": 9,
+      "key_handbooks": ["Stanford Encyclopedia (Gadamer, hermeneutics)"]
+    },
+    {
+      "subfield": "受容理論",
+      "subfield_en": "Reception Theory",
+      "total_estimated": 58,
+      "target_70pct": 41,
+      "current_db": 0,
+      "gap": 41,
+      "priority": 10,
+      "key_handbooks": ["Stanford Encyclopedia (aesthetic experience)"]
+    },
+    {
+      "subfield": "デジタル詩学・メディア詩学",
+      "subfield_en": "Digital & Media Poetics",
+      "total_estimated": 56,
+      "target_70pct": 39,
+      "current_db": 4,
+      "gap": 35,
+      "priority": 11,
+      "key_handbooks": ["Princeton Encyclopedia (electronic literature, digital poetry)"]
+    },
+    {
+      "subfield": "ロシア・フォルマリズム",
+      "subfield_en": "Russian Formalism",
+      "total_estimated": 52,
+      "target_70pct": 36,
+      "current_db": 1,
+      "gap": 35,
+      "priority": 12,
+      "key_handbooks": ["Princeton Encyclopedia", "Russian Formalism primary sources"]
+    }
+  ],
+  "gap_matrix_top10": [
+    {"rank": 1, "subfield": "構造主義詩学", "era": "後半20世紀", "gap": 45, "note": "ジュネット、トドロフ、ナラトロジー体系"},
+    {"rank": 2, "subfield": "修辞学・弁論術", "era": "古代〜近代通時", "gap": 62, "note": "完全に未収集"},
+    {"rank": 3, "subfield": "近代美学・詩学", "era": "19世紀", "gap": 39, "note": "ロマン主義詩学がほぼ未収集"},
+    {"rank": 4, "subfield": "古典詩学", "era": "古代〜中世", "gap": 32, "note": "アリストテレス以外の古典詩学"},
+    {"rank": 5, "subfield": "比較詩学", "era": "全時代", "gap": 55, "note": "完全に未収集、ラサ理論・和歌論含む"},
+    {"rank": 6, "subfield": "ポスト構造主義詩学", "era": "後半20世紀", "gap": 28, "note": "脱構築1件のみ"},
+    {"rank": 7, "subfield": "認知詩学", "era": "現代", "gap": 48, "note": "完全に未収集"},
+    {"rank": 8, "subfield": "現象学的詩学", "era": "前半〜後半20世紀", "gap": 43, "note": "完全に未収集"},
+    {"rank": 9, "subfield": "受容理論", "era": "後半20世紀", "gap": 41, "note": "完全に未収集"},
+    {"rank": 10, "subfield": "ロシア・フォルマリズム", "era": "前半20世紀", "gap": 35, "note": "異化効果1件のみ"}
+  ],
+  "collection_phases": {
+    "phase_1": {
+      "name": "基礎（古典〜啓蒙）",
+      "target": 350,
+      "subfields": ["古典詩学", "修辞学・弁論術", "中世・ルネサンス詩学", "近代美学・詩学"],
+      "eras": ["古代〜中世", "ルネサンス〜啓蒙期", "19世紀"]
+    },
+    "phase_2": {
+      "name": "モダニズム（フォルマリズム〜構造主義）",
+      "target": 320,
+      "subfields": ["ロシア・フォルマリズム", "構造主義詩学", "現象学的詩学"],
+      "eras": ["前半20世紀", "後半20世紀前期"]
+    },
+    "phase_3": {
+      "name": "現代理論（受容〜認知）",
+      "target": 280,
+      "subfields": ["受容理論", "ポスト構造主義詩学", "認知詩学"],
+      "eras": ["後半20世紀後期", "現代前期"]
+    },
+    "phase_4": {
+      "name": "拡張（比較・デジタル）",
+      "target": 205,
+      "subfields": ["比較詩学", "デジタル詩学・メディア詩学"],
+      "eras": ["全時代"]
+    }
+  }
+}
