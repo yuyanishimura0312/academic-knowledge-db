@@ -1,0 +1,318 @@
+#!/usr/bin/env python3
+"""Generate poetics dashboard HTML for miratuku-news-v2 (akashiro CI compliant)."""
+
+import sqlite3
+import json
+from collections import Counter
+from pathlib import Path
+
+DB_PATH = Path(__file__).parent / "academic.db"
+OUTPUT = Path.home() / "projects/apps/miratuku-news-v2/dashboards/pt.html"
+
+POETICS = ('古典詩学','修辞学・弁論術','構造主義詩学','ロシア・フォルマリズム',
+    '近代美学・詩学','現象学的詩学','中世・ルネサンス詩学','ポスト構造主義詩学',
+    '受容理論','認知詩学','比較詩学','デジタル詩学')
+
+# Subfield categorization (4 macro-categories)
+CATEGORIES = {
+    "A": {"name": "A. 古典・修辞学的伝統", "color": "#CC1400",
+          "subs": ["古典詩学", "修辞学・弁論術", "中世・ルネサンス詩学", "比較詩学"]},
+    "B": {"name": "B. 形式主義・構造主義", "color": "#0066CC",
+          "subs": ["ロシア・フォルマリズム", "構造主義詩学"]},
+    "C": {"name": "C. 美学・現象学的伝統", "color": "#996600",
+          "subs": ["近代美学・詩学", "現象学的詩学"]},
+    "D": {"name": "D. 現代理論・読者・認知・デジタル", "color": "#008844",
+          "subs": ["ポスト構造主義詩学", "受容理論", "認知詩学", "デジタル詩学"]},
+}
+
+
+def main():
+    conn = sqlite3.connect(DB_PATH)
+    cur = conn.cursor()
+    qs = ",".join(["?"] * len(POETICS))
+
+    # Subfield counts
+    cur.execute(f"SELECT subfield, COUNT(*) FROM humanities_concept WHERE subfield IN ({qs}) GROUP BY subfield", POETICS)
+    sf_counts = dict(cur.fetchall())
+
+    # Era buckets
+    cur.execute(f"SELECT era_start FROM humanities_concept WHERE subfield IN ({qs}) AND era_start IS NOT NULL", POETICS)
+    years = [r[0] for r in cur.fetchall()]
+
+    # Yearly histogram (50-year buckets for full historical scale)
+    decade_counts = Counter()
+    for y in years:
+        if y < 0:
+            decade_counts[(y // 100) * 100] += 1
+        elif y < 1500:
+            decade_counts[(y // 100) * 100] += 1
+        else:
+            decade_counts[(y // 25) * 25] += 1
+    decade_keys = sorted(decade_counts.keys())
+
+    # Relation types
+    cur.execute(f"""SELECT relation_type, COUNT(*) FROM humanities_concept_relations rel
+        WHERE rel.source_concept_id IN (SELECT id FROM humanities_concept WHERE subfield IN ({qs}))
+           OR rel.target_concept_id IN (SELECT id FROM humanities_concept WHERE subfield IN ({qs}))
+        GROUP BY relation_type ORDER BY COUNT(*) DESC""", POETICS + POETICS)
+    rel_types = cur.fetchall()
+    rel_total = sum(n for _, n in rel_types)
+
+    # Top researchers
+    cur.execute(f"""SELECT r.name_ja, r.name_full, COUNT(DISTINCT hcr.concept_id) AS n
+        FROM researchers r JOIN humanities_concept_researchers hcr ON r.id = hcr.researcher_id
+        JOIN humanities_concept hc ON hc.id = hcr.concept_id
+        WHERE hc.subfield IN ({qs})
+        GROUP BY r.id ORDER BY n DESC LIMIT 24""", POETICS)
+    researchers = cur.fetchall()
+
+    # Total researchers (linked to poetics concepts)
+    cur.execute(f"""SELECT COUNT(DISTINCT r.id) FROM researchers r
+        JOIN humanities_concept_researchers hcr ON r.id = hcr.researcher_id
+        JOIN humanities_concept hc ON hc.id = hcr.concept_id
+        WHERE hc.subfield IN ({qs})""", POETICS)
+    researcher_total = cur.fetchone()[0]
+
+    # School distribution (top 12)
+    cur.execute(f"""SELECT school_of_thought, COUNT(*) FROM humanities_concept
+        WHERE subfield IN ({qs}) AND school_of_thought IS NOT NULL
+        GROUP BY school_of_thought ORDER BY COUNT(*) DESC LIMIT 18""", POETICS)
+    schools = cur.fetchall()
+
+    # Era buckets for display
+    era_buckets_disp = [
+        ("古代（BC500-AD500）", sum(1 for y in years if -500 <= y < 500)),
+        ("中世（500-1400）", sum(1 for y in years if 500 <= y < 1400)),
+        ("ルネサンス・近世（1400-1750）", sum(1 for y in years if 1400 <= y < 1750)),
+        ("18-19世紀（1750-1900）", sum(1 for y in years if 1750 <= y < 1900)),
+        ("20世紀前半（1900-1950）", sum(1 for y in years if 1900 <= y < 1950)),
+        ("20世紀後半（1950-2000）", sum(1 for y in years if 1950 <= y < 2000)),
+        ("21世紀（2000-）", sum(1 for y in years if 2000 <= y < 2100)),
+    ]
+
+    total_concepts = sum(sf_counts.values())
+
+    # Build the HTML
+    sf_data_js = []
+    for cat_id, cat in CATEGORIES.items():
+        for sub in cat["subs"]:
+            cnt = sf_counts.get(sub, 0)
+            sf_data_js.append({"id": cat_id, "ja": sub, "count": cnt, "cat": cat_id})
+
+    decade_chart_data = {str(k): v for k, v in decade_counts.items()}
+
+    html = f"""<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>詩学（Poetics）DB | Insight News</title>
+<link rel="icon" href="https://esse-sense.com/favicon.ico">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@300;400;500;700&family=Noto+Serif+JP:wght@400;700&display=swap" rel="stylesheet">
+<style>
+:root {{
+  --bg: #FFFFFF; --card: #FFFFFF; --text: #121212; --text-secondary: #555555;
+  --text-muted: #6B6B6B; --border: #D9D9D9; --border-light: #EEEEEE;
+  --surface: #F7F7F5; --accent-warm: #CC1400; --accent-muted: rgba(204,20,0,0.06);
+  --font: "Noto Sans JP", sans-serif; --font-serif: "Noto Serif JP", serif;
+}}
+[data-theme="dark"] {{
+  --bg: #121212; --card: #1A1A1A; --text: #E0E0E0; --text-secondary: #AAAAAA;
+  --text-muted: #8A8A8A; --border: #333333; --border-light: #2A2A2A;
+  --surface: #1A1A1A; --accent-warm: #FF4040; --accent-muted: rgba(255,64,64,0.1);
+}}
+*, *::before, *::after {{ box-sizing: border-box; margin: 0; padding: 0; }}
+body {{ font-family: var(--font); color: var(--text); background: var(--bg); line-height: 1.7; max-width: 960px; margin: 0 auto; padding: 24px 20px; }}
+.back {{ display: inline-block; margin-bottom: 20px; font-size: 0.82rem; color: var(--text-secondary); text-decoration: none; }}
+.back:hover {{ color: var(--text); }}
+h1 {{ font-family: var(--font-serif); font-size: 1.5rem; font-weight: 700; margin-bottom: 4px; }}
+.db-id {{ font-family: monospace; font-size: 0.72rem; font-weight: 700; color: var(--accent-warm); background: var(--accent-muted); padding: 2px 8px; margin-right: 8px; }}
+.subtitle {{ font-size: 0.84rem; color: var(--text-secondary); margin-bottom: 12px; }}
+.desc {{ font-size: 0.84rem; color: var(--text); margin-bottom: 24px; line-height: 1.85; }}
+.overview {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(140px, 1fr)); gap: 10px; margin-bottom: 28px; }}
+.overview-card {{ background: var(--surface); border: 1px solid var(--border-light); padding: 14px; text-align: center; }}
+.overview-value {{ font-family: var(--font-serif); font-size: 1.4rem; font-weight: 700; }}
+.overview-label {{ font-size: 0.7rem; color: var(--text-muted); margin-top: 2px; }}
+h3 {{ font-family: var(--font-serif); font-size: 1rem; font-weight: 700; margin: 28px 0 12px; padding-bottom: 6px; border-bottom: 1px solid var(--border); }}
+.note {{ font-size: 0.78rem; color: var(--text-muted); margin-top: 6px; line-height: 1.6; }}
+.theme-toggle {{ position: fixed; top: 16px; right: 16px; background: var(--surface); border: 1px solid var(--border); padding: 6px 10px; cursor: pointer; font-size: 1rem; z-index: 10; }}
+.subfield-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(280px, 1fr)); gap: 8px; margin: 12px 0; }}
+.subfield-item {{ display: flex; justify-content: space-between; align-items: center; padding: 10px 14px; background: var(--surface); border: 1px solid var(--border-light); font-size: 0.82rem; }}
+.subfield-name {{ flex: 1; }}
+.subfield-name-ja {{ font-weight: 500; }}
+.subfield-count {{ font-weight: 700; color: var(--text-secondary); font-family: monospace; min-width: 40px; text-align: right; }}
+.subfield-bar {{ height: 3px; opacity: 0.5; margin-top: 4px; }}
+.type-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 6px; margin: 12px 0; }}
+.type-item {{ display: flex; justify-content: space-between; padding: 8px 12px; background: var(--surface); border: 1px solid var(--border-light); font-size: 0.82rem; }}
+.type-count {{ font-weight: 700; color: var(--text-secondary); font-family: monospace; }}
+.researcher-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 6px; margin: 12px 0; }}
+.researcher-item {{ display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--surface); border: 1px solid var(--border-light); font-size: 0.82rem; }}
+.researcher-name {{ font-weight: 500; }}
+.researcher-meta {{ font-family: monospace; color: var(--text-muted); font-size: 0.75rem; }}
+.era-bar-row {{ display: flex; align-items: center; margin-bottom: 6px; }}
+.era-label {{ min-width: 200px; font-size: 0.78rem; color: var(--text-secondary); padding-right: 12px; }}
+.era-bar {{ height: 22px; background: var(--accent-warm); opacity: 0.55; display: flex; align-items: center; padding-left: 8px; }}
+.era-count {{ font-size: 0.72rem; color: #fff; font-weight: 600; }}
+.cat-block {{ margin-bottom: 10px; }}
+.cat-header {{ font-size: 0.82rem; font-weight: 600; padding: 6px 0 4px; }}
+.cat-dot {{ display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 8px; vertical-align: middle; }}
+.report-list {{ display: grid; gap: 8px; margin: 12px 0 28px; }}
+.report-item {{ padding: 12px 16px; border: 1px solid var(--border-light); background: var(--surface); }}
+.report-item a {{ color: var(--text); text-decoration: none; }}
+.report-item a:hover {{ color: var(--accent-warm); }}
+.report-title {{ font-size: 0.84rem; font-weight: 600; line-height: 1.5; margin-bottom: 4px; }}
+.report-meta {{ font-size: 0.72rem; color: var(--text-muted); display: flex; gap: 12px; flex-wrap: wrap; }}
+.link-btn {{ display: inline-flex; align-items: center; gap: 6px; padding: 8px 16px; background: var(--accent-warm); color: #fff; font-size: 0.82rem; font-weight: 600; text-decoration: none; transition: opacity 0.2s; margin-right: 8px; margin-bottom: 8px; }}
+.link-btn:hover {{ opacity: 0.85; }}
+.link-btn-outline {{ background: transparent; color: var(--accent-warm); border: 1px solid var(--accent-warm); }}
+.link-btn-outline:hover {{ background: var(--accent-muted); }}
+.school-grid {{ display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: 6px; margin: 12px 0; }}
+.school-item {{ display: flex; justify-content: space-between; align-items: center; padding: 8px 12px; background: var(--surface); border: 1px solid var(--border-light); font-size: 0.82rem; }}
+.status-banner {{ background: var(--accent-muted); border-left: 3px solid var(--accent-warm); padding: 12px 16px; font-size: 0.84rem; margin-bottom: 24px; line-height: 1.7; }}
+footer {{ margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--border-light); font-size: 0.72rem; color: var(--text-muted); text-align: center; }}
+</style>
+</head>
+<body>
+<button class="theme-toggle" onclick="document.documentElement.setAttribute('data-theme',document.documentElement.getAttribute('data-theme')==='dark'?'':'dark')">&#9789;</button>
+<a class="back" href="../databases.html">&larr; データベース一覧に戻る</a>
+
+<h1><span class="db-id">PT</span>詩学（Poetics）DB</h1>
+<p class="subtitle">12サブフィールド・{total_concepts}概念によるグローバル詩学・文学理論の系譜的知識基盤</p>
+<p class="desc">プラトン『国家』のミメーシス批判（前380年）から21世紀のデジタル詩学・認知詩学に至るまで、西洋・東洋の詩学・文学理論・修辞学を体系的に統合した補助知識データベース。古典詩学、修辞学・弁論術、構造主義、ロシア・フォルマリズム、近代美学、現象学的詩学、ポスト構造主義、受容理論、認知詩学、比較詩学（インド・中国・日本・アラブ詩学を含む）、デジタル詩学までの12サブフィールドを横断する{total_concepts}概念を、{researcher_total}名の研究者と{rel_total}件の系譜関係（継承・拡張・批判・対立・統合）によって接続している。Princeton Encyclopedia of Poetry and Poetics、Routledge Encyclopedia of Narrative Theory、Stanford Encyclopedia of Philosophyを主要典拠とし、academic-knowledge-dbの人文学テーブル（humanities_concept）に構築された。</p>
+
+<div class="status-banner">
+本DBは詩学（Poetics）DB構築プロジェクトのPhase 2成果物である。Phase 0（スコーピング、推定総概念数1,650）に基づき、12サブフィールド全領域の体系的収集を完了。70%カバー目標1,155件に対して現在{total_concepts}件、カバー率{total_concepts/1155*100:.1f}%を達成。今後Phase 3（深掘り収集）で残余を充足する予定である。
+</div>
+
+<div style="margin-bottom:20px">
+  <a class="link-btn link-btn-outline" href="https://github.com/yuyanishimura0312/academic-knowledge-db">GitHub <span style="font-size:0.72rem;opacity:0.85">&rarr;</span></a>
+</div>
+
+<div class="overview">
+  <div class="overview-card"><div class="overview-value">{total_concepts}</div><div class="overview-label">概念</div></div>
+  <div class="overview-card"><div class="overview-value">12</div><div class="overview-label">サブフィールド</div></div>
+  <div class="overview-card"><div class="overview-value">{researcher_total}</div><div class="overview-label">研究者</div></div>
+  <div class="overview-card"><div class="overview-value">{rel_total}</div><div class="overview-label">系譜関係</div></div>
+  <div class="overview-card"><div class="overview-value">2,500</div><div class="overview-label">年代カバー</div></div>
+  <div class="overview-card"><div class="overview-value">{total_concepts/1155*100:.1f}%</div><div class="overview-label">70%目標達成率</div></div>
+</div>
+
+<h3>12サブフィールド構成</h3>
+<p class="note">4つの大分類（A. 古典・修辞学的伝統、B. 形式主義・構造主義、C. 美学・現象学的伝統、D. 現代理論）に属する12のサブフィールド。インド・中国・日本詩学を含む比較詩学を含む。</p>
+<div id="subfield-container"></div>
+
+<h3>時代別分布</h3>
+<p class="note">古代（プラトン・アリストテレス・ロンギノス）から21世紀（デジタル詩学・認知詩学）まで2,500年にわたる詩学概念の時代分布。</p>
+<div id="era-distribution"></div>
+
+<h3>主要研究者（概念originatorによる出現頻度順）</h3>
+<p class="note">データベース内で詩学概念のoriginatorとして最も多く参照される研究者。</p>
+<div class="researcher-grid" id="researcher-grid"></div>
+
+<h3>主要学派・思想流派</h3>
+<p class="note">概念のschool_of_thoughtで最も多く参照される学派。</p>
+<div class="school-grid" id="school-grid"></div>
+
+<h3>系譜関係の構成（{rel_total}件）</h3>
+<p class="note">7種類の関係タイプによる詩学概念間ネットワーク。synthesizes（統合）、extends（拡張）、enables（発展可能化）が主要な接続を構成する。</p>
+<div class="type-grid" id="relation-grid"></div>
+
+<h3>関連リソース</h3>
+<div class="report-list">
+  <div class="report-item">
+    <div class="report-title">古典詩学初期収集レポート（2026-05-03、31概念・6研究者）</div>
+    <div class="report-meta"><span>HANDOFF_POETICS.md</span><span>academic-knowledge-db</span></div>
+  </div>
+  <div class="report-item">
+    <div class="report-title">詩学スコーピング JSON（12サブフィールド × 7時代区分マトリクス）</div>
+    <div class="report-meta"><span>survey_frames/humanities_poetics_scope.json</span></div>
+  </div>
+</div>
+
+<footer>
+  Poetics DB &mdash; academic-knowledge-db / Insight News<br>
+  {total_concepts} concepts &middot; {researcher_total} researchers &middot; {rel_total} genealogical relations &middot; Last updated: 2026-05-06
+</footer>
+
+<script>
+const sfData = {json.dumps(sf_data_js, ensure_ascii=False)};
+const catColors = {{"A":"#CC1400","B":"#0066CC","C":"#996600","D":"#008844"}};
+const catNames = {{"A":"A. 古典・修辞学的伝統","B":"B. 形式主義・構造主義","C":"C. 美学・現象学的伝統","D":"D. 現代理論・読者・認知・デジタル"}};
+const sfContainer = document.getElementById('subfield-container');
+const grouped = {{}};
+sfData.forEach(s => {{ if(!grouped[s.cat]) grouped[s.cat]=[]; grouped[s.cat].push(s); }});
+const maxSf = Math.max(...sfData.map(s=>s.count));
+Object.keys(catNames).forEach(catId => {{
+  const block = document.createElement('div');
+  block.className = 'cat-block';
+  block.innerHTML = `<div class="cat-header"><span class="cat-dot" style="background:${{catColors[catId]}}"></span>${{catNames[catId]}}</div>`;
+  const grid = document.createElement('div');
+  grid.className = 'subfield-grid';
+  (grouped[catId]||[]).forEach(s => {{
+    const el = document.createElement('div');
+    el.className = 'subfield-item';
+    el.innerHTML = `<div class="subfield-name"><div class="subfield-name-ja">${{s.ja}}</div><div class="subfield-bar" style="width:${{s.count/maxSf*100}}%;background:${{catColors[s.cat]}}"></div></div><div class="subfield-count">${{s.count}}</div>`;
+    grid.appendChild(el);
+  }});
+  block.appendChild(grid);
+  sfContainer.appendChild(block);
+}});
+
+// Era distribution
+const eraData = {json.dumps(era_buckets_disp, ensure_ascii=False)};
+const eraEl = document.getElementById('era-distribution');
+const maxEra = Math.max(...eraData.map(d=>d[1]));
+eraData.forEach(([label,cnt]) => {{
+  const wrap = document.createElement('div');
+  wrap.className = 'era-bar-row';
+  wrap.innerHTML = `<div class="era-label">${{label}}</div><div class="era-bar" style="width:${{cnt/maxEra*70}}%"><span class="era-count">${{cnt}}</span></div>`;
+  eraEl.appendChild(wrap);
+}});
+
+// Researchers
+const researchers = {json.dumps([{"name": (nj or nf), "name_full": nf, "n": n} for nj, nf, n in researchers], ensure_ascii=False)};
+const resGrid = document.getElementById('researcher-grid');
+researchers.forEach(r => {{
+  const el = document.createElement('div');
+  el.className = 'researcher-item';
+  el.innerHTML = `<span class="researcher-name">${{r.name}}</span><span class="researcher-meta">${{r.n}} concepts</span>`;
+  resGrid.appendChild(el);
+}});
+
+// Schools
+const schools = {json.dumps([{"name": s, "n": n} for s, n in schools], ensure_ascii=False)};
+const schoolGrid = document.getElementById('school-grid');
+schools.forEach(s => {{
+  const el = document.createElement('div');
+  el.className = 'school-item';
+  el.innerHTML = `<span>${{s.name}}</span><span class="type-count">${{s.n}}</span>`;
+  schoolGrid.appendChild(el);
+}});
+
+// Relations
+const relTypes = {json.dumps([{"type": t, "n": n} for t, n in rel_types], ensure_ascii=False)};
+const relMeta = {{
+  "synthesizes":"統合","extends":"拡張","enables":"発展可能化","derived_from":"派生",
+  "reinterprets":"再解釈","opposes":"対立","critiques":"批判","applies_to":"適用",
+  "complements":"補完","related_to":"関連"
+}};
+const relGrid = document.getElementById('relation-grid');
+relTypes.forEach(r => {{
+  const ja = relMeta[r.type] || r.type;
+  const el = document.createElement('div');
+  el.className = 'type-item';
+  el.innerHTML = `<span>${{ja}} <span style="font-size:0.7rem;color:var(--text-muted)">${{r.type}}</span></span><span class="type-count">${{r.n}}</span>`;
+  relGrid.appendChild(el);
+}});
+</script>
+</body></html>
+"""
+
+    OUTPUT.parent.mkdir(parents=True, exist_ok=True)
+    OUTPUT.write_text(html, encoding="utf-8")
+    print(f"Wrote {OUTPUT}")
+    print(f"Size: {OUTPUT.stat().st_size:,} bytes")
+
+
+if __name__ == "__main__":
+    main()
