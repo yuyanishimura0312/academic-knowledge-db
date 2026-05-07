@@ -240,7 +240,10 @@ add(**C, name_ja="クレビヨン・フィス『ソファ』",
     historical_context="1740年代パリ・宮廷文化のロココ的耽美期。",
     primary_source_url=GUTEN+"ebooks/30923",
     primary_source_type="Project Gutenberg: Le Sopha",
-    importance_score=3, source_tier="primary", canonical_in_region="minor")
+    importance_score=3, source_tier="primary", canonical_in_region="minor",
+    fourth_axes=[{"axis":"作者性","status":"rethinking",
+        "rationale":"前世がソファだった語り手という枠物語は、AI生成における物体的・非人間的視点と理論的に共振。",
+        "related_ai_phenomenon":"AI生成の非人間的視点"}])
 
 
 # ============================================================
@@ -280,7 +283,10 @@ add(**C, name_ja="スモレット『ハンフリー・クリンカー』",
     historical_context="1770年代英国・スコットランド統合後の文化的交流。",
     primary_source_url=GUTEN+"ebooks/2160",
     primary_source_type="Project Gutenberg: Humphry Clinker",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[{"axis":"物語","status":"rethinking",
+        "rationale":"複数視点書簡体は、AI生成における多視点並列叙述と理論的に共振する祖型。",
+        "related_ai_phenomenon":"AI多視点並列叙述"}])
 
 add(**C, name_ja="スモレット『ロデリック・ランダム』",
     name_en="Smollett's Roderick Random",
@@ -358,7 +364,13 @@ add(**C, name_ja="ボズウェル『ジョンソン伝』",
     historical_context="ジョージ朝後期英国・スコットランド文人交流期。",
     primary_source_url=GUTEN+"ebooks/1564",
     primary_source_type="Project Gutenberg: Life of Johnson",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[{"axis":"作者性","status":"rethinking",
+        "rationale":"ボズウェルの綿密な会話記録は、AI時代の対話記録・生成の祖型として再読される。",
+        "related_ai_phenomenon":"AIによる対話記録・再構成"}],
+    cross_domain=[{"target_db":"PT","link_type":"shared_concept",
+        "target_entity_name":"近代伝記文学",
+        "description":"近代伝記の祖型として詩学DB伝記項目と接続。"}])
 
 add(**C, name_ja="ギボン『ローマ帝国衰亡史』",
     name_en="Gibbon's Decline and Fall",
@@ -389,7 +401,10 @@ add(**C, name_ja="リーヴ『古英国男爵』",
     historical_context="1770年代英国の女性読書市場拡大期。",
     primary_source_url=GUTEN+"ebooks/13911",
     primary_source_type="Project Gutenberg: The Old English Baron",
-    importance_score=3, source_tier="primary", canonical_in_region="minor")
+    importance_score=3, source_tier="primary", canonical_in_region="minor",
+    cross_domain=[{"target_db":"PT","link_type":"shared_concept",
+        "target_entity_name":"説明されたゴシック",
+        "description":"後のラドクリフ的「説明されたゴシック」の起点として詩学DB項目と接続。"}])
 
 add(**C, name_ja="ラドクリフ『イタリアン』",
     name_en="Radcliffe's The Italian",
@@ -401,7 +416,10 @@ add(**C, name_ja="ラドクリフ『イタリアン』",
     historical_context="1797年仏伊カトリック制度と英国プロテスタント感情。",
     primary_source_url=GUTEN+"ebooks/3094",
     primary_source_type="Project Gutenberg: The Italian",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[{"target_db":"PT","link_type":"shared_concept",
+        "target_entity_name":"ゴシック詩学",
+        "description":"後期ゴシック詩学の中心テクストとして詩学DB項目と接続。"}])
 
 add(**C, name_ja="ラドクリフ『森のロマンス』",
     name_en="Radcliffe's The Romance of the Forest",
@@ -513,7 +531,10 @@ add(**C, name_ja="レッシング『エミーリア・ガロッティ』",
     historical_context="1772年プロイセン・小邦国家の絶対主義期。",
     primary_source_url=GUTEN+"ebooks/2447",
     primary_source_type="Project Gutenberg: Emilia Galotti",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[{"target_db":"PHIL","link_type":"shared_concept",
+        "target_entity_name":"市民悲劇と道徳",
+        "description":"啓蒙期市民悲劇形式の頂点として哲学DB道徳論項目と接続。"}])
 
 add(**C, name_ja="クロップシュトック『メシアス』",
     name_en="Klopstock's Der Messias",
@@ -688,7 +709,10 @@ add(**C, name_ja="シェリー『縛を解かれたプロメテウス』",
     historical_context="1820年英国・イタリア反動期に対する詩的抵抗。",
     primary_source_url=GUTEN+"ebooks/4800",
     primary_source_type="Project Gutenberg: Prometheus Unbound",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[{"axis":"主体","status":"rethinking",
+        "rationale":"プロメテウスの解放神話は、AI時代の技術解放・自律的主体獲得の理論的祖型。",
+        "related_ai_phenomenon":"AI解放と自律的主体獲得"}])
 
 add(**C, name_ja="シェリー『無秩序の仮面舞踏会』",
     name_en="Shelley's The Mask of Anarchy",
@@ -1082,6 +1106,9 @@ add(**CAM, name_ja="メルヴィル『ベニト・セレノ』",
     primary_source_url=GUTEN+"ebooks/15859",
     primary_source_type="Project Gutenberg: Benito Cereno",
     importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[{"axis":"受容","status":"rethinking",
+        "rationale":"認識の盲点という主題は、AI時代の認識バイアス・盲点問題と理論的に共振する祖型。",
+        "related_ai_phenomenon":"AIの認識バイアス・盲点"}],
     cross_domain=[{"target_db":"AN","link_type":"shared_concept",
         "target_entity_name":"奴隷制と人種認識",
         "description":"人類学DB側の奴隷制・人種研究と直接接続する文学的祖型。"}])
@@ -1111,7 +1138,10 @@ add(**CAM, name_ja="ポー『構成の哲学』",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[{"axis":"創造性","status":"rethinking",
         "rationale":"ポー『構成の哲学』の理性的計算的詩作は、AI生成の計算的詩作と理論的に共振する祖型。",
-        "related_ai_phenomenon":"AI生成と計算的詩作"}])
+        "related_ai_phenomenon":"AI生成と計算的詩作"}],
+    cross_domain=[{"target_db":"PT","link_type":"shared_concept",
+        "target_entity_name":"制作論・構成論",
+        "description":"近代詩学制作論の祖型として詩学DB項目と接続。"}])
 
 add(**CAM, name_ja="エマソン『自然論』",
     name_en="Emerson's Nature",
@@ -1138,7 +1168,10 @@ add(**CAM, name_ja="エマソン『アメリカの学者』",
     historical_context="1837年米国独立60年期の文化的独立論議。",
     primary_source_url=GUTEN+"ebooks/16643",
     primary_source_type="Project Gutenberg: American Scholar",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[{"target_db":"PHIL","link_type":"shared_concept",
+        "target_entity_name":"米国知識人独立論",
+        "description":"米国国民文化形成論の起点として哲学DB項目と接続。"}])
 
 add(**CAM, name_ja="ソロー『市民の不服従』",
     name_en="Thoreau's Civil Disobedience",
