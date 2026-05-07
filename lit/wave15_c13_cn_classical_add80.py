@@ -74,7 +74,9 @@ add(**C, name_ja="易經繫辭傳の文学性",
     historical_context="戦国末〜漢初の哲学的綜合期。",
     primary_source_url=CTEXT+"book-of-changes/xi-ci-shang",
     primary_source_type="CTEXT: 周易繫辭",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="繫辭傳「立象以盡意」「言不盡意」はAI生成の言語と意味の分離・象徴生成の根本問題を再考する東洋的祖型。")
 
 add(**C, name_ja="春秋左氏傳の叙事",
     name_en="Narrative art of the Zuo Zhuan",
@@ -134,7 +136,9 @@ add(**C, name_ja="韓非子の寓言",
     historical_context="戦国末諸子論争期の修辞文化。",
     primary_source_url=CTEXT+"hanfeizi",
     primary_source_type="CTEXT: 韓非子",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="韓非子寓言は法治論証の修辞的手段。AI時代における説得・物語型推論の古典的祖型として再評価可能。")
 
 add(**C, name_ja="莊子内篇逍遙遊・齊物論・養生主",
     name_en="Inner Chapters of Zhuangzi: Xiaoyaoyou, Qiwulun, Yangshengzhu",
@@ -146,7 +150,9 @@ add(**C, name_ja="莊子内篇逍遙遊・齊物論・養生主",
     historical_context="戦国中期諸子百家論争の深化期。",
     primary_source_url=CTEXT+"zhuangzi/enjoyment-in-untroubled-ease",
     primary_source_type="CTEXT: 莊子内篇",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="齊物論の相対主義はAI時代の真理多元性・主体客体融合問題の東洋的根本祖型。")
 
 add(**C, name_ja="莊子外篇",
     name_en="Outer Chapters of Zhuangzi",
@@ -210,7 +216,9 @@ add(**C, name_ja="司馬遷『史記』列傳形式",
     historical_context="漢武帝期の文化的綜合と歴史意識の発達。",
     primary_source_url=CTEXT+"shiji",
     primary_source_type="CTEXT: 史記",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="史記列傳の人物中心叙事は主体性・物語的アイデンティティ理論の古典的祖型。AI時代における人物像生成・伝記再構築の規範的参照点。")
 
 add(**C, name_ja="班固『漢書』述略",
     name_en="Ban Gu's Hanshu narrative style",
@@ -258,7 +266,9 @@ add(**C, name_ja="孔雀東南飛",
     historical_context="後漢末家族制度の矛盾と民間口承文学。",
     primary_source_url=CTEXT+"yutai-xinyong",
     primary_source_type="樂府: 玉台新詠所收",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="孔雀東南飛は家族・婚姻における権力構造を批判的に物語化した古代叙事。AI時代のジェンダー規範再考の古典的祖型。")
 
 add(**C, name_ja="古詩十九首の背景",
     name_en="Background of the Nineteen Old Poems",
@@ -336,7 +346,9 @@ add(**C, name_ja="劉義慶『世説新語』",
     historical_context="劉宋元嘉文化期の魏晋名士懐古。",
     primary_source_url=CTEXT+"shi-shuo-xin-yu",
     primary_source_type="CTEXT: 世説新語",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="世説新語の逸話は短い断片で人物像と思想を喚起する。AI時代のショートフォーム文学・ミーム化された意味伝達の東洋的祖型。")
 
 add(**C, name_ja="顏氏家訓",
     name_en="Yan Shi Jia Xun",
@@ -408,7 +420,9 @@ add(**C, name_ja="文心雕龍「原道・徵聖・宗經」",
     historical_context="南朝齊梁文化期。",
     primary_source_url=CTEXT+"wenxin-diaolong",
     primary_source_type="CTEXT: 文心雕龍",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="文心雕龍「原道」は文学を宇宙論的根源に位置付ける。AI生成文学の存在論的位置付けを再考する東洋的祖型。")
 
 add(**C, name_ja="文心雕龍「正緯・辨騷・明詩・樂府」",
     name_en="Wenxin Diaolong: Zhengwei, Bianshao, Mingshi, Yuefu",
@@ -444,7 +458,9 @@ add(**C, name_ja="鍾嶸『詩品』品第論",
     historical_context="齊梁文学評論成熟期。",
     primary_source_url=CTEXT+"shipin",
     primary_source_type="CTEXT: 詩品",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="鍾嶸詩品の品第・系譜論はAI時代の作品評価アルゴリズム・推薦システムにおける格付け論の古典的祖型。")
 
 add(**C, name_ja="蕭統『文選』選録基準",
     name_en="Selection criteria of Xiao Tong's Wen Xuan",
@@ -456,7 +472,9 @@ add(**C, name_ja="蕭統『文選』選録基準",
     historical_context="梁昭明太子文学集団の活動期。",
     primary_source_url=CTEXT+"wen-xuan",
     primary_source_type="CTEXT: 文選",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="文選の選録基準（事出於沈思、義歸乎翰藻）は文学独立論の古典的宣言。AI時代のキュレーション・選別アルゴリズムの規範的参照点。")
 
 add(**C, name_ja="徐陵『玉台新詠』",
     name_en="Xu Ling's Yutai Xinyong",
@@ -568,7 +586,9 @@ add(**C, name_ja="韓愈「答李翊書・進学解」",
     historical_context="中唐元和文化変動期。",
     primary_source_url=CTEXT+"han-changli-ji",
     primary_source_type="韓昌黎集 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="韓愈「不平則鳴」は文学の発生機構を心理的緊張と結びつける。AI時代の創作動機論再考の東洋的祖型。")
 
 add(**C, name_ja="柳宗元「封建論・捕蛇者説」",
     name_en="Liu Zongyuan's Fengjianlun and Bushezhe Shuo",
@@ -592,7 +612,9 @@ add(**C, name_ja="唐傳奇「鶯鶯傳・霍小玉傳・李娃傳」",
     historical_context="中唐長安都市恋愛文化。",
     primary_source_url=CTEXT+"taiping-guangji",
     primary_source_type="太平廣記所收 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="唐傳奇恋愛三大名作は女性主体性・感情の文学化。AI時代における感情モデリング・人物心理生成の古典的祖型。")
 
 add(**C, name_ja="唐傳奇「南柯太守傳・枕中記」",
     name_en="Tang Chuanqi: Nanke Taishou Zhuan, Zhenzhong Ji",
@@ -604,7 +626,9 @@ add(**C, name_ja="唐傳奇「南柯太守傳・枕中記」",
     historical_context="中唐宗教文化の文学的内在化。",
     primary_source_url=CTEXT+"taiping-guangji",
     primary_source_type="太平廣記所收 (CTEXT)",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="枕中記・南柯記の幻夢構造は仮想現実・シミュレーション論の東洋的祖型。AI生成現実の哲学的位置付けに資する。")
 
 add(**C, name_ja="唐傳奇「古鏡記」",
     name_en="Tang Chuanqi: Gujing Ji",
@@ -640,7 +664,9 @@ add(**C, name_ja="李商隱無題詩・象徴主義",
     historical_context="晩唐党争激化期。",
     primary_source_url=CTEXT+"yi-shan-shi-ji",
     primary_source_type="李義山詩集 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="李商隱無題詩の重層的象徴と意味の不確定性は、AI生成詩・多義的言語生成の古典的祖型として再読可能。")
 
 add(**C, name_ja="李賀の鬼詩",
     name_en="Li He's ghost poems",
@@ -670,7 +696,9 @@ add(**C, name_ja="歐陽修『六一詩話』",
     historical_context="北宋古文運動成熟期。",
     primary_source_url=CTEXT+"liu-yi-shi-hua",
     primary_source_type="CTEXT: 六一詩話",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="詩話形式は短評の蓄積による批評。AI時代のソーシャル批評・コメント文化の東洋的祖型。")
 
 add(**C, name_ja="王安石『臨川集』",
     name_en="Wang Anshi's Linchuan Ji",
@@ -744,7 +772,9 @@ add(**C, name_ja="嚴羽『滄浪詩話』",
     historical_context="南宋末文化爛熟期。",
     primary_source_url=CTEXT+"canglang-shihua",
     primary_source_type="CTEXT: 滄浪詩話",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="嚴羽「妙悟」「別材別趣」は理性的論理を超えた直観知の重視。AI時代における理性vs直観・暗黙知問題再考の東洋的祖型。")
 
 add(**C, name_ja="沈括『夢溪筆談』",
     name_en="Shen Kuo's Mengxi Bitan",
@@ -844,17 +874,7 @@ add(**C, name_ja="公安派（袁宏道）",
     primary_source_type="維基百科: 公安派",
     importance_score=4, source_tier="secondary", canonical_in_region="major")
 
-add(**C, name_ja="竟陵派（鍾惺・譚元春）",
-    name_en="Jingling School: Zhong Xing, Tan Yuanchun",
-    name_original="竟陵派",
-    period_key="明",
-    definition="明萬曆天啓期の詩文流派。湖北竟陵出身の鍾惺（1574-1624）・譚元春（1586-1637）が中心。公安派の浅率を批判し、「幽深孤峭」を主張。共撰『古詩歸』『唐詩歸』は独自選評で公安派と並ぶ晩明文学の二大潮流をなした。",
-    background="晩明公安派批判と新たな個性主義文学探索。",
-    development="清初遺民文学への系譜。",
-    historical_context="明天啓崇禎期の文化的緊張。",
-    primary_source_url=WIKI_ZH+"竟陵派",
-    primary_source_type="維基百科: 竟陵派",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 竟陵派 — secondary trimmed)
 
 add(**C, name_ja="李贄童心説",
     name_en="Li Zhi's Theory of the Childlike Mind",
@@ -880,7 +900,9 @@ add(**C, name_ja="馮夢龍三言（喻世明言・警世通言・醒世恒言�
     historical_context="晩明江南都市市民文化期。",
     primary_source_url=CTEXT+"library.pl",
     primary_source_type="三言 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="馮夢龍三言は市井生活の多様性を物語化。AI時代の大衆物語・データ駆動型ナラティブ生成の古典的祖型。")
 
 add(**C, name_ja="凌濛初二拍（初刻拍案驚奇・二刻拍案驚奇）",
     name_en="Ling Mengchu's Er Pai",
@@ -904,7 +926,9 @@ add(**C, name_ja="湯顯祖『牡丹亭』（玉茗堂四夢）",
     historical_context="晩明萬曆期の文化的爛熟。",
     primary_source_url=CTEXT+"library.pl",
     primary_source_type="牡丹亭 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="湯顯祖至情論は感情を生死を超える主体性原理として絶対化。AI時代における人間感情の独自性・愛の哲学的位置付けの古典的祖型。")
 
 add(**C, name_ja="許仲琳『封神演義』",
     name_en="Xu Zhonglin's Fengshen Yanyi",
@@ -918,17 +942,7 @@ add(**C, name_ja="許仲琳『封神演義』",
     primary_source_type="封神演義 (CTEXT)",
     importance_score=4, source_tier="primary", canonical_in_region="major")
 
-add(**C, name_ja="王世貞『曲藻』・沈璟詞律",
-    name_en="Wang Shizhen's Qu Zao and Shen Jing's Cilü",
-    name_original="曲藻・沈璟詞律",
-    period_key="明",
-    definition="明代戯曲理論の二大著作。王世貞（1526-1590）『曲藻』は元明戯曲の格律と作家評鑑を体系化、沈璟（1553-1610）『南九宮十三調曲譜』『詞隱先生論曲』は南曲音律学を確立した。湯顯祖の自由派と沈璟の音律派の「湯沈論争」は明代戯曲理論史の核心。",
-    background="晩明戯曲制度化と理論化。",
-    development="清代李漁『閑情偶寄』、現代戯曲学の祖型。",
-    historical_context="晩明戯曲学派論争。",
-    primary_source_url=WIKI_ZH+"沈璟",
-    primary_source_type="維基百科: 沈璟・王世貞曲論",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 王世貞曲藻沈璟詞律 — secondary trimmed)
 
 
 # ============================================================
@@ -944,7 +958,9 @@ add(**C, name_ja="王士禛神韻説",
     historical_context="清康熙期文化爛熟期。",
     primary_source_url=CTEXT+"daijing-tang-shi-hua",
     primary_source_type="帶經堂詩話 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="王士禛神韻説の「言外余韻」「空霊」概念はAI生成詩における暗示・含蓄性問題の古典的参照点。")
 
 add(**C, name_ja="沈德潛格調説",
     name_en="Shen Deqian's Gediao Theory",
@@ -958,17 +974,7 @@ add(**C, name_ja="沈德潛格調説",
     primary_source_type="說詩晬語 (CTEXT)",
     importance_score=4, source_tier="primary", canonical_in_region="major")
 
-add(**C, name_ja="翁方綱肌理説",
-    name_en="Weng Fanggang's Jili Theory",
-    name_original="肌理說",
-    period_key="清",
-    definition="清翁方綱（1733-1818）の詩学説。神韻説の空霊と格調説の僵化を共に批判し、「肌理」（学問的根拠と義理脈絡）を詩の本質とする。乾嘉考證学の詩学版で、宋詩派（特に黃庭堅江西派）を再評価し、清中期詩学の重要な理論的展開を示した。",
-    background="乾嘉考證学の詩学への適用と宋詩再評価。",
-    development="清末宋詩派（同光體）への系譜。",
-    historical_context="清乾嘉考證学全盛期。",
-    primary_source_url=WIKI_ZH+"翁方綱",
-    primary_source_type="維基百科: 翁方綱",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 翁方綱肌理説 — secondary trimmed)
 
 add(**C, name_ja="袁枚『隨園詩話』・性靈説",
     name_en="Yuan Mei's Suiyuan Shihua and Xingling Theory",
@@ -980,7 +986,9 @@ add(**C, name_ja="袁枚『隨園詩話』・性靈説",
     historical_context="清乾隆期江南文化爛熟。",
     primary_source_url=CTEXT+"suiyuan-shihua",
     primary_source_type="CTEXT: 隨園詩話",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="袁枚性靈説は個性的真情を詩の本質とする。AI時代のオリジナリティ・本来性論争の東洋的古典的参照点。")
 
 add(**C, name_ja="趙翼『甌北詩話』",
     name_en="Zhao Yi's Oubei Shihua",
@@ -1096,29 +1104,9 @@ add(**C, name_ja="梁啓超『文界革命』",
     fourth_transform_status="rethinking",
     fourth_transform_note="梁啓超文界革命は近代媒体（新聞・雑誌）と文学を結合した変革。AI時代の生成型メディア・新民形成の古典的先駆として参照可能。")
 
-add(**C, name_ja="才子佳人小説（玉嬌梨・好逑傳）",
-    name_en="Caizi Jiaren novels: Yu Jiao Li, Hao Qiu Zhuan",
-    name_original="才子佳人小說",
-    period_key="清",
-    definition="清初〜中期の中篇小説ジャンル。『玉嬌梨』『平山冷燕』『好逑傳』『定情人』等が代表作。才子と佳人の恋愛・科挙・家庭団円を定型化し、清代通俗小説の主流となった。『好逑傳』は18世紀ヨーロッパ翻訳（独・仏・英訳）され、西洋における中国小説受容の出発点となった。",
-    background="清初江南都市市民文化と通俗小説の制度化。",
-    development="ゲーテ『中国小説』言及、欧州における中国文学受容の起点。",
-    historical_context="清康熙乾隆期の市民文化爛熟。",
-    primary_source_url=WIKI_ZH+"才子佳人小說",
-    primary_source_type="維基百科: 才子佳人小說",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 才子佳人小説 — secondary trimmed)
 
-add(**C, name_ja="紅樓夢續書（後紅樓夢・紅樓圓夢・兒女英雄傳）",
-    name_en="Hongloumeng sequels and Xian Nü Yingxiong Zhuan",
-    name_original="紅樓夢續書",
-    period_key="清",
-    definition="清乾嘉道光期に陸続と刊行された『紅樓夢』続書群（『後紅樓夢』『紅樓圓夢』『綺樓重夢』等十数種）と、文康（1798頃-1872頃）『兒女英雄傳』40回。前者は紅楼大団円書き換え、後者は紅楼批判による「英雌儒侠」恋愛冒険を描き、清中後期通俗小説の主流。",
-    background="紅樓夢広範流行と通俗小説の二次創作文化。",
-    development="近代武侠小説、現代二次創作文化の祖型。",
-    historical_context="清乾嘉道光期通俗文化爛熟。",
-    primary_source_url=WIKI_ZH+"紅樓夢續書",
-    primary_source_type="維基百科: 紅樓夢續書群",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 紅樓夢續書 — secondary trimmed)
 
 
 # ============================================================

@@ -79,7 +79,7 @@ add(**C, name_ja="萬葉集巻二", name_en="Manyoshu Volume 2",
     primary_source_type="NDL: 萬葉集巻二",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"主体","status":"persistent",
+        {"axis":"主体","status":"invariant",
          "rationale":"巻二の挽歌群は皇統儀礼における死者主体の声の代弁を文学化した古代事例で、AI時代における故人の声の生成倫理を再考する参照点となる。",
          "related_ai_phenomenon":"AI生成による故人の声の倫理"}])
 
@@ -114,7 +114,11 @@ add(**C, name_ja="萬葉集巻十", name_en="Manyoshu Volume 10",
     historical_context="奈良中期の和歌部立論の成熟期。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 萬葉集巻十",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"巻十の四季部立は季節という自然概念で文学を分類する祖型で、AI時代の自然概念による文学分類・タグ付けの古典的祖型として再考される。",
+         "related_ai_phenomenon":"AI時代の自然概念による文学分類"}])
 
 add(**C, name_ja="萬葉集巻十六", name_en="Manyoshu Volume 16",
     name_original="萬葉集巻十六",
@@ -140,7 +144,11 @@ add(**C, name_ja="萬葉集巻十九", name_en="Manyoshu Volume 19",
     historical_context="天平勝宝期の橘諸兄政権下での家持文化的活動。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 萬葉集巻十九",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"巻十九の家持私家集化は集合的編纂内の個人主体化を示し、AI時代の集合知における個人主体性確立の祖型として再考される。",
+         "related_ai_phenomenon":"AI集合知における個人主体性"}])
 
 add(**C, name_ja="大伴家持「秋風の歌」",
     name_en="Otomo no Yakamochi: Autumn Wind Verses",
@@ -152,7 +160,11 @@ add(**C, name_ja="大伴家持「秋風の歌」",
     historical_context="天平勝宝5年（753）2月の春秋三首独詠の文脈。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 萬葉集巻十九4290-4292",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"invariant",
+         "rationale":"家持秋風の歌の内省的孤独感は近代抒情の祖型で、AI時代の内省的・孤独主体の文学的生成可能性を再考する古典的参照点となる。",
+         "related_ai_phenomenon":"AI生成における内省的主体表現"}])
 
 add(**C, name_ja="笠女郎大伴家持贈答歌",
     name_en="Kasa no Iratsume and Yakamochi exchange poems",
@@ -259,7 +271,11 @@ add(**C, name_ja="経國集細目", name_en="Keikokushu detailed structure",
     historical_context="淳和朝の文章経国思想の集約。",
     primary_source_url=NDL+"info:ndljp/pid/2543380",
     primary_source_type="NDL: 経國集",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"文章経国思想",
+         "description":"経國集は東アジアの文章経国思想を日本宮廷で具現した古典で、東アジア政治哲学・文学哲学の中核資料となる。"}])
 
 add(**C, name_ja="都氏文集と都良香",
     name_en="Toshi Bunshu and Miyako no Yoshika",
@@ -399,7 +415,11 @@ add(**C, name_ja="後拾遺和歌集と藤原通俊",
     historical_context="応徳期の女流文学最終局面。",
     primary_source_url=NDL+"info:ndljp/pid/2543403",
     primary_source_type="NDL: 後拾遺和歌集",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"後拾遺集の女流歌人多数採録は女性主体の制度的可視化を示し、AI時代の主体可視化と多様性確保の歴史的祖型として再考される。",
+         "related_ai_phenomenon":"AI時代の主体多様性確保"}])
 
 add(**C, name_ja="金葉和歌集と源俊頼三奏本",
     name_en="Kinyoshu and Minamoto no Toshiyori's three drafts",
@@ -435,7 +455,11 @@ add(**C, name_ja="千載和歌集と藤原俊成",
     historical_context="文治・建久期の戦乱直後の宮廷文化再構築。",
     primary_source_url=NDL+"info:ndljp/pid/2543406",
     primary_source_type="NDL: 千載和歌集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"幽玄美学",
+         "description":"千載集に集約された俊成幽玄理念は東アジア美学史における日本独自の中世美学を代表し、東アジア美学哲学の中核概念となる。"}])
 
 add(**C, name_ja="新古今和歌集と藤原定家初撰本",
     name_en="Shinkokinshu and Teika's first compilation",
@@ -503,7 +527,11 @@ add(**C, name_ja="人麻呂集",
     historical_context="奈良中期から平安初期の人麻呂伝承形成。",
     primary_source_url=NIJL+"biblio/200005020/",
     primary_source_type="NIJL: 人麻呂集",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"人麻呂集の人麻呂単独作と時代歌謡の両義性は集合的擬作の作者性問題を古代から問う事例で、AI時代の擬人化された集合的作者性を再考する祖型となる。",
+         "related_ai_phenomenon":"AI時代の擬人化された集合的作者性"}])
 
 add(**C, name_ja="赤人集",
     name_en="Akahito-shu",
@@ -539,7 +567,11 @@ add(**C, name_ja="貫之集",
     historical_context="醍醐・朱雀朝の宮廷和歌活動。",
     primary_source_url=NIJL+"biblio/200005023/",
     primary_source_type="NIJL: 貫之集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"和歌詩学",
+         "description":"貫之集と仮名序は和歌詩学の理論的中核を成し、東アジア詩学哲学における日本独自の言語芸術論として位置づけられる。"}])
 
 add(**C, name_ja="躬恒集",
     name_en="Mitsune-shu",
@@ -603,7 +635,11 @@ add(**C, name_ja="和泉式部集",
     historical_context="長保・寛弘期の宮廷文化。",
     primary_source_url=NIJL+"biblio/200005028/",
     primary_source_type="NIJL: 和泉式部集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"invariant",
+         "rationale":"和泉式部集の情熱的恋愛詠と仏教的寂寥の併存は分裂的主体性の文学化で、AI時代の多面的・分裂的主体表現の歴史的祖型として再考される。",
+         "related_ai_phenomenon":"AI時代の多面的主体表現"}])
 
 add(**C, name_ja="藤原俊成『長秋詠藻』",
     name_en="Fujiwara no Shunzei, Choshu Eiso",
@@ -615,7 +651,11 @@ add(**C, name_ja="藤原俊成『長秋詠藻』",
     historical_context="治承期の御子左家歌学確立期。",
     primary_source_url=NIJL+"biblio/200005029/",
     primary_source_type="NIJL: 長秋詠藻",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"中世幽玄美学",
+         "description":"俊成長秋詠藻は中世日本幽玄美学の自撰具現作で、東アジア中世美学哲学の中核資料を成す。"}])
 
 add(**C, name_ja="藤原定家『拾遺愚草』",
     name_en="Fujiwara no Teika, Shui Guso",
@@ -659,7 +699,11 @@ add(**C, name_ja="慈円『拾玉集』",
     historical_context="承久の乱前夜の慈円政治的活動期。",
     primary_source_url=NIJL+"biblio/200005031/",
     primary_source_type="NIJL: 拾玉集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"中世仏教詩学",
+         "description":"慈円拾玉集は天台仏教思想と和歌の融合を体現し、東アジア仏教詩学・宗教文学哲学の中核資料となる。"}])
 
 add(**C, name_ja="源実朝『金槐和歌集』",
     name_en="Minamoto no Sanetomo, Kinkai Wakashu",
@@ -673,7 +717,7 @@ add(**C, name_ja="源実朝『金槐和歌集』",
     primary_source_type="青空文庫: 金槐和歌集",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"主体","status":"persistent",
+        {"axis":"主体","status":"invariant",
          "rationale":"実朝金槐集は武家政権首長による文学的主体性確立を示し、AI時代の権力者主体による文学創造と作者性の関係を再考する歴史的参照点となる。",
          "related_ai_phenomenon":"AI時代の権力者主体と文学創造"}])
 
@@ -803,7 +847,15 @@ add(**C, name_ja="心敬『ささめごと』十題",
     historical_context="応仁の乱(1467)直前の文化的精錬期。",
     primary_source_url=NIJL+"biblio/200005054/",
     primary_source_type="NIJL: ささめごと",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"心敬冷えさび論は協働創作（連歌）における主体間の冷却的距離を理論化した古典で、AI時代の協働創作における主体間距離・冷却的相互作用を再考する祖型となる。",
+         "related_ai_phenomenon":"AI協働創作の主体間距離"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"中世禅美学",
+         "description":"心敬ささめごとの冷えさび美学は中世禅思想と詩学の融合で、東アジア美学哲学における中世日本独自の貢献となる。"}])
 
 add(**C, name_ja="宗祇『水無瀬三吟百韻』",
     name_en="Sogi: Minase Sangin Hyakuin",
