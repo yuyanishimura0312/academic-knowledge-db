@@ -1,0 +1,148 @@
+from __future__ import annotations
+
+from lit_db_helper import LitDB
+
+
+C = dict(subfield_code="lit_arabic", region="南西アジア", period_id=None)
+
+CONCEPTS = [
+    # 1. 地方口承叙事
+    dict(**C, name_ja="タグリバ叙事のマワーウィール挿入",
+         name_en="mawwal insertions in Taghriba performance",
+         name_original="مواويل التغريبة", definition="ヒラーリー叙事の歌い語りに挟まれる即興哀歌節。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="バスラ民話のジュハー小話系譜",
+         name_en="Basran Juha anecdote lineage",
+         name_original="نوادر جحا البصرية", definition="バスラ伝承に寄せられるジュハー滑稽譚の地方型。",
+         importance_score=2, source_tier="tertiary", canonical_in_region="minor"),
+    dict(**C, name_ja="ハドラマウト移民マナーキブ朗唱",
+         name_en="Hadhrami migrant manaqib recitation",
+         name_original="مناقب حضرمية", definition="東南アジア移民社会で朗唱された聖者伝断章。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="シナイ・ベドウィンのサール詩",
+         name_en="Sinai Bedouin sar poetry",
+         name_original="شعر السار", definition="部族和解や移動記憶に結びつくシナイ口承詩。",
+         importance_score=2, source_tier="tertiary", canonical_in_region="minor"),
+    dict(**C, name_ja="オマーン・ナバティー海民詩",
+         name_en="Omani Nabati maritime poetry",
+         name_original="الشعر النبطي البحري", definition="真珠採取と航海労働を詠む湾岸口語詩の小系統。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ジュバイル市場のサワーリフ語り",
+         name_en="Jubail sawalif market tales",
+         name_original="سوالف الجبيل", definition="湾岸市場で流通した短い逸話語りの口承型。",
+         importance_score=2, source_tier="tertiary", canonical_in_region="minor"),
+
+    # 2. 忘却された散文作品
+    dict(**C, name_ja="イブン・ダーニヤール影絵台本",
+         name_en="Ibn Daniyal shadow play scripts",
+         name_original="طيف الخيال", definition="マムルーク期カイロの影絵劇を伝える稀少な台本群。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="サフディー『ワーフィー』逸話配置",
+         name_en="al-Safadi Wafi anecdotal arrangement",
+         name_original="الوافي بالوفيات", definition="列伝内の詩人逸話を配列するサフディーの編集法。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="イブン・スーダーン狂詩散文",
+         name_en="Ibn Sudan comic prose",
+         name_original="أخبار ابن سودون", definition="後期マムルークの滑稽詩文に見える反教養的語り。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ティファーシー『心の散歩』",
+         name_en="al-Tifashi Nuzhat al-albab",
+         name_original="نزهة الألباب", definition="性愛・音楽・逸話を集めた中世アラブの艶笑散文。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="イブン・アル＝アッバール亡国書簡",
+         name_en="Ibn al-Abbar lament letters",
+         name_original="رسائل ابن الأبار", definition="バレンシア陥落をめぐる請願と哀惜の書簡文。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ワットワート『書記の園』",
+         name_en="Watwat Ghurra al-khasa",
+         name_original="غرر الخصائص", definition="書記用例と奇聞を混ぜるアイユーブ期の文苑集。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+
+    # 3. 写本・注釈伝統
+    dict(**C, name_ja="アシュムーニー『アルフィーヤ』注釈伝本",
+         name_en="Ashmuni commentary manuscript tradition",
+         name_original="شرح الأشموني", definition="文法詩注釈の欄外異読が増殖する写本伝統。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ブーラーク版以前のマカーマ挿絵写本",
+         name_en="pre-Bulaq illustrated Maqamat manuscripts",
+         name_original="مقامات مصورة", definition="近代印刷前に流通したマカーマ挿絵本の系譜。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ザビード文庫の韻律注釈断簡",
+         name_en="Zabid prosody commentary fragments",
+         name_original="شذرات عروضية زبيدية", definition="イエメン写本群に残る韻律学注釈の断片資料。",
+         importance_score=2, source_tier="tertiary", canonical_in_region="minor"),
+    dict(**C, name_ja="カラウィーン蔵ムワッシャハ写本",
+         name_en="Qarawiyyin muwashshah manuscripts",
+         name_original="موشحات القرويين", definition="フェズ伝来写本に残るムワッシャハ詞章の異本群。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="シリア写本のタフミース欄外詩",
+         name_en="Syrian marginal takhmis poems",
+         name_original="تخميسات هامشية", definition="既存詩に五行化を施す欄外書き込みの小伝統。",
+         importance_score=2, source_tier="tertiary", canonical_in_region="minor"),
+    dict(**C, name_ja="アズハル蔵ラマダーン説教集写本",
+         name_en="Azhar Ramadan sermon manuscripts",
+         name_original="مجاميع خطب رمضان", definition="説教・詩句・逸話を束ねたラマダーン用写本集。",
+         importance_score=2, source_tier="tertiary", canonical_in_region="minor"),
+
+    # 4. サブジャンル変種
+    dict(**C, name_ja="タクリード・アル＝マカーマ",
+         name_en="taqlid al-maqama",
+         name_original="تقليد المقامة", definition="古典マカーマを意図的に模倣する後代散文技法。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="イフワーニーヤート短詩",
+         name_en="ikhwaniyyat occasional poems",
+         name_original="إخوانيات", definition="友人間の贈答・謝辞・冗談に用いられる短詩類。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ムラースィヤート弔問書簡",
+         name_en="murasiyat condolence letters",
+         name_original="مراسلات التعزية", definition="哀悼詩と散文慰問が混ざる弔問書簡の型。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="タシュティール詩作法",
+         name_en="tashtir poetic interlineation",
+         name_original="تشطير", definition="他者の一詩行を分割し新句を挿入する詩技法。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ムアーラダート・ナバウィーヤ",
+         name_en="prophetic praise contrafacta",
+         name_original="معارضات نبوية", definition="預言者称揚詩を先行韻律に合わせて作る応作群。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="バフル・アル＝ハバブ実験",
+         name_en="bahr al-khabab experiments",
+         name_original="بحر الخبب", definition="軽快なハバブ韻律で行う近現代詩の小実験。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+
+    # 5. 理論的ミクロ論争
+    dict(**C, name_ja="サルカ盗用論の細分類",
+         name_en="microtaxonomy of sariqa plagiarism",
+         name_original="أقسام السرقة الشعرية", definition="詩的盗用を借用・改変・剽窃へ分ける批評論争。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="ラフズ優位論とマアナー優位論",
+         name_en="lafz versus mana priority debate",
+         name_original="اللفظ والمعنى", definition="語の形式と意味のどちらを詩価の源泉とみるかの論争。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="タブウとサンアの詩作論争",
+         name_en="tab versus sana craft debate",
+         name_original="الطبع والصنعة", definition="天性と技巧の比重をめぐる古典詩論の細論点。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="タクリード韻律の許容範囲論",
+         name_en="permissible range of imitative meter",
+         name_original="حدود التقليد العروضي", definition="先行詩の韻律模倣が創作か従属かを問う議論。",
+         importance_score=2, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="イージャーズとイطنابの均衡論",
+         name_en="ijaz-itnab balance debate",
+         name_original="الإيجاز والإطناب", definition="簡潔さと冗長な展開の価値を測る修辞学の論点。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+    dict(**C, name_ja="アーミーヤ詩の正統性論争",
+         name_en="legitimacy debate over ammiyya poetry",
+         name_original="شرعية شعر العامية", definition="口語詩を文学正典へ含めるかを問う近現代論争。",
+         importance_score=3, source_tier="secondary", canonical_in_region="minor"),
+]
+
+
+def main() -> None:
+    with LitDB("lit.sqlite") as db:
+        for concept in CONCEPTS:
+            db.insert_concept(**concept)
+
+
+if __name__ == "__main__":
+    main()
