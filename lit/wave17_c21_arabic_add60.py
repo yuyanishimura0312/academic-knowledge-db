@@ -922,7 +922,7 @@ _attach_cross("イムルウル・カイス『ムアッラカ』", [
      "target_entity_name":"廃墟詩・場所性詩学",
      "description":"アトラール（廃墟詩）はワーズワース等英国ロマン派廃墟詩学・記憶詩学の先行研究比較対象。"}])
 _attach_cross("マジュヌーン・ライラー伝説", [
-    {"target_db":"MY","link_type":"shared_concept",
+    {"target_db":"Myth-Narratives","link_type":"shared_concept",
      "target_entity_name":"愛の越境神話・狂気のテーマ",
      "description":"純愛・発狂・砂漠彷徨のテーマは世界神話の愛・狂気・聖性の交差テーマと比較される。"}])
 _attach_cross("ナカーイド（ジャリール・ファラズダク・アフタル）", [
@@ -934,11 +934,11 @@ _attach_cross("アブー・ヌワース『酒詩』", [
      "target_entity_name":"享楽哲学・都市的近代性",
      "description":"廃墟詩否定・都市享楽詩学はエピクロス享楽哲学・近代都市享楽論と理論的並行。"}])
 _attach_cross("アル＝マアッリー『リサーラト・アル＝グフラーン』", [
-    {"target_db":"LIT","link_type":"shared_concept",
+    {"target_db":"PT","link_type":"shared_concept",
      "target_entity_name":"想像旅行・天国地獄叙述",
      "description":"想像旅行・天国地獄訪問叙述はダンテ『神曲』へのアラブ的影響仮説の中心(アシン・パラシオス)。"}])
 _attach_cross("イブン・アル＝ムカッファ『カリーラとディムナ』", [
-    {"target_db":"LIT","link_type":"shared_concept",
+    {"target_db":"Myth-Narratives","link_type":"shared_concept",
      "target_entity_name":"動物寓話の世界伝播",
      "description":"パンチャタントラ→アラビア→ヘブライ→ラテン→欧州諸言語の伝播路は中世翻訳史の中核例。"}])
 _attach_cross("ジャーヒズ『吝嗇者の書』", [
@@ -950,11 +950,11 @@ _attach_cross("ハマザーニー『マカーマート』", [
      "target_entity_name":"ピカレスク小説の祖型",
      "description":"流浪詐欺師主人公の即興語り構造は、後の西欧ピカレスク小説の祖型として比較研究される。"}])
 _attach_cross("ハリーリー『マカーマート』", [
-    {"target_db":"LIT","link_type":"shared_concept",
+    {"target_db":"PT","link_type":"shared_concept",
      "target_entity_name":"修辞極限主義詩学",
      "description":"押韻散文の極限的精緻化は、ヘブライ・アル＝ハリーズィー『タフケモニ』を介して中世セファルディ詩学に伝播。"}])
 _attach_cross("イブン・クズマーン『ザジャル』", [
-    {"target_db":"LIT","link_type":"shared_concept",
+    {"target_db":"PT","link_type":"shared_concept",
      "target_entity_name":"トルバドゥール抒情詩比較",
      "description":"アンダルス口語ザジャルとオック語トルバドゥール詩の構造比較はロマン語学・比較文学の中核問題。"}])
 _attach_cross("イブン・ザイドゥーン＝ワッラーダ", [

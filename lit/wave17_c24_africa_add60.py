@@ -139,7 +139,15 @@ add(**C, name_ja="ンギュギ『一粒の麦』",
     historical_context="1960年代ケニアの独立記憶構築期。",
     primary_source_url=WIKI_EN+"A_Grain_of_Wheat",
     primary_source_type="Wikipedia: A Grain of Wheat",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"ンギュギの多声的回想形式は、AI時代の集合的記憶構築の祖型。",
+         "related_ai_phenomenon":"AIによる集合的記憶構築"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"脱植民地化と贖罪",
+         "description":"ンギュギの裏切り・贖罪主題はファノン的脱植民地化倫理と直接対応する。"}])
 
 add(**C, name_ja="ンギュギ『血の花弁』",
     name_en="Ngugi's Petals of Blood",
@@ -223,7 +231,11 @@ add(**C, name_ja="ベシー・ヘッド『マル』",
     historical_context="1960-70年代ボツワナ独立後期。",
     primary_source_url=WIKI_EN+"Maru_(novel)",
     primary_source_type="Wikipedia: Maru",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"サン人差別と先住民研究",
+         "description":"ヘッド『マル』はカラハリ・サン人民族誌（リチャード・リー等）と並行する。"}])
 
 
 # B. Francophone補完 (Sembene/Kourouma/Senghor/Diop/Beti/Oyono/Kane) (10)
@@ -237,7 +249,11 @@ add(**C, name_ja="センベーヌ『神の森』",
     historical_context="1940年代仏領西アフリカの労働運動期。",
     primary_source_url=WIKI_FR+"Les_Bouts_de_bois_de_Dieu",
     primary_source_type="Wikipedia FR: Les Bouts de bois de Dieu",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"センベーヌの多視点的労働者叙事は、AI時代の集団的著作生成の祖型。",
+         "related_ai_phenomenon":"AIによる集団的物語生成"}])
 
 add(**C, name_ja="センベーヌ『ハラ』",
     name_en="Sembène's Xala",
@@ -293,7 +309,15 @@ add(**C, name_ja="クルマ『アラーは義務ではない』",
     historical_context="2000年代西アフリカ内戦終結期。",
     primary_source_url=WIKI_FR+"Allah_n%27est_pas_oblig%C3%A9",
     primary_source_type="Wikipedia FR: Allah n'est pas obligé",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"クルマのピジン仏語化は、AI時代の非標準言語生成の祖型。",
+         "related_ai_phenomenon":"AIによる非標準言語生成"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"少年兵の人類学",
+         "description":"クルマ作品は西アフリカ内戦少年兵の人類学（クリス・コールター等）と並行する。"}])
 
 add(**C, name_ja="サンゴール『影の歌』",
     name_en="Senghor's Chants d'ombre",
@@ -391,7 +415,15 @@ add(**C, name_ja="クッツェー『野蛮人を待ちながら』",
     historical_context="1980年代アパルトヘイト南アフリカの政治危機期。",
     primary_source_url=WIKI_EN+"Waiting_for_the_Barbarians",
     primary_source_type="Wikipedia: Waiting for the Barbarians",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"クッツェーの帝国寓話は、AI時代の他者化メカニズムへの祖型。",
+         "related_ai_phenomenon":"AI生成における他者化バイアス"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"植民地暴力の哲学",
+         "description":"クッツェーはアガンベン・バトラーらの暴力哲学と並行する文学的探求。"}])
 
 add(**C, name_ja="クッツェー『マイケル・Kの生涯と時代』",
     name_en="Coetzee's Life & Times of Michael K",
@@ -427,7 +459,11 @@ add(**C, name_ja="ゴーディマー『七月の人々』",
     historical_context="1980年代アパルトヘイト南アフリカの非常事態期。",
     primary_source_url=WIKI_EN+"July%27s_People",
     primary_source_type="Wikipedia: July's People",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"南アフリカ人種関係",
+         "description":"ゴーディマー作品は南アフリカ人種関係人類学（モニカ・ウィルソン以降）と並行する。"}])
 
 add(**C, name_ja="ゴーディマー『バーガーの娘』",
     name_en="Gordimer's Burger's Daughter",
@@ -521,7 +557,11 @@ add(**C, name_ja="ペペテーラ『ヤカ』",
     historical_context="1980年代アンゴラ独立後の歴史的構築期。",
     primary_source_url=WIKI_PT+"Pepetela",
     primary_source_type="Wikipedia PT: Pepetela",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"ペペテーラの世代横断的歴史叙事は、AI時代の長期記憶構造の祖型。",
+         "related_ai_phenomenon":"AIにおける長期文脈・世代記憶"}])
 
 add(**C, name_ja="アグアルーザ『過去の売人』",
     name_en="Agualusa's O Vendedor de Passados",
@@ -533,7 +573,11 @@ add(**C, name_ja="アグアルーザ『過去の売人』",
     historical_context="2000年代アンゴラ内戦後復興期。",
     primary_source_url=WIKI_PT+"O_Vendedor_de_Passados",
     primary_source_type="Wikipedia PT: O Vendedor de Passados",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"アグアルーザの「過去の売人」は記憶の商品化を主題化する。AI時代の記憶生成・捏造の祖型。",
+         "related_ai_phenomenon":"AI生成による記憶の捏造"}])
 
 add(**C, name_ja="ホンワナ『私たちは犬を殺した』",
     name_en="Honwana's Nós Matámos o Cão-Tinhoso",
