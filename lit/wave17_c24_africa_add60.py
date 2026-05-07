@@ -75,7 +75,11 @@ add(**C, name_ja="アチェベ『神の矢』",
     historical_context="1920年代英領ナイジェリアの間接統治期。",
     primary_source_url=WIKI_EN+"Arrow_of_God",
     primary_source_type="Wikipedia: Arrow of God",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"権威","status":"rethinking",
+         "rationale":"アチェベ『神の矢』は伝統的宗教権威と植民地行政の三重衝突を主題化する。AI時代の権威の多重化への祖型。",
+         "related_ai_phenomenon":"AI時代の権威の多重化"}])
 
 add(**C, name_ja="アチェベ『民衆の人』",
     name_en="Achebe's A Man of the People",
@@ -87,7 +91,11 @@ add(**C, name_ja="アチェベ『民衆の人』",
     historical_context="1966年ナイジェリア軍事クーデター直前期。",
     primary_source_url=WIKI_EN+"A_Man_of_the_People",
     primary_source_type="Wikipedia: A Man of the People",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"独立後アフリカの政治哲学",
+         "description":"アチェベの政治諷刺はファノン的脱植民地化政治哲学と並行する。"}])
 
 add(**C, name_ja="アチェベ『サバンナの蟻塚』",
     name_en="Achebe's Anthills of the Savannah",
@@ -99,7 +107,11 @@ add(**C, name_ja="アチェベ『サバンナの蟻塚』",
     historical_context="1980年代ナイジェリア軍政期。",
     primary_source_url=WIKI_EN+"Anthills_of_the_Savannah",
     primary_source_type="Wikipedia: Anthills of the Savannah",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"アチェベの多声的語りは、AI時代の集合的・多視点的作者性の祖型。",
+         "related_ai_phenomenon":"AIによる多視点的物語生成"}])
 
 add(**C, name_ja="ンギュギ『泣くな、わが子よ』",
     name_en="Ngugi's Weep Not, Child",
@@ -111,7 +123,11 @@ add(**C, name_ja="ンギュギ『泣くな、わが子よ』",
     historical_context="ケニア独立直後の歴史的記憶政治。",
     primary_source_url=WIKI_EN+"Weep_Not,_Child",
     primary_source_type="Wikipedia: Weep Not, Child",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"マウマウ蜂起人類学",
+         "description":"ンギュギ初期長編はキクユ族マウマウ蜂起の文化人類学（ジョモ・ケニヤッタ等）と並行する。"}])
 
 add(**C, name_ja="ンギュギ『一粒の麦』",
     name_en="Ngugi's A Grain of Wheat",
