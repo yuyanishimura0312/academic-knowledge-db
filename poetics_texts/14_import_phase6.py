@@ -10,6 +10,7 @@ ROOT = Path(__file__).parent
 DB_PATH = ROOT.parent / "academic.db"
 CODEX_P6 = Path("/tmp/poetics_texts_p6")
 CODEX_P2 = Path("/tmp/poetics_texts_p2")
+CODEX_P7 = Path("/tmp/poetics_texts_p7")
 
 
 def parse_json_lenient(raw: str):
@@ -43,6 +44,13 @@ def load_all_texts():
                 sources.append((f.name, n, "codex_p6"))
                 texts.extend(d["texts"])
 
+    # Codex p7 (Phase 7 diversified)
+    for f in sorted(CODEX_P7.glob("*.json")):
+        d = parse_json_lenient(f.read_text())
+        if d and "texts" in d and d["texts"]:
+            sources.append((f.name, len(d["texts"]), "codex_p7"))
+            texts.extend(d["texts"])
+
     # Codex p2 (Phase 2 round) — already imported but include in case
     for f in sorted(CODEX_P2.glob("B*.json")):
         d = parse_json_lenient(f.read_text())
@@ -56,7 +64,14 @@ def load_all_texts():
                        "15_batch5_chinese_canon.json", "16_batch6_japan_canon.json",
                        "17_batch7_sanskrit_persian.json",
                        "18_batch8_european_extended.json",
-                       "19_batch9_gaps_fill.json"]:
+                       "19_batch9_gaps_fill.json",
+                       "21_batch_bengali.json",
+                       "22_batch_vietnamese_korean.json",
+                       "23_batch_african_indigenous.json",
+                       "24_batch_european_eastern.json",
+                       "25_batch_anglo_modern.json",
+                       "26_batch_misc_filler.json",
+                       "27_batch_european_more.json"]:
         bf = ROOT / batch_name
         if bf.exists():
             d = json.loads(bf.read_text())
