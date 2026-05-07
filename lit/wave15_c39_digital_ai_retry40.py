@@ -394,7 +394,7 @@ add(**C, name_ja="Bitsy",
     primary_source_type="Bitsy: official tool (primary)",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[
-        {"axis":"形式","status":"rethinking",
+        {"axis":"創造性","status":"rethinking",
          "rationale":"Bitsyは極小制約による詩的ナラティブ生成を可能にする現代の俳句的形式。",
          "related_ai_phenomenon":"極小制約ナラティブの詩学"}])
 
@@ -428,7 +428,7 @@ add(**C, name_ja="Twitterフィクション",
     primary_source_type="The New Yorker 2012: Egan Black Box (primary)",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[
-        {"axis":"形式","status":"rethinking",
+        {"axis":"創造性","status":"rethinking",
          "rationale":"Twitterフィクションは短文制約が物語形式に与える構造的影響を実証した。",
          "related_ai_phenomenon":"短文制約と物語形式"}])
 
@@ -590,7 +590,7 @@ add(**C, name_ja="システム小説理論",
     primary_source_type="Wikipedia: LitRPG (academic-grade)",
     importance_score=3, source_tier="secondary", canonical_in_region="minor",
     fourth_axes=[
-        {"axis":"形式","status":"rethinking",
+        {"axis":"創造性","status":"rethinking",
          "rationale":"システム小説はゲーム的構造と物語形式の融合を制度化したWeb小説の代表ジャンル。",
          "related_ai_phenomenon":"ゲーム構造とナラティブの融合"}])
 
