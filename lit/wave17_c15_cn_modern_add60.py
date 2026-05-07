@@ -55,8 +55,14 @@ add(**C, name_ja="魯迅『野草』",
     primary_source_url=WSRC_ZH+"野草",
     primary_source_type="維基文庫: 野草",
     importance_score=5, source_tier="primary", canonical_in_region="core",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="夢と象徴の連鎖はAI生成の幻想テキスト構造の歴史的祖型として読みうる。")
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"夢と象徴の連鎖はAI生成の幻想テキスト構造の歴史的祖型。",
+         "related_ai_phenomenon":"AI幻想テキスト生成"}],
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"散文詩理論",
+         "description":"魯迅『野草』はボードレール散文詩の中国的展開として比較詩学の中心事例。"}])
 
 add(**C, name_ja="魯迅『故事新編』",
     name_en="Lu Xun's Old Tales Retold",
@@ -68,7 +74,15 @@ add(**C, name_ja="魯迅『故事新編』",
     historical_context="1930年代上海左翼文化期の歴史的省察。",
     primary_source_url=WSRC_ZH+"故事新編",
     primary_source_type="維基文庫: 故事新編",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"正典","status":"rethinking",
+         "rationale":"古典再話方法は正典テキストの再生成として、AI古典模倣テキスト生成の歴史的祖型。",
+         "related_ai_phenomenon":"AI古典再話生成"}],
+    cross_domain=[
+        {"target_db":"Myth-Narratives","link_type":"shared_concept",
+         "target_entity_name":"中国神話再話",
+         "description":"魯迅『故事新編』は女媧・伯夷等の神話人物を諷刺的再話した中国神話現代化の典型。"}])
 
 add(**C, name_ja="魯迅『朝花夕拾』",
     name_en="Lu Xun's Dawn Blossoms Plucked at Dusk",
@@ -117,8 +131,17 @@ add(**C, name_ja="胡適『嘗試集』",
     primary_source_url=WSRC_ZH+"嘗試集",
     primary_source_type="維基文庫: 嘗試集",
     importance_score=5, source_tier="primary", canonical_in_region="core",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="形式実験としての胡適嘗試はAI生成詩の形式探索の祖型。")
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"形式実験としての胡適嘗試はAI生成詩の形式探索の祖型。",
+         "related_ai_phenomenon":"AI詩形式実験"},
+        {"axis":"言語","status":"rethinking",
+         "rationale":"白話文と古典文の境界実験はAI多言語スタイル切替の歴史的参照点。",
+         "related_ai_phenomenon":"AIスタイル切替生成"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"プラグマティズム",
+         "description":"胡適のプラグマティズム文学方法論はデューイ哲学の中国的応用。"}])
 
 add(**C, name_ja="胡適『中国哲学史大綱』",
     name_en="Hu Shih's Outline of Chinese Philosophy",
@@ -142,7 +165,15 @@ add(**C, name_ja="陳独秀『新青年』論争",
     historical_context="1915-26年の中国知識人思想転換期。",
     primary_source_url=WSRC_ZH+"新青年",
     primary_source_type="維基文庫: 新青年",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"受容","status":"rethinking",
+         "rationale":"『新青年』論争は西洋近代思想の中国受容の制度的中核で、AI時代の異文化思想受容の歴史的参照点。",
+         "related_ai_phenomenon":"AIによる異文化思想受容"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"中国近代啓蒙思想",
+         "description":"陳独秀『新青年』論争は中国近代啓蒙哲学の制度的中核。"}])
 
 add(**C, name_ja="郭沫若『女神』",
     name_en="Guo Moruo's Goddesses",
@@ -154,7 +185,11 @@ add(**C, name_ja="郭沫若『女神』",
     historical_context="1919-21年の留日中国知識青年の自我形成期。",
     primary_source_url=WSRC_ZH+"女神",
     primary_source_type="維基文庫: 女神",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"郭沫若『女神』の自我膨張詩は近代中国主体形成の典型でAI時代主体問題の対比軸。",
+         "related_ai_phenomenon":"AI時代主体形成"}])
 
 add(**C, name_ja="郭沫若『屈原』",
     name_en="Guo Moruo's Qu Yuan",
@@ -205,7 +240,11 @@ add(**C, name_ja="徐志摩『再別康橋』",
     historical_context="1920年代後期新月派活動最盛期。",
     primary_source_url=WIKI_ZH+"再別康橋",
     primary_source_type="維基百科: 再別康橋",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"格律詩三美",
+         "description":"徐志摩『再別康橋』は新月派音節美の到達点で詩学理論研究の中心事例。"}])
 
 add(**C, name_ja="林徽因",
     name_en="Lin Huiyin",
@@ -316,7 +355,15 @@ add(**C, name_ja="沈従文『辺城』",
     historical_context="1930年代北京京派サロン文化。",
     primary_source_url=WIKI_ZH+"邊城",
     primary_source_type="維基百科: 邊城",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"真正性","status":"rethinking",
+         "rationale":"沈従文の湘西土地書写は失われた地方真正性を文学化する方法でAI時代土着性問題の参照。",
+         "related_ai_phenomenon":"AI地方文化生成と真正性"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"湘西民族誌",
+         "description":"沈従文の湘西書写は中国西南部少数民族民族誌の文学的並行物。"}])
 
 add(**C, name_ja="沈従文『湘行散記』",
     name_en="Shen Congwen's Recollections of West Hunan",
@@ -352,7 +399,15 @@ add(**C, name_ja="老舎『四世同堂』",
     historical_context="1937-45年北京日本占領期の市民生活。",
     primary_source_url=WIKI_ZH+"四世同堂",
     primary_source_type="維基百科: 四世同堂",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"老舎の北京口語文学は地域口語の文学化でAI時代の方言生成問題の歴史的祖型。",
+         "related_ai_phenomenon":"AI方言生成"}],
+    cross_domain=[
+        {"target_db":"Cultural-Intelligence","link_type":"shared_concept",
+         "target_entity_name":"北京胡同文化",
+         "description":"老舎『四世同堂』は北京胡同社会の文学的記録。"}])
 
 add(**C, name_ja="蕭軍『八月的鄉村』",
     name_en="Xiao Jun's Village in August",
@@ -377,8 +432,14 @@ add(**C, name_ja="蕭紅『生死場』",
     primary_source_url=WIKI_ZH+"生死場",
     primary_source_type="維基百科: 生死場",
     importance_score=5, source_tier="primary", canonical_in_region="core",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="蕭紅の身体性散文体はAI時代における身体的経験のテキスト化問題への参照点。")
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"蕭紅の身体性散文体はAI時代における身体的経験のテキスト化問題への参照点。",
+         "related_ai_phenomenon":"AI身体経験テキスト化"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"女性身体の民族誌",
+         "description":"蕭紅の女性身体描写は東北農村女性の民族誌的記録。"}])
 
 add(**C, name_ja="蕭紅『呼蘭河伝』",
     name_en="Xiao Hong's Tales of Hulan River",
@@ -414,7 +475,7 @@ add(**C, name_ja="駱賓基",
     historical_context="抗戦末期重慶・桂林文人社会。",
     primary_source_url=WIKI_ZH+"駱賓基",
     primary_source_type="維基百科: 駱賓基",
-    importance_score=2, source_tier="secondary", canonical_in_region="canonical")
+    importance_score=2, source_tier="secondary", canonical_in_region="minor")
 
 # ============================================================
 # D: 戦時抗戦・人民共和国期（10）
@@ -441,7 +502,7 @@ add(**C, name_ja="丘東平",
     historical_context="1938-41年新四軍華中抗戦時期。",
     primary_source_url=WIKI_ZH+"丘東平",
     primary_source_type="維基百科: 丘東平",
-    importance_score=2, source_tier="secondary", canonical_in_region="canonical")
+    importance_score=2, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="趙樹理『李有才板話』",
     name_en="Zhao Shuli's Rhymes of Li Youcai",
@@ -600,7 +661,15 @@ add(**C, name_ja="阿城『棋王』",
     historical_context="1984-85年「文化熱」と知青文学第二波。",
     primary_source_url=WIKI_ZH+"棋王",
     primary_source_type="維基百科: 棋王",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"阿城『棋王』の道家的主体観は西洋近代主体への対抗でAI時代非自我的主体の参照点。",
+         "related_ai_phenomenon":"AI時代非西洋主体観"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"道家美学",
+         "description":"阿城『棋王』は道家美学の現代文学的展開。"}])
 
 add(**C, name_ja="莫言『紅高粱家族』",
     name_en="Mo Yan's Red Sorghum",
@@ -613,8 +682,17 @@ add(**C, name_ja="莫言『紅高粱家族』",
     primary_source_url=WIKI_ZH+"紅高粱家族",
     primary_source_type="維基百科: 紅高粱家族",
     importance_score=5, source_tier="primary", canonical_in_region="core",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="魔幻リアリズム中国版の身体性・呪術性は、AI時代の異種テキスト生成・幻想世界構築の歴史的祖型。")
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"魔幻リアリズム中国版の身体性・呪術性はAI時代の異種テキスト生成・幻想世界構築の歴史的祖型。",
+         "related_ai_phenomenon":"AI幻想世界生成"},
+        {"axis":"正典","status":"rethinking",
+         "rationale":"ノーベル文学賞受賞による中国文学世界正典化はAI翻訳時代の正典化機制と接続する。",
+         "related_ai_phenomenon":"AI時代の世界文学正典化"}],
+    cross_domain=[
+        {"target_db":"Cultural-Intelligence","link_type":"shared_concept",
+         "target_entity_name":"高密農村文化",
+         "description":"莫言の高密文化記録は山東農村文化の文学的民族誌。"}])
 
 add(**C, name_ja="莫言『生死疲労』",
     name_en="Mo Yan's Life and Death are Wearing Me Out",
@@ -638,7 +716,11 @@ add(**C, name_ja="余華『活着』",
     historical_context="1992年南巡講話・市場経済転換期。",
     primary_source_url=WIKI_ZH+"活著_(小說)",
     primary_source_type="維基百科: 活著",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"rethinking",
+         "rationale":"余華『活着』の極限受苦物語は人間生存物語の最小化形式でAI物語生成と人間物語の境界問題の参照。",
+         "related_ai_phenomenon":"AI物語生成と受苦物語"}])
 
 add(**C, name_ja="余華『兄弟』",
     name_en="Yu Hua's Brothers",
@@ -662,7 +744,15 @@ add(**C, name_ja="王安憶『長恨歌』",
     historical_context="1990年代上海ノスタルジー文化興隆。",
     primary_source_url=WIKI_ZH+"長恨歌_(王安憶)",
     primary_source_type="維基百科: 長恨歌 (王安憶)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"王安憶『長恨歌』の女性主体40年史はAI時代女性主体物語生成の参照点。",
+         "related_ai_phenomenon":"AI女性主体物語生成"}],
+    cross_domain=[
+        {"target_db":"Era-Talents","link_type":"shared_concept",
+         "target_entity_name":"上海女性史",
+         "description":"王安憶『長恨歌』は20世紀上海女性史の文学的形象。"}])
 
 # ============================================================
 # F: 90s-21c（10）
@@ -702,8 +792,14 @@ add(**C, name_ja="閻連科『丁庄夢』",
     primary_source_url=WIKI_ZH+"丁莊夢",
     primary_source_type="維基百科: 丁莊夢",
     importance_score=4, source_tier="primary", canonical_in_region="major",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="閻連科神実主義は超リアル現実をテキスト化する方法で、AI時代の現実生成テキストの参照点。")
+    fourth_axes=[
+        {"axis":"真正性","status":"rethinking",
+         "rationale":"閻連科神実主義は超リアル現実をテキスト化する方法でAI時代の現実生成テキストの参照点。",
+         "related_ai_phenomenon":"AI超リアル生成"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"村落エイズ社会",
+         "description":"閻連科の河南売血エイズ村書写は当代中国農村医療民族誌。"}])
 
 add(**C, name_ja="劉震雲『一句頂一萬句』",
     name_en="Liu Zhenyun's Someone to Talk To",
@@ -752,8 +848,14 @@ add(**C, name_ja="韓松",
     primary_source_url=WIKI_ZH+"韓松",
     primary_source_type="維基百科: 韓松",
     importance_score=3, source_tier="secondary", canonical_in_region="major",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="韓松ディストピアSFは中国未来テキスト生成の歴史的祖型としてAI時代に再読される。")
+    fourth_axes=[
+        {"axis":"物語","status":"rethinking",
+         "rationale":"韓松ディストピアSFは中国未来テキスト生成の歴史的祖型としてAI時代に再読される。",
+         "related_ai_phenomenon":"AIディストピア生成"}],
+    cross_domain=[
+        {"target_db":"AI-Development","link_type":"shared_concept",
+         "target_entity_name":"AIディストピア物語",
+         "description":"韓松SFはAI時代社会想像の文学的予兆。"}])
 
 add(**C, name_ja="郝景芳『北京折叠』",
     name_en="Hao Jingfang's Folding Beijing",
@@ -766,8 +868,14 @@ add(**C, name_ja="郝景芳『北京折叠』",
     primary_source_url=WIKI_ZH+"北京摺疊",
     primary_source_type="維基百科: 北京摺疊",
     importance_score=4, source_tier="primary", canonical_in_region="major",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="郝景芳の階級分割空間SFはAI時代における労働階層分化の文学的予言として読みうる。")
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"郝景芳の階級分割空間SFはAI時代における労働階層分化の文学的予言として読みうる。",
+         "related_ai_phenomenon":"AI時代労働階層分化"}],
+    cross_domain=[
+        {"target_db":"AI-Development","link_type":"shared_concept",
+         "target_entity_name":"AI労働分断",
+         "description":"郝景芳『北京折叠』はAIによる労働階層三分割の予兆的物語。"}])
 
 add(**C, name_ja="双雪涛『平原上的摩西』",
     name_en="Shuang Xuetao's Moses on the Plain",
@@ -792,8 +900,17 @@ add(**C, name_ja="残雪",
     primary_source_url=WIKI_ZH+"殘雪",
     primary_source_type="維基百科: 殘雪",
     importance_score=4, source_tier="secondary", canonical_in_region="major",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="残雪のカオス的・夢幻的テキストはAI生成幻想テキストの最も近い文学的祖型。")
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"残雪のカオス的・夢幻的テキストはAI生成幻想テキストの最も近い文学的祖型。",
+         "related_ai_phenomenon":"AIカオス生成"},
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"残雪の独学・夢日記方法は人間作者性の極限を示しAI作者性比較の参照点。",
+         "related_ai_phenomenon":"AI作者性"}],
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"カフカ的アレゴリー",
+         "description":"残雪はカフカ的アレゴリー文学の中国的展開として比較文学正典化。"}])
 
 
 # ============================================================
