@@ -664,8 +664,8 @@ add(**C, name_ja="永井荷風『日和下駄』",
          "target_entity_name":"都市風景の人類学",
          "description":"荷風『日和下駄』の都市散策は、人類学的都市観察と物質文化記録の文学的並行物。"}])
 
-add(**C, name_ja="谷崎潤一郎『春琴抄』",
-    name_en="Tanizaki Jun'ichirō's Shunkinshō (variant)",
+add(**C, name_ja="谷崎潤一郎『盲目物語』",
+    name_en="Tanizaki Jun'ichirō's Mōmoku Monogatari",
     name_original="盲目物語",
     period_key="昭和戦前戦中期",
     definition="谷崎潤一郎（1886-1965）が1931年に発表した『盲目物語』は、お市の方に仕えた盲目の按摩の回想形式で戦国期女性美を語り、谷崎古典回帰期の女性美学を凝縮した中編。",
@@ -873,28 +873,28 @@ def attach_fourth(name, axis, status, rationale, ai_phen):
                  "rationale": rationale, "related_ai_phenomenon": ai_phen})
             return
 
-attach_fourth("仮名垣魯文『安愚楽鍋』", "テクスト", "rethinking",
+attach_fourth("仮名垣魯文『安愚楽鍋』", "言語", "rethinking",
               "戯作的口語の風俗観察記録は、AIによる時代風俗テキスト生成の歴史的参照点。",
               "AI生成と時代風俗テクスト")
 attach_fourth("矢野龍渓『経国美談』", "作者性", "rethinking",
               "政治啓蒙小説の作者性は、AI生成政治テクストの作者責任問題の歴史的源流。",
               "AI政治テクストの作者性")
-attach_fourth("末広鉄腸『雪中梅』", "ジャンル", "rethinking",
+attach_fourth("末広鉄腸『雪中梅』", "創造性", "rethinking",
               "政治小説ジャンルは、AI時代の政治的物語生成の歴史的祖型。",
               "AI政治物語ジャンル")
-attach_fourth("東海散士『佳人之奇遇』", "テクスト", "rethinking",
+attach_fourth("東海散士『佳人之奇遇』", "言語", "rethinking",
               "漢文調テクストは、AI多言語生成における文体史の参照点。",
               "AI多文体生成")
 attach_fourth("黒岩涙香『噫無情』翻案", "翻訳", "rethinking",
               "翻案小説は、AI翻訳と翻案の歴史的参照点となる。",
               "AI翻訳・翻案の歴史性")
-attach_fourth("三遊亭円朝『塩原多助一代記』", "テクスト", "rethinking",
+attach_fourth("三遊亭円朝『塩原多助一代記』", "言語", "rethinking",
               "速記本口承テクストは、AI音声テキスト変換の歴史的参照点。",
               "AI音声テクスト変換")
-attach_fourth("山田美妙『武蔵野』", "テクスト", "rethinking",
+attach_fourth("山田美妙『武蔵野』", "言語", "rethinking",
               "敬体言文一致体は、AI敬語生成の歴史的源流。",
               "AI敬語生成")
-attach_fourth("言文一致体論争", "テクスト", "rethinking",
+attach_fourth("言文一致体論争", "言語", "rethinking",
               "文体規範論争は、AI生成テクストの文体規範問題の歴史的鏡像。",
               "AI文体規範")
 attach_fourth("高山樗牛『日本主義』", "作者性", "rethinking",
@@ -906,19 +906,19 @@ attach_fourth("新渡戸稲造『武士道』", "翻訳", "rethinking",
 attach_fourth("与謝野晶子『恋衣』", "主体", "rethinking",
               "反戦女性主体は、AI時代の主体的反戦表現の歴史的源流。",
               "AI時代の反戦主体")
-attach_fourth("斎藤茂吉『あらたま』", "テクスト", "rethinking",
+attach_fourth("斎藤茂吉『あらたま』", "言語", "rethinking",
               "写生短歌は、AI生成短歌の規範性問題の歴史的参照点。",
               "AI生成短歌の規範性")
-attach_fourth("石川啄木『悲しき玩具』詳説", "ジャンル", "rethinking",
+attach_fourth("石川啄木『悲しき玩具』詳説", "創造性", "rethinking",
               "口語三行短歌は、AI形式実験生成の歴史的源流。",
               "AI形式実験生成")
 attach_fourth("徳田秋声『あらくれ』", "主体", "rethinking",
               "強い女性主体描写は、AI生成女性主体の歴史的参照点。",
               "AI女性主体表象")
-attach_fourth("永井荷風『日和下駄』", "テクスト", "rethinking",
+attach_fourth("永井荷風『日和下駄』", "言語", "rethinking",
               "都市散策エッセイは、AI都市記述生成の歴史的源流。",
               "AI都市記述生成")
-attach_fourth("小林多喜二『蟹工船』", "ジャンル", "rethinking",
+attach_fourth("小林多喜二『蟹工船』", "創造性", "rethinking",
               "プロレタリア文学は、AI時代の階級表現再考の歴史的参照点。",
               "AI時代の階級表現")
 attach_fourth("中野重治『村の家』", "主体", "rethinking",
