@@ -84,6 +84,34 @@ CONCEPTS = [
      "ラファエルがスペイン植民地下タガログ語翻訳の権力構造を分析した1988年歴史人類学書。"),
 ]
 
+# Backup concepts (insert if any duplicates found in primary list)
+BACKUP_CONCEPTS = [
+    # Cluster 1 backups
+    ("メショニック翻訳リズム論", "Meschonnic translation rhythm theory", "rythme du traduire", "latin",
+     "メショニックが声・リズム・身体性を翻訳の核と捉え、意味中心の伝統翻訳論を批判した立場。"),
+    ("エーコ『ほぼ同じこと』翻訳交渉論", "Eco negotiation theory of translation", "Dire quasi la stessa cosa", "latin",
+     "エーコが翻訳を完全等価でなく文化的交渉と定義し損失と補償の戦略を論じた2003年理論。"),
+    # Cluster 2 backups
+    ("Transformerアーキテクチャ翻訳革命", "Transformer architecture in MT", "Transformer", "latin",
+     "2017年Vaswaniら提唱の自己注意機構ベースモデル。NMTから多言語LLM翻訳まで基礎となる。"),
+    # Cluster 4 backups
+    ("ダムロッシュ世界文学三定義", "Damrosch's three definitions of world literature", "World Literature", "latin",
+     "ダムロッシュが世界文学を古典群・流通モード・読書様式の三層で定義した2003年枠組み。"),
+    ("ウォルコウィッツbornトランスレイテッド", "born-translated novels", "born-translated", "latin",
+     "翻訳前提で執筆される現代越境小説の概念。ウォルコウィッツが2015年に理論化し受容された。"),
+    ("チア世界化の現象学", "Cheah worlding phenomenology", "worlding", "latin",
+     "チアがハイデガー・デリダを引き世界文学を世界開示の時間性として再定義した理論立場。"),
+    ("ムフティ・オリエンタリズム再考", "Mufti Orientalism reconsidered", "Forget English", "latin",
+     "ムフティが現代世界文学制度をオリエンタリズム継承体として批判した2016年論考の核論点。"),
+    # Cluster 5 backups
+    ("酒井『日本思想という問題』", "Sakai Voices of the Past", "Voices of the Past", "latin",
+     "酒井直樹が日本思想史を翻訳・他者化の効果として読み替えた1991年理論的歴史学著作。"),
+    ("ティモシュコ翻訳活動家論", "Tymoczko activist translator", "Translation, Resistance, Activism", "latin",
+     "ティモシュコが翻訳者を社会変革の活動家と捉え倫理的責任を論じた2010年編著の中心論点。"),
+    ("ラファエル『母なきことば』", "Motherless Tongues", "Motherless Tongues", "latin",
+     "ラファエルが言語の植民地性・母語と翻訳の関係を論じた2016年フィリピン研究著作。"),
+]
+
 
 def main():
     conn = sqlite3.connect(DB)
@@ -95,10 +123,13 @@ def main():
 
     inserted = 0
     skipped = 0
-    for name_ja, name_en, name_original, original_script, definition in CONCEPTS:
+    target = 30
+
+    def try_insert(name_ja, name_en, name_original, original_script, definition):
+        nonlocal inserted, skipped
         if name_ja in existing:
             skipped += 1
-            continue
+            return False
         try:
             cur.execute("""
                 INSERT INTO concepts
@@ -109,9 +140,21 @@ def main():
             """, (name_ja, name_en, name_original, original_script,
                   SUBFIELD_ID, REGION, PERIOD_ID, definition, 4))
             inserted += 1
+            existing.add(name_ja)
+            return True
         except sqlite3.IntegrityError as e:
             print(f"SKIP (integrity): {name_ja} - {e}")
             skipped += 1
+            return False
+
+    for c in CONCEPTS:
+        try_insert(*c)
+
+    # Fill gap with backups
+    bi = 0
+    while inserted < target and bi < len(BACKUP_CONCEPTS):
+        try_insert(*BACKUP_CONCEPTS[bi])
+        bi += 1
 
     conn.commit()
     print(f"Inserted: {inserted}, Skipped: {skipped}")
