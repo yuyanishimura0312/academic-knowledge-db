@@ -207,7 +207,11 @@ add(**C, name_ja="老舎『茶館』",
     historical_context="百花斉放期(1956-57)の創作自由と、その直後の反右派闘争(1957)の歴史的緊張。",
     primary_source_url=WIKI_ZH+"茶館",
     primary_source_type="維基百科: 茶館",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"群像劇と凝縮構造",
+         "description":"老舎『茶館』の50年圧縮三幕構造は、19世紀リアリズム劇の凝縮形式と並ぶ群像劇詩学の中心事例。"}])
 
 add(**C, name_ja="曹禺『雷雨』",
     name_en="Cao Yu's Thunderstorm",
@@ -243,7 +247,11 @@ add(**C, name_ja="張愛玲『傾城之恋』",
     historical_context="1941年12月日本軍香港占領と、上海・香港間の華人エリート移動の歴史。",
     primary_source_url=WIKI_ZH+"傾城之戀",
     primary_source_type="維基百科: 傾城之戀",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"張愛玲は古典「才子佳人」物語と西洋心理小説の融合を達成した。AI時代における異文化テキスト融合・スタイル転移生成の歴史的祖型として再読される。",
+         "related_ai_phenomenon":"AIによる異文化スタイル融合・転移生成"}])
 
 add(**C, name_ja="張愛玲『金鎖記』",
     name_en="Eileen Chang's The Golden Cangue",
@@ -271,7 +279,11 @@ add(**C, name_ja="銭鍾書『囲城』",
     historical_context="抗戦末期から国共内戦初期の中国知識人社会と、海外帰国知識人の社会的位置の不安定。",
     primary_source_url=WIKI_ZH+"圍城",
     primary_source_type="維基百科: 圍城",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"諷刺小説の詩学",
+         "description":"銭鍾書『囲城』の博覧的諷刺は20世紀中国諷刺小説の頂点で、英国18世紀諷刺伝統と並ぶ詩学的事例。"}])
 
 
 # ============================================================
@@ -323,7 +335,11 @@ add(**C, name_ja="革命様板戯",
     historical_context="文化大革命期の「破四旧」運動と、伝統演劇・五四新劇・西洋劇の全面禁止。",
     primary_source_url=WIKI_ZH+"樣板戲",
     primary_source_type="維基百科: 樣板戲",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"流通","status":"rethinking",
+         "rationale":"様板戯は文革10年間中国全土で唯一の上演舞台芸術となった。AI時代における単一テンプレートの大規模配信・コンテンツ独占状況を考察する歴史的参照点。",
+         "related_ai_phenomenon":"AI生成コンテンツの単一モデル独占とテンプレート均質化"}])
 
 add(**C, name_ja="文革地下文学",
     name_en="Cultural Revolution underground literature",
@@ -427,7 +443,11 @@ add(**C, name_ja="余華『活着』",
     historical_context="1990年代初頭中国の市場化転換と、20世紀中国農村史の文学的総括の需要。",
     primary_source_url=WIKI_ZH+"活著",
     primary_source_type="維基百科: 活著",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"余華『活著』の「ゼロ度の語り」は、感情的判断を排した一人称語りで、AI生成テキストの感情的中立性主張と理論的に共振する。",
+         "related_ai_phenomenon":"AI生成における感情的中立的語りの構造"}])
 
 add(**C, name_ja="新写実主義",
     name_en="neo-realism (Chinese)",
