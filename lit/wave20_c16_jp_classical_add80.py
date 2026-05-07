@@ -660,7 +660,11 @@ add(**C, name_ja="伊勢物語9段「東下り」",
     historical_context="9世紀後半業平東国行伝承。",
     primary_source_url=JTI+"japanese/ise/",
     primary_source_type="JTI: 伊勢物語第九段",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"古代日本の地理的他者性",
+         "description":"伊勢物語9段東下りは都-東国の文化的他者性の文学化事例として、人類学的中心-周縁論の比較対象となる。"}])
 
 add(**C, name_ja="伊勢物語23段「筒井筒」",
     name_en="Ise Monogatari Section 23: The Well-Curb",
@@ -672,7 +676,11 @@ add(**C, name_ja="伊勢物語23段「筒井筒」",
     historical_context="9世紀後半業平庶民的恋愛伝承。",
     primary_source_url=JTI+"japanese/ise/",
     primary_source_type="JTI: 伊勢物語第二十三段",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"invariant",
+         "rationale":"筒井筒は幼馴染恋愛物語の祖型として日本物語史を貫き、AI時代の物語アーキタイプ継承を再考する参照点となる。",
+         "related_ai_phenomenon":"AI物語生成における関係性アーキタイプ"}])
 
 add(**C, name_ja="伊勢物語69段「狩の使」",
     name_en="Ise Monogatari Section 69: The Hunting Envoy",
@@ -768,7 +776,15 @@ add(**C, name_ja="源氏物語桐壺巻",
     historical_context="寛弘期(1004-1008)頃執筆開始。",
     primary_source_url=JTI+"japanese/genji/",
     primary_source_type="JTI: 源氏物語桐壺巻",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"invariant",
+         "rationale":"桐壺巻冒頭は日本長編物語冒頭の祖型として、AI時代の物語生成における冒頭定型問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI物語生成における冒頭定型"}],
+    cross_domain=[
+        {"target_db":"Era-Talents","link_type":"shared_concept",
+         "target_entity_name":"平安女性作家",
+         "description":"桐壺巻は紫式部による世界最古長編小説の冒頭で、女性作家による長編創作の祖型として位置づけられる。"}])
 
 add(**C, name_ja="源氏物語若紫巻",
     name_en="Tale of Genji: Wakamurasaki Chapter",
@@ -812,7 +828,11 @@ add(**C, name_ja="源氏物語須磨巻",
     historical_context="寛弘期執筆中盤期。",
     primary_source_url=JTI+"japanese/genji/",
     primary_source_type="JTI: 源氏物語須磨巻",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"須磨巻自主流謫は権力主体の自主的隔離による主体再構築の物語化で、AI時代の主体的退避と再構築を再考する参照点となる。",
+         "related_ai_phenomenon":"AI時代の自主隔離と主体再構築"}])
 
 add(**C, name_ja="源氏物語明石巻",
     name_en="Tale of Genji: Akashi Chapter",
@@ -848,7 +868,11 @@ add(**C, name_ja="源氏物語若菜上下巻",
     historical_context="寛弘期執筆後半期。",
     primary_source_url=JTI+"japanese/genji/",
     primary_source_type="JTI: 源氏物語若菜上下巻",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"rethinking",
+         "rationale":"若菜上下の物語転回は長編物語における主題的転換の古典事例で、AI時代の長編物語生成における転回問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI長編生成における物語転回"}])
 
 add(**C, name_ja="源氏物語橋姫巻",
     name_en="Tale of Genji: Hashihime Chapter",
@@ -876,7 +900,15 @@ add(**C, name_ja="後鳥羽院",
     historical_context="承久の乱(1221)前後の隠岐流配期。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 後鳥羽院御口伝・時代不同歌合",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"後鳥羽院は政治的最高権威と文学的最高権威の合一事例で、AI時代の権威の集中と作者性問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI時代の権威集中と作者性"}],
+    cross_domain=[
+        {"target_db":"Era-Talents","link_type":"shared_concept",
+         "target_entity_name":"中世皇族文化人",
+         "description":"後鳥羽院は政治家と文学者の最高水準合一事例として、歴史的偉人比較の中核を占める。"}])
 
 add(**C, name_ja="式子内親王",
     name_en="Princess Shikishi",
@@ -888,7 +920,11 @@ add(**C, name_ja="式子内親王",
     historical_context="後白河-後鳥羽院期女性皇族文化。",
     primary_source_url=NDL+"info:ndljp/pid/2543376",
     primary_source_type="NDL: 式子内親王集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"invariant",
+         "rationale":"式子内親王の内省的閉塞的歌風は中世女性主体の自閉的内面化の極致で、AI時代の内的主体表現の問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI時代の内省的主体表現"}])
 
 add(**C, name_ja="藤原家隆",
     name_en="Fujiwara no Ietaka",
@@ -936,7 +972,11 @@ add(**C, name_ja="京極為兼",
     historical_context="鎌倉後期(13世紀末-14世紀初)歌壇分裂期。",
     primary_source_url=NDL+"info:ndljp/pid/2543380",
     primary_source_type="NDL: 為兼卿和歌抄・玉葉集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"京極為兼の革新派和歌は伝統内革新の事例で、AI時代の伝統内革新と古典遵守のバランス問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI生成における伝統内革新"}])
 
 add(**C, name_ja="伏見院",
     name_en="Retired Emperor Fushimi",
@@ -996,7 +1036,15 @@ add(**C, name_ja="一条兼良『花鳥余情』",
     historical_context="文明4年(1472)応仁乱中の執筆。",
     primary_source_url=NDL+"info:ndljp/pid/2543384",
     primary_source_type="NDL: 花鳥余情",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"受容","status":"invariant",
+         "rationale":"花鳥余情は注釈学による古典受容の極致で、AI時代の古典テキスト解釈と注釈生成を再考する参照点となる。",
+         "related_ai_phenomenon":"AI時代の古典注釈生成"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"中世注釈学",
+         "description":"花鳥余情は中世日本注釈学の頂点として、東アジア注釈学伝統との比較研究の中核となる。"}])
 
 add(**C, name_ja="正徹物語",
     name_en="Shotetsu Monogatari",
@@ -1044,7 +1092,15 @@ add(**C, name_ja="二条良基『応安新式』",
     historical_context="応安5年(1372)連歌制度化期。",
     primary_source_url=NDL+"info:ndljp/pid/2543388",
     primary_source_type="NDL: 応安新式",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"創造性","status":"invariant",
+         "rationale":"応安新式は連歌制度的規範の制定で、AI時代の生成的創造性と規範統制のバランス問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI生成における規範と創造性"}],
+    cross_domain=[
+        {"target_db":"MG","link_type":"shared_concept",
+         "target_entity_name":"創造活動の制度化",
+         "description":"応安新式は集合的創作活動の規範制度化の古典事例として、組織的創造性管理研究の比較対象となる。"}])
 
 
 # ============================================================
@@ -1088,7 +1144,11 @@ add(**C, name_ja="無住道暁『沙石集』",
     historical_context="弘安6年(1283)鎌倉後期執筆期。",
     primary_source_url=NDL+"info:ndljp/pid/2543391",
     primary_source_type="NDL: 沙石集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"中世仏教説話思想",
+         "description":"沙石集は中世禅と説話の融合事例として、東アジア仏教哲学と物語の関係研究の中核を占める。"}])
 
 add(**C, name_ja="十二類絵巻",
     name_en="Junirui Emaki: The Twelve Animals Scroll",
@@ -1184,7 +1244,15 @@ add(**C, name_ja="与謝蕪村七部集",
     historical_context="天明期(1781-1789)蕪村派活動期。",
     primary_source_url=AOZORA+"cards/000232/files/4473_30712.html",
     primary_source_type="青空文庫: 蕪村七部集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"蕪村七部集の絵画的俳諧は視覚と言語の融合創造の事例で、AI時代のマルチモーダル生成創造性を再考する参照点となる。",
+         "related_ai_phenomenon":"AIマルチモーダル生成"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"近世絵画詩文化",
+         "description":"蕪村俳画は絵画と詩文の文化的融合事例として、人類学的物質文化研究の比較対象となる。"}])
 
 
 # ============================================================

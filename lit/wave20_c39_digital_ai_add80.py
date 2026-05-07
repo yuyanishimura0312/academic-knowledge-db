@@ -134,78 +134,6 @@ add(**C, name_ja="Andersen対Stability AI訴訟",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[fa_authorship("Andersen訴訟は視覚×AI著作権法形成の中核。")])
 
-add(**C, name_ja="Tremblay対OpenAI訴訟",
-    name_en="Tremblay v. OpenAI 2023",
-    name_original="Tremblay v. OpenAI, Inc. (N.D. Cal. 2023)",
-    definition="2023年6月小説家 Paul Tremblay・Mona Awad が OpenAI を提訴。ChatGPT が著作物の正確な要約を生成する点を証拠としたAI著作権訴訟の初期代表事例。",
-    background="2023年ChatGPT-4公開、小説要約生成能力の問題化。",
-    development="2023-2024年でSilverman訴訟と統合審理、初期AI訴訟の判例形成を駆動した。",
-    historical_context="2023-2024年初期AI訴訟期。",
-    primary_source_url="https://llmlitigation.com/pdf/03223/tremblay-openai-complaint.pdf",
-    primary_source_type="Tremblay complaint (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Tremblay訴訟はAI著作権訴訟の初期代表事例。")])
-
-add(**C, name_ja="Chabon対OpenAI訴訟",
-    name_en="Chabon v. OpenAI 2023",
-    name_original="Chabon v. OpenAI, Inc. (N.D. Cal. 2023)",
-    definition="2023年9月Pulitzer賞作家 Michael Chabon ほかが OpenAI を提訴。ChatGPT が著作物のスタイル模倣を行う点を争点とし、文学的スタイル×AI法の代表事例となった。",
-    background="2023年Chabon等の作家共同体組織化、AI訓練対抗運動の隆盛。",
-    development="2023-2024年で他訴訟と統合、文学スタイル×AI法形成の代表事例。",
-    historical_context="2023-2025年作家AI訴訟期。",
-    primary_source_url="https://llmlitigation.com/pdf/03223/chabon-openai-complaint.pdf",
-    primary_source_type="Chabon complaint (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Chabon訴訟は文学スタイル×AI法の代表事例。")])
-
-add(**C, name_ja="JKローリングAI論争",
-    name_en="J.K. Rowling AI controversy",
-    name_original="J.K. Rowling on AI authorship (2023-2024)",
-    definition="2023-2024年J.K.RowlingがAIによるHarry Potterスタイル模倣・トランス論争でのAI画像悪用に関する一連の発言。世界規模の作家×AI論議を駆動した代表的著名作家言及。",
-    background="2023年AIスタイル模倣の社会問題化、Rowlingの作家×AI論議への参与。",
-    development="2024-2025年でRowling発言が世界的なAI論議を駆動、著名作家×AI論議の代表事例となった。",
-    historical_context="2023-2025年著名作家AI論議期。",
-    primary_source_url="https://twitter.com/jk_rowling",
-    primary_source_type="Rowling X account (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Rowling論争は著名作家×AI論議の代表事例。")])
-
-add(**C, name_ja="マーガレット・アトウッドAI論",
-    name_en="Margaret Atwood AI commentary",
-    name_original="Margaret Atwood on AI (2023-2024)",
-    definition="2023-2024年Margaret AtwoodのAI論評。『ハンドメイズ・テイル』等のAI訓練無断利用に対する批判で、世界的SF作家のAI批評の代表事例となった。",
-    background="2023年Books3問題、Atwood作品のAI訓練利用判明。",
-    development="2024-2025年でAtwoodがAuthors Guild訴訟参加、世界SF作家×AI論議を主導した。",
-    historical_context="2023-2025年SF作家AI論議期。",
-    primary_source_url="https://www.theatlantic.com/technology/archive/2023/09/books3-database-generative-ai-training-copyright-infringement/675363/",
-    primary_source_type="Atlantic interview (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Atwood AI論はSF作家×AI批判の代表事例。")])
-
-add(**C, name_ja="スティーヴン・キングAI論",
-    name_en="Stephen King on AI",
-    name_original="Stephen King on AI training (2023)",
-    definition="2023年8月Stephen Kingの『The Atlantic』寄稿。自著がAI訓練に使用されたことを「歓迎しないが避けられない」と論じた著名作家のAI論議代表事例。",
-    background="2023年Books3問題化、King作品のAI訓練利用判明。",
-    development="2023-2024年でKingの寄稿が作家×AI論議の言説標準となった。",
-    historical_context="2023-2025年作家論評期。",
-    primary_source_url="https://www.theatlantic.com/books/archive/2023/08/stephen-king-books-ai-writing/675103/",
-    primary_source_type="The Atlantic essay (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("King論はベストセラー作家×AI論議の代表事例。")])
-
-add(**C, name_ja="Walters対OpenAI誹謗訴訟",
-    name_en="Walters v. OpenAI defamation",
-    name_original="Walters v. OpenAI L.L.C. (N.D. Ga. 2023)",
-    definition="2023年6月ラジオパーソナリティ Mark Walters が OpenAI を誹謗で提訴。ChatGPT が虚偽事実を生成した世界初のAI誹謗訴訟として注目を集めた事例。",
-    background="2023年ChatGPT幻覚問題の社会化、誹謗領域への波及。",
-    development="2024年原告敗訴判決、AI誹謗法形成の代表事例として判例化された。",
-    historical_context="2023-2024年AI誹謗訴訟期。",
-    primary_source_url="https://www.courtlistener.com/docket/67484097/walters-v-openai-llc/",
-    primary_source_type="Court filing (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_auth("Walters訴訟はAI幻覚×誹謗法の代表事例。")])
-
 
 # ============================================================
 # B: AI規制（11件）
@@ -273,18 +201,6 @@ add(**C, name_ja="中国生成AI規制2023",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[fa_authorship("中国生成AI規則は包括的AI規制の代表事例。")])
 
-add(**C, name_ja="韓国AI著作物指針",
-    name_en="Korea AI works guidance",
-    name_original="韓国文化体育観光部AI著作物利用ガイドライン2023",
-    definition="2023年12月韓国文化体育観光部が公開したAI著作物利用ガイドライン。AI訓練データの著作権処理・AI生成著作物の権利帰属を整備し、東アジアAI法の代表事例となった。",
-    background="2023年韓国AI政策推進、生成AI急成長への対応。",
-    development="2024-2025年で韓国AI法のテンプレート化、東アジアAI法形成を主導した。",
-    historical_context="2023-2025年韓国AI法期。",
-    primary_source_url="https://www.mcst.go.kr/",
-    primary_source_type="MCST official (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("韓国AIガイドラインは東アジアAI法の代表事例。")])
-
 add(**C, name_ja="米AI大統領令2023",
     name_en="Biden AI Executive Order 2023",
     name_original="Executive Order 14110 on Safe, Secure, and Trustworthy AI (2023)",
@@ -296,42 +212,6 @@ add(**C, name_ja="米AI大統領令2023",
     primary_source_type="White House EO (primary)",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[fa_authorship("AI大統領令は米AI政策の中心枠組み。")])
-
-add(**C, name_ja="英国AI規制白書2023",
-    name_en="UK AI Regulation White Paper 2023",
-    name_original="UK Pro-Innovation Approach to AI Regulation (2023)",
-    definition="2023年3月英国政府公表のAI規制白書。EU硬規制と異なる「イノベーション促進型」分散規制アプローチを提唱し、英国AI政策の独自路線を示した代表文書。",
-    background="2023年Brexit後のAI政策独自化、EU AI法対抗構築。",
-    development="2024-2025年で英国AI政策の中心文書、世界のAI規制モデル多様化に寄与した。",
-    historical_context="2023-2025年英国AI政策期。",
-    primary_source_url="https://www.gov.uk/government/publications/ai-regulation-a-pro-innovation-approach",
-    primary_source_type="UK Government White Paper (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("英国白書は分散型AI規制の代表事例。")])
-
-add(**C, name_ja="ブレッチリー宣言2023",
-    name_en="Bletchley Declaration 2023",
-    name_original="The Bletchley Declaration (2023)",
-    definition="2023年11月英国Bletchley Park開催のAI安全サミットで採択された国際宣言。28カ国がフロンティアAI安全性を協調する世界初のAI国際宣言として注目された。",
-    background="2023年フロンティアAI急成長、国際協調需要の急増。",
-    development="2024-2025年でソウル・パリAIサミットへの継続、AI国際協調の起点となった。",
-    historical_context="2023-2025年AI国際協調期。",
-    primary_source_url="https://www.gov.uk/government/publications/ai-safety-summit-2023-the-bletchley-declaration",
-    primary_source_type="UK Government (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("ブレッチリー宣言はAI国際協調の起点。")])
-
-add(**C, name_ja="広島AIプロセス2023",
-    name_en="Hiroshima AI Process 2023",
-    name_original="G7広島AIプロセス（2023）",
-    definition="2023年5月G7広島サミット発のAI国際協調枠組み。生成AIガイドラインを含む包括的AI国際指針を整備し、日本主導のAI国際協調の代表事例となった。",
-    background="2023年G7議長国日本のAI政策推進、生成AI急成長への国際対応。",
-    development="2023-2024年でG7諸国の生成AIガイドライン採択、日本主導のAI外交の代表事例。",
-    historical_context="2023-2024年広島AIプロセス期。",
-    primary_source_url="https://www.mofa.go.jp/ecm/ec/page5_000483.html",
-    primary_source_type="外務省公式 (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("広島AIプロセスは日本主導AI協調の代表事例。")])
 
 
 # ============================================================
@@ -515,55 +395,6 @@ add(**C, name_ja="Karpathyソフトウェア論",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[fa_authorship("Karpathyソフトウェア論はAI×開発哲学の中核。")],
     cross_domain=[cd("PHIL","技術哲学","Software 2.0論は技術哲学の代表概念。")])
-
-add(**C, name_ja="Janusシミュレータ論",
-    name_en="Janus simulators essay",
-    name_original="janus 'Simulators' (LessWrong 2022)",
-    definition="2022年janusのLessWrong投稿『Simulators』。LLMをエージェントではなく「シミュレータ」として再定義し、Waluigi効果等の概念を生み出したAI批評代表エッセイ。",
-    background="2022年GPT-3拡張、LLM性質論議の浮上。",
-    development="2022-2025年でJanusエッセイがAI批評の代表論考、LessWrong×AI批評の中核となった。",
-    historical_context="2022-2025年AI批評理論期。",
-    primary_source_url="https://www.lesswrong.com/posts/vJFdjigzmcXMhNTsx/simulators",
-    primary_source_type="LessWrong post (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("JanusシミュレータはLLM性質論議の代表概念。")],
-    cross_domain=[cd("PHIL","存在論","Janusシミュレータ論はAI存在論の代表概念。")])
-
-add(**C, name_ja="Mollick One Useful Thing",
-    name_en="Ethan Mollick One Useful Thing",
-    name_original="Ethan Mollick 'One Useful Thing' Substack (2022-)",
-    definition="2022年Wharton教授Ethan Mollick開設のSubstack『One Useful Thing』。教育×AI実践の代表的論者として世界規模で読まれ、AI教育論議の中核言説となった。",
-    background="2022年ChatGPT教育応用、Mollickの早期実践研究。",
-    development="2022-2025年でMollickニュースレターがAI教育論議の世界標準、書籍『Co-Intelligence』(2024)も出版された。",
-    historical_context="2022-2025年AI教育論議期。",
-    primary_source_url="https://www.oneusefulthing.org/",
-    primary_source_type="Substack (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Mollickニュースレターはこの分野の代表論者。")])
-
-add(**C, name_ja="Maggie Appletonヴィンテージ",
-    name_en="Maggie Appleton vintage internet AI",
-    name_original="Maggie Appleton 'The Expanding Dark Forest' (2022)",
-    definition="2022年Maggie Appleton『The Expanding Dark Forest and Generative AI』エッセイ。生成AIによる「ヴィンテージ・インターネット」消失論を提唱し、AI×文化批評の代表エッセイとなった。",
-    background="2022年生成AI急成長、人間文化×AI論議の浮上。",
-    development="2022-2025年でAppleton エッセイがAI×文化批評の世界標準参照、AI批評の中核となった。",
-    historical_context="2022-2025年AI×文化批評期。",
-    primary_source_url="https://maggieappleton.com/dark-forest",
-    primary_source_type="Maggie Appleton blog (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Appleton ヴィンテージ論はAI×文化批評の代表エッセイ。")])
-
-add(**C, name_ja="James Yu Sudowriteエッセイ",
-    name_en="James Yu Sudowrite essays",
-    name_original="James Yu (Sudowrite cofounder) writings",
-    definition="Sudowrite創業者James YuのAI×創作エッセイ集。SF作家でもあるYu によるAI執筆ツール思想の代表的論考で、AI×創作実践の中核言説となった。",
-    background="2021年Sudowrite創業、Yu のSF作家×AI起業家経験。",
-    development="2021-2025年でYuエッセイがAI執筆ツール思想の世界標準参照、AI×創作実践の中核となった。",
-    historical_context="2021-2025年AI創作思想期。",
-    primary_source_url="https://www.sudowrite.com/blog",
-    primary_source_type="Sudowrite blog (primary)",
-    importance_score=2, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Yu エッセイはAI×創作実践の中核言説。")])
 
 add(**C, name_ja="プロンプト工学指針詩学",
     name_en="Prompt engineering guides as poetics",
@@ -972,18 +803,6 @@ add(**C, name_ja="一茶くんAI俳句",
     fourth_axes=[fa_authorship("一茶くんはAI×日本伝統詩の代表事例。")],
     cross_domain=[cd("AI-Development","深層学習詩生成","一茶くんはAI生成詩の代表事例。")])
 
-add(**C, name_ja="AI源氏物語英訳",
-    name_en="AI Genji Monogatari translation project",
-    name_original="AI源氏物語英訳プロジェクト（2020s）",
-    definition="2020年代の複数機関によるAI古典日本語英訳プロジェクト。源氏物語の機械翻訳研究で、AI×日本古典の代表事例として国際DH研究で議論された。",
-    background="2020年代古典日本語NLP研究の隆盛、機械翻訳需要。",
-    development="2020-2025年でAI源氏物語研究が日本古典×AI翻訳の代表事例、国際DH研究の中核となった。",
-    historical_context="2020-2025年古典日本語AI期。",
-    primary_source_url="https://www.nii.ac.jp/research/projects/",
-    primary_source_type="NII research (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("AI源氏物語研究は古典×AI翻訳の代表事例。")])
-
 add(**C, name_ja="ELYZA日本語LLM",
     name_en="ELYZA Japanese LLM",
     name_original="ELYZA Japanese Llama 2 (2023-)",
@@ -995,18 +814,6 @@ add(**C, name_ja="ELYZA日本語LLM",
     primary_source_type="ELYZA official (primary)",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[fa_authorship("ELYZA LLMは日本語LLMの代表モデル。")])
-
-add(**C, name_ja="Sakana AI進化的モデル",
-    name_en="Sakana AI evolutionary models",
-    name_original="Sakana AI Evolutionary Model Merge (2024)",
-    definition="2024年David Ha・Llion Jones創業のSakana AI。進化的モデル統合手法で日本語×多言語LLMを開発し、日本発AI研究の代表事例となった東京拠点AIスタートアップ。",
-    background="2024年Sakana AI創業、Google Brain出身者集結。",
-    development="2024-2025年でSakana AIが日本発AI研究の代表事例、Google Brainレベルの研究を東京で展開した。",
-    historical_context="2024-2025年Sakana AI期。",
-    primary_source_url="https://sakana.ai/",
-    primary_source_type="Sakana AI official (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Sakana AIは日本発AI研究の代表事例。")])
 
 add(**C, name_ja="青空文庫AI訓練問題",
     name_en="Aozora Bunko AI training",
@@ -1049,30 +856,6 @@ add(**C, name_ja="Aya Cohere多言語",
     primary_source_type="Cohere For AI (primary)",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[fa_authorship("Ayaはグローバル多言語AIの代表事例。")])
-
-add(**C, name_ja="Jais Falcon Arabic LLM",
-    name_en="Arabic Jais and Falcon Arabic",
-    name_original="G42 Jais (2023) / TII Falcon Arabic (2024)",
-    definition="2023年UAE G42×Cerebras公開のJaisアラビア語LLMと2024年TII Falcon Arabic。アラビア語LLM研究の代表事例で、湾岸諸国主導の非西欧AI研究の中核となった。",
-    background="2023-2024年湾岸AI政策推進、アラビア語AI需要。",
-    development="2023-2025年でJais・Falcon Arabicがアラビア語LLMの代表事例、湾岸×AI研究の中核となった。",
-    historical_context="2023-2025年湾岸AI期。",
-    primary_source_url="https://huggingface.co/inceptionai/jais-13b",
-    primary_source_type="Hugging Face (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Jais・Falcon Arabicはアラビア語LLMの代表事例。")])
-
-add(**C, name_ja="HyperCLOVA韓国語",
-    name_en="HyperCLOVA Korean LLM",
-    name_original="Naver HyperCLOVA / HyperCLOVA X (2021-)",
-    definition="2021年Naver公開のHyperCLOVA。韓国語特化LLMで、2023年HyperCLOVA Xに進化し韓国語×AI研究の代表事例となった東アジア主導LLMプロジェクト。",
-    background="2021年Naver AI推進、韓国語LLM需要の浮上。",
-    development="2021-2025年でHyperCLOVAが韓国語LLMの代表事例、東アジアAI研究の中核となった。",
-    historical_context="2021-2025年HyperCLOVA期。",
-    primary_source_url="https://clova.ai/hyperclova",
-    primary_source_type="Naver CLOVA (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("HyperCLOVAは韓国語LLMの代表事例。")])
 
 add(**C, name_ja="Wenxin Qwen中国語LLM",
     name_en="Chinese Wenxin and Qwen LLM",
@@ -1139,18 +922,6 @@ add(**C, name_ja="Alondra Nelson AI権利章典",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[fa_authorship("AI Bill of RightsはAI×市民権の代表政策文書。")])
 
-add(**C, name_ja="DiResta AI偽情報",
-    name_en="DiResta AI/disinformation",
-    name_original="Renée DiResta 'Invisible Rulers' (2024)",
-    definition="2024年Stanford Internet Observatory元代表Renée DiResta著『Invisible Rulers』。AI×偽情報研究の代表書籍として世界AI批判言説を主導した。",
-    background="2024年DiResta SIO退職、AI×偽情報問題の深刻化。",
-    development="2024-2025年でDiResta書籍がAI×偽情報研究の標準引用、世界AI批判の中核となった。",
-    historical_context="2024-2025年AI偽情報期。",
-    primary_source_url="https://reneediresta.com/",
-    primary_source_type="DiResta official (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_auth("DiResta研究はAI×偽情報研究の代表事例。")])
-
 add(**C, name_ja="Crawford Atlas of AI",
     name_en="Crawford Anatomy of AI System",
     name_original="Kate Crawford 'Atlas of AI' (Yale UP 2021)",
@@ -1164,18 +935,6 @@ add(**C, name_ja="Crawford Atlas of AI",
     fourth_axes=[fa_authorship("Crawford Atlas of AIはAI批判言説の中核文献。")],
     cross_domain=[cd("PHIL","技術哲学","Crawford研究はAI技術哲学の代表書籍。")])
 
-add(**C, name_ja="Marietje Schaake AI政策",
-    name_en="Marietje Schaake AI policy",
-    name_original="Marietje Schaake 'The Tech Coup' (Princeton UP 2024)",
-    definition="2024年元欧州議員Marietje Schaake著『The Tech Coup』。AI×民主主義論議の代表書籍として、AI企業統治の批判言説を主導した。",
-    background="2024年Schaake Stanford Cyber Policy Center退職、書籍出版。",
-    development="2024-2025年でSchaake書籍がAI×民主主義論議の標準引用、世界AI政策論議の中核となった。",
-    historical_context="2024-2025年AI政策論議期。",
-    primary_source_url="https://press.princeton.edu/books/hardcover/9780691241173/the-tech-coup",
-    primary_source_type="Princeton UP (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Schaake書籍はAI×民主主義論議の代表事例。")])
-
 add(**C, name_ja="Authors Guild AI政策",
     name_en="Authors Guild AI policy",
     name_original="Authors Guild AI Best Practices (2023-)",
@@ -1187,30 +946,6 @@ add(**C, name_ja="Authors Guild AI政策",
     primary_source_type="Authors Guild (primary)",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[fa_authorship("Authors Guild政策は世界作家×AI政策の標準。")])
-
-add(**C, name_ja="Society of Authors AI",
-    name_en="UK Society of Authors AI position",
-    name_original="UK Society of Authors AI statement (2023-)",
-    definition="2023年以降の英国Society of Authors AI政策声明。英作家×AI政策の代表機関として、欧州作家AI論議を主導した。",
-    background="2023年英国生成AI論議、SoA対AI政策需要。",
-    development="2023-2025年でSoA政策が英国作家×AI政策の中心、欧州作家AI論議の中核となった。",
-    historical_context="2023-2025年SoA政策期。",
-    primary_source_url="https://societyofauthors.org/",
-    primary_source_type="Society of Authors (primary)",
-    importance_score=2, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("SoA政策は英国作家×AI政策の代表事例。")])
-
-add(**C, name_ja="JBPA日本出版AI政策",
-    name_en="JBPA Japan publishers AI policy",
-    name_original="日本書籍出版協会AI政策声明（2023-）",
-    definition="2023年以降の日本書籍出版協会(JBPA)AI政策声明集。日本出版業×AI政策の代表機関として、日本独自の30条の4論議に対応した出版業界声明を発表した。",
-    background="2023年日本生成AI急成長、出版業×AI政策需要。",
-    development="2023-2025年でJBPA政策が日本出版業×AI政策の中心、日本独自AI論議の代表事例となった。",
-    historical_context="2023-2025年JBPA政策期。",
-    primary_source_url="https://www.jbpa.or.jp/",
-    primary_source_type="JBPA official (primary)",
-    importance_score=3, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("JBPA政策は日本出版業×AI政策の代表事例。")])
 
 
 # ============================================================
@@ -1325,30 +1060,6 @@ add(**C, name_ja="Stuart Russell AI教育論",
     fourth_axes=[fa_authorship("Russell論はAI×教育論議の代表事例。")],
     cross_domain=[cd("AI-Development","AI教科書","Russellは世界AI教科書の著者。")])
 
-add(**C, name_ja="Microsoft Reading Coach",
-    name_en="Microsoft Reading Coach",
-    name_original="Microsoft Reading Coach (2022-)",
-    definition="2022年Microsoft公開のReading Coach。AIによる音読練習支援機能で、世界教育市場でAI×読書教育の代表事例となった教育AIプロダクト。",
-    background="2022年Microsoft教育AI戦略、読書練習需要。",
-    development="2022-2025年でReading CoachがAI×読書教育の代表事例、世界教育AI市場の中核となった。",
-    historical_context="2022-2025年Reading Coach期。",
-    primary_source_url="https://www.microsoft.com/en-us/education/reading-coach",
-    primary_source_type="Microsoft Education (primary)",
-    importance_score=2, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Reading CoachはAI×読書教育の代表事例。")])
-
-add(**C, name_ja="Speak.io会話AI",
-    name_en="Speak.io AI conversation",
-    name_original="Speak app (2016-)",
-    definition="2016年Speak創業のAI会話練習プラットフォーム。OpenAI出資の英会話AI として、世界規模で言語学習×会話AIの代表事例となったエドテック。",
-    background="2016年Speak創業、2022年OpenAI Startup Fund出資。",
-    development="2016-2025年でSpeakが会話AI×言語学習の代表事例、世界言語教育AI市場で評価された。",
-    historical_context="2016-2025年Speak期。",
-    primary_source_url="https://www.speak.com/",
-    primary_source_type="Speak official (primary)",
-    importance_score=2, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Speakは会話AI×言語学習の代表事例。")])
-
 add(**C, name_ja="NaNoWriMo AI論争",
     name_en="NaNoWriMo livestreaming AI controversy",
     name_original="NaNoWriMo 2024 AI policy controversy",
@@ -1360,18 +1071,6 @@ add(**C, name_ja="NaNoWriMo AI論争",
     primary_source_type="NaNoWriMo official (primary)",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[fa_authorship("NaNoWriMo論争はAI×創作共同体論議の代表事例。")])
-
-add(**C, name_ja="Edinburgh Fringe AIショー",
-    name_en="Edinburgh Fringe AI shows",
-    name_original="Edinburgh Fringe Festival AI shows (2023-)",
-    definition="2023-2024年Edinburgh Fringe Festivalで上演されたAI即興公演群。『Improbotics』『AI: When a Robot Writes a Play』等が世界規模の即興×AIの代表事例となった。",
-    background="2023年Edinburgh Fringe×AI受容、即興×AI実験隆盛。",
-    development="2023-2024年でEdinburgh Fringe AIショーが世界即興×AI公演の代表事例、ライブ×AI論議の中核となった。",
-    historical_context="2023-2024年Edinburgh AI期。",
-    primary_source_url="https://www.edfringe.com/",
-    primary_source_type="Edinburgh Fringe (primary)",
-    importance_score=2, source_tier="primary", canonical_in_region="minor",
-    fourth_axes=[fa_authorship("Edinburgh Fringe AIは即興×AIの代表事例。")])
 
 
 # ============================================================

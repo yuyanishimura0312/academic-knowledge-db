@@ -92,7 +92,9 @@ add(**C, name_ja="朱熹『詩集傳』", name_en="Zhu Xi's Shi Jizhuan",
     historical_context="南宋朱子学興隆期。",
     primary_source_url=WSRC_ZH+"詩集傳",
     primary_source_type="維基文庫: 詩集傳",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="朱熹詩集伝の本義主義はテキスト解釈の主体性論。AI時代の解釈学的責任論の祖型。")
 
 add(**C, name_ja="姚際恒『詩經通論』", name_en="Yao Jiheng's Shijing Tonglun",
     name_original="詩經通論", period_key="清",
@@ -165,7 +167,9 @@ add(**C, name_ja="史記五体例（本紀・表・書・世家・列傳）",
     historical_context="漢武帝期太史公制度の成熟。",
     primary_source_url=CTEXT+"shiji",
     primary_source_type="CTEXT: 史記",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="史記五体例は知識構造化の古代モデル。AI時代の知識オントロジー設計の祖型。")
 
 add(**C, name_ja="漢書十志・八表",
     name_en="Ten Treatises and Eight Tables of Hanshu",
@@ -187,7 +191,9 @@ add(**C, name_ja="裴松之『三國志注』",
     historical_context="南朝劉宋初期史学制度化。",
     primary_source_url=CTEXT+"sanguozhi",
     primary_source_type="CTEXT: 三國志注",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="裴松之注は異説保存型注釈の規範。AI時代の異情報統合・出典管理の古典的祖型。")
 
 add(**C, name_ja="賈誼「陳政事疏」「過秦論」",
     name_en="Jia Yi's Chen Zhengshi Shu and Guo Qin Lun",
@@ -209,7 +215,9 @@ add(**C, name_ja="劉向『七略』『別録』",
     historical_context="前漢末校書制度の成熟。",
     primary_source_url=WIKI_ZH+"七略",
     primary_source_type="維基百科: 七略",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="七略別録は中国最古の知識分類体系。AI時代の知識オントロジー・データセット分類の歴史的祖型。")
 
 add(**C, name_ja="王充『論衡』",
     name_en="Wang Chong's Lunheng",
@@ -260,7 +268,9 @@ add(**C, name_ja="文心雕龍「風骨・通變・定勢」",
     historical_context="齊梁駢文興隆期の風骨論争。",
     primary_source_url=CTEXT+"wenxin-diaolong",
     primary_source_type="CTEXT: 文心雕龍",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="風骨通変論は伝統と革新の弁証。AI時代の文化継承と新規創造の倫理的緊張の古典的祖型。")
 
 add(**C, name_ja="文心雕龍「情采・熔裁・聲律・麗辭」",
     name_en="Wenxin Diaolong: Qingcai, Rongcai, Shenglü, Lici",
@@ -318,7 +328,9 @@ add(**C, name_ja="韓愈「原道・原性・原毀」",
     historical_context="中唐元和期の儒学復興運動。",
     primary_source_url=CTEXT+"library.pl?if=en&res=86303",
     primary_source_type="CTEXT: 韓昌黎集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="韓愈道統論は思想伝承の系譜論。AI時代における知識継承・正統性問題の祖型。")
 
 add(**C, name_ja="韓愈「送孟東野序・送窮文」",
     name_en="Han Yu's Song Meng Dongye Xu and Song Qiong Wen",
@@ -351,7 +363,9 @@ add(**C, name_ja="柳宗元「捕蛇者説・三戒」",
     historical_context="中唐永貞革新失敗後の貶謫文学。",
     primary_source_url=CTEXT+"library.pl?if=en&res=86304",
     primary_source_type="CTEXT: 柳河東集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="柳宗元諷喩散文は社会批判の寓言形式。AI時代の批判的物語生成の祖型。")
 
 add(**C, name_ja="柳宗元「段太尉逸事狀・愚溪詩序」",
     name_en="Liu Zongyuan's Duan Taiwei Yishi Zhuang and Yuxi Shi Xu",
@@ -384,7 +398,9 @@ add(**C, name_ja="古文運動論争（韓柳 vs 駢文）",
     historical_context="中唐元和期の文学イデオロギー論争。",
     primary_source_url=WIKI_ZH+"古文運動",
     primary_source_type="維基百科: 古文運動",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="古文運動は文体革新による思想変革。AI時代の言語表現様式変革の歴史的祖型。")
 
 add(**C, name_ja="劉知幾『史通』",
     name_en="Liu Zhiji's Shitong",
@@ -409,7 +425,9 @@ add(**C, name_ja="杜甫「戯為六絶句」",
     historical_context="盛唐文学批評の発達期。",
     primary_source_url=CTEXT+"library.pl?if=en&res=87164",
     primary_source_type="CTEXT: 杜詩詳註",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="杜甫論詩絶句は批評の韻文化。AI時代の批評メタ表現・言語間批評変換の祖型。")
 
 add(**C, name_ja="王昌齢『詩格』",
     name_en="Wang Changling's Shige",
@@ -444,19 +462,9 @@ add(**C, name_ja="司空圖『二十四詩品』",
     historical_context="晩唐五代詩学の極致。",
     primary_source_url=WSRC_ZH+"二十四詩品",
     primary_source_type="維基文庫: 二十四詩品",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
-
-add(**C, name_ja="劉禹錫「陋室銘」",
-    name_en="Liu Yuxi's Loushi Ming",
-    name_original="陋室銘", period_key="唐",
-    definition="劉禹錫（772-842）の銘文短文。81字で陋室（粗末な居）に住む文人の精神的高貴を歌い、「斯是陋室、惟吾德馨」「孔子云：何陋之有」で結ぶ。中国短文銘の白眉。",
-    background="中唐文人の隠逸志向と銘文形式の発達。",
-    development="後世銘文・短文格言の規範。",
-    historical_context="中唐元和期の文人文化。",
-    primary_source_url=WSRC_ZH+"陋室銘",
-    primary_source_type="維基文庫: 陋室銘",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
-
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="二十四詩品は美学類型の体系化。AI生成芸術のスタイル分類論の東洋的祖型。")
 
 # ============================================================
 # G: 唐傳奇詳細 (8)
@@ -494,7 +502,9 @@ add(**C, name_ja="李朝威『柳毅傳』",
     historical_context="中唐徳宗貞元期の文学。",
     primary_source_url=WSRC_ZH+"柳毅傳",
     primary_source_type="維基文庫: 柳毅傳",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="柳毅傳の人神戀愛は異種・異界存在との関係を物語化。AI時代の人間-AI関係物語の祖型。")
 
 add(**C, name_ja="蔣防『霍小玉傳』",
     name_en="Jiang Fang's Huo Xiaoyu Zhuan",
@@ -519,17 +529,6 @@ add(**C, name_ja="陳玄祐『離魂記』",
     primary_source_url=WSRC_ZH+"離魂記",
     primary_source_type="維基文庫: 離魂記",
     importance_score=4, source_tier="primary", canonical_in_region="major")
-
-add(**C, name_ja="牛僧孺『玄怪録』",
-    name_en="Niu Sengru's Xuanguai Lu",
-    name_original="玄怪錄", period_key="唐",
-    definition="中唐牛僧孺（779-848）の志怪伝奇集10巻。天人・神怪・妖物の説話を集め、伝奇文学の体系化を進めた。「李湯」「岑文本」等の名篇を含み、後世志怪集の規範。",
-    background="中唐元和長慶期の志怪文学興隆。",
-    development="李復言『續玄怪錄』、宋『太平廣記』の素材源。",
-    historical_context="中唐宰相牛僧孺の文学活動。",
-    primary_source_url=WIKI_ZH+"玄怪錄",
-    primary_source_type="維基百科: 玄怪錄",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
 
 add(**C, name_ja="段成式『酉陽雜俎』",
     name_en="Duan Chengshi's Youyang Zazu",
@@ -577,7 +576,9 @@ add(**C, name_ja="蘇軾「前後赤壁賦」",
     historical_context="北宋元豊期の党争と文学。",
     primary_source_url=CTEXT+"library.pl?if=en&res=86346",
     primary_source_type="CTEXT: 蘇東坡集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="赤壁賦の哲学的問答は人間と宇宙の関係を散文賦で問う。AI時代の存在論的省察の祖型。")
 
 add(**C, name_ja="蘇軾「留侯論・教戰守策」",
     name_en="Su Shi's Liuhou Lun and Jiao Zhanshou Ce",
@@ -643,7 +644,9 @@ add(**C, name_ja="范仲淹「岳陽樓記」",
     historical_context="北宋慶暦六年（1046）。",
     primary_source_url=WSRC_ZH+"岳陽樓記",
     primary_source_type="維基文庫: 岳陽樓記",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="范仲淹「先憂後樂」は士大夫公共倫理の理想型。AI時代の公共的責任論の古典的祖型。")
 
 add(**C, name_ja="嚴羽『滄浪詩話』詩辨・詩體・詩法",
     name_en="Yan Yu's Canglang Shihua: Shibian, Shiti, Shifa",
@@ -654,7 +657,9 @@ add(**C, name_ja="嚴羽『滄浪詩話』詩辨・詩體・詩法",
     historical_context="南宋理宗期文学批評の成熟。",
     primary_source_url=WSRC_ZH+"滄浪詩話",
     primary_source_type="維基文庫: 滄浪詩話",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="嚴羽妙悟興趣論は禅と詩の融合。AI生成芸術における直観・暗黙知の役割再評価の祖型。")
 
 
 # ============================================================
@@ -704,18 +709,6 @@ add(**C, name_ja="張炎『詞源』",
     primary_source_type="維基百科: 詞源",
     importance_score=4, source_tier="primary", canonical_in_region="major")
 
-add(**C, name_ja="沈義父『樂府指迷』",
-    name_en="Shen Yifu's Yuefu Zhimi",
-    name_original="樂府指迷", period_key="宋",
-    definition="南宋末沈義父（1230頃-1280頃）の詞論短篇。呉文英の詞学を継承し「字面以蘊藉為佳」「下字運意皆有法度」等を説く。南宋末格律派詞論の代表的著作。",
-    background="南宋末呉文英学派の理論化。",
-    development="張炎『詞源』への影響、清代格律派詞学の遠源。",
-    historical_context="南宋末元初詞学。",
-    primary_source_url=WIKI_ZH+"沈義父",
-    primary_source_type="維基百科: 沈義父",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
-
-
 # ============================================================
 # J: 元曲深掘り (5)
 # ============================================================
@@ -728,7 +721,9 @@ add(**C, name_ja="鍾嗣成『録鬼簿』",
     historical_context="元末至順至正期戯曲文化。",
     primary_source_url=WIKI_ZH+"錄鬼簿",
     primary_source_type="維基百科: 錄鬼簿",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="録鬼簿は文学者個人の記録による文化記憶構築。AI時代のクリエイター・著作者管理データベースの祖型。")
 
 add(**C, name_ja="朱權『太和正音譜』十二科分類",
     name_en="Zhu Quan's Taihe Zhengyin Pu: twelve categories",
@@ -763,18 +758,6 @@ add(**C, name_ja="馬致遠「天淨沙・秋思」",
     primary_source_type="維基文庫: 天淨沙秋思",
     importance_score=5, source_tier="primary", canonical_in_region="core")
 
-add(**C, name_ja="楊顯之・鄭德輝（元雑劇作家）",
-    name_en="Yang Xianzhi and Zheng Dehui",
-    name_original="楊顯之・鄭德輝", period_key="元",
-    definition="元前期雑劇作家。楊顯之『瀟湘雨』（夫婦再会劇）と鄭德輝（光祖）『倩女離魂』『㑇梅香』等は関漢卿・王實甫に次ぐ元雑劇の重要遺産。鄭德輝は「元曲四大家」の一に数えられる。",
-    background="元前期大都雑劇黄金期。",
-    development="明清雑劇・伝奇への素材源。",
-    historical_context="元世祖至元至成宗大徳期。",
-    primary_source_url=WIKI_ZH+"鄭光祖",
-    primary_source_type="維基百科: 鄭光祖",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
-
-
 # ============================================================
 # K: 明代戲曲 (5)
 # ============================================================
@@ -787,7 +770,9 @@ add(**C, name_ja="湯顯祖玉茗堂四夢",
     historical_context="明万暦中期文化。",
     primary_source_url=WIKI_ZH+"玉茗堂四夢",
     primary_source_type="維基百科: 玉茗堂四夢",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="湯顕祖至情論・夢幻戯曲は感情と現実の境界を問う。AI時代の感情シミュレーション・仮想現実倫理の祖型。")
 
 add(**C, name_ja="湯沈論争（湯顯祖vs沈璟）",
     name_en="Tang-Shen debate on Ci vs Li",
@@ -820,19 +805,9 @@ add(**C, name_ja="李漁『閒情偶寄』詞曲論部",
     historical_context="清順治康熙期戯曲文化。",
     primary_source_url=WIKI_ZH+"閒情偶寄",
     primary_source_type="維基百科: 閒情偶寄",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
-
-add(**C, name_ja="徐渭『南詞敘錄』",
-    name_en="Xu Wei's Nanci Xulu",
-    name_original="南詞敘錄", period_key="明",
-    definition="明徐渭（1521-1593）の南戯研究専著。中国最早の南戯歴史・声腔・体例・劇目を記録した著作。永楽大典戯文三種を補完する南戯研究の根本資料。",
-    background="明嘉靖期江南南戯文化の興隆。",
-    development="清代戯曲史研究・現代南戯学の祖型。",
-    historical_context="明嘉靖隆慶期文化。",
-    primary_source_url=WIKI_ZH+"南詞敘錄",
-    primary_source_type="維基百科: 南詞敘錄",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
-
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="李漁劇作術は世界最早の戯曲創作論。AI時代の創作支援システム設計の祖型。")
 
 # ============================================================
 # L: 清代詩学 (8)
@@ -923,7 +898,9 @@ add(**C, name_ja="章學誠『文史通義』",
     historical_context="清乾隆嘉慶期。",
     primary_source_url=CTEXT+"wenshi-tongyi",
     primary_source_type="CTEXT: 文史通義",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="章學誠「六經皆史」は知識統合論。AI時代の学際的データ統合・知識基盤論の古典的祖型。")
 
 
 # ============================================================
@@ -960,7 +937,9 @@ add(**C, name_ja="姚鼐『古文辭類纂』",
     historical_context="清乾嘉期。",
     primary_source_url=WIKI_ZH+"古文辭類纂",
     primary_source_type="維基百科: 古文辭類纂",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="姚鼐古文選13類体系は文体ジャンル分類学。AI生成テキストのジャンル分類・スタイル管理の祖型。")
 
 add(**C, name_ja="曾國藩『經史百家雜鈔』",
     name_en="Zeng Guofan's Jingshi Baijia Zachao",
@@ -1012,7 +991,9 @@ add(**C, name_ja="嚴復『天演論』譯序",
     historical_context="清末光緒戊戌期。",
     primary_source_url=WIKI_ZH+"嚴復",
     primary_source_type="維基百科: 嚴復天演論",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="嚴復信達雅は翻訳の三価値論。AI翻訳・多言語LLM評価の規範的祖型。")
 
 add(**C, name_ja="譚嗣同『仁學』",
     name_en="Tan Sitong's Renxue",
@@ -1036,7 +1017,9 @@ add(**C, name_ja="章太炎『國故論衡』",
     historical_context="清末宣統民国初期。",
     primary_source_url=WIKI_ZH+"國故論衡",
     primary_source_type="維基百科: 國故論衡",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="章太炎「国故」整理は伝統知識のメタデータ化。AI時代の文化遺産デジタル化の祖型。")
 
 add(**C, name_ja="王國維『紅樓夢評論』『宋元戲曲考』",
     name_en="Wang Guowei's Honglou Meng Pinglun and Songyuan Xiqu Kao",
