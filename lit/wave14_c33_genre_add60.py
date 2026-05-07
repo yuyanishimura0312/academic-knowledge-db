@@ -68,7 +68,7 @@ add(**C, name_ja="アンデルセン『人魚姫』",
     primary_source_type="Project Gutenberg: Andersen Tales (English)",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"AI生成児童文学の参照点として、アンデルセン作家の倫理的選択（救済の有無、犠牲の意味）が再考される基盤となる。",
          "related_ai_phenomenon":"AI生成児童文学の倫理的選択"}],
     cross_domain=[
@@ -152,7 +152,7 @@ add(**C, name_ja="リンドグレーン『長くつ下のピッピ』",
     primary_source_type="Wikipedia: Pippi Longstocking",
     importance_score=4, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"自立した少女主人公像はAI生成児童書のジェンダー表象再考に直結する規範事例。",
          "related_ai_phenomenon":"AI児童書のジェンダー表象再考"}])
 
