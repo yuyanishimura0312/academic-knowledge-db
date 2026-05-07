@@ -663,7 +663,11 @@ add(**C, name_ja="アルベール・メミ『塩の像』",
     historical_context="1950年代仏領チュニジアのユダヤ人共同体期。",
     primary_source_url=WIKI_FR+"La_Statue_de_sel",
     primary_source_type="Wikipedia FR: La Statue de sel",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"被植民者の心理",
+         "description":"メミは『被植民者の肖像』(1957)としてファノンと並ぶ脱植民地化心理学の中心。"}])
 
 
 # F. Egypt-Sudan (Mahfouz further/Idris/Salih/Bahaa Taher) (5)
@@ -693,7 +697,11 @@ add(**CAR, name_ja="マフフーズ『泥棒と犬』",
     historical_context="1960年代ナセル期エジプトの政治社会的緊張。",
     primary_source_url=WIKI_AR+"%D8%A7%D9%84%D9%84%D8%B5_%D9%88%D8%A7%D9%84%D9%83%D9%84%D8%A7%D8%A8",
     primary_source_type="Wikipedia AR: Al-Liss wa al-Kilab",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"マフフーズの内的独白は、AI時代の主体・心理生成の祖型。",
+         "related_ai_phenomenon":"AIによる心理的内的独白生成"}])
 
 add(**CAR, name_ja="ユースフ・イドリース『最も安価な夜』",
     name_en="Yusuf Idris's The Cheapest Nights",
