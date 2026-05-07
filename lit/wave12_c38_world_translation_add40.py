@@ -92,6 +92,10 @@ add(**C, name_ja="記述的翻訳学（Holmes/Toury）",
     primary_source_url=WIKI_EN+"Descriptive_translation_studies",
     primary_source_type="Wikipedia: Descriptive Translation Studies",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"DTSの記述的・実証的アプローチは、AI翻訳の大規模コーパス分析と方法論的に共鳴し、現代翻訳学のデータ駆動的展開の理論的基盤となる。",
+         "related_ai_phenomenon":"AI翻訳のコーパス基盤分析"}],
     cross_domain=[
         {"target_db":"PT","link_type":"shared_concept",
          "target_entity_name":"記述詩学・実証的方法論",
@@ -108,6 +112,10 @@ add(**C, name_ja="文化的転回（Bassnett/Lefevere）",
     primary_source_url=WIKI_EN+"Translation_studies#Cultural_translation",
     primary_source_type="Wikipedia: Translation Studies / Cultural Turn",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"文化的転回は翻訳をイデオロギー・権力交渉として捉える。AI翻訳に内在する訓練データのイデオロギー的バイアスを分析する理論的基盤。",
+         "related_ai_phenomenon":"AI翻訳のイデオロギー的バイアス"}],
     cross_domain=[
         {"target_db":"AN","link_type":"shared_concept",
          "target_entity_name":"文化人類学的翻訳論",
@@ -218,7 +226,11 @@ add(**C, name_ja="再翻訳（retranslation）",
     historical_context="1990年代仏語圏翻訳学の理論的展開と、英米古典文学翻訳の世代的更新（ペーヴェア&ヴォロホンスキー訳ロシア文学等）。",
     primary_source_url=WIKI_EN+"Retranslation",
     primary_source_type="Wikipedia: Retranslation",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"再翻訳仮説（初訳の同化的→再訳の外国化的傾向）は、AI自動再翻訳が世代的に出力を更新していく将来構造を理論化する基盤となる。",
+         "related_ai_phenomenon":"AI翻訳の世代的更新と再翻訳仮説"}])
 
 add(**C, name_ja="間接翻訳・ピボット翻訳",
     name_en="indirect translation / pivot translation",
@@ -248,7 +260,7 @@ add(**C, name_ja="機械翻訳・AI翻訳の理論",
     primary_source_type="Wikipedia: Machine translation",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"言語","status":"rebuilding",
+        {"axis":"言語","status":"rethinking",
          "rationale":"AI翻訳は翻訳行為の物質的基盤を根本から再編した。翻訳者・原文・目標文・読者の関係構造そのものが再構築されつつある。",
          "related_ai_phenomenon":"LLMによる文学翻訳の質的飛躍"},
         {"axis":"作者性","status":"rethinking",
@@ -479,7 +491,7 @@ add(**C, name_ja="ベンヤミン「翻訳者の使命」精読",
     primary_source_type="archive.org: Benjamin Aufgabe (German original)",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"言語","status":"rebuilding",
+        {"axis":"言語","status":"rethinking",
          "rationale":"ベンヤミンの「純粋言語」概念は AI翻訳が示唆する「言語間共通の意味空間」（多言語埋め込み空間）と理論的に響き合い、再読が進む。",
          "related_ai_phenomenon":"多言語埋め込み空間と純粋言語"}],
     cross_domain=[

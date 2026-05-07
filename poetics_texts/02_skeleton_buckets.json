@@ -1,0 +1,326 @@
+{
+  "version": "1.0",
+  "created": "2026-05-07",
+  "total_target": 5000,
+  "buckets": [
+    {
+      "id": "B01_greek_archaic",
+      "culture_region": "古代ギリシャ・ローマ",
+      "era_period": "archaic Greek",
+      "era_year_range": [-800, -480],
+      "target": 200,
+      "tier_distribution": {"1": 150, "2": 50, "3": 0},
+      "examples": ["Homer Iliad", "Homer Odyssey", "Hesiod Theogony", "Hesiod Works and Days", "Sappho fragments", "Alcaeus fragments", "Archilochus fragments", "Pindar Olympian/Pythian/Nemean/Isthmian Odes", "Bacchylides", "Theognis", "Solon"],
+      "source_archive": "Perseus Digital Library",
+      "languages": ["grc"]
+    },
+    {
+      "id": "B02_greek_classical_hellenistic",
+      "culture_region": "古代ギリシャ・ローマ",
+      "era_period": "classical/hellenistic Greek",
+      "era_year_range": [-480, -100],
+      "target": 250,
+      "tier_distribution": {"1": 150, "2": 100, "3": 0},
+      "examples": ["Aeschylus tragedies (choral odes)", "Sophocles (Oedipus, Antigone choruses)", "Euripides choruses", "Aristophanes parabases", "Theocritus Idylls", "Callimachus Hymns/Aetia", "Apollonius Argonautica", "Greek Anthology epigrams"],
+      "source_archive": "Perseus Digital Library",
+      "languages": ["grc"]
+    },
+    {
+      "id": "B03_roman_late_republic_augustan",
+      "culture_region": "古代ギリシャ・ローマ",
+      "era_period": "Late Republic / Augustan",
+      "era_year_range": [-100, 14],
+      "target": 250,
+      "tier_distribution": {"1": 200, "2": 50, "3": 0},
+      "examples": ["Catullus Carmina", "Lucretius De Rerum Natura", "Virgil Eclogues/Georgics/Aeneid", "Horace Odes/Satires/Epistles/Ars Poetica", "Tibullus Elegies", "Propertius Elegies", "Ovid Amores/Heroides/Metamorphoses/Tristia"],
+      "source_archive": "Perseus, Bibliotheca Augustana",
+      "languages": ["lat"]
+    },
+    {
+      "id": "B04_roman_imperial_late_antique",
+      "culture_region": "古代ギリシャ・ローマ",
+      "era_period": "Imperial / Late Antique",
+      "era_year_range": [14, 600],
+      "target": 150,
+      "tier_distribution": {"1": 80, "2": 60, "3": 10},
+      "examples": ["Lucan Pharsalia", "Statius Thebaid/Silvae", "Martial Epigrams", "Juvenal Satires", "Persius Satires", "Claudian", "Ausonius", "Prudentius Hymns", "Boethius Consolation poems", "Venantius Fortunatus"],
+      "source_archive": "Bibliotheca Augustana, Perseus",
+      "languages": ["lat"]
+    },
+    {
+      "id": "B05_china_pre_qin",
+      "culture_region": "中国古典",
+      "era_period": "先秦",
+      "era_year_range": [-1000, -200],
+      "target": 200,
+      "tier_distribution": {"1": 180, "2": 20, "3": 0},
+      "examples": ["詩經(風雅頌)代表篇", "楚辞(離騷・九歌・天問)", "宋玉「九辯」", "古詩"],
+      "source_archive": "維基文庫, 中国哲学書電子化計画",
+      "languages": ["lzh"]
+    },
+    {
+      "id": "B06_china_han_six_dynasties",
+      "culture_region": "中国古典",
+      "era_period": "漢〜六朝",
+      "era_year_range": [-200, 600],
+      "target": 200,
+      "tier_distribution": {"1": 150, "2": 50, "3": 0},
+      "examples": ["古詩十九首", "曹操・曹植・曹丕「三曹」", "建安七子", "陶淵明「飲酒」「桃花源詩」", "謝霊運山水詩", "鮑照", "庾信", "宋玉以降の楚辞続編"],
+      "source_archive": "維基文庫",
+      "languages": ["lzh"]
+    },
+    {
+      "id": "B07_china_tang",
+      "culture_region": "中国古典",
+      "era_period": "唐",
+      "era_year_range": [600, 907],
+      "target": 350,
+      "tier_distribution": {"1": 300, "2": 50, "3": 0},
+      "examples": ["王維", "李白", "杜甫", "白居易", "韓愈", "柳宗元", "李商隠", "杜牧", "孟浩然", "高適", "岑参", "王之渙", "賀知章", "唐詩三百首", "全唐詩抜粋"],
+      "source_archive": "維基文庫, 中国哲学書電子化計画",
+      "languages": ["lzh"]
+    },
+    {
+      "id": "B08_china_song_yuan_ming_qing",
+      "culture_region": "中国古典",
+      "era_period": "宋元明清",
+      "era_year_range": [907, 1911],
+      "target": 200,
+      "tier_distribution": {"1": 150, "2": 50, "3": 0},
+      "examples": ["蘇軾", "李清照", "辛棄疾", "陸游", "黄庭堅", "姜夔", "元曲(散曲)", "明清七子・三大家", "袁枚", "黄遵憲"],
+      "source_archive": "維基文庫",
+      "languages": ["lzh"]
+    },
+    {
+      "id": "B09_japan_ancient",
+      "culture_region": "日本古典",
+      "era_period": "上代",
+      "era_year_range": [600, 794],
+      "target": 100,
+      "tier_distribution": {"1": 90, "2": 10, "3": 0},
+      "examples": ["万葉集(柿本人麻呂・山上憶良・大伴家持・額田王 等)", "古事記歌謡", "日本書紀歌謡", "懐風藻"],
+      "source_archive": "国文学研究資料館, 青空文庫",
+      "languages": ["ojp"]
+    },
+    {
+      "id": "B10_japan_heian",
+      "culture_region": "日本古典",
+      "era_period": "平安",
+      "era_year_range": [794, 1185],
+      "target": 150,
+      "tier_distribution": {"1": 130, "2": 20, "3": 0},
+      "examples": ["古今和歌集(紀貫之・凡河内躬恒・壬生忠岑)", "後撰集", "拾遺集", "和漢朗詠集", "源氏物語の和歌", "伊勢物語の和歌", "新撰万葉集"],
+      "source_archive": "国文学研究資料館",
+      "languages": ["ojp"]
+    },
+    {
+      "id": "B11_japan_medieval",
+      "culture_region": "日本古典",
+      "era_period": "中世",
+      "era_year_range": [1185, 1600],
+      "target": 100,
+      "tier_distribution": {"1": 80, "2": 20, "3": 0},
+      "examples": ["新古今和歌集(藤原定家・西行・後鳥羽院・式子内親王)", "金槐和歌集(源実朝)", "山家集", "連歌(二条良基・宗祇・心敬)", "風雅集", "玉葉集", "梁塵秘抄"],
+      "source_archive": "国文学研究資料館",
+      "languages": ["ojp"]
+    },
+    {
+      "id": "B12_japan_edo",
+      "culture_region": "日本古典",
+      "era_period": "近世(江戸)",
+      "era_year_range": [1600, 1868],
+      "target": 100,
+      "tier_distribution": {"1": 80, "2": 20, "3": 0},
+      "examples": ["松尾芭蕉(俳諧・奥の細道句)", "与謝蕪村", "小林一茶", "井原西鶴俳諧", "賀茂真淵", "本居宣長", "良寛", "香川景樹", "橘曙覧"],
+      "source_archive": "青空文庫, 国文学研究資料館",
+      "languages": ["jpn"]
+    },
+    {
+      "id": "B13_japan_modern",
+      "culture_region": "日本古典",
+      "era_period": "近代",
+      "era_year_range": [1868, 1945],
+      "target": 80,
+      "tier_distribution": {"1": 50, "2": 30, "3": 0},
+      "examples": ["正岡子規", "与謝野晶子", "石川啄木", "斎藤茂吉", "北原白秋", "萩原朔太郎", "高村光太郎", "宮沢賢治", "中原中也", "金子みすゞ", "島崎藤村", "土井晩翠"],
+      "source_archive": "青空文庫",
+      "languages": ["jpn"]
+    },
+    {
+      "id": "B14_buddhist_verse",
+      "culture_region": "仏典詩偈",
+      "era_period": "仏典(原始〜大乗)",
+      "era_year_range": [-300, 800],
+      "target": 100,
+      "tier_distribution": {"1": 70, "2": 20, "3": 10},
+      "examples": ["法句経(ダンマパダ)", "テーラガーター長老偈", "テーリーガーター長老尼偈", "華厳経入法界品偈", "法華経偈頌", "維摩経偈", "般若経偈頌", "禅僧偈頌(寒山詩)"],
+      "source_archive": "CBETA, GRETIL",
+      "languages": ["pli", "san", "lzh"]
+    },
+    {
+      "id": "B15_sanskrit_classical",
+      "culture_region": "サンスクリット",
+      "era_period": "古典サンスクリット",
+      "era_year_range": [-1500, 1200],
+      "target": 200,
+      "tier_distribution": {"1": 100, "2": 50, "3": 50},
+      "examples": ["リグ・ヴェーダ詩篇", "アタルヴァ・ヴェーダ詩篇", "マハーバーラタ抜粋", "ラーマーヤナ抜粋", "カーリダーサ(クマーラサンバヴァ・メーガドゥータ・シャクンタラー)", "バルトリハリ「百頌」", "ジャヤデーヴァ「ギータ・ゴーヴィンダ」", "アマル・シャタカ", "ガーター・サプタシャティー"],
+      "source_archive": "GRETIL",
+      "languages": ["san"]
+    },
+    {
+      "id": "B16_arabic_classical",
+      "culture_region": "アラビア・ペルシア",
+      "era_period": "アラビア古典",
+      "era_year_range": [500, 1300],
+      "target": 200,
+      "tier_distribution": {"1": 100, "2": 50, "3": 50},
+      "examples": ["ムアッラカート(イムルー・アル＝カイス・タラファ・ズハイル等)", "ハンサー", "アブー・ヌワース", "アル＝ムタナッビー", "アブール＝アラー・アル＝マアッリー", "イブン＝アル＝ファーリド", "イブン・ザイドゥーン", "アンダルシアのムワッシャハ"],
+      "source_archive": "Al-Warraq",
+      "languages": ["ara"]
+    },
+    {
+      "id": "B17_persian_classical",
+      "culture_region": "アラビア・ペルシア",
+      "era_period": "ペルシア古典",
+      "era_year_range": [900, 1500],
+      "target": 200,
+      "tier_distribution": {"1": 130, "2": 30, "3": 40},
+      "examples": ["ルーダキー", "フェルドウスィー「シャー・ナーメ」", "ハイヤーム「ルバイヤート」", "ニザーミー「五部作(Khamsa)」", "アッタール「鳥の言葉」", "ルーミー「マスナヴィー」「ディーヴァーン」", "サアディー「グリスタン」「ブースタン」", "ハーフィズ「ディーヴァーン」", "ジャーミー"],
+      "source_archive": "Ganjoor",
+      "languages": ["fas"]
+    },
+    {
+      "id": "B18_european_medieval",
+      "culture_region": "中世ヨーロッパ",
+      "era_period": "中世(古英語〜中世末期)",
+      "era_year_range": [600, 1450],
+      "target": 250,
+      "tier_distribution": {"1": 200, "2": 50, "3": 0},
+      "examples": ["Beowulf", "古英語Caedmon's Hymn / Dream of the Rood / Wanderer / Seafarer", "Anglo-Saxon Chronicle詩篇", "Chaucer Canterbury Tales/Troilus and Criseyde", "Gawain Poet (Pearl/SGGK)", "Langland Piers Plowman", "Roman de la Rose", "Chrétien de Troyes", "Marie de France Lais", "Trobadour詩(Bernart de Ventadorn等)", "Minnesang(Walther von der Vogelweide)", "Dante Vita Nuova/Divina Commedia", "Petrarch Canzoniere", "Cavalcanti", "Villon"],
+      "source_archive": "Bibliotheca Augustana, Wikisource",
+      "languages": ["ang", "enm", "fro", "gmh", "ita", "lat", "oci"]
+    },
+    {
+      "id": "B19_european_renaissance_baroque",
+      "culture_region": "近代ヨーロッパ",
+      "era_period": "ルネサンス〜バロック",
+      "era_year_range": [1450, 1700],
+      "target": 300,
+      "tier_distribution": {"1": 250, "2": 50, "3": 0},
+      "examples": ["Shakespeare Sonnets", "Spenser Faerie Queene/Amoretti", "Sidney Astrophil and Stella", "Marlowe", "Donne Songs and Sonnets/Holy Sonnets", "Herbert The Temple", "Marvell", "Milton Paradise Lost/Lycidas/Sonnets", "Ronsard", "du Bellay", "Ariosto Orlando Furioso", "Tasso Gerusalemme Liberata", "Camões Os Lusíadas", "Garcilaso", "Góngora", "Quevedo", "Lope de Vega", "San Juan de la Cruz", "Santa Teresa"],
+      "source_archive": "Project Gutenberg, Wikisource各言語",
+      "languages": ["en", "fr", "it", "pt", "es"]
+    },
+    {
+      "id": "B20_european_18c_neoclassical",
+      "culture_region": "近代ヨーロッパ",
+      "era_period": "新古典主義(18世紀)",
+      "era_year_range": [1700, 1789],
+      "target": 200,
+      "tier_distribution": {"1": 150, "2": 50, "3": 0},
+      "examples": ["Pope Essay on Man/Rape of the Lock/Dunciad", "Dryden", "Swift", "Gray Elegy", "Goldsmith Deserted Village", "Cowper", "Burns", "Voltaire", "Boileau", "Lessing", "Klopstock Messias", "Goethe(若年期)", "Schiller(若年期)"],
+      "source_archive": "Project Gutenberg, Wikisource",
+      "languages": ["en", "fr", "de"]
+    },
+    {
+      "id": "B21_european_romantic",
+      "culture_region": "近代ヨーロッパ",
+      "era_period": "ロマン派",
+      "era_year_range": [1789, 1850],
+      "target": 350,
+      "tier_distribution": {"1": 250, "2": 100, "3": 0},
+      "examples": ["Wordsworth Lyrical Ballads/Prelude/Tintern Abbey", "Coleridge Ancient Mariner/Kubla Khan/Christabel", "Blake Songs of Innocence/Experience/Prophetic Books", "Shelley Prometheus Unbound/Adonais/Ode to West Wind", "Keats Odes/Endymion", "Byron Don Juan/Childe Harold", "Hölderlin", "Novalis Hymnen an die Nacht", "Goethe(後期)/Schiller(後期)", "Heine Buch der Lieder", "Eichendorff", "Lamartine", "Hugo Légende des Siècles/Contemplations", "Vigny", "Musset", "Nerval", "Leopardi Canti", "Manzoni", "Pushkin Evgeny Onegin/lyrics", "Lermontov", "Mickiewicz Pan Tadeusz", "Słowacki", "Bécquer Rimas"],
+      "source_archive": "Project Gutenberg, Gallica BnF, Wikisource各言語",
+      "languages": ["en", "de", "fr", "it", "ru", "pl", "es"]
+    },
+    {
+      "id": "B22_european_19c_late_symbolist",
+      "culture_region": "近代ヨーロッパ",
+      "era_period": "リアリズム〜象徴主義",
+      "era_year_range": [1850, 1900],
+      "target": 250,
+      "tier_distribution": {"1": 200, "2": 50, "3": 0},
+      "examples": ["Tennyson In Memoriam/Idylls/Ulysses", "Browning Dramatic Lyrics/Men and Women", "Arnold Dover Beach", "Dickinson", "Whitman Leaves of Grass", "Poe", "Longfellow", "Rossetti(D.G./Christina)", "Hopkins", "Swinburne", "Morris", "Baudelaire Fleurs du Mal/Spleen de Paris", "Rimbaud Illuminations/Saison en enfer", "Verlaine Romances sans paroles/Sagesse", "Mallarmé Hérodiade/Un coup de dés", "Hugo(後期)", "Heredia", "Laforgue", "Corbière", "George Stefan", "Rilke(初期)", "Pascoli", "Carducci", "D'Annunzio(初期)"],
+      "source_archive": "Project Gutenberg, Gallica BnF, Wikisource",
+      "languages": ["en", "fr", "de", "it"]
+    },
+    {
+      "id": "B23_european_modernist_20c",
+      "culture_region": "近代ヨーロッパ",
+      "era_period": "モダニズム",
+      "era_year_range": [1900, 1945],
+      "target": 250,
+      "tier_distribution": {"1": 150, "2": 100, "3": 0},
+      "examples": ["Yeats Tower/Last Poems", "Eliot Waste Land/Four Quartets/Prufrock", "Pound Cantos(初期)/Cathay/Mauberley", "Stevens Harmonium", "Williams Spring and All/Paterson", "H.D.", "Hardy", "Frost", "Auden(PD化早期作品)", "Lorca Romancero Gitano/Poeta en Nueva York", "Machado", "Jiménez", "Apollinaire Alcools/Calligrammes", "Valéry Charmes/Cimetière Marin", "Claudel", "Saint-John Perse", "Rilke Duineser Elegien/Sonette an Orpheus", "Trakl", "George", "Benn(初期)", "Brecht(初期)", "Mayakovsky", "Akhmatova", "Mandelshtam", "Pasternak(早期)", "Tsvetaeva", "Esenin", "Pessoa(各異名)", "Ungaretti", "Montale Ossi di Seppia"],
+      "source_archive": "Project Gutenberg, Wikisource, 各種PD化アーカイブ",
+      "languages": ["en", "es", "fr", "de", "ru", "it", "pt"]
+    },
+    {
+      "id": "B24_global_postwar_contemporary",
+      "culture_region": "20-21世紀グローバル",
+      "era_period": "戦後・現代",
+      "era_year_range": [1945, 2025],
+      "target": 200,
+      "tier_distribution": {"1": 80, "2": 80, "3": 40},
+      "examples": ["Celan Mohn und Gedächtnis/Atemwende", "Bachmann", "Enzensberger", "Heaney(引用範囲)", "Hughes(引用範囲)", "Plath(引用範囲)", "Larkin(引用範囲)", "Lowell", "Bishop", "Ashbery", "Walcott Omeros", "Brodsky", "Szymborska", "Miłosz", "Herbert Zbigniew", "Neruda Canto General/Residencia", "Vallejo Trilce/España", "Paz Piedra de Sol/Salamandra", "Borges", "Ungaretti(後期)", "Montale(後期)", "Adonis", "Mahmoud Darwish", "Nazim Hikmet", "Tagore Gitanjali", "Aimé Césaire Cahier du retour", "Senghor", "Soyinka(批評対象部分)", "Achebe詩(批評対象部分)"],
+      "source_archive": "PD化作品 + 引用範囲(批評対象)",
+      "languages": ["de", "en", "es", "pl", "ru", "ar", "fr", "it", "tr", "ben"]
+    },
+    {
+      "id": "B25_african_indigenous_oral",
+      "culture_region": "アフリカ",
+      "era_period": "口承〜近代",
+      "era_year_range": [-500, 2000],
+      "target": 100,
+      "tier_distribution": {"1": 30, "2": 20, "3": 50},
+      "examples": ["スンジャタ叙事詩(マンディング)", "ムウィンド叙事詩(コンゴ)", "シャカ・ズール叙事詩", "ヨルバ・オリキ", "イボ口承詩", "アシャンティ・アコムラ", "Aimé Césaire(再掲不可分)", "Léopold Sédar Senghor(同上)", "Okot p'Bitek Song of Lawino", "Christopher Okigbo", "Wole Soyinka(批評範囲)"],
+      "source_archive": "ELAR, Africa Bibliography, PD口承記録",
+      "languages": ["mnk", "sw", "yo", "ig", "ak", "fr", "en"]
+    },
+    {
+      "id": "B26_indigenous_americas_pacific",
+      "culture_region": "先住民・口承",
+      "era_period": "口承〜近現代",
+      "era_year_range": [-1000, 2000],
+      "target": 100,
+      "tier_distribution": {"1": 20, "2": 30, "3": 50},
+      "examples": ["ナワトル詩(ネサワルコヨトル等 PD訳)", "マヤ・ポポル・ヴフ詩篇", "ケチュア・ワンカ", "ナバホ祈祷詩(PD抜粋)", "ホピ歌謡", "ハワイ・メレ", "マオリ・ワイアタ", "アイヌ・ユーカラ抜粋", "イヌイット歌謡", "ラコタ・チャント", "Joy Harjo(批評範囲)", "Leslie Marmon Silko(同上)", "N. Scott Momaday(同上)"],
+      "source_archive": "Sacred Texts, ELAR, PD訳",
+      "languages": ["nci", "quc", "que", "nv", "ho", "haw", "mi", "ain", "iu"]
+    },
+    {
+      "id": "B27_korean_classical_modern",
+      "culture_region": "東アジア",
+      "era_period": "韓国古典・近代",
+      "era_year_range": [600, 1945],
+      "target": 80,
+      "tier_distribution": {"1": 40, "2": 30, "3": 10},
+      "examples": ["郷歌(三国遺事所収)", "高麗歌謡", "時調(尹善道・李珥・黄真伊)", "歌辞(松江鄭澈「関東別曲」「思美人曲」)", "近代詩(韓龍雲「君の沈黙」、金素月「躑躅花」、李陸史)"],
+      "source_archive": "Wikisource ko, PD化朝鮮文学",
+      "languages": ["kor", "lzh"]
+    },
+    {
+      "id": "B28_vietnamese_classical",
+      "culture_region": "東アジア",
+      "era_period": "ベトナム古典",
+      "era_year_range": [900, 1900],
+      "target": 50,
+      "tier_distribution": {"1": 30, "2": 10, "3": 10},
+      "examples": ["阮攸『金雲翹伝(Truyện Kiều)』抜粋", "胡春香チュノム詩", "Nguyễn Trãi 漢詩・チュノム詩", "黎貴惇", "阮秉謙"],
+      "source_archive": "Wikisource vi",
+      "languages": ["vie", "lzh"]
+    }
+  ],
+  "tier_summary": {
+    "tier_1_canonical": 1500,
+    "tier_2_theory_linked": 2000,
+    "tier_3_cross_cultural": 1500
+  },
+  "culture_balance_target": {
+    "西欧(古代+中世+近代)": "55%",
+    "東アジア(中国+日本+韓国+ベトナム+仏典)": "25%",
+    "南西アジア(サンスクリット+アラビア+ペルシア)": "15%",
+    "アフリカ・先住民・その他": "5%"
+  }
+}

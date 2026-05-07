@@ -337,7 +337,7 @@ add(**C, name_ja="革命様板戯",
     primary_source_type="維基百科: 樣板戲",
     importance_score=4, source_tier="secondary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"流通","status":"rethinking",
+        {"axis":"受容","status":"rethinking",
          "rationale":"様板戯は文革10年間中国全土で唯一の上演舞台芸術となった。AI時代における単一テンプレートの大規模配信・コンテンツ独占状況を考察する歴史的参照点。",
          "related_ai_phenomenon":"AI生成コンテンツの単一モデル独占とテンプレート均質化"}])
 
@@ -353,7 +353,7 @@ add(**C, name_ja="文革地下文学",
     primary_source_type="維基百科: 地下文學",
     importance_score=4, source_tier="secondary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"流通","status":"rethinking",
+        {"axis":"受容","status":"rethinking",
          "rationale":"手抄本流通は公式回路を迂回した文学伝達の歴史的事例であり、AI時代における分散型コンテンツ流通・脱プラットフォーム文学の祖型として再読される。",
          "related_ai_phenomenon":"分散型・脱プラットフォーム的AI生成テキスト流通"}])
 
@@ -489,7 +489,7 @@ add(**C, name_ja="劉慈欣『三体』",
     primary_source_type="維基百科: 三體",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"宇宙観","status":"rethinking",
+        {"axis":"主体","status":"rethinking",
          "rationale":"『三体』の「黒暗森林」宇宙観・宇宙社会学は、AI時代の知性間競争・存在論的脅威モデルとして広く参照され、AGIリスク論議の文学的祖型として機能している。",
          "related_ai_phenomenon":"AGI存在論的脅威・知性間競争モデル"}],
     cross_domain=[
@@ -605,7 +605,7 @@ add(**C, name_ja="网络文学",
     primary_source_type="維基百科: 網絡文學",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"流通","status":"rethinking",
+        {"axis":"受容","status":"rethinking",
          "rationale":"中国网络文学はAI時代以前から大規模・連載・有料・読者反応反映型のテキスト経済を確立した。AI生成テキストの大規模配信モデルの直接的祖型。",
          "related_ai_phenomenon":"AI生成テキストの大規模・有料・連載配信モデル"},
         {"axis":"作者性","status":"rethinking",
