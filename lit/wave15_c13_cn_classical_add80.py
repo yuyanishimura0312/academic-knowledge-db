@@ -1024,7 +1024,9 @@ add(**C, name_ja="紀昀總纂『四庫全書總目提要』",
     historical_context="清乾隆期文化的全盛と国家編纂事業。",
     primary_source_url=CTEXT+"library.pl",
     primary_source_type="四庫全書總目 (CTEXT)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_transform_status="rethinking",
+    fourth_transform_note="四庫全書總目提要は知識の体系的分類・解題の最高峰。AI時代の大規模知識グラフ・分類学の古典的祖型として参照可能。")
 
 add(**C, name_ja="顧炎武『日知録』",
     name_en="Gu Yanwu's Rizhi Lu",
