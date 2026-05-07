@@ -869,6 +869,68 @@ def _attach_cross(concept_name: str, cd_list: list[dict]) -> None:
             return
 
 
+# ============================================================
+# Additional fourth_transform attachments to ensure >= 16
+# ============================================================
+def _attach_fourth(concept_name: str, ax_list: list[dict]) -> None:
+    for c in CONCEPTS:
+        if c.get("name_ja") == concept_name:
+            existing = c.get("fourth_axes", [])
+            c["fourth_axes"] = existing + ax_list
+            return
+
+
+_attach_fourth("ダンテ『帝政論（モナルキア）』", [
+    {"axis":"正典","status":"rethinking",
+     "rationale":"ダンテ俗語＝ラテン論争は近代「正典言語」概念の祖型で、AI時代の言語ヘゲモニー問題と理論的に共振する。",
+     "related_ai_phenomenon":"AI時代の支配言語ヘゲモニー・低資源言語問題"}])
+
+_attach_fourth("ボッカッチョ『フィロストラート』", [
+    {"axis":"翻訳","status":"rethinking",
+     "rationale":"ボッカッチョ→チョーサー→シェイクスピアの長期翻訳継承は、AI時代の長期テキスト変換系譜の祖型。",
+     "related_ai_phenomenon":"AI時代の長期翻訳継承・テキスト変換系譜"}])
+
+_attach_fourth("ジャコモ・ダ・レンティーニ", [
+    {"axis":"作者性","status":"rethinking",
+     "rationale":"シチリア派のソネット形式発明は宮廷公証人による集合的詩学発明で、AI時代の集合的形式発明の祖型。",
+     "related_ai_phenomenon":"AI時代の集合的形式発明・スタイル創発"}])
+
+_attach_fourth("ヴァース『ブリュ物語』", [
+    {"axis":"翻訳","status":"rethinking",
+     "rationale":"ジェフリー→ヴァース→ラヤモンの三言語連鎖翻訳は、AI時代の多言語チェーン翻訳の中世的祖型。",
+     "related_ai_phenomenon":"AI時代の多言語連鎖翻訳・系譜的言語移行"}])
+
+_attach_fourth("クレチアン・ド・トロワ『獅子の騎士イヴァン』", [
+    {"axis":"物語","status":"rethinking",
+     "rationale":"クレチアン宮廷ロマンの「冒険と婚姻の調停」構造は、AI生成における物語的バランス問題の祖型。",
+     "related_ai_phenomenon":"AI生成における物語要素のバランス調停問題"}])
+
+_attach_fourth("マルカブリュ", [
+    {"axis":"主体","status":"rethinking",
+     "rationale":"マルカブリュの道徳的批判主体は、宮廷恋愛主体性の自己批判化を主導した中世的祖型。",
+     "related_ai_phenomenon":"AI時代の自己批判的主体構築"}])
+
+_attach_fourth("『カンシオネーロ・デ・バエナ』", [
+    {"axis":"正典","status":"rethinking",
+     "rationale":"15世紀宮廷詩集成のカンシオネーロ編集は中世末抒情詩の正典化局面で、AI時代のコーパス選別の祖型。",
+     "related_ai_phenomenon":"AI時代のコーパス選別・正典化判断"}])
+
+_attach_fourth("ベルセオ『聖母奇蹟譚』", [
+    {"axis":"受容","status":"rethinking",
+     "rationale":"中世聖母奇蹟譚の俗語化は宗教的物語の大衆受容化局面で、AI時代の宗教的テキスト大衆化の祖型。",
+     "related_ai_phenomenon":"AI時代の宗教テキスト大衆化・俗語的再構成"}])
+
+_attach_fourth("『ガウェイン詩人写本（コットン・ネロA.x）』" if False else "ガウェイン詩人写本（コットン・ネロA.x）", [
+    {"axis":"作者性","status":"rethinking",
+     "rationale":"匿名同一作者の単一写本伝承は、AI時代の作者性同定問題(同一作者か別作者か)の中世的祖型。",
+     "related_ai_phenomenon":"AI生成テキストの作者性同定・スタイル同一性問題"}])
+
+_attach_fourth("ジョン・スケルトン", [
+    {"axis":"言語","status":"rethinking",
+     "rationale":"スケルトニク韻律の発明は中英語末の韻律実験で、AI時代の韻律生成実験の祖型。",
+     "related_ai_phenomenon":"AI時代の韻律実験的生成"}])
+
+
 _attach_cross("ダンテ『饗宴（コンヴィヴィオ）』", [
     {"target_db":"PHIL","link_type":"shared_concept",
      "target_entity_name":"俗語による哲学",

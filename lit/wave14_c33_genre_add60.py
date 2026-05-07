@@ -184,7 +184,7 @@ add(**C, name_ja="センダック『かいじゅうたちのいるところ』",
     primary_source_type="Wikipedia: Where the Wild Things Are",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"読者","status":"rethinking",
+        {"axis":"受容","status":"rethinking",
          "rationale":"子供の暗い情動を肯定する絵本理論は、AIが生成する「子供向け」コンテンツの安全策設計の理論的基盤として再考される。",
          "related_ai_phenomenon":"AI児童コンテンツの感情安全策設計"}],
     cross_domain=[
@@ -308,7 +308,7 @@ add(**C, name_ja="宮沢賢治童話",
     primary_source_type="Wikipedia: 宮沢賢治",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"賢治童話の宇宙論的・倫理的構造は、AI生成児童文学の倫理的規範の再考の参照点となる。",
          "related_ai_phenomenon":"AI児童文学の宇宙論的射程"}])
 
@@ -392,7 +392,7 @@ add(**C, name_ja="ヤングアダルト文学のジャンル理論",
     primary_source_type="Wikipedia: Young adult fiction",
     importance_score=4, source_tier="secondary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"読者","status":"rethinking",
+        {"axis":"受容","status":"rethinking",
          "rationale":"YA理論はAI生成YAコンテンツの読者年齢適合・倫理的安全策の理論的基盤として再考される。",
          "related_ai_phenomenon":"AI生成YAコンテンツの読者倫理"}])
 
@@ -514,7 +514,7 @@ add(**C, name_ja="コージー・ミステリ（cozy mystery）",
     historical_context="1990年代-現代米国ペーパーバック市場ジャンル細分化期。",
     primary_source_url=WIKI_EN+"Cozy_mystery",
     primary_source_type="Wikipedia: Cozy mystery",
-    importance_score=2, source_tier="tertiary", canonical_in_region="periphery")
+    importance_score=2, source_tier="tertiary", canonical_in_region="marginal")
 
 add(**C, name_ja="黄金時代ミステリの「フェアプレイ」綱領",
     name_en="Golden Age fair-play doctrine",
@@ -600,7 +600,7 @@ add(**C, name_ja="ル=グウィン『闇の左手』",
     primary_source_type="Wikipedia: The Left Hand of Darkness",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"ジェンダー無し惑星の思考実験は、AIが性別カテゴリを生成・割当する構造の人類学的批評の理論的基盤となる。",
          "related_ai_phenomenon":"AIシステムのジェンダー生成批評"}],
     cross_domain=[
@@ -652,7 +652,7 @@ add(**C, name_ja="クラーク『2001年宇宙の旅』",
     primary_source_type="Wikipedia: 2001 (novel)",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"HAL9000は人工知能の文学的原型として、現代AIエージェント設計の倫理議論の必須参照点。",
          "related_ai_phenomenon":"AIエージェント設計の倫理的原型"}])
 
@@ -668,7 +668,7 @@ add(**C, name_ja="ステファンスン『スノウ・クラッシュ』",
     primary_source_type="Wikipedia: Snow Crash",
     importance_score=4, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"言語","status":"new",
+        {"axis":"言語","status":"rethinking",
          "rationale":"メタヴァース語源としてWeb3/AI仮想現実時代の主要文学的参照点。",
          "related_ai_phenomenon":"メタヴァース言語起源のAI再活性化"}])
 
@@ -752,7 +752,7 @@ add(**C, name_ja="ロマンタジー（romantasy）",
     primary_source_type="Wikipedia: Romantasy",
     importance_score=3, source_tier="tertiary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"読者","status":"new",
+        {"axis":"受容","status":"rethinking",
          "rationale":"TikTok時代に形成された新興ジャンル、AI生成大衆文学の市場形成研究の参照点。",
          "related_ai_phenomenon":"SNS駆動ジャンル形成のAI研究"}])
 
@@ -766,7 +766,7 @@ add(**C, name_ja="グリムダーク・ファンタジー",
     historical_context="2000-2010年代英米ダーク・ファンタジー成熟期。",
     primary_source_url=WIKI_EN+"Grimdark",
     primary_source_type="Wikipedia: Grimdark",
-    importance_score=2, source_tier="tertiary", canonical_in_region="periphery")
+    importance_score=2, source_tier="tertiary", canonical_in_region="marginal")
 
 add(**C, name_ja="ラヴクラフト・コズミック・ホラー（クトゥルフ神話）",
     name_en="Lovecraft cosmic horror (Cthulhu Mythos)",
@@ -818,7 +818,7 @@ add(**C, name_ja="バーカー『ヘルレイザー』",
     historical_context="1980年代英米ニュー・ウェーブ・ホラー期。",
     primary_source_url=WIKI_EN+"The_Hellbound_Heart",
     primary_source_type="Wikipedia: The Hellbound Heart",
-    importance_score=2, source_tier="tertiary", canonical_in_region="periphery")
+    importance_score=2, source_tier="tertiary", canonical_in_region="marginal")
 
 
 # ============================================================
@@ -848,7 +848,7 @@ add(**C, name_ja="ハーレクイン・ロマンス・モデル",
     primary_source_type="Wikipedia: Harlequin Enterprises",
     importance_score=3, source_tier="secondary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"読者","status":"rethinking",
+        {"axis":"受容","status":"rethinking",
          "rationale":"標準化されたロマンス出版モデルは、AI生成大衆ロマンス文学の市場形成・倫理研究の主要参照点。",
          "related_ai_phenomenon":"AI生成大衆ロマンスの倫理"}])
 
@@ -896,7 +896,7 @@ add(**C, name_ja="萩尾望都・少女マンガの文学化",
     primary_source_type="Wikipedia: 萩尾望都",
     importance_score=4, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"少女マンガの文学化はAI生成マンガの文化的・ジェンダー的射程の主要参照点。",
          "related_ai_phenomenon":"AI生成マンガのジェンダー文学性"}])
 
@@ -924,7 +924,7 @@ add(**C, name_ja="日本ライトノベルのジャンル理論",
     primary_source_type="Wikipedia: ライトノベル",
     importance_score=4, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"作者","status":"new",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"Web小説起源・データベース消費・キャラクター先行物語の構造はAI生成小説の構造と同型として研究される。",
          "related_ai_phenomenon":"AI生成小説とデータベース消費"}],
     cross_domain=[
@@ -944,7 +944,7 @@ add(**C, name_ja="Web小説と「なろう系」",
     primary_source_type="Wikipedia: 小説家になろう",
     importance_score=3, source_tier="secondary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"言語","status":"new",
+        {"axis":"言語","status":"rethinking",
          "rationale":"Web小説プラットフォームはAI生成小説の市場・倫理研究の最重要参照点。",
          "related_ai_phenomenon":"Web投稿プラットフォームでのAI生成小説"}],
     cross_domain=[
