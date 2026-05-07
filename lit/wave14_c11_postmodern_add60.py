@@ -174,7 +174,7 @@ add(**C, name_ja="デリーロ『ゼロK』",
          "rationale":"低温保存・身体凍結を介した自己延長の主題は、AI時代の主体・意識のアップロード論と直接共振する。",
          "related_ai_phenomenon":"AIマインドアップロード・ポストヒューマン主体論"}],
     cross_domain=[
-        {"target_db":"AN","link_type":"resonates_with",
+        {"target_db":"AN","link_type":"parallel",
          "target_entity_name":"トランスヒューマニズム",
          "description":"デリーロ晩年の身体凍結主題はトランスヒューマニズム未来予測と並走する。"}])
 
@@ -554,7 +554,7 @@ add(**C, name_ja="イシグロ『私を離さないで』",
          "rationale":"クローンの主体性・記憶・愛の主題は、AI主体性・LLM意識論議の理論的先駆。",
          "related_ai_phenomenon":"AI主体性・意識論議"}],
     cross_domain=[
-        {"target_db":"AN","link_type":"resonates_with",
+        {"target_db":"AN","link_type":"parallel",
          "target_entity_name":"バイオテクノロジー・ポストヒューマン",
          "description":"クローン主体性問題はバイオテクノロジー未来予測と並走する。"}])
 
@@ -846,7 +846,7 @@ add(**CJP, name_ja="村上春樹『ねじまき鳥クロニクル』",
     primary_source_type="Britannica: The Wind-Up Bird Chronicle",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
     cross_domain=[
-        {"target_db":"AN","link_type":"resonates_with",
+        {"target_db":"AN","link_type":"parallel",
          "target_entity_name":"歴史的記憶・暴力",
          "description":"ノモンハン記憶を介した歴史暴力論は、現代日本フォーサイト記憶論議に並走する。"}])
 
@@ -998,31 +998,31 @@ def main() -> int:
                 print(f"  [warn] extra fourth tag failed for {nm}: {e}")
 
         EXTRA_CD = [
-            ("ピンチョン『V.』", "anthropology", "resonates_with",
+            ("ピンチョン『V.』", "AN", "parallel",
              "植民地暴力史の人類学", "ピンチョン V.の植民地暴力史は人類学植民地論と並走。"),
-            ("デリーロ『アンダーワールド』", "anthropology", "resonates_with",
+            ("デリーロ『アンダーワールド』", "AN", "parallel",
              "物質文化・廃棄物論", "冷戦期廃棄物文学は廃棄物の人類学（archaeology of waste）と並走。"),
-            ("ウォレス『無限の戯れ』", "foresight_kb", "resonates_with",
+            ("ウォレス『無限の戯れ』", "AN", "parallel",
              "注意経済・依存テクノロジー", "中毒娯楽・注意経済主題はAI時代の注意経済予測と並走。"),
-            ("イシグロ『私を離さないで』", "anthropology", "resonates_with",
+            ("イシグロ『私を離さないで』", "AN", "parallel",
              "ポストヒューマン人類学", "クローン主体性主題はポストヒューマン人類学と並走。"),
-            ("ホワイトヘッド『地下鉄道』", "foresight_kb", "resonates_with",
+            ("ホワイトヘッド『地下鉄道』", "AN", "parallel",
              "人種・矯正暴力", "黒人歴史記述的メタフィクションは現代人種・矯正暴力論議に並走。"),
-            ("ミッチェル『クラウド・アトラス』", "foresight_kb", "resonates_with",
+            ("ミッチェル『クラウド・アトラス』", "AN", "parallel",
              "百科全書的気候・ポストヒューマン", "六層入れ子小説は気候・ポストヒューマン未来予測と並走。"),
-            ("カルヴィーノ『見えない都市』", "anthropology", "resonates_with",
+            ("カルヴィーノ『見えない都市』", "AN", "parallel",
              "都市の記号論・空間人類学", "55都市の入れ子構造は空間人類学・記号論的都市論と並走。"),
-            ("クンデラ『笑いと忘却の書』", "anthropology", "resonates_with",
+            ("クンデラ『笑いと忘却の書』", "AN", "parallel",
              "東欧亡命人類学", "亡命チェコ作家の記憶文学は東欧亡命人類学と並走。"),
-            ("ウエルベック『素粒子』", "foresight_kb", "resonates_with",
+            ("ウエルベック『素粒子』", "AN", "parallel",
              "ポストヒューマン人類置換", "遺伝子工学的人類置換はポストヒューマン未来予測と並走。"),
-            ("サラマーゴ『白の闇』", "foresight_kb", "resonates_with",
+            ("サラマーゴ『白の闇』", "AN", "parallel",
              "パンデミック・社会崩壊", "白の闇パンデミック文学は現代パンデミック未来予測と並走。"),
-            ("ペレーヴィン『チャパーエフと空虚』", "anthropology", "resonates_with",
+            ("ペレーヴィン『チャパーエフと空虚』", "AN", "parallel",
              "ポスト共産主義人類学", "ポスト共産主義精神世界小説はポスト共産主義人類学と並走。"),
-            ("クラスナホルカイ『サタンタンゴ』", "anthropology", "resonates_with",
+            ("クラスナホルカイ『サタンタンゴ』", "AN", "parallel",
              "東欧黙示録的場所性", "ハンガリー寒村の黙示録小説は東欧場所性人類学と並走。"),
-            ("トカルチュク『ヤコブの書』", "anthropology", "resonates_with",
+            ("トカルチュク『ヤコブの書』", "AN", "parallel",
              "東欧多宗教共存史", "18世紀東欧多宗教共存史小説は東欧宗教人類学と並走。"),
         ]
         for nm, tdb, ltype, tname, desc in EXTRA_CD:
