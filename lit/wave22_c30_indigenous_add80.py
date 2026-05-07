@@ -1317,6 +1317,62 @@ _attach_cross("ヨルング・マニカイ歌", [
 
 
 # ============================================================
+# Additional fourth_transform tags to ensure >= 24
+# ============================================================
+def _attach_axes(name_ja: str, axes: list[dict]) -> None:
+    for c in CONCEPTS:
+        if c["name_ja"] == name_ja:
+            c.setdefault("fourth_axes", []).extend(axes)
+            return
+
+
+_attach_axes("シクウォイア音節文字文学", [
+    {"axis":"形式","status":"rethinking",
+     "rationale":"独自文字発明は、AI時代の少数言語表記の文学的祖型。",
+     "related_ai_phenomenon":"AI時代の少数言語表記システム"}])
+_attach_axes("イロコイ大平和の法", [
+    {"axis":"作者性","status":"rethinking",
+     "rationale":"集合的政治哲学典の作者性は、AI時代の集合的法的著作の祖型。",
+     "related_ai_phenomenon":"AI時代の集合的法的著作"}])
+_attach_axes("ハイダ・カラス循環", [
+    {"axis":"主体","status":"rethinking",
+     "rationale":"動物トリックスター主体は、AI時代の非人間主体性の文学的祖型。",
+     "related_ai_phenomenon":"AI時代の非人間主体性"}])
+_attach_axes("スカイ『シャーマンたち』", [
+    {"axis":"真正性","status":"rethinking",
+     "rationale":"消滅言語最後の口頭詩人の作品の真正性は、AI時代の絶滅言語データ真正性の祖型。",
+     "related_ai_phenomenon":"AI時代の絶滅言語データ真正性"}])
+_attach_axes("ヨルバ・イファ・オドゥ詳細", [
+    {"axis":"言語","status":"rethinking",
+     "rationale":"組合せ占術典の言語は、AI生成の組合せ言語の理論的祖型。",
+     "related_ai_phenomenon":"AI生成の組合せ言語"}])
+_attach_axes("ヤノマミ詠唱合成", [
+    {"axis":"言語","status":"rethinking",
+     "rationale":"先住民世界観翻訳問題は、AI翻訳の文化保全問題の祖型。",
+     "related_ai_phenomenon":"AI翻訳と文化保全"}])
+_attach_axes("チベット・ゲサル王", [
+    {"axis":"形式","status":"rethinking",
+     "rationale":"世界最長口承叙事詩は、AI時代の長文生成の文学的指標。",
+     "related_ai_phenomenon":"AI長文生成と口承叙事"}])
+_attach_axes("マオリ・ファカパパ口承", [
+    {"axis":"作者性","status":"rethinking",
+     "rationale":"系譜的共同作者性は、AI時代の系譜的データ著作の祖型。",
+     "related_ai_phenomenon":"AI時代の系譜的データ著作"}])
+_attach_axes("ワルピリ・ジュクルパ旅", [
+    {"axis":"形式","status":"rethinking",
+     "rationale":"地理的歌循環は、AI時代の場所性データ表現の文学的祖型。",
+     "related_ai_phenomenon":"AI時代の場所性データ表現"}])
+_attach_axes("ブリッグス・バウマン上演理論", [
+    {"axis":"主体","status":"rethinking",
+     "rationale":"上演主体性は、AI時代の生成主体性の理論的祖型。",
+     "related_ai_phenomenon":"AI時代の生成主体性"}])
+_attach_axes("シャーザー声録音理論", [
+    {"axis":"形式","status":"rethinking",
+     "rationale":"音声中心方法論は、AI音声生成研究の方法論的祖型。",
+     "related_ai_phenomenon":"AI音声生成研究方法論"}])
+
+
+# ============================================================
 # Main runner
 # ============================================================
 def main() -> int:
