@@ -92,6 +92,13 @@ add(**C, name_ja="ディドロ『百科全書』文学項目",
     primary_source_url=ARCH+"encyclopdieoudic01didegoog",
     primary_source_type="archive.org: Encyclopédie",
     importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"百科全書の知識分類体系は、AI時代における大規模言語モデルの知識構造化と理論的に並行する。",
+         "related_ai_phenomenon":"LLMによる知識分類・百科事典的圧縮"},
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"百科全書は集合的執筆形式であり、AI時代の集合的・分散的著作生成の歴史的祖型として再読される。",
+         "related_ai_phenomenon":"AI時代の集合的著作生成"}],
     cross_domain=[
         {"target_db":"PHIL","link_type":"shared_concept",
          "target_entity_name":"啓蒙百科事典主義",
@@ -394,7 +401,11 @@ add(**C, name_ja="ゲーテ『ファウスト』第一部",
     historical_context="フランス革命期からナポレオン期、神聖ローマ帝国解体期のドイツ文化。",
     primary_source_url=GUTEN+"ebooks/14591",
     primary_source_type="Project Gutenberg: Faust I",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"ファウストの「全知への渇望」は知の限界を超えようとする近代主体の典型を象徴する。AI時代の知識アクセス・全知性の幻想と理論的に共振する。",
+         "related_ai_phenomenon":"AIと全知への渇望・知識限界の超越幻想"}])
 
 add(**C, name_ja="ゲーテ『ファウスト』第二部",
     name_en="Goethe's Faust Part II",
@@ -742,6 +753,10 @@ add(**CAM, name_ja="メルヴィル『白鯨』",
     primary_source_url=GUTEN+"ebooks/2701",
     primary_source_type="Project Gutenberg: Moby-Dick",
     importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"『白鯨』の百科全書的記述・多言語ジャンル混淆は、AI生成テキストにおけるジャンル横断的混合と理論的に共振する。",
+         "related_ai_phenomenon":"AI生成のジャンル横断的混合"}],
     cross_domain=[
         {"target_db":"PHIL","link_type":"shared_concept",
          "target_entity_name":"形而上学的探究小説",
@@ -794,6 +809,10 @@ add(**CAM, name_ja="エマソン『自己信頼』",
     primary_source_url=GUTEN+"ebooks/16643",
     primary_source_type="Project Gutenberg: Essays (Emerson)",
     importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"エマソン「自己信頼」は近代個人主義主体の理念を確立する。AI時代の主体性・自己信頼の意味を再検討する古典的参照点。",
+         "related_ai_phenomenon":"AI時代の自律的主体性"}],
     cross_domain=[
         {"target_db":"PHIL","link_type":"shared_concept",
          "target_entity_name":"超越主義・米国観念論",
@@ -837,7 +856,14 @@ add(**CAM, name_ja="ディキンソン詩",
     historical_context="米国南北戦争期から再建期にかけてのマサチューセッツ・アマースト隠棲生活。",
     primary_source_url=GUTEN+"ebooks/12242",
     primary_source_type="Project Gutenberg: Dickinson poems",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"ディキンソンの私的執筆実践（生前未公開・断片的）は、公的著作概念を解体する。AI生成における私的・無名的テクスト生成と理論的に響き合う。",
+         "related_ai_phenomenon":"AI時代の私的・無名的テクスト"},
+        {"axis":"正典","status":"rethinking",
+         "rationale":"ディキンソンの没後発見と正典化過程は、テクストの正典性が後世の編集・選別に依存することを露呈する。AI生成物の正典化可能性の理論的祖型。",
+         "related_ai_phenomenon":"AI生成物の正典化問題"}])
 
 add(**CAM, name_ja="ポー『詩集』とフランス象徴主義への影響",
     name_en="Poe's poems and French Symbolism",
@@ -918,6 +944,10 @@ add(**C, name_ja="レオパルディ『カンティ』",
     primary_source_url=GUTEN+"ebooks/52717",
     primary_source_type="Project Gutenberg: Canti (Leopardi)",
     importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"レオパルディの形而上学的孤独・無限への憧憬は、AI時代の主体の意味・有限性問題と理論的に共振する古典的祖型。",
+         "related_ai_phenomenon":"AI時代の主体の意味・有限性"}],
     cross_domain=[
         {"target_db":"PHIL","link_type":"shared_concept",
          "target_entity_name":"哲学的悲観主義",

@@ -123,7 +123,11 @@ add(**C, name_ja="尾崎紅葉『金色夜叉』",
     historical_context="明治30年代の新聞・雑誌メディア発展期と、近代資本主義社会の道徳的葛藤。",
     primary_source_url=AOZORA+"cards/000094/card4513.html",
     primary_source_type="青空文庫: 金色夜叉",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"MG","link_type":"shared_concept",
+         "target_entity_name":"明治資本主義と道徳",
+         "description":"『金色夜叉』は明治資本主義（高利貸資本）と伝統的恋愛道徳の衝突を文学化し、経営学的価値観転換期の文化的指標となる。"}])
 
 add(**C, name_ja="幸田露伴『五重塔』",
     name_en="Kōda Rohan's Gojū-no-tō",
@@ -135,7 +139,11 @@ add(**C, name_ja="幸田露伴『五重塔』",
     historical_context="明治20年代の伝統美再評価運動（フェノロサ・岡倉天心）と並行する文学的国粋主義。",
     primary_source_url=AOZORA+"cards/000051/card43504.html",
     primary_source_type="青空文庫: 五重塔",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"職人精神・伝統工芸",
+         "description":"露伴『五重塔』の職人精神描写は、人類学的物質文化論における職人技と伝統工芸の文学的並行物。"}])
 
 add(**C, name_ja="樋口一葉『たけくらべ』",
     name_en="Higuchi Ichiyō's Takekurabe",
@@ -175,7 +183,11 @@ add(**C, name_ja="樋口一葉『十三夜』",
     historical_context="明治20年代後半の家父長制成熟期と女性問題の文学的問題化。",
     primary_source_url=AOZORA+"cards/000064/card393.html",
     primary_source_type="青空文庫: 十三夜",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"家父長制と女性",
+         "description":"一葉『十三夜』の女性主体描写は、人類学的家父長制研究と並行する文学的問題化を成す。"}])
 
 add(**C, name_ja="徳冨蘆花『不如帰』",
     name_en="Tokutomi Roka's Hototogisu",
@@ -187,7 +199,11 @@ add(**C, name_ja="徳冨蘆花『不如帰』",
     historical_context="明治30年代の家父長制成熟期と、結核流行・女性の家族内地位問題。",
     primary_source_url=AOZORA+"cards/000280/card2509.html",
     primary_source_type="青空文庫: 不如帰",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"家庭小説とメロドラマ詩学",
+         "description":"『不如帰』は明治家庭小説のメロドラマ詩学を確立し、現代物語論におけるジャンル研究の中核事例。"}])
 
 
 # ============================================================
@@ -203,7 +219,15 @@ add(**C, name_ja="森鷗外『舞姫』",
     historical_context="明治20年代の西欧文化受容期と、近代国家形成下の個人と国家の葛藤。",
     primary_source_url=AOZORA+"cards/000129/card2122.html",
     primary_source_type="青空文庫: 舞姫",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"鷗外『舞姫』は近代日本的主体（立身出世とエロス）の分裂を文学化した。AI時代の主体性の歴史的構築性を再検討する基準点。",
+         "related_ai_phenomenon":"AIによる近代主体表象の歴史化"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"異文化接触と主体形成",
+         "description":"鷗外『舞姫』は明治日本人の異文化接触体験を文学化した、文化人類学的接触帯研究の文学的並行物。"}])
 
 add(**C, name_ja="森鷗外『青年』",
     name_en="Mori Ōgai's Seinen",
@@ -239,7 +263,15 @@ add(**C, name_ja="夏目漱石『吾輩は猫である』",
     historical_context="日露戦争前後の明治知識人の社会的位置と、英文学受容期の知的雰囲気。",
     primary_source_url=AOZORA+"cards/000148/card789.html",
     primary_source_type="青空文庫: 吾輩は猫である",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"漱石の猫視点小説は、非人間的視点による人間社会観察を文学化した。AI生成における非人間視点・第三者観察と理論的に共振する。",
+         "related_ai_phenomenon":"AI生成の非人間視点・第三者観察"}],
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"動物視点・非人間ナラティブ",
+         "description":"漱石の猫視点は現代物語論の非人間ナラティブ研究の祖型的事例。"}])
 
 add(**C, name_ja="夏目漱石『三四郎』",
     name_en="Natsume Sōseki's Sanshirō",
@@ -319,7 +351,15 @@ add(**C, name_ja="島崎藤村『破戒』",
     historical_context="明治末期の被差別部落問題と、近代国民国家における差別の文学的問題化。",
     primary_source_url=AOZORA+"cards/000158/card1483.html",
     primary_source_type="青空文庫: 破戒",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"藤村の被差別主体描写は、社会的アイデンティティの隠蔽と告白のドラマを文学化した。AI時代におけるアイデンティティ表象の倫理問題を再検討する基準点。",
+         "related_ai_phenomenon":"AIにおけるマイノリティ・アイデンティティ表象"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"被差別部落と社会人類学",
+         "description":"藤村『破戒』は人類学的差別研究と並行する文学的問題化を成し、社会人類学と文学の交差点。"}])
 
 
 # ============================================================
@@ -347,7 +387,11 @@ add(**C, name_ja="田山花袋『蒲団』",
     historical_context="明治末期の自然主義文学運動高揚期と、家庭内告白文学の登場。",
     primary_source_url=AOZORA+"cards/000214/card43511.html",
     primary_source_type="青空文庫: 蒲団",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"真正性","status":"rethinking",
+         "rationale":"花袋『蒲団』の自伝的告白は、私小説における「真正性の暴露」を方法化した。AI生成における擬似私小説的告白の真正性問題を再検討する古典的参照点。",
+         "related_ai_phenomenon":"AI生成における擬似自伝的告白の真正性"}])
 
 add(**C, name_ja="田山花袋『田舎教師』",
     name_en="Tayama Katai's Inaka Kyōshi",
@@ -459,7 +503,11 @@ add(**C, name_ja="志賀直哉『暗夜行路』",
     historical_context="大正後期から昭和初期にかけての知識人の倫理的内省期。",
     primary_source_url=AOZORA+"cards/001383/card3727.html",
     primary_source_type="青空文庫: 暗夜行路",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"私小説と心境小説詩学",
+         "description":"志賀『暗夜行路』は日本私小説詩学の頂点として、現代物語論における私小説研究の中核事例。"}])
 
 
 # ============================================================
@@ -511,7 +559,15 @@ add(**C, name_ja="有島武郎『或る女』",
     historical_context="大正デモクラシー期の女性解放運動高揚（青鞜社1911）と、新時代女性像の文学化。",
     primary_source_url=AOZORA+"cards/000025/card612.html",
     primary_source_type="青空文庫: 或る女",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"有島の女性主体描写は、近代日本の新しい女性主体性を文学的に構築した。AI時代の女性主体表象の歴史性を再検討する基準点。",
+         "related_ai_phenomenon":"AIによる女性主体表象の歴史的変容"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"近代女性とジェンダー人類学",
+         "description":"有島『或る女』は近代日本ジェンダー研究の中核事例として、人類学的ジェンダー論の文学的対応物。"}])
 
 add(**C, name_ja="横光利一新感覚派宣言",
     name_en="Yokomitsu Riichi's Shinkankakuha manifesto",
@@ -643,7 +699,11 @@ add(**C, name_ja="三島由紀夫『金閣寺』",
     historical_context="戦後復興期の伝統文化問題と、芸術・暴力・美の関係をめぐる文学的問題化。",
     primary_source_url=WIKI_JA+"%E9%87%91%E9%96%A3%E5%AF%BA_(%E5%B0%8F%E8%AA%AC)",
     primary_source_type="Wikipedia: 金閣寺(小説)",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"三島の絶対美と暴力の文学的探求は、AI時代の美的価値判断と倫理判断の関係を再考する古典的参照点。",
+         "related_ai_phenomenon":"AI生成における美的判断と倫理判断の関係"}])
 
 add(**C, name_ja="三島由紀夫『豊饒の海』四部作",
     name_en="Mishima Yukio's Hōjō no Umi tetralogy",
@@ -667,7 +727,11 @@ add(**C, name_ja="安部公房『砂の女』",
     historical_context="高度経済成長期の日本社会変動と、近代主体の根源的疎外問題の文学化。",
     primary_source_url=WIKI_JA+"%E7%A0%82%E3%81%AE%E5%A5%B3",
     primary_source_type="Wikipedia: 砂の女",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"安部の「砂の女」は近代主体の根源的疎外を寓話化した。AI時代の主体の閉じ込められと脱出不能性を再検討する基準点。",
+         "related_ai_phenomenon":"AIシステムへの主体の閉じ込められ・依存"}])
 
 add(**C, name_ja="大江健三郎『万延元年のフットボール』",
     name_en="Ōe Kenzaburō's Man'en Gannen no Futtobōru",
@@ -735,7 +799,11 @@ add(**C, name_ja="村上春樹『ノルウェイの森』",
     historical_context="バブル経済期日本の文化的国際化と、過去の青春の文学化。",
     primary_source_url=WIKI_JA+"%E3%83%8E%E3%83%AB%E3%82%A6%E3%82%A7%E3%82%A4%E3%81%AE%E6%A3%AE",
     primary_source_type="Wikipedia: ノルウェイの森",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"Cultural-Intelligence","link_type":"shared_concept",
+         "target_entity_name":"村上春樹現象とグローバル文化",
+         "description":"村上『ノルウェイの森』は日本文学の世界化現象を象徴し、文化情報学的グローバル文学市場研究の中核事例。"}])
 
 add(**C, name_ja="村上春樹『世界の終りとハードボイルド・ワンダーランド』",
     name_en="Murakami's Hard-Boiled Wonderland and the End of the World",
@@ -775,7 +843,11 @@ add(**C, name_ja="吉本ばなな『キッチン』",
     historical_context="バブル経済期日本の女性ライフスタイル変動と、家族解体の進展。",
     primary_source_url=WIKI_JA+"%E3%82%AD%E3%83%83%E3%83%81%E3%83%B3_(%E5%B0%8F%E8%AA%AC)",
     primary_source_type="Wikipedia: キッチン(小説)",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"家族解体と新家族形成",
+         "description":"吉本ばなな『キッチン』は人類学的家族研究と並行する、ポスト核家族時代の文学的問題化を成す。"}])
 
 add(**C, name_ja="多和田葉子の越境文学",
     name_en="Tawada Yōko's transnational literature",
