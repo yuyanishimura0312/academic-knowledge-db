@@ -125,7 +125,11 @@ add(**C, name_ja="ゴルドマン発生論的構造主義",
     historical_context="戦後フランスにおけるマルクス主義文学社会学の制度的成立期。",
     primary_source_url=WIKI_EN+"Lucien_Goldmann",
     primary_source_type="Wikipedia: Lucien Goldmann",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"発生論的構造主義と世界観",
+         "description":"ゴルドマン発生論的構造主義はピアジェ発生認識論とルカーチ意識形態論をつなぐ20世紀社会哲学の中核。"}])
 
 add(**C, name_ja="マシュレ「文学的生産の理論」",
     name_en="Macherey's A Theory of Literary Production",
@@ -139,7 +143,7 @@ add(**C, name_ja="マシュレ「文学的生産の理論」",
     primary_source_type="Wikipedia: Pierre Macherey",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"マシュレの「沈黙・裂け目・不在」読解は、AI生成テキストが学習データのイデオロギー的限界を「症候」として表出する現象を理論化する基盤となる。",
          "related_ai_phenomenon":"AI生成テキストにおける学習データの症候的露呈"}])
 
@@ -153,7 +157,11 @@ add(**C, name_ja="イーグルトン『批評とイデオロギー』",
     historical_context="1970年代英国文学研究の理論的左派化（『スクリーン』誌・『ニュー・レフト・レビュー』誌の影響期）。",
     primary_source_url=WIKI_EN+"Terry_Eagleton",
     primary_source_type="Wikipedia: Terry Eagleton",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"アルチュセール派イデオロギー論",
+         "description":"イーグルトン批評は哲学的イデオロギー論の文学批評への応用として横断的に位置づけられる。"}])
 
 add(**C, name_ja="ジェイムソン『政治的無意識』",
     name_en="Jameson's The Political Unconscious",
@@ -167,7 +175,7 @@ add(**C, name_ja="ジェイムソン『政治的無意識』",
     primary_source_type="Wikipedia: The Political Unconscious",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"政治的無意識概念は、AI生成テキストに刻印された学習データの社会的矛盾を「無意識的政治性」として読む批評枠組みの古典的祖型となる。",
          "related_ai_phenomenon":"AI生成テキストの政治的無意識"}],
     cross_domain=[
@@ -225,7 +233,11 @@ add(**C, name_ja="イーザー『読書行為』",
     fourth_axes=[
         {"axis":"受容","status":"rethinking",
          "rationale":"イーザーの「読者がテクストの不確定性に応答して意味を構築する」モデルは、AI生成テキストの「無作者性」を読者の意味構築に委ねる現象を理論化する古典的枠組み。",
-         "related_ai_phenomenon":"AI生成テキストの読者主導意味構築"}])
+         "related_ai_phenomenon":"AI生成テキストの読者主導意味構築"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"現象学的解釈学",
+         "description":"イーザー読書行為論はインガルデン現象学とガダマー解釈学の文学理論的展開。"}])
 
 add(**C, name_ja="ローゼンブラット交渉理論",
     name_en="Rosenblatt's transactional theory",
@@ -253,7 +265,11 @@ add(**C, name_ja="フィッシュ「テクストにあるか」",
     fourth_axes=[
         {"axis":"受容","status":"rethinking",
          "rationale":"解釈共同体概念は、AI時代における「LLM出力の意味」が特定のユーザー共同体の解釈実践に依存する現象を理論化する古典的枠組み。",
-         "related_ai_phenomenon":"AI出力の意味解釈とユーザー共同体"}])
+         "related_ai_phenomenon":"AI出力の意味解釈とユーザー共同体"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"解釈共同体と文化",
+         "description":"フィッシュ解釈共同体概念は人類学的解釈共同体（クリフォード・ギアツの「文化を読む」）と直接的に連続する。"}])
 
 add(**C, name_ja="ヤウス『挑発としての文学史』",
     name_en="Jauss's Literary History as Provocation",
@@ -353,7 +369,11 @@ add(**C, name_ja="ラカン「鏡像段階」（文学批評適用）",
     fourth_axes=[
         {"axis":"主体","status":"rethinking",
          "rationale":"鏡像段階の「誤認による主体形成」モデルは、AIキャラクターやアバターを通じた「鏡像的自己構築」の精神分析的祖型として再読される。",
-         "related_ai_phenomenon":"AIアバター・キャラクターと鏡像的自己構築"}])
+         "related_ai_phenomenon":"AIアバター・キャラクターと鏡像的自己構築"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"主体形成の哲学",
+         "description":"ラカン鏡像段階論は20世紀フランス哲学の主体形成論の中心テーゼ。"}])
 
 add(**C, name_ja="クリステヴァ「セミオティック／シンボリック」",
     name_en="Kristeva's semiotic vs symbolic",
@@ -417,7 +437,11 @@ add(**C, name_ja="ブルックス『プロットを読む』",
     historical_context="1980年代米国大学院文学研究の理論的高揚期。",
     primary_source_url=WIKI_EN+"Peter_Brooks_(literary_critic)",
     primary_source_type="Wikipedia: Peter Brooks",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"プロット欲動論",
+         "description":"ブルックスのプロット精神分析は古典物語論（アリストテレス『詩学』）の現代的・欲動論的再読。"}])
 
 add(**C, name_ja="フェルマン『精神分析を読む』",
     name_en="Felman's Reading Psychoanalysis",
@@ -457,7 +481,11 @@ add(**C, name_ja="バル『ナラトロジー』詳論",
     historical_context="1980年代の構造主義から後構造ナラトロジーへの過渡期。",
     primary_source_url=WIKI_EN+"Mieke_Bal",
     primary_source_type="Wikipedia: Mieke Bal",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PT","link_type":"shared_concept",
+         "target_entity_name":"物語論の三層モデル",
+         "description":"バル・ナラトロジーは現代物語論の標準的入門書として横断的に参照される。"}])
 
 add(**C, name_ja="シュタンツェル類型論",
     name_en="Stanzel's typology of narrative",
@@ -547,7 +575,7 @@ add(**C, name_ja="ストーリーワールド理論",
     primary_source_type="Wikipedia: David Herman",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"ストーリーワールドが読者の心的構築過程として定義されるなら、AI生成物語が読者に提示する「世界」の認知的構築可能性が新たに問題化される。",
          "related_ai_phenomenon":"AI生成物語におけるストーリーワールド構築"}],
     cross_domain=[
@@ -569,7 +597,11 @@ add(**C, name_ja="ダーントン「コミュニケーション・サーキッ�
     historical_context="1980年代英語圏における書物史の制度的興隆期。",
     primary_source_url=WIKI_EN+"Robert_Darnton",
     primary_source_type="Wikipedia: Robert Darnton",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"書物の社会人類学",
+         "description":"ダーントンのコミュニケーション・サーキット概念は書物を文化的循環として捉える人類学的方法と接続する。"}])
 
 add(**C, name_ja="マッケンジー『書誌学とテクストの社会学』",
     name_en="McKenzie's Bibliography and the Sociology of Texts",
@@ -583,7 +615,7 @@ add(**C, name_ja="マッケンジー『書誌学とテクストの社会学』",
     primary_source_type="Wikipedia: D. F. McKenzie",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"テクストの意味が物質的形態に依存するというマッケンジーのテーゼは、AI生成テキストの「形態のなさ」（プラットフォームに依存した非物質性）の理論的問題化に直結する。",
          "related_ai_phenomenon":"AI生成テキストの物質性なき流通"}])
 
@@ -653,7 +685,11 @@ add(**C, name_ja="セジウィック「リパラティブ・リーディング�
     fourth_axes=[
         {"axis":"受容","status":"rethinking",
          "rationale":"パラノイド／リパラティブ二類型は、AI生成物への批判的読み（疑い・暴露）と修復的読み（共同制作的・希望的）の理論的区別に直結する。",
-         "related_ai_phenomenon":"AI生成物への批判的／修復的読みの選択"}])
+         "related_ai_phenomenon":"AI生成物への批判的／修復的読みの選択"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"クィア理論と倫理",
+         "description":"セジウィックのリパラティブ・リーディングはクィア理論と倫理哲学の交叉点として横断的に参照される。"}])
 
 add(**C, name_ja="フェルスキ『文学の効用』",
     name_en="Felski's Uses of Literature",
@@ -679,7 +715,7 @@ add(**C, name_ja="フェルスキ『批評の限界』",
     primary_source_type="Wikipedia: The Limits of Critique",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"疑いの解釈学への批判は、AI生成テキストの「真偽」「イデオロギー」を疑う姿勢自体の歴史性・限界を理論化する基盤となる。",
          "related_ai_phenomenon":"AI生成物への疑いの解釈学の限界"}])
 
@@ -751,7 +787,7 @@ add(**C, name_ja="ベスト/マーカス「サーフェス・リーディング�
     primary_source_type="JSTOR: Surface Reading: An Introduction",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"テクストの表面・明示的内容を尊重する読みは、AI生成テキストに「深層イデオロギー」を読むのか「表面そのもの」として扱うのかという批評的選択を理論化する基盤となる。",
          "related_ai_phenomenon":"AI生成テキストの表面と深層"}])
 
@@ -767,7 +803,7 @@ add(**C, name_ja="ガイ『ギミック』",
     primary_source_type="Wikipedia: Sianne Ngai",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"ギミック概念は、AI生成物が「過剰な労働節約装置」「省力化の魔術」として感じられる現象を理論化する直接的概念基盤となる。",
          "related_ai_phenomenon":"AI生成物のギミック性と労働"}])
 
@@ -799,7 +835,7 @@ add(**C, name_ja="モレッティ『遠読』",
     primary_source_type="Wikipedia: Distant reading",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"遠読は文学を計量的・大規模データとして扱う方法を制度化する。AI/LLMによる文学コーパス分析・生成は遠読のラディカルな延長として位置づけられる。",
          "related_ai_phenomenon":"LLMによる文学コーパスの遠読的処理"}],
     cross_domain=[
@@ -817,7 +853,11 @@ add(**C, name_ja="ジョッカーズ『マクロアナリシス』",
     historical_context="2010年代のデジタル人文学の制度的拡大期。",
     primary_source_url=WIKI_EN+"Matthew_Jockers",
     primary_source_type="Wikipedia: Matthew Jockers",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AI-Development","link_type":"shared_concept",
+         "target_entity_name":"トピックモデルと文学",
+         "description":"ジョッカーズのマクロアナリシスは機械学習による文学コーパス分析の祖型として、AI研究と直接接続する。"}])
 
 add(**C, name_ja="アンダーウッド機械学習文学批評",
     name_en="Underwood's machine learning criticism",
@@ -831,7 +871,7 @@ add(**C, name_ja="アンダーウッド機械学習文学批評",
     primary_source_type="Wikipedia: Ted Underwood",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"機械学習による文学コーパス分析は、AI時代の文学批評の方法論的最前線であり、AI生成テキスト分析と本質的に連続する。",
          "related_ai_phenomenon":"機械学習文学批評からAI生成分析へ"}],
     cross_domain=[
@@ -902,7 +942,7 @@ add(**C, name_ja="ベウィス『足で読む』",
     primary_source_type="Wikipedia: Timothy Bewes",
     importance_score=3, source_tier="primary", canonical_in_region="minor",
     fourth_axes=[
-        {"axis":"テクスト性","status":"rethinking",
+        {"axis":"作者性","status":"rethinking",
          "rationale":"ポスト・フィクション時代の小説論は、AI生成テキストの登場によるフィクション/非フィクション境界の根本的流動化を理論化する直接的基盤。",
          "related_ai_phenomenon":"AIによるフィクション境界の溶解"}])
 

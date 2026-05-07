@@ -865,6 +865,61 @@ def _attach_cross(concept_name: str, cd_list: list[dict]) -> None:
             return
 
 
+def _attach_axes(concept_name: str, ax_list: list[dict]) -> None:
+    for c in CONCEPTS:
+        if c["name_ja"] == concept_name:
+            existing = c.get("fourth_axes", [])
+            c["fourth_axes"] = existing + ax_list
+            return
+
+
+# Additional fourth_transform tags to reach >= 18 axes
+_attach_axes("バルザック『ゴリオ爺さん』", [
+    {"axis":"主体","status":"rethinking",
+     "rationale":"地方青年のパリ社会上昇譚は、AI時代における主体形成の社会的軌道（プロフィール最適化・キャリア計算）と理論的に並行する。",
+     "related_ai_phenomenon":"AI環境における主体的軌道の社会工学化"}])
+_attach_axes("バルザック『ウジェニー・グランデ』", [
+    {"axis":"受容","status":"rethinking",
+     "rationale":"地方ブルジョワ家庭の蓄財・婚姻論理は、AI時代の家計データ化・婚活アルゴリズム化と歴史的に対比される。",
+     "related_ai_phenomenon":"AI環境における家計・婚姻判断の数値化"}])
+_attach_axes("ハーディ『テス』", [
+    {"axis":"作者性","status":"rethinking",
+     "rationale":"ハーディの自然主義的決定論は人間意志の機械的決定可能性を文学的に問う。AI時代の予測モデル決定論との比較理論化点。",
+     "related_ai_phenomenon":"AI予測モデルにおける人生軌道の決定論"}])
+_attach_axes("ヘンリー・ジェイムズ『大使たち』", [
+    {"axis":"主体","status":"rethinking",
+     "rationale":"中年男ストレザーが欧州体験で変容する物語は、AI環境における主体の再構築・アップデート可能性と理論的に共振する。",
+     "related_ai_phenomenon":"AI環境における主体的経験の更新と再構築"}])
+_attach_axes("ツルゲーネフ『父と子』", [
+    {"axis":"受容","status":"rethinking",
+     "rationale":"ニヒリズム世代論はAI時代の世代間デジタル格差・価値観断絶と理論的に並行する。",
+     "related_ai_phenomenon":"AI時代の世代間デジタル格差・価値観断絶"}])
+_attach_axes("チェーホフ後期戯曲", [
+    {"axis":"言語","status":"rethinking",
+     "rationale":"チェーホフ的サブテクスト（言外の意味）は、AI生成テキストにおける含意・行間の機械的生成可能性を理論化する基準点。",
+     "related_ai_phenomenon":"AI生成テキストにおけるサブテクスト・含意の問題"}])
+_attach_axes("ヴェルガ『マラヴォリア家の人々』", [
+    {"axis":"言語","status":"rethinking",
+     "rationale":"方言リズムを取り込んだ標準語散文の技法は、多言語LLMにおける方言・地域性の機械的再現問題と理論的に並行する。",
+     "related_ai_phenomenon":"多言語LLMにおける方言・地域性の機械的再現"}])
+_attach_axes("ガルドス『フォルトゥナータとハシンタ』", [
+    {"axis":"主体","status":"rethinking",
+     "rationale":"労働者女性と上流ブルジョワ女性の並行物語は、AI環境における階級横断的主体造形の問題と理論的に共振する。",
+     "related_ai_phenomenon":"AI環境における階級・社会層の横断的主体造形"}])
+_attach_axes("ウォートン『歓楽の家』", [
+    {"axis":"受容","status":"rethinking",
+     "rationale":"ニューヨーク上流社会における女性の経済的判断ミスの致命性は、AI時代の評判経済・社会的信用スコアと理論的に対比される。",
+     "related_ai_phenomenon":"AI時代の社会的信用スコア・評判経済"}])
+_attach_axes("ペーター『ルネサンス』", [
+    {"axis":"真正性","status":"rethinking",
+     "rationale":"ペーターの「絶えず宝石のような硬く明晰な炎で燃えること」という美的経験理念は、AI環境で標準化される経験との緊張関係に立つ。",
+     "related_ai_phenomenon":"AI環境における標準化経験 vs 美的個別経験"}])
+_attach_axes("メーテルランク『青い鳥』", [
+    {"axis":"物語","status":"rethinking",
+     "rationale":"象徴主義劇の寓話的物語構造は、AI生成における寓話・象徴の機械的構築可能性と理論的に並行する。",
+     "related_ai_phenomenon":"AI生成における寓話・象徴の機械的構築"}])
+
+
 _attach_cross("バルザック『ゴリオ爺さん』", [
     {"target_db":"AN","link_type":"shared_concept",
      "target_entity_name":"都市民族誌・人類学的観察",
