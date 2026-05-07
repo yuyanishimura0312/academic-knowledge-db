@@ -192,6 +192,10 @@ add(**C, name_ja="ソインカ『死と王の馬丁』",
     primary_source_url=WIKI_EN+"Death_and_the_King%27s_Horseman",
     primary_source_type="Wikipedia: Death and the King's Horseman",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"ソインカの儀礼的自死論は、AI時代の主体・死・倫理の哲学的祖型。",
+         "related_ai_phenomenon":"AI時代の死・主体性の倫理"}],
     cross_domain=[
         {"target_db":"AN","link_type":"shared_concept",
          "target_entity_name":"ヨルバ宗教",
@@ -711,9 +715,13 @@ add(**CAR, name_ja="ユースフ・イドリース『最も安価な夜』",
     background="イドリース医師としての農村医療経験と、エジプト共産党系の政治的傾倒。",
     development="現代エジプト短編文学・口語的散文の正典化。",
     historical_context="ナセル革命直後のエジプト農村変動期。",
-    primary_source_url=WIKI_AR+"%D9%8A%D9%88%D8%B3%D9%81_%D8%A5%D8%AF%D8%B1%D9%8A%D8%B3",
+    primary_source_url=WIKI_AR+"%D9%8A%D9%88%D8%B3%D9%81_%D8%A5%D8%AF%D8%B1%D9%8A%D8%B5",
     primary_source_type="Wikipedia AR: Yusuf Idris",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"エジプト農村社会人類学",
+         "description":"イドリースの農村文学はエジプト農村社会研究（ハミド・アンマール等）と並行する。"}])
 
 add(**CAR, name_ja="タイイブ・サーリフ『ザインの結婚』",
     name_en="Tayeb Salih's The Wedding of Zein",
@@ -791,7 +799,11 @@ add(**C, name_ja="ノヴァイオレット・ブラワヨ『新しい名前は�
     historical_context="2010年代アフリカ・ディアスポラ文学の世界文学化。",
     primary_source_url=WIKI_EN+"We_Need_New_Names",
     primary_source_type="Wikipedia: We Need New Names",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"言語","status":"rethinking",
+         "rationale":"ブラワヨの命名・改名主題は、AI時代のアイデンティティ生成の祖型。",
+         "related_ai_phenomenon":"AIにおけるアイデンティティ命名"}])
 
 add(**C, name_ja="アディーチェ『半分のぼった黄色い太陽』",
     name_en="Adichie's Half of a Yellow Sun",
@@ -833,7 +845,11 @@ add(**C, name_ja="テジュ・コール『オープン・シティ』",
     historical_context="2010年代世界都市文学のポストコロニアル転換期。",
     primary_source_url=WIKI_EN+"Open_City_(novel)",
     primary_source_type="Wikipedia: Open City",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"世界都市・歩行の哲学",
+         "description":"コール作品はベンヤミン的都市散歩・ゼーバルト的記憶散文の脱植民地的再構築。"}])
 
 add(**C, name_ja="セラシ『ガーナは行かねばならない』",
     name_en="Taiye Selasi's Ghana Must Go",

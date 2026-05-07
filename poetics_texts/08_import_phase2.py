@@ -44,12 +44,15 @@ def load_all_texts():
         if items:
             print(f"  {f.name}: {len(items)} texts")
             texts.extend(items)
-    # Claude batch
-    if BATCH_FILE.exists():
-        d = json.loads(BATCH_FILE.read_text())
-        items = d.get("texts", [])
-        print(f"  {BATCH_FILE.name}: {len(items)} texts")
-        texts.extend(items)
+    # Claude batch (07 + 10/11/12 phase5)
+    for batch_name in ["07_batch_generated.json", "10_batch2_greek_roman_china.json",
+                       "11_batch3_japan_buddhist_indic.json", "12_batch4_european.json"]:
+        bf = ROOT / batch_name
+        if bf.exists():
+            d = json.loads(bf.read_text())
+            items = d.get("texts", [])
+            print(f"  {bf.name}: {len(items)} texts")
+            texts.extend(items)
     return texts
 
 

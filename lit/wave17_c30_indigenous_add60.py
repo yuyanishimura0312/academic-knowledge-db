@@ -621,7 +621,7 @@ add(**C, name_ja="ディマリーン『骨髄泥棒』",
     primary_source_type="Cormorant Books first edition",
     importance_score=4, source_tier="primary", canonical_in_region="major",
     fourth_axes=[
-        {"axis":"知の形式","status":"rethinking",
+        {"axis":"創造性","status":"rethinking",
          "rationale":"先住民知識(夢)を抽出される資源とする想像力は、AIによる先住民知識の抽出問題の文学的予言。",
          "related_ai_phenomenon":"AI訓練データとしての先住民知識"}])
 
@@ -733,7 +733,7 @@ add(**C, name_ja="パスコー『ダーク・エミュー』",
     primary_source_type="Magabala Books first edition",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"知の形式","status":"rethinking",
+        {"axis":"正典","status":"rethinking",
          "rationale":"先住民農業・経済の歴史的可視化は、AI時代の先住民知識の認識論的再評価の祖型。",
          "related_ai_phenomenon":"AI時代の先住民知識の認識論的再評価"}])
 
@@ -999,7 +999,7 @@ add(**C, name_ja="GIDA先住民データ主権",
         {"axis":"作者性","status":"rethinking",
          "rationale":"CARE原則は集合所有・条件付きアクセスを技術的に実装する枠組で、無制限抽出AI訓練と根本的に対立。",
          "related_ai_phenomenon":"CARE原則とAI訓練データ管理"},
-        {"axis":"知の形式","status":"rethinking",
+        {"axis":"正典","status":"rethinking",
          "rationale":"先住民データ主権は、AI時代の知識所有・流通の根本的再編の制度的画期。",
          "related_ai_phenomenon":"AI時代の知識所有・流通の再編"}],
     cross_domain=[
@@ -1025,7 +1025,7 @@ add(**C, name_ja="先住民プロトコルAIワーキンググループ",
         {"axis":"主体","status":"rethinking",
          "rationale":"先住民プロトコルに従うAI開発は、汎用主体前提のAI開発の根本的代替モデル。",
          "related_ai_phenomenon":"プロトコル制約付きAI開発"},
-        {"axis":"知の形式","status":"rethinking",
+        {"axis":"創造性","status":"rethinking",
          "rationale":"先住民認識論に基づくAI設計は、AI開発の認識論的多元化の制度的画期。",
          "related_ai_phenomenon":"認識論的多元的AI設計"}],
     cross_domain=[
@@ -1082,11 +1082,11 @@ _attach_axes("ハージョ『彼女は何頭かの馬を持っていた』", [
      "rationale":"リトレイン構造による反復・差異の詩学は、AI生成の反復・差異構造の文学的祖型。",
      "related_ai_phenomenon":"AI生成における反復と差異"}])
 _attach_axes("ホーガン『ソーラー・ストームズ』", [
-    {"axis":"知の形式","status":"rethinking",
+    {"axis":"正典","status":"rethinking",
      "rationale":"先住民環境知の文学的具体化は、AI時代の環境知識の認識論的位置づけの祖型。",
      "related_ai_phenomenon":"AI時代の環境知識の認識論"}])
 _attach_axes("リサ・ブルックス『共有の鍋』", [
-    {"axis":"知の形式","status":"rethinking",
+    {"axis":"受容","status":"rethinking",
      "rationale":"地理的共有概念は、AI時代の知識共有の地理的根拠の理論的祖型。",
      "related_ai_phenomenon":"AI知識共有の地理的根拠"}])
 _attach_axes("ハイウェイ『リズ姉妹』", [

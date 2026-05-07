@@ -65,7 +65,11 @@ add(**C, name_ja="エイミー・タン『ジョイ・ラック・クラブ』",
     fourth_axes=[
         {"axis":"主体","status":"rethinking",
          "rationale":"母娘間の翻訳不能な経験継承は、AIによる経験継承生成の理論的祖型。",
-         "related_ai_phenomenon":"AIによる世代間経験の生成"}])
+         "related_ai_phenomenon":"AIによる世代間経験の生成"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"親族と記憶",
+         "description":"タンの母娘構造は親族人類学の世代間記憶研究と並行する。"}])
 
 add(**C, name_ja="エイミー・タン『キッチン・ゴッドの妻』",
     name_en="Amy Tan's The Kitchen God's Wife",
@@ -154,7 +158,11 @@ add(**C, name_ja="チャンネ・リー『身ぶりの一生』",
     historical_context="1990年代末の戦争記憶政治化期。",
     primary_source_url=WIKI_EN+"A_Gesture_Life",
     primary_source_type="Wikipedia: A Gesture Life",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+    importance_score=3, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"植民地的暴力と記憶",
+         "description":"リーの慰安婦表象は人類学的トラウマ記憶研究と並行する。"}])
 
 add(**C, name_ja="ミン・ジン・リー『億万長者の食卓』",
     name_en="Min Jin Lee's Free Food for Millionaires",
@@ -202,7 +210,11 @@ add(**C, name_ja="モニク・トゥルオン『塩の書』",
     historical_context="2000年代初頭のクィア・ディアスポラ批評の興隆期。",
     primary_source_url=WIKI_EN+"The_Book_of_Salt",
     primary_source_type="Wikipedia: The Book of Salt",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+    importance_score=3, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"クィアの歓待",
+         "description":"トゥルオンのクィア・ディアスポラはデリダの歓待哲学と並行する。"}])
 
 add(**C, name_ja="ル・ティ・ジエム・トゥイ『私たちが探していたギャングスター』",
     name_en="Le Thi Diem Thuy's The Gangster We Are All Looking For",
@@ -323,7 +335,11 @@ add(**C, name_ja="エドウィージ・ダンティカ『骨の収穫』",
     historical_context="1990年代後半の米国エスニック文学の歴史的事件への注目期。",
     primary_source_url=WIKI_EN+"The_Farming_of_Bones",
     primary_source_type="Wikipedia: The Farming of Bones",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"虐殺記憶と人類学",
+         "description":"ダンティカのパセリ虐殺表象は虐殺記憶人類学（タウシグ、フェルドマン）と並行する。"}])
 
 add(**C, name_ja="マーロン・ジェイムズ『七つの殺人の簡潔な歴史』",
     name_en="Marlon James's A Brief History of Seven Killings",
@@ -401,19 +417,6 @@ add(**C, name_ja="エドゥアール・グリッサン『裂け目』",
     primary_source_url=WIKI_EN+"%C3%89douard_Glissant",
     primary_source_type="Wikipedia: Édouard Glissant",
     importance_score=3, source_tier="primary", canonical_in_region="major")
-
-add(**C, name_ja="シモーヌ・シュヴァルツ=バルト『風と雨のテリュメ・ミラクル』",
-    name_en="Simone Schwarz-Bart's The Bridge of Beyond",
-    name_original="Pluie et vent sur Télumée Miracle",
-    period_key="ポストコロニアル・ディアスポラ期",
-    definition="シモーヌ・シュヴァルツ=バルト（1938-）が1972年に発表したグアドループの女性四世代物語。クレオール口承の女性版として、奴隷後カリブの女性の記憶と生活誌を詩的に展開した。",
-    background="1970年代カリブ・フランコフォン文学への女性側の貢献。",
-    development="フランコフォン・カリブ女性文学の規範作の一つとなった。",
-    historical_context="1970年代仏領アンティルの女性作家興隆期。",
-    primary_source_url=WIKI_EN+"Simone_Schwarz-Bart",
-    primary_source_type="Wikipedia: Simone Schwarz-Bart",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
-
 
 # ============================================================
 # E: Black British (5)
@@ -539,7 +542,15 @@ add(**C, name_ja="フィリップ・ロス『アメリカン・パストラル�
     historical_context="1990年代末米国歴史小説興隆期。",
     primary_source_url=WIKI_EN+"American_Pastoral",
     primary_source_type="Wikipedia: American Pastoral",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
+    importance_score=5, source_tier="secondary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"米国同化主体の崩壊は、AI時代の集合主体崩壊の理論的祖型。",
+         "related_ai_phenomenon":"集合主体崩壊"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"アメリカ理想と幻滅",
+         "description":"ロスのアメリカ批判はリチャード・ローティの哲学的アメリカ論議と並行する。"}])
 
 add(**C, name_ja="シンシア・オジック『ショール』",
     name_en="Cynthia Ozick's The Shawl", name_original="The Shawl",
@@ -550,7 +561,15 @@ add(**C, name_ja="シンシア・オジック『ショール』",
     historical_context="1980年代後半米国ホロコースト記憶政治化期。",
     primary_source_url=WIKI_EN+"The_Shawl_(short_story)",
     primary_source_type="Wikipedia: The Shawl",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"真正性","status":"rethinking",
+         "rationale":"ホロコースト経験の文学的表象の倫理は、AI生成によるトラウマ表象問題の祖型。",
+         "related_ai_phenomenon":"AI生成トラウマ表象の倫理"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"アドルノ以後の表象",
+         "description":"オジックのホロコースト表象はアドルノ「アウシュヴィッツ後の詩」論議と直結する。"}])
 
 add(**C, name_ja="ニコール・クラウス『愛の歴史』",
     name_en="Nicole Krauss's The History of Love",
