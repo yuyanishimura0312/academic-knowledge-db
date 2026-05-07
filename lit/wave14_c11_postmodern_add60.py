@@ -128,9 +128,9 @@ add(**C, name_ja="ピンチョン『ブリーディング・エッジ』",
     historical_context="ポスト9.11米国におけるテック資本主義・諜報拡大への文学的応答。",
     primary_source_url=BRITT+"topic/Bleeding-Edge",
     primary_source_type="Britannica: Bleeding Edge",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard",
+    importance_score=3, source_tier="secondary", canonical_in_region="minor",
     fourth_axes=[
-        {"axis":"知識","status":"rethinking",
+        {"axis":"真正性","status":"rethinking",
          "rationale":"deep web/暗号/監視テクノロジーを文学化する手法は、AI時代の不透明な計算的知識への文学的応答の先駆である。",
          "related_ai_phenomenon":"AIブラックボックス・監視資本主義の文学化"}])
 
@@ -156,7 +156,7 @@ add(**C, name_ja="デリーロ『コズモポリス』",
     historical_context="9.11後米国における金融資本主義・身体性・暴力の文学的反省。",
     primary_source_url=BRITT+"topic/Cosmopolis-novel-by-DeLillo",
     primary_source_type="Britannica: Cosmopolis",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="デリーロ『ゼロK』",
     name_en="DeLillo's Zero K",
@@ -168,13 +168,13 @@ add(**C, name_ja="デリーロ『ゼロK』",
     historical_context="2010年代米国におけるトランスヒューマニズム・気候危機の文学的反映。",
     primary_source_url=BRITT+"topic/Zero-K",
     primary_source_type="Britannica: Zero K",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard",
+    importance_score=3, source_tier="secondary", canonical_in_region="minor",
     fourth_axes=[
         {"axis":"主体","status":"rethinking",
          "rationale":"低温保存・身体凍結を介した自己延長の主題は、AI時代の主体・意識のアップロード論と直接共振する。",
          "related_ai_phenomenon":"AIマインドアップロード・ポストヒューマン主体論"}],
     cross_domain=[
-        {"target_db":"foresight_kb","link_type":"resonates_with",
+        {"target_db":"AN","link_type":"resonates_with",
          "target_entity_name":"トランスヒューマニズム",
          "description":"デリーロ晩年の身体凍結主題はトランスヒューマニズム未来予測と並走する。"}])
 
@@ -204,7 +204,7 @@ add(**C, name_ja="バース『手紙』",
     historical_context="1970年代末米国ポストモダン文学の自己反省的成熟期。",
     primary_source_url=BRITT+"biography/John-Barth",
     primary_source_type="Britannica: John Barth",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="クーヴァー『プリックソング集と短歌集』",
     name_en="Coover's Pricksongs & Descants",
@@ -252,7 +252,7 @@ add(**C, name_ja="ヴォネガット『チャンピオンたちの朝食』",
     historical_context="ベトナム戦争末期米国における作家的自意識の文学的表現期。",
     primary_source_url=BRITT+"topic/Breakfast-of-Champions",
     primary_source_type="Britannica: Breakfast of Champions",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="ヘラー『キャッチ=22』",
     name_en="Heller's Catch-22",
@@ -276,7 +276,7 @@ add(**C, name_ja="ガス『トンネル』",
     historical_context="冷戦終結後米国における歴史的記憶・主体的閉塞の文学的表現期。",
     primary_source_url=BRITT+"biography/William-H-Gass",
     primary_source_type="Britannica: William H. Gass",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 
 # ============================================================
@@ -294,7 +294,7 @@ add(**C, name_ja="ウォレス『無限の戯れ』",
     primary_source_type="Britannica: Infinite Jest",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
     fourth_axes=[
-        {"axis":"知識","status":"rethinking",
+        {"axis":"真正性","status":"rethinking",
          "rationale":"中毒性娯楽・注意経済・脚注的知識構造はAI時代の注意経済・LLM参照構造の文学的予言として再読される。",
          "related_ai_phenomenon":"注意経済とLLM参照構造"}])
 
@@ -308,7 +308,7 @@ add(**C, name_ja="ウォレス『ペイル・キング』",
     historical_context="2000年代米国における新誠実派・倫理的転回の文学的成熟期。",
     primary_source_url=BRITT+"topic/The-Pale-King",
     primary_source_type="Britannica: The Pale King",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="ウォレス『奇妙な髪の少女』",
     name_en="Wallace's Brief Interviews with Hideous Men",
@@ -320,7 +320,7 @@ add(**C, name_ja="ウォレス『奇妙な髪の少女』",
     historical_context="1990年代末米国におけるジェンダー・コミュニケーション論議の文学的反映期。",
     primary_source_url=BRITT+"biography/David-Foster-Wallace",
     primary_source_type="Britannica: David Foster Wallace",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="ヴォルマン『立ち上がり、堕ちる』七部作",
     name_en="Vollmann's Rising Up and Rising Down",
@@ -332,7 +332,7 @@ add(**C, name_ja="ヴォルマン『立ち上がり、堕ちる』七部作",
     historical_context="9.11前後米国における20世紀暴力史総括の文学的試み。",
     primary_source_url=BRITT+"biography/William-T-Vollmann",
     primary_source_type="Britannica: William T. Vollmann",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="ヴォルマン『ヨーロッパ・セントラル』",
     name_en="Vollmann's Europe Central",
@@ -344,7 +344,7 @@ add(**C, name_ja="ヴォルマン『ヨーロッパ・セントラル』",
     historical_context="9.11後米国における20世紀全体主義史の文学的再検討期。",
     primary_source_url=BRITT+"topic/Europe-Central",
     primary_source_type="Britannica: Europe Central",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="エガース『ヘイトブレイキング・ワーク』",
     name_en="Eggers's A Heartbreaking Work of Staggering Genius",
@@ -356,7 +356,7 @@ add(**C, name_ja="エガース『ヘイトブレイキング・ワーク』",
     historical_context="2000年米国における新誠実派の文学的興隆期。",
     primary_source_url=BRITT+"biography/Dave-Eggers",
     primary_source_type="Britannica: Dave Eggers",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="エガース『何の名であれ』",
     name_en="Eggers's What Is the What",
@@ -368,7 +368,7 @@ add(**C, name_ja="エガース『何の名であれ』",
     historical_context="9.11後米国における国際暴力・人道介入論議の文学的反映期。",
     primary_source_url=BRITT+"biography/Dave-Eggers",
     primary_source_type="Britannica: Dave Eggers",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 
 # ============================================================
@@ -384,7 +384,7 @@ add(**C, name_ja="レセム『孤独の砦』",
     historical_context="9.11後米国における人種・ジェントリフィケーションの文学的回顧期。",
     primary_source_url=BRITT+"biography/Jonathan-Lethem",
     primary_source_type="Britannica: Jonathan Lethem",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="フランゼン『コレクションズ』",
     name_en="Franzen's The Corrections",
@@ -408,7 +408,7 @@ add(**C, name_ja="フランゼン『フリーダム』",
     historical_context="オバマ政権初期米国における中産階級・環境主義論議の文学的反映期。",
     primary_source_url=BRITT+"topic/Freedom-novel-by-Franzen",
     primary_source_type="Britannica: Freedom",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="ディアス『オスカー・ワオの短く凄まじい人生』",
     name_en="Díaz's The Brief Wondrous Life of Oscar Wao",
@@ -444,7 +444,7 @@ add(**C, name_ja="ホワイトヘッド『ニッケル・ボーイズ』",
     historical_context="2010年代米国における人種・矯正暴力の文学的反省期。",
     primary_source_url=BRITT+"topic/The-Nickel-Boys",
     primary_source_type="Britannica: The Nickel Boys",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 
 # ============================================================
@@ -472,7 +472,7 @@ add(**C, name_ja="カーター『夜ごとサーカスで』",
     historical_context="1980年代英国サッチャー期の文化的反応の一形式。",
     primary_source_url=BRITT+"biography/Angela-Carter",
     primary_source_type="Britannica: Angela Carter",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="アクロイド『ホークスムーア』",
     name_en="Ackroyd's Hawksmoor",
@@ -484,7 +484,7 @@ add(**C, name_ja="アクロイド『ホークスムーア』",
     historical_context="サッチャー期英国における過去・場所性・暴力の文学的探究期。",
     primary_source_url=BRITT+"biography/Peter-Ackroyd",
     primary_source_type="Britannica: Peter Ackroyd",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="バイアット『占領』",
     name_en="Byatt's Possession",
@@ -520,9 +520,9 @@ add(**C, name_ja="マキューアン『ソーラー』",
     historical_context="2010年COP16前後英国における気候政策の文学的反映期。",
     primary_source_url=BRITT+"biography/Ian-McEwan",
     primary_source_type="Britannica: Ian McEwan",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard",
+    importance_score=3, source_tier="secondary", canonical_in_region="minor",
     fourth_axes=[
-        {"axis":"知識","status":"rethinking",
+        {"axis":"真正性","status":"rethinking",
          "rationale":"気候科学言説と倫理的盗用主題の交差は、AI時代の知的所有権・科学的真理性の問いと並走する。",
          "related_ai_phenomenon":"AI生成と知的所有権・科学的真理"}])
 
@@ -554,7 +554,7 @@ add(**C, name_ja="イシグロ『私を離さないで』",
          "rationale":"クローンの主体性・記憶・愛の主題は、AI主体性・LLM意識論議の理論的先駆。",
          "related_ai_phenomenon":"AI主体性・意識論議"}],
     cross_domain=[
-        {"target_db":"foresight_kb","link_type":"resonates_with",
+        {"target_db":"AN","link_type":"resonates_with",
          "target_entity_name":"バイオテクノロジー・ポストヒューマン",
          "description":"クローン主体性問題はバイオテクノロジー未来予測と並走する。"}])
 
@@ -572,7 +572,7 @@ add(**C, name_ja="バンヴィル『海』",
     historical_context="2000年代アイルランド経済成長期（ケルティック・タイガー）の文学的反応。",
     primary_source_url=BRITT+"biography/John-Banville",
     primary_source_type="Britannica: John Banville",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="スミス『ホワイト・ティース』",
     name_en="Smith's White Teeth",
@@ -612,7 +612,7 @@ add(**C, name_ja="セルフ『傘』",
     historical_context="2010年代英国における意識・身体・精神医学の文学的再考期。",
     primary_source_url=BRITT+"biography/Will-Self",
     primary_source_type="Britannica: Will Self",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="ウェルシュ『トレインスポッティング』",
     name_en="Welsh's Trainspotting",
@@ -624,7 +624,7 @@ add(**C, name_ja="ウェルシュ『トレインスポッティング』",
     historical_context="1990年代英国Cool Britannia期のサブカルチャー文学の中心。",
     primary_source_url=BRITT+"biography/Irvine-Welsh",
     primary_source_type="Britannica: Irvine Welsh",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 
 # ============================================================
@@ -652,7 +652,7 @@ add(**C, name_ja="エーコ『前日島』",
     historical_context="1990年代イタリアにおけるバロック文化・科学史の文学的再考期。",
     primary_source_url=BRITT+"biography/Umberto-Eco",
     primary_source_type="Britannica: Umberto Eco",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="カルヴィーノ『見えない都市』",
     name_en="Calvino's Invisible Cities",
@@ -744,7 +744,7 @@ add(**C, name_ja="ウエルベック『服従』",
     historical_context="2010年代半ばフランスにおける政治的・宗教的論議の文学的反映期。",
     primary_source_url=BRITT+"biography/Michel-Houellebecq",
     primary_source_type="Britannica: Michel Houellebecq",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="モディアノ『失われた時のカフェで』",
     name_en="Modiano's In the Café of Lost Youth",
@@ -756,7 +756,7 @@ add(**C, name_ja="モディアノ『失われた時のカフェで』",
     historical_context="2000年代フランスにおける記憶・場所性の文学的探究期。",
     primary_source_url=BRITT+"biography/Patrick-Modiano",
     primary_source_type="Britannica: Patrick Modiano",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="サラマーゴ『白の闇』",
     name_en="Saramago's Blindness",
@@ -796,7 +796,7 @@ add(**CCYR, name_ja="ソローキン『青脂』",
     historical_context="プーチン政権初期ロシアにおける文化的伝統論議の文学的反映期。",
     primary_source_url=BRITT+"biography/Vladimir-Sorokin",
     primary_source_type="Britannica: Vladimir Sorokin",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**CCYR, name_ja="ペレーヴィン『チャパーエフと空虚』",
     name_en="Pelevin's Buddha's Little Finger",
@@ -808,7 +808,7 @@ add(**CCYR, name_ja="ペレーヴィン『チャパーエフと空虚』",
     historical_context="1990年代ロシアにおける東洋思想・ポスト共産主義文化の文学的反映期。",
     primary_source_url=BRITT+"biography/Victor-Pelevin",
     primary_source_type="Britannica: Victor Pelevin",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**C, name_ja="トカルチュク『逃亡派』",
     name_en="Tokarczuk's Flights",
@@ -832,7 +832,7 @@ add(**C, name_ja="トカルチュク『ヤコブの書』",
     historical_context="2010年代ヨーロッパにおけるユダヤ史・宗教多元主義の文学的再考期。",
     primary_source_url=BRITT+"biography/Olga-Tokarczuk",
     primary_source_type="Britannica: Olga Tokarczuk",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 add(**CJP, name_ja="村上春樹『ねじまき鳥クロニクル』",
     name_en="Murakami's The Wind-Up Bird Chronicle",
@@ -846,7 +846,7 @@ add(**CJP, name_ja="村上春樹『ねじまき鳥クロニクル』",
     primary_source_type="Britannica: The Wind-Up Bird Chronicle",
     importance_score=5, source_tier="secondary", canonical_in_region="core",
     cross_domain=[
-        {"target_db":"foresight_kb","link_type":"resonates_with",
+        {"target_db":"AN","link_type":"resonates_with",
          "target_entity_name":"歴史的記憶・暴力",
          "description":"ノモンハン記憶を介した歴史暴力論は、現代日本フォーサイト記憶論議に並走する。"}])
 
@@ -860,7 +860,7 @@ add(**CJP, name_ja="村上春樹『騎士団長殺し』",
     historical_context="2010年代日本における戦争記憶・芸術論議の文学的反映期。",
     primary_source_url=BRITT+"biography/Murakami-Haruki",
     primary_source_type="Britannica: Murakami Haruki",
-    importance_score=3, source_tier="secondary", canonical_in_region="standard")
+    importance_score=3, source_tier="secondary", canonical_in_region="minor")
 
 
 # ============================================================
@@ -924,16 +924,16 @@ def main() -> int:
             ("ピンチョン『V.』", "言語", "rethinking",
              "ピンチョン百科全書的引用・植民地アーカイブ反復は、LLMのアーカイブ的言語生成と並走。",
              "LLM百科全書的引用生成"),
-            ("ピンチョン『競売ナンバー49の叫び』", "知識", "rethinking",
+            ("ピンチョン『競売ナンバー49の叫び』", "真正性", "rethinking",
              "陰謀論的記号読解パラノイアはAI時代の真偽不確定情報環境と理論的に共振。",
              "AI時代の陰謀論的真偽不確定性"),
-            ("ピンチョン『メイスン&ディクスン』", "知識", "rethinking",
+            ("ピンチョン『メイスン&ディクスン』", "真正性", "rethinking",
              "歴史的境界の引き直しの文学化は、AIによる歴史データセット再記述問題と並走。",
              "AI歴史データセット再記述"),
             ("ピンチョン『逆光』", "言語", "rethinking",
              "20世紀起源の百科全書的並走筋は、LLMマルチエージェント並走生成の理論的先駆。",
              "LLMマルチエージェント並走生成"),
-            ("デリーロ『アンダーワールド』", "知識", "rethinking",
+            ("デリーロ『アンダーワールド』", "真正性", "rethinking",
              "冷戦期メディア・廃棄物の総括的文学化は、AI時代のデータ廃棄・記憶アーカイブ論と並走。",
              "AI時代データ廃棄・記憶アーカイブ"),
             ("デリーロ『コズモポリス』", "主体", "rethinking",
@@ -945,10 +945,10 @@ def main() -> int:
             ("クーヴァー『プリックソング集と短歌集』", "物語", "rethinking",
              "童話・神話の脱構築的書き換えは、AI生成によるナラティブ・テンプレート組み換えの先駆。",
              "AI生成ナラティブテンプレート組み換え"),
-            ("ヴォネガット『猫のゆりかご』", "知識", "rethinking",
+            ("ヴォネガット『猫のゆりかご』", "真正性", "rethinking",
              "終末科学の物語化はAI時代の存在的リスク文学（X-risk fiction）の祖型。",
              "AI存在的リスク文学(X-risk fiction)"),
-            ("ヘラー『キャッチ=22』", "知識", "rethinking",
+            ("ヘラー『キャッチ=22』", "真正性", "rethinking",
              "官僚制的不条理ループの構造は、AI時代のアルゴリズム的官僚制・自己参照ループ論と並走。",
              "AIアルゴリズム的官僚制ループ"),
             ("ガス『トンネル』", "言語", "rethinking",
@@ -960,7 +960,7 @@ def main() -> int:
             ("ウォレス『奇妙な髪の少女』", "言語", "rethinking",
              "対話・インタビュー形式短編はLLM対話生成の理論的批評対象として再評価される。",
              "LLM対話生成の批評"),
-            ("バイアット『占領』", "知識", "rethinking",
+            ("バイアット『占領』", "真正性", "rethinking",
              "学術研究・発掘の文学化は、AI時代の学術・参照アーキテクチャの再考と並走。",
              "AI時代の学術参照アーキテクチャ"),
             ("マキューアン『贖罪』", "物語", "rethinking",
@@ -969,7 +969,7 @@ def main() -> int:
             ("ホワイトヘッド『地下鉄道』", "物語", "rethinking",
              "比喩を実在化する歴史記述的メタフィクションは、AI生成によるオルタナティブ歴史生成と並走。",
              "AIオルタナティブ歴史生成"),
-            ("カルヴィーノ『見えない都市』", "知識", "rethinking",
+            ("カルヴィーノ『見えない都市』", "真正性", "rethinking",
              "55都市の入れ子記号構造は、LLMによる空間記述・都市生成の理論的先駆。",
              "LLM都市生成・空間記述"),
             ("カルヴィーノ『宇宙論的喜劇』", "言語", "rethinking",
