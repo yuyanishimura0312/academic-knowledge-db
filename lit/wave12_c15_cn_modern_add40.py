@@ -523,7 +523,11 @@ add(**C, name_ja="王安憶『長恨歌』",
     historical_context="1990年代上海浦東開発・都市再開発と、それに伴う旧上海の歴史的喪失感。",
     primary_source_url=WIKI_ZH+"長恨歌_(小說)",
     primary_source_type="維基百科: 長恨歌 (小說)",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"都市物質文化の民族誌",
+         "description":"王安憶『長恨歌』の上海弄堂物質文化描写は、20世紀都市民族誌の文学的並行物として位置づけられる。"}])
 
 add(**C, name_ja="厳歌苓",
     name_en="Yan Geling",
@@ -547,7 +551,15 @@ add(**C, name_ja="白先勇『臺北人』",
     historical_context="1949年国民党敗退後の台湾外省人社会の集団的喪失と、それを文学化する世代的需要。",
     primary_source_url=WIKI_ZH+"臺北人",
     primary_source_type="維基百科: 臺北人",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"rethinking",
+         "rationale":"白先勇の外省人喪失文学はディアスポラ的主体形成を文学化する。AI時代における離散的・越境的アイデンティティ生成の文学的祖型。",
+         "related_ai_phenomenon":"AI時代のディアスポラ的・越境的主体生成"}],
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"ディアスポラと喪失",
+         "description":"白先勇『臺北人』は1949年大陸移住者のディアスポラ的喪失を文学化し、ディアスポラ研究の文学的事例となる。"}])
 
 add(**C, name_ja="西西",
     name_en="Xi Xi",
@@ -559,7 +571,11 @@ add(**C, name_ja="西西",
     historical_context="1970年代以降の香港文学アイデンティティ形成期と、英国植民地末期の都市文学興隆。",
     primary_source_url=WIKI_ZH+"西西_(作家)",
     primary_source_type="維基百科: 西西 (作家)",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+    importance_score=4, source_tier="secondary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"西西のメタフィクション・コラージュ・グラフィック融合手法は、AI時代におけるマルチモーダル生成の文学的祖型として再読される。",
+         "related_ai_phenomenon":"AIマルチモーダル生成と実験的文学形式"}])
 
 add(**C, name_ja="馬華文学",
     name_en="Mahua literature (Malaysian Chinese)",
