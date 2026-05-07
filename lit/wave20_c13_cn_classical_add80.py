@@ -104,39 +104,6 @@ add(**C, name_ja="姚際恒『詩經通論』", name_en="Yao Jiheng's Shijing To
     primary_source_type="維基百科: 詩經通論",
     importance_score=4, source_tier="secondary", canonical_in_region="major")
 
-add(**C, name_ja="段玉裁詩經小学", name_en="Duan Yucai's philological Shijing studies",
-    name_original="毛詩故訓傳定本小箋", period_key="清",
-    definition="清考証学者段玉裁（1735-1815）の詩経音韻訓詁研究。『毛詩故訓傳定本小箋』『六書音均表』により詩経古音を厳密に再構し、清代乾嘉小学の頂点を示した。",
-    background="清乾嘉考証学の音韻訓詁学的成熟。",
-    development="王念孫・王引之父子に継承、現代漢語音韻学の基礎。",
-    historical_context="乾嘉学派の最盛期。",
-    primary_source_url=WIKI_ZH+"段玉裁",
-    primary_source_type="維基百科: 段玉裁",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
-
-add(**C, name_ja="馬瑞辰『毛詩傳箋通釋』",
-    name_en="Ma Ruichen's Mao Shi Zhuan Jian Tongshi",
-    name_original="毛詩傳箋通釋", period_key="清",
-    definition="清馬瑞辰（1782-1853）の毛伝鄭箋総合注釈32巻。乾嘉考証学の方法で毛伝鄭箋の異同を体系的に整理し、清代詩経学の集大成的著作の一。",
-    background="清中期考証学詩経学の成熟。",
-    development="陳奐『詩毛氏傳疏』と並び清代詩経注釈学の双璧。",
-    historical_context="清道光期考証学の制度化。",
-    primary_source_url=WIKI_ZH+"馬瑞辰",
-    primary_source_type="維基百科: 馬瑞辰",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
-
-add(**C, name_ja="陳奐『詩毛氏傳疏』",
-    name_en="Chen Huan's Shi Mao Shi Zhuan Shu",
-    name_original="詩毛氏傳疏", period_key="清",
-    definition="清陳奐（1786-1863）が毛伝のみを疏解した30巻の労作。鄭箋を排し純粋に毛伝を発展させる清代古文学の理念を体現。清代詩経注釈の規範。",
-    background="清代古文学派による毛伝独尊運動。",
-    development="清末民国の伝統詩経学の集成。",
-    historical_context="道光咸豊期の経学伝統最盛期。",
-    primary_source_url=WIKI_ZH+"陳奐",
-    primary_source_type="維基百科: 陳奐",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
-
-
 # ============================================================
 # B: 楚辞注疏 (5)
 # ============================================================
@@ -186,18 +153,6 @@ add(**C, name_ja="王夫之『楚辞通釋』",
     fourth_transform_status="rethinking",
     fourth_transform_note="王夫之楚辞通釈は遺民の自己投影を介した古典解釈の典型。AI時代の主体的読解と歴史的アイデンティティ再構築の祖型。")
 
-add(**C, name_ja="姜亮夫『楚辞通故』",
-    name_en="Jiang Liangfu's Chuci Tonggu",
-    name_original="楚辭通故", period_key="清",
-    definition="現代姜亮夫（1902-1995）の楚辞総合研究。古代楚地の地理・歴史・神話・宗教・名物を考証し、楚辞研究の近代的科学化を達成した記念碑的著作（1954初版）。",
-    background="20世紀中国古典学の近代的科学化運動。",
-    development="現代楚辞学・神話学研究の方法的範型。",
-    historical_context="20世紀中葉中国古典学制度化。",
-    primary_source_url=WIKI_ZH+"姜亮夫",
-    primary_source_type="維基百科: 姜亮夫",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
-
-
 # ============================================================
 # C: 漢代散文補完 (10)
 # ============================================================
@@ -222,17 +177,6 @@ add(**C, name_ja="漢書十志・八表",
     primary_source_url=CTEXT+"han-shu",
     primary_source_type="CTEXT: 漢書",
     importance_score=5, source_tier="primary", canonical_in_region="core")
-
-add(**C, name_ja="後漢書類伝",
-    name_en="Categorical biographies of Hou Hanshu",
-    name_original="後漢書類傳", period_key="魏晋南北朝",
-    definition="范曄『後漢書』90篇のうち党錮・宦者・儒林・文苑・獨行・方術・逸民・列女・東夷等の類伝。同類人物を主題的に纏める形式は『史記』の刺客・游俠等を発展させ、後世正史の規範となった。",
-    background="劉宋元嘉期の歴史編纂と類伝形式の精緻化。",
-    development="後世正史類伝体（晉書・宋書等）への影響。",
-    historical_context="南朝劉宋史学興隆期。",
-    primary_source_url=CTEXT+"hou-han-shu",
-    primary_source_type="CTEXT: 後漢書",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
 
 add(**C, name_ja="裴松之『三國志注』",
     name_en="Pei Songzhi's Sanguo Zhi Annotations",
