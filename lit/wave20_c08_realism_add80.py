@@ -546,17 +546,17 @@ add(**C, name_ja="ヴェルガ『虎の女王』",
     primary_source_type="Wikisource: Tigre reale",
     importance_score=3, source_tier="primary", canonical_in_region="minor")
 
-add(**C, name_ja="ヴェルガ『田舎の小説集』",
-    name_en="Verga's Novelle rusticane",
-    name_original="Novelle rusticane",
+add(**C, name_ja="ヴェルガ『カヴァレリーア・ルスティカーナ』",
+    name_en="Verga's Cavalleria rusticana",
+    name_original="Cavalleria rusticana",
     period_key="イタリア・ヴェリズモ期",
-    definition="ヴェルガが1883年に発表したシチリア農村短編集。「自由主義」「マラリア」等12篇収録で、シチリア農村社会の貧困・宗教・移民を観察した。",
-    background="19世紀末シチリア農村社会の経済構造観察。",
-    development="20世紀イタリア地方リアリズム短編に継承。",
+    definition="ヴェルガが1880年に発表した短編。シチリア農村の名誉殺人と決闘を簡潔に描き、1890年マスカーニ歌劇化でヴェリズモ・オペラの起点となった世界文学的代表作。",
+    background="19世紀末シチリア農村の名誉文化観察。",
+    development="マスカーニ歌劇化、20世紀ヴェリズモ・オペラ運動の起点。",
     historical_context="19世紀末イタリア統一後南部問題。",
-    primary_source_url=WSRC_IT+"Novelle_rusticane",
-    primary_source_type="Wikisource: Novelle rusticane",
-    importance_score=3, source_tier="primary", canonical_in_region="minor")
+    primary_source_url=WSRC_IT+"Cavalleria_rusticana",
+    primary_source_type="Wikisource: Cavalleria rusticana",
+    importance_score=4, source_tier="primary", canonical_in_region="major")
 
 add(**C, name_ja="ピランデッロ『一人、誰でもなく、十万人』",
     name_en="Pirandello's Uno, nessuno e centomila",
