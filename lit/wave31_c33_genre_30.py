@@ -171,14 +171,12 @@ def main() -> int:
                     definition=defn,
                     importance_score=4,
                     source_tier="secondary",
-                    canonical_in_region="adjacent",
+                    canonical_in_region="major",
                 )
-                # Detect skip (existing) by re-querying — simple heuristic via print logs
                 inserted += 1
             except LitDBError as e:
                 print(f"[error] {c['name_ja']}: {e}")
                 skipped += 1
-        db.commit()
     print(f"[done] processed {inserted}, errors {skipped}")
     return 0
 
