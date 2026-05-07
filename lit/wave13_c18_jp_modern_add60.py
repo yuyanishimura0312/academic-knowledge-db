@@ -67,7 +67,11 @@ add(**C, name_ja="二葉亭四迷『浮雲』",
     historical_context="明治20年代の自由民権運動退潮と、近代国家形成期の青年知識人の懊悩。",
     primary_source_url=AOZORA+"cards/000006/card1424.html",
     primary_source_type="青空文庫: 浮雲",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    cross_domain=[
+        {"target_db":"AN","link_type":"shared_concept",
+         "target_entity_name":"言文一致と近代化",
+         "description":"二葉亭の言文一致は、日本の近代化過程における話し言葉と書き言葉の統合を文学的に主導した、人類学的言語実践の中核事例。"}])
 
 add(**C, name_ja="二葉亭四迷『平凡』",
     name_en="Futabatei Shimei's Heibon",
