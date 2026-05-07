@@ -1,0 +1,103 @@
+#!/usr/bin/env python3
+"""Generate 40 self-contained Codex task prompts from task_definitions.json."""
+import json
+import os
+from pathlib import Path
+
+ROOT = Path(__file__).parent
+DEFS = json.loads((ROOT / "task_definitions.json").read_text(encoding="utf-8"))
+PROMPT_DIR = ROOT / "prompts"
+PROMPT_DIR.mkdir(exist_ok=True)
+
+TARGET_PER_TASK = 200
+
+PROMPT_TEMPLATE = """あなたは学術知識DB構築チームの大規模並列収集エージェントの一員です。{cluster}クラスター（タスクID: {task_id}）を担当します。
+
+## あなたのミッション
+学問分野「{domain_label}」の以下のサブフィールド群について、合計 {target} 件の重要概念・理論・モデル・運動を収集し、JSON配列で出力してください。
+
+## 担当サブフィールド
+{subfields_block}
+
+## 必須収録対象（最低でもこれらを含めること）
+{must_include_block}
+
+## カバレッジ要求（重要）
+- 創設期（1900年以前から1960年代）: 全体の20-30%
+- 発展期（1970-2000年）: 全体の30-40%
+- 現代（2000-2014年）: 全体の25-35%
+- 最新（2015-2025年）: **全体の20-30%（必ず含める）**
+- 西欧偏重を避け、アジア・ラテンアメリカ・アフリカ起源の理論を最低15%含める
+- 各サブフィールドに均等に概念を割り当てる（最大/最小 < 2倍）
+
+## 出力形式（厳格JSON配列のみ。説明テキストは出力しない）
+```json
+[
+  {{
+    "name_ja": "理論の日本語名",
+    "name_en": "Theory Name in English",
+    "name_original": "原語表記（該当する場合）",
+    "definition": "150-300文字の定義文。何を主張する理論か、何を説明するかを明記",
+    "impact_summary": "学術・社会への影響を50-150文字で",
+    "subfield": "上記サブフィールドリストの完全一致文字列",
+    "school_of_thought": "学派・流派名",
+    "era_start": 1985,
+    "era_end": null,
+    "methodology_level": "概念/方法/モデル/フレームワーク のいずれか",
+    "target_domain": "応用先・対象領域",
+    "application_conditions": "適用条件",
+    "when_to_apply": "いつ使うか",
+    "framing_questions": "この理論が問いかける問い（複数なら ; で区切る）",
+    "opposing_concept_names": "対立する概念名（複数なら ; で区切る）",
+    "keywords_ja": "キーワード1,キーワード2,キーワード3",
+    "keywords_en": "keyword1,keyword2,keyword3",
+    "key_researchers": ["主要研究者1", "主要研究者2"],
+    "key_works": ["著作名1 (年)", "著作名2 (年)"]
+  }}
+]
+```
+
+## 品質基準
+1. **重複ゼロ**: name_en で重複しない
+2. **充填100%**: definition / subfield / era_start / school_of_thought は必須
+3. **検証可能性**: key_researchers と key_works は実在する人物・著作のみ。確証がなければそのエントリを出力しない
+4. **ハルシネーション禁止**: 知らない理論を「それらしく」捏造しない。確証のあるものだけ
+5. **件数より正確性**: {target}件未満でも、検証済みのみで出力する
+
+## 出力先
+標準出力にJSON配列だけを出力してください（コードフェンス不要、説明文不要）。
+
+## 開始
+今すぐ {target} 件の収集を開始してください。
+"""
+
+DOMAIN_LABELS = {
+    "humanities": "人文学",
+    "social": "社会科学",
+    "natural": "自然科学",
+    "engineering": "工学",
+    "arts": "芸術・デザイン",
+}
+
+
+def main() -> None:
+    for task in DEFS["tasks"]:
+        subfields_block = "\n".join(f"- {s}" for s in task["subfields"])
+        must = task.get("must_include", [])
+        must_block = "\n".join(f"- {m}" for m in must) if must else "- （クラスター内の創設者・転換点・現代発展・主要批判の各代表理論を必ず含める）"
+        prompt = PROMPT_TEMPLATE.format(
+            cluster=task["cluster"],
+            task_id=task["id"],
+            domain_label=DOMAIN_LABELS[task["domain"]],
+            target=TARGET_PER_TASK,
+            subfields_block=subfields_block,
+            must_include_block=must_block,
+        )
+        out = PROMPT_DIR / f"{task['id']}_{task['cluster'].replace('・', '_').replace('/', '_')}.md"
+        out.write_text(prompt, encoding="utf-8")
+        print(f"wrote {out.name}")
+    print(f"\nTotal: {len(DEFS['tasks'])} prompts → {PROMPT_DIR}")
+
+
+if __name__ == "__main__":
+    main()

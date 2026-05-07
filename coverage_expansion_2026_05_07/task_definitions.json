@@ -1,0 +1,53 @@
+{
+  "version": "1.0",
+  "created": "2026-05-07",
+  "total_tasks": 40,
+  "target_concepts_per_task": 200,
+  "total_target_concepts": 8000,
+  "tasks": [
+    {"id": "H1", "domain": "humanities", "table": "humanities_concept", "cluster": "分析哲学・形而上学", "subfields": ["分析哲学・心の哲学", "形而上学・存在論", "認識論・知識論", "科学哲学・科学的実在論"], "must_include": ["クワインの存在論的コミットメント", "クリプキの可能世界意味論", "デイヴィッドソンの真理条件意味論", "パトナムの双子地球論", "チャーマーズの意識のハードプロブレム", "デネットの志向姿勢", "セラーズの所与の神話", "ルイスのモーダル実在論"]},
+    {"id": "H2", "domain": "humanities", "table": "humanities_concept", "cluster": "倫理学・政治哲学", "subfields": ["メタ倫理学", "規範倫理学・徳倫理", "応用倫理学・生命倫理", "正義論・分配的正義", "政治哲学・自由論"], "must_include": ["ロールズの正義の二原理", "セン-ヌスバウムのケイパビリティ・アプローチ", "コスガードの構成主義", "シンガーの選好功利主義", "マッキンタイアの徳倫理復権", "ノージックの最小国家論", "サンデルの共同体論", "ハーバーマスの討議倫理"]},
+    {"id": "H3", "domain": "humanities", "table": "humanities_concept", "cluster": "大陸哲学・現象学", "subfields": ["現象学・実存主義", "解釈学・哲学的解釈学", "ポスト構造主義・フーコー・デリダ", "批判理論・フランクフルト学派", "新唯物論・思弁的実在論"]},
+    {"id": "H4", "domain": "humanities", "table": "humanities_concept", "cluster": "東洋哲学・非西洋思想", "subfields": ["中国哲学・儒教・道教", "インド哲学", "日本思想", "イスラーム哲学・中世哲学", "アフリカ哲学", "ラテンアメリカ哲学"]},
+    {"id": "H5", "domain": "humanities", "table": "humanities_concept", "cluster": "歴史学・歴史記述論", "subfields": ["歴史哲学", "ミクロヒストリー・社会史", "グローバルヒストリー・トランスナショナル史", "記憶・アーカイブ・歴史意識", "ナラティブ・歴史的説明"]},
+    {"id": "H6", "domain": "humanities", "table": "humanities_concept", "cluster": "言語学", "subfields": ["生成文法・統語論", "認知言語学", "社会言語学", "語用論・談話分析", "フレーム意味論・構文文法", "メタファー・メトニミー理論"]},
+    {"id": "H7", "domain": "humanities", "table": "humanities_concept", "cluster": "人類学・民族誌", "subfields": ["文化人類学", "政治人類学", "経済人類学", "医療人類学", "存在論的転回", "マルチスピーシーズ研究", "都市人類学", "デジタル人類学", "インフラの人類学"]},
+    {"id": "H8", "domain": "humanities", "table": "humanities_concept", "cluster": "宗教学・神学", "subfields": ["宗教学方法論", "比較宗教学", "宗教社会学", "キリスト教神学・教父学", "仏教学", "宗教現象学"]},
+
+    {"id": "S1", "domain": "social", "table": "social_theory", "cluster": "社会学理論", "subfields": ["古典社会学（ヴェーバー・デュルケーム・ジンメル）", "社会システム論（ルーマン・パーソンズ）", "ブルデュー社会学・実践理論", "ネットワーク理論・社会関係資本", "ミクロ社会学・エスノメソドロジー", "批判的社会学・社会運動論"]},
+    {"id": "S2", "domain": "social", "table": "social_theory", "cluster": "政治学", "subfields": ["民主主義論・熟議民主主義", "比較政治学", "国際関係論・IR理論", "政治行動論・選挙研究", "公共政策論", "ガバナンス論・多層ガバナンス"]},
+    {"id": "S3", "domain": "social", "table": "social_theory", "cluster": "経済学理論", "subfields": ["行動経済学・実験経済学", "制度経済学・新制度派", "進化経済学・複雑系経済学", "エコロジカル経済学・脱成長論", "金融経済学・金融不安定性仮説", "開発経済学・貧困・不平等"]},
+    {"id": "S4", "domain": "social", "table": "social_theory", "cluster": "心理学", "subfields": ["認知心理学・実験心理学", "社会心理学", "発達心理学・生涯発達", "臨床心理学・心理療法理論", "性格心理学・パーソナリティ研究", "ポジティブ心理学・ウェルビーイング研究"]},
+    {"id": "S5", "domain": "social", "table": "social_theory", "cluster": "教育学・学習科学", "subfields": ["教授学習理論", "学習科学・認知主義", "カリキュラム論", "教育社会学", "成人教育・生涯学習", "高等教育研究"]},
+    {"id": "S6", "domain": "social", "table": "social_theory", "cluster": "メディア・コミュニケーション論", "subfields": ["メディア生態学・メディア論", "オーディエンス研究・受容理論", "プラットフォーム研究", "ジャーナリズム研究", "デジタル・ディバイド研究", "ヘイトスピーチ・偽情報研究"]},
+    {"id": "S7", "domain": "social", "table": "social_theory", "cluster": "法学・法哲学", "subfields": ["法理学・法哲学", "比較法学", "憲法理論", "社会権・人権理論", "刑事法理論", "国際法理論"]},
+    {"id": "S8", "domain": "social", "table": "social_theory", "cluster": "地理学・空間論", "subfields": ["人文地理学・批判地理学", "都市理論・都市計画", "経済地理学・空間経済学", "地域研究・エリアスタディーズ", "場所性・空間論", "GIS・空間情報科学"]},
+
+    {"id": "N1", "domain": "natural", "table": "natural_discovery", "cluster": "物理学", "subfields": ["量子場理論", "標準模型・素粒子論", "凝縮系物理学", "統計物理学", "量子情報・量子計算", "弦理論・量子重力", "プラズマ物理", "光物理学・量子光学"]},
+    {"id": "N2", "domain": "natural", "table": "natural_discovery", "cluster": "化学", "subfields": ["有機化学・有機合成", "無機化学・錯体化学", "物理化学・量子化学", "生化学・生体高分子", "材料化学・ナノ材料", "高分子化学", "分析化学", "触媒化学"]},
+    {"id": "N3", "domain": "natural", "table": "natural_discovery", "cluster": "生命科学", "subfields": ["分子生物学・遺伝学", "細胞生物学・細胞シグナル", "発生生物学", "進化生物学・自然選択", "ゲノミクス・エピジェネティクス", "システム生物学", "合成生物学", "微生物学・ウイルス学"]},
+    {"id": "N4", "domain": "natural", "table": "natural_discovery", "cluster": "地球科学・環境科学", "subfields": ["気候科学・温暖化機構", "海洋学・海洋循環", "大気科学・大気化学", "地質学・プレートテクトニクス", "地球化学・同位体地球化学", "古気候学・古環境", "水文学・水循環", "土壌科学"]},
+    {"id": "N5", "domain": "natural", "table": "natural_discovery", "cluster": "数学・統計学・論理", "subfields": ["代数学・抽象代数", "幾何学・位相幾何", "解析学・関数解析", "確率論・確率過程", "数理統計学・ベイズ統計", "数理論理・計算論", "離散数学・組合せ論", "数値解析・数理モデリング"]},
+    {"id": "N6", "domain": "natural", "table": "natural_discovery", "cluster": "医学・臨床科学", "subfields": ["分子医学・トランスレーショナル医学", "薬理学・創薬科学", "免疫学・自己免疫", "腫瘍学・がん生物学", "内分泌学・代謝医学", "感染症学・公衆衛生", "精密医療・ゲノム医療", "再生医療・幹細胞研究"]},
+    {"id": "N7", "domain": "natural", "table": "natural_discovery", "cluster": "神経科学・認知科学", "subfields": ["認知神経科学", "計算論的神経科学", "神経回路・シナプス可塑性", "神経変性疾患・精神疾患の神経基盤", "意識・脳と心", "発達神経科学", "神経工学・脳機械接続", "比較認知科学"]},
+    {"id": "N8", "domain": "natural", "table": "natural_discovery", "cluster": "宇宙物理・天文学", "subfields": ["観測宇宙論・宇宙背景放射", "ブラックホール・重力波天文学", "恒星進化・超新星", "系外惑星・宇宙生物学", "銀河形成・宇宙構造", "暗黒物質・暗黒エネルギー", "高エネルギー天体物理", "天文観測機器・サーベイ"]},
+
+    {"id": "E1", "domain": "engineering", "table": "engineering_method", "cluster": "計算機科学・基礎情報学", "subfields": ["アルゴリズム・計算量理論", "プログラミング言語理論", "分散システム・並行計算", "オペレーティングシステム", "コンパイラ・形式手法", "計算理論・暗号理論"]},
+    {"id": "E2", "domain": "engineering", "table": "engineering_method", "cluster": "AI・機械学習", "subfields": ["深層学習アーキテクチャ", "強化学習・意思決定", "生成モデル・拡散モデル", "基盤モデル・大規模言語モデル", "AI整合性・AI安全性", "マルチモーダル学習", "メタ学習・転移学習", "因果推論・因果学習"]},
+    {"id": "E3", "domain": "engineering", "table": "engineering_method", "cluster": "機械工学・ロボティクス", "subfields": ["機構学・機械要素", "制御理論・制御工学", "ロボティクス・自律システム", "機械力学・振動工学", "メカトロニクス", "熱工学・流体工学"]},
+    {"id": "E4", "domain": "engineering", "table": "engineering_method", "cluster": "電気・電子・通信工学", "subfields": ["信号処理・画像処理", "通信工学・無線通信", "電力工学・パワーエレクトロニクス", "半導体工学・デバイス物理", "集積回路設計", "光通信・光エレクトロニクス"]},
+    {"id": "E5", "domain": "engineering", "table": "engineering_method", "cluster": "化学工学・材料工学", "subfields": ["プロセス工学・分離工学", "反応工学・触媒工学", "材料科学・先端材料", "ナノ材料・ナノテクノロジー", "高分子工学", "電池・エネルギー材料"]},
+    {"id": "E6", "domain": "engineering", "table": "engineering_method", "cluster": "土木・建築・都市工学", "subfields": ["構造工学・耐震工学", "地盤工学・岩盤工学", "水工学・水資源工学", "交通工学・交通計画", "都市インフラ・スマートシティ", "建築構造・建築設備"]},
+    {"id": "E7", "domain": "engineering", "table": "engineering_method", "cluster": "航空宇宙・エネルギー工学", "subfields": ["航空工学・空気力学", "宇宙工学・推進工学", "原子力工学", "再生可能エネルギー工学", "エネルギーシステム工学", "宇宙システム・衛星工学"]},
+    {"id": "E8", "domain": "engineering", "table": "engineering_method", "cluster": "バイオ・医療・環境工学", "subfields": ["生体医工学・医用画像", "組織工学・再生工学", "生体材料・人工臓器", "環境工学・水処理工学", "ヘルステクノロジー・デジタルヘルス", "農業工学・スマート農業"]},
+
+    {"id": "A1", "domain": "arts", "table": "arts_question", "cluster": "視覚芸術論", "subfields": ["美学・芸術哲学", "近現代美術史", "現代美術理論", "美術批評", "視覚文化研究", "キュレーション論"]},
+    {"id": "A2", "domain": "arts", "table": "arts_question", "cluster": "音楽学", "subfields": ["音楽理論", "音楽美学", "民族音楽学", "音楽認知科学", "音楽社会学", "ポピュラー音楽研究"]},
+    {"id": "A3", "domain": "arts", "table": "arts_question", "cluster": "舞台芸術論", "subfields": ["演劇論", "舞踊学・ダンス研究", "パフォーマンス美学・演劇論", "ポストドラマ演劇論", "身体表現論", "観客論"]},
+    {"id": "A4", "domain": "arts", "table": "arts_question", "cluster": "文学理論", "subfields": ["物語論・ナラトロジー", "ジャンル論", "比較文学・世界文学", "ポストコロニアル文学批評", "翻訳論・翻訳研究", "文学社会学"]},
+    {"id": "A5", "domain": "arts", "table": "arts_question", "cluster": "映画・映像論", "subfields": ["映画理論", "映画史", "映像メディア論", "ドキュメンタリー論", "アニメーション研究", "ニュー・シネマ・スタディーズ"]},
+    {"id": "A6", "domain": "arts", "table": "arts_question", "cluster": "デザイン理論", "subfields": ["デザインリサーチ・デザインシンキング", "プロダクトデザイン論", "サービスデザイン", "インタラクションデザイン論", "ソーシャルデザイン", "デザイン史・デザイン哲学"]},
+    {"id": "A7", "domain": "arts", "table": "arts_question", "cluster": "建築・空間芸術論", "subfields": ["建築理論", "都市建築論", "ランドスケープ論", "サステナブル建築論", "コンピュテーショナル建築", "建築史・建築美学"]},
+    {"id": "A8", "domain": "arts", "table": "arts_question", "cluster": "メディアアート・デジタル芸術", "subfields": ["メディアアート史・理論", "ジェネラティブアート", "ソフトウェア・スタディーズ", "ニューメディア・アート理論", "AIアート・機械芸術論", "ゲーム・スタディーズ"]}
+  ]
+}
