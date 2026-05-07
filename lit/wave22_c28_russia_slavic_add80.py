@@ -891,18 +891,6 @@ add(**RUS, name_ja="ザボロツキー『コルムヌィ』",
 # ============================================================
 # H: Dissident & contemporary (8)
 # ============================================================
-add(**RUS, name_ja="ソルジェニーツィン『収容所群島』",
-    name_en="Solzhenitsyn's Gulag Archipelago",
-    name_original="Архипелаг ГУЛАГ",
-    period_key="ソヴィエト後期・ペレストロイカ期",
-    definition="ソルジェニーツィンが1958-68年に書き、1973年パリで発表した3巻のグラーグ調査記。227人の元囚人の証言を結合した「文学的調査」で、ソ連体制の根本的告発書。発表直後の1974年にソルジェニーツィン強制亡命の直接的契機となった。",
-    background="フルシチョフ・ブレジネフ期の地下執筆、グラーグ証言収集の20年。",
-    development="20世紀世界全体主義研究・証言文学の中心参照点。",
-    historical_context="ブレジネフ停滞期ソ連の知識人迫害。",
-    primary_source_url=IARCH+"details/gulag-archipelago",
-    primary_source_type="Internet Archive: The Gulag Archipelago",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
-
 add(**RUS, name_ja="ソルジェニーツィン『ガン病棟』",
     name_en="Solzhenitsyn's Cancer Ward",
     name_original="Раковый корпус",
@@ -926,18 +914,6 @@ add(**RUS, name_ja="ソルジェニーツィン『マトリョーナの家』",
     primary_source_url=LIB_RU+"solzhenicyn/matrenin_dvor/index.html",
     primary_source_type="ilibrary.ru: Матрёнин двор",
     importance_score=5, source_tier="primary", canonical_in_region="core")
-
-add(**RUS, name_ja="シャラーモフ『コルィマ物語』",
-    name_en="Shalamov's Kolyma Tales",
-    name_original="Колымские рассказы",
-    period_key="ソヴィエト後期・ペレストロイカ期",
-    definition="ヴァルラム・シャラーモフ（1907-82）が1954-73年に書いた連作短編集。コルィマ収容所での17年(1937-53)の体験を、極度に圧縮された無感情的散文で記録。ソルジェニーツィンと並ぶ20世紀ロシア・グラーグ文学の頂点。",
-    background="シャラーモフ自身のコルィマ収容所17年経験、シベリア極東極限環境の証言。",
-    development="20世紀世界全体主義証言文学・極限文学研究の中心テクスト。",
-    historical_context="ブレジネフ停滞期ソ連の地下文学最盛期。",
-    primary_source_url=WIKI_RU+"Колымские_рассказы",
-    primary_source_type="Wikipedia (ru): Колымские рассказы",
-    importance_score=5, source_tier="secondary", canonical_in_region="core")
 
 add(**RUS, name_ja="シニャフスキー『プーシキンとの散歩』",
     name_en="Sinyavsky's Strolls with Pushkin",
