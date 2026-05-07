@@ -630,7 +630,7 @@ add(**C, name_ja="新川和江『睡り椅子』",
     primary_source_type="Wikipedia: 新川和江",
     importance_score=3, source_tier="secondary", canonical_in_region="major")
 
-add(**C, name_ja="大江健三_郎『個人的な体験』",
+add(**C, name_ja="大江健三郎『個人的な体験』",
     name_en="Ōe Kenzaburō's Kojinteki na Taiken",
     name_original="個人的な体験",
     period_key="現代",
