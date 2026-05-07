@@ -654,17 +654,7 @@ add(**C, name_ja="李賀の鬼詩",
     primary_source_type="李長吉歌詩 (CTEXT)",
     importance_score=4, source_tier="primary", canonical_in_region="major")
 
-add(**C, name_ja="蘅塘退士『唐詩三百首』",
-    name_en="Hengtang Tuishi's Tangshi Sanbaishou",
-    name_original="唐詩三百首",
-    period_key="清",
-    definition="清乾隆28年（1763）孫洙（号蘅塘退士、1711-1778）編の唐詩アンソロジー。77詩人313首を体系収録、子供の詩教科書として編まれた。中国近現代の唐詩教養の根幹となり、「熟讀唐詩三百首、不會作詩也會吟」の格言で東アジア漢詩教養の基盤となった。",
-    background="清乾隆期の科挙詩賦試験と童蒙詩教育の制度化。",
-    development="近現代東アジア漢詩教養の基盤、唐詩受容の標準化。",
-    historical_context="清乾隆期の文化爛熟と童蒙教育普及。",
-    primary_source_url=WIKI_ZH+"唐詩三百首",
-    primary_source_type="維基百科: 唐詩三百首",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+# (removed: 蘅塘退士『唐詩三百首』 — secondary tier trimmed)
 
 
 # ============================================================
@@ -706,17 +696,7 @@ add(**C, name_ja="蘇軾『東坡志林』",
     primary_source_type="CTEXT: 東坡志林",
     importance_score=4, source_tier="primary", canonical_in_region="major")
 
-add(**C, name_ja="陳師道・陳与義（江西派継承）",
-    name_en="Chen Shidao and Chen Yuyi: heirs of Jiangxi School",
-    name_original="後山・簡齋",
-    period_key="宋",
-    definition="陳師道（1053-1102、号後山）と陳与義（1090-1138、号簡齋）は江西詩派の正統継承者。陳師道は黃庭堅直門で「閉門覓句」の苦吟詩風、陳与義は南宋初の動乱を経て「江西宗派圖」筆頭の地位を得た。「江西三宗」（黃陳陳）と並称される。",
-    background="北宋末黃庭堅江西派の制度化と南宋初の継承。",
-    development="南宋呂本中『江西宗派圖』の制度化、後世江西派の規範。",
-    historical_context="北宋末から南宋初の文学的転換期。",
-    primary_source_url=WIKI_ZH+"江西詩派",
-    primary_source_type="維基百科: 江西詩派",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 陳師道・陳与義 — secondary trimmed)
 
 add(**C, name_ja="楊万里誠齋體",
     name_en="Yang Wanli's Chengzhai Style",
@@ -818,43 +798,11 @@ add(**C, name_ja="関漢卿「單刀會」",
     primary_source_type="關漢卿戲曲集 (CTEXT)",
     importance_score=3, source_tier="primary", canonical_in_region="major")
 
-add(**C, name_ja="散曲名家：張可久・喬吉・盧摯",
-    name_en="Sanqu masters: Zhang Kejiu, Qiao Ji, Lu Zhi",
-    name_original="張可久・喬吉・盧摯",
-    period_key="元",
-    definition="元代散曲三大家。張可久（1280頃-1352頃）は典雅清麗の小令で「曲中李清照」と称され、喬吉（1280頃-1345）は俊逸風流で関漢卿と並ぶ作家、盧摯（1242頃-1314）は元曲史上最早期の文人散曲作家。元代散曲文学の頂点を画した。",
-    background="元代都市音楽文化と文人散曲の制度化。",
-    development="明清散曲（康海・吳梅）の祖型。",
-    historical_context="元代雑劇から散曲への文学重心移動。",
-    primary_source_url=WIKI_ZH+"散曲",
-    primary_source_type="維基百科: 元曲名家",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
+# (removed: 散曲名家 — secondary trimmed)
 
-add(**C, name_ja="貫雲石・徐再思（蒙古色目散曲家）",
-    name_en="Guan Yunshi and Xu Zaisi: non-Han Sanqu masters",
-    name_original="貫雲石・徐再思",
-    period_key="元",
-    definition="貫雲石（1286-1324、ウイグル系）・徐再思（生没年不詳）等の蒙古・色目人散曲作家。漢文化を高度に習得した非漢族士人の文学的活動を象徴し、元代多民族文化交流の文学的記録。後世「酸齋（貫）甜齋（徐）」並称。",
-    background="元代多民族統治体制下の漢化士人の活動。",
-    development="清代多民族文学（満洲族納蘭性德等）への系譜。",
-    historical_context="元代多民族文化共生期。",
-    primary_source_url=WIKI_ZH+"貫雲石",
-    primary_source_type="維基百科: 貫雲石",
-    importance_score=3, source_tier="secondary", canonical_in_region="major",
-    fourth_transform_status="rethinking",
-    fourth_transform_note="貫雲石ら非漢族散曲家は多文化主体性の古典的事例。AI時代の文化的アイデンティティ流動性・グローバル文学の祖型として再読可能。")
+# (removed: 貫雲石・徐再思 — secondary trimmed)
 
-add(**C, name_ja="鍾嗣成『録鬼簿』",
-    name_en="Zhong Sicheng's Lugui Bu",
-    name_original="録鬼簿",
-    period_key="元",
-    definition="元末鍾嗣成（1279頃-1360頃）が至順元年（1330）に著した雑劇作家伝記録。元曲152人・雑劇作品約450種を記録、中国最古の戯曲作家伝。元曲史研究・元代文人ネットワーク研究の根本典拠で、後世『太和正音譜』（朱權1398）の祖型。",
-    background="元末文人による戯曲史の自己記録活動。",
-    development="明朱權『太和正音譜』、後世戯曲史記述の祖型。",
-    historical_context="元末雑劇衰退期の自己記録意識。",
-    primary_source_url=WIKI_ZH+"錄鬼簿",
-    primary_source_type="維基百科: 録鬼簿",
-    importance_score=4, source_tier="secondary", canonical_in_region="major")
+# (removed: 録鬼簿 — secondary trimmed)
 
 
 # ============================================================
