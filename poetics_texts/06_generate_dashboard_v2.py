@@ -123,6 +123,28 @@ def main():
     cur.execute("SELECT COUNT(*) FROM poetics_text_motif")
     motif_total = cur.fetchone()[0]
 
+    # === Phase 8: founding quotes layer ===
+    try:
+        cur.execute("SELECT COUNT(*) FROM concept_original_source")
+        quote_total = cur.fetchone()[0]
+        cur.execute("SELECT COUNT(DISTINCT concept_id) FROM concept_original_source")
+        concepts_with_quotes = cur.fetchone()[0]
+        cur.execute("SELECT source_author, COUNT(*) FROM concept_original_source WHERE source_author IS NOT NULL GROUP BY source_author ORDER BY 2 DESC LIMIT 15")
+        top_quote_authors = cur.fetchall()
+        cur.execute("SELECT source_language, COUNT(*) FROM concept_original_source WHERE source_language IS NOT NULL GROUP BY source_language ORDER BY 2 DESC LIMIT 12")
+        quote_languages = cur.fetchall()
+        cur.execute("""SELECT hc.name_ja, cos.source_work_title, cos.source_locator, cos.source_author,
+                              substr(cos.quote_original, 1, 80) AS qsnip
+                       FROM concept_original_source cos JOIN humanities_concept hc ON cos.concept_id = hc.id
+                       ORDER BY hc.name_ja LIMIT 25""")
+        sample_quotes = [{"name": r[0], "work": r[1], "loc": r[2], "author": r[3], "snip": r[4]} for r in cur.fetchall()]
+    except Exception:
+        quote_total = 0
+        concepts_with_quotes = 0
+        top_quote_authors = []
+        quote_languages = []
+        sample_quotes = []
+
     cur.execute("SELECT motif_category, COUNT(*) FROM poetics_text_motif WHERE motif_category IS NOT NULL GROUP BY motif_category ORDER BY 2 DESC LIMIT 12")
     motif_cats = cur.fetchall()
 
@@ -241,10 +263,27 @@ v2.0 Phase 1完了。スキーマ4テーブル（poetics_text/translation/concep
   <div class="overview-card"><div class="overview-value">{rel_total}</div><div class="overview-label">系譜関係</div></div>
   <div class="overview-card"><div class="overview-value">{text_total}</div><div class="overview-label">詩文（一次）</div></div>
   <div class="overview-card"><div class="overview-value">{link_total}</div><div class="overview-label">理論↔詩文リンク</div></div>
+  <div class="overview-card"><div class="overview-value">{quote_total}</div><div class="overview-label">原著引用</div></div>
   <div class="overview-card"><div class="overview-value">{motif_total}</div><div class="overview-label">モチーフ</div></div>
   <div class="overview-card"><div class="overview-value">12</div><div class="overview-label">サブフィールド</div></div>
   <div class="overview-card"><div class="overview-value">2,500</div><div class="overview-label">年代カバー</div></div>
 </div>
+
+<h2>第三層: 原著引用（concept_original_source）</h2>
+
+<div class="layer-banner">
+  <div class="layer-title">FOUNDING QUOTE LAYER — 概念の原典証跡</div>
+  <div class="layer-desc">各概念がどの原著のどの一節で確立・定義されたかを示す{quote_total}件の引用層。Aristotle Poetics・Plato Republic・Bharata Natyashastra・Anandavardhana Dhvanyaloka・Liu Xie 文心雕龍・Zeami 風姿花伝・Mumyōshō・Shklovsky 'Art as Technique'・Bakhtin Dialogic Imagination・Genette Figures III・Ingarden Literary Work・Jauss Provocation・Iser Act of Reading・Lakoff-Johnson Metaphors We Live By・Derrida Of Grammatology・Kristeva Revolution in Poetic Language・Eliot Sacred Wood・Brooks-Wimsatt 等の原典から、概念の founding passage を原語＋訳＋意義分析として記録。</div>
+</div>
+
+<h3>引用が紐づいた主要研究者・著者</h3>
+<div class="type-grid" id="quote-author-grid"></div>
+
+<h3>原著言語分布</h3>
+<div class="type-grid" id="quote-lang-grid"></div>
+
+<h3>引用サンプル（25件）</h3>
+<div id="quote-samples"></div>
 
 <h2>第一層: 理論（概念・研究者）</h2>
 
@@ -384,6 +423,19 @@ function renderKVGrid(elId, items) {{
     grid.appendChild(el);
   }});
 }}
+
+renderKVGrid('quote-author-grid', {json.dumps(top_quote_authors, ensure_ascii=False)});
+renderKVGrid('quote-lang-grid', {json.dumps(quote_languages, ensure_ascii=False)});
+
+const quoteSamples = {json.dumps(sample_quotes, ensure_ascii=False)};
+const qsEl = document.getElementById('quote-samples');
+quoteSamples.forEach(q => {{
+  const el = document.createElement('div');
+  el.className = 'text-item';
+  const meta = [q.work, q.loc, q.author].filter(x=>x).join(' · ');
+  el.innerHTML = `<div class="text-item-title">${{q.name}}</div><div class="text-item-meta">${{meta}}</div><div style="font-size:0.78rem;margin-top:4px;color:var(--text-secondary);font-family:var(--font-serif)">${{q.snip}}…</div>`;
+  qsEl.appendChild(el);
+}});
 
 renderKVGrid('text-culture-grid', {json.dumps(text_by_culture, ensure_ascii=False)});
 renderKVGrid('text-form-grid', {json.dumps(text_forms, ensure_ascii=False)});
