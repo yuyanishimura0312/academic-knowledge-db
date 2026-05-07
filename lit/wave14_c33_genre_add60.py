@@ -86,7 +86,11 @@ add(**C, name_ja="アンデルセン『雪の女王』",
     historical_context="19世紀北欧ロマン主義期の長編文学童話確立。",
     primary_source_url=GUTEN+"ebooks/27200",
     primary_source_type="Project Gutenberg: Andersen tales",
-    importance_score=4, source_tier="primary", canonical_in_region="core")
+    importance_score=4, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"rethinking",
+         "rationale":"7話構成の旅と救済の物語構造は、AI生成児童文学の長編構造設計の規範参照点となる。",
+         "related_ai_phenomenon":"AI児童文学の長編構造規範"}])
 
 add(**C, name_ja="キャロル『鏡の国のアリス』",
     name_en="Carroll: Through the Looking-Glass",
@@ -114,7 +118,11 @@ add(**C, name_ja="ボーム『オズの魔法使い』",
     historical_context="米国出版産業の児童書黎明期。",
     primary_source_url=GUTEN+"ebooks/55",
     primary_source_type="Project Gutenberg: The Wonderful Wizard of Oz",
-    importance_score=4, source_tier="primary", canonical_in_region="core")
+    importance_score=4, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"rethinking",
+         "rationale":"「家を出て旅して家に帰る」物語構造は、AI生成児童冒険物語の構造的原型として参照される。",
+         "related_ai_phenomenon":"AI生成児童冒険物語の原型"}])
 
 add(**C, name_ja="ミルン『クマのプーさん』",
     name_en="A. A. Milne: Winnie-the-Pooh",
@@ -352,7 +360,7 @@ add(**C, name_ja="ハーディー・ボーイズ／ナンシー・ドルー",
     name_en="Hardy Boys / Nancy Drew",
     name_original="Hardy Boys / Nancy Drew",
     period_key="黄金時代・古典化期",
-    definition="ストラトメイヤー・シンジケートが企画し1927年（ハーディー・ボーイズ）、1930年（ナンシー・ドルー）以降複数のゴーストライターが共有筆名で執筆した米国児童ミステリ・シリーズ。少年・少女探偵主人公、ハウスネーム制（ナンシー・ドルーは"Carolyn Keene"）、定型化された冒険プロット、世界1億部超で20世紀児童ミステリの規範。",
+    definition="ストラトメイヤー・シンジケートが企画し1927年（ハーディー・ボーイズ）、1930年（ナンシー・ドルー）以降複数のゴーストライターが共有筆名で執筆した米国児童ミステリ・シリーズ。少年・少女探偵主人公、ハウスネーム制（ナンシー・ドルーは「Carolyn Keene」）、定型化された冒険プロット、世界1億部超で20世紀児童ミステリの規範。",
     background="米国大恐慌前夜のシリーズ児童書市場、ストラトメイヤー・シンジケートのゴーストライティング体制。",
     development="現代まで継続。ハウスネーム生産モデルはハードボイルド米国児童書の標準となり、その後の児童シリーズの市場規範を築いた。",
     historical_context="戦間期米国児童書出版産業の確立期。",
