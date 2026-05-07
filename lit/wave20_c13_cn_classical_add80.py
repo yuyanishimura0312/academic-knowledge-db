@@ -200,17 +200,6 @@ add(**C, name_ja="賈誼「陳政事疏」「過秦論」",
     primary_source_type="CTEXT: 賈誼新書",
     importance_score=5, source_tier="primary", canonical_in_region="core")
 
-add(**C, name_ja="鼂錯「論貴粟疏」",
-    name_en="Chao Cuo's Lun Gui Su Shu",
-    name_original="論貴粟疏", period_key="漢",
-    definition="前漢鼂錯（前200-前154）が漢文帝に上った経済政策論。農業重視・商業抑制・粟入爵制の提言を含み、漢代経世散文の代表作。班固『漢書』食貨志に全文収録。",
-    background="漢文帝期農業立国政策の議論。",
-    development="後世経世散文・経済論の規範的祖型。",
-    historical_context="漢初文景之治の経済政策論争。",
-    primary_source_url=CTEXT+"han-shu/shi-huo-zhi-shang",
-    primary_source_type="CTEXT: 漢書食貨志",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
-
 add(**C, name_ja="劉向『七略』『別録』",
     name_en="Liu Xiang's Qilüe and Bielu",
     name_original="七略・別錄", period_key="漢",
@@ -234,29 +223,6 @@ add(**C, name_ja="王充『論衡』",
     importance_score=5, source_tier="primary", canonical_in_region="core",
     fourth_transform_status="rethinking",
     fourth_transform_note="王充論衡の批判的合理主義はAI時代における誤情報批判・科学的思考の古典的祖型。")
-
-add(**C, name_ja="桓寛『鹽鐵論』",
-    name_en="Huan Kuan's Yantie Lun",
-    name_original="鹽鐵論", period_key="漢",
-    definition="前漢桓寛（生没年不詳）が前81年昭帝期の塩鉄会議の論争を記録した対話体政論60篇。賢良文学（儒家）と御史大夫桑弘羊（法家）の経済政策論争を再現。中国経済論争史の出発点。",
-    background="漢武帝の塩鉄専売政策をめぐる昭帝期の政策論争。",
-    development="後世経世散文・対話体政論の祖型。",
-    historical_context="前漢昭帝期の経済政策論争。",
-    primary_source_url=CTEXT+"yan-tie-lun",
-    primary_source_type="CTEXT: 鹽鐵論",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
-
-add(**C, name_ja="應劭『風俗通義』",
-    name_en="Ying Shao's Fengsu Tongyi",
-    name_original="風俗通義", period_key="漢",
-    definition="後漢應劭（140頃-204頃）の風俗考証10巻（現存）。当時の習俗・神祇・地理・伝説を考証し、皇覇・正失・愆禮・過譽・十反等の篇目から成る。中国民俗学・志怪小説の重要源泉。",
-    background="後漢末民間信仰と知識人の風俗関心の高まり。",
-    development="魏晋志怪小説（捜神記等）の素材源、後世民俗学の祖型。",
-    historical_context="後漢末社会変動期の文化記録。",
-    primary_source_url=CTEXT+"feng-su-tong-yi",
-    primary_source_type="CTEXT: 風俗通義",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
-
 
 # ============================================================
 # D: 文体論古典 (8)
@@ -339,18 +305,6 @@ add(**C, name_ja="鍾嶸『詩品』上中下三品評",
     primary_source_url=CTEXT+"library.pl?if=en&res=4658",
     primary_source_type="CTEXT: 詩品",
     importance_score=5, source_tier="primary", canonical_in_region="core")
-
-add(**C, name_ja="任昉『文章緣起』",
-    name_en="Ren Fang's Wenzhang Yuanqi",
-    name_original="文章緣起", period_key="魏晋南北朝",
-    definition="梁任昉（460-508）の文体起源論。85種の文体について最古作例を考証した文体源流学的著作。後世文体分類学（文選体例・文章辨體）の祖型となった。",
-    background="齊梁文体多様化の理論的整理。",
-    development="明代徐師曾『文體明辨』への祖型。",
-    historical_context="齊梁文学理論の成熟期。",
-    primary_source_url=WIKI_ZH+"文章緣起",
-    primary_source_type="維基百科: 文章緣起",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
-
 
 # ============================================================
 # E: 唐代散文革新 (9)
@@ -442,18 +396,6 @@ add(**C, name_ja="劉知幾『史通』",
     primary_source_url=CTEXT+"shitong",
     primary_source_type="CTEXT: 史通",
     importance_score=5, source_tier="primary", canonical_in_region="core")
-
-add(**C, name_ja="元結「舂陵行序」",
-    name_en="Yuan Jie's Chongling Xing Xu",
-    name_original="舂陵行序", period_key="唐",
-    definition="元結（719-772）が安史の乱後の道州（舂陵）民衆苦難を歌った「舂陵行」の自序。「文章合為時而著」の社会批判詩観を示し、中唐新楽府運動（白居易・元稹）の先駆。",
-    background="安史の乱後の社会批判文学の興起。",
-    development="白居易新楽府・諷諭詩の理論的源流。",
-    historical_context="中唐大暦期の社会派文学。",
-    primary_source_url=WIKI_ZH+"元結",
-    primary_source_type="維基百科: 元結",
-    importance_score=3, source_tier="secondary", canonical_in_region="major")
-
 
 # ============================================================
 # F: 唐代詩学 (5)

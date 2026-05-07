@@ -100,7 +100,15 @@ add(**C, name_ja="有間皇子辞世二首",
     historical_context="斉明4年(658)の宮廷政争。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 萬葉集巻二141-142",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"invariant",
+         "rationale":"有間皇子辞世二首は処刑直前の死者主体の声を文学化した最古例で、AI時代の生成主体と死をめぐる声の問題を再考する古典的参照点となる。",
+         "related_ai_phenomenon":"AI生成における死者主体表現"}],
+    cross_domain=[
+        {"target_db":"PHIL","link_type":"shared_concept",
+         "target_entity_name":"日本辞世詩の死生観",
+         "description":"有間辞世二首は日本辞世文学の最古層を成し、武家辞世への系譜的起点として哲学史と文学史を架橋する。"}])
 
 add(**C, name_ja="元正天皇御製",
     name_en="Empress Gensho's Imperial Verses",
@@ -124,7 +132,15 @@ add(**C, name_ja="持統天皇御製",
     historical_context="持統朝(690-697)藤原京遷都期。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 萬葉集巻一28他",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"作者性","status":"invariant",
+         "rationale":"持統天皇御製は女帝による国家儀礼歌作者性の確立で、AI時代の権威的主体による生成テキストの作者性論を再考する参照点となる。",
+         "related_ai_phenomenon":"AI生成における権威主体の作者性"}],
+    cross_domain=[
+        {"target_db":"Era-Talents","link_type":"shared_concept",
+         "target_entity_name":"古代女性権力者と文学",
+         "description":"持統天皇御製は古代女性最高権力者の文学活動の祖型として、女性権力者と文芸活動の系譜研究の中核を占める。"}])
 
 add(**C, name_ja="弓削皇子御製",
     name_en="Prince Yuge's Imperial Verses",
@@ -148,7 +164,11 @@ add(**C, name_ja="軽皇子御製(文武天皇)",
     historical_context="持統6年(692)頃の安騎野遊猟。",
     primary_source_url=NDL+"info:ndljp/pid/2543375",
     primary_source_type="NDL: 萬葉集巻一46-49",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"作者性","status":"rethinking",
+         "rationale":"軽皇子御製と人麻呂随行歌の重層は皇族主体と職業歌人代作の関係を示し、AI時代の代作・代理生成の作者性問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI代作と作者性の重層構造"}])
 
 add(**C, name_ja="中臣宅守・狭野茅上娘子贈答",
     name_en="Nakatomi no Yakamori and Sano no Chigami exchange",
@@ -208,7 +228,11 @@ add(**C, name_ja="古今集春歌上下",
     historical_context="醍醐朝期の和歌正典化期。",
     primary_source_url=JTI+"japanese/kokinshu/",
     primary_source_type="JTI: 古今和歌集巻一・二",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"正典","status":"invariant",
+         "rationale":"古今集春歌部立の正典化は日本和歌における季節性正典化の起点で、AI時代の文化的時間性の継承構造を再考する参照点となる。",
+         "related_ai_phenomenon":"AI生成における文化的季節性"}])
 
 add(**C, name_ja="古今集夏歌",
     name_en="Kokin Wakashu: Summer Volume",
@@ -396,7 +420,15 @@ add(**C, name_ja="古今集六歌仙評価論",
     historical_context="平安初期の和歌正典化期。",
     primary_source_url=JTI+"japanese/kokinshu/",
     primary_source_type="JTI: 古今和歌集仮名序六歌仙評",
-    importance_score=4, source_tier="primary", canonical_in_region="major")
+    importance_score=4, source_tier="primary", canonical_in_region="major",
+    fourth_axes=[
+        {"axis":"受容","status":"rethinking",
+         "rationale":"六歌仙評価論は批評家貫之による先行歌人の受容的評価の祖型で、AI時代の批評的選別と作品評価の問題を再考する参照点となる。",
+         "related_ai_phenomenon":"AI生成における批評的評価"}],
+    cross_domain=[
+        {"target_db":"MG","link_type":"shared_concept",
+         "target_entity_name":"知識評価の制度化",
+         "description":"六歌仙評価は知識権威による先行知識評価の制度化の古典事例として、知識経営論的選別研究の比較対象となる。"}])
 
 add(**C, name_ja="屏風歌制度",
     name_en="Byobu-uta: Screen Painting Poetry Institution",
@@ -424,7 +456,15 @@ add(**C, name_ja="歌合制度の正典化",
     historical_context="天徳4年(960)内裏歌合。",
     primary_source_url=NDL+"info:ndljp/pid/2543359",
     primary_source_type="NDL: 天徳内裏歌合",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"創造性","status":"rethinking",
+         "rationale":"歌合制度は競争的詠歌による創造性の制度化で、AI時代の競争的創作生成と評価機構を再考する参照点となる。",
+         "related_ai_phenomenon":"AI競争的生成と評価"}],
+    cross_domain=[
+        {"target_db":"MG","link_type":"shared_concept",
+         "target_entity_name":"競争的評価制度",
+         "description":"歌合は知識競争評価の制度化の古典事例として、組織内競争評価論の比較対象となる。"}])
 
 
 # ============================================================
@@ -492,7 +532,15 @@ add(**C, name_ja="伊勢(歌人)",
     historical_context="宇多朝期宮廷女房文化。",
     primary_source_url=NDL+"info:ndljp/pid/2543365",
     primary_source_type="NDL: 伊勢集",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"主体","status":"invariant",
+         "rationale":"伊勢は宮廷女性歌人の地位確立を示す古代事例で、AI時代の女性主体声の文学的構築と歴史的継承を再考する参照点となる。",
+         "related_ai_phenomenon":"AI時代の女性歌人主体"}],
+    cross_domain=[
+        {"target_db":"Era-Talents","link_type":"shared_concept",
+         "target_entity_name":"平安女性知的活動",
+         "description":"伊勢の女性歌人活動は平安宮廷女性知的活動の祖型として、女性才能発揮の歴史的系譜の中核を占める。"}])
 
 add(**C, name_ja="中務(歌人)",
     name_en="Lady Nakatsukasa (poet)",
@@ -596,7 +644,11 @@ add(**C, name_ja="伊勢物語1段「初冠」",
     historical_context="9世紀後半業平活躍期の事跡。",
     primary_source_url=JTI+"japanese/ise/",
     primary_source_type="JTI: 伊勢物語第一段",
-    importance_score=5, source_tier="primary", canonical_in_region="core")
+    importance_score=5, source_tier="primary", canonical_in_region="core",
+    fourth_axes=[
+        {"axis":"物語","status":"invariant",
+         "rationale":"伊勢物語1段は元服-恋情-歌贈の物語的祖型を確立し、AI時代の物語的祖型の継承構造を再考する参照点となる。",
+         "related_ai_phenomenon":"AI物語生成における祖型継承"}])
 
 add(**C, name_ja="伊勢物語9段「東下り」",
     name_en="Ise Monogatari Section 9: Journey to the East",
