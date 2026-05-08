@@ -118,8 +118,8 @@ def fetch():
     cur.execute(f"""SELECT id, name_ja, name_en, name_original, definition,
                           impact_summary, subfield, school_of_thought,
                           era_start, era_end FROM humanities_concept
-                   WHERE subfield IN ({placeholders})
-                   ORDER BY subfield, COALESCE(era_start, 9999), name_ja""", POETICS)
+                   WHERE id LIKE 'cp_%'
+                   ORDER BY COALESCE(era_start, 9999), name_ja""")
     concepts = cur.fetchall()
     cur.execute("""SELECT concept_id, source_work_title, source_locator,
                           source_year, source_author, source_language,

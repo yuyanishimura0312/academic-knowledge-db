@@ -41,35 +41,35 @@ def main():
     qs = ",".join(["?"] * len(POETICS))
 
     # === Concept layer (existing) ===
-    cur.execute(f"SELECT subfield, COUNT(*) FROM humanities_concept WHERE subfield IN ({qs}) GROUP BY subfield", POETICS)
+    cur.execute(f"SELECT subfield, COUNT(*) FROM humanities_concept WHERE id LIKE 'cp_%' GROUP BY subfield")
     sf_counts = dict(cur.fetchall())
 
-    cur.execute(f"SELECT era_start FROM humanities_concept WHERE subfield IN ({qs}) AND era_start IS NOT NULL", POETICS)
+    cur.execute(f"SELECT era_start FROM humanities_concept WHERE id LIKE 'cp_%' AND era_start IS NOT NULL")
     years = [r[0] for r in cur.fetchall()]
 
     cur.execute(f"""SELECT relation_type, COUNT(*) FROM humanities_concept_relations rel
-        WHERE rel.source_concept_id IN (SELECT id FROM humanities_concept WHERE subfield IN ({qs}))
-           OR rel.target_concept_id IN (SELECT id FROM humanities_concept WHERE subfield IN ({qs}))
-        GROUP BY relation_type ORDER BY COUNT(*) DESC""", POETICS + POETICS)
+        WHERE rel.source_concept_id IN (SELECT id FROM humanities_concept WHERE id LIKE 'cp_%')
+           OR rel.target_concept_id IN (SELECT id FROM humanities_concept WHERE id LIKE 'cp_%')
+        GROUP BY relation_type ORDER BY COUNT(*) DESC""")
     rel_types = cur.fetchall()
     rel_total = sum(n for _, n in rel_types)
 
     cur.execute(f"""SELECT r.name_ja, r.name_full, COUNT(DISTINCT hcr.concept_id) AS n
         FROM researchers r JOIN humanities_concept_researchers hcr ON r.id = hcr.researcher_id
         JOIN humanities_concept hc ON hc.id = hcr.concept_id
-        WHERE hc.subfield IN ({qs})
-        GROUP BY r.id ORDER BY n DESC LIMIT 24""", POETICS)
+        WHERE hc.id LIKE 'cp_%'
+        GROUP BY r.id ORDER BY n DESC LIMIT 24""")
     researchers = cur.fetchall()
 
     cur.execute(f"""SELECT COUNT(DISTINCT r.id) FROM researchers r
         JOIN humanities_concept_researchers hcr ON r.id = hcr.researcher_id
         JOIN humanities_concept hc ON hc.id = hcr.concept_id
-        WHERE hc.subfield IN ({qs})""", POETICS)
+        WHERE hc.id LIKE 'cp_%'""")
     researcher_total = cur.fetchone()[0]
 
     cur.execute(f"""SELECT school_of_thought, COUNT(*) FROM humanities_concept
-        WHERE subfield IN ({qs}) AND school_of_thought IS NOT NULL
-        GROUP BY school_of_thought ORDER BY COUNT(*) DESC LIMIT 18""", POETICS)
+        WHERE id LIKE 'cp_%' AND school_of_thought IS NOT NULL
+        GROUP BY school_of_thought ORDER BY COUNT(*) DESC LIMIT 18""")
     schools = cur.fetchall()
 
     era_buckets_disp = [

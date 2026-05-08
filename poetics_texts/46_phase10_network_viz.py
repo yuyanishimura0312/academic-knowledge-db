@@ -32,9 +32,8 @@ REL_COLORS = {
 def fetch():
     conn = sqlite3.connect(DB_PATH)
     cur = conn.cursor()
-    placeholders = ",".join("?" * len(POETICS))
-    cur.execute(f"""SELECT id, name_ja, name_en, subfield, school_of_thought, era_start
-                   FROM humanities_concept WHERE subfield IN ({placeholders})""", POETICS)
+    cur.execute("""SELECT id, name_ja, name_en, subfield, school_of_thought, era_start
+                   FROM humanities_concept WHERE id LIKE 'cp_%'""")
     nodes = []
     node_ids = set()
     for r in cur.fetchall():
