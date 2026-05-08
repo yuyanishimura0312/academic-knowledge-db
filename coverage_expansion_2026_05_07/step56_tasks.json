@@ -1,0 +1,18 @@
+{
+  "version": "step56",
+  "created": "2026-05-08",
+  "purpose": "Step 5: 各分野で2015-2025年の最新理論を補強。Step 6: 関係ネットワーク再構築。",
+  "step5_tasks": [
+    {"id": "S5_h_recent", "table": "humanities_concept", "subfield": "全領域横断", "target": 200, "focus": "2015-2025の人文学新概念", "must_include": ["新唯物論", "ポスト・ヒューマニズム", "デジタル人文学", "AI倫理", "気候人文学", "ケアの哲学", "デコロナイズ理論", "アクセラレーショニズム", "オブジェクト指向存在論", "Zoosemiotics"]},
+    {"id": "S5_s_recent", "table": "social_theory", "subfield": "全領域横断", "target": 200, "focus": "2015-2025の社会科学新概念", "must_include": ["プラットフォーム資本主義", "気候社会学", "長期主義", "ロングターミズム批判", "AI社会学", "アルゴリズムバイアス研究", "監視資本主義", "ケアエコノミー", "脱成長", "Doughnut経済学"]},
+    {"id": "S5_n_recent", "table": "natural_discovery", "subfield": "全領域横断", "target": 200, "focus": "2015-2025の自然科学新発見", "must_include": ["AlphaFold2", "CRISPR-Cas9臨床応用", "重力波天文学初検出", "mRNAワクチン", "量子優位性", "ブラックホール撮影", "宇宙線高エネルギー粒子", "脳機械インターフェース", "光合成量子コヒーレンス", "プランクスケール物理"]},
+    {"id": "S5_e_recent", "table": "engineering_method", "subfield": "全領域横断", "target": 200, "focus": "2015-2025の工学新技術", "must_include": ["GPT/Gemini/Claude系統", "拡散モデル理論", "AGI整合性", "エンボディドAI", "エージェントAI", "Constitutional AI", "Foundation Model", "ニューロモルフィック計算", "ペロブスカイト電池量産", "全固体電池"]},
+    {"id": "S5_a_recent", "table": "arts_question", "subfield": "全領域横断", "target": 200, "focus": "2015-2025の芸術新理論", "must_include": ["AIアート", "生成AI批評", "NFTアート理論", "ポストインターネット・アート", "気候アート", "AIシネマ", "生成音楽", "アルゴリズミックアート", "デジタルパフォーマンス", "Critical AI Art"]}
+  ],
+  "step6_actions": [
+    "intra_subfield_relations: 各サブフィールド内で era_start チェーン (extends/derived_from) 強化",
+    "inter_subfield_relations: keywords/school_of_thought マッチで related_to 追加",
+    "cross_domain_relations: 全分野ペアで再計算 (innovation_theory/startup_theory も含む)",
+    "目標: 関係数 / 概念数 比 ≥ 2.5 (現状約1.0)"
+  ]
+}
