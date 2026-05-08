@@ -1,0 +1,20 @@
+{
+  "version": "task23",
+  "purpose": "Task 2: natural_discovery 量的拡張、Task 3: Step 5 再実行",
+  "tasks": [
+    {"id": "T2_physics", "table": "natural_discovery", "subfield": "物理学", "target": 200, "current": 274, "must_include": ["量子もつれ実用化", "ハイゼンベルク不確定性原理", "アインシュタイン特殊相対性", "場の量子論", "BCS理論", "アンダーソン局在", "Topological insulator", "高温超伝導理論", "量子計算アルゴリズム", "ホログラフィー原理"]},
+    {"id": "T2_chemistry", "table": "natural_discovery", "subfield": "化学", "target": 200, "current": 107, "must_include": ["立体化学", "電子軌道理論", "ハーバー・ボッシュ法", "ペリ環状反応", "クロスカップリング反応", "フロー化学", "メカノケミストリー", "ラジカル重合", "超分子化学", "X線結晶構造解析"]},
+    {"id": "T2_biology", "table": "natural_discovery", "subfield": "生命科学・生物学", "target": 250, "current": 206, "must_include": ["セントラルドグマ", "オペロン理論", "DNA二重らせん", "PCR法", "CRISPR-Cas9", "iPS細胞", "AlphaFold2", "シングルセルRNA-seq", "Optogenetics", "RNAスプライシング"]},
+    {"id": "T2_earth", "table": "natural_discovery", "subfield": "地球科学・環境科学", "target": 200, "current": 132, "must_include": ["プレートテクトニクス", "地球システム科学", "アントロポセン", "炭素循環", "ミランコビッチサイクル", "ENSO", "海洋酸性化", "氷期-間氷期サイクル", "地球内部構造", "古気候復元"]},
+    {"id": "T2_math", "table": "natural_discovery", "subfield": "数学", "target": 200, "current": 187, "must_include": ["ラングランズ・プログラム", "ホモトピー型理論", "ICM2010ペレルマン", "リー群論", "圏論", "代数幾何", "ポアンカレ予想", "ABC予想", "ホッジ予想", "リーマン予想"]},
+    {"id": "T2_medicine", "table": "natural_discovery", "subfield": "医学・臨床科学", "target": 250, "current": 50, "must_include": ["免疫療法", "mRNAワクチン", "プレシジョンメディシン", "AI診断", "ゲノム編集治療", "腸内細菌叢", "リキッドバイオプシー", "ナノメディシン", "再生医療臨床応用", "デジタル療法"]},
+    {"id": "T2_neuroscience", "table": "natural_discovery", "subfield": "神経科学・認知科学", "target": 200, "current": 275, "must_include": ["BCI", "神経可塑性", "デフォルトモードネットワーク", "光遺伝学", "コネクトーム", "予測符号化", "ベイジアン脳仮説", "意識の神経相関", "AI×神経科学", "計算精神医学"]},
+    {"id": "T2_astrophysics", "table": "natural_discovery", "subfield": "宇宙物理・天文学", "target": 200, "current": 151, "must_include": ["LIGO重力波", "ブラックホール撮影", "JWST観測", "ハビタブルゾーン", "暗黒物質候補", "暗黒エネルギー", "宇宙論的常数", "太陽系外惑星", "高エネルギー宇宙線", "宇宙インフレーション"]},
+
+    {"id": "T3_h_recent", "table": "humanities_concept", "subfield_distribute": true, "target": 150, "focus": "2015-2025 人文学新概念", "must_include": ["新唯物論", "ポスト・ヒューマニズム", "デジタル人文学", "AI倫理学", "気候哲学", "ケアの哲学", "デコロナイズ理論", "アクセラレーショニズム", "オブジェクト指向存在論", "Posthuman Anthropocene"]},
+    {"id": "T3_s_recent", "table": "social_theory", "subfield_distribute": true, "target": 150, "focus": "2015-2025 社会科学新概念", "must_include": ["プラットフォーム資本主義", "気候社会学", "長期主義", "AI社会学", "アルゴリズムバイアス", "監視資本主義", "ケアエコノミー", "脱成長", "Doughnut経済学", "メタモダニズム"]},
+    {"id": "T3_n_recent", "table": "natural_discovery", "subfield_distribute": true, "target": 150, "focus": "2015-2025 自然科学新発見", "must_include": ["AlphaFold2", "CRISPR-Cas9臨床応用", "重力波天文学", "mRNAワクチン", "量子優位性", "ブラックホール撮影", "脳機械インターフェース", "光合成量子コヒーレンス", "Topological materials", "JWST観測"]},
+    {"id": "T3_e_recent", "table": "engineering_method", "subfield_distribute": true, "target": 150, "focus": "2015-2025 工学新技術", "must_include": ["GPT/Gemini/Claude", "拡散モデル", "AGI整合性", "エンボディドAI", "エージェントAI", "Constitutional AI", "Foundation Model", "ニューロモルフィック", "ペロブスカイト電池", "全固体電池"]},
+    {"id": "T3_a_recent", "table": "arts_question", "subfield_distribute": true, "target": 150, "focus": "2015-2025 芸術新理論", "must_include": ["AIアート", "生成AI批評", "NFTアート", "ポストインターネット・アート", "気候アート", "AIシネマ", "生成音楽", "アルゴリズミックアート", "デジタルパフォーマンス", "Critical AI Art"]}
+  ]
+}
