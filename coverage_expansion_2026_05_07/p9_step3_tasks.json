@@ -1,0 +1,13 @@
+{
+  "version": "p9_step3",
+  "purpose": "2015+ 補強（特に natural と arts）",
+  "tasks": [
+    {"id": "P9_N_2015plus_med", "table": "natural_discovery", "subfield": "医学・臨床科学", "must_include": ["mRNAワクチン", "AlphaFold創薬", "AI診断", "CAR-T進化", "オルガノイドバイオ", "デジタル療法", "Genomics 2.0", "プレシジョン2025", "免疫療法新世代", "CRISPR臨床応用"], "era_min": 2015},
+    {"id": "P9_N_2015plus_neuro", "table": "natural_discovery", "subfield": "神経科学・認知科学", "must_include": ["BCI 2025", "Optogenetics新世代", "Connectome完成", "Neural foundation models", "Predictive processing拡張", "Active inference新展開", "AI神経科学", "Computational psychiatry", "Brain organoids", "Neuro-AI fusion"], "era_min": 2015},
+    {"id": "P9_N_2015plus_phys", "table": "natural_discovery", "subfield": "物理学", "must_include": ["量子優位性", "Topological materials", "Twistronics", "量子コンピュータ実装", "重力波天文学拡張", "Higgs実験拡張", "Time crystals", "Quantum simulation", "Many-body localization", "Quantum networks"], "era_min": 2015},
+    {"id": "P9_A_2015plus_visual", "table": "arts_question", "subfield": "視覚芸術論・美術史", "must_include": ["AIアート理論", "生成AI批評", "NFTアート", "ポストインターネット・アート", "気候アート", "DAOアート", "Algorithmic art 2025", "Critical AI Art", "Posthuman visual art", "Decolonial visual culture"], "era_min": 2015},
+    {"id": "P9_A_2015plus_media", "table": "arts_question", "subfield": "メディアアート・デジタル芸術", "must_include": ["生成AIアート", "ブロックチェーンアート", "AIDA Algorithm", "AIシネマ", "生成音楽", "VRアート", "ARアート", "Mixed reality art", "AI augmented art", "Computational creativity 2.0"], "era_min": 2015},
+    {"id": "P9_A_2015plus_design", "table": "arts_question", "subfield": "デザイン理論", "must_include": ["スペキュラティブデザイン", "デザイン正義", "プラットフォームデザイン", "AIネイティブデザイン", "気候デザイン", "Inclusive design 2025", "Service design AI", "Co-design 進化", "Decolonial design", "More-than-human design"], "era_min": 2015},
+    {"id": "P9_H_2015plus_continental", "table": "humanities_concept", "subfield": "大陸哲学・現象学", "must_include": ["Anthropocene哲学", "OOO拡張", "ANT 2025", "Sympoiesis", "新唯物論第二波", "思弁的実在論進化", "Cosmopolitics", "Posthuman phenomenology", "Eco-phenomenology", "Critical climate philosophy"], "era_min": 2015}
+  ]
+}

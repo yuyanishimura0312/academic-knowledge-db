@@ -1,0 +1,23 @@
+{
+  "version": "p9_step2",
+  "purpose": "薄サブフィールド拡張 - 各 60件目標",
+  "target_per_task": 60,
+  "tasks": [
+    {"id": "P9_H_cogsci", "table": "humanities_concept", "subfield": "認知科学・心の科学", "must_include": ["4E認知", "Embodied cognition", "Extended mind", "Predictive processing", "Bayesian brain", "Free energy principle", "Active inference", "Distributed cognition", "Embodied simulation", "Ecological perception"]},
+    {"id": "P9_H_aesthetics", "table": "humanities_concept", "subfield": "美学・芸術哲学", "must_include": ["カント美学", "崇高論", "趣味判断", "感覚の哲学", "Everyday aesthetics", "Environmental aesthetics", "Posthuman aesthetics", "Atmospheric aesthetics", "AI生成美学", "デジタル崇高"]},
+    {"id": "P9_N_medicine", "table": "natural_discovery", "subfield": "医学・臨床科学", "must_include": ["免疫療法", "mRNAワクチン", "プレシジョンメディシン", "AI診断", "ゲノム編集治療", "腸内細菌叢", "リキッドバイオプシー", "CAR-T細胞療法", "PD-1阻害薬", "オルガノイド医療"]},
+    {"id": "P9_N_systems", "table": "natural_discovery", "subfield": "システム科学・複雑系", "must_include": ["カオス理論", "自己組織化臨界", "セルラーオートマトン", "Edge of chaos", "Network science", "Power-law", "Self-organized criticality", "Emergent phenomena", "Stuart Kauffman", "Complex adaptive systems"]},
+    {"id": "P9_E_telecom", "table": "engineering_method", "subfield": "情報通信工学", "must_include": ["6G通信", "サテライトインターネット", "光通信", "メッシュネットワーク", "5G NR", "OFDMA", "MIMO", "Network slicing", "Software-defined networking", "TCP/IP最新拡張"]},
+    {"id": "P9_E_systems", "table": "engineering_method", "subfield": "システム工学・制御工学", "must_include": ["最適制御", "カルマンフィルタ", "MPC モデル予測制御", "強化学習制御", "デジタルツイン制御", "サイバーフィジカルシステム", "適応制御", "ロバスト制御", "ネットワーク制御", "Stochastic control"]},
+    {"id": "P9_E_energy", "table": "engineering_method", "subfield": "エネルギー工学", "must_include": ["核融合研究", "グリーン水素", "全固体電池", "次世代原子炉", "風力発電", "太陽光発電", "蓄電システム", "燃料電池", "送電網", "スマートグリッド"]},
+    {"id": "P9_A_curation", "table": "arts_question", "subfield": "キュレーション・展示論", "must_include": ["展覧会論", "美術館学", "ハロルド・ゼーマン", "Curatorial Studies", "Biennale studies", "Museum 2.0", "Critical curation", "Decolonial curation", "Curatorial Activism", "ポスト・キュレーション"]},
+    {"id": "P9_A_game", "table": "arts_question", "subfield": "ゲーム・インタラクティブアート", "must_include": ["ルドロジー", "Ludology", "Game studies", "Procedural rhetoric", "Bogost", "Interactive narrative", "Walking simulator", "Indie games critique", "AI-generated games", "Virtual world studies"]},
+    {"id": "P9_A_critical", "table": "arts_question", "subfield": "文化批評・芸術社会学", "must_include": ["ポストコロニアル芸術", "Decolonial aesthetics", "ソーシャリー・エンゲージド・アート", "Participatory art", "Spectacle critique", "Frankfurt Schoolアート批判", "Visual Sociology", "Critical race art theory", "Queer aesthetics", "Crip art theory"]},
+    {"id": "P9_A_aesthetics", "table": "arts_question", "subfield": "美学・芸術哲学", "must_include": ["分析美学", "現代美学", "ポストモダン美学", "デジタル美学", "AI美学", "感性的経験", "崇高論", "美の理論", "Pragmatist aesthetics", "Continental aesthetics"]},
+    {"id": "P9_S_management", "table": "social_theory", "subfield": "経営・組織論", "must_include": ["プラットフォーム経営", "組織文化研究", "リーダーシップ理論", "ティール組織", "Holacracy", "Agile management", "VUCA経営", "Post-bureaucratic organization", "Stakeholder theory", "ESG経営"]},
+    {"id": "P9_S_education", "table": "social_theory", "subfield": "教育学・学習科学", "must_include": ["デザイン研究方法論", "学習科学", "コンピュテーショナル思考", "AI教育研究", "インクルーシブ教育", "Project-based learning", "Self-determination theory", "Sociocultural learning", "Multimodal learning analytics", "Computer-supported collaborative learning"]},
+    {"id": "P9_S_law", "table": "social_theory", "subfield": "法学・法哲学", "must_include": ["AI法学", "プライバシー法", "プラットフォーム責任", "気候訴訟", "Legal Realism", "Critical Legal Studies", "Therapeutic Jurisprudence", "Empirical Legal Studies", "Law and Society", "Regulatory theory"]},
+    {"id": "P9_S_geography", "table": "social_theory", "subfield": "地理学・空間論", "must_include": ["都市政治生態学", "デジタル地理学", "場所性研究", "GISマッピング", "Critical Geography", "Urban political ecology", "Digital geography", "Place-based research", "Spatial justice", "Smart Cities研究"]},
+    {"id": "P9_S_culture", "table": "social_theory", "subfield": "文化研究・批判理論", "must_include": ["カルチュラル・スタディーズ", "ポストコロニアル批評", "クィア理論", "デジタル文化研究", "Affect theory", "Necropolitics", "Surveillance studies", "Critical race theory", "Technocultures", "Subcultures研究"]}
+  ]
+}
