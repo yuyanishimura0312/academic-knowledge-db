@@ -1,0 +1,12 @@
+{
+  "version": "p11_step2",
+  "purpose": "arts 2015+補強 - 11.8% → 18%へ",
+  "tasks": [
+    {"id": "P11_A_design_2015", "table": "arts_question", "subfield": "デザイン理論", "must_include": ["スペキュラティブデザイン2025", "デザイン正義", "AIネイティブデザイン", "気候デザイン", "More-than-human design", "デザイン人類学", "Decolonial design", "Tactical design", "Activist design", "Pluriversal design"]},
+    {"id": "P11_A_archi_2015", "table": "arts_question", "subfield": "建築・空間芸術論", "must_include": ["ジェネラティブ建築", "コンピュテーショナル建築2025", "気候建築", "脱炭素建築", "Mass timber", "BIM進化", "デジタルツイン都市", "Passive House", "Living Building Challenge", "Zero-energy buildings"]},
+    {"id": "P11_A_perf_2015", "table": "arts_question", "subfield": "舞台芸術論", "must_include": ["デジタルパフォーマンス2025", "AIシアター", "Mixed reality dance", "Climate performance", "Posthuman dance", "Live coding theatre", "VR perfomance", "Tele-presence theater", "Embodied AI choreography", "Network performance"]},
+    {"id": "P11_A_film_2015", "table": "arts_question", "subfield": "映画・映像論", "must_include": ["AIシネマ", "Generative film", "ストリーミング時代の映画", "Climate cinema", "K-cinema theory", "Decolonial cinema", "Glitch cinema", "TikTok aesthetics", "Algorithmic cinema", "Posthuman screen studies"]},
+    {"id": "P11_A_music_2015", "table": "arts_question", "subfield": "音楽学", "must_include": ["生成音楽AI", "ストリーミング経済学", "K-pop理論", "Decolonial musicology", "Climate music", "AI作曲", "Algorithmic composition 2025", "Sound studies turn", "Posthuman music", "Vibe-coded music"]},
+    {"id": "P11_A_critical_2015", "table": "arts_question", "subfield": "文化批評・芸術社会学", "must_include": ["AI芸術批判", "Climate art criticism", "Decolonial art history", "Algorithm-aware criticism", "Crip art theory", "Trans aesthetics", "Indigenous art theory", "Surveillance aesthetics", "Black aesthetics 2025", "Disability aesthetics"]}
+  ]
+}
