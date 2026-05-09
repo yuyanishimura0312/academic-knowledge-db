@@ -1,0 +1,21 @@
+{
+  "version": "p12",
+  "purpose": "humanities + engineering 量的バランス調整",
+  "tasks": [
+    {"id": "P12_H_continental2", "table": "humanities_concept", "subfield": "大陸哲学・現象学", "must_include": ["フッサールの志向性", "ハイデガーの世界内存在", "メルロ=ポンティの身体図式", "デリダの脱構築", "ドゥルーズ=ガタリのリゾーム", "ベルクソンの持続", "ガダマーの解釈学的循環", "リクールのナラティブ・アイデンティティ", "ナンシーの共同体論", "アガンベンの剥き出しの生"]},
+    {"id": "P12_H_history2", "table": "humanities_concept", "subfield": "歴史学・歴史哲学", "must_include": ["アナール学派", "歴史の長期持続", "メンタリテ", "ミシェル・ド・セルトーの歴史実践", "サブアルタン研究", "国民国家批判", "脱植民地史", "知識社会史", "感情史", "デジタルヒューマニティーズ歴史"]},
+    {"id": "P12_H_religion2", "table": "humanities_concept", "subfield": "宗教学・神学", "must_include": ["世俗化論争", "シカゴ学派宗教学", "オイクロイケーの宗教現象学", "新宗教研究", "宗教的経験の現象学", "ティリッヒの究極的関心", "ブーバーの我と汝", "リクールの象徴解釈", "デューイの自然主義的神学", "21世紀デジタル宗教"]},
+    {"id": "P12_H_critical2", "table": "humanities_concept", "subfield": "批判理論・社会哲学", "must_include": ["フランクフルト学派第一世代", "アドルノの否定弁証法", "ハーバーマスの公共圏", "ホネットの承認論", "アクセル・ホネットの物象化", "フレイザーの再分配と承認", "Affect Theory", "Necropolitics", "Critical Whiteness Studies", "Queer Negativity"]},
+    {"id": "P12_H_lang2", "table": "humanities_concept", "subfield": "言語学", "must_include": ["チョムスキーの普遍文法", "サピア=ウォーフ仮説", "ラボフの社会言語学", "コーパス言語学", "Discourse analysis", "Cognitive Grammar", "Construction Grammar", "Minimalist Program", "Optimality Theory", "Distributed Morphology"]},
+    {"id": "P12_H_aesthetics2", "table": "humanities_concept", "subfield": "美学・芸術哲学", "must_include": ["バウムガルテンの美学", "アドルノの美の理論", "ダントーの芸術界", "ディッキーの制度説", "ブールデューの芸術社会学", "Everyday aesthetics", "Environmental aesthetics", "Posthuman aesthetics", "Computational aesthetics", "Indigenous aesthetics"]},
+    {"id": "P12_H_eastern2", "table": "humanities_concept", "subfield": "東洋・非西洋哲学", "must_include": ["朱子学の理気論", "陽明学の心即理", "華厳哲学の事事無礙", "天台智顗の三諦", "禅の只管打坐", "ナーガールジュナの中観", "ヴィヴェーカーナンダのヴェーダーンタ", "ガンディーの非暴力哲学", "京都学派の絶対無", "西田の場所の論理"]},
+    {"id": "P12_H_poetics2", "table": "humanities_concept", "subfield": "詩学・文学理論", "must_include": ["ジャンル論", "ベンヤミンの寓意", "デ・マンの読みの寓意", "ヤーコブソンの詩的機能", "シクロフスキーの異化", "受容理論", "新批評", "ポストコロニアル詩学", "気候フィクション", "AI生成文学批評"]},
+
+    {"id": "P12_E_compsci2", "table": "engineering_method", "subfield": "計算機科学", "must_include": ["NPカラーリング問題", "ストリームアルゴリズム", "オンラインアルゴリズム", "近似アルゴリズム", "ランダム化アルゴリズム", "形式言語理論", "型理論", "Hoare logic", "Process calculi", "Distributed consensus"]},
+    {"id": "P12_E_ai2", "table": "engineering_method", "subfield": "AI・機械学習", "must_include": ["強化学習PPO", "DQN", "Transformer architecture", "Vision Transformer", "Diffusion model latent", "CLIP対照学習", "Self-supervised learning", "Mixture of Experts", "RAG retrieval augmented", "Tool-augmented LLM"]},
+    {"id": "P12_E_robotics2", "table": "engineering_method", "subfield": "機械工学・ロボティクス", "must_include": ["PD制御", "Kalman filter", "Particle filter", "ROS Robot Operating System", "Manipulator kinematics", "Trajectory optimization", "Bipedal locomotion", "Quadruped robotics", "Soft robotics", "Swarm robotics"]},
+    {"id": "P12_E_electrical2", "table": "engineering_method", "subfield": "電気・電子工学", "must_include": ["FETトランジスタ", "CMOSプロセス", "オペアンプ", "PLL位相同期回路", "ADC/DAC変換", "MIMOアンテナ", "Power converter", "MOSFET drive", "EMC設計", "BLDC motor"]},
+    {"id": "P12_E_chemical2", "table": "engineering_method", "subfield": "化学工学・材料工学", "must_include": ["蒸留設計", "化学平衡", "反応速度論", "触媒設計", "分離膜", "Polymer composite", "セラミックス焼結", "電池電解質", "Solid-state battery", "Bioprocess engineering"]},
+    {"id": "P12_E_civil2", "table": "engineering_method", "subfield": "土木・建築工学", "must_include": ["免震構造", "鉄筋コンクリート", "プレストレストコンクリート", "Rocking foundation", "ジオシンセティクス", "Tunneling NATM", "BIM/CIM", "Smart cities infrastructure", "Resilient infrastructure", "Urban heat island"]}
+  ]
+}
