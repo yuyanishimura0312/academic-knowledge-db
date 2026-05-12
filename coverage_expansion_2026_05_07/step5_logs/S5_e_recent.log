@@ -1,0 +1,28 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e067f-7db9-7de0-82ba-97170c3eb9b0
+--------
+user
+engineering_method（2015-2025の工学新技術）の重要概念120件を JSON 配列で出力してください。
+
+必須概念: GPT/Gemini/Claude系統、拡散モデル理論、AGI整合性、エンボディドAI、エージェントAI、Constitutional AI、Foundation Model、ニューロモルフィック計算、ペロブスカイト電池量産、全固体電池
+
+各エントリの形式:
+{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"分野横断 - 該当サブフィールド名","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}
+
+要件:
+- 主に 2015-2025 年の理論・概念に焦点
+- 内部知識のみ使用、web検索しない
+- subfield フィールドは 計算機科学、AI・機械学習、機械工学・ロボティクス、電気・電子工学、化学工学・材料工学、土木・建築工学、情報通信工学、航空宇宙工学、エネルギー工学、バイオ・医療工学、環境工学、システム工学・制御工学 のいずれかを指定
+- 重複なし、120件出力
+- JSON配列のみ（説明・コードフェンス禁止）
+

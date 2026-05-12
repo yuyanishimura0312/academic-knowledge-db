@@ -1,0 +1,2860 @@
+[
+  {
+    "name_ja": "現象学的還元",
+    "name_en": "Phenomenological Reduction",
+    "definition": "現象学的還元は、自然的態度で前提される世界の実在判断を括弧に入れ、意識に現れるものの与えられ方そのものを記述する方法である。",
+    "impact_summary": "現象学を心理学や形而上学から区別し、二十世紀大陸哲学の方法論的基盤となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "古典的現象学",
+    "era_start": 1907,
+    "era_end": null,
+    "keywords_ja": "還元,エポケー,意識,与えられ方",
+    "keywords_en": "reduction,epoché,consciousness,givenness",
+    "key_researchers": [
+      "Edmund Husserl"
+    ],
+    "key_works": [
+      "Ideas I (1913)"
+    ]
+  },
+  {
+    "name_ja": "エポケー",
+    "name_en": "Epoché",
+    "definition": "エポケーは、世界や対象が単純に存在するという日常的確信を停止し、経験がいかに成立するかを反省的に明らかにする現象学の基本操作である。",
+    "impact_summary": "認識の根拠を経験の構成へ移し、現象学的記述の厳密性を支える技法となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "古典的現象学",
+    "era_start": 1913,
+    "era_end": null,
+    "keywords_ja": "判断停止,括弧入れ,方法,反省",
+    "keywords_en": "suspension,bracketing,method,reflection",
+    "key_researchers": [
+      "Edmund Husserl"
+    ],
+    "key_works": [
+      "Ideas I (1913)"
+    ]
+  },
+  {
+    "name_ja": "志向性",
+    "name_en": "Intentionality",
+    "definition": "志向性は、意識が常に何かについての意識であるという構造を指し、知覚、想起、判断、欲望などを対象への関係として分析する概念である。",
+    "impact_summary": "心的作用を内的実体ではなく世界への開かれとして捉え直し、現象学全体の中心概念となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学",
+    "era_start": 1874,
+    "era_end": null,
+    "keywords_ja": "意識,対象,ブレンターノ,フッサール",
+    "keywords_en": "intentionality,object,Brentano,Husserl",
+    "key_researchers": [
+      "Franz Brentano",
+      "Edmund Husserl"
+    ],
+    "key_works": [
+      "Psychology from an Empirical Standpoint (1874)",
+      "Logical Investigations (1900)"
+    ]
+  },
+  {
+    "name_ja": "ノエシス・ノエマ相関",
+    "name_en": "Noesis-Noema Correlation",
+    "definition": "ノエシス・ノエマ相関は、意識作用とそれに対応して意味づけられた対象内容を相関的に捉え、経験の意味構成を精密に記述する枠組みである。",
+    "impact_summary": "対象を単なる外物ではなく意味として現れるものとし、現象学的意味論を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "超越論的現象学",
+    "era_start": 1913,
+    "era_end": null,
+    "keywords_ja": "ノエシス,ノエマ,意味,相関",
+    "keywords_en": "noesis,noema,meaning,correlation",
+    "key_researchers": [
+      "Edmund Husserl"
+    ],
+    "key_works": [
+      "Ideas I (1913)"
+    ]
+  },
+  {
+    "name_ja": "生活世界",
+    "name_en": "Lifeworld",
+    "definition": "生活世界は、科学的抽象化に先立って人々が実践的に生き、意味を共有し、他者や事物と関わる前理論的な世界地平を指す概念である。",
+    "impact_summary": "科学主義批判、社会理論、解釈学、コミュニケーション理論に広く影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "後期フッサール現象学",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_ja": "生活世界,地平,科学批判,日常性",
+    "keywords_en": "lifeworld,horizon,science critique,everydayness",
+    "key_researchers": [
+      "Edmund Husserl",
+      "Jürgen Habermas"
+    ],
+    "key_works": [
+      "The Crisis of European Sciences (1936)",
+      "The Theory of Communicative Action (1981)"
+    ]
+  },
+  {
+    "name_ja": "時間意識",
+    "name_en": "Time-Consciousness",
+    "definition": "時間意識は、現在が把持された過去と予持された未来を含んで流れるという構造を分析し、経験の連続性と自己性の成立を説明する概念である。",
+    "impact_summary": "記憶、音楽経験、自己意識、内的時間の研究に決定的な影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "古典的現象学",
+    "era_start": 1905,
+    "era_end": null,
+    "keywords_ja": "把持,予持,内的時間,流れ",
+    "keywords_en": "retention,protention,inner time,flow",
+    "key_researchers": [
+      "Edmund Husserl"
+    ],
+    "key_works": [
+      "On the Phenomenology of the Consciousness of Internal Time (1928)"
+    ]
+  },
+  {
+    "name_ja": "間主観性",
+    "name_en": "Intersubjectivity",
+    "definition": "間主観性は、自己と他者が孤立した意識ではなく、相互承認、共感、身体的交流を通じて共有世界を構成するという現象学的概念である。",
+    "impact_summary": "他者論、社会存在論、コミュニケーション理論、倫理学の基礎概念になった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_ja": "他者,共感,共有世界,相互性",
+    "keywords_en": "intersubjectivity,empathy,shared world,otherness",
+    "key_researchers": [
+      "Edmund Husserl",
+      "Edith Stein"
+    ],
+    "key_works": [
+      "Cartesian Meditations (1931)",
+      "On the Problem of Empathy (1917)"
+    ]
+  },
+  {
+    "name_ja": "身体図式",
+    "name_en": "Body Schema",
+    "definition": "身体図式は、身体が客観的物体としてではなく、世界を志向し行為を可能にする前反省的な運動能力と空間定位の組織として働く構造である。",
+    "impact_summary": "身体性、知覚、運動、認知科学、障害研究を結ぶ現象学的枠組みとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "身体現象学",
+    "era_start": 1945,
+    "era_end": null,
+    "keywords_ja": "身体,知覚,運動,前反省性",
+    "keywords_en": "body schema,perception,motility,pre-reflective",
+    "key_researchers": [
+      "Maurice Merleau-Ponty",
+      "Shaun Gallagher"
+    ],
+    "key_works": [
+      "Phenomenology of Perception (1945)",
+      "How the Body Shapes the Mind (2005)"
+    ]
+  },
+  {
+    "name_ja": "肉",
+    "name_en": "Flesh",
+    "definition": "肉は、主体と客体、見るものと見られるものが可逆的に絡み合う存在の媒体を表し、知覚世界の共有性と感性的厚みを説明する概念である。",
+    "impact_summary": "身体論、芸術論、環境現象学、ポスト人間中心主義の議論に大きく影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "後期メルロ＝ポンティ現象学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_ja": "肉,可逆性,交差配列,知覚",
+    "keywords_en": "flesh,reversibility,chiasm,perception",
+    "key_researchers": [
+      "Maurice Merleau-Ponty"
+    ],
+    "key_works": [
+      "The Visible and the Invisible (1964)"
+    ]
+  },
+  {
+    "name_ja": "世界内存在",
+    "name_en": "Being-in-the-World",
+    "definition": "世界内存在は、人間存在を内的主体と外的世界の結合としてではなく、道具、他者、関心の網目の中で既に生きている存在として捉える概念である。",
+    "impact_summary": "主体中心的認識論を転換し、実存主義、解釈学、実践哲学に強い影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存現象学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "世界内存在,実存,道具,関心",
+    "keywords_en": "being-in-the-world,existence,equipment,concern",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)"
+    ]
+  },
+  {
+    "name_ja": "現存在",
+    "name_en": "Dasein",
+    "definition": "現存在は、自らの存在が問題となる存在者として人間存在を捉える概念であり、理解、気分、語り、死への関係を通じて存在を開示する。",
+    "impact_summary": "存在論を人間の実存的構造から再出発させ、二十世紀哲学の語彙を変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "基礎存在論",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "現存在,実存,存在理解,開示性",
+    "keywords_en": "Dasein,existence,understanding,disclosedness",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)"
+    ]
+  },
+  {
+    "name_ja": "配慮・気遣い",
+    "name_en": "Care",
+    "definition": "配慮・気遣いは、現存在が未来へ投企し、過去に投げ込まれ、現在の世界に関わる統一構造を示し、人間存在の根本的あり方を表す。",
+    "impact_summary": "実存分析の中心概念となり、倫理、看護、ケア論にも広い受容をもたらした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "基礎存在論",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "配慮,気遣い,投企,実存",
+    "keywords_en": "care,concern,projection,existence",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)"
+    ]
+  },
+  {
+    "name_ja": "被投性",
+    "name_en": "Thrownness",
+    "definition": "被投性は、人間が自分で選んでいない歴史、身体、言語、社会関係の中に既に投げ込まれているという実存の条件を示す概念である。",
+    "impact_summary": "自由を制約なき選択ではなく状況内の可能性として理解する道を開いた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存現象学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "被投性,事実性,状況,有限性",
+    "keywords_en": "thrownness,facticity,situation,finitude",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)"
+    ]
+  },
+  {
+    "name_ja": "本来性",
+    "name_en": "Authenticity",
+    "definition": "本来性は、世人の匿名的規範に埋没するのではなく、自らの有限性と可能性を引き受けて存在するあり方を示す実存論的概念である。",
+    "impact_summary": "実存主義、倫理的自己形成、近代的個人論に強い影響を与え続けた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存現象学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "本来性,世人,決意性,自己",
+    "keywords_en": "authenticity,the they,resoluteness,selfhood",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)"
+    ]
+  },
+  {
+    "name_ja": "死への存在",
+    "name_en": "Being-toward-Death",
+    "definition": "死への存在は、死を単なる生物学的終点ではなく、誰にも代替できない自己固有の可能性として先取りする実存の構造を意味する。",
+    "impact_summary": "有限性を哲学の中心へ置き、実存主義文学、神学、精神療法にも影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存現象学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "死,有限性,先駆,不安",
+    "keywords_en": "death,finitude,anticipation,anxiety",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)"
+    ]
+  },
+  {
+    "name_ja": "存在論的差異",
+    "name_en": "Ontological Difference",
+    "definition": "存在論的差異は、個々の存在者とそれらが存在するという存在そのものを区別し、西洋形而上学が忘却した存在の問いを回復する概念である。",
+    "impact_summary": "形而上学批判、脱構築、神学、現代存在論に持続的な論点を提供した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ハイデガー存在論",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "存在,存在者,差異,形而上学批判",
+    "keywords_en": "being,beings,difference,metaphysics",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Being and Time (1927)",
+      "The Basic Problems of Phenomenology (1927)"
+    ]
+  },
+  {
+    "name_ja": "解釈学的循環",
+    "name_en": "Hermeneutic Circle",
+    "definition": "解釈学的循環は、部分の理解が全体の理解に依存し、全体の理解も部分の解釈によって更新されるという理解の動的構造を示す。",
+    "impact_summary": "テクスト解釈だけでなく歴史、法、社会科学、自己理解の方法論を形作った。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "哲学的解釈学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "解釈,循環,全体,部分",
+    "keywords_en": "hermeneutics,circle,whole,part",
+    "key_researchers": [
+      "Martin Heidegger",
+      "Hans-Georg Gadamer"
+    ],
+    "key_works": [
+      "Being and Time (1927)",
+      "Truth and Method (1960)"
+    ]
+  },
+  {
+    "name_ja": "地平融合",
+    "name_en": "Fusion of Horizons",
+    "definition": "地平融合は、解釈者の歴史的地平とテクストや他者の地平が対話の中で変容し、新たな理解を生む過程を表す解釈学概念である。",
+    "impact_summary": "歴史理解を中立的再現ではなく対話的出来事として捉え直した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "哲学的解釈学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_ja": "地平,対話,伝統,理解",
+    "keywords_en": "horizon,fusion,dialogue,tradition",
+    "key_researchers": [
+      "Hans-Georg Gadamer"
+    ],
+    "key_works": [
+      "Truth and Method (1960)"
+    ]
+  },
+  {
+    "name_ja": "存在の出来事",
+    "name_en": "Ereignis",
+    "definition": "存在の出来事は、主体が存在を把握するのではなく、存在が人間と言語を相互に帰属させ開示する出来事として理解される後期ハイデガーの概念である。",
+    "impact_summary": "主体性中心の哲学を超える思考として、脱構築やポスト形而上学に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "後期ハイデガー哲学",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_ja": "出来事,存在,開示,言語",
+    "keywords_en": "Ereignis,event,being,language",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "Contributions to Philosophy (1989)"
+    ]
+  },
+  {
+    "name_ja": "ゲシュテル",
+    "name_en": "Enframing",
+    "definition": "ゲシュテルは、近代技術が自然と人間を利用可能な資源として立て置く存在開示の様式であり、単なる機械批判を超えた技術存在論である。",
+    "impact_summary": "技術哲学、環境思想、メディア論において近代的支配の分析枠組みとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "技術哲学",
+    "era_start": 1954,
+    "era_end": null,
+    "keywords_ja": "技術,資源,立て置き,近代",
+    "keywords_en": "enframing,technology,standing-reserve,modernity",
+    "key_researchers": [
+      "Martin Heidegger"
+    ],
+    "key_works": [
+      "The Question Concerning Technology (1954)"
+    ]
+  },
+  {
+    "name_ja": "実存主義",
+    "name_en": "Existentialism",
+    "definition": "実存主義は、人間を本質に先立って自由に自己を形成する存在として捉え、不安、責任、孤独、死、他者との関係を中心に置く哲学運動である。",
+    "impact_summary": "戦後思想、文学、演劇、心理療法、政治参加論に広範な影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存主義",
+    "era_start": 1943,
+    "era_end": 1960,
+    "keywords_ja": "実存,自由,不安,責任",
+    "keywords_en": "existence,freedom,anxiety,responsibility",
+    "key_researchers": [
+      "Jean-Paul Sartre",
+      "Simone de Beauvoir",
+      "Albert Camus"
+    ],
+    "key_works": [
+      "Being and Nothingness (1943)",
+      "The Ethics of Ambiguity (1947)"
+    ]
+  },
+  {
+    "name_ja": "悪しき信仰",
+    "name_en": "Bad Faith",
+    "definition": "悪しき信仰は、人間が自らの自由と責任を認めず、役割、性格、制度、事実性に逃げ込んで自己欺瞞的に生きる状態を示す概念である。",
+    "impact_summary": "自己欺瞞、役割同一化、社会的抑圧の分析に哲学的語彙を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "サルトル実存主義",
+    "era_start": 1943,
+    "era_end": null,
+    "keywords_ja": "悪しき信仰,自己欺瞞,自由,役割",
+    "keywords_en": "bad faith,self-deception,freedom,role",
+    "key_researchers": [
+      "Jean-Paul Sartre"
+    ],
+    "key_works": [
+      "Being and Nothingness (1943)"
+    ]
+  },
+  {
+    "name_ja": "他者のまなざし",
+    "name_en": "The Look",
+    "definition": "他者のまなざしは、他者に見られることで自己が対象化され、恥や緊張を通じて他者の自由を経験する構造を示す実存現象学の概念である。",
+    "impact_summary": "主体間関係、羞恥、権力、ジェンダー表象の分析に強い影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存現象学",
+    "era_start": 1943,
+    "era_end": null,
+    "keywords_ja": "まなざし,他者,恥,対象化",
+    "keywords_en": "look,other,shame,objectification",
+    "key_researchers": [
+      "Jean-Paul Sartre"
+    ],
+    "key_works": [
+      "Being and Nothingness (1943)"
+    ]
+  },
+  {
+    "name_ja": "曖昧さの倫理",
+    "name_en": "Ethics of Ambiguity",
+    "definition": "曖昧さの倫理は、人間が自由でありながら状況に拘束される存在であることを認め、他者の自由を開く行為を倫理の基準とする思想である。",
+    "impact_summary": "実存主義倫理を個人主義から解放し、フェミニズムと政治責任論に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存主義フェミニズム",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_ja": "曖昧さ,自由,他者,倫理",
+    "keywords_en": "ambiguity,freedom,other,ethics",
+    "key_researchers": [
+      "Simone de Beauvoir"
+    ],
+    "key_works": [
+      "The Ethics of Ambiguity (1947)"
+    ]
+  },
+  {
+    "name_ja": "不条理",
+    "name_en": "Absurd",
+    "definition": "不条理は、意味を求める人間の欲望と、世界が沈黙し究極的意味を与えないこととの衝突を指し、反抗と生の肯定を問う概念である。",
+    "impact_summary": "文学、演劇、倫理、政治的反抗論において戦後思想の重要な語彙となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "不条理哲学",
+    "era_start": 1942,
+    "era_end": null,
+    "keywords_ja": "不条理,反抗,意味,沈黙",
+    "keywords_en": "absurd,revolt,meaning,silence",
+    "key_researchers": [
+      "Albert Camus"
+    ],
+    "key_works": [
+      "The Myth of Sisyphus (1942)",
+      "The Rebel (1951)"
+    ]
+  },
+  {
+    "name_ja": "反抗",
+    "name_en": "Revolt",
+    "definition": "反抗は、不条理や抑圧を前にして世界を否定し尽くすのではなく、限界と連帯を伴って人間の尊厳を主張する実践的態度である。",
+    "impact_summary": "革命の暴力批判と連帯の倫理を結び、政治哲学と文学に深い影響を残した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "不条理哲学",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_ja": "反抗,連帯,限界,尊厳",
+    "keywords_en": "revolt,solidarity,limit,dignity",
+    "key_researchers": [
+      "Albert Camus"
+    ],
+    "key_works": [
+      "The Rebel (1951)"
+    ]
+  },
+  {
+    "name_ja": "弁証法的理性批判",
+    "name_en": "Critique of Dialectical Reason",
+    "definition": "弁証法的理性批判は、個人の実践、集団形成、物質的希少性、歴史的総体化を結び、実存主義とマルクス主義を統合しようとする理論である。",
+    "impact_summary": "主体的実践と構造的条件を結ぶ戦後フランス思想の重要な試みとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存主義的マルクス主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_ja": "弁証法,実践,集団,歴史",
+    "keywords_en": "dialectics,praxis,group,history",
+    "key_researchers": [
+      "Jean-Paul Sartre"
+    ],
+    "key_works": [
+      "Critique of Dialectical Reason (1960)"
+    ]
+  },
+  {
+    "name_ja": "批判理論",
+    "name_en": "Critical Theory",
+    "definition": "批判理論は、社会を単に説明するだけでなく、支配、疎外、イデオロギーを批判し、解放の可能性を探る学際的な哲学・社会理論である。",
+    "impact_summary": "社会科学、人文学、政治運動、文化研究における批判的分析の標準となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_ja": "批判,解放,支配,社会理論",
+    "keywords_en": "critical theory,emancipation,domination,social theory",
+    "key_researchers": [
+      "Max Horkheimer",
+      "Theodor W. Adorno"
+    ],
+    "key_works": [
+      "Traditional and Critical Theory (1937)"
+    ]
+  },
+  {
+    "name_ja": "啓蒙の弁証法",
+    "name_en": "Dialectic of Enlightenment",
+    "definition": "啓蒙の弁証法は、理性が神話を克服する一方で、自然支配と管理の論理を強め、近代社会に新たな非理性を生む過程を批判する理論である。",
+    "impact_summary": "近代合理性批判、文化産業論、全体主義分析の基礎文献となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_ja": "啓蒙,理性,神話,支配",
+    "keywords_en": "enlightenment,reason,myth,domination",
+    "key_researchers": [
+      "Max Horkheimer",
+      "Theodor W. Adorno"
+    ],
+    "key_works": [
+      "Dialectic of Enlightenment (1944)"
+    ]
+  },
+  {
+    "name_ja": "文化産業",
+    "name_en": "Culture Industry",
+    "definition": "文化産業は、大衆文化が自発的表現ではなく標準化された商品として生産され、消費者の欲望や意識を管理する仕組みを指す概念である。",
+    "impact_summary": "メディア研究、ポピュラー文化批判、広告批判に持続的影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_ja": "文化産業,大衆文化,標準化,商品化",
+    "keywords_en": "culture industry,mass culture,standardization,commodification",
+    "key_researchers": [
+      "Theodor W. Adorno",
+      "Max Horkheimer"
+    ],
+    "key_works": [
+      "Dialectic of Enlightenment (1944)"
+    ]
+  },
+  {
+    "name_ja": "否定弁証法",
+    "name_en": "Negative Dialectics",
+    "definition": "否定弁証法は、概念が対象を完全には捉えられない非同一性を重視し、総合や肯定的体系に回収されない批判的思考を追求する方法である。",
+    "impact_summary": "同一性思考への批判を通じて、芸術論、倫理、社会批判に深い影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_ja": "否定弁証法,非同一性,批判,概念",
+    "keywords_en": "negative dialectics,nonidentity,critique,concept",
+    "key_researchers": [
+      "Theodor W. Adorno"
+    ],
+    "key_works": [
+      "Negative Dialectics (1966)"
+    ]
+  },
+  {
+    "name_ja": "コミュニケーション的行為",
+    "name_en": "Communicative Action",
+    "definition": "コミュニケーション的行為は、戦略的成功ではなく相互理解を目的とする言語行為を社会統合の基礎とし、合理性を対話的に捉える理論である。",
+    "impact_summary": "民主主義、公共圏、法哲学、熟議理論の中心的な規範モデルとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "第二世代批判理論",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_ja": "コミュニケーション,相互理解,合理性,熟議",
+    "keywords_en": "communicative action,understanding,rationality,deliberation",
+    "key_researchers": [
+      "Jürgen Habermas"
+    ],
+    "key_works": [
+      "The Theory of Communicative Action (1981)"
+    ]
+  },
+  {
+    "name_ja": "公共圏",
+    "name_en": "Public Sphere",
+    "definition": "公共圏は、市民が権力や市場から相対的に独立して公共的問題を討議し、世論を形成する社会的空間を指す批判理論の概念である。",
+    "impact_summary": "民主主義論、メディア研究、市民社会論、熟議政治の基本枠組みとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判理論",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_ja": "公共圏,市民社会,討議,世論",
+    "keywords_en": "public sphere,civil society,deliberation,public opinion",
+    "key_researchers": [
+      "Jürgen Habermas",
+      "Nancy Fraser"
+    ],
+    "key_works": [
+      "The Structural Transformation of the Public Sphere (1962)"
+    ]
+  },
+  {
+    "name_ja": "承認論",
+    "name_en": "Recognition Theory",
+    "definition": "承認論は、自己実現が愛、権利、連帯などの相互承認関係に依存し、軽蔑や不可視化が社会的闘争を生むとする社会哲学である。",
+    "impact_summary": "アイデンティティ政治、正義論、フェミニズム、社会運動研究を再編した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "第三世代批判理論",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_ja": "承認,軽蔑,自己実現,正義",
+    "keywords_en": "recognition,misrecognition,self-realization,justice",
+    "key_researchers": [
+      "Axel Honneth",
+      "Charles Taylor",
+      "Nancy Fraser"
+    ],
+    "key_works": [
+      "The Struggle for Recognition (1992)"
+    ]
+  },
+  {
+    "name_ja": "討議倫理",
+    "name_en": "Discourse Ethics",
+    "definition": "討議倫理は、規範の妥当性を権威や伝統ではなく、影響を受ける者全員が自由で平等な討議で同意しうるかに求める倫理理論である。",
+    "impact_summary": "民主的正当性、法哲学、応用倫理に手続き的な規範モデルを提供した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判理論",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "討議,倫理,同意,妥当性",
+    "keywords_en": "discourse ethics,validity,consensus,norms",
+    "key_researchers": [
+      "Jürgen Habermas",
+      "Karl-Otto Apel"
+    ],
+    "key_works": [
+      "Moral Consciousness and Communicative Action (1983)"
+    ]
+  },
+  {
+    "name_ja": "系譜学",
+    "name_en": "Genealogy",
+    "definition": "系譜学は、道徳、知、主体、制度が普遍的起源からではなく、権力関係、偶然、闘争の歴史から形成される過程を分析する方法である。",
+    "impact_summary": "歴史記述を進歩史から解放し、権力批判と主体化分析の有力手法となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ニーチェ主義・ポスト構造主義",
+    "era_start": 1887,
+    "era_end": null,
+    "keywords_ja": "系譜学,権力,歴史,偶然性",
+    "keywords_en": "genealogy,power,history,contingency",
+    "key_researchers": [
+      "Friedrich Nietzsche",
+      "Michel Foucault"
+    ],
+    "key_works": [
+      "On the Genealogy of Morality (1887)",
+      "Discipline and Punish (1975)"
+    ]
+  },
+  {
+    "name_ja": "知の考古学",
+    "name_en": "Archaeology of Knowledge",
+    "definition": "知の考古学は、思想史を著者や連続的発展で説明せず、ある時代に何が言明可能となるかを規定する言説の規則を分析する方法である。",
+    "impact_summary": "人文科学の歴史記述に断絶、言説編成、知の条件という視点を導入した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_ja": "考古学,言説,言明,断絶",
+    "keywords_en": "archaeology,discourse,statement,discontinuity",
+    "key_researchers": [
+      "Michel Foucault"
+    ],
+    "key_works": [
+      "The Archaeology of Knowledge (1969)"
+    ]
+  },
+  {
+    "name_ja": "エピステーメー",
+    "name_en": "Episteme",
+    "definition": "エピステーメーは、特定の時代に諸科学や言説が成立する無意識的な知の配置であり、何が真理として語られうるかを条件づける。",
+    "impact_summary": "近代知の歴史的相対性を示し、知識社会学と科学史に影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_ja": "エピステーメー,知,時代,条件",
+    "keywords_en": "episteme,knowledge,condition,period",
+    "key_researchers": [
+      "Michel Foucault"
+    ],
+    "key_works": [
+      "The Order of Things (1966)"
+    ]
+  },
+  {
+    "name_ja": "装置",
+    "name_en": "Dispositif",
+    "definition": "装置は、言説、制度、建築、法律、行政、科学的知識などが連結し、主体の行動と可能性を配置する権力の異種混合的な網目である。",
+    "impact_summary": "権力分析を国家や階級から日常的な制度配置へ拡張した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_ja": "装置,制度,言説,権力",
+    "keywords_en": "dispositif,apparatus,institution,power",
+    "key_researchers": [
+      "Michel Foucault",
+      "Giorgio Agamben"
+    ],
+    "key_works": [
+      "The Confession of the Flesh (1977 lectures)",
+      "What is an Apparatus? (2006)"
+    ]
+  },
+  {
+    "name_ja": "生権力",
+    "name_en": "Biopower",
+    "definition": "生権力は、近代権力が殺す権利だけでなく、人口、健康、出生、衛生、生命過程を管理し最適化する統治技術として働くことを示す概念である。",
+    "impact_summary": "政治哲学、医療社会学、ジェンダー研究、植民地主義研究で中心概念となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_ja": "生権力,人口,生命,統治",
+    "keywords_en": "biopower,population,life,governance",
+    "key_researchers": [
+      "Michel Foucault"
+    ],
+    "key_works": [
+      "The History of Sexuality, Vol. 1 (1976)"
+    ]
+  },
+  {
+    "name_ja": "統治性",
+    "name_en": "Governmentality",
+    "definition": "統治性は、国家、専門知、自己管理、統計、リスク計算が結びつき、人々が自らを統治するよう導く近代的権力の合理性である。",
+    "impact_summary": "新自由主義批判、政策研究、監査文化、リスク社会論の分析を変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フーコー主義",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_ja": "統治性,新自由主義,自己管理,リスク",
+    "keywords_en": "governmentality,neoliberalism,self-management,risk",
+    "key_researchers": [
+      "Michel Foucault",
+      "Nikolas Rose"
+    ],
+    "key_works": [
+      "Security, Territory, Population (1978)"
+    ]
+  },
+  {
+    "name_ja": "パノプティコン主義",
+    "name_en": "Panopticism",
+    "definition": "パノプティコン主義は、監視されている可能性を内面化させることで、身体と行動を自己規律化する近代的権力のモデルを示す概念である。",
+    "impact_summary": "監視社会、学校、刑務所、職場、デジタル監視の研究に基本語彙を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フーコー主義",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_ja": "監視,規律,刑務所,内面化",
+    "keywords_en": "panopticism,surveillance,discipline,internalization",
+    "key_researchers": [
+      "Michel Foucault",
+      "Jeremy Bentham"
+    ],
+    "key_works": [
+      "Discipline and Punish (1975)"
+    ]
+  },
+  {
+    "name_ja": "主体化",
+    "name_en": "Subjectivation",
+    "definition": "主体化は、人が権力や言説に従属させられると同時に、その規範を通じて自己を形成し、行為者として立ち上がる過程を指す概念である。",
+    "impact_summary": "主体を自律的起点ではなく権力関係の中で生成するものとして再定義した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_ja": "主体化,従属,自己形成,権力",
+    "keywords_en": "subjectivation,subjection,self-formation,power",
+    "key_researchers": [
+      "Michel Foucault",
+      "Judith Butler"
+    ],
+    "key_works": [
+      "The Subject and Power (1982)",
+      "The Psychic Life of Power (1997)"
+    ]
+  },
+  {
+    "name_ja": "パレーシア",
+    "name_en": "Parrhesia",
+    "definition": "パレーシアは、危険を引き受けて真実を率直に語る実践を指し、自己への配慮、政治的勇気、権力への批判を結ぶ古代倫理の概念である。",
+    "impact_summary": "晩年フーコーの倫理研究を形作り、批判的発言と民主主義論を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フーコー後期倫理",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "真実,率直さ,勇気,自己配慮",
+    "keywords_en": "parrhesia,truth-telling,courage,care of self",
+    "key_researchers": [
+      "Michel Foucault"
+    ],
+    "key_works": [
+      "The Government of Self and Others (1983)"
+    ]
+  },
+  {
+    "name_ja": "脱構築",
+    "name_en": "Deconstruction",
+    "definition": "脱構築は、テクストや制度の中で二項対立や中心化が成立する仕組みを読み解き、その内部の差延、痕跡、排除を明らかにする批判的実践である。",
+    "impact_summary": "文学理論、法哲学、建築、フェミニズム、ポストコロニアル研究に広く浸透した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_ja": "脱構築,二項対立,痕跡,差延",
+    "keywords_en": "deconstruction,binary,trace,différance",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Of Grammatology (1967)",
+      "Writing and Difference (1967)"
+    ]
+  },
+  {
+    "name_ja": "差延",
+    "name_en": "Différance",
+    "definition": "差延は、意味が差異によって成立しながら常に延期され、完全な現在や最終的な意味へ到達しないことを示すデリダの造語的概念である。",
+    "impact_summary": "言語、主体、時間、形而上学を非中心化する脱構築の核心概念となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_ja": "差延,差異,延期,意味",
+    "keywords_en": "différance,difference,deferral,meaning",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Margins of Philosophy (1972)"
+    ]
+  },
+  {
+    "name_ja": "痕跡",
+    "name_en": "Trace",
+    "definition": "痕跡は、ある意味や存在がそれ自体で完結せず、不在となった他の差異の残響を含むことで成立するという脱構築の基本概念である。",
+    "impact_summary": "現前中心主義を批判し、記号、記憶、他者性を考える主要な道具となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_ja": "痕跡,不在,現前,記号",
+    "keywords_en": "trace,absence,presence,sign",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Of Grammatology (1967)"
+    ]
+  },
+  {
+    "name_ja": "補遺",
+    "name_en": "Supplement",
+    "definition": "補遺は、欠けたものを外から補う付加物が、実は本体の不完全性を暴露し、その成立条件でもあることを示す脱構築の概念である。",
+    "impact_summary": "中心と周縁、本質と付加、自然と文化の安定した区別を揺るがした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_ja": "補遺,付加,欠如,ルソー",
+    "keywords_en": "supplement,addition,lack,Rousseau",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Of Grammatology (1967)"
+    ]
+  },
+  {
+    "name_ja": "反復可能性",
+    "name_en": "Iterability",
+    "definition": "反復可能性は、記号や発話が元の文脈から切り離されて別の文脈で繰り返されうるため、意味が完全には意図に支配されないことを示す。",
+    "impact_summary": "言語行為論、署名、法、メディア理論における文脈と意味の議論を変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_ja": "反復可能性,記号,文脈,署名",
+    "keywords_en": "iterability,sign,context,signature",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Signature Event Context (1972)"
+    ]
+  },
+  {
+    "name_ja": "ロゴス中心主義",
+    "name_en": "Logocentrism",
+    "definition": "ロゴス中心主義は、西洋形而上学が音声、現前、理性、起源を文字や差異より優位に置いてきた構造を批判的に指す概念である。",
+    "impact_summary": "言語観と哲学史の前提を問い直し、脱構築の主要な批判対象となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_ja": "ロゴス,現前,音声中心主義,形而上学",
+    "keywords_en": "logocentrism,presence,phonocentrism,metaphysics",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Of Grammatology (1967)"
+    ]
+  },
+  {
+    "name_ja": "歓待",
+    "name_en": "Hospitality",
+    "definition": "歓待は、他者や異邦人を迎える倫理的義務を考える概念であり、無条件の歓待と法や主権に媒介された条件付き歓待の緊張を分析する。",
+    "impact_summary": "移民、難民、国境、主権、倫理の議論に脱構築的な視座を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築倫理",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_ja": "歓待,他者,異邦人,主権",
+    "keywords_en": "hospitality,other,foreigner,sovereignty",
+    "key_researchers": [
+      "Jacques Derrida"
+    ],
+    "key_works": [
+      "Of Hospitality (1997)"
+    ]
+  },
+  {
+    "name_ja": "赦し",
+    "name_en": "Forgiveness",
+    "definition": "赦しは、赦しえないものを赦すという逆説を通じて、罪、記憶、正義、和解、主権的決定の限界を問う脱構築的倫理概念である。",
+    "impact_summary": "移行期正義、記憶政治、宗教哲学、和解論に重要な論点を提供した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱構築倫理",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_ja": "赦し,正義,記憶,和解",
+    "keywords_en": "forgiveness,justice,memory,reconciliation",
+    "key_researchers": [
+      "Jacques Derrida",
+      "Paul Ricoeur"
+    ],
+    "key_works": [
+      "On Cosmopolitanism and Forgiveness (2001)",
+      "Memory, History, Forgetting (2000)"
+    ]
+  },
+  {
+    "name_ja": "リゾーム",
+    "name_en": "Rhizome",
+    "definition": "リゾームは、中心、階層、起源をもたず、多方向に接続し増殖する知と社会の構造を表し、樹木型モデルに対抗する概念である。",
+    "impact_summary": "ネットワーク文化、教育論、メディア論、組織論に非階層的モデルを提供した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ＝ガタリ哲学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_ja": "リゾーム,接続,非階層,多様体",
+    "keywords_en": "rhizome,connection,nonhierarchy,multiplicity",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari"
+    ],
+    "key_works": [
+      "A Thousand Plateaus (1980)"
+    ]
+  },
+  {
+    "name_ja": "アサンブラージュ",
+    "name_en": "Assemblage",
+    "definition": "アサンブラージュは、人間、物、言説、制度、欲望、空間など異質な要素が一時的に結合して機能する集合体を示す概念である。",
+    "impact_summary": "社会理論、都市研究、ANT、新唯物論に流動的な構成分析をもたらした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ＝ガタリ哲学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_ja": "アサンブラージュ,集合体,異質性,配置",
+    "keywords_en": "assemblage,agencement,heterogeneity,arrangement",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari",
+      "Manuel DeLanda"
+    ],
+    "key_works": [
+      "A Thousand Plateaus (1980)",
+      "A New Philosophy of Society (2006)"
+    ]
+  },
+  {
+    "name_ja": "脱領土化",
+    "name_en": "Deterritorialization",
+    "definition": "脱領土化は、主体、記号、社会関係、欲望が既存の領域や秩序から離脱し、新たな接続や再配置へ向かう運動を示す概念である。",
+    "impact_summary": "資本主義、移民、メディア、文化混淆を分析する主要な語彙となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ＝ガタリ哲学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_ja": "脱領土化,再領土化,欲望,資本主義",
+    "keywords_en": "deterritorialization,reterritorialization,desire,capitalism",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari"
+    ],
+    "key_works": [
+      "Anti-Oedipus (1972)",
+      "A Thousand Plateaus (1980)"
+    ]
+  },
+  {
+    "name_ja": "器官なき身体",
+    "name_en": "Body without Organs",
+    "definition": "器官なき身体は、固定された有機的組織や主体の統一に抵抗し、欲望や強度が新たな配列を形成する潜在的平面を指す概念である。",
+    "impact_summary": "精神分析批判、身体論、芸術論、クィア理論に刺激的な語彙を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ＝ガタリ哲学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_ja": "器官なき身体,強度,欲望,配列",
+    "keywords_en": "body without organs,intensity,desire,plane",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari",
+      "Antonin Artaud"
+    ],
+    "key_works": [
+      "Anti-Oedipus (1972)",
+      "A Thousand Plateaus (1980)"
+    ]
+  },
+  {
+    "name_ja": "差異と反復",
+    "name_en": "Difference and Repetition",
+    "definition": "差異と反復は、同一性や表象を基礎にする哲学に対し、差異そのものと創造的反復を存在と生成の根本原理として捉える理論である。",
+    "impact_summary": "ポスト構造主義、芸術論、存在論、政治哲学に非同一性的思考を広げた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ哲学",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_ja": "差異,反復,生成,表象批判",
+    "keywords_en": "difference,repetition,becoming,representation",
+    "key_researchers": [
+      "Gilles Deleuze"
+    ],
+    "key_works": [
+      "Difference and Repetition (1968)"
+    ]
+  },
+  {
+    "name_ja": "欲望機械",
+    "name_en": "Desiring-Machines",
+    "definition": "欲望機械は、欲望を欠如や家族劇ではなく、生産し接続し流れを作る社会的・物質的な力として捉えるドゥルーズ＝ガタリの概念である。",
+    "impact_summary": "精神分析批判と資本主義分析を結び、欲望の政治学を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "スキゾ分析",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_ja": "欲望機械,生産,無意識,資本主義",
+    "keywords_en": "desiring-machines,production,unconscious,capitalism",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari"
+    ],
+    "key_works": [
+      "Anti-Oedipus (1972)"
+    ]
+  },
+  {
+    "name_ja": "スキゾ分析",
+    "name_en": "Schizoanalysis",
+    "definition": "スキゾ分析は、エディプス的家族モデルに還元されない欲望の社会的生産を分析し、無意識を機械的接続と流れとして扱う方法である。",
+    "impact_summary": "精神分析、政治理論、文化研究に反家族主義的な欲望分析を導入した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "スキゾ分析",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_ja": "スキゾ分析,欲望,無意識,反エディプス",
+    "keywords_en": "schizoanalysis,desire,unconscious,anti-Oedipus",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari"
+    ],
+    "key_works": [
+      "Anti-Oedipus (1972)"
+    ]
+  },
+  {
+    "name_ja": "シミュラークル",
+    "name_en": "Simulacrum",
+    "definition": "シミュラークルは、原型の劣った写しではなく、原型とコピーの階層を崩し、差異や生成を生み出す像や記号の働きを示す概念である。",
+    "impact_summary": "ポストモダン文化論、メディア論、芸術論における現実と表象の議論を変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_ja": "シミュラークル,コピー,表象,差異",
+    "keywords_en": "simulacrum,copy,representation,difference",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Jean Baudrillard"
+    ],
+    "key_works": [
+      "The Logic of Sense (1969)",
+      "Simulacra and Simulation (1981)"
+    ]
+  },
+  {
+    "name_ja": "ハイパーリアリティ",
+    "name_en": "Hyperreality",
+    "definition": "ハイパーリアリティは、記号やメディア的モデルが現実を単に表象するのではなく、現実より現実らしい経験を構成する状態を指す概念である。",
+    "impact_summary": "消費社会、広告、テーマパーク、デジタル文化の分析に広く用いられた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストモダン思想",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_ja": "ハイパーリアリティ,記号,メディア,消費社会",
+    "keywords_en": "hyperreality,sign,media,consumer society",
+    "key_researchers": [
+      "Jean Baudrillard"
+    ],
+    "key_works": [
+      "Simulacra and Simulation (1981)"
+    ]
+  },
+  {
+    "name_ja": "ポストモダンの条件",
+    "name_en": "Postmodern Condition",
+    "definition": "ポストモダンの条件は、近代を支えた進歩、解放、理性といった大きな物語への信頼が失われ、知が断片化し商品化される状況を指す。",
+    "impact_summary": "ポストモダン論争を決定づけ、知識、大学、文化、政治の理解を変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストモダン思想",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_ja": "ポストモダン,大きな物語,知,断片化",
+    "keywords_en": "postmodern,metanarrative,knowledge,fragmentation",
+    "key_researchers": [
+      "Jean-François Lyotard"
+    ],
+    "key_works": [
+      "The Postmodern Condition (1979)"
+    ]
+  },
+  {
+    "name_ja": "大きな物語",
+    "name_en": "Grand Narrative",
+    "definition": "大きな物語は、歴史や知を進歩、解放、啓蒙、革命などの統一的な目的へ結びつけ正当化する包括的説明枠組みを指す。",
+    "impact_summary": "近代的正当化の危機を示し、多元性と小さな語りへの関心を高めた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストモダン思想",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_ja": "大きな物語,正当化,近代,多元性",
+    "keywords_en": "grand narrative,legitimation,modernity,plurality",
+    "key_researchers": [
+      "Jean-François Lyotard"
+    ],
+    "key_works": [
+      "The Postmodern Condition (1979)"
+    ]
+  },
+  {
+    "name_ja": "ディフェラン",
+    "name_en": "The Differend",
+    "definition": "ディフェランは、当事者間の争いが共通の判断規則で裁けず、一方の被害が既存の言語ゲームでは表現できない状態を指す概念である。",
+    "impact_summary": "正義、証言、歴史的暴力、マイノリティの声をめぐる議論に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストモダン思想",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "ディフェラン,言語ゲーム,正義,証言",
+    "keywords_en": "differend,language game,justice,testimony",
+    "key_researchers": [
+      "Jean-François Lyotard"
+    ],
+    "key_works": [
+      "The Differend (1983)"
+    ]
+  },
+  {
+    "name_ja": "ハビトゥス",
+    "name_en": "Habitus",
+    "definition": "ハビトゥスは、身体化された歴史としての性向体系であり、個人が意識的計算なしに行為、趣味、判断を生成する社会的構造を指す。",
+    "impact_summary": "階級、教育、文化資本、身体化された不平等の分析に決定的影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実践理論",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_ja": "ハビトゥス,身体化,実践,階級",
+    "keywords_en": "habitus,embodiment,practice,class",
+    "key_researchers": [
+      "Pierre Bourdieu"
+    ],
+    "key_works": [
+      "Outline of a Theory of Practice (1972)",
+      "Distinction (1979)"
+    ]
+  },
+  {
+    "name_ja": "場",
+    "name_en": "Field",
+    "definition": "場は、芸術、学問、政治など比較的自律した社会空間で、位置、資本、闘争の関係によって行為者の可能性が構造化される領域である。",
+    "impact_summary": "文化生産、学術制度、メディア、権力競争を分析する強力な枠組みとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実践理論",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_ja": "場,資本,位置,闘争",
+    "keywords_en": "field,capital,position,struggle",
+    "key_researchers": [
+      "Pierre Bourdieu"
+    ],
+    "key_works": [
+      "The Field of Cultural Production (1993)"
+    ]
+  },
+  {
+    "name_ja": "象徴暴力",
+    "name_en": "Symbolic Violence",
+    "definition": "象徴暴力は、支配関係が自然で正当なものとして認識され、被支配者自身の分類や趣味を通じて再生産される非物理的な暴力である。",
+    "impact_summary": "教育、ジェンダー、階級、言語支配の見えにくい再生産を分析可能にした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実践理論",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_ja": "象徴暴力,支配,正当化,再生産",
+    "keywords_en": "symbolic violence,domination,legitimation,reproduction",
+    "key_researchers": [
+      "Pierre Bourdieu"
+    ],
+    "key_works": [
+      "Reproduction in Education, Society and Culture (1977)"
+    ]
+  },
+  {
+    "name_ja": "イデオロギー批判",
+    "name_en": "Ideology Critique",
+    "definition": "イデオロギー批判は、社会的支配や搾取を自然、常識、必然として見せる信念体系や表象を分析し、その歴史的条件を暴く方法である。",
+    "impact_summary": "マルクス主義、批判理論、文化研究、政治哲学の基礎的方法となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "西洋マルクス主義",
+    "era_start": 1846,
+    "era_end": null,
+    "keywords_ja": "イデオロギー,支配,虚偽意識,批判",
+    "keywords_en": "ideology,domination,false consciousness,critique",
+    "key_researchers": [
+      "Karl Marx",
+      "Louis Althusser",
+      "Slavoj Žižek"
+    ],
+    "key_works": [
+      "The German Ideology (1846)",
+      "Ideology and Ideological State Apparatuses (1970)"
+    ]
+  },
+  {
+    "name_ja": "呼びかけ",
+    "name_en": "Interpellation",
+    "definition": "呼びかけは、国家や制度のイデオロギーが個人を特定の主体として認識させ、従属と主体性を同時に生産する過程を示す概念である。",
+    "impact_summary": "主体を自発的中心ではなく制度的呼称の効果として分析する道を開いた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "構造主義的マルクス主義",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_ja": "呼びかけ,主体,イデオロギー,国家装置",
+    "keywords_en": "interpellation,subject,ideology,state apparatus",
+    "key_researchers": [
+      "Louis Althusser"
+    ],
+    "key_works": [
+      "Ideology and Ideological State Apparatuses (1970)"
+    ]
+  },
+  {
+    "name_ja": "過剰決定",
+    "name_en": "Overdetermination",
+    "definition": "過剰決定は、社会的出来事が単一原因ではなく、経済、政治、文化、無意識など複数の矛盾が重なって成立することを示す概念である。",
+    "impact_summary": "単純な経済決定論を避け、複雑な社会変動を分析する理論的道具となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "構造主義的マルクス主義",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_ja": "過剰決定,矛盾,構造,マルクス主義",
+    "keywords_en": "overdetermination,contradiction,structure,Marxism",
+    "key_researchers": [
+      "Louis Althusser"
+    ],
+    "key_works": [
+      "For Marx (1965)"
+    ]
+  },
+  {
+    "name_ja": "ヘゲモニー",
+    "name_en": "Hegemony",
+    "definition": "ヘゲモニーは、支配階級が強制だけでなく文化、常識、同意の形成を通じて社会的主導権を維持する過程を表す政治哲学概念である。",
+    "impact_summary": "文化研究、ポストマルクス主義、社会運動論、ポピュリズム論に大きな影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "西洋マルクス主義",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_ja": "ヘゲモニー,同意,常識,文化",
+    "keywords_en": "hegemony,consent,common sense,culture",
+    "key_researchers": [
+      "Antonio Gramsci",
+      "Ernesto Laclau",
+      "Chantal Mouffe"
+    ],
+    "key_works": [
+      "Prison Notebooks (1948)",
+      "Hegemony and Socialist Strategy (1985)"
+    ]
+  },
+  {
+    "name_ja": "アーティキュレーション",
+    "name_en": "Articulation",
+    "definition": "アーティキュレーションは、異なる社会的要求、アイデンティティ、記号が一時的に結合され、政治的意味や連合を形成する過程を示す。",
+    "impact_summary": "ポストマルクス主義と文化研究において、固定的階級主体を超える政治分析を可能にした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストマルクス主義",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_ja": "接合,ヘゲモニー,言説,政治",
+    "keywords_en": "articulation,hegemony,discourse,politics",
+    "key_researchers": [
+      "Ernesto Laclau",
+      "Chantal Mouffe",
+      "Stuart Hall"
+    ],
+    "key_works": [
+      "Hegemony and Socialist Strategy (1985)"
+    ]
+  },
+  {
+    "name_ja": "闘技的多元主義",
+    "name_en": "Agonistic Pluralism",
+    "definition": "闘技的多元主義は、民主主義を完全な合意ではなく、敵対を制度化された競争へ変換し、正当な対立を維持する政治空間として捉える理論である。",
+    "impact_summary": "熟議民主主義への批判として、対立、情念、ポピュリズムの分析を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストマルクス主義",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_ja": "闘技,多元主義,民主主義,対立",
+    "keywords_en": "agonism,pluralism,democracy,conflict",
+    "key_researchers": [
+      "Chantal Mouffe"
+    ],
+    "key_works": [
+      "The Return of the Political (1993)",
+      "The Democratic Paradox (2000)"
+    ]
+  },
+  {
+    "name_ja": "鏡像段階",
+    "name_en": "Mirror Stage",
+    "definition": "鏡像段階は、幼児が鏡像への同一化を通じて統一的自我を形成するが、その自我は根源的な誤認に基づくとする精神分析概念である。",
+    "impact_summary": "主体形成、視覚文化、映画理論、フェミニズムに強い影響を及ぼした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラカン派精神分析",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_ja": "鏡像段階,自我,誤認,同一化",
+    "keywords_en": "mirror stage,ego,misrecognition,identification",
+    "key_researchers": [
+      "Jacques Lacan"
+    ],
+    "key_works": [
+      "Écrits (1966)"
+    ]
+  },
+  {
+    "name_ja": "象徴界",
+    "name_en": "Symbolic Order",
+    "definition": "象徴界は、言語、法、親族、社会規範の秩序であり、主体が欲望し語る存在になるために参入せざるをえない構造を指す。",
+    "impact_summary": "主体、ジェンダー、法、無意識を言語構造として分析する理論基盤となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラカン派精神分析",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_ja": "象徴界,言語,法,主体",
+    "keywords_en": "symbolic order,language,law,subject",
+    "key_researchers": [
+      "Jacques Lacan"
+    ],
+    "key_works": [
+      "The Seminar of Jacques Lacan, Book I (1975)"
+    ]
+  },
+  {
+    "name_ja": "現実界",
+    "name_en": "The Real",
+    "definition": "現実界は、象徴化や想像的統一に回収されず、裂け目、外傷、不可能性として主体の経験に回帰する次元を指すラカン派の概念である。",
+    "impact_summary": "イデオロギー批判、映画理論、政治神学、トラウマ研究の重要概念となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラカン派精神分析",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_ja": "現実界,不可能性,外傷,象徴界",
+    "keywords_en": "the Real,impossibility,trauma,symbolic",
+    "key_researchers": [
+      "Jacques Lacan",
+      "Slavoj Žižek"
+    ],
+    "key_works": [
+      "The Four Fundamental Concepts of Psychoanalysis (1973)"
+    ]
+  },
+  {
+    "name_ja": "対象小a",
+    "name_en": "Objet Petit a",
+    "definition": "対象小aは、欲望を駆動する失われた対象原因であり、主体が満たされない欠如の周囲で欲望を構成する仕組みを説明する概念である。",
+    "impact_summary": "欲望、商品、幻想、政治的同一化を分析するラカン派理論の中心語となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラカン派精神分析",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_ja": "対象小a,欲望,欠如,幻想",
+    "keywords_en": "objet petit a,desire,lack,fantasy",
+    "key_researchers": [
+      "Jacques Lacan"
+    ],
+    "key_works": [
+      "The Four Fundamental Concepts of Psychoanalysis (1973)"
+    ]
+  },
+  {
+    "name_ja": "享楽",
+    "name_en": "Jouissance",
+    "definition": "享楽は、快楽原則を超えて主体を苦痛や過剰へ導く満足の様式であり、欲望、禁止、身体、言語の関係を説明する概念である。",
+    "impact_summary": "政治的情動、消費文化、性差、宗教的熱狂の分析に独自の枠組みを与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラカン派精神分析",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_ja": "享楽,快楽,欲望,過剰",
+    "keywords_en": "jouissance,pleasure,desire,excess",
+    "key_researchers": [
+      "Jacques Lacan",
+      "Slavoj Žižek"
+    ],
+    "key_works": [
+      "The Ethics of Psychoanalysis (1986)"
+    ]
+  },
+  {
+    "name_ja": "アブジェクション",
+    "name_en": "Abjection",
+    "definition": "アブジェクションは、主体が自己を保つために排除する汚物、死体、母性、境界的なものが、同時に自己を不安定化する働きを指す。",
+    "impact_summary": "フェミニズム、文学、ホラー映画、身体政治の分析に強い影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト構造主義フェミニズム",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_ja": "アブジェクション,排除,身体,境界",
+    "keywords_en": "abjection,exclusion,body,boundary",
+    "key_researchers": [
+      "Julia Kristeva"
+    ],
+    "key_works": [
+      "Powers of Horror (1980)"
+    ]
+  },
+  {
+    "name_ja": "ジェンダー・パフォーマティヴィティ",
+    "name_en": "Gender Performativity",
+    "definition": "ジェンダー・パフォーマティヴィティは、ジェンダーが内的本質の表現ではなく、規範化された反復的行為によって現実化されるとする理論である。",
+    "impact_summary": "フェミニズム、クィア理論、法、教育、文化研究のジェンダー理解を根本的に変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "クィア理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "ジェンダー,パフォーマティヴィティ,反復,規範",
+    "keywords_en": "gender,performativity,repetition,norms",
+    "key_researchers": [
+      "Judith Butler"
+    ],
+    "key_works": [
+      "Gender Trouble (1990)",
+      "Bodies That Matter (1993)"
+    ]
+  },
+  {
+    "name_ja": "クィア理論",
+    "name_en": "Queer Theory",
+    "definition": "クィア理論は、性、ジェンダー、欲望の固定的カテゴリーを批判し、異性愛規範や正常性の制度的形成を分析する学際的理論運動である。",
+    "impact_summary": "セクシュアリティ研究、文化研究、政治運動、教育に変革的影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "クィア理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "クィア,異性愛規範,性,ジェンダー",
+    "keywords_en": "queer,heteronormativity,sexuality,gender",
+    "key_researchers": [
+      "Judith Butler",
+      "Eve Kosofsky Sedgwick",
+      "Teresa de Lauretis"
+    ],
+    "key_works": [
+      "Gender Trouble (1990)",
+      "Epistemology of the Closet (1990)"
+    ]
+  },
+  {
+    "name_ja": "フェミニスト現象学",
+    "name_en": "Feminist Phenomenology",
+    "definition": "フェミニスト現象学は、身体、空間、視線、性差、日常実践の経験を記述し、ジェンダー化された世界の構成を明らかにする研究潮流である。",
+    "impact_summary": "抽象的主体の男性中心性を批判し、身体化された差異の哲学を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト現象学",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_ja": "フェミニズム,身体,性差,経験",
+    "keywords_en": "feminism,embodiment,sexual difference,experience",
+    "key_researchers": [
+      "Simone de Beauvoir",
+      "Iris Marion Young",
+      "Sara Ahmed"
+    ],
+    "key_works": [
+      "The Second Sex (1949)",
+      "Throwing Like a Girl (1980)"
+    ]
+  },
+  {
+    "name_ja": "性差の倫理",
+    "name_en": "Ethics of Sexual Difference",
+    "definition": "性差の倫理は、普遍的中立性に隠れた男性中心主義を批判し、他者としての女性、身体、欲望、関係性を新たな倫理の基礎に置く思想である。",
+    "impact_summary": "フェミニズム哲学、精神分析批判、身体論、言語論に重要な影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フランス・フェミニズム",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_ja": "性差,女性,身体,倫理",
+    "keywords_en": "sexual difference,woman,body,ethics",
+    "key_researchers": [
+      "Luce Irigaray"
+    ],
+    "key_works": [
+      "An Ethics of Sexual Difference (1984)"
+    ]
+  },
+  {
+    "name_ja": "ケアの倫理",
+    "name_en": "Ethics of Care",
+    "definition": "ケアの倫理は、抽象的な権利や普遍的規則だけでなく、依存、応答責任、関係性、具体的文脈に根ざした道徳判断を重視する理論である。",
+    "impact_summary": "フェミニスト倫理、医療、福祉、政治理論、環境倫理に幅広く影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト倫理",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_ja": "ケア,依存,関係性,応答責任",
+    "keywords_en": "care,dependency,relationality,responsibility",
+    "key_researchers": [
+      "Carol Gilligan",
+      "Joan Tronto",
+      "Eva Feder Kittay"
+    ],
+    "key_works": [
+      "In a Different Voice (1982)",
+      "Moral Boundaries (1993)"
+    ]
+  },
+  {
+    "name_ja": "サイボーグ・フェミニズム",
+    "name_en": "Cyborg Feminism",
+    "definition": "サイボーグ・フェミニズムは、人間と機械、自然と文化、男性と女性などの境界を横断するサイボーグ像を用いて本質主義を批判する思想である。",
+    "impact_summary": "ポストヒューマン論、科学技術研究、フェミニズム、メディア論を接続した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストヒューマン・フェミニズム",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_ja": "サイボーグ,フェミニズム,境界,技術",
+    "keywords_en": "cyborg,feminism,boundary,technology",
+    "key_researchers": [
+      "Donna Haraway"
+    ],
+    "key_works": [
+      "A Cyborg Manifesto (1985)"
+    ]
+  },
+  {
+    "name_ja": "状況的知識",
+    "name_en": "Situated Knowledges",
+    "definition": "状況的知識は、知がどこにも属さない中立的視点からではなく、身体、位置、歴史、権力関係に埋め込まれて生産されるとする概念である。",
+    "impact_summary": "科学論、フェミニスト認識論、ポストコロニアル研究で客観性概念を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト科学論",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_ja": "状況的知識,客観性,位置,身体",
+    "keywords_en": "situated knowledges,objectivity,location,embodiment",
+    "key_researchers": [
+      "Donna Haraway"
+    ],
+    "key_works": [
+      "Situated Knowledges (1988)"
+    ]
+  },
+  {
+    "name_ja": "スタンドポイント理論",
+    "name_en": "Standpoint Theory",
+    "definition": "スタンドポイント理論は、周縁化された人々の社会的位置が、支配構造を可視化する特有の認識上の利点を生みうるとする認識論である。",
+    "impact_summary": "フェミニスト認識論、批判的人種理論、社会科学方法論に大きな影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト認識論",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "スタンドポイント,認識論,周縁性,権力",
+    "keywords_en": "standpoint,epistemology,marginality,power",
+    "key_researchers": [
+      "Nancy Hartsock",
+      "Sandra Harding",
+      "Patricia Hill Collins"
+    ],
+    "key_works": [
+      "The Feminist Standpoint (1983)",
+      "Whose Science? Whose Knowledge? (1991)"
+    ]
+  },
+  {
+    "name_ja": "ポストコロニアル批判",
+    "name_en": "Postcolonial Critique",
+    "definition": "ポストコロニアル批判は、植民地主義が政治的独立後も知、表象、言語、主体性、経済関係に残す権力作用を分析する理論潮流である。",
+    "impact_summary": "文学研究、歴史学、人類学、哲学の西洋中心性を根本的に問い直した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_ja": "ポストコロニアル,植民地主義,表象,帝国",
+    "keywords_en": "postcolonial,colonialism,representation,empire",
+    "key_researchers": [
+      "Edward Said",
+      "Gayatri Chakravorty Spivak",
+      "Homi K. Bhabha"
+    ],
+    "key_works": [
+      "Orientalism (1978)",
+      "Can the Subaltern Speak? (1988)"
+    ]
+  },
+  {
+    "name_ja": "オリエンタリズム",
+    "name_en": "Orientalism",
+    "definition": "オリエンタリズムは、西洋が東洋を劣った、神秘的で支配可能な他者として表象し、その知識が帝国支配と結びつく仕組みを指す。",
+    "impact_summary": "地域研究、文学、歴史学、国際政治における西洋中心的知の批判を促した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_ja": "オリエンタリズム,東洋,表象,帝国",
+    "keywords_en": "Orientalism,East,representation,empire",
+    "key_researchers": [
+      "Edward Said"
+    ],
+    "key_works": [
+      "Orientalism (1978)"
+    ]
+  },
+  {
+    "name_ja": "サバルタン",
+    "name_en": "Subaltern",
+    "definition": "サバルタンは、植民地的・階級的・ジェンダー的権力の下で発話の場から排除され、代表されることで声を失う周縁主体を指す概念である。",
+    "impact_summary": "歴史記述、代表性、フェミニズム、南アジア研究の方法論を大きく変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "サバルタン研究",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_ja": "サバルタン,発話,代表,植民地",
+    "keywords_en": "subaltern,speech,representation,colonialism",
+    "key_researchers": [
+      "Gayatri Chakravorty Spivak",
+      "Ranajit Guha"
+    ],
+    "key_works": [
+      "Can the Subaltern Speak? (1988)"
+    ]
+  },
+  {
+    "name_ja": "ハイブリディティ",
+    "name_en": "Hybridity",
+    "definition": "ハイブリディティは、植民地的接触の中で支配者と被支配者の文化や言語が混淆し、権威を模倣しながらずらす曖昧な空間を示す。",
+    "impact_summary": "文化的純粋性の神話を批判し、移民、翻訳、アイデンティティ研究を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1994,
+    "era_end": null,
+    "keywords_ja": "ハイブリディティ,模倣,第三空間,植民地",
+    "keywords_en": "hybridity,mimicry,third space,colonialism",
+    "key_researchers": [
+      "Homi K. Bhabha"
+    ],
+    "key_works": [
+      "The Location of Culture (1994)"
+    ]
+  },
+  {
+    "name_ja": "植民性の権力",
+    "name_en": "Coloniality of Power",
+    "definition": "植民性の権力は、植民地支配の終了後も人種分類、労働分業、知識体系、国家形成に残る近代世界システムの権力構造を指す。",
+    "impact_summary": "脱植民地化を政治独立でなく知と存在の再編として捉える視座を確立した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "デコロニアル理論",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_ja": "植民性,権力,人種,近代性",
+    "keywords_en": "coloniality,power,race,modernity",
+    "key_researchers": [
+      "Aníbal Quijano",
+      "Walter Mignolo"
+    ],
+    "key_works": [
+      "Coloniality and Modernity/Rationality (1992)"
+    ]
+  },
+  {
+    "name_ja": "境界思考",
+    "name_en": "Border Thinking",
+    "definition": "境界思考は、近代西洋の知の中心からではなく、植民地的境界や周縁の経験から別様の認識と政治を構想するデコロニアル概念である。",
+    "impact_summary": "普遍主義批判と複数世界の知を結び、デコロニアル哲学を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "デコロニアル理論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_ja": "境界思考,デコロニアル,周縁,知",
+    "keywords_en": "border thinking,decoloniality,margin,knowledge",
+    "key_researchers": [
+      "Walter Mignolo",
+      "Gloria Anzaldúa"
+    ],
+    "key_works": [
+      "Local Histories/Global Designs (2000)",
+      "Borderlands/La Frontera (1987)"
+    ]
+  },
+  {
+    "name_ja": "解放の哲学",
+    "name_en": "Philosophy of Liberation",
+    "definition": "解放の哲学は、ラテンアメリカの植民地性、貧困、依存、暴力を背景に、抑圧された他者の立場から倫理と政治を再構成する思想である。",
+    "impact_summary": "ヨーロッパ中心主義を批判し、デコロニアル倫理と南の哲学に大きく貢献した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラテンアメリカ解放哲学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_ja": "解放,他者,ラテンアメリカ,植民地性",
+    "keywords_en": "liberation,other,Latin America,coloniality",
+    "key_researchers": [
+      "Enrique Dussel"
+    ],
+    "key_works": [
+      "Philosophy of Liberation (1977)"
+    ]
+  },
+  {
+    "name_ja": "人種の現象学",
+    "name_en": "Phenomenology of Race",
+    "definition": "人種の現象学は、人種化された身体が空間、視線、習慣、恐怖、期待の中でどのように経験されるかを記述する現象学的研究領域である。",
+    "impact_summary": "人種を生物学でなく身体化された社会経験として分析する枠組みを確立した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判的現象学",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_ja": "人種,身体,視線,経験",
+    "keywords_en": "race,embodiment,gaze,experience",
+    "key_researchers": [
+      "Frantz Fanon",
+      "Lewis Gordon",
+      "Linda Martín Alcoff"
+    ],
+    "key_works": [
+      "Black Skin, White Masks (1952)",
+      "Visible Identities (2006)"
+    ]
+  },
+  {
+    "name_ja": "二重意識",
+    "name_en": "Double Consciousness",
+    "definition": "二重意識は、抑圧された黒人主体が自己を自分の視点と支配的白人社会の視点の双方から見る分裂した経験を指す概念である。",
+    "impact_summary": "人種化された自己意識、承認、植民地的疎外を分析する基本概念となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "黒人思想・実存現象学",
+    "era_start": 1903,
+    "era_end": null,
+    "keywords_ja": "二重意識,黒人思想,自己,人種",
+    "keywords_en": "double consciousness,Black thought,self,race",
+    "key_researchers": [
+      "W. E. B. Du Bois",
+      "Frantz Fanon"
+    ],
+    "key_works": [
+      "The Souls of Black Folk (1903)"
+    ]
+  },
+  {
+    "name_ja": "黒人実存主義",
+    "name_en": "Black Existentialism",
+    "definition": "黒人実存主義は、反黒人主義、植民地主義、暴力、疎外の中で自由、身体、承認、抵抗を問う実存主義的な哲学潮流である。",
+    "impact_summary": "実存主義の普遍的人間像を批判し、人種化された実存の分析を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "アフリカーナ哲学",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_ja": "黒人実存主義,反黒人主義,自由,植民地",
+    "keywords_en": "Black existentialism,antiblackness,freedom,colonialism",
+    "key_researchers": [
+      "Frantz Fanon",
+      "Lewis Gordon",
+      "Jean-Paul Sartre"
+    ],
+    "key_works": [
+      "Black Skin, White Masks (1952)",
+      "Bad Faith and Antiblack Racism (1995)"
+    ]
+  },
+  {
+    "name_ja": "アフェクト理論",
+    "name_en": "Affect Theory",
+    "definition": "アフェクト理論は、感情を個人内部の状態に限定せず、身体間、環境、メディア、政治的集合体を流通する強度として分析する理論潮流である。",
+    "impact_summary": "文化研究、政治理論、フェミニズム、メディア論に情動的転回をもたらした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_ja": "アフェクト,情動,身体,強度",
+    "keywords_en": "affect,emotion,body,intensity",
+    "key_researchers": [
+      "Brian Massumi",
+      "Eve Kosofsky Sedgwick",
+      "Lauren Berlant"
+    ],
+    "key_works": [
+      "The Autonomy of Affect (1995)",
+      "Cruel Optimism (2011)"
+    ]
+  },
+  {
+    "name_ja": "残酷な楽観主義",
+    "name_en": "Cruel Optimism",
+    "definition": "残酷な楽観主義は、人が幸福や安定を約束する対象へ執着する一方で、その対象自体が繁栄を妨げる関係を指す情動政治の概念である。",
+    "impact_summary": "新自由主義下の生活、欲望、疲弊、階級的希望の分析に大きな影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動理論",
+    "era_start": 2011,
+    "era_end": null,
+    "keywords_ja": "残酷な楽観主義,情動,新自由主義,希望",
+    "keywords_en": "cruel optimism,affect,neoliberalism,hope",
+    "key_researchers": [
+      "Lauren Berlant"
+    ],
+    "key_works": [
+      "Cruel Optimism (2011)"
+    ]
+  },
+  {
+    "name_ja": "雰囲気",
+    "name_en": "Atmosphere",
+    "definition": "雰囲気は、主観的感情でも客観的性質でもなく、空間、身体、物、光、音、人々の間に広がる感性的な気配や調子を指す概念である。",
+    "impact_summary": "美学、建築、都市研究、環境現象学、感情研究に新しい分析対象を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新現象学・美学",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_ja": "雰囲気,空間,感性,身体",
+    "keywords_en": "atmosphere,space,aesthetics,body",
+    "key_researchers": [
+      "Gernot Böhme",
+      "Hermann Schmitz"
+    ],
+    "key_works": [
+      "Atmosphere as the Fundamental Concept of a New Aesthetics (1993)"
+    ]
+  },
+  {
+    "name_ja": "気分",
+    "name_en": "Mood",
+    "definition": "気分は、世界が特定の意味や重要性を帯びて開かれる仕方を示し、単なる心理状態ではなく存在理解の前提となる情態性である。",
+    "impact_summary": "感情を認識の障害ではなく世界開示の条件として理解する流れを生んだ。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "実存現象学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_ja": "気分,情態性,世界開示,不安",
+    "keywords_en": "mood,attunement,disclosedness,anxiety",
+    "key_researchers": [
+      "Martin Heidegger",
+      "Matthew Ratcliffe"
+    ],
+    "key_works": [
+      "Being and Time (1927)",
+      "Feelings of Being (2008)"
+    ]
+  },
+  {
+    "name_ja": "物語的同一性",
+    "name_en": "Narrative Identity",
+    "definition": "物語的同一性は、自己が不変の実体ではなく、時間の中で語られ、再解釈され、他者と共有される物語によって形成されるという概念である。",
+    "impact_summary": "倫理、記憶、歴史、心理療法、自己論における時間的主体理解を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "解釈学的現象学",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "物語,自己,時間,記憶",
+    "keywords_en": "narrative identity,self,time,memory",
+    "key_researchers": [
+      "Paul Ricoeur"
+    ],
+    "key_works": [
+      "Time and Narrative (1983)",
+      "Oneself as Another (1990)"
+    ]
+  },
+  {
+    "name_ja": "自己性",
+    "name_en": "Ipseity",
+    "definition": "自己性は、同一の性質を保つ固定的自己ではなく、約束、責任、語り、行為を通じて時間的に持続する自己のあり方を指す概念である。",
+    "impact_summary": "人格同一性を実体論から解放し、倫理的責任と物語的自己理解を結びつけた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "解釈学的現象学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "自己性,同一性,責任,物語",
+    "keywords_en": "ipseity,selfhood,identity,responsibility",
+    "key_researchers": [
+      "Paul Ricoeur"
+    ],
+    "key_works": [
+      "Oneself as Another (1990)"
+    ]
+  },
+  {
+    "name_ja": "記憶の現象学",
+    "name_en": "Phenomenology of Memory",
+    "definition": "記憶の現象学は、過去が単なる表象としてではなく、身体、場所、語り、忘却、証言を通じて現在に現れる仕方を分析する領域である。",
+    "impact_summary": "歴史認識、トラウマ、証言、集合的記憶の研究に哲学的基盤を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "解釈学的現象学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_ja": "記憶,忘却,証言,過去",
+    "keywords_en": "memory,forgetting,testimony,past",
+    "key_researchers": [
+      "Paul Ricoeur",
+      "Edward Casey"
+    ],
+    "key_works": [
+      "Memory, History, Forgetting (2000)",
+      "Remembering (1987)"
+    ]
+  },
+  {
+    "name_ja": "トラウマ理論",
+    "name_en": "Trauma Theory",
+    "definition": "トラウマ理論は、暴力的経験が即時には統合されず、遅延、反復、沈黙、証言の困難として主体と共同体に現れる仕方を分析する。",
+    "impact_summary": "ホロコースト研究、文学、精神分析、記憶政治、証言論に大きな影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "精神分析的文化理論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_ja": "トラウマ,証言,反復,記憶",
+    "keywords_en": "trauma,testimony,repetition,memory",
+    "key_researchers": [
+      "Cathy Caruth",
+      "Shoshana Felman",
+      "Dominick LaCapra"
+    ],
+    "key_works": [
+      "Unclaimed Experience (1996)",
+      "Testimony (1992)"
+    ]
+  },
+  {
+    "name_ja": "弱い思考",
+    "name_en": "Weak Thought",
+    "definition": "弱い思考は、強固な基礎、絶対的真理、形而上学的権威を緩め、解釈、歴史性、非暴力的共存を重視するポスト形而上学的思想である。",
+    "impact_summary": "ポストモダン解釈学、宗教哲学、政治的寛容論に独自の影響を及ぼした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "イタリア解釈学",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "弱い思考,解釈,形而上学批判,非暴力",
+    "keywords_en": "weak thought,interpretation,metaphysics,nonviolence",
+    "key_researchers": [
+      "Gianni Vattimo"
+    ],
+    "key_works": [
+      "Weak Thought (1983)"
+    ]
+  },
+  {
+    "name_ja": "ポスト世俗主義",
+    "name_en": "Postsecularism",
+    "definition": "ポスト世俗主義は、近代化が宗教を単純に消滅させるという世俗化論を批判し、宗教的言語と公共理性の新たな関係を問う立場である。",
+    "impact_summary": "公共圏、民主主義、宗教政治、移民社会における信仰の役割を再考させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現代宗教哲学",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_ja": "ポスト世俗,宗教,公共圏,近代",
+    "keywords_en": "postsecular,religion,public sphere,modernity",
+    "key_researchers": [
+      "Jürgen Habermas",
+      "Jacques Derrida",
+      "Charles Taylor"
+    ],
+    "key_works": [
+      "Faith and Knowledge (2001)",
+      "A Secular Age (2007)"
+    ]
+  },
+  {
+    "name_ja": "贈与",
+    "name_en": "Gift",
+    "definition": "贈与は、交換や返礼の経済に還元されない無償性を問う概念であり、贈与が認識される瞬間に交換へ変わる逆説を含む。",
+    "impact_summary": "倫理、宗教、経済人類学、脱構築、現象学の交点で重要な議論を生んだ。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学・脱構築",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_ja": "贈与,無償性,交換,返礼",
+    "keywords_en": "gift,gratuitousness,exchange,reciprocity",
+    "key_researchers": [
+      "Marcel Mauss",
+      "Jacques Derrida",
+      "Jean-Luc Marion"
+    ],
+    "key_works": [
+      "The Gift (1925)",
+      "Given Time (1991)",
+      "Being Given (1997)"
+    ]
+  },
+  {
+    "name_ja": "飽和現象",
+    "name_en": "Saturated Phenomenon",
+    "definition": "飽和現象は、概念や志向的把握の能力を超えて過剰に与えられる現象を指し、芸術、啓示、顔、出来事などを新たに考える枠組みである。",
+    "impact_summary": "フッサール現象学を与えられ方の過剰へ拡張し、神学と美学に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "神学的現象学",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_ja": "飽和現象,与えられ方,過剰,啓示",
+    "keywords_en": "saturated phenomenon,givenness,excess,revelation",
+    "key_researchers": [
+      "Jean-Luc Marion"
+    ],
+    "key_works": [
+      "Being Given (1997)",
+      "In Excess (2001)"
+    ]
+  },
+  {
+    "name_ja": "顔",
+    "name_en": "The Face",
+    "definition": "顔は、他者が単なる対象として把握される前に、殺すなという倫理的命令として現れる出来事を指すレヴィナス倫理学の中心概念である。",
+    "impact_summary": "倫理を存在論に先立て、他者性、責任、歓待の哲学に決定的影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "他者の現象学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_ja": "顔,他者,責任,倫理",
+    "keywords_en": "face,Other,responsibility,ethics",
+    "key_researchers": [
+      "Emmanuel Levinas"
+    ],
+    "key_works": [
+      "Totality and Infinity (1961)"
+    ]
+  },
+  {
+    "name_ja": "他者への無限責任",
+    "name_en": "Infinite Responsibility to the Other",
+    "definition": "他者への無限責任は、主体が自律的選択以前に他者から呼びかけられ、応答責任を負うというレヴィナス倫理学の基本構造である。",
+    "impact_summary": "倫理の第一哲学化を進め、政治、宗教、ケア、トラウマ研究に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "他者の現象学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_ja": "無限責任,他者,倫理,応答",
+    "keywords_en": "infinite responsibility,Other,ethics,response",
+    "key_researchers": [
+      "Emmanuel Levinas"
+    ],
+    "key_works": [
+      "Totality and Infinity (1961)",
+      "Otherwise than Being (1974)"
+    ]
+  },
+  {
+    "name_ja": "全体性批判",
+    "name_en": "Critique of Totality",
+    "definition": "全体性批判は、他者や差異を同一性の体系へ回収する思考を批判し、還元不可能な外部性と倫理的関係を重視する立場である。",
+    "impact_summary": "戦後倫理、ユダヤ思想、脱構築、ポスト構造主義の反全体主義的思考を支えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "レヴィナス倫理学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_ja": "全体性,他者性,同一性,外部性",
+    "keywords_en": "totality,alterity,identity,exteriority",
+    "key_researchers": [
+      "Emmanuel Levinas"
+    ],
+    "key_works": [
+      "Totality and Infinity (1961)"
+    ]
+  },
+  {
+    "name_ja": "裸の生",
+    "name_en": "Bare Life",
+    "definition": "裸の生は、政治共同体の権利から排除されながら権力によって管理される生を指し、主権が生命を例外状態に置く仕組みを示す概念である。",
+    "impact_summary": "難民、収容所、国境、非常事態、バイオポリティクスの分析を強く刺激した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "イタリア政治哲学",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_ja": "裸の生,主権,例外状態,収容所",
+    "keywords_en": "bare life,sovereignty,state of exception,camp",
+    "key_researchers": [
+      "Giorgio Agamben"
+    ],
+    "key_works": [
+      "Homo Sacer (1995)"
+    ]
+  },
+  {
+    "name_ja": "例外状態",
+    "name_en": "State of Exception",
+    "definition": "例外状態は、法秩序が自らを停止することで権力を維持し、非常措置が通常統治へ浸透する政治的構造を指す概念である。",
+    "impact_summary": "テロ対策、緊急事態、難民管理、権威主義化を分析する中心語となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "政治神学",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_ja": "例外状態,主権,非常事態,法",
+    "keywords_en": "state of exception,sovereignty,emergency,law",
+    "key_researchers": [
+      "Carl Schmitt",
+      "Giorgio Agamben"
+    ],
+    "key_works": [
+      "Political Theology (1922)",
+      "State of Exception (2003)"
+    ]
+  },
+  {
+    "name_ja": "ホモ・サケル",
+    "name_en": "Homo Sacer",
+    "definition": "ホモ・サケルは、犠牲にはできないが殺しても殺人にならない者という古代ローマ法の形象を通じ、主権的排除の論理を示す概念である。",
+    "impact_summary": "法、生命、主権、収容所、難民の関係を問う現代政治哲学を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "イタリア政治哲学",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_ja": "ホモ・サケル,排除,主権,生命",
+    "keywords_en": "homo sacer,exclusion,sovereignty,life",
+    "key_researchers": [
+      "Giorgio Agamben"
+    ],
+    "key_works": [
+      "Homo Sacer (1995)"
+    ]
+  },
+  {
+    "name_ja": "免疫パラダイム",
+    "name_en": "Immunity Paradigm",
+    "definition": "免疫パラダイムは、共同体が外部の危険から自己を守るために導入する防御が、同時に共同性や生命を損なう逆説を分析する概念である。",
+    "impact_summary": "生政治、パンデミック、セキュリティ、共同体論を結ぶ現代政治哲学を形成した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "イタリア政治哲学",
+    "era_start": 2002,
+    "era_end": null,
+    "keywords_ja": "免疫,共同体,防御,生政治",
+    "keywords_en": "immunity,community,protection,biopolitics",
+    "key_researchers": [
+      "Roberto Esposito"
+    ],
+    "key_works": [
+      "Immunitas (2002)",
+      "Bios (2004)"
+    ]
+  },
+  {
+    "name_ja": "コムニタス",
+    "name_en": "Communitas",
+    "definition": "コムニタスは、共同体を所有や同一性の共有ではなく、互いに負債や義務を負う開かれた関係として捉える概念である。",
+    "impact_summary": "共同体主義と個人主義の対立を超え、生政治と倫理の議論を再構成した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "イタリア政治哲学",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_ja": "共同体,義務,贈与,関係",
+    "keywords_en": "communitas,community,obligation,gift",
+    "key_researchers": [
+      "Roberto Esposito"
+    ],
+    "key_works": [
+      "Communitas (1998)"
+    ]
+  },
+  {
+    "name_ja": "マルチチュード",
+    "name_en": "Multitude",
+    "definition": "マルチチュードは、統一的人民や階級に還元されない多数の特異性が、協働とネットワークを通じて政治的力を形成する概念である。",
+    "impact_summary": "グローバル化、社会運動、コモンズ、ポストフォーディズムの政治理論を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストオペライズモ",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_ja": "マルチチュード,帝国,特異性,コモンズ",
+    "keywords_en": "multitude,empire,singularity,commons",
+    "key_researchers": [
+      "Michael Hardt",
+      "Antonio Negri"
+    ],
+    "key_works": [
+      "Empire (2000)",
+      "Multitude (2004)"
+    ]
+  },
+  {
+    "name_ja": "帝国",
+    "name_en": "Empire",
+    "definition": "帝国は、単一国家の帝国主義ではなく、国際機関、多国籍企業、軍事力、法、メディアが絡む脱中心的なグローバル主権を指す。",
+    "impact_summary": "グローバル資本主義と新たな抵抗主体を考えるポストマルクス主義的枠組みとなった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストオペライズモ",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_ja": "帝国,グローバル化,主権,資本主義",
+    "keywords_en": "empire,globalization,sovereignty,capitalism",
+    "key_researchers": [
+      "Michael Hardt",
+      "Antonio Negri"
+    ],
+    "key_works": [
+      "Empire (2000)"
+    ]
+  },
+  {
+    "name_ja": "ネクロポリティクス",
+    "name_en": "Necropolitics",
+    "definition": "ネクロポリティクスは、主権が誰を生かし誰を死にさらすかを決定する権力を分析し、植民地、戦争、占領、国境での死の管理を問う概念である。",
+    "impact_summary": "生政治を死の政治へ拡張し、人種、植民地主義、暴力研究に大きな影響を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル政治哲学",
+    "era_start": 2003,
+    "era_end": null,
+    "keywords_ja": "ネクロポリティクス,死,主権,植民地",
+    "keywords_en": "necropolitics,death,sovereignty,colonialism",
+    "key_researchers": [
+      "Achille Mbembe"
+    ],
+    "key_works": [
+      "Necropolitics (2003)"
+    ]
+  },
+  {
+    "name_ja": "死政治",
+    "name_en": "Thanatopolitics",
+    "definition": "死政治は、生命を管理する生政治が、排除、殺害、放置、犠牲化を通じて死の統治へ転化する構造を分析する概念である。",
+    "impact_summary": "収容所、優生学、戦争、国境管理、パンデミック政策の批判に用いられた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "生政治論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_ja": "死政治,生政治,排除,暴力",
+    "keywords_en": "thanatopolitics,biopolitics,exclusion,violence",
+    "key_researchers": [
+      "Giorgio Agamben",
+      "Roberto Esposito"
+    ],
+    "key_works": [
+      "Homo Sacer (1995)",
+      "Bios (2004)"
+    ]
+  },
+  {
+    "name_ja": "活動的生",
+    "name_en": "Vita Activa",
+    "definition": "活動的生は、労働、仕事、活動という人間の世界内での基本的営みを区別し、政治的自由が他者との公共的行為に現れることを示す。",
+    "impact_summary": "公共性、政治参加、労働社会批判、共和主義的自由論の基礎となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "政治的現象学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_ja": "活動的生,労働,仕事,活動",
+    "keywords_en": "vita activa,labor,work,action",
+    "key_researchers": [
+      "Hannah Arendt"
+    ],
+    "key_works": [
+      "The Human Condition (1958)"
+    ]
+  },
+  {
+    "name_ja": "出生性",
+    "name_en": "Natality",
+    "definition": "出生性は、人間が新たに始める能力をもつ存在であることを示し、政治的行為と自由を死や有限性ではなく始まりから捉える概念である。",
+    "impact_summary": "アーレント政治哲学の核心として、行為、教育、革命、希望の理論に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "政治的現象学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_ja": "出生性,始まり,行為,自由",
+    "keywords_en": "natality,beginning,action,freedom",
+    "key_researchers": [
+      "Hannah Arendt"
+    ],
+    "key_works": [
+      "The Human Condition (1958)"
+    ]
+  },
+  {
+    "name_ja": "複数性",
+    "name_en": "Plurality",
+    "definition": "複数性は、人間が同じ世界を共有しながら互いに異なる唯一の存在として現れる条件であり、政治的行為の基盤をなす概念である。",
+    "impact_summary": "政治を支配や行政ではなく、多様な者の共同出現として理解する視座を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "政治的現象学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_ja": "複数性,公共性,行為,差異",
+    "keywords_en": "plurality,publicness,action,difference",
+    "key_researchers": [
+      "Hannah Arendt"
+    ],
+    "key_works": [
+      "The Human Condition (1958)"
+    ]
+  },
+  {
+    "name_ja": "悪の凡庸さ",
+    "name_en": "Banality of Evil",
+    "definition": "悪の凡庸さは、極端な悪が悪魔的意図よりも、思考停止、命令服従、制度的日常性の中で実行されうることを示す概念である。",
+    "impact_summary": "責任、官僚制、全体主義、ジェノサイド研究の議論を大きく変えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "政治哲学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_ja": "悪の凡庸さ,責任,官僚制,全体主義",
+    "keywords_en": "banality of evil,responsibility,bureaucracy,totalitarianism",
+    "key_researchers": [
+      "Hannah Arendt"
+    ],
+    "key_works": [
+      "Eichmann in Jerusalem (1963)"
+    ]
+  },
+  {
+    "name_ja": "全体主義",
+    "name_en": "Totalitarianism",
+    "definition": "全体主義は、イデオロギー、恐怖、運動、官僚制、孤立化を通じて社会全体を支配し、人々の自発性と公共性を破壊する政治形態である。",
+    "impact_summary": "ナチズムとスターリニズムの分析を通じて、近代政治の危険を理解する基礎概念となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "政治哲学",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_ja": "全体主義,恐怖,イデオロギー,孤立",
+    "keywords_en": "totalitarianism,terror,ideology,isolation",
+    "key_researchers": [
+      "Hannah Arendt"
+    ],
+    "key_works": [
+      "The Origins of Totalitarianism (1951)"
+    ]
+  },
+  {
+    "name_ja": "社会的想像力",
+    "name_en": "Social Imaginary",
+    "definition": "社会的想像力は、人々が社会制度、正当性、共同生活、自己の位置を理解する共有されたイメージや背景的意味の体系を指す概念である。",
+    "impact_summary": "近代性、世俗化、民主主義、ナショナリズムを文化的意味の側面から分析可能にした。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "解釈学的社会哲学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_ja": "社会的想像力,近代性,意味,制度",
+    "keywords_en": "social imaginary,modernity,meaning,institution",
+    "key_researchers": [
+      "Cornelius Castoriadis",
+      "Charles Taylor"
+    ],
+    "key_works": [
+      "The Imaginary Institution of Society (1975)",
+      "Modern Social Imaginaries (2004)"
+    ]
+  },
+  {
+    "name_ja": "制度化する社会",
+    "name_en": "Instituting Society",
+    "definition": "制度化する社会は、社会が外部の基礎によって決まるのではなく、想像的意味を創出し、自らの制度を作り出す力をもつことを示す概念である。",
+    "impact_summary": "社会変革、民主主義、自律、創造性を考えるラディカルな社会哲学を形成した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "社会哲学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_ja": "制度化,想像力,自律,社会創造",
+    "keywords_en": "instituting society,imaginary,autonomy,creation",
+    "key_researchers": [
+      "Cornelius Castoriadis"
+    ],
+    "key_works": [
+      "The Imaginary Institution of Society (1975)"
+    ]
+  },
+  {
+    "name_ja": "アクター・ネットワーク理論",
+    "name_en": "Actor-Network Theory",
+    "definition": "アクター・ネットワーク理論は、人間と非人間を対称的なアクターとして扱い、科学、技術、社会が翻訳と連結のネットワークで成立すると分析する理論である。",
+    "impact_summary": "社会を人間中心に説明する枠組みを崩し、STS、組織研究、デザイン研究に広く影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "科学技術社会論",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_ja": "アクター,ネットワーク,翻訳,非人間",
+    "keywords_en": "actor-network theory,actor,network,translation,nonhuman",
+    "key_researchers": [
+      "Bruno Latour",
+      "Michel Callon",
+      "John Law"
+    ],
+    "key_works": [
+      "Laboratory Life (1979)",
+      "Science in Action (1987)",
+      "Reassembling the Social (2005)"
+    ]
+  },
+  {
+    "name_ja": "翻訳",
+    "name_en": "Translation",
+    "definition": "翻訳は、アクターが他のアクターの関心や行為をずらし、結びつけ、代表しながらネットワークを形成する過程を示すANTの概念である。",
+    "impact_summary": "科学的事実や技術システムが交渉と連結の成果であることを示した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "科学技術社会論",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_ja": "翻訳,アクター,関心,ネットワーク",
+    "keywords_en": "translation,actor,interest,network",
+    "key_researchers": [
+      "Michel Callon",
+      "Bruno Latour"
+    ],
+    "key_works": [
+      "Some Elements of a Sociology of Translation (1986)"
+    ]
+  },
+  {
+    "name_ja": "技術媒介",
+    "name_en": "Technological Mediation",
+    "definition": "技術媒介は、技術が人間の意図を単に実行する道具ではなく、知覚、行為、倫理判断、社会関係を変形し共同構成することを示す概念である。",
+    "impact_summary": "ポスト現象学、技術倫理、デザイン研究で人間と技術の関係理解を刷新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト現象学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "技術媒介,知覚,行為,ポスト現象学",
+    "keywords_en": "technological mediation,perception,action,postphenomenology",
+    "key_researchers": [
+      "Don Ihde",
+      "Peter-Paul Verbeek"
+    ],
+    "key_works": [
+      "Technology and the Lifeworld (1990)",
+      "What Things Do (2005)"
+    ]
+  },
+  {
+    "name_ja": "ポスト現象学",
+    "name_en": "Postphenomenology",
+    "definition": "ポスト現象学は、古典的現象学を技術論へ拡張し、人間と世界の関係が具体的な技術的媒介によってどのように変化するかを分析する。",
+    "impact_summary": "技術哲学を抽象的批判から具体的人工物の経験分析へ移行させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト現象学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "ポスト現象学,技術,媒介,人工物",
+    "keywords_en": "postphenomenology,technology,mediation,artifact",
+    "key_researchers": [
+      "Don Ihde",
+      "Peter-Paul Verbeek"
+    ],
+    "key_works": [
+      "Technology and the Lifeworld (1990)",
+      "Postphenomenology and Technoscience (2009)"
+    ]
+  },
+  {
+    "name_ja": "サイボーグ存在論",
+    "name_en": "Cyborg Ontology",
+    "definition": "サイボーグ存在論は、人間、機械、動物、情報の境界が技術的実践の中で混成化することを前提に、主体と身体のあり方を再考する立場である。",
+    "impact_summary": "技術化された身体、障害、医療、デジタル文化、ポストヒューマン論に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストヒューマン思想",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_ja": "サイボーグ,身体,技術,混成",
+    "keywords_en": "cyborg,body,technology,hybridity",
+    "key_researchers": [
+      "Donna Haraway",
+      "N. Katherine Hayles"
+    ],
+    "key_works": [
+      "A Cyborg Manifesto (1985)",
+      "How We Became Posthuman (1999)"
+    ]
+  },
+  {
+    "name_ja": "オブジェクト指向存在論",
+    "name_en": "Object-Oriented Ontology",
+    "definition": "オブジェクト指向存在論は、人間と世界の相関を特権化せず、あらゆる対象が他の対象との関係に尽くされない固有の実在性をもつとする存在論である。",
+    "impact_summary": "人間中心主義批判、芸術論、建築、環境思想、スペキュラティヴ・リアリズムを牽引した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "スペキュラティヴ・リアリズム",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_ja": "対象,実在,相関主義批判,非人間",
+    "keywords_en": "object-oriented ontology,objects,realism,correlationism",
+    "key_researchers": [
+      "Graham Harman",
+      "Levi Bryant",
+      "Timothy Morton"
+    ],
+    "key_works": [
+      "Tool-Being (2002)",
+      "The Quadruple Object (2011)"
+    ]
+  },
+  {
+    "name_ja": "スペキュラティヴ・リアリズム",
+    "name_en": "Speculative Realism",
+    "definition": "スペキュラティヴ・リアリズムは、人間の思考と世界の相関だけを扱う近現代哲学を批判し、人間から独立した実在の思考を回復しようとする潮流である。",
+    "impact_summary": "大陸哲学に新しい実在論的転回をもたらし、芸術、建築、環境論へ波及した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "スペキュラティヴ・リアリズム",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_ja": "実在論,相関主義,思弁,対象",
+    "keywords_en": "speculative realism,realism,correlationism,speculation",
+    "key_researchers": [
+      "Quentin Meillassoux",
+      "Graham Harman",
+      "Ray Brassier",
+      "Iain Hamilton Grant"
+    ],
+    "key_works": [
+      "After Finitude (2006)",
+      "Speculative Realism conference (2007)"
+    ]
+  },
+  {
+    "name_ja": "相関主義批判",
+    "name_en": "Critique of Correlationism",
+    "definition": "相関主義批判は、哲学が思考と存在の相関だけを扱い、思考から独立した世界を語れないとする近代以後の前提を批判する論点である。",
+    "impact_summary": "現象学、カント主義、ポスト構造主義への再評価を促し、新実在論を活性化した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "スペキュラティヴ・リアリズム",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_ja": "相関主義,実在論,有限性,カント",
+    "keywords_en": "correlationism,realism,finitude,Kant",
+    "key_researchers": [
+      "Quentin Meillassoux"
+    ],
+    "key_works": [
+      "After Finitude (2006)"
+    ]
+  },
+  {
+    "name_ja": "フラット存在論",
+    "name_en": "Flat Ontology",
+    "definition": "フラット存在論は、人間、制度、物、微生物、テキストなどを存在論的階層に置かず、異なるスケールの実在者として同一平面で扱う立場である。",
+    "impact_summary": "社会理論、ANT、新唯物論、OOOにおいて人間中心的階層化を批判する基盤となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新実在論",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_ja": "フラット存在論,対象,階層批判,実在",
+    "keywords_en": "flat ontology,objects,hierarchy,realism",
+    "key_researchers": [
+      "Manuel DeLanda",
+      "Levi Bryant",
+      "Bruno Latour"
+    ],
+    "key_works": [
+      "Intensive Science and Virtual Philosophy (2002)",
+      "The Democracy of Objects (2011)"
+    ]
+  },
+  {
+    "name_ja": "新唯物論",
+    "name_en": "New Materialism",
+    "definition": "新唯物論は、物質を受動的基盤ではなく能動性、生成力、関係性をもつものとして捉え、身体、自然、技術、政治を再考する潮流である。",
+    "impact_summary": "フェミニズム、環境人文学、科学技術研究、ポストヒューマン論を横断する理論運動となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_ja": "新唯物論,物質,能動性,ポストヒューマン",
+    "keywords_en": "new materialism,matter,agency,posthuman",
+    "key_researchers": [
+      "Rosi Braidotti",
+      "Karen Barad",
+      "Jane Bennett",
+      "Diana Coole"
+    ],
+    "key_works": [
+      "New Materialisms (2010)",
+      "Vibrant Matter (2010)"
+    ]
+  },
+  {
+    "name_ja": "エージェンシャル・リアリズム",
+    "name_en": "Agential Realism",
+    "definition": "エージェンシャル・リアリズムは、主体と対象が事前に独立して存在するのではなく、実験装置を含む物質的実践の内部作用で切り出されるとする理論である。",
+    "impact_summary": "科学論、フェミニズム、量子論解釈、ポストヒューマン倫理を結ぶ重要理論となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論フェミニズム",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_ja": "エージェンシャル・リアリズム,内部作用,装置,物質",
+    "keywords_en": "agential realism,intra-action,apparatus,matter",
+    "key_researchers": [
+      "Karen Barad"
+    ],
+    "key_works": [
+      "Meeting the Universe Halfway (2007)"
+    ]
+  },
+  {
+    "name_ja": "内部作用",
+    "name_en": "Intra-action",
+    "definition": "内部作用は、相互作用が前提する独立した主体や対象に先立ち、関係そのものの中で境界や性質が生成されることを示すバラッドの概念である。",
+    "impact_summary": "関係論的存在論を深化させ、科学実践、倫理、フェミニズム理論に影響した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論フェミニズム",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_ja": "内部作用,関係,境界生成,装置",
+    "keywords_en": "intra-action,relation,boundary-making,apparatus",
+    "key_researchers": [
+      "Karen Barad"
+    ],
+    "key_works": [
+      "Meeting the Universe Halfway (2007)"
+    ]
+  },
+  {
+    "name_ja": "活力ある物質",
+    "name_en": "Vibrant Matter",
+    "definition": "活力ある物質は、物質を人間の目的に従う受動的資源ではなく、出来事や政治に参与する能動的な力をもつ存在として捉える概念である。",
+    "impact_summary": "環境政治、廃棄物研究、物質文化、非人間の行為性の議論を活性化した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_ja": "活力ある物質,物質,行為性,環境",
+    "keywords_en": "vibrant matter,matter,agency,environment",
+    "key_researchers": [
+      "Jane Bennett"
+    ],
+    "key_works": [
+      "Vibrant Matter (2010)"
+    ]
+  },
+  {
+    "name_ja": "ポストヒューマン",
+    "name_en": "Posthuman",
+    "definition": "ポストヒューマンは、自律的で理性的な人間主体を中心に置く近代的人間像を批判し、技術、動物、環境との関係的存在を考える概念である。",
+    "impact_summary": "人間中心主義批判、AI、バイオテクノロジー、環境倫理の理論的基盤となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストヒューマン思想",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_ja": "ポストヒューマン,人間中心主義,技術,動物",
+    "keywords_en": "posthuman,anthropocentrism,technology,animal",
+    "key_researchers": [
+      "N. Katherine Hayles",
+      "Rosi Braidotti",
+      "Donna Haraway"
+    ],
+    "key_works": [
+      "How We Became Posthuman (1999)",
+      "The Posthuman (2013)"
+    ]
+  },
+  {
+    "name_ja": "批判的ポストヒューマニズム",
+    "name_en": "Critical Posthumanism",
+    "definition": "批判的ポストヒューマニズムは、人間中心主義を超えつつ、技術礼賛や超人間主義に陥らず、差異、身体、脆弱性、惑星的責任を問う立場である。",
+    "impact_summary": "AI、動物、環境、人種、ジェンダーを横断する倫理的理論として定着した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストヒューマン思想",
+    "era_start": 2013,
+    "era_end": null,
+    "keywords_ja": "批判的ポストヒューマニズム,身体,脆弱性,倫理",
+    "keywords_en": "critical posthumanism,body,vulnerability,ethics",
+    "key_researchers": [
+      "Rosi Braidotti",
+      "Cary Wolfe",
+      "Francesca Ferrando"
+    ],
+    "key_works": [
+      "The Posthuman (2013)",
+      "What Is Posthumanism? (2010)"
+    ]
+  },
+  {
+    "name_ja": "伴侶種",
+    "name_en": "Companion Species",
+    "definition": "伴侶種は、人間と犬などの動物が一方的支配ではなく、共進化、訓練、感情、労働を通じて相互に形成される関係を示す概念である。",
+    "impact_summary": "動物研究、フェミニズム、ポストヒューマン倫理、マルチスピーシーズ研究を促進した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "マルチスピーシーズ・フェミニズム",
+    "era_start": 2003,
+    "era_end": null,
+    "keywords_ja": "伴侶種,動物,共進化,関係性",
+    "keywords_en": "companion species,animals,coevolution,relationality",
+    "key_researchers": [
+      "Donna Haraway"
+    ],
+    "key_works": [
+      "The Companion Species Manifesto (2003)"
+    ]
+  },
+  {
+    "name_ja": "人新世の哲学",
+    "name_en": "Philosophy of the Anthropocene",
+    "definition": "人新世の哲学は、人間活動が地質学的力となった状況で、自然と文化、歴史と地球、責任と正義の関係を再考する現代哲学の潮流である。",
+    "impact_summary": "環境倫理、政治哲学、歴史哲学、芸術、人文学を惑星的危機のもとで再編した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境人文学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_ja": "人新世,地球,気候危機,責任",
+    "keywords_en": "Anthropocene,Earth,climate crisis,responsibility",
+    "key_researchers": [
+      "Dipesh Chakrabarty",
+      "Bruno Latour",
+      "Timothy Morton",
+      "Donna Haraway"
+    ],
+    "key_works": [
+      "The Climate of History (2009)",
+      "Facing Gaia (2015)",
+      "The Shock of the Anthropocene (2016)"
+    ]
+  },
+  {
+    "name_ja": "ガイア政治論",
+    "name_en": "Gaia Politics",
+    "definition": "ガイア政治論は、地球を単なる背景や自然資源ではなく、人間の政治を揺さぶる反応的で複雑な地球システムとして捉える思想である。",
+    "impact_summary": "気候変動時代の政治主体、科学、宗教、外交を再考する枠組みを与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境政治哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_ja": "ガイア,地球政治,気候,ラトゥール",
+    "keywords_en": "Gaia,Earth politics,climate,Latour",
+    "key_researchers": [
+      "Bruno Latour",
+      "Isabelle Stengers"
+    ],
+    "key_works": [
+      "Facing Gaia (2015)",
+      "In Catastrophic Times (2009)"
+    ]
+  },
+  {
+    "name_ja": "ハイパーオブジェクト",
+    "name_en": "Hyperobjects",
+    "definition": "ハイパーオブジェクトは、地球温暖化や放射性物質のように、時間的・空間的規模が巨大で人間の知覚を超えながら生活に浸透する対象を指す。",
+    "impact_summary": "気候危機、美学、OOO、環境人文学における非人間的スケールの思考を促した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "オブジェクト指向存在論",
+    "era_start": 2013,
+    "era_end": null,
+    "keywords_ja": "ハイパーオブジェクト,気候変動,規模,対象",
+    "keywords_en": "hyperobjects,climate change,scale,objects",
+    "key_researchers": [
+      "Timothy Morton"
+    ],
+    "key_works": [
+      "Hyperobjects (2013)"
+    ]
+  },
+  {
+    "name_ja": "ダーク・エコロジー",
+    "name_en": "Dark Ecology",
+    "definition": "ダーク・エコロジーは、自然を純粋で調和的な外部として理想化せず、汚染、奇妙さ、共犯性、喪失を含む生態学的経験を考える思想である。",
+    "impact_summary": "環境美学と気候危機の倫理に、悲劇性と非純粋性を扱う語彙を与えた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境人文学",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_ja": "ダーク・エコロジー,自然批判,汚染,共犯性",
+    "keywords_en": "dark ecology,nature critique,pollution,complicity",
+    "key_researchers": [
+      "Timothy Morton"
+    ],
+    "key_works": [
+      "Ecology without Nature (2007)",
+      "Dark Ecology (2016)"
+    ]
+  },
+  {
+    "name_ja": "クトゥルーシーン",
+    "name_en": "Chthulucene",
+    "definition": "クトゥルーシーンは、人新世や資本新世に代わり、人間以外の多種の存在が絡まり合い、応答責任をもって共生する時代を考える概念である。",
+    "impact_summary": "ポストヒューマン・フェミニズムと環境人文学に、共生成の倫理を強く打ち出した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "マルチスピーシーズ・フェミニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_ja": "クトゥルーシーン,多種,共生,応答責任",
+    "keywords_en": "Chthulucene,multispecies,symbiosis,response-ability",
+    "key_researchers": [
+      "Donna Haraway"
+    ],
+    "key_works": [
+      "Anthropocene, Capitalocene, Plantationocene, Chthulucene (2015)",
+      "Staying with the Trouble (2016)"
+    ]
+  },
+  {
+    "name_ja": "シンポイエーシス",
+    "name_en": "Sympoiesis",
+    "definition": "シンポイエーシスは、自律的に自己生産する閉じた体系ではなく、複数の種、技術、環境が相互に作り合う開かれた共生成の過程を指す概念である。",
+    "impact_summary": "オートポイエーシス中心の生命観を更新し、環境人文学と多種共生倫理を発展させた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "マルチスピーシーズ・フェミニズム",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_ja": "シンポイエーシス,共生成,多種,環境",
+    "keywords_en": "sympoiesis,co-making,multispecies,environment",
+    "key_researchers": [
+      "Donna Haraway",
+      "M. Beth L. Dempster"
+    ],
+    "key_works": [
+      "Staying with the Trouble (2016)",
+      "A Self-Organizing Systems Perspective on Planning for Sustainability (1998)"
+    ]
+  }
+]

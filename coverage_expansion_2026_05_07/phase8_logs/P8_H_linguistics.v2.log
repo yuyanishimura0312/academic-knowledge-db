@@ -1,0 +1,787 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0986-eab1-7ca2-a15a-3d9d06937455
+--------
+user
+「言語学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+生成文法、認知言語学、社会言語学、LLMと言語学、言語進化
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"言語学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "生成文法",
+    "name_en": "Generative Grammar",
+    "definition": "人間が有限の経験から無限に多様な文を理解・産出できる能力を、心的な規則体系として説明する理論。文法を単なる記述ではなく、言語能力を支える認知的機構として捉え、統語構造、普遍文法、獲得可能性を中心問題にする。",
+    "subfield": "言語学",
+    "school_of_thought": "生成文法",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "syntax,universal grammar",
+    "key_researchers": ["Noam Chomsky"]
+  },
+  {
+    "name_ja": "認知言語学",
+    "name_en": "Cognitive Linguistics",
+    "definition": "言語を独立した形式体系ではなく、知覚、身体経験、概念化、カテゴリー化など一般認知能力と連続するものとして研究する立場。比喩、フレーム、プロトタイプ、構文の意味性を重視し、言語形式と意味の結びつきを経験基盤から説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "認知言語学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "embodiment,conceptual metaphor",
+    "key_researchers": ["George Lakoff", "Ronald Langacker"]
+  },
+  {
+    "name_ja": "社会言語学",
+    "name_en": "Sociolinguistics",
+    "definition": "言語使用が社会階層、地域、性別、年齢、民族、職業、場面、権力関係などとどのように結びつくかを研究する分野。発音や語彙の変異、言語選択、敬語、方言、言語政策を扱い、言語を社会的実践として捉える。",
+    "subfield": "言語学",
+    "school_of_thought": "変異理論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "variation,speech community",
+    "key_researchers": ["William Labov", "Dell Hymes"]
+  },
+  {
+    "name_ja": "LLMと言語学",
+    "name_en": "Large Language Models and Linguistics",
+    "definition": "大規模言語モデルが示す文法判断、意味推論、対話能力、誤り、バイアスを通じて、人間言語の表現や処理との共通点と相違点を検討する研究領域。統計的学習、創発的構造、記号接地、説明可能性をめぐる新しい理論課題を提起する。",
+    "subfield": "言語学",
+    "school_of_thought": "計算言語学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "large language models,neural language modeling",
+    "key_researchers": ["Emily Bender", "Christopher Manning"]
+  },
+  {
+    "name_ja": "言語進化",
+    "name_en": "Language Evolution",
+    "definition": "人類の言語能力が生物進化、文化進化、社会的協力、認知発達のなかでどのように成立したかを問う研究領域。音声器官、記号化、文法化、共同注意、模倣、学習バイアスなどを総合し、言語の起源と変化の機構を探る。",
+    "subfield": "言語学",
+    "school_of_thought": "進化言語学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "language origins,cultural evolution",
+    "key_researchers": ["Michael Tomasello", "Terrence Deacon"]
+  },
+  {
+    "name_ja": "構造主義言語学",
+    "name_en": "Structural Linguistics",
+    "definition": "言語を個々の語や音の集合ではなく、相互差異によって成り立つ体系として分析する立場。音韻、形態、統語、意味を構造内の関係から記述し、歴史的変化だけでなく共時的な体系性を言語研究の中心に据えた。",
+    "subfield": "言語学",
+    "school_of_thought": "構造主義",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "structure,sign",
+    "key_researchers": ["Ferdinand de Saussure", "Roman Jakobson"]
+  },
+  {
+    "name_ja": "記号論",
+    "name_en": "Semiotics",
+    "definition": "言語を含む記号が意味を生み出し伝達する仕組みを研究する理論。記号表現と記号内容、指標・類像・象徴、解釈過程などを扱い、言語記号が社会的慣習や認知的解釈を通じて機能することを明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "記号論",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "sign,semiosis",
+    "key_researchers": ["Charles Sanders Peirce", "Ferdinand de Saussure"]
+  },
+  {
+    "name_ja": "音韻論",
+    "name_en": "Phonology",
+    "definition": "言語音が物理的音声としてではなく、意味を区別する抽象的単位や規則としてどのように組織されるかを研究する分野。音素、音節、アクセント、音韻過程、制約、韻律構造を扱い、言語ごとの音の体系性を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "音韻理論",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "phoneme,prosody",
+    "key_researchers": ["Nikolai Trubetzkoy", "Morris Halle"]
+  },
+  {
+    "name_ja": "音声学",
+    "name_en": "Phonetics",
+    "definition": "人間の言語音を発音、音響、聴覚の観点から実証的に研究する分野。調音器官の動き、音波の物理的性質、聴覚による知覚を測定し、母音、子音、声調、イントネーションなどの具体的性質を記述する。",
+    "subfield": "言語学",
+    "school_of_thought": "実験音声学",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "articulation,acoustics",
+    "key_researchers": ["Daniel Jones", "Peter Ladefoged"]
+  },
+  {
+    "name_ja": "形態論",
+    "name_en": "Morphology",
+    "definition": "語がどのような単位から構成され、屈折、派生、複合などを通じてどのように形成されるかを研究する分野。形態素、語幹、接辞、語形成規則、語彙と文法の境界を扱い、語の内部構造と機能を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "形態論",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "morpheme,word formation",
+    "key_researchers": ["Leonard Bloomfield", "Mark Aronoff"]
+  },
+  {
+    "name_ja": "統語論",
+    "name_en": "Syntax",
+    "definition": "語や句が組み合わさって文を形成する規則と構造を研究する分野。語順、階層構造、句構造、依存関係、移動、格、照応などを扱い、人間が文の文法性や解釈をどのように判断するかを理論化する。",
+    "subfield": "言語学",
+    "school_of_thought": "統語理論",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "sentence structure,phrase structure",
+    "key_researchers": ["Noam Chomsky", "Lucien Tesniere"]
+  },
+  {
+    "name_ja": "意味論",
+    "name_en": "Semantics",
+    "definition": "語、句、文がどのように意味を持ち、真理条件、指示、含意、量化、時制、様相などを通じて解釈されるかを研究する分野。形式論理を用いる研究と認知的・語彙的意味を重視する研究の双方を含む。",
+    "subfield": "言語学",
+    "school_of_thought": "形式意味論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "truth conditions,reference",
+    "key_researchers": ["Richard Montague", "Barbara Partee"]
+  },
+  {
+    "name_ja": "語用論",
+    "name_en": "Pragmatics",
+    "definition": "発話の意味が文そのものだけでなく、話し手、聞き手、文脈、意図、共有知識、会話の規範によってどのように決まるかを研究する分野。含意、発話行為、直示、丁寧さ、会話の協調原理などを扱う。",
+    "subfield": "言語学",
+    "school_of_thought": "語用論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "implicature,speech acts",
+    "key_researchers": ["H. Paul Grice", "John Searle"]
+  },
+  {
+    "name_ja": "歴史言語学",
+    "name_en": "Historical Linguistics",
+    "definition": "言語が時間のなかでどのように変化し、分岐し、接触し、再構成されるかを研究する分野。音変化、意味変化、文法化、系統関係、祖語再建を扱い、現在の言語構造を歴史的過程から説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "比較言語学",
+    "era_start": 1786,
+    "era_end": null,
+    "keywords_en": "language change,comparative method",
+    "key_researchers": ["William Jones", "August Schleicher"]
+  },
+  {
+    "name_ja": "比較言語学",
+    "name_en": "Comparative Linguistics",
+    "definition": "複数の言語を体系的に比較し、共通祖先、対応関係、音韻変化、語彙の同根性を明らかにする研究。印欧語研究を出発点に、比較方法によって祖語を再建し、言語系統の分類に大きく貢献した。",
+    "subfield": "言語学",
+    "school_of_thought": "比較文法",
+    "era_start": 1816,
+    "era_end": null,
+    "keywords_en": "comparative method,proto-language",
+    "key_researchers": ["Franz Bopp", "Jacob Grimm"]
+  },
+  {
+    "name_ja": "言語類型論",
+    "name_en": "Linguistic Typology",
+    "definition": "世界の言語を広く比較し、語順、格標示、音韻体系、形態構造などの類型と普遍的傾向を探る分野。特定言語の系統に依存せず、多様性の範囲と制約を経験的に示し、言語普遍性の理解に寄与する。",
+    "subfield": "言語学",
+    "school_of_thought": "機能主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "typology,language universals",
+    "key_researchers": ["Joseph Greenberg", "Bernard Comrie"]
+  },
+  {
+    "name_ja": "機能主義言語学",
+    "name_en": "Functional Linguistics",
+    "definition": "言語構造を自律的規則だけでなく、コミュニケーション上の機能、情報伝達、処理負荷、談話の目的から説明する立場。主語、語順、文法標識などを、使用頻度や意味機能との関係で分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "機能主義",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "function,communicative efficiency",
+    "key_researchers": ["Talmy Givon", "Simon Dik"]
+  },
+  {
+    "name_ja": "体系機能言語学",
+    "name_en": "Systemic Functional Linguistics",
+    "definition": "言語を社会的意味を作る選択体系として捉え、概念構成、対人的関係、テクスト構成という複数のメタ機能から分析する理論。文法を意味の資源として扱い、教育、談話分析、ジャンル研究にも広く応用される。",
+    "subfield": "言語学",
+    "school_of_thought": "体系機能言語学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_en": "metafunction,register",
+    "key_researchers": ["M. A. K. Halliday"]
+  },
+  {
+    "name_ja": "構文文法",
+    "name_en": "Construction Grammar",
+    "definition": "語、句、文型を形式と意味の対応である構文として捉え、文法知識を大小さまざまな構文のネットワークとして説明する理論。抽象規則と語彙項目を厳密に分離せず、慣用句から一般的文型まで連続的に扱う。",
+    "subfield": "言語学",
+    "school_of_thought": "認知言語学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "constructions,form meaning pairing",
+    "key_researchers": ["Charles Fillmore", "Adele Goldberg"]
+  },
+  {
+    "name_ja": "用法基盤モデル",
+    "name_en": "Usage-Based Model",
+    "definition": "言語知識は生得的規則の集合として固定されるのではなく、実際の使用経験、頻度、類推、スキーマ化を通じて形成されると考える立場。子どもの言語獲得、文法変化、構文の定着を経験依存的に説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "認知言語学",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "frequency,entrenchment",
+    "key_researchers": ["Ronald Langacker", "Joan Bybee"]
+  },
+  {
+    "name_ja": "最適性理論",
+    "name_en": "Optimality Theory",
+    "definition": "言語形式は絶対的規則ではなく、普遍的制約の競合と順位づけによって選ばれるとする理論。音韻論を中心に発展し、候補集合から最も制約違反の少ない出力を選択する仕組みによって言語差を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "生成音韻論",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_en": "constraints,ranking",
+    "key_researchers": ["Alan Prince", "Paul Smolensky"]
+  },
+  {
+    "name_ja": "ミニマリスト・プログラム",
+    "name_en": "Minimalist Program",
+    "definition": "生成文法の枠内で、言語機能が可能な限り単純で経済的な計算原理から導けるかを探る研究計画。移動、併合、特徴照合などを最小限の操作で説明し、言語能力と認知・生物学的制約の接点を問う。",
+    "subfield": "言語学",
+    "school_of_thought": "生成文法",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "merge,economy",
+    "key_researchers": ["Noam Chomsky"]
+  },
+  {
+    "name_ja": "普遍文法",
+    "name_en": "Universal Grammar",
+    "definition": "人間がどの言語でも獲得できる背景には、言語に特有の生得的原理や制約が存在するという仮説。言語獲得の速さ、入力の不完全性、言語間の共通性を説明するために提案され、生成文法の中心概念となった。",
+    "subfield": "言語学",
+    "school_of_thought": "生成文法",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "innateness,language acquisition",
+    "key_researchers": ["Noam Chomsky"]
+  },
+  {
+    "name_ja": "依存文法",
+    "name_en": "Dependency Grammar",
+    "definition": "文の構造を句構造の階層ではなく、語と語の支配・依存関係として表す文法理論。動詞などの中心語が他の語を統率する関係を重視し、語順が比較的自由な言語の分析や自然言語処理にも適している。",
+    "subfield": "言語学",
+    "school_of_thought": "依存文法",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "dependency,head",
+    "key_researchers": ["Lucien Tesniere"]
+  },
+  {
+    "name_ja": "語彙機能文法",
+    "name_en": "Lexical Functional Grammar",
+    "definition": "文法を句構造、機能構造、意味構造など複数の表象レベルに分け、主語や目的語といった文法機能を中心に分析する理論。変形操作を抑え、語彙情報と制約によって多様な言語の構造を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "制約基盤文法",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "functional structure,lexicon",
+    "key_researchers": ["Joan Bresnan", "Ronald Kaplan"]
+  },
+  {
+    "name_ja": "主辞駆動句構造文法",
+    "name_en": "Head-Driven Phrase Structure Grammar",
+    "definition": "語彙項目と句構造を特徴構造によって統一的に表し、文法を制約の集合として記述する理論。変形を用いず、統語、意味、音韻、語彙情報を一つの形式体系に統合し、計算実装にも適した枠組みを提供する。",
+    "subfield": "言語学",
+    "school_of_thought": "制約基盤文法",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "feature structures,constraints",
+    "key_researchers": ["Carl Pollard", "Ivan Sag"]
+  },
+  {
+    "name_ja": "役割参照文法",
+    "name_en": "Role and Reference Grammar",
+    "definition": "統語構造を意味役割、情報構造、談話機能と密接に結びつけて説明する機能主義的文法理論。主語中心の分析を相対化し、格配列や語順が多様な言語を比較的同じ枠組みで記述することを目指す。",
+    "subfield": "言語学",
+    "school_of_thought": "機能主義",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "semantic roles,linking",
+    "key_researchers": ["Robert Van Valin", "William Foley"]
+  },
+  {
+    "name_ja": "談話分析",
+    "name_en": "Discourse Analysis",
+    "definition": "文を超えた発話やテクストのまとまりが、どのように構成され、意味を生み、社会的行為として機能するかを研究する分野。結束性、話題展開、相互行為、ジャンル、権力関係などを対象にする。",
+    "subfield": "言語学",
+    "school_of_thought": "談話研究",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "discourse,text",
+    "key_researchers": ["Teun van Dijk", "Deborah Tannen"]
+  },
+  {
+    "name_ja": "会話分析",
+    "name_en": "Conversation Analysis",
+    "definition": "自然会話の録音・書き起こしを詳細に分析し、順番交替、隣接ペア、修復、応答の遅れなど相互行為の組織を明らかにする方法論。話者の意図を推測するより、参加者が示す手続きに基づいて分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "エスノメソドロジー",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "turn taking,repair",
+    "key_researchers": ["Harvey Sacks", "Emanuel Schegloff"]
+  },
+  {
+    "name_ja": "エスノグラフィー・オブ・コミュニケーション",
+    "name_en": "Ethnography of Communication",
+    "definition": "言語使用を特定共同体の文化的規範、場面、参加者、目的、ジャンルのなかで記述する研究枠組み。何を、誰が、いつ、どのように話すことが適切とされるかを分析し、言語能力を社会文化的能力として捉える。",
+    "subfield": "言語学",
+    "school_of_thought": "社会言語学",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "communicative competence,speech event",
+    "key_researchers": ["Dell Hymes"]
+  },
+  {
+    "name_ja": "言語人類学",
+    "name_en": "Linguistic Anthropology",
+    "definition": "言語を文化、社会関係、儀礼、アイデンティティ、権力、歴史のなかに位置づけて研究する分野。発話が単に情報を伝えるだけでなく、社会的現実を作り、共同体の価値や分類を再生産する過程を分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "言語人類学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "culture,indexicality",
+    "key_researchers": ["Edward Sapir", "Michael Silverstein"]
+  },
+  {
+    "name_ja": "サピア＝ウォーフ仮説",
+    "name_en": "Sapir-Whorf Hypothesis",
+    "definition": "言語の構造が話者の思考、知覚、世界の分類に影響を与えるという仮説。強い決定論から弱い相対論まで幅があり、色彩語、空間表現、時間表現、文法カテゴリーが認知に及ぼす影響をめぐって議論される。",
+    "subfield": "言語学",
+    "school_of_thought": "言語相対論",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "linguistic relativity,thought",
+    "key_researchers": ["Edward Sapir", "Benjamin Lee Whorf"]
+  },
+  {
+    "name_ja": "言語接触",
+    "name_en": "Language Contact",
+    "definition": "異なる言語や方言の話者が接触することで生じる借用、干渉、コードスイッチング、ピジン化、クレオール化、言語交替などを研究する領域。社会的条件と構造的変化の関係を明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "接触言語学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "borrowing,bilingualism",
+    "key_researchers": ["Uriel Weinreich", "Sarah Thomason"]
+  },
+  {
+    "name_ja": "コードスイッチング",
+    "name_en": "Code-Switching",
+    "definition": "二言語以上を用いる話者が、会話の中で言語や方言、スタイルを切り替える現象。単なる混乱ではなく、話題、相手、アイデンティティ、引用、距離感、共同体規範に応じた意味ある選択として分析される。",
+    "subfield": "言語学",
+    "school_of_thought": "社会言語学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "bilingualism,language choice",
+    "key_researchers": ["John Gumperz", "Carol Myers-Scotton"]
+  },
+  {
+    "name_ja": "バイリンガリズム",
+    "name_en": "Bilingualism",
+    "definition": "個人や社会が二つ以上の言語を使用する状態と、その認知的、社会的、教育的影響を研究する領域。習熟度、使用領域、言語優勢、言語維持、言語喪失、認知制御への影響などが主要な論点となる。",
+    "subfield": "言語学",
+    "school_of_thought": "応用言語学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "multilingualism,language dominance",
+    "key_researchers": ["Urie Bronfenbrenner", "Ellen Bialystok"]
+  },
+  {
+    "name_ja": "ピジン・クレオール研究",
+    "name_en": "Pidgin and Creole Studies",
+    "definition": "異なる言語集団の接触から生まれる簡略化された接触言語や、それが母語化して発達したクレオールを研究する分野。言語創造、文法化、社会的不平等、植民地史、言語普遍性を考える重要な材料を提供する。",
+    "subfield": "言語学",
+    "school_of_thought": "接触言語学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "creole,pidgin",
+    "key_researchers": ["Derek Bickerton", "Salikoko Mufwene"]
+  },
+  {
+    "name_ja": "方言学",
+    "name_en": "Dialectology",
+    "definition": "地域や社会集団ごとの言語変種を記述し、その分布、歴史、相互関係を研究する分野。音韻、語彙、文法、アクセントの地域差を調査し、方言地図や言語変化の波及過程を明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "方言地理学",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "dialect,regional variation",
+    "key_researchers": ["Georg Wenker", "Jules Gillieron"]
+  },
+  {
+    "name_ja": "言語政策",
+    "name_en": "Language Policy",
+    "definition": "国家、教育機関、共同体がどの言語を公的に認め、教え、使用し、保存するかに関する制度や実践を研究する領域。公用語、少数言語、標準語、言語権、教育政策を通じて権力と平等の問題を扱う。",
+    "subfield": "言語学",
+    "school_of_thought": "応用社会言語学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "language planning,language rights",
+    "key_researchers": ["Joshua Fishman", "Robert Phillipson"]
+  },
+  {
+    "name_ja": "言語イデオロギー",
+    "name_en": "Language Ideology",
+    "definition": "人々が言語、方言、標準語、話し方について持つ信念や価値判断が、社会的権力やアイデンティティとどのように結びつくかを研究する概念。正しい言葉、美しい発音、母語らしさなどの判断を批判的に分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "言語人類学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "ideology,indexicality",
+    "key_researchers": ["Michael Silverstein", "Judith Irvine"]
+  },
+  {
+    "name_ja": "言語獲得",
+    "name_en": "Language Acquisition",
+    "definition": "子どもや成人が音韻、語彙、文法、意味、語用能力をどのように身につけるかを研究する分野。生得性、入力、相互作用、統計学習、認知発達、臨界期などの要因を検討し、人間の言語能力の成立を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "心理言語学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "first language acquisition,input",
+    "key_researchers": ["Roger Brown", "Michael Tomasello"]
+  },
+  {
+    "name_ja": "第二言語習得",
+    "name_en": "Second Language Acquisition",
+    "definition": "母語以外の言語を学習・獲得する過程を研究する分野。中間言語、転移、入力、動機づけ、年齢効果、明示的知識と暗示的知識の関係を扱い、外国語教育や多言語社会の理解にも関わる。",
+    "subfield": "言語学",
+    "school_of_thought": "応用言語学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "interlanguage,language learning",
+    "key_researchers": ["Stephen Krashen", "Larry Selinker"]
+  },
+  {
+    "name_ja": "心理言語学",
+    "name_en": "Psycholinguistics",
+    "definition": "人間が言語を理解し、産出し、記憶し、獲得する心的過程を実験的に研究する分野。語認識、文解析、意味統合、発話計画、誤り、反応時間、眼球運動、脳活動などを用いて処理機構を探る。",
+    "subfield": "言語学",
+    "school_of_thought": "心理言語学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "language processing,comprehension",
+    "key_researchers": ["George Miller", "Willem Levelt"]
+  },
+  {
+    "name_ja": "神経言語学",
+    "name_en": "Neurolinguistics",
+    "definition": "言語能力が脳のどの領域や神経ネットワークに支えられているかを研究する分野。失語症、脳損傷、脳画像、電気生理学を通じて、音韻、語彙、統語、意味、発話の神経基盤を明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "神経認知科学",
+    "era_start": 1861,
+    "era_end": null,
+    "keywords_en": "aphasia,brain",
+    "key_researchers": ["Paul Broca", "Carl Wernicke"]
+  },
+  {
+    "name_ja": "失語症研究",
+    "name_en": "Aphasiology",
+    "definition": "脳損傷によって生じる言語障害を分析し、言語機能の構造と神経基盤を明らかにする研究領域。流暢性、理解、復唱、命名、読み書きの障害を通じて、言語処理の構成要素を推定する。",
+    "subfield": "言語学",
+    "school_of_thought": "臨床言語学",
+    "era_start": 1861,
+    "era_end": null,
+    "keywords_en": "aphasia,language disorders",
+    "key_researchers": ["Paul Broca", "Norman Geschwind"]
+  },
+  {
+    "name_ja": "計算言語学",
+    "name_en": "Computational Linguistics",
+    "definition": "自然言語を計算機で処理・解析・生成するための理論と方法を研究する分野。形態素解析、構文解析、意味解析、機械翻訳、情報抽出、対話システムを扱い、言語理論と人工知能を結びつける。",
+    "subfield": "言語学",
+    "school_of_thought": "計算言語学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "natural language processing,parsing",
+    "key_researchers": ["Noam Chomsky", "Karen Sparck Jones"]
+  },
+  {
+    "name_ja": "コーパス言語学",
+    "name_en": "Corpus Linguistics",
+    "definition": "大規模な実例テキストや音声データを用いて、語彙、文法、意味、談話、変異を実証的に研究する方法論。頻度、共起、コロケーション、用例分布を分析し、直感だけでは見えにくい言語使用の傾向を明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "経験主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "corpus,frequency",
+    "key_researchers": ["John Sinclair", "Douglas Biber"]
+  },
+  {
+    "name_ja": "自然言語処理",
+    "name_en": "Natural Language Processing",
+    "definition": "人間の言語をコンピュータが扱えるようにする技術領域で、翻訳、要約、検索、質問応答、感情分析、対話などを対象とする。言語学的知識、統計モデル、機械学習、深層学習を組み合わせて実用システムを構築する。",
+    "subfield": "言語学",
+    "school_of_thought": "計算言語学",
+    "era_start": 1954,
+    "era_end": null,
+    "keywords_en": "NLP,machine learning",
+    "key_researchers": ["Frederick Jelinek", "Christopher Manning"]
+  },
+  {
+    "name_ja": "機械翻訳",
+    "name_en": "Machine Translation",
+    "definition": "ある自然言語の文やテキストを別の言語へ自動的に変換する技術と研究領域。規則ベース、統計的手法、ニューラル手法へと発展し、意味保存、語順変換、曖昧性解消、評価方法が中心課題となる。",
+    "subfield": "言語学",
+    "school_of_thought": "計算言語学",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "translation,neural machine translation",
+    "key_researchers": ["Warren Weaver", "Philipp Koehn"]
+  },
+  {
+    "name_ja": "形式言語理論",
+    "name_en": "Formal Language Theory",
+    "definition": "記号列の集合としての言語を、文法、オートマトン、計算可能性の観点から数学的に研究する理論。自然言語の階層的構造や構文解析の限界を考える基礎となり、計算機科学と言語理論を結びつける。",
+    "subfield": "言語学",
+    "school_of_thought": "形式主義",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "formal grammar,automata",
+    "key_researchers": ["Noam Chomsky", "Marcel Schutzenberger"]
+  },
+  {
+    "name_ja": "文法化",
+    "name_en": "Grammaticalization",
+    "definition": "語彙的な表現が時間とともに文法的機能を持つ要素へ変化する過程を指す概念。移動動詞が未来標識になる、名詞が格標識になるなどの変化を通じて、意味の漂白、音韻縮約、機能拡張を分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "歴史言語学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "grammaticalization,semantic bleaching",
+    "key_researchers": ["Antoine Meillet", "Elizabeth Traugott"]
+  },
+  {
+    "name_ja": "語彙意味論",
+    "name_en": "Lexical Semantics",
+    "definition": "語の意味構造、語と語の意味関係、多義性、同義性、反義性、上位下位関係、項構造などを研究する分野。単語が辞書的に孤立しているのではなく、概念体系や文法構造と結びついていることを明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "意味論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "lexicon,polysemy",
+    "key_researchers": ["Charles Fillmore", "James Pustejovsky"]
+  },
+  {
+    "name_ja": "フレーム意味論",
+    "name_en": "Frame Semantics",
+    "definition": "語の意味は単独で定義されるのではなく、背景となる知識構造や場面、参加者の役割であるフレームの中で理解されるとする理論。商取引、移動、料理などの概念枠組みが語の解釈を支えると考える。",
+    "subfield": "言語学",
+    "school_of_thought": "認知言語学",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "frame,semantic roles",
+    "key_researchers": ["Charles Fillmore"]
+  },
+  {
+    "name_ja": "概念メタファー理論",
+    "name_en": "Conceptual Metaphor Theory",
+    "definition": "比喩を文学的装飾ではなく、抽象概念を具体的経験に基づいて理解する認知的仕組みと捉える理論。時間を空間として、議論を戦争として捉えるような対応関係が、日常言語と思考を組織すると考える。",
+    "subfield": "言語学",
+    "school_of_thought": "認知言語学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "conceptual metaphor,embodiment",
+    "key_researchers": ["George Lakoff", "Mark Johnson"]
+  },
+  {
+    "name_ja": "プロトタイプ理論",
+    "name_en": "Prototype Theory",
+    "definition": "カテゴリーは必要十分条件で明確に区切られるのではなく、典型的な成員を中心に段階的に組織されるとする理論。語の意味、品詞、構文カテゴリーを分析する際に、境界の曖昧さや典型性を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "認知言語学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "prototype,categorization",
+    "key_researchers": ["Eleanor Rosch", "George Lakoff"]
+  },
+  {
+    "name_ja": "情報構造",
+    "name_en": "Information Structure",
+    "definition": "文の中でどの情報が既知で、どの情報が新しく、何が焦点や話題として提示されるかを研究する概念。語順、イントネーション、助詞、分裂文などを通じて、文法が談話上の情報配置をどう表すかを分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "機能主義",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "topic,focus",
+    "key_researchers": ["Vilém Mathesius", "Knud Lambrecht"]
+  },
+  {
+    "name_ja": "格文法",
+    "name_en": "Case Grammar",
+    "definition": "文の意味構造を、動作主、対象、経験者、場所、道具などの深層格や意味役割によって説明する理論。表面的な主語・目的語だけでなく、述語が要求する参加者の役割を中心に文構造を分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "生成意味論",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "case roles,semantic roles",
+    "key_researchers": ["Charles Fillmore"]
+  },
+  {
+    "name_ja": "発話行為理論",
+    "name_en": "Speech Act Theory",
+    "definition": "発話は単に事実を述べるだけでなく、約束、命令、謝罪、宣言、質問などの行為を遂行するという理論。文の字義的意味と、発話が社会的状況で持つ効力を区別し、語用論の基礎を築いた。",
+    "subfield": "言語学",
+    "school_of_thought": "語用論",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "illocution,performatives",
+    "key_researchers": ["J. L. Austin", "John Searle"]
+  },
+  {
+    "name_ja": "会話の含意",
+    "name_en": "Conversational Implicature",
+    "definition": "話し手が明示的に述べていない意味を、聞き手が文脈と会話の協調原理から推論する現象。量、質、関係、様態の格率を背景に、皮肉、遠回しな依頼、部分的回答などの解釈を説明する。",
+    "subfield": "言語学",
+    "school_of_thought": "語用論",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "implicature,cooperative principle",
+    "key_researchers": ["H. Paul Grice"]
+  },
+  {
+    "name_ja": "ポライトネス理論",
+    "name_en": "Politeness Theory",
+    "definition": "人が相手の面子や社会的関係を保つために、依頼、断り、批判、謝罪などをどのように調整して表現するかを説明する理論。丁寧さを単なる敬語形式ではなく、対人関係を管理する語用論的戦略として捉える。",
+    "subfield": "言語学",
+    "school_of_thought": "語用論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "politeness,face",
+    "key_researchers": ["Penelope Brown", "Stephen Levinson"]
+  },
+  {
+    "name_ja": "手話言語学",
+    "name_en": "Sign Language Linguistics",
+    "definition": "手話を身振りの寄せ集めではなく、音声言語と同等に複雑な自然言語として研究する分野。手型、位置、動き、非手指標識、空間文法、手話獲得を分析し、人間言語のモダリティ多様性を示す。",
+    "subfield": "言語学",
+    "school_of_thought": "手話言語学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "sign language,modality",
+    "key_researchers": ["William Stokoe", "Carol Padden"]
+  },
+  {
+    "name_ja": "文字論",
+    "name_en": "Grapholinguistics",
+    "definition": "文字体系、正書法、書記記号と音声・意味・社会制度の関係を研究する分野。アルファベット、音節文字、表語文字、綴字改革、読み書きの規範などを扱い、話し言葉とは異なる書き言葉の構造を分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "書記体系研究",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "writing systems,orthography",
+    "key_researchers": ["Ignace Gelb", "Florian Coulmas"]
+  },
+  {
+    "name_ja": "応用言語学",
+    "name_en": "Applied Linguistics",
+    "definition": "言語学の知見を、言語教育、翻訳、辞書編纂、言語評価、言語政策、臨床支援、専門コミュニケーションなど実社会の課題に応用する分野。理論研究と実践的問題解決を結びつける横断的領域である。",
+    "subfield": "言語学",
+    "school_of_thought": "応用言語学",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "language teaching,assessment",
+    "key_researchers": ["Henry Widdowson", "Alastair Pennycook"]
+  },
+  {
+    "name_ja": "法言語学",
+    "name_en": "Forensic Linguistics",
+    "definition": "法律や司法の場面における言語使用を分析する応用分野。供述、契約書、脅迫文、著者識別、尋問、通訳、法廷談話を対象にし、言語証拠の解釈や法的コミュニケーションの公正性に関わる。",
+    "subfield": "言語学",
+    "school_of_thought": "応用言語学",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "forensic linguistics,authorship",
+    "key_researchers": ["Jan Svartvik", "Malcolm Coulthard"]
+  },
+  {
+    "name_ja": "危機言語研究",
+    "name_en": "Endangered Language Studies",
+    "definition": "話者数の減少や世代間継承の断絶によって消滅の危機にある言語を記録し、分析し、再活性化を支援する研究領域。文法記述、辞書作成、音声資料保存、共同体主導の教育活動が重要な課題となる。",
+    "subfield": "言語学",
+    "school_of_thought": "記述言語学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "endangered languages,documentation",
+    "key_researchers": ["Michael Krauss", "Lenore Grenoble"]
+  },
+  {
+    "name_ja": "フィールド言語学",
+    "name_en": "Field Linguistics",
+    "definition": "研究者が話者共同体に赴き、聞き取り、録音、参与観察、共同分析を通じて言語データを収集・記述する方法論。未記述言語や少数言語の音韻、文法、語彙、談話を体系的に記録する基盤となる。",
+    "subfield": "言語学",
+    "school_of_thought": "記述言語学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "fieldwork,documentation",
+    "key_researchers": ["Franz Boas", "Kenneth Pike"]
+  },
+  {
+    "name_ja": "記述言語学",
+    "name_en": "Descriptive Linguistics",
+    "definition": "特定の言語の音韻、形態、統語、意味、談話を、規範的判断ではなく実際の使用に基づいて体系的に記述する分野。理論構築の前提となる基礎資料を作り、言語多様性の保存にも貢献する。",
+    "subfield": "言語学",
+    "school_of_thought": "記述主義",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "description,grammar",
+    "key_researchers": ["Franz Boas", "Leonard Bloomfield"]
+  },
+  {
+    "name_ja": "語彙論",
+    "name_en": "Lexicology",
+    "definition": "語彙を一つの体系として捉え、語の形成、意味、使用、借用、変化、語彙場、語彙階層などを研究する分野。辞書編纂と関係しながらも、個別語の羅列ではなく語彙全体の構造と機能を分析する。",
+    "subfield": "言語学",
+    "school_of_thought": "語彙研究",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "lexicon,vocabulary",
+    "key_researchers": ["John Lyons", "M. A. K. Halliday"]
+  },
+  {
+    "name_ja": "辞書学",
+    "name_en": "Lexicography",
+    "definition": "辞書を作成し評価する理論と実践を扱う分野。見出し語、語義記述、用例、発音、語源、語法、コーパス利用、利用者設計を検討し、言語知識を参照可能な形に整理する方法を研究する。",
+    "subfield": "言語学",
+    "school_of_thought": "応用言語学",
+    "era_start": 1755,
+    "era_end": null,
+    "keywords_en": "dictionary,lexicography",
+    "key_researchers": ["Samuel Johnson", "Sue Atkins"]
+  },
+  {
+    "name_ja": "韻律論",
+    "name_en": "Prosody",
+    "definition": "イントネーション、アクセント、リズム、長さ、ポーズなど、個々の分節音を超えた音声的特徴を研究する領域。文の焦点、感情、発話行為、句境界、会話の流れを示す重要な手がかりとして機能する。",
+    "subfield": "言語学",
+    "school_of_thought": "音韻論",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "intonation,stress",
+    "key_researchers": ["J. R. Firth", "Janet Pierrehumbert"]
+  }
+]
+tokens used
+30,618

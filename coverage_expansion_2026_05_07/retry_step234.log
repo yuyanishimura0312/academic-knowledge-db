@@ -1,0 +1,13 @@
+[retry] 11 tasks, MAX_PARALLEL=4
+[retry] E3_telecom start at 16:12:44
+[retry] E3_civil start at 16:12:44
+[retry] S2_geography start at 16:12:44
+[retry] A3_literary start at 16:12:44
+[retry] H4_religion start at 16:30:01
+[retry] S2_law start at 16:30:01
+[retry] S2_geography raised: Command '['codex', 'exec', '--full-auto', '「地理学・空間論」分野の重要概念100件を JSON 配列で出力してください。\n\n必須概念: 都市政治生態学、デジタル地理学、場所性研究、GISマッピング\n\n形式:\n[{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"地理学・空間論","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}]\n\n要件: 内部知識のみ使用（web検索不要）。subfield は必ず「地理学・空間論」。100件出力。説明文・コードフェンス禁止。JSON配列のみ。']' timed out after 900 seconds
+[retry] S2_politics start at 16:30:01
+[retry] H4_aesthetics start at 16:30:01
+[retry] A3_literary raised: Command '['codex', 'exec', '--full-auto', '「文学理論・物語論」分野の重要概念100件を JSON 配列で出力してください。\n\n必須概念: AI生成文学批評、気候フィクション、デジタルナラトロジー、翻訳論最新\n\n形式:\n[{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"文学理論・物語論","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}]\n\n要件: 内部知識のみ使用（web検索不要）。subfield は必ず「文学理論・物語論」。100件出力。説明文・コードフェンス禁止。JSON配列のみ。']' timed out after 900 seconds
+[retry] E3_telecom raised: Command '['codex', 'exec', '--full-auto', '「情報通信工学」分野の重要概念100件を JSON 配列で出力してください。\n\n必須概念: 6G、サテライトインターネット、光通信ネットワーク、メッシュネットワーク\n\n形式:\n[{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"情報通信工学","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}]\n\n要件: 内部知識のみ使用（web検索不要）。subfield は必ず「情報通信工学」。100件出力。説明文・コードフェンス禁止。JSON配列のみ。']' timed out after 900 seconds
+[retry] E3_civil raised: Command '['codex', 'exec', '--full-auto', '「土木・建築工学」分野の重要概念100件を JSON 配列で出力してください。\n\n必須概念: デジタルツイン都市、BIM、気候適応インフラ、持続可能建築\n\n形式:\n[{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"土木・建築工学","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}]\n\n要件: 内部知識のみ使用（web検索不要）。subfield は必ず「土木・建築工学」。100件出力。説明文・コードフェンス禁止。JSON配列のみ。']' timed out after 900 seconds

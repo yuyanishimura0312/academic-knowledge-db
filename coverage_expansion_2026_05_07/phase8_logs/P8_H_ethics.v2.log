@@ -1,0 +1,754 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0986-aaac-7191-a4ad-9da7ddc46cde
+--------
+user
+「倫理学・政治哲学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+AI倫理、気候倫理、未来世代倫理、効果的利他主義、Longtermism
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"倫理学・政治哲学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "AI倫理",
+    "name_en": "AI Ethics",
+    "definition": "人工知能の設計、開発、配備、利用が人間の尊厳、自由、公正、安全、説明責任に与える影響を検討する応用倫理の領域。偏見、監視、雇用、軍事利用、責任帰属などを扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "algorithmic bias,accountability",
+    "key_researchers": ["Luciano Floridi", "Shannon Vallor"]
+  },
+  {
+    "name_ja": "気候倫理",
+    "name_en": "Climate Ethics",
+    "definition": "気候変動に関する責任、被害、分配、公正、世代間義務を論じる応用倫理。温室効果ガス排出の歴史的責任、適応支援、損失と損害、個人と国家の義務を検討する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "環境倫理学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "climate justice,emissions responsibility",
+    "key_researchers": ["Henry Shue", "Stephen Gardiner"]
+  },
+  {
+    "name_ja": "未来世代倫理",
+    "name_en": "Ethics of Future Generations",
+    "definition": "まだ存在しない将来の人々に対して現在世代がどのような義務を負うかを問う倫理領域。資源利用、環境保全、制度設計、人口政策、非同一性問題などを中心に論じる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "世代間倫理",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "future generations,intergenerational justice",
+    "key_researchers": ["Derek Parfit", "Brian Barry"]
+  },
+  {
+    "name_ja": "効果的利他主義",
+    "name_en": "Effective Altruism",
+    "definition": "限られた資源で最大限の善を実現するため、証拠、費用対効果、反事実的影響を重視して寄付、職業選択、政策提言を評価する実践的倫理運動である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "帰結主義",
+    "era_start": 2009,
+    "era_end": null,
+    "keywords_en": "cause prioritization,cost effectiveness",
+    "key_researchers": ["Peter Singer", "William MacAskill"]
+  },
+  {
+    "name_ja": "Longtermism",
+    "name_en": "Longtermism",
+    "definition": "遠い未来に存在しうる膨大な数の人々の福祉を道徳的に重視し、文明存続、実存リスク低減、価値の長期的形成を優先課題とみなす倫理的立場である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "長期主義",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "existential risk,long term future",
+    "key_researchers": ["Nick Bostrom", "William MacAskill"]
+  },
+  {
+    "name_ja": "功利主義",
+    "name_en": "Utilitarianism",
+    "definition": "行為や制度の正しさを、それがもたらす幸福、快楽、選好充足などの総量または期待値によって評価する倫理理論。最大多数の最大幸福を代表的標語とする。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "功利主義",
+    "era_start": 1789,
+    "era_end": null,
+    "keywords_en": "utility,consequences",
+    "key_researchers": ["Jeremy Bentham", "John Stuart Mill"]
+  },
+  {
+    "name_ja": "義務論",
+    "name_en": "Deontology",
+    "definition": "結果の善し悪しだけでなく、行為が義務、権利、規則、人格尊重に合致するかを重視する倫理理論。人間を単なる手段として扱わないという発想が中心となる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "カント倫理学",
+    "era_start": 1785,
+    "era_end": null,
+    "keywords_en": "duty,right action",
+    "key_researchers": ["Immanuel Kant", "Christine Korsgaard"]
+  },
+  {
+    "name_ja": "徳倫理学",
+    "name_en": "Virtue Ethics",
+    "definition": "正しい行為の規則や結果よりも、よい人格、習慣、実践的知恵、卓越性に注目する倫理学。人がどのような生を送り、どのような人物になるべきかを問う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "徳倫理学",
+    "era_start": -350,
+    "era_end": null,
+    "keywords_en": "virtue,practical wisdom",
+    "key_researchers": ["Aristotle", "Alasdair MacIntyre"]
+  },
+  {
+    "name_ja": "契約論",
+    "name_en": "Social Contract Theory",
+    "definition": "政治的権威や道徳原理の正当性を、自由で平等な人々の合意、契約、相互承認から説明する理論。国家、義務、正義、公共的ルールの根拠を論じる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "契約論",
+    "era_start": 1651,
+    "era_end": null,
+    "keywords_en": "consent,political obligation",
+    "key_researchers": ["Thomas Hobbes", "John Rawls"]
+  },
+  {
+    "name_ja": "社会契約",
+    "name_en": "Social Contract",
+    "definition": "自然状態や前政治的状態にある個人が、相互の安全、自由、利益を確保するために政治社会や統治権力を承認するという仮想的または歴史的な合意概念である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "近代政治哲学",
+    "era_start": 1651,
+    "era_end": null,
+    "keywords_en": "state of nature,legitimacy",
+    "key_researchers": ["Thomas Hobbes", "Jean-Jacques Rousseau"]
+  },
+  {
+    "name_ja": "正義論",
+    "name_en": "Theory of Justice",
+    "definition": "社会制度が権利、自由、機会、所得、富、責任、承認をどのように配分すべきかを問う政治哲学の中心領域。公正な制度設計の規準を探究する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "リベラリズム",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "justice,fairness",
+    "key_researchers": ["John Rawls", "Amartya Sen"]
+  },
+  {
+    "name_ja": "公正としての正義",
+    "name_en": "Justice as Fairness",
+    "definition": "自由で平等な市民が無知のヴェールの下で選ぶ原理によって、基本的自由、機会の公正な平等、格差原理を正当化するロールズの政治哲学である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "ロールズ主義",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "original position,difference principle",
+    "key_researchers": ["John Rawls"]
+  },
+  {
+    "name_ja": "無知のヴェール",
+    "name_en": "Veil of Ignorance",
+    "definition": "自分の階級、才能、性別、宗教、人生観、社会的位置を知らない仮想状況から正義原理を選ぶという思考実験。偏りのない制度原理を導く装置である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "ロールズ主義",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "impartiality,original position",
+    "key_researchers": ["John Rawls"]
+  },
+  {
+    "name_ja": "格差原理",
+    "name_en": "Difference Principle",
+    "definition": "社会的経済的不平等は、それが最も不利な立場にある人々の利益を最大化する場合にのみ正当化されるという原理。平等と効率の関係を制度的に調整する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "ロールズ主義",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "inequality,least advantaged",
+    "key_researchers": ["John Rawls"]
+  },
+  {
+    "name_ja": "リバタリアニズム",
+    "name_en": "Libertarianism",
+    "definition": "個人の自己所有権、私有財産権、自由な交換、国家権力の最小化を重視する政治哲学。再分配や干渉的規制を自由侵害として批判する傾向がある。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "リバタリアニズム",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "self ownership,minimal state",
+    "key_researchers": ["Robert Nozick", "Murray Rothbard"]
+  },
+  {
+    "name_ja": "コミュニタリアニズム",
+    "name_en": "Communitarianism",
+    "definition": "個人を共同体、伝統、歴史、社会的実践から切り離された存在として捉えるリベラルな見方を批判し、共通善や帰属関係の道徳的意義を強調する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "コミュニタリアニズム",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "community,common good",
+    "key_researchers": ["Michael Sandel", "Charles Taylor"]
+  },
+  {
+    "name_ja": "リベラリズム",
+    "name_en": "Liberalism",
+    "definition": "個人の自由、平等な市民権、法の支配、寛容、権力制限を重視する政治思想。国家は多様な人生観を持つ人々が共存できる制度を整えるべきだと考える。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "リベラリズム",
+    "era_start": 1689,
+    "era_end": null,
+    "keywords_en": "liberty,equality",
+    "key_researchers": ["John Locke", "John Stuart Mill"]
+  },
+  {
+    "name_ja": "共和主義",
+    "name_en": "Republicanism",
+    "definition": "自由を単なる不干渉ではなく、他者の恣意的支配を受けない状態として理解し、市民的徳、混合政体、法の支配、公共参加を重視する政治思想である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "共和主義",
+    "era_start": -50,
+    "era_end": null,
+    "keywords_en": "non domination,civic virtue",
+    "key_researchers": ["Niccolò Machiavelli", "Philip Pettit"]
+  },
+  {
+    "name_ja": "自由",
+    "name_en": "Liberty",
+    "definition": "個人や集団が外的強制、支配、抑圧から離れて行為し、自己の目的を追求できる状態を指す政治哲学の基本概念。不干渉、自己統治、非支配など複数の理解がある。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "政治哲学一般",
+    "era_start": -400,
+    "era_end": null,
+    "keywords_en": "freedom,autonomy",
+    "key_researchers": ["Isaiah Berlin", "Philip Pettit"]
+  },
+  {
+    "name_ja": "積極的自由",
+    "name_en": "Positive Liberty",
+    "definition": "自己支配、自己実現、理性的な自己決定として理解される自由概念。単に妨害がないだけでなく、自分の人生を主体的に形成する能力や条件を含む。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "自由論",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "self mastery,self realization",
+    "key_researchers": ["Isaiah Berlin", "Charles Taylor"]
+  },
+  {
+    "name_ja": "消極的自由",
+    "name_en": "Negative Liberty",
+    "definition": "他者や国家による干渉、強制、妨害が存在しないこととして理解される自由概念。個人の行為領域を守るため、権力制限や権利保障と結びつく。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "自由論",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "non interference,coercion",
+    "key_researchers": ["Isaiah Berlin"]
+  },
+  {
+    "name_ja": "自律",
+    "name_en": "Autonomy",
+    "definition": "外的強制や盲目的欲望に従うのではなく、理性、反省、自己立法に基づいて行為する能力や状態を指す。個人の尊厳、同意、責任の基礎概念である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "カント倫理学",
+    "era_start": 1785,
+    "era_end": null,
+    "keywords_en": "self legislation,agency",
+    "key_researchers": ["Immanuel Kant", "Gerald Dworkin"]
+  },
+  {
+    "name_ja": "人格の尊厳",
+    "name_en": "Human Dignity",
+    "definition": "人間が価格や効用に還元されず、尊重されるべき固有の価値を持つという概念。人権、生命倫理、刑罰、貧困、差別を論じる際の根本規範となる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "人権思想",
+    "era_start": 1785,
+    "era_end": null,
+    "keywords_en": "dignity,respect",
+    "key_researchers": ["Immanuel Kant", "Martha Nussbaum"]
+  },
+  {
+    "name_ja": "人権",
+    "name_en": "Human Rights",
+    "definition": "すべての人が人間であることに基づいて持つとされる基本的権利。生命、自由、身体の安全、表現、良心、政治参加、社会的保障などを含み、国家権力を制約する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "人権思想",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "rights,universalism",
+    "key_researchers": ["James Griffin", "Charles Beitz"]
+  },
+  {
+    "name_ja": "自然権",
+    "name_en": "Natural Rights",
+    "definition": "国家や慣習に先立って人間が自然に有するとされる権利。生命、自由、財産などを含み、近代立憲主義、革命思想、政府の正当性批判に大きな影響を与えた。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "自然権論",
+    "era_start": 1689,
+    "era_end": null,
+    "keywords_en": "natural law,property",
+    "key_researchers": ["John Locke", "Hugo Grotius"]
+  },
+  {
+    "name_ja": "自然法",
+    "name_en": "Natural Law",
+    "definition": "人間の理性や自然秩序に基づいて、実定法に先立つ普遍的な道徳法が存在すると考える思想。法の正当性、良心、抵抗権、基本権の根拠を説明する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "自然法論",
+    "era_start": 1250,
+    "era_end": null,
+    "keywords_en": "natural law,moral order",
+    "key_researchers": ["Thomas Aquinas", "John Finnis"]
+  },
+  {
+    "name_ja": "公共善",
+    "name_en": "Common Good",
+    "definition": "個人の私的利益の単なる総和ではなく、共同体の成員が共有し、協力によって維持される価値や条件を指す。政治的徳、制度、連帯、公共性の議論で中心となる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "共同体主義",
+    "era_start": -350,
+    "era_end": null,
+    "keywords_en": "common good,public interest",
+    "key_researchers": ["Aristotle", "Michael Sandel"]
+  },
+  {
+    "name_ja": "公共理性",
+    "name_en": "Public Reason",
+    "definition": "多様な包括的教説を持つ市民が、基本的な政治原理を互いに受け入れ可能な理由によって正当化すべきだという考え。リベラルな正統性の条件を示す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "政治的リベラリズム",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_en": "public justification,reasonable pluralism",
+    "key_researchers": ["John Rawls", "Gerald Gaus"]
+  },
+  {
+    "name_ja": "熟議民主主義",
+    "name_en": "Deliberative Democracy",
+    "definition": "民主的正統性を投票や利益集約だけでなく、市民や代表者が理由を示し合い、相互に尊重しながら討議する過程に求める政治理論である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "民主主義理論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "deliberation,legitimacy",
+    "key_researchers": ["Jürgen Habermas", "Amy Gutmann"]
+  },
+  {
+    "name_ja": "参加民主主義",
+    "name_en": "Participatory Democracy",
+    "definition": "市民が選挙時だけでなく、政策形成、地域自治、職場、社会運動などに継続的に参加することを重視する民主主義観。政治的能力の形成も目的とする。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "民主主義理論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "participation,civic engagement",
+    "key_researchers": ["Carole Pateman", "Benjamin Barber"]
+  },
+  {
+    "name_ja": "政治的正統性",
+    "name_en": "Political Legitimacy",
+    "definition": "国家や統治制度が人々に服従を要求する道徳的資格を持つかを問う概念。合意、民主的手続、正義、公共的正当化、実効性などが根拠として論じられる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "政治哲学一般",
+    "era_start": 1651,
+    "era_end": null,
+    "keywords_en": "legitimacy,authority",
+    "key_researchers": ["Max Weber", "John Rawls"]
+  },
+  {
+    "name_ja": "政治的義務",
+    "name_en": "Political Obligation",
+    "definition": "市民が国家の法律や制度に従う道徳的義務を持つか、また持つならその根拠は何かを問う問題。合意、公正な負担、感謝、共同体、自然義務が議論される。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "政治哲学一般",
+    "era_start": 1651,
+    "era_end": null,
+    "keywords_en": "obedience,authority",
+    "key_researchers": ["A. John Simmons", "H. L. A. Hart"]
+  },
+  {
+    "name_ja": "市民的不服従",
+    "name_en": "Civil Disobedience",
+    "definition": "不正な法律や政策に抗議するため、公開性、非暴力性、良心性を伴って法を意図的に破る政治的行為。民主社会における抗議と法の尊重の関係を問う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "民主主義理論",
+    "era_start": 1849,
+    "era_end": null,
+    "keywords_en": "protest,nonviolence",
+    "key_researchers": ["Henry David Thoreau", "John Rawls"]
+  },
+  {
+    "name_ja": "分配的正義",
+    "name_en": "Distributive Justice",
+    "definition": "所得、富、機会、教育、医療、権力、負担などを社会内でどのように配分すべきかを問う正義論。平等、必要、功績、効用、自由などの基準が競合する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "正義論",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "distribution,equality",
+    "key_researchers": ["John Rawls", "G. A. Cohen"]
+  },
+  {
+    "name_ja": "承認の政治",
+    "name_en": "Politics of Recognition",
+    "definition": "人々が文化的、民族的、ジェンダー的、宗教的アイデンティティを尊重されることを正義の重要要素とみなす議論。再分配だけでは捉えられない不正を扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "承認論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "recognition,identity",
+    "key_researchers": ["Charles Taylor", "Axel Honneth"]
+  },
+  {
+    "name_ja": "ケア倫理",
+    "name_en": "Ethics of Care",
+    "definition": "抽象的規則や自立した個人像だけでなく、依存、関係性、応答責任、具体的文脈を重視する倫理理論。家族、医療、福祉、政治制度の再評価を促す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フェミニスト倫理学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "care,relationality",
+    "key_researchers": ["Carol Gilligan", "Joan Tronto"]
+  },
+  {
+    "name_ja": "フェミニスト倫理学",
+    "name_en": "Feminist Ethics",
+    "definition": "伝統的倫理学が見落としてきた性差別、権力関係、身体性、ケア、抑圧経験を分析し、より包摂的で平等な道徳理論を構築しようとする領域である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フェミニズム",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "gender,oppression",
+    "key_researchers": ["Susan Moller Okin", "Virginia Held"]
+  },
+  {
+    "name_ja": "フェミニスト政治哲学",
+    "name_en": "Feminist Political Philosophy",
+    "definition": "国家、市民権、家族、労働、身体、暴力、代表制をジェンダー権力の観点から再検討する政治哲学。公私二分法や中立性の前提を批判的に分析する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フェミニズム",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "gender justice,public private divide",
+    "key_researchers": ["Susan Moller Okin", "Iris Marion Young"]
+  },
+  {
+    "name_ja": "多文化主義",
+    "name_en": "Multiculturalism",
+    "definition": "文化的、宗教的、民族的少数派が同化を強制されず、平等な市民として承認される制度を求める政治理論。集団権、言語権、教育、移民政策を扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "多文化主義",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "minority rights,cultural diversity",
+    "key_researchers": ["Will Kymlicka", "Charles Taylor"]
+  },
+  {
+    "name_ja": "コスモポリタニズム",
+    "name_en": "Cosmopolitanism",
+    "definition": "人間は国籍や共同体所属を超えて等しい道徳的配慮の対象であり、正義や義務は国境に限定されないとする思想。世界的貧困、人権、移民を論じる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "世界市民主義",
+    "era_start": -300,
+    "era_end": null,
+    "keywords_en": "global justice,moral equality",
+    "key_researchers": ["Immanuel Kant", "Thomas Pogge"]
+  },
+  {
+    "name_ja": "グローバル正義",
+    "name_en": "Global Justice",
+    "definition": "国境を越えた貧困、不平等、人権侵害、貿易、移民、気候変動に関する正義を問う領域。国家内正義の原理が世界規模に及ぶかが争点となる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "コスモポリタニズム",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "global inequality,poverty",
+    "key_researchers": ["Thomas Pogge", "Charles Beitz"]
+  },
+  {
+    "name_ja": "環境倫理",
+    "name_en": "Environmental Ethics",
+    "definition": "自然環境、動植物、生態系、種、景観がどのような道徳的価値を持つかを問う応用倫理。人間中心主義を超えた責任、保全、持続可能性を検討する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "環境倫理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "ecocentrism,sustainability",
+    "key_researchers": ["Aldo Leopold", "Holmes Rolston III"]
+  },
+  {
+    "name_ja": "動物倫理",
+    "name_en": "Animal Ethics",
+    "definition": "人間以外の動物が苦痛、利益、権利、尊厳を持つ存在としてどのように扱われるべきかを論じる倫理領域。畜産、実験、娯楽利用、野生動物管理を扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "animal rights,sentience",
+    "key_researchers": ["Peter Singer", "Tom Regan"]
+  },
+  {
+    "name_ja": "生命倫理",
+    "name_en": "Bioethics",
+    "definition": "医療、研究、生殖、終末期、遺伝子技術、公衆衛生に関する道徳問題を扱う応用倫理。自律、善行、無危害、正義などの原則を用いて判断を行う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "medical ethics,autonomy",
+    "key_researchers": ["Tom Beauchamp", "James Childress"]
+  },
+  {
+    "name_ja": "研究倫理",
+    "name_en": "Research Ethics",
+    "definition": "人を対象とする研究や科学実践において、同意、リスク、利益、公正な参加者選定、データ管理、誠実性を確保するための倫理領域である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "informed consent,research integrity",
+    "key_researchers": ["Henry Beecher", "Ruth Macklin"]
+  },
+  {
+    "name_ja": "職業倫理",
+    "name_en": "Professional Ethics",
+    "definition": "医師、弁護士、技術者、研究者、ジャーナリストなど専門職が、専門知識と社会的信頼に伴って負う責任を論じる倫理。利益相反、守秘義務、説明責任を扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "professional responsibility,conflict of interest",
+    "key_researchers": ["Michael Davis", "Deborah Johnson"]
+  },
+  {
+    "name_ja": "ビジネス倫理",
+    "name_en": "Business Ethics",
+    "definition": "企業活動、市場取引、労働、消費、広告、サプライチェーン、企業統治に関わる道徳問題を扱う。利益追求と社会的責任の関係を中心に検討する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "corporate responsibility,stakeholders",
+    "key_researchers": ["R. Edward Freeman", "Norman Bowie"]
+  },
+  {
+    "name_ja": "技術倫理",
+    "name_en": "Technology Ethics",
+    "definition": "技術の設計、利用、普及が人間の生活、社会制度、権力関係、環境に及ぼす影響を評価する倫理領域。技術者責任、リスク、プライバシーを扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "technology responsibility,risk",
+    "key_researchers": ["Hans Jonas", "Langdon Winner"]
+  },
+  {
+    "name_ja": "情報倫理",
+    "name_en": "Information Ethics",
+    "definition": "情報の生成、収集、保存、共有、利用に関する倫理問題を扱う。プライバシー、知的財産、アクセス格差、監視、データ所有、情報環境の価値を検討する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "privacy,information society",
+    "key_researchers": ["Luciano Floridi", "Helen Nissenbaum"]
+  },
+  {
+    "name_ja": "プライバシー",
+    "name_en": "Privacy",
+    "definition": "個人が自己に関する情報、身体、空間、通信、関係性へのアクセスを制御できる利益や権利を指す。監視社会、データ経済、民主的自由の基盤として論じられる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "情報倫理",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "privacy,data protection",
+    "key_researchers": ["Samuel Warren", "Helen Nissenbaum"]
+  },
+  {
+    "name_ja": "正戦論",
+    "name_en": "Just War Theory",
+    "definition": "戦争がどの条件で開始され、どのように遂行され、どのように終結すべきかを評価する倫理理論。正当原因、比例性、区別原則、最後の手段などを含む。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "正戦論",
+    "era_start": 400,
+    "era_end": null,
+    "keywords_en": "jus ad bellum,jus in bello",
+    "key_researchers": ["Augustine of Hippo", "Michael Walzer"]
+  },
+  {
+    "name_ja": "平和主義",
+    "name_en": "Pacifism",
+    "definition": "戦争や暴力の道徳的正当性を否定または強く制限し、非暴力的抵抗、対話、制度的平和構築を重視する立場。絶対的形態と条件付き形態がある。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "平和主義",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "nonviolence,anti war",
+    "key_researchers": ["Mahatma Gandhi", "Martin Luther King Jr."]
+  },
+  {
+    "name_ja": "刑罰論",
+    "name_en": "Theory of Punishment",
+    "definition": "国家が犯罪者に苦痛や自由制限を科すことの正当性を問う領域。応報、抑止、隔離、更生、修復、被害者の権利など複数の目的が競合する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "法哲学",
+    "era_start": 1764,
+    "era_end": null,
+    "keywords_en": "punishment,retribution",
+    "key_researchers": ["Cesare Beccaria", "H. L. A. Hart"]
+  },
+  {
+    "name_ja": "修復的司法",
+    "name_en": "Restorative Justice",
+    "definition": "犯罪を法規範違反だけでなく人間関係と共同体への害として捉え、加害者、被害者、地域が対話を通じて責任、償い、回復を目指す司法理念である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "修復的司法",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "restoration,accountability",
+    "key_researchers": ["Howard Zehr", "John Braithwaite"]
+  },
+  {
+    "name_ja": "平等主義",
+    "name_en": "Egalitarianism",
+    "definition": "人々は道徳的に平等であり、社会制度は不当な格差や支配を是正すべきだとする思想。機会、資源、福祉、関係性、地位の平等など多様な解釈がある。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "平等主義",
+    "era_start": 1790,
+    "era_end": null,
+    "keywords_en": "equality,distributive justice",
+    "key_researchers": ["Ronald Dworkin", "Elizabeth Anderson"]
+  },
+  {
+    "name_ja": "運の平等主義",
+    "name_en": "Luck Egalitarianism",
+    "definition": "人々の選択によらない運や偶然によって生じる不利益は補償されるべきだが、自己責任による結果は本人が引き受けるべきだとする平等論の一形態。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "平等主義",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "brute luck,option luck",
+    "key_researchers": ["Ronald Dworkin", "G. A. Cohen"]
+  },
+  {
+    "name_ja": "十分主義",
+    "name_en": "Sufficientarianism",
+    "definition": "正義において最も重要なのは全員を一定の十分な水準以上に引き上げることであり、その水準を超えた格差は相対的に重要性が低いとする立場である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "分配的正義",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "sufficiency,threshold",
+    "key_researchers": ["Harry Frankfurt", "Paula Casal"]
+  },
+  {
+    "name_ja": "優先主義",
+    "name_en": "Prioritarianism",
+    "definition": "利益を与えることの道徳的重要性は、受益者がどれほど不利な状態にあるかによって増すと考える立場。平等そのものよりも悪い状態の人への優先を重視する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "分配的正義",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "priority,worse off",
+    "key_researchers": ["Derek Parfit", "Larry Temkin"]
+  },
+  {
+    "name_ja": "能力アプローチ",
+    "name_en": "Capability Approach",
+    "definition": "正義や発展を所得や効用だけでなく、人々が実際に何をなし、どのような生を選べるかという実質的自由によって評価する理論枠組みである。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "能力アプローチ",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "capabilities,functionings",
+    "key_researchers": ["Amartya Sen", "Martha Nussbaum"]
+  },
+  {
+    "name_ja": "パターナリズム",
+    "name_en": "Paternalism",
+    "definition": "本人の利益を理由に、その人の選択や自由を制限または誘導することを指す。安全、健康、福祉を守る介入が自律侵害となるかが中心問題である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "自由論",
+    "era_start": 1859,
+    "era_end": null,
+    "keywords_en": "paternalism,autonomy",
+    "key_researchers": ["John Stuart Mill", "Gerald Dworkin"]
+  },
+  {
+    "name_ja": "危害原理",
+    "name_en": "Harm Principle",
+    "definition": "文明社会において個人の自由を強制的に制限できる唯一の正当な理由は、他者への危害を防ぐことだとする原理。自由主義的刑法や規制論の基礎である。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "自由主義",
+    "era_start": 1859,
+    "era_end": null,
+    "keywords_en": "harm,liberty",
+    "key_researchers": ["John Stuart Mill", "Joel Feinberg"]
+  },
+  {
+    "name_ja": "世俗主義",
+    "name_en": "Secularism",
+    "definition": "政治権力や公共制度が特定宗教に支配されず、信教の自由と市民の平等を守るべきだとする思想。国家と宗教の分離、公共的理由、宗教的多元性を扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "政治的リベラリズム",
+    "era_start": 1700,
+    "era_end": null,
+    "keywords_en": "secular state,religious freedom",
+    "key_researchers": ["John Locke", "Charles Taylor"]
+  },
+  {
+    "name_ja": "寛容",
+    "name_en": "Toleration",
+    "definition": "自分が誤りまたは好ましくないと考える信念や実践を、一定の理由により禁止せず認める態度や制度原理。宗教的多元性と自由社会の条件を説明する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "リベラリズム",
+    "era_start": 1689,
+    "era_end": null,
+    "keywords_en": "toleration,pluralism",
+    "key_researchers": ["John Locke", "Rainer Forst"]
+  },
+  {
+    "name_ja": "アイデンティティ政治",
+    "name_en": "Identity Politics",
+    "definition": "人種、ジェンダー、性的指向、民族、障害などの集団経験に基づき、抑圧の可視化、承認、代表、制度改革を求める政治実践と理論を指す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "批判理論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "identity,representation",
+    "key_researchers": ["Iris Marion Young", "Nancy Fraser"]
+  },
+  {
+    "name_ja": "批判理論",
+    "name_en": "Critical Theory",
+    "definition": "社会の権力構造、イデオロギー、資本主義、支配、疎外を分析し、解放を志向する理論伝統。単なる記述ではなく、社会変革に関わる規範的批判を目指す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "emancipation,ideology",
+    "key_researchers": ["Max Horkheimer", "Jürgen Habermas"]
+  },
+  {
+    "name_ja": "共和的自由",
+    "name_en": "Republican Liberty",
+    "definition": "自由を他者の恣意的な支配に服していない状態として捉える概念。たとえ実際の干渉がなくても、支配者の気まぐれに依存する状態は不自由とされる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "共和主義",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "non domination,republican freedom",
+    "key_researchers": ["Philip Pettit", "Quentin Skinner"]
+  }
+]
+tokens used
+10,917

@@ -1,0 +1,930 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a29-96d3-7561-af7a-b90be7a04951
+--------
+user
+「詩学・文学理論」分野の重要概念60件を JSON 配列で出力。
+
+必須概念:
+ジャンル論、ベンヤミンの寓意、デ・マンの読みの寓意、ヤーコブソンの詩的機能、シクロフスキーの異化
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"詩学・文学理論","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "ジャンル論",
+    "name_en": "Genre Theory",
+    "definition": "文学作品を叙事詩、抒情詩、悲劇、小説などの固定分類としてだけでなく、歴史的制度、読者の期待、出版慣行、言説共同体の規則として捉える理論。作品がジャンルを反復しつつ逸脱する過程を分析する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "古典詩学・現代ジャンル理論",
+    "era_start": -350,
+    "era_end": null,
+    "keywords_en": "genre,classification,convention",
+    "key_researchers": ["アリストテレス", "ノースロップ・フライ", "ツヴェタン・トドロフ"]
+  },
+  {
+    "name_ja": "ベンヤミンの寓意",
+    "name_en": "Benjaminian Allegory",
+    "definition": "ヴァルター・ベンヤミンがドイツ悲劇論で展開した概念で、寓意を象徴の劣位形態ではなく、歴史の廃墟性、断片性、死の刻印を読む方法として捉える。意味は調和的全体ではなく、破片の配置から生じる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "フランクフルト学派・批判理論",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "allegory,ruin,history",
+    "key_researchers": ["ヴァルター・ベンヤミン"]
+  },
+  {
+    "name_ja": "デ・マンの読みの寓意",
+    "name_en": "de Man's Allegories of Reading",
+    "definition": "ポール・ド・マンが提示した脱構築的読解概念で、文学テクストは自らの修辞的操作を透明に語れず、読解は意味の確定ではなく誤読の構造を露呈する過程となる。寓意は読む行為そのものの不安定性を示す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "脱構築批評",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "allegory,reading,rhetoric",
+    "key_researchers": ["ポール・ド・マン"]
+  },
+  {
+    "name_ja": "ヤーコブソンの詩的機能",
+    "name_en": "Jakobson's Poetic Function",
+    "definition": "ロマン・ヤーコブソンの言語機能論における概念で、メッセージが指示対象や送り手ではなく、メッセージそのものの形式、反復、音韻、並行性へ注意を向けさせる働きを指す。詩に限らず広告や標語にも現れる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム・構造主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "poetic function,message,parallelism",
+    "key_researchers": ["ロマン・ヤーコブソン"]
+  },
+  {
+    "name_ja": "シクロフスキーの異化",
+    "name_en": "Shklovsky's Defamiliarization",
+    "definition": "ヴィクトル・シクロフスキーが提唱した概念で、日常的に自動化された知覚を破り、対象を見慣れないものとして経験させる文学的手法を指す。芸術の機能を認識内容よりも知覚過程の遅延と刷新に置く。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム",
+    "era_start": 1917,
+    "era_end": null,
+    "keywords_en": "defamiliarization,ostranenie,perception",
+    "key_researchers": ["ヴィクトル・シクロフスキー"]
+  },
+  {
+    "name_ja": "ミメーシス",
+    "name_en": "Mimesis",
+    "definition": "文学や芸術を現実、行為、人物、感情の模倣として考える古典詩学の中心概念。単なる複写ではなく、可能性や普遍性を構成する表象作用として理解され、リアリズム論や物語論にも影響を与えた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "古典詩学",
+    "era_start": -380,
+    "era_end": null,
+    "keywords_en": "mimesis,representation,imitation",
+    "key_researchers": ["プラトン", "アリストテレス", "エーリヒ・アウエルバッハ"]
+  },
+  {
+    "name_ja": "カタルシス",
+    "name_en": "Catharsis",
+    "definition": "アリストテレス『詩学』に由来する悲劇論の概念で、恐れと憐れみを通じて観客の感情が浄化、排出、調整される効果を指す。解釈は医学的、倫理的、認知的に分かれ、悲劇の社会的機能を問う。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "古典詩学",
+    "era_start": -335,
+    "era_end": null,
+    "keywords_en": "catharsis,tragedy,pity",
+    "key_researchers": ["アリストテレス"]
+  },
+  {
+    "name_ja": "プロット",
+    "name_en": "Plot",
+    "definition": "出来事の単なる時系列ではなく、因果関係、緊張、転換、認知、結末によって組織された物語構造を指す。アリストテレスのミュートスから現代物語論まで、作品の意味生成を支える構成原理として扱われる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "古典詩学・物語論",
+    "era_start": -335,
+    "era_end": null,
+    "keywords_en": "plot,mythos,causality",
+    "key_researchers": ["アリストテレス", "E・M・フォースター", "ピーター・ブルックス"]
+  },
+  {
+    "name_ja": "叙述と物語内容",
+    "name_en": "Discourse and Story",
+    "definition": "物語における語られる出来事の系列と、それをどの順序、視点、速度、語り口で提示するかを区別する概念。ロシア・フォルマリズムのファーブラとシュジェートを継承し、物語論の基礎となった。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム・構造主義物語論",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "story,discourse,narrative",
+    "key_researchers": ["ボリス・トマシェフスキー", "ジェラール・ジュネット", "シーモア・チャットマン"]
+  },
+  {
+    "name_ja": "ファーブラとシュジェート",
+    "name_en": "Fabula and Syuzhet",
+    "definition": "ロシア・フォルマリズムで発展した物語分析の対概念で、ファーブラは出来事の論理的・時間的連鎖、シュジェートは作品内での配置や提示方法を指す。物語の効果が内容ではなく構成から生じることを示す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "fabula,syuzhet,plot",
+    "key_researchers": ["ヴィクトル・シクロフスキー", "ボリス・トマシェフスキー"]
+  },
+  {
+    "name_ja": "物語論",
+    "name_en": "Narratology",
+    "definition": "物語を登場人物や主題の解釈に還元せず、語り手、時間、焦点化、出来事、レベル、受け手などの構造として分析する理論領域。神話、文学、映画、歴史叙述など多様な物語形式に適用される。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "構造主義",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "narratology,narrative,structure",
+    "key_researchers": ["ツヴェタン・トドロフ", "ジェラール・ジュネット", "ロラン・バルト"]
+  },
+  {
+    "name_ja": "焦点化",
+    "name_en": "Focalization",
+    "definition": "誰が語るかと誰が知覚するかを区別する物語論の概念。語り手の声と登場人物の視野を分離し、情報制限、知覚の位置、認識の偏りを分析することで、視点論より精密な読解を可能にする。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "構造主義物語論",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "focalization,perspective,narrator",
+    "key_researchers": ["ジェラール・ジュネット", "ミーケ・バル"]
+  },
+  {
+    "name_ja": "語り手",
+    "name_en": "Narrator",
+    "definition": "物語世界の出来事を読者に媒介する声や機能を指す概念。作者と同一視されず、信頼性、知識範囲、物語世界内外の位置、語りの階層によって分析される。近代小説論の中心的カテゴリーである。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "物語論",
+    "era_start": 1955,
+    "era_end": null,
+    "keywords_en": "narrator,voice,reliability",
+    "key_researchers": ["ウェイン・C・ブース", "ジェラール・ジュネット"]
+  },
+  {
+    "name_ja": "信頼できない語り手",
+    "name_en": "Unreliable Narrator",
+    "definition": "語り手の報告、判断、価値観が作品全体の規範や読者の推論とずれる場合に用いられる概念。単なる嘘つきではなく、認識の限界、自己欺瞞、イデオロギー的偏りを通じて解釈の緊張を生む。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "修辞的物語論",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_en": "unreliable narrator,irony,voice",
+    "key_researchers": ["ウェイン・C・ブース", "ジェームズ・フェラン"]
+  },
+  {
+    "name_ja": "間テクスト性",
+    "name_en": "Intertextuality",
+    "definition": "テクストが孤立した自律体ではなく、引用、変形、反復、ジャンル慣習、文化的記憶を通じて他のテクストと関係しながら意味を作るという概念。作者意図中心の解釈を相対化した。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "intertextuality,quotation,text",
+    "key_researchers": ["ジュリア・クリステヴァ", "ロラン・バルト", "ミハイル・バフチン"]
+  },
+  {
+    "name_ja": "作者の死",
+    "name_en": "Death of the Author",
+    "definition": "作品の意味を作者の意図、伝記、心理に最終的に帰属させる解釈を批判する概念。テクストは複数の言説の交差点であり、意味は読者の読解行為のなかで生成されるとする。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "author,reader,textuality",
+    "key_researchers": ["ロラン・バルト", "ミシェル・フーコー"]
+  },
+  {
+    "name_ja": "作者機能",
+    "name_en": "Author Function",
+    "definition": "ミシェル・フーコーが論じた概念で、作者を実在の個人ではなく、テクスト群を分類し、所有し、責任を割り当て、解釈を制御する制度的機能として捉える。文学史や著作権の前提を問い直す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポスト構造主義・言説分析",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "author function,discourse,institution",
+    "key_researchers": ["ミシェル・フーコー"]
+  },
+  {
+    "name_ja": "読者反応批評",
+    "name_en": "Reader-Response Criticism",
+    "definition": "文学作品の意味をテクスト内部に固定されたものではなく、読者の期待、解釈共同体、読む過程の時間性によって成立するものと考える批評潮流。受容や経験の変化を分析対象に含める。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "読者反応批評",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "reader response,reception,interpretation",
+    "key_researchers": ["ヴォルフガング・イーザー", "スタンリー・フィッシュ", "ノーマン・ホランド"]
+  },
+  {
+    "name_ja": "期待の地平",
+    "name_en": "Horizon of Expectations",
+    "definition": "受容美学の中心概念で、読者や時代が作品を読む際に持つジャンル知識、道徳観、形式慣習、美的基準の総体を指す。文学史は作品と期待の地平とのずれや更新として記述される。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "受容美学",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "horizon,reception,expectations",
+    "key_researchers": ["ハンス・ロベルト・ヤウス"]
+  },
+  {
+    "name_ja": "空所",
+    "name_en": "Blanks",
+    "definition": "ヴォルフガング・イーザーの読書理論における概念で、テクストが明示しない連結、動機、背景、意味の未決部分を指す。読者は空所を補いながら作品を具体化し、読解は能動的な構成行為となる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "受容美学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "blanks,gaps,reader",
+    "key_researchers": ["ヴォルフガング・イーザー"]
+  },
+  {
+    "name_ja": "解釈共同体",
+    "name_en": "Interpretive Community",
+    "definition": "スタンリー・フィッシュが提唱した概念で、読者の解釈は個人の自由な反応ではなく、共有された読解規則、教育制度、専門的慣習によって形成されるとする。意味の安定性を社会的実践から説明する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "読者反応批評",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "interpretive community,reader,institution",
+    "key_researchers": ["スタンリー・フィッシュ"]
+  },
+  {
+    "name_ja": "ニュー・クリティシズム",
+    "name_en": "New Criticism",
+    "definition": "詩や文学作品を自律的な言語構造として精読し、逆説、曖昧性、アイロニー、緊張などの内部関係を重視する批評潮流。作者意図や読者感情への安易な依拠を批判し、教育制度に大きな影響を与えた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ニュー・クリティシズム",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "close reading,ambiguity,organic unity",
+    "key_researchers": ["クリーンス・ブルックス", "W・K・ウィムサット", "I・A・リチャーズ"]
+  },
+  {
+    "name_ja": "精読",
+    "name_en": "Close Reading",
+    "definition": "語彙、比喩、音韻、統辞、視点、反復、矛盾などテクストの細部に注意を集中し、作品の意味作用を緻密に読み解く方法。ニュー・クリティシズムで制度化されたが、脱構築や文化研究でも変形され用いられる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ニュー・クリティシズム",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "close reading,textual analysis,detail",
+    "key_researchers": ["I・A・リチャーズ", "クリーンス・ブルックス"]
+  },
+  {
+    "name_ja": "意図の誤謬",
+    "name_en": "Intentional Fallacy",
+    "definition": "作品の意味や価値を作者の意図によって決定しようとする批評の誤りを指す概念。作品は公開された言語構造として読まれるべきであり、草稿、手紙、伝記は解釈の最終審級ではないとする。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ニュー・クリティシズム",
+    "era_start": 1946,
+    "era_end": null,
+    "keywords_en": "intentional fallacy,author,intention",
+    "key_researchers": ["W・K・ウィムサット", "モンロー・ビアズリー"]
+  },
+  {
+    "name_ja": "感情の誤謬",
+    "name_en": "Affective Fallacy",
+    "definition": "作品の価値や意味を読者の感情的効果だけで測定することを批判する概念。ニュー・クリティシズムでは、主観的反応ではなくテクスト内部の構造と意味の関係を分析すべきだとされた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ニュー・クリティシズム",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "affective fallacy,reader,response",
+    "key_researchers": ["W・K・ウィムサット", "モンロー・ビアズリー"]
+  },
+  {
+    "name_ja": "曖昧性",
+    "name_en": "Ambiguity",
+    "definition": "一つの表現が複数の意味、態度、文脈、感情を同時に含む性質を指す。ウィリアム・エンプソン以降、曖昧性は欠陥ではなく、詩的言語が複層的な意味を生み出す重要な仕組みとされた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ニュー・クリティシズム",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "ambiguity,multiple meaning,poetry",
+    "key_researchers": ["ウィリアム・エンプソン"]
+  },
+  {
+    "name_ja": "有機的統一",
+    "name_en": "Organic Unity",
+    "definition": "文学作品を部分が相互に関連し、矛盾や緊張を含みながら全体として統合される構造と見る概念。ロマン主義美学とニュー・クリティシズムで重視され、作品の自律性や完成度を評価する基準となった。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロマン主義美学・ニュー・クリティシズム",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "organic unity,whole,form",
+    "key_researchers": ["サミュエル・テイラー・コールリッジ", "クリーンス・ブルックス"]
+  },
+  {
+    "name_ja": "ロマン主義的想像力",
+    "name_en": "Romantic Imagination",
+    "definition": "想像力を単なる空想ではなく、感覚、感情、自然、精神を総合し、新しい世界を創造する能動的能力と捉える概念。詩人の創造性、天才、象徴的形式を説明する中心原理となった。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロマン主義",
+    "era_start": 1790,
+    "era_end": null,
+    "keywords_en": "imagination,romanticism,creativity",
+    "key_researchers": ["サミュエル・テイラー・コールリッジ", "ウィリアム・ワーズワース"]
+  },
+  {
+    "name_ja": "崇高",
+    "name_en": "The Sublime",
+    "definition": "美が調和や快を与えるのに対し、崇高は巨大さ、恐怖、無限、超越に直面したときの圧倒的経験を指す。修辞学、美学、ロマン主義文学において、言語の限界と想像力の働きを考える概念となった。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "美学・ロマン主義",
+    "era_start": 1757,
+    "era_end": null,
+    "keywords_en": "sublime,aesthetics,terror",
+    "key_researchers": ["ロンギノス", "エドマンド・バーク", "イマヌエル・カント"]
+  },
+  {
+    "name_ja": "象徴",
+    "name_en": "Symbol",
+    "definition": "具体的なイメージや対象が、それを超える観念、感情、霊的意味、文化的記憶を喚起する表現形式。寓意のような一対一対応とは異なり、意味の過剰性や開かれを持つものとして論じられてきた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロマン主義・象徴主義",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "symbol,signification,image",
+    "key_researchers": ["サミュエル・テイラー・コールリッジ", "シャルル・ボードレール", "ポール・リクール"]
+  },
+  {
+    "name_ja": "寓意",
+    "name_en": "Allegory",
+    "definition": "物語、人物、イメージが別の抽象的意味体系を持続的に指示する表現形式。中世から近代まで道徳的、神学的、政治的読解に用いられ、近現代批評では断片性や読解の不安定性を示す概念にもなった。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "修辞学・解釈学",
+    "era_start": 300,
+    "era_end": null,
+    "keywords_en": "allegory,figuration,meaning",
+    "key_researchers": ["ダンテ・アリギエーリ", "ヴァルター・ベンヤミン", "ポール・ド・マン"]
+  },
+  {
+    "name_ja": "アイロニー",
+    "name_en": "Irony",
+    "definition": "表面上の発話や状況と、実際に示唆される意味や価値判断とのずれによって成立する修辞的・構造的効果。言語の二重性、読者の推論、語り手の距離を通じて批評性や複雑な情緒を生む。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "修辞学・ニュー・クリティシズム",
+    "era_start": -400,
+    "era_end": null,
+    "keywords_en": "irony,rhetoric,double meaning",
+    "key_researchers": ["ソクラテス", "クリーンス・ブルックス", "ポール・ド・マン"]
+  },
+  {
+    "name_ja": "メタファー",
+    "name_en": "Metaphor",
+    "definition": "あるものを別のものとして理解させる比喩で、単なる装飾ではなく認識や概念形成に関わる言語作用とされる。詩学ではイメージの飛躍、類似の発見、意味の再編成を生む中心的技法である。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "修辞学・認知詩学",
+    "era_start": -335,
+    "era_end": null,
+    "keywords_en": "metaphor,trope,analogy",
+    "key_researchers": ["アリストテレス", "I・A・リチャーズ", "ポール・リクール"]
+  },
+  {
+    "name_ja": "メトニミー",
+    "name_en": "Metonymy",
+    "definition": "隣接性、因果関係、部分と全体、容器と内容などの関係に基づき、ある語が関連する別のものを指す転義。ヤーコブソンはメタファーと対比し、詩的言語や散文、失語症研究の軸として論じた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "構造主義・修辞学",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "metonymy,trope,contiguity",
+    "key_researchers": ["ロマン・ヤーコブソン", "ケネス・バーク"]
+  },
+  {
+    "name_ja": "換喩と隠喩の二軸",
+    "name_en": "Metaphor and Metonymy Axes",
+    "definition": "ヤーコブソンが言語活動を選択と結合の二軸から説明し、隠喩を類似性、換喩を隣接性の原理に結びつけた理論。詩、散文、映画、無意識の構造を分析する広範なモデルとなった。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "構造主義",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "metaphor,metonymy,selection",
+    "key_researchers": ["ロマン・ヤーコブソン"]
+  },
+  {
+    "name_ja": "修辞性",
+    "name_en": "Rhetoricity",
+    "definition": "言語が透明な伝達手段ではなく、比喩、転義、反復、文体、説得の力によって意味を構成する性質を指す。脱構築批評では、文法的意味と修辞的意味の不一致が読解の決定不能性を生むとされた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "修辞学・脱構築",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "rhetoricity,trope,language",
+    "key_researchers": ["ポール・ド・マン", "ジャック・デリダ"]
+  },
+  {
+    "name_ja": "脱構築",
+    "name_en": "Deconstruction",
+    "definition": "テクストが前提とする二項対立、中心、自己同一的意味を内側から揺るがし、意味が差延や痕跡によって成立することを読む理論実践。否定的破壊ではなく、構造の不安定な条件を明らかにする。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポスト構造主義・脱構築",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "deconstruction,difference,text",
+    "key_researchers": ["ジャック・デリダ", "ポール・ド・マン", "J・ヒリス・ミラー"]
+  },
+  {
+    "name_ja": "差延",
+    "name_en": "Différance",
+    "definition": "デリダの造語で、意味が他の記号との差異によって成立し、同時に決して完全には現前せず延期され続けることを示す。音声中心主義や現前の形而上学を批判するための鍵概念である。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "脱構築",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "différance,difference,deferral",
+    "key_researchers": ["ジャック・デリダ"]
+  },
+  {
+    "name_ja": "テクスト性",
+    "name_en": "Textuality",
+    "definition": "作品を作者の意図や外的現実の反映としてではなく、記号、引用、差異、制度、読解行為からなる開かれた編成として捉える概念。文学研究の対象を閉じた作品から言説の網目へ拡張した。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "構造主義・ポスト構造主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "textuality,text,signification",
+    "key_researchers": ["ロラン・バルト", "ジュリア・クリステヴァ", "ジャック・デリダ"]
+  },
+  {
+    "name_ja": "記号",
+    "name_en": "Sign",
+    "definition": "意味作用を担う単位で、ソシュール以降は能記と所記の結合として理解された。文学理論では、語、イメージ、ジャンル、物語要素がどのように差異体系のなかで意味を生むかを分析する基礎となる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "記号論・構造主義",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "sign,signifier,semiotics",
+    "key_researchers": ["フェルディナン・ド・ソシュール", "チャールズ・サンダース・パース", "ロラン・バルト"]
+  },
+  {
+    "name_ja": "構造主義詩学",
+    "name_en": "Structuralist Poetics",
+    "definition": "個々の作品を孤立した表現ではなく、言語、神話、ジャンル、物語文法などの深層構造の実現として分析する立場。意味は要素の本質ではなく、差異と関係の体系から生じると考える。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "構造主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "structuralism,poetics,system",
+    "key_researchers": ["ロラン・バルト", "ツヴェタン・トドロフ", "ジョナサン・カラー"]
+  },
+  {
+    "name_ja": "文学性",
+    "name_en": "Literariness",
+    "definition": "ロシア・フォルマリズムが問うた概念で、文学を文学たらしめる形式的特性や言語操作を指す。主題や作者心理ではなく、音韻、反復、逸脱、構成、異化などの装置に注目する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム",
+    "era_start": 1919,
+    "era_end": null,
+    "keywords_en": "literariness,form,device",
+    "key_researchers": ["ロマン・ヤーコブソン", "ヴィクトル・シクロフスキー"]
+  },
+  {
+    "name_ja": "装置",
+    "name_en": "Device",
+    "definition": "フォルマリズムで重視された概念で、文学作品の効果を生む具体的な形式的手続き、たとえば反復、遅延、韻律、視点操作、語順の逸脱などを指す。作品は装置の集合と機能変化として分析される。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム",
+    "era_start": 1917,
+    "era_end": null,
+    "keywords_en": "device,form,technique",
+    "key_researchers": ["ヴィクトル・シクロフスキー", "ユーリイ・トゥイニャーノフ"]
+  },
+  {
+    "name_ja": "自動化",
+    "name_en": "Automatization",
+    "definition": "日常言語や慣習的表現が反復によって知覚を鈍らせ、対象を見ずに認識したつもりにさせる状態を指す。異化はこの自動化を破り、言語や世界を新たに経験させる文学的手続きとして位置づけられる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ロシア・フォルマリズム",
+    "era_start": 1917,
+    "era_end": null,
+    "keywords_en": "automatization,habit,perception",
+    "key_researchers": ["ヴィクトル・シクロフスキー"]
+  },
+  {
+    "name_ja": "対話主義",
+    "name_en": "Dialogism",
+    "definition": "バフチンの概念で、言語や文学を単一の声ではなく、複数の声、価値、社会的立場が相互に応答する場として捉える。小説は特に異質な言語が交差する形式として理論化された。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "バフチン学派",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "dialogism,voice,novel",
+    "key_researchers": ["ミハイル・バフチン"]
+  },
+  {
+    "name_ja": "ポリフォニー",
+    "name_en": "Polyphony",
+    "definition": "バフチンがドストエフスキー論で用いた概念で、作者の単一的意識に従属しない複数の自立した声が作品内で共存し対話する構造を指す。登場人物は作者の思想の例示ではなく、独自の意識を持つ。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "バフチン学派",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "polyphony,voices,Dostoevsky",
+    "key_researchers": ["ミハイル・バフチン"]
+  },
+  {
+    "name_ja": "ヘテログロシア",
+    "name_en": "Heteroglossia",
+    "definition": "社会的方言、職業語、階級語、世代語、ジャンル語など、言語内部に存在する多様な声の混在を指すバフチンの概念。小説はこの異種混交的な言語を組織し、社会的意味の対立を可視化する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "バフチン学派",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "heteroglossia,language,novel",
+    "key_researchers": ["ミハイル・バフチン"]
+  },
+  {
+    "name_ja": "クロノトポス",
+    "name_en": "Chronotope",
+    "definition": "バフチンが提唱した概念で、物語における時間と空間の結びつきがジャンルや人物造形を規定する仕方を指す。道、城、田園、都市などの場は単なる背景ではなく、出来事の可能性を組織する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "バフチン学派",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "chronotope,time,space",
+    "key_researchers": ["ミハイル・バフチン"]
+  },
+  {
+    "name_ja": "カーニヴァル化",
+    "name_en": "Carnivalesque",
+    "definition": "バフチンが民衆文化とラブレー論で展開した概念で、権威、序列、公式言語が一時的に転倒され、笑い、身体性、混交を通じて別の社会的想像力が現れる過程を指す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "バフチン学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "carnivalesque,laughter,inversion",
+    "key_researchers": ["ミハイル・バフチン"]
+  },
+  {
+    "name_ja": "原型批評",
+    "name_en": "Archetypal Criticism",
+    "definition": "文学作品に反復して現れる神話的構造、季節循環、英雄、旅、死と再生などの原型を分析する批評方法。個別作品を広い文化的想像力の体系のなかに位置づける点に特徴がある。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "神話批評",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "archetype,myth,pattern",
+    "key_researchers": ["ノースロップ・フライ", "カール・グスタフ・ユング"]
+  },
+  {
+    "name_ja": "神話批評",
+    "name_en": "Myth Criticism",
+    "definition": "文学を神話、儀礼、集合的想像力、反復する物語型との関係から読む批評潮流。近代作品の背後に古代的な構造や文化的パターンを見出し、ジャンルや象徴の体系的理解を目指す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "神話批評",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "myth criticism,ritual,archetype",
+    "key_researchers": ["ノースロップ・フライ", "モード・ボドキン", "ジョセフ・キャンベル"]
+  },
+  {
+    "name_ja": "リアリズム",
+    "name_en": "Realism",
+    "definition": "文学が社会的現実、日常生活、歴史的条件、人物の心理や階級関係を信憑性ある形で表象することを重視する概念。単なる写実ではなく、現実らしさを生む形式的約束や視点の問題を含む。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "リアリズム論",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "realism,representation,social reality",
+    "key_researchers": ["ギュスターヴ・フローベール", "エーリヒ・アウエルバッハ", "ゲオルク・ルカーチ"]
+  },
+  {
+    "name_ja": "モダニズム",
+    "name_en": "Modernism",
+    "definition": "伝統的な物語形式、安定した主体、線形時間、透明な表象を疑い、意識の流れ、断片化、多声性、神話的方法、言語実験を通じて近代経験を表現しようとした文学的潮流。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "モダニズム研究",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "modernism,fragmentation,experiment",
+    "key_researchers": ["T・S・エリオット", "ジェイムズ・ジョイス", "ヴァージニア・ウルフ"]
+  },
+  {
+    "name_ja": "意識の流れ",
+    "name_en": "Stream of Consciousness",
+    "definition": "人物の思考、感覚、記憶、連想が論理的整理以前の流動的状態で提示される叙述技法。近代小説で内面の時間や主観的経験を表すために発展し、線形的プロットを相対化した。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "モダニズム文学論",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "stream of consciousness,interiority,modernism",
+    "key_researchers": ["ウィリアム・ジェイムズ", "ジェイムズ・ジョイス", "ヴァージニア・ウルフ"]
+  },
+  {
+    "name_ja": "自由間接話法",
+    "name_en": "Free Indirect Discourse",
+    "definition": "三人称叙述の枠を保ちながら、登場人物の語彙、感情、判断を語りの文体に混入させる技法。語り手と人物の声が曖昧に重なり、内面描写、アイロニー、社会的距離を同時に表現できる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "文体論・物語論",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "free indirect discourse,style,voice",
+    "key_researchers": ["ギュスターヴ・フローベール", "ドリット・コーン", "アン・バンフィールド"]
+  },
+  {
+    "name_ja": "文体論",
+    "name_en": "Stylistics",
+    "definition": "文学テクストの語彙、統辞、音韻、比喩、語り、レジスターなどを体系的に分析し、意味や効果との関係を明らかにする領域。言語学的方法と文学批評を接続する実証的な詩学である。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "文体論",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "stylistics,style,linguistics",
+    "key_researchers": ["レオ・シュピッツァー", "ミハイル・リファテール", "ジェフリー・リーチ"]
+  },
+  {
+    "name_ja": "韻律",
+    "name_en": "Prosody",
+    "definition": "詩におけるリズム、韻、音節、強勢、拍、行分け、休止などの音声的・形式的秩序を扱う概念。意味内容とは別に、身体的な時間感覚や記憶、強調、詩的効果を組織する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "韻律論・詩学",
+    "era_start": -300,
+    "era_end": null,
+    "keywords_en": "prosody,meter,rhythm",
+    "key_researchers": ["アリストクセノス", "ジェラード・マンリー・ホプキンズ", "デレク・アトリッジ"]
+  },
+  {
+    "name_ja": "イメージ",
+    "name_en": "Image",
+    "definition": "詩や文学において感覚的経験を喚起する言語表現を指す。視覚だけでなく聴覚、触覚、運動感覚を含み、象徴、比喩、感情の媒介として働く。イマジズム以降は詩的凝縮の核とされた。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "イマジズム・詩学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "image,imagism,sensory language",
+    "key_researchers": ["エズラ・パウンド", "T・E・ヒューム", "H・D"]
+  },
+  {
+    "name_ja": "客観的相関物",
+    "name_en": "Objective Correlative",
+    "definition": "T・S・エリオットが論じた概念で、感情を直接説明するのではなく、特定の事物、状況、出来事の組み合わせによって読者に対応する情緒を喚起する詩的手法を指す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "モダニズム詩学",
+    "era_start": 1919,
+    "era_end": null,
+    "keywords_en": "objective correlative,emotion,poetry",
+    "key_researchers": ["T・S・エリオット"]
+  },
+  {
+    "name_ja": "神話的方法",
+    "name_en": "Mythic Method",
+    "definition": "現代の断片的経験を古典神話や儀礼的構造に重ね、混沌に秩序や反響を与えるモダニズムの構成法。ジョイスやエリオットを論じる際に用いられ、近代性と伝統の関係を示す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "モダニズム詩学",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "mythic method,modernism,structure",
+    "key_researchers": ["T・S・エリオット", "ジェイムズ・ジョイス"]
+  },
+  {
+    "name_ja": "前景化",
+    "name_en": "Foregrounding",
+    "definition": "通常の言語規範からの逸脱や反復によって、表現そのものを読者の注意の前面に押し出す概念。プラハ学派以降、詩的言語の特徴を説明するために用いられ、異化と近い関係を持つ。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "プラハ構造主義",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "foregrounding,deviation,parallelism",
+    "key_researchers": ["ヤン・ムカジョフスキー", "ロマン・ヤーコブソン"]
+  },
+  {
+    "name_ja": "美的機能",
+    "name_en": "Aesthetic Function",
+    "definition": "ヤン・ムカジョフスキーが論じた概念で、対象や表現が実用的、伝達的機能から相対的に離れ、形式や知覚そのものに価値を生じさせる働きを指す。芸術と社会規範の関係を分析する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "プラハ構造主義",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "aesthetic function,foregrounding,value",
+    "key_researchers": ["ヤン・ムカジョフスキー"]
+  },
+  {
+    "name_ja": "文学制度",
+    "name_en": "Literary Institution",
+    "definition": "文学が作品と作者だけで成り立つのではなく、出版社、批評、大学、賞、教育、書店、読者共同体などの制度的枠組みによって生産、評価、保存されることを示す概念。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "文学社会学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "literary institution,canon,publishing",
+    "key_researchers": ["ピエール・ブルデュー", "ジャック・デュボワ"]
+  },
+  {
+    "name_ja": "文学場",
+    "name_en": "Literary Field",
+    "definition": "ブルデューの場の理論を文学に適用した概念で、作家、批評家、出版社、読者、賞、教育機関が象徴資本をめぐって争う相対的自律空間を指す。文学価値の社会的形成を説明する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "文学社会学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "literary field,symbolic capital,Bourdieu",
+    "key_researchers": ["ピエール・ブルデュー"]
+  },
+  {
+    "name_ja": "カノン",
+    "name_en": "Canon",
+    "definition": "ある文化や教育制度で重要、古典的、代表的と認められた作品群を指す。カノンは普遍的価値の反映であると同時に、権力、ジェンダー、人種、階級、国民文学の制度によって形成される。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "カノン研究・文化研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "canon,literary value,institution",
+    "key_researchers": ["ハロルド・ブルーム", "バーバラ・ハーンスタイン・スミス"]
+  },
+  {
+    "name_ja": "文学的価値",
+    "name_en": "Literary Value",
+    "definition": "作品が重要、美しい、革新的、代表的と判断される基準や過程を問う概念。内在的形式、読者経験、制度的評価、市場、教育、政治的争点が絡み合い、価値は歴史的に変動するものと考えられる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "価値論・文学社会学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "literary value,evaluation,canon",
+    "key_researchers": ["バーバラ・ハーンスタイン・スミス", "ピエール・ブルデュー"]
+  },
+  {
+    "name_ja": "パラテクスト",
+    "name_en": "Paratext",
+    "definition": "タイトル、序文、注、装丁、帯、献辞、あとがき、広告など、本文の周辺にありながら読解を方向づける要素を指す概念。作品が読者に届く入口として、解釈と制度の接点を明らかにする。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "物語論・テクスト理論",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "paratext,threshold,title",
+    "key_researchers": ["ジェラール・ジュネット"]
+  },
+  {
+    "name_ja": "アダプテーション",
+    "name_en": "Adaptation",
+    "definition": "小説、戯曲、詩、映画、漫画、ゲームなど異なる媒体やジャンル間で物語や形式が移され、変形される過程を指す。忠実性だけでなく、媒体固有性、受容環境、再解釈の創造性が重視される。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "アダプテーション研究",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "adaptation,intermediality,medium",
+    "key_researchers": ["リンダ・ハッチオン", "ブライアン・マクファーレン"]
+  },
+  {
+    "name_ja": "翻訳可能性",
+    "name_en": "Translatability",
+    "definition": "文学作品の意味、形式、音韻、文化的含意が別の言語へどの程度移行できるかを問う概念。翻訳は原作の複製ではなく、損失、補償、変形、異文化的再創造を伴う詩学的行為とされる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "翻訳理論",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "translatability,translation,afterlife",
+    "key_researchers": ["ヴァルター・ベンヤミン", "ロマン・ヤーコブソン", "ジョージ・スタイナー"]
+  },
+  {
+    "name_ja": "世界文学",
+    "name_en": "World Literature",
+    "definition": "文学を国民文学の枠内だけでなく、翻訳、流通、受容、権力関係を通じて世界的に移動するテクストとして捉える概念。普遍的名作集ではなく、不均衡な文化市場と読解の変容を含む。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "比較文学・世界文学論",
+    "era_start": 1827,
+    "era_end": null,
+    "keywords_en": "world literature,translation,circulation",
+    "key_researchers": ["ヨハン・ヴォルフガング・フォン・ゲーテ", "デイヴィッド・ダムロッシュ", "パスカル・カザノヴァ"]
+  },
+  {
+    "name_ja": "ポストコロニアル読解",
+    "name_en": "Postcolonial Reading",
+    "definition": "文学テクストにおける帝国主義、植民地主義、言語支配、他者表象、混種性、抵抗の形式を分析する読解方法。正典作品の沈黙や周縁化された声を問い直し、文学理論の普遍性を批判する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "postcolonialism,empire,hybridity",
+    "key_researchers": ["エドワード・サイード", "ガヤトリ・スピヴァク", "ホミ・K・バーバ"]
+  },
+  {
+    "name_ja": "フェミニスト詩学",
+    "name_en": "Feminist Poetics",
+    "definition": "文学形式、ジャンル、語り、身体表象、作者性、読者性がジェンダー秩序とどのように関わるかを問う理論。女性作家の回復にとどまらず、言語やカノンそのものの性差化を分析する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "フェミニスト批評",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "feminist poetics,gender,canon",
+    "key_researchers": ["エレイン・ショウォルター", "エレーヌ・シクスー", "サンドラ・ギルバート"]
+  },
+  {
+    "name_ja": "エクリチュール・フェミニン",
+    "name_en": "Écriture Féminine",
+    "definition": "女性的身体、欲望、差異を抑圧的な男根中心的言語秩序から解放し、別様の書き方として表現しようとする理論概念。固定的な女性本質ではなく、言語、身体、無意識の関係を揺さぶる実践とされる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "フランス・フェミニズム",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "écriture féminine,body,gender",
+    "key_researchers": ["エレーヌ・シクスー", "リュス・イリガライ", "ジュリア・クリステヴァ"]
+  },
+  {
+    "name_ja": "クィア読解",
+    "name_en": "Queer Reading",
+    "definition": "文学テクストにおける異性愛規範、性自認、欲望、秘匿、逸脱、親密性の構造を問い直す読解方法。明示的な同性愛表象だけでなく、形式や語りに潜む規範の揺らぎを分析する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "クィア理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "queer reading,sexuality,normativity",
+    "key_researchers": ["イヴ・コゾフスキー・セジウィック", "ジュディス・バトラー"]
+  },
+  {
+    "name_ja": "新歴史主義",
+    "name_en": "New Historicism",
+    "definition": "文学作品を時代精神の反映としてではなく、権力、制度、逸話、社会的エネルギーが交差する言説実践として読む方法。歴史文書と文学テクストを相互に照らし、表象と権力の関係を分析する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "新歴史主義",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "new historicism,power,discourse",
+    "key_researchers": ["スティーヴン・グリーンブラット", "キャサリン・ギャラガー"]
+  },
+  {
+    "name_ja": "文化唯物論",
+    "name_en": "Cultural Materialism",
+    "definition": "文学を社会的生産物として捉え、階級、制度、国家、教育、ジェンダー、文化産業との関係から分析する立場。正典を歴史的闘争の場と見なし、批評を現在の政治的実践と結びつける。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "文化唯物論",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "cultural materialism,history,ideology",
+    "key_researchers": ["レイモンド・ウィリアムズ", "ジョナサン・ドリモア", "アラン・シンフィールド"]
+  },
+  {
+    "name_ja": "イデオロギー批評",
+    "name_en": "Ideology Critique",
+    "definition": "文学作品が社会的矛盾、支配関係、階級、ジェンダー、人種、国家の価値をどのように再生産または攪乱するかを分析する方法。形式や物語の快楽もイデオロギー的効果として読む。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "マルクス主義批評",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "ideology critique,Marxism,power",
+    "key_researchers": ["ゲオルク・ルカーチ", "ルイ・アルチュセール", "フレドリック・ジェイムソン"]
+  },
+  {
+    "name_ja": "政治的無意識",
+    "name_en": "Political Unconscious",
+    "definition": "フレドリック・ジェイムソンの概念で、文学作品の形式や物語が、明示されない歴史的矛盾や社会的欲望を象徴的に解決しようとする働きを指す。解釈は常に歴史化されるべきだとされる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "マルクス主義批評",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "political unconscious,history,Jameson",
+    "key_researchers": ["フレドリック・ジェイムソン"]
+  },
+  {
+    "name_ja": "認知詩学",
+    "name_en": "Cognitive Poetics",
+    "definition": "文学読解を認知科学、言語学、心理学の知見と結びつけ、比喩、視点、物語理解、感情移入、注意、スキーマの働きを分析する領域。形式的特徴と読者の心的処理を接続する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "認知詩学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "cognitive poetics,reader,mind",
+    "key_researchers": ["リューヴェン・ツール", "ピーター・ストックウェル", "マーク・ターナー"]
+  },
+  {
+    "name_ja": "スキーマ",
+    "name_en": "Schema",
+    "definition": "読者が経験や文化から獲得した知識構造で、物語状況、人物類型、ジャンル期待、因果関係の理解を方向づける。文学はスキーマを利用しつつ破り、驚きや再解釈を生み出す。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "認知詩学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "schema,cognition,reading",
+    "key_researchers": ["デイヴィッド・ラメルハート", "ピーター・ストックウェル"]
+  },
+  {
+    "name_ja": "感情移入",
+    "name_en": "Empathy",
+    "definition": "読者が登場人物の感情、視点、身体感覚、倫理的葛藤を想像的に共有する過程を指す。文学理論では、語りの形式、焦点化、内面描写がどのように共感や距離化を生むかが問われる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "読者反応批評・認知詩学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "empathy,identification,reader",
+    "key_researchers": ["スザンヌ・キーン", "マーサ・ヌスバウム"]
+  },
+  {
+    "name_ja": "デジタル詩学",
+    "name_en": "Digital Poetics",
+    "definition": "電子文学、ハイパーテクスト、生成的テクスト、データベース的物語、アルゴリズム的表現を対象に、文学形式がデジタル媒体でどう変化するかを問う領域。作者性、読者性、物質性を再考する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "デジタル人文学・電子文学研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "digital poetics,electronic literature,hypertext",
+    "key_researchers": ["N・キャサリン・ヘイルズ", "エスポン・アーセス", "マリー＝ロール・ライアン"]
+  }
+]
+tokens used
+34,097

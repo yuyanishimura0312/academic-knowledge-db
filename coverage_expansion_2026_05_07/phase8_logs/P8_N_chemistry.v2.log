@@ -1,0 +1,798 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e097f-1df0-74a3-8f80-264b38f5a566
+--------
+user
+「化学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+立体化学、電子軌道理論、ハーバー・ボッシュ法、ペリ環状反応、クロスカップリング反応
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"化学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "立体化学",
+    "name_en": "Stereochemistry",
+    "definition": "分子内の原子が三次元空間でどのように配置され、その配置が反応性、物性、生理活性をどのように左右するかを扱う概念。鏡像異性体、ジアステレオマー、配座、絶対配置などを通じて、同じ組成でも異なる振る舞いを示す理由を説明する。",
+    "subfield": "化学",
+    "school_of_thought": "有機化学",
+    "era_start": 1874,
+    "era_end": null,
+    "keywords_en": "chirality,enantiomer,configuration",
+    "key_researchers": ["ヤコブス・ヘンリクス・ファント・ホッフ", "ジョゼフ・アシル・ル・ベル"]
+  },
+  {
+    "name_ja": "電子軌道理論",
+    "name_en": "Molecular Orbital Theory",
+    "definition": "原子軌道が結合性軌道、反結合性軌道、非結合性軌道へ組み合わさり、電子が分子全体に非局在化して存在すると考える理論。結合次数、磁性、スペクトル、反応性を量子力学的に説明し、現代化学の結合理解の基盤となる。",
+    "subfield": "化学",
+    "school_of_thought": "量子化学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_en": "molecular orbital,bond order,delocalization",
+    "key_researchers": ["ロバート・マリケン", "フリードリヒ・フント"]
+  },
+  {
+    "name_ja": "ハーバー・ボッシュ法",
+    "name_en": "Haber-Bosch Process",
+    "definition": "窒素と水素から高温高圧下、鉄系触媒を用いてアンモニアを合成する工業プロセス。肥料生産を飛躍的に拡大し、農業と人口増加を支えた一方、エネルギー消費と窒素循環への影響も大きい化学技術である。",
+    "subfield": "化学",
+    "school_of_thought": "工業化学",
+    "era_start": 1909,
+    "era_end": null,
+    "keywords_en": "ammonia,nitrogen fixation,catalysis",
+    "key_researchers": ["フリッツ・ハーバー", "カール・ボッシュ"]
+  },
+  {
+    "name_ja": "ペリ環状反応",
+    "name_en": "Pericyclic Reaction",
+    "definition": "環状の遷移状態を経て、結合生成と結合切断が協奏的に進行する反応群。電気環状反応、環化付加、シグマトロピー転位などを含み、軌道対称性保存則により熱反応と光反応の選択性が体系的に説明される。",
+    "subfield": "化学",
+    "school_of_thought": "有機反応論",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "pericyclic,orbital symmetry,cycloaddition",
+    "key_researchers": ["ロバート・バーンズ・ウッドワード", "ロアルド・ホフマン"]
+  },
+  {
+    "name_ja": "クロスカップリング反応",
+    "name_en": "Cross-Coupling Reaction",
+    "definition": "有機ハロゲン化物や擬ハロゲン化物と有機金属試薬などを、遷移金属触媒の作用で結合させる炭素炭素結合形成法。医薬品、液晶、材料分子の合成に不可欠で、鈴木、根岸、熊田、ヘック反応などを含む。",
+    "subfield": "化学",
+    "school_of_thought": "有機金属化学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "cross coupling,palladium,c-c bond",
+    "key_researchers": ["鈴木章", "根岸英一", "リチャード・ヘック"]
+  },
+  {
+    "name_ja": "原子説",
+    "name_en": "Atomic Theory",
+    "definition": "物質はそれ以上通常の化学変化では分割できない原子から構成され、元素ごとに異なる原子が一定比で結合して化合物を作るとする考え方。定比例、倍数比例、質量保存を統一的に説明し、化学量論の出発点となった。",
+    "subfield": "化学",
+    "school_of_thought": "古典化学",
+    "era_start": 1803,
+    "era_end": null,
+    "keywords_en": "atom,stoichiometry,elements",
+    "key_researchers": ["ジョン・ドルトン", "アントワーヌ・ラヴォアジエ"]
+  },
+  {
+    "name_ja": "周期律",
+    "name_en": "Periodic Law",
+    "definition": "元素を原子量、後には原子番号の順に並べると、化学的性質と物理的性質が周期的に変化するという法則。未発見元素の予測、元素分類、電子配置との対応を通じて、無機化学と原子構造理解を結び付けた。",
+    "subfield": "化学",
+    "school_of_thought": "無機化学",
+    "era_start": 1869,
+    "era_end": null,
+    "keywords_en": "periodic table,atomic number,elements",
+    "key_researchers": ["ドミトリ・メンデレーエフ", "ヘンリー・モーズリー"]
+  },
+  {
+    "name_ja": "化学結合",
+    "name_en": "Chemical Bonding",
+    "definition": "原子同士が電子の共有、移動、非局在化、静電的相互作用などによって結び付き、分子や結晶を形成する仕組み。共有結合、イオン結合、金属結合、水素結合を含み、構造、安定性、反応性の中心概念である。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "chemical bond,covalent,ionic",
+    "key_researchers": ["ギルバート・ルイス", "ライナス・ポーリング"]
+  },
+  {
+    "name_ja": "ルイス構造",
+    "name_en": "Lewis Structure",
+    "definition": "価電子を点や線で表し、分子内の共有電子対と孤立電子対を可視化する表記法。形式電荷、オクテット則、共鳴構造の理解に有効で、複雑な量子計算を用いずに分子の結合様式と反応点を推定できる。",
+    "subfield": "化学",
+    "school_of_thought": "構造化学",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "lewis structure,valence electron,octet",
+    "key_researchers": ["ギルバート・ルイス"]
+  },
+  {
+    "name_ja": "共鳴理論",
+    "name_en": "Resonance Theory",
+    "definition": "単一のルイス構造では表しきれない電子分布を、複数の極限構造の重ね合わせとして理解する考え方。芳香族性、カルボン酸イオン、アミド結合などの安定化を説明し、電子の非局在化を有機化学に導入した。",
+    "subfield": "化学",
+    "school_of_thought": "有機化学",
+    "era_start": 1928,
+    "era_end": null,
+    "keywords_en": "resonance,delocalization,canonical forms",
+    "key_researchers": ["ライナス・ポーリング", "クリストファー・インゴールド"]
+  },
+  {
+    "name_ja": "酸塩基理論",
+    "name_en": "Acid-Base Theory",
+    "definition": "酸と塩基の性質を、水素イオンの授受、プロトンの授受、電子対の授受など異なる観点から定義する理論群。アレニウス、ブレンステッド・ローリー、ルイスの定義により、水溶液反応から非水系反応まで広く説明できる。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1884,
+    "era_end": null,
+    "keywords_en": "acid,base,proton transfer",
+    "key_researchers": ["スヴァンテ・アレニウス", "ヨハネス・ブレンステッド", "ギルバート・ルイス"]
+  },
+  {
+    "name_ja": "酸化還元反応",
+    "name_en": "Redox Reaction",
+    "definition": "電子の移動または酸化数の変化を伴う反応で、酸化と還元が必ず対になって進行する。燃焼、腐食、電池、代謝、金属精錬など多くの現象の基礎であり、電極電位やネルンスト式によって定量的に扱われる。",
+    "subfield": "化学",
+    "school_of_thought": "電気化学",
+    "era_start": 1770,
+    "era_end": null,
+    "keywords_en": "redox,electron transfer,oxidation state",
+    "key_researchers": ["アントワーヌ・ラヴォアジエ", "マイケル・ファラデー"]
+  },
+  {
+    "name_ja": "化学平衡",
+    "name_en": "Chemical Equilibrium",
+    "definition": "可逆反応において正反応と逆反応の速度が等しくなり、濃度や圧力などの巨視的性質が一定に保たれる状態。平衡定数、質量作用の法則、ルシャトリエの原理により、反応収率や条件最適化を予測する。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1864,
+    "era_end": null,
+    "keywords_en": "equilibrium,mass action,equilibrium constant",
+    "key_researchers": ["カトー・グルベルグ", "ペーター・ヴァーゲ"]
+  },
+  {
+    "name_ja": "化学反応速度論",
+    "name_en": "Chemical Kinetics",
+    "definition": "反応がどの速さで進むか、またその速度が濃度、温度、触媒、溶媒、光などにどう依存するかを研究する分野。速度式、反応次数、活性化エネルギー、遷移状態を通じて反応機構を推定する。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "kinetics,rate law,activation energy",
+    "key_researchers": ["ヤコブス・ヘンリクス・ファント・ホッフ", "スヴァンテ・アレニウス"]
+  },
+  {
+    "name_ja": "熱力学第一法則",
+    "name_en": "First Law of Thermodynamics",
+    "definition": "エネルギーは生成も消滅もせず、熱と仕事として形を変えながら保存されるという法則。化学では内部エネルギー、エンタルピー、反応熱の概念を通じて、反応や相変化に伴うエネルギー収支を定量化する。",
+    "subfield": "化学",
+    "school_of_thought": "化学熱力学",
+    "era_start": 1840,
+    "era_end": null,
+    "keywords_en": "energy conservation,enthalpy,heat",
+    "key_researchers": ["ジェームズ・ジュール", "ヘルマン・フォン・ヘルムホルツ"]
+  },
+  {
+    "name_ja": "熱力学第二法則",
+    "name_en": "Second Law of Thermodynamics",
+    "definition": "孤立系のエントロピーは自発過程で増大し、熱は自然には低温から高温へ移らないという法則。化学ではギブズ自由エネルギーと結び付き、反応や混合、相転移が自発的に進む条件を判断する基準となる。",
+    "subfield": "化学",
+    "school_of_thought": "化学熱力学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "entropy,gibbs energy,spontaneity",
+    "key_researchers": ["ルドルフ・クラウジウス", "ジョサイア・ウィラード・ギブズ"]
+  },
+  {
+    "name_ja": "ギブズ自由エネルギー",
+    "name_en": "Gibbs Free Energy",
+    "definition": "一定温度・一定圧力下で系が外部へ取り出し得る最大の非膨張仕事を表す状態関数。反応の自発性、平衡定数、相安定性、電池電圧を統一的に扱うための中心量で、化学熱力学の実用的基盤である。",
+    "subfield": "化学",
+    "school_of_thought": "化学熱力学",
+    "era_start": 1873,
+    "era_end": null,
+    "keywords_en": "gibbs free energy,equilibrium,spontaneity",
+    "key_researchers": ["ジョサイア・ウィラード・ギブズ"]
+  },
+  {
+    "name_ja": "量子化学",
+    "name_en": "Quantum Chemistry",
+    "definition": "量子力学を用いて原子、分子、固体の電子構造、結合、スペクトル、反応性を理解する分野。シュレーディンガー方程式、近似法、計算化学を通じて、実験だけでは見えにくい電子状態を定量的に解析する。",
+    "subfield": "化学",
+    "school_of_thought": "量子化学",
+    "era_start": 1926,
+    "era_end": null,
+    "keywords_en": "quantum chemistry,electronic structure,wavefunction",
+    "key_researchers": ["エルヴィン・シュレーディンガー", "ウォルター・ハイトラー", "フリッツ・ロンドン"]
+  },
+  {
+    "name_ja": "原子価結合理論",
+    "name_en": "Valence Bond Theory",
+    "definition": "原子軌道の重なりと電子対形成によって化学結合を説明する理論。混成軌道、結合の方向性、局在化した電子対を重視し、メタンの正四面体構造や二重結合の性質などを直感的に理解させる枠組みである。",
+    "subfield": "化学",
+    "school_of_thought": "量子化学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_en": "valence bond,hybridization,localized bond",
+    "key_researchers": ["ウォルター・ハイトラー", "フリッツ・ロンドン", "ライナス・ポーリング"]
+  },
+  {
+    "name_ja": "混成軌道",
+    "name_en": "Hybrid Orbital",
+    "definition": "同一原子内の原子軌道が数学的に混合して、特定の方向性を持つ等価または非等価な軌道を作るという概念。sp、sp2、sp3混成により、分子形状、結合角、シグマ結合の方向性を説明する。",
+    "subfield": "化学",
+    "school_of_thought": "量子化学",
+    "era_start": 1931,
+    "era_end": null,
+    "keywords_en": "hybrid orbital,sp3,bond angle",
+    "key_researchers": ["ライナス・ポーリング"]
+  },
+  {
+    "name_ja": "配位化学",
+    "name_en": "Coordination Chemistry",
+    "definition": "金属中心と配位子が配位結合によって形成する錯体の構造、結合、反応性、電子状態を扱う分野。立体化学、配位数、配位子場、置換反応、触媒作用を通じて無機化学と生体金属化学を結ぶ。",
+    "subfield": "化学",
+    "school_of_thought": "無機化学",
+    "era_start": 1893,
+    "era_end": null,
+    "keywords_en": "coordination complex,ligand,metal center",
+    "key_researchers": ["アルフレート・ヴェルナー"]
+  },
+  {
+    "name_ja": "結晶場理論",
+    "name_en": "Crystal Field Theory",
+    "definition": "遷移金属錯体において、配位子を点電荷または双極子として扱い、金属d軌道のエネルギー分裂を説明する理論。錯体の色、磁性、高スピン・低スピン状態、安定化エネルギーを定性的に理解するために使われる。",
+    "subfield": "化学",
+    "school_of_thought": "無機化学",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "crystal field,d orbital,ligand",
+    "key_researchers": ["ハンス・ベーテ", "ジョン・ヴァン・ヴレック"]
+  },
+  {
+    "name_ja": "配位子場理論",
+    "name_en": "Ligand Field Theory",
+    "definition": "結晶場理論を分子軌道論で拡張し、金属と配位子の共有結合性や軌道相互作用を含めて錯体を説明する理論。分光化学系列、電荷移動、磁性、反応性をより精密に扱う無機化学の基盤である。",
+    "subfield": "化学",
+    "school_of_thought": "無機化学",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "ligand field,transition metal,spectrochemical series",
+    "key_researchers": ["ジョン・ヴァン・ヴレック", "レスリー・オーゲル"]
+  },
+  {
+    "name_ja": "芳香族性",
+    "name_en": "Aromaticity",
+    "definition": "環状、平面、共役したπ電子系が特定数の電子を持つとき、通常の不飽和化合物より大きく安定化する性質。ヒュッケル則、環電流、反応選択性を通じて、ベンゼンや複素芳香族化合物の挙動を説明する。",
+    "subfield": "化学",
+    "school_of_thought": "有機化学",
+    "era_start": 1865,
+    "era_end": null,
+    "keywords_en": "aromaticity,huckel rule,pi electrons",
+    "key_researchers": ["アウグスト・ケクレ", "エーリヒ・ヒュッケル"]
+  },
+  {
+    "name_ja": "求核置換反応",
+    "name_en": "Nucleophilic Substitution",
+    "definition": "電子豊富な求核剤が、脱離基を持つ基質の電子不足部位を攻撃し、脱離基を置き換える反応。SN1とSN2機構の違いにより、速度式、立体化学、溶媒効果、基質構造の影響を体系的に理解できる。",
+    "subfield": "化学",
+    "school_of_thought": "有機反応論",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "nucleophile,SN1,SN2",
+    "key_researchers": ["クリストファー・インゴールド", "エドワード・ヒューズ"]
+  },
+  {
+    "name_ja": "求電子芳香族置換反応",
+    "name_en": "Electrophilic Aromatic Substitution",
+    "definition": "芳香族環が求電子剤と反応し、芳香族性を一時的に失った中間体を経て水素などが置換される反応。ニトロ化、ハロゲン化、スルホン化、フリーデル・クラフツ反応を含み、置換基効果と配向性が重要となる。",
+    "subfield": "化学",
+    "school_of_thought": "有機反応論",
+    "era_start": 1877,
+    "era_end": null,
+    "keywords_en": "electrophilic substitution,benzene,substituent effect",
+    "key_researchers": ["シャルル・フリーデル", "ジェームズ・クラフツ"]
+  },
+  {
+    "name_ja": "ラジカル反応",
+    "name_en": "Radical Reaction",
+    "definition": "不対電子を持つラジカル種が関与し、開始、連鎖成長、停止などの段階を経て進行する反応。ハロゲン化、重合、自動酸化、燃焼、生体酸化ストレスなどに関わり、極性反応とは異なる選択性を示す。",
+    "subfield": "化学",
+    "school_of_thought": "有機反応論",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "radical,chain reaction,homolysis",
+    "key_researchers": ["モーゼス・ゴンバーグ", "シリル・ヒンシェルウッド"]
+  },
+  {
+    "name_ja": "カルボカチオン",
+    "name_en": "Carbocation",
+    "definition": "炭素原子上に正電荷を持つ反応中間体で、求核置換、脱離、付加、転位反応に深く関与する。置換基による超共役や共鳴安定化、平面構造、再配列のしやすさが反応生成物の分布を左右する。",
+    "subfield": "化学",
+    "school_of_thought": "有機反応論",
+    "era_start": 1901,
+    "era_end": null,
+    "keywords_en": "carbocation,hyperconjugation,rearrangement",
+    "key_researchers": ["ハンス・メーアヴァイン", "ジョージ・オラー"]
+  },
+  {
+    "name_ja": "有機合成",
+    "name_en": "Organic Synthesis",
+    "definition": "単純な有機化合物から複雑な標的分子を計画的に構築する化学分野。官能基変換、炭素骨格構築、保護基、立体選択性、逆合成解析を組み合わせ、医薬品、天然物、機能性材料の創製を支える。",
+    "subfield": "化学",
+    "school_of_thought": "有機化学",
+    "era_start": 1828,
+    "era_end": null,
+    "keywords_en": "organic synthesis,retrosynthesis,target molecule",
+    "key_researchers": ["フリードリヒ・ヴェーラー", "ロバート・バーンズ・ウッドワード", "イライアス・コーリー"]
+  },
+  {
+    "name_ja": "逆合成解析",
+    "name_en": "Retrosynthetic Analysis",
+    "definition": "標的分子を出発物質へと逆向きに分解し、可能な結合切断と合成等価体を考える設計法。複雑な天然物や医薬品候補の合成計画を論理的に構築し、経路の短縮、収率向上、選択性制御に役立つ。",
+    "subfield": "化学",
+    "school_of_thought": "有機合成化学",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "retrosynthesis,synthon,disconnection",
+    "key_researchers": ["イライアス・コーリー"]
+  },
+  {
+    "name_ja": "不斉合成",
+    "name_en": "Asymmetric Synthesis",
+    "definition": "キラルな触媒、補助基、試薬、酵素などを利用して、一方の鏡像異性体またはジアステレオマーを優先的に作る合成法。医薬品の有効性と安全性に直結し、立体選択性の精密制御を目指す現代有機化学の重要領域である。",
+    "subfield": "化学",
+    "school_of_thought": "有機合成化学",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "asymmetric synthesis,enantiomeric excess,chiral catalyst",
+    "key_researchers": ["野依良治", "ウィリアム・ノールズ", "バリー・シャープレス"]
+  },
+  {
+    "name_ja": "触媒",
+    "name_en": "Catalysis",
+    "definition": "反応の前後で正味には消費されず、より低い活性化エネルギーの経路を与えて反応速度や選択性を変える物質または作用。均一系、不均一系、酵素触媒に分かれ、化学工業と環境負荷低減に不可欠である。",
+    "subfield": "化学",
+    "school_of_thought": "触媒化学",
+    "era_start": 1835,
+    "era_end": null,
+    "keywords_en": "catalysis,activation energy,selectivity",
+    "key_researchers": ["イェンス・ベルセリウス", "ヴィルヘルム・オストワルト"]
+  },
+  {
+    "name_ja": "酵素触媒",
+    "name_en": "Enzyme Catalysis",
+    "definition": "タンパク質またはRNAからなる生体触媒が、基質を特異的に認識し、遷移状態を安定化して反応を加速する仕組み。温和な条件で高い選択性を示し、代謝、医薬品合成、バイオテクノロジーの中心概念である。",
+    "subfield": "化学",
+    "school_of_thought": "生物化学",
+    "era_start": 1897,
+    "era_end": null,
+    "keywords_en": "enzyme,active site,transition state",
+    "key_researchers": ["エドゥアルト・ブフナー", "レオノール・ミカエリス", "モード・メンテン"]
+  },
+  {
+    "name_ja": "ミカエリス・メンテン速度論",
+    "name_en": "Michaelis-Menten Kinetics",
+    "definition": "酵素反応速度が基質濃度に対して飽和曲線を示すことを、酵素基質複合体の形成と分解に基づいて表す速度論。最大速度とミカエリス定数により、酵素の触媒能や基質親和性を定量的に比較できる。",
+    "subfield": "化学",
+    "school_of_thought": "生物化学",
+    "era_start": 1913,
+    "era_end": null,
+    "keywords_en": "enzyme kinetics,Vmax,Km",
+    "key_researchers": ["レオノール・ミカエリス", "モード・メンテン"]
+  },
+  {
+    "name_ja": "高分子化学",
+    "name_en": "Polymer Chemistry",
+    "definition": "多数の繰り返し単位からなる高分子の合成、構造、物性、反応を扱う分野。重合機構、分子量分布、結晶性、ガラス転移、架橋などを通じて、プラスチック、繊維、ゴム、生体材料を理解する。",
+    "subfield": "化学",
+    "school_of_thought": "高分子化学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "polymer,macromolecule,polymerization",
+    "key_researchers": ["ヘルマン・シュタウディンガー"]
+  },
+  {
+    "name_ja": "連鎖重合",
+    "name_en": "Chain-Growth Polymerization",
+    "definition": "活性中心を持つ成長鎖にモノマーが逐次付加して高分子が形成される重合形式。ラジカル、カチオン、アニオン、配位重合があり、開始、成長、停止、連鎖移動の制御により分子量や構造が決まる。",
+    "subfield": "化学",
+    "school_of_thought": "高分子化学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "chain polymerization,radical polymerization,monomer",
+    "key_researchers": ["ポール・フローリー", "カール・ツィーグラー"]
+  },
+  {
+    "name_ja": "配位重合",
+    "name_en": "Coordination Polymerization",
+    "definition": "遷移金属触媒にモノマーが配位し、挿入反応を繰り返して高分子鎖が成長する重合。チーグラー・ナッタ触媒やメタロセン触媒により、ポリオレフィンの立体規則性と物性を精密に制御できる。",
+    "subfield": "化学",
+    "school_of_thought": "高分子化学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "coordination polymerization,ziegler-natta,polyolefin",
+    "key_researchers": ["カール・ツィーグラー", "ジュリオ・ナッタ"]
+  },
+  {
+    "name_ja": "電気化学",
+    "name_en": "Electrochemistry",
+    "definition": "化学反応と電気エネルギーの相互変換を扱う分野。電極反応、電位、電解、電池、腐食、電気二重層を研究し、エネルギー貯蔵、センサー、金属精錬、環境技術に広く応用される。",
+    "subfield": "化学",
+    "school_of_thought": "電気化学",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "electrochemistry,electrode,battery",
+    "key_researchers": ["アレッサンドロ・ボルタ", "マイケル・ファラデー"]
+  },
+  {
+    "name_ja": "ネルンスト式",
+    "name_en": "Nernst Equation",
+    "definition": "電極電位が反応物と生成物の活量、温度、電子数にどのように依存するかを表す式。電池電圧、酸化還元平衡、pH電極、濃淡電池を定量的に扱うための基本関係で、熱力学と電気化学を結ぶ。",
+    "subfield": "化学",
+    "school_of_thought": "電気化学",
+    "era_start": 1889,
+    "era_end": null,
+    "keywords_en": "nernst equation,electrode potential,activity",
+    "key_researchers": ["ヴァルター・ネルンスト"]
+  },
+  {
+    "name_ja": "分光法",
+    "name_en": "Spectroscopy",
+    "definition": "物質と電磁波の相互作用を測定し、吸収、発光、散乱、共鳴などから構造や電子状態を調べる方法群。紫外可視、赤外、ラマン、NMR、EPRなどを含み、定性分析と定量分析の両方に使われる。",
+    "subfield": "化学",
+    "school_of_thought": "分析化学",
+    "era_start": 1859,
+    "era_end": null,
+    "keywords_en": "spectroscopy,absorption,emission",
+    "key_researchers": ["ロベルト・ブンゼン", "グスタフ・キルヒホフ"]
+  },
+  {
+    "name_ja": "核磁気共鳴分光法",
+    "name_en": "Nuclear Magnetic Resonance Spectroscopy",
+    "definition": "磁場中の原子核スピンが電磁波と共鳴する現象を利用し、分子構造、結合環境、立体配置、動的過程を解析する方法。化学シフト、スピン結合、緩和を用い、有機化学と生体分子研究で不可欠である。",
+    "subfield": "化学",
+    "school_of_thought": "分析化学",
+    "era_start": 1946,
+    "era_end": null,
+    "keywords_en": "NMR,chemical shift,spin coupling",
+    "key_researchers": ["フェリックス・ブロッホ", "エドワード・パーセル"]
+  },
+  {
+    "name_ja": "質量分析法",
+    "name_en": "Mass Spectrometry",
+    "definition": "分子や原子をイオン化し、質量電荷比に応じて分離検出する分析法。分子量、元素組成、同位体比、断片化パターンを得られ、プロテオミクス、環境分析、医薬品分析、宇宙化学にも応用される。",
+    "subfield": "化学",
+    "school_of_thought": "分析化学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "mass spectrometry,ionization,mass-to-charge",
+    "key_researchers": ["ジョゼフ・ジョン・トムソン", "フランシス・アストン"]
+  },
+  {
+    "name_ja": "クロマトグラフィー",
+    "name_en": "Chromatography",
+    "definition": "固定相と移動相に対する成分の分配や吸着の違いを利用して混合物を分離する方法。薄層、ガス、液体、イオン交換、サイズ排除などの形式があり、精製、同定、定量に広く用いられる。",
+    "subfield": "化学",
+    "school_of_thought": "分析化学",
+    "era_start": 1903,
+    "era_end": null,
+    "keywords_en": "chromatography,separation,stationary phase",
+    "key_researchers": ["ミハイル・ツヴェット"]
+  },
+  {
+    "name_ja": "X線結晶構造解析",
+    "name_en": "X-ray Crystallography",
+    "definition": "結晶にX線を照射して生じる回折パターンから、原子配列と電子密度を決定する構造解析法。無機結晶、有機分子、タンパク質、材料の三次元構造を直接的に明らかにし、構造化学の発展を支えた。",
+    "subfield": "化学",
+    "school_of_thought": "構造化学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "x-ray crystallography,diffraction,structure",
+    "key_researchers": ["マックス・フォン・ラウエ", "ウィリアム・ヘンリー・ブラッグ", "ウィリアム・ローレンス・ブラッグ"]
+  },
+  {
+    "name_ja": "溶液化学",
+    "name_en": "Solution Chemistry",
+    "definition": "溶媒中での溶質の溶解、会合、電離、拡散、溶媒和、反応を扱う分野。濃度、活量、イオン強度、溶媒効果を考慮し、水溶液、非水溶媒、電解質溶液の性質を統一的に理解する。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "solution,solvation,electrolyte",
+    "key_researchers": ["スヴァンテ・アレニウス", "ピーター・デバイ", "エーリヒ・ヒュッケル"]
+  },
+  {
+    "name_ja": "コロイド化学",
+    "name_en": "Colloid Chemistry",
+    "definition": "ナノメートルからマイクロメートル程度の分散粒子が媒質中に存在する系の安定性、界面、凝集、散乱、レオロジーを扱う分野。乳濁液、ゾル、ゲル、エアロゾルなどを通じて材料、食品、医薬に関わる。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1861,
+    "era_end": null,
+    "keywords_en": "colloid,dispersion,interface",
+    "key_researchers": ["トーマス・グレアム", "リヒャルト・ジグモンディ"]
+  },
+  {
+    "name_ja": "表面化学",
+    "name_en": "Surface Chemistry",
+    "definition": "固体や液体の表面、界面で起こる吸着、脱離、触媒反応、濡れ、表面拡散を研究する分野。バルクとは異なる原子配列や電子状態が支配的となり、不均一触媒、腐食、薄膜、半導体プロセスに重要である。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "surface chemistry,adsorption,interface",
+    "key_researchers": ["アーヴィング・ラングミュア", "ゲルハルト・エルトル"]
+  },
+  {
+    "name_ja": "光化学",
+    "name_en": "Photochemistry",
+    "definition": "分子が光を吸収して励起状態となり、発光、異性化、結合切断、電子移動、反応開始などを起こす過程を扱う分野。光合成、写真、光重合、太陽電池、光触媒など多様な現象の基礎となる。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1817,
+    "era_end": null,
+    "keywords_en": "photochemistry,excited state,photoreaction",
+    "key_researchers": ["テオドール・グロットゥス", "ジャコモ・チアミチアン"]
+  },
+  {
+    "name_ja": "光触媒",
+    "name_en": "Photocatalysis",
+    "definition": "光吸収により生成した電子と正孔、または励起状態を利用して化学反応を促進する触媒作用。水分解、二酸化炭素還元、有機合成、環境浄化に応用され、半導体表面での電荷分離と移動が鍵となる。",
+    "subfield": "化学",
+    "school_of_thought": "触媒化学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "photocatalysis,semiconductor,charge separation",
+    "key_researchers": ["藤嶋昭", "本多健一"]
+  },
+  {
+    "name_ja": "超分子化学",
+    "name_en": "Supramolecular Chemistry",
+    "definition": "共有結合だけでなく、水素結合、配位結合、疎水性相互作用、π相互作用などの非共有結合によって形成される分子集合体を扱う分野。分子認識、自己集合、ホストゲスト化学を中心に機能性材料へ展開する。",
+    "subfield": "化学",
+    "school_of_thought": "超分子化学",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "supramolecular chemistry,self-assembly,host-guest",
+    "key_researchers": ["ジャン＝マリー・レーン", "ドナルド・クラム", "チャールズ・ペダーセン"]
+  },
+  {
+    "name_ja": "自己集合",
+    "name_en": "Self-Assembly",
+    "definition": "分子やナノ構造が外部からの逐次的な配置操作なしに、相互作用と環境条件に従って秩序ある構造を自発的に形成する現象。ミセル、二分子膜、結晶、超分子錯体、ナノ材料設計に広く現れる。",
+    "subfield": "化学",
+    "school_of_thought": "超分子化学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "self-assembly,noncovalent interaction,nanostructure",
+    "key_researchers": ["ジャン＝マリー・レーン", "ジョージ・ホワイトサイズ"]
+  },
+  {
+    "name_ja": "グリーンケミストリー",
+    "name_en": "Green Chemistry",
+    "definition": "化学製品とプロセスの設計段階から、有害物質の使用と生成、廃棄物、エネルギー消費を減らすことを目指す考え方。原子効率、再生可能原料、安全な溶媒、触媒利用などの原則を通じて持続可能性を高める。",
+    "subfield": "化学",
+    "school_of_thought": "環境化学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "green chemistry,sustainability,atom economy",
+    "key_researchers": ["ポール・アナスタス", "ジョン・ワーナー"]
+  },
+  {
+    "name_ja": "原子効率",
+    "name_en": "Atom Economy",
+    "definition": "反応に用いた原子のうち、どれだけが目的生成物に取り込まれるかを評価する指標。収率だけでは見えない副生成物の発生を考慮でき、廃棄物を減らす合成経路設計やグリーンケミストリーで重視される。",
+    "subfield": "化学",
+    "school_of_thought": "環境化学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "atom economy,waste reduction,green synthesis",
+    "key_researchers": ["バリー・トロスト"]
+  },
+  {
+    "name_ja": "材料化学",
+    "name_en": "Materials Chemistry",
+    "definition": "化学的手法により材料の組成、構造、欠陥、界面を制御し、電気的、光学的、機械的、磁気的、触媒的性質を設計する分野。セラミックス、高分子、半導体、電池材料、ナノ材料を横断的に扱う。",
+    "subfield": "化学",
+    "school_of_thought": "材料化学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "materials chemistry,functional materials,structure-property",
+    "key_researchers": ["ジョン・グッドイナフ", "アラン・マクダイアミッド"]
+  },
+  {
+    "name_ja": "ナノ化学",
+    "name_en": "Nanochemistry",
+    "definition": "ナノメートルスケールの粒子、細孔、薄膜、分子集合体を化学的に合成し、そのサイズ依存性や表面効果を利用する分野。量子ドット、ナノ粒子触媒、自己組織化材料などでバルクとは異なる機能を引き出す。",
+    "subfield": "化学",
+    "school_of_thought": "材料化学",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "nanochemistry,nanoparticle,quantum dot",
+    "key_researchers": ["リチャード・スモーリー", "ルイス・ブルス"]
+  },
+  {
+    "name_ja": "有機金属化学",
+    "name_en": "Organometallic Chemistry",
+    "definition": "金属炭素結合を持つ化合物の構造、結合、反応性、触媒作用を扱う分野。酸化的付加、還元的脱離、移動挿入、β水素脱離などの基本過程を通じて、有機合成と工業触媒を支える。",
+    "subfield": "化学",
+    "school_of_thought": "有機金属化学",
+    "era_start": 1849,
+    "era_end": null,
+    "keywords_en": "organometallic,metal-carbon bond,catalysis",
+    "key_researchers": ["エドワード・フランクランド", "ジェフリー・ウィルキンソン", "エルンスト・オットー・フィッシャー"]
+  },
+  {
+    "name_ja": "18電子則",
+    "name_en": "18-Electron Rule",
+    "definition": "多くの低原子価遷移金属錯体が、金属中心の価電子数と配位子から供与される電子数の合計18個で安定化するという経験則。貴ガス配置との類推に基づき、有機金属錯体の安定性と反応性予測に用いられる。",
+    "subfield": "化学",
+    "school_of_thought": "有機金属化学",
+    "era_start": 1921,
+    "era_end": null,
+    "keywords_en": "18-electron rule,organometallic,metal complex",
+    "key_researchers": ["ネヴィル・シジウィック"]
+  },
+  {
+    "name_ja": "遷移状態理論",
+    "name_en": "Transition State Theory",
+    "definition": "反応物がエネルギー障壁上の遷移状態を経て生成物へ移ると考え、反応速度を活性化自由エネルギーから計算する理論。速度論と熱力学を結び、触媒効果、同位体効果、反応経路解析の理解に用いられる。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "transition state,activation free energy,reaction rate",
+    "key_researchers": ["ヘンリー・アイリング", "マイケル・ポランニー"]
+  },
+  {
+    "name_ja": "ハモンドの仮説",
+    "name_en": "Hammond Postulate",
+    "definition": "反応座標上でエネルギーが近い種は構造も似ているとする経験的原理。発熱反応では遷移状態が反応物に近く、吸熱反応では生成物に近いと考え、反応性選択性や中間体安定性の効果を説明する。",
+    "subfield": "化学",
+    "school_of_thought": "有機反応論",
+    "era_start": 1955,
+    "era_end": null,
+    "keywords_en": "hammond postulate,transition state,reaction coordinate",
+    "key_researchers": ["ジョージ・ハモンド"]
+  },
+  {
+    "name_ja": "HSAB則",
+    "name_en": "HSAB Principle",
+    "definition": "酸と塩基を硬い、軟らかいという性質で分類し、硬い酸は硬い塩基と、軟らかい酸は軟らかい塩基と安定に相互作用しやすいとする原理。配位反応、沈殿、求核性、金属イオン選択性の理解に有用である。",
+    "subfield": "化学",
+    "school_of_thought": "無機化学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "HSAB,hard soft acid base,pearson",
+    "key_researchers": ["ラルフ・ピアソン"]
+  },
+  {
+    "name_ja": "溶媒効果",
+    "name_en": "Solvent Effect",
+    "definition": "溶媒の極性、プロトン供与性、粘性、配位性、誘電率などが、反応速度、平衡、選択性、スペクトル、分子構造に影響を与える現象。イオン性中間体や遷移状態の安定化を通じて反応経路を変える。",
+    "subfield": "化学",
+    "school_of_thought": "物理有機化学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "solvent effect,polarity,solvation",
+    "key_researchers": ["クリスチャン・ライヒャルト", "エドワード・コスワー"]
+  },
+  {
+    "name_ja": "同位体効果",
+    "name_en": "Isotope Effect",
+    "definition": "原子を同位体で置換したとき、質量や零点振動エネルギーの差により反応速度、平衡、スペクトルが変化する現象。特に水素と重水素の速度論的同位体効果は、結合切断の有無や遷移状態構造の解析に使われる。",
+    "subfield": "化学",
+    "school_of_thought": "物理化学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "isotope effect,kinetic isotope effect,deuterium",
+    "key_researchers": ["ハロルド・ユーリー", "ルイス・メルランダー"]
+  },
+  {
+    "name_ja": "クリックケミストリー",
+    "name_en": "Click Chemistry",
+    "definition": "高収率、広い官能基許容性、単純な精製、温和な条件を満たす信頼性の高い結合形成反応を重視する合成概念。アジドアルキン環化付加に代表され、創薬、材料、化学生物学で分子を迅速に連結する。",
+    "subfield": "化学",
+    "school_of_thought": "有機合成化学",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "click chemistry,azide alkyne,bioconjugation",
+    "key_researchers": ["バリー・シャープレス", "モーテン・メルダル", "キャロリン・ベルトッツィ"]
+  },
+  {
+    "name_ja": "化学生物学",
+    "name_en": "Chemical Biology",
+    "definition": "化学的な分子設計、合成、分析、反応を用いて生命現象を解明し、制御する学際分野。小分子プローブ、標識反応、阻害剤、ケミカルジェネティクスを通じて、細胞内の分子機能を操作し観察する。",
+    "subfield": "化学",
+    "school_of_thought": "生物化学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "chemical biology,probe,bioconjugation",
+    "key_researchers": ["スチュアート・シュライバー", "キャロリン・ベルトッツィ"]
+  },
+  {
+    "name_ja": "メタロセン",
+    "name_en": "Metallocene",
+    "definition": "シクロペンタジエニル配位子が金属中心を挟むサンドイッチ型構造を持つ有機金属化合物群。フェロセンの発見により有機金属化学の構造概念が刷新され、触媒、材料、電子移動研究に大きな影響を与えた。",
+    "subfield": "化学",
+    "school_of_thought": "有機金属化学",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_en": "metallocene,ferrocene,sandwich complex",
+    "key_researchers": ["ジェフリー・ウィルキンソン", "エルンスト・オットー・フィッシャー"]
+  },
+  {
+    "name_ja": "分子認識",
+    "name_en": "Molecular Recognition",
+    "definition": "分子が形状、電荷、水素結合、疎水性、配位能などの相補性に基づいて特定の相手を選択的に結合する現象。酵素基質相互作用、受容体リガンド結合、ホストゲスト化学、センサー設計の基本原理である。",
+    "subfield": "化学",
+    "school_of_thought": "超分子化学",
+    "era_start": 1894,
+    "era_end": null,
+    "keywords_en": "molecular recognition,host-guest,selectivity",
+    "key_researchers": ["エミール・フィッシャー", "ジャン＝マリー・レーン"]
+  },
+  {
+    "name_ja": "水素結合",
+    "name_en": "Hydrogen Bond",
+    "definition": "水素原子が電気陰性度の高い原子に結合して分極し、別の電子豊富な原子と方向性のある相互作用を形成する結合。水の異常性、タンパク質二次構造、DNA塩基対、結晶構造、分子認識を支える。",
+    "subfield": "化学",
+    "school_of_thought": "構造化学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "hydrogen bond,noncovalent interaction,directionality",
+    "key_researchers": ["ウェンデル・ラティマー", "ライナス・ポーリング"]
+  },
+  {
+    "name_ja": "疎水効果",
+    "name_en": "Hydrophobic Effect",
+    "definition": "水中で非極性分子や非極性部分が互いに集まり、水との接触面積を減らすことで系全体の自由エネルギーが低下する現象。ミセル形成、タンパク質折りたたみ、生体膜形成、分子認識において重要な駆動力となる。",
+    "subfield": "化学",
+    "school_of_thought": "生物物理化学",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "hydrophobic effect,water,protein folding",
+    "key_researchers": ["ウォルター・カウツマン"]
+  },
+  {
+    "name_ja": "タンパク質折りたたみ",
+    "name_en": "Protein Folding",
+    "definition": "アミノ酸配列を持つポリペプチド鎖が、疎水効果、水素結合、静電相互作用、ジスルフィド結合などにより特定の三次元構造へ到達する過程。構造と機能の関係、疾患、酵素設計を理解する鍵となる。",
+    "subfield": "化学",
+    "school_of_thought": "生物化学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_en": "protein folding,secondary structure,free energy landscape",
+    "key_researchers": ["クリスチャン・アンフィンセン", "サイラス・レヴィンタール"]
+  },
+  {
+    "name_ja": "メタセシス反応",
+    "name_en": "Olefin Metathesis",
+    "definition": "金属カルベン触媒を用いてアルケンの炭素炭素二重結合を組み替える反応。閉環メタセシス、交差メタセシス、開環メタセシス重合などがあり、少ない副生成物で複雑分子や高分子を合成できる。",
+    "subfield": "化学",
+    "school_of_thought": "有機金属化学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "olefin metathesis,metal carbene,alkene",
+    "key_researchers": ["イヴ・ショーヴァン", "ロバート・グラブス", "リチャード・シュロック"]
+  }
+]
+tokens used
+32,000

@@ -1,0 +1,194 @@
+[
+  {
+    "name_ja": "セントラルドグマ",
+    "name_en": "Central Dogma",
+    "definition": "DNAに保存された遺伝情報がRNAへ転写され、RNAからタンパク質へ翻訳されるという、分子生物学の基本的な情報伝達原理である。逆転写やRNA編集など例外的経路も含めて、遺伝子発現を理解する中心概念となった。",
+    "impact_summary": "遺伝情報の流れを統一的に説明し、分子生物学、遺伝子工学、創薬研究の基礎を形成した。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "分子生物学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_ja": "DNA,RNA,タンパク質,転写,翻訳",
+    "keywords_en": "DNA,RNA,protein,transcription,translation",
+    "key_researchers": [
+      "Francis Crick"
+    ],
+    "key_works": [
+      "On Protein Synthesis (1958)"
+    ]
+  },
+  {
+    "name_ja": "オペロン理論",
+    "name_en": "Operon Theory",
+    "definition": "細菌において複数の遺伝子が一つの調節単位として転写制御される仕組みを説明する理論である。リプレッサー、オペレーター、プロモーターなどの相互作用により、環境条件に応じた遺伝子発現調節を理解する枠組みを与えた。",
+    "impact_summary": "遺伝子発現調節の分子機構を初めて明確にし、調節遺伝子研究と合成生物学の出発点になった。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "分子遺伝学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_ja": "オペロン,リプレッサー,プロモーター,ラクトース,遺伝子調節",
+    "keywords_en": "operon,repressor,promoter,lactose,gene regulation",
+    "key_researchers": [
+      "François Jacob",
+      "Jacques Monod"
+    ],
+    "key_works": [
+      "Genetic Regulatory Mechanisms in the Synthesis of Proteins (1961)"
+    ]
+  },
+  {
+    "name_ja": "DNA二重らせん",
+    "name_en": "DNA Double Helix",
+    "definition": "DNAが相補的塩基対をもつ二本鎖らせん構造をとるという概念である。この構造は遺伝情報の保存、複製、変異、組換えを物理化学的に説明し、生命現象を分子構造から理解する時代を開いた。",
+    "impact_summary": "遺伝の物質的基盤を構造として示し、現代遺伝学、ゲノム科学、バイオテクノロジーを成立させた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "構造生物学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_ja": "DNA,二重らせん,塩基対,相補性,複製",
+    "keywords_en": "DNA,double helix,base pair,complementarity,replication",
+    "key_researchers": [
+      "James Watson",
+      "Francis Crick",
+      "Rosalind Franklin",
+      "Maurice Wilkins"
+    ],
+    "key_works": [
+      "Molecular Structure of Nucleic Acids (1953)"
+    ]
+  },
+  {
+    "name_ja": "PCR法",
+    "name_en": "Polymerase Chain Reaction",
+    "definition": "耐熱性DNAポリメラーゼと温度サイクルを用いて、特定DNA断片を試験管内で指数関数的に増幅する技術である。微量試料から標的配列を検出でき、診断、法医学、進化研究、クローニングに広く使われる。",
+    "impact_summary": "DNA解析を高速で汎用的な実験技術に変え、感染症診断やゲノム研究を大きく加速した。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "分子生物学技術",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "PCR,DNA増幅,プライマー,ポリメラーゼ,診断",
+    "keywords_en": "PCR,DNA amplification,primer,polymerase,diagnostics",
+    "key_researchers": [
+      "Kary Mullis"
+    ],
+    "key_works": [
+      "Specific Enzymatic Amplification of DNA in Vitro (1985)"
+    ]
+  },
+  {
+    "name_ja": "CRISPR-Cas9",
+    "name_en": "CRISPR-Cas9",
+    "definition": "細菌の獲得免疫機構を応用し、ガイドRNAによってCas9ヌクレアーゼを標的DNA配列へ導くゲノム編集技術である。比較的容易に遺伝子の破壊、挿入、置換、発現制御を行える点が特徴である。",
+    "impact_summary": "生命科学の実験設計を変え、疾患モデル作製、農業改良、遺伝子治療研究を急速に進展させた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "ゲノム編集",
+    "era_start": 2012,
+    "era_end": null,
+    "keywords_ja": "CRISPR,Cas9,ゲノム編集,ガイドRNA,遺伝子治療",
+    "keywords_en": "CRISPR,Cas9,genome editing,guide RNA,gene therapy",
+    "key_researchers": [
+      "Jennifer Doudna",
+      "Emmanuelle Charpentier",
+      "Feng Zhang"
+    ],
+    "key_works": [
+      "A Programmable Dual-RNA-Guided DNA Endonuclease (2012)"
+    ]
+  },
+  {
+    "name_ja": "iPS細胞",
+    "name_en": "Induced Pluripotent Stem Cells",
+    "definition": "体細胞に特定の転写因子を導入して多能性を再獲得させた細胞である。胚性幹細胞に近い性質をもち、患者由来細胞から疾患モデル、創薬評価、再生医療用細胞を作れる点が重要である。",
+    "impact_summary": "倫理的制約を抑えた多能性細胞利用を可能にし、再生医療と個別化医療を大きく前進させた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "幹細胞生物学",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_ja": "iPS細胞,多能性,再プログラム化,幹細胞,再生医療",
+    "keywords_en": "iPSC,pluripotency,reprogramming,stem cell,regenerative medicine",
+    "key_researchers": [
+      "Shinya Yamanaka",
+      "Kazutoshi Takahashi"
+    ],
+    "key_works": [
+      "Induction of Pluripotent Stem Cells from Mouse Embryonic and Adult Fibroblast Cultures (2006)"
+    ]
+  },
+  {
+    "name_ja": "AlphaFold2",
+    "name_en": "AlphaFold2",
+    "definition": "深層学習を用いてアミノ酸配列からタンパク質立体構造を高精度に予測する計算手法である。進化的共変動、注意機構、構造幾何を統合し、実験構造解析を補完する基盤技術となった。",
+    "impact_summary": "構造生物学のボトルネックを緩和し、機能推定、創薬、酵素設計、進化解析の速度を高めた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "計算構造生物学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_ja": "AlphaFold2,タンパク質構造,深層学習,構造予測,創薬",
+    "keywords_en": "AlphaFold2,protein structure,deep learning,structure prediction,drug discovery",
+    "key_researchers": [
+      "John Jumper",
+      "Demis Hassabis"
+    ],
+    "key_works": [
+      "Highly Accurate Protein Structure Prediction with AlphaFold (2021)"
+    ]
+  },
+  {
+    "name_ja": "シングルセルRNA-seq",
+    "name_en": "Single-cell RNA Sequencing",
+    "definition": "個々の細胞からRNA発現量を測定し、組織内の細胞種、状態、分化経路、応答の不均一性を解析する技術である。平均化された組織データでは見えない希少細胞や遷移状態を検出できる。",
+    "impact_summary": "細胞多様性の理解を刷新し、発生、免疫、がん、神経科学で細胞地図作成を可能にした。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "単一細胞生物学",
+    "era_start": 2009,
+    "era_end": null,
+    "keywords_ja": "単一細胞,RNA-seq,トランスクリプトーム,細胞多様性,細胞地図",
+    "keywords_en": "single cell,RNA-seq,transcriptome,cell heterogeneity,cell atlas",
+    "key_researchers": [
+      "Fuchou Tang",
+      "Aviv Regev"
+    ],
+    "key_works": [
+      "mRNA-Seq Whole-Transcriptome Analysis of a Single Cell (2009)"
+    ]
+  },
+  {
+    "name_ja": "Optogenetics",
+    "name_en": "Optogenetics",
+    "definition": "光応答性タンパク質を細胞に発現させ、光刺激によって神経活動や細胞内シグナルを時間的・空間的に制御する技術である。特定細胞集団の因果的役割を生体内で検証できる。",
+    "impact_summary": "神経回路研究を相関観察から因果操作へ進め、行動、記憶、疾患モデル研究を変革した。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "神経工学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_ja": "光遺伝学,チャネルロドプシン,神経回路,光制御,行動",
+    "keywords_en": "optogenetics,channelrhodopsin,neural circuit,light control,behavior",
+    "key_researchers": [
+      "Karl Deisseroth",
+      "Ed Boyden",
+      "Gero Miesenböck"
+    ],
+    "key_works": [
+      "Millisecond-Timescale Genetically Targeted Optical Control of Neural Activity (2005)"
+    ]
+  },
+  {
+    "name_ja": "RNAスプライシング",
+    "name_en": "RNA Splicing",
+    "definition": "真核生物の前駆体mRNAからイントロンを除去し、エクソンを連結して成熟mRNAを作る過程である。選択的スプライシングにより一つの遺伝子から複数のタンパク質や調節RNAが生じる。",
+    "impact_summary": "遺伝子数と生物複雑性の関係を再解釈させ、疾患変異、発生制御、転写後調節の理解を深めた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "RNA生物学",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_ja": "RNAスプライシング,イントロン,エクソン,スプライソソーム,選択的スプライシング",
+    "keywords_en": "RNA splicing,intron,exon,spliceosome,alternative splicing",
+    "key_researchers": [
+      "Phillip Sharp",
+      "Richard Roberts"
+    ],
+    "key_works": [
+      "An Amazing Sequence Arrangement at the 5' Ends of Adenovirus 2 Messenger RNA (1977)"
+    ]
+  }
+]

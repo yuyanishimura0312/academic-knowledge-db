@@ -1,0 +1,1123 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e09f2-3168-70e0-8e5b-052a489c3790
+--------
+user
+「大陸哲学・現象学」分野の 2015-2025年 の重要概念60件を JSON 配列で出力。
+
+必須概念:
+Anthropocene哲学、OOO拡張、ANT 2025、Sympoiesis、新唯物論第二波
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"大陸哲学・現象学","school_of_thought":"学派/枠組","era_start":年(2015以上),"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、era_start ≥ 2015、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "Anthropocene哲学",
+    "name_en": "Anthropocene Philosophy",
+    "definition": "人間活動が地質学的規模で地球環境を変容させたという認識を出発点に、自然と文化、人間と非人間、責任と歴史の区分を再検討する哲学的枠組である。気候危機、植民地主義、資本主義、種の絶滅を存在論と倫理の問題として扱う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境人文学・ポストヒューマニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Anthropocene,climate ethics,geology",
+    "key_researchers": [
+      "Bruno Latour",
+      "Dipesh Chakrabarty",
+      "Isabelle Stengers"
+    ]
+  },
+  {
+    "name_ja": "OOO拡張",
+    "name_en": "Expanded Object-Oriented Ontology",
+    "definition": "対象同士の関係を人間認識に還元せず、芸術、建築、エコロジー、メディア論へ展開した対象指向存在論の拡張形である。対象の撤退、感覚的対象、実在的対象という議論を、気候危機や非人間的エージェンシーの分析にも応用する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "対象指向存在論・思弁的実在論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "OOO,objects,withdrawal",
+    "key_researchers": [
+      "Graham Harman",
+      "Levi Bryant",
+      "Timothy Morton"
+    ]
+  },
+  {
+    "name_ja": "ANT 2025",
+    "name_en": "Actor-Network Theory 2025",
+    "definition": "アクターネットワーク理論を気候政治、デジタルインフラ、AI、パンデミック後の統治へ拡張する近年の枠組である。人間、制度、技術、微生物、データ、法制度を同じ分析平面に置き、社会を固定的構造ではなく翻訳と媒介の連鎖として捉える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "アクターネットワーク理論",
+    "era_start": 2025,
+    "era_end": null,
+    "keywords_en": "ANT,actor-network,translation",
+    "key_researchers": [
+      "Bruno Latour",
+      "Michel Callon",
+      "Annemarie Mol"
+    ]
+  },
+  {
+    "name_ja": "Sympoiesis",
+    "name_en": "Sympoiesis",
+    "definition": "自己完結的に作られる存在ではなく、複数の種、技術、環境、歴史が相互に作り合う過程として生を理解する概念である。共生成、共進化、相互依存を強調し、人間中心主義を超えた倫理と政治を考えるための重要語となった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト新唯物論・マルチスピーシーズ研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "sympoiesis,multispecies,becoming-with",
+    "key_researchers": [
+      "Donna Haraway",
+      "Anna Tsing",
+      "Vinciane Despret"
+    ]
+  },
+  {
+    "name_ja": "新唯物論第二波",
+    "name_en": "Second-Wave New Materialism",
+    "definition": "物質の能動性や身体性を論じた新唯物論を、植民地主義、人種、障害、気候正義、技術統治の問題へ拡張する潮流である。単なる物質賛美を避け、権力関係に埋め込まれた物質化の過程を批判的に分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論・フェミニスト哲学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "new materialism,matter,power",
+    "key_researchers": [
+      "Karen Barad",
+      "Rosi Braidotti",
+      "Diana Coole"
+    ]
+  },
+  {
+    "name_ja": "惑星的思考",
+    "name_en": "Planetary Thinking",
+    "definition": "グローバル化を市場や国家間関係としてだけでなく、地球システム、植民地主義、技術、種間関係が絡む惑星規模の条件として捉える思考である。世界ではなく惑星という語を用いることで、人間の統治可能性を超えた地質的・生態的制約を強調する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル理論・環境哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "planetarity,earth systems,globalization",
+    "key_researchers": [
+      "Gayatri Chakravorty Spivak",
+      "Dipesh Chakrabarty",
+      "Achille Mbembe"
+    ]
+  },
+  {
+    "name_ja": "ガイア政治",
+    "name_en": "Gaia Politics",
+    "definition": "地球を単なる背景や資源ではなく、人間の政治を攪乱する反応的で複雑な存在として捉える政治哲学である。主権国家や進歩史観では扱いきれない気候変動の現実を前に、責任、居住、代表、科学の役割を再構成する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラトゥール派・環境政治哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Gaia,climate politics,terrestrial",
+    "key_researchers": [
+      "Bruno Latour",
+      "Isabelle Stengers",
+      "Frédérique Aït-Touati"
+    ]
+  },
+  {
+    "name_ja": "地球居住性",
+    "name_en": "Habitability",
+    "definition": "地球を抽象的な環境ではなく、生命が持続的に住みうる条件の束として考える概念である。都市、気候、技術、法、土地利用、身体の脆弱性を結びつけ、誰がどのような条件で住めるのかという政治的問いを哲学化する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境現象学・政治生態学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "habitability,dwelling,climate",
+    "key_researchers": [
+      "Bruno Latour",
+      "Marisol de la Cadena",
+      "Elizabeth Povinelli"
+    ]
+  },
+  {
+    "name_ja": "テレストリアル",
+    "name_en": "The Terrestrial",
+    "definition": "近代的な進歩やグローバル化の上空的視点から離れ、具体的な土地、土壌、依存関係へ政治を引き戻す概念である。国民国家への単純な回帰ではなく、気候変動下で人間と非人間が共有する生存基盤をめぐる新しい所属を問う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラトゥール派・政治存在論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "terrestrial,politics,attachment",
+    "key_researchers": [
+      "Bruno Latour",
+      "Nikolaj Schultz",
+      "Isabelle Stengers"
+    ]
+  },
+  {
+    "name_ja": "クトゥルー新世",
+    "name_en": "Chthulucene",
+    "definition": "人新世や資本新世という命名だけでは捉えきれない、地中性、触手性、種間の絡まりを強調する時代概念である。破局の物語に閉じず、人間と非人間が共に問題の中で生き延びる実践を想像するための哲学的語彙である。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニストSF理論・マルチスピーシーズ研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "Chthulucene,staying with the trouble,multispecies",
+    "key_researchers": [
+      "Donna Haraway",
+      "Anna Tsing",
+      "Vinciane Despret"
+    ]
+  },
+  {
+    "name_ja": "資本新世",
+    "name_en": "Capitalocene",
+    "definition": "地球環境危機の原因を抽象的な人類一般に帰すのではなく、資本主義的蓄積、植民地支配、労働搾取、資源抽出の歴史に求める概念である。人新世論の普遍的人間像を批判し、環境問題を政治経済の問題として再定義する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "エコマルクス主義・批判理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "Capitalocene,capitalism,extraction",
+    "key_researchers": [
+      "Jason W. Moore",
+      "Andreas Malm",
+      "Donna Haraway"
+    ]
+  },
+  {
+    "name_ja": "プランテーション新世",
+    "name_en": "Plantationocene",
+    "definition": "近代世界の環境破壊を、単一栽培、奴隷制、植民地的土地管理、種の移動が生んだ暴力的秩序として理解する概念である。気候危機を農業史や人種化された労働の歴史と結びつけ、自然破壊と社会的支配を同時に分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル環境思想",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Plantationocene,monoculture,colonialism",
+    "key_researchers": [
+      "Donna Haraway",
+      "Anna Tsing",
+      "Katherine McKittrick"
+    ]
+  },
+  {
+    "name_ja": "暗黒エコロジー",
+    "name_en": "Dark Ecology",
+    "definition": "自然を調和的で美しい全体として理想化するのではなく、不気味さ、汚染、死、共犯性を含む絡まりとして考えるエコロジー思想である。環境倫理を清浄な自然への回帰ではなく、すでに傷ついた世界における責任として捉える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "OOO・エコクリティシズム",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "dark ecology,ecological thought,uncanny",
+    "key_researchers": [
+      "Timothy Morton",
+      "Graham Harman",
+      "Stacy Alaimo"
+    ]
+  },
+  {
+    "name_ja": "ハイパーオブジェクト",
+    "name_en": "Hyperobjects",
+    "definition": "気候変動、放射性物質、プラスチック汚染のように、時間的・空間的に巨大で人間の知覚を超えて広がる対象を指す概念である。局所的経験では全体を把握できないが、生活のあらゆる場面に粘着的に現れる存在論的問題を示す。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "対象指向存在論・環境思想",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "hyperobjects,climate,scale",
+    "key_researchers": [
+      "Timothy Morton",
+      "Graham Harman",
+      "Levi Bryant"
+    ]
+  },
+  {
+    "name_ja": "マルチスピーシーズ民族誌",
+    "name_en": "Multispecies Ethnography",
+    "definition": "人間社会だけを観察対象にするのではなく、動物、植物、菌類、微生物、技術環境との関係を通じて文化と存在を記述する方法である。現象学的記述、ポストヒューマン倫理、環境人文学を接続し、共生の政治を具体化する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "マルチスピーシーズ研究・人類学的哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "multispecies,ethnography,companions",
+    "key_researchers": [
+      "Anna Tsing",
+      "Eduardo Kohn",
+      "Vinciane Despret"
+    ]
+  },
+  {
+    "name_ja": "生きた廃墟",
+    "name_en": "Living Ruins",
+    "definition": "資本主義や開発が残した荒廃地を、単なる終末の痕跡ではなく、予期しない生、協働、再生が生じる場所として考える概念である。進歩の物語を疑い、壊れた環境の中で可能になる関係性と脆弱な希望を分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境人文学・マルチスピーシーズ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ruins,precarity,more-than-human",
+    "key_researchers": [
+      "Anna Tsing",
+      "Donna Haraway",
+      "Elizabeth Povinelli"
+    ]
+  },
+  {
+    "name_ja": "抽出主義批判",
+    "name_en": "Critique of Extractivism",
+    "definition": "土地、鉱物、データ、労働、感情を価値へ変換して取り出す支配様式を批判する概念である。環境破壊だけでなく、植民地主義、金融資本、デジタル監視、知識生産の非対称性を結びつけ、近代的所有の暴力を問う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱植民地理論・批判理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "extractivism,colonialism,resources",
+    "key_researchers": [
+      "Macarena Gómez-Barris",
+      "Achille Mbembe",
+      "Elizabeth Povinelli"
+    ]
+  },
+  {
+    "name_ja": "脱成長存在論",
+    "name_en": "Degrowth Ontology",
+    "definition": "経済成長を社会の自然な目的とみなす近代的存在論を批判し、充足、ケア、依存、有限性を中心に据える思想である。政策論としての脱成長を超え、欲望、時間、労働、豊かさの意味を哲学的に再構成する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "エコ社会主義・ポスト資本主義哲学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "degrowth,post-growth,care",
+    "key_researchers": [
+      "Serge Latouche",
+      "Giorgos Kallis",
+      "Kohei Saito"
+    ]
+  },
+  {
+    "name_ja": "気候悲嘆",
+    "name_en": "Climate Grief",
+    "definition": "気候変動による喪失、不安、怒り、無力感を個人的感情に還元せず、世界との関係が変化する現象学的・政治的経験として捉える概念である。失われる風景や未来への哀悼を、行為と連帯の可能性へ接続する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境現象学・感情の哲学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "climate grief,eco-anxiety,loss",
+    "key_researchers": [
+      "Glenn Albrecht",
+      "Ashlee Cunsolo",
+      "Donna Haraway"
+    ]
+  },
+  {
+    "name_ja": "ソラスタルジア",
+    "name_en": "Solastalgia",
+    "definition": "故郷にいながら環境変化によって故郷を失ったように感じる苦痛を指す概念である。気候変動、採掘、都市再開発、森林火災などが生活世界を変質させる経験を、場所への愛着と喪失の現象学として説明する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "環境現象学・場所論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "solastalgia,place,environmental loss",
+    "key_researchers": [
+      "Glenn Albrecht",
+      "Ashlee Cunsolo",
+      "Mick Smith"
+    ]
+  },
+  {
+    "name_ja": "ポストヒューマン主体",
+    "name_en": "Posthuman Subject",
+    "definition": "自律的で理性的な人間主体を中心に据える近代哲学を超え、身体、技術、動物、環境、制度との関係の中で形成される主体を考える概念である。人間の特権化を退けつつ、責任と倫理を放棄しない点が重要である。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストヒューマニズム・フェミニスト哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "posthuman,subjectivity,embodiment",
+    "key_researchers": [
+      "Rosi Braidotti",
+      "Katherine Hayles",
+      "Cary Wolfe"
+    ]
+  },
+  {
+    "name_ja": "批判的ポストヒューマニズム",
+    "name_en": "Critical Posthumanism",
+    "definition": "人間中心主義を批判しながらも、技術礼賛的な超人間主義とは距離を取り、権力、脆弱性、身体、動物性、環境依存を分析する思想である。人間を否定するのではなく、人間という概念の歴史的排除を問い直す。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判的ポストヒューマニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "critical posthumanism,humanism,power",
+    "key_researchers": [
+      "Rosi Braidotti",
+      "Cary Wolfe",
+      "Stefan Herbrechter"
+    ]
+  },
+  {
+    "name_ja": "トランスヒューマニズム批判",
+    "name_en": "Critique of Transhumanism",
+    "definition": "技術による能力拡張や不死への志向を、近代的人間中心主義、資本主義的身体管理、優生思想の延長として批判する議論である。身体の有限性や依存を欠陥ではなく、倫理と共生の条件として再評価する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストヒューマニズム・技術哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "transhumanism,enhancement,critique",
+    "key_researchers": [
+      "Rosi Braidotti",
+      "Bernard Stiegler",
+      "N. Katherine Hayles"
+    ]
+  },
+  {
+    "name_ja": "非人間的エージェンシー",
+    "name_en": "Nonhuman Agency",
+    "definition": "行為能力を人間の意図や意識だけに限定せず、動物、物質、機械、気候、微生物、制度が現実を変化させる力を持つと考える概念である。責任の所在を単純化せず、分散した作用の網目を分析するために用いられる。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論・ANT",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "nonhuman agency,actants,materiality",
+    "key_researchers": [
+      "Jane Bennett",
+      "Bruno Latour",
+      "Karen Barad"
+    ]
+  },
+  {
+    "name_ja": "物質的エージェンシー",
+    "name_en": "Material Agency",
+    "definition": "物質を受動的な基盤や人間行為の対象としてではなく、変化を引き起こし関係を組織する能動的な力として理解する概念である。身体、環境、技術、化学物質の働きを通じて、倫理と政治を物質化の過程から考える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "material agency,vibrant matter,assemblage",
+    "key_researchers": [
+      "Jane Bennett",
+      "Karen Barad",
+      "Diana Coole"
+    ]
+  },
+  {
+    "name_ja": "アジャンスマン",
+    "name_en": "Agencement",
+    "definition": "主体、物、制度、欲望、記号、空間が一時的に組み合わさって作用する配置を指す概念である。固定的な構造や個人主体では説明できない生成変化を捉えるため、政治理論、都市論、メディア論、環境思想で再活性化された。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ＝ガタリ派",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "agencement,assemblage,Deleuze",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Félix Guattari",
+      "Manuel DeLanda"
+    ]
+  },
+  {
+    "name_ja": "アセンブリッジ理論再評価",
+    "name_en": "Renewed Assemblage Theory",
+    "definition": "社会や自然を部分の総和でも全体構造でもなく、異質な要素の結合と分解として捉える理論の再評価である。気候、都市、感染症、デジタルネットワークの分析に用いられ、安定性と偶然性を同時に説明する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ドゥルーズ主義・社会存在論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "assemblage,theory,emergence",
+    "key_researchers": [
+      "Manuel DeLanda",
+      "Jane Bennett",
+      "John Protevi"
+    ]
+  },
+  {
+    "name_ja": "内在性の政治",
+    "name_en": "Politics of Immanence",
+    "definition": "超越的原理や外部の基準に依拠せず、関係、力、身体、制度の内部から政治的変化を考える概念である。ドゥルーズ、スピノザ、新唯物論を背景に、権力への抵抗を生成変化と能力の再配分として理解する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "スピノザ主義・ドゥルーズ派",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immanence,politics,affect",
+    "key_researchers": [
+      "Gilles Deleuze",
+      "Rosi Braidotti",
+      "Brian Massumi"
+    ]
+  },
+  {
+    "name_ja": "情動的転回後の情動",
+    "name_en": "Affect after the Affective Turn",
+    "definition": "情動を個人の内面感情ではなく、身体間、メディア、空間、政治運動を循環する強度として捉える議論である。二〇一五年以後はSNS、ポピュリズム、パンデミック、不安の政治と結びつき、集合的雰囲気の分析へ広がった。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動理論・現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affect,atmosphere,intensity",
+    "key_researchers": [
+      "Brian Massumi",
+      "Sara Ahmed",
+      "Lauren Berlant"
+    ]
+  },
+  {
+    "name_ja": "公共的情動",
+    "name_en": "Public Affect",
+    "definition": "怒り、恐怖、希望、羞恥、疲労のような感情が、公共圏や政治的判断を形成する仕方を分析する概念である。感情を非合理なものとして排除せず、メディア環境、身体、歴史的記憶を通じて共有される力として扱う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動理論・批判理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "public affect,emotion,politics",
+    "key_researchers": [
+      "Sara Ahmed",
+      "Lauren Berlant",
+      "Ann Cvetkovich"
+    ]
+  },
+  {
+    "name_ja": "残酷な楽観主義",
+    "name_en": "Cruel Optimism",
+    "definition": "人を支えるはずの欲望や希望が、実際にはその人の生を損なう対象への執着になっている状態を示す概念である。雇用、家族、国家、成功、幸福の約束が崩れた時代に、生活世界の停滞と持続を分析するために使われる。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動理論・クィア理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "cruel optimism,attachment,precarity",
+    "key_researchers": [
+      "Lauren Berlant",
+      "Sara Ahmed",
+      "Ann Cvetkovich"
+    ]
+  },
+  {
+    "name_ja": "インフラ的情動",
+    "name_en": "Infrastructural Affect",
+    "definition": "道路、通信網、住宅、電力、医療制度のようなインフラが、単に機能的背景であるだけでなく、安心、不安、疲労、信頼を生み出す条件であることを示す概念である。生活世界の感情的基盤を物質的構造から分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動理論・インフラ研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "infrastructure,affect,ordinary life",
+    "key_researchers": [
+      "Lauren Berlant",
+      "Brian Larkin",
+      "Kathleen Stewart"
+    ]
+  },
+  {
+    "name_ja": "雰囲気の現象学",
+    "name_en": "Phenomenology of Atmospheres",
+    "definition": "空間に漂う気分、緊張、親密さ、圧迫感のような雰囲気を、主観でも客観でもない経験の場として分析する現象学である。建築、都市、政治集会、デジタル空間の感受性を記述する理論として発展した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新現象学・感性論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "atmospheres,phenomenology,mood",
+    "key_researchers": [
+      "Gernot Böhme",
+      "Hermann Schmitz",
+      "Tonino Griffero"
+    ]
+  },
+  {
+    "name_ja": "身体化された認知の現象学",
+    "name_en": "Phenomenology of Embodied Cognition",
+    "definition": "認知を脳内表象に閉じた処理ではなく、身体運動、環境、習慣、他者との相互作用に根ざした経験として捉える現象学的研究である。認知科学との対話を通じて、知覚、行為、自己感の構成を精密化する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学・エナクティヴィズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "embodied cognition,phenomenology,enactivism",
+    "key_researchers": [
+      "Shaun Gallagher",
+      "Dan Zahavi",
+      "Evan Thompson"
+    ]
+  },
+  {
+    "name_ja": "エナクティブ現象学",
+    "name_en": "Enactive Phenomenology",
+    "definition": "経験を受動的な表象ではなく、身体をもつ主体が環境と相互に関わりながら意味を生み出す行為として理解する枠組である。知覚、感情、社会的理解、精神病理を、生活世界との動的な結合から説明する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "エナクティヴィズム・現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "enactivism,sense-making,embodiment",
+    "key_researchers": [
+      "Evan Thompson",
+      "Shaun Gallagher",
+      "Hanne De Jaegher"
+    ]
+  },
+  {
+    "name_ja": "4E認知と現象学",
+    "name_en": "4E Cognition and Phenomenology",
+    "definition": "認知を身体化され、埋め込まれ、拡張され、行為的なものとして捉える4E認知と現象学を接続する研究領域である。経験の一人称記述を、環境、道具、社会的相互作用を含む認知過程の分析へ結びつける。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "認知現象学・心の哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "4E cognition,extended mind,phenomenology",
+    "key_researchers": [
+      "Shaun Gallagher",
+      "Alva Noë",
+      "Dan Zahavi"
+    ]
+  },
+  {
+    "name_ja": "拡張された心の現象学",
+    "name_en": "Phenomenology of the Extended Mind",
+    "definition": "記憶、注意、思考が脳内だけでなく、ノート、スマートフォン、環境配置、他者との協働に支えられる経験を分析する概念である。道具が単なる外部補助ではなく、自己経験と行為可能性を変える点を重視する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学・拡張認知論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "extended mind,tools,cognition",
+    "key_researchers": [
+      "Shaun Gallagher",
+      "Andy Clark",
+      "Dan Zahavi"
+    ]
+  },
+  {
+    "name_ja": "社会的認知の相互作用説",
+    "name_en": "Interaction Theory of Social Cognition",
+    "definition": "他者理解を心の理論による推論やシミュレーションだけで説明せず、身体表現、共同注意、会話、状況内行為の相互作用から捉える立場である。現象学と発達研究を接続し、社会性を一次的な経験構造として扱う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学・社会的認知論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "social cognition,interaction,embodiment",
+    "key_researchers": [
+      "Shaun Gallagher",
+      "Hanne De Jaegher",
+      "Dan Zahavi"
+    ]
+  },
+  {
+    "name_ja": "集合的志向性の現象学",
+    "name_en": "Phenomenology of Collective Intentionality",
+    "definition": "私たちが共に行為し、感じ、判断する際の『われわれ』経験を分析する現象学的概念である。集団主体を単なる個人の合計に還元せず、共同注意、制度、儀礼、政治運動が作る共有された意味地平を問う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "社会現象学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "collective intentionality,we-experience,social ontology",
+    "key_researchers": [
+      "Dan Zahavi",
+      "Hans Bernhard Schmid",
+      "Thomas Szanto"
+    ]
+  },
+  {
+    "name_ja": "自己性のミニマル理論",
+    "name_en": "Minimal Self Theory",
+    "definition": "自己を物語的アイデンティティや反省的自己理解の前に、経験が私に属しているという最小限の自己感として捉える理論である。精神病理、瞑想、身体所有感、意識研究との接点で、現象学的自己論を更新した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学的自己論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "minimal self,selfhood,ipseity",
+    "key_researchers": [
+      "Dan Zahavi",
+      "Josef Parnas",
+      "Shaun Gallagher"
+    ]
+  },
+  {
+    "name_ja": "精神病理の現象学",
+    "name_en": "Phenomenological Psychopathology",
+    "definition": "統合失調症、うつ、不安、摂食障害などを症状の外的分類だけでなく、時間、身体、自己、他者、世界の経験構造の変化として分析する領域である。臨床記述と哲学を接続し、患者の生活世界を理解する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学的精神医学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "psychopathology,phenomenology,self-disorder",
+    "key_researchers": [
+      "Thomas Fuchs",
+      "Giovanni Stanghellini",
+      "Matthew Ratcliffe"
+    ]
+  },
+  {
+    "name_ja": "うつの現象学",
+    "name_en": "Phenomenology of Depression",
+    "definition": "うつを単なる気分低下や脳内化学の問題としてではなく、時間の停滞、身体の重さ、可能性の消失、世界との距離の変化として記述する研究である。患者の経験に即して、意味、希望、行為可能性の崩れを分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "精神病理の現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "depression,temporality,world-experience",
+    "key_researchers": [
+      "Matthew Ratcliffe",
+      "Thomas Fuchs",
+      "Giovanni Stanghellini"
+    ]
+  },
+  {
+    "name_ja": "身体所有感の変容",
+    "name_en": "Altered Sense of Body Ownership",
+    "definition": "自分の身体が自分のものとして感じられる仕方が、疾患、外傷、技術、VR、義肢によって変化する現象を分析する概念である。身体を単なる物体ではなく、世界への開かれと自己性の基盤として捉える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "身体現象学・認知科学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "body ownership,embodiment,self",
+    "key_researchers": [
+      "Shaun Gallagher",
+      "Thomas Fuchs",
+      "Dan Zahavi"
+    ]
+  },
+  {
+    "name_ja": "痛みの現象学",
+    "name_en": "Phenomenology of Pain",
+    "definition": "痛みを生理的信号に還元せず、身体、注意、時間、言語、他者との関係を変える経験として分析する領域である。慢性痛や不可視の痛みを通じて、身体が世界への透明な媒介から重く現れる過程を記述する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "身体現象学・医療人文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "pain,embodiment,medical humanities",
+    "key_researchers": [
+      "Havi Carel",
+      "Drew Leder",
+      "Fredrik Svenaeus"
+    ]
+  },
+  {
+    "name_ja": "病いの現象学",
+    "name_en": "Phenomenology of Illness",
+    "definition": "病いを医学的診断名だけでなく、身体、時間、空間、他者関係、未来の見通しが変化する生活世界の変容として捉える研究である。患者の一人称経験を重視し、医療倫理やケアの実践に哲学的基盤を与える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "医療現象学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "illness,phenomenology,care",
+    "key_researchers": [
+      "Havi Carel",
+      "Fredrik Svenaeus",
+      "Kay Toombs"
+    ]
+  },
+  {
+    "name_ja": "呼吸の現象学",
+    "name_en": "Phenomenology of Breathing",
+    "definition": "呼吸を自律的な生理過程であると同時に、注意、感情、環境、政治的脆弱性に関わる経験として分析する概念である。パンデミック、大気汚染、人種暴力、瞑想実践を通じて、呼吸可能性の条件が問われた。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "身体現象学・政治現象学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "breathing,embodiment,vulnerability",
+    "key_researchers": [
+      "Luce Irigaray",
+      "Havi Carel",
+      "Achille Mbembe"
+    ]
+  },
+  {
+    "name_ja": "パンデミック現象学",
+    "name_en": "Pandemic Phenomenology",
+    "definition": "感染症流行が身体距離、触覚、公共空間、時間感覚、他者への信頼をどのように変えたかを分析する現象学である。マスク、隔離、オンライン生活、死の可視化を通じて、日常的な世界経験の条件を問い直す。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "現象学・医療人文学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "pandemic,phenomenology,embodiment",
+    "key_researchers": [
+      "Havi Carel",
+      "Matthew Ratcliffe",
+      "Judith Butler"
+    ]
+  },
+  {
+    "name_ja": "脆弱性の存在論",
+    "name_en": "Ontology of Vulnerability",
+    "definition": "脆弱性を例外的な弱さではなく、身体を持ち他者や環境に依存して生きる存在の基本条件として捉える概念である。暴力、ケア、病い、気候危機、移民問題を通じて、相互依存に基づく倫理と政治を構想する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト倫理・政治現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "vulnerability,precarity,embodiment",
+    "key_researchers": [
+      "Judith Butler",
+      "Adriana Cavarero",
+      "Havi Carel"
+    ]
+  },
+  {
+    "name_ja": "プレカリティ",
+    "name_en": "Precarity",
+    "definition": "雇用、住居、身体、安全、承認が不安定化された状態を、個人の失敗ではなく政治経済的に作られた生の条件として捉える概念である。誰の生が守られ、誰の生が危険にさらされるのかを問う批判的語彙である。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判理論・フェミニスト政治哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "precarity,precarious life,inequality",
+    "key_researchers": [
+      "Judith Butler",
+      "Lauren Berlant",
+      "Isabell Lorey"
+    ]
+  },
+  {
+    "name_ja": "ケアの政治存在論",
+    "name_en": "Political Ontology of Care",
+    "definition": "ケアを私的な道徳や女性化された労働に限定せず、社会と世界が維持される存在論的条件として捉える概念である。人間、非人間、制度、インフラを支える依存関係を可視化し、政治の中心に保守と修復を置く。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ケア倫理・フェミニスト新唯物論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "care,maintenance,interdependence",
+    "key_researchers": [
+      "Joan Tronto",
+      "Maria Puig de la Bellacasa",
+      "Judith Butler"
+    ]
+  },
+  {
+    "name_ja": "メンテナンス倫理",
+    "name_en": "Ethics of Maintenance",
+    "definition": "創造や革新よりも、壊れやすい世界を修理し維持する実践を倫理と政治の中心に置く考え方である。インフラ、環境、身体、技術、関係性を長期的に支える作業の価値を評価し、進歩主義的な新規性の偏重を批判する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ケア倫理・技術哲学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "maintenance,repair,care",
+    "key_researchers": [
+      "Maria Puig de la Bellacasa",
+      "Shannon Mattern",
+      "Andrew Russell"
+    ]
+  },
+  {
+    "name_ja": "修復の哲学",
+    "name_en": "Philosophy of Repair",
+    "definition": "破損や故障を単なる欠陥ではなく、物、制度、関係がどのように成り立つかを露わにする契機として捉える哲学である。技術、環境、社会的傷の修復を通じて、持続可能性と責任の具体的実践を考える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "技術哲学・ケア倫理",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "repair,breakdown,maintenance",
+    "key_researchers": [
+      "Shannon Mattern",
+      "Steven Jackson",
+      "Maria Puig de la Bellacasa"
+    ]
+  },
+  {
+    "name_ja": "フェミニスト現象学再興",
+    "name_en": "Renewed Feminist Phenomenology",
+    "definition": "身体、性差、人種化、障害、妊娠、老い、暴力の経験を、抽象的主体では捉えられない生活世界の構造として分析する現象学の再興である。古典的現象学を批判的に継承し、具体的で政治的な身体経験を記述する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フェミニスト現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "feminist phenomenology,embodiment,gender",
+    "key_researchers": [
+      "Sara Heinämaa",
+      "Luna Dolezal",
+      "Alia Al-Saji"
+    ]
+  },
+  {
+    "name_ja": "人種化された知覚",
+    "name_en": "Racialized Perception",
+    "definition": "知覚が中立的な受容ではなく、歴史、制度、植民地主義、身体的習慣によって人種化される過程を分析する概念である。見ること、見られること、警戒されることの経験を通じて、現象学を反人種主義的に再構成する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判的現象学・人種理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "racialized perception,race,critical phenomenology",
+    "key_researchers": [
+      "Alia Al-Saji",
+      "George Yancy",
+      "Frantz Fanon"
+    ]
+  },
+  {
+    "name_ja": "批判的現象学",
+    "name_en": "Critical Phenomenology",
+    "definition": "経験の構造を記述するだけでなく、その構造が権力、規範、制度、歴史によって形成される仕方を批判的に分析する現象学である。人種、性別、障害、階級、植民地主義を、生活世界の見え方そのものに関わる問題として扱う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "批判的現象学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "critical phenomenology,power,lived experience",
+    "key_researchers": [
+      "Lisa Guenther",
+      "Gayle Salamon",
+      "Alia Al-Saji"
+    ]
+  },
+  {
+    "name_ja": "トランス現象学",
+    "name_en": "Trans Phenomenology",
+    "definition": "トランスジェンダーの身体経験、自己認識、社会的承認、医療制度との関係を現象学的に分析する領域である。身体違和を単純な病理としてではなく、規範、言語、触覚、鏡像、他者のまなざしが絡む経験として捉える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "クィア現象学・トランス哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "trans phenomenology,gender,embodiment",
+    "key_researchers": [
+      "Gayle Salamon",
+      "Talia Mae Bettcher",
+      "C. Riley Snorton"
+    ]
+  },
+  {
+    "name_ja": "クィア時間性",
+    "name_en": "Queer Temporality",
+    "definition": "人生を出生、成長、結婚、再生産、老後という規範的時間軸で測ることを批判し、遅れ、中断、反復、逸脱、別様の未来を考える概念である。クィアな生の経験から、時間と社会制度の結びつきを問い直す。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "クィア理論・現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "queer temporality,time,normativity",
+    "key_researchers": [
+      "Jack Halberstam",
+      "Elizabeth Freeman",
+      "Sara Ahmed"
+    ]
+  },
+  {
+    "name_ja": "障害の現象学",
+    "name_en": "Phenomenology of Disability",
+    "definition": "障害を個人の欠損ではなく、身体、環境、技術、制度、他者の態度が作る経験構造として分析する領域である。アクセス可能性、疲労、痛み、補助具、依存を通じて、標準的身体を前提にした世界の設計を批判する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "障害学・身体現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disability,phenomenology,accessibility",
+    "key_researchers": [
+      "Joel Michael Reynolds",
+      "Havi Carel",
+      "Margrit Shildrick"
+    ]
+  },
+  {
+    "name_ja": "デコロニアル現象学",
+    "name_en": "Decolonial Phenomenology",
+    "definition": "植民地主義が空間、身体、時間、知覚、自己理解をどのように構成するかを分析する現象学である。ヨーロッパ中心的主体を標準とする哲学を批判し、植民地的暴力を生きられた経験の水準から問い直す。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "脱植民地理論・現象学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "decolonial phenomenology,coloniality,embodiment",
+    "key_researchers": [
+      "Frantz Fanon",
+      "Nelson Maldonado-Torres",
+      "Mariana Ortega"
+    ]
+  },
+  {
+    "name_ja": "黒人性の存在論",
+    "name_en": "Ontology of Blackness",
+    "definition": "黒人性を単なる社会的属性ではなく、近代世界の人間概念、所有、暴力、可視性を構成する中心的問題として考える議論である。反黒人性、奴隷制の残存、警察暴力、身体経験を通じて存在論と政治を接続する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "黒人研究・批判的人種理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Blackness,anti-Blackness,ontology",
+    "key_researchers": [
+      "Frank B. Wilderson III",
+      "Fred Moten",
+      "Christina Sharpe"
+    ]
+  },
+  {
+    "name_ja": "ネクロポリティクス拡張",
+    "name_en": "Expanded Necropolitics",
+    "definition": "誰を生かし誰を死にさらすかを決定する権力を、戦争や植民地支配だけでなく、国境管理、パンデミック、気候危機、警察暴力、インフラ放棄へ拡張して分析する概念である。死の配分を現代統治の中心問題とする。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポストコロニアル政治哲学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "necropolitics,death,power",
+    "key_researchers": [
+      "Achille Mbembe",
+      "Judith Butler",
+      "Christina Sharpe"
+    ]
+  },
+  {
+    "name_ja": "生政治の気候化",
+    "name_en": "Climatization of Biopolitics",
+    "definition": "人口の生命を管理する生政治が、気候変動、災害、熱波、感染症、食料安全保障と結びついて再編される過程を示す概念である。生命の保護と放棄が、環境条件の管理を通じて実行される点を分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フーコー派・環境政治哲学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "biopolitics,climate,governance",
+    "key_researchers": [
+      "Michel Foucault",
+      "Achille Mbembe",
+      "Elizabeth Povinelli"
+    ]
+  },
+  {
+    "name_ja": "免疫政治",
+    "name_en": "Immunopolitics",
+    "definition": "社会が自己を守るために境界、排除、隔離、監視を強化する仕組みを、免疫の比喩から分析する概念である。パンデミック以後、身体の防御と国家の防御が重なり、共同性と排除の関係を問う語彙として重要化した。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "イタリア現代思想・生政治",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "immunopolitics,immunity,biopolitics",
+    "key_researchers": [
+      "Roberto Esposito",
+      "Giorgio Agamben",
+      "Jean-Luc Nancy"
+    ]
+  },
+  {
+    "name_ja": "監視資本主義批判",
+    "name_en": "Critique of Surveillance Capitalism",
+    "definition": "デジタルプラットフォームが行動データを抽出し、予測と介入を通じて主体形成を変える仕組みを批判する概念である。大陸哲学では、権力、欲望、注意、自己統治、技術的環境の問題として読み替えられている。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "技術批判理論・メディア哲学",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "surveillance capitalism,data,power",
+    "key_researchers": [
+      "Shoshana Zuboff",
+      "Bernard Stiegler",
+      "Antoinette Rouvroy"
+    ]
+  },
+  {
+    "name_ja": "アルゴリズム統治性",
+    "name_en": "Algorithmic Governmentality",
+    "definition": "統治が法や規律だけでなく、データ収集、予測モデル、スコアリング、自動化された分類を通じて作動する状態を分析する概念である。主体は命令される前に確率的に誘導され、未来の行動可能性が事前に調整される。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "フーコー派・デジタル哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "algorithmic governmentality,data,prediction",
+    "key_researchers": [
+      "Antoinette Rouvroy",
+      "Thomas Berns",
+      "Louise Amoore"
+    ]
+  },
+  {
+    "name_ja": "データ化された主体",
+    "name_en": "Datafied Subject",
+    "definition": "個人が自己語りや身体経験だけでなく、データプロファイル、ランキング、推薦、監視記録によって構成される現代的主体を指す概念である。現象学的自己経験と外部化されたデータ的自己のずれが、倫理と政治の課題となる。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "デジタル現象学・批判理論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "datafication,subjectivity,platforms",
+    "key_researchers": [
+      "Antoinette Rouvroy",
+      "Deborah Lupton",
+      "Bernard Stiegler"
+    ]
+  },
+  {
+    "name_ja": "デジタル現象学",
+    "name_en": "Digital Phenomenology",
+    "definition": "スマートフォン、SNS、VR、AI、オンライン会議が知覚、注意、身体感覚、他者経験、時間性をどのように変えるかを分析する現象学である。デジタル技術を外部道具ではなく、生活世界を再構成する環境として捉える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "技術現象学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "digital phenomenology,technology,experience",
+    "key_researchers": [
+      "Don Ihde",
+      "Peter-Paul Verbeek",
+      "Stéphane Vial"
+    ]
+  },
+  {
+    "name_ja": "ポスト現象学",
+    "name_en": "Postphenomenology",
+    "definition": "人間と技術の関係を、主体が道具を使用する単純な図式ではなく、技術が知覚と行為を媒介し世界を異なる仕方で現れさせる過程として分析する領域である。医療機器、AI、VR、環境センサーの哲学に応用される。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ポスト現象学・技術哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "postphenomenology,mediation,technology",
+    "key_researchers": [
+      "Don Ihde",
+      "Peter-Paul Verbeek",
+      "Robert Rosenberger"
+    ]
+  },
+  {
+    "name_ja": "AI倫理の大陸哲学",
+    "name_en": "Continental Philosophy of AI Ethics",
+    "definition": "AIを単なる道具や計算システムではなく、労働、知識、責任、主体性、差別、未来予測を再編する技術環境として批判的に考える領域である。透明性や公平性に加え、存在論、権力、ケア、判断の問題を問う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "技術哲学・批判理論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "AI ethics,technology,power",
+    "key_researchers": [
+      "Bernard Stiegler",
+      "Peter-Paul Verbeek",
+      "Luciano Floridi"
+    ]
+  },
+  {
+    "name_ja": "自動化された知覚",
+    "name_en": "Automated Perception",
+    "definition": "画像認識、センサー、監視カメラ、機械学習が、何を見えるものとして分類し、何を無視するかを決定する状況を分析する概念である。知覚を人間の経験だけでなく、技術的分類と権力の配置として捉える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "メディア哲学・批判的AI研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "automated perception,computer vision,classification",
+    "key_researchers": [
+      "Louise Amoore",
+      "Kate Crawford",
+      "Antoinette Rouvroy"
+    ]
+  },
+  {
+    "name_ja": "プラットフォーム時間性",
+    "name_en": "Platform Temporality",
+    "definition": "SNSや配信サービスが通知、フィード、推薦、即時性、過去の再浮上を通じて時間経験を再編することを示す概念である。待つこと、集中すること、記憶すること、未来を期待することが、技術的設計に媒介される。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "メディア現象学・批判理論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "platforms,temporality,attention",
+    "key_researchers": [
+      "Bernard Stiegler",
+      "Yuk Hui",
+      "Tiziana Terranova"
+    ]
+  },
+  {
+    "name_ja": "注意経済批判",
+    "name_en": "Critique of the Attention Economy",
+    "definition": "人間の注意が広告、プラットフォーム、通知設計によって収益化される仕組みを批判する概念である。注意を単なる認知資源ではなく、欲望、時間、教育、民主主義、精神的生活を支える条件として考える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "技術批判理論・精神のエコロジー",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "attention economy,distraction,platforms",
+    "key_researchers": [
+      "Bernard Stiegler",
+      "Yves Citton",
+      "Jonathan Crary"
+    ]
+  },
+  {
+    "name_ja": "薬と毒としての技術",
+    "name_en": "Technology as Pharmakon",
+    "definition": "技術を救済か破壊かの二分法で捉えず、同時に薬であり毒である両義的媒介として考える概念である。デジタル技術、教育、記憶、AIをめぐり、依存と創造、喪失と可能性を同時に分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "デリダ派・スティグレール派技術哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "pharmakon,technology,mediation",
+    "key_researchers": [
+      "Bernard Stiegler",
+      "Jacques Derrida",
+      "Yuk Hui"
+    ]
+  }
+]
+tokens used
+33,827

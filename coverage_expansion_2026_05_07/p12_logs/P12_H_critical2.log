@@ -1,0 +1,908 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a25-7eab-77d1-bd80-02c7629d48b6
+--------
+user
+「批判理論・社会哲学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念:
+フランクフルト学派第一世代、アドルノの否定弁証法、ハーバーマスの公共圏、ホネットの承認論、アクセル・ホネットの物象化
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"批判理論・社会哲学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "フランクフルト学派第一世代",
+    "name_en": "First Generation Frankfurt School",
+    "definition": "フランクフルト学派第一世代とは、社会研究所を中心にマルクス主義、精神分析、社会学、哲学を統合し、資本主義社会の支配、文化産業、権威主義、理性の道具化を批判した思想潮流である。経済決定論を退け、文化や主観性の次元から近代社会の矛盾を分析した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "critical theory,Frankfurt School",
+    "key_researchers": ["マックス・ホルクハイマー", "テオドール・アドルノ", "ヘルベルト・マルクーゼ", "ヴァルター・ベンヤミン"]
+  },
+  {
+    "name_ja": "アドルノの否定弁証法",
+    "name_en": "Adorno's Negative Dialectics",
+    "definition": "アドルノの否定弁証法とは、概念が対象を完全には捉えられない非同一性を出発点に、総合や肯定的体系へ回収される弁証法を批判する哲学である。現実の矛盾を和解済みのものとして扱わず、苦痛や破損された経験を思考の内部に保持する批判的実践を重視する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "negative dialectics,nonidentity",
+    "key_researchers": ["テオドール・アドルノ"]
+  },
+  {
+    "name_ja": "ハーバーマスの公共圏",
+    "name_en": "Habermas's Public Sphere",
+    "definition": "ハーバーマスの公共圏とは、国家権力や市場から相対的に自律した市民が、公共的関心について理性的討議を行い、政治的意思形成に影響を与える社会空間である。近代市民社会の形成とともに成立したが、マスメディアや消費文化によって変質する過程も分析対象となる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "public sphere,deliberation",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "ホネットの承認論",
+    "name_en": "Honneth's Theory of Recognition",
+    "definition": "ホネットの承認論とは、社会的自由や個人の自己実現が、愛、権利、連帯という相互承認の制度的・実践的関係に依存するという社会哲学である。不正義を単なる資源配分の問題ではなく、軽蔑、不可視化、尊厳の毀損として捉え、社会闘争の道徳的文法を明らかにする。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第三世代",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "recognition,misrecognition",
+    "key_researchers": ["アクセル・ホネット"]
+  },
+  {
+    "name_ja": "アクセル・ホネットの物象化",
+    "name_en": "Axel Honneth's Reification",
+    "definition": "アクセル・ホネットの物象化とは、他者や自己や世界との関係に先立つ参与的承認を忘却し、それらを単なる物や観察対象として扱う態度のことである。ルカーチの議論を継承しつつ、認識論ではなく承認論の観点から、社会的病理としての冷却した関係性を分析する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第三世代",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "reification,recognition",
+    "key_researchers": ["アクセル・ホネット", "ゲオルク・ルカーチ"]
+  },
+  {
+    "name_ja": "批判理論",
+    "name_en": "Critical Theory",
+    "definition": "批判理論とは、社会を単に説明するだけでなく、支配、疎外、抑圧を生み出す歴史的条件を明らかにし、解放の可能性を探る理論的実践である。実証主義的中立性を疑い、知識そのものが社会的利害や権力関係に組み込まれることを反省的に検討する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "critical theory,emancipation",
+    "key_researchers": ["マックス・ホルクハイマー", "ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "伝統的理論と批判的理論",
+    "name_en": "Traditional and Critical Theory",
+    "definition": "伝統的理論と批判的理論とは、ホルクハイマーが区別した二つの知のあり方である。伝統的理論は観察者の中立性を前提に対象を説明するが、批判的理論は理論家自身も社会過程に含まれると考え、知識の社会的機能と解放的関心を問う。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "traditional theory,critical theory",
+    "key_researchers": ["マックス・ホルクハイマー"]
+  },
+  {
+    "name_ja": "道具的理性",
+    "name_en": "Instrumental Reason",
+    "definition": "道具的理性とは、目的そのものの正当性を問わず、与えられた目的を達成するための効率的手段の計算へ理性を縮減するあり方である。批判理論では、自然支配、管理社会、官僚制、資本主義的合理化が人間関係までも操作可能な対象へ変える過程を示す概念である。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_en": "instrumental reason,rationalization",
+    "key_researchers": ["マックス・ホルクハイマー", "テオドール・アドルノ"]
+  },
+  {
+    "name_ja": "啓蒙の弁証法",
+    "name_en": "Dialectic of Enlightenment",
+    "definition": "啓蒙の弁証法とは、人間を神話や恐怖から解放するはずの啓蒙理性が、自然と人間を支配する道具的合理性へ反転する過程を分析する概念である。近代の進歩が野蛮や全体主義と結びつく逆説を、神話、文化産業、反ユダヤ主義の考察を通じて示す。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_en": "enlightenment,myth",
+    "key_researchers": ["マックス・ホルクハイマー", "テオドール・アドルノ"]
+  },
+  {
+    "name_ja": "文化産業",
+    "name_en": "Culture Industry",
+    "definition": "文化産業とは、映画、ラジオ、雑誌などの大衆文化が標準化され、商品として大量生産されることで、人々の欲望や想像力を管理する仕組みを指す。娯楽は自由な表現に見えながら、消費者を受動化し、既存秩序への同調を強める装置として批判される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_en": "culture industry,mass culture",
+    "key_researchers": ["テオドール・アドルノ", "マックス・ホルクハイマー"]
+  },
+  {
+    "name_ja": "権威主義的パーソナリティ",
+    "name_en": "Authoritarian Personality",
+    "definition": "権威主義的パーソナリティとは、服従、硬直した規範意識、外集団への攻撃性、迷信的思考などを特徴とし、ファシズムや偏見を支える心理的構造を説明する概念である。社会的権威と家族的しつけ、経済的不安が人格形成に及ぼす影響を実証的に分析した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "authoritarianism,prejudice",
+    "key_researchers": ["テオドール・アドルノ", "エルゼ・フレンケル＝ブランズウィック"]
+  },
+  {
+    "name_ja": "一元的人間",
+    "name_en": "One-Dimensional Man",
+    "definition": "一元的人間とは、高度産業社会において批判的思考や否定性が吸収され、人々が消費、技術、管理の論理に適応してしまう状態を表す概念である。マルクーゼは、豊かさと自由の外見の背後で、反対派の想像力が制度内に統合される社会的メカニズムを批判した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "one-dimensionality,advanced industrial society",
+    "key_researchers": ["ヘルベルト・マルクーゼ"]
+  },
+  {
+    "name_ja": "抑圧的脱昇華",
+    "name_en": "Repressive Desublimation",
+    "definition": "抑圧的脱昇華とは、欲望や快楽の解放が体制への抵抗を強めるのではなく、商品消費や管理された娯楽に組み込まれて支配を補強する現象である。マルクーゼは、性的・文化的自由の拡大が、批判的否定性を失った適応の形式になりうると論じた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1955,
+    "era_end": null,
+    "keywords_en": "desublimation,repression",
+    "key_researchers": ["ヘルベルト・マルクーゼ"]
+  },
+  {
+    "name_ja": "コミュニケーション的行為",
+    "name_en": "Communicative Action",
+    "definition": "コミュニケーション的行為とは、行為者が成功や操作ではなく相互理解を志向し、妥当性要求を言語的に提示し合う社会的行為である。ハーバーマスはこの概念により、合理性を道具的計算に限定せず、言語、規範、合意形成に内在する解放的可能性を示した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "communicative action,understanding",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "コミュニケーション的合理性",
+    "name_en": "Communicative Rationality",
+    "definition": "コミュニケーション的合理性とは、発話者が真理、正当性、誠実性などの妥当性要求を相互に吟味し、強制なき合意を目指す能力である。社会統合や民主主義の基盤を、主体の孤立した意識ではなく、言語的相互行為の実践に見いだす点に特徴がある。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "communicative rationality,validity claims",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "生活世界",
+    "name_en": "Lifeworld",
+    "definition": "生活世界とは、人々が日常的な相互理解を行う際に前提としている文化的知識、社会的規範、人格形成の背景的地平である。ハーバーマスは、生活世界が言語的コミュニケーションによって再生産される一方、貨幣や権力のシステム論理に侵食されると論じた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "lifeworld,social integration",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "システムによる生活世界の植民地化",
+    "name_en": "Colonization of the Lifeworld",
+    "definition": "システムによる生活世界の植民地化とは、貨幣や行政権力に媒介された機能的合理性が、家族、教育、公共討議など相互理解に基づく領域へ侵入する現象である。これにより、社会的連帯や意味形成が弱まり、疎外、無力感、正当性危機が生じるとされる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "colonization,lifeworld",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "討議倫理",
+    "name_en": "Discourse Ethics",
+    "definition": "討議倫理とは、規範の正当性を、影響を受けるすべての人が自由で平等な討議に参加したなら合意しうるかという手続きによって評価する倫理理論である。普遍主義を保持しつつ、道徳的妥当性を独白的理性ではなく相互承認的な議論の実践に結びつける。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_en": "discourse ethics,moral validity",
+    "key_researchers": ["ユルゲン・ハーバーマス", "カール＝オットー・アーペル"]
+  },
+  {
+    "name_ja": "熟議民主主義",
+    "name_en": "Deliberative Democracy",
+    "definition": "熟議民主主義とは、政治的正当性を投票や利益集計だけでなく、市民と制度的アクターによる公開の理由提示、討議、相互批判に基礎づける民主主義理論である。公共圏、法、議会、社会運動が連動し、より反省的な集合的意思形成を可能にすると考える。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "熟議民主主義",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "deliberative democracy,public reason",
+    "key_researchers": ["ユルゲン・ハーバーマス", "ジョシュア・コーエン", "エイミー・ガットマン"]
+  },
+  {
+    "name_ja": "正当性危機",
+    "name_en": "Legitimation Crisis",
+    "definition": "正当性危機とは、後期資本主義国家が経済安定、社会福祉、民主的承認を同時に維持しようとするなかで、統治への信頼や規範的支持を失う現象である。ハーバーマスは、行政的介入の拡大が問題解決能力を高める一方、政治的正統性を侵食すると分析した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "legitimation crisis,late capitalism",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "認識と関心",
+    "name_en": "Knowledge and Human Interests",
+    "definition": "認識と関心とは、人間の知識が純粋に中立的に成立するのではなく、技術的支配、実践的相互理解、解放的自己反省という関心に導かれるというハーバーマスの枠組みである。自然科学、解釈学、批判的社会科学の差異を、知の社会的目的から捉え直す。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "knowledge,interests",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "社会的病理",
+    "name_en": "Social Pathology",
+    "definition": "社会的病理とは、社会制度や文化的実践が個人の自由、相互承認、自己実現を体系的に損なう状態を診断する概念である。批判理論では、単なる個人の不適応ではなく、正常に見える制度そのものが苦痛や歪んだ関係を生み出す点を問題にする。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "批判理論",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "social pathology,diagnosis",
+    "key_researchers": ["アクセル・ホネット", "ラエル・イェギ"]
+  },
+  {
+    "name_ja": "社会的自由",
+    "name_en": "Social Freedom",
+    "definition": "社会的自由とは、個人が孤立して選択する自由ではなく、他者との制度化された協力関係のなかで自分の目的を実現できる状態を指す。ホネットは、家族、市場、民主的公共性などの制度が相互承認を通じて自由を可能にするかを規範的に評価した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第三世代",
+    "era_start": 2011,
+    "era_end": null,
+    "keywords_en": "social freedom,recognition",
+    "key_researchers": ["アクセル・ホネット"]
+  },
+  {
+    "name_ja": "闘争としての承認",
+    "name_en": "Struggle for Recognition",
+    "definition": "闘争としての承認とは、社会運動や道徳的抗議が、利益や権力獲得だけでなく、尊厳、権利、価値評価を求める承認要求として理解されるという考え方である。ホネットは、軽蔑経験が不正義の感覚を生み、制度変革へ向かう集合的闘争の動機になると論じた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第三世代",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "struggle,recognition",
+    "key_researchers": ["アクセル・ホネット"]
+  },
+  {
+    "name_ja": "軽蔑",
+    "name_en": "Disrespect",
+    "definition": "軽蔑とは、個人や集団が身体的安全、法的尊重、社会的価値評価を否定されることで、自己信頼、自己尊重、自己評価を損なわれる経験である。承認論では、不正義の核心を資源不足だけでなく、人格形成を破壊する関係的損傷として捉える。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "承認論",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "disrespect,misrecognition",
+    "key_researchers": ["アクセル・ホネット"]
+  },
+  {
+    "name_ja": "再分配と承認",
+    "name_en": "Redistribution and Recognition",
+    "definition": "再分配と承認とは、社会正義を経済的不平等の是正と文化的・地位的軽視の克服という二つの次元から考える枠組みである。ナンシー・フレイザーは、階級、ジェンダー、人種をめぐる不正義が、経済構造と象徴秩序の双方にまたがると論じた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト批判理論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "redistribution,recognition",
+    "key_researchers": ["ナンシー・フレイザー", "アクセル・ホネット"]
+  },
+  {
+    "name_ja": "参加の同等性",
+    "name_en": "Parity of Participation",
+    "definition": "参加の同等性とは、すべての人が社会生活に対等な参加者として関与できることを正義の基準とするフレイザーの概念である。経済的資源の不足や文化的地位の低さが参加を妨げる場合、それは再分配と承認の双方から批判されるべき不正義となる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト批判理論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "participatory parity,justice",
+    "key_researchers": ["ナンシー・フレイザー"]
+  },
+  {
+    "name_ja": "サバルタン公共圏",
+    "name_en": "Subaltern Counterpublics",
+    "definition": "サバルタン公共圏とは、支配的公共圏から排除された女性、労働者、少数者などが、自らの経験を共有し、対抗的な言説や政治的要求を形成する公共的空間である。単一の公共圏という理想を批判し、複数の対抗公共性が民主主義を豊かにすると考える。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト批判理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "counterpublics,subaltern",
+    "key_researchers": ["ナンシー・フレイザー"]
+  },
+  {
+    "name_ja": "批判的公共性",
+    "name_en": "Critical Publicity",
+    "definition": "批判的公共性とは、社会的権力や制度を監視し、公開の議論を通じて正当性を問い直す公共的実践を指す。公共性は単なる情報流通ではなく、誰が発言できるか、どの経験が公共的問題と認められるかをめぐる闘争の場でもある。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "公共圏論",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "publicity,critique",
+    "key_researchers": ["ユルゲン・ハーバーマス", "ナンシー・フレイザー"]
+  },
+  {
+    "name_ja": "疎外",
+    "name_en": "Alienation",
+    "definition": "疎外とは、人間が自らの労働、社会関係、制度、自己の能力を自分に敵対する外的な力として経験する状態である。マルクスに由来するこの概念は、資本主義的労働だけでなく、日常生活、消費文化、社会的無力感を分析する批判理論の中心概念である。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "マルクス主義社会哲学",
+    "era_start": 1844,
+    "era_end": null,
+    "keywords_en": "alienation,labor",
+    "key_researchers": ["カール・マルクス", "ラエル・イェギ"]
+  },
+  {
+    "name_ja": "物象化",
+    "name_en": "Reification",
+    "definition": "物象化とは、人間同士の社会関係が物や自然的事実のように見え、人々が自ら作り出した制度や商品関係に支配される現象である。ルカーチは商品形態が意識構造にまで及ぶと論じ、批判理論はこの概念を近代社会の客体化と支配の分析に用いた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "西欧マルクス主義",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "reification,commodity form",
+    "key_researchers": ["ゲオルク・ルカーチ", "カール・マルクス"]
+  },
+  {
+    "name_ja": "商品フェティシズム",
+    "name_en": "Commodity Fetishism",
+    "definition": "商品フェティシズムとは、商品の交換関係が人間の労働や社会関係を隠蔽し、商品それ自体が価値を持つかのように現れる現象である。市場社会では、人間同士の関係が物同士の関係として経験され、資本主義の歴史的性格が自然化される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "マルクス主義社会哲学",
+    "era_start": 1867,
+    "era_end": null,
+    "keywords_en": "commodity fetishism,value",
+    "key_researchers": ["カール・マルクス"]
+  },
+  {
+    "name_ja": "イデオロギー批判",
+    "name_en": "Ideology Critique",
+    "definition": "イデオロギー批判とは、支配的な観念、制度、常識が中立的または自然なものとして現れながら、実際には特定の権力関係や社会的不平等を再生産していることを明らかにする方法である。虚偽意識の暴露だけでなく、実践を可能にする意味構造の分析も含む。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "批判理論",
+    "era_start": 1845,
+    "era_end": null,
+    "keywords_en": "ideology critique,false consciousness",
+    "key_researchers": ["カール・マルクス", "マックス・ホルクハイマー", "スラヴォイ・ジジェク"]
+  },
+  {
+    "name_ja": "内在的批判",
+    "name_en": "Immanent Critique",
+    "definition": "内在的批判とは、社会や制度が掲げる規範や自己理解を外部から否定するのではなく、その内部の約束と現実の矛盾を示す批判方法である。自由、平等、尊厳などの理念が制度内でどのように裏切られているかを明らかにし、変革の根拠を内側から引き出す。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "ヘーゲル主義的批判理論",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "immanent critique,normativity",
+    "key_researchers": ["テオドール・アドルノ", "アクセル・ホネット", "ラエル・イェギ"]
+  },
+  {
+    "name_ja": "解放的関心",
+    "name_en": "Emancipatory Interest",
+    "definition": "解放的関心とは、人間が支配、歪曲されたコミュニケーション、自己誤解から自由になることを目指す知の根本的関心である。ハーバーマスは、批判的社会科学や精神分析にこの関心を見いだし、知識が単なる予測や理解を超えて自己反省を促すと考えた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第二世代",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "emancipation,self-reflection",
+    "key_researchers": ["ユルゲン・ハーバーマス"]
+  },
+  {
+    "name_ja": "社会的正義",
+    "name_en": "Social Justice",
+    "definition": "社会的正義とは、社会制度が人々の自由、尊厳、機会、参加、承認をどのように配分し保障するかを問う規範的概念である。批判理論では、抽象的原理だけでなく、実際の排除、搾取、軽視、沈黙化の経験から正義の条件を検討する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "社会哲学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "social justice,normativity",
+    "key_researchers": ["ジョン・ロールズ", "ナンシー・フレイザー", "アクセル・ホネット"]
+  },
+  {
+    "name_ja": "分配的正義",
+    "name_en": "Distributive Justice",
+    "definition": "分配的正義とは、所得、財、機会、権利、社会的負担がどのように配分されるべきかを問う正義論である。批判理論では、配分の結果だけでなく、誰が配分規則を決定するのか、どの制度が不平等を再生産するのかという構造的問題と結びつけて考える。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "規範的社会哲学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "distributive justice,equality",
+    "key_researchers": ["ジョン・ロールズ", "ナンシー・フレイザー"]
+  },
+  {
+    "name_ja": "能力アプローチ",
+    "name_en": "Capability Approach",
+    "definition": "能力アプローチとは、社会の正義を資源や効用の量ではなく、人々が実際に何を行い、どのような存在になれるかという実質的自由によって評価する理論である。教育、健康、政治参加、身体的安全など、生活の具体的可能性を重視する点で社会哲学に大きな影響を与えた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "能力アプローチ",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "capabilities,substantive freedom",
+    "key_researchers": ["アマルティア・セン", "マーサ・ヌスバウム"]
+  },
+  {
+    "name_ja": "構造的不正義",
+    "name_en": "Structural Injustice",
+    "definition": "構造的不正義とは、特定の個人の悪意や単一の違法行為ではなく、多数の制度、慣行、選択が積み重なることで特定集団に不利益をもたらす不正義である。アイリス・マリオン・ヤングは、責任を過去の罪責だけでなく、変革へ向かう政治的責任として考えた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト社会哲学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "structural injustice,responsibility",
+    "key_researchers": ["アイリス・マリオン・ヤング"]
+  },
+  {
+    "name_ja": "抑圧の五つの顔",
+    "name_en": "Five Faces of Oppression",
+    "definition": "抑圧の五つの顔とは、搾取、周縁化、無力化、文化帝国主義、暴力という複数の形で抑圧を捉えるヤングの枠組みである。抑圧を単一の階級支配に還元せず、制度的地位、文化表象、身体的安全など多面的な社会的制約として分析する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト社会哲学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "oppression,marginalization",
+    "key_researchers": ["アイリス・マリオン・ヤング"]
+  },
+  {
+    "name_ja": "差異の政治",
+    "name_en": "Politics of Difference",
+    "definition": "差異の政治とは、普遍的市民や形式的平等の名のもとで不可視化されるジェンダー、人種、文化、身体などの差異を、民主的正義の中心問題として扱う立場である。同化を要求する平等ではなく、異なる経験や声が制度的に尊重される参加条件を求める。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト社会哲学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "difference,politics",
+    "key_researchers": ["アイリス・マリオン・ヤング", "チャールズ・テイラー"]
+  },
+  {
+    "name_ja": "交差性",
+    "name_en": "Intersectionality",
+    "definition": "交差性とは、人種、ジェンダー、階級、性的指向、障害などの権力軸が相互に交差し、単独のカテゴリーでは捉えられない抑圧や特権を生み出すという分析概念である。社会哲学では、普遍的主体を前提にした正義論や公共圏論の限界を批判するために用いられる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "ブラック・フェミニズム",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "intersectionality,power",
+    "key_researchers": ["キンバリー・クレンショー", "パトリシア・ヒル・コリンズ"]
+  },
+  {
+    "name_ja": "ケアの倫理",
+    "name_en": "Ethics of Care",
+    "definition": "ケアの倫理とは、抽象的権利や普遍的規則だけでなく、依存、脆弱性、応答責任、関係性を道徳と政治の中心に置く理論である。社会哲学では、家庭や福祉の領域に押し込められたケア労働を可視化し、正義論の個人主義的前提を問い直す。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト倫理学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "care ethics,dependency",
+    "key_researchers": ["キャロル・ギリガン", "ジョアン・トロント", "エヴァ・キテイ"]
+  },
+  {
+    "name_ja": "脆弱性",
+    "name_en": "Vulnerability",
+    "definition": "脆弱性とは、人間が身体的、社会的、経済的、感情的に傷つきやすく、他者や制度に依存して生きる存在であることを示す概念である。批判的社会哲学では、自律的で独立した主体像を問い直し、ケア、福祉、災害、暴力、貧困の制度的責任を考える基盤となる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト社会哲学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "vulnerability,dependency",
+    "key_researchers": ["ジュディス・バトラー", "マーサ・フィネマン"]
+  },
+  {
+    "name_ja": "プレカリティ",
+    "name_en": "Precarity",
+    "definition": "プレカリティとは、不安定雇用、社会保障の弱体化、移民化、住居不安、暴力への曝露などにより、人々の生活基盤が恒常的に不安定化する状態である。批判理論では、新自由主義的統治が脆弱性を個人責任化し、集団的連帯を困難にする仕組みを分析する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "現代批判理論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "precarity,neoliberalism",
+    "key_researchers": ["ジュディス・バトラー", "ガイ・スタンディング"]
+  },
+  {
+    "name_ja": "新自由主義批判",
+    "name_en": "Critique of Neoliberalism",
+    "definition": "新自由主義批判とは、市場競争、自己責任、民営化、規制緩和が社会生活の広範な領域を支配し、市民を企業家的人間像へ形成する過程を批判する議論である。経済政策だけでなく、教育、福祉、労働、主体性の統治様式として分析される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "現代批判理論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "neoliberalism,governmentality",
+    "key_researchers": ["ミシェル・フーコー", "ウェンディ・ブラウン", "デヴィッド・ハーヴェイ"]
+  },
+  {
+    "name_ja": "統治性",
+    "name_en": "Governmentality",
+    "definition": "統治性とは、国家が命令や法だけで人々を支配するのではなく、知識、制度、専門技術、自己管理を通じて主体を形成し行為を導く権力の様式である。フーコーの概念であり、福祉国家、新自由主義、リスク管理、人口政策の分析に用いられる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フーコー派社会哲学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "governmentality,power",
+    "key_researchers": ["ミシェル・フーコー"]
+  },
+  {
+    "name_ja": "生権力",
+    "name_en": "Biopower",
+    "definition": "生権力とは、近代権力が個々の身体と人口の生命過程を管理し、健康、出生、死亡、性、衛生、労働能力を政治的対象にする様式である。フーコーは、主権による死の権力から、生を増進し調整する権力への転換として近代社会を分析した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フーコー派社会哲学",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "biopower,biopolitics",
+    "key_researchers": ["ミシェル・フーコー"]
+  },
+  {
+    "name_ja": "規律権力",
+    "name_en": "Disciplinary Power",
+    "definition": "規律権力とは、監視、訓練、試験、標準化を通じて身体を有用で従順なものへ形成する近代的権力の形式である。学校、工場、軍隊、病院、監獄などの制度において、個人は可視化され、測定され、自己監視する主体として作られる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フーコー派社会哲学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "discipline,surveillance",
+    "key_researchers": ["ミシェル・フーコー"]
+  },
+  {
+    "name_ja": "パノプティコン",
+    "name_en": "Panopticon",
+    "definition": "パノプティコンとは、監視されているかもしれないという可能性を通じて、個人が自発的に自分を規律する権力装置のモデルである。ベンサムの監獄構想をフーコーが近代社会の権力図式として読み替え、学校、工場、行政、デジタル監視の分析へ拡張された。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フーコー派社会哲学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "panopticon,surveillance",
+    "key_researchers": ["ミシェル・フーコー", "ジェレミー・ベンサム"]
+  },
+  {
+    "name_ja": "権力知",
+    "name_en": "Power/Knowledge",
+    "definition": "権力知とは、知識が権力から独立して存在するのではなく、分類、診断、測定、専門的言説を通じて対象と主体を作り出すというフーコーの概念である。真理は単なる虚偽の覆いではなく、制度的実践の中で効果を持つものとして分析される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フーコー派社会哲学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "power knowledge,discourse",
+    "key_researchers": ["ミシェル・フーコー"]
+  },
+  {
+    "name_ja": "ヘゲモニー",
+    "name_en": "Hegemony",
+    "definition": "ヘゲモニーとは、支配階級が強制だけでなく、文化、教育、常識、道徳的指導を通じて被支配層の同意を組織する支配形態である。グラムシの概念であり、国家と市民社会、知識人、文化闘争の関係を分析する批判的社会理論の重要語である。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "西欧マルクス主義",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "hegemony,consent",
+    "key_researchers": ["アントニオ・グラムシ"]
+  },
+  {
+    "name_ja": "サバルタン",
+    "name_en": "Subaltern",
+    "definition": "サバルタンとは、植民地主義、階級、ジェンダー、民族、言語などの権力関係によって、支配的言説の中で発話や代表の位置を奪われた人々を指す。ポストコロニアル批判理論では、誰が語ることを許され、誰の経験が知識として認められるかを問う。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "subaltern,representation",
+    "key_researchers": ["ガヤトリ・スピヴァク", "ラナジット・グハ"]
+  },
+  {
+    "name_ja": "オリエンタリズム",
+    "name_en": "Orientalism",
+    "definition": "オリエンタリズムとは、西洋が東洋を異質で劣った他者として表象し、その知識を通じて植民地支配や文化的優越を正当化する言説構造である。サイードは、文学、学問、行政が結びつき、対象地域を語る権力を形成することを批判した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "orientalism,colonial discourse",
+    "key_researchers": ["エドワード・サイード"]
+  },
+  {
+    "name_ja": "植民地主義の批判",
+    "name_en": "Critique of Colonialism",
+    "definition": "植民地主義の批判とは、領土支配や経済搾取だけでなく、知識、文化、人種化、主体形成を通じて植民地支配が継続する仕組みを分析する理論的実践である。独立後も残る不平等、言語的支配、歴史記憶の抹消を社会哲学の課題として扱う。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_en": "colonialism,decolonization",
+    "key_researchers": ["フランツ・ファノン", "エメ・セゼール", "エドワード・サイード"]
+  },
+  {
+    "name_ja": "脱植民地化",
+    "name_en": "Decolonization",
+    "definition": "脱植民地化とは、政治的独立にとどまらず、知識体系、制度、文化的価値、身体感覚、歴史叙述に残る植民地主義の影響を解体し再構成する過程である。批判的社会哲学では、近代性や普遍性の名で不可視化された暴力を問い直す概念である。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "decolonization,coloniality",
+    "key_researchers": ["フランツ・ファノン", "アニバル・キハーノ", "ウォルター・ミニョーロ"]
+  },
+  {
+    "name_ja": "植民性",
+    "name_en": "Coloniality",
+    "definition": "植民性とは、形式的植民地支配が終わった後も、知識、権力、人種分類、労働分業、文化的価値の中に植民地主義的秩序が持続する状態を指す。ラテンアメリカの脱植民地理論では、近代性そのものが植民性と結びついて成立したと批判される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "coloniality,modernity",
+    "key_researchers": ["アニバル・キハーノ", "ウォルター・ミニョーロ", "マリア・ルゴネス"]
+  },
+  {
+    "name_ja": "人種化",
+    "name_en": "Racialization",
+    "definition": "人種化とは、生物学的に固定された人種があるかのように人々を分類し、身体、文化、言語、宗教、国籍に意味を付与して社会的序列を作る過程である。批判的社会哲学では、人種を自然的事実ではなく、制度と表象によって生産される権力関係として分析する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "批判的人種理論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "racialization,race",
+    "key_researchers": ["スチュアート・ホール", "キンバリー・クレンショー", "チャールズ・ミルズ"]
+  },
+  {
+    "name_ja": "白人性",
+    "name_en": "Whiteness",
+    "definition": "白人性とは、白人であることが中立、普遍、標準として扱われることで、特権や支配的位置が不可視化される社会的構築物である。批判的人種理論では、差別される集団だけでなく、優位な主体位置がどのように制度や認識を形作るかを問う。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "批判的人種理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "whiteness,privilege",
+    "key_researchers": ["デイヴィッド・ローディガー", "チャールズ・ミルズ"]
+  },
+  {
+    "name_ja": "認識的不正義",
+    "name_en": "Epistemic Injustice",
+    "definition": "認識的不正義とは、話し手が偏見によって信用されない証言的不正義や、経験を理解する概念資源が社会に不足している解釈的不正義を指す。社会哲学では、知る主体としての承認が不平等に配分されることで、沈黙や誤解が制度的に再生産される点を批判する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト認識論",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_en": "epistemic injustice,testimony",
+    "key_researchers": ["ミランダ・フリッカー"]
+  },
+  {
+    "name_ja": "立場認識論",
+    "name_en": "Standpoint Epistemology",
+    "definition": "立場認識論とは、社会的に周縁化された人々の経験が、支配的秩序の矛盾や不可視化された前提を見抜く特権的な認識資源になりうるという考え方である。知識を抽象的中立性からではなく、権力関係の中に位置づけられた主体の経験から捉える。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト認識論",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_en": "standpoint epistemology,situated knowledge",
+    "key_researchers": ["ナンシー・ハーツォック", "サンドラ・ハーディング", "ドナ・ハラウェイ"]
+  },
+  {
+    "name_ja": "位置づけられた知",
+    "name_en": "Situated Knowledge",
+    "definition": "位置づけられた知とは、知識がどこからでもない視点から生じるのではなく、身体、歴史、技術、社会的位置に埋め込まれているという考え方である。ハラウェイは、客観性を放棄するのではなく、視点の有限性と責任を自覚した強い客観性として再構成した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フェミニスト科学論",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "situated knowledge,objectivity",
+    "key_researchers": ["ドナ・ハラウェイ", "サンドラ・ハーディング"]
+  },
+  {
+    "name_ja": "アクター・ネットワーク理論",
+    "name_en": "Actor-Network Theory",
+    "definition": "アクター・ネットワーク理論とは、人間だけでなく技術、文書、装置、制度などの非人間的アクターも社会秩序の形成に関与すると考える理論である。批判理論との関係では、社会的事実を固定的構造としてではなく、翻訳と連結のネットワークとして分析する視角を提供する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "科学技術社会論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "actor-network theory,nonhuman actors",
+    "key_researchers": ["ブルーノ・ラトゥール", "ミシェル・カロン", "ジョン・ロー"]
+  },
+  {
+    "name_ja": "技術批判",
+    "name_en": "Critique of Technology",
+    "definition": "技術批判とは、技術を中立的手段としてではなく、社会的価値、権力関係、労働組織、身体、環境を形作る制度的実践として分析する立場である。フランクフルト学派から現代のアルゴリズム批判まで、合理化と支配の関係を問う中心的課題である。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "批判的技術論",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "technology critique,rationalization",
+    "key_researchers": ["ヘルベルト・マルクーゼ", "アンドリュー・フィーンバーグ", "ラングドン・ウィナー"]
+  },
+  {
+    "name_ja": "アルゴリズム的統治",
+    "name_en": "Algorithmic Governance",
+    "definition": "アルゴリズム的統治とは、データ分析、予測モデル、自動化された分類や評価によって、人々の機会、可視性、リスク、行動が管理される統治様式である。批判的社会哲学では、透明性、差別、責任、監視、主体形成の問題として検討される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "デジタル批判理論",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "algorithmic governance,automation",
+    "key_researchers": ["アントワネット・ルヴロワ", "タラ・ガレスピー", "ヴァージニア・ユーバンクス"]
+  },
+  {
+    "name_ja": "監視資本主義",
+    "name_en": "Surveillance Capitalism",
+    "definition": "監視資本主義とは、個人の行動データを抽出、予測、操作し、広告や市場取引の資源として利用する資本主義の形態である。デジタルプラットフォームが生活世界をデータ化し、選択や注意を誘導することで、自由、プライバシー、民主主義に新たな脅威を生む。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "デジタル批判理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "surveillance capitalism,data extraction",
+    "key_researchers": ["ショシャナ・ズボフ"]
+  },
+  {
+    "name_ja": "プラットフォーム資本主義",
+    "name_en": "Platform Capitalism",
+    "definition": "プラットフォーム資本主義とは、デジタルプラットフォームが利用者、労働者、広告主、サービス提供者を媒介し、データとネットワーク効果を通じて価値を蓄積する経済形態である。労働の断片化、独占、評価システム、アルゴリズム管理を批判的に分析する概念である。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "デジタル批判理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platform capitalism,digital labor",
+    "key_researchers": ["ニック・スルニチェク", "トレボー・ショルツ"]
+  },
+  {
+    "name_ja": "承認の政治",
+    "name_en": "Politics of Recognition",
+    "definition": "承認の政治とは、個人や集団のアイデンティティ、文化、尊厳が社会的に正しく承認されることを政治的要求の中心に置く考え方である。多文化主義、先住民の権利、ジェンダー、宗教的少数者の問題において、同化ではなく差異の尊重を求める議論を形成した。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "多文化主義",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "recognition,identity politics",
+    "key_researchers": ["チャールズ・テイラー", "アクセル・ホネット"]
+  },
+  {
+    "name_ja": "多文化主義",
+    "name_en": "Multiculturalism",
+    "definition": "多文化主義とは、文化的、宗教的、言語的に異なる集団が、単なる私的差異としてではなく、公共的に尊重されるべき存在として共存するための政治哲学である。批判的観点では、文化の承認が内部抑圧や経済的不平等を隠さないかも問われる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "多文化主義",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "multiculturalism,cultural rights",
+    "key_researchers": ["チャールズ・テイラー", "ウィル・キムリッカ", "スーザン・モラー・オーキン"]
+  },
+  {
+    "name_ja": "アイデンティティ政治",
+    "name_en": "Identity Politics",
+    "definition": "アイデンティティ政治とは、人種、ジェンダー、セクシュアリティ、民族、障害などの共有された経験や社会的位置に基づき、承認、権利、再分配を求める政治実践である。批判理論では、解放の資源である一方、固定化や排除を生む危険も検討される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "現代社会運動論",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "identity politics,recognition",
+    "key_researchers": ["コンバヒー・リバー・コレクティヴ", "ナンシー・フレイザー", "ジュディス・バトラー"]
+  },
+  {
+    "name_ja": "ジェンダー・パフォーマティヴィティ",
+    "name_en": "Gender Performativity",
+    "definition": "ジェンダー・パフォーマティヴィティとは、ジェンダーが内面の本質の表現ではなく、反復される行為、規範、身体的実践を通じて成立するという概念である。バトラーは、自然に見える性別秩序が社会的反復によって作られ、その反復のずれに変革可能性があると論じた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "クィア理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "gender performativity,queer theory",
+    "key_researchers": ["ジュディス・バトラー"]
+  },
+  {
+    "name_ja": "異性愛規範性",
+    "name_en": "Heteronormativity",
+    "definition": "異性愛規範性とは、異性愛、二元的性別、結婚、生殖を自然で標準的な秩序として扱い、それ以外の性や親密性を逸脱化または不可視化する社会的規範である。クィア理論では、制度、言語、文化表象がこの規範を再生産する仕組みを批判する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "クィア理論",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "heteronormativity,sexuality",
+    "key_researchers": ["マイケル・ワーナー", "ジュディス・バトラー"]
+  },
+  {
+    "name_ja": "アフェクト理論",
+    "name_en": "Affect Theory",
+    "definition": "アフェクト理論とは、感情、情動、身体的強度、雰囲気が社会秩序や政治的動員に果たす役割を分析する理論群である。理性中心の公共性や主体論を補正し、恐怖、怒り、恥、希望、共感が権力や抵抗の形式を形作ることを明らかにする。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "現代批判理論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "affect,emotion",
+    "key_researchers": ["ブライアン・マッスミ", "サラ・アーメッド", "ローレン・バーラント"]
+  },
+  {
+    "name_ja": "情動的公共圏",
+    "name_en": "Affective Public Sphere",
+    "definition": "情動的公共圏とは、公共的議論が冷静な理性や情報交換だけでなく、怒り、共感、恐怖、羞恥、連帯感などの情動によって形成される空間である。デジタルメディアや社会運動の分析では、感情が排除や分断だけでなく、政治的可視化や動員にも関わるとされる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "公共圏論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "affective publics,public sphere",
+    "key_researchers": ["ジジ・パパチャリシ", "サラ・アーメッド"]
+  },
+  {
+    "name_ja": "社会的加速",
+    "name_en": "Social Acceleration",
+    "definition": "社会的加速とは、技術革新、社会変動、生活テンポが近代社会で継続的に速度を増し、人々の時間経験や自己関係を圧迫する現象である。ハルトムート・ローザは、加速が自由を拡大する一方で、疎外や共鳴喪失を生む近代の中心的病理だと論じた。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第四世代",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "social acceleration,time",
+    "key_researchers": ["ハルトムート・ローザ"]
+  },
+  {
+    "name_ja": "共鳴",
+    "name_en": "Resonance",
+    "definition": "共鳴とは、人間が世界、他者、自然、仕事、芸術などと応答的で変容的な関係を結ぶ状態を表すローザの概念である。近代社会の加速と疎外に対して、対象を支配し利用する関係ではなく、呼びかけられ応答する関係を良き生の条件として考える。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第四世代",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "resonance,alienation",
+    "key_researchers": ["ハルトムート・ローザ"]
+  },
+  {
+    "name_ja": "生活形式の批判",
+    "name_en": "Critique of Forms of Life",
+    "definition": "生活形式の批判とは、社会の制度、慣習、価値、実践のまとまりとしての生活形式が、問題解決能力や自由の実現において成功しているかを評価する批判理論である。ラエル・イェギは、生活形式を相対主義的に放置せず、内在的な学習過程として批判可能だと論じる。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "フランクフルト学派第四世代",
+    "era_start": 2014,
+    "era_end": null,
+    "keywords_en": "forms of life,critique",
+    "key_researchers": ["ラエル・イェギ"]
+  },
+  {
+    "name_ja": "連帯",
+    "name_en": "Solidarity",
+    "definition": "連帯とは、単なる同情や利害一致を超えて、他者の不正義や脆弱性を自分たちの共同問題として引き受ける社会的関係である。批判的社会哲学では、階級、ジェンダー、人種、国境をまたぐ協働の可能性と、その制度的条件や限界を検討する。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "社会哲学",
+    "era_start": 1848,
+    "era_end": null,
+    "keywords_en": "solidarity,collective action",
+    "key_researchers": ["カール・マルクス", "エミール・デュルケーム", "サリー・ショルツ"]
+  },
+  {
+    "name_ja": "市民的不服従",
+    "name_en": "Civil Disobedience",
+    "definition": "市民的不服従とは、法や政策の不正義を公的に訴えるため、非暴力的かつ良心的に法を破る政治的行為である。社会哲学では、民主的法秩序への忠誠と正義への異議申し立てがどのように両立するか、また周縁化された人々の抵抗がどう正当化されるかを問う。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "民主主義理論",
+    "era_start": 1849,
+    "era_end": null,
+    "keywords_en": "civil disobedience,protest",
+    "key_researchers": ["ヘンリー・デイヴィッド・ソロー", "ジョン・ロールズ", "ハンナ・アーレント"]
+  },
+  {
+    "name_ja": "非暴力",
+    "name_en": "Nonviolence",
+    "definition": "非暴力とは、政治的抵抗において身体的破壊や殺傷を避けるだけでなく、敵対者との関係、公共的可視性、集団的規律を通じて権力の正当性を揺さぶる実践である。批判理論では、脆弱な身体の集合的出現や暴力の制度的定義を問う概念として再考される。",
+    "subfield": "批判理論・社会哲学",
+    "school_of_thought": "政治的倫理",
+    "era_start": 1906,
+    "era_end": null,
+    "keywords_en": "nonviolence,resistance",
+    "key_researchers": ["マハトマ・ガンディー", "マーティン・ルーサー・キング・ジュニア", "ジュディス・バトラー"]
+  }
+]
+tokens used
+34,271

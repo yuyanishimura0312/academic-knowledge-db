@@ -1,0 +1,28 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0970-2830-7fe0-8240-ebf020f67022
+--------
+user
+「神経科学・認知科学」分野の重要概念200件を JSON 配列で出力してください。
+
+必須概念（10件）：
+BCI、神経可塑性、デフォルトモードネットワーク、光遺伝学、コネクトーム、予測符号化、ベイジアン脳仮説、意識の神経相関、計算精神医学、Place cells
+
+各エントリ形式：
+{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上","subfield":"神経科学・認知科学","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"k1,k2,k3","keywords_en":"k1,k2,k3","key_researchers":["名前"],"key_works":["著作 (年)"]}
+
+要件:
+- 内部知識のみ（web検索不要、外部参照しない）
+- subfield フィールドは必ず「神経科学・認知科学」に統一
+- 創設期から最新2025年まで時代分布均等（特に2015-2025を25%以上）
+- 重複なし、200件出力
+- JSON配列のみ（コードフェンス・説明文禁止）

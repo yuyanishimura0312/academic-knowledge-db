@@ -1,0 +1,798 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a0d-c13b-78e0-b80a-2fb28ba4484f
+--------
+user
+「デザイン理論」分野の 2015-2025年 の重要概念60件を JSON 配列で出力。
+
+必須概念:
+スペキュラティブデザイン2025、デザイン正義、AIネイティブデザイン、気候デザイン、More-than-human design
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"デザイン理論","school_of_thought":"学派","era_start":年(2015以上),"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、era_start ≥ 2015、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "スペキュラティブデザイン2025",
+    "name_en": "Speculative Design 2025",
+    "definition": "未来の製品やサービスを単に予測するのではなく、社会制度、技術倫理、環境変化を含む複数の可能な未来を可視化し、現在の価値判断を問い直すデザイン理論。2025年時点ではAI、気候危機、ポスト成長社会を扱う批判的実践として再解釈される。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "批判的デザイン",
+    "era_start": 2025,
+    "era_end": null,
+    "keywords_en": "speculation,futures,criticality",
+    "key_researchers": ["Anthony Dunne", "Fiona Raby", "James Auger"]
+  },
+  {
+    "name_ja": "デザイン正義",
+    "name_en": "Design Justice",
+    "definition": "デザインが誰の利益を優先し、誰を排除してきたのかを問い、周縁化されたコミュニティが意思決定の中心に立つことを重視する理論。参加、権力、アクセシビリティ、制度的不平等を扱い、成果物よりもプロセスの公正さを重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "社会正義デザイン",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "justice,equity,participation",
+    "key_researchers": ["Sasha Costanza-Chock", "Lesley-Ann Noel"]
+  },
+  {
+    "name_ja": "AIネイティブデザイン",
+    "name_en": "AI-Native Design",
+    "definition": "AIを既存プロダクトに後付けする機能ではなく、認識、生成、推論、適応を前提とした体験構造そのものとして扱うデザイン理論。ユーザー、モデル、データ、フィードバックの関係を設計対象に含め、透明性や誤作動への対応も重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "AIインタラクションデザイン",
+    "era_start": 2023,
+    "era_end": null,
+    "keywords_en": "AI-native,generative AI,adaptive interfaces",
+    "key_researchers": ["Hugh Dubberly", "Kate Crawford", "Ben Shneiderman"]
+  },
+  {
+    "name_ja": "気候デザイン",
+    "name_en": "Climate Design",
+    "definition": "気候危機を背景に、製品、建築、都市、サービス、政策の設計を脱炭素化、適応、レジリエンスの観点から再構成する理論。単なる環境配慮ではなく、消費行動、素材循環、地域の脆弱性、将来世代への責任を統合的に扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "サステナブルデザイン",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "climate,adaptation,decarbonization",
+    "key_researchers": ["Cameron Tonkinwise", "Ezio Manzini", "Alastair Fuad-Luke"]
+  },
+  {
+    "name_ja": "マルチスピーシーズデザイン",
+    "name_en": "More-than-human Design",
+    "definition": "人間中心主義を相対化し、動植物、微生物、地形、気候、人工物などを共存する主体として捉えるデザイン理論。人間の利便性だけでなく、生態系の関係性、相互依存、非人間存在の利益を設計判断に含める点に特徴がある。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "ポストヒューマンデザイン",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "more-than-human,multispecies,posthumanism",
+    "key_researchers": ["Laura Forlano", "Anne Galloway", "Ron Wakkary"]
+  },
+  {
+    "name_ja": "トランジションデザイン",
+    "name_en": "Transition Design",
+    "definition": "持続不可能な社会システムから長期的に望ましい未来へ移行するため、生活様式、制度、インフラ、価値観の変化を設計対象とする理論。短期的な問題解決ではなく、複数世代にわたるビジョン、介入、学習を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "システム移行デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "transition,sustainability,systems change",
+    "key_researchers": ["Terry Irwin", "Gideon Kossoff", "Cameron Tonkinwise"]
+  },
+  {
+    "name_ja": "デザイン人類学",
+    "name_en": "Design Anthropology",
+    "definition": "人類学のフィールドワークとデザイン実践を結び、生活世界、文化的意味、日常の実践を深く理解しながら未来の可能性を共創する理論。観察だけでなく、プロトタイピングや参加型探究を通じて社会的変化を扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "人類学的デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "anthropology,ethnography,co-creation",
+    "key_researchers": ["Sarah Pink", "Wendy Gunn", "Rachel Charlotte Smith"]
+  },
+  {
+    "name_ja": "プルリバーサルデザイン",
+    "name_en": "Pluriversal Design",
+    "definition": "単一の近代的発展モデルではなく、多様な世界観、知識体系、生活様式が共存する複数世界を前提とするデザイン理論。西洋中心的な普遍主義を批判し、地域固有の実践、先住民知、脱植民地化を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "脱植民地デザイン",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "pluriverse,decoloniality,local worlds",
+    "key_researchers": ["Arturo Escobar", "Tony Fry", "Ahmed Ansari"]
+  },
+  {
+    "name_ja": "脱植民地デザイン",
+    "name_en": "Decolonial Design",
+    "definition": "植民地主義や近代化の枠組みがデザイン教育、方法論、美的価値、技術導入に与えた影響を批判的に検討する理論。支配的な知識体系を相対化し、地域、言語、身体、記憶に根ざした設計実践を回復しようとする。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "decolonial design,power,epistemology",
+    "key_researchers": ["Ahmed Ansari", "Pedro Oliveira", "Dori Tunstall"]
+  },
+  {
+    "name_ja": "フェミニストHCI",
+    "name_en": "Feminist HCI",
+    "definition": "インタラクションデザインにおける権力、身体、ジェンダー、ケア、可視性の問題を扱う理論。普遍的なユーザー像を批判し、複数の経験、感情、関係性、弱さを設計に取り込むことで、より包摂的な技術実践を目指す。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "フェミニストデザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "feminism,HCI,care",
+    "key_researchers": ["Shaowen Bardzell", "Jeffrey Bardzell", "Kristina Andersen"]
+  },
+  {
+    "name_ja": "ケア中心デザイン",
+    "name_en": "Care-Centered Design",
+    "definition": "効率や成長だけを評価軸とせず、相互依存、脆弱性、修復、責任を中心に据えるデザイン理論。医療や福祉に限らず、プラットフォーム、都市、AI、組織設計において、人と環境を支える関係の質を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "ケア倫理",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "care,ethics,interdependence",
+    "key_researchers": ["Maria Puig de la Bellacasa", "Yoko Akama", "Sarah Pink"]
+  },
+  {
+    "name_ja": "参加型デザインの再政治化",
+    "name_en": "Repoliticized Participatory Design",
+    "definition": "参加型デザインを単なるユーザー調査やワークショップ技法としてではなく、民主主義、労働、公共性、権力配分をめぐる政治的実践として捉え直す理論。誰が参加でき、何を決められるかを中心問題に置く。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "参加型デザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "participatory design,democracy,power",
+    "key_researchers": ["Pelle Ehn", "Erling Björgvinsson", "Thomas Binder"]
+  },
+  {
+    "name_ja": "シビックデザイン",
+    "name_en": "Civic Design",
+    "definition": "行政サービス、公共空間、市民参加、政策形成を、利用者である市民の経験から再設計する理論。透明性、信頼、包摂、説明責任を重視し、公共制度の複雑さを人々が理解し行動できる形に変換する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "公共デザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "civic design,public services,democracy",
+    "key_researchers": ["Cyd Harrell", "Ezio Manzini", "Laurenellen McCann"]
+  },
+  {
+    "name_ja": "ポリシーデザイン",
+    "name_en": "Policy Design",
+    "definition": "政策を法律や制度文書だけでなく、人々が接触する手続き、情報、サービス、行動環境の集合として設計する理論。エビデンス、実験、参加、倫理を組み合わせ、公共課題に対する実装可能な介入を構成する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "公共政策デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "policy design,public sector,implementation",
+    "key_researchers": ["Christian Bason", "Lucy Kimbell", "Andrea Siodmok"]
+  },
+  {
+    "name_ja": "サービスデザインの制度論的転回",
+    "name_en": "Institutional Turn in Service Design",
+    "definition": "サービスデザインを顧客接点の改善に限定せず、組織構造、規範、法制度、職能、権限配置を変える実践として捉える理論。複雑な公共・医療・教育領域で、制度そのものを設計対象に含める。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "サービスデザイン",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "service design,institutions,organizational change",
+    "key_researchers": ["Lucy Kimbell", "Daniela Sangiorgi", "Sabine Junginger"]
+  },
+  {
+    "name_ja": "システミックデザイン",
+    "name_en": "Systemic Design",
+    "definition": "複雑な社会課題を単一の製品や接点ではなく、相互依存するステークホルダー、資源、情報、制度、時間軸のシステムとして扱う理論。デザイン思考とシステム思考を結び、介入点と波及効果を検討する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "システム思考",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "systemic design,complexity,systems thinking",
+    "key_researchers": ["Birger Sevaldson", "Peter Jones", "Harold Nelson"]
+  },
+  {
+    "name_ja": "リジェネラティブデザイン",
+    "name_en": "Regenerative Design",
+    "definition": "環境負荷を減らすだけでなく、生態系、地域社会、文化、経済が自己回復し発展できる条件を設計する理論。持続可能性の維持という発想を超え、土壌、水循環、生物多様性、コミュニティ能力の再生を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "再生型デザイン",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "regeneration,ecology,resilience",
+    "key_researchers": ["Bill Reed", "Daniel Christian Wahl", "John Tillman Lyle"]
+  },
+  {
+    "name_ja": "循環デザイン",
+    "name_en": "Circular Design",
+    "definition": "廃棄を前提とする線形経済から離れ、素材、製品、サービス、ビジネスモデルを循環させることを目的とするデザイン理論。修理、再利用、分解、リース、資源回収を設計段階から組み込み、価値の長寿命化を図る。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "サーキュラーエコノミー",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "circular design,reuse,materials",
+    "key_researchers": ["Ellen MacArthur", "Walter Stahel", "Leyla Acaroglu"]
+  },
+  {
+    "name_ja": "ポストサステナブルデザイン",
+    "name_en": "Post-Sustainable Design",
+    "definition": "持続可能性が企業広報や効率改善の語彙に回収される状況を批判し、成長、消費、近代的進歩の前提そのものを問い直す理論。環境配慮型製品よりも、欲望、生活様式、制度、倫理の再構築を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "批判的サステナビリティ",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "post-sustainability,degrowth,critique",
+    "key_researchers": ["Tony Fry", "Cameron Tonkinwise", "Anne-Marie Willis"]
+  },
+  {
+    "name_ja": "デグロースデザイン",
+    "name_en": "Degrowth Design",
+    "definition": "経済成長を当然の目的とせず、十分性、共有、低消費、地域自律、ケアを中心に生活と制度を設計する理論。新しい市場を作ることよりも、必要の再定義、過剰な生産の縮小、共同体の回復を目指す。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "脱成長思想",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "degrowth,sufficiency,post-growth",
+    "key_researchers": ["Giorgos Kallis", "Arturo Escobar", "Cameron Tonkinwise"]
+  },
+  {
+    "name_ja": "デザイン倫理",
+    "name_en": "Design Ethics",
+    "definition": "デザインの成果が人々の行動、権利、環境、社会制度に与える影響を評価し、設計者の責任を明確化する理論。特にデータ利用、説得的技術、AI、アクセシビリティ、差別的結果への対応が重要論点となる。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "応用倫理",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ethics,responsibility,accountability",
+    "key_researchers": ["Mike Monteiro", "Peter-Paul Verbeek", "Cennydd Bowles"]
+  },
+  {
+    "name_ja": "価値敏感デザイン",
+    "name_en": "Value Sensitive Design",
+    "definition": "技術やサービスに埋め込まれる価値を明示的に分析し、直接利用者だけでなく間接的に影響を受ける人々の利益も設計に反映する理論。プライバシー、公正、自律、信頼などを調査、設計、評価の全過程で扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "価値敏感設計",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "values,ethics,stakeholders",
+    "key_researchers": ["Batya Friedman", "David Hendry", "Jeroen van den Hoven"]
+  },
+  {
+    "name_ja": "責任あるイノベーションデザイン",
+    "name_en": "Responsible Innovation Design",
+    "definition": "新技術や新サービスの開発において、予見、包摂、反省、応答性を重視するデザイン理論。イノベーションの速度や市場性だけでなく、望ましくない副作用、社会的受容、規制、倫理的責任を設計段階から扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "責任ある研究革新",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "responsible innovation,anticipation,governance",
+    "key_researchers": ["Richard Owen", "Jack Stilgoe", "Sarah Pink"]
+  },
+  {
+    "name_ja": "公正なAIデザイン",
+    "name_en": "Fair AI Design",
+    "definition": "AIシステムの設計において、偏り、説明可能性、異議申し立て、データ代表性、影響評価を中心に扱う理論。インターフェースだけでなく、学習データ、モデル運用、組織責任を含めて公正さを設計する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "AI倫理",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "AI fairness,bias,explainability",
+    "key_researchers": ["Kate Crawford", "Joy Buolamwini", "Margaret Mitchell"]
+  },
+  {
+    "name_ja": "説明可能なUX",
+    "name_en": "Explainable UX",
+    "definition": "アルゴリズムやAIが下す判断を、利用者が理解し、信頼し、必要に応じて異議を唱えられる体験として設計する理論。技術的な説明可能性だけでなく、タイミング、粒度、言葉遣い、行動可能性を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "人間中心AI",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "explainable UX,XAI,transparency",
+    "key_researchers": ["Ben Shneiderman", "Q. Vera Liao", "Dario Amodei"]
+  },
+  {
+    "name_ja": "人間中心AIデザイン",
+    "name_en": "Human-Centered AI Design",
+    "definition": "AIを人間の能力を置き換える自動化装置ではなく、判断、創造、学習、協働を支援する相互作用システムとして設計する理論。制御可能性、信頼、フィードバック、失敗時の回復、社会的影響を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "人間中心設計",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "human-centered AI,control,collaboration",
+    "key_researchers": ["Ben Shneiderman", "Elizabeth Churchill", "Saleema Amershi"]
+  },
+  {
+    "name_ja": "生成AI共創デザイン",
+    "name_en": "Generative AI Co-Creation Design",
+    "definition": "生成AIを単なる制作自動化ツールではなく、人間と機械が相互に提案、評価、修正する共創相手として扱う理論。プロンプト、反復、編集権、著作性、品質判断、創造性の分担を設計対象とする。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "計算的創造性",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "generative AI,co-creation,prompting",
+    "key_researchers": ["Lev Manovich", "Hugh Dubberly", "Margaret Boden"]
+  },
+  {
+    "name_ja": "プロンプトデザイン",
+    "name_en": "Prompt Design",
+    "definition": "生成AIに対する指示、文脈、制約、例示、評価基準を設計し、望ましい出力や協働過程を形成する理論。単なる命令文作成ではなく、人間の意図、モデルの振る舞い、反復的な探索を結ぶインタラクション設計である。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "AIインタラクションデザイン",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "prompt design,LLM,interaction",
+    "key_researchers": ["Ethan Mollick", "Lilian Weng", "Hugh Dubberly"]
+  },
+  {
+    "name_ja": "データフェミニズムデザイン",
+    "name_en": "Data Feminism Design",
+    "definition": "データを中立的な事実の集積としてではなく、権力関係、分類、欠落、可視化の政治性を持つものとして扱うデザイン理論。誰が数えられ、誰が不可視化されるかを問い、公正なデータ実践を目指す。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "フェミニストデータ論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "data feminism,visualization,power",
+    "key_researchers": ["Catherine D'Ignazio", "Lauren Klein", "Mimi Onuoha"]
+  },
+  {
+    "name_ja": "データ物質性デザイン",
+    "name_en": "Data Materiality Design",
+    "definition": "データを抽象的で無重量な情報ではなく、センサー、サーバー、労働、電力、環境負荷、制度に支えられた物質的存在として捉える理論。データ可視化やAI設計において、隠れたインフラとコストを可視化する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "メディア考古学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "data materiality,infrastructure,energy",
+    "key_researchers": ["Jussi Parikka", "Kate Crawford", "Shannon Mattern"]
+  },
+  {
+    "name_ja": "ダークパターン批判",
+    "name_en": "Dark Pattern Critique",
+    "definition": "利用者を意図しない購買、同意、継続利用、個人情報提供へ誘導するインターフェース設計を批判的に分析する理論。UXの成功指標が企業利益に偏る危険を示し、透明性、同意、消費者保護を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "批判的UX",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "dark patterns,manipulation,consent",
+    "key_researchers": ["Harry Brignull", "Colin Gray", "Cennydd Bowles"]
+  },
+  {
+    "name_ja": "プライバシー・バイ・デザイン",
+    "name_en": "Privacy by Design",
+    "definition": "個人情報保護を後付けの規約や設定に任せず、サービスやシステムの構造に最初から組み込む理論。最小限の収集、明確な同意、利用者制御、データ保持期間、目的外利用の抑制を設計原則とする。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "情報倫理",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "privacy,consent,data protection",
+    "key_researchers": ["Ann Cavoukian", "Helen Nissenbaum", "Lorrie Cranor"]
+  },
+  {
+    "name_ja": "コンテクスト完全性デザイン",
+    "name_en": "Contextual Integrity Design",
+    "definition": "プライバシーを秘密保持の問題だけでなく、情報が適切な文脈、関係、目的、規範に沿って流れるかという観点から捉える理論。サービス設計では、データの移動先や再利用が利用者の期待と合うかを検討する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "情報倫理",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "contextual integrity,privacy,norms",
+    "key_researchers": ["Helen Nissenbaum", "Michael Zimmer", "Lorrie Cranor"]
+  },
+  {
+    "name_ja": "アクセシブルデザインの拡張",
+    "name_en": "Expanded Accessible Design",
+    "definition": "障害のある人への対応を個別配慮としてではなく、多様な身体、認知、感覚、状況に開かれた設計原理として扱う理論。法令遵守を超え、参加、尊厳、カスタマイズ性、支援技術との互換性を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "インクルーシブデザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "accessibility,inclusion,assistive technology",
+    "key_researchers": ["Kat Holmes", "Jutta Treviranus", "Liz Jackson"]
+  },
+  {
+    "name_ja": "インクルーシブデザイン",
+    "name_en": "Inclusive Design",
+    "definition": "平均的な利用者を想定するのではなく、能力、年齢、文化、言語、状況の違いを起点に、より多くの人が利用可能な体験を設計する理論。排除がどこで生まれるかを分析し、当事者との共創を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "包摂デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "inclusive design,diversity,exclusion",
+    "key_researchers": ["Kat Holmes", "Jutta Treviranus", "Sina Bahram"]
+  },
+  {
+    "name_ja": "アンチエイブルストデザイン",
+    "name_en": "Anti-Ableist Design",
+    "definition": "障害を個人の欠陥として扱う前提を批判し、社会、制度、技術、空間が生み出す障壁を設計対象とする理論。効率や標準化の名のもとに身体差を排除する設計を問い直し、障害者の知識を中心に置く。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "障害学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "anti-ableism,disability,access",
+    "key_researchers": ["Liz Jackson", "Aimi Hamraie", "Ashley Shew"]
+  },
+  {
+    "name_ja": "ニューロダイバーシティデザイン",
+    "name_en": "Neurodiversity Design",
+    "definition": "自閉スペクトラム、ADHD、感覚過敏などを欠陥ではなく神経認知の多様性として捉え、情報環境、空間、学習、仕事の体験を設計する理論。集中、予測可能性、刺激量、選択肢の調整を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "インクルーシブデザイン",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "neurodiversity,cognition,sensory design",
+    "key_researchers": ["Jutta Treviranus", "Sara Hendren", "Kat Holmes"]
+  },
+  {
+    "name_ja": "トラウマインフォームドデザイン",
+    "name_en": "Trauma-Informed Design",
+    "definition": "利用者が過去の暴力、災害、差別、医療経験などによるトラウマを抱えている可能性を前提に、安心、選択、透明性、予測可能性を重視する理論。支援サービス、公共空間、デジタル体験で重要性が高まる。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "ケア倫理",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "trauma-informed,safety,agency",
+    "key_researchers": ["Sara Hendren", "Laura Forlano", "Ezio Manzini"]
+  },
+  {
+    "name_ja": "ソーシャルデザインの批判的転回",
+    "name_en": "Critical Turn in Social Design",
+    "definition": "社会課題の解決を掲げるデザインが、外部者の善意や市場論理によって地域を単純化する危険を批判する理論。介入の権力性、長期的責任、当事者の自律、成果評価の政治性を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "批判的社会デザイン",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "social design,critique,power",
+    "key_researchers": ["Victor Margolin", "Lucy Kimbell", "Arturo Escobar"]
+  },
+  {
+    "name_ja": "デザインアクティビズム",
+    "name_en": "Design Activism",
+    "definition": "デザインを社会運動、抗議、公共的議論、制度変革の手段として用いる理論。ポスターやキャンペーンに限らず、デジタルツール、空間介入、可視化、共同制作を通じて不平等や環境問題に働きかける。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "アクティビストデザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "design activism,protest,change",
+    "key_researchers": ["Alastair Fuad-Luke", "Ann Thorpe", "Carl DiSalvo"]
+  },
+  {
+    "name_ja": "アドバーサリアルデザイン",
+    "name_en": "Adversarial Design",
+    "definition": "対立や異議を避けるのではなく、公共的な論争を可視化し、民主的議論を活性化するためにデザインを用いる理論。合意形成だけを目的とせず、見えにくい権力や価値対立を表面化させる点に特徴がある。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "政治的デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "adversarial design,agonism,publics",
+    "key_researchers": ["Carl DiSalvo", "Chantal Mouffe", "Pelle Ehn"]
+  },
+  {
+    "name_ja": "パブリック形成デザイン",
+    "name_en": "Design for Publics",
+    "definition": "既に存在する平均的な市民を想定するのではなく、特定の問題をめぐって人々が集まり、議論し、行動する公共を形成するデザイン理論。メディア、可視化、場づくり、参加の仕組みを通じて関心の共同体を生み出す。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "政治的デザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "publics,participation,issue formation",
+    "key_researchers": ["Carl DiSalvo", "Noortje Marres", "Thomas Binder"]
+  },
+  {
+    "name_ja": "クリティカルメイキング",
+    "name_en": "Critical Making",
+    "definition": "ものを作る行為を通じて技術、社会、身体、権力の関係を批判的に考察する理論。完成品の機能や市場価値よりも、制作過程で生じる問い、素材との対話、参加者の学びを重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "批判的制作",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "critical making,making,reflection",
+    "key_researchers": ["Matt Ratto", "Garnet Hertz", "Daniela Rosner"]
+  },
+  {
+    "name_ja": "リサーチ・スルー・デザイン",
+    "name_en": "Research through Design",
+    "definition": "デザイン成果物やプロトタイプを研究の副産物ではなく、知識を生み出す中心的手段として扱う理論。作る、試す、記述する、反省する過程を通じて、言語化しにくい経験的・実践的知を構築する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "実践基盤研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "research through design,prototyping,knowledge",
+    "key_researchers": ["John Zimmerman", "Jodi Forlizzi", "William Gaver"]
+  },
+  {
+    "name_ja": "デザインフィクション",
+    "name_en": "Design Fiction",
+    "definition": "架空の製品、広告、ニュース、利用シーンなどを用いて、まだ存在しない技術や社会制度の意味を具体的に想像させる理論。未来を説明するのではなく、手に取れる断片として提示し、議論を誘発する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "スペキュラティブデザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "design fiction,diegetic prototypes,futures",
+    "key_researchers": ["Julian Bleecker", "Bruce Sterling", "Dunne and Raby"]
+  },
+  {
+    "name_ja": "未来リテラシーデザイン",
+    "name_en": "Futures Literacy Design",
+    "definition": "未来を予測対象ではなく、現在の前提や想像力を検討するための能力として扱うデザイン理論。シナリオ、ワークショップ、プロトタイプを通じて、人々が複数の未来を読み書きし、現在の選択を再考できるようにする。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "未来研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "futures literacy,scenarios,anticipation",
+    "key_researchers": ["Riel Miller", "Stuart Candy", "Joseph Voros"]
+  },
+  {
+    "name_ja": "シナリオベースドデザイン",
+    "name_en": "Scenario-Based Design",
+    "definition": "特定の未来状況、利用文脈、社会変化を物語として描き、設計判断やステークホルダー議論を支援する理論。2015年以降は気候変動、AI、公共政策など、不確実性の高い領域で再評価されている。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "未来志向デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "scenarios,futures,context",
+    "key_researchers": ["John Carroll", "Stuart Candy", "Kees van der Heijden"]
+  },
+  {
+    "name_ja": "プロトタイピング文化論",
+    "name_en": "Prototyping Culture Theory",
+    "definition": "プロトタイプを完成品に至る途中段階ではなく、組織文化、意思決定、学習、価値交渉を形成する媒体として捉える理論。素早い検証だけでなく、何を試し、何を試さないかという政治性を扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "実験的デザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "prototyping,experimentation,organizational learning",
+    "key_researchers": ["Tom Kelley", "Lucy Kimbell", "Kristina Andersen"]
+  },
+  {
+    "name_ja": "デザイン思考批判",
+    "name_en": "Critique of Design Thinking",
+    "definition": "デザイン思考が簡略化された手順や企業研修の言語として普及する中で、権力、専門性、文脈、長期責任を見落とす危険を批判する理論。便利な問題解決法ではなく、問いの設定自体を検討する必要を示す。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "批判的デザイン研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "design thinking,critique,methodology",
+    "key_researchers": ["Lucy Kimbell", "Natasha Iskander", "Cameron Tonkinwise"]
+  },
+  {
+    "name_ja": "デザイン能力論",
+    "name_en": "Design Capability Theory",
+    "definition": "デザインを専門職だけの技能ではなく、組織や地域が問題を発見し、構想し、試行し、学習する能力として捉える理論。行政、企業、教育機関で、デザインを内製化し継続的に活用する条件を分析する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "組織デザイン",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "design capability,capacity,organizations",
+    "key_researchers": ["Jeanne Liedtka", "Christian Bason", "Sabine Junginger"]
+  },
+  {
+    "name_ja": "組織デザインの戦略化",
+    "name_en": "Strategic Organizational Design",
+    "definition": "組織の構造、意思決定、文化、役割、情報流通を、戦略実行のための設計対象として扱う理論。見た目のブランドやサービス接点だけでなく、内部プロセスと人々の協働条件を変えることを重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "戦略デザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "organizational design,strategy,culture",
+    "key_researchers": ["Sabine Junginger", "Richard Buchanan", "Jeanne Liedtka"]
+  },
+  {
+    "name_ja": "デザインリーダーシップ",
+    "name_en": "Design Leadership",
+    "definition": "デザインを制作部門の機能ではなく、組織の方向性、意思決定、文化形成を導く実践として位置づける理論。ユーザー価値、ブランド、技術、事業、倫理を統合し、複雑な環境で判断を支える役割を扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "戦略デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "design leadership,strategy,decision-making",
+    "key_researchers": ["Richard Buchanan", "Brigitte Borja de Mozota", "Jeanne Liedtka"]
+  },
+  {
+    "name_ja": "デザインOps",
+    "name_en": "DesignOps",
+    "definition": "大規模組織でデザイン活動を継続的かつ品質高く行うため、プロセス、ツール、ガバナンス、人材、評価、ナレッジ共有を設計する理論。個々の成果物ではなく、デザインが機能する運用基盤を対象とする。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "デザインマネジメント",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "DesignOps,governance,design systems",
+    "key_researchers": ["Kristin Skinner", "Dave Malouf", "Meredith Black"]
+  },
+  {
+    "name_ja": "デザインシステム理論",
+    "name_en": "Design Systems Theory",
+    "definition": "UI部品集を超えて、プロダクト群に一貫性、効率、アクセシビリティ、ブランド表現をもたらすルール、トークン、ドキュメント、組織運用を扱う理論。変化に耐える共有言語としての設計体系を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "プロダクトデザイン",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "design systems,components,tokens",
+    "key_researchers": ["Alla Kholmatova", "Brad Frost", "Nathan Curtis"]
+  },
+  {
+    "name_ja": "デザイントークン",
+    "name_en": "Design Tokens",
+    "definition": "色、余白、書体、角丸、動きなどのデザイン判断を、コードとデザインツールで共有可能な意味単位として管理する理論。見た目の一貫性だけでなく、マルチブランド、アクセシビリティ、保守性を支える基盤となる。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "デザインシステム",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "design tokens,scale,consistency",
+    "key_researchers": ["Jina Anne", "Nathan Curtis", "Brad Frost"]
+  },
+  {
+    "name_ja": "マルチモーダルUX",
+    "name_en": "Multimodal UX",
+    "definition": "音声、視覚、触覚、ジェスチャー、テキスト、空間的入力を組み合わせ、文脈に応じて自然に切り替わる体験を設計する理論。スマートスピーカー、車載UI、AR、AIエージェントの普及により重要性が増した。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "インタラクションデザイン",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "multimodal UX,voice,gesture",
+    "key_researchers": ["Bill Buxton", "Elizabeth Churchill", "Don Norman"]
+  },
+  {
+    "name_ja": "会話型デザイン",
+    "name_en": "Conversational Design",
+    "definition": "チャットボット、音声アシスタント、AIエージェントとの対話を、言語、順番、誤解回復、人格表現、信頼形成の観点から設計する理論。人間らしさを装うだけでなく、能力範囲と限界の明示を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "会話型インターフェース",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "conversation design,chatbots,voice UI",
+    "key_researchers": ["Erika Hall", "Cathy Pearl", "Clifford Nass"]
+  },
+  {
+    "name_ja": "アンビエントインターフェース",
+    "name_en": "Ambient Interfaces",
+    "definition": "画面中心の操作から離れ、環境、音、光、動き、センサーを通じて周辺的に情報を伝えるインターフェース設計理論。利用者の注意を奪い続けるのではなく、生活空間に溶け込む穏やかな相互作用を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "ユビキタスコンピューティング",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ambient interfaces,calm technology,ubiquitous computing",
+    "key_researchers": ["Mark Weiser", "Amber Case", "Hiroshi Ishii"]
+  },
+  {
+    "name_ja": "スマートシティ批判デザイン",
+    "name_en": "Critical Smart City Design",
+    "definition": "スマートシティを効率的なデータ管理都市としてだけでなく、監視、所有権、公共性、住民参加、環境負荷の観点から批判的に扱う理論。都市技術の導入が誰の生活を改善し、誰を管理するのかを問う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "都市情報デザイン",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "smart cities,urban data,surveillance",
+    "key_researchers": ["Shannon Mattern", "Anthony Townsend", "Rob Kitchin"]
+  },
+  {
+    "name_ja": "都市プロトタイピング",
+    "name_en": "Urban Prototyping",
+    "definition": "都市空間や公共サービスの改善を、小規模で暫定的な介入、実験、観察を通じて学習するデザイン理論。恒久的な計画の前に、住民参加、移動、滞在、環境影響を実地で検証する点に特徴がある。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "都市デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "urban prototyping,tactical urbanism,public space",
+    "key_researchers": ["Mike Lydon", "Anthony Garcia", "Dan Hill"]
+  },
+  {
+    "name_ja": "プラットフォームデザイン批判",
+    "name_en": "Platform Design Critique",
+    "definition": "プラットフォームを中立的な取引基盤ではなく、労働、データ、アルゴリズム、規約、評価制度を通じて行動を統治する設計物として分析する理論。利便性の背後にある権力、依存、搾取の構造を問う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "platforms,governance,labor",
+    "key_researchers": ["Tarleton Gillespie", "Nick Srnicek", "Sarah T. Roberts"]
+  },
+  {
+    "name_ja": "ギグワークデザイン倫理",
+    "name_en": "Gig Work Design Ethics",
+    "definition": "配車、配達、クラウドワークなどのプラットフォームが労働者の時間、評価、報酬、自由をどのように設計しているかを扱う理論。労働者をユーザーとしてだけでなく、権利を持つ主体として捉える。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "労働とデザイン",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "gig work,labor ethics,platforms",
+    "key_researchers": ["Lilly Irani", "Mary L. Gray", "Alex Rosenblat"]
+  },
+  {
+    "name_ja": "修理とメンテナンスのデザイン",
+    "name_en": "Design for Repair and Maintenance",
+    "definition": "新規性や買い替えを中心とするデザイン観を批判し、修理、保守、更新、長期使用を価値ある設計対象として扱う理論。製品寿命、利用者の技能、部品入手性、ケア労働の可視化を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "メンテナンス研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "repair,maintenance,longevity",
+    "key_researchers": ["Steven Jackson", "Daniela Rosner", "Shannon Mattern"]
+  },
+  {
+    "name_ja": "スローインタラクションデザイン",
+    "name_en": "Slow Interaction Design",
+    "definition": "即時性、効率、絶え間ない通知を重視するデジタル体験に対し、熟考、余白、持続的関係、注意の回復を重視する理論。人間の時間感覚や生活リズムに合わせ、技術との距離を再設計する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "スローデザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "slow interaction,attention,reflection",
+    "key_researchers": ["Lars Hallnäs", "Johan Redström", "Phoebe Sengers"]
+  },
+  {
+    "name_ja": "注意経済批判デザイン",
+    "name_en": "Attention Economy Critique Design",
+    "definition": "ユーザーの注意を最大限奪うことを収益化するデジタル設計を批判し、集中、休息、自律的選択を守る体験を構想する理論。通知、無限スクロール、推薦アルゴリズム、依存形成の倫理を扱う。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "デジタルウェルビーイング",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "attention economy,digital wellbeing,persuasion",
+    "key_researchers": ["Tristan Harris", "James Williams", "Natasha Schüll"]
+  },
+  {
+    "name_ja": "デジタルウェルビーイングデザイン",
+    "name_en": "Digital Wellbeing Design",
+    "definition": "デジタル技術の利用時間を単純に減らすのではなく、生活の質、精神的健康、関係性、自律性を支える体験を設計する理論。利用者が目的に沿って技術を使い、過剰な刺激から回復できることを重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "ウェルビーイングデザイン",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "digital wellbeing,mental health,autonomy",
+    "key_researchers": ["Tristan Harris", "Alexis Hiniker", "Gloria Mark"]
+  },
+  {
+    "name_ja": "エモーショナルAIデザイン",
+    "name_en": "Emotional AI Design",
+    "definition": "感情認識や感情応答を行うAIシステムを、精度だけでなく文化差、プライバシー、誤分類、操作可能性の観点から設計する理論。感情を測定可能なデータとして扱うことの限界と倫理を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "感性インタラクション",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "emotional AI,affect,ethics",
+    "key_researchers": ["Rosalind Picard", "Kate Crawford", "Luke Stark"]
+  },
+  {
+    "name_ja": "ポストヒューマンUX",
+    "name_en": "Posthuman UX",
+    "definition": "UXを人間個人の満足度や効率に閉じず、人間、機械、動物、環境、データが絡み合う関係性として捉える理論。主体、経験、責任を分散的に理解し、人間中心設計の前提を拡張する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "ポストヒューマニズム",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "posthuman UX,assemblage,relations",
+    "key_researchers": ["Laura Forlano", "Ron Wakkary", "Donna Haraway"]
+  },
+  {
+    "name_ja": "オントロジカルデザイン",
+    "name_en": "Ontological Design",
+    "definition": "人間が世界を設計するだけでなく、設計された人工物や制度が人間の存在様式、行動、価値観を作り返すという理論。2015年以降はAI、都市、環境危機を背景に、デザインの存在論的責任として再注目された。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "存在論的デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ontological design,being,world-making",
+    "key_researchers": ["Anne-Marie Willis", "Tony Fry", "Arturo Escobar"]
+  },
+  {
+    "name_ja": "世界生成としてのデザイン",
+    "name_en": "Design as Worldmaking",
+    "definition": "デザインを個別の問題解決や造形ではなく、どのような世界が可能で望ましいかを作り出す実践として捉える理論。人工物、制度、物語、インフラを通じて現実の解釈枠組みを形成する力を重視する。",
+    "subfield": "デザイン理論",
+    "school_of_thought": "構成主義的デザイン",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "worldmaking,design theory,possibility",
+    "key_researchers": ["Arturo Escobar", "Nelson Goodman", "Ron Wakkary"]
+  }
+]
+tokens used
+34,713

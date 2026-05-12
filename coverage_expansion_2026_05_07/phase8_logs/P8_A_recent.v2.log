@@ -1,0 +1,844 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e098e-1d52-76d3-8c3d-40f569afa65c
+--------
+user
+芸術（2015-2025 芸術新理論（特に文学理論以外を厚く））の概念60件を JSON 配列で出力。
+
+必須5件:
+AIアート、生成AI批評、NFTアート、ポストインターネット・アート、気候アート
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"<下記から1つ>","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+subfield候補: 美学・芸術哲学、視覚芸術論・美術史、音楽学、舞台芸術論、古典詩学、近代詩学・批評理論、構造主義・記号論、ポスト構造主義詩学
+
+要件: 主に2015-2025年、内部知識のみ、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "AIアート",
+    "name_en": "AI Art",
+    "definition": "機械学習、特に生成モデルや画像認識モデルを制作過程に組み込み、人間の意図、データセット、アルゴリズムの判断が共同で作品を形成する芸術概念。作者性、創造性、訓練データの偏り、鑑賞者が「人間らしさ」をどこに読むかを問う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "計算論的美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "machine learning,authorship,generative models",
+    "key_researchers": ["Lev Manovich", "Joanna Zylinska"]
+  },
+  {
+    "name_ja": "生成AI批評",
+    "name_en": "Generative AI Criticism",
+    "definition": "画像、音楽、映像、テキストを生成するAIを単なる制作道具ではなく、文化的制度、労働、著作権、模倣、データ抽出の問題として批判的に扱う理論。出力物の美的評価だけでなく、モデル訓練、プラットフォーム、不可視の労働まで分析対象にする。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "批判的AI研究",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "generative AI,critique,dataset politics",
+    "key_researchers": ["Kate Crawford", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "NFTアート",
+    "name_en": "NFT Art",
+    "definition": "ブロックチェーン上の非代替性トークンによって作品、所有、来歴、流通を結びつけるデジタルアートの概念。画像そのものよりも、所有証明、二次流通、投機、コミュニティ形成、希少性の演出が作品価値を構成する点が論点となる。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ブロックチェーン美学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "NFT,blockchain,provenance",
+    "key_researchers": ["Amy Whitaker", "Tina Rivers Ryan"]
+  },
+  {
+    "name_ja": "ポストインターネット・アート",
+    "name_en": "Post-Internet Art",
+    "definition": "インターネットを新奇な媒体ではなく、すでに日常環境となった条件として捉える芸術概念。オンライン画像、スクリーン文化、物流、ブランド、展示空間を横断し、ネットワーク後の身体感覚や物質性を作品に反映させる。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ポストメディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-internet,network culture,post-media",
+    "key_researchers": ["Gene McHugh", "Karen Archey"]
+  },
+  {
+    "name_ja": "気候アート",
+    "name_en": "Climate Art",
+    "definition": "気候変動を主題、素材、展示制度、社会的介入として扱う芸術概念。災害の表象にとどまらず、炭素排出、環境正義、先住民知、観測データ、観客の行動変容をめぐる美学的・政治的実践を含む。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "環境美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate change,eco-art,environmental justice",
+    "key_researchers": ["T. J. Demos", "Amanda Boetzkes"]
+  },
+  {
+    "name_ja": "ポストヒューマン美学",
+    "name_en": "Posthuman Aesthetics",
+    "definition": "人間中心主義を相対化し、動物、機械、微生物、環境、人工知能との関係の中で芸術経験を考える理論。作品を人間主体の表現物としてだけでなく、複数の存在者が関与する感覚的な組成として捉える。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ポストヒューマニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "posthumanism,nonhuman,agency",
+    "key_researchers": ["Rosi Braidotti", "Francesca Ferrando"]
+  },
+  {
+    "name_ja": "新唯物論的芸術論",
+    "name_en": "New Materialist Art Theory",
+    "definition": "素材を受動的な媒体ではなく、意味や形を生み出す能動的な参与者として考える芸術理論。土、金属、プラスチック、データ、身体の物質性が、作家の意図を超えて作品の生成に関わる点を重視する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "新唯物論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "new materialism,matter,material agency",
+    "key_researchers": ["Jane Bennett", "Karen Barad"]
+  },
+  {
+    "name_ja": "オブジェクト指向美学",
+    "name_en": "Object-Oriented Aesthetics",
+    "definition": "人間の知覚や解釈に還元されない物の存在を前提に、作品、道具、展示物、デジタルオブジェクトの関係を考える美学。鑑賞者中心の意味生成ではなく、物同士の関係や不可視の性質に注目する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "オブジェクト指向存在論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "object-oriented ontology,objects,withdrawal",
+    "key_researchers": ["Graham Harman", "Timothy Morton"]
+  },
+  {
+    "name_ja": "人新世美学",
+    "name_en": "Anthropocene Aesthetics",
+    "definition": "人間活動が地質学的規模で地球環境を変化させる時代における感性と表象を扱う理論。風景、廃棄物、絶滅、資源採掘、衛星画像などを通じて、巨大で不可視な変化をどのように経験するかを問う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "環境人文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Anthropocene,scale,environmental humanities",
+    "key_researchers": ["Nicholas Mirzoeff", "Heather Davis"]
+  },
+  {
+    "name_ja": "脱植民地美学",
+    "name_en": "Decolonial Aesthetics",
+    "definition": "西洋中心の芸術史、展示制度、評価基準を批判し、植民地主義によって抑圧された知、感性、制作実践を回復しようとする理論。美術館、アーカイブ、収奪品、言語、身体表現の政治性を中心に扱う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "decolonial aesthetics,museum,coloniality",
+    "key_researchers": ["Walter Mignolo", "Ariella Aisha Azoulay"]
+  },
+  {
+    "name_ja": "ブラック・アート理論",
+    "name_en": "Black Art Theory",
+    "definition": "黒人の歴史、身体、記憶、抵抗、歓喜を芸術実践と制度批判の中心に置く理論。人種化された視線、暴力の記録、抽象表現、アーカイブの欠落を検討し、近年の美術館再編や市場評価とも結びつく。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ブラック・スタディーズ",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "Black art,race,visual culture",
+    "key_researchers": ["Tina M. Campt", "Huey Copeland"]
+  },
+  {
+    "name_ja": "クィア抽象",
+    "name_en": "Queer Abstraction",
+    "definition": "クィアな経験を直接的な人物表象ではなく、色彩、形態、素材、展示方法、身体感覚のずれとして表す芸術概念。可視化の政治と不可視性の自由を同時に扱い、アイデンティティの固定化を避ける表現として注目される。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "クィア理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "queer abstraction,identity,form",
+    "key_researchers": ["David J. Getsy", "Jennifer Doyle"]
+  },
+  {
+    "name_ja": "トランス美学",
+    "name_en": "Trans Aesthetics",
+    "definition": "トランスジェンダーの身体、時間、声、移行、可視性を芸術の形式や受容の問題として考える理論。単なる主題化ではなく、分類を横断する形式、変容する身体感覚、制度的な名づけへの抵抗を扱う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "トランス・スタディーズ",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "trans aesthetics,embodiment,transition",
+    "key_researchers": ["Susan Stryker", "Hil Malatino"]
+  },
+  {
+    "name_ja": "障害美学",
+    "name_en": "Disability Aesthetics",
+    "definition": "障害を欠如や克服の物語ではなく、身体、知覚、時間、空間の別様なあり方として芸術理論に組み込む概念。アクセシビリティ、補助技術、非標準的身体、観客参加を通じて美的価値の基準を問い直す。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "障害学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disability aesthetics,accessibility,embodiment",
+    "key_researchers": ["Tobin Siebers", "Georgina Kleege"]
+  },
+  {
+    "name_ja": "ケアの美学",
+    "name_en": "Aesthetics of Care",
+    "definition": "芸術を自律的な作品制作ではなく、相互依存、修復、看護、共同生活、脆弱性への応答として捉える理論。社会参加型アート、フェミニズム、医療、地域実践と結びつき、作品価値を関係の持続性から評価する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "フェミニスト美学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "care ethics,relationality,vulnerability",
+    "key_researchers": ["Joan Tronto", "Elke Krasny"]
+  },
+  {
+    "name_ja": "修復の美学",
+    "name_en": "Reparative Aesthetics",
+    "definition": "暴力、喪失、差別、環境破壊の後に、芸術が記憶の再編や社会的修復に関わる可能性を考える概念。批判による暴露だけでなく、傷ついた関係をどのように再接続しうるかに焦点を置く。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "修復的批評",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "reparative aesthetics,repair,trauma",
+    "key_researchers": ["Eve Kosofsky Sedgwick", "Saidiya Hartman"]
+  },
+  {
+    "name_ja": "社会参加型芸術",
+    "name_en": "Socially Engaged Art",
+    "definition": "作品を物質的対象ではなく、参加者、地域、制度、対話、共同作業によって成立する社会的プロセスとして捉える芸術概念。近年は倫理、労働、代表性、成果の測定、地域への長期的責任が強く問われている。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "関係性の美学以後",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "social practice,participation,community",
+    "key_researchers": ["Claire Bishop", "Pablo Helguera"]
+  },
+  {
+    "name_ja": "インフラストラクチャー美学",
+    "name_en": "Infrastructure Aesthetics",
+    "definition": "道路、港湾、電力網、サーバー、物流、通信回線など、普段は背景化される基盤を芸術の対象として捉える理論。作品が見せる表面だけでなく、それを可能にする物質的・政治的ネットワークを分析する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "インフラ研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "infrastructure,logistics,systems",
+    "key_researchers": ["Brian Larkin", "Shannon Mattern"]
+  },
+  {
+    "name_ja": "ロジスティクス美学",
+    "name_en": "Logistical Aesthetics",
+    "definition": "貨物、倉庫、配送、サプライチェーン、港湾都市の可視化を通じて、グローバル資本主義の空間感覚を分析する芸術概念。作品や展示もまた物流に依存するため、美術制度の背後にある移動と管理を問う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "批判的物流研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "logistics,supply chain,globalization",
+    "key_researchers": ["Allan Sekula", "Charmaine Chua"]
+  },
+  {
+    "name_ja": "監視美学",
+    "name_en": "Surveillance Aesthetics",
+    "definition": "監視カメラ、顔認識、ドローン、データ追跡、予測警備が生む視覚文化を分析する理論。見られること、分類されること、不可視化されることの政治性を扱い、芸術が監視装置を暴露または撹乱する方法を考える。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "監視研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "surveillance,facial recognition,visibility",
+    "key_researchers": ["Hito Steyerl", "Simone Browne"]
+  },
+  {
+    "name_ja": "フォレンジック美学",
+    "name_en": "Forensic Aesthetics",
+    "definition": "画像、建築、音声、衛星データ、現場痕跡を証拠として読み解く芸術・調査実践の理論。美的表現と法的証拠の境界を横断し、国家暴力、戦争犯罪、環境破壊を可視化する方法を重視する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "調査的美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "forensics,evidence,investigative aesthetics",
+    "key_researchers": ["Eyal Weizman", "Matthew Fuller"]
+  },
+  {
+    "name_ja": "オペレーショナル・イメージ",
+    "name_en": "Operational Image",
+    "definition": "人間が鑑賞するためではなく、機械が測定、誘導、監視、判断するために生成・利用する画像を指す概念。ドローン映像、医療画像、産業用ビジョン、AI認識を通じて、見ることの主体が変化した状況を論じる。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "メディア考古学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "operational images,machine vision,visuality",
+    "key_researchers": ["Harun Farocki", "Trevor Paglen"]
+  },
+  {
+    "name_ja": "機械視覚批評",
+    "name_en": "Machine Vision Critique",
+    "definition": "コンピュータが画像を分類し意味づける仕組みを、美術、写真、映像の理論から批判的に検討する概念。人間の視覚文化を継承しながらも、統計的分類やデータセットに依存する新しい視覚権力を扱う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "批判的データ研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "machine vision,computer vision,dataset",
+    "key_researchers": ["Trevor Paglen", "Kate Crawford"]
+  },
+  {
+    "name_ja": "データセット美学",
+    "name_en": "Dataset Aesthetics",
+    "definition": "AI作品やデータ可視化の背後にあるデータセットを、美的・政治的な構成物として分析する理論。収集、分類、ラベル付け、除外、偏りが作品の形式と意味を決めるため、データそのものを批評対象とする。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "批判的データ研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "dataset,data politics,classification",
+    "key_researchers": ["Kate Crawford", "Lev Manovich"]
+  },
+  {
+    "name_ja": "アルゴリズム的キュレーション",
+    "name_en": "Algorithmic Curation",
+    "definition": "展示、推薦、検索、配信プラットフォームにおいて、アルゴリズムが作品の可視性や価値を左右する状況を指す概念。キュレーターの判断だけでなく、ランキング、タグ、ユーザー行動データが文化的評価を形成する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "algorithmic curation,recommendation,platforms",
+    "key_researchers": ["Tarleton Gillespie", "Christian Sandvig"]
+  },
+  {
+    "name_ja": "プラットフォーム美学",
+    "name_en": "Platform Aesthetics",
+    "definition": "Instagram、TikTok、YouTube、Spotifyなどのプラットフォームが、作品形式、鑑賞習慣、流通速度、評価指標を作り替える状況を分析する理論。芸術の内容だけでなく、インターフェースと収益化の形式を問う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "platforms,interface,attention economy",
+    "key_researchers": ["Nick Srnicek", "Anne Helmond"]
+  },
+  {
+    "name_ja": "メメティック美学",
+    "name_en": "Memetic Aesthetics",
+    "definition": "ミーム、テンプレート画像、反復されるジョーク、 remix 文化を、現代の視覚芸術や政治的表現の形式として捉える理論。作者よりも伝播、変形、集合的参加が重要で、低解像度や粗さも表現価値となる。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ネット文化研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "memes,remix,viral culture",
+    "key_researchers": ["Limor Shifman", "Ryan M. Milner"]
+  },
+  {
+    "name_ja": "グリッチ・フェミニズム",
+    "name_en": "Glitch Feminism",
+    "definition": "デジタル環境における誤作動、ノイズ、身体のずれを、規範的なジェンダーやアイデンティティを撹乱する美的戦略として捉える理論。滑らかなテクノロジーの表面に対し、失敗や逸脱を政治的可能性として読む。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "サイバーフェミニズム",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "glitch feminism,cyberfeminism,error",
+    "key_researchers": ["Legacy Russell", "Rosa Menkman"]
+  },
+  {
+    "name_ja": "XR美学",
+    "name_en": "XR Aesthetics",
+    "definition": "VR、AR、MRを含む拡張現実環境において、没入、身体感覚、空間認識、相互作用がどのように芸術経験を変えるかを扱う理論。観客は画面外の鑑賞者ではなく、環境の中で行為する存在となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "没入型メディア論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "XR,immersive media,embodiment",
+    "key_researchers": ["Oliver Grau", "Mark B. N. Hansen"]
+  },
+  {
+    "name_ja": "没入型インスタレーション論",
+    "name_en": "Immersive Installation Theory",
+    "definition": "大規模映像、音響、照明、センサー、建築空間を組み合わせ、観客を環境全体で包み込む作品を分析する理論。体験の強度だけでなく、商業化、セルフィー文化、身体の誘導、参加の自由度を検討する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "体験経済批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immersive installation,experience,environment",
+    "key_researchers": ["Claire Bishop", "Boris Groys"]
+  },
+  {
+    "name_ja": "バイオアート倫理",
+    "name_en": "Bioart Ethics",
+    "definition": "細胞、遺伝子、微生物、組織培養、生体データを用いる芸術実践の倫理を扱う概念。生命を素材化することの境界、研究室と美術館の制度差、観客の嫌悪や共感、生命管理の政治性を問う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "生命倫理美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "bioart,ethics,life sciences",
+    "key_researchers": ["Jens Hauser", "Oron Catts"]
+  },
+  {
+    "name_ja": "マルチスピーシーズ芸術論",
+    "name_en": "Multispecies Art Theory",
+    "definition": "人間だけでなく、動物、植物、菌類、微生物など複数種との関係を芸術制作と鑑賞の中心に置く理論。自然を背景や象徴として扱うのではなく、共生、依存、搾取、応答可能性を美学的に考える。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "マルチスピーシーズ民族誌",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "multispecies,ecology,more-than-human",
+    "key_researchers": ["Donna Haraway", "Anna Tsing"]
+  },
+  {
+    "name_ja": "植物美学",
+    "name_en": "Plant Aesthetics",
+    "definition": "植物を装飾や風景要素ではなく、時間性、成長、感受性、環境応答をもつ存在として芸術理論に組み込む概念。庭園、インスタレーション、バイオアート、環境芸術を通じて非動物的な感性を問う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "植物哲学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "plant aesthetics,vegetal life,growth",
+    "key_researchers": ["Michael Marder", "Giovanni Aloi"]
+  },
+  {
+    "name_ja": "水圏美学",
+    "name_en": "Hydro-Aesthetics",
+    "definition": "海、河川、氷河、雨、汚染水、海面上昇を通じて、環境変動と身体の関係を考える芸術概念。水を風景の要素ではなく、記憶、移動、植民地主義、資源管理を媒介する存在として扱う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ブルー・ヒューマニティーズ",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "water,blue humanities,ocean",
+    "key_researchers": ["Astrida Neimanis", "Stefan Helmreich"]
+  },
+  {
+    "name_ja": "抽出主義批評",
+    "name_en": "Extractivist Critique in Art",
+    "definition": "鉱物、石油、データ、労働、文化資源の抽出に依存する現代社会を、芸術作品と制度の中で批判する理論。美術館建築、デジタル機器、スポンサーシップも抽出経済と無関係ではない点を明らかにする。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "政治生態学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "extractivism,resource politics,political ecology",
+    "key_researchers": ["Macarena Gómez-Barris", "T. J. Demos"]
+  },
+  {
+    "name_ja": "廃棄物美学",
+    "name_en": "Waste Aesthetics",
+    "definition": "ごみ、電子廃棄物、プラスチック、瓦礫、汚染物質を素材または主題とし、消費社会の不可視化された残余を考える芸術理論。リサイクルの美談だけでなく、廃棄の不平等な地理を分析する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "環境批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "waste,e-waste,material culture",
+    "key_researchers": ["Heather Davis", "Max Liboiron"]
+  },
+  {
+    "name_ja": "サウンド・エコロジー",
+    "name_en": "Sound Ecology",
+    "definition": "環境音、都市騒音、生物音、録音技術を通じて、生態系と聴取の関係を分析する音楽・サウンドアートの理論。音を美的対象としてだけでなく、環境変化や種間関係の指標として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "サウンドスケープ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "sound ecology,soundscape,acoustic environment",
+    "key_researchers": ["R. Murray Schafer", "Brandon LaBelle"]
+  },
+  {
+    "name_ja": "エコ音楽学",
+    "name_en": "Ecomusicology",
+    "definition": "音楽、音、環境、場所、動物、気候変動の関係を研究する音楽学の領域。楽曲分析だけでなく、演奏会の環境負荷、自然音の表象、地域共同体、環境運動との接続を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "環境音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ecomusicology,music,environment",
+    "key_researchers": ["Aaron S. Allen", "Denise Von Glahn"]
+  },
+  {
+    "name_ja": "ポストデジタル音楽",
+    "name_en": "Post-Digital Music",
+    "definition": "デジタル技術が新奇性を失い日常化した後の音楽実践を指す概念。アナログ機材、配信、AI、ノイズ、ライブ性が混在し、デジタルと非デジタルの対立ではなく、その複合的な使用感を問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ポストデジタル論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-digital music,hybridity,media",
+    "key_researchers": ["Kim Cascone", "Georgina Born"]
+  },
+  {
+    "name_ja": "ストリーミング音楽文化論",
+    "name_en": "Streaming Music Culture",
+    "definition": "SpotifyやApple Musicなどの配信環境が、楽曲構造、聴取習慣、収益配分、ジャンル分類を変える状況を分析する理論。アルバム中心の聴取から、プレイリスト、ムード、スキップ率に依存する音楽文化へ焦点を移す。",
+    "subfield": "音楽学",
+    "school_of_thought": "プラットフォーム音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "streaming,playlist,platform music",
+    "key_researchers": ["Georgina Born", "Eric Drott"]
+  },
+  {
+    "name_ja": "プレイリスト美学",
+    "name_en": "Playlist Aesthetics",
+    "definition": "個々の楽曲やアルバムではなく、配列、気分、活動、推薦アルゴリズムによって成立する音楽経験を考える概念。選曲行為は鑑賞と制作の中間に位置し、プラットフォームの分類と個人の感情管理を結びつける。",
+    "subfield": "音楽学",
+    "school_of_thought": "聴取文化論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "playlist,curation,listening",
+    "key_researchers": ["Anahid Kassabian", "Nick Seaver"]
+  },
+  {
+    "name_ja": "AI音楽生成論",
+    "name_en": "AI Music Generation Theory",
+    "definition": "機械学習による作曲、伴奏生成、音声合成、スタイル模倣を音楽創造の観点から分析する理論。作曲者、演奏者、モデル、訓練データの関係を再編し、著作権や音楽的個性の概念を揺さぶる。",
+    "subfield": "音楽学",
+    "school_of_thought": "計算音楽学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "AI music,composition,style transfer",
+    "key_researchers": ["David Cope", "François Pachet"]
+  },
+  {
+    "name_ja": "ボイス・クローン美学",
+    "name_en": "Voice Clone Aesthetics",
+    "definition": "AIによる声の複製や合成が、歌唱、演技、記憶、人格、肖像権をどのように変えるかを扱う概念。声を身体の一部でありながらデータ化可能な媒体として捉え、真正性と同意の問題を問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "音声メディア論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "voice cloning,vocal synthesis,authenticity",
+    "key_researchers": ["Nina Sun Eidsheim", "Jonathan Sterne"]
+  },
+  {
+    "name_ja": "音響的アフェクト",
+    "name_en": "Sonic Affect",
+    "definition": "音が意味として理解される以前に、身体、気分、空間、集団行動へ及ぼす作用を考える理論。低音、振動、残響、ノイズ、声の質感などを通じて、聴取を認知だけでなく身体的経験として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "アフェクト理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "sonic affect,vibration,embodied listening",
+    "key_researchers": ["Steve Goodman", "Marie Thompson"]
+  },
+  {
+    "name_ja": "脱植民地音楽学",
+    "name_en": "Decolonial Musicology",
+    "definition": "西洋クラシック中心の音楽史、楽譜中心主義、民族音楽の分類を批判し、植民地主義が作った聴取の制度を問い直す理論。音楽の価値判断、アーカイブ、教育課程、演奏慣習の再編を志向する。",
+    "subfield": "音楽学",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "decolonial musicology,canon,listening",
+    "key_researchers": ["Dylan Robinson", "Philip Ewell"]
+  },
+  {
+    "name_ja": "サウンド・スタディーズの聴取政治",
+    "name_en": "Politics of Listening",
+    "definition": "誰の声が聞かれ、誰の音が騒音とされ、どの聴取態度が標準化されるかを問う理論。音響空間を中立的なものではなく、人種、ジェンダー、障害、植民地主義によって組織された場として分析する。",
+    "subfield": "音楽学",
+    "school_of_thought": "サウンド・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "listening politics,sound studies,aurality",
+    "key_researchers": ["Dylan Robinson", "Jennifer Lynn Stoever"]
+  },
+  {
+    "name_ja": "パンデミック・パフォーマンス論",
+    "name_en": "Pandemic Performance Theory",
+    "definition": "COVID-19以後の舞台芸術における配信、公演中止、距離、マスク、観客不在、労働不安を分析する理論。ライブ性を単なる同時空間の共有ではなく、媒介、リスク、ケアの配置として再考する。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "パフォーマンス研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "pandemic performance,liveness,care",
+    "key_researchers": ["Rebecca Schneider", "Erika Fischer-Lichte"]
+  },
+  {
+    "name_ja": "デジタル・ライブネス",
+    "name_en": "Digital Liveness",
+    "definition": "配信、遠隔参加、チャット、リアルタイム映像処理によって成立するライブ感を扱う概念。観客と演者が同じ物理空間にいなくても、時間の共有、反応の即時性、技術的遅延が新しい舞台経験を作る。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "メディア・パフォーマンス論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital liveness,streaming,performance",
+    "key_researchers": ["Philip Auslander", "Sarah Bay-Cheng"]
+  },
+  {
+    "name_ja": "ポストドラマ演劇以後",
+    "name_en": "After Postdramatic Theatre",
+    "definition": "物語や戯曲中心主義を相対化したポストドラマ演劇の成果を踏まえ、近年の政治性、観客参加、ドキュメンタリー性、デジタル技術を再検討する概念。形式実験だけでなく制度や公共性への関与を重視する。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "ポストドラマ演劇論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "postdramatic theatre,performance,dramaturgy",
+    "key_researchers": ["Hans-Thies Lehmann", "Florian Malzacher"]
+  },
+  {
+    "name_ja": "ドキュメンタリー演劇論",
+    "name_en": "Documentary Theatre Theory",
+    "definition": "証言、記録、裁判資料、インタビュー、映像資料を舞台上で再構成する演劇を分析する理論。事実の提示と演出の関係、当事者性、倫理、観客が証人として位置づけられる仕組みを検討する。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "ドキュメンタリー・パフォーマンス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "documentary theatre,testimony,archive",
+    "key_researchers": ["Carol Martin", "Janelle Reinelt"]
+  },
+  {
+    "name_ja": "没入型演劇",
+    "name_en": "Immersive Theatre",
+    "definition": "観客が客席から舞台を見るだけでなく、空間内を移動し、選択し、演者や環境と関わる演劇形式を指す概念。自由な体験に見える一方で、行動の設計、監視、同意、身体的安全が重要な論点となる。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "参加型パフォーマンス論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immersive theatre,audience participation,space",
+    "key_researchers": ["Josephine Machon", "Adam Alston"]
+  },
+  {
+    "name_ja": "拡張振付",
+    "name_en": "Expanded Choreography",
+    "definition": "振付をダンサーの身体運動だけでなく、物、人、視線、制度、アルゴリズム、日常行為の配置として捉える理論。展覧会、都市空間、デジタル環境に広がる動きの組織化を分析する。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "コンテンポラリーダンス理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "expanded choreography,dance,movement",
+    "key_researchers": ["André Lepecki", "Bojana Cvejić"]
+  },
+  {
+    "name_ja": "パフォーマンスのアーカイブ論",
+    "name_en": "Performance Archive Theory",
+    "definition": "一回性をもつ舞台やパフォーマンスが、記録映像、スコア、証言、再演、展示によってどのように保存されるかを考える理論。消える芸術という前提を問い直し、記憶と再活性化の制度を分析する。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "アーカイブ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "performance archive,re-enactment,memory",
+    "key_researchers": ["Rebecca Schneider", "Diana Taylor"]
+  },
+  {
+    "name_ja": "再演美学",
+    "name_en": "Reenactment Aesthetics",
+    "definition": "過去のパフォーマンス、歴史的事件、政治的場面を再演することで、記憶と現在の関係を問い直す芸術概念。単なる復元ではなく、差異、身体化、証言、観客の歴史参加を生み出す方法として理解される。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "記憶研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "reenactment,memory,performance",
+    "key_researchers": ["Rebecca Schneider", "Amelia Jones"]
+  },
+  {
+    "name_ja": "AIドラマトゥルギー",
+    "name_en": "AI Dramaturgy",
+    "definition": "人工知能を脚本生成、即興応答、舞台制御、観客分析に用いる舞台芸術理論。AIを裏方の効率化装置としてだけでなく、物語の共同生成者や演者の相手として位置づける点に特徴がある。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "デジタル・ドラマトゥルギー",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "AI dramaturgy,theatre,co-creation",
+    "key_researchers": ["Sarah Bay-Cheng", "Steve Dixon"]
+  },
+  {
+    "name_ja": "ロボット・パフォーマンス",
+    "name_en": "Robot Performance",
+    "definition": "ロボットや自律機械を舞台上の演者、オブジェクト、相互作用装置として扱う芸術概念。人間的表現の模倣だけでなく、ぎこちなさ、反復、プログラムされた動きが生む異質な身体性を分析する。",
+    "subfield": "舞台芸術論",
+    "school_of_thought": "ポストヒューマン・パフォーマンス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "robot performance,automation,embodiment",
+    "key_researchers": ["Steve Dixon", "Jennifer Parker-Starbuck"]
+  },
+  {
+    "name_ja": "デジタル・ミュージアム論",
+    "name_en": "Digital Museum Theory",
+    "definition": "オンライン展示、3Dスキャン、バーチャルツアー、データベース、SNS発信によって美術館の公共性が変化する状況を分析する理論。収蔵品のアクセス拡大と同時に、デジタル格差、権利、体験の浅さも問う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ミュージアム・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital museum,online exhibition,access",
+    "key_researchers": ["Ross Parry", "Fiona Cameron"]
+  },
+  {
+    "name_ja": "返還美学",
+    "name_en": "Restitution Aesthetics",
+    "definition": "植民地期に収奪された美術品や文化財の返還を、法的所有だけでなく美的・記憶的・関係的な問題として扱う理論。展示の空白、複製、共同管理、語り直しを通じて美術館の権威を問い直す。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "脱植民地ミュージアム論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "restitution,museum,decolonization",
+    "key_researchers": ["Bénédicte Savoy", "Felwine Sarr"]
+  },
+  {
+    "name_ja": "プロヴェナンス批評",
+    "name_en": "Provenance Critique",
+    "definition": "作品の来歴を市場価値の保証としてだけでなく、戦争、植民地主義、盗掘、贈与、収集制度の痕跡として批判的に読む理論。近年はデジタル台帳や返還運動とも結びつき、所有の正当性を問う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "批判的ミュージアム研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "provenance,ownership,restitution",
+    "key_researchers": ["Bénédicte Savoy", "Ariella Aisha Azoulay"]
+  },
+  {
+    "name_ja": "アート市場金融化論",
+    "name_en": "Financialization of Art",
+    "definition": "芸術作品が投資商品、資産クラス、担保、指数化対象として扱われる状況を分析する理論。オークション、フリーポート、NFT、投機的価格形成を通じて、美的価値と金融価値の結びつきを問う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "文化経済批判",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "financialization,art market,asset",
+    "key_researchers": ["Olav Velthuis", "Andrea Fraser"]
+  },
+  {
+    "name_ja": "芸術労働批評",
+    "name_en": "Art Labor Critique",
+    "definition": "アーティスト、キュレーター、アシスタント、教育者、ギャラリー労働者の不安定な労働条件を分析する理論。創造性や情熱の名の下に無償労働が正当化される構造を批判し、制度的責任を問う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "文化労働研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "art labor,precarity,cultural work",
+    "key_researchers": ["Angela McRobbie", "Gregory Sholette"]
+  },
+  {
+    "name_ja": "注意経済美学",
+    "name_en": "Attention Economy Aesthetics",
+    "definition": "芸術作品がSNS、広告、通知、短尺動画と競合する環境で、注意の獲得と維持が美的形式を変える状況を扱う理論。鑑賞時間、スクロール、サムネイル、即時反応が価値判断に影響する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "メディア経済批判",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "attention economy,visual culture,platforms",
+    "key_researchers": ["Jonathan Crary", "Yves Citton"]
+  },
+  {
+    "name_ja": "アフェクト美学",
+    "name_en": "Affective Aesthetics",
+    "definition": "作品が意味や表象以前に、身体の緊張、気分、欲望、不安、共感を引き起こす作用を重視する理論。政治的芸術やデジタル文化の分析では、感情が集団的に伝播し行動を方向づける点が注目される。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "アフェクト理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affect,emotion,embodiment",
+    "key_researchers": ["Brian Massumi", "Sara Ahmed"]
+  },
+  {
+    "name_ja": "雰囲気美学",
+    "name_en": "Atmospheric Aesthetics",
+    "definition": "作品や空間が生む気配、空気感、照明、音、温度、密度を美的経験の中心に置く理論。対象を距離を置いて鑑賞するだけでなく、環境に包まれる身体的経験として芸術を捉える。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "新現象学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "atmosphere,ambience,phenomenology",
+    "key_researchers": ["Gernot Böhme", "Tonino Griffero"]
+  },
+  {
+    "name_ja": "感覚民族誌的芸術論",
+    "name_en": "Sensory Ethnographic Art Theory",
+    "definition": "映像、音、触覚、身体移動を通じて、文化や環境を説明ではなく感覚的経験として提示する芸術実践を分析する理論。観察者の客観性を前提にせず、撮影者、対象、環境の関係的な知を重視する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "感覚民族誌",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "sensory ethnography,embodied knowledge,film",
+    "key_researchers": ["Lucien Castaing-Taylor", "Sarah Pink"]
+  },
+  {
+    "name_ja": "非人間的キュレーション",
+    "name_en": "Nonhuman Curation",
+    "definition": "AI、動物、植物、環境条件、センサーなど、人間以外の要素が展示の選択や配置に関与する状況を考える概念。キュレーションを人間専門家の判断に限定せず、複数の主体による関係編成として捉える。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ポストヒューマン・キュレーション",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "nonhuman curation,agency,exhibition",
+    "key_researchers": ["Maria Lind", "Beatrice von Bismarck"]
+  },
+  {
+    "name_ja": "インディジナス・フューチャリズム芸術論",
+    "name_en": "Indigenous Futurist Art Theory",
+    "definition": "先住民の知、宇宙観、物語、技術想像力を未来表象と結びつける芸術理論。植民地主義による過去への固定化に抵抗し、SF、デジタルメディア、儀礼、土地との関係から別様の未来を描く。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "インディジナス・スタディーズ",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "Indigenous futurism,decolonial future,sovereignty",
+    "key_researchers": ["Grace Dillon", "Dylan Robinson"]
+  },
+  {
+    "name_ja": "アフロフューチャリズム美学",
+    "name_en": "Afrofuturist Aesthetics",
+    "definition": "黒人経験、ディアスポラ、テクノロジー、宇宙的想像力を結びつけ、過去の暴力と未来の可能性を同時に表現する美学。音楽、映像、美術、ファッションを横断し、歴史の欠落を想像力で再構成する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "アフロフューチャリズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Afrofuturism,Black futures,diaspora",
+    "key_researchers": ["Kodwo Eshun", "Ytasha Womack"]
+  },
+  {
+    "name_ja": "メタバース芸術論",
+    "name_en": "Metaverse Art Theory",
+    "definition": "仮想空間内で制作、展示、売買、交流される芸術を分析する概念。アバター、仮想建築、デジタル所有、没入型イベントを通じて、作品の場所性、身体性、コミュニティ形成が再定義される。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "仮想空間文化論",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "metaverse,virtual worlds,avatar",
+    "key_researchers": ["Tom Boellstorff", "Patrick Lichty"]
+  },
+  {
+    "name_ja": "ゲームアート理論",
+    "name_en": "Game Art Theory",
+    "definition": "ビデオゲームを娯楽商品だけでなく、ルール、操作、空間、物語、失敗、プレイヤー行為によって成立する芸術形式として分析する理論。近年はインディーゲーム、展示、配信文化、政治的ゲームが重要な対象となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ゲーム・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "game art,interactivity,play",
+    "key_researchers": ["Jesper Juul", "Mary Flanagan"]
+  },
+  {
+    "name_ja": "インタラクティブ・ドキュメンタリー美学",
+    "name_en": "Interactive Documentary Aesthetics",
+    "definition": "観客が選択、探索、入力を通じて記録映像や資料に関わるドキュメンタリー形式を分析する理論。直線的な語りではなく、データベース構造、参加、倫理的距離が現実理解を形成する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "デジタル・ドキュメンタリー論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "interactive documentary,database,participation",
+    "key_researchers": ["Sandra Gaudenzi", "Mandy Rose"]
+  },
+  {
+    "name_ja": "スローメディア美学",
+    "name_en": "Slow Media Aesthetics",
+    "definition": "高速な消費と即時反応を求めるメディア環境に対し、遅さ、持続、反復、待機、注意深い鑑賞を価値化する美学。長時間映像、ミニマル音楽、手仕事、環境観察などを通じて時間経験を問い直す。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "スロー文化論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "slow media,duration,attention",
+    "key_researchers": ["Jonathan Crary", "Laura U. Marks"]
+  },
+  {
+    "name_ja": "低解像度美学",
+    "name_en": "Low-Resolution Aesthetics",
+    "definition": "粗い画像、圧縮ノイズ、スクリーンショット、複製劣化を単なる欠陥ではなく、流通やアクセスの痕跡として評価する理論。高精細な所有物よりも、共有され変形される画像の社会的生命を重視する。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "貧しいイメージ論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "low resolution,poor image,circulation",
+    "key_researchers": ["Hito Steyerl", "Erika Balsom"]
+  },
+  {
+    "name_ja": "ディープフェイク美学",
+    "name_en": "Deepfake Aesthetics",
+    "definition": "AIによる顔や声の合成が、映像の証拠性、スターの身体、ポルノグラフィ、政治的宣伝、記憶をどう変えるかを分析する概念。偽物の見破りだけでなく、信頼そのものの条件が変化する点を問う。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "ポスト真実メディア論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "deepfake,synthetic media,trust",
+    "key_researchers": ["Hao Li", "Wendy Hui Kyong Chun"]
+  }
+]
+tokens used
+15,981

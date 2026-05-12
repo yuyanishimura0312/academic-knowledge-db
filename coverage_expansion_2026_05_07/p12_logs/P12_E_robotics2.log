@@ -1,0 +1,875 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a2a-0e9b-7e62-91d6-748f30936843
+--------
+user
+「機械工学・ロボティクス」分野の重要概念60件を JSON 配列で出力。
+
+必須概念:
+PD制御、Kalman filter、Particle filter、ROS Robot Operating System、Manipulator kinematics
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"機械工学・ロボティクス","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "PD制御",
+    "name_en": "PD control",
+    "definition": "比例項で目標との偏差を減らし、微分項で速度的な変化を抑えて応答を安定化する制御法。ロボット関節、サーボ機構、姿勢制御で広く使われ、単純な構造ながら振動抑制と追従性の調整に重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "古典制御",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_en": "proportional control,derivative action,servo control",
+    "key_researchers": ["Nicolas Minorsky", "Harold Black"]
+  },
+  {
+    "name_ja": "カルマンフィルタ",
+    "name_en": "Kalman filter",
+    "definition": "線形ガウス系の状態を、モデル予測と観測更新を反復して最小分散的に推定する再帰的フィルタ。ロボットの自己位置推定、センサ融合、航法、制御系の状態推定で基盤となる概念である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "確率的状態推定",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "state estimation,sensor fusion,linear systems",
+    "key_researchers": ["Rudolf E. Kalman", "Richard S. Bucy"]
+  },
+  {
+    "name_ja": "粒子フィルタ",
+    "name_en": "Particle filter",
+    "definition": "多数の重み付きサンプルで確率分布を近似し、非線形かつ非ガウスな状態推定を行う手法。移動ロボットの位置推定、物体追跡、SLAMで有効で、複数仮説を保持できる点が実用上重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "逐次モンテカルロ推定",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_en": "sequential Monte Carlo,nonlinear estimation,localization",
+    "key_researchers": ["Neil Gordon", "David Salmond", "Adrian Smith"]
+  },
+  {
+    "name_ja": "ROS Robot Operating System",
+    "name_en": "ROS Robot Operating System",
+    "definition": "ロボットソフトウェアをノード、トピック、サービス、パッケージとして構成するミドルウェア群。センサ、制御、認識、シミュレーションを再利用可能に接続し、研究開発と実機実装の標準的基盤になった。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "オープンソースロボティクス",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_en": "middleware,robot software,distributed systems",
+    "key_researchers": ["Morgan Quigley", "Brian Gerkey", "Ken Conley"]
+  },
+  {
+    "name_ja": "マニピュレータ運動学",
+    "name_en": "Manipulator kinematics",
+    "definition": "ロボットアームの関節変位と手先位置姿勢の幾何学的関係を扱う理論。順運動学、逆運動学、ヤコビアン、特異点解析を含み、作業計画、制御、キャリブレーションの前提となる中核概念である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット幾何学",
+    "era_start": 1955,
+    "era_end": null,
+    "keywords_en": "forward kinematics,inverse kinematics,jacobian",
+    "key_researchers": ["Jacques Denavit", "Richard S. Hartenberg"]
+  },
+  {
+    "name_ja": "逆運動学",
+    "name_en": "Inverse kinematics",
+    "definition": "望ましい手先位置や姿勢を実現するための関節角を求める問題。閉形式解、数値反復、冗長自由度の最適化などがあり、産業用ロボット、ヒューマノイド、医療ロボットの動作生成に不可欠である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット幾何学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "inverse kinematics,pose solving,redundancy",
+    "key_researchers": ["Donald L. Pieper", "Bernard Roth"]
+  },
+  {
+    "name_ja": "ヤコビアン行列",
+    "name_en": "Jacobian matrix",
+    "definition": "関節速度と手先の並進・回転速度を線形に結びつける行列。速度制御、力制御、特異点解析、可操作性評価に使われ、微小変位の関係を通じて運動学と動力学を接続する重要な道具である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "微分運動学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "velocity kinematics,differential kinematics,singularity",
+    "key_researchers": ["Bernard Roth", "Mark W. Spong"]
+  },
+  {
+    "name_ja": "デナビット・ハーテンバーグ表記",
+    "name_en": "Denavit-Hartenberg convention",
+    "definition": "隣接リンク間の座標変換を四つのパラメータで体系的に表すロボット運動学の標準表記。複雑なマニピュレータの順運動学を行列積として整理でき、設計、解析、教育で広く用いられる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット幾何学",
+    "era_start": 1955,
+    "era_end": null,
+    "keywords_en": "DH parameters,homogeneous transform,link frames",
+    "key_researchers": ["Jacques Denavit", "Richard S. Hartenberg"]
+  },
+  {
+    "name_ja": "剛体力学",
+    "name_en": "Rigid body dynamics",
+    "definition": "変形を無視できる物体の並進運動と回転運動を、力、トルク、慣性、角運動量から記述する力学。ロボットリンク、車両、機械要素の運動解析と制御設計の基礎である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ニュートン力学",
+    "era_start": 1687,
+    "era_end": null,
+    "keywords_en": "rigid body,inertia,angular momentum",
+    "key_researchers": ["Isaac Newton", "Leonhard Euler"]
+  },
+  {
+    "name_ja": "ラグランジュ力学",
+    "name_en": "Lagrangian mechanics",
+    "definition": "運動エネルギーとポテンシャルエネルギーの差から運動方程式を導く解析力学。多自由度ロボットの関節座標系での動力学導出に適し、拘束条件や一般化力を扱いやすい。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "解析力学",
+    "era_start": 1788,
+    "era_end": null,
+    "keywords_en": "Euler-Lagrange,generalized coordinates,dynamics",
+    "key_researchers": ["Joseph-Louis Lagrange", "William Rowan Hamilton"]
+  },
+  {
+    "name_ja": "ニュートン・オイラー法",
+    "name_en": "Newton-Euler method",
+    "definition": "各リンクに作用する力とモーメントを順方向・逆方向に伝播してロボットの動力学を計算する手法。計算効率が高く、逆動力学、トルク制御、リアルタイム制御実装で重要な役割を持つ。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "再帰的ロボット動力学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "inverse dynamics,recursive dynamics,link forces",
+    "key_researchers": ["Isaac Newton", "Leonhard Euler", "Roy Featherstone"]
+  },
+  {
+    "name_ja": "インピーダンス制御",
+    "name_en": "Impedance control",
+    "definition": "ロボットと環境の相互作用を仮想的な質量、ばね、ダンパの関係として設計する制御法。接触作業、組立、協働ロボットで、位置を厳密に押し付けず柔らかい応答を実現するために使われる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "相互作用制御",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "interaction control,compliance,force control",
+    "key_researchers": ["Neville Hogan"]
+  },
+  {
+    "name_ja": "アドミッタンス制御",
+    "name_en": "Admittance control",
+    "definition": "外力入力に対して目標位置や速度を生成し、ロボットが環境に柔軟に従うようにする制御法。位置制御型アクチュエータでも接触力に応じた動作を作りやすく、人間協調や力覚操作に適する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "相互作用制御",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "admittance,force input,compliant motion",
+    "key_researchers": ["Neville Hogan", "Oussama Khatib"]
+  },
+  {
+    "name_ja": "力制御",
+    "name_en": "Force control",
+    "definition": "ロボットが対象や環境に加える力を目標値へ調整する制御概念。研磨、組立、把持、歩行ロボットの接地制御などで不可欠で、位置制御だけでは扱えない接触作業の品質を左右する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "接触ロボティクス",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "contact force,hybrid control,force sensing",
+    "key_researchers": ["Daniel E. Whitney", "Marc H. Raibert", "John J. Craig"]
+  },
+  {
+    "name_ja": "ハイブリッド位置力制御",
+    "name_en": "Hybrid position-force control",
+    "definition": "作業空間の方向ごとに位置制御と力制御を分担させる制御法。面に沿って動かしながら法線方向の押付力を保つような作業に適し、拘束環境下のロボット操作を体系化した概念である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "接触ロボティクス",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "hybrid control,constrained motion,contact tasks",
+    "key_researchers": ["Marc H. Raibert", "John J. Craig"]
+  },
+  {
+    "name_ja": "SLAM",
+    "name_en": "Simultaneous localization and mapping",
+    "definition": "未知環境でロボットの自己位置推定と地図作成を同時に行う問題。確率推定、特徴対応、グラフ最適化を組み合わせ、移動ロボット、ドローン、自動運転の自律移動能力を支える。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "確率ロボティクス",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "SLAM,mapping,localization",
+    "key_researchers": ["Hugh Durrant-Whyte", "John J. Leonard", "Sebastian Thrun"]
+  },
+  {
+    "name_ja": "拡張カルマンフィルタSLAM",
+    "name_en": "Extended Kalman filter SLAM",
+    "definition": "非線形なロボット運動や観測を線形化し、カルマンフィルタでロボット姿勢とランドマーク位置を同時推定するSLAM手法。初期の確率的SLAMを代表し、推定誤差共分散の扱いを明確にした。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "確率ロボティクス",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "EKF SLAM,landmarks,covariance",
+    "key_researchers": ["Randall Smith", "Matthew Self", "Peter Cheeseman"]
+  },
+  {
+    "name_ja": "グラフSLAM",
+    "name_en": "Graph SLAM",
+    "definition": "ロボット姿勢やランドマークをノード、観測制約をエッジとして表し、全体の誤差を最小化するSLAM手法。大規模地図、ループ閉じ込み、視覚SLAMで強力で、現代的な最適化型推定の中心である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "グラフ最適化",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "pose graph,loop closure,nonlinear optimization",
+    "key_researchers": ["Frank Dellaert", "Sebastian Thrun", "Giorgio Grisetti"]
+  },
+  {
+    "name_ja": "経路計画",
+    "name_en": "Path planning",
+    "definition": "障害物を避けながら開始位置から目標位置まで到達可能な経路を求める問題。探索、サンプリング、最適化を用い、移動ロボット、マニピュレータ、ドローン、自動運転の自律性を構成する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "計画アルゴリズム",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "motion planning,collision avoidance,configuration space",
+    "key_researchers": ["Nils Nilsson", "Jean-Claude Latombe"]
+  },
+  {
+    "name_ja": "Aスター探索",
+    "name_en": "A* search",
+    "definition": "実コストとヒューリスティック推定値を組み合わせ、最短経路を効率的に探索するアルゴリズム。ロボットのグリッド地図ナビゲーション、経路計画、ゲームAIなどで使われ、許容的ヒューリスティックなら最適性を保つ。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ヒューリスティック探索",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "A star,heuristic search,shortest path",
+    "key_researchers": ["Peter Hart", "Nils Nilsson", "Bertram Raphael"]
+  },
+  {
+    "name_ja": "RRT",
+    "name_en": "Rapidly-exploring random tree",
+    "definition": "ランダムサンプリングによって高次元空間を素早く探索し、到達可能な木を成長させる経路計画手法。複雑なロボット形状や非ホロノミック制約を持つ系でも実装しやすく、実用的な動作計画で広く使われる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "サンプリングベース計画",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "RRT,sampling-based planning,motion planning",
+    "key_researchers": ["Steven M. LaValle", "James J. Kuffner"]
+  },
+  {
+    "name_ja": "PRM",
+    "name_en": "Probabilistic roadmap",
+    "definition": "自由空間にランダムなサンプル点を置き、局所経路で接続したロードマップを作って経路を探索する手法。多自由度ロボットの計画に有効で、事前構築した地図を複数クエリに再利用できる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "サンプリングベース計画",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "PRM,roadmap,configuration space",
+    "key_researchers": ["Lydia Kavraki", "Jean-Claude Latombe"]
+  },
+  {
+    "name_ja": "ポテンシャル場法",
+    "name_en": "Artificial potential field",
+    "definition": "目標からの引力と障害物からの斥力を仮想ポテンシャルとして定義し、勾配に沿ってロボットを動かす手法。実装が簡単で反応的だが、局所最小や狭路での停滞が典型的な課題となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "反応型計画",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "potential field,reactive planning,obstacle avoidance",
+    "key_researchers": ["Oussama Khatib"]
+  },
+  {
+    "name_ja": "モデル予測制御",
+    "name_en": "Model predictive control",
+    "definition": "将来の有限時間範囲でモデルに基づく最適化を解き、最初の制御入力だけを適用して逐次更新する制御法。制約条件を自然に扱えるため、車両、ドローン、脚ロボット、プロセス制御で有効である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "最適制御",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "MPC,optimal control,constraints",
+    "key_researchers": ["Jacques Richalet", "David Q. Mayne"]
+  },
+  {
+    "name_ja": "最適制御",
+    "name_en": "Optimal control",
+    "definition": "力学系の制御入力を、コスト関数を最小化または最大化するように決定する理論。ロボットの軌道生成、エネルギー最小化、時間最短制御、歩行生成などで、性能を明示的に設計できる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "変分法・動的計画法",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "optimal control,trajectory optimization,cost function",
+    "key_researchers": ["Lev Pontryagin", "Richard Bellman"]
+  },
+  {
+    "name_ja": "線形二次レギュレータ",
+    "name_en": "Linear quadratic regulator",
+    "definition": "線形システムに対し、状態偏差と入力の二次コストを最小化するフィードバックゲインを求める制御法。安定性と性能の数学的性質が明確で、ロボット姿勢制御や軌道安定化の基礎となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "現代制御",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "LQR,state feedback,Riccati equation",
+    "key_researchers": ["Rudolf E. Kalman", "Richard Bellman"]
+  },
+  {
+    "name_ja": "PID制御",
+    "name_en": "PID control",
+    "definition": "比例、積分、微分の三作用で偏差、定常誤差、応答速度を調整する産業制御の代表的手法。モータ、温度、圧力、ロボット関節などで使われ、単純さと調整可能性から現在も広範に利用される。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "古典制御",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_en": "PID,feedback control,industrial control",
+    "key_researchers": ["Nicolas Minorsky", "John G. Ziegler", "Nathaniel B. Nichols"]
+  },
+  {
+    "name_ja": "フィードバック線形化",
+    "name_en": "Feedback linearization",
+    "definition": "非線形システムに対し、状態フィードバックと座標変換によって入出力関係を線形系のように扱う制御法。ロボットアームや航空機の制御で、非線形性を補償して線形制御理論を適用しやすくする。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "非線形制御",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "nonlinear control,input-output linearization,computed torque",
+    "key_researchers": ["Alberto Isidori", "Shankar Sastry"]
+  },
+  {
+    "name_ja": "計算トルク法",
+    "name_en": "Computed torque control",
+    "definition": "ロボットの動力学モデルを用いて慣性、コリオリ力、重力を補償し、関節空間で線形化された追従制御を行う方法。モデル精度に依存するが、高速で正確なマニピュレータ制御に有効である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "モデルベース制御",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "computed torque,inverse dynamics,trajectory tracking",
+    "key_researchers": ["Mark W. Spong", "John J. Craig"]
+  },
+  {
+    "name_ja": "適応制御",
+    "name_en": "Adaptive control",
+    "definition": "質量、摩擦、負荷などの不確かなパラメータをオンラインで推定または補償しながら制御性能を維持する手法。把持対象が変わるロボット、柔軟構造、外乱の多い機械システムで有用である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロバスト・適応制御",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "adaptive control,parameter estimation,uncertainty",
+    "key_researchers": ["Karl J. Astrom", "Petros Ioannou", "Jean-Jacques Slotine"]
+  },
+  {
+    "name_ja": "ロバスト制御",
+    "name_en": "Robust control",
+    "definition": "モデル誤差、外乱、パラメータ変動が存在しても安定性や性能を保つことを目的とする制御理論。機械システムでは摩擦、柔軟性、負荷変動に対する設計余裕を与えるため重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロバスト制御",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "robust control,H infinity,uncertainty",
+    "key_researchers": ["George Zames", "John C. Doyle", "Kemin Zhou"]
+  },
+  {
+    "name_ja": "スライディングモード制御",
+    "name_en": "Sliding mode control",
+    "definition": "状態を設計した切換面へ到達させ、その面上で望ましい動作を保つ非線形ロバスト制御。パラメータ変動や外乱に強い一方、チャタリング低減が実装上の課題であり、ロボット制御で多く研究される。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "可変構造制御",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "sliding mode,variable structure,robustness",
+    "key_researchers": ["Vadim Utkin", "Stanislav V. Emelyanov"]
+  },
+  {
+    "name_ja": "サーボ機構",
+    "name_en": "Servomechanism",
+    "definition": "フィードバックを用いて位置、速度、力などを目標値に追従させる機械制御システム。モータ、センサ、制御器、駆動回路を統合し、工作機械、ロボット関節、航空機操舵に不可欠である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "フィードバック制御工学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "servo,actuator,feedback loop",
+    "key_researchers": ["Harold Black", "Hendrik Wade Bode"]
+  },
+  {
+    "name_ja": "DCモータ制御",
+    "name_en": "DC motor control",
+    "definition": "直流モータの電圧、電流、速度、位置を制御する技術。電気機械変換、逆起電力、トルク定数、摩擦を考慮し、ロボット関節、車輪駆動、精密位置決め装置の基本となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "メカトロニクス",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "DC motor,velocity control,torque constant",
+    "key_researchers": ["Michael Faraday", "Werner von Siemens"]
+  },
+  {
+    "name_ja": "ブラシレスDCモータ",
+    "name_en": "Brushless DC motor",
+    "definition": "機械的ブラシの代わりに電子的な転流で回転磁界を作るモータ。高効率、高寿命、高出力密度を持ち、ドローン、協働ロボット、電動車両、精密サーボで主要なアクチュエータとなっている。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "電動アクチュエーション",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "BLDC,electronic commutation,motor drive",
+    "key_researchers": ["T. G. Wilson", "P. H. Trickey"]
+  },
+  {
+    "name_ja": "ステッピングモータ",
+    "name_en": "Stepper motor",
+    "definition": "入力パルスに応じて離散的な角度ステップで回転するモータ。開ループ位置決めが容易で、3Dプリンタ、CNC、計測装置、軽量ロボットに用いられるが、高速時の脱調や振動に注意が必要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "電動アクチュエーション",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "stepper motor,pulse control,open-loop positioning",
+    "key_researchers": ["Frank W. Woods", "Arthur C. Guy"]
+  },
+  {
+    "name_ja": "エンコーダ",
+    "name_en": "Encoder",
+    "definition": "回転角や直線変位を電気信号として検出するセンサ。インクリメンタル型とアブソリュート型があり、ロボット関節、サーボモータ、工作機械で位置・速度フィードバックを得るために不可欠である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "計測工学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "encoder,position sensing,quadrature",
+    "key_researchers": ["Harold M. McMaster"]
+  },
+  {
+    "name_ja": "慣性計測装置",
+    "name_en": "Inertial measurement unit",
+    "definition": "加速度計とジャイロスコープを組み合わせ、物体の加速度、角速度、姿勢変化を測定する装置。ドローン、移動ロボット、歩行ロボットで短時間の運動推定に使われ、他センサとの融合が重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "慣性航法",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "IMU,accelerometer,gyroscope",
+    "key_researchers": ["Charles Stark Draper"]
+  },
+  {
+    "name_ja": "LiDAR",
+    "name_en": "Light detection and ranging",
+    "definition": "レーザ光の飛行時間や位相差から周囲物体までの距離を測定するセンサ技術。三次元点群を生成でき、移動ロボットの地図作成、障害物検出、自動運転の環境認識で重要な役割を持つ。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット知覚",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_en": "LiDAR,point cloud,ranging",
+    "key_researchers": ["Malcolm Stitch", "Velodyne Lidar"]
+  },
+  {
+    "name_ja": "センサフュージョン",
+    "name_en": "Sensor fusion",
+    "definition": "複数のセンサ情報を統合し、単独センサより信頼性や精度の高い状態認識を得る考え方。カメラ、LiDAR、IMU、エンコーダ、GPSを組み合わせ、自己位置推定や物体認識の頑健性を高める。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "情報統合",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "sensor fusion,multimodal sensing,state estimation",
+    "key_researchers": ["Rudolf E. Kalman", "Hugh Durrant-Whyte"]
+  },
+  {
+    "name_ja": "コンピュータビジョン",
+    "name_en": "Computer vision",
+    "definition": "画像や動画から物体、形状、運動、位置関係を推定する技術領域。ロボットでは視覚サーボ、把持対象認識、ナビゲーション、検査に使われ、幾何学的手法と学習ベース手法の双方が重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット知覚",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "computer vision,object detection,visual perception",
+    "key_researchers": ["David Marr", "Takeo Kanade"]
+  },
+  {
+    "name_ja": "視覚サーボ",
+    "name_en": "Visual servoing",
+    "definition": "カメラ画像から得た特徴量をフィードバックし、ロボットの位置や姿勢を制御する方法。対象追従、把持、組立、ドローン着陸などで使われ、画像空間と作業空間の関係設計が中心課題となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "視覚フィードバック制御",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "visual servoing,image-based control,camera feedback",
+    "key_researchers": ["Seth Hutchinson", "François Chaumette"]
+  },
+  {
+    "name_ja": "ロボット把持",
+    "name_en": "Robotic grasping",
+    "definition": "ロボットハンドが物体を安定に保持し、必要に応じて操作するための計画と制御。接触点、摩擦円錐、形状認識、力制御、学習を含み、物流、製造、家庭支援ロボットの実用性を左右する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット操作",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "grasping,force closure,robot hand",
+    "key_researchers": ["Antonio Bicchi", "Mark R. Cutkosky", "Ken Goldberg"]
+  },
+  {
+    "name_ja": "フォームクロージャ",
+    "name_en": "Form closure",
+    "definition": "摩擦に依存せず、接触点の幾何学的配置だけで物体の運動を拘束できる把持状態。ロボット把持理論で安定性を評価する基本概念であり、治具設計や多指ハンドの接触計画に使われる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "幾何学的把持理論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "form closure,grasp stability,contact geometry",
+    "key_researchers": ["Antonio Bicchi", "Mark R. Cutkosky"]
+  },
+  {
+    "name_ja": "フォースクロージャ",
+    "name_en": "Force closure",
+    "definition": "摩擦を含む接触力の組合せにより、任意方向の外力や外乱モーメントに対抗できる把持状態。多指ロボットハンドの把持品質評価に用いられ、接触点配置と摩擦条件の設計に直結する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "把持力学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "force closure,friction cone,grasp quality",
+    "key_researchers": ["Antonio Bicchi", "Jeffrey C. Trinkle"]
+  },
+  {
+    "name_ja": "移動ロボット",
+    "name_en": "Mobile robot",
+    "definition": "車輪、脚、クローラ、飛行機構などで環境内を移動するロボット。自己位置推定、地図作成、経路計画、障害物回避、運動制御を統合する必要があり、自律ロボティクスの代表的対象である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "自律移動ロボティクス",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "mobile robot,navigation,autonomy",
+    "key_researchers": ["Charles Rosen", "Hans Moravec"]
+  },
+  {
+    "name_ja": "差動二輪モデル",
+    "name_en": "Differential drive model",
+    "definition": "左右二つの駆動輪の速度差によって前進と旋回を行う移動ロボットの運動モデル。構造が単純で制御しやすく、非ホロノミック制約を持つ代表例として、教育用から実用ロボットまで広く使われる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "移動ロボット運動学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "differential drive,nonholonomic robot,wheel kinematics",
+    "key_researchers": ["Jean-Claude Latombe", "Roland Siegwart"]
+  },
+  {
+    "name_ja": "非ホロノミック制約",
+    "name_en": "Nonholonomic constraint",
+    "definition": "速度には制約を与えるが、単純な位置座標の制約として積分できない運動制約。車輪型ロボットや自動車の横滑りしない条件が典型で、経路計画や制御を難しくする重要な性質である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "幾何学的制御",
+    "era_start": 1894,
+    "era_end": null,
+    "keywords_en": "nonholonomic constraint,wheeled robot,geometric control",
+    "key_researchers": ["Henri Poincaré", "Richard M. Murray"]
+  },
+  {
+    "name_ja": "脚ロボット",
+    "name_en": "Legged robot",
+    "definition": "脚機構によって歩行、走行、跳躍を行うロボット。接地の切替、動的安定性、衝撃吸収、地形適応が課題であり、車輪では困難な不整地移動や人間環境での移動能力を目指す。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "動的歩行ロボティクス",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "legged locomotion,dynamic stability,terrain adaptation",
+    "key_researchers": ["Marc H. Raibert", "Tad McGeer"]
+  },
+  {
+    "name_ja": "ゼロモーメントポイント",
+    "name_en": "Zero moment point",
+    "definition": "歩行ロボットの足裏接地面で、水平軸まわりの合成モーメントがゼロになる点。二足歩行の安定性評価と軌道生成に広く使われ、ヒューマノイド研究で中心的な概念となった。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "二足歩行制御",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "ZMP,biped walking,stability",
+    "key_researchers": ["Miomir Vukobratovic"]
+  },
+  {
+    "name_ja": "受動歩行",
+    "name_en": "Passive dynamic walking",
+    "definition": "モータ制御をほとんど用いず、重力と機械構造の自然な力学で坂を歩く現象と設計思想。効率的な歩行の本質を示し、脚ロボットで過剰な制御に頼らない機械的知能の考え方を広めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "身体性ロボティクス",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "passive dynamic walking,legged locomotion,morphological computation",
+    "key_researchers": ["Tad McGeer", "Andy Ruina"]
+  },
+  {
+    "name_ja": "ヒューマノイドロボット",
+    "name_en": "Humanoid robot",
+    "definition": "人間に近い胴体、腕、脚、頭部を持ち、人間環境で作業することを目指すロボット。二足歩行、全身運動制御、把持、対話、バランス維持を統合するため、ロボティクスの総合課題とされる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間型ロボティクス",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "humanoid,biped robot,whole-body control",
+    "key_researchers": ["Ichiro Kato", "Hirochika Inoue"]
+  },
+  {
+    "name_ja": "全身制御",
+    "name_en": "Whole-body control",
+    "definition": "脚、腕、胴体、接触点を含む多自由度ロボット全体を、複数タスクと制約の下で同時に制御する枠組み。ヒューマノイドや四脚ロボットで、姿勢保持、接触力、操作を統合するために重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "多自由度最適制御",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "whole-body control,task hierarchy,contact constraints",
+    "key_researchers": ["Oussama Khatib", "Luis Sentis"]
+  },
+  {
+    "name_ja": "冗長マニピュレータ",
+    "name_en": "Redundant manipulator",
+    "definition": "作業に必要な自由度より多い関節自由度を持つロボットアーム。障害物回避、特異点回避、関節限界回避、姿勢最適化が可能になる一方、逆運動学の解が無数に存在するため制御設計が重要となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "冗長性制御",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "redundancy,null space,manipulator control",
+    "key_researchers": ["Yoshihiko Nakamura", "Oussama Khatib"]
+  },
+  {
+    "name_ja": "ヌル空間制御",
+    "name_en": "Null-space control",
+    "definition": "主タスクに影響しない関節速度や力の自由度を利用し、副次タスクを達成する制御法。冗長ロボットで姿勢最適化、関節限界回避、可操作性向上を行うために使われる重要な手法である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "冗長性制御",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "null space,redundancy resolution,secondary task",
+    "key_researchers": ["Yoshihiko Nakamura", "Anthony A. Maciejewski"]
+  },
+  {
+    "name_ja": "可操作性",
+    "name_en": "Manipulability",
+    "definition": "ロボットがある姿勢で手先をどれだけ容易に動かせるかを、ヤコビアンに基づいて評価する指標。特異点回避、姿勢選択、冗長アーム制御で使われ、速度や力の出しやすさを定量化する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット性能評価",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "manipulability,jacobian,singularity avoidance",
+    "key_researchers": ["Tsuneo Yoshikawa"]
+  },
+  {
+    "name_ja": "特異点",
+    "name_en": "Singularity",
+    "definition": "ロボットのヤコビアンのランクが低下し、特定方向の速度や力を生成できなくなる姿勢。制御入力の発散、可操作性低下、逆運動学の不安定化を招くため、設計と軌道計画で回避が重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット幾何学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "singularity,jacobian rank,workspace",
+    "key_researchers": ["Bernard Roth", "Tsuneo Yoshikawa"]
+  },
+  {
+    "name_ja": "軌道生成",
+    "name_en": "Trajectory generation",
+    "definition": "位置、速度、加速度、時間条件を満たす滑らかな運動系列を作る技術。ロボットアーム、移動ロボット、工作機械で、制約、衝撃、振動、追従誤差を抑えながら実行可能な動きを設計する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "運動計画",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "trajectory generation,splines,time scaling",
+    "key_researchers": ["John J. Craig", "Mark W. Spong"]
+  },
+  {
+    "name_ja": "ベジエ曲線",
+    "name_en": "Bezier curve",
+    "definition": "制御点に基づいて滑らかな曲線を生成する幾何学的表現。ロボットの経路補間、軌道生成、CAD/CAMで使われ、曲線形状を直感的に調整できるため機械設計と運動計画で有用である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "計算幾何",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "Bezier curve,path smoothing,CAD",
+    "key_researchers": ["Pierre Bezier", "Paul de Casteljau"]
+  },
+  {
+    "name_ja": "有限要素法",
+    "name_en": "Finite element method",
+    "definition": "連続体を小さな要素に分割し、応力、変形、熱、振動などを数値的に解析する方法。機械部品、ロボット構造、柔軟リンク、筐体設計で強度と剛性を評価する標準的手法である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "数値解析工学",
+    "era_start": 1943,
+    "era_end": null,
+    "keywords_en": "finite element method,structural analysis,stress",
+    "key_researchers": ["Richard Courant", "John Argyris", "Olgierd Zienkiewicz"]
+  },
+  {
+    "name_ja": "機械振動",
+    "name_en": "Mechanical vibration",
+    "definition": "質量、剛性、減衰を持つ機械系が周期的または過渡的に揺れる現象。ロボットアームの残留振動、工作機械のびびり、車両乗り心地、構造疲労に関係し、設計と制御で抑制が必要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "振動工学",
+    "era_start": 1877,
+    "era_end": null,
+    "keywords_en": "vibration,damping,resonance",
+    "key_researchers": ["John William Strutt", "Stephen Timoshenko"]
+  },
+  {
+    "name_ja": "共振",
+    "name_en": "Resonance",
+    "definition": "外力や入力の周波数がシステムの固有周波数に近づき、振幅が大きく増幅される現象。機械構造やロボット制御では破損、騒音、精度低下を引き起こすため、設計段階の回避と減衰設計が重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "振動工学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "resonance,natural frequency,dynamic response",
+    "key_researchers": ["Hermann von Helmholtz", "John William Strutt"]
+  },
+  {
+    "name_ja": "トライボロジー",
+    "name_en": "Tribology",
+    "definition": "摩擦、摩耗、潤滑を扱う学問分野。軸受、歯車、ロボット関節、減速機、摺動部の寿命や効率に直結し、材料選択、表面処理、潤滑設計を通じて機械システムの信頼性を高める。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "機械要素工学",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "tribology,friction,wear",
+    "key_researchers": ["Peter Jost", "Frank Philip Bowden", "David Tabor"]
+  },
+  {
+    "name_ja": "歯車機構",
+    "name_en": "Gear mechanism",
+    "definition": "歯を持つ回転要素の噛み合いによってトルク、速度、回転方向を変換する機械要素。ロボット減速機、工作機械、車両変速機で不可欠で、効率、バックラッシ、強度、騒音が設計上の焦点となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "機械要素設計",
+    "era_start": 1500,
+    "era_end": null,
+    "keywords_en": "gear,transmission,backlash",
+    "key_researchers": ["Leonardo da Vinci", "Robert Willis"]
+  },
+  {
+    "name_ja": "ハーモニックドライブ",
+    "name_en": "Harmonic drive",
+    "definition": "波動歯車機構を用いて小型軽量で高減速比を得る精密減速機。バックラッシが小さくロボット関節に適するが、弾性変形、ヒステリシス、摩耗の扱いが高精度制御で重要となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "精密機械要素",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "harmonic drive,strain wave gear,robot joint",
+    "key_researchers": ["Clarence W. Musser"]
+  },
+  {
+    "name_ja": "シリーズ弾性アクチュエータ",
+    "name_en": "Series elastic actuator",
+    "definition": "モータと負荷の間に弾性要素を直列に挿入し、力制御性と衝撃吸収性を高めるアクチュエータ。脚ロボット、リハビリ機器、協働ロボットで、人や環境との安全な接触を実現しやすい。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "柔軟アクチュエーション",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "series elastic actuator,compliance,force control",
+    "key_researchers": ["Gillian Pratt", "Matthew Williamson"]
+  },
+  {
+    "name_ja": "ソフトロボティクス",
+    "name_en": "Soft robotics",
+    "definition": "柔らかい材料や変形可能な構造を用いて、従来の剛体ロボットでは難しい適応性、安全性、把持能力を実現する分野。空気圧、エラストマー、形状記憶材料を活用し、生物規範型設計とも結びつく。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "身体性・材料知能",
+    "era_start": 2008,
+    "era_end": null,
+    "keywords_en": "soft robotics,compliant materials,embodied intelligence",
+    "key_researchers": ["George M. Whitesides", "Daniela Rus", "Cecilia Laschi"]
+  },
+  {
+    "name_ja": "空気圧アクチュエータ",
+    "name_en": "Pneumatic actuator",
+    "definition": "圧縮空気の圧力を用いて直線または回転運動を生み出すアクチュエータ。軽量で高出力、柔軟な動作が可能なため産業自動化やソフトロボットに使われるが、空気の圧縮性により精密制御は難しい。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "流体駆動システム",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "pneumatic actuator,compressed air,fluid power",
+    "key_researchers": ["Joseph Bramah", "George Westinghouse"]
+  },
+  {
+    "name_ja": "油圧アクチュエータ",
+    "name_en": "Hydraulic actuator",
+    "definition": "高圧油の流量と圧力を用いて大きな力やトルクを発生するアクチュエータ。建設機械、航空機、脚ロボットで使われ、高出力密度が利点だが、漏れ、発熱、保守性、制御弁設計が課題となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "流体駆動システム",
+    "era_start": 1795,
+    "era_end": null,
+    "keywords_en": "hydraulic actuator,fluid power,high force",
+    "key_researchers": ["Joseph Bramah", "William George Armstrong"]
+  },
+  {
+    "name_ja": "協働ロボット",
+    "name_en": "Collaborative robot",
+    "definition": "人間と近接または共同で作業することを想定し、安全機能、力制限、直感的教示を備えたロボット。従来の柵内自動化とは異なり、柔軟な生産現場や中小規模工程での利用を広げた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間中心ロボティクス",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "collaborative robot,cobot,human-robot interaction",
+    "key_researchers": ["J. Edward Colgate", "Michael Peshkin"]
+  },
+  {
+    "name_ja": "人間ロボット相互作用",
+    "name_en": "Human-robot interaction",
+    "definition": "人間とロボットが安全かつ有効に情報、意図、動作を交換するための設計と評価の分野。操作インタフェース、共同作業、信頼、説明性、社会的振る舞いを含み、実社会導入で重要性が高い。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間中心ロボティクス",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "HRI,human factors,collaboration",
+    "key_researchers": ["Cynthia Breazeal", "Jodi Forlizzi", "Michael Goodrich"]
+  },
+  {
+    "name_ja": "遠隔操作",
+    "name_en": "Teleoperation",
+    "definition": "操作者が離れた場所からロボットを操作する技術。危険環境、宇宙、海中、医療、災害対応で重要で、通信遅延、力覚提示、共有自律、操作者負荷の設計が性能を大きく左右する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "テレロボティクス",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "teleoperation,master-slave,remote manipulation",
+    "key_researchers": ["Raymond Goertz", "Thomas B. Sheridan"]
+  },
+  {
+    "name_ja": "ハプティクス",
+    "name_en": "Haptics",
+    "definition": "触覚や力覚を通じて人間と機械が相互作用する技術分野。遠隔操作、手術ロボット、VR、訓練装置で、接触力や表面感を提示し、視覚だけでは不足する操作感と臨場感を補う。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "触覚インタフェース",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "haptics,force feedback,tactile interface",
+    "key_researchers": ["Thomas B. Sheridan", "Mandayam A. Srinivasan", "Vincent Hayward"]
+  },
+  {
+    "name_ja": "ロボット学習",
+    "name_en": "Robot learning",
+    "definition": "ロボットが経験、データ、実演、試行錯誤から認識や行動方策を獲得する分野。複雑な環境で明示的モデル化が難しい把持、移動、操作を扱うため、機械学習と制御の接点として重要である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "データ駆動ロボティクス",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "robot learning,machine learning,policy learning",
+    "key_researchers": ["Stefan Schaal", "Pieter Abbeel", "Jan Peters"]
+  },
+  {
+    "name_ja": "強化学習制御",
+    "name_en": "Reinforcement learning control",
+    "definition": "報酬信号に基づき、ロボットが試行錯誤を通じて行動方策を学習する制御枠組み。歩行、把持、操縦など高次元タスクで有望だが、安全性、サンプル効率、実機転移が重要な課題である。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "強化学習",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "reinforcement learning,policy optimization,robot control",
+    "key_researchers": ["Richard S. Sutton", "Andrew G. Barto", "Jan Peters"]
+  },
+  {
+    "name_ja": "模倣学習",
+    "name_en": "Imitation learning",
+    "definition": "人間や熟練制御器の実演データからロボットの方策を学ぶ方法。報酬設計が難しい作業でも利用しやすく、把持、組立、運転、家庭作業で有効だが、分布ずれへの対処が重要となる。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "実演からの学習",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "imitation learning,learning from demonstration,behavior cloning",
+    "key_researchers": ["Stefan Schaal", "Aude Billard", "Pieter Abbeel"]
+  },
+  {
+    "name_ja": "デジタルツイン",
+    "name_en": "Digital twin",
+    "definition": "実物の機械やロボットと対応する仮想モデルを作り、状態監視、予測、最適化、保守に利用する概念。センサデータとシミュレーションを結合し、設計から運用までの意思決定を支援する。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "サイバーフィジカルシステム",
+    "era_start": 2002,
+    "era_end": null,
+    "keywords_en": "digital twin,simulation,cyber-physical systems",
+    "key_researchers": ["Michael Grieves", "John Vickers"]
+  }
+]
+tokens used
+15,126

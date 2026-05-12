@@ -1,0 +1,24 @@
+織論",
+    "school_of_thought": "危機管理論",
+    "era_start": 2012,
+    "era_end": null,
+    "keywords_ja": "BCM,事業継続,復旧,危機",
+    "keywords_en": "business continuity,BCM,recovery,crisis",
+    "key_researchers": ["International Organization for Standardization"],
+    "key_works": ["ISO 22301 Business Continuity Management Systems (2012)"]
+  },
+  {
+    "name_ja": "パンデミック対応組織",
+    "name_en": "Pandemic-Resilient Organization",
+    "definition": "感染症拡大時に従業員安全、リモート運営、供給網、顧客対応、財務耐性を維持し、迅速に学習して働き方を再設計する組織である。",
+    "impact_summary": "COVID-19以後、危機管理と働き方改革を同時に進める概念となった。",
+    "subfield": "経営・組織論",
+    "school_of_thought": "危機管理論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_ja": "パンデミック,安全,リモート,レジリエンス",
+    "keywords_en": "pandemic,resilience,remote work,safety",
+    "key_researchers": ["Nicholas Bloom", "Amy Edmondson"],
+    "key_works": ["How to Manage Coronavirus Layoffs with Compassion (2020)"]
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "name_ja": "ミメーシス",
+    "name_en": "Mimesis",
+    "definition": "芸術を自然や行為の模倣として捉える古典的概念で、プラトンでは真理から遠ざかる写し、アリストテレスでは認識と感情浄化を生む創造的再構成として論じられた。",
+    "impact_summary": "西洋美術論の出発点となり、写実、表象、フィクション、画像の真実性をめぐる議論を長く規定した。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "古典美学",
+    "era_start": -400,
+    "era_end": null,
+    "keywords_ja": "模倣,表象,写実,自然,古典美学",
+    "keywords_en": "mimesis,representation,imitation,nature,classical aesthetics",
+    "key_researchers": ["Plato", "Aristotle", "Erich Auerbach"],
+    "key_works": ["Republic (c.375 BCE)", "Poetics (c.335 BCE)", "Mimesis (1946)"]
+  },
+  {
+    "name_ja": "カロカガティア",
+    "name_en": "Kalokagathia",
+    "definition": "古代ギリシアにおける美と善の結合を示す理念で、身体的均整、倫理的卓越、社会的理想が一体化するものとして彫刻や都市文化の評価軸になった。",
+    "impact_summary": "人体表現や理想美の規範を支え、美術を単なる装飾でなく倫理的秩序の可視化として理解させた。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "古代ギリシア美学",
+    "era_start": -500,
+    "era_end": 300,
+    "keywords_ja": "美と善,理想美,身体,倫理,古代ギリシア",
+    "keywords_en": "beauty,goodness,ideal body,ethics,Greek art",
+    "key_researchers": ["Plato", "Johann Joachim Winckelmann", "Werner Jaeger"],
+    "key_works": ["Symposium (c.385 BCE)", "History of Ancient Art (1764)", "Paideia (1934)"]
+  },
+  {
+    "name_ja": "イコノクラスム",
+    "name_en": "Iconoclasm",
+    "definition": "宗教的・政治的理由から画像や像を破壊、拒否、統制する思想と運動で、像が信仰、権力、偶像崇拝、共同体記憶に及ぼす力をめぐる対立を表す。",
+    "impact_summary": "画像の危険性と公共性を明らかにし、ビザンティン、宗教改革、近現代の記念碑撤去論まで影響した。",
+    "subfield": "視覚芸術論・美術史",
+    "school_of_thought": "宗教美術論",
+    "era_start": 726,
+    "era_end": null,
+    "keywords_ja": "偶像破壊,聖像,宗教改革,画像,権力",
+    "keywords_en": "iconoclasm,icons,reformation,images,power",
+    "key_researchers": ["Hans Belting", "David Freedberg", "Alain Besancon"],
+    "key_works": ["Likeness and Presence (1990)", "The Power of Images (1989)", "The Forbidden Image (1994)"]
+  }
+]

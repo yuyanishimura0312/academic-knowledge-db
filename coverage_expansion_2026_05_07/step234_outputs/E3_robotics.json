@@ -1,0 +1,922 @@
+送達,低レイノルズ数",
+    "keywords_en": "microswimmer,drug delivery,low Reynolds number",
+    "key_researchers": [
+      "Metin Sitti",
+      "Peer Fischer"
+    ],
+    "key_works": [
+      "Medical Micro/Nanorobots in Complex Media (2015)"
+    ]
+  },
+  {
+    "name_ja": "低レイノルズ数ロボティクス",
+    "name_en": "Low-Reynolds-Number Robotics",
+    "definition": "粘性力が慣性力を支配する微小スケール流体環境でのロボット移動と操作を扱う分野である。時間反転対称な動きでは推進できないため、非相反運動が重要となる。",
+    "impact_summary": "微小ロボットの推進原理を明確にし、体内医療ロボット設計を支えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "マイクロ流体ロボティクス",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_ja": "低レイノルズ数,粘性,非相反運動",
+    "keywords_en": "low Reynolds number,viscosity,nonreciprocal motion",
+    "key_researchers": [
+      "Edward Purcell",
+      "Howard Berg"
+    ],
+    "key_works": [
+      "Life at Low Reynolds Number (1977)"
+    ]
+  },
+  {
+    "name_ja": "マイクロ流体ロボティクス",
+    "name_en": "Microfluidic Robotics",
+    "definition": "微小流路、液滴、柔軟膜、圧力制御を用いて、微小スケールの移動、操作、分析、医療応用を行うロボット技術である。ラボオンチップとも結びつく。",
+    "impact_summary": "流体操作とロボット制御を微小スケールで統合し、医療・生化学応用を広げた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "マイクロシステム工学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_ja": "微小流路,液滴,圧力制御",
+    "keywords_en": "microfluidics,droplets,pressure control",
+    "key_researchers": [
+      "George Whitesides",
+      "Metin Sitti"
+    ],
+    "key_works": [
+      "The Origins and the Future of Microfluidics (2006)"
+    ]
+  },
+  {
+    "name_ja": "ロボット神経インタフェース",
+    "name_en": "Neural Interface Robotics",
+    "definition": "脳波、筋電、末梢神経信号、埋め込み電極を用いて、ロボットアーム、義手、外骨格を制御する技術分野である。人間の意図を機械動作へ変換する。",
+    "impact_summary": "身体機能を失った人の動作支援を進め、人間とロボットの統合を深めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "神経工学ロボティクス",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_ja": "神経信号,義手,外骨格",
+    "keywords_en": "neural signals,prosthetic hand,exoskeleton",
+    "key_researchers": [
+      "Miguel Nicolelis",
+      "Andrew Schwartz"
+    ],
+    "key_works": [
+      "Neuronal Ensemble Control of Prosthetic Devices by a Human with Tetraplegia (2006)"
+    ]
+  },
+  {
+    "name_ja": "筋電制御義手",
+    "name_en": "Myoelectric Prosthetic Hand",
+    "definition": "残存筋から得られる筋電信号を解析し、義手の開閉、指動作、把持パターンを制御する補綴ロボットである。信号処理、機械設計、触覚フィードバックが重要である。",
+    "impact_summary": "失われた手の機能を電動ロボットで補い、生活支援と人間拡張を発展させた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "補綴ロボティクス",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_ja": "筋電,義手,補綴",
+    "keywords_en": "myoelectric,prosthetic hand,prosthesis",
+    "key_researchers": [
+      "Norbert Wiener",
+      "Todd Kuiken"
+    ],
+    "key_works": [
+      "Myoelectric Control of Prostheses (1960s)"
+    ]
+  },
+  {
+    "name_ja": "触覚フィードバック義手",
+    "name_en": "Tactile Feedback Prosthesis",
+    "definition": "義手やロボットハンドで検出した接触、圧力、すべりを、電気刺激、振動、圧覚提示などで使用者へ返す補綴技術である。自然な把持と身体所有感に関係する。",
+    "impact_summary": "義手使用者が触覚を取り戻す可能性を高め、器用で安全な把持を支援した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "補綴ロボティクス",
+    "era_start": 2014,
+    "era_end": null,
+    "keywords_ja": "触覚,義手,神経刺激",
+    "keywords_en": "tactile,prosthesis,neural stimulation",
+    "key_researchers": [
+      "Silvestro Micera",
+      "Dustin Tyler"
+    ],
+    "key_works": [
+      "Restoring Natural Sensory Feedback in Real-Time Bidirectional Hand Prostheses (2014)"
+    ]
+  },
+  {
+    "name_ja": "共有身体ロボティクス",
+    "name_en": "Shared Embodiment Robotics",
+    "definition": "人間とロボットが身体能力や操作権を共有し、義手、外骨格、遠隔ロボットを身体の延長として扱う概念である。神経インタフェース、触覚、共有制御が関係する。",
+    "impact_summary": "ロボットを外部機械から身体拡張へ位置づけ、人間能力拡張の方向を示した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間拡張ロボティクス",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_ja": "身体拡張,義手,共有制御",
+    "keywords_en": "embodiment,prosthesis,shared control",
+    "key_researchers": [
+      "Hiroshi Ishiguro",
+      "Silvestro Micera"
+    ],
+    "key_works": [
+      "Human Augmentation and Shared Control in Robotics (2016)"
+    ]
+  },
+  {
+    "name_ja": "人間拡張ロボティクス",
+    "name_en": "Human Augmentation Robotics",
+    "definition": "ロボット技術により人間の力、感覚、移動、作業能力、認知を補助または拡張する分野である。外骨格、義手、遠隔存在、第三の腕などを含む。",
+    "impact_summary": "ロボットを代替労働力だけでなく、人間能力を増幅する技術として発展させた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間拡張",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_ja": "能力拡張,外骨格,義手",
+    "keywords_en": "augmentation,exoskeleton,prosthesis",
+    "key_researchers": [
+      "Hugh Herr",
+      "Yoshiyuki Sankai"
+    ],
+    "key_works": [
+      "Human Augmentation and Assistive Robotics (2016)"
+    ]
+  },
+  {
+    "name_ja": "第三の腕ロボット",
+    "name_en": "Supernumerary Robotic Limb",
+    "definition": "人間の既存の腕や脚に加えて装着され、追加の把持、支持、作業補助を行うロボット肢である。人間の意図推定、身体所有感、安全な協調制御が課題となる。",
+    "impact_summary": "人間の身体自由度を増やす発想を具体化し、産業作業支援の新形態を示した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間拡張ロボティクス",
+    "era_start": 2014,
+    "era_end": null,
+    "keywords_ja": "追加肢,装着型,作業支援",
+    "keywords_en": "supernumerary limb,wearable,work assistance",
+    "key_researchers": [
+      "Harry Asada",
+      "Federico Parietti"
+    ],
+    "key_works": [
+      "Supernumerary Robotic Limbs for Human Body Support (2014)"
+    ]
+  },
+  {
+    "name_ja": "触覚テレイグジスタンス",
+    "name_en": "Haptic Telexistence",
+    "definition": "遠隔ロボットの視覚、聴覚、触覚、運動感覚を操作者へ提示し、操作者の動作をロボットへ反映して遠隔地に身体があるように感じさせる技術である。",
+    "impact_summary": "遠隔作業の臨場感と器用さを高め、危険環境や医療での遠隔操作を進めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "テレイグジスタンス",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_ja": "テレイグジスタンス,触覚,遠隔操作",
+    "keywords_en": "telexistence,haptics,teleoperation",
+    "key_researchers": [
+      "Susumu Tachi",
+      "Thomas Sheridan"
+    ],
+    "key_works": [
+      "Telexistence: A New Concept in Robotics (1980)"
+    ]
+  },
+  {
+    "name_ja": "アバターロボット",
+    "name_en": "Avatar Robot",
+    "definition": "人間操作者の遠隔存在や身体代理として、移動、会話、操作、触覚提示を行うロボットである。テレプレゼンスと遠隔操作を統合し、労働や社会参加を支援する。",
+    "impact_summary": "人間の存在と作業能力を距離から解放し、遠隔社会参加と作業支援を広げた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "テレイグジスタンス",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_ja": "アバター,遠隔存在,代理身体",
+    "keywords_en": "avatar,telepresence,embodied proxy",
+    "key_researchers": [
+      "Susumu Tachi",
+      "XPRIZE Avatar teams"
+    ],
+    "key_works": [
+      "ANA Avatar XPRIZE (2018)"
+    ]
+  },
+  {
+    "name_ja": "ロボット遠隔手術",
+    "name_en": "Telesurgery",
+    "definition": "外科医が遠隔地から通信回線を通じて手術ロボットを操作し、患者に手術を行う技術である。低遅延通信、力覚提示、安全停止、責任分担が重要である。",
+    "impact_summary": "専門医療を距離から解放する可能性を示し、手術ロボットと通信制御を発展させた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "医療テレロボティクス",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_ja": "遠隔手術,低遅延,手術ロボット",
+    "keywords_en": "telesurgery,low latency,surgical robot",
+    "key_researchers": [
+      "Jacques Marescaux",
+      "Frederic Moll"
+    ],
+    "key_works": [
+      "The Lindbergh Operation (2001)"
+    ]
+  },
+  {
+    "name_ja": "5Gロボティクス",
+    "name_en": "5G Robotics",
+    "definition": "5G通信の低遅延、高帯域、多数接続を利用して、遠隔操作、クラウドロボティクス、協調ロボット、リアルタイム監視を実現する技術領域である。",
+    "impact_summary": "通信制約を緩和し、遠隔制御とロボット群運用の実用性を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ネットワークロボティクス",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_ja": "5G,低遅延,遠隔操作",
+    "keywords_en": "5G,low latency,teleoperation",
+    "key_researchers": [
+      "Network robotics researchers",
+      "Teleoperation researchers"
+    ],
+    "key_works": [
+      "5G-Enabled Tactile Internet and Robotics (2019)"
+    ]
+  },
+  {
+    "name_ja": "触覚インターネット",
+    "name_en": "Tactile Internet",
+    "definition": "低遅延・高信頼通信により、触覚や力覚を伴う遠隔操作やリアルタイム制御をネットワーク越しに実現する概念である。遠隔医療、産業ロボット、教育に関係する。",
+    "impact_summary": "遠隔地との物理的相互作用を可能にし、通信とロボティクスの融合を進めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ネットワークロボティクス",
+    "era_start": 2014,
+    "era_end": null,
+    "keywords_ja": "触覚通信,低遅延,力覚",
+    "keywords_en": "tactile communication,low latency,haptics",
+    "key_researchers": [
+      "Gerhard Fettweis",
+      "Mischa Dohler"
+    ],
+    "key_works": [
+      "The Tactile Internet (2014)"
+    ]
+  },
+  {
+    "name_ja": "ロボットのデータ駆動安全認証",
+    "name_en": "Data-Driven Safety Certification for Robots",
+    "definition": "実機ログ、シミュレーション、形式検証、統計的証拠を組み合わせ、学習ロボットや自律ロボットの安全性を評価・認証する考え方である。規制対応で重要となる。",
+    "impact_summary": "AIロボットの不確実な挙動を評価する道を作り、社会実装の障壁を下げた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "信頼可能ロボティクス",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_ja": "安全認証,データ駆動,検証",
+    "keywords_en": "safety certification,data-driven,verification",
+    "key_researchers": [
+      "Nancy Leveson",
+      "Autonomy safety researchers"
+    ],
+    "key_works": [
+      "Safety Assurance of Autonomous Systems (2020)"
+    ]
+  },
+  {
+    "name_ja": "ロボットAIガバナンス",
+    "name_en": "Robot AI Governance",
+    "definition": "AIを搭載したロボットの安全、責任、透明性、データ管理、規制、標準、監査を社会制度として整える概念である。自律性が高まる2020年代に重要性を増した。",
+    "impact_summary": "高機能ロボットの社会導入に必要な制度設計を促し、信頼構築に寄与した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "責任あるロボティクス",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_ja": "ガバナンス,規制,監査",
+    "keywords_en": "governance,regulation,audit",
+    "key_researchers": [
+      "Aimee van Wynsberghe",
+      "AI governance researchers"
+    ],
+    "key_works": [
+      "Responsible Robotics and AI Governance (2021)"
+    ]
+  },
+  {
+    "name_ja": "ロボット監査ログ",
+    "name_en": "Robot Audit Logging",
+    "definition": "ロボットのセンサ入力、モデル推論、制御出力、人間介入、異常、意思決定を記録し、事故解析、説明責任、改善、認証に用いる運用概念である。",
+    "impact_summary": "ロボットの行動を後から検証可能にし、事故対応と信頼性改善を支えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "責任あるロボティクス",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_ja": "監査ログ,説明責任,事故解析",
+    "keywords_en": "audit log,accountability,incident analysis",
+    "key_researchers": [
+      "Robot ethics researchers",
+      "Safety engineering researchers"
+    ],
+    "key_works": [
+      "Accountability and Transparency in Autonomous Robots (2020)"
+    ]
+  },
+  {
+    "name_ja": "ロボットの人間フィードバック学習",
+    "name_en": "Robot Learning from Human Feedback",
+    "definition": "人間が評価、選好、修正、言語助言を与え、ロボット方策や報酬モデルを改善する学習枠組みである。安全性、使いやすさ、個人適応を高める。",
+    "impact_summary": "人間の価値判断をロボット学習へ取り込み、望ましい行動の獲得を促した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間参加型ロボット学習",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_ja": "人間フィードバック,選好,報酬学習",
+    "keywords_en": "human feedback,preference,reward learning",
+    "key_researchers": [
+      "Paul Christiano",
+      "Anca Dragan"
+    ],
+    "key_works": [
+      "Deep Reinforcement Learning from Human Preferences (2017)"
+    ]
+  },
+  {
+    "name_ja": "選好ベースロボット学習",
+    "name_en": "Preference-Based Robot Learning",
+    "definition": "人間が複数のロボット行動例を比較し、好ましいものを選ぶ情報から報酬関数や方策を学ぶ手法である。明示的な数値報酬を設計しにくい作業に適する。",
+    "impact_summary": "人間の主観的品質をロボット行動へ反映し、自然で受容される動作を学ばせた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "人間参加型ロボット学習",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_ja": "選好,比較,報酬学習",
+    "keywords_en": "preference,comparison,reward learning",
+    "key_researchers": [
+      "Anca Dragan",
+      "Dorsa Sadigh"
+    ],
+    "key_works": [
+      "Active Preference-Based Learning of Reward Functions (2017)"
+    ]
+  },
+  {
+    "name_ja": "報酬モデリングロボティクス",
+    "name_en": "Reward Modeling for Robotics",
+    "definition": "人間評価、実演、成功例、失敗例からロボットの望ましい行動を表す報酬関数を学習する方法である。強化学習の報酬設計問題を緩和する。",
+    "impact_summary": "手作業の報酬設計を減らし、人間に沿ったロボット行動学習を可能にした。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット学習",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_ja": "報酬モデル,人間評価,強化学習",
+    "keywords_en": "reward model,human evaluation,reinforcement learning",
+    "key_researchers": [
+      "Paul Christiano",
+      "Dorsa Sadigh"
+    ],
+    "key_works": [
+      "Deep Reinforcement Learning from Human Preferences (2017)"
+    ]
+  },
+  {
+    "name_ja": "逆強化学習ロボティクス",
+    "name_en": "Inverse Reinforcement Learning for Robotics",
+    "definition": "熟練者の行動や実演から、その背後にある報酬関数や目的を推定し、ロボットが同様の行動を生成する学習枠組みである。模倣学習と計画を結びつける。",
+    "impact_summary": "行動の表面模倣を超え、目的を推定して汎化するロボット学習を進めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット学習",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_ja": "逆強化学習,報酬推定,実演",
+    "keywords_en": "inverse reinforcement learning,reward inference,demonstration",
+    "key_researchers": [
+      "Andrew Ng",
+      "Stuart Russell"
+    ],
+    "key_works": [
+      "Algorithms for Inverse Reinforcement Learning (2000)"
+    ]
+  },
+  {
+    "name_ja": "ロボット技能発見",
+    "name_en": "Robot Skill Discovery",
+    "definition": "明示的に与えられたタスクだけでなく、ロボットがデータや環境探索から再利用可能な技能、サブゴール、運動パターンを自動的に発見する研究方向である。",
+    "impact_summary": "人間が全技能を定義しなくてもロボットが行動レパートリーを増やす可能性を示した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "自律学習",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_ja": "技能発見,サブゴール,自律学習",
+    "keywords_en": "skill discovery,subgoals,autonomous learning",
+    "key_researchers": [
+      "Pieter Abbeel",
+      "Pierre-Yves Oudeyer"
+    ],
+    "key_works": [
+      "Diversity Is All You Need: Learning Skills without a Reward Function (2018)"
+    ]
+  },
+  {
+    "name_ja": "階層強化学習ロボティクス",
+    "name_en": "Hierarchical Reinforcement Learning for Robotics",
+    "definition": "低レベル技能と高レベル方策を階層化し、長期タスクを複数のサブタスクとして学習・実行する強化学習枠組みである。複雑な操作やナビゲーションに有用である。",
+    "impact_summary": "長い作業の探索困難性を下げ、ロボットが複数技能を組み合わせられるようにした。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "強化学習ロボティクス",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_ja": "階層,サブタスク,技能",
+    "keywords_en": "hierarchy,subtasks,skills",
+    "key_researchers": [
+      "Pierre Sermanet",
+      "Sergey Levine"
+    ],
+    "key_works": [
+      "Learning Latent Plans from Play (2019)"
+    ]
+  },
+  {
+    "name_ja": "プレイデータロボット学習",
+    "name_en": "Robot Learning from Play",
+    "definition": "明確なタスクラベルなしに、人間やロボットが自由に物体を操作する遊びのようなデータから、多様な技能や目標条件付き方策を学習する方法である。",
+    "impact_summary": "自然で広範な操作データから技能を獲得し、家庭ロボットの汎化を促した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "自己教師ありロボット学習",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_ja": "遊び,目標条件,技能学習",
+    "keywords_en": "play,goal-conditioned,skill learning",
+    "key_researchers": [
+      "Pierre Sermanet",
+      "Corey Lynch"
+    ],
+    "key_works": [
+      "Learning Latent Plans from Play (2019)"
+    ]
+  },
+  {
+    "name_ja": "目標条件付き方策",
+    "name_en": "Goal-Conditioned Policy",
+    "definition": "現在観測だけでなく、達成すべき目標状態、画像、言語指示を入力として行動を生成する方策である。複数タスクや自己教師ありロボット学習で重要である。",
+    "impact_summary": "一つの方策で多様な目標を扱えるようにし、ロボット技能の再利用性を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "ロボット学習",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_ja": "目標条件,方策,多タスク",
+    "keywords_en": "goal-conditioned,policy,multi-task",
+    "key_researchers": [
+      "Sergey Levine",
+      "Pieter Abbeel"
+    ],
+    "key_works": [
+      "Hindsight Experience Replay (2017)"
+    ]
+  },
+  {
+    "name_ja": "後知恵経験再生",
+    "name_en": "Hindsight Experience Replay",
+    "definition": "失敗した試行でも、実際に到達した状態を目標だったとみなして経験を再利用する強化学習手法である。疎な報酬を持つロボット操作タスクで学習効率を改善する。",
+    "impact_summary": "失敗経験を有効活用し、目標達成型ロボット学習のサンプル効率を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "強化学習ロボティクス",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_ja": "後知恵,経験再生,疎報酬",
+    "keywords_en": "hindsight,experience replay,sparse reward",
+    "key_researchers": [
+      "Marcin Andrychowicz",
+      "OpenAI researchers"
+    ],
+    "key_works": [
+      "Hindsight Experience Replay (2017)"
+    ]
+  },
+  {
+    "name_ja": "ロボット基準座標学習",
+    "name_en": "Equivariant Robot Learning",
+    "definition": "回転、並進、対称性に対して一貫した出力を保つ等変性をニューラルネットに組み込み、ロボットの把持、知覚、方策学習のデータ効率と汎化を高める方法である。",
+    "impact_summary": "物理空間の対称性を学習に利用し、少ないデータで頑健なロボット方策を得やすくした。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "幾何深層学習ロボティクス",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_ja": "等変性,対称性,幾何深層学習",
+    "keywords_en": "equivariance,symmetry,geometric deep learning",
+    "key_researchers": [
+      "Taco Cohen",
+      "Jeannette Bohg"
+    ],
+    "key_works": [
+      "Equivariant Descriptor Fields: SE(3)-Equivariant Energy-Based Models for End-to-End Visual Robotic Manipulation Learning (2022)"
+    ]
+  },
+  {
+    "name_ja": "SE(3)等変操作学習",
+    "name_en": "SE(3)-Equivariant Manipulation Learning",
+    "definition": "三次元剛体変換に対する等変性を持つモデルで物体形状、把持、操作方策を学習し、姿勢や配置が変わっても一貫した行動を生成する方法である。",
+    "impact_summary": "三次元操作の汎化能力を高め、未知姿勢の物体に対する把持と操作を改善した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "幾何深層学習ロボティクス",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_ja": "SE3,等変,三次元操作",
+    "keywords_en": "SE3,equivariant,3D manipulation",
+    "key_researchers": [
+      "Jeannette Bohg",
+      "Taco Cohen"
+    ],
+    "key_works": [
+      "Transporter Networks: Rearranging the Visual World for Robotic Manipulation (2021)"
+    ]
+  },
+  {
+    "name_ja": "トランスポータネットワーク",
+    "name_en": "Transporter Networks",
+    "definition": "画像内のピック位置とプレース位置の対応を学習し、物体再配置や組立操作を効率よく行う視覚操作モデルである。空間構造を活かすことでデータ効率が高い。",
+    "impact_summary": "画像ベース操作の汎化とデータ効率を改善し、ロボット再配置タスクを前進させた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "視覚操作学習",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_ja": "ピックプレース,視覚操作,対応",
+    "keywords_en": "pick-and-place,visual manipulation,correspondence",
+    "key_researchers": [
+      "Andy Zeng",
+      "Chelsea Finn"
+    ],
+    "key_works": [
+      "Transporter Networks: Rearranging the Visual World for Robotic Manipulation (2021)"
+    ]
+  },
+  {
+    "name_ja": "ロボットエネルギー地形",
+    "name_en": "Energy Landscape for Robot Motion",
+    "definition": "ロボットの姿勢や状態に対するポテンシャル、コスト、安定性を地形として捉え、運動生成や安定点解析に利用する概念である。柔軟機構や歩行制御にも関係する。",
+    "impact_summary": "ロボット運動を安定点と遷移として理解し、制御設計の直感を与えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "力学系ロボティクス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_ja": "エネルギー地形,安定点,コスト",
+    "keywords_en": "energy landscape,stable point,cost",
+    "key_researchers": [
+      "Daniel Koditschek",
+      "Russ Tedrake"
+    ],
+    "key_works": [
+      "Robot Motion Planning and Control via Navigation Functions (1990s)"
+    ]
+  },
+  {
+    "name_ja": "ナビゲーション関数",
+    "name_en": "Navigation Function",
+    "definition": "障害物を避けながら目標へ到達するために、局所最小を持たない特別なポテンシャル関数を構成する理論である。ロボット経路計画と安定制御を結びつける。",
+    "impact_summary": "ポテンシャル場の局所最小問題を理論的に克服し、安全なナビゲーションを支えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "幾何制御",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_ja": "ナビゲーション関数,局所最小,安定",
+    "keywords_en": "navigation function,local minima,stability",
+    "key_researchers": [
+      "Elon Rimon",
+      "Daniel Koditschek"
+    ],
+    "key_works": [
+      "Exact Robot Navigation Using Artificial Potential Functions (1992)"
+    ]
+  },
+  {
+    "name_ja": "反応型衝突回避",
+    "name_en": "Reactive Collision Avoidance",
+    "definition": "センサで検出した障害物や人間に対し、詳細な長期計画を待たずに即時的な速度や方向変更で衝突を避ける制御概念である。移動ロボットとドローンで重要である。",
+    "impact_summary": "動的環境での即時安全行動を可能にし、自律移動の実用性を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "反応型ロボティクス",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_ja": "衝突回避,反応型,障害物",
+    "keywords_en": "collision avoidance,reactive,obstacles",
+    "key_researchers": [
+      "Oussama Khatib",
+      "Javier Minguez"
+    ],
+    "key_works": [
+      "Real-Time Obstacle Avoidance for Manipulators and Mobile Robots (1986)"
+    ]
+  },
+  {
+    "name_ja": "速度障害物法",
+    "name_en": "Velocity Obstacles",
+    "definition": "移動障害物との将来衝突につながる相対速度の集合を速度空間で表し、その集合を避ける速度を選ぶ衝突回避手法である。複数ロボットや歩行者回避に使われる。",
+    "impact_summary": "動的障害物を速度空間で扱い、リアルタイムな移動ロボット衝突回避を発展させた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "移動ロボット計画",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_ja": "速度障害物,動的障害物,回避",
+    "keywords_en": "velocity obstacle,dynamic obstacle,avoidance",
+    "key_researchers": [
+      "Paolo Fiorini",
+      "Zvi Shiller"
+    ],
+    "key_works": [
+      "Motion Planning in Dynamic Environments Using Velocity Obstacles (1998)"
+    ]
+  },
+  {
+    "name_ja": "相互速度障害物",
+    "name_en": "Reciprocal Velocity Obstacles",
+    "definition": "複数エージェントが互いに衝突回避責任を分担する仮定のもと、各自が安全な速度を選ぶ手法である。群衆シミュレーション、マルチロボット、社会的ナビゲーションで使われる。",
+    "impact_summary": "多人数・多ロボットのリアルタイム衝突回避を効率化し、群移動を滑らかにした。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "マルチエージェント計画",
+    "era_start": 2008,
+    "era_end": null,
+    "keywords_ja": "相互回避,速度,群衆",
+    "keywords_en": "reciprocal avoidance,velocity,crowds",
+    "key_researchers": [
+      "Jur van den Berg",
+      "Ming Lin"
+    ],
+    "key_works": [
+      "Reciprocal Velocity Obstacles for Real-Time Multi-Agent Navigation (2008)"
+    ]
+  },
+  {
+    "name_ja": "ORCA",
+    "name_en": "Optimal Reciprocal Collision Avoidance",
+    "definition": "相互速度障害物を線形制約として扱い、各エージェントが最小限の速度変更で衝突を避ける方法である。多数ロボットや仮想群衆のリアルタイム回避に広く使われる。",
+    "impact_summary": "大規模な多エージェント衝突回避を高速化し、ロボット群制御を実用化した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "マルチエージェント計画",
+    "era_start": 2011,
+    "era_end": null,
+    "keywords_ja": "ORCA,相互回避,線形制約",
+    "keywords_en": "ORCA,reciprocal avoidance,linear constraints",
+    "key_researchers": [
+      "Jur van den Berg",
+      "Stephen Guy"
+    ],
+    "key_works": [
+      "Reciprocal n-Body Collision Avoidance (2011)"
+    ]
+  },
+  {
+    "name_ja": "動的ウィンドウ法",
+    "name_en": "Dynamic Window Approach",
+    "definition": "移動ロボットの速度空間から、加速度制約と障害物回避を満たす速度候補を評価し、短時間先の安全で効率的な移動を決める局所ナビゲーション手法である。",
+    "impact_summary": "実時間で動的制約を考慮した移動ロボットナビゲーションを実用化した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "局所計画",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_ja": "速度空間,局所計画,障害物回避",
+    "keywords_en": "velocity space,local planning,obstacle avoidance",
+    "key_researchers": [
+      "Dieter Fox",
+      "Wolfram Burgard"
+    ],
+    "key_works": [
+      "The Dynamic Window Approach to Collision Avoidance (1997)"
+    ]
+  },
+  {
+    "name_ja": "移動ベース局所プランナ",
+    "name_en": "Local Planner for Mobile Robots",
+    "definition": "大域経路に沿いながら、近傍障害物、ロボットの運動制約、人間の動きに応じて短期的な速度や軌道を決めるナビゲーション構成要素である。",
+    "impact_summary": "地図上の経路を実環境で安全に実行するための中核技術となった。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "移動ロボットナビゲーション",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_ja": "局所計画,速度指令,ナビゲーション",
+    "keywords_en": "local planning,velocity command,navigation",
+    "key_researchers": [
+      "Dieter Fox",
+      "Sebastian Thrun"
+    ],
+    "key_works": [
+      "The Dynamic Window Approach to Collision Avoidance (1997)"
+    ]
+  },
+  {
+    "name_ja": "ロボットパスフォローイング",
+    "name_en": "Robot Path Following",
+    "definition": "あらかじめ与えられた幾何学的経路からの横偏差や姿勢誤差を抑えながら、ロボットや車両を移動させる制御問題である。Pure PursuitやStanley法が代表的である。",
+    "impact_summary": "移動ロボットと自動運転車が計画経路を安定に追従する基盤を作った。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "移動制御",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_ja": "経路追従,横偏差,移動制御",
+    "keywords_en": "path following,cross-track error,mobile control",
+    "key_researchers": [
+      "Carnegie Mellon robotics researchers",
+      "Stanford Racing Team"
+    ],
+    "key_works": [
+      "Stanley: The Robot that Won the DARPA Grand Challenge (2006)"
+    ]
+  },
+  {
+    "name_ja": "Pure Pursuit制御",
+    "name_en": "Pure Pursuit Control",
+    "definition": "車両や移動ロボットが前方の目標点を追いかけるように曲率を決め、経路追従を行う幾何学的制御法である。実装が簡単で、自動運転と移動ロボットで広く用いられる。",
+    "impact_summary": "単純で頑健な経路追従を提供し、屋外自律走行の初期実装を支えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "車両制御",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_ja": "目標点,曲率,経路追従",
+    "keywords_en": "lookahead point,curvature,path tracking",
+    "key_researchers": [
+      "R. Craig Coulter"
+    ],
+    "key_works": [
+      "Implementation of the Pure Pursuit Path Tracking Algorithm (1992)"
+    ]
+  },
+  {
+    "name_ja": "Stanley制御",
+    "name_en": "Stanley Controller",
+    "definition": "前輪操舵車両の経路追従において、横偏差と進行方向誤差から操舵角を計算する制御法である。DARPAグランドチャレンジの自律車両Stanleyで広く知られた。",
+    "impact_summary": "実環境自動運転で有効な経路追従制御を示し、自律車両研究に影響した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "車両制御",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_ja": "Stanley,横偏差,操舵",
+    "keywords_en": "Stanley,cross-track error,steering",
+    "key_researchers": [
+      "Sebastian Thrun",
+      "Stanford Racing Team"
+    ],
+    "key_works": [
+      "Stanley: The Robot that Won the DARPA Grand Challenge (2006)"
+    ]
+  },
+  {
+    "name_ja": "ロボット航法",
+    "name_en": "Robot Navigation",
+    "definition": "ロボットが目的地へ安全かつ効率的に移動するため、地図、自己位置推定、経路計画、局所回避、制御を統合する技術体系である。移動ロボットの基本機能である。",
+    "impact_summary": "自律移動の中心技術として、屋内外サービスロボットと自動運転を支えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "移動ロボティクス",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_ja": "航法,地図,自己位置推定",
+    "keywords_en": "navigation,map,localization",
+    "key_researchers": [
+      "Hans Moravec",
+      "Sebastian Thrun"
+    ],
+    "key_works": [
+      "Probabilistic Robotics (2005)"
+    ]
+  },
+  {
+    "name_ja": "屋内ロボットナビゲーション",
+    "name_en": "Indoor Robot Navigation",
+    "definition": "建物内でロボットが廊下、部屋、エレベータ、人間、家具を扱いながら移動する技術である。地図生成、意味理解、社会的ナビゲーション、長期運用が課題である。",
+    "impact_summary": "サービスロボットが実際の建物内で働くための基盤を形成した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "サービスロボティクス",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_ja": "屋内,廊下,サービス",
+    "keywords_en": "indoor,hallway,service",
+    "key_researchers": [
+      "Sebastian Thrun",
+      "Reid Simmons"
+    ],
+    "key_works": [
+      "Minerva: A Second-Generation Museum Tour-Guide Robot (1999)"
+    ]
+  },
+  {
+    "name_ja": "屋外ロボットナビゲーション",
+    "name_en": "Outdoor Robot Navigation",
+    "definition": "未舗装路、草地、砂地、傾斜、天候変化を含む屋外環境でロボットが自己位置推定、地形認識、経路計画を行う技術である。フィールドロボティクスの基盤である。",
+    "impact_summary": "ロボットを構造化環境の外へ広げ、農業、鉱山、災害、宇宙探査を可能にした。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "フィールドロボティクス",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_ja": "屋外,地形,不整地",
+    "keywords_en": "outdoor,terrain,rough ground",
+    "key_researchers": [
+      "William Whittaker",
+      "Sanjiv Singh"
+    ],
+    "key_works": [
+      "Autonomous Land Vehicle in a Neural Network (1989)"
+    ]
+  },
+  {
+    "name_ja": "地形分類",
+    "name_en": "Terrain Classification",
+    "definition": "ロボットが画像、LiDAR、振動、足接触、車輪すべりから地面の種類や通行可能性を推定する技術である。屋外移動、脚ロボット、惑星ローバで重要である。",
+    "impact_summary": "地面に応じた速度や歩容選択を可能にし、不整地移動の安全性を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "フィールド知覚",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_ja": "地形,通行可能性,すべり",
+    "keywords_en": "terrain,traversability,slip",
+    "key_researchers": [
+      "Sanjiv Singh",
+      "Marco Hutter"
+    ],
+    "key_works": [
+      "Learning Terrain Classification for Mobile Robots (2010)"
+    ]
+  },
+  {
+    "name_ja": "通行可能性推定",
+    "name_en": "Traversability Estimation",
+    "definition": "ロボットが地形の傾斜、粗さ、障害物、支持性、すべりやすさを評価し、安全に通れる領域を推定する技術である。屋外自律移動と脚ロボットで重要である。",
+    "impact_summary": "地形を単なる障害物でなく移動可能性として評価し、フィールドロボットを強化した。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "フィールドロボティクス",
+    "era_start": 2014,
+    "era_end": null,
+    "keywords_ja": "通行可能性,地形評価,不整地",
+    "keywords_en": "traversability,terrain assessment,rough terrain",
+    "key_researchers": [
+      "Sanjiv Singh",
+      "Marco Hutter"
+    ],
+    "key_works": [
+      "Traversability Analysis for Mobile Robots (2014)"
+    ]
+  },
+  {
+    "name_ja": "ロボットスリップ推定",
+    "name_en": "Robot Slip Estimation",
+    "definition": "車輪、脚、グリッパと接触面の間で生じるすべりをセンサ情報から推定し、制御や計画へ反映する技術である。屋外移動、把持安定化、惑星ローバで重要である。",
+    "impact_summary": "接触不確実性を検出して制御できるようにし、移動と把持の信頼性を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "接触知覚",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_ja": "すべり,接触,推定",
+    "keywords_en": "slip,contact,estimation",
+    "key_researchers": [
+      "Mark Cutkosky",
+      "Planetary rover researchers"
+    ],
+    "key_works": [
+      "Slip Detection and Grip Adjustment Using Tactile Sensors (2015)"
+    ]
+  },
+  {
+    "name_ja": "ロボット摩擦推定",
+    "name_en": "Robot Friction Estimation",
+    "definition": "ロボットが接触面の摩擦係数や摩擦状態を観測から推定し、把持力、歩行接地力、車輪速度、操作計画を調整する技術である。安全な接触作業に重要である。",
+    "impact_summary": "未知表面での把持や移動の失敗を減らし、環境適応性を高めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "接触知覚",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_ja": "摩擦係数,接触,適応",
+    "keywords_en": "friction coefficient,contact,adaptation",
+    "key_researchers": [
+      "Alberto Rodriguez",
+      "Mark Cutkosky"
+    ],
+    "key_works": [
+      "Tactile Estimation of Friction for Robotic Manipulation (2017)"
+    ]
+  },
+  {
+    "name_ja": "可変形地形ロボティクス",
+    "name_en": "Deformable Terrain Robotics",
+    "definition": "砂、雪、泥、瓦礫などロボットの移動により変形する地形とロボットの相互作用を扱う分野である。テラメカニクス、すべり、沈下、推進効率が重要である。",
+    "impact_summary": "惑星ローバや農業ロボットの軟弱地盤走破性を改善し、屋外適応を進めた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "テラメカニクス",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_ja": "軟弱地盤,テラメカニクス,沈下",
+    "keywords_en": "deformable terrain,terramechanics,sinkage",
+    "key_researchers": [
+      "Mieczyslaw Bekker",
+      "Karl Iagnemma"
+    ],
+    "key_works": [
+      "Theory of Land Locomotion (1956)"
+    ]
+  },
+  {
+    "name_ja": "テラメカニクス",
+    "name_en": "Terramechanics",
+    "definition": "車輪や履帯と土、砂、雪などの地盤との相互作用を扱い、けん引力、沈下、すべり、走破性を解析する分野である。オフロード車両と惑星ローバに不可欠である。",
+    "impact_summary": "軟弱地盤での移動性能を予測し、探査ローバと農業機械の設計を支えた。",
+    "subfield": "機械工学・ロボティクス",
+    "school_of_thought": "地盤車両力学",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_ja": "地盤,車輪,走破性",
+    "keywords_en": "terrain,wheel,traversability",
+    "key_researchers": [
+      "Mieczyslaw Bekker",
+      "J. Y. Wong"
+    ],
+    "key_works": [
+      "Theory of Land Locomotion (1956)"
+    ]
+  }
+]

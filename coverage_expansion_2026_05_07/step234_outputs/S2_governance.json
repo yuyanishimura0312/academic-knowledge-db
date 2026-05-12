@@ -1,0 +1,44 @@
+[
+  {
+    "name_ja": "国家理性",
+    "name_en": "Reason of State",
+    "definition": "国家の存続、安全、勢力拡大を政治判断の中心原理とみなし、通常の道徳や法規範とは異なる統治上の合理性を認める概念である。近代国家形成期の行政、外交、治安政策を理解する基礎となる。",
+    "impact_summary": "近代行政国家の正当化、外交政策、治安維持、非常時権力論に大きな影響を与えた。",
+    "subfield": "公共政策・ガバナンス",
+    "school_of_thought": "近代国家論",
+    "era_start": 1500,
+    "era_end": null,
+    "keywords_ja": "国家,主権,安全保障,統治合理性",
+    "keywords_en": "state,sovereignty,security,governing rationality",
+    "key_researchers": ["Niccolo Machiavelli", "Giovanni Botero", "Friedrich Meinecke"],
+    "key_works": ["The Prince (1532)", "Della ragion di Stato (1589)", "Machiavellism (1924)"]
+  },
+  {
+    "name_ja": "社会契約論",
+    "name_en": "Social Contract Theory",
+    "definition": "政治的権威や国家の正統性を、自由で平等な個人が相互の安全や公共善のために合意した契約に基礎づける理論である。公共政策における権利、義務、同意、代表制の根拠を説明する。",
+    "impact_summary": "立憲主義、民主制度、公共政策の正統性、国家と市民の関係理解を形成した。",
+    "subfield": "公共政策・ガバナンス",
+    "school_of_thought": "政治哲学・契約論",
+    "era_start": 1651,
+    "era_end": null,
+    "keywords_ja": "契約,同意,主権,正統性",
+    "keywords_en": "contract,consent,sovereignty,legitimacy",
+    "key_researchers": ["Thomas Hobbes", "John Locke", "Jean-Jacques Rousseau"],
+    "key_works": ["Leviathan (1651)", "Two Treatises of Government (1689)", "The Social Contract (1762)"]
+  },
+  {
+    "name_ja": "権力分立",
+    "name_en": "Separation of Powers",
+    "definition": "立法、行政、司法などの国家権力を異なる機関に分配し、相互抑制と均衡によって専制を防ぐ統治原理である。公共政策では政策形成、執行、審査の制度的境界を設計する基礎となる。",
+    "impact_summary": "憲法設計、行政統制、司法審査、民主的説明責任の制度設計を方向づけた。",
+    "subfield": "公共政策・ガバナンス",
+    "school_of_thought": "立憲主義",
+    "era_start": 1748,
+    "era_end": null,
+    "keywords_ja": "立法,行政,司法,抑制均衡",
+    "keywords_en": "legislature,executive,judiciary,checks and balances",
+    "key_researchers": ["Montesquieu", "James Madison"],
+    "key_works": ["The Spirit of the Laws (1748)", "Federalist No. 51 (1788)"]
+  }
+]

@@ -1,0 +1,28 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e067f-7db8-7c31-85e6-d2b4101d3da1
+--------
+user
+natural_discovery（2015-2025の自然科学新発見）の重要概念120件を JSON 配列で出力してください。
+
+必須概念: AlphaFold2、CRISPR-Cas9臨床応用、重力波天文学初検出、mRNAワクチン、量子優位性、ブラックホール撮影、宇宙線高エネルギー粒子、脳機械インターフェース、光合成量子コヒーレンス、プランクスケール物理
+
+各エントリの形式:
+{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"分野横断 - 該当サブフィールド名","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}
+
+要件:
+- 主に 2015-2025 年の理論・概念に焦点
+- 内部知識のみ使用、web検索しない
+- subfield フィールドは 物理学、化学、生命科学・生物学、生態学、地球科学・環境科学、数学、統計学・計算科学、医学・臨床科学、神経科学・認知科学、宇宙物理・天文学、材料科学、進化・遺伝学、システム科学・複雑系 のいずれかを指定
+- 重複なし、120件出力
+- JSON配列のみ（説明・コードフェンス禁止）
+

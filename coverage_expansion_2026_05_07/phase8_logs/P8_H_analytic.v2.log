@@ -1,0 +1,809 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0983-2df7-79c3-a917-d75480ec5cf1
+--------
+user
+「分析哲学・心の哲学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+拡張された心、予測的処理、ハードプロブレム、クオリア、クリプキ可能世界
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"分析哲学・心の哲学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "拡張された心",
+    "name_en": "Extended Mind",
+    "definition": "認知過程は頭蓋内の脳だけに閉じず、ノート、道具、環境、他者との相互作用まで機能的に組み込む場合があるという見解。記憶や推論を外部媒体が安定して担うなら、それも心的過程の一部とみなされる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "外在主義・身体化認知",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "extended cognition,externalism,embodiment",
+    "key_researchers": ["Andy Clark", "David Chalmers"]
+  },
+  {
+    "name_ja": "予測的処理",
+    "name_en": "Predictive Processing",
+    "definition": "脳を感覚入力の受動的受信機ではなく、世界の原因を予測し誤差を最小化する階層的モデルとして捉える理論。知覚、行為、注意、自己意識を統一的に説明しようとする心の哲学と認知科学の接点にある枠組み。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "認知科学的自然主義",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "prediction error,active inference,Bayesian brain",
+    "key_researchers": ["Karl Friston", "Andy Clark", "Jakob Hohwy"]
+  },
+  {
+    "name_ja": "ハードプロブレム",
+    "name_en": "Hard Problem of Consciousness",
+    "definition": "脳の情報処理や行動機能を説明しても、なぜそれに主観的経験が伴うのかが残るという問題。痛みや赤さのような経験の「感じ」を物理的・機能的説明から導けるのかを問う現代心の哲学の中心論点。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意識研究・反還元主義",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "consciousness,explanatory gap,subjective experience",
+    "key_researchers": ["David Chalmers", "Thomas Nagel"]
+  },
+  {
+    "name_ja": "クオリア",
+    "name_en": "Qualia",
+    "definition": "赤を見る感じ、痛みの鋭さ、コーヒーの香りのように、経験が主体にとってどのように現れるかという質的側面を指す概念。物理主義、機能主義、表象主義、消去主義の対立を引き起こす意識論の基本語。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意識研究",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "qualia,phenomenal character,experience",
+    "key_researchers": ["C. I. Lewis", "Frank Jackson", "Daniel Dennett"]
+  },
+  {
+    "name_ja": "クリプキ可能世界",
+    "name_en": "Kripkean Possible Worlds",
+    "definition": "様相命題を、現実とは異なる可能な事態の集合における真理として扱う意味論的枠組み。必然性、可能性、同一性、固有名、自然種語の分析を刷新し、心身同一説やゾンビ論法にも大きな影響を与えた。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "様相論理・分析形而上学",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "possible worlds,modal logic,necessity",
+    "key_researchers": ["Saul Kripke"]
+  },
+  {
+    "name_ja": "心身問題",
+    "name_en": "Mind-Body Problem",
+    "definition": "心的状態と身体的・脳神経的状態がどのような関係にあるのかを問う古典的問題。意識、意図、感覚、信念が物理世界の中でどのように位置づけられるかをめぐり、二元論、物理主義、機能主義などが競合する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "心の形而上学",
+    "era_start": 1641,
+    "era_end": null,
+    "keywords_en": "mind-body problem,mental causation,physicalism",
+    "key_researchers": ["René Descartes", "Gilbert Ryle", "David Chalmers"]
+  },
+  {
+    "name_ja": "物理主義",
+    "name_en": "Physicalism",
+    "definition": "世界に存在するものは究極的には物理的なもの、または物理的事実に依存するものだとする立場。心的現象も脳や身体の物理的過程として説明可能かを問われ、意識やクオリアの扱いが最大の難点となる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "物理主義",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "physicalism,materialism,supervenience",
+    "key_researchers": ["J. J. C. Smart", "David Lewis", "Jaegwon Kim"]
+  },
+  {
+    "name_ja": "タイプ同一説",
+    "name_en": "Type Identity Theory",
+    "definition": "痛みや視覚経験などの心的状態の種類は、特定の脳状態の種類と同一であるとする理論。心を物理科学へ還元しようとする強い物理主義だが、多重実現可能性や種差により同一対応が成り立つかが争われる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "還元的物理主義",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "type identity,brain states,reduction",
+    "key_researchers": ["U. T. Place", "J. J. C. Smart", "Herbert Feigl"]
+  },
+  {
+    "name_ja": "トークン同一説",
+    "name_en": "Token Identity Theory",
+    "definition": "個々の心的出来事は個々の物理的出来事と同一だが、心的状態の種類全体が脳状態の種類と一致するとは限らないとする立場。多重実現可能性を受け入れつつ、各事例の物理的基盤を保持する物理主義である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "非還元的物理主義",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "token identity,nonreductive physicalism,events",
+    "key_researchers": ["Donald Davidson", "Jerry Fodor"]
+  },
+  {
+    "name_ja": "機能主義",
+    "name_en": "Functionalism",
+    "definition": "心的状態を、それを実現する物質ではなく、入力、出力、他の状態との因果的役割によって定義する理論。人工知能や多重実現可能性と相性がよいが、主観的経験を機能だけで説明できるかが批判点となる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "機能主義",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "functionalism,causal role,multiple realizability",
+    "key_researchers": ["Hilary Putnam", "David Lewis", "Jerry Fodor"]
+  },
+  {
+    "name_ja": "行動主義",
+    "name_en": "Behaviorism",
+    "definition": "心的語彙を内的実体への言及ではなく、観察可能な行動傾向や反応パターンによって分析する立場。科学的厳密性を重視したが、痛みを隠す場合や内的思考の存在を十分に扱えないとして後に批判された。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "論理的行動主義",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "behaviorism,dispositions,mental vocabulary",
+    "key_researchers": ["Gilbert Ryle", "Carl Hempel", "B. F. Skinner"]
+  },
+  {
+    "name_ja": "消去的唯物論",
+    "name_en": "Eliminative Materialism",
+    "definition": "信念、欲求、痛みなどの日常的心的概念は成熟した神経科学によって還元されるのではなく、誤った理論として消去される可能性があるとする立場。民間心理学の説明力と科学的妥当性を根本的に問う。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "消去主義",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "eliminativism,folk psychology,neuroscience",
+    "key_researchers": ["Paul Churchland", "Patricia Churchland"]
+  },
+  {
+    "name_ja": "非法則的一元論",
+    "name_en": "Anomalous Monism",
+    "definition": "心的出来事は物理的出来事と同一であるが、心的記述と物理的記述を結ぶ厳密な心理物理法則は存在しないとする理論。合理性に支配される心的説明と因果法則に従う物理的説明の緊張を扱う。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "非還元的物理主義",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "anomalous monism,mental causation,events",
+    "key_researchers": ["Donald Davidson"]
+  },
+  {
+    "name_ja": "随伴性",
+    "name_en": "Supervenience",
+    "definition": "心的性質に差異があるなら必ず物理的性質にも差異がある、という依存関係を表す概念。還元なしに物理主義を表現する道具として用いられるが、説明や因果的効力を十分に保証するかは議論が続く。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "非還元的物理主義",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "supervenience,dependence,physicalism",
+    "key_researchers": ["Jaegwon Kim", "Donald Davidson"]
+  },
+  {
+    "name_ja": "多重実現可能性",
+    "name_en": "Multiple Realizability",
+    "definition": "同じ心的状態や機能が、人間、動物、人工システムなど異なる物理的基盤によって実現されうるという考え。タイプ同一説への有力な反論であり、機能主義や非還元的物理主義を支える中心概念である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "機能主義",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "multiple realizability,functionalism,realization",
+    "key_researchers": ["Hilary Putnam", "Jerry Fodor"]
+  },
+  {
+    "name_ja": "心的因果",
+    "name_en": "Mental Causation",
+    "definition": "信念、欲求、意図などの心的状態が身体運動や他の心的状態を本当に引き起こせるのかを問う問題。物理的世界の因果的閉包性を認めると、心的性質の因果的役割が排除される危険が生じる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "心の形而上学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "mental causation,causal exclusion,agency",
+    "key_researchers": ["Jaegwon Kim", "Donald Davidson"]
+  },
+  {
+    "name_ja": "因果的排除問題",
+    "name_en": "Causal Exclusion Problem",
+    "definition": "物理的出来事が十分な物理的原因を持つなら、同じ出来事を心的原因が別に引き起こす余地はないのではないかという問題。非還元的物理主義に対する強力な批判として、心の因果的効力を脅かす。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "物理主義批判",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "causal exclusion,overdetermination,nonreductive physicalism",
+    "key_researchers": ["Jaegwon Kim"]
+  },
+  {
+    "name_ja": "表象主義",
+    "name_en": "Representationalism",
+    "definition": "経験の現象的性格は、その経験が世界をどのように表象しているかによって説明できるとする立場。クオリアを内的な非表象的性質としてではなく、内容や志向性の一種として理解しようとする。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "表象主義",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "representationalism,phenomenal content,intentionalism",
+    "key_researchers": ["Michael Tye", "Fred Dretske", "William Lycan"]
+  },
+  {
+    "name_ja": "志向性",
+    "name_en": "Intentionality",
+    "definition": "心的状態が対象、事態、内容についてのものであるという性質。信念は世界のあり方について、欲求は望ましい状態について向けられており、心を単なる物理的状態と区別する特徴として扱われる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "志向性理論",
+    "era_start": 1874,
+    "era_end": null,
+    "keywords_en": "intentionality,aboutness,mental content",
+    "key_researchers": ["Franz Brentano", "John Searle", "Daniel Dennett"]
+  },
+  {
+    "name_ja": "命題的態度",
+    "name_en": "Propositional Attitudes",
+    "definition": "信じる、望む、恐れる、期待するなど、命題内容に対して主体が取る態度を指す概念。言語哲学、行為論、認知科学と結びつき、意味、合理性、心的内容、他者理解の分析に不可欠である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "分析的心理意味論",
+    "era_start": 1903,
+    "era_end": null,
+    "keywords_en": "propositional attitudes,belief,desire",
+    "key_researchers": ["Bertrand Russell", "Donald Davidson", "Jerry Fodor"]
+  },
+  {
+    "name_ja": "信念欲求心理学",
+    "name_en": "Belief-Desire Psychology",
+    "definition": "行為を、世界がどうであると信じているか、何を望んでいるかの組み合わせによって説明する枠組み。日常的な人間理解の基盤だが、神経科学や消去主義からは科学的理論としての妥当性が問われる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "民間心理学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "belief desire psychology,folk psychology,action explanation",
+    "key_researchers": ["Donald Davidson", "Jerry Fodor", "Daniel Dennett"]
+  },
+  {
+    "name_ja": "民間心理学",
+    "name_en": "Folk Psychology",
+    "definition": "人々が日常的に他者や自分の行為を信念、欲求、意図、感情によって説明し予測する素朴な理論。科学的心理学の前段階か、独自に有効な解釈実践か、あるいは誤った理論かが争点となる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "心の科学哲学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "folk psychology,belief,desire",
+    "key_researchers": ["Stephen Stich", "Paul Churchland", "Daniel Dennett"]
+  },
+  {
+    "name_ja": "思考の言語",
+    "name_en": "Language of Thought",
+    "definition": "思考は内的な記号体系、すなわち心的言語によって構成されるという仮説。概念の組み合わせ、生産性、推論の体系性を説明するために提案され、古典的計算主義的認知科学の中核となった。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "計算主義",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "language of thought,mentalese,compositionality",
+    "key_researchers": ["Jerry Fodor"]
+  },
+  {
+    "name_ja": "計算主義",
+    "name_en": "Computationalism",
+    "definition": "心的過程を、形式的表象に対する計算操作として理解する立場。推論、知覚、言語理解を情報処理として説明するが、意味や意識が単なる構文操作から生じるのかという批判に直面する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "古典的認知科学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "computationalism,cognition,information processing",
+    "key_researchers": ["Jerry Fodor", "Hilary Putnam", "Allen Newell"]
+  },
+  {
+    "name_ja": "コネクショニズム",
+    "name_en": "Connectionism",
+    "definition": "認知を記号規則の逐次操作ではなく、多数の単純なユニット間の重みづけネットワークによる並列分散処理として説明する立場。概念、学習、記憶の連続性を重視し、古典的計算主義と対立した。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "コネクショニズム",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "connectionism,neural networks,distributed representation",
+    "key_researchers": ["David Rumelhart", "James McClelland", "Paul Smolensky"]
+  },
+  {
+    "name_ja": "中国語の部屋",
+    "name_en": "Chinese Room Argument",
+    "definition": "記号操作の規則に従うだけでは、その記号の意味を本当に理解していることにはならないとする思考実験。強い人工知能や計算主義に対し、構文処理と意味理解の差を示す批判として提案された。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "反計算主義",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "Chinese room,understanding,syntax semantics",
+    "key_researchers": ["John Searle"]
+  },
+  {
+    "name_ja": "チューリングテスト",
+    "name_en": "Turing Test",
+    "definition": "機械が知能を持つかを、会話を通じて人間と区別できるかによって評価する提案。内的意識の有無ではなく振る舞いと応答能力に焦点を置き、人工知能と心の帰属をめぐる議論の出発点となった。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "機械知能論",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "Turing test,artificial intelligence,imitation game",
+    "key_researchers": ["Alan Turing"]
+  },
+  {
+    "name_ja": "強い人工知能",
+    "name_en": "Strong AI",
+    "definition": "適切にプログラムされたコンピュータは、知能を模倣するだけでなく、実際に理解し思考する心を持ちうるという立場。計算主義と機能主義に支えられるが、中国語の部屋などから反論を受ける。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "計算主義",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "strong AI,machine understanding,computational mind",
+    "key_researchers": ["John Searle", "Alan Turing", "Jerry Fodor"]
+  },
+  {
+    "name_ja": "ゾンビ論法",
+    "name_en": "Philosophical Zombie Argument",
+    "definition": "物理的・機能的には人間と完全に同じだが、主観的経験をまったく持たない存在が可能なら、意識は物理的事実に還元できないとする論法。物理主義に対する様相的反論として重視される。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "反物理主義",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "philosophical zombies,conceivability,physicalism",
+    "key_researchers": ["David Chalmers", "Robert Kirk"]
+  },
+  {
+    "name_ja": "知識論法",
+    "name_en": "Knowledge Argument",
+    "definition": "白黒の部屋で色覚の物理的知識をすべて学んだメアリーが、初めて赤を見たとき新しい知識を得るなら、物理的知識は経験のすべてを尽くさないとする論法。クオリア論争の代表例である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "反物理主義",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "knowledge argument,Mary,qualia",
+    "key_researchers": ["Frank Jackson"]
+  },
+  {
+    "name_ja": "説明ギャップ",
+    "name_en": "Explanatory Gap",
+    "definition": "神経過程や機能的役割をどれほど詳しく記述しても、なぜそれが特定の主観的経験を伴うのかが説明されないという隔たり。意識の物理的説明に対する根本的な不満を表す概念である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意識研究",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_en": "explanatory gap,consciousness,qualia",
+    "key_researchers": ["Joseph Levine"]
+  },
+  {
+    "name_ja": "現象的意識",
+    "name_en": "Phenomenal Consciousness",
+    "definition": "経験が主体にとって何らかの感じを持って現れる側面を指す概念。情報へのアクセスや報告可能性とは区別され、痛み、色、音、感情などの質的経験をめぐる心の哲学の中心対象である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意識研究",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "phenomenal consciousness,what it is like,experience",
+    "key_researchers": ["Thomas Nagel", "Ned Block"]
+  },
+  {
+    "name_ja": "アクセス意識",
+    "name_en": "Access Consciousness",
+    "definition": "ある情報が推論、発話、行為制御、記憶などの認知システムで利用可能になっている状態を指す概念。現象的意識と区別することで、報告可能性と主観的感じの関係を精密に論じられるようになった。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意識研究",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "access consciousness,reportability,cognitive access",
+    "key_researchers": ["Ned Block"]
+  },
+  {
+    "name_ja": "高階思考理論",
+    "name_en": "Higher-Order Thought Theory",
+    "definition": "ある心的状態が意識的であるのは、その状態についての高階の思考や表象が主体に生じているからだとする理論。意識を自己表象的構造で説明しようとするが、誤表象や無限後退の問題が論じられる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "高階理論",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "higher-order thought,consciousness,self-representation",
+    "key_researchers": ["David Rosenthal", "Peter Carruthers"]
+  },
+  {
+    "name_ja": "グローバルワークスペース理論",
+    "name_en": "Global Workspace Theory",
+    "definition": "意識とは、情報が脳内の多数の専門的処理システムに広く放送され、推論や行為に利用可能になる状態だとする理論。心理学、神経科学、心の哲学を結ぶ機能的説明として影響力を持つ。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "認知科学的意識理論",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "global workspace,conscious access,broadcasting",
+    "key_researchers": ["Bernard Baars", "Stanislas Dehaene"]
+  },
+  {
+    "name_ja": "統合情報理論",
+    "name_en": "Integrated Information Theory",
+    "definition": "意識の程度を、システムがどれほど分化され統合された因果構造を持つかによって測ろうとする理論。経験の内在的構造を重視し、物理的基盤と現象的性質の対応を定式化しようとする。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自然主義的意識理論",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "integrated information,consciousness,phi",
+    "key_researchers": ["Giulio Tononi", "Christof Koch"]
+  },
+  {
+    "name_ja": "自己意識",
+    "name_en": "Self-Consciousness",
+    "definition": "主体が自分自身を経験、思考、行為の担い手として把握する能力や構造を指す概念。反省的な自己認識だけでなく、身体所有感や一人称的視点のような前反省的側面も含めて分析される。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自己意識論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "self-consciousness,self-awareness,first-person",
+    "key_researchers": ["Sydney Shoemaker", "Gareth Evans", "José Luis Bermúdez"]
+  },
+  {
+    "name_ja": "一人称権威",
+    "name_en": "First-Person Authority",
+    "definition": "自分の信念、欲求、痛みなどについて、他者とは異なる特権的な知識や発話上の権威を持つように見える現象。内観の不可謬性ではなく、自己帰属の実践や合理性から説明されることが多い。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自己知論",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "first-person authority,self-knowledge,avowal",
+    "key_researchers": ["Ludwig Wittgenstein", "Sydney Shoemaker", "Richard Moran"]
+  },
+  {
+    "name_ja": "内観",
+    "name_en": "Introspection",
+    "definition": "主体が自分自身の心的状態を直接的または特殊な仕方で知るとされる能力。近代哲学では確実性の源泉とされたが、分析哲学では誤りや理論負荷性、自己知の表出的性格が問題化された。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自己知論",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "introspection,self-knowledge,inner sense",
+    "key_researchers": ["Gilbert Ryle", "David Armstrong", "Eric Schwitzgebel"]
+  },
+  {
+    "name_ja": "他我問題",
+    "name_en": "Problem of Other Minds",
+    "definition": "自分以外の人々が本当に心や意識を持つことをどのように知るのかという問題。行動、類推、言語実践、解釈、身体性などを通じて他者の心を理解する根拠が分析される。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "認識論的心の哲学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "other minds,analogy,criteria",
+    "key_researchers": ["Ludwig Wittgenstein", "Norman Malcolm", "P. F. Strawson"]
+  },
+  {
+    "name_ja": "私的言語論",
+    "name_en": "Private Language Argument",
+    "definition": "完全に私的で、話者だけが内的感覚により意味を確定できる言語は成立しないとする議論。心的語の意味を内的対象への命名ではなく、公的な規則、実践、基準に結びつけて理解させる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "日常言語哲学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "private language,rule following,meaning",
+    "key_researchers": ["Ludwig Wittgenstein"]
+  },
+  {
+    "name_ja": "規則遵守問題",
+    "name_en": "Rule-Following Problem",
+    "definition": "ある規則に従うことと、単にそのように振る舞うことを区別する基準は何かを問う問題。意味や理解を個人の内的状態だけで決められるのか、共同体の実践が必要かをめぐる論争を生んだ。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "後期ウィトゲンシュタイン派",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "rule following,meaning,community",
+    "key_researchers": ["Ludwig Wittgenstein", "Saul Kripke"]
+  },
+  {
+    "name_ja": "外在主義",
+    "name_en": "Externalism",
+    "definition": "心的内容や認知状態は、主体の内部状態だけでなく、環境、社会、因果史によっても決まるとする立場。双子地球論法により、同じ内的状態でも異なる意味や信念内容を持ちうることが示された。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意味論的外在主義",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "externalism,mental content,twin earth",
+    "key_researchers": ["Hilary Putnam", "Tyler Burge"]
+  },
+  {
+    "name_ja": "内在主義",
+    "name_en": "Internalism",
+    "definition": "心的内容や正当化、認知状態の本質は主体の内部的状態によって決まるとする立場。外在主義に対抗し、心理的説明や一人称的アクセス可能性を重視するが、環境依存的意味の扱いが課題となる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "心的内容内在主義",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "internalism,mental content,narrow content",
+    "key_researchers": ["Jerry Fodor", "Gabriel Segal"]
+  },
+  {
+    "name_ja": "双子地球論法",
+    "name_en": "Twin Earth Argument",
+    "definition": "地球の水と双子地球の見かけ上同じ液体が異なる化学構造を持つなら、同じ心理状態でも「水」の意味は環境により異なるとする思考実験。意味と心的内容の外在主義を代表する論法である。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意味論的外在主義",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "Twin Earth,semantic externalism,meaning",
+    "key_researchers": ["Hilary Putnam"]
+  },
+  {
+    "name_ja": "狭い内容",
+    "name_en": "Narrow Content",
+    "definition": "環境が異なっても主体の内部状態が同じなら共有されるとされる心的内容。外在主義が示す広い内容に対し、心理学的説明や認知科学で因果的役割を果たす内容を確保するために導入された。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "心理意味論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "narrow content,internalism,psychological explanation",
+    "key_researchers": ["Jerry Fodor", "David Chalmers"]
+  },
+  {
+    "name_ja": "広い内容",
+    "name_en": "Wide Content",
+    "definition": "主体の内部状態だけでなく、環境や社会的実践との関係によって決まる心的内容。自然種語や社会的語彙の意味を説明するうえで重要であり、心理的説明と意味論的説明の関係を問題化する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意味論的外在主義",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "wide content,externalism,semantic content",
+    "key_researchers": ["Hilary Putnam", "Tyler Burge"]
+  },
+  {
+    "name_ja": "目的論的意味論",
+    "name_en": "Teleosemantics",
+    "definition": "心的表象の意味を、その表象機構が進化や学習を通じて果たすよう選択された機能によって説明する理論。誤表象を許しつつ自然主義的に意味を説明しようとする心理意味論の有力な枠組みである。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自然主義的意味論",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "teleosemantics,function,representation",
+    "key_researchers": ["Ruth Millikan", "Fred Dretske", "David Papineau"]
+  },
+  {
+    "name_ja": "情報意味論",
+    "name_en": "Informational Semantics",
+    "definition": "心的表象の内容を、表象状態と世界の事態との情報的・因果的相関によって説明する試み。自然化された意味論を目指すが、誤表象や遠位対象の選択をどのように扱うかが問題となる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自然主義的意味論",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "informational semantics,mental representation,causal covariance",
+    "key_researchers": ["Fred Dretske", "Jerry Fodor"]
+  },
+  {
+    "name_ja": "非概念的内容",
+    "name_en": "Nonconceptual Content",
+    "definition": "主体が対応する概念を持っていなくても、知覚や経験が持ちうる細やかな内容を指す概念。乳児や動物の知覚、色や空間の連続的表象を説明するために用いられ、概念主義と対立する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "知覚哲学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "nonconceptual content,perception,conceptualism",
+    "key_researchers": ["Gareth Evans", "Christopher Peacocke", "José Luis Bermúdez"]
+  },
+  {
+    "name_ja": "知覚の直接実在論",
+    "name_en": "Direct Realism",
+    "definition": "知覚において私たちは心内の感覚データではなく、外界の対象や性質を直接経験しているとする立場。錯覚や幻覚をどう説明するかが課題であり、選言説や表象主義との関係で議論される。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "知覚哲学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "direct realism,perception,external world",
+    "key_researchers": ["J. L. Austin", "John McDowell", "Bill Brewer"]
+  },
+  {
+    "name_ja": "感覚データ説",
+    "name_en": "Sense-Data Theory",
+    "definition": "知覚の直接対象は外界の物そのものではなく、色や形を持つ心的または中間的対象である感覚データだとする理論。錯覚や幻覚を説明しやすいが、外界への到達や私的対象の存在が問題視された。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "知覚哲学",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "sense data,perception,illusion",
+    "key_researchers": ["Bertrand Russell", "G. E. Moore", "A. J. Ayer"]
+  },
+  {
+    "name_ja": "知覚の選言説",
+    "name_en": "Disjunctivism",
+    "definition": "真正な知覚と幻覚は内的に共通する同じ種類の経験ではなく、根本的に異なる心的状態であるとする立場。幻覚から知覚を説明する共通要素説に反対し、外界対象への直接的関係を守ろうとする。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "知覚哲学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "disjunctivism,perception,hallucination",
+    "key_researchers": ["John McDowell", "M. G. F. Martin", "Paul Snowdon"]
+  },
+  {
+    "name_ja": "身体化認知",
+    "name_en": "Embodied Cognition",
+    "definition": "認知は抽象的な脳内計算だけでなく、身体の構造、運動能力、環境との相互作用に深く依存するという見方。知覚、概念、感情、行為を身体的実践の中で理解しようとする。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "身体化認知",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "embodied cognition,body,action",
+    "key_researchers": ["Francisco Varela", "Evan Thompson", "Alva Noë"]
+  },
+  {
+    "name_ja": "エナクティヴィズム",
+    "name_en": "Enactivism",
+    "definition": "認知を、主体が身体を通じて環境と能動的に関わり世界を意味あるものとして enact する過程と捉える立場。表象中心主義に批判的で、知覚、行為、生命性、自己組織化の連続性を強調する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "エナクティヴィズム",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "enactivism,sense-making,embodiment",
+    "key_researchers": ["Francisco Varela", "Evan Thompson", "Alva Noë"]
+  },
+  {
+    "name_ja": "状況づけられた認知",
+    "name_en": "Situated Cognition",
+    "definition": "認知活動は孤立した脳内過程ではなく、具体的な環境、道具、社会的文脈、実践の中に位置づけられて成立するという見方。問題解決や記憶を、外部構造を活用する動的過程として捉える。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "状況論的認知科学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "situated cognition,environment,practice",
+    "key_researchers": ["Lucy Suchman", "Edwin Hutchins", "Andy Clark"]
+  },
+  {
+    "name_ja": "心のモジュール性",
+    "name_en": "Modularity of Mind",
+    "definition": "心は単一の汎用的能力ではなく、入力特化的で情報的に封鎖された複数の処理モジュールから成るという仮説。知覚や言語処理の説明に影響を与え、進化心理学や認知科学の議論を促した。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "認知科学的機能主義",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_en": "modularity,mind,cognitive architecture",
+    "key_researchers": ["Jerry Fodor"]
+  },
+  {
+    "name_ja": "合理的解釈",
+    "name_en": "Radical Interpretation",
+    "definition": "他者の発話や行為を、真理条件、信念、欲求、合理性の仮定を用いて体系的に解釈する方法。意味と心的内容は私的対象ではなく、公共的な言語行為と全体的な合理性の中で捉えられる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "解釈主義",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "radical interpretation,charity,meaning",
+    "key_researchers": ["Donald Davidson"]
+  },
+  {
+    "name_ja": "志向的姿勢",
+    "name_en": "Intentional Stance",
+    "definition": "あるシステムを、信念や欲求を持つ合理的主体として扱うことで行動を予測する解釈戦略。人間、動物、機械に心を帰属する基準を、内的実体ではなく説明と予測の成功に結びつける。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "解釈主義",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "intentional stance,interpretation,belief",
+    "key_researchers": ["Daniel Dennett"]
+  },
+  {
+    "name_ja": "クワインの翻訳不確定性",
+    "name_en": "Indeterminacy of Translation",
+    "definition": "観察可能な行動証拠がすべて同じでも、互いに異なる翻訳マニュアルが同等に成り立ちうるという主張。意味や心的内容が単純な事実として一意に固定されるのかを疑わせ、解釈主義に影響した。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "自然化認識論・意味論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "indeterminacy,translation,meaning",
+    "key_researchers": ["W. V. O. Quine"]
+  },
+  {
+    "name_ja": "指示の因果説",
+    "name_en": "Causal Theory of Reference",
+    "definition": "固有名や自然種語の指示は、記述の束ではなく、命名や使用の因果的連鎖によって対象へ結びつくとする理論。必然的同一性や外在主義を支え、心的内容と世界の関係の分析にも影響した。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "直接指示論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "causal reference,rigid designation,names",
+    "key_researchers": ["Saul Kripke", "Hilary Putnam"]
+  },
+  {
+    "name_ja": "固定指示子",
+    "name_en": "Rigid Designator",
+    "definition": "すべての可能世界で同じ対象を指す表現を指す概念。固有名や自然種語の意味を記述主義から切り離し、同一性命題や心身同一説が必然的か偶然的かを論じる際の中心道具となった。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "様相意味論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "rigid designator,necessity,reference",
+    "key_researchers": ["Saul Kripke"]
+  },
+  {
+    "name_ja": "アプリオリとアポステリオリ",
+    "name_en": "A Priori and A Posteriori",
+    "definition": "経験に先立って知られる知識と、経験に基づいて知られる知識の区別。クリプキ以後、必然的だがアポステリオリな真理が認められ、心身同一説や意識の可想像性論法の評価に重要となった。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "分析的認識論・様相論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "a priori,a posteriori,necessity",
+    "key_researchers": ["Saul Kripke", "David Chalmers"]
+  },
+  {
+    "name_ja": "二次元意味論",
+    "name_en": "Two-Dimensional Semantics",
+    "definition": "表現の意味を、現実世界をどのように指定するかと、可能世界で何を指すかという二つの次元で分析する枠組み。可想像性、必然性、意識の反物理主義論法を精密化するために用いられる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "様相意味論",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "two-dimensional semantics,intension,conceivability",
+    "key_researchers": ["David Chalmers", "Frank Jackson"]
+  },
+  {
+    "name_ja": "可想像性論法",
+    "name_en": "Conceivability Argument",
+    "definition": "ある事態を矛盾なく想像できるなら、それは形而上学的に可能であり、したがって物理主義が偽である可能性を示すという論法。ゾンビや反転スペクトルを通じて意識の非還元性を主張する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "反物理主義",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "conceivability,possibility,zombies",
+    "key_researchers": ["David Chalmers"]
+  },
+  {
+    "name_ja": "反転スペクトル",
+    "name_en": "Inverted Spectrum",
+    "definition": "二人が同じ色名を使い同じ行動を示しても、内的な色経験が互いに反転している可能性を考える思考実験。行動や機能だけではクオリアを捉えきれないのではないかという問題を提起する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "クオリア論",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "inverted spectrum,qualia,color experience",
+    "key_researchers": ["John Locke", "Sydney Shoemaker", "Ned Block"]
+  },
+  {
+    "name_ja": "現象概念戦略",
+    "name_en": "Phenomenal Concept Strategy",
+    "definition": "物理的事実と意識経験の間に説明ギャップがあるように見えるのは、経験を捉える特殊な現象概念の性質によるとする物理主義的戦略。反物理主義論法を概念上の隔たりとして処理しようとする。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "物理主義",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "phenomenal concepts,physicalism,explanatory gap",
+    "key_researchers": ["Brian Loar", "David Papineau", "Katalin Balog"]
+  },
+  {
+    "name_ja": "錯覚主義",
+    "name_en": "Illusionism",
+    "definition": "現象的意識が特別な非物理的性質として存在するのではなく、私たちがそのような性質を持つと誤って表象しているとする立場。意識のハードプロブレムを、なぜそう見えるのかの問題へ変換する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "消去主義的物理主義",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "illusionism,phenomenal consciousness,qualia",
+    "key_researchers": ["Keith Frankish", "Daniel Dennett"]
+  },
+  {
+    "name_ja": "汎心論",
+    "name_en": "Panpsychism",
+    "definition": "意識または原初的な経験性が自然界の根本的構成要素に広く備わっているとする立場。物理主義の説明ギャップを避けるために復興したが、微小経験が統一的主体を形成する結合問題を抱える。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "汎心論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "panpsychism,consciousness,combination problem",
+    "key_researchers": ["Galen Strawson", "Philip Goff", "David Chalmers"]
+  },
+  {
+    "name_ja": "結合問題",
+    "name_en": "Combination Problem",
+    "definition": "汎心論において、微小な意識や経験的性質がどのように結びついて人間の統一された意識経験になるのかを問う問題。個別の経験主体から一つの主体が生じる仕組みが説明困難とされる。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "汎心論批判",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "combination problem,panpsychism,subject unity",
+    "key_researchers": ["William James", "Philip Goff", "David Chalmers"]
+  },
+  {
+    "name_ja": "中立一元論",
+    "name_en": "Neutral Monism",
+    "definition": "心的なものと物理的なものを究極的に別種の実体とせず、どちらでもない中立的な基礎から構成されるとする立場。心身二元論と還元的物理主義の双方を避け、経験と自然の統一的説明を目指す。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "中立一元論",
+    "era_start": 1904,
+    "era_end": null,
+    "keywords_en": "neutral monism,mind,matter",
+    "key_researchers": ["William James", "Bertrand Russell", "Ernst Mach"]
+  }
+]
+tokens used
+31,427

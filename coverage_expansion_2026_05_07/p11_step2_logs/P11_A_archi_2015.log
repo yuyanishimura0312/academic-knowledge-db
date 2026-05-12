@@ -1,0 +1,831 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a0d-c136-76b3-9a96-6dd717984749
+--------
+user
+「建築・空間芸術論」分野の 2015-2025年 の重要概念60件を JSON 配列で出力。
+
+必須概念:
+ジェネラティブ建築、コンピュテーショナル建築2025、気候建築、脱炭素建築、Mass timber
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"建築・空間芸術論","school_of_thought":"学派","era_start":年(2015以上),"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、era_start ≥ 2015、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "ジェネラティブ建築",
+    "name_en": "Generative Architecture",
+    "definition": "アルゴリズム、制約条件、確率的操作、進化的探索を用いて形態や空間構成を生成する建築論。設計者は完成形を直接描くよりも、生成規則、評価基準、環境応答を設計し、多数の案から性能と意味を比較する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "コンピュテーショナル・デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "generative design,algorithmic architecture",
+    "key_researchers": ["John Frazer", "Achim Menges", "Patrik Schumacher"]
+  },
+  {
+    "name_ja": "コンピュテーショナル建築2025",
+    "name_en": "Computational Architecture 2025",
+    "definition": "2025年時点の計算的建築を指す概念で、AI、BIM、ロボティック施工、環境シミュレーション、デジタルツインを統合し、形態生成だけでなく運用、保守、資源循環まで設計対象に含める枠組みである。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ポスト・デジタル建築論",
+    "era_start": 2025,
+    "era_end": null,
+    "keywords_en": "computational architecture,AI design",
+    "key_researchers": ["Achim Menges", "Mario Carpo", "Philippe Morel"]
+  },
+  {
+    "name_ja": "気候建築",
+    "name_en": "Climate Architecture",
+    "definition": "気候危機を建築の中心課題とし、熱、湿度、風、日射、洪水、都市ヒートアイランドへの応答を空間形式と社会制度の両面から考える理論。快適性の最適化だけでなく、適応、緩和、公正を扱う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "気候適応デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate design,adaptation",
+    "key_researchers": ["Philippe Rahm", "Alejandro Aravena", "Kiel Moe"]
+  },
+  {
+    "name_ja": "脱炭素建築",
+    "name_en": "Decarbonized Architecture",
+    "definition": "運用時エネルギーだけでなく、材料製造、輸送、施工、改修、解体に伴うエンボディドカーボンを削減する建築概念。省エネ設備、再生可能エネルギー、低炭素材料、再利用設計を統合する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "サステナブル建築論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "decarbonization,embodied carbon",
+    "key_researchers": ["Edward Mazria", "Kiel Moe", "Jane Anderson"]
+  },
+  {
+    "name_ja": "マスティンバー",
+    "name_en": "Mass timber",
+    "definition": "CLTや集成材など大断面木質材料を用い、中高層建築や大空間を構成する設計思想。炭素貯蔵、軽量化、工期短縮、温熱的質感を重視しつつ、防火、接合、森林管理の倫理も議論する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "バイオベース建築論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "mass timber,CLT",
+    "key_researchers": ["Michael Green", "Andrew Waugh", "Alan Organschi"]
+  },
+  {
+    "name_ja": "エンボディドカーボン設計",
+    "name_en": "Embodied Carbon Design",
+    "definition": "建築物の使用段階以前に発生する材料由来の炭素排出を設計判断に組み込む概念。構造形式、仕上げ、更新周期、部材量、調達地域を評価し、見えにくい環境負荷を空間美学と結びつける。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ライフサイクル建築論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "embodied carbon,LCA",
+    "key_researchers": ["Stephanie Carlisle", "Kiel Moe", "Jane Anderson"]
+  },
+  {
+    "name_ja": "循環型建築",
+    "name_en": "Circular Architecture",
+    "definition": "建築を廃棄物を生む固定物ではなく、分解、再利用、修理、再流通が可能な資源の一時的集合として捉える概念。材料パスポート、可逆接合、リース型部材、都市鉱山の活用が重視される。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "サーキュラー・エコノミー建築",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "circular economy,design for disassembly",
+    "key_researchers": ["Thomas Rau", "Baker-Brown Duncan", "Dirk E. Hebel"]
+  },
+  {
+    "name_ja": "デザイン・フォー・ディスアセンブリー",
+    "name_en": "Design for Disassembly",
+    "definition": "建築を将来の解体、移設、部材回収を前提に設計する考え方。接着や複合化を避け、ボルト接合、標準寸法、情報記録を用いることで、建物寿命後の資源価値を保つ空間技術である。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "循環デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disassembly,reuse",
+    "key_researchers": ["Brad Guy", "Dirk E. Hebel", "Felix Heisel"]
+  },
+  {
+    "name_ja": "アダプティブ・リユース",
+    "name_en": "Adaptive Reuse",
+    "definition": "既存建築を解体せず、新たな用途、社会的意味、環境性能を与えて継続利用する設計概念。保存と革新を対立させず、記憶、炭素削減、都市再生を重ねる実践として重要性が高まった。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "保存再生論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "adaptive reuse,retrofit",
+    "key_researchers": ["Juhani Pallasmaa", "Rem Koolhaas", "Françoise Astorg Bollack"]
+  },
+  {
+    "name_ja": "建築的リトロフィット",
+    "name_en": "Architectural Retrofit",
+    "definition": "既存建築に断熱、耐震、設備更新、空間再編を加え、環境性能と社会的価値を延命させる概念。新築偏重を批判し、建築の寿命、記憶、維持管理を設計文化の中心に置く。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "既存ストック活用論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "retrofit,building stock",
+    "key_researchers": ["Stewart Brand", "Anne Lacaton", "Jean-Philippe Vassal"]
+  },
+  {
+    "name_ja": "ネットゼロ建築",
+    "name_en": "Net Zero Architecture",
+    "definition": "年間のエネルギー消費や温室効果ガス排出を、効率化と再生可能エネルギー導入により実質ゼロへ近づける建築概念。性能計算だけでなく、居住行動、地域インフラ、材料炭素との整合が問われる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "高性能環境建築",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "net zero,zero energy building",
+    "key_researchers": ["Edward Mazria", "William McDonough", "Vivian Loftness"]
+  },
+  {
+    "name_ja": "パッシブハウス再評価",
+    "name_en": "Passive House Reassessment",
+    "definition": "高断熱、高気密、熱回収換気を基盤とするパッシブハウスを、気候危機、燃料価格、健康、低所得住宅の観点から再評価する動向。機械設備に依存しすぎない快適性の倫理を含む。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "パッシブ環境設計",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "passive house,thermal comfort",
+    "key_researchers": ["Wolfgang Feist", "Bronwyn Barry", "Elrond Burrell"]
+  },
+  {
+    "name_ja": "バイオフィリック・デザイン",
+    "name_en": "Biophilic Design",
+    "definition": "人間が自然環境との結びつきから心理的、身体的利益を得るという前提に基づき、植栽、水、自然光、素材感、景観、自然のパターンを空間に組み込む建築概念である。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "環境心理学的建築論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "biophilia,wellbeing",
+    "key_researchers": ["Stephen Kellert", "Judith Heerwagen", "Terrapin Bright Green"]
+  },
+  {
+    "name_ja": "ウェルビーイング建築",
+    "name_en": "Wellbeing Architecture",
+    "definition": "建築を身体的健康、心理的安定、社会的つながり、生産性、回復力を支える環境として捉える概念。空気質、音、光、温熱、動線、コミュニティ形成を測定可能な設計課題にする。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "健康建築論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "wellbeing,healthy buildings",
+    "key_researchers": ["Joseph Allen", "Sarah Williams Goldhagen", "Judith Heerwagen"]
+  },
+  {
+    "name_ja": "ニューロアーキテクチャ",
+    "name_en": "Neuroarchitecture",
+    "definition": "脳科学、認知科学、環境心理学の知見を用い、空間が記憶、注意、ストレス、感情、行動に与える影響を研究する建築概念。美的判断だけでなく、測定可能な経験設計を志向する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "認知空間論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "neuroarchitecture,cognition",
+    "key_researchers": ["Sarah Williams Goldhagen", "Harry Francis Mallgrave", "Eve Edelstein"]
+  },
+  {
+    "name_ja": "ポストヒューマン建築",
+    "name_en": "Posthuman Architecture",
+    "definition": "建築の主体を人間中心から動物、植物、菌類、微生物、機械、気候システムへ拡張する理論。居住を人間の占有ではなく、多種共生と物質循環の場として再定義する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ポストヒューマニズム",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "posthuman,multispecies",
+    "key_researchers": ["Rosi Braidotti", "Donna Haraway", "Hélène Frichot"]
+  },
+  {
+    "name_ja": "マルチスピーシーズ空間",
+    "name_en": "Multispecies Space",
+    "definition": "人間だけでなく鳥、昆虫、植物、土壌生物など複数種の生息条件を都市や建築の設計条件に含める概念。緑化を装飾ではなく、生態的権利と空間政治の問題として扱う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "エコロジカル・ポストヒューマニズム",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "multispecies,ecological design",
+    "key_researchers": ["Donna Haraway", "Hélène Frichot", "Mitchell Joachim"]
+  },
+  {
+    "name_ja": "リジェネラティブ・デザイン",
+    "name_en": "Regenerative Design",
+    "definition": "環境負荷を減らすだけでなく、生態系、地域経済、文化的関係を再生することを目標にする建築概念。建物を独立した対象ではなく、流域、食、エネルギー、社会関係の再生装置として考える。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "再生的環境設計",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "regenerative design,ecological restoration",
+    "key_researchers": ["Bill Reed", "Pamela Mang", "Jason McLennan"]
+  },
+  {
+    "name_ja": "スポンジシティ",
+    "name_en": "Sponge City",
+    "definition": "都市を雨水を排除する硬い表面ではなく、浸透、貯留、蒸発散、再利用を行う多孔的な水循環空間として設計する概念。洪水対策と景観、公共空間、生態系回復を統合する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ランドスケープ・アーバニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "sponge city,water urbanism",
+    "key_researchers": ["Kongjian Yu", "Kate Orff", "Herbert Dreiseitl"]
+  },
+  {
+    "name_ja": "レジリエント・アーバニズム",
+    "name_en": "Resilient Urbanism",
+    "definition": "災害、気候変動、経済変動、感染症などの衝撃に対し、都市空間が機能を維持し回復する能力を重視する概念。冗長性、分散性、コミュニティ資源、柔軟な公共空間が中心となる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "都市レジリエンス論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "resilience,urban adaptation",
+    "key_researchers": ["Michael Berkowitz", "Lawrence J. Vale", "Kate Orff"]
+  },
+  {
+    "name_ja": "タクティカル・アーバニズム",
+    "name_en": "Tactical Urbanism",
+    "definition": "仮設的、低コスト、短期的な介入によって街路や公共空間の使い方を実験し、制度変更や恒久整備へつなげる都市実践。市民参加、試行錯誤、可視化されたプロトタイピングを重視する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "市民参加型都市論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "tactical urbanism,urban prototyping",
+    "key_researchers": ["Mike Lydon", "Anthony Garcia", "Janette Sadik-Khan"]
+  },
+  {
+    "name_ja": "プラットフォーム・アーバニズム",
+    "name_en": "Platform Urbanism",
+    "definition": "配車、配送、短期賃貸、位置情報サービスなどデジタルプラットフォームが都市空間、労働、住宅、移動を再編する現象を扱う概念。建築は物理空間とデータ支配の接点として分析される。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "デジタル都市批評",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platform urbanism,smart city",
+    "key_researchers": ["Sarah Barns", "Rob Kitchin", "Shannon Mattern"]
+  },
+  {
+    "name_ja": "スマートシティ批判",
+    "name_en": "Smart City Critique",
+    "definition": "センサー、AI、データ分析による都市管理を効率化の物語としてのみ捉えず、監視、民営化、排除、アルゴリズム統治の問題として検討する概念。市民の権利と都市の可読性が争点となる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "批判的都市情報論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "smart city critique,urban data",
+    "key_researchers": ["Shannon Mattern", "Adam Greenfield", "Rob Kitchin"]
+  },
+  {
+    "name_ja": "デジタルツイン都市",
+    "name_en": "Urban Digital Twin",
+    "definition": "都市や建築をリアルタイムデータと三次元モデルで再現し、計画、運用、防災、エネルギー管理をシミュレーションする概念。表現技術であると同時に、統治と意思決定のインフラでもある。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "スマート環境設計",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "digital twin,urban simulation",
+    "key_researchers": ["Michael Batty", "Carlo Ratti", "Rob Kitchin"]
+  },
+  {
+    "name_ja": "BIM統合設計",
+    "name_en": "Integrated BIM Design",
+    "definition": "建築情報モデルを図面作成だけでなく、構造、設備、積算、工程、維持管理、環境性能の共通基盤として用いる概念。設計成果物を静的表現から情報を持つ運用可能なモデルへ変える。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "デジタル・プロジェクト・デリバリー",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "BIM,integrated design",
+    "key_researchers": ["Chuck Eastman", "Phil Bernstein", "Randy Deutsch"]
+  },
+  {
+    "name_ja": "パラメトリック・アーバニズム",
+    "name_en": "Parametric Urbanism",
+    "definition": "都市形態、密度、交通、日照、眺望、風環境などを変数として扱い、設計案を連続的に生成、評価する都市設計概念。単一のマスタープランよりも、関係性と調整可能性を重視する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "パラメトリシズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "parametric urbanism,urban morphology",
+    "key_researchers": ["Patrik Schumacher", "José Duarte", "Michael Batty"]
+  },
+  {
+    "name_ja": "パフォーマンス駆動設計",
+    "name_en": "Performance-Driven Design",
+    "definition": "形態や空間を視覚的好みだけで決めず、構造効率、熱環境、採光、音響、動線、コストなどの性能指標を用いて反復的に評価する設計概念。美学と工学を分離しない態度を持つ。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "環境性能主義",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "performance design,simulation",
+    "key_researchers": ["Branko Kolarevic", "Ali Malkawi", "Achim Menges"]
+  },
+  {
+    "name_ja": "ロボティック・ファブリケーション",
+    "name_en": "Robotic Fabrication",
+    "definition": "産業用ロボットや自律施工機械を用い、複雑な部材加工、積層、組立、現場施工を行う建築概念。デジタルモデルと物質の誤差を扱い、職人性と自動化の関係を再編する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "デジタル・ファブリケーション",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "robotic fabrication,digital fabrication",
+    "key_researchers": ["Fabio Gramazio", "Matthias Kohler", "Achim Menges"]
+  },
+  {
+    "name_ja": "3Dプリント建築",
+    "name_en": "3D Printed Architecture",
+    "definition": "コンクリート、土、樹脂、複合材料などを積層造形し、建築部材や建物を製作する概念。型枠削減、複雑形状、現地材料利用の可能性と、材料強度、規格、労働の変化をめぐる議論を含む。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "アディティブ・マニュファクチャリング建築",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "3D printing,additive manufacturing",
+    "key_researchers": ["Philippe Morel", "Enrico Dini", "Ronald Rael"]
+  },
+  {
+    "name_ja": "材料計算建築",
+    "name_en": "Material Computation",
+    "definition": "材料の弾性、繊維方向、湿度応答、成長特性などを計算過程に組み込み、形態生成と構造性能を同時に扱う建築概念。材料を受動的な仕上げではなく、設計知性の担い手とみなす。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "物質主導デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "material computation,morphogenesis",
+    "key_researchers": ["Achim Menges", "Neri Oxman", "Sean Ahlquist"]
+  },
+  {
+    "name_ja": "バイオデジタル建築",
+    "name_en": "Biodigital Architecture",
+    "definition": "生物学的成長、組織構造、進化、代謝をデジタル設計と結びつける概念。自然形態の模倣にとどまらず、計算、材料、製造、環境応答を横断して生命的プロセスを空間化する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "バイオデザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "biodigital,biomimicry",
+    "key_researchers": ["Alberto T. Estévez", "Neri Oxman", "Rachel Armstrong"]
+  },
+  {
+    "name_ja": "リビング・アーキテクチャ",
+    "name_en": "Living Architecture",
+    "definition": "藻類、菌糸、細菌、植物など生きたシステムを建築材料や環境調整装置として組み込む概念。建物を完成された物体ではなく、成長、代謝、劣化、修復を続ける生態的プロセスとして扱う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "合成生物学的建築",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "living architecture,biofabrication",
+    "key_researchers": ["Rachel Armstrong", "Neri Oxman", "Marcos Cruz"]
+  },
+  {
+    "name_ja": "菌糸体建築",
+    "name_en": "Mycelium Architecture",
+    "definition": "菌糸体を断熱材、構造補助材、内装材、仮設パビリオンの材料として用いる建築概念。生分解性、低炭素性、栽培可能性を評価しながら、耐久性、防火、湿度管理の課題も含めて論じる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "バイオマテリアル建築",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "mycelium,bio-based materials",
+    "key_researchers": ["Dirk E. Hebel", "David Benjamin", "Phil Ross"]
+  },
+  {
+    "name_ja": "カーボンネガティブ材料",
+    "name_en": "Carbon-Negative Materials",
+    "definition": "製造、使用、貯蔵を通じて大気中の炭素を実質的に固定または削減する建築材料を重視する概念。木材、バイオチャー、藻類由来材、炭酸化コンクリートなどが議論対象となる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "低炭素材料論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "carbon negative,materials",
+    "key_researchers": ["Dirk E. Hebel", "Alan Organschi", "Blaine Brownell"]
+  },
+  {
+    "name_ja": "オープンビルディング再興",
+    "name_en": "Open Building Revival",
+    "definition": "構造体、設備、内装、住戸計画を異なる寿命の層として分離し、利用者参加と将来変更を可能にする建築概念の再評価。住宅危機、長寿命化、循環設計の文脈で再び注目された。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "サポート・インフィル論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "open building,adaptability",
+    "key_researchers": ["N. John Habraken", "Stephen Kendall", "Tatjana Schneider"]
+  },
+  {
+    "name_ja": "フレキシブル・ハウジング",
+    "name_en": "Flexible Housing",
+    "definition": "家族構成、働き方、介護、共同生活、移住などの変化に応じて間取りや使い方を変えられる住宅概念。固定的な標準世帯像を批判し、可変性、余白、共有空間を設計資源とする。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "住宅社会論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "flexible housing,adaptable living",
+    "key_researchers": ["Tatjana Schneider", "Jeremy Till", "Anne Lacaton"]
+  },
+  {
+    "name_ja": "コリビング",
+    "name_en": "Co-living",
+    "definition": "個室と共有キッチン、ラウンジ、ワークスペースなどを組み合わせ、居住とコミュニティ形成を同時に設計する住宅概念。孤立、住宅費、流動的労働への対応である一方、商品化された共同性も問題化される。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "共有居住論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "co-living,shared housing",
+    "key_researchers": ["Dolores Hayden", "Hilde Heynen", "Pier Vittorio Aureli"]
+  },
+  {
+    "name_ja": "コモンズとしての建築",
+    "name_en": "Architecture as Commons",
+    "definition": "建築や都市空間を私有財産や公共施設の二分法ではなく、共同管理される共有資源として捉える概念。住民参加、協同所有、ケア、メンテナンスを空間形成の中心に置く。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "コモンズ論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "commons,collective space",
+    "key_researchers": ["Elinor Ostrom", "Stavros Stavrides", "Pier Vittorio Aureli"]
+  },
+  {
+    "name_ja": "ケアの建築",
+    "name_en": "Architecture of Care",
+    "definition": "医療、福祉、育児、高齢化、孤立、障害を例外的課題ではなく空間の根本条件として扱う概念。効率や象徴性よりも、依存関係、身体差、日常的支援、感情的安全を重視する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "フェミニスト空間論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "care,spatial justice",
+    "key_researchers": ["Elke Krasny", "Joan Tronto", "Keller Easterling"]
+  },
+  {
+    "name_ja": "フェミニスト建築実践",
+    "name_en": "Feminist Architectural Practice",
+    "definition": "設計主体、労働、空間利用、歴史記述におけるジェンダー不平等を批判し、協働、ケア、身体差、生活再生産を建築の中心課題にする実践。英雄的作者像を相対化する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "フェミニスト建築論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "feminist architecture,gender",
+    "key_researchers": ["Jane Rendell", "Lori Brown", "Elke Krasny"]
+  },
+  {
+    "name_ja": "空間的正義",
+    "name_en": "Spatial Justice",
+    "definition": "住宅、公共空間、交通、環境負荷、安全、文化資源へのアクセスが空間的に不平等に配分される問題を扱う概念。建築設計を審美的行為だけでなく、権利と分配の実践として捉える。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "批判的都市論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "spatial justice,equity",
+    "key_researchers": ["Edward Soja", "Teddy Cruz", "Fonna Forman"]
+  },
+  {
+    "name_ja": "脱植民地建築論",
+    "name_en": "Decolonial Architecture",
+    "definition": "植民地主義が残した土地所有、記念碑、博物館、都市計画、知識体系を批判し、先住民知、地域素材、記憶の回復を重視する概念。近代建築史の普遍主義を問い直す。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "decolonial architecture,indigenous knowledge",
+    "key_researchers": ["Lesley Lokko", "Mabel O. Wilson", "Sumayya Vally"]
+  },
+  {
+    "name_ja": "先住民建築知",
+    "name_en": "Indigenous Architectural Knowledge",
+    "definition": "先住民社会の土地観、季節性、儀礼、材料、共同性、非所有的空間理解を建築知として扱う概念。伝統の表層的引用ではなく、主権、継承、土地との関係を設計倫理に含める。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "インディジナス・デザイン論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "indigenous design,land knowledge",
+    "key_researchers": ["David Fortin", "Wanda Dalla Costa", "Māori Design Group"]
+  },
+  {
+    "name_ja": "難民・移動空間論",
+    "name_en": "Refugee and Migration Space",
+    "definition": "難民キャンプ、仮設住宅、国境施設、移民街区を一時的例外ではなく、現代都市と建築の中心的条件として分析する概念。移動、権利、監視、生活の持続性が主題となる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "移動性の空間政治",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "migration,refugee space",
+    "key_researchers": ["Eyal Weizman", "Kilian Kleinschmidt", "Anooradha Iyer Siddiqi"]
+  },
+  {
+    "name_ja": "フォレンジック建築",
+    "name_en": "Forensic Architecture",
+    "definition": "建築的な空間分析、映像解析、衛星画像、三次元モデルを用いて、暴力、人権侵害、環境破壊の証拠を再構成する実践。設計技術を政治的証言と公共調査に転用する概念である。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "調査的空間実践",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "forensic architecture,evidence",
+    "key_researchers": ["Eyal Weizman", "Susan Schuppli", "Matthew Fuller"]
+  },
+  {
+    "name_ja": "インフラストラクチャー美学",
+    "name_en": "Infrastructure Aesthetics",
+    "definition": "道路、物流、通信、エネルギー、水道、データセンターなど通常は背景化されるインフラを、現代空間の主要な美学的、政治的対象として扱う概念。見えないシステムを可視化する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "インフラ批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "infrastructure,aesthetics",
+    "key_researchers": ["Keller Easterling", "Shannon Mattern", "Kazys Varnelis"]
+  },
+  {
+    "name_ja": "ロジスティクス空間",
+    "name_en": "Logistics Space",
+    "definition": "倉庫、港湾、配送拠点、データ化された移動経路が都市と建築を再編する現象を扱う概念。消費の即時性を支える巨大な裏側の空間と労働を、設計批評の対象にする。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "物流都市論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "logistics,warehouse urbanism",
+    "key_researchers": ["Jesse LeCavalier", "Keller Easterling", "Deborah Cowen"]
+  },
+  {
+    "name_ja": "データセンター建築",
+    "name_en": "Data Center Architecture",
+    "definition": "クラウド、AI、動画配信を支えるデータセンターを、技術施設ではなくエネルギー、水、土地、冷却、セキュリティ、美学の複合的建築類型として捉える概念。不可視化されたデジタル空間を物質化する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "デジタル・インフラ論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "data center,digital infrastructure",
+    "key_researchers": ["Shannon Mattern", "Tung-Hui Hu", "Kate Crawford"]
+  },
+  {
+    "name_ja": "ポストコロナ空間",
+    "name_en": "Post-Pandemic Space",
+    "definition": "感染症流行後の換気、密度、接触、在宅勤務、公共空間、衛生、都市生活の変化を扱う概念。建築を隔離の装置としてだけでなく、社会的つながりと健康の再調整として考える。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "パンデミック後都市論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "post-pandemic,ventilation",
+    "key_researchers": ["Beatriz Colomina", "Mark Wigley", "Richard Sennett"]
+  },
+  {
+    "name_ja": "ハイブリッドワーク空間",
+    "name_en": "Hybrid Work Space",
+    "definition": "オフィス、自宅、コワーキング、オンライン会議環境が連続する働き方に対応する空間概念。固定席や単一の職場を前提とせず、集中、協働、偶発的交流、デジタル接続を再設計する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ワークプレイス研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "hybrid work,workplace",
+    "key_researchers": ["Jeremy Myerson", "Frank Duffy", "Saskia Sassen"]
+  },
+  {
+    "name_ja": "拡張現実空間",
+    "name_en": "Augmented Reality Space",
+    "definition": "AR技術によって物理空間に情報、映像、ナビゲーション、記憶を重ねることで生まれる空間概念。建築体験は壁や床だけでなく、デバイス、センサー、位置情報、視線によって構成される。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "メディア建築論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "augmented reality,spatial computing",
+    "key_researchers": ["Lev Manovich", "Keiichi Matsuda", "Mark Shepard"]
+  },
+  {
+    "name_ja": "メタバース建築",
+    "name_en": "Metaverse Architecture",
+    "definition": "仮想世界内の空間、建物、集会、展示、経済活動を設計対象とする概念。物理的制約から自由である一方、身体性、所有権、アバター行動、プラットフォーム支配との関係が問われる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "仮想空間デザイン",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "metaverse,virtual architecture",
+    "key_researchers": ["Marcos Novak", "Patrik Schumacher", "Molly Wright Steenson"]
+  },
+  {
+    "name_ja": "空間コンピューティング",
+    "name_en": "Spatial Computing",
+    "definition": "三次元空間をコンピュータが認識し、ユーザーの身体動作や位置に応じて情報や操作を配置する概念。建築では設計支援、施工確認、展示、教育、都市体験の拡張として用いられる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "拡張メディア空間論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "spatial computing,mixed reality",
+    "key_researchers": ["Mark Shepard", "Keiichi Matsuda", "Molly Wright Steenson"]
+  },
+  {
+    "name_ja": "没入型展示空間",
+    "name_en": "Immersive Exhibition Space",
+    "definition": "映像、音響、センサー、プロジェクション、インタラクションを用い、鑑賞者を作品の外部ではなく環境の内部に置く展示空間概念。美術館、商業空間、都市イベントの境界を曖昧にする。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "体験デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immersive exhibition,experience design",
+    "key_researchers": ["Olafur Eliasson", "teamLab", "Sarah Kenderdine"]
+  },
+  {
+    "name_ja": "参加型空間芸術",
+    "name_en": "Participatory Spatial Art",
+    "definition": "鑑賞者や住民が空間の意味、生産、変化に関与する芸術実践。完成された作品を提示するよりも、行為、対話、滞在、共同制作を通して空間が生成される点に特徴がある。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "リレーショナル・アート",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "participatory art,relational aesthetics",
+    "key_researchers": ["Nicolas Bourriaud", "Claire Bishop", "Pablo Helguera"]
+  },
+  {
+    "name_ja": "ソーシャリー・エンゲージド建築",
+    "name_en": "Socially Engaged Architecture",
+    "definition": "建築を社会問題への応答、地域協働、教育、居住権、環境正義の実践として捉える概念。形態の独創性よりも、プロセス、関係構築、制度への介入、長期的な運用責任を重視する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "社会実践建築",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "social practice,community design",
+    "key_researchers": ["Teddy Cruz", "Fonna Forman", "Alejandro Aravena"]
+  },
+  {
+    "name_ja": "アフォーダブル住宅革新",
+    "name_en": "Affordable Housing Innovation",
+    "definition": "住宅価格の高騰と格差拡大に対し、設計、政策、資金、土地利用、共同所有を組み合わせて居住の手頃さを実現する概念。単なる低コスト化ではなく、尊厳と都市アクセスを重視する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "住宅政策デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affordable housing,housing justice",
+    "key_researchers": ["Alejandro Aravena", "David Madden", "Peter Marcuse"]
+  },
+  {
+    "name_ja": "インクリメンタル住宅",
+    "name_en": "Incremental Housing",
+    "definition": "最初から完成住宅を提供するのではなく、基本構造やインフラを整え、住民が時間をかけて増築、改修できる余地を残す住宅概念。限られた資源で尊厳と成長可能性を両立させる。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "参加型住宅設計",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "incremental housing,self-build",
+    "key_researchers": ["Alejandro Aravena", "N. John Habraken", "John F. C. Turner"]
+  },
+  {
+    "name_ja": "ミクロ住宅",
+    "name_en": "Micro Housing",
+    "definition": "都市の高密度化と住宅価格上昇に対応し、小面積ながら収納、可変家具、共有施設、立地価値を組み合わせて居住性を確保する住宅概念。過小居住や商品化された最小生活への批判も伴う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "高密度居住論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "micro housing,compact living",
+    "key_researchers": ["Gary Chang", "Pier Vittorio Aureli", "Dogma"]
+  },
+  {
+    "name_ja": "15分都市",
+    "name_en": "15-Minute City",
+    "definition": "住居から徒歩や自転車で短時間に仕事、教育、買物、医療、文化、緑地へアクセスできる都市構造を目指す概念。移動削減、地域生活、脱炭素を掲げる一方、排除や地価上昇も議論される。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "近接都市論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "15-minute city,proximity",
+    "key_researchers": ["Carlos Moreno", "Jan Gehl", "Richard Sennett"]
+  },
+  {
+    "name_ja": "ウォーカブル・アーバニズム",
+    "name_en": "Walkable Urbanism",
+    "definition": "歩行を都市生活の基本単位とし、街路幅、用途混合、ファサード、交差点、木陰、安全性を設計する概念。自動車中心都市を批判し、健康、商業、公共性、環境負荷低減を結びつける。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "人間中心都市デザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "walkability,pedestrian urbanism",
+    "key_researchers": ["Jan Gehl", "Jeff Speck", "Janette Sadik-Khan"]
+  },
+  {
+    "name_ja": "モビリティ・ハブ",
+    "name_en": "Mobility Hub",
+    "definition": "鉄道、バス、自転車、徒歩、シェアモビリティ、配送、充電設備を接続し、移動と都市生活の結節点をつくる概念。交通施設を単なる乗換装置ではなく、公共空間として再構成する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "トランジット指向都市論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "mobility hub,transit-oriented development",
+    "key_researchers": ["Peter Calthorpe", "Carlo Ratti", "Janette Sadik-Khan"]
+  },
+  {
+    "name_ja": "夜間都市論",
+    "name_en": "Night Urbanism",
+    "definition": "夜間の経済、文化、安全、照明、交通、騒音、労働を都市空間の重要な設計条件として扱う概念。昼間中心の都市計画を批判し、多様な時間帯の公共性と包摂を考える。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "時間的都市論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "night urbanism,temporal city",
+    "key_researchers": ["Marion Roberts", "Adam Eldridge", "Luc Gwiazdzinski"]
+  },
+  {
+    "name_ja": "音響的都市空間",
+    "name_en": "Acoustic Urban Space",
+    "definition": "都市や建築を視覚中心ではなく、音、反響、騒音、沈黙、聴取行為から設計する概念。サウンドスケープ、健康、記憶、公共空間の雰囲気を結びつけ、音の権利を問う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "サウンドスケープ論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "soundscape,acoustic ecology",
+    "key_researchers": ["R. Murray Schafer", "Barry Blesser", "Brandon LaBelle"]
+  },
+  {
+    "name_ja": "アトモスフェア建築",
+    "name_en": "Atmospheric Architecture",
+    "definition": "建築の価値を形態や機能だけでなく、光、温度、音、匂い、素材、密度が生む気配や雰囲気として捉える概念。感覚的経験と情動を設計対象にする点で重要である。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "現象学的建築論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "atmosphere,phenomenology",
+    "key_researchers": ["Peter Zumthor", "Gernot Böhme", "Juhani Pallasmaa"]
+  },
+  {
+    "name_ja": "新しいミニマリズム",
+    "name_en": "New Minimalism",
+    "definition": "単なる白い抽象性ではなく、資源制約、生活の簡素化、素材の誠実さ、環境負荷低減と結びついたミニマルな建築態度。余白や沈黙を消費美学ではなく倫理的選択として再解釈する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ポスト消費美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "new minimalism,material honesty",
+    "key_researchers": ["John Pawson", "Peter Zumthor", "Kengo Kuma"]
+  },
+  {
+    "name_ja": "ポストデジタル建築",
+    "name_en": "Post-Digital Architecture",
+    "definition": "デジタル技術が特別な表現手段ではなく日常的基盤になった後の建築概念。派手な複雑形態よりも、計算、手仕事、材料、社会性、既存環境を混在させる成熟したデジタル態度を示す。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ポストデジタル論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-digital,design culture",
+    "key_researchers": ["Mario Carpo", "Antoine Picon", "Molly Wright Steenson"]
+  },
+  {
+    "name_ja": "AI支援設計",
+    "name_en": "AI-Assisted Design",
+    "definition": "機械学習や生成AIを用いて、初期案作成、画像生成、規制確認、性能予測、文書化を支援する建築概念。設計者の役割は出力の選択、批判、責任、倫理判断へ拡張される。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "人工知能デザイン論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "AI design,machine learning",
+    "key_researchers": ["Molly Wright Steenson", "Philippe Morel", "Matias del Campo"]
+  },
+  {
+    "name_ja": "拡散モデル建築表現",
+    "name_en": "Diffusion Model Architectural Representation",
+    "definition": "テキストから画像を生成する拡散モデルを建築のイメージ制作、コンセプト検討、スタイル探索に用いる概念。高速な視覚化が可能になる一方、著作権、実現可能性、均質化の問題を伴う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "生成AI表象論",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "diffusion models,AI imagery",
+    "key_researchers": ["Matias del Campo", "Neil Leach", "Molly Wright Steenson"]
+  },
+  {
+    "name_ja": "建築プロンプト設計",
+    "name_en": "Architectural Prompt Design",
+    "definition": "生成AIに対して空間、材料、光、視点、時代性、用途、制約を言語で指定し、建築的出力を制御する概念。設計言語が図面や模型だけでなく、操作可能な記述体系として機能する。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "生成AIデザイン実践",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "prompt design,generative AI",
+    "key_researchers": ["Neil Leach", "Matias del Campo", "Lev Manovich"]
+  },
+  {
+    "name_ja": "ノンエクストラクティブ建築",
+    "name_en": "Non-Extractive Architecture",
+    "definition": "建築生産が土地、材料、労働、文化、エネルギーを一方的に採取する構造を批判し、既存資源の再利用、地域循環、修復的実践を重視する概念。成長主義的建設文化への反省を含む。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ポスト成長建築論",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "non-extractive,post-growth",
+    "key_researchers": ["Joseph Grima", "Space Caviar", "Charlotte Malterre-Barthes"]
+  },
+  {
+    "name_ja": "脱成長建築",
+    "name_en": "Degrowth Architecture",
+    "definition": "経済成長と新築量の拡大を当然視する建築文化を批判し、修理、縮小、共有、再分配、既存ストック活用を重視する概念。より少なく建てることを消極的制約ではなく設計倫理とする。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "脱成長論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "degrowth,less construction",
+    "key_researchers": ["Charlotte Malterre-Barthes", "Giorgos Kallis", "Jeremy Till"]
+  },
+  {
+    "name_ja": "メンテナンス美学",
+    "name_en": "Maintenance Aesthetics",
+    "definition": "建築の完成時の美しさではなく、清掃、修理、更新、劣化管理、日常的ケアを美学と倫理の対象にする概念。新規性を偏重する文化に対し、持続する空間の価値を問う。",
+    "subfield": "建築・空間芸術論",
+    "school_of_thought": "ケアと維持管理の美学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "maintenance,repair",
+    "key_researchers": ["Mierle Laderman Ukeles", "Shannon Mattern", "Hilary Sample"]
+  }
+]
+tokens used
+14,236

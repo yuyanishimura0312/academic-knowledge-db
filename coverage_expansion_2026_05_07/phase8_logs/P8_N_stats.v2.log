@@ -1,0 +1,743 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e097f-1def-77d0-b432-85c512eecea0
+--------
+user
+「統計学・計算科学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+ベイズ推論、MCMC、ランダムフォレスト、Lasso正則化、Differential Privacy
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"統計学・計算科学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "ベイズ推論",
+    "name_en": "Bayesian Inference",
+    "definition": "未知の量を固定値ではなく確率分布として扱い、事前分布に観測データの尤度を組み合わせて事後分布を得る推論枠組み。推定、予測、意思決定、不確実性の定量化を一貫して表現できる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "ベイズ統計学",
+    "era_start": 1763,
+    "era_end": null,
+    "keywords_en": "posterior,prior,likelihood",
+    "key_researchers": ["Thomas Bayes", "Pierre-Simon Laplace", "Bruno de Finetti"]
+  },
+  {
+    "name_ja": "MCMC",
+    "name_en": "Markov Chain Monte Carlo",
+    "definition": "複雑な確率分布から直接サンプリングできない場合に、目標分布を定常分布にもつマルコフ連鎖を構成して標本を得る計算法。ベイズ推論や統計物理、階層モデルの事後分布計算で中心的に使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算統計学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "sampling,markov chain,monte carlo",
+    "key_researchers": ["Nicholas Metropolis", "W. K. Hastings", "Stuart Geman"]
+  },
+  {
+    "name_ja": "ランダムフォレスト",
+    "name_en": "Random Forest",
+    "definition": "多数の決定木をブートストラップ標本と特徴量のランダム選択で学習し、分類では多数決、回帰では平均により予測するアンサンブル手法。過学習を抑えつつ非線形性や相互作用を扱える。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的機械学習",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "ensemble,decision trees,bagging",
+    "key_researchers": ["Leo Breiman", "Adele Cutler"]
+  },
+  {
+    "name_ja": "Lasso正則化",
+    "name_en": "Lasso Regularization",
+    "definition": "回帰係数の絶対値和に罰則を課すことで、推定と変数選択を同時に行う正則化手法。多くの係数を正確にゼロへ縮小できるため、高次元データ解析や解釈可能な予測モデルで重視される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "高次元統計学",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "sparsity,l1 penalty,regularization",
+    "key_researchers": ["Robert Tibshirani"]
+  },
+  {
+    "name_ja": "差分プライバシー",
+    "name_en": "Differential Privacy",
+    "definition": "個人データの有無が解析結果の分布に与える影響を数学的に制限し、統計的有用性を保ちながら個人情報漏えいのリスクを抑えるプライバシー保護の枠組み。ノイズ付加や合成データ生成に応用される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "プライバシー保護データ解析",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_en": "privacy,epsilon,noise",
+    "key_researchers": ["Cynthia Dwork", "Frank McSherry", "Kobbi Nissim"]
+  },
+  {
+    "name_ja": "最尤推定",
+    "name_en": "Maximum Likelihood Estimation",
+    "definition": "観測データが得られる確率を最も大きくするパラメータ値を推定値とする方法。大標本での一致性や漸近正規性などの理論が整備され、統計モデル推定の標準的な基盤となっている。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "頻度主義統計学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "likelihood,estimation,asymptotics",
+    "key_researchers": ["Ronald A. Fisher"]
+  },
+  {
+    "name_ja": "仮説検定",
+    "name_en": "Hypothesis Testing",
+    "definition": "帰無仮説と対立仮説を設定し、観測データが帰無仮説の下でどれほど起こりにくいかを評価して判断する推論手続き。p値、検出力、有意水準などを通じて科学的主張の不確実性を扱う。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "頻度主義統計学",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "p-value,null hypothesis,power",
+    "key_researchers": ["Ronald A. Fisher", "Jerzy Neyman", "Egon Pearson"]
+  },
+  {
+    "name_ja": "信頼区間",
+    "name_en": "Confidence Interval",
+    "definition": "同じ手続きを多数回繰り返したとき、指定された割合で真のパラメータを含むように構成される区間推定。単一データから得た推定値だけでなく、推定の精度や標本変動の大きさを表現する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "頻度主義統計学",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "interval estimation,coverage,uncertainty",
+    "key_researchers": ["Jerzy Neyman"]
+  },
+  {
+    "name_ja": "線形回帰",
+    "name_en": "Linear Regression",
+    "definition": "応答変数を説明変数の線形結合と誤差で表す統計モデル。係数推定、予測、効果量の解釈が容易であり、最小二乗法や正規誤差モデルと結びついて現代統計解析の基本技法となっている。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "古典統計学",
+    "era_start": 1805,
+    "era_end": null,
+    "keywords_en": "least squares,regression,linear model",
+    "key_researchers": ["Adrien-Marie Legendre", "Carl Friedrich Gauss"]
+  },
+  {
+    "name_ja": "ロジスティック回帰",
+    "name_en": "Logistic Regression",
+    "definition": "二値またはカテゴリ応答の発生確率をロジット変換した線形予測子で表すモデル。分類器としてだけでなく、オッズ比による解釈が可能なため、医学、社会科学、マーケティングで広く使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "一般化線形モデル",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "classification,logit,odds ratio",
+    "key_researchers": ["David Cox", "Joseph Berkson"]
+  },
+  {
+    "name_ja": "一般化線形モデル",
+    "name_en": "Generalized Linear Model",
+    "definition": "正規分布に限らず指数型分布族の応答を、リンク関数を通じて線形予測子に結びつけるモデル群。線形回帰、ロジスティック回帰、ポアソン回帰を統一的に扱う枠組みを提供する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計モデリング",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "exponential family,link function,glm",
+    "key_researchers": ["John Nelder", "Robert Wedderburn"]
+  },
+  {
+    "name_ja": "主成分分析",
+    "name_en": "Principal Component Analysis",
+    "definition": "多変量データの分散を最大限に説明する直交方向を求め、少数の主成分でデータ構造を要約する次元削減法。可視化、ノイズ低減、特徴抽出、前処理として幅広い応用をもつ。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "多変量解析",
+    "era_start": 1901,
+    "era_end": null,
+    "keywords_en": "dimension reduction,eigenvectors,variance",
+    "key_researchers": ["Karl Pearson", "Harold Hotelling"]
+  },
+  {
+    "name_ja": "因子分析",
+    "name_en": "Factor Analysis",
+    "definition": "観測された多数の変数の相関構造を、少数の潜在因子と独自誤差によって説明する多変量解析手法。心理測定、社会調査、経済指標分析などで、直接観測できない構成概念を推定する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "多変量解析",
+    "era_start": 1904,
+    "era_end": null,
+    "keywords_en": "latent variables,loadings,covariance",
+    "key_researchers": ["Charles Spearman", "Louis Thurstone"]
+  },
+  {
+    "name_ja": "クラスタリング",
+    "name_en": "Clustering",
+    "definition": "ラベルのないデータを類似性に基づいて群に分け、内部では似ていて外部とは異なる構造を発見する教師なし学習の総称。k-means、階層クラスタリング、密度ベース法など多様な方法がある。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "教師なし学習",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "unsupervised learning,similarity,groups",
+    "key_researchers": ["Stuart Lloyd", "Joseph Kruskal"]
+  },
+  {
+    "name_ja": "k平均法",
+    "name_en": "k-Means Clustering",
+    "definition": "データ点を事前に指定したk個のクラスタに割り当て、各クラスタ中心と点の距離二乗和を最小化する反復的手法。単純で大規模データにも適用しやすいが、初期値やクラスタ形状の仮定に敏感である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "教師なし学習",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "centroids,partitioning,unsupervised",
+    "key_researchers": ["Stuart Lloyd", "James MacQueen"]
+  },
+  {
+    "name_ja": "決定木",
+    "name_en": "Decision Tree",
+    "definition": "特徴量の条件分岐を木構造として並べ、葉で予測値やクラスを与えるモデル。可読性が高く非線形関係や相互作用を扱える一方、単独では分散が大きいため剪定やアンサンブル化が重要になる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的機械学習",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "tree model,splitting,classification",
+    "key_researchers": ["Leo Breiman", "Jerome Friedman", "Richard Olshen"]
+  },
+  {
+    "name_ja": "ブートストラップ法",
+    "name_en": "Bootstrap Method",
+    "definition": "観測データから復元抽出で多数の再標本を作り、推定量の分布、標準誤差、信頼区間を近似する再標本化法。解析的な分布導出が難しい統計量にも柔軟に適用できる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算統計学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "resampling,standard error,confidence interval",
+    "key_researchers": ["Bradley Efron"]
+  },
+  {
+    "name_ja": "交差検証",
+    "name_en": "Cross-Validation",
+    "definition": "データを訓練用と検証用に分割し、複数回の評価を通じてモデルの汎化性能を推定する方法。モデル選択、ハイパーパラメータ調整、過学習の検出に用いられ、予測性能評価の標準手法である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的学習理論",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "model selection,generalization,validation",
+    "key_researchers": ["Mervyn Stone", "Seymour Geisser"]
+  },
+  {
+    "name_ja": "過学習",
+    "name_en": "Overfitting",
+    "definition": "モデルが訓練データの信号だけでなく偶然のノイズまで学習し、未知データへの予測性能が低下する現象。複雑なモデルほど起こりやすく、正則化、検証データ、情報量規準などで制御される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的学習理論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "generalization,variance,model complexity",
+    "key_researchers": ["Vladimir Vapnik", "Alexey Chervonenkis"]
+  },
+  {
+    "name_ja": "バイアス・バリアンス分解",
+    "name_en": "Bias-Variance Decomposition",
+    "definition": "予測誤差を、モデルの系統的なずれであるバイアス、学習データの変動に対する感度であるバリアンス、不可約誤差に分解する考え方。モデル複雑度と汎化性能の関係を理解する基礎となる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的学習理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "bias,variance,generalization error",
+    "key_researchers": ["Jerome Friedman", "Trevor Hastie", "Robert Tibshirani"]
+  },
+  {
+    "name_ja": "サポートベクターマシン",
+    "name_en": "Support Vector Machine",
+    "definition": "クラス間のマージンを最大化する超平面を求める分類・回帰手法。カーネル法により非線形境界も扱え、少数のサポートベクトルに解が依存するため理論的にも実用的にも重要である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的学習理論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "margin,kernel,support vectors",
+    "key_researchers": ["Vladimir Vapnik", "Corinna Cortes"]
+  },
+  {
+    "name_ja": "カーネル法",
+    "name_en": "Kernel Methods",
+    "definition": "データを明示的に高次元空間へ写像せず、内積に相当するカーネル関数で非線形構造を扱う方法群。サポートベクターマシン、ガウス過程、カーネルPCAなど多くの手法の基盤となる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的学習理論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "kernel trick,feature space,nonlinear",
+    "key_researchers": ["Bernhard Schölkopf", "Vladimir Vapnik", "Grace Wahba"]
+  },
+  {
+    "name_ja": "ガウス過程",
+    "name_en": "Gaussian Process",
+    "definition": "任意の有限個の関数値が多変量正規分布に従うような確率過程を用い、関数そのものに事前分布を置く非パラメトリックモデル。回帰、分類、ベイズ最適化で不確実性付き予測を与える。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "ベイズ非パラメトリック",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "nonparametric,kernel,uncertainty",
+    "key_researchers": ["Andrey Kolmogorov", "Carl Edward Rasmussen", "Christopher Williams"]
+  },
+  {
+    "name_ja": "ベイズ最適化",
+    "name_en": "Bayesian Optimization",
+    "definition": "評価に時間や費用がかかるブラックボックス関数を、確率モデルと獲得関数により効率的に最適化する手法。実験計画、機械学習のハイパーパラメータ探索、材料探索などで使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "ベイズ意思決定理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "black-box optimization,acquisition function,gaussian process",
+    "key_researchers": ["Jon Mockus", "Donald Jones", "Michael Osborne"]
+  },
+  {
+    "name_ja": "EMアルゴリズム",
+    "name_en": "Expectation-Maximization Algorithm",
+    "definition": "潜在変数や欠測データを含むモデルで、期待ステップと最大化ステップを交互に行い尤度を増加させる反復推定法。混合モデル、隠れマルコフモデル、欠測値処理などで広く使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算統計学",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "latent variables,maximum likelihood,missing data",
+    "key_researchers": ["Arthur Dempster", "Nan Laird", "Donald Rubin"]
+  },
+  {
+    "name_ja": "隠れマルコフモデル",
+    "name_en": "Hidden Markov Model",
+    "definition": "観測されない状態がマルコフ過程に従い、各状態から観測データが生成されると仮定する時系列モデル。音声認識、自然言語処理、生物配列解析、金融時系列などで系列構造を推定する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "確率的グラフィカルモデル",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "sequence model,latent states,markov process",
+    "key_researchers": ["Leonard Baum", "Lloyd Welch"]
+  },
+  {
+    "name_ja": "ベイジアンネットワーク",
+    "name_en": "Bayesian Network",
+    "definition": "確率変数間の条件付き依存関係を有向非巡回グラフで表し、同時分布を局所的な条件付き分布の積として分解するモデル。因果推論、診断、リスク評価、不確実性推論に応用される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "確率的グラフィカルモデル",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "directed graph,conditional independence,probabilistic inference",
+    "key_researchers": ["Judea Pearl"]
+  },
+  {
+    "name_ja": "マルコフ確率場",
+    "name_en": "Markov Random Field",
+    "definition": "無向グラフ上で定義される確率モデルで、各変数が近傍以外とは条件付き独立になる性質をもつ。画像解析、空間統計、物理モデル、グラフィカルモデルにおける局所相互作用の表現に使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "確率的グラフィカルモデル",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "undirected graph,conditional independence,gibbs distribution",
+    "key_researchers": ["Julian Besag", "Stuart Geman"]
+  },
+  {
+    "name_ja": "因果推論",
+    "name_en": "Causal Inference",
+    "definition": "単なる相関ではなく、介入や反事実の観点から原因と結果の関係を推定する統計的枠組み。ランダム化実験、傾向スコア、操作変数、構造的因果モデルなどを通じて効果を識別する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "因果統計学",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "counterfactuals,intervention,identification",
+    "key_researchers": ["Jerzy Neyman", "Donald Rubin", "Judea Pearl"]
+  },
+  {
+    "name_ja": "ランダム化比較試験",
+    "name_en": "Randomized Controlled Trial",
+    "definition": "対象を無作為に介入群と対照群へ割り付け、交絡を平均的に除去して因果効果を推定する実験設計。医学、政策評価、オンライン実験などで、因果推論の基準的手法として位置づけられる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "実験計画法",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "randomization,treatment effect,experiment",
+    "key_researchers": ["Ronald A. Fisher", "Austin Bradford Hill"]
+  },
+  {
+    "name_ja": "実験計画法",
+    "name_en": "Design of Experiments",
+    "definition": "限られた観測や実験から効率よく信頼できる結論を得るため、ランダム化、反復、ブロック化、要因配置などを体系的に設計する分野。農学、工学、臨床試験、産業品質管理で発展した。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "実験計画法",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "randomization,blocking,factorial design",
+    "key_researchers": ["Ronald A. Fisher", "George Box"]
+  },
+  {
+    "name_ja": "分散分析",
+    "name_en": "Analysis of Variance",
+    "definition": "全体の変動を要因による変動と誤差変動に分解し、群平均や要因効果の違いを検定する統計手法。実験計画法と密接に結びつき、複数群比較や交互作用の評価に広く使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "実験計画法",
+    "era_start": 1918,
+    "era_end": null,
+    "keywords_en": "anova,variance,decomposition",
+    "key_researchers": ["Ronald A. Fisher"]
+  },
+  {
+    "name_ja": "時系列分析",
+    "name_en": "Time Series Analysis",
+    "definition": "時間順に観測されたデータの自己相関、トレンド、季節性、構造変化をモデル化し、予測や異常検知を行う分野。ARIMA、状態空間モデル、スペクトル解析など多くの方法を含む。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "確率過程統計学",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_en": "autocorrelation,forecasting,stochastic process",
+    "key_researchers": ["George Udny Yule", "Norbert Wiener", "George Box"]
+  },
+  {
+    "name_ja": "ARIMAモデル",
+    "name_en": "ARIMA Model",
+    "definition": "自己回帰、差分、移動平均を組み合わせて非定常時系列を扱う予測モデル。差分によりトレンドを除去し、過去値と過去誤差の構造を利用するため、経済、需要、気象などの予測に使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "時系列統計学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "autoregression,moving average,forecasting",
+    "key_researchers": ["George Box", "Gwilym Jenkins"]
+  },
+  {
+    "name_ja": "状態空間モデル",
+    "name_en": "State Space Model",
+    "definition": "観測されるデータを潜在状態の時間発展と観測方程式で表す時系列モデル。カルマンフィルタや粒子フィルタと組み合わせ、制御、信号処理、経済時系列、動的システム解析に用いられる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "時系列統計学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "latent state,kalman filter,dynamic model",
+    "key_researchers": ["Rudolf Kalman", "Andrew Harvey"]
+  },
+  {
+    "name_ja": "カルマンフィルタ",
+    "name_en": "Kalman Filter",
+    "definition": "線形ガウス状態空間モデルにおいて、逐次的に潜在状態の推定と予測を更新するアルゴリズム。センサー融合、航法、制御工学、金融推定などでリアルタイム推定の基礎技術として使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的信号処理",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "state estimation,filtering,linear gaussian",
+    "key_researchers": ["Rudolf Kalman"]
+  },
+  {
+    "name_ja": "粒子フィルタ",
+    "name_en": "Particle Filter",
+    "definition": "非線形または非ガウスの状態空間モデルで、粒子と呼ばれる重み付き標本により状態分布を逐次近似するモンテカルロ法。ロボティクス、追跡、時系列推定で柔軟な推論を可能にする。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "逐次モンテカルロ法",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_en": "sequential monte carlo,filtering,resampling",
+    "key_researchers": ["N. Gordon", "David Salmond", "Adrian Smith"]
+  },
+  {
+    "name_ja": "モンテカルロ法",
+    "name_en": "Monte Carlo Method",
+    "definition": "乱数を用いた反復的な標本生成により、積分、期待値、確率、最適化問題などを近似的に解く計算法。解析解が困難な高次元問題で特に有効で、統計計算とシミュレーションの基盤である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算科学",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "random simulation,integration,stochastic computation",
+    "key_researchers": ["Stanislaw Ulam", "John von Neumann", "Nicholas Metropolis"]
+  },
+  {
+    "name_ja": "数値線形代数",
+    "name_en": "Numerical Linear Algebra",
+    "definition": "行列分解、連立一次方程式、固有値問題、特異値分解などを有限精度計算で安定かつ効率的に解く分野。統計モデル推定、機械学習、シミュレーション、大規模科学計算の中核を担う。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "数値解析",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "matrix factorization,eigenvalues,stability",
+    "key_researchers": ["James Wilkinson", "Gene Golub"]
+  },
+  {
+    "name_ja": "特異値分解",
+    "name_en": "Singular Value Decomposition",
+    "definition": "任意の行列を直交行列と非負特異値の対角行列に分解する手法。低ランク近似、主成分分析、推薦システム、逆問題、ノイズ除去などで、データの主要構造を抽出する基盤となる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "数値線形代数",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "matrix decomposition,low rank,dimensionality reduction",
+    "key_researchers": ["Eckart Young", "Gene Golub"]
+  },
+  {
+    "name_ja": "確率的勾配降下法",
+    "name_en": "Stochastic Gradient Descent",
+    "definition": "全データではなくランダムに選んだ小さな標本やミニバッチから勾配を近似し、目的関数を逐次的に最小化する最適化法。大規模機械学習や深層学習の学習アルゴリズムとして不可欠である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "数値最適化",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_en": "optimization,mini-batch,gradient",
+    "key_researchers": ["Herbert Robbins", "Sutton Monro", "Léon Bottou"]
+  },
+  {
+    "name_ja": "凸最適化",
+    "name_en": "Convex Optimization",
+    "definition": "目的関数と制約集合が凸である問題を扱い、局所最適解が大域最適解になる性質を利用する最適化理論。正則化回帰、サポートベクターマシン、信号処理、統計推定で重要な役割を果たす。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "数理最適化",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "convexity,duality,optimization",
+    "key_researchers": ["R. Tyrrell Rockafellar", "Stephen Boyd", "Arkadi Nemirovski"]
+  },
+  {
+    "name_ja": "正則化",
+    "name_en": "Regularization",
+    "definition": "モデルの複雑さやパラメータの大きさに罰則を課し、過学習を抑えて安定した推定や予測を実現する考え方。リッジ回帰、Lasso、スムージング、早期停止など多様な形で現れる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的学習理論",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "penalty,overfitting,stability",
+    "key_researchers": ["Andrey Tikhonov", "Grace Wahba"]
+  },
+  {
+    "name_ja": "リッジ回帰",
+    "name_en": "Ridge Regression",
+    "definition": "回帰係数の二乗和に罰則を課して推定を縮小する線形回帰の正則化手法。多重共線性がある場合や説明変数が多い場合に推定を安定化し、予測精度を改善するために用いられる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "正則化統計学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "l2 penalty,shrinkage,multicollinearity",
+    "key_researchers": ["Arthur Hoerl", "Robert Kennard"]
+  },
+  {
+    "name_ja": "エラスティックネット",
+    "name_en": "Elastic Net",
+    "definition": "L1罰則とL2罰則を組み合わせ、スパース性と係数安定化を同時に狙う正則化回帰手法。相関の強い説明変数群を扱いやすく、高次元データでLassoとリッジ回帰の利点を補完する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "高次元統計学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "l1 penalty,l2 penalty,sparse regression",
+    "key_researchers": ["Hui Zou", "Trevor Hastie"]
+  },
+  {
+    "name_ja": "スパースモデリング",
+    "name_en": "Sparse Modeling",
+    "definition": "多くの候補特徴やパラメータの中で、本質的に少数だけが重要であるという仮定に基づいて推定する方法論。高次元データから解釈可能な構造を抽出し、圧縮センシングや変数選択と深く関係する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "高次元統計学",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "sparsity,feature selection,high-dimensional data",
+    "key_researchers": ["David Donoho", "Robert Tibshirani", "Emmanuel Candès"]
+  },
+  {
+    "name_ja": "圧縮センシング",
+    "name_en": "Compressed Sensing",
+    "definition": "信号が適切な基底でスパースであれば、ナイキスト的な直観より少ない測定から復元できることを示す理論と方法。L1最適化やランダム測定行列を用い、画像処理や計測に応用される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "スパース信号処理",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_en": "sparse recovery,l1 minimization,signal processing",
+    "key_researchers": ["Emmanuel Candès", "Terence Tao", "David Donoho"]
+  },
+  {
+    "name_ja": "情報量規準",
+    "name_en": "Information Criterion",
+    "definition": "モデルの当てはまりと複雑さの罰則を組み合わせ、予測や近似の観点からモデル選択を行う指標群。AICやBICが代表的で、過剰に複雑なモデルを避けながら候補モデルを比較する。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的モデル選択",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "aic,bic,model selection",
+    "key_researchers": ["Hirotugu Akaike", "Gideon Schwarz"]
+  },
+  {
+    "name_ja": "赤池情報量規準",
+    "name_en": "Akaike Information Criterion",
+    "definition": "尤度に基づく当てはまりとパラメータ数による罰則を組み合わせ、候補モデルの予測的な近似性能を比較する規準。情報理論に基づき、モデル選択の実務で広く使われている。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "情報量統計学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "aic,kullback-leibler,model comparison",
+    "key_researchers": ["Hirotugu Akaike"]
+  },
+  {
+    "name_ja": "エントロピー",
+    "name_en": "Entropy",
+    "definition": "確率分布の不確実性や情報量の平均を表す量で、統計力学と情報理論の双方で中心的概念である。分類木の分割、最大エントロピー法、変分推論、符号化理論など多くの分野に現れる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "情報理論",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "uncertainty,information theory,shannon entropy",
+    "key_researchers": ["Claude Shannon", "Edwin Jaynes"]
+  },
+  {
+    "name_ja": "カルバック・ライブラー情報量",
+    "name_en": "Kullback-Leibler Divergence",
+    "definition": "一つの確率分布を別の分布で近似したときの情報損失を測る非対称な尺度。変分推論、情報量規準、生成モデル、分布比較などで、モデルと真の分布のずれを表現するために使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "情報理論統計学",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_en": "relative entropy,divergence,information loss",
+    "key_researchers": ["Solomon Kullback", "Richard Leibler"]
+  },
+  {
+    "name_ja": "変分推論",
+    "name_en": "Variational Inference",
+    "definition": "複雑な事後分布を扱いやすい分布族で近似し、KLダイバージェンスやエビデンス下界を最適化して推論する方法。MCMCより高速な近似推論として、大規模ベイズモデルで重視される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "近似ベイズ推論",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_en": "approximate inference,elbo,posterior approximation",
+    "key_researchers": ["Michael Jordan", "David Blei", "Matthew Beal"]
+  },
+  {
+    "name_ja": "ギブスサンプリング",
+    "name_en": "Gibbs Sampling",
+    "definition": "多変量分布から直接サンプルできない場合に、各変数の条件付き分布から順に標本を生成して同時分布を近似するMCMC手法。階層ベイズモデルや画像モデルなどで実装しやすい。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算統計学",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "conditional distribution,mcmc,sampling",
+    "key_researchers": ["Stuart Geman", "Donald Geman"]
+  },
+  {
+    "name_ja": "メトロポリス・ヘイスティングス法",
+    "name_en": "Metropolis-Hastings Algorithm",
+    "definition": "提案分布から候補点を生成し、目標分布と提案分布に基づく受理確率で遷移を決めるMCMCアルゴリズム。複雑な事後分布の標本生成を可能にし、多くのサンプリング法の原型となる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算統計学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "acceptance ratio,proposal distribution,mcmc",
+    "key_researchers": ["Nicholas Metropolis", "W. K. Hastings"]
+  },
+  {
+    "name_ja": "ハミルトニアンモンテカルロ",
+    "name_en": "Hamiltonian Monte Carlo",
+    "definition": "目標分布を位置、補助運動量、ハミルトニアン力学として表し、勾配情報を利用して効率よく遠くへ移動するMCMC手法。高次元の連続パラメータをもつベイズモデルで有効である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算ベイズ統計学",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "hamiltonian dynamics,gradient,mcmc",
+    "key_researchers": ["Simon Duane", "Radford Neal"]
+  },
+  {
+    "name_ja": "階層ベイズモデル",
+    "name_en": "Hierarchical Bayesian Model",
+    "definition": "複数の水準にまたがるパラメータや潜在構造に事前分布を設定し、部分的プーリングにより個別差と全体傾向を同時に推定するモデル。小標本群の推定や多地域・多施設データ解析に強い。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "ベイズ統計学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "hierarchical model,partial pooling,posterior",
+    "key_researchers": ["Andrew Gelman", "Donald Rubin", "George Box"]
+  },
+  {
+    "name_ja": "経験ベイズ法",
+    "name_en": "Empirical Bayes Method",
+    "definition": "事前分布のハイパーパラメータを外部知識だけでなく観測データから推定し、そのうえでベイズ的な推論を行う方法。多数の関連問題を同時に扱う縮小推定や多重比較で有効である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "ベイズ統計学",
+    "era_start": 1955,
+    "era_end": null,
+    "keywords_en": "shrinkage,prior estimation,multiple testing",
+    "key_researchers": ["Herbert Robbins", "Bradley Efron"]
+  },
+  {
+    "name_ja": "多重検定補正",
+    "name_en": "Multiple Testing Correction",
+    "definition": "多数の仮説検定を同時に行う際、偶然に有意となる結果が増える問題を制御する手法群。ボンフェローニ補正や偽発見率制御により、ゲノム解析や大規模実験で誤検出を抑える。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的推測",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "family-wise error,false discovery rate,p-values",
+    "key_researchers": ["Carlo Bonferroni", "Yoav Benjamini", "Yosef Hochberg"]
+  },
+  {
+    "name_ja": "偽発見率",
+    "name_en": "False Discovery Rate",
+    "definition": "棄却された仮説の中に含まれる偽陽性の期待割合を制御する多重検定の考え方。厳格な家族内誤差率より検出力を保ちやすく、遺伝子発現解析など大規模同時検定で重要である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "大規模推測",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "fdr,multiple testing,false positives",
+    "key_researchers": ["Yoav Benjamini", "Yosef Hochberg"]
+  },
+  {
+    "name_ja": "サバイバル分析",
+    "name_en": "Survival Analysis",
+    "definition": "死亡、故障、離脱など事象が発生するまでの時間を扱い、打ち切りデータや時間依存リスクを考慮する統計分野。医療研究、信頼性工学、顧客離反分析などで広く利用される。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "生物統計学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "censoring,hazard,time-to-event",
+    "key_researchers": ["Edward Kaplan", "Paul Meier", "David Cox"]
+  },
+  {
+    "name_ja": "比例ハザードモデル",
+    "name_en": "Cox Proportional Hazards Model",
+    "definition": "基準ハザードを特定せず、共変量がハザード比に乗法的に作用すると仮定する半パラメトリックな生存時間モデル。打ち切りを含む医療データで要因効果を解釈する標準的手法である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "生物統計学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "cox model,hazard ratio,censoring",
+    "key_researchers": ["David Cox"]
+  },
+  {
+    "name_ja": "欠測データ解析",
+    "name_en": "Missing Data Analysis",
+    "definition": "観測されなかった値があるデータに対し、欠測メカニズムを考慮して推定や不確実性評価を行う分野。完全ケース解析だけでなく、多重代入、EM法、重み付けなどが用いられる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "統計的推測",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "missingness,imputation,mar",
+    "key_researchers": ["Donald Rubin", "Roderick Little"]
+  },
+  {
+    "name_ja": "多重代入法",
+    "name_en": "Multiple Imputation",
+    "definition": "欠測値を一つの値で埋めるのではなく、複数の妥当な補完データセットを生成して解析し、結果を統合する方法。欠測に由来する不確実性を反映でき、実証研究で広く使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "欠測データ解析",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "imputation,missing data,uncertainty",
+    "key_researchers": ["Donald Rubin"]
+  },
+  {
+    "name_ja": "頑健統計",
+    "name_en": "Robust Statistics",
+    "definition": "外れ値、モデル仮定のずれ、重い裾をもつ分布に対しても安定した推定や検定を目指す統計分野。中央値、M推定、影響関数などを用い、古典的手法の脆弱性を補う。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "頑健統計学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "outliers,m-estimation,influence function",
+    "key_researchers": ["Peter Huber", "Frank Hampel", "John Tukey"]
+  },
+  {
+    "name_ja": "分位点回帰",
+    "name_en": "Quantile Regression",
+    "definition": "平均ではなく条件付き分位点をモデル化し、応答分布の異なる位置に対する説明変数の効果を推定する回帰手法。外れ値に比較的強く、所得、医療、リスク分析などで分布全体の理解に役立つ。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "頑健統計学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "quantiles,robust regression,conditional distribution",
+    "key_researchers": ["Roger Koenker", "Gilbert Bassett"]
+  }
+]
+tokens used
+33,194

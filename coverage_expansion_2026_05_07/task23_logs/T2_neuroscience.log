@@ -1,0 +1,173 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0867-735f-7822-9310-385302510d1e
+--------
+user
+「神経科学・認知科学」分野の重要概念200件を JSON 配列で出力してください。
+
+必須概念（10件）:
+BCI、神経可塑性、デフォルトモードネットワーク、光遺伝学、コネクトーム、予測符号化、ベイジアン脳仮説、意識の神経相関、AI×神経科学、計算精神医学
+
+形式:
+[{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上","subfield":"神経科学・認知科学","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"カンマ区切り","keywords_en":"k1,k2","key_researchers":["名前"],"key_works":["著作 (年)"]}]
+
+要件:
+- 内部知識のみ（web検索不要）
+- subfield フィールドは必ず「神経科学・認知科学」
+- 創設期から最新2025年まで時代分布均等
+- 重複なし、200件出力
+- JSON配列のみ（コードフェンス・説明文禁止）
+codex
+[
+  {
+    "name_ja": "BCI",
+    "name_en": "Brain-Computer Interface",
+    "definition": "脳活動を計測して外部機器への命令に変換し、運動や発話を介さずにコンピュータ、義肢、車椅子、通信装置などを操作する技術体系。侵襲型と非侵襲型があり、神経信号の解読、適応的学習、臨床リハビリテーションを結び付ける。",
+    "impact_summary": "麻痺患者の意思伝達、義肢制御、神経リハビリ、ヒューマン拡張研究を大きく進めた。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "神経工学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_ja": "脳機械インターフェース,神経信号,義肢,運動皮質,デコーディング",
+    "keywords_en": "BCI,BMI,neural decoding,prosthetics,motor cortex",
+    "key_researchers": ["Jacques Vidal", "John Donoghue", "Miguel Nicolelis"],
+    "key_works": ["Toward Direct Brain-Computer Communication (1973)", "Neuronal Ensemble Control of Prosthetic Devices (2000)"]
+  },
+  {
+    "name_ja": "神経可塑性",
+    "name_en": "Neuroplasticity",
+    "definition": "経験、学習、損傷、発達、環境変化に応じて神経回路の結合強度、構造、機能的地図、興奮性が変化する性質。シナプス可塑性だけでなく、皮質再編成、臨界期、成人脳の適応、リハビリテーション効果を説明する中心概念である。",
+    "impact_summary": "脳は固定的ではないという理解を広め、学習理論、発達研究、脳損傷回復法を刷新した。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "可塑性神経科学",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_ja": "可塑性,学習,シナプス,皮質再編成,臨界期",
+    "keywords_en": "plasticity,learning,synapse,cortical remapping,critical period",
+    "key_researchers": ["William James", "Donald Hebb", "Michael Merzenich"],
+    "key_works": ["The Principles of Psychology (1890)", "The Organization of Behavior (1949)"]
+  },
+  {
+    "name_ja": "デフォルトモードネットワーク",
+    "name_en": "Default Mode Network",
+    "definition": "外界課題への集中が弱い安静時に活動し、自己参照、内省、未来想像、記憶想起、他者理解に関わるとされる大規模脳ネットワーク。内側前頭前野、後部帯状皮質、楔前部、側頭頭頂領域などが含まれ、精神疾患や意識状態の研究にも用いられる。",
+    "impact_summary": "安静時脳活動を研究対象に押し上げ、自己意識、精神疾患、発達研究の枠組みを変えた。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_ja": "安静時,自己参照,内側前頭前野,後部帯状皮質,機能結合",
+    "keywords_en": "default mode network,resting state,self-reference,functional connectivity",
+    "key_researchers": ["Marcus Raichle", "Gordon Shulman", "Randy Buckner"],
+    "key_works": ["A Default Mode of Brain Function (2001)", "The Brain's Default Network (2008)"]
+  },
+  {
+    "name_ja": "光遺伝学",
+    "name_en": "Optogenetics",
+    "definition": "光感受性タンパク質を特定の神経細胞に発現させ、光照射によってミリ秒単位で神経活動を興奮または抑制する実験技術。細胞種、回路、行動の因果関係を高い時間精度で検証でき、神経回路機能の理解を飛躍的に深めた。",
+    "impact_summary": "相関中心だった神経活動研究に強力な因果操作を導入し、回路機能の解析を革新した。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "回路神経科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_ja": "チャネルロドプシン,光操作,因果性,神経回路,細胞種特異性",
+    "keywords_en": "optogenetics,channelrhodopsin,causal manipulation,neural circuits",
+    "key_researchers": ["Karl Deisseroth", "Ed Boyden", "Gero Miesenböck"],
+    "key_works": ["Millisecond-Timescale Genetically Targeted Optical Control (2005)"]
+  },
+  {
+    "name_ja": "コネクトーム",
+    "name_en": "Connectome",
+    "definition": "脳内の神経細胞、シナプス、白質線維、機能的結合を網羅的なネットワークとして記述する概念。ミクロなシナプス配線からマクロな脳領域間結合まで複数階層があり、認知機能、個人差、疾患脆弱性をネットワーク構造から理解しようとする。",
+    "impact_summary": "脳を部位の集合ではなくネットワークとして扱う視点を定着させ、大規模データ研究を促進した。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_ja": "神経接続,白質,シナプス,ネットワーク,ヒューマンコネクトーム",
+    "keywords_en": "connectome,connectivity,network,white matter,synapse",
+    "key_researchers": ["Olaf Sporns", "Sebastian Seung", "Van Wedeen"],
+    "key_works": ["The Human Connectome (2005)", "Connectome (2012)"]
+  },
+  {
+    "name_ja": "予測符号化",
+    "name_en": "Predictive Coding",
+    "definition": "脳は感覚入力を受動的に写し取るのではなく、階層的な内部モデルから入力を予測し、予測誤差を最小化するように知覚と行動を更新するという理論。視覚、聴覚、運動制御、注意、統合失調症、意識研究に広く応用される。",
+    "impact_summary": "知覚を推論過程として捉え直し、脳機能を誤差最小化で統一的に説明する流れを生んだ。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_ja": "予測,予測誤差,階層モデル,知覚,能動推論",
+    "keywords_en": "predictive coding,prediction error,hierarchical model,perception",
+    "key_researchers": ["Rao", "Dana Ballard", "Karl Friston"],
+    "key_works": ["Predictive Coding in the Visual Cortex (1999)", "The Free-Energy Principle (2010)"]
+  },
+  {
+    "name_ja": "ベイジアン脳仮説",
+    "name_en": "Bayesian Brain Hypothesis",
+    "definition": "脳が不確実な感覚情報と事前知識を確率的に統合し、世界の状態について最も妥当な推定を行うとみなす理論。知覚の錯覚、感覚統合、運動制御、意思決定をベイズ推定の枠組みで説明し、認知を不確実性下の推論として再定式化した。",
+    "impact_summary": "心理物理学と計算論を結び、知覚や行動を確率推論として定量化する研究を広げた。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的認知科学",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_ja": "ベイズ推定,事前分布,尤度,不確実性,感覚統合",
+    "keywords_en": "Bayesian brain,prior,likelihood,uncertainty,sensory integration",
+    "key_researchers": ["David Marr", "Michael Landy", "Konrad Körding"],
+    "key_works": ["Vision (1982)", "Bayesian Decision Theory in Sensorimotor Control (2004)"]
+  },
+  {
+    "name_ja": "意識の神経相関",
+    "name_en": "Neural Correlates of Consciousness",
+    "definition": "ある意識経験が生じるために最小限必要な神経活動、回路、表現、ネットワーク状態を特定しようとする研究概念。視覚意識、注意、麻酔、睡眠、昏睡、報告可能性などを比較し、主観経験と脳過程の対応を実証的に探る。",
+    "impact_summary": "哲学的問題だった意識を実験神経科学の対象にし、臨床的意識評価にも影響した。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "意識科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "意識,神経相関,視覚意識,注意,主観経験",
+    "keywords_en": "consciousness,NCC,awareness,attention,subjective experience",
+    "key_researchers": ["Francis Crick", "Christof Koch", "Stanislas Dehaene"],
+    "key_works": ["Towards a Neurobiological Theory of Consciousness (1990)", "Consciousness and the Brain (2014)"]
+  },
+  {
+    "name_ja": "AI×神経科学",
+    "name_en": "AI and Neuroscience",
+    "definition": "人工知能モデルを脳の計算原理の仮説として用い、同時に神経科学の知見を機械学習の設計に反映する双方向的研究領域。深層学習、強化学習、表現学習、神経デコーディング、大規模言語モデルと脳活動の比較などを含む。",
+    "impact_summary": "脳理解とAI開発を相互に加速させ、表現解析、認知モデル、神経データ解析の標準を変えた。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "神経AI",
+    "era_start": 2012,
+    "era_end": null,
+    "keywords_ja": "人工知能,深層学習,神経表現,強化学習,脳モデル",
+    "keywords_en": "AI,neuroscience,deep learning,neural representation,neuroAI",
+    "key_researchers": ["Geoffrey Hinton", "Yoshua Bengio", "Demis Hassabis"],
+    "key_works": ["Deep Neural Networks Reveal a Gradient in the Complexity of Neural Representations (2014)", "Neuroscience-Inspired Artificial Intelligence (2017)"]
+  },
+  {
+    "name_ja": "計算精神医学",
+    "name_en": "Computational Psychiatry",
+    "definition": "精神疾患を症状記述だけでなく、学習、意思決定、予測誤差、信念更新、神経回路、社会認知の計算過程の異常として理解しようとする分野。数理モデルと臨床データを統合し、診断、層別化、治療予測の精密化を目指す。",
+    "impact_summary": "精神医学に定量モデルを導入し、疾患分類、治療反応予測、神経機構理解を前進させた。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的精神医学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_ja": "精神疾患,計算モデル,予測誤差,意思決定,精密医療",
+    "keywords_en": "computational psychiatry,mental disorder,modeling,prediction error",
+    "key_researchers": ["Peter Dayan", "Read Montague", "Karl Friston"],
+    "key_works": ["Computational Psychiatry (2012)", "Computational Psychiatry as a Bridge (2016)"]
+  }
+]
+tokens used
+7,099

@@ -1,0 +1,842 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0982-af41-7591-84fe-dd65cb4ca623
+--------
+user
+「システム科学・複雑系」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+カオス理論、自己組織化臨界、セルラーオートマトン、Edge of chaos、Network science
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"システム科学・複雑系","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "カオス理論",
+    "name_en": "Chaos theory",
+    "definition": "決定論的な規則に従う系であっても、初期条件への鋭敏な依存性により長期予測が実質的に困難になる現象を扱う理論。非線形写像、ストレンジアトラクタ、分岐、リアプノフ指数などを用いて、気象、流体、人口動態、経済変動などの複雑な振る舞いを説明する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "非線形力学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "sensitive dependence,strange attractor",
+    "key_researchers": ["Edward Lorenz", "Mitchell Feigenbaum", "David Ruelle"]
+  },
+  {
+    "name_ja": "自己組織化臨界",
+    "name_en": "Self-organized criticality",
+    "definition": "外部から細かく調整されなくても、駆動と散逸を受ける多自由度系が自然に臨界状態へ近づき、べき乗則に従う事象規模分布を示すという概念。砂山モデルに代表され、地震、森林火災、生態系、金融市場などで見られる突発的な大変動と小変動の共存を説明する枠組みである。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑系物理",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "criticality,power laws",
+    "key_researchers": ["Per Bak", "Chao Tang", "Kurt Wiesenfeld"]
+  },
+  {
+    "name_ja": "セルラーオートマトン",
+    "name_en": "Cellular automata",
+    "definition": "格子上の各セルが有限個の状態を持ち、近傍セルの状態に基づく局所規則で離散時間的に更新される計算モデル。単純な規則から複雑な時空間パターンや計算能力が生じることを示し、生命現象、結晶成長、交通流、人工生命、計算理論の研究に広く用いられる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "計算的複雑系",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "local rules,emergent patterns",
+    "key_researchers": ["John von Neumann", "Stanislaw Ulam", "Stephen Wolfram"]
+  },
+  {
+    "name_ja": "カオスの縁",
+    "name_en": "Edge of chaos",
+    "definition": "秩序だった安定状態と完全に乱れたカオス状態の中間に位置し、情報処理能力、適応性、創発的構造が最大化されやすいとされる領域。セルラーオートマトン、ブーリアンネットワーク、人工生命、進化的計算で重視され、複雑な適応システムが柔軟性と安定性を両立する条件を考える概念である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サンタフェ学派",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "critical regime,computation",
+    "key_researchers": ["Christopher Langton", "Stuart Kauffman", "Norman Packard"]
+  },
+  {
+    "name_ja": "ネットワーク科学",
+    "name_en": "Network science",
+    "definition": "多数の要素とそれらの関係をノードとリンクとして表し、構造、成長、頑健性、拡散、同期、コミュニティ形成を分析する学際的分野。社会関係、インターネット、神経回路、交通網、生態系、知識体系などを共通のグラフ構造として扱い、複雑な相互依存の性質を明らかにする。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑ネットワーク研究",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "complex networks,graph theory",
+    "key_researchers": ["Albert-Laszlo Barabasi", "Duncan Watts", "Steven Strogatz"]
+  },
+  {
+    "name_ja": "創発",
+    "name_en": "Emergence",
+    "definition": "個々の要素の性質や単純な相互作用だけからは直観的に還元しにくい、上位レベルの秩序、機能、パターンが現れる現象。群れの行動、意識、言語、市場、生命、都市構造などを理解する基本概念であり、ミクロな局所規則とマクロな集団的性質の関係を問う。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "創発主義",
+    "era_start": 1875,
+    "era_end": null,
+    "keywords_en": "macro behavior,micro interactions",
+    "key_researchers": ["C. Lloyd Morgan", "John Holland", "Philip Anderson"]
+  },
+  {
+    "name_ja": "複雑適応系",
+    "name_en": "Complex adaptive systems",
+    "definition": "多数のエージェントが相互作用し、経験や環境変化に応じて行動規則を変化させることで、全体として進化、学習、自己組織化を示すシステム。生態系、経済、免疫系、都市、組織、技術ネットワークなどを統一的に考える枠組みで、適応と創発の連動を重視する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サンタフェ学派",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "adaptation,agents",
+    "key_researchers": ["John Holland", "Murray Gell-Mann", "Brian Arthur"]
+  },
+  {
+    "name_ja": "自己組織化",
+    "name_en": "Self-organization",
+    "definition": "中央制御者や外部からの詳細な設計がなくても、局所的な相互作用、フィードバック、非平衡条件を通じて秩序や構造が形成される過程。化学反応、対流、群れ、都市、神経系、インターネットなどで観察され、複雑系における秩序生成の基本原理として扱われる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サイバネティクス",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "order formation,feedback",
+    "key_researchers": ["Heinz von Foerster", "Ilya Prigogine", "Hermann Haken"]
+  },
+  {
+    "name_ja": "非線形力学",
+    "name_en": "Nonlinear dynamics",
+    "definition": "入力と出力が比例せず、重ね合わせの原理が成り立たない力学系の時間発展を研究する分野。小さな原因が大きな結果を生む、複数の安定状態を持つ、周期運動からカオスへ移行するなどの振る舞いを扱い、自然科学から社会システムまで多様な現象の基礎理論となる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "力学系理論",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "nonlinearity,dynamical systems",
+    "key_researchers": ["Henri Poincare", "Stephen Smale", "Robert May"]
+  },
+  {
+    "name_ja": "分岐理論",
+    "name_en": "Bifurcation theory",
+    "definition": "制御パラメータの変化に伴い、力学系の安定状態、周期軌道、振動様式、カオス的挙動などが質的に変化する現象を解析する理論。生物個体数、レーザー、流体、神経発火、化学反応、経済循環などで、急激な転換や閾値現象を理解する道具となる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "力学系理論",
+    "era_start": 1885,
+    "era_end": null,
+    "keywords_en": "parameter change,stability",
+    "key_researchers": ["Henri Poincare", "Andronov", "Rene Thom"]
+  },
+  {
+    "name_ja": "アトラクタ",
+    "name_en": "Attractor",
+    "definition": "力学系の状態空間において、多くの初期条件から時間発展した軌道が近づいていく集合や状態を指す概念。固定点、周期軌道、準周期軌道、ストレンジアトラクタなどがあり、システムが長期的にどのような振る舞いへ落ち着くかを記述するために使われる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "力学系理論",
+    "era_start": 1881,
+    "era_end": null,
+    "keywords_en": "phase space,long-term behavior",
+    "key_researchers": ["Henri Poincare", "Edward Lorenz", "David Ruelle"]
+  },
+  {
+    "name_ja": "ストレンジアトラクタ",
+    "name_en": "Strange attractor",
+    "definition": "有限領域に軌道を閉じ込めながら、初期条件への鋭敏な依存性とフラクタル的な幾何構造を示すアトラクタ。カオス力学の象徴的概念であり、ローレンツアトラクタのように、決定論的規則から非周期的で予測困難な運動が生じることを可視化する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "非線形力学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "fractal geometry,chaotic dynamics",
+    "key_researchers": ["David Ruelle", "Floris Takens", "Edward Lorenz"]
+  },
+  {
+    "name_ja": "リアプノフ指数",
+    "name_en": "Lyapunov exponent",
+    "definition": "近接した二つの軌道が時間とともに平均的にどの程度速く離れるか、または近づくかを表す量。最大リアプノフ指数が正であれば初期条件への鋭敏な依存性が示唆され、カオスの判定、安定性解析、時系列データからの非線形性評価に用いられる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "安定性理論",
+    "era_start": 1892,
+    "era_end": null,
+    "keywords_en": "stability,sensitivity",
+    "key_researchers": ["Aleksandr Lyapunov", "Vladimir Oseledets", "James Yorke"]
+  },
+  {
+    "name_ja": "フラクタル",
+    "name_en": "Fractal",
+    "definition": "拡大しても類似した構造が現れる自己相似性や、整数でない次元を特徴とする幾何学的対象。海岸線、雲、樹木、血管網、乱流、金融時系列など自然や社会の複雑な形態を記述するために用いられ、複雑系におけるスケール不変性の理解に不可欠である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "フラクタル幾何学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "self-similarity,scaling",
+    "key_researchers": ["Benoit Mandelbrot", "Gaston Julia", "Waclaw Sierpinski"]
+  },
+  {
+    "name_ja": "べき乗則",
+    "name_en": "Power law",
+    "definition": "事象の規模や頻度が特定の尺度を持たず、ある量の累乗に比例して減少する分布関係。地震の規模、都市人口、語の出現頻度、ウェブリンク、所得、論文引用などに現れ、少数の巨大事象と多数の小事象が同じ統計構造で結ばれることを示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "統計物理",
+    "era_start": 1896,
+    "era_end": null,
+    "keywords_en": "scale invariance,heavy tails",
+    "key_researchers": ["Vilfredo Pareto", "George Zipf", "Mark Newman"]
+  },
+  {
+    "name_ja": "スケールフリー・ネットワーク",
+    "name_en": "Scale-free network",
+    "definition": "ノードの次数分布がべき乗則に従い、少数のハブが多数のリンクを持つ一方で多くのノードは少数のリンクしか持たないネットワーク。インターネット、細胞代謝、引用、社会関係などで研究され、成長と優先的選択による不均一な接続構造を説明する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑ネットワーク研究",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_en": "degree distribution,hubs",
+    "key_researchers": ["Albert-Laszlo Barabasi", "Reka Albert", "Hawoong Jeong"]
+  },
+  {
+    "name_ja": "スモールワールド・ネットワーク",
+    "name_en": "Small-world network",
+    "definition": "多くのノードが局所的に密につながりながら、少数の長距離リンクによって全体の平均距離が短くなるネットワーク構造。社会的な六次の隔たり、神経回路、電力網、共同研究ネットワークなどを説明し、局所凝集性と大域的到達性の両立を示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑ネットワーク研究",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "clustering,short path length",
+    "key_researchers": ["Duncan Watts", "Steven Strogatz", "Mark Granovetter"]
+  },
+  {
+    "name_ja": "優先的選択",
+    "name_en": "Preferential attachment",
+    "definition": "すでに多くの接続や資源を持つ要素ほど、新たな接続や資源をさらに獲得しやすいという成長メカニズム。ネットワークにハブや不平等な分布を生み出し、ウェブリンク、論文引用、富の蓄積、都市成長などで観察される累積的優位の数理モデルである。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑ネットワーク研究",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "cumulative advantage,network growth",
+    "key_researchers": ["Yule", "Derek de Solla Price", "Albert-Laszlo Barabasi"]
+  },
+  {
+    "name_ja": "パーコレーション",
+    "name_en": "Percolation",
+    "definition": "ランダムに配置された結合や占有サイトが、ある閾値を超えると系全体を貫く巨大連結成分を形成する現象。多孔質媒体の流れ、疫病拡散、火災、ネットワークの頑健性、材料の導電性などで用いられ、局所接続から大域的連結性が生じる条件を解析する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "統計物理",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "threshold,giant component",
+    "key_researchers": ["Simon Broadbent", "John Hammersley", "Dietrich Stauffer"]
+  },
+  {
+    "name_ja": "相転移",
+    "name_en": "Phase transition",
+    "definition": "温度、密度、結合強度、感染率などの制御パラメータが臨界値を超えることで、系のマクロな状態が急激に変化する現象。物質の相だけでなく、ネットワーク連結性、同期、意見形成、交通渋滞、社会的協調の成立にも応用される。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "統計物理",
+    "era_start": 1873,
+    "era_end": null,
+    "keywords_en": "critical point,order parameter",
+    "key_researchers": ["J. Willard Gibbs", "Lev Landau", "Kenneth Wilson"]
+  },
+  {
+    "name_ja": "臨界現象",
+    "name_en": "Critical phenomena",
+    "definition": "相転移点付近で相関長が大きくなり、微視的詳細に依存しない普遍的なスケーリング則が現れる現象群。磁性体や流体だけでなく、自己組織化臨界、感染拡大、金融市場、神経活動などの複雑系研究で、閾値付近の大規模揺らぎを理解する基礎となる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "統計物理",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "universality,scaling laws",
+    "key_researchers": ["Kenneth Wilson", "Michael Fisher", "Leo Kadanoff"]
+  },
+  {
+    "name_ja": "同期",
+    "name_en": "Synchronization",
+    "definition": "相互作用する振動子やエージェントが、位相、周期、リズム、活動パターンをそろえる現象。蛍の発光、心筋細胞、神経振動、電力網、拍手、化学振動などで見られ、局所的結合から集団的秩序が形成される典型例として複雑系で研究される。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "非線形力学",
+    "era_start": 1665,
+    "era_end": null,
+    "keywords_en": "coupled oscillators,phase locking",
+    "key_researchers": ["Christiaan Huygens", "Yoshiki Kuramoto", "Steven Strogatz"]
+  },
+  {
+    "name_ja": "蔵本モデル",
+    "name_en": "Kuramoto model",
+    "definition": "固有振動数を持つ多数の位相振動子が弱く結合し、結合強度が閾値を超えると集団同期へ移行することを示す単純で強力な数理モデル。神経活動、化学振動、電力網、社会的リズムなどの同期現象を解析する標準モデルとして広く用いられる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "非線形力学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "phase oscillators,collective synchronization",
+    "key_researchers": ["Yoshiki Kuramoto", "Steven Strogatz", "Juan Acebron"]
+  },
+  {
+    "name_ja": "反応拡散系",
+    "name_en": "Reaction-diffusion systems",
+    "definition": "化学反応や生物学的相互作用による局所的な生成消滅と、物質や情報の空間的拡散が組み合わさって時空間パターンを生む系。動物の模様、形態形成、化学波、植生パターンなどを説明し、単純な方程式から複雑な空間秩序が現れることを示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "数理生物学",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_en": "pattern formation,diffusion",
+    "key_researchers": ["Alan Turing", "James Murray", "Ilya Prigogine"]
+  },
+  {
+    "name_ja": "チューリング・パターン",
+    "name_en": "Turing patterns",
+    "definition": "反応速度と拡散速度の差によって、一様な状態が不安定化し、斑点や縞などの安定した空間パターンが自発的に形成される現象。形態形成や生物模様の理論として提案され、局所活性化と長距離抑制の組み合わせが秩序を生む仕組みを示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "数理生物学",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_en": "morphogenesis,instability",
+    "key_researchers": ["Alan Turing", "Hans Meinhardt", "Alfred Gierer"]
+  },
+  {
+    "name_ja": "散逸構造",
+    "name_en": "Dissipative structures",
+    "definition": "エネルギーや物質の流れがある非平衡開放系で、散逸を伴いながら維持される秩序構造。ベナール対流、化学振動、生命現象などに見られ、平衡から遠い条件でこそ秩序が生成されるという視点を与え、自己組織化研究の重要な基盤となった。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "非平衡熱力学",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "non-equilibrium,dissipation",
+    "key_researchers": ["Ilya Prigogine", "Paul Glansdorff", "Grégoire Nicolis"]
+  },
+  {
+    "name_ja": "非平衡熱力学",
+    "name_en": "Non-equilibrium thermodynamics",
+    "definition": "平衡状態から離れた系で、エネルギー、物質、エントロピーの流れがどのように構造や動態を生むかを扱う理論。生命、気象、化学反応、社会システムなどは多くが開放系であり、複雑系における秩序維持、散逸、不可逆性を考える基礎となる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "非平衡熱力学",
+    "era_start": 1931,
+    "era_end": null,
+    "keywords_en": "entropy production,open systems",
+    "key_researchers": ["Lars Onsager", "Ilya Prigogine", "S. R. de Groot"]
+  },
+  {
+    "name_ja": "フィードバック",
+    "name_en": "Feedback",
+    "definition": "システムの出力が再び入力として戻り、将来の振る舞いを増幅または抑制する仕組み。正のフィードバックは成長や不安定化を生み、負のフィードバックは安定化や制御を担う。生物の恒常性、経済循環、気候、組織運営、制御工学の中核概念である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サイバネティクス",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "control loops,amplification",
+    "key_researchers": ["Norbert Wiener", "W. Ross Ashby", "Jay Forrester"]
+  },
+  {
+    "name_ja": "サイバネティクス",
+    "name_en": "Cybernetics",
+    "definition": "生物、機械、社会に共通する制御、通信、フィードバックの原理を研究する学際的分野。第二次世界大戦後に発展し、自動制御、神経系、組織、人工知能、システム理論に影響を与えた。複雑なシステムを情報と制御の循環として捉える視点を提供する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サイバネティクス",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "control,communication",
+    "key_researchers": ["Norbert Wiener", "W. Ross Ashby", "Heinz von Foerster"]
+  },
+  {
+    "name_ja": "一般システム理論",
+    "name_en": "General systems theory",
+    "definition": "生物、社会、機械、組織など異なる領域に共通するシステムの構造、階層性、相互作用、開放性を抽象的に扱う理論。還元主義だけでは捉えにくい全体性や関係性を重視し、システム科学、組織論、生態学、家族療法など多くの分野に影響を与えた。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "一般システム理論",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "open systems,holism",
+    "key_researchers": ["Ludwig von Bertalanffy", "Kenneth Boulding", "Anatol Rapoport"]
+  },
+  {
+    "name_ja": "システムダイナミクス",
+    "name_en": "System dynamics",
+    "definition": "ストック、フロー、フィードバックループ、時間遅れを用いて、企業、都市、人口、資源、環境などの複雑な社会経済システムの振る舞いをシミュレーションする方法論。短期的な介入が長期的に逆効果を生む構造を可視化し、政策設計や組織学習に用いられる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "システムダイナミクス",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "stocks and flows,delays",
+    "key_researchers": ["Jay Forrester", "Donella Meadows", "John Sterman"]
+  },
+  {
+    "name_ja": "エージェントベース・モデル",
+    "name_en": "Agent-based model",
+    "definition": "個別のエージェントに行動規則、属性、相互作用を与え、多数のエージェントの局所的行動から集団的なマクロ現象が生じる過程をシミュレーションする手法。市場、交通、感染、避難、都市、文化伝播などで、異質性と適応を明示的に扱える点が特徴である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "計算社会科学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "simulation,heterogeneous agents",
+    "key_researchers": ["Thomas Schelling", "Joshua Epstein", "Robert Axtell"]
+  },
+  {
+    "name_ja": "人工生命",
+    "name_en": "Artificial life",
+    "definition": "生命を特定の物質に限定せず、自己複製、進化、代謝、適応、創発といった生命的性質を計算機、ロボット、化学系などで構成的に研究する分野。セルラーオートマトン、進化的アルゴリズム、人工生態系を用い、生命とは何かを作ることで理解しようとする。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "人工生命研究",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "synthetic life,evolution",
+    "key_researchers": ["Christopher Langton", "Tom Ray", "Steen Rasmussen"]
+  },
+  {
+    "name_ja": "遺伝的アルゴリズム",
+    "name_en": "Genetic algorithm",
+    "definition": "選択、交叉、突然変異といった生物進化の仕組みを模倣し、候補解の集団を反復的に改良する探索・最適化手法。複雑な探索空間で厳密解が得にくい問題に適用され、適応、進化、探索、創発的設計を結びつける計算的複雑系の代表的技法である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化的計算",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "evolutionary search,optimization",
+    "key_researchers": ["John Holland", "David Goldberg", "Kenneth De Jong"]
+  },
+  {
+    "name_ja": "進化的計算",
+    "name_en": "Evolutionary computation",
+    "definition": "自然選択、遺伝的変異、集団探索、適応度評価を計算モデルとして利用し、最適化、設計、学習、創発的問題解決を行う方法群。遺伝的アルゴリズム、進化戦略、遺伝的プログラミングなどを含み、複雑な環境での適応過程を工学的に利用する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化的計算",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "selection,adaptive search",
+    "key_researchers": ["Ingo Rechenberg", "John Holland", "John Koza"]
+  },
+  {
+    "name_ja": "共進化",
+    "name_en": "Coevolution",
+    "definition": "複数の種、技術、制度、戦略、組織が相互に選択圧を与え合いながら同時に変化していく過程。捕食者と被食者、宿主と寄生者、企業と市場、技術と社会などで見られ、適応の対象である環境自体が他者の適応によって変わる点が重要である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化システム論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "reciprocal adaptation,selection pressure",
+    "key_researchers": ["Paul Ehrlich", "Peter Raven", "Stuart Kauffman"]
+  },
+  {
+    "name_ja": "NKモデル",
+    "name_en": "NK model",
+    "definition": "N個の構成要素と、それぞれが相互作用するK個の要素によって適応度地形の複雑さを表すモデル。Kが大きいほど相互依存が増え、局所最適が多い険しい地形になる。進化、生物組織、技術設計、組織戦略における探索と適応の困難さを分析する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サンタフェ学派",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "fitness landscape,epistasis",
+    "key_researchers": ["Stuart Kauffman", "Simon Levin", "Brian Arthur"]
+  },
+  {
+    "name_ja": "適応度地形",
+    "name_en": "Fitness landscape",
+    "definition": "遺伝子型、戦略、設計案、組織形態などの可能な状態を空間として配置し、それぞれに適応度や性能の高さを割り当てた概念的地形。山は高い適応度、谷は低い適応度を表し、進化や探索が局所最適に陥る理由や、革新が困難になる構造を説明する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化理論",
+    "era_start": 1932,
+    "era_end": null,
+    "keywords_en": "adaptive landscape,local optima",
+    "key_researchers": ["Sewall Wright", "Stuart Kauffman", "Daniel Dennett"]
+  },
+  {
+    "name_ja": "レプリケーターダイナミクス",
+    "name_en": "Replicator dynamics",
+    "definition": "集団内の戦略や型の比率が、その相対的な適応度や利得に応じて増減する過程を記述する方程式。進化ゲーム理論の中心的モデルであり、協力、競争、安定戦略、文化進化、学習動態などを、集団構成の時間変化として分析する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化ゲーム理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "evolutionary games,selection dynamics",
+    "key_researchers": ["Peter Taylor", "Leo Jonker", "Josef Hofbauer"]
+  },
+  {
+    "name_ja": "進化ゲーム理論",
+    "name_en": "Evolutionary game theory",
+    "definition": "合理的な熟慮者だけでなく、複製、学習、模倣、選択によって戦略分布が変化する集団を対象とするゲーム理論。生物の行動、協力の進化、社会規範、市場戦略、制度形成を分析し、個体の利得と集団的安定性の関係を扱う。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化ゲーム理論",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "evolutionarily stable strategy,cooperation",
+    "key_researchers": ["John Maynard Smith", "George Price", "Martin Nowak"]
+  },
+  {
+    "name_ja": "囚人のジレンマ",
+    "name_en": "Prisoner's dilemma",
+    "definition": "二者が協力すれば双方に利益があるにもかかわらず、個別合理性に従うと互いに裏切る結果が均衡となるゲーム。複雑系では、繰り返し相互作用、ネットワーク構造、評判、空間配置、進化的選択が協力をいかに成立させるかを調べる基本モデルである。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "ゲーム理論",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "cooperation,defection",
+    "key_researchers": ["Merrill Flood", "Melvin Dresher", "Robert Axelrod"]
+  },
+  {
+    "name_ja": "協力の進化",
+    "name_en": "Evolution of cooperation",
+    "definition": "自己利益を持つ個体や組織が、競争や誘惑がある環境でどのように協力関係を形成し維持するかを扱う研究課題。血縁選択、互恵性、評判、ネットワーク、集団選択、制度設計などを通じて、利己的相互作用から集団的秩序が生じる条件を分析する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "進化ゲーム理論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "reciprocity,collective action",
+    "key_researchers": ["William Hamilton", "Robert Axelrod", "Martin Nowak"]
+  },
+  {
+    "name_ja": "群知能",
+    "name_en": "Swarm intelligence",
+    "definition": "アリ、ハチ、鳥、魚などの群れに見られる、単純な個体の局所的相互作用から生じる集団的問題解決能力を指す概念。中央司令なしに探索、経路形成、分業、合意、最適化が実現されることを利用し、ロボット群、最適化アルゴリズム、分散制御へ応用される。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "人工生命研究",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "collective behavior,distributed control",
+    "key_researchers": ["Gerardo Beni", "James Kennedy", "Marco Dorigo"]
+  },
+  {
+    "name_ja": "アリコロニー最適化",
+    "name_en": "Ant colony optimization",
+    "definition": "アリがフェロモンを介して経路を強化し、集団として効率的な探索を行う仕組みに着想を得た最適化アルゴリズム。巡回セールスマン問題、経路計画、ネットワークルーティングなどに適用され、局所的な痕跡更新から大域的に良い解が形成される。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "群知能",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "pheromone trails,combinatorial optimization",
+    "key_researchers": ["Marco Dorigo", "Thomas Stutzle", "Luca Gambardella"]
+  },
+  {
+    "name_ja": "粒子群最適化",
+    "name_en": "Particle swarm optimization",
+    "definition": "鳥や魚の群れの協調的な移動に着想を得て、複数の粒子が自身の過去の良好な位置と集団内の良好な位置を参照しながら探索空間を移動する最適化手法。連続最適化や機械学習のパラメータ調整に用いられ、分散的探索と情報共有を組み合わせる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "群知能",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "swarm optimization,collective search",
+    "key_researchers": ["James Kennedy", "Russell Eberhart", "Yuhui Shi"]
+  },
+  {
+    "name_ja": "ボイドモデル",
+    "name_en": "Boids model",
+    "definition": "分離、整列、結合という単純な局所規則を持つエージェント群から、鳥の群れのような滑らかな集団運動が生じることを示したモデル。個体に全体像を与えなくても自然な群行動が形成されるため、人工生命、コンピュータグラフィックス、群制御の代表例となった。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "人工生命研究",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "flocking,local rules",
+    "key_researchers": ["Craig Reynolds"]
+  },
+  {
+    "name_ja": "自己相似性",
+    "name_en": "Self-similarity",
+    "definition": "全体の形や統計的性質が、その一部を拡大した構造と似ているという性質。フラクタル図形、河川網、血管、雲、都市分布、時系列の揺らぎなどに見られ、複雑な構造が単一の特徴的尺度に還元されず、階層的に組織化されていることを示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "フラクタル幾何学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "scale invariance,hierarchy",
+    "key_researchers": ["Benoit Mandelbrot", "Lewis Fry Richardson", "Michael Barnsley"]
+  },
+  {
+    "name_ja": "ロバスト性",
+    "name_en": "Robustness",
+    "definition": "システムが外乱、ノイズ、部品故障、環境変化、攻撃を受けても機能や構造を維持できる性質。生物ネットワーク、インフラ、組織、制御系、ソフトウェアなどで重視され、冗長性、モジュール性、フィードバック、分散構造が頑健性を支える要因として分析される。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "システム工学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "resilience,fault tolerance",
+    "key_researchers": ["W. Ross Ashby", "John Doyle", "Hiroaki Kitano"]
+  },
+  {
+    "name_ja": "レジリエンス",
+    "name_en": "Resilience",
+    "definition": "システムが衝撃や攪乱を受けた後に、元の機能を回復する、または新しい安定状態へ適応的に移行する能力。生態系、都市、防災、組織、金融、サプライチェーンで用いられ、単なる安定性ではなく、変化を吸収しながら存続する動的能力を重視する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "社会生態システム論",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "adaptive capacity,disturbance",
+    "key_researchers": ["C. S. Holling", "Brian Walker", "Lance Gunderson"]
+  },
+  {
+    "name_ja": "モジュール性",
+    "name_en": "Modularity",
+    "definition": "システムが比較的密に内部接続された部分単位に分かれ、それらが緩やかに結合して全体を構成する性質。生物、脳、技術、組織、ソフトウェア、ネットワークに見られ、進化可能性、頑健性、保守性、局所的障害の封じ込めを支える重要な構造原理である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "システムアーキテクチャ論",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "modules,decomposability",
+    "key_researchers": ["Herbert Simon", "Carliss Baldwin", "Hiroaki Kitano"]
+  },
+  {
+    "name_ja": "階層性",
+    "name_en": "Hierarchy",
+    "definition": "要素が複数のレベルに組織化され、下位の相互作用が上位の構造や機能を生み、上位の制約が下位の振る舞いに影響する性質。細胞、器官、個体、社会、組織、技術システムなどで見られ、複雑な全体を理解するための基本的な構成原理である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "一般システム理論",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "levels,near decomposability",
+    "key_researchers": ["Herbert Simon", "Ludwig von Bertalanffy", "Howard Pattee"]
+  },
+  {
+    "name_ja": "自己参照",
+    "name_en": "Self-reference",
+    "definition": "システム、記号、規則、観察者が自分自身を対象として含み込む構造や過程。論理、認知、社会システム、オートポイエーシス、二階サイバネティクスで重要であり、観察する主体が観察対象の一部である場合に生じる循環性やパラドックスを扱う。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "二階サイバネティクス",
+    "era_start": 1931,
+    "era_end": null,
+    "keywords_en": "recursion,observer",
+    "key_researchers": ["Kurt Gödel", "Heinz von Foerster", "Niklas Luhmann"]
+  },
+  {
+    "name_ja": "オートポイエーシス",
+    "name_en": "Autopoiesis",
+    "definition": "生命システムを、構成要素を自ら産出し、その産出過程によって自己の境界と組織を維持する自己産出的ネットワークとして捉える概念。細胞の生命性を説明するために提案され、認知科学、社会システム理論、組織論に影響を与えた。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "オートポイエーシス論",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "self-production,operational closure",
+    "key_researchers": ["Humberto Maturana", "Francisco Varela", "Niklas Luhmann"]
+  },
+  {
+    "name_ja": "二階サイバネティクス",
+    "name_en": "Second-order cybernetics",
+    "definition": "観察者をシステムの外部に置くのではなく、観察行為そのものをシステムの一部として扱うサイバネティクス。制御されるシステムだけでなく、制御し記述する主体の循環性、自己言及、認識の構成性を考慮し、認知科学や社会理論に深い影響を与えた。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "二階サイバネティクス",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "observer systems,constructivism",
+    "key_researchers": ["Heinz von Foerster", "Gordon Pask", "Humberto Maturana"]
+  },
+  {
+    "name_ja": "情報理論",
+    "name_en": "Information theory",
+    "definition": "情報量、エントロピー、符号化、通信路容量、ノイズを数学的に扱う理論。複雑系では、秩序と不確実性、自己組織化、生命、認知、ネットワーク、計算過程を定量化する基礎として使われ、情報の生成、伝達、圧縮、散逸を分析する視点を与える。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "情報理論",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "entropy,communication",
+    "key_researchers": ["Claude Shannon", "Norbert Wiener", "Warren Weaver"]
+  },
+  {
+    "name_ja": "エントロピー",
+    "name_en": "Entropy",
+    "definition": "熱力学では利用可能なエネルギーや不可逆性に関係し、情報理論では不確実性や情報量を測る概念。複雑系では、秩序と乱雑さ、自己組織化、散逸、予測可能性、パターン生成を考えるための中心的指標として、物理的系と情報的系を結びつける。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "統計物理",
+    "era_start": 1865,
+    "era_end": null,
+    "keywords_en": "disorder,uncertainty",
+    "key_researchers": ["Rudolf Clausius", "Ludwig Boltzmann", "Claude Shannon"]
+  },
+  {
+    "name_ja": "アルゴリズム的複雑性",
+    "name_en": "Algorithmic complexity",
+    "definition": "対象を生成する最短プログラムの長さによって、その対象の複雑さを定義する考え方。単なるランダム性や規則性とは異なり、記述可能性と圧縮可能性の観点から複雑さを測る。カオス、生命、データ解析、計算理論における複雑性の定量化に関わる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "計算理論",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "Kolmogorov complexity,compressibility",
+    "key_researchers": ["Andrey Kolmogorov", "Gregory Chaitin", "Ray Solomonoff"]
+  },
+  {
+    "name_ja": "計算不可約性",
+    "name_en": "Computational irreducibility",
+    "definition": "あるシステムの将来状態を知るために、一般にはその過程を実際に逐次計算する以外に大幅な近道が存在しないという考え方。単純な規則から複雑で予測困難な振る舞いが生じる理由を説明し、セルラーオートマトンや複雑系の予測限界に関係する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "計算的複雑系",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "prediction limits,computation",
+    "key_researchers": ["Stephen Wolfram", "Gregory Chaitin", "Konrad Zuse"]
+  },
+  {
+    "name_ja": "ランダムブーリアンネットワーク",
+    "name_en": "Random Boolean networks",
+    "definition": "各ノードが真偽値を取り、ランダムに選ばれた入力と論理関数に従って同期的または非同期的に更新されるネットワークモデル。遺伝子制御ネットワークや細胞分化の抽象モデルとして提案され、秩序、カオス、臨界性の相が適応性と関係することを示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サンタフェ学派",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "gene regulation,Boolean dynamics",
+    "key_researchers": ["Stuart Kauffman", "Rene Thomas", "Bernard Derrida"]
+  },
+  {
+    "name_ja": "複雑ネットワーク上の拡散",
+    "name_en": "Diffusion on complex networks",
+    "definition": "情報、感染、イノベーション、行動、意見、リスクなどがネットワーク構造に沿って広がる過程を扱う概念。ハブ、コミュニティ、橋渡しリンク、閾値、中心性が拡散速度や到達範囲を左右し、疫学、マーケティング、社会運動、金融危機の分析に使われる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑ネットワーク研究",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "contagion,spreading processes",
+    "key_researchers": ["Romualdo Pastor-Satorras", "Alessandro Vespignani", "Damon Centola"]
+  },
+  {
+    "name_ja": "閾値モデル",
+    "name_en": "Threshold model",
+    "definition": "個体が行動を採用するかどうかを、周囲の採用者数や割合が個別の閾値を超えたかで決めるモデル。暴動、流行、技術採用、意見変化、集団行動を説明し、小さな初期差が連鎖的拡大や急激な社会変化を生む仕組みを明らかにする。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "数理社会学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "collective behavior,cascades",
+    "key_researchers": ["Mark Granovetter", "Duncan Watts", "Thomas Schelling"]
+  },
+  {
+    "name_ja": "カスケード故障",
+    "name_en": "Cascading failure",
+    "definition": "ネットワークや相互依存システムの一部で生じた障害が、負荷再配分や依存関係を通じて他の部分へ連鎖的に広がり、大規模な崩壊を引き起こす現象。電力網、金融システム、交通、サプライチェーン、通信網の脆弱性を理解するために重要である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "ネットワークレジリエンス",
+    "era_start": 2002,
+    "era_end": null,
+    "keywords_en": "interdependence,systemic risk",
+    "key_researchers": ["Duncan Watts", "Albert-Laszlo Barabasi", "Shlomo Havlin"]
+  },
+  {
+    "name_ja": "社会生態システム",
+    "name_en": "Social-ecological systems",
+    "definition": "人間社会と生態系を分離せず、資源利用、制度、知識、環境変動、生物多様性が相互作用する結合システムとして捉える枠組み。漁業、森林、水資源、気候適応などで用いられ、持続可能性、レジリエンス、ガバナンスの動的関係を分析する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "社会生態システム論",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "sustainability,governance",
+    "key_researchers": ["Elinor Ostrom", "C. S. Holling", "Carl Folke"]
+  },
+  {
+    "name_ja": "パンアーキー",
+    "name_en": "Panarchy",
+    "definition": "生態系や社会システムが、成長、保全、崩壊、再組織化という適応循環を複数の時空間スケールで重ねながら変化するという枠組み。上位スケールの安定性と下位スケールの革新が相互作用し、レジリエンスや脆弱性を形づくる過程を説明する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "社会生態システム論",
+    "era_start": 2002,
+    "era_end": null,
+    "keywords_en": "adaptive cycle,cross-scale dynamics",
+    "key_researchers": ["C. S. Holling", "Lance Gunderson", "Carl Folke"]
+  },
+  {
+    "name_ja": "臨界遷移",
+    "name_en": "Critical transition",
+    "definition": "システムが徐々に変化する外部条件や内部状態の蓄積によって安定性を失い、ある閾値を越えた瞬間に別の状態へ急激に移る現象。湖沼の富栄養化、気候転換、生態系崩壊、金融危機、社会変動などで研究され、早期警戒指標が重要となる。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "レジリエンス研究",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "tipping point,early warning",
+    "key_researchers": ["Marten Scheffer", "Stephen Carpenter", "Tim Lenton"]
+  },
+  {
+    "name_ja": "ティッピングポイント",
+    "name_en": "Tipping point",
+    "definition": "小さな追加的変化が、システム全体の状態を急激かつしばしば不可逆的に変える境界や臨界点。気候、感染症、社会規範、流行、金融市場、生態系で用いられ、連続的な原因の蓄積が不連続な結果として現れる複雑系の特徴を表す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑系社会科学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "nonlinear change,threshold",
+    "key_researchers": ["Morton Grodzins", "Thomas Schelling", "Malcolm Gladwell"]
+  },
+  {
+    "name_ja": "早期警戒信号",
+    "name_en": "Early warning signals",
+    "definition": "臨界遷移や崩壊が近づく際に、回復速度の低下、分散の増大、自己相関の増加、揺らぎの偏りなどとして観測される統計的兆候。生態系、気候、金融、医療、インフラで、突然の転換を事前に検知しリスク管理するために研究される。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "レジリエンス研究",
+    "era_start": 2009,
+    "era_end": null,
+    "keywords_en": "critical slowing down,risk detection",
+    "key_researchers": ["Marten Scheffer", "Egbert van Nes", "Tim Lenton"]
+  },
+  {
+    "name_ja": "集団行動",
+    "name_en": "Collective behavior",
+    "definition": "多数の個体が相互作用することで、個体単独では見られない群れ、流行、暴動、協調、合意、分極、避難流などの集団的パターンを生む現象。単純な局所規則、模倣、情報伝播、ネットワーク構造が全体の秩序や不安定性を作る過程を扱う。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑系社会科学",
+    "era_start": 1895,
+    "era_end": null,
+    "keywords_en": "social dynamics,emergence",
+    "key_researchers": ["Gustave Le Bon", "Thomas Schelling", "Duncan Watts"]
+  },
+  {
+    "name_ja": "意見動力学",
+    "name_en": "Opinion dynamics",
+    "definition": "個人や集団の意見が相互作用、説得、同調、反発、ネットワーク構造、メディア環境によって時間的に変化する過程を数理モデルで研究する分野。合意形成、分極、エコーチェンバー、少数派影響などを扱い、社会的意思決定の複雑さを分析する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "複雑系社会科学",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "consensus,polarization",
+    "key_researchers": ["Morris DeGroot", "Serge Galam", "Rainer Hegselmann"]
+  },
+  {
+    "name_ja": "自己組織化マップ",
+    "name_en": "Self-organizing map",
+    "definition": "高次元データを低次元の格子状表現へ写像し、近いデータ同士が近い位置に配置されるよう自己組織化するニューラルネットワーク手法。教師なし学習、可視化、クラスタリングに用いられ、局所的な競合と協調から秩序だった表現が形成される例である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "ニューラル計算",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "unsupervised learning,topographic map",
+    "key_researchers": ["Teuvo Kohonen"]
+  },
+  {
+    "name_ja": "ホメオスタシス",
+    "name_en": "Homeostasis",
+    "definition": "生物や組織が外部環境の変化にもかかわらず、内部状態を一定範囲に保つ自己調整機構。体温、血糖、神経活動、社会制度、組織運営などで見られ、負のフィードバック、制御、適応、安定性の関係を理解するシステム科学の基礎概念である。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "生理学的システム論",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "self-regulation,negative feedback",
+    "key_researchers": ["Walter Cannon", "Claude Bernard", "W. Ross Ashby"]
+  },
+  {
+    "name_ja": "アロスタシス",
+    "name_en": "Allostasis",
+    "definition": "環境変化を予測しながら、内部状態の目標値自体を動的に変えることで安定性を保つ仕組み。単に一定値へ戻すホメオスタシスを拡張し、ストレス応答、神経内分泌、行動調整、組織適応などで、変化を通じて安定を実現する複雑な制御を説明する。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "生理学的システム論",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "adaptive regulation,stress response",
+    "key_researchers": ["Peter Sterling", "Joseph Eyer", "Bruce McEwen"]
+  },
+  {
+    "name_ja": "アシュビーの必要多様性の法則",
+    "name_en": "Ashby's law of requisite variety",
+    "definition": "制御者が環境や対象システムの多様な状態に対処するには、それに見合うだけの多様な応答能力を持たなければならないという法則。組織管理、サイバネティクス、生物の適応、人工知能、ガバナンスで、複雑さを制御するには制御側にも十分な複雑さが必要であることを示す。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "サイバネティクス",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "requisite variety,control",
+    "key_researchers": ["W. Ross Ashby", "Stafford Beer", "Norbert Wiener"]
+  },
+  {
+    "name_ja": "実行可能システムモデル",
+    "name_en": "Viable system model",
+    "definition": "組織が変化する環境の中で存続するために必要な運営、調整、制御、知性、方針決定の機能をサイバネティクス的に整理したモデル。企業、公共組織、国家、コミュニティの設計に応用され、自律的部分と全体統制のバランスを考える枠組みである。",
+    "subfield": "システム科学・複雑系",
+    "school_of_thought": "マネジメントサイバネティクス",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "organizational cybernetics,viability",
+    "key_researchers": ["Stafford Beer"]
+  }
+]
+tokens used
+34,006

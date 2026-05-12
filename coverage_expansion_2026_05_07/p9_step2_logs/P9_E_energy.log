@@ -1,0 +1,765 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e09e3-eff4-7870-9b56-12ba24ec6171
+--------
+user
+「エネルギー工学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+核融合研究、グリーン水素、全固体電池、次世代原子炉、風力発電
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"エネルギー工学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "核融合研究",
+    "name_en": "Fusion Energy Research",
+    "definition": "軽い原子核を高温高密度状態で融合させ、質量欠損をエネルギーとして取り出す発電技術を目指す研究領域。磁場閉じ込め、慣性閉じ込め、材料照射、トリチウム増殖、プラズマ制御を統合し、長時間安定運転と正味発電の実現を課題とする。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "大規模実証・プラズマ閉じ込め",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_en": "fusion,plasma confinement",
+    "key_researchers": ["Lev Artsimovich", "Lyman Spitzer"]
+  },
+  {
+    "name_ja": "グリーン水素",
+    "name_en": "Green Hydrogen",
+    "definition": "再生可能電力を用いた水電解で製造され、製造過程の二酸化炭素排出を大幅に抑えた水素。発電、製鉄、化学原料、長期貯蔵、船舶燃料などの脱炭素化に使われ、電解槽効率、電力価格、輸送貯蔵インフラが普及の鍵となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "再生可能エネルギー統合",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "green hydrogen,electrolysis",
+    "key_researchers": ["John Bockris", "T. Nejat Veziroglu"]
+  },
+  {
+    "name_ja": "全固体電池",
+    "name_en": "All-Solid-State Battery",
+    "definition": "液体電解質の代わりに固体電解質を用いる蓄電池。高安全性、高エネルギー密度、急速充電、広温度域動作が期待される一方、固体界面抵抗、リチウムデンドライト、量産成形、硫化物や酸化物材料の安定性が重要な研究課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "次世代蓄電材料",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "solid electrolyte,lithium metal",
+    "key_researchers": ["John B. Goodenough", "Ryoji Kanno"]
+  },
+  {
+    "name_ja": "次世代原子炉",
+    "name_en": "Advanced Nuclear Reactor",
+    "definition": "従来型軽水炉を超える安全性、燃料利用効率、廃棄物低減、負荷追従性、熱利用を目指す原子炉概念。高速炉、高温ガス炉、溶融塩炉、小型モジュール炉などを含み、受動安全、標準化建設、核燃料サイクルとの整合が重視される。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "原子力安全・持続可能炉設計",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "advanced reactor,passive safety",
+    "key_researchers": ["Alvin Weinberg", "Yoon Il Chang"]
+  },
+  {
+    "name_ja": "風力発電",
+    "name_en": "Wind Power Generation",
+    "definition": "風の運動エネルギーをロータで回転エネルギーに変換し、発電機で電力として取り出す技術。陸上風力と洋上風力があり、ブレード空力、可変速制御、系統接続、出力予測、騒音、環境影響、保守運用の最適化が重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "再生可能発電システム",
+    "era_start": 1891,
+    "era_end": null,
+    "keywords_en": "wind turbine,renewable power",
+    "key_researchers": ["Poul la Cour", "Johannes Juul"]
+  },
+  {
+    "name_ja": "太陽光発電",
+    "name_en": "Photovoltaic Power Generation",
+    "definition": "半導体の光起電力効果により太陽光を直接電力へ変換する発電技術。結晶シリコン、薄膜、ペロブスカイト、タンデム型などがあり、変換効率、劣化抑制、インバータ制御、設置面積、リサイクル、系統調整が実装上の焦点となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "分散型再生可能電源",
+    "era_start": 1954,
+    "era_end": null,
+    "keywords_en": "photovoltaics,solar cells",
+    "key_researchers": ["Daryl Chapin", "Martin Green"]
+  },
+  {
+    "name_ja": "集光型太陽熱発電",
+    "name_en": "Concentrated Solar Power",
+    "definition": "鏡やレンズで太陽光を集光し、熱媒体を高温化して蒸気タービンや熱機関で発電する技術。溶融塩蓄熱を組み合わせれば日没後も発電でき、直達日射量の大きい地域で有効だが、冷却水、土地利用、光学追尾精度が課題となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "熱利用型再生可能発電",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "concentrated solar power,thermal storage",
+    "key_researchers": ["Giovanni Francia", "Roland Winston"]
+  },
+  {
+    "name_ja": "水力発電",
+    "name_en": "Hydropower",
+    "definition": "水の位置エネルギーや流量を水車で機械エネルギーに変換し、発電機で電力を得る成熟した再生可能発電技術。貯水池式、流れ込み式、揚水式があり、調整力を提供できる一方、河川生態、堆砂、住民移転、気候変動時の水文リスクを考慮する必要がある。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "大規模電力インフラ",
+    "era_start": 1882,
+    "era_end": null,
+    "keywords_en": "hydropower,turbine",
+    "key_researchers": ["Benoit Fourneyron", "Lester Allan Pelton"]
+  },
+  {
+    "name_ja": "地熱発電",
+    "name_en": "Geothermal Power",
+    "definition": "地下の高温流体や岩体から熱を取り出し、蒸気タービンやバイナリーサイクルで発電する技術。安定したベースロード電源になり得るが、掘削費、貯留層評価、誘発地震、スケール付着、温泉利用との調整が開発上の重要論点である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "地下熱資源利用",
+    "era_start": 1904,
+    "era_end": null,
+    "keywords_en": "geothermal,enhanced geothermal systems",
+    "key_researchers": ["Piero Ginori Conti", "Jefferson Tester"]
+  },
+  {
+    "name_ja": "バイオマスエネルギー",
+    "name_en": "Biomass Energy",
+    "definition": "木質、農業残渣、食品廃棄物、下水汚泥など生物由来資源を燃焼、ガス化、発酵、油化して熱、電力、燃料へ変換する技術。カーボンニュートラル性は供給連鎖、土地利用、再生速度、輸送距離に依存し、持続可能性評価が不可欠である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "循環型資源エネルギー",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "biomass,bioenergy",
+    "key_researchers": ["Robert C. Brown", "Bruce Dale"]
+  },
+  {
+    "name_ja": "燃料電池",
+    "name_en": "Fuel Cell",
+    "definition": "水素や炭化水素などの燃料と酸素の電気化学反応から、燃焼を介さず直接電力を得る装置。固体高分子形、固体酸化物形、リン酸形などがあり、高効率、低騒音、分散電源適性を持つが、触媒コスト、耐久性、燃料供給が課題となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "電気化学エネルギー変換",
+    "era_start": 1839,
+    "era_end": null,
+    "keywords_en": "fuel cell,electrochemical conversion",
+    "key_researchers": ["William Grove", "Francis Thomas Bacon"]
+  },
+  {
+    "name_ja": "リチウムイオン電池",
+    "name_en": "Lithium-Ion Battery",
+    "definition": "正極と負極の間をリチウムイオンが挿入脱離することで充放電する二次電池。携帯機器、電気自動車、系統蓄電の中核技術であり、エネルギー密度、寿命、安全性、熱暴走防止、資源制約、リサイクル技術が総合的に評価される。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "高密度蓄電システム",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "lithium-ion battery,intercalation",
+    "key_researchers": ["John B. Goodenough", "Akira Yoshino"]
+  },
+  {
+    "name_ja": "ナトリウムイオン電池",
+    "name_en": "Sodium-Ion Battery",
+    "definition": "リチウムの代わりに豊富なナトリウムイオンを電荷担体として用いる二次電池。資源偏在やコストを抑えられる可能性があり、定置用蓄電に向くが、体積変化、電極材料、エネルギー密度、低温特性、電解液安定性の改善が必要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "資源制約対応蓄電",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "sodium-ion battery,grid storage",
+    "key_researchers": ["Michel Armand", "Kiyoshi Kanamura"]
+  },
+  {
+    "name_ja": "レドックスフロー電池",
+    "name_en": "Redox Flow Battery",
+    "definition": "電解液中の活物質を外部タンクに貯蔵し、セルスタックで酸化還元反応を行って充放電する蓄電池。出力と容量を分けて設計できるため長時間定置蓄電に適し、電解液コスト、ポンプ損失、膜選択性、バナジウム供給が課題となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "長時間系統蓄電",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "redox flow battery,vanadium",
+    "key_researchers": ["Maria Skyllas-Kazacos", "Lawrence Thaller"]
+  },
+  {
+    "name_ja": "揚水発電",
+    "name_en": "Pumped-Storage Hydropower",
+    "definition": "電力需要が低い時間に下池から上池へ水を汲み上げ、需要が高い時間に落水させて発電する大規模蓄電技術。高い出力応答と長寿命を持ち、再生可能電源の変動吸収に有効だが、地形条件、環境影響、建設期間が制約となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "電力系統調整力",
+    "era_start": 1907,
+    "era_end": null,
+    "keywords_en": "pumped storage,grid flexibility",
+    "key_researchers": ["Lester Allan Pelton", "Viktor Kaplan"]
+  },
+  {
+    "name_ja": "圧縮空気エネルギー貯蔵",
+    "name_en": "Compressed Air Energy Storage",
+    "definition": "余剰電力で空気を圧縮して地下空洞やタンクに貯蔵し、必要時に膨張させてタービンを回す蓄電技術。大容量化に向くが、熱管理、往復効率、地質条件、補助燃料の有無、断熱圧縮方式の実用化が性能を左右する。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "機械式長時間貯蔵",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "compressed air energy storage,CAES",
+    "key_researchers": ["Robert B. Schainker", "Michael Nakhamkin"]
+  },
+  {
+    "name_ja": "熱エネルギー貯蔵",
+    "name_en": "Thermal Energy Storage",
+    "definition": "顕熱、潜熱、化学反応熱としてエネルギーを蓄え、発電、冷暖房、産業プロセスへ時間差で供給する技術。水、岩石、溶融塩、相変化材料、熱化学材料が使われ、温度域、損失、熱交換器設計、コストが重要となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "需要側熱管理",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "thermal storage,phase change material",
+    "key_researchers": ["Dincer Ibrahim", "Halime Paksoy"]
+  },
+  {
+    "name_ja": "スマートグリッド",
+    "name_en": "Smart Grid",
+    "definition": "情報通信、センサー、制御、電力電子を活用して電力需給を高度に最適化する次世代電力網。再生可能電源、蓄電池、電気自動車、需要応答を統合し、信頼度、効率、復旧力を高めるが、サイバーセキュリティと標準化も不可欠である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "デジタル電力システム",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "smart grid,advanced metering",
+    "key_researchers": ["Massoud Amin", "Amin Khodaei"]
+  },
+  {
+    "name_ja": "マイクログリッド",
+    "name_en": "Microgrid",
+    "definition": "地域、施設、キャンパスなどの範囲で分散電源、蓄電池、負荷を統合し、系統連系運転と自立運転を切り替えられる小規模電力システム。災害時レジリエンス、再エネ利用、電力品質向上に有効で、保護協調と制御設計が要点である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "分散型電力システム",
+    "era_start": 2002,
+    "era_end": null,
+    "keywords_en": "microgrid,islanding",
+    "key_researchers": ["Robert H. Lasseter", "Nikos Hatziargyriou"]
+  },
+  {
+    "name_ja": "需要応答",
+    "name_en": "Demand Response",
+    "definition": "電力価格、インセンティブ、制御信号に応じて需要側の消費量や消費時刻を変化させ、需給調整に参加する仕組み。空調、給湯、工場設備、電気自動車充電を柔軟資源として扱い、ピーク削減と再エネ変動吸収に寄与する。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "需要側資源管理",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "demand response,load flexibility",
+    "key_researchers": ["Clark Gellings", "Shmuel Oren"]
+  },
+  {
+    "name_ja": "電力系統安定度",
+    "name_en": "Power System Stability",
+    "definition": "発電機、送電網、負荷、電力変換装置が外乱後も同期、電圧、周波数を維持できる性質。再生可能電源の増加により慣性低下や制御相互作用が課題となり、過渡安定度、小信号安定度、電圧安定度の解析が重要となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "電力系統解析",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "power stability,frequency control",
+    "key_researchers": ["Charles Concordia", "Prabha Kundur"]
+  },
+  {
+    "name_ja": "高圧直流送電",
+    "name_en": "High-Voltage Direct Current Transmission",
+    "definition": "直流を用いて大容量電力を長距離または海底ケーブルで効率よく送る送電技術。交流連系の制約を回避でき、洋上風力や大陸間連系に有効である。変換所コスト、制御保護、マルチターミナル化、故障遮断が主要課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "広域電力連系",
+    "era_start": 1954,
+    "era_end": null,
+    "keywords_en": "HVDC,converter station",
+    "key_researchers": ["Uno Lamm", "Erich Uhlmann"]
+  },
+  {
+    "name_ja": "パワーエレクトロニクス",
+    "name_en": "Power Electronics",
+    "definition": "半導体スイッチング素子により電圧、電流、周波数、電力の形態を高効率に変換制御する工学分野。インバータ、コンバータ、モータ駆動、再エネ接続、蓄電池、送電に不可欠で、SiCやGaN素子の普及で高周波高温化が進む。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "電力変換制御",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "power electronics,inverter",
+    "key_researchers": ["William E. Newell", "Ned Mohan"]
+  },
+  {
+    "name_ja": "インバータベース資源",
+    "name_en": "Inverter-Based Resources",
+    "definition": "太陽光、風力、蓄電池など電力電子インバータを介して系統へ接続される電源や資源。同期発電機と異なる動特性を持ち、系統形成制御、仮想慣性、短絡電流供給、保護協調、弱系統での安定運転が電力系統設計の新課題となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "再エネ系統統合",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "inverter-based resources,grid-forming",
+    "key_researchers": ["Benjamin Kroposki", "Tim Green"]
+  },
+  {
+    "name_ja": "小型モジュール炉",
+    "name_en": "Small Modular Reactor",
+    "definition": "工場製造やモジュール化により建設リスクを抑え、比較的小出力で柔軟な配置を目指す原子炉。受動安全、段階的増設、熱電併給、遠隔地電源として期待されるが、規制認可、量産効果、燃料供給、廃棄物管理の実証が必要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "モジュール型原子力",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "small modular reactor,SMR",
+    "key_researchers": ["Paul Lorenzini", "Jose Reyes"]
+  },
+  {
+    "name_ja": "高速増殖炉",
+    "name_en": "Fast Breeder Reactor",
+    "definition": "高速中性子を利用し、核分裂で発電しながら親物質を新たな核燃料へ転換する原子炉概念。ウラン資源利用率を高め、長寿命核種の燃焼にも関係するが、ナトリウム冷却材の安全性、燃料再処理、経済性、社会受容が大きな課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "閉じた核燃料サイクル",
+    "era_start": 1951,
+    "era_end": null,
+    "keywords_en": "fast breeder reactor,closed fuel cycle",
+    "key_researchers": ["Enrico Fermi", "Walter Zinn"]
+  },
+  {
+    "name_ja": "溶融塩炉",
+    "name_en": "Molten Salt Reactor",
+    "definition": "燃料または冷却材として高温の溶融塩を用いる原子炉概念。低圧運転、高温熱供給、燃料オンライン処理、トリウム利用の可能性があるが、塩の腐食、材料健全性、核分裂生成物管理、規制基準整備が実用化の焦点となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "革新炉・高温熱利用",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "molten salt reactor,thorium",
+    "key_researchers": ["Alvin Weinberg", "Eugene Wigner"]
+  },
+  {
+    "name_ja": "高温ガス炉",
+    "name_en": "High-Temperature Gas-Cooled Reactor",
+    "definition": "ヘリウムなどの不活性ガスを冷却材に用い、黒鉛減速と被覆粒子燃料で高温熱を取り出す原子炉。発電だけでなく水素製造や産業熱供給に適し、燃料健全性、黒鉛挙動、熱交換器、受動安全評価が設計上の要点となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "原子力熱利用",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "HTGR,TRISO fuel",
+    "key_researchers": ["Rudolf Schulten", "Lothar Hahn"]
+  },
+  {
+    "name_ja": "核燃料サイクル",
+    "name_en": "Nuclear Fuel Cycle",
+    "definition": "ウラン採掘、転換、濃縮、燃料加工、原子炉利用、使用済燃料管理、再処理、廃棄物処分までを含む核燃料の一連の流れ。資源利用、核拡散抵抗性、廃棄物負荷、経済性、安全保障を同時に扱う総合的な概念である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "核資源管理",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "nuclear fuel cycle,reprocessing",
+    "key_researchers": ["Glenn Seaborg", "Bertrand Goldschmidt"]
+  },
+  {
+    "name_ja": "放射性廃棄物処分",
+    "name_en": "Radioactive Waste Disposal",
+    "definition": "原子力利用で発生する放射性廃棄物を、人間と環境から長期に隔離または管理する技術体系。地層処分、人工バリア、天然バリア、廃棄体固化、長期安全評価、社会的合意形成を含み、時間尺度が非常に長い点が特徴である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "長期安全工学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "radioactive waste,geological disposal",
+    "key_researchers": ["Charles McCombie", "Rodney Ewing"]
+  },
+  {
+    "name_ja": "炭素回収貯留",
+    "name_en": "Carbon Capture and Storage",
+    "definition": "発電所や産業設備から排出される二酸化炭素を分離回収し、圧縮して地中深部の帯水層や枯渇油ガス田へ長期貯留する技術。化石燃料利用や産業プロセス排出の低減に有効だが、エネルギーペナルティ、漏洩監視、貯留容量が課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "排出削減インフラ",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "carbon capture,geological storage",
+    "key_researchers": ["Klaus Lackner", "Sally Benson"]
+  },
+  {
+    "name_ja": "炭素回収利用",
+    "name_en": "Carbon Capture and Utilization",
+    "definition": "回収した二酸化炭素を化学品、燃料、鉱物化材料、温室栽培などに利用する技術概念。単なる利用量だけでなく、投入エネルギー、製品寿命、代替効果、ライフサイクル排出で気候便益を評価する必要がある。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "炭素循環利用",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "carbon utilization,CO2 conversion",
+    "key_researchers": ["Michele Aresta", "George Olah"]
+  },
+  {
+    "name_ja": "直接空気回収",
+    "name_en": "Direct Air Capture",
+    "definition": "大気中の低濃度二酸化炭素を化学吸収材や吸着材で直接捕集する負排出技術。貯留と組み合わせれば大気中炭素を削減できるが、処理濃度が低いため熱・電力需要が大きく、吸着材寿命、コスト、低炭素エネルギー供給が重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "負排出技術",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_en": "direct air capture,negative emissions",
+    "key_researchers": ["Klaus Lackner", "David Keith"]
+  },
+  {
+    "name_ja": "エネルギー効率",
+    "name_en": "Energy Efficiency",
+    "definition": "同じ便益やサービスをより少ないエネルギー投入で実現する考え方と技術群。機器効率、建築断熱、廃熱回収、運転最適化、産業プロセス改善を含み、最も費用対効果の高い排出削減手段の一つだが反発効果にも注意が必要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "省エネルギー工学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "energy efficiency,conservation",
+    "key_researchers": ["Amory Lovins", "Arthur Rosenfeld"]
+  },
+  {
+    "name_ja": "コージェネレーション",
+    "name_en": "Cogeneration",
+    "definition": "燃料から発電すると同時に排熱を回収し、蒸気、給湯、冷暖房、産業プロセスに利用する熱電併給システム。総合効率を高められるが、電力需要と熱需要の時間的整合、機器容量、燃料価格、排出規制が導入判断を左右する。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "分散型熱電併給",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "cogeneration,combined heat and power",
+    "key_researchers": ["Thomas Edison", "Robert U. Ayres"]
+  },
+  {
+    "name_ja": "コンバインドサイクル発電",
+    "name_en": "Combined Cycle Power Generation",
+    "definition": "ガスタービンで発電した後の高温排ガスを排熱回収ボイラで蒸気に変え、蒸気タービンでも発電する高効率火力発電方式。天然ガス利用で高い熱効率と短い起動時間を持ち、再エネ変動を補う調整力としても使われる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "高効率火力発電",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "combined cycle,gas turbine",
+    "key_researchers": ["Aurel Stodola", "Sanford Moss"]
+  },
+  {
+    "name_ja": "ガスタービン",
+    "name_en": "Gas Turbine",
+    "definition": "圧縮機、燃焼器、タービンで構成され、高温高圧ガスの膨張により軸動力や発電を行う熱機関。航空機、火力発電、非常用電源に用いられ、タービン入口温度、冷却技術、材料、燃焼安定性、低NOx化が性能向上の中心である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "熱機関工学",
+    "era_start": 1939,
+    "era_end": null,
+    "keywords_en": "gas turbine,Brayton cycle",
+    "key_researchers": ["Frank Whittle", "Hans von Ohain"]
+  },
+  {
+    "name_ja": "蒸気タービン",
+    "name_en": "Steam Turbine",
+    "definition": "高温高圧の蒸気を膨張させ、羽根車を回転させて機械仕事や発電を行う熱機関。火力、原子力、地熱、バイオマス発電の基盤技術であり、ランキンサイクル効率、翼設計、復水器、材料クリープ、湿り蒸気損失が重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "熱発電機械",
+    "era_start": 1884,
+    "era_end": null,
+    "keywords_en": "steam turbine,Rankine cycle",
+    "key_researchers": ["Charles Parsons", "Gustaf de Laval"]
+  },
+  {
+    "name_ja": "ヒートポンプ",
+    "name_en": "Heat Pump",
+    "definition": "外部から仕事を加えて低温側から高温側へ熱を移動させる装置。空調、給湯、産業加熱の電化に重要で、成績係数により効率を評価する。冷媒の環境影響、低外気温性能、熱源選択、需要応答との連携が実装上の論点である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "熱需要電化",
+    "era_start": 1852,
+    "era_end": null,
+    "keywords_en": "heat pump,COP",
+    "key_researchers": ["William Thomson", "Peter von Rittinger"]
+  },
+  {
+    "name_ja": "産業廃熱回収",
+    "name_en": "Industrial Waste Heat Recovery",
+    "definition": "工場や発電設備から捨てられる排熱を回収し、蒸気、温水、発電、予熱、ヒートポンプ熱源として再利用する技術。低温から高温まで熱の質に応じた利用設計が必要で、熱交換器汚れ、運転変動、経済性が導入障壁となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "産業省エネルギー",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "waste heat recovery,industrial efficiency",
+    "key_researchers": ["Adrian Bejan", "Yunus Cengel"]
+  },
+  {
+    "name_ja": "エクセルギー解析",
+    "name_en": "Exergy Analysis",
+    "definition": "エネルギーの量だけでなく、環境基準に対してどれだけ有用な仕事へ変換できるかを評価する熱力学的解析。不可逆損失の発生箇所を特定でき、発電、冷凍、化学プロセス、建築設備の効率改善に用いられる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "第二法則熱力学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "exergy,irreversibility",
+    "key_researchers": ["Zoran Rant", "Adrian Bejan"]
+  },
+  {
+    "name_ja": "ライフサイクルアセスメント",
+    "name_en": "Life Cycle Assessment",
+    "definition": "資源採取、製造、輸送、使用、廃棄、リサイクルまでの全過程で環境負荷を定量化する評価手法。エネルギー技術では発電時排出だけでなく設備製造、燃料供給、土地利用、廃棄物を含めた比較に不可欠である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "環境システム評価",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "life cycle assessment,embodied emissions",
+    "key_researchers": ["Harold Smith", "Mary Ann Curran"]
+  },
+  {
+    "name_ja": "エネルギーシステム最適化",
+    "name_en": "Energy System Optimization",
+    "definition": "発電、送配電、貯蔵、需要、燃料供給を数理モデルで表し、費用、排出、信頼度などの目的に対して最適な設備構成や運用を求める手法。線形計画、混合整数計画、確率最適化が用いられ、政策分析にも広く使われる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "数理計画・統合評価",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "energy optimization,capacity expansion",
+    "key_researchers": ["Richard de Neufville", "Daniel Kirschen"]
+  },
+  {
+    "name_ja": "エネルギーモデリング",
+    "name_en": "Energy Modeling",
+    "definition": "技術、需要、価格、政策、資源制約を定量的に表現し、将来のエネルギー需給や排出経路を分析する方法論。ボトムアップ技術モデル、トップダウン経済モデル、統合評価モデルがあり、不確実性と前提条件の透明性が重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "シナリオ分析",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "energy modeling,scenario analysis",
+    "key_researchers": ["Nebojsa Nakicenovic", "Keywan Riahi"]
+  },
+  {
+    "name_ja": "エネルギー経済学",
+    "name_en": "Energy Economics",
+    "definition": "エネルギー資源、価格、投資、需要、規制、市場設計を経済学的に分析する分野。発電コスト、限界費用、外部性、炭素価格、電力市場、資源安全保障を扱い、工学的制約と制度設計を結びつける役割を持つ。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "市場設計・政策評価",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "energy economics,power markets",
+    "key_researchers": ["William Nordhaus", "Severin Borenstein"]
+  },
+  {
+    "name_ja": "エネルギー安全保障",
+    "name_en": "Energy Security",
+    "definition": "経済社会に必要なエネルギーを、受容可能な価格で安定的かつ持続的に確保する概念。輸入依存、燃料多様化、備蓄、インフラ冗長性、地政学リスク、サイバー攻撃、気候災害を含む広いリスク管理の枠組みである。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "レジリエンス・供給リスク管理",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "energy security,resilience",
+    "key_researchers": ["Daniel Yergin", "Cherp Aleh"]
+  },
+  {
+    "name_ja": "エネルギートランジション",
+    "name_en": "Energy Transition",
+    "definition": "化石燃料中心のエネルギー体系から、低炭素で持続可能な電力、燃料、熱、需要構造へ移行する長期的変化。技術革新だけでなく、インフラ更新、政策、投資、雇用、社会受容、資源供給網の再編を伴う複合的な過程である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "脱炭素移行論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "energy transition,decarbonization",
+    "key_researchers": ["Vaclav Smil", "Benjamin Sovacool"]
+  },
+  {
+    "name_ja": "ゼロエネルギービル",
+    "name_en": "Zero Energy Building",
+    "definition": "高断熱、高効率設備、自然採光、換気制御、太陽光発電などにより、年間の一次エネルギー消費量を実質的にゼロへ近づける建築。建築外皮、設備制御、利用者行動、地域気候、蓄電や系統連携を総合設計する必要がある。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "建築エネルギー工学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "zero energy building,building efficiency",
+    "key_researchers": ["Torcellini Paul", "Edward Mazria"]
+  },
+  {
+    "name_ja": "電気自動車",
+    "name_en": "Electric Vehicle",
+    "definition": "蓄電池に蓄えた電力でモータを駆動する自動車。走行時排出がなく、再生可能電力と組み合わせれば輸送部門の脱炭素化に寄与する。電池性能、充電網、車両価格、系統負荷、資源調達、リサイクルが普及の要点である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "交通電化",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "electric vehicle,battery electric",
+    "key_researchers": ["Gaston Planté", "Martin Eberhard"]
+  },
+  {
+    "name_ja": "車両から系統へ",
+    "name_en": "Vehicle-to-Grid",
+    "definition": "電気自動車の蓄電池を単なる移動用電源ではなく、充放電制御により電力系統の調整力として活用する概念。ピーク削減、周波数調整、再エネ吸収に役立つが、電池劣化、利用者利便性、通信規格、報酬制度が導入条件となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "分散蓄電資源統合",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "vehicle-to-grid,V2G",
+    "key_researchers": ["Willett Kempton", "Steven Letendre"]
+  },
+  {
+    "name_ja": "水電解",
+    "name_en": "Water Electrolysis",
+    "definition": "電気エネルギーを用いて水を水素と酸素に分解する電気化学プロセス。アルカリ型、固体高分子型、固体酸化物型があり、再生可能電力由来水素の中核技術である。効率、電極触媒、膜、動的運転、設備コストが研究対象となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "パワー・トゥ・ガス",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "water electrolysis,electrolyzer",
+    "key_researchers": ["William Nicholson", "Anthony Carlisle"]
+  },
+  {
+    "name_ja": "アンモニア燃料",
+    "name_en": "Ammonia Fuel",
+    "definition": "水素を窒素と結合させたアンモニアを、燃焼燃料、発電燃料、水素キャリアとして利用する概念。炭素を含まないため燃焼時CO2を出さないが、低燃焼速度、NOx生成、毒性、漏洩管理、グリーンアンモニア製造が課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "水素キャリア燃料",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "ammonia fuel,hydrogen carrier",
+    "key_researchers": ["Kobayashi Hideaki", "Ryoichi Kuroki"]
+  },
+  {
+    "name_ja": "合成燃料",
+    "name_en": "Synthetic Fuel",
+    "definition": "水素と一酸化炭素または二酸化炭素から化学合成される液体・気体燃料。既存の航空、船舶、内燃機関インフラを活用しやすいが、低炭素化には再生可能電力、グリーン水素、CO2由来、合成効率、ライフサイクル評価が不可欠である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "パワー・トゥ・リキッド",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "synthetic fuel,power-to-liquid",
+    "key_researchers": ["Franz Fischer", "Hans Tropsch"]
+  },
+  {
+    "name_ja": "バイオ燃料",
+    "name_en": "Biofuel",
+    "definition": "植物、藻類、廃棄物など生物由来資源から製造される液体または気体燃料。エタノール、バイオディーゼル、バイオジェット、バイオメタンを含み、輸送部門の低炭素化に使われるが、食料競合、土地利用変化、水利用の評価が重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "再生可能液体燃料",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "biofuel,cellulosic ethanol",
+    "key_researchers": ["Lee Lynd", "Bruce Dale"]
+  },
+  {
+    "name_ja": "海洋エネルギー",
+    "name_en": "Marine Energy",
+    "definition": "波力、潮流、潮汐、海洋温度差、塩分濃度差など海洋に存在するエネルギーを電力へ変換する技術群。資源量は大きいが、海況の厳しさ、腐食、係留、保守費、漁業や環境との調整により実用化は段階的に進んでいる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "海洋再生可能資源",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "marine energy,wave power",
+    "key_researchers": ["Stephen Salter", "Yoshio Masuda"]
+  },
+  {
+    "name_ja": "浮体式洋上風力",
+    "name_en": "Floating Offshore Wind",
+    "definition": "海底に固定基礎を設置しにくい深い海域で、浮体構造物に風車を載せて発電する洋上風力技術。強い風資源を利用できるが、浮体動揺、係留、送電ケーブル、施工保守、台風や高波への耐久性が設計の中心となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "洋上再生可能発電",
+    "era_start": 2009,
+    "era_end": null,
+    "keywords_en": "floating offshore wind,mooring",
+    "key_researchers": ["Henrik Stiesdal", "Walt Musial"]
+  },
+  {
+    "name_ja": "ペロブスカイト太陽電池",
+    "name_en": "Perovskite Solar Cell",
+    "definition": "ペロブスカイト結晶構造を持つ光吸収材料を用いる薄膜太陽電池。低温塗布や軽量柔軟化、タンデム化による高効率が期待される一方、湿度、熱、光による劣化、鉛含有、封止、量産均一性が実用化の課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "新規光電変換材料",
+    "era_start": 2009,
+    "era_end": null,
+    "keywords_en": "perovskite solar cell,tandem photovoltaics",
+    "key_researchers": ["Tsutomu Miyasaka", "Henry Snaith"]
+  },
+  {
+    "name_ja": "ワイヤレス電力伝送",
+    "name_en": "Wireless Power Transfer",
+    "definition": "導線を用いず、電磁誘導、磁界共鳴、マイクロ波、レーザーなどで電力を空間的に伝送する技術。小型機器充電、電気自動車、宇宙太陽光発電に応用されるが、効率、位置ずれ、電磁安全性、標準化、長距離伝送損失が課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "非接触エネルギー伝送",
+    "era_start": 1891,
+    "era_end": null,
+    "keywords_en": "wireless power transfer,resonant coupling",
+    "key_researchers": ["Nikola Tesla", "Marin Soljacic"]
+  },
+  {
+    "name_ja": "宇宙太陽光発電",
+    "name_en": "Space-Based Solar Power",
+    "definition": "宇宙空間で太陽光を集めて発電し、マイクロ波やレーザーで地上へ送電する構想。昼夜や天候の影響を受けにくい発電が可能だが、打ち上げコスト、巨大構造物の組立、送電安全性、受電設備、軌道運用が大きな技術課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "宇宙エネルギーシステム",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "space solar power,wireless transmission",
+    "key_researchers": ["Peter Glaser", "John Mankins"]
+  },
+  {
+    "name_ja": "人工光合成",
+    "name_en": "Artificial Photosynthesis",
+    "definition": "太陽光を利用して水や二酸化炭素を化学燃料へ変換する、自然の光合成に着想を得た技術。光触媒、光電極、分子触媒を組み合わせ、水素、酸素、炭素系燃料を生成する。効率、選択性、耐久性、スケール化が研究課題である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "太陽燃料化学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "artificial photosynthesis,solar fuels",
+    "key_researchers": ["Akira Fujishima", "Kenichi Honda"]
+  },
+  {
+    "name_ja": "超電導送電",
+    "name_en": "Superconducting Power Transmission",
+    "definition": "極低温で電気抵抗がほぼゼロとなる超電導材料を用い、大電流を低損失で送る送電技術。都市部高密度送電や直流送電への応用が期待されるが、冷却システム、クエンチ保護、材料コスト、長尺ケーブル製造が実用化の制約となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "先端送電材料",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "superconducting cable,cryogenics",
+    "key_researchers": ["Heike Kamerlingh Onnes", "Johannes Georg Bednorz"]
+  },
+  {
+    "name_ja": "仮想発電所",
+    "name_en": "Virtual Power Plant",
+    "definition": "多数の分散電源、蓄電池、需要応答、電気自動車を通信制御で束ね、外部から一つの発電所のように運用する仕組み。電力市場参加、需給調整、再エネ統合に有効で、予測、制御、契約、サイバーセキュリティが成立条件である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "分散資源アグリゲーション",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "virtual power plant,DER aggregation",
+    "key_researchers": ["Fereidoon Sioshansi", "Mark O'Malley"]
+  },
+  {
+    "name_ja": "エネルギーハーベスティング",
+    "name_en": "Energy Harvesting",
+    "definition": "環境中の微小な光、振動、熱、電波、流体エネルギーを収集し、センサーや低消費電力機器の電源として利用する技術。IoTや遠隔監視で電池交換を減らせるが、出力密度、間欠性、蓄電、電源管理回路の効率が重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "自立分散電源",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "energy harvesting,low-power electronics",
+    "key_researchers": ["Shashank Priya", "Zhong Lin Wang"]
+  },
+  {
+    "name_ja": "熱電変換",
+    "name_en": "Thermoelectric Conversion",
+    "definition": "温度差から電圧を生じるゼーベック効果、または電流で熱移動を起こすペルチェ効果を利用するエネルギー変換技術。廃熱発電や精密冷却に使われ、性能指数、材料毒性、熱接触抵抗、低コスト製造が研究の焦点となる。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "固体熱電材料",
+    "era_start": 1821,
+    "era_end": null,
+    "keywords_en": "thermoelectric,Seebeck effect",
+    "key_researchers": ["Thomas Johann Seebeck", "H. Julian Goldsmid"]
+  },
+  {
+    "name_ja": "有機ランキンサイクル",
+    "name_en": "Organic Rankine Cycle",
+    "definition": "水より低沸点の有機作動媒体を用い、低温から中温の熱源でタービン発電を行うランキンサイクル。地熱、バイオマス、産業廃熱、太陽熱に適用できるが、媒体選定、熱交換器、部分負荷効率、環境影響が設計上重要である。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "低温熱発電",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "organic Rankine cycle,low-grade heat",
+    "key_researchers": ["Lucien Bronicki", "Gianfranco Angelino"]
+  },
+  {
+    "name_ja": "エネルギー貧困",
+    "name_en": "Energy Poverty",
+    "definition": "家庭や地域が健康で文化的な生活に必要なエネルギーサービスを十分かつ手頃な価格で利用できない状態。暖冷房、照明、調理、通信に影響し、所得、住宅性能、燃料価格、インフラ不足が要因となるため、技術と政策の双方で対処する必要がある。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "エネルギー正義",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "energy poverty,energy justice",
+    "key_researchers": ["Brenda Boardman", "Benjamin Sovacool"]
+  },
+  {
+    "name_ja": "レジリエント電力インフラ",
+    "name_en": "Resilient Power Infrastructure",
+    "definition": "自然災害、サイバー攻撃、設備故障、燃料途絶などの外乱を受けても、重要な電力サービスを維持し迅速に復旧できるインフラ設計。冗長性、分散電源、マイクログリッド、ブラックスタート、リスク評価、復旧計画を統合して考える。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "インフラレジリエンス",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "power resilience,black start",
+    "key_researchers": ["M. Granger Morgan", "Panteli Mathaios"]
+  }
+]
+tokens used
+30,801

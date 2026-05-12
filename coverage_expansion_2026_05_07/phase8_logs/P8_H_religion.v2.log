@@ -1,0 +1,831 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0989-b2aa-7f61-825b-22fd66277f82
+--------
+user
+「宗教学・神学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+世俗化のグローバル批判、デジタル宗教、解放の神学、気候宗教学、Lived Religion
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"宗教学・神学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "世俗化のグローバル批判",
+    "name_en": "Global Critiques of Secularization",
+    "definition": "近代化が必然的に宗教の衰退をもたらすという古典的世俗化論を、欧米中心主義、植民地主義、公共宗教の再興、多元的近代性の観点から批判する概念。地域ごとの宗教実践、国家制度、公共圏の差異を重視し、宗教と近代の関係を単線的発展ではなく複数の歴史的配置として捉える。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "ポスト世俗論・グローバル宗教研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "secularization,global religion,multiple modernities",
+    "key_researchers": ["José Casanova", "Talal Asad", "Charles Taylor"]
+  },
+  {
+    "name_ja": "デジタル宗教",
+    "name_en": "Digital Religion",
+    "definition": "インターネット、SNS、仮想空間、配信メディア、AIなどを通じて形成される宗教実践、共同体、権威、儀礼経験を研究する概念。オンラインとオフラインを分離せず、信仰表現、布教、巡礼、祈り、宗教的アイデンティティがデジタル環境でどのように再構成されるかを分析する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "メディア宗教学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "digital religion,online ritual,networked religion",
+    "key_researchers": ["Heidi Campbell", "Christopher Helland", "Pauline Hope Cheong"]
+  },
+  {
+    "name_ja": "解放の神学",
+    "name_en": "Liberation Theology",
+    "definition": "貧困、抑圧、植民地主義、階級的不正義の現実から神学を構築し、信仰を社会変革の実践と結びつける神学潮流。ラテンアメリカの文脈で発展し、聖書解釈、教会の使命、救済理解を被抑圧者の視点から再考し、正義と解放を神学の中心課題とした。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "解放神学",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "liberation theology,poverty,justice",
+    "key_researchers": ["Gustavo Gutiérrez", "Leonardo Boff", "Jon Sobrino"]
+  },
+  {
+    "name_ja": "気候宗教学",
+    "name_en": "Climate Religious Studies",
+    "definition": "気候変動を宗教思想、倫理、儀礼、終末論、環境運動、先住民知、宗教共同体の実践から分析する研究領域。宗教が環境破壊を正当化してきた側面と、ケア、悔い改め、創造世界の保全、気候正義を促す資源となる側面の双方を検討する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教環境学・エコ神学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "climate religion,ecotheology,climate justice",
+    "key_researchers": ["Mary Evelyn Tucker", "Willis Jenkins", "Sallie McFague"]
+  },
+  {
+    "name_ja": "Lived Religion",
+    "name_en": "Lived Religion",
+    "definition": "制度宗教や公式教義だけでなく、人々が日常生活の中で実際に経験し、実践し、意味づける宗教を対象とする概念。家庭、身体、物、記憶、感情、地域社会、非公式な儀礼に注目し、信仰が生活世界の中でどのように編み込まれるかを経験的に明らかにする。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "日常宗教研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "lived religion,everyday religion,practice",
+    "key_researchers": ["Robert Orsi", "Meredith McGuire", "Nancy Ammerman"]
+  },
+  {
+    "name_ja": "聖なるもの",
+    "name_en": "The Sacred",
+    "definition": "日常的・世俗的なものから区別され、畏怖、禁忌、尊崇、共同体的拘束力を帯びる特別な存在領域や価値を指す概念。宗教現象を神観念だけでなく、空間、時間、物、身体、社会秩序に現れる聖性として理解するための基礎概念である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教現象学・社会学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "sacred,profane,taboo",
+    "key_researchers": ["Émile Durkheim", "Mircea Eliade", "Rudolf Otto"]
+  },
+  {
+    "name_ja": "ヌミノーゼ",
+    "name_en": "Numinous",
+    "definition": "人間が神聖なものに出会う際に経験する、理性的説明を超えた畏怖、魅惑、恐れ、神秘感を表す概念。宗教経験を道徳や教義に還元せず、圧倒的な他者性に触れる感情的・存在論的体験として記述するために用いられる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教現象学",
+    "era_start": 1917,
+    "era_end": null,
+    "keywords_en": "numinous,mysterium tremendum,religious experience",
+    "key_researchers": ["Rudolf Otto", "Mircea Eliade", "Ninian Smart"]
+  },
+  {
+    "name_ja": "宗教経験",
+    "name_en": "Religious Experience",
+    "definition": "神、聖なるもの、究極的実在、超越的意味との接触として理解される主観的経験を指す概念。回心、神秘体験、祈り、啓示、救済感、畏怖などを含み、心理学、現象学、神学、認知科学の交差点で研究される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教心理学・宗教現象学",
+    "era_start": 1902,
+    "era_end": null,
+    "keywords_en": "religious experience,mysticism,conversion",
+    "key_researchers": ["William James", "Friedrich Schleiermacher", "Wayne Proudfoot"]
+  },
+  {
+    "name_ja": "宗教儀礼",
+    "name_en": "Ritual",
+    "definition": "反復され、形式化され、象徴的意味を帯びた行為を通じて、共同体、身体、時間、権威、聖性を構成する宗教的実践を指す概念。儀礼は信念の表現にとどまらず、社会関係を再編し、参加者の感情と認識を形成する行為として分析される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "儀礼研究",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "ritual,performance,symbolic action",
+    "key_researchers": ["Victor Turner", "Catherine Bell", "Arnold van Gennep"]
+  },
+  {
+    "name_ja": "通過儀礼",
+    "name_en": "Rites of Passage",
+    "definition": "誕生、成人、結婚、死、入信など、人生や社会的地位の移行を構造化する儀礼の概念。分離、過渡、統合という段階を通じて、個人の変化を共同体が承認し、秩序の再編と象徴的再生を実現する過程として理解される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "人類学的宗教学",
+    "era_start": 1909,
+    "era_end": null,
+    "keywords_en": "rites of passage,liminality,initiation",
+    "key_researchers": ["Arnold van Gennep", "Victor Turner", "Mary Douglas"]
+  },
+  {
+    "name_ja": "リミナリティ",
+    "name_en": "Liminality",
+    "definition": "通過儀礼や社会的変化の途中に生じる、既存の身分や秩序から一時的に外れた境界的状態を指す概念。曖昧さ、反構造、共同性、創造的変容を特徴とし、宗教儀礼だけでなく巡礼、祭礼、社会運動の分析にも応用される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "象徴人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "liminality,communitas,transition",
+    "key_researchers": ["Victor Turner", "Arnold van Gennep", "Edith Turner"]
+  },
+  {
+    "name_ja": "神話",
+    "name_en": "Myth",
+    "definition": "世界の起源、神々、祖先、秩序、死、救済、共同体の正統性を語る象徴的物語を指す概念。神話は単なる虚構ではなく、儀礼、倫理、政治、宇宙観を支え、人々が現実を理解し行動するための意味体系として機能する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "神話学・構造主義",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "myth,cosmogony,symbolic narrative",
+    "key_researchers": ["Mircea Eliade", "Claude Lévi-Strauss", "Joseph Campbell"]
+  },
+  {
+    "name_ja": "宗教象徴",
+    "name_en": "Religious Symbol",
+    "definition": "目に見える形、物語、音、身振り、場所、身体表現を通じて、不可視の価値や超越的意味を媒介する概念。象徴は単に意味を表す記号ではなく、感情を喚起し、共同体の記憶を保持し、宗教的世界観を経験可能にする働きを持つ。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "象徴解釈学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "symbol,religious meaning,hermeneutics",
+    "key_researchers": ["Paul Tillich", "Clifford Geertz", "Victor Turner"]
+  },
+  {
+    "name_ja": "宗教的世界観",
+    "name_en": "Religious Worldview",
+    "definition": "宇宙、人間、死、苦難、善悪、救済、究極的意味についての包括的な理解枠組みを指す概念。宗教的世界観は教義だけでなく、儀礼、生活習慣、社会制度、物語、倫理的判断に浸透し、人々の現実認識を方向づける。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "解釈人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "worldview,meaning system,religion and culture",
+    "key_researchers": ["Clifford Geertz", "Ninian Smart", "Peter Berger"]
+  },
+  {
+    "name_ja": "宗教共同体",
+    "name_en": "Religious Community",
+    "definition": "信仰、儀礼、記憶、倫理、制度、空間を共有する人々の集合を指す概念。教会、寺院、ウンマ、サンガ、教団、ネットワーク型共同体など多様な形を取り、帰属意識、相互扶助、規範形成、権威の維持に関わる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教社会学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "religious community,belonging,institution",
+    "key_researchers": ["Max Weber", "Émile Durkheim", "Grace Davie"]
+  },
+  {
+    "name_ja": "カリスマ",
+    "name_en": "Charisma",
+    "definition": "特定の人物が超常的、霊的、英雄的、預言者的な資質を持つと信じられ、その権威が信奉者に承認される現象を指す概念。宗教運動の創始、預言、改革、教団形成に関わり、制度化される過程で伝統的権威や官僚制へ変化することがある。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "ウェーバー宗教社会学",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_en": "charisma,authority,prophet",
+    "key_researchers": ["Max Weber", "Bryan Wilson", "Ann Taves"]
+  },
+  {
+    "name_ja": "宗教的権威",
+    "name_en": "Religious Authority",
+    "definition": "教義解釈、儀礼執行、共同体統治、聖典理解、救済の媒介に正統性を与える力を指す概念。聖職者、預言者、聖典、伝統、制度、霊的経験、デジタル発信者など多様な担い手があり、近代以降は分散化と再編が進んでいる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教社会学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "religious authority,legitimacy,institution",
+    "key_researchers": ["Max Weber", "Pierre Bourdieu", "Heidi Campbell"]
+  },
+  {
+    "name_ja": "教義",
+    "name_en": "Doctrine",
+    "definition": "宗教共同体が真理、神、救済、人間、世界について公的に表明し、教育し、継承する体系的信念を指す概念。教義は信仰の境界を定め、異端や正統を区別し、儀礼や倫理を方向づけるが、歴史的文脈に応じて解釈と再定式化を受ける。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "組織神学",
+    "era_start": 100,
+    "era_end": null,
+    "keywords_en": "doctrine,orthodoxy,theology",
+    "key_researchers": ["Karl Barth", "Alister McGrath", "Jaroslav Pelikan"]
+  },
+  {
+    "name_ja": "正統と異端",
+    "name_en": "Orthodoxy and Heresy",
+    "definition": "宗教共同体において受容された正しい信仰と、逸脱した信仰や実践を区別する概念。単なる教義上の違いではなく、権威、制度、政治、共同体境界、歴史記述と結びつき、誰が真理を定義するのかという権力関係を含む。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "歴史神学",
+    "era_start": 150,
+    "era_end": null,
+    "keywords_en": "orthodoxy,heresy,boundary making",
+    "key_researchers": ["Walter Bauer", "Elaine Pagels", "Jaroslav Pelikan"]
+  },
+  {
+    "name_ja": "聖典",
+    "name_en": "Scripture",
+    "definition": "宗教共同体によって特別な権威を持つものとして読まれ、朗読され、解釈され、儀礼や倫理の基盤となるテクスト群を指す概念。聖典は固定された文字資料であるだけでなく、口承、注釈、翻訳、読書実践を通じて生きた権威として機能する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "聖典解釈学",
+    "era_start": 0,
+    "era_end": null,
+    "keywords_en": "scripture,canon,interpretation",
+    "key_researchers": ["Wilfred Cantwell Smith", "James Barr", "Brevard Childs"]
+  },
+  {
+    "name_ja": "聖典正典化",
+    "name_en": "Canonization",
+    "definition": "特定の文書や伝承が宗教共同体において規範的権威を持つ聖典として選定、整理、承認される過程を指す概念。正典化は神学的判断だけでなく、礼拝での使用、共同体の境界形成、権威争い、歴史的記憶の編成と密接に関わる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "聖典研究",
+    "era_start": 100,
+    "era_end": null,
+    "keywords_en": "canonization,scriptural canon,textual authority",
+    "key_researchers": ["Brevard Childs", "Lee Martin McDonald", "Moshe Halbertal"]
+  },
+  {
+    "name_ja": "解釈学",
+    "name_en": "Hermeneutics",
+    "definition": "聖典、伝統、象徴、儀礼、宗教経験をどのように理解し意味づけるかを扱う理論と方法の概念。テクストの歴史的意味、読者の地平、共同体の伝統、権力関係を考慮し、宗教的真理が解釈を通じて生成される過程を分析する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "哲学的解釈学",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "hermeneutics,interpretation,text",
+    "key_researchers": ["Friedrich Schleiermacher", "Hans-Georg Gadamer", "Paul Ricoeur"]
+  },
+  {
+    "name_ja": "啓示",
+    "name_en": "Revelation",
+    "definition": "神や究極的実在が、人間に真理、意志、救済の道、存在の意味を示す出来事や過程を指す概念。聖典、預言、歴史、自然、内的経験、キリスト論的出来事など多様に理解され、神学における認識論と権威論の核心をなす。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "組織神学",
+    "era_start": 100,
+    "era_end": null,
+    "keywords_en": "revelation,divine disclosure,theology",
+    "key_researchers": ["Karl Barth", "Avery Dulles", "Wolfhart Pannenberg"]
+  },
+  {
+    "name_ja": "信仰",
+    "name_en": "Faith",
+    "definition": "神、救済、究極的意味、宗教的真理への信頼、応答、帰依、実存的コミットメントを指す概念。信仰は知識の欠如を補う信念ではなく、認識、実践、感情、共同体帰属、倫理的生き方を含む包括的な関係性として理解される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "神学的人間論",
+    "era_start": 50,
+    "era_end": null,
+    "keywords_en": "faith,trust,belief",
+    "key_researchers": ["Augustine of Hippo", "Martin Luther", "Paul Tillich"]
+  },
+  {
+    "name_ja": "救済",
+    "name_en": "Salvation",
+    "definition": "罪、苦しみ、無知、輪廻、死、疎外、不正義などからの解放や、神・究極的実在との正しい関係の回復を指す概念。宗教ごとに解脱、成仏、義認、贖罪、癒やし、共同体的解放など多様な形を取り、宗教的実践の目標を示す。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "救済論",
+    "era_start": 50,
+    "era_end": null,
+    "keywords_en": "salvation,soteriology,liberation",
+    "key_researchers": ["Anselm of Canterbury", "Gustaf Aulén", "Gustavo Gutiérrez"]
+  },
+  {
+    "name_ja": "罪",
+    "name_en": "Sin",
+    "definition": "神、他者、共同体、自己、世界との正しい関係を損なう状態や行為を指す神学的概念。個人的違反だけでなく、構造的悪、社会的不正、欲望の歪み、存在論的疎外としても理解され、救済論や倫理学と深く結びつく。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教神学",
+    "era_start": 100,
+    "era_end": null,
+    "keywords_en": "sin,evil,alienation",
+    "key_researchers": ["Augustine of Hippo", "Reinhold Niebuhr", "Paul Ricoeur"]
+  },
+  {
+    "name_ja": "恩寵",
+    "name_en": "Grace",
+    "definition": "人間の功績や資格に先立って与えられる神の無償の働き、赦し、救済的関与を指す概念。恩寵は信仰、義認、聖化、自由意志、教会の秘跡理解と密接に関わり、神と人間の関係を贈与と応答として捉える中心語である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教救済論",
+    "era_start": 400,
+    "era_end": null,
+    "keywords_en": "grace,justification,gift",
+    "key_researchers": ["Augustine of Hippo", "Thomas Aquinas", "Martin Luther"]
+  },
+  {
+    "name_ja": "義認",
+    "name_en": "Justification",
+    "definition": "人間が神の前で義とされることをめぐる神学概念で、信仰、恩寵、行為、赦し、キリストの働きの関係を扱う。宗教改革では中心論点となり、人間の救済が制度的功績ではなく神の恵みによるという理解を強く打ち出した。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教改革神学",
+    "era_start": 1517,
+    "era_end": null,
+    "keywords_en": "justification,grace,faith",
+    "key_researchers": ["Martin Luther", "John Calvin", "E. P. Sanders"]
+  },
+  {
+    "name_ja": "贖罪",
+    "name_en": "Atonement",
+    "definition": "罪や悪によって破れた神と人間の関係が、キリストの死、犠牲、勝利、代表、連帯などを通じて回復されることを説明する神学概念。満足説、刑罰代償説、道徳感化説、勝利者キリスト論など複数のモデルがある。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教救済論",
+    "era_start": 1000,
+    "era_end": null,
+    "keywords_en": "atonement,redemption,cross",
+    "key_researchers": ["Anselm of Canterbury", "Peter Abelard", "Gustaf Aulén"]
+  },
+  {
+    "name_ja": "終末論",
+    "name_en": "Eschatology",
+    "definition": "死後の運命、最後の審判、神の国、歴史の完成、復活、解放、世界の終末を扱う宗教思想の概念。個人の未来だけでなく、歴史、政治、希望、危機意識を形づくり、社会運動や黙示思想にも大きな影響を与える。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "終末論神学",
+    "era_start": 50,
+    "era_end": null,
+    "keywords_en": "eschatology,end times,hope",
+    "key_researchers": ["Albert Schweitzer", "Jürgen Moltmann", "N. T. Wright"]
+  },
+  {
+    "name_ja": "神義論",
+    "name_en": "Theodicy",
+    "definition": "全能で善なる神の存在と、悪、苦難、不正、災害の現実をどのように両立させるかを問う概念。自由意志、防御、魂の成長、抗議、沈黙、苦難への連帯など多様な応答があり、哲学的神学と実践神学の重要問題である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "哲学的神学",
+    "era_start": 1710,
+    "era_end": null,
+    "keywords_en": "theodicy,evil,suffering",
+    "key_researchers": ["Gottfried Wilhelm Leibniz", "John Hick", "Jürgen Moltmann"]
+  },
+  {
+    "name_ja": "三位一体",
+    "name_en": "Trinity",
+    "definition": "キリスト教において、父、子、聖霊が一つの神でありながら区別された位格として存在することを表す教義。単なる抽象的公式ではなく、創造、救済、祈り、教会、愛の関係性を理解する中心的枠組みとして発展した。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教教義学",
+    "era_start": 325,
+    "era_end": null,
+    "keywords_en": "Trinity,Christian doctrine,personhood",
+    "key_researchers": ["Athanasius of Alexandria", "Augustine of Hippo", "Karl Rahner"]
+  },
+  {
+    "name_ja": "キリスト論",
+    "name_en": "Christology",
+    "definition": "イエス・キリストの人格、神性、人性、歴史的活動、救済的意義を扱う神学領域。古代公会議における定式化から現代の歴史的イエス研究、解放の神学、フェミニスト神学まで、イエスの意味を多角的に問う。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教神学",
+    "era_start": 100,
+    "era_end": null,
+    "keywords_en": "Christology,Jesus,incarnation",
+    "key_researchers": ["Athanasius of Alexandria", "Karl Barth", "Elizabeth Johnson"]
+  },
+  {
+    "name_ja": "受肉",
+    "name_en": "Incarnation",
+    "definition": "神の言が人間イエスとして肉を取り、歴史の中に現れたとするキリスト教神学の中心概念。神と世界、身体、歴史、物質性の関係を肯定的に捉える根拠となり、救済論、秘跡論、キリスト論、身体神学に大きな影響を持つ。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教教義学",
+    "era_start": 325,
+    "era_end": null,
+    "keywords_en": "incarnation,Word made flesh,Christology",
+    "key_researchers": ["Athanasius of Alexandria", "Thomas Aquinas", "Karl Barth"]
+  },
+  {
+    "name_ja": "秘跡",
+    "name_en": "Sacrament",
+    "definition": "洗礼や聖餐など、見えるしるしを通じて神の恩寵が媒介されると理解される宗教的行為を指す概念。物質、言葉、身体、共同体、信仰が結びつき、神の働きが儀礼的実践の中で経験される場として説明される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "秘跡神学",
+    "era_start": 200,
+    "era_end": null,
+    "keywords_en": "sacrament,grace,ritual",
+    "key_researchers": ["Augustine of Hippo", "Thomas Aquinas", "Louis-Marie Chauvet"]
+  },
+  {
+    "name_ja": "教会論",
+    "name_en": "Ecclesiology",
+    "definition": "教会とは何か、その使命、権威、制度、礼拝、共同体性、社会的責任を扱う神学領域。教会を救済の共同体、神の民、キリストの身体、霊的交わり、公共的証言の主体として理解する多様なモデルを検討する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "キリスト教組織神学",
+    "era_start": 100,
+    "era_end": null,
+    "keywords_en": "ecclesiology,church,community",
+    "key_researchers": ["Yves Congar", "Avery Dulles", "Miroslav Volf"]
+  },
+  {
+    "name_ja": "公共神学",
+    "name_en": "Public Theology",
+    "definition": "宗教的信念や神学的議論が、民主主義、公共政策、人権、経済、環境、戦争、社会福祉などの公共的課題にどのように関与できるかを問う領域。宗教を私的領域に限定せず、多元社会における翻訳、対話、批判的貢献を重視する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "公共神学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "public theology,public sphere,democracy",
+    "key_researchers": ["David Tracy", "Max Stackhouse", "Miroslav Volf"]
+  },
+  {
+    "name_ja": "政治神学",
+    "name_en": "Political Theology",
+    "definition": "神学概念と政治権力、主権、法、例外状態、共同体、革命、正義の関係を問う概念。宗教が政治を正当化する仕組みだけでなく、政治概念の神学的起源や、信仰による国家権力への批判を分析する領域である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "政治神学",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_en": "political theology,sovereignty,power",
+    "key_researchers": ["Carl Schmitt", "Johann Baptist Metz", "Jürgen Moltmann"]
+  },
+  {
+    "name_ja": "フェミニスト神学",
+    "name_en": "Feminist Theology",
+    "definition": "家父長制、男性中心的聖典解釈、制度的排除、身体観、神表象を批判し、女性やジェンダー化された主体の経験から神学を再構築する潮流。宗教伝統の抑圧的側面を問うと同時に、解放的資源を再読し共同体と倫理を再考する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "フェミニスト神学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "feminist theology,gender,patriarchy",
+    "key_researchers": ["Rosemary Radford Ruether", "Elisabeth Schüssler Fiorenza", "Elizabeth Johnson"]
+  },
+  {
+    "name_ja": "ウーマニスト神学",
+    "name_en": "Womanist Theology",
+    "definition": "黒人女性の経験、共同体、身体、抵抗、霊性を出発点として、白人中心のフェミニスト神学と男性中心の黒人神学の限界を批判する神学潮流。人種、ジェンダー、階級、家族、教会、サバイバルを交差的に扱い、解放と全体性を追求する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "ウーマニスト神学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "womanist theology,Black women,intersectionality",
+    "key_researchers": ["Delores Williams", "Katie Cannon", "Jacquelyn Grant"]
+  },
+  {
+    "name_ja": "ブラック神学",
+    "name_en": "Black Theology",
+    "definition": "黒人の歴史的抑圧、奴隷制、人種差別、抵抗運動の経験から、神、キリスト、救済、教会を再解釈する神学潮流。神を被抑圧者の解放に関与する存在として理解し、人種的正義と宗教的信仰を不可分のものとして論じる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "黒人解放神学",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "Black theology,race,liberation",
+    "key_researchers": ["James H. Cone", "J. Deotis Roberts", "Kelly Brown Douglas"]
+  },
+  {
+    "name_ja": "ポストコロニアル神学",
+    "name_en": "Postcolonial Theology",
+    "definition": "植民地主義、帝国主義、宣教、聖典解釈、文化的支配の歴史を批判し、周縁化された人々の視点から神学を再構築する潮流。西洋中心的普遍主義を問い、混淆性、抵抗、記憶、翻訳、脱植民地化を神学的課題として扱う。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "ポストコロニアル神学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "postcolonial theology,empire,decolonization",
+    "key_researchers": ["R. S. Sugirtharajah", "Kwok Pui-lan", "Catherine Keller"]
+  },
+  {
+    "name_ja": "クィア神学",
+    "name_en": "Queer Theology",
+    "definition": "性的規範、ジェンダー二元論、家族観、身体観、正統性の境界を批判し、クィアな経験から神学を再構築する潮流。神、キリスト、聖性、欲望、共同体を固定的秩序ではなく、逸脱、流動性、関係性、解放の視点から考察する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "クィア神学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "queer theology,sexuality,gender",
+    "key_researchers": ["Marcella Althaus-Reid", "Patrick Cheng", "Elizabeth Stuart"]
+  },
+  {
+    "name_ja": "エコ神学",
+    "name_en": "Ecotheology",
+    "definition": "神、創造、自然、人間、倫理の関係を環境危機の文脈で再考する神学領域。人間中心主義を批判し、創造世界の価値、生態系への責任、非人間存在との関係、環境正義、持続可能性を信仰の課題として位置づける。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "エコ神学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "ecotheology,creation,environmental ethics",
+    "key_researchers": ["Sallie McFague", "Jürgen Moltmann", "Rosemary Radford Ruether"]
+  },
+  {
+    "name_ja": "宗教多元主義",
+    "name_en": "Religious Pluralism",
+    "definition": "複数の宗教伝統が単に並存するだけでなく、それぞれが真理、救済、倫理、共同生活に関わる意味ある道として認められうるかを問う概念。排他主義、包括主義、多元主義の議論を通じ、他宗教理解と対話の理論を形成する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教間対話論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "religious pluralism,interfaith dialogue,truth",
+    "key_researchers": ["John Hick", "Paul Knitter", "Diana Eck"]
+  },
+  {
+    "name_ja": "宗教間対話",
+    "name_en": "Interreligious Dialogue",
+    "definition": "異なる宗教伝統の信徒や思想家が、相互理解、平和構築、共同実践、神学的学習のために対話する営みを指す概念。教義の比較だけでなく、祈り、倫理、社会課題、共同体間の信頼形成を含む実践的過程である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "対話神学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "interreligious dialogue,interfaith,mutual understanding",
+    "key_researchers": ["Raimon Panikkar", "Hans Küng", "Diana Eck"]
+  },
+  {
+    "name_ja": "比較神学",
+    "name_en": "Comparative Theology",
+    "definition": "他宗教の聖典、儀礼、思想を深く学ぶことで、自らの信仰伝統を再理解し神学的洞察を得る方法論。外部から宗教を単に比較分類するのではなく、学習、翻訳、自己変容、信仰内省を伴う神学的実践として展開される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "比較神学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "comparative theology,interreligious learning,scripture",
+    "key_researchers": ["Francis X. Clooney", "James Fredericks", "Raimon Panikkar"]
+  },
+  {
+    "name_ja": "宗教とナショナリズム",
+    "name_en": "Religion and Nationalism",
+    "definition": "宗教的象徴、神話、儀礼、聖地、殉教記憶が、国民形成や国家アイデンティティにどのように利用されるかを分析する概念。宗教は国民統合の資源にも排除や暴力の装置にもなり、近代国家と宗教の複雑な相互作用を示す。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "政治宗教学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "religion,nationalism,identity",
+    "key_researchers": ["Benedict Anderson", "Mark Juergensmeyer", "Rogers Brubaker"]
+  },
+  {
+    "name_ja": "宗教と暴力",
+    "name_en": "Religion and Violence",
+    "definition": "宗教的言説、終末論、犠牲、殉教、聖戦、共同体境界が暴力とどのように関係するかを問う概念。宗教が暴力の直接原因であるという単純化を避け、政治、植民地主義、国家権力、社会的不安、象徴体系との絡み合いを分析する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教政治学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "religion and violence,sacrifice,conflict",
+    "key_researchers": ["René Girard", "Mark Juergensmeyer", "William Cavanaugh"]
+  },
+  {
+    "name_ja": "宗教と平和構築",
+    "name_en": "Religion and Peacebuilding",
+    "definition": "宗教共同体、指導者、儀礼、赦し、和解、記憶の実践が、紛争後社会や分断された共同体の平和形成に果たす役割を扱う概念。宗教が対立要因であるだけでなく、信頼回復、対話、癒やし、正義の資源となる可能性を検討する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "平和学的宗教研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "peacebuilding,reconciliation,religion",
+    "key_researchers": ["John Paul Lederach", "Scott Appleby", "Marc Gopin"]
+  },
+  {
+    "name_ja": "宗教市場論",
+    "name_en": "Religious Economy Theory",
+    "definition": "宗教団体を需要と供給、競争、合理的選択、組織戦略の観点から分析する理論。国家による宗教規制や宗教的多元性が参加率に影響するという仮説を提示し、宗教衰退を近代化の必然ではなく市場構造の問題として捉える。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "合理的選択宗教社会学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "religious economy,rational choice,competition",
+    "key_researchers": ["Rodney Stark", "Roger Finke", "Laurence Iannaccone"]
+  },
+  {
+    "name_ja": "宗教的回心",
+    "name_en": "Religious Conversion",
+    "definition": "個人や集団が宗教的帰属、世界観、実践、自己理解を大きく変化させる過程を指す概念。突然の内的体験としてだけでなく、社会関係、学習、共同体参加、危機、移住、制度的働きかけを含む段階的過程として研究される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教心理学・宗教社会学",
+    "era_start": 1902,
+    "era_end": null,
+    "keywords_en": "conversion,religious change,identity",
+    "key_researchers": ["William James", "Lewis Rambo", "Lofland and Stark"]
+  },
+  {
+    "name_ja": "新宗教運動",
+    "name_en": "New Religious Movements",
+    "definition": "近現代に出現し、既成宗教とは異なる教義、儀礼、組織、指導者、救済観を持つ宗教運動を指す概念。社会変動、都市化、グローバル化、カリスマ的権威、メディア環境と関わり、しばしば偏見や統制の対象にもなる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "新宗教研究",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "new religious movements,cults,modern religion",
+    "key_researchers": ["Eileen Barker", "Bryan Wilson", "James Beckford"]
+  },
+  {
+    "name_ja": "スピリチュアリティ",
+    "name_en": "Spirituality",
+    "definition": "制度宗教への所属に限定されない、意味、癒やし、自己変容、超越、内面性、つながりを求める実践や感性を指す概念。現代社会では宗教離れと同時に広がる現象として、健康、消費文化、心理療法、自然観、個人化と結びついて研究される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "現代宗教研究",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "spirituality,self,subjective life",
+    "key_researchers": ["Paul Heelas", "Linda Woodhead", "Wade Clark Roof"]
+  },
+  {
+    "name_ja": "民衆宗教",
+    "name_en": "Popular Religion",
+    "definition": "公式教義や制度的宗教の枠を超え、庶民の日常生活、祭礼、治病、護符、祖先崇拝、地域信仰、混淆的実践として営まれる宗教を指す概念。エリート宗教との対立だけでなく、相互浸透や交渉の過程として理解される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "民俗宗教学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "popular religion,folk religion,everyday practice",
+    "key_researchers": ["Robert Redfield", "Charles Long", "David Hall"]
+  },
+  {
+    "name_ja": "宗教的物質性",
+    "name_en": "Material Religion",
+    "definition": "信仰を内面的信念だけでなく、像、建築、衣服、香、食物、道具、身体、音、メディアなど物質的媒介を通じて研究する概念。宗教的意味は物を利用して表現されるだけでなく、物との相互作用の中で感覚的に形成される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "物質宗教研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "material religion,objects,embodiment",
+    "key_researchers": ["David Morgan", "Birgit Meyer", "Colleen McDannell"]
+  },
+  {
+    "name_ja": "身体化された宗教",
+    "name_en": "Embodied Religion",
+    "definition": "宗教を抽象的信念ではなく、姿勢、断食、踊り、巡礼、礼拝動作、苦行、感覚、性、病、老いなど身体を通じて形成される経験として捉える概念。身体は宗教的意味を受け取る器ではなく、信仰を生産し記憶する能動的な場である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "身体論的宗教研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "embodiment,body,religious practice",
+    "key_researchers": ["Talal Asad", "Thomas Csordas", "Saba Mahmood"]
+  },
+  {
+    "name_ja": "巡礼",
+    "name_en": "Pilgrimage",
+    "definition": "聖地、墓、寺社、自然景観、記憶の場所へ向かう宗教的移動実践を指す概念。巡礼は信仰表明、贖罪、癒やし、共同体形成、観光、身体的試練、記憶の再演を含み、移動と場所が宗教経験を構成する過程を示す。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "巡礼研究",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "pilgrimage,sacred place,mobility",
+    "key_researchers": ["Victor Turner", "Edith Turner", "Simon Coleman"]
+  },
+  {
+    "name_ja": "聖地",
+    "name_en": "Sacred Space",
+    "definition": "神聖な出来事、存在、記憶、儀礼、共同体的意味が集中するとされる場所を指す概念。寺院、教会、山、川、墓、都市、巡礼地などが含まれ、空間は単なる背景ではなく、宗教的経験と社会的秩序を構成する力を持つ。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教地理学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "sacred space,place,pilgrimage",
+    "key_researchers": ["Mircea Eliade", "Jonathan Z. Smith", "Kim Knott"]
+  },
+  {
+    "name_ja": "祖先崇拝",
+    "name_en": "Ancestor Veneration",
+    "definition": "死者や祖先が家族、共同体、土地、道徳秩序に関与し続けると考え、供養、祭祀、記憶、祈願を行う実践を指す概念。祖先崇拝は血縁や家制度だけでなく、政治的正統性、土地の権利、死生観、日常倫理とも深く結びつく。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "比較宗教学・民俗宗教学",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "ancestor veneration,death,kinship",
+    "key_researchers": ["Robert Hertz", "Maurice Bloch", "Jan Assmann"]
+  },
+  {
+    "name_ja": "シャーマニズム",
+    "name_en": "Shamanism",
+    "definition": "特定の宗教的専門家が霊的存在との交渉、治病、占い、魂の旅、共同体の危機処理を行う実践を指す概念。世界各地の多様な現象を含むため、単一の普遍類型としてではなく、植民地主義的分類や地域的文脈を意識して研究される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教人類学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "shamanism,spirits,healing",
+    "key_researchers": ["Mircea Eliade", "Michael Taussig", "Piers Vitebsky"]
+  },
+  {
+    "name_ja": "アニミズム",
+    "name_en": "Animism",
+    "definition": "人間以外の動物、植物、岩、川、場所、物にも霊性や主体性があるとする世界理解を指す概念。初期宗教学では原始宗教の段階とされたが、現代では人間と非人間の関係性、環境倫理、存在論的多元性を考える枠組みとして再評価されている。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "新アニミズム研究",
+    "era_start": 1871,
+    "era_end": null,
+    "keywords_en": "animism,personhood,nonhuman agency",
+    "key_researchers": ["Edward B. Tylor", "Graham Harvey", "Nurit Bird-David"]
+  },
+  {
+    "name_ja": "呪術",
+    "name_en": "Magic",
+    "definition": "言葉、物、儀礼、身体技法を通じて、超自然的または隠れた力に働きかけ、現実に効果を及ぼそうとする実践を指す概念。宗教や科学と対立する未発達な思考としてではなく、社会関係、危機管理、権力、象徴行為の一部として分析される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教人類学",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "magic,ritual power,symbolic action",
+    "key_researchers": ["James Frazer", "Bronisław Malinowski", "Stanley Tambiah"]
+  },
+  {
+    "name_ja": "宗教と科学",
+    "name_en": "Religion and Science",
+    "definition": "宗教的世界観と科学的知識が、宇宙論、進化論、生命倫理、医学、認識論、人間観をめぐってどのように対立、分離、対話、統合するかを問う領域。単純な闘争史観を超え、制度、文化、哲学的前提の相互作用を検討する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教科学論",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "religion and science,evolution,cosmology",
+    "key_researchers": ["Ian Barbour", "John Polkinghorne", "Peter Harrison"]
+  },
+  {
+    "name_ja": "宗教倫理",
+    "name_en": "Religious Ethics",
+    "definition": "宗教的伝統が善悪、徳、義務、正義、身体、生命、経済、戦争、環境についてどのように判断し実践するかを扱う概念。聖典、共同体、儀礼、物語、自然法、解放の実践を通じて、倫理的主体が形成される過程を分析する。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "宗教倫理学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "religious ethics,virtue,justice",
+    "key_researchers": ["Reinhold Niebuhr", "Stanley Hauerwas", "Seyla Benhabib"]
+  },
+  {
+    "name_ja": "自然法",
+    "name_en": "Natural Law",
+    "definition": "人間理性や創造秩序の中に、神の意志や道徳的規範が読み取れるとする神学・倫理学の概念。法、政治、性倫理、生命倫理、人権論に影響を与え、啓示に依存しない公共的道徳の根拠として議論されてきた。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "自然法倫理学",
+    "era_start": 1250,
+    "era_end": null,
+    "keywords_en": "natural law,reason,moral order",
+    "key_researchers": ["Thomas Aquinas", "Francisco de Vitoria", "John Finnis"]
+  },
+  {
+    "name_ja": "神秘主義",
+    "name_en": "Mysticism",
+    "definition": "神、絶対者、空、究極的実在との直接的合一、深い沈黙、観想、脱自的経験を重視する宗教現象を指す概念。言語を超える経験とされる一方で、伝統、修行、身体技法、共同体、テクストによって形成される歴史的実践でもある。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "神秘主義研究",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "mysticism,contemplation,union",
+    "key_researchers": ["William James", "Evelyn Underhill", "Bernard McGinn"]
+  },
+  {
+    "name_ja": "宗教的記憶",
+    "name_en": "Religious Memory",
+    "definition": "共同体が聖なる過去、創設者、殉教者、災厄、救済史、祖先を記憶し、儀礼、聖典、暦、建築、物語を通じて現在に再構成する過程を指す概念。記憶は過去の保存ではなく、共同体のアイデンティティと未来を形づくる実践である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "文化記憶論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "religious memory,cultural memory,tradition",
+    "key_researchers": ["Jan Assmann", "Aleida Assmann", "Danièle Hervieu-Léger"]
+  },
+  {
+    "name_ja": "伝統",
+    "name_en": "Tradition",
+    "definition": "宗教共同体が教義、儀礼、物語、制度、身体技法、権威を世代間で継承しつつ再解釈する過程を指す概念。伝統は固定された過去の残存ではなく、現在の課題に応じて選択、忘却、再構成される動的な実践である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "伝統論・宗教社会学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "tradition,transmission,continuity",
+    "key_researchers": ["Yves Congar", "Alasdair MacIntyre", "Danièle Hervieu-Léger"]
+  },
+  {
+    "name_ja": "宗教的アイデンティティ",
+    "name_en": "Religious Identity",
+    "definition": "個人や集団が自らを特定の宗教伝統、共同体、実践、記憶、価値と結びつけて理解するあり方を指す概念。帰属は固定的ではなく、移住、改宗、混淆、世俗化、政治的対立、ジェンダー、世代差によって交渉され続ける。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "現代宗教社会学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "religious identity,belonging,hybridity",
+    "key_researchers": ["Stuart Hall", "Danièle Hervieu-Léger", "Grace Davie"]
+  },
+  {
+    "name_ja": "宗教的混淆",
+    "name_en": "Syncretism",
+    "definition": "複数の宗教伝統、象徴、儀礼、神格、思想が接触し、組み合わされ、新たな宗教形態を生み出す過程を指す概念。しばしば純粋性の観点から否定的に用いられたが、現代研究では文化接触、植民地経験、創造的適応として分析される。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "比較宗教学・ポストコロニアル研究",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "syncretism,hybridity,religious contact",
+    "key_researchers": ["Charles Stewart", "Rosalind Shaw", "Robert Orsi"]
+  },
+  {
+    "name_ja": "ポスト世俗",
+    "name_en": "Postsecular",
+    "definition": "近代社会において宗教が消滅するのではなく、公共圏、政治、倫理、移民社会、文化表現の中で新たな形で存在し続ける状況を指す概念。世俗と宗教の境界が再交渉され、多元社会で宗教的声をどう扱うかが問われる。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "ポスト世俗論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "postsecular,public sphere,secularity",
+    "key_researchers": ["Jürgen Habermas", "Charles Taylor", "José Casanova"]
+  },
+  {
+    "name_ja": "宗教的無所属",
+    "name_en": "Religious Nones",
+    "definition": "調査上、特定の宗教に所属しない、または所属を表明しない人々を指す概念。無神論者だけでなく、不可知論者、スピリチュアル志向者、制度宗教への不信を持つ人々を含み、現代の宗教変動と世代差を理解する重要な指標である。",
+    "subfield": "宗教学・神学",
+    "school_of_thought": "現代宗教社会学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "religious nones,unaffiliated,secularization",
+    "key_researchers": ["Pew Research Center", "Linda Woodhead", "Ryan Cragun"]
+  }
+]
+tokens used
+15,210

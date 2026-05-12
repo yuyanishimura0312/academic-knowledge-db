@@ -1,0 +1,963 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e09e8-9d3d-7220-8c09-08898dfb0ad5
+--------
+user
+「地理学・空間論」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+都市政治生態学、デジタル地理学、場所性研究、GISマッピング、Critical Geography
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"地理学・空間論","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "都市政治生態学",
+    "name_en": "Urban Political Ecology",
+    "definition": "都市を自然から切り離された人工空間ではなく、水、エネルギー、廃棄物、気候、インフラ、資本、権力が絡み合う社会自然的過程として分析する概念。環境負荷や災害リスク、緑地、上下水道などが階級、人種、ジェンダー、統治制度によって不均等に配分される仕組みを明らかにする。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治生態学、批判都市研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "urban nature,infrastructure,metabolism,inequality",
+    "key_researchers": ["Erik Swyngedouw", "Matthew Gandy", "Nik Heynen"]
+  },
+  {
+    "name_ja": "デジタル地理学",
+    "name_en": "Digital Geography",
+    "definition": "デジタル技術、位置情報、プラットフォーム、センサー、アルゴリズム、ビッグデータが空間の認識、移動、統治、経済活動、日常生活をどのように再編するかを扱う概念。単なる技術利用ではなく、データ化された空間が権力、監視、排除、参加、表象を生み出す過程を批判的に検討する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判的GIS、デジタル社会研究",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "digital space,platforms,big data,geolocation",
+    "key_researchers": ["Rob Kitchin", "Sarah Elwood", "Matthew Zook"]
+  },
+  {
+    "name_ja": "場所性研究",
+    "name_en": "Place Studies",
+    "definition": "場所を単なる位置や容器ではなく、経験、記憶、身体感覚、社会関係、権力、物質環境が重なって形成される意味ある空間として研究する枠組み。住民の帰属意識やアイデンティティだけでなく、観光、開発、移民、紛争によって場所の意味が再構成される過程を分析する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "人文主義地理学、文化地理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "place,sense of place,identity,experience",
+    "key_researchers": ["Yi-Fu Tuan", "Edward Relph", "Doreen Massey"]
+  },
+  {
+    "name_ja": "GISマッピング",
+    "name_en": "GIS Mapping",
+    "definition": "地理情報システムを用いて位置データを収集、管理、分析、可視化し、土地利用、交通、災害、環境、保健、都市計画などの空間的関係を把握する方法論。近年は専門家中心の技術にとどまらず、市民参加型地図、批判的GIS、データ倫理、表象の政治性とも結びついている。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "空間分析、GIScience",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "GIS,spatial analysis,mapping,geovisualization",
+    "key_researchers": ["Michael Goodchild", "David Mark", "Mei-Po Kwan"]
+  },
+  {
+    "name_ja": "批判地理学",
+    "name_en": "Critical Geography",
+    "definition": "空間が中立的な背景ではなく、資本主義、国家、植民地主義、人種化、ジェンダー秩序、環境不正義などの権力関係によって生産されると捉える研究潮流。社会的不平等を説明するだけでなく、空間的正義、抵抗運動、オルタナティブな都市や地域の可能性を追究する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "マルクス主義地理学、ラディカル地理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "critical geography,power,space,justice",
+    "key_researchers": ["David Harvey", "Neil Smith", "Doreen Massey"]
+  },
+  {
+    "name_ja": "空間の生産",
+    "name_en": "Production of Space",
+    "definition": "空間を自然に存在する空白や幾何学的容器ではなく、社会的実践、知識、表象、制度、資本蓄積、日常生活によって継続的に作られるものと捉える概念。都市計画、建築、国家統治、身体的実践が結びつき、空間そのものが権力と抵抗の場になることを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "フランス社会理論、批判空間論",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "production of space,spatial practice,representation,everyday life",
+    "key_researchers": ["Henri Lefebvre", "Edward Soja", "David Harvey"]
+  },
+  {
+    "name_ja": "時空間圧縮",
+    "name_en": "Time-Space Compression",
+    "definition": "交通、通信、物流、金融技術の発達によって、距離を越える時間と費用が縮小し、遠隔地の出来事が即時的に結びつく現象を説明する概念。グローバル化を単なる距離の消滅としてではなく、資本の加速、不均等発展、地域文化の変容を伴う空間経験の再編として捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "マルクス主義地理学、ポストモダン地理学",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "time-space compression,globalization,mobility,capital",
+    "key_researchers": ["David Harvey", "Doreen Massey", "Manuel Castells"]
+  },
+  {
+    "name_ja": "空間的正義",
+    "name_en": "Spatial Justice",
+    "definition": "正義や不平等を所得や権利だけでなく、住宅、公共交通、医療、教育、緑地、安全、環境リスクなどの空間的配分とアクセスの問題として考える概念。誰がどこに住み、どの資源に近づけ、どの危険を負わされるのかを問い、政策や社会運動の評価軸を提供する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判都市研究、正義論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "spatial justice,equity,access,distribution",
+    "key_researchers": ["Edward Soja", "David Harvey", "Susan Fainstein"]
+  },
+  {
+    "name_ja": "スケールの政治",
+    "name_en": "Politics of Scale",
+    "definition": "ローカル、都市、地域、国家、グローバルといったスケールを固定的な入れ物ではなく、政治的争点や社会運動、資本蓄積、国家制度の中で作られ直される関係的構成物として捉える概念。環境問題や労働争議がどのスケールで語られるかによって責任や解決策が変わることを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治地理学、批判地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "scale,politics,rescaling,governance",
+    "key_researchers": ["Neil Smith", "Erik Swyngedouw", "Sallie Marston"]
+  },
+  {
+    "name_ja": "関係的空間",
+    "name_en": "Relational Space",
+    "definition": "空間をあらかじめ存在する固定的な容器ではなく、社会関係、移動、交換、ネットワーク、記憶、物質の結びつきによって成立するものと考える概念。場所や地域も孤立した単位ではなく、他の場所との関係の中で形成されるため、境界や距離の意味は歴史的かつ政治的に変化する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ポスト構造主義地理学、関係論的地理学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "relational space,networks,flows,place",
+    "key_researchers": ["Doreen Massey", "Nigel Thrift", "Ash Amin"]
+  },
+  {
+    "name_ja": "場所感覚",
+    "name_en": "Sense of Place",
+    "definition": "人びとが特定の場所に対して抱く愛着、記憶、安心感、違和感、帰属意識、象徴的意味を表す概念。自然景観や建造環境だけでなく、生活経験、共同体、歴史、メディア表象、移動経験によって形成されるため、同じ場所でも住民、移民、観光客、行政で異なる意味を持ちうる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "人文主義地理学、文化地理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "sense of place,attachment,meaning,belonging",
+    "key_researchers": ["Yi-Fu Tuan", "Edward Relph", "Anne Buttimer"]
+  },
+  {
+    "name_ja": "非場所",
+    "name_en": "Non-Place",
+    "definition": "空港、高速道路、チェーン店舗、ショッピングモールのように、通過、消費、管理の機能が強く、歴史的記憶や固有の社会関係が希薄に感じられる空間を指す概念。近代的移動とグローバルな標準化が、場所の個性や帰属感をどのように変化させるかを考える手がかりとなる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "人類学的空間論、ポストモダン文化論",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "non-place,mobility,supermodernity,transit",
+    "key_researchers": ["Marc Augé", "Tim Cresswell", "Edward Relph"]
+  },
+  {
+    "name_ja": "景観論",
+    "name_en": "Landscape Theory",
+    "definition": "景観を自然の眺めや美的対象としてだけでなく、労働、所有、記憶、国家、植民地主義、階級、観光、表象が刻み込まれた文化的・政治的テキストとして読む概念。見えるものだけでなく、何が不可視化され、誰の視点で景観が価値づけられるのかを問う。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "文化地理学、新文化地理学",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "landscape,culture,representation,power",
+    "key_researchers": ["Carl Sauer", "Denis Cosgrove", "James Duncan"]
+  },
+  {
+    "name_ja": "文化景観",
+    "name_en": "Cultural Landscape",
+    "definition": "人間社会が自然環境に働きかけ、農業、集落、宗教、産業、交通、記念物、日常実践を通じて作り上げた景観を示す概念。自然と文化を対立させず、地表の形態に歴史的な土地利用、技術、権力、価値観が反映されるものとして読み解く。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "バークレー学派、文化地理学",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "cultural landscape,land use,culture,nature",
+    "key_researchers": ["Carl Sauer", "Peirce Lewis", "Denis Cosgrove"]
+  },
+  {
+    "name_ja": "領域性",
+    "name_en": "Territoriality",
+    "definition": "個人、集団、国家、企業などが特定の空間を区切り、境界を設け、アクセスや行動を管理することで権力を行使する過程を表す概念。領土や国境だけでなく、住宅地、学校、商業施設、先住民の土地、デジタル空間にも適用され、空間的支配とアイデンティティ形成を分析する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治地理学、社会地理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "territoriality,boundaries,control,power",
+    "key_researchers": ["Robert Sack", "Claude Raffestin", "Stuart Elden"]
+  },
+  {
+    "name_ja": "領土",
+    "name_en": "Territory",
+    "definition": "主権、法、行政、軍事、所有、アイデンティティによって空間が政治的に区画され、統治の対象となる形態を指す概念。近代国家の国土だけでなく、植民地、自治領、都市の管轄区域、資源開発地域にも関わり、境界が自然ではなく歴史的権力関係の産物であることを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治地理学、国家論",
+    "era_start": 1897,
+    "era_end": null,
+    "keywords_en": "territory,sovereignty,borders,state",
+    "key_researchers": ["Friedrich Ratzel", "Stuart Elden", "John Agnew"]
+  },
+  {
+    "name_ja": "国境研究",
+    "name_en": "Border Studies",
+    "definition": "国境を地図上の線ではなく、人、商品、資本、情報、軍事、法、感情を選別する制度的・物質的・象徴的な装置として研究する分野。越境移動、移民管理、境界地域の日常生活、壁や検問、海上境界、デジタル監視を通じて主権と排除の仕組みを分析する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治地理学、境界研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "borders,bordering,migration,sovereignty",
+    "key_researchers": ["Anssi Paasi", "David Newman", "Étienne Balibar"]
+  },
+  {
+    "name_ja": "地政学",
+    "name_en": "Geopolitics",
+    "definition": "国家、領土、資源、軍事、交通路、海洋、技術、言説が国際政治においてどのように空間的に組織されるかを分析する概念。古典的地政学は国家戦略に重点を置いたが、批判地政学は地図、メディア、政策言説が世界を脅威や勢力圏として構成する過程を問う。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治地理学、批判地政学",
+    "era_start": 1899,
+    "era_end": null,
+    "keywords_en": "geopolitics,power,state,territory",
+    "key_researchers": ["Halford Mackinder", "Gearóid Ó Tuathail", "John Agnew"]
+  },
+  {
+    "name_ja": "批判地政学",
+    "name_en": "Critical Geopolitics",
+    "definition": "外交政策、軍事戦略、地図、報道、専門家言説が世界を敵味方、中心周辺、文明野蛮などの枠組みで表象し、政治的介入を正当化する過程を批判的に分析する概念。地政学を客観的な地理条件の学問ではなく、権力を伴う言説実践として捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ポスト構造主義政治地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "critical geopolitics,discourse,security,representation",
+    "key_researchers": ["Gearóid Ó Tuathail", "Simon Dalby", "John Agnew"]
+  },
+  {
+    "name_ja": "場所の喪失",
+    "name_en": "Placelessness",
+    "definition": "標準化された建築、商業開発、交通インフラ、マスメディア、観光化によって、場所固有の歴史、景観、共同性、経験の厚みが薄れる現象を指す概念。均質化への批判として用いられる一方、何を本物の場所とみなすのかという規範性や排除性も検討対象となる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "人文主義地理学、現象学的地理学",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "placelessness,authenticity,standardization,modernity",
+    "key_researchers": ["Edward Relph", "Yi-Fu Tuan", "Marc Augé"]
+  },
+  {
+    "name_ja": "トポフィリア",
+    "name_en": "Topophilia",
+    "definition": "人間が場所や環境に対して抱く情緒的な結びつき、愛着、親密さ、美的感覚を表す概念。家、故郷、風景、聖地、都市の一角などが個人や集団の記憶と感情を支え、環境認識や保全行動、アイデンティティ形成に影響することを説明する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "人文主義地理学、環境知覚研究",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "topophilia,place attachment,environment,affect",
+    "key_researchers": ["Yi-Fu Tuan", "Anne Buttimer", "Edward Relph"]
+  },
+  {
+    "name_ja": "空間分析",
+    "name_en": "Spatial Analysis",
+    "definition": "現象がどこに分布し、どの程度集積し、距離や近接性、隣接性、ネットワーク構造とどのように関係するかを統計的・数学的に分析する方法論。人口、疾病、犯罪、商業、交通、環境変化などの空間パターンを把握し、説明や予測、政策評価に活用される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "計量地理学、空間科学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "spatial analysis,spatial statistics,patterns,distance",
+    "key_researchers": ["Peter Haggett", "Waldo Tobler", "Michael Goodchild"]
+  },
+  {
+    "name_ja": "計量革命",
+    "name_en": "Quantitative Revolution",
+    "definition": "地理学に統計学、モデル化、仮説検証、空間法則の探究を導入し、記述的地域研究から分析的で科学的な地理学へ転換しようとした潮流。中心地理論、空間相互作用、立地モデルなどを発展させた一方、後に人文主義地理学や批判地理学から人間経験や権力を軽視すると批判された。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "計量地理学、空間科学",
+    "era_start": 1950,
+    "era_end": 1970,
+    "keywords_en": "quantitative revolution,models,spatial science,positivism",
+    "key_researchers": ["William Bunge", "Peter Haggett", "Brian Berry"]
+  },
+  {
+    "name_ja": "中心地理論",
+    "name_en": "Central Place Theory",
+    "definition": "都市や集落が財やサービスを供給する中心地として階層的に配置される仕組みを、需要圏、到達距離、閾値人口などから説明する理論。市場、交通、行政機能の分布を幾何学的モデルで捉え、地域計画や商業立地分析に影響を与えたが、現実の権力関係や歴史性の単純化も指摘される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "立地論、空間科学",
+    "era_start": 1933,
+    "era_end": null,
+    "keywords_en": "central place theory,hierarchy,services,settlements",
+    "key_researchers": ["Walter Christaller", "August Lösch", "Brian Berry"]
+  },
+  {
+    "name_ja": "立地論",
+    "name_en": "Location Theory",
+    "definition": "企業、農業、工場、商業施設、都市機能がどこに立地するかを、輸送費、土地価格、労働力、市場距離、集積効果、競争などから説明する理論群。経済活動の空間配置を合理的選択や費用最小化の観点から分析し、都市経済学や地域政策にも大きな影響を与えた。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "経済地理学、空間経済学",
+    "era_start": 1826,
+    "era_end": null,
+    "keywords_en": "location theory,transport costs,markets,agglomeration",
+    "key_researchers": ["Johann Heinrich von Thünen", "Alfred Weber", "August Lösch"]
+  },
+  {
+    "name_ja": "空間相互作用",
+    "name_en": "Spatial Interaction",
+    "definition": "人、商品、資本、情報、サービスが地点間で移動・交換される量や方向を、距離、規模、魅力度、障壁、ネットワークから説明する概念。重力モデルや交通流分析に代表され、通勤、買い物、移住、物流、通信などの空間的結びつきを定量的に把握するために用いられる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "計量地理学、交通地理学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "spatial interaction,flows,gravity model,mobility",
+    "key_researchers": ["Edward Ullman", "William Warntz", "Alan Wilson"]
+  },
+  {
+    "name_ja": "距離減衰",
+    "name_en": "Distance Decay",
+    "definition": "二地点間の距離が大きくなるほど、交流、移動、情報伝達、商取引、感染、社会的接触などの強度が低下する傾向を表す概念。交通技術やデジタル通信によって距離の効果は変化するが、近接性が依然として経済、文化、政治の多くの過程に影響することを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "空間科学、計量地理学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "distance decay,friction of distance,interaction,proximity",
+    "key_researchers": ["Waldo Tobler", "Peter Haggett", "Edward Ullman"]
+  },
+  {
+    "name_ja": "摩擦距離",
+    "name_en": "Friction of Distance",
+    "definition": "距離が移動や交換に伴う時間、費用、労力、制度的障壁を増大させるため、空間的相互作用を制約するという考え方。物理的距離だけでなく、交通網、国境、言語、料金、危険性、デジタルアクセスの差異も摩擦として作用し、空間的不平等を生み出す要因となる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "空間科学、交通地理学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "friction of distance,costs,mobility,accessibility",
+    "key_researchers": ["Edward Ullman", "Peter Haggett", "Waldo Tobler"]
+  },
+  {
+    "name_ja": "第一法則",
+    "name_en": "Tobler's First Law of Geography",
+    "definition": "すべてのものは互いに関係しているが、近いものほど遠いものより強く関係するという地理学の経験則。空間自己相関、補間、地理統計、GIS分析の基礎的発想として広く使われ、近接性が現象の類似性や相互作用を説明する重要な手がかりになることを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "GIScience、計量地理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "Tobler's law,spatial autocorrelation,proximity,GIScience",
+    "key_researchers": ["Waldo Tobler", "Michael Goodchild", "Luc Anselin"]
+  },
+  {
+    "name_ja": "空間自己相関",
+    "name_en": "Spatial Autocorrelation",
+    "definition": "近接する地点や地域の属性値が互いに似ている、または反対に異なる傾向を示す統計的性質を指す概念。疾病率、所得、土地利用、投票行動、環境指標などの分析で重要であり、通常の統計モデルが仮定する独立性を破るため、地理的データ特有の方法が必要となる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "空間統計、GIScience",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "spatial autocorrelation,Moran's I,clustering,spatial statistics",
+    "key_researchers": ["Patrick Moran", "Luc Anselin", "Arthur Getis"]
+  },
+  {
+    "name_ja": "可変地区単位問題",
+    "name_en": "Modifiable Areal Unit Problem",
+    "definition": "統計データをどの空間単位で集計するかによって、分析結果や相関関係が変化してしまう問題を指す概念。行政区、メッシュ、選挙区、近隣地区などの境界設定は中立ではなく、政策評価、犯罪分析、疫学、社会調査において結論を左右するため慎重な扱いが求められる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "空間統計、計量地理学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "MAUP,aggregation,zoning,spatial data",
+    "key_researchers": ["Stan Openshaw", "Peter Taylor", "Luc Anselin"]
+  },
+  {
+    "name_ja": "参加型GIS",
+    "name_en": "Participatory GIS",
+    "definition": "地域住民、先住民、NPO、行政、市民団体が地理情報の収集、編集、可視化、解釈に参加し、地域課題や権利要求を表現するためのGIS実践。専門家だけが地図を作るのではなく、土地利用、災害リスク、生活資源、環境被害などのローカルな知識を空間情報として可視化する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判的GIS、参加型研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "participatory GIS,community mapping,local knowledge,empowerment",
+    "key_researchers": ["Sarah Elwood", "Daniel Weiner", "Renee Sieber"]
+  },
+  {
+    "name_ja": "批判的GIS",
+    "name_en": "Critical GIS",
+    "definition": "GISを中立的な技術としてではなく、データ分類、地図表現、監視、行政管理、軍事利用、企業プラットフォームと結びついた権力的実践として検討する研究潮流。同時に、社会運動や地域住民がGISを用いて不正義を可視化し、対抗的知識を作る可能性も重視する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判地理学、GIScience",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "critical GIS,power,mapping,data politics",
+    "key_researchers": ["John Pickles", "Nadine Schuurman", "Sarah Elwood"]
+  },
+  {
+    "name_ja": "地図の権力",
+    "name_en": "Power of Maps",
+    "definition": "地図は現実を単に写し取る道具ではなく、領土、所有、資源、民族、危険、開発可能性を分類し、可視化し、正当化する権力装置であるという考え方。植民地支配、国家形成、都市計画、軍事、環境管理において、何を描き何を消すかが政治的意味を持つ。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判地図学、ポスト構造主義地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "cartography,power,representation,critical mapping",
+    "key_researchers": ["J.B. Harley", "Denis Wood", "John Pickles"]
+  },
+  {
+    "name_ja": "カウンターマッピング",
+    "name_en": "Counter-Mapping",
+    "definition": "国家、企業、専門家が作る公式地図に対抗し、先住民、地域住民、社会運動が自らの土地利用、記憶、被害、権利、聖地、生活圏を地図化する実践。地図を支配の道具から交渉、抵抗、法的主張、共同体形成の道具へ転用する点に特徴がある。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判地図学、参加型地理学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "counter-mapping,indigenous mapping,rights,resistance",
+    "key_researchers": ["Nancy Peluso", "Denis Wood", "Sarah Elwood"]
+  },
+  {
+    "name_ja": "ボランタリー地理情報",
+    "name_en": "Volunteered Geographic Information",
+    "definition": "市民や利用者が自発的に作成、編集、共有する地理情報を指す概念。オープンストリートマップ、災害時のクラウドマッピング、位置情報付き投稿などが代表例で、専門機関以外が空間データ生産に参加する一方、データ品質、偏り、プライバシー、代表性の問題も生じる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "GIScience、市民科学",
+    "era_start": 2007,
+    "era_end": null,
+    "keywords_en": "VGI,crowdsourcing,OpenStreetMap,citizen science",
+    "key_researchers": ["Michael Goodchild", "Muki Haklay", "Renee Sieber"]
+  },
+  {
+    "name_ja": "ネオ地理学",
+    "name_en": "Neogeography",
+    "definition": "専門的な地図作成機関や研究者だけでなく、一般利用者がウェブ地図、GPS、スマートフォン、API、位置情報サービスを用いて地理情報を作成・共有する動きを指す概念。地理的表現の民主化を促す一方、商業プラットフォームへの依存やデータ所有の問題も含む。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "デジタル地理学、GIScience",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "neogeography,web mapping,geoweb,user-generated content",
+    "key_researchers": ["Andrew Turner", "Michael Goodchild", "Muki Haklay"]
+  },
+  {
+    "name_ja": "サイバー空間",
+    "name_en": "Cyberspace",
+    "definition": "コンピュータネットワーク、通信インフラ、データベース、仮想環境を通じて形成される情報的空間を指す概念。初期には物理空間から切り離された仮想領域と見なされたが、地理学ではデータセンター、海底ケーブル、プラットフォーム、労働、監視と結びつく物質的空間として再検討されている。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "情報地理学、デジタル地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "cyberspace,internet,digital infrastructure,virtual space",
+    "key_researchers": ["Manuel Castells", "Rob Kitchin", "Martin Dodge"]
+  },
+  {
+    "name_ja": "プラットフォーム都市論",
+    "name_en": "Platform Urbanism",
+    "definition": "配車、宅配、民泊、不動産、決済、行政サービスなどのデジタルプラットフォームが都市の労働、移動、住宅、市場、公共性を再編する過程を分析する概念。都市空間がアプリやアルゴリズムを通じて管理されることで、利便性と同時に監視、労働搾取、排除、データ支配が生じる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市地理学、デジタル地理学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "platform urbanism,smart city,algorithms,urban governance",
+    "key_researchers": ["Sarah Barns", "Rob Kitchin", "Jamie Peck"]
+  },
+  {
+    "name_ja": "スマートシティ",
+    "name_en": "Smart City",
+    "definition": "センサー、IoT、AI、データ分析、都市ダッシュボードを用いて交通、エネルギー、防災、行政、治安、環境管理を効率化しようとする都市構想。地理学では技術的最適化だけでなく、誰の問題が可視化され、誰がデータを所有し、監視や民営化が進むのかを批判的に検討する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市地理学、批判的データ研究",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "smart city,IoT,urban data,governance",
+    "key_researchers": ["Rob Kitchin", "Anthony Townsend", "Jennifer Gabrys"]
+  },
+  {
+    "name_ja": "移動論的転回",
+    "name_en": "Mobilities Turn",
+    "definition": "社会や空間を固定した場所や構造だけでなく、人、物、情報、資本、イメージ、感情の移動と停止の組み合わせから理解しようとする研究潮流。観光、通勤、移民、物流、通信、待機、検問を含め、移動できる者とできない者の不平等にも注目する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "モビリティ研究、社会地理学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "mobilities,movement,flows,immobility",
+    "key_researchers": ["John Urry", "Tim Cresswell", "Mimi Sheller"]
+  },
+  {
+    "name_ja": "モビリティ正義",
+    "name_en": "Mobility Justice",
+    "definition": "移動の自由やアクセスを単なる交通効率ではなく、階級、人種、ジェンダー、障害、国籍、年齢、居住地による不平等の問題として捉える概念。移民管理、公共交通、徒歩、自転車、警察による移動制限、気候変動による避難などを横断し、誰が動け誰が止められるのかを問う。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "モビリティ研究、批判社会理論",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "mobility justice,access,transport,inequality",
+    "key_researchers": ["Mimi Sheller", "Tim Cresswell", "Karel Martens"]
+  },
+  {
+    "name_ja": "交通地理学",
+    "name_en": "Transport Geography",
+    "definition": "人や物の移動を支える交通網、物流、港湾、空港、道路、鉄道、公共交通、通勤圏の空間構造を研究する分野。効率や接続性だけでなく、交通インフラが地域発展、環境負荷、社会的排除、都市形態、災害対応に与える影響を分析する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "経済地理学、空間分析",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "transport geography,networks,accessibility,logistics",
+    "key_researchers": ["Edward Taaffe", "Jean-Paul Rodrigue", "Susan Hanson"]
+  },
+  {
+    "name_ja": "アクセシビリティ",
+    "name_en": "Accessibility",
+    "definition": "人や場所が雇用、教育、医療、商業、公共サービス、緑地、社会関係にどれだけ到達しやすいかを示す概念。単なる距離の近さではなく、交通手段、時間、費用、身体能力、制度的障壁、情報へのアクセスを含み、空間的正義や都市政策の評価に用いられる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "交通地理学、都市計画",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "accessibility,transport,opportunity,equity",
+    "key_researchers": ["Walter Hansen", "Susan Hanson", "Karel Martens"]
+  },
+  {
+    "name_ja": "都市化",
+    "name_en": "Urbanization",
+    "definition": "人口、産業、資本、インフラ、生活様式、統治機能が都市に集中し、都市的な土地利用や社会関係が拡大する過程を指す概念。単なる都市人口の増加ではなく、郊外化、メガシティ化、インフォーマル居住、環境変化、農村の再編を含む広範な空間変容として分析される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市地理学、都市社会理論",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "urbanization,cities,urban growth,metropolitanization",
+    "key_researchers": ["Lewis Mumford", "Henri Lefebvre", "David Harvey"]
+  },
+  {
+    "name_ja": "惑星的都市化",
+    "name_en": "Planetary Urbanization",
+    "definition": "都市化を都市境界内の人口集中に限定せず、鉱山、農地、物流回廊、エネルギー施設、観光地、データインフラなど地球規模の空間再編として捉える概念。都市と農村、中心と周辺の区別が資本蓄積やインフラ網によって複雑に組み替えられることを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判都市理論、レフェーブル派",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "planetary urbanization,extended urbanization,infrastructure,capital",
+    "key_researchers": ["Neil Brenner", "Christian Schmid", "Henri Lefebvre"]
+  },
+  {
+    "name_ja": "ジェントリフィケーション",
+    "name_en": "Gentrification",
+    "definition": "低所得層や労働者階級の居住地域に中高所得層、投資、商業開発が流入し、地価や家賃が上昇して既存住民や文化が排除される都市変容を指す概念。住宅市場、都市政策、文化消費、観光、金融化が絡み、階級的な空間再編として分析される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市地理学、マルクス主義都市論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "gentrification,displacement,rent gap,urban redevelopment",
+    "key_researchers": ["Ruth Glass", "Neil Smith", "Loretta Lees"]
+  },
+  {
+    "name_ja": "レントギャップ",
+    "name_en": "Rent Gap",
+    "definition": "現在の土地利用から得られる地代と、再開発や用途転換によって潜在的に得られる地代との差を指す概念。ジェントリフィケーションを個人の嗜好変化ではなく、資本が低評価された都市空間に再投資する構造的過程として説明し、立退きや不動産投機の分析に用いられる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "マルクス主義都市地理学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "rent gap,gentrification,capital,reinvestment",
+    "key_researchers": ["Neil Smith", "David Harvey", "Tom Slater"]
+  },
+  {
+    "name_ja": "都市への権利",
+    "name_en": "Right to the City",
+    "definition": "都市を利用する権利だけでなく、都市空間の生産や意思決定に参加し、生活にふさわしい形へ変える集合的権利を指す概念。住宅、公共空間、交通、文化、民主的統治をめぐる要求と結びつき、ジェントリフィケーションや民営化に対する社会運動の重要な理念となった。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判都市理論、マルクス主義地理学",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "right to the city,urban commons,participation,justice",
+    "key_researchers": ["Henri Lefebvre", "David Harvey", "Don Mitchell"]
+  },
+  {
+    "name_ja": "公共空間",
+    "name_en": "Public Space",
+    "definition": "広場、公園、街路、駅前、図書館、河川敷など、人びとが出会い、移動し、表現し、休息し、政治的行為を行う空間を指す概念。公共性は所有形態だけで決まらず、監視、排除、商業化、規制、ジェンダーや人種による利用可能性の差異によって常に争われる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市地理学、公共圏論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "public space,urban commons,access,democracy",
+    "key_researchers": ["Don Mitchell", "Setha Low", "Henri Lefebvre"]
+  },
+  {
+    "name_ja": "インフラストラクチャー空間論",
+    "name_en": "Infrastructure Space",
+    "definition": "道路、港湾、送電網、水道、通信、物流施設、データセンターなどのインフラを、背景的な設備ではなく、経済、統治、日常生活、環境、地政学を組織する空間的権力として分析する概念。見えにくい基盤が社会的不平等や都市代謝を支える仕組みに注目する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "インフラ研究、都市地理学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "infrastructure,logistics,urban systems,materiality",
+    "key_researchers": ["Susan Leigh Star", "Stephen Graham", "Brian Larkin"]
+  },
+  {
+    "name_ja": "都市代謝",
+    "name_en": "Urban Metabolism",
+    "definition": "都市をエネルギー、水、食料、資材、廃棄物、資本、情報が流入・流出し変換される代謝システムとして捉える概念。生態学的比喩にとどまらず、誰が資源を消費し、誰が廃棄物や汚染を負担するのかという政治経済的な不均等にも焦点を当てる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市政治生態学、産業エコロジー",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "urban metabolism,flows,energy,waste",
+    "key_researchers": ["Abel Wolman", "Erik Swyngedouw", "Matthew Gandy"]
+  },
+  {
+    "name_ja": "環境正義",
+    "name_en": "Environmental Justice",
+    "definition": "汚染、廃棄物処理場、災害リスク、緑地不足、気候被害などの環境負荷が、人種、階級、民族、地域によって不均等に配分される問題を扱う概念。地理学では有害施設の立地、健康被害、参加権、認知的不正義を空間的に分析し、社会運動とも深く結びつく。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治生態学、批判地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "environmental justice,pollution,racism,risk",
+    "key_researchers": ["Robert Bullard", "Laura Pulido", "David Pellow"]
+  },
+  {
+    "name_ja": "政治生態学",
+    "name_en": "Political Ecology",
+    "definition": "環境変化や資源利用を、自然条件だけでなく、権力、資本主義、国家政策、植民地主義、知識生産、社会的不平等との関係で分析する枠組み。森林破壊、農業、鉱山、水資源、保全政策、気候変動が誰に利益や負担をもたらすのかを問う。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治生態学、批判開発研究",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "political ecology,environment,power,resources",
+    "key_researchers": ["Piers Blaikie", "Harold Brookfield", "Paul Robbins"]
+  },
+  {
+    "name_ja": "社会自然",
+    "name_en": "Socionature",
+    "definition": "自然と社会を別々の領域としてではなく、技術、労働、資本、法律、文化、非人間的作用が絡み合って形成される一体的な過程として捉える概念。河川、都市気候、農地、森林、遺伝資源などは純粋な自然ではなく、社会的実践によって変形され続ける存在として分析される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市政治生態学、アクターネットワーク理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "socionature,nature-society,hybridity,political ecology",
+    "key_researchers": ["Erik Swyngedouw", "Noel Castree", "Bruce Braun"]
+  },
+  {
+    "name_ja": "空間的分業",
+    "name_en": "Spatial Division of Labor",
+    "definition": "資本主義経済において、研究開発、管理、製造、物流、サービス、廃棄処理などの機能が地域間で不均等に配置される仕組みを説明する概念。地域は単に産業を持つのではなく、企業戦略、労働市場、国家政策、技術変化の中で特定の役割を担わされる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "経済地理学、マルクス主義地理学",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "spatial division of labor,regional inequality,production,capital",
+    "key_researchers": ["Doreen Massey", "David Harvey", "Allen Scott"]
+  },
+  {
+    "name_ja": "不均等発展",
+    "name_en": "Uneven Development",
+    "definition": "資本主義が地域や都市を均質に発展させるのではなく、投資、撤退、インフラ、労働、資源利用を通じて中心と周辺、成長地域と衰退地域を同時に生み出す過程を指す概念。空間的不平等を偶然の遅れではなく、蓄積の構造的結果として捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "マルクス主義地理学、世界システム論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "uneven development,capitalism,regional inequality,accumulation",
+    "key_researchers": ["Neil Smith", "David Harvey", "Doreen Massey"]
+  },
+  {
+    "name_ja": "新経済地理学",
+    "name_en": "New Economic Geography",
+    "definition": "規模の経済、輸送費、市場規模、労働移動、企業集積の相互作用によって、産業や人口が特定地域に集中するメカニズムを数理モデルで説明する理論。中心周辺構造や集積の自己強化を分析するが、制度、文化、権力の扱いが限定的であるとの批判もある。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "空間経済学、経済地理学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "new economic geography,agglomeration,core-periphery,scale economies",
+    "key_researchers": ["Paul Krugman", "Masahisa Fujita", "Anthony Venables"]
+  },
+  {
+    "name_ja": "産業クラスター",
+    "name_en": "Industrial Cluster",
+    "definition": "関連企業、供給業者、研究機関、労働市場、金融、行政支援が特定地域に集まり、知識交換、専門化、競争と協力を通じて生産性や革新を高める空間的集積を指す概念。シリコンバレーや産地研究に用いられるが、排除や地域依存のリスクも伴う。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "経済地理学、地域イノベーション研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "industrial cluster,agglomeration,innovation,regional development",
+    "key_researchers": ["Michael Porter", "Allen Scott", "Ann Markusen"]
+  },
+  {
+    "name_ja": "グローバル生産ネットワーク",
+    "name_en": "Global Production Networks",
+    "definition": "企業、下請け、物流、金融、国家、労働者、消費市場が国境を越えて結びつき、商品やサービスが生産される空間的ネットワークを分析する概念。単純な国際分業ではなく、価値獲得、権力関係、地域への埋め込み、労働条件、脆弱性を含めて捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "経済地理学、グローバル政治経済",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "global production networks,value chains,embeddedness,globalization",
+    "key_researchers": ["Peter Dicken", "Neil Coe", "Henry Wai-chung Yeung"]
+  },
+  {
+    "name_ja": "地域",
+    "name_en": "Region",
+    "definition": "自然条件、経済活動、文化、行政、歴史、機能的結合、アイデンティティなどによって区別される空間的まとまりを指す基本概念。地域は固定的実体ではなく、研究目的、政策、統計、住民意識、メディア表象によって構成され、境界や内部の一体性は常に問い直される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "地域地理学、社会地理学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "region,regionalization,identity,spatial unit",
+    "key_researchers": ["Richard Hartshorne", "Anssi Paasi", "Doreen Massey"]
+  },
+  {
+    "name_ja": "地域形成",
+    "name_en": "Region-Building",
+    "definition": "地域が自然に存在する単位ではなく、行政制度、経済連携、歴史叙述、教育、メディア、住民運動、境界設定を通じて作られ、維持され、変化する過程を指す概念。地域アイデンティティや地域ブランド、越境圏の形成を分析する際に重要となる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "新地域地理学、政治地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "region-building,institutionalization,regional identity,boundaries",
+    "key_researchers": ["Anssi Paasi", "John Agnew", "Michael Keating"]
+  },
+  {
+    "name_ja": "ローカリティ",
+    "name_en": "Locality",
+    "definition": "特定の場所や地域における社会関係、労働市場、生活文化、制度、歴史、外部との結びつきが作る固有の文脈を指す概念。ローカルを閉じた小空間としてではなく、グローバルな経済や国家政策と相互作用しながら形成される具体的な社会空間として捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "新地域地理学、社会地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "locality,local context,place,regional change",
+    "key_researchers": ["Doreen Massey", "Philip Cooke", "John Urry"]
+  },
+  {
+    "name_ja": "グローカリゼーション",
+    "name_en": "Glocalization",
+    "definition": "グローバルな経済、文化、技術、制度が地域社会に一方的に浸透するのではなく、ローカルな慣習、アイデンティティ、市場、政治によって翻訳され再構成される過程を指す概念。世界的な標準化と地域的差異の同時進行を理解するために用いられる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "文化地理学、グローバリゼーション研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "glocalization,global-local,hybridity,local adaptation",
+    "key_researchers": ["Roland Robertson", "Erik Swyngedouw", "Doreen Massey"]
+  },
+  {
+    "name_ja": "ネットワーク空間",
+    "name_en": "Network Space",
+    "definition": "都市、企業、研究機関、交通結節点、通信インフラ、人の移動がネットワークとして結びつき、空間的近接だけでは説明できない関係性を生むという概念。階層的な地域区分よりも、ノード、リンク、流動、接続性に注目し、グローバル都市や物流網の分析に用いられる。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ネットワーク社会論、経済地理学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "network space,nodes,flows,connectivity",
+    "key_researchers": ["Manuel Castells", "Peter Taylor", "Ash Amin"]
+  },
+  {
+    "name_ja": "流動空間",
+    "name_en": "Space of Flows",
+    "definition": "情報、資本、権力、専門知識が電子通信網、交通網、金融市場、組織ネットワークを通じて移動し、場所に依存しないように見える支配的空間を形成するという概念。グローバル都市や企業ネットワークを理解する一方、流動を支える物質的インフラと地域的不平等も問題化される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ネットワーク社会論、都市地理学",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "space of flows,network society,global cities,information",
+    "key_researchers": ["Manuel Castells", "Saskia Sassen", "Peter Taylor"]
+  },
+  {
+    "name_ja": "世界都市",
+    "name_en": "World City",
+    "definition": "国際金融、多国籍企業、専門サービス、文化産業、交通通信の中枢機能が集中し、世界経済を指揮・媒介する都市を指す概念。人口規模よりも、都市がグローバルな資本蓄積や意思決定ネットワークにおいて果たす役割を重視する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市地理学、世界システム論",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "world city,global economy,command functions,urban hierarchy",
+    "key_researchers": ["Peter Hall", "John Friedmann", "Saskia Sassen"]
+  },
+  {
+    "name_ja": "グローバル都市",
+    "name_en": "Global City",
+    "definition": "金融、法律、会計、広告、情報技術など高度生産者サービスが集中し、グローバル経済を管理・調整する戦略的拠点となる都市を指す概念。同時に高賃金専門職と低賃金サービス労働の二極化、移民労働、住宅高騰などの都市内部の不平等も生み出す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "都市社会学、経済地理学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "global city,finance,producer services,urban inequality",
+    "key_researchers": ["Saskia Sassen", "John Friedmann", "Peter Taylor"]
+  },
+  {
+    "name_ja": "フェミニスト地理学",
+    "name_en": "Feminist Geography",
+    "definition": "空間、場所、身体、労働、移動、家庭、公共空間、知識生産がジェンダー関係によって構成されることを分析する研究潮流。女性の経験を追加するだけでなく、地理学の客観性、調査方法、スケール、権力、感情、ケアの問題を根本的に問い直す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "フェミニスト理論、批判地理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "feminist geography,gender,body,care",
+    "key_researchers": ["Gillian Rose", "Linda McDowell", "Doreen Massey"]
+  },
+  {
+    "name_ja": "身体の地理学",
+    "name_en": "Geographies of the Body",
+    "definition": "身体を空間を移動する単なる主体ではなく、ジェンダー、人種、障害、年齢、セクシュアリティ、健康、感情、規律が刻み込まれる空間的存在として分析する概念。都市の安全感、トイレ、医療、労働、監視、境界管理などを通じて身体と空間の相互構成を問う。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "フェミニスト地理学、社会地理学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "body,embodiment,gender,space",
+    "key_researchers": ["Robyn Longhurst", "Gillian Rose", "Linda McDowell"]
+  },
+  {
+    "name_ja": "感情地理学",
+    "name_en": "Emotional Geographies",
+    "definition": "場所、移動、風景、家庭、都市、国境、災害、記憶が恐怖、愛着、悲嘆、喜び、怒り、不安などの感情とどのように結びつくかを研究する概念。感情を個人内部の心理状態に限定せず、社会関係や物質環境を通じて空間的に生産されるものとして捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "文化地理学、フェミニスト地理学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "emotional geographies,affect,place,feeling",
+    "key_researchers": ["Joyce Davidson", "Liz Bondi", "Mick Smith"]
+  },
+  {
+    "name_ja": "非表象理論",
+    "name_en": "Non-Representational Theory",
+    "definition": "地図、言説、象徴だけでなく、身体的実践、習慣、リズム、感覚、情動、パフォーマンス、物質的相互作用に注目して空間を理解する理論。意味を解釈するだけでは捉えきれない、日常の動きや生成中の出来事としての空間経験を重視する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ポスト構造主義地理学、実践理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "non-representational theory,practice,affect,performance",
+    "key_researchers": ["Nigel Thrift", "Ben Anderson", "J.D. Dewsbury"]
+  },
+  {
+    "name_ja": "アクターネットワーク理論",
+    "name_en": "Actor-Network Theory",
+    "definition": "人間だけでなく、技術、文書、動物、インフラ、地図、機械、自然物などの非人間的アクターも社会空間を構成する能動的要素として扱う理論。地理学では都市インフラ、科学知識、環境管理、移動技術がどのようなネットワークを通じて安定化するかを分析する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "科学技術社会論、関係論的地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "actor-network theory,assemblage,nonhuman,translation",
+    "key_researchers": ["Bruno Latour", "Michel Callon", "John Law"]
+  },
+  {
+    "name_ja": "アセンブラージュ地理学",
+    "name_en": "Assemblage Geographies",
+    "definition": "都市、地域、自然、インフラ、政策、身体、技術、言説が一時的に結びついて特定の空間秩序を作るという視点。固定的な構造や単一原因ではなく、異質な要素の接続、分解、再構成に注目し、予測不能で生成的な空間変化を説明する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ポスト構造主義地理学、ドゥルーズ派",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "assemblage,relationality,heterogeneity,urbanism",
+    "key_researchers": ["Manuel DeLanda", "Colin McFarlane", "Ash Amin"]
+  },
+  {
+    "name_ja": "ポストコロニアル地理学",
+    "name_en": "Postcolonial Geography",
+    "definition": "植民地主義と帝国主義が地図、探検、分類、土地所有、都市計画、開発言説、知識生産を通じて空間をどのように構成したかを批判的に分析する研究潮流。独立後も続く権力関係、移民、記憶、文化的混交、南北関係を地理的に検討する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ポストコロニアル理論、批判地理学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "postcolonial geography,empire,colonialism,knowledge",
+    "key_researchers": ["Derek Gregory", "Jane M. Jacobs", "Alison Blunt"]
+  },
+  {
+    "name_ja": "先住民地理学",
+    "name_en": "Indigenous Geographies",
+    "definition": "先住民の土地、領域、移動、記憶、法、関係性、環境知識を中心に据え、植民地主義的な地図化や所有制度に対抗する研究領域。土地を資源や所有物としてだけでなく、祖先、責任、実践、物語、非人間との関係によって構成されるものとして理解する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "脱植民地地理学、先住民研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "indigenous geographies,land,sovereignty,decolonization",
+    "key_researchers": ["Sarah Hunt", "Mishuana Goeman", "Linda Tuhiwai Smith"]
+  },
+  {
+    "name_ja": "脱植民地地理学",
+    "name_en": "Decolonial Geography",
+    "definition": "植民地主義が過去の出来事ではなく、土地収奪、知識体系、国境、開発、環境管理、大学制度の中で継続していると捉え、それを解体する研究実践。西洋中心的な空間概念や方法論を問い直し、先住民や南側世界の知識、関係性、主権を重視する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "脱植民地理論、批判地理学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "decolonial geography,settler colonialism,knowledge,sovereignty",
+    "key_researchers": ["Katherine McKittrick", "Sarah Hunt", "Walter Mignolo"]
+  },
+  {
+    "name_ja": "ブラック地理学",
+    "name_en": "Black Geographies",
+    "definition": "黒人の空間経験、奴隷制、移住、都市隔離、監視、抵抗、文化実践を中心に、近代空間が人種化された暴力と創造性を通じて形成されることを分析する分野。抑圧の地理だけでなく、黒人コミュニティが作る生存、記憶、自由、想像力の空間にも注目する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "ブラック研究、批判人種地理学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "Black geographies,race,space,resistance",
+    "key_researchers": ["Katherine McKittrick", "Ruth Wilson Gilmore", "Clyde Woods"]
+  },
+  {
+    "name_ja": "カーセラル地理学",
+    "name_en": "Carceral Geography",
+    "definition": "刑務所、拘置施設、移民収容、監視、保護観察、警察活動などの拘禁的制度が空間を通じて身体と社会を管理する仕組みを分析する分野。監獄の内部だけでなく、都市、国境、家庭、電子監視に広がる拘束と排除の地理を対象とする。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "批判地理学、法地理学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "carceral geography,prisons,surveillance,confinement",
+    "key_researchers": ["Dominique Moran", "Ruth Wilson Gilmore", "Brett Story"]
+  },
+  {
+    "name_ja": "法地理学",
+    "name_en": "Legal Geography",
+    "definition": "法律や規制が空間を作り、空間的状況が法の意味や適用を変える相互関係を分析する分野。土地所有、ゾーニング、国境、公共空間、環境規制、先住民権、住宅、移民管理などを通じて、法が場所ごとに異なる権力作用を持つことを示す。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "政治地理学、法社会学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "legal geography,law,space,rights",
+    "key_researchers": ["Nicholas Blomley", "David Delaney", "Irus Braverman"]
+  },
+  {
+    "name_ja": "健康地理学",
+    "name_en": "Health Geography",
+    "definition": "疾病、医療アクセス、健康格差、環境リスク、ケア、身体、福祉制度が空間的にどのように分布し経験されるかを研究する分野。感染症の拡散や病院立地だけでなく、貧困、人種、住宅、移動、地域環境が健康を形づくる社会的決定要因にも注目する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "医学地理学、社会地理学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "health geography,medical geography,health inequalities,care",
+    "key_researchers": ["Melinda Meade", "Wilbert Gesler", "Sarah Curtis"]
+  },
+  {
+    "name_ja": "ケアの地理学",
+    "name_en": "Geographies of Care",
+    "definition": "介護、育児、医療、福祉、相互扶助、感情労働が家庭、施設、地域、国家、国際移動の中でどのように配置されるかを研究する概念。ケアを私的で女性化された活動としてではなく、空間的に組織された社会的再生産と不平等の問題として捉える。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "フェミニスト地理学、社会地理学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "care,care work,social reproduction,health",
+    "key_researchers": ["Victoria Lawson", "Sarah Bowlby", "Parvati Raghuram"]
+  },
+  {
+    "name_ja": "災害地理学",
+    "name_en": "Disaster Geography",
+    "definition": "地震、洪水、台風、火山、干ばつ、感染症などの災害を自然現象だけでなく、脆弱性、土地利用、社会階層、都市化、行政、記憶、復興政策が結びついた空間的過程として分析する分野。被害の分布と回復力の差異に注目する。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "人間環境論、政治生態学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "disaster geography,vulnerability,risk,resilience",
+    "key_researchers": ["Gilbert White", "Piers Blaikie", "Ben Wisner"]
+  },
+  {
+    "name_ja": "脆弱性",
+    "name_en": "Vulnerability",
+    "definition": "災害、気候変動、経済危機、環境汚染などの影響を受けやすく、被害から回復しにくい状態を指す概念。単なる自然条件ではなく、貧困、住宅、土地権利、ジェンダー、年齢、政治的発言力、インフラへのアクセスが空間的に組み合わさって形成される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "災害研究、政治生態学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "vulnerability,risk,disasters,adaptive capacity",
+    "key_researchers": ["Piers Blaikie", "Ben Wisner", "Susan Cutter"]
+  },
+  {
+    "name_ja": "レジリエンス",
+    "name_en": "Resilience",
+    "definition": "都市、地域、コミュニティ、生態系が災害や変化に直面した際に、機能を維持し、回復し、場合によっては変容する能力を指す概念。政策上は防災や気候適応に用いられるが、責任を住民に転嫁したり、不平等な現状への復帰を正当化したりする危険も批判される。",
+    "subfield": "地理学・空間論",
+    "school_of_thought": "社会生態システム論、批判都市研究",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "resilience,adaptation,disaster,urban resilience",
+    "key_researchers": ["C.S. Holling", "Susan Cutter", "Mark Pelling"]
+  }
+]
+tokens used
+39,968

@@ -1,0 +1,820 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0982-7cf1-70e2-83b7-2c52fae429fc
+--------
+user
+「神経科学・認知科学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+BCI、神経可塑性、デフォルトモードネットワーク、光遺伝学、コネクトーム
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"神経科学・認知科学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "BCI",
+    "name_en": "Brain-Computer Interface",
+    "definition": "脳活動を計測し、その信号を解析して外部機器の制御や意思伝達に変換する技術体系。運動障害者の補助コミュニケーション、義手制御、神経リハビリ、感覚フィードバックなどに応用される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "神経工学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "brain-computer interface,neural decoding",
+    "key_researchers": ["Jacques Vidal", "John Donoghue", "Leigh Hochberg"]
+  },
+  {
+    "name_ja": "神経可塑性",
+    "name_en": "Neuroplasticity",
+    "definition": "経験、学習、損傷、発達に応じて神経回路の構造や機能が変化する性質。シナプス強度、樹状突起、皮質地図、ネットワーク結合が変わり、記憶形成やリハビリの基盤となる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "可塑性理論",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "plasticity,synaptic change",
+    "key_researchers": ["Donald Hebb", "Michael Merzenich", "Eric Kandel"]
+  },
+  {
+    "name_ja": "デフォルトモードネットワーク",
+    "name_en": "Default Mode Network",
+    "definition": "安静時や内省、自己参照、過去や未来の想起、他者理解に関与する脳領域群。内側前頭前野、後部帯状皮質、楔前部、側頭頭頂部などが協調し、課題遂行時には活動が低下しやすい。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経科学",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "default mode network,resting state",
+    "key_researchers": ["Marcus Raichle", "Gordon Shulman", "Randy Buckner"]
+  },
+  {
+    "name_ja": "光遺伝学",
+    "name_en": "Optogenetics",
+    "definition": "光感受性タンパク質を特定の神経細胞に発現させ、光照射で活動をミリ秒単位に操作する方法。神経回路の因果的役割を調べる強力な実験技術で、行動、記憶、情動研究を変えた。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "回路神経科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "optogenetics,neural control",
+    "key_researchers": ["Karl Deisseroth", "Edward Boyden", "Gero Miesenbock"]
+  },
+  {
+    "name_ja": "コネクトーム",
+    "name_en": "Connectome",
+    "definition": "脳内の神経細胞や領域間の接続関係を網羅的に記述した地図。微細なシナプス接続から大規模な白質線維ネットワークまでを対象にし、認知機能や疾患をネットワーク構造から理解する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "connectome,brain networks",
+    "key_researchers": ["Olaf Sporns", "Sebastian Seung", "Van Wedeen"]
+  },
+  {
+    "name_ja": "ヘッブ学習",
+    "name_en": "Hebbian Learning",
+    "definition": "同時に活動するニューロン同士の結合が強まるという原理に基づく学習理論。神経細胞集成、連合記憶、シナプス可塑性の概念的基礎となり、神経回路モデルや人工ニューラルネットにも影響した。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "連合主義",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "Hebbian learning,synaptic plasticity",
+    "key_researchers": ["Donald Hebb"]
+  },
+  {
+    "name_ja": "長期増強",
+    "name_en": "Long-Term Potentiation",
+    "definition": "高頻度刺激などの後にシナプス伝達効率が長時間増強される現象。海馬研究で詳しく調べられ、記憶形成の細胞基盤候補として重視される。NMDA受容体、カルシウム流入、AMPA受容体変化が関与する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "細胞神経科学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "long-term potentiation,LTP",
+    "key_researchers": ["Terje Lomo", "Tim Bliss", "Graham Collingridge"]
+  },
+  {
+    "name_ja": "長期抑圧",
+    "name_en": "Long-Term Depression",
+    "definition": "特定の刺激条件の後にシナプス伝達効率が長期的に低下する現象。不要な結合の弱化、運動学習、記憶の更新、神経回路の安定化に関わるとされ、LTPと対になる可塑性機構として研究される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "細胞神経科学",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "long-term depression,LTD",
+    "key_researchers": ["Masao Ito", "Mark Bear", "Robert Malenka"]
+  },
+  {
+    "name_ja": "予測符号化",
+    "name_en": "Predictive Coding",
+    "definition": "脳が外界の原因を予測し、感覚入力との差分である予測誤差を階層的に更新するという理論。知覚、注意、運動、幻覚、意識を統一的に説明しようとする枠組みとして発展している。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ベイズ脳理論",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "predictive coding,prediction error",
+    "key_researchers": ["Rao", "Dana Ballard", "Karl Friston"]
+  },
+  {
+    "name_ja": "自由エネルギー原理",
+    "name_en": "Free Energy Principle",
+    "definition": "生物が感覚入力の不確実性を下げるように知覚、行動、学習を行うとする理論。変分自由エネルギーの最小化により、予測、能動的推論、自己組織化を統一的に記述しようとする。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ベイズ脳理論",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_en": "free energy principle,active inference",
+    "key_researchers": ["Karl Friston"]
+  },
+  {
+    "name_ja": "能動的推論",
+    "name_en": "Active Inference",
+    "definition": "行為者が予測誤差や期待自由エネルギーを減らすように知覚と行動を選ぶという枠組み。運動制御、意思決定、注意、情動を同じ計算原理で説明し、環境への働きかけを推論過程とみなす。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ベイズ脳理論",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "active inference,action perception",
+    "key_researchers": ["Karl Friston", "Thomas Parr", "Giovanni Pezzulo"]
+  },
+  {
+    "name_ja": "強化学習",
+    "name_en": "Reinforcement Learning",
+    "definition": "報酬や罰に基づいて行動方策を更新する学習枠組み。神経科学ではドーパミン神経の報酬予測誤差、基底核の行動選択、習慣形成、意思決定の計算モデルとして重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "reinforcement learning,reward prediction error",
+    "key_researchers": ["Richard Sutton", "Andrew Barto", "Wolfram Schultz"]
+  },
+  {
+    "name_ja": "報酬予測誤差",
+    "name_en": "Reward Prediction Error",
+    "definition": "期待された報酬と実際に得られた報酬との差を表す信号。中脳ドーパミン神経活動と対応することが示され、学習、価値更新、依存、意思決定の神経計算を理解する中心概念となった。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "reward prediction error,dopamine",
+    "key_researchers": ["Wolfram Schultz", "Peter Dayan", "Read Montague"]
+  },
+  {
+    "name_ja": "作業記憶",
+    "name_en": "Working Memory",
+    "definition": "情報を短時間保持しながら操作する認知機能。前頭前野、頭頂葉、基底核などのネットワークが関与し、推論、言語理解、計画、意思決定の基盤となる。容量制限や注意制御との関係が重視される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "情報処理心理学",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "working memory,executive control",
+    "key_researchers": ["Alan Baddeley", "Graham Hitch", "Patricia Goldman-Rakic"]
+  },
+  {
+    "name_ja": "実行機能",
+    "name_en": "Executive Function",
+    "definition": "目標維持、抑制、認知的柔軟性、計画、モニタリングなどを含む高次制御機能。前頭前野を中心とする広範なネットワークに支えられ、複雑な課題遂行や社会的行動に不可欠である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経心理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "executive function,cognitive control",
+    "key_researchers": ["Donald Stuss", "Tim Shallice", "Miyake"]
+  },
+  {
+    "name_ja": "注意ネットワーク",
+    "name_en": "Attention Networks",
+    "definition": "覚醒、定位、実行制御など注意の機能を担う複数の脳ネットワーク。前頭頭頂系、上丘、視床、帯状皮質などが関与し、感覚情報の選択、課題関連情報の維持、競合解決を支える。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "attention networks,orienting",
+    "key_researchers": ["Michael Posner", "Steven Petersen", "Maurizio Corbetta"]
+  },
+  {
+    "name_ja": "選択的注意",
+    "name_en": "Selective Attention",
+    "definition": "多数の感覚情報や記憶表象の中から課題に関連する情報を優先的に処理する機能。知覚の精度、反応時間、神経発火、脳波リズムを変化させ、限られた処理資源の配分を可能にする。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知心理学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "selective attention,filtering",
+    "key_researchers": ["Donald Broadbent", "Anne Treisman", "Michael Posner"]
+  },
+  {
+    "name_ja": "意識の神経相関",
+    "name_en": "Neural Correlates of Consciousness",
+    "definition": "特定の意識経験が生じるために必要十分な最小限の神経過程を探る研究概念。視覚意識、覚醒、報告可能性、注意との区別を通じて、主観経験と脳活動の対応関係を明らかにしようとする。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "意識科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "consciousness,NCC",
+    "key_researchers": ["Francis Crick", "Christof Koch", "Anil Seth"]
+  },
+  {
+    "name_ja": "グローバルワークスペース理論",
+    "name_en": "Global Workspace Theory",
+    "definition": "意識内容は多数の専門処理モジュールに広く放送され、報告、記憶、意思決定に利用可能になるという理論。前頭頭頂ネットワークの広域同期や点火的活動と関連づけられることが多い。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "意識科学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "global workspace,conscious access",
+    "key_researchers": ["Bernard Baars", "Stanislas Dehaene", "Jean-Pierre Changeux"]
+  },
+  {
+    "name_ja": "統合情報理論",
+    "name_en": "Integrated Information Theory",
+    "definition": "意識をシステム内で情報がどれほど統合され、分化しているかによって説明する理論。経験の構造と物理システムの因果構造を対応させ、意識水準や質を定量化しようとする点が特徴である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "意識科学",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "integrated information,consciousness",
+    "key_researchers": ["Giulio Tononi", "Christof Koch"]
+  },
+  {
+    "name_ja": "ミラーニューロン",
+    "name_en": "Mirror Neurons",
+    "definition": "自己が行為を実行するときと他者の同様の行為を観察するときの両方で活動する神経細胞。運動理解、模倣、共感、社会認知の基盤候補として注目されたが、機能解釈には慎重な議論がある。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "社会神経科学",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "mirror neurons,action understanding",
+    "key_researchers": ["Giacomo Rizzolatti", "Vittorio Gallese", "Luciano Fadiga"]
+  },
+  {
+    "name_ja": "心の理論",
+    "name_en": "Theory of Mind",
+    "definition": "他者が自分とは異なる信念、欲求、意図、知識を持つと理解する能力。発達心理学、社会認知、神経科学で研究され、内側前頭前野、側頭頭頂接合部、後部帯状皮質などが関与する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "社会認知科学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "theory of mind,mentalizing",
+    "key_researchers": ["David Premack", "Guy Woodruff", "Rebecca Saxe"]
+  },
+  {
+    "name_ja": "身体化認知",
+    "name_en": "Embodied Cognition",
+    "definition": "認知を脳内表象だけでなく、身体、感覚運動系、環境との相互作用の中で理解する立場。知覚、概念、言語、情動が身体的経験に根ざすと考え、古典的な記号処理モデルを補完する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "身体化認知論",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "embodied cognition,sensorimotor",
+    "key_researchers": ["Francisco Varela", "Eleanor Rosch", "George Lakoff"]
+  },
+  {
+    "name_ja": "アフォーダンス",
+    "name_en": "Affordance",
+    "definition": "環境が行為者に提供する行為可能性を指す概念。物体の性質と身体能力の関係から知覚され、道具使用、運動計画、デザイン、ロボティクス、身体化認知の研究で広く使われる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "生態学的心理学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "affordance,ecological psychology",
+    "key_researchers": ["James J. Gibson", "Donald Norman"]
+  },
+  {
+    "name_ja": "生態学的知覚",
+    "name_en": "Ecological Perception",
+    "definition": "知覚を環境内の情報を直接拾い上げる過程として捉える立場。視覚刺激を内部で再構成するよりも、光学的流動や不変項を利用して行為に結びつく情報を得る点を重視する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "生態学的心理学",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "ecological perception,direct perception",
+    "key_researchers": ["James J. Gibson", "Eleanor Gibson"]
+  },
+  {
+    "name_ja": "神経振動",
+    "name_en": "Neural Oscillations",
+    "definition": "脳活動に見られる周期的な電気的変動で、デルタ、シータ、アルファ、ベータ、ガンマなどの周波数帯がある。注意、記憶、感覚統合、運動制御、睡眠段階の調整に関与するとされる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "neural oscillations,brain rhythms",
+    "key_researchers": ["Hans Berger", "Gyorgy Buzsaki", "Wolf Singer"]
+  },
+  {
+    "name_ja": "ガンマ同期",
+    "name_en": "Gamma Synchrony",
+    "definition": "およそ30ヘルツ以上の高周波神経振動が複数領域で同期する現象。特徴結合、注意、意識、作業記憶と関連づけられ、神経集団間の一時的な情報統合機構として議論される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "gamma synchrony,feature binding",
+    "key_researchers": ["Wolf Singer", "Charles Gray", "Pascal Fries"]
+  },
+  {
+    "name_ja": "コミュニケーション・スルー・コヒーレンス",
+    "name_en": "Communication Through Coherence",
+    "definition": "神経集団間の振動位相がそろうことで、情報伝達の効率が高まるとする仮説。脳領域間の結合強度が固定的でなく、注意や課題要求に応じて時間的同期により動的に調整されると考える。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "coherence,neural communication",
+    "key_researchers": ["Pascal Fries"]
+  },
+  {
+    "name_ja": "スパイクタイミング依存可塑性",
+    "name_en": "Spike-Timing-Dependent Plasticity",
+    "definition": "シナプス前細胞と後細胞の発火タイミング差に応じて結合強度が増減する可塑性規則。数十ミリ秒単位の時間関係が学習方向を決め、時間符号化や因果的連合の神経基盤とされる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "細胞神経科学",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "STDP,spike timing",
+    "key_researchers": ["Henry Markram", "Guo-qiang Bi", "Mu-ming Poo"]
+  },
+  {
+    "name_ja": "場所細胞",
+    "name_en": "Place Cells",
+    "definition": "動物が環境内の特定位置にいるとき選択的に発火する海馬ニューロン。空間記憶、認知地図、ナビゲーションの神経基盤として重要であり、格子細胞や頭方向細胞とともに空間表象を構成する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "記憶神経科学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "place cells,hippocampus",
+    "key_researchers": ["John O'Keefe", "Jonathan Dostrovsky"]
+  },
+  {
+    "name_ja": "格子細胞",
+    "name_en": "Grid Cells",
+    "definition": "内側嗅内皮質にあり、環境中の複数地点で六角格子状の発火パターンを示す神経細胞。自己位置推定、経路積分、空間ナビゲーションの計算基盤として研究され、海馬系の地図形成に関わる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "記憶神経科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "grid cells,spatial navigation",
+    "key_researchers": ["May-Britt Moser", "Edvard Moser", "Torkel Hafting"]
+  },
+  {
+    "name_ja": "認知地図",
+    "name_en": "Cognitive Map",
+    "definition": "環境の空間的関係や目標位置を内的に表す構造。迷路学習から提案され、海馬の場所細胞や格子細胞の発見で神経基盤の理解が進んだ。現在は抽象的概念空間の表象にも拡張される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知心理学",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "cognitive map,spatial representation",
+    "key_researchers": ["Edward Tolman", "John O'Keefe"]
+  },
+  {
+    "name_ja": "海馬記憶システム",
+    "name_en": "Hippocampal Memory System",
+    "definition": "海馬と関連内側側頭葉構造がエピソード記憶や空間記憶の形成に果たす役割を示す概念。新しい経験の結合、文脈表象、記憶固定化、パターン分離と補完に関わる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "記憶神経科学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "hippocampus,episodic memory",
+    "key_researchers": ["Brenda Milner", "Larry Squire", "John O'Keefe"]
+  },
+  {
+    "name_ja": "記憶固定化",
+    "name_en": "Memory Consolidation",
+    "definition": "学習直後の不安定な記憶が時間とともに安定化し、長期記憶として保持される過程。シナプスレベルの固定化とシステムレベルの固定化があり、睡眠、海馬、新皮質の相互作用が重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "記憶神経科学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "memory consolidation,sleep",
+    "key_researchers": ["Georg Muller", "Alfons Pilzecker", "Larry Squire"]
+  },
+  {
+    "name_ja": "再固定化",
+    "name_en": "Reconsolidation",
+    "definition": "想起された記憶が一時的に不安定化し、再び固定化される過程。記憶が保存後も更新可能であることを示し、恐怖記憶の修正、依存治療、心理療法の神経科学的基盤として注目される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "記憶神経科学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "reconsolidation,memory updating",
+    "key_researchers": ["Karim Nader", "Joseph LeDoux", "Glenn Schafe"]
+  },
+  {
+    "name_ja": "エングラム",
+    "name_en": "Engram",
+    "definition": "特定の記憶を物理的に担う神経細胞群やシナプス変化を指す概念。近年は活動依存的標識、光遺伝学、カルシウムイメージングにより、記憶痕跡細胞の操作と同定が進んでいる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "記憶神経科学",
+    "era_start": 1921,
+    "era_end": null,
+    "keywords_en": "engram,memory trace",
+    "key_researchers": ["Karl Lashley", "Susumu Tonegawa", "Steve Ramirez"]
+  },
+  {
+    "name_ja": "情動価",
+    "name_en": "Valence",
+    "definition": "刺激や経験が快か不快か、接近すべきか回避すべきかを表す情動的価値。扁桃体、線条体、前頭前野、視床下部などが関与し、学習、意思決定、気分障害の理解に重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "情動神経科学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "valence,affective neuroscience",
+    "key_researchers": ["Jaak Panksepp", "Joseph LeDoux", "Lisa Feldman Barrett"]
+  },
+  {
+    "name_ja": "扁桃体恐怖条件づけ",
+    "name_en": "Amygdala Fear Conditioning",
+    "definition": "中性刺激と嫌悪刺激の連合により恐怖反応が学習される過程で、扁桃体が中心的役割を果たす。情動記憶、脅威検出、PTSD、消去学習の神経メカニズム研究の代表的モデルである。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "情動神経科学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "amygdala,fear conditioning",
+    "key_researchers": ["Joseph LeDoux", "Michael Davis"]
+  },
+  {
+    "name_ja": "内受容感覚",
+    "name_en": "Interoception",
+    "definition": "心拍、呼吸、胃腸状態、痛み、体温など身体内部状態を感知する機能。島皮質や帯状皮質が関与し、情動、自己感、意思決定、不安、身体症状の認知に深く結びつく。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "情動神経科学",
+    "era_start": 1906,
+    "era_end": null,
+    "keywords_en": "interoception,body signals",
+    "key_researchers": ["Charles Sherrington", "A. D. Craig", "Hugo Critchley"]
+  },
+  {
+    "name_ja": "体性感覚地図",
+    "name_en": "Somatotopic Map",
+    "definition": "身体各部位からの感覚入力が大脳皮質上に秩序だった空間配置で表現される構造。一次体性感覚野のホムンクルスが代表例で、神経可塑性、幻肢痛、リハビリ研究にも関係する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "somatotopy,sensory map",
+    "key_researchers": ["Wilder Penfield", "Theodore Rasmussen"]
+  },
+  {
+    "name_ja": "視覚二経路説",
+    "name_en": "Two Visual Streams Hypothesis",
+    "definition": "視覚情報処理が腹側の物体認識経路と背側の空間・行為経路に分かれるという仮説。何を見ているかと、どこにありどう行為するかを異なる皮質ネットワークが担うと説明する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経科学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "two visual streams,ventral dorsal",
+    "key_researchers": ["Leslie Ungerleider", "Mortimer Mishkin", "Melvyn Goodale"]
+  },
+  {
+    "name_ja": "特徴統合理論",
+    "name_en": "Feature Integration Theory",
+    "definition": "色、形、方向などの基本特徴は並列的に処理されるが、対象として結合するには注意が必要だとする理論。錯誤結合や視覚探索の実験から、注意の役割を説明する重要な認知モデルとなった。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知心理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "feature integration,visual attention",
+    "key_researchers": ["Anne Treisman", "Garry Gelade"]
+  },
+  {
+    "name_ja": "顔認知",
+    "name_en": "Face Perception",
+    "definition": "顔の個体識別、表情、視線、年齢、性別などを処理する認知機能。紡錘状回顔領域、上側頭溝、扁桃体などが関与し、相貌失認や自閉スペクトラム研究にも重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経科学",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "face perception,fusiform face area",
+    "key_researchers": ["Nancy Kanwisher", "Vicki Bruce", "Martha Farah"]
+  },
+  {
+    "name_ja": "言語野",
+    "name_en": "Language Areas",
+    "definition": "言語理解や産出に関与する脳領域群で、古典的にはブローカ野とウェルニッケ野が中心とされた。現在は側頭葉、前頭葉、頭頂葉、白質経路を含む分散ネットワークとして理解される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "神経心理学",
+    "era_start": 1861,
+    "era_end": null,
+    "keywords_en": "language areas,Broca Wernicke",
+    "key_researchers": ["Paul Broca", "Carl Wernicke", "Norman Geschwind"]
+  },
+  {
+    "name_ja": "二重経路言語モデル",
+    "name_en": "Dual-Stream Model of Language",
+    "definition": "言語処理が音声と意味を結ぶ腹側経路と、音声と運動表現を結ぶ背側経路に分かれるというモデル。音声知覚、語彙意味、復唱、発話制御を脳ネットワークとして説明する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経科学",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "dual-stream language,speech processing",
+    "key_researchers": ["Gregory Hickok", "David Poeppel"]
+  },
+  {
+    "name_ja": "ニューラルデコーディング",
+    "name_en": "Neural Decoding",
+    "definition": "神経活動パターンから刺激、意図、運動、記憶内容、知覚経験などを推定する解析手法。機械学習や統計モデルを用い、BCI、知覚研究、記憶再構成、脳画像解析で広く利用される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "neural decoding,multivariate analysis",
+    "key_researchers": ["Geoffrey Hinton", "Jack Gallant", "John-Dylan Haynes"]
+  },
+  {
+    "name_ja": "表象類似性分析",
+    "name_en": "Representational Similarity Analysis",
+    "definition": "脳活動、行動、計算モデルの表象間の類似構造を比較する手法。個々のボクセルやニューロンではなく、パターン全体の距離行列を用いて、認知表象の構造を評価する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "認知神経科学",
+    "era_start": 2008,
+    "era_end": null,
+    "keywords_en": "representational similarity,RSA",
+    "key_researchers": ["Nikolaus Kriegeskorte", "Marlene Mur"]
+  },
+  {
+    "name_ja": "機能的結合",
+    "name_en": "Functional Connectivity",
+    "definition": "離れた脳領域間の活動が時間的に相関する程度を示す概念。直接の解剖学的接続を意味するとは限らず、安静時fMRI、脳波、脳磁図でネットワーク構造や疾患変化を調べる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "functional connectivity,resting state fMRI",
+    "key_researchers": ["Biswal", "Marcus Raichle", "Michael Fox"]
+  },
+  {
+    "name_ja": "構造的結合",
+    "name_en": "Structural Connectivity",
+    "definition": "白質線維やシナプス接続など、脳領域や神経細胞間の物理的な接続関係を指す。拡散MRI、トレーシング、電子顕微鏡再構成などで測定され、機能的結合の制約条件となる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "structural connectivity,white matter",
+    "key_researchers": ["Van Wedeen", "Olaf Sporns", "Hagmann"]
+  },
+  {
+    "name_ja": "スモールワールドネットワーク",
+    "name_en": "Small-World Network",
+    "definition": "局所的なクラスター性が高く、同時に全体の平均経路長が短いネットワーク構造。脳ネットワークは効率的な情報統合と局所専門化を両立するため、この性質を持つと考えられている。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "small-world network,brain graph",
+    "key_researchers": ["Duncan Watts", "Steven Strogatz", "Olaf Sporns"]
+  },
+  {
+    "name_ja": "リッチクラブ",
+    "name_en": "Rich Club Organization",
+    "definition": "ネットワーク内で高次数のハブ同士が互いに密に接続する構造。脳では情報統合を支える中核的な接続骨格とされ、発達、意識、統合失調症などの病態ネットワーク研究で注目される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ネットワーク神経科学",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_en": "rich club,network hubs",
+    "key_researchers": ["Martijn van den Heuvel", "Olaf Sporns"]
+  },
+  {
+    "name_ja": "神経発達",
+    "name_en": "Neurodevelopment",
+    "definition": "神経管形成、神経新生、軸索誘導、シナプス形成、刈り込み、髄鞘化などを通じて神経系が構築される過程。遺伝要因と環境要因が相互作用し、認知機能や発達障害の基盤となる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "発達神経科学",
+    "era_start": 1888,
+    "era_end": null,
+    "keywords_en": "neurodevelopment,synaptogenesis",
+    "key_researchers": ["Santiago Ramon y Cajal", "Roger Sperry", "Pasko Rakic"]
+  },
+  {
+    "name_ja": "シナプス刈り込み",
+    "name_en": "Synaptic Pruning",
+    "definition": "発達過程で過剰に形成されたシナプスが経験や活動に応じて除去され、神経回路が効率化される現象。思春期の皮質成熟、学習、発達障害、統合失調症リスクとの関連が研究されている。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "発達神経科学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "synaptic pruning,development",
+    "key_researchers": ["Peter Huttenlocher", "Beth Stevens"]
+  },
+  {
+    "name_ja": "臨界期",
+    "name_en": "Critical Period",
+    "definition": "発達中の特定時期に経験が神経回路や行動に特に強い影響を与える期間。視覚皮質、言語獲得、社会行動で研究され、可塑性を開閉する分子機構やリハビリ応用が注目される。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "発達神経科学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "critical period,developmental plasticity",
+    "key_researchers": ["David Hubel", "Torsten Wiesel", "Takao Hensch"]
+  },
+  {
+    "name_ja": "脳由来神経栄養因子",
+    "name_en": "Brain-Derived Neurotrophic Factor",
+    "definition": "神経細胞の生存、成長、シナプス可塑性を支える神経栄養因子。BDNFは学習、記憶、運動、ストレス反応、うつ病、神経変性疾患と関連し、活動依存的な回路変化の分子基盤となる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "分子神経科学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "BDNF,neurotrophic factor",
+    "key_researchers": ["Yves-Alain Barde", "Rita Levi-Montalcini"]
+  },
+  {
+    "name_ja": "グリア細胞",
+    "name_en": "Glial Cells",
+    "definition": "ニューロンを支えるだけでなく、シナプス調節、代謝供給、髄鞘形成、免疫応答、神経伝達物質除去に関与する細胞群。アストロサイト、オリゴデンドロサイト、ミクログリアなどが含まれる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "細胞神経科学",
+    "era_start": 1856,
+    "era_end": null,
+    "keywords_en": "glia,astrocytes",
+    "key_researchers": ["Rudolf Virchow", "Ben Barres"]
+  },
+  {
+    "name_ja": "ミクログリア",
+    "name_en": "Microglia",
+    "definition": "中枢神経系の免疫担当細胞で、損傷や炎症への応答に加え、発達期のシナプス刈り込みや神経回路維持にも関わる。神経変性疾患、精神疾患、慢性炎症との関係が重視されている。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "神経免疫学",
+    "era_start": 1919,
+    "era_end": null,
+    "keywords_en": "microglia,neuroinflammation",
+    "key_researchers": ["Pio del Rio Hortega", "Beth Stevens"]
+  },
+  {
+    "name_ja": "ニューロモジュレーション",
+    "name_en": "Neuromodulation",
+    "definition": "ドーパミン、セロトニン、ノルアドレナリン、アセチルコリンなどが神経回路の興奮性や可塑性を広範に調整する仕組み。覚醒、注意、報酬、気分、学習率の変化を支える。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "neuromodulation,dopamine serotonin",
+    "key_researchers": ["Arvid Carlsson", "Wolfram Schultz", "Trevor Robbins"]
+  },
+  {
+    "name_ja": "ドーパミン系",
+    "name_en": "Dopaminergic System",
+    "definition": "黒質や腹側被蓋野から線条体、前頭前野、辺縁系へ投射する神経系。運動制御、報酬学習、動機づけ、認知制御に関与し、パーキンソン病、依存、統合失調症研究の中核である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "神経薬理学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "dopamine,reward",
+    "key_researchers": ["Arvid Carlsson", "Wolfram Schultz", "Ann Graybiel"]
+  },
+  {
+    "name_ja": "基底核ループ",
+    "name_en": "Basal Ganglia Loops",
+    "definition": "大脳皮質、線条体、淡蒼球、視床、黒質を結ぶ再帰的回路で、運動、認知、情動の選択と抑制に関与する。直接路、間接路、ハイパー直接路のバランスが行動制御に重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "basal ganglia,action selection",
+    "key_researchers": ["Alexander DeLong", "Ann Graybiel", "Mahlon DeLong"]
+  },
+  {
+    "name_ja": "小脳予測制御",
+    "name_en": "Cerebellar Predictive Control",
+    "definition": "小脳が感覚運動誤差を利用して内部モデルを学習し、運動の予測的調整を行うという考え。姿勢、眼球運動、到達運動だけでなく、言語、認知、情動への関与も研究されている。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "運動制御理論",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "cerebellum,internal model",
+    "key_researchers": ["Masao Ito", "David Marr", "James Albus"]
+  },
+  {
+    "name_ja": "内部モデル",
+    "name_en": "Internal Model",
+    "definition": "身体や環境の入出力関係を脳内で近似し、運動制御や予測に利用する表象。順モデルは行為結果を予測し、逆モデルは目標達成に必要な運動指令を推定する。小脳研究で重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "運動制御理論",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "internal model,motor control",
+    "key_researchers": ["Mitsuo Kawato", "Daniel Wolpert", "Reza Shadmehr"]
+  },
+  {
+    "name_ja": "感覚運動統合",
+    "name_en": "Sensorimotor Integration",
+    "definition": "感覚入力と運動指令を結びつけ、身体状態や外界変化に応じて行動を調整する過程。運動学習、道具使用、姿勢制御、発話、身体所有感に関与し、頭頂葉、小脳、運動野が重要である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "運動制御理論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "sensorimotor integration,motor learning",
+    "key_researchers": ["Marc Jeannerod", "Daniel Wolpert", "Michael Graziano"]
+  },
+  {
+    "name_ja": "神経集団符号化",
+    "name_en": "Population Coding",
+    "definition": "単一ニューロンではなく、多数のニューロン集団の活動パターンによって刺激や運動変数が表現されるという考え。運動方向、視覚特徴、意思決定、BCIのデコードで中心的な概念である。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "population coding,neural representation",
+    "key_researchers": ["Apostolos Georgopoulos", "William Newsome", "Alex Pouget"]
+  },
+  {
+    "name_ja": "スパース符号化",
+    "name_en": "Sparse Coding",
+    "definition": "少数のニューロンや特徴だけが強く活動することで情報を効率よく表現する符号化方式。視覚皮質、嗅覚、記憶表象、機械学習で研究され、冗長性の削減と識別性の向上に関係する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "sparse coding,efficient coding",
+    "key_researchers": ["Bruno Olshausen", "David Field", "Horace Barlow"]
+  },
+  {
+    "name_ja": "効率的符号化",
+    "name_en": "Efficient Coding",
+    "definition": "神経系が環境統計に適応し、限られた資源で情報をできるだけ効率的に表現するという原理。感覚系の受容野、順応、予測、スパース表現の説明に使われ、情報理論と結びつく。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的神経科学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_en": "efficient coding,information theory",
+    "key_researchers": ["Horace Barlow", "Simon Laughlin", "Bruno Olshausen"]
+  },
+  {
+    "name_ja": "神経ダーウィニズム",
+    "name_en": "Neural Darwinism",
+    "definition": "発達と経験の中で神経回路群が選択され、適応的な機能が形成されるとする理論。遺伝的に完全に指定された回路ではなく、変異、競合、選択、再入結合によって脳機能を説明する。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "選択主義",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "neural Darwinism,selectionism",
+    "key_researchers": ["Gerald Edelman"]
+  },
+  {
+    "name_ja": "再入結合",
+    "name_en": "Reentrant Processing",
+    "definition": "脳領域間で一方向ではなく双方向かつ反復的に信号がやり取りされる処理様式。知覚の統合、意識、特徴結合、神経ダーウィニズムの理論で重視され、局所処理と全体統合を結びつける。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "システム神経科学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "reentrant processing,feedback",
+    "key_researchers": ["Gerald Edelman", "Victor Lamme"]
+  },
+  {
+    "name_ja": "拡張された心",
+    "name_en": "Extended Mind",
+    "definition": "認知過程が頭蓋内だけで完結せず、身体、道具、記録媒体、社会環境にまたがって構成されるとする哲学的・認知科学的立場。外部メモや技術を認知システムの一部とみなす。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "拡張認知論",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "extended mind,distributed cognition",
+    "key_researchers": ["Andy Clark", "David Chalmers", "Edwin Hutchins"]
+  },
+  {
+    "name_ja": "分散認知",
+    "name_en": "Distributed Cognition",
+    "definition": "認知を個人の脳内処理ではなく、人々、人工物、表記、環境の相互作用に分散した過程として分析する枠組み。航海、操縦室、組織作業などで、認知システムの境界を広く捉える。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "分散認知論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "distributed cognition,cognitive systems",
+    "key_researchers": ["Edwin Hutchins", "Donald Norman"]
+  },
+  {
+    "name_ja": "ベイズ推定",
+    "name_en": "Bayesian Inference",
+    "definition": "事前分布と観測データを組み合わせて事後信念を更新する推論方式。認知科学では知覚、運動、言語、意思決定を不確実性下の最適推定として説明し、脳の計算原理候補とされる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "ベイズ認知科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "Bayesian inference,uncertainty",
+    "key_researchers": ["David Knill", "Whitman Richards", "Josh Tenenbaum"]
+  },
+  {
+    "name_ja": "ドリフト拡散モデル",
+    "name_en": "Drift Diffusion Model",
+    "definition": "二択意思決定を、証拠が時間とともに蓄積され閾値に達すると反応が選ばれる過程として表すモデル。反応時間と正答率を同時に説明でき、知覚判断や認知制御の解析に広く使われる。",
+    "subfield": "神経科学・認知科学",
+    "school_of_thought": "計算論的認知科学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "drift diffusion model,evidence accumulation",
+    "key_researchers": ["Roger Ratcliff", "Michael Shadlen", "Joshua Gold"]
+  }
+]
+tokens used
+31,489

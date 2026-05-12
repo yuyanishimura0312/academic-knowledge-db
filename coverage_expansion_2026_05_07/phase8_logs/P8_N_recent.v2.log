@@ -1,0 +1,767 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e098e-8b1f-7020-b53f-7e3c3e085f3f
+--------
+user
+自然科学（2015-2025 自然科学新発見）の概念60件を JSON 配列で出力。
+
+必須5件:
+AlphaFold2、CRISPR-Cas9臨床応用、重力波天文学、mRNAワクチン、量子優位性
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"<下記から1つ>","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+subfield候補: 物理学、化学、生命科学・生物学、生態学、地球科学・環境科学、数学、統計学・計算科学、医学・臨床科学
+
+要件: 主に2015-2025年、内部知識のみ、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "AlphaFold2",
+    "name_en": "AlphaFold2",
+    "definition": "深層学習を用いてアミノ酸配列からタンパク質の立体構造を高精度に予測する手法。実験構造解析だけに依存していた構造生物学を大きく拡張し、酵素機能推定、創薬標的探索、進化解析に新しい計算的基盤を与えた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "計算構造生物学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "protein folding,deep learning",
+    "key_researchers": ["John Jumper", "Demis Hassabis"]
+  },
+  {
+    "name_ja": "CRISPR-Cas9臨床応用",
+    "name_en": "Clinical Applications of CRISPR-Cas9",
+    "definition": "CRISPR-Cas9によるゲノム編集を、鎌状赤血球症、がん免疫療法、遺伝性網膜疾患などの治療へ応用する概念。基礎的な遺伝子改変技術が、標的精度、安全性、送達法、倫理的管理を伴う臨床医療技術へ移行した点が重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "ゲノム医療",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "gene editing,genomic medicine",
+    "key_researchers": ["Jennifer Doudna", "Emmanuelle Charpentier"]
+  },
+  {
+    "name_ja": "重力波天文学",
+    "name_en": "Gravitational-Wave Astronomy",
+    "definition": "ブラックホールや中性子星の合体で生じる時空のさざ波を直接観測し、光では見えにくい宇宙現象を調べる天文学。2015年の初検出以後、一般相対論の検証、コンパクト天体の人口統計、宇宙論的距離測定を可能にした。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論的天体物理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "gravitational waves,LIGO",
+    "key_researchers": ["Rainer Weiss", "Kip Thorne", "Barry Barish"]
+  },
+  {
+    "name_ja": "mRNAワクチン",
+    "name_en": "mRNA Vaccines",
+    "definition": "病原体抗原をコードするメッセンジャーRNAを体内へ届け、細胞内で抗原を作らせて免疫応答を誘導するワクチン技術。COVID-19で大規模実用化され、迅速設計、脂質ナノ粒子送達、個別化がんワクチンへの展開を示した。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子ワクチン学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "mRNA vaccine,lipid nanoparticles",
+    "key_researchers": ["Katalin Kariko", "Drew Weissman"]
+  },
+  {
+    "name_ja": "量子優位性",
+    "name_en": "Quantum Supremacy",
+    "definition": "特定の計算課題において、量子計算機が古典計算機では現実的時間で困難な結果を生成する状態を指す概念。万能な実用計算の達成ではなく、量子ビット制御、ノイズ、サンプリング課題の境界を実験的に示した点に意義がある。",
+    "subfield": "物理学",
+    "school_of_thought": "量子情報科学",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "quantum computing,quantum supremacy",
+    "key_researchers": ["John Martinis", "Sergio Boixo"]
+  },
+  {
+    "name_ja": "単一細胞RNAシーケンス",
+    "name_en": "Single-Cell RNA Sequencing",
+    "definition": "組織を構成する個々の細胞ごとに遺伝子発現を測定し、従来の平均化された解析では見えなかった細胞型、発生経路、病態関連細胞集団を同定する技術。免疫学、がん研究、発生生物学の地図作成を加速した。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "単一細胞オミクス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "single-cell RNA-seq,cell atlas",
+    "key_researchers": ["Aviv Regev", "Sarah Teichmann"]
+  },
+  {
+    "name_ja": "空間トランスクリプトミクス",
+    "name_en": "Spatial Transcriptomics",
+    "definition": "組織切片上の位置情報を保持したままRNA発現を測定し、細胞がどこでどの遺伝子を働かせているかを可視化する概念。腫瘍微小環境、脳領域、発生過程の細胞間相互作用を、空間構造と分子情報の両面から解析できる。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "空間オミクス",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "spatial transcriptomics,tissue mapping",
+    "key_researchers": ["Joakim Lundeberg", "Patrik Stahl"]
+  },
+  {
+    "name_ja": "ヒト細胞アトラス",
+    "name_en": "Human Cell Atlas",
+    "definition": "人体を構成する全細胞型を分子レベルで体系的に記述し、健康と病気の参照地図を作る国際的研究構想。単一細胞解析、空間解析、計算統合を組み合わせ、疾患機序や再生医療の標準参照を提供する。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "参照アトラス生物学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "cell atlas,single-cell genomics",
+    "key_researchers": ["Aviv Regev", "Sarah Teichmann"]
+  },
+  {
+    "name_ja": "塩基編集",
+    "name_en": "Base Editing",
+    "definition": "DNA二本鎖を完全に切断せず、特定の塩基を別の塩基へ化学的に変換するゲノム編集技術。点変異が原因となる遺伝病の補正に有望で、従来のCRISPR切断型編集よりも一部の用途で副作用を抑えられる可能性がある。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "精密ゲノム編集",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "base editing,genome editing",
+    "key_researchers": ["David Liu", "Alexis Komor"]
+  },
+  {
+    "name_ja": "プライム編集",
+    "name_en": "Prime Editing",
+    "definition": "Cas酵素と逆転写酵素を融合し、ガイドRNAに書き込んだ情報を用いてDNA配列を狙った形に書き換える技術。挿入、欠失、塩基置換を比較的柔軟に扱え、遺伝病変異の精密修復を目指す次世代ゲノム編集として注目される。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "精密ゲノム編集",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "prime editing,reverse transcriptase",
+    "key_researchers": ["David Liu", "Andrew Anzalone"]
+  },
+  {
+    "name_ja": "CAR-T細胞療法",
+    "name_en": "CAR T-Cell Therapy",
+    "definition": "患者またはドナーのT細胞に、がん細胞表面抗原を認識するキメラ抗原受容体を導入して攻撃能力を高める治療法。血液がんで画期的効果を示し、固形腫瘍、同種細胞製剤、安全制御へ研究が拡大している。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "細胞免疫療法",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "CAR T cells,cancer immunotherapy",
+    "key_researchers": ["Carl June", "Michel Sadelain"]
+  },
+  {
+    "name_ja": "免疫チェックポイント阻害療法の拡張",
+    "name_en": "Expansion of Immune Checkpoint Blockade",
+    "definition": "PD-1、PD-L1、CTLA-4などの免疫抑制経路を阻害し、がんに対するT細胞応答を再活性化する治療概念。2015年以降、多癌種への適応、併用療法、バイオマーカー探索が進み、腫瘍免疫学を臨床の中心へ押し上げた。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "腫瘍免疫学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "checkpoint blockade,PD-1",
+    "key_researchers": ["James Allison", "Tasuku Honjo"]
+  },
+  {
+    "name_ja": "液体生検",
+    "name_en": "Liquid Biopsy",
+    "definition": "血液などの体液中に含まれる循環腫瘍DNA、細胞外小胞、腫瘍細胞を解析し、がんの診断、治療選択、再発監視を行う方法。侵襲の少ない反復検査を可能にし、腫瘍の進化や薬剤耐性を時間軸で追跡できる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "精密腫瘍学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "liquid biopsy,circulating tumor DNA",
+    "key_researchers": ["Bert Vogelstein", "Luis Diaz"]
+  },
+  {
+    "name_ja": "がんネオアンチゲンワクチン",
+    "name_en": "Cancer Neoantigen Vaccines",
+    "definition": "腫瘍固有の体細胞変異から生じる新規抗原を同定し、患者ごとに免疫応答を誘導する個別化ワクチン戦略。ゲノム解析、免疫情報学、mRNAやペプチド送達を統合し、免疫チェックポイント療法との併用が研究されている。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "個別化免疫療法",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "neoantigen,personalized vaccine",
+    "key_researchers": ["Catherine Wu", "Ugur Sahin"]
+  },
+  {
+    "name_ja": "オルガノイド医学",
+    "name_en": "Organoid Medicine",
+    "definition": "幹細胞から作製した小型の三次元臓器様構造を使い、発生、疾患、薬剤応答を実験的に再現する研究領域。患者由来オルガノイドにより、個別化治療選択、感染症モデル、希少疾患解析が現実的な実験系となった。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "再生医学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "organoids,stem cells",
+    "key_researchers": ["Hans Clevers", "Yoshiki Sasai"]
+  },
+  {
+    "name_ja": "ヒト胚モデル",
+    "name_en": "Human Embryo Models",
+    "definition": "幹細胞を用いて初期胚に似た構造を作り、着床前後の発生過程を倫理的制約の範囲で研究する概念。実際の胚を直接扱いにくい段階の細胞運命決定、形態形成、不妊や流産の機序解明に新しい窓を開いた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "発生生物学",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "embryo models,stem cells",
+    "key_researchers": ["Magdalena Zernicka-Goetz", "Jacob Hanna"]
+  },
+  {
+    "name_ja": "古代DNAゲノミクス",
+    "name_en": "Ancient DNA Genomics",
+    "definition": "古人骨や堆積物から抽出した劣化DNAを高精度に解析し、人類集団の移動、混血、感染症史、生物進化を復元する研究領域。2015年以降、大規模データ化が進み、考古学や人類学の仮説検証を分子情報で刷新した。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "進化ゲノミクス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ancient DNA,paleogenomics",
+    "key_researchers": ["Svante Paabo", "David Reich"]
+  },
+  {
+    "name_ja": "パンゲノム参照",
+    "name_en": "Human Pangenome Reference",
+    "definition": "単一の標準ヒトゲノムではなく、多様な集団の複数ゲノムを統合して参照配列を構成する概念。構造変異や集団特異的多様性をより正確に捉え、疾患関連解析や臨床ゲノム診断の偏りを減らす基盤となる。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "集団ゲノミクス",
+    "era_start": 2023,
+    "era_end": null,
+    "keywords_en": "pangenome,genomic diversity",
+    "key_researchers": ["Evan Eichler", "Karen Miga"]
+  },
+  {
+    "name_ja": "完全ヒトゲノム配列",
+    "name_en": "Complete Human Genome Sequence",
+    "definition": "長鎖シーケンスなどにより、従来未解読だったセントロメア、反復配列、複雑領域を含めてヒトゲノムを端から端まで解読する成果。ゲノムの暗部にあった構造変異、進化、疾患関連領域を詳細に調べる基礎を作った。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "ゲノム基盤科学",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "telomere-to-telomere,genome assembly",
+    "key_researchers": ["Karen Miga", "Adam Phillippy"]
+  },
+  {
+    "name_ja": "長鎖リードシーケンス",
+    "name_en": "Long-Read Sequencing",
+    "definition": "数千から数百万塩基に及ぶ長いDNA断片を直接読むシーケンス技術。短鎖リードでは解決しにくい反復配列、構造変異、ハプロタイプ、完全ゲノムアセンブリを解析でき、臨床遺伝学や微生物ゲノム研究を拡張した。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "ゲノム技術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "long-read sequencing,structural variation",
+    "key_researchers": ["Mark Akeson", "Jonas Korlach"]
+  },
+  {
+    "name_ja": "ナノポアシーケンス",
+    "name_en": "Nanopore Sequencing",
+    "definition": "DNAやRNA分子がナノサイズの孔を通過するときの電流変化を読み取り、塩基配列を推定する技術。携帯性、リアルタイム解析、長鎖読みに優れ、感染症監視、環境DNA、現場型ゲノム解析の可能性を広げた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "分子計測技術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "nanopore sequencing,real-time genomics",
+    "key_researchers": ["David Deamer", "Hagan Bayley"]
+  },
+  {
+    "name_ja": "タンパク質デザインAI",
+    "name_en": "AI Protein Design",
+    "definition": "深層生成モデルや構造予測を用いて、自然界にないタンパク質構造や機能を計算的に設計する研究領域。酵素、結合タンパク質、ワクチン抗原、ナノ構造体を目的に応じて作る合成生物学の中核技術となりつつある。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "計算タンパク質工学",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "protein design,generative AI",
+    "key_researchers": ["David Baker", "Minkyung Baek"]
+  },
+  {
+    "name_ja": "クライオ電子顕微鏡革命",
+    "name_en": "Cryo-Electron Microscopy Revolution",
+    "definition": "生体分子を急速凍結し、電子顕微鏡画像から高分解能構造を再構成する技術革新。2015年以降、膜タンパク質、大型複合体、動的状態の構造解析が急増し、構造生物学と創薬研究の実験戦略を大きく変えた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "構造生物学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "cryo-EM,structural biology",
+    "key_researchers": ["Richard Henderson", "Joachim Frank", "Jacques Dubochet"]
+  },
+  {
+    "name_ja": "相分離生物学",
+    "name_en": "Biomolecular Condensates",
+    "definition": "細胞内のタンパク質やRNAが膜を持たない液滴状集合体を形成し、反応場や遺伝子発現制御を担うという概念。神経変性疾患、ストレス応答、核内構造の理解を変え、細胞内組織化を物理化学的に捉える枠組みを与えた。",
+    "subfield": "生命科学・生物学",
+    "school_of_thought": "細胞物理生物学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "phase separation,biomolecular condensates",
+    "key_researchers": ["Anthony Hyman", "Clifford Brangwynne"]
+  },
+  {
+    "name_ja": "ミトコンドリア置換療法",
+    "name_en": "Mitochondrial Replacement Therapy",
+    "definition": "病的ミトコンドリアDNAの母系遺伝を避けるため、核DNAを健康なミトコンドリアを持つ卵子へ移す生殖医療技術。三者の遺伝的寄与を伴うため、遺伝病予防の可能性と生殖細胞系列改変の倫理が同時に問われる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "生殖ゲノム医療",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "mitochondrial replacement,genetic disease",
+    "key_researchers": ["Shoukhrat Mitalipov", "Doug Turnbull"]
+  },
+  {
+    "name_ja": "腸内細菌叢治療",
+    "name_en": "Microbiome Therapeutics",
+    "definition": "腸内細菌叢を薬剤、食事、便微生物移植、設計細菌などで操作し、感染症、炎症性腸疾患、代謝疾患、免疫疾患へ介入する考え方。相関研究から因果的治療へ進む過程で、菌株機能と宿主応答の精密化が進んだ。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "マイクロバイオーム医学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "microbiome therapeutics,fecal microbiota transplantation",
+    "key_researchers": ["Jeffrey Gordon", "Rob Knight"]
+  },
+  {
+    "name_ja": "環境DNAモニタリング",
+    "name_en": "Environmental DNA Monitoring",
+    "definition": "水、土壌、空気中に残された生物由来DNAを解析し、生物種の存在や生態系変化を非侵襲的に検出する方法。希少種調査、外来種監視、感染症媒介生物の追跡、海洋生態系評価に広く使われるようになった。",
+    "subfield": "生態学",
+    "school_of_thought": "分子生態学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "environmental DNA,biodiversity monitoring",
+    "key_researchers": ["Kristy Deiner", "Philip Thomsen"]
+  },
+  {
+    "name_ja": "昆虫個体数減少",
+    "name_en": "Insect Decline",
+    "definition": "多地域で観測される昆虫の個体数や多様性の減少を、農薬、土地利用変化、気候変動、光害などの複合要因から説明する研究概念。送粉、食物網、土壌機能への影響が大きく、生物多様性危機の指標として扱われる。",
+    "subfield": "生態学",
+    "school_of_thought": "保全生態学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "insect decline,biodiversity loss",
+    "key_researchers": ["Caspar Hallmann", "Dave Goulson"]
+  },
+  {
+    "name_ja": "プラネタリー・バウンダリー更新",
+    "name_en": "Updated Planetary Boundaries",
+    "definition": "地球システムが安定して機能するための限界を、気候、生物多様性、窒素循環、淡水、化学汚染などで定量化する枠組み。2015年以降の更新で、人間活動が複数境界を越えつつあることが統合的に示された。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球システム科学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "planetary boundaries,Earth system",
+    "key_researchers": ["Johan Rockstrom", "Will Steffen"]
+  },
+  {
+    "name_ja": "人新世",
+    "name_en": "Anthropocene",
+    "definition": "人間活動が地質学的規模で地球環境を変化させる時代を示す概念。正式な地質年代区分をめぐる議論とは別に、気候変動、生物多様性喪失、人工物堆積、化学汚染を統合的に理解する枠組みとして広がった。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球史・環境変動論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "Anthropocene,global change",
+    "key_researchers": ["Paul Crutzen", "Jan Zalasiewicz"]
+  },
+  {
+    "name_ja": "気候アトリビューション科学",
+    "name_en": "Climate Attribution Science",
+    "definition": "特定の熱波、豪雨、干ばつ、台風などの極端現象について、人為的気候変動が発生確率や強度をどの程度変えたかを定量評価する研究。観測、気候モデル、統計推論を組み合わせ、政策や損害評価にも影響する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "気候リスク科学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate attribution,extreme events",
+    "key_researchers": ["Friederike Otto", "Myles Allen"]
+  },
+  {
+    "name_ja": "ティッピングポイント気候科学",
+    "name_en": "Climate Tipping Points",
+    "definition": "氷床崩壊、アマゾン森林のサバンナ化、海洋循環変化など、地球システムが小さな追加変化で不可逆的または急激に別状態へ移る閾値を研究する概念。長期リスク評価と温暖化抑制目標の根拠に関わる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "非線形地球システム科学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "tipping points,climate system",
+    "key_researchers": ["Tim Lenton", "Johan Rockstrom"]
+  },
+  {
+    "name_ja": "ブルーカーボン",
+    "name_en": "Blue Carbon",
+    "definition": "マングローブ、塩性湿地、海草藻場など沿岸生態系が固定・貯蔵する炭素を気候緩和策として評価する概念。炭素隔離だけでなく、生物多様性、防災、漁業資源と結びつく自然を活用した解決策として注目される。",
+    "subfield": "生態学",
+    "school_of_thought": "生態系サービス論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "blue carbon,coastal ecosystems",
+    "key_researchers": ["Carlos Duarte", "Daniel Murdiyarso"]
+  },
+  {
+    "name_ja": "マイクロプラスチック汚染",
+    "name_en": "Microplastic Pollution",
+    "definition": "環境中に広がる微小なプラスチック粒子が、海洋、淡水、大気、土壌、生体内に蓄積しうる問題を扱う研究領域。発生源、輸送、毒性、食物網への移行、人間の曝露を統合的に評価する必要が高まった。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "microplastics,pollution",
+    "key_researchers": ["Richard Thompson", "Chelsea Rochman"]
+  },
+  {
+    "name_ja": "PFAS永遠の化学物質",
+    "name_en": "PFAS Forever Chemicals",
+    "definition": "有機フッ素化合物PFASが環境中で分解されにくく、水、土壌、生体に長期残留する問題を指す概念。撥水・耐熱用途の広がりに対し、健康影響、規制、除去技術、代替物質設計の研究が急速に進んだ。",
+    "subfield": "化学",
+    "school_of_thought": "環境化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "PFAS,forever chemicals",
+    "key_researchers": ["Philippe Grandjean", "Arlene Blum"]
+  },
+  {
+    "name_ja": "直接空気回収",
+    "name_en": "Direct Air Capture",
+    "definition": "大気中の低濃度二酸化炭素を化学吸着材や溶液で直接捕集し、地下貯留や利用へ回す技術。排出削減を代替するものではないが、残余排出の相殺や負排出の実現手段として、エネルギー効率とコストが焦点となる。",
+    "subfield": "化学",
+    "school_of_thought": "炭素管理化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "direct air capture,carbon dioxide removal",
+    "key_researchers": ["Klaus Lackner", "David Keith"]
+  },
+  {
+    "name_ja": "ペロブスカイト太陽電池",
+    "name_en": "Perovskite Solar Cells",
+    "definition": "ペロブスカイト型結晶構造を持つ材料を光吸収層に用いる高効率薄膜太陽電池。低温プロセス、軽量性、タンデム化の可能性があり、2015年以降に効率と安定性が急速に改善したが、耐久性と鉛管理が課題である。",
+    "subfield": "化学",
+    "school_of_thought": "材料化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "perovskite solar cells,photovoltaics",
+    "key_researchers": ["Tsutomu Miyasaka", "Henry Snaith"]
+  },
+  {
+    "name_ja": "固体電池",
+    "name_en": "Solid-State Batteries",
+    "definition": "液体電解質の代わりに固体電解質を用いる電池技術。高エネルギー密度、安全性、リチウム金属負極の利用可能性が期待される一方、界面抵抗、デンドライト、量産プロセスが主要課題として研究されている。",
+    "subfield": "化学",
+    "school_of_thought": "電気化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "solid-state batteries,electrolytes",
+    "key_researchers": ["John Goodenough", "Kiyoshi Kanamura"]
+  },
+  {
+    "name_ja": "リチウム硫黄電池",
+    "name_en": "Lithium-Sulfur Batteries",
+    "definition": "硫黄を正極活物質として用い、理論上高いエネルギー密度を持つ次世代電池。硫黄の豊富さと軽量性が利点だが、多硫化物シャトル、体積変化、寿命低下を克服する材料設計と電解質制御が研究の中心である。",
+    "subfield": "化学",
+    "school_of_thought": "蓄電材料化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "lithium-sulfur battery,energy storage",
+    "key_researchers": ["Linda Nazar", "Arumugam Manthiram"]
+  },
+  {
+    "name_ja": "金属有機構造体",
+    "name_en": "Metal-Organic Frameworks",
+    "definition": "金属イオンやクラスターと有機配位子が多孔性ネットワークを作る材料群。気体貯蔵、分離、触媒、センシング、二酸化炭素捕集で注目され、2015年以降は水安定性、実用成形、機械学習設計が進展した。",
+    "subfield": "化学",
+    "school_of_thought": "多孔性材料化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "metal-organic frameworks,porous materials",
+    "key_researchers": ["Omar Yaghi", "Susumu Kitagawa"]
+  },
+  {
+    "name_ja": "共有結合性有機構造体",
+    "name_en": "Covalent Organic Frameworks",
+    "definition": "有機分子が共有結合で周期的な多孔性結晶ネットワークを形成する材料。軽元素からなる設計自由度の高い構造を持ち、ガス分離、触媒、電荷輸送、電池材料への応用が研究され、結晶性制御が重要課題である。",
+    "subfield": "化学",
+    "school_of_thought": "有機材料化学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "covalent organic frameworks,porous polymers",
+    "key_researchers": ["Omar Yaghi", "Xinliang Feng"]
+  },
+  {
+    "name_ja": "機械学習ポテンシャル",
+    "name_en": "Machine-Learning Interatomic Potentials",
+    "definition": "量子化学計算の精度を保ちながら、原子間相互作用を機械学習で近似し、大規模・長時間の材料シミュレーションを可能にする手法。触媒、電池、相転移、欠陥拡散など、従来計算困難だった現象の探索を加速した。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "計算材料科学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "machine learning potentials,molecular simulation",
+    "key_researchers": ["Michele Parrinello", "Gabor Csanyi"]
+  },
+  {
+    "name_ja": "AI創薬",
+    "name_en": "AI Drug Discovery",
+    "definition": "機械学習、生成モデル、構造予測、実験自動化を組み合わせ、標的同定、化合物設計、毒性予測、臨床候補選定を効率化する創薬概念。2015年以降、データ統合と実験検証を伴う実用的パイプラインが発展した。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "計算創薬",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "AI drug discovery,generative chemistry",
+    "key_researchers": ["Regina Barzilay", "Alex Zhavoronkov"]
+  },
+  {
+    "name_ja": "深層強化学習の科学応用",
+    "name_en": "Deep Reinforcement Learning in Science",
+    "definition": "エージェントが試行錯誤を通じて方策を学ぶ深層強化学習を、実験制御、ロボット化学、量子制御、プラズマ制御などに応用する概念。複雑な探索空間で人間が設計しにくい操作戦略を発見できる点が特徴である。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "科学機械学習",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "deep reinforcement learning,scientific control",
+    "key_researchers": ["David Silver", "Pushmeet Kohli"]
+  },
+  {
+    "name_ja": "科学基盤モデル",
+    "name_en": "Scientific Foundation Models",
+    "definition": "大規模な科学データで事前学習し、分子、気象、タンパク質、ゲノム、材料など複数タスクへ転用できる汎用モデル。専門分野ごとの手作業特徴量に依存せず、予測、生成、補完、実験設計を統一的に扱う方向を示した。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "基盤モデル科学",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "foundation models,scientific AI",
+    "key_researchers": ["Anima Anandkumar", "Regina Barzilay"]
+  },
+  {
+    "name_ja": "微分可能プログラミング",
+    "name_en": "Differentiable Programming",
+    "definition": "プログラム全体を微分可能な計算グラフとして扱い、勾配により物理モデル、シミュレーション、制御、推論を最適化する考え方。科学計算と深層学習を接続し、既存の数理モデルにデータ駆動的な補正を組み込める。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "科学計算",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "differentiable programming,automatic differentiation",
+    "key_researchers": ["Yann LeCun", "Chris Rackauckas"]
+  },
+  {
+    "name_ja": "ニューラル常微分方程式",
+    "name_en": "Neural Ordinary Differential Equations",
+    "definition": "ニューラルネットワークの層を連続時間の微分方程式として表現し、時系列、物理系、生成モデルを連続ダイナミクスとして学習する手法。離散層の深さを連続化することで、科学データの時間発展モデル化に影響を与えた。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "機械学習理論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "neural ODE,continuous-depth models",
+    "key_researchers": ["Ricky Chen", "David Duvenaud"]
+  },
+  {
+    "name_ja": "因果機械学習",
+    "name_en": "Causal Machine Learning",
+    "definition": "予測精度だけでなく、介入した場合に何が起こるかを推定するため、因果推論と機械学習を統合する研究領域。医療、政策、疫学、経済的介入で、交絡を考慮した処置効果推定や反事実予測に使われる。",
+    "subfield": "統計学・計算科学",
+    "school_of_thought": "因果推論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "causal inference,machine learning",
+    "key_researchers": ["Judea Pearl", "Susan Athey"]
+  },
+  {
+    "name_ja": "フェデレーテッドラーニング医療",
+    "name_en": "Federated Learning in Medicine",
+    "definition": "患者データを各医療機関に保持したまま、モデル更新だけを共有して機械学習を行う方法。プライバシー、規制、データ移動の制約を抑えつつ、多施設の画像診断、予後予測、電子カルテ解析を可能にする。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "医療AI",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "federated learning,medical AI",
+    "key_researchers": ["Brendan McMahan", "Daniel Rueckert"]
+  },
+  {
+    "name_ja": "デジタルツイン医学",
+    "name_en": "Digital Twin Medicine",
+    "definition": "患者個人の生理、ゲノム、画像、生活データを統合した計算モデルを作り、治療反応や疾患進行を仮想的に予測する概念。個別化医療を動的シミュレーションへ拡張し、臨床試験設計や治療最適化に応用が期待される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "システム医学",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "digital twin,personalized medicine",
+    "key_researchers": ["Peter Coveney", "Ellen Kuhl"]
+  },
+  {
+    "name_ja": "ウェアラブル連続健康計測",
+    "name_en": "Wearable Continuous Health Monitoring",
+    "definition": "心拍、活動、睡眠、血糖、心電図などをウェアラブル機器で継続測定し、疾患予防や早期検出に活用する医療概念。病院内の断続的検査から日常環境の長期データへ視点を移し、デジタルバイオマーカーを生み出した。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "デジタルヘルス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "wearables,digital biomarkers",
+    "key_researchers": ["Eric Topol", "Michael Snyder"]
+  },
+  {
+    "name_ja": "マルチメッセンジャー天文学",
+    "name_en": "Multi-Messenger Astronomy",
+    "definition": "電磁波、重力波、ニュートリノ、宇宙線など異なる信号を組み合わせ、同一天体現象を多面的に解析する天文学。中性子星合体の観測により、重元素生成、短ガンマ線バースト、宇宙膨張率測定を結びつけた。",
+    "subfield": "物理学",
+    "school_of_thought": "高エネルギー天体物理学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "multi-messenger astronomy,neutron star merger",
+    "key_researchers": ["Nergis Mavalvala", "Edo Berger"]
+  },
+  {
+    "name_ja": "事象の地平面望遠鏡",
+    "name_en": "Event Horizon Telescope",
+    "definition": "地球規模の電波望遠鏡ネットワークを干渉計として結合し、ブラックホール周辺の事象の地平面スケール構造を画像化する計画。ブラックホールシャドウの観測により、一般相対論、降着流、ジェット形成の検証が進んだ。",
+    "subfield": "物理学",
+    "school_of_thought": "観測相対論",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "Event Horizon Telescope,black hole imaging",
+    "key_researchers": ["Sheperd Doeleman", "Katie Bouman"]
+  },
+  {
+    "name_ja": "高速電波バースト",
+    "name_en": "Fast Radio Bursts",
+    "definition": "ミリ秒程度の短時間に強い電波パルスを放つ宇宙現象。2015年以降、反復源や母銀河の同定が進み、マグネター起源説、銀河間物質の探査、宇宙論的バリオン分布の測定手段として研究が急拡大した。",
+    "subfield": "物理学",
+    "school_of_thought": "電波天文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "fast radio bursts,magnetars",
+    "key_researchers": ["Duncan Lorimer", "Victoria Kaspi"]
+  },
+  {
+    "name_ja": "ニュートリノ振動の精密測定",
+    "name_en": "Precision Neutrino Oscillation",
+    "definition": "ニュートリノが飛行中に種類を変える振動現象を高精度に測定し、質量階層、CP対称性の破れ、混合角を調べる研究。2015年以降の大型実験で、標準模型を超える物理や宇宙の物質優勢の手がかりが追求されている。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "neutrino oscillation,CP violation",
+    "key_researchers": ["Takaaki Kajita", "Arthur McDonald"]
+  },
+  {
+    "name_ja": "ミューオンg-2異常",
+    "name_en": "Muon g-2 Anomaly",
+    "definition": "ミューオンの異常磁気モーメントが標準模型の理論予測とずれる可能性を調べる精密測定問題。2021年以降の結果は新物理の兆候として注目されたが、理論計算の不確かさもあり、実験と格子QCDの整合が焦点である。",
+    "subfield": "物理学",
+    "school_of_thought": "精密素粒子物理学",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "muon g-2,standard model",
+    "key_researchers": ["Chris Polly", "Graziano Venanzoni"]
+  },
+  {
+    "name_ja": "トポロジカル量子物質",
+    "name_en": "Topological Quantum Matter",
+    "definition": "物質の電子状態を局所的対称性だけでなく、トポロジーにより分類し、表面状態やエッジ状態が安定に現れる相を研究する領域。トポロジカル絶縁体、半金属、超伝導体が、量子計算や低損失電子デバイスと結びつく。",
+    "subfield": "物理学",
+    "school_of_thought": "凝縮系物理学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "topological matter,quantum materials",
+    "key_researchers": ["Duncan Haldane", "Charles Kane"]
+  },
+  {
+    "name_ja": "時間結晶",
+    "name_en": "Time Crystals",
+    "definition": "空間結晶が空間並進対称性を破るように、時間方向の周期性に対して自発的または駆動下で安定した応答を示す物質相。非平衡量子系の相分類を広げ、量子シミュレーターや量子情報系で実験的に研究された。",
+    "subfield": "物理学",
+    "school_of_thought": "非平衡量子物理学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "time crystals,nonequilibrium phases",
+    "key_researchers": ["Frank Wilczek", "Norman Yao"]
+  },
+  {
+    "name_ja": "ツイストロニクス",
+    "name_en": "Twistronics",
+    "definition": "二次元材料をわずかに回転させて重ね、モアレ周期により電子バンド構造や相互作用を制御する研究領域。魔法角グラフェンで超伝導や相関絶縁相が見つかり、角度を新しい材料設計パラメータとする発想を生んだ。",
+    "subfield": "物理学",
+    "school_of_thought": "二次元量子材料",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "twistronics,magic-angle graphene",
+    "key_researchers": ["Pablo Jarillo-Herrero", "Allan MacDonald"]
+  },
+  {
+    "name_ja": "量子誤り訂正の進展",
+    "name_en": "Quantum Error Correction Advances",
+    "definition": "量子ビットが環境ノイズで壊れやすい問題に対し、冗長符号化と測定を用いて論理量子ビットを保護する技術。2015年以降、表面符号、閾値実験、論理エラー率低減が進み、実用量子計算への必須条件とされた。",
+    "subfield": "物理学",
+    "school_of_thought": "量子情報科学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "quantum error correction,logical qubits",
+    "key_researchers": ["John Preskill", "Barbara Terhal"]
+  },
+  {
+    "name_ja": "量子センサー",
+    "name_en": "Quantum Sensors",
+    "definition": "量子重ね合わせ、スピン、もつれなどを利用して、磁場、重力、時間、加速度を極めて高感度に測定する技術。NV中心、原子干渉計、光格子時計などが、医療計測、地下探査、基礎物理検証へ応用されている。",
+    "subfield": "物理学",
+    "school_of_thought": "量子計測学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "quantum sensing,metrology",
+    "key_researchers": ["Mikhail Lukin", "Jun Ye"]
+  },
+  {
+    "name_ja": "量子インターネット",
+    "name_en": "Quantum Internet",
+    "definition": "量子もつれや量子状態の転送を用いて、古典通信では実現できない安全通信、分散量子計算、量子センサー網を構築する構想。量子中継、メモリ、衛星リンク、都市圏ネットワーク実験が2015年以降に進展した。",
+    "subfield": "物理学",
+    "school_of_thought": "量子通信",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "quantum internet,entanglement distribution",
+    "key_researchers": ["Stephanie Wehner", "Jian-Wei Pan"]
+  },
+  {
+    "name_ja": "暗黒物質直接探索の低質量化",
+    "name_en": "Low-Mass Dark Matter Direct Detection",
+    "definition": "WIMP中心だった暗黒物質探索を、より軽い粒子やアクシオン様粒子へ広げる実験潮流。超低雑音検出器、量子センサー、半導体、超伝導材料を用い、従来感度が届かなかった質量領域を探索する。",
+    "subfield": "物理学",
+    "school_of_thought": "宇宙素粒子物理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "dark matter,direct detection",
+    "key_researchers": ["Risa Wechsler", "Peter Graham"]
+  },
+  {
+    "name_ja": "トポロジカルデータ解析",
+    "name_en": "Topological Data Analysis",
+    "definition": "データの形状、連結性、穴、階層構造を位相幾何学の不変量で捉える解析手法。高次元データの幾何的特徴を圧縮して扱えるため、生命科学、材料、画像、時系列のパターン発見に応用された。",
+    "subfield": "数学",
+    "school_of_thought": "応用位相幾何学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "topological data analysis,persistent homology",
+    "key_researchers": ["Gunnar Carlsson", "Robert Ghrist"]
+  },
+  {
+    "name_ja": "ホモトピー型理論",
+    "name_en": "Homotopy Type Theory",
+    "definition": "型理論とホモトピー論を結びつけ、数学的対象や証明を計算機上で扱うための基礎理論。2015年以降、形式化数学、証明支援系、単価性公理の発展とともに、数学の厳密な機械検証の思想を広げた。",
+    "subfield": "数学",
+    "school_of_thought": "構成的数学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "homotopy type theory,formal proof",
+    "key_researchers": ["Vladimir Voevodsky", "Steve Awodey"]
+  },
+  {
+    "name_ja": "形式化数学の拡大",
+    "name_en": "Expansion of Formalized Mathematics",
+    "definition": "Lean、Coq、Isabelleなどの証明支援系を使い、定理や証明を機械検証可能な形で記述する潮流。複雑な現代数学の信頼性向上だけでなく、教育、共同研究、AIによる定理証明との接続にも影響している。",
+    "subfield": "数学",
+    "school_of_thought": "形式証明",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "formalized mathematics,proof assistants",
+    "key_researchers": ["Kevin Buzzard", "Thomas Hales"]
+  },
+  {
+    "name_ja": "ABC予想証明論争",
+    "name_en": "ABC Conjecture Proof Controversy",
+    "definition": "数論のABC予想に対する宇宙際タイヒミュラー理論による証明をめぐり、数学共同体で検証、理解、受容の方法が議論された事例。新発見そのものだけでなく、極度に専門化した証明の透明性と査読のあり方を問うた。",
+    "subfield": "数学",
+    "school_of_thought": "数論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ABC conjecture,number theory",
+    "key_researchers": ["Shinichi Mochizuki", "Peter Scholze"]
+  }
+]
+tokens used
+34,494

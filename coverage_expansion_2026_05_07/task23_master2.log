@@ -1,0 +1,9 @@
+[t23] 13 tasks, MAX_PARALLEL=6
+[t23] T2_physics (物理学, target=200) start at 01:53:14
+[t23] T2_chemistry (化学, target=200) start at 01:53:14
+[t23] T2_earth (地球科学・環境科学, target=200) start at 01:53:14
+[t23] T2_math (数学, target=200) start at 01:53:14
+[t23] T2_medicine (医学・臨床科学, target=250) start at 01:53:14
+[t23] T2_astrophysics (宇宙物理・天文学, target=200) start at 01:53:14
+[t23] T2_physics done rc=0 bytes=3
+[t23] T3_h_recent (2015-2025 人文学新概念, target=150) start at 01:53:59

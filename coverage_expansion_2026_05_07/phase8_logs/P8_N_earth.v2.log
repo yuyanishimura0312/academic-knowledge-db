@@ -1,0 +1,787 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e097f-1df0-7c32-aba2-6fa756664432
+--------
+user
+「地球科学・環境科学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+プレートテクトニクス、地球システム科学、アントロポセン、炭素循環、ミランコビッチサイクル
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"地球科学・環境科学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "プレートテクトニクス",
+    "name_en": "Plate Tectonics",
+    "definition": "地球の岩石圏が複数の剛体的プレートに分かれ、マントル対流やスラブ沈み込みなどに伴って移動し、海嶺、海溝、造山帯、地震、火山活動を統一的に説明する理論である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球物理学・統一地質学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "lithosphere,subduction",
+    "key_researchers": ["Alfred Wegener", "Harry Hess", "J. Tuzo Wilson"]
+  },
+  {
+    "name_ja": "地球システム科学",
+    "name_en": "Earth System Science",
+    "definition": "大気圏、水圏、雪氷圏、生物圏、岩石圏、人間圏を相互作用する一つの複雑系として扱い、物質循環、エネルギー収支、フィードバックを通じて地球環境変動を理解する枠組みである。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "システム科学",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_en": "earth system,feedback",
+    "key_researchers": ["James Lovelock", "Lynn Margulis", "Francis Bretherton"]
+  },
+  {
+    "name_ja": "アントロポセン",
+    "name_en": "Anthropocene",
+    "definition": "人間活動が地球の地質、気候、生物多様性、物質循環に地質時代級の影響を及ぼすようになった状態を指す概念で、産業化、核実験、土地利用変化などが議論の焦点となる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球環境史・人新世論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "human impact,global change",
+    "key_researchers": ["Paul Crutzen", "Eugene Stoermer", "Will Steffen"]
+  },
+  {
+    "name_ja": "炭素循環",
+    "name_en": "Carbon Cycle",
+    "definition": "炭素が大気、海洋、陸上生態系、土壌、堆積物、岩石圏の間を光合成、呼吸、溶解、沈降、風化、火山活動などで移動する過程の総称で、気候制御の中心概念である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "生物地球化学",
+    "era_start": 1896,
+    "era_end": null,
+    "keywords_en": "carbon dioxide,biogeochemistry",
+    "key_researchers": ["Svante Arrhenius", "Roger Revelle", "Charles Keeling"]
+  },
+  {
+    "name_ja": "ミランコビッチサイクル",
+    "name_en": "Milankovitch Cycles",
+    "definition": "地球軌道の離心率、自転軸傾斜、歳差運動が日射量の緯度季節分布を変化させ、氷期と間氷期の周期性に影響するという理論で、古気候記録の解釈に不可欠である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "天文気候学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "orbital forcing,ice ages",
+    "key_researchers": ["Milutin Milanković", "James Croll", "John Imbrie"]
+  },
+  {
+    "name_ja": "温室効果",
+    "name_en": "Greenhouse Effect",
+    "definition": "大気中の二酸化炭素、メタン、水蒸気などが地表から放射される赤外線を吸収・再放射し、地表と下層大気を温暖に保つ現象で、自然気候と人為的温暖化の基礎である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "放射気候学",
+    "era_start": 1824,
+    "era_end": null,
+    "keywords_en": "radiative forcing,infrared",
+    "key_researchers": ["Joseph Fourier", "John Tyndall", "Svante Arrhenius"]
+  },
+  {
+    "name_ja": "気候感度",
+    "name_en": "Climate Sensitivity",
+    "definition": "大気中二酸化炭素濃度の倍増などの外部強制に対して、地球平均気温が平衡または過渡的にどれだけ変化するかを示す指標で、雲、水蒸気、雪氷などのフィードバックを含む。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "気候モデリング",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "climate feedback,equilibrium",
+    "key_researchers": ["Jule Charney", "Syukuro Manabe", "Klaus Hasselmann"]
+  },
+  {
+    "name_ja": "アルベド",
+    "name_en": "Albedo",
+    "definition": "地表や雲、雪氷、海洋などが入射した太陽放射を反射する割合を表す量で、雪氷の融解や森林伐採、雲量変化を通じて地球のエネルギー収支と気候変動に強く関わる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地表面エネルギー収支論",
+    "era_start": 1760,
+    "era_end": null,
+    "keywords_en": "reflectance,energy balance",
+    "key_researchers": ["Johann Heinrich Lambert", "Mikhail Budyko", "William Sellers"]
+  },
+  {
+    "name_ja": "放射強制力",
+    "name_en": "Radiative Forcing",
+    "definition": "温室効果ガス、エアロゾル、太陽活動、土地被覆変化などが地球の放射収支に与える摂動を単位面積当たりのエネルギー量で表す概念で、気候変化要因の比較に用いられる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "気候物理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "forcing,energy imbalance",
+    "key_researchers": ["James Hansen", "V. Ramanathan", "Myhre Gunnar"]
+  },
+  {
+    "name_ja": "気候フィードバック",
+    "name_en": "Climate Feedback",
+    "definition": "気温変化が水蒸気量、雲、雪氷、植生、炭素循環などを変え、その変化がさらに気温変化を増幅または抑制する仕組みで、気候予測の不確実性を左右する重要要素である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "複雑系気候学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "positive feedback,negative feedback",
+    "key_researchers": ["Syukuro Manabe", "Mikhail Budyko", "James Hansen"]
+  },
+  {
+    "name_ja": "大気大循環",
+    "name_en": "Atmospheric General Circulation",
+    "definition": "太陽放射の緯度差と地球自転により形成されるハドレー循環、フェレル循環、偏西風、ジェット気流、モンスーンなどの全球的な大気運動で、気候帯や降水分布を決定する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "動気象学",
+    "era_start": 1735,
+    "era_end": null,
+    "keywords_en": "Hadley cell,jet stream",
+    "key_researchers": ["George Hadley", "Carl-Gustaf Rossby", "Jule Charney"]
+  },
+  {
+    "name_ja": "海洋熱塩循環",
+    "name_en": "Thermohaline Circulation",
+    "definition": "海水の温度と塩分による密度差で駆動される深層水形成と全球規模の海洋循環を指し、熱や炭素、栄養塩を長時間スケールで輸送して気候安定性に影響する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "物理海洋学",
+    "era_start": 1961,
+    "era_end": null,
+    "keywords_en": "deep water,overturning",
+    "key_researchers": ["Henry Stommel", "Wallace Broecker", "Arnold Gordon"]
+  },
+  {
+    "name_ja": "エルニーニョ南方振動",
+    "name_en": "El Niño Southern Oscillation",
+    "definition": "熱帯太平洋の海面水温と大気圧場が結合して数年周期で変動する現象で、貿易風、湧昇、降水帯を変え、世界各地の干ばつ、洪水、漁業、生態系に影響する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "気候変動力学",
+    "era_start": 1924,
+    "era_end": null,
+    "keywords_en": "ENSO,teleconnection",
+    "key_researchers": ["Gilbert Walker", "Jacob Bjerknes", "Klaus Wyrtki"]
+  },
+  {
+    "name_ja": "モンスーン",
+    "name_en": "Monsoon",
+    "definition": "大陸と海洋の熱的性質の違いにより季節的に風向と降水が大きく変化する大気循環で、南アジア、東アジア、アフリカなどの水資源、農業、災害リスクを支配する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "季節気候学",
+    "era_start": 1686,
+    "era_end": null,
+    "keywords_en": "seasonal rainfall,land-sea contrast",
+    "key_researchers": ["Edmond Halley", "Sulochana Gadgil", "Jagadish Shukla"]
+  },
+  {
+    "name_ja": "水循環",
+    "name_en": "Hydrologic Cycle",
+    "definition": "水が蒸発、蒸散、凝結、降水、浸透、地下水流、河川流出、氷河蓄積などを通じて地球表層を循環する過程で、気候、生態系、地形形成、人間社会を結び付ける基本概念である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "水文学",
+    "era_start": 1674,
+    "era_end": null,
+    "keywords_en": "precipitation,runoff",
+    "key_researchers": ["Pierre Perrault", "Edme Mariotte", "Robert Horton"]
+  },
+  {
+    "name_ja": "流域",
+    "name_en": "Watershed",
+    "definition": "降水や融雪水が地表・地下を通じて特定の河川、湖沼、海域へ集まる地理的単位で、水資源管理、洪水予測、土砂移動、汚染物質輸送、生態系保全の基礎単位となる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "流域水文学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "drainage basin,runoff",
+    "key_researchers": ["Robert Horton", "Luna Leopold", "M. Gordon Wolman"]
+  },
+  {
+    "name_ja": "地下水流動",
+    "name_en": "Groundwater Flow",
+    "definition": "地下の空隙や割れ目を満たす水が水頭差に従って移動する現象で、帯水層、涵養、揚水、汚染拡散、地盤沈下、河川との交換を理解するための水文地質学の中心概念である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "水文地質学",
+    "era_start": 1856,
+    "era_end": null,
+    "keywords_en": "aquifer,Darcy law",
+    "key_researchers": ["Henry Darcy", "Charles Theis", "M. King Hubbert"]
+  },
+  {
+    "name_ja": "氷床力学",
+    "name_en": "Ice Sheet Dynamics",
+    "definition": "南極やグリーンランドの氷床が重力、基盤条件、温度、融解水、海洋との相互作用によって変形・流動・崩壊する仕組みを扱い、海面上昇予測に不可欠な概念である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "雪氷学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "ice sheet,sea level",
+    "key_researchers": ["John Glen", "Johannes Weertman", "Richard Alley"]
+  },
+  {
+    "name_ja": "海面上昇",
+    "name_en": "Sea Level Rise",
+    "definition": "海水の熱膨張、山岳氷河や氷床の融解、陸水貯留変化、地殻変動などにより平均海面が長期的に高くなる現象で、沿岸災害、塩水侵入、居住地計画に大きな影響を持つ。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "沿岸環境科学",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "coastal risk,thermal expansion",
+    "key_researchers": ["John Church", "Anny Cazenave", "Stefan Rahmstorf"]
+  },
+  {
+    "name_ja": "海洋酸性化",
+    "name_en": "Ocean Acidification",
+    "definition": "大気中の二酸化炭素が海水に溶け込んで炭酸系平衡を変化させ、水素イオン濃度を高める現象で、サンゴ、貝類、プランクトンの石灰化や海洋生態系に影響する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "海洋生物地球化学",
+    "era_start": 2003,
+    "era_end": null,
+    "keywords_en": "carbonate chemistry,pH",
+    "key_researchers": ["Ken Caldeira", "Michael Wickett", "Joan Kleypas"]
+  },
+  {
+    "name_ja": "栄養塩循環",
+    "name_en": "Nutrient Cycling",
+    "definition": "窒素、リン、ケイ素、鉄などの元素が生物による取り込み、分解、沈降、湧昇、風化、河川輸送を通じて循環する過程で、生産力、富栄養化、炭素固定を左右する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "生態系生物地球化学",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "nitrogen,phosphorus",
+    "key_researchers": ["Alfred Redfield", "G. Evelyn Hutchinson", "Gene Likens"]
+  },
+  {
+    "name_ja": "窒素循環",
+    "name_en": "Nitrogen Cycle",
+    "definition": "大気中窒素、アンモニウム、硝酸、亜酸化窒素、有機窒素が固定、硝化、脱窒、同化、無機化などで変換される循環で、農業生産、水質汚染、温室効果に深く関わる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "生物地球化学",
+    "era_start": 1888,
+    "era_end": null,
+    "keywords_en": "nitrogen fixation,denitrification",
+    "key_researchers": ["Sergei Winogradsky", "Fritz Haber", "Vaclav Smil"]
+  },
+  {
+    "name_ja": "リン循環",
+    "name_en": "Phosphorus Cycle",
+    "definition": "リンが岩石の風化、土壌吸着、生物摂取、分解、河川輸送、海洋堆積を通じて循環する過程で、大気相をほとんど持たず、長期的な生態系生産力と富栄養化を制約する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "元素循環論",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "phosphate,eutrophication",
+    "key_researchers": ["G. Evelyn Hutchinson", "Robert Wetzel", "Vaclav Smil"]
+  },
+  {
+    "name_ja": "生物多様性",
+    "name_en": "Biodiversity",
+    "definition": "遺伝子、種、生態系、景観の各階層に存在する生命の多様性を指し、生態系機能、回復力、進化可能性、人間の福祉を支える一方、土地利用変化や気候変動で急速に失われている。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "保全生物学",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "species richness,conservation",
+    "key_researchers": ["E. O. Wilson", "Thomas Lovejoy", "Robert May"]
+  },
+  {
+    "name_ja": "生態系サービス",
+    "name_en": "Ecosystem Services",
+    "definition": "生態系が人間社会にもたらす供給、調整、文化的、基盤的便益を整理する概念で、水質浄化、受粉、炭素貯留、防災、景観価値などを政策や経済評価に結び付ける。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "生態経済学",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "natural capital,valuation",
+    "key_researchers": ["Gretchen Daily", "Robert Costanza", "Harold Mooney"]
+  },
+  {
+    "name_ja": "レジリエンス",
+    "name_en": "Ecological Resilience",
+    "definition": "生態系や社会生態システムが攪乱を受けても構造、機能、フィードバックを維持し、必要に応じて適応・変容できる能力を表す概念で、災害、気候変動、資源管理で重視される。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "社会生態システム論",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "adaptive capacity,disturbance",
+    "key_researchers": ["C. S. Holling", "Lance Gunderson", "Brian Walker"]
+  },
+  {
+    "name_ja": "ティッピングポイント",
+    "name_en": "Tipping Point",
+    "definition": "気候や生態系が小さな外部変化を契機に閾値を越え、氷床崩壊、森林枯死、循環停止など不可逆的または急激な状態転換を起こす可能性を示す概念である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "非線形地球システム論",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "threshold,regime shift",
+    "key_researchers": ["Timothy Lenton", "Hans Joachim Schellnhuber", "Johan Rockström"]
+  },
+  {
+    "name_ja": "プラネタリー・バウンダリー",
+    "name_en": "Planetary Boundaries",
+    "definition": "気候変動、生物圏の完全性、土地利用、淡水利用、窒素・リン循環などについて、人類が安定した地球環境内で活動するための安全な境界を定量化しようとする枠組みである。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "持続可能性科学",
+    "era_start": 2009,
+    "era_end": null,
+    "keywords_en": "safe operating space,sustainability",
+    "key_researchers": ["Johan Rockström", "Will Steffen", "Katherine Richardson"]
+  },
+  {
+    "name_ja": "持続可能性",
+    "name_en": "Sustainability",
+    "definition": "現在世代の必要を満たしながら将来世代の可能性を損なわないよう、環境容量、社会的公正、経済活動を調和させる考え方で、資源利用と開発政策の基準となる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "持続可能な開発論",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "sustainable development,intergenerational equity",
+    "key_researchers": ["Gro Harlem Brundtland", "Herman Daly", "Donella Meadows"]
+  },
+  {
+    "name_ja": "環境収容力",
+    "name_en": "Carrying Capacity",
+    "definition": "ある環境が長期的に維持できる個体数、資源利用量、汚染負荷の上限を表す概念で、生態学だけでなく人口論、土地管理、都市計画、持続可能性評価にも用いられる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "資源生態学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "limits,growth",
+    "key_researchers": ["Raymond Pearl", "Eugene Odum", "Garrett Hardin"]
+  },
+  {
+    "name_ja": "土地利用変化",
+    "name_en": "Land Use Change",
+    "definition": "森林、草地、農地、都市、湿地などの土地利用や土地被覆が人間活動や自然攪乱により変化する現象で、炭素貯留、水循環、生物多様性、地域気候に大きく影響する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "土地システム科学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "land cover,deforestation",
+    "key_researchers": ["B. L. Turner II", "Eric Lambin", "Ruth DeFries"]
+  },
+  {
+    "name_ja": "森林破壊",
+    "name_en": "Deforestation",
+    "definition": "森林が農地、牧草地、都市、鉱山などへ転換されることで、炭素排出、生息地喪失、水循環変化、土壌侵食、先住民社会への影響を引き起こす地球環境問題である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "熱帯林保全論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "forest loss,carbon emissions",
+    "key_researchers": ["Norman Myers", "Philip Fearnside", "Daniel Nepstad"]
+  },
+  {
+    "name_ja": "砂漠化",
+    "name_en": "Desertification",
+    "definition": "乾燥・半乾燥地域で気候変動や過放牧、過耕作、森林伐採、不適切な灌漑により土地の生産力が低下する過程で、食料安全保障、貧困、水資源問題と結び付く。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "乾燥地環境学",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "drylands,land degradation",
+    "key_researchers": ["Harold Dregne", "Andrew Warren", "Monique Mainguet"]
+  },
+  {
+    "name_ja": "土壌侵食",
+    "name_en": "Soil Erosion",
+    "definition": "雨滴、表面流、風、重力、人間活動によって表土が剥離・運搬される現象で、農地生産力の低下、河川濁度、貯水池堆砂、栄養塩流出をもたらす重要な環境過程である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "土壌保全学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "sediment,land degradation",
+    "key_researchers": ["Hugh Hammond Bennett", "Walter Wischmeier", "David Pimentel"]
+  },
+  {
+    "name_ja": "風化",
+    "name_en": "Weathering",
+    "definition": "岩石や鉱物が地表付近で水、酸素、二酸化炭素、生物作用、温度変化によって物理的・化学的に分解される過程で、土壌形成、炭素循環、地形発達を支える。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球化学・地形学",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "chemical weathering,soil formation",
+    "key_researchers": ["Vladimir Vernadsky", "Robert Garrels", "Berner Robert"]
+  },
+  {
+    "name_ja": "岩石循環",
+    "name_en": "Rock Cycle",
+    "definition": "火成岩、堆積岩、変成岩がマグマ活動、風化、侵食、堆積、続成、変成、融解を通じて相互に変化する長期的な地質過程で、地球内部と表層の物質循環を示す。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "近代地質学",
+    "era_start": 1788,
+    "era_end": null,
+    "keywords_en": "igneous,sedimentary",
+    "key_researchers": ["James Hutton", "Charles Lyell", "Arthur Holmes"]
+  },
+  {
+    "name_ja": "地震波",
+    "name_en": "Seismic Waves",
+    "definition": "地震や人工震源から発生して地球内部を伝わるP波、S波、表面波などの弾性波で、震源過程、地球内部構造、断層運動、地震災害評価を明らかにする基本情報を与える。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地震学",
+    "era_start": 1889,
+    "era_end": null,
+    "keywords_en": "P waves,S waves",
+    "key_researchers": ["Richard Dixon Oldham", "Inge Lehmann", "Keiiti Aki"]
+  },
+  {
+    "name_ja": "マグニチュード",
+    "name_en": "Earthquake Magnitude",
+    "definition": "地震が放出するエネルギーや震源規模を対数尺度で表す指標で、局所マグニチュードからモーメントマグニチュードへ発展し、地震災害評価と比較研究の標準尺度となった。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地震計測学",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "moment magnitude,seismic moment",
+    "key_researchers": ["Charles Richter", "Beno Gutenberg", "Thomas Hanks"]
+  },
+  {
+    "name_ja": "火山噴火",
+    "name_en": "Volcanic Eruption",
+    "definition": "マグマ、火山ガス、火山灰、火砕流、溶岩が地表へ放出される現象で、プレート境界やホットスポットの地球内部活動を示すとともに、災害、気候影響、土壌形成に関係する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "火山学",
+    "era_start": 1902,
+    "era_end": null,
+    "keywords_en": "magma,pyroclastic flow",
+    "key_researchers": ["Frank Perret", "Haroun Tazieff", "George Walker"]
+  },
+  {
+    "name_ja": "ホットスポット",
+    "name_en": "Hotspot",
+    "definition": "プレート境界から離れた場所でも長期的に火山活動を生じるマントル起源の熱的異常を指し、ハワイ列島のような火山列、プレート運動、深部マントル過程の解釈に用いられる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "マントルプルーム論",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "mantle plume,intraplate volcanism",
+    "key_researchers": ["J. Tuzo Wilson", "W. Jason Morgan", "Don Anderson"]
+  },
+  {
+    "name_ja": "マントル対流",
+    "name_en": "Mantle Convection",
+    "definition": "地球内部の熱を逃がすためにマントル物質が非常に長い時間スケールで流動する現象で、プレート運動、火山活動、造山運動、地球熱史を駆動する主要な力と考えられる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球内部ダイナミクス",
+    "era_start": 1928,
+    "era_end": null,
+    "keywords_en": "mantle flow,geodynamics",
+    "key_researchers": ["Arthur Holmes", "Dan McKenzie", "W. Jason Morgan"]
+  },
+  {
+    "name_ja": "造山運動",
+    "name_en": "Orogeny",
+    "definition": "プレート衝突、沈み込み、地殻短縮、変成作用、火成活動によって山脈や高原が形成される過程で、地形、気候、侵食、堆積盆、長期炭素循環に影響する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "構造地質学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "mountain building,tectonics",
+    "key_researchers": ["Eduard Suess", "Émile Argand", "Peter Molnar"]
+  },
+  {
+    "name_ja": "地質年代尺度",
+    "name_en": "Geologic Time Scale",
+    "definition": "地球史を累代、代、紀、世などに区分し、化石記録、層序、放射年代測定を統合して地質現象と生命進化を時間軸上に配置する体系で、地球科学の共通言語である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "層序学",
+    "era_start": 1830,
+    "era_end": null,
+    "keywords_en": "stratigraphy,deep time",
+    "key_researchers": ["Charles Lyell", "Arthur Holmes", "William Smith"]
+  },
+  {
+    "name_ja": "放射年代測定",
+    "name_en": "Radiometric Dating",
+    "definition": "放射性同位体が一定の半減期で崩壊する性質を利用して岩石、鉱物、化石、考古資料の年代を推定する方法で、地球年齢、火山史、気候記録の時間校正に不可欠である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "同位体地球化学",
+    "era_start": 1907,
+    "era_end": null,
+    "keywords_en": "isotopes,half-life",
+    "key_researchers": ["Bertram Boltwood", "Arthur Holmes", "Clair Patterson"]
+  },
+  {
+    "name_ja": "古気候プロキシ",
+    "name_en": "Paleoclimate Proxy",
+    "definition": "氷床コア、年輪、花粉、サンゴ、堆積物、同位体比など、過去の気温、降水、海洋状態、大気組成を間接的に復元する記録で、観測以前の気候変動を知る手段である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "古気候学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "ice cores,tree rings",
+    "key_researchers": ["Cesare Emiliani", "Will Dansgaard", "Lonnie Thompson"]
+  },
+  {
+    "name_ja": "酸素同位体比",
+    "name_en": "Oxygen Isotope Ratio",
+    "definition": "酸素18と酸素16の比率を用いて、氷床量、海水温、降水起源、蒸発凝結過程などを推定する手法で、海洋堆積物や氷床コアによる古気候復元の基盤である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "同位体古気候学",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "delta O-18,paleotemperature",
+    "key_researchers": ["Harold Urey", "Cesare Emiliani", "Nicholas Shackleton"]
+  },
+  {
+    "name_ja": "大量絶滅",
+    "name_en": "Mass Extinction",
+    "definition": "地質学的に短い期間で多数の分類群が世界的に消失する現象で、隕石衝突、大規模火山活動、海洋無酸素化、気候急変などと関連し、生物進化と地球環境変動の結節点である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "古生物学・地球史",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "extinction,biodiversity crisis",
+    "key_researchers": ["Luis Alvarez", "Walter Alvarez", "David Raup"]
+  },
+  {
+    "name_ja": "生物地球化学",
+    "name_en": "Biogeochemistry",
+    "definition": "生命活動、地質過程、化学反応が元素循環を通じて相互に結び付く仕組みを研究する分野で、炭素、窒素、リン、硫黄、水銀などの循環と環境変化を統合的に扱う。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球化学・生態学統合",
+    "era_start": 1926,
+    "era_end": null,
+    "keywords_en": "element cycles,biosphere",
+    "key_researchers": ["Vladimir Vernadsky", "James Lovelock", "Gene Likens"]
+  },
+  {
+    "name_ja": "ガイア仮説",
+    "name_en": "Gaia Hypothesis",
+    "definition": "生命と非生命環境が相互作用し、地球表層の温度、大気組成、海洋化学を生命に適した範囲へ調整してきた可能性を示す仮説で、地球システム科学の議論を促した。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球生命共進化論",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "self-regulation,biosphere",
+    "key_researchers": ["James Lovelock", "Lynn Margulis", "Andrew Watson"]
+  },
+  {
+    "name_ja": "環境影響評価",
+    "name_en": "Environmental Impact Assessment",
+    "definition": "開発事業や政策が大気、水、土壌、生態系、景観、住民生活に与える影響を事前に予測・評価し、回避、低減、代償措置を検討する制度的・科学的手続きである。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境政策学",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "impact assessment,mitigation",
+    "key_researchers": ["Lynton Caldwell", "Riki Therivel", "Christopher Wood"]
+  },
+  {
+    "name_ja": "ライフサイクルアセスメント",
+    "name_en": "Life Cycle Assessment",
+    "definition": "製品やサービスについて、原料採取、製造、輸送、使用、廃棄までの全過程で生じる資源消費、温室効果ガス、汚染負荷を定量化し、環境改善の選択肢を比較する手法である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "産業エコロジー",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "cradle to grave,environmental footprint",
+    "key_researchers": ["Harry Teasley", "Robert Hunt", "Mary Ann Curran"]
+  },
+  {
+    "name_ja": "循環型社会",
+    "name_en": "Circular Economy",
+    "definition": "資源採取から廃棄へ向かう直線型経済を改め、再使用、修理、再製造、リサイクル、設計改善を通じて資源投入と廃棄物発生を最小化する社会経済の考え方である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "産業エコロジー・資源循環論",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "resource efficiency,recycling",
+    "key_researchers": ["Walter Stahel", "Kenneth Boulding", "Marian Chertow"]
+  },
+  {
+    "name_ja": "エコロジカル・フットプリント",
+    "name_en": "Ecological Footprint",
+    "definition": "人間活動が消費する資源と排出する二酸化炭素を、持続的に供給・吸収するために必要な生物生産力を持つ土地・海域面積として換算する指標である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境指標論",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "biocapacity,consumption",
+    "key_researchers": ["Mathis Wackernagel", "William Rees", "Jørgen Randers"]
+  },
+  {
+    "name_ja": "環境正義",
+    "name_en": "Environmental Justice",
+    "definition": "環境汚染、災害リスク、資源利用の利益と負担が人種、階級、地域、世代によって不公平に配分される問題を扱い、参加、公平性、権利を環境政策の中心に置く考え方である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境社会学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "equity,pollution burden",
+    "key_researchers": ["Robert Bullard", "Bunyan Bryant", "Dorceta Taylor"]
+  },
+  {
+    "name_ja": "リスク評価",
+    "name_en": "Environmental Risk Assessment",
+    "definition": "化学物質、自然災害、感染症、気候変動などが人間健康や生態系に与える悪影響の可能性と大きさを、ハザード、曝露、脆弱性、影響の観点から評価する枠組みである。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境リスク科学",
+    "era_start": 1983,
+    "era_end": null,
+    "keywords_en": "hazard,exposure",
+    "key_researchers": ["William Lowrance", "Baruch Fischhoff", "Paul Slovic"]
+  },
+  {
+    "name_ja": "予防原則",
+    "name_en": "Precautionary Principle",
+    "definition": "科学的不確実性が残っていても、深刻または不可逆的な環境被害の恐れがある場合には、完全な証明を待たずに予防的措置を取るべきだとする政策原則である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境倫理・環境法",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "uncertainty,prevention",
+    "key_researchers": ["Konrad von Moltke", "Carolyn Raffensperger", "David Gee"]
+  },
+  {
+    "name_ja": "適応策",
+    "name_en": "Climate Adaptation",
+    "definition": "気候変動の影響に対して、インフラ、農業、水資源、防災、健康、生態系管理を調整し、被害を減らし機会を活用する行動で、緩和策と並ぶ気候政策の柱である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "気候政策学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "resilience,vulnerability",
+    "key_researchers": ["Ian Burton", "Neil Adger", "Saleemul Huq"]
+  },
+  {
+    "name_ja": "緩和策",
+    "name_en": "Climate Mitigation",
+    "definition": "温室効果ガス排出の削減や吸収源の強化により、将来の気候変動の規模を抑える政策・技術・行動を指し、再生可能エネルギー、省エネ、森林保全、炭素価格などを含む。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "脱炭素政策論",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "emissions reduction,decarbonization",
+    "key_researchers": ["Nicholas Stern", "Ottmar Edenhofer", "Jim Skea"]
+  },
+  {
+    "name_ja": "炭素隔離",
+    "name_en": "Carbon Sequestration",
+    "definition": "大気中または排出源の二酸化炭素を森林、土壌、海洋、地層、鉱物などに長期間貯留する過程や技術を指し、気候変動緩和の補完的手段として検討される。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "炭素管理学",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "carbon storage,CCS",
+    "key_researchers": ["Klaus Lackner", "Sally Benson", "Peter Smith"]
+  },
+  {
+    "name_ja": "再生可能エネルギー",
+    "name_en": "Renewable Energy",
+    "definition": "太陽光、風力、水力、地熱、バイオマスなど自然過程によって比較的短期間で補充されるエネルギー源を利用する概念で、脱炭素化、大気汚染削減、エネルギー安全保障に関わる。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "エネルギー転換論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "solar,wind power",
+    "key_researchers": ["Amory Lovins", "Hermann Scheer", "Mark Jacobson"]
+  },
+  {
+    "name_ja": "大気汚染",
+    "name_en": "Air Pollution",
+    "definition": "粒子状物質、窒素酸化物、硫黄酸化物、オゾン、揮発性有機化合物などが大気中に存在し、人間健康、生態系、視程、気候に悪影響を与える状態を指す。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境衛生学",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_en": "particulate matter,ozone",
+    "key_researchers": ["Arie Haagen-Smit", "C. Arden Pope", "Kirk Smith"]
+  },
+  {
+    "name_ja": "酸性雨",
+    "name_en": "Acid Rain",
+    "definition": "硫黄酸化物や窒素酸化物が大気中で硫酸・硝酸へ変化し、雨、雪、霧、乾性沈着として地表へ戻る現象で、湖沼酸性化、森林衰退、建造物劣化を引き起こす。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "大気化学",
+    "era_start": 1872,
+    "era_end": null,
+    "keywords_en": "sulfur dioxide,nitrogen oxides",
+    "key_researchers": ["Robert Angus Smith", "Gene Likens", "Svante Odén"]
+  },
+  {
+    "name_ja": "オゾン層破壊",
+    "name_en": "Ozone Depletion",
+    "definition": "成層圏オゾンがクロロフルオロカーボンなどから生じる塩素・臭素ラジカルにより分解され、紫外線遮蔽機能が低下する現象で、国際環境条約成功例の中心となった。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "成層圏化学",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "CFCs,stratosphere",
+    "key_researchers": ["Mario Molina", "F. Sherwood Rowland", "Paul Crutzen"]
+  },
+  {
+    "name_ja": "富栄養化",
+    "name_en": "Eutrophication",
+    "definition": "湖沼、河川、沿岸海域に窒素やリンが過剰に供給され、藻類増殖、赤潮、貧酸素化、魚類斃死、水質悪化を引き起こす現象で、農業排水や生活排水と関係する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "水質環境学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "algal bloom,hypoxia",
+    "key_researchers": ["Vollenweider Richard", "Robert Wetzel", "Gene Likens"]
+  },
+  {
+    "name_ja": "環境ホルモン",
+    "name_en": "Endocrine Disruptors",
+    "definition": "外因性化学物質が生物の内分泌系に干渉し、発生、生殖、免疫、行動に影響を与える問題を指し、農薬、可塑剤、工業化学物質の低用量影響が議論される。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "環境毒性学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "endocrine disruption,toxicology",
+    "key_researchers": ["Theo Colborn", "John McLachlan", "Ana Soto"]
+  },
+  {
+    "name_ja": "マイクロプラスチック汚染",
+    "name_en": "Microplastic Pollution",
+    "definition": "直径数ミリ以下のプラスチック粒子が海洋、河川、土壌、大気、生物体内に広がる問題で、摂食、化学物質吸着、食物網移行、長期残留性が環境リスクとして研究される。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "新興汚染物質研究",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "plastic debris,marine pollution",
+    "key_researchers": ["Richard Thompson", "Kara Lavender Law", "Chelsea Rochman"]
+  },
+  {
+    "name_ja": "リモートセンシング",
+    "name_en": "Remote Sensing",
+    "definition": "人工衛星、航空機、ドローンなどから電磁波を観測し、植生、海面温度、氷床、土地被覆、大気組成、災害被害を広域かつ反復的に把握する技術体系である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "地球観測科学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "satellite imagery,Earth observation",
+    "key_researchers": ["Robert Colwell", "John Townshend", "Compton Tucker"]
+  },
+  {
+    "name_ja": "地理情報システム",
+    "name_en": "Geographic Information Systems",
+    "definition": "位置情報を持つデータを収集、管理、解析、可視化する情報システムで、地形、土地利用、災害リスク、生態系、交通、人口などを空間的に統合して意思決定を支援する。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "空間情報科学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "spatial analysis,mapping",
+    "key_researchers": ["Roger Tomlinson", "Michael Goodchild", "Dana Tomlin"]
+  },
+  {
+    "name_ja": "地球観測衛星",
+    "name_en": "Earth Observation Satellites",
+    "definition": "地表、海洋、大気、雪氷を宇宙から継続的に観測する衛星で、気象予報、災害監視、森林変化、海洋循環、温室効果ガス、都市化の把握に不可欠な基盤である。",
+    "subfield": "地球科学・環境科学",
+    "school_of_thought": "衛星地球科学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "satellite observation,monitoring",
+    "key_researchers": ["Verner Suomi", "William Nordberg", "Paul Crutzen"]
+  }
+]
+tokens used
+12,951

@@ -1,0 +1,853 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0982-9475-7940-878e-fda2ba270c17
+--------
+user
+「進化・遺伝学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+集団遺伝学、ダーウィン自然選択、中立説、Modern Synthesis、Evo-Devo
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"進化・遺伝学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "集団遺伝学",
+    "name_en": "Population Genetics",
+    "definition": "集団内に存在する遺伝的変異の頻度が、選択、突然変異、移住、遺伝的浮動、非ランダム交配によって世代間でどのように変化するかを数理的に扱う分野。進化を遺伝子頻度の変化として定式化し、現代進化学の基盤を形成した。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "現代総合説",
+    "era_start": 1918,
+    "era_end": null,
+    "keywords_en": "allele frequency,selection,genetic drift",
+    "key_researchers": ["Ronald A. Fisher", "J. B. S. Haldane", "Sewall Wright"]
+  },
+  {
+    "name_ja": "ダーウィン自然選択",
+    "name_en": "Darwinian Natural Selection",
+    "definition": "個体間に遺伝的に影響される変異があり、その変異が生存や繁殖成功に差を生むとき、有利な形質が世代を通じて増加するという進化機構。適応の説明原理として、生物多様性と形質変化を統一的に理解する中心概念である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "ダーウィニズム",
+    "era_start": 1859,
+    "era_end": null,
+    "keywords_en": "natural selection,adaptation,fitness",
+    "key_researchers": ["Charles Darwin", "Alfred Russel Wallace"]
+  },
+  {
+    "name_ja": "中立説",
+    "name_en": "Neutral Theory of Molecular Evolution",
+    "definition": "分子レベルで観察される多くの遺伝的変化は、自然選択に有利または不利なものではなく、ほぼ中立な突然変異が遺伝的浮動によって固定される結果だとする理論。分子進化速度や多型の解釈に大きな影響を与えた。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "中立進化論",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "neutral mutation,genetic drift,molecular evolution",
+    "key_researchers": ["Motoo Kimura"]
+  },
+  {
+    "name_ja": "Modern Synthesis",
+    "name_en": "Modern Evolutionary Synthesis",
+    "definition": "ダーウィンの自然選択説とメンデル遺伝学、集団遺伝学、分類学、古生物学を統合し、進化を集団中の遺伝子頻度変化として理解した枠組み。種分化や適応を遺伝的変異と選択の累積過程として説明した。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "現代総合説",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "modern synthesis,mendelian genetics,evolution",
+    "key_researchers": ["Theodosius Dobzhansky", "Ernst Mayr", "Julian Huxley"]
+  },
+  {
+    "name_ja": "Evo-Devo",
+    "name_en": "Evolutionary Developmental Biology",
+    "definition": "発生過程を制御する遺伝子ネットワークや形態形成機構の進化を調べ、生物の形態的多様性がどのように生じたかを説明する分野。保存された発生遺伝子の再利用、発現領域の変化、発生制約などを重視する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "evo-devo,development,Hox genes",
+    "key_researchers": ["Stephen Jay Gould", "Sean B. Carroll", "Eric Davidson"]
+  },
+  {
+    "name_ja": "メンデル遺伝",
+    "name_en": "Mendelian Inheritance",
+    "definition": "形質を決める遺伝因子が親から子へ粒子的に伝わり、分離の法則や独立の法則に従って組み合わされるという遺伝の基本原理。連続的な混合ではなく単位的な継承を示し、近代遺伝学の出発点となった。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "メンデル主義",
+    "era_start": 1866,
+    "era_end": null,
+    "keywords_en": "segregation,independent assortment,inheritance",
+    "key_researchers": ["Gregor Mendel"]
+  },
+  {
+    "name_ja": "遺伝的浮動",
+    "name_en": "Genetic Drift",
+    "definition": "有限な集団において、偶然の出生や死亡、配偶子抽出の偏りにより対立遺伝子頻度が確率的に変動する過程。特に小集団では選択とは無関係に多様性が失われたり、対立遺伝子が固定されたりする重要な進化要因である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1931,
+    "era_end": null,
+    "keywords_en": "random sampling,fixation,effective population size",
+    "key_researchers": ["Sewall Wright", "Motoo Kimura"]
+  },
+  {
+    "name_ja": "遺伝子流動",
+    "name_en": "Gene Flow",
+    "definition": "個体や配偶子が集団間を移動し、対立遺伝子が別の集団へ導入される過程。集団間の遺伝的分化を弱める一方で、新しい変異や適応的遺伝子を広げることもあり、局所適応や種分化の進行に影響する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "migration,admixture,population structure",
+    "key_researchers": ["Theodosius Dobzhansky", "Sewall Wright"]
+  },
+  {
+    "name_ja": "突然変異",
+    "name_en": "Mutation",
+    "definition": "DNA配列や染色体構造に生じる恒久的な変化で、点突然変異、挿入、欠失、重複、転座などを含む。進化に必要な新しい遺伝的変異の究極的供給源であり、選択や浮動が作用する素材を生み出す。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "遺伝学",
+    "era_start": 1901,
+    "era_end": null,
+    "keywords_en": "mutation,variation,DNA change",
+    "key_researchers": ["Hugo de Vries", "Thomas Hunt Morgan"]
+  },
+  {
+    "name_ja": "適応",
+    "name_en": "Adaptation",
+    "definition": "ある形質が環境条件のもとで個体の生存や繁殖成功を高めるため、自然選択によって形成または維持されている状態や過程。機能的説明の中心概念だが、歴史的制約や副産物との区別が重要である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "適応主義",
+    "era_start": 1859,
+    "era_end": null,
+    "keywords_en": "adaptation,function,fitness advantage",
+    "key_researchers": ["Charles Darwin", "George C. Williams"]
+  },
+  {
+    "name_ja": "適応度",
+    "name_en": "Fitness",
+    "definition": "個体、遺伝子型、または対立遺伝子が次世代へ遺伝的寄与を残す相対的能力を表す概念。単なる生存力ではなく繁殖成功を含み、自然選択の方向や強さを数量化するための基本指標である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_en": "fitness,reproductive success,selection coefficient",
+    "key_researchers": ["Ronald A. Fisher", "J. B. S. Haldane"]
+  },
+  {
+    "name_ja": "性選択",
+    "name_en": "Sexual Selection",
+    "definition": "配偶者獲得や繁殖機会をめぐる競争によって、形質が進化する過程。雄間競争、雌による配偶者選択、装飾形質、求愛行動などを説明し、生存上は不利に見える特徴が維持される理由を与える。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "ダーウィニズム",
+    "era_start": 1871,
+    "era_end": null,
+    "keywords_en": "sexual selection,mate choice,intrasexual competition",
+    "key_researchers": ["Charles Darwin", "Ronald A. Fisher", "Amotz Zahavi"]
+  },
+  {
+    "name_ja": "血縁選択",
+    "name_en": "Kin Selection",
+    "definition": "個体が自身の直接繁殖だけでなく、血縁者の繁殖成功を高めることで共有遺伝子の伝達を増やす場合に、利他的行動が進化しうるという理論。包括適応度とハミルトン則によって社会行動を説明する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "社会進化論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "kin selection,inclusive fitness,Hamilton rule",
+    "key_researchers": ["W. D. Hamilton"]
+  },
+  {
+    "name_ja": "包括適応度",
+    "name_en": "Inclusive Fitness",
+    "definition": "個体自身の繁殖による直接適応度と、血縁者を通じた間接的な遺伝的寄与を合わせて評価する概念。利他性、協力、真社会性などの進化を、遺伝子共有率と費用便益の関係から分析する枠組みである。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "社会進化論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "inclusive fitness,altruism,relatedness",
+    "key_researchers": ["W. D. Hamilton"]
+  },
+  {
+    "name_ja": "親の投資",
+    "name_en": "Parental Investment",
+    "definition": "親が子の生存や繁殖見込みを高めるために投入する時間、エネルギー、保護、栄養などの資源を指す概念。投資量の性差は配偶者選択、性役割、繁殖競争の違いを生み、性選択理論と密接に結びつく。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "行動生態学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "parental investment,sexual selection,reproductive strategy",
+    "key_researchers": ["Robert Trivers"]
+  },
+  {
+    "name_ja": "利己的遺伝子",
+    "name_en": "Selfish Gene",
+    "definition": "進化を個体や種の利益ではなく、自己複製に成功する遺伝子の視点から理解する比喩的枠組み。行動や形質は遺伝子の伝達を助ける表現型効果として解釈され、社会行動の説明に強い影響を与えた。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "遺伝子中心進化観",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "selfish gene,gene-centered view,replicator",
+    "key_researchers": ["Richard Dawkins", "George C. Williams"]
+  },
+  {
+    "name_ja": "群選択",
+    "name_en": "Group Selection",
+    "definition": "個体ではなく集団間の生存や繁殖の差が、集団に有利な形質の進化を促すとする考え方。古典的な形では批判されたが、マルチレベル選択理論として再定式化され、協力や利他性の議論で扱われる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "多レベル選択論",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "group selection,multilevel selection,cooperation",
+    "key_researchers": ["V. C. Wynne-Edwards", "David Sloan Wilson"]
+  },
+  {
+    "name_ja": "種分化",
+    "name_en": "Speciation",
+    "definition": "一つの祖先集団から、生殖的に隔離された複数の系統や種が形成される過程。地理的隔離、遺伝的分化、選択、浮動、交配後不和合などが関与し、生物多様性の起源を説明する中心課題である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "現代総合説",
+    "era_start": 1942,
+    "era_end": null,
+    "keywords_en": "speciation,reproductive isolation,divergence",
+    "key_researchers": ["Ernst Mayr", "Theodosius Dobzhansky"]
+  },
+  {
+    "name_ja": "異所的種分化",
+    "name_en": "Allopatric Speciation",
+    "definition": "地理的障壁によって集団間の遺伝子流動が遮断され、独立した突然変異、浮動、自然選択の蓄積により生殖隔離が進む種分化様式。島嶼、山脈、河川、氷期変動などが典型的な分断要因となる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "生物学的種概念",
+    "era_start": 1942,
+    "era_end": null,
+    "keywords_en": "allopatry,geographic isolation,reproductive isolation",
+    "key_researchers": ["Ernst Mayr"]
+  },
+  {
+    "name_ja": "同所的種分化",
+    "name_en": "Sympatric Speciation",
+    "definition": "明確な地理的隔離がない同じ地域内で、生態的分化、配偶者選択、多倍化、宿主転換などによって生殖隔離が進む種分化様式。遺伝子流動が続く条件下で分化が維持される点が理論的に重要である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "sympatry,ecological divergence,assortative mating",
+    "key_researchers": ["Guy L. Bush", "John Maynard Smith"]
+  },
+  {
+    "name_ja": "生殖隔離",
+    "name_en": "Reproductive Isolation",
+    "definition": "異なる集団や種の間で遺伝子交換を妨げる仕組みの総称。交配前隔離には行動、時期、生態、機械的要因があり、交配後隔離には雑種不稔や雑種崩壊などが含まれ、種の境界を維持する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "生物学的種概念",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "reproductive isolation,prezygotic,postzygotic",
+    "key_researchers": ["Theodosius Dobzhansky", "Ernst Mayr"]
+  },
+  {
+    "name_ja": "生物学的種概念",
+    "name_en": "Biological Species Concept",
+    "definition": "種を、自然状態で互いに交配しうるが他の集団から生殖的に隔離された集団群として定義する考え方。生殖隔離を種の境界の核心に置く一方、無性生物、化石、頻繁な雑種形成には適用上の限界がある。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "生物学的種概念",
+    "era_start": 1942,
+    "era_end": null,
+    "keywords_en": "species concept,reproductive isolation,interbreeding",
+    "key_researchers": ["Ernst Mayr"]
+  },
+  {
+    "name_ja": "系統種概念",
+    "name_en": "Phylogenetic Species Concept",
+    "definition": "種を、共通祖先を持ち他系統から識別可能な最小の単系統群または独立進化系統として捉える考え方。形態、分子、系統樹の証拠を重視し、隠蔽種の認識に有効だが、種数を細分化しやすい。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "系統分類学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "phylogenetic species,monophyly,lineage",
+    "key_researchers": ["Joel Cracraft", "Willi Hennig"]
+  },
+  {
+    "name_ja": "系統発生",
+    "name_en": "Phylogeny",
+    "definition": "生物群や遺伝子群の進化的由来と分岐関係を表す概念。系統樹として表現され、共通祖先、分岐順序、形質進化、分類体系の推定に用いられる。分子データの普及により進化研究の中心的手法となった。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "系統学",
+    "era_start": 1866,
+    "era_end": null,
+    "keywords_en": "phylogeny,common ancestry,evolutionary tree",
+    "key_researchers": ["Ernst Haeckel", "Willi Hennig"]
+  },
+  {
+    "name_ja": "分岐分類学",
+    "name_en": "Cladistics",
+    "definition": "共有派生形質に基づいて生物を単系統群として分類し、進化的分岐関係を明示する方法論。祖先形質と派生形質を区別し、類似性だけでなく系統的由来を重視することで、近代分類学を大きく変えた。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分岐分類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "cladistics,synapomorphy,monophyly",
+    "key_researchers": ["Willi Hennig"]
+  },
+  {
+    "name_ja": "分子系統学",
+    "name_en": "Molecular Phylogenetics",
+    "definition": "DNA、RNA、タンパク質配列の比較に基づいて系統関係や分岐年代を推定する分野。形態では判別困難な関係を明らかにし、分子時計、最尤法、ベイズ推定などの統計的手法を発展させた。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分子進化学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "molecular phylogenetics,sequence data,tree inference",
+    "key_researchers": ["Emile Zuckerkandl", "Linus Pauling", "Walter M. Fitch"]
+  },
+  {
+    "name_ja": "分子時計",
+    "name_en": "Molecular Clock",
+    "definition": "中立またはほぼ中立な分子変化が時間に対して比較的一定の速度で蓄積するという仮定に基づき、系統分岐年代を推定する考え方。化石校正や速度変動モデルと組み合わせて進化史の時間軸を復元する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分子進化学",
+    "era_start": 1962,
+    "era_end": null,
+    "keywords_en": "molecular clock,divergence time,substitution rate",
+    "key_researchers": ["Emile Zuckerkandl", "Linus Pauling"]
+  },
+  {
+    "name_ja": "共祖理論",
+    "name_en": "Coalescent Theory",
+    "definition": "現在の集団中の遺伝子コピーを過去へさかのぼり、共通祖先に合流する過程として遺伝的多様性を記述する確率理論。集団サイズ、選択、移住、人口史の推定に広く用いられる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "理論集団遺伝学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "coalescent,ancestry,population history",
+    "key_researchers": ["John Kingman"]
+  },
+  {
+    "name_ja": "有効集団サイズ",
+    "name_en": "Effective Population Size",
+    "definition": "実際の個体数ではなく、遺伝的浮動や近交、対立遺伝子頻度変化の強さが同等になる理想集団の大きさを表す指標。性比の偏り、繁殖成功の分散、個体数変動により実個体数より小さくなることが多い。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1931,
+    "era_end": null,
+    "keywords_en": "effective population size,genetic drift,inbreeding",
+    "key_researchers": ["Sewall Wright"]
+  },
+  {
+    "name_ja": "ハーディー・ワインベルク平衡",
+    "name_en": "Hardy-Weinberg Equilibrium",
+    "definition": "無限大集団、ランダム交配、突然変異なし、選択なし、移住なしという条件下で、対立遺伝子頻度と遺伝子型頻度が世代を通じて一定に保たれるという原理。進化要因を検出する基準モデルとして用いられる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1908,
+    "era_end": null,
+    "keywords_en": "Hardy-Weinberg,allele frequency,random mating",
+    "key_researchers": ["G. H. Hardy", "Wilhelm Weinberg"]
+  },
+  {
+    "name_ja": "連鎖不平衡",
+    "name_en": "Linkage Disequilibrium",
+    "definition": "異なる遺伝子座の対立遺伝子の組み合わせが、ランダムな期待頻度からずれて存在する状態。物理的連鎖、選択、集団混合、ボトルネックなどで生じ、ゲノムワイド関連解析や選択掃引の検出に利用される。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団ゲノミクス",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "linkage disequilibrium,haplotype,recombination",
+    "key_researchers": ["Richard Lewontin", "Kojima Kenichi"]
+  },
+  {
+    "name_ja": "選択掃引",
+    "name_en": "Selective Sweep",
+    "definition": "有利な突然変異が急速に集団中で増加し、その近傍の中立変異も連鎖して一緒に広がることで局所的な多様性低下が生じる現象。適応進化のゲノム痕跡を検出する重要な概念である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分子集団遺伝学",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "selective sweep,hitchhiking,positive selection",
+    "key_researchers": ["John Maynard Smith", "John Haigh"]
+  },
+  {
+    "name_ja": "平衡選択",
+    "name_en": "Balancing Selection",
+    "definition": "複数の対立遺伝子が長期にわたり集団内で維持される自然選択の様式。ヘテロ接合体優位、頻度依存選択、時空間的に変動する選択などが含まれ、免疫関連遺伝子などの高い多様性を説明する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "balancing selection,heterozygote advantage,polymorphism",
+    "key_researchers": ["J. B. S. Haldane", "Theodosius Dobzhansky"]
+  },
+  {
+    "name_ja": "頻度依存選択",
+    "name_en": "Frequency-Dependent Selection",
+    "definition": "形質や遺伝子型の適応度が、その集団内での頻度に依存して変化する選択様式。希少型が有利になる場合は多型を維持し、一般型が有利になる場合は均一化を促す。捕食者と被食者、配偶者選択、免疫で重要である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "frequency dependence,polymorphism,game theory",
+    "key_researchers": ["Bryan Clarke", "John Maynard Smith"]
+  },
+  {
+    "name_ja": "方向性選択",
+    "name_en": "Directional Selection",
+    "definition": "ある形質の分布において一方の極端な値がより高い適応度を持ち、平均値が世代を通じて特定方向へ移動する選択様式。環境変化、薬剤耐性、捕食圧などに応答した適応進化でよく観察される。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "量的遺伝学",
+    "era_start": 1898,
+    "era_end": null,
+    "keywords_en": "directional selection,trait mean,adaptation",
+    "key_researchers": ["Karl Pearson", "Ronald A. Fisher"]
+  },
+  {
+    "name_ja": "安定化選択",
+    "name_en": "Stabilizing Selection",
+    "definition": "中間的な形質値を持つ個体が高い適応度を示し、極端な形質値が不利になる選択様式。表現型分散を減らし、発生や機能の安定性を維持するため、長期的な形態的保守性を説明する際に重要である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "量的遺伝学",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_en": "stabilizing selection,canalization,phenotypic variance",
+    "key_researchers": ["Ivan Schmalhausen", "C. H. Waddington"]
+  },
+  {
+    "name_ja": "分断選択",
+    "name_en": "Disruptive Selection",
+    "definition": "中間的な形質値よりも両極端の形質値が有利になる選択様式。集団内の多型維持、生態的ニッチの分化、同所的種分化の初期段階などに関与しうるが、交配様式や遺伝構造に強く依存する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "disruptive selection,diversifying selection,polymorphism",
+    "key_researchers": ["John Maynard Smith", "Michael Rosenzweig"]
+  },
+  {
+    "name_ja": "量的遺伝学",
+    "name_en": "Quantitative Genetics",
+    "definition": "身長、体重、収量、行動傾向など多数の遺伝子と環境が関与する連続的形質の遺伝と進化を扱う分野。遺伝率、選抜応答、遺伝分散共分散行列を通じて自然選択や育種の結果を予測する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "量的遺伝学",
+    "era_start": 1918,
+    "era_end": null,
+    "keywords_en": "quantitative genetics,heritability,polygenic traits",
+    "key_researchers": ["Ronald A. Fisher", "Jay L. Lush"]
+  },
+  {
+    "name_ja": "遺伝率",
+    "name_en": "Heritability",
+    "definition": "集団内で観察される表現型分散のうち、遺伝的差異によって説明される割合を表す統計量。個体の形質がどれほど遺伝で決まるかを直接示すものではなく、特定集団と環境条件に依存する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "量的遺伝学",
+    "era_start": 1918,
+    "era_end": null,
+    "keywords_en": "heritability,phenotypic variance,additive variance",
+    "key_researchers": ["Ronald A. Fisher", "Douglas Falconer"]
+  },
+  {
+    "name_ja": "反応規範",
+    "name_en": "Reaction Norm",
+    "definition": "同一遺伝子型が異なる環境条件下で示す表現型の範囲や変化パターンを表す概念。遺伝子と環境の相互作用、表現型可塑性、環境適応を理解するために重要で、単一形質値だけでは見えない進化可能性を示す。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1909,
+    "era_end": null,
+    "keywords_en": "reaction norm,phenotypic plasticity,GxE",
+    "key_researchers": ["Richard Woltereck", "Claus P. Clausen"]
+  },
+  {
+    "name_ja": "表現型可塑性",
+    "name_en": "Phenotypic Plasticity",
+    "definition": "一つの遺伝子型が環境条件に応じて異なる表現型を示す能力。可塑性は環境変動への即時応答として有利に働くことがあり、発生過程、学習、形態変化、生理調節を通じて進化と生態を結びつける。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "phenotypic plasticity,environment,development",
+    "key_researchers": ["Mary Jane West-Eberhard", "Anthony D. Bradshaw"]
+  },
+  {
+    "name_ja": "発生制約",
+    "name_en": "Developmental Constraint",
+    "definition": "発生システムの構造、遺伝子ネットワーク、物理的条件、歴史的経路により、進化で到達可能な形態や変異の方向が制限されるという概念。自然選択が万能に任意の形質を作るわけではないことを示す。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "developmental constraint,evolvability,morphospace",
+    "key_researchers": ["Stephen Jay Gould", "Richard Lewontin", "Pere Alberch"]
+  },
+  {
+    "name_ja": "進化可能性",
+    "name_en": "Evolvability",
+    "definition": "生物集団や発生システムが、遺伝的変異を生み出し、その変異が選択可能な表現型差として現れる能力を指す概念。遺伝子ネットワークの構造、冗長性、モジュール性、組換えが将来の適応可能性に影響する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "evolvability,variation,modularity",
+    "key_researchers": ["Marc Kirschner", "John Gerhart", "Günter Wagner"]
+  },
+  {
+    "name_ja": "ホメオティック遺伝子",
+    "name_en": "Homeotic Genes",
+    "definition": "体の部位の同一性や配置を決定する発生制御遺伝子群で、変異により脚が触角の位置に形成されるような大きな形態変化を起こす。Hox遺伝子群の発見は、動物形態進化の共通基盤を示した。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "homeotic genes,Hox genes,body plan",
+    "key_researchers": ["Edward B. Lewis", "Christiane Nüsslein-Volhard", "Eric Wieschaus"]
+  },
+  {
+    "name_ja": "遺伝子重複",
+    "name_en": "Gene Duplication",
+    "definition": "遺伝子がゲノム内で重複し、余分なコピーが新機能化、機能分担、または偽遺伝子化をたどる進化過程。新しい遺伝子機能や発生ネットワークの複雑化を可能にし、大規模な形質革新の素材となる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分子進化学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "gene duplication,neofunctionalization,genome evolution",
+    "key_researchers": ["Susumu Ohno"]
+  },
+  {
+    "name_ja": "全ゲノム重複",
+    "name_en": "Whole-Genome Duplication",
+    "definition": "個々の遺伝子ではなくゲノム全体が重複し、多数の遺伝子コピーが同時に生じる進化事象。植物、酵母、脊椎動物の進化で重要とされ、遺伝子ファミリー拡大や新規形質の進化に寄与する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "ゲノム進化学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "whole-genome duplication,polyploidy,gene family",
+    "key_researchers": ["Susumu Ohno", "Ken Wolfe"]
+  },
+  {
+    "name_ja": "遺伝子調節進化",
+    "name_en": "Regulatory Evolution",
+    "definition": "タンパク質配列そのものよりも、遺伝子の発現時期、場所、量を制御する調節領域の変化が形態や生理の進化に大きく寄与するという考え方。発生制御ネットワークの改変を通じて多様性を生む。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "regulatory evolution,gene expression,cis-regulatory elements",
+    "key_researchers": ["Mary-Claire King", "Allan Wilson", "Sean B. Carroll"]
+  },
+  {
+    "name_ja": "遺伝的同化",
+    "name_en": "Genetic Assimilation",
+    "definition": "環境刺激によって誘導されていた表現型が、選択を通じて刺激がなくても発現するよう遺伝的に固定される過程。発生可塑性と遺伝的変化を結びつけ、環境応答が進化の方向に影響しうることを示す。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化発生生物学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "genetic assimilation,canalization,plasticity",
+    "key_researchers": ["C. H. Waddington"]
+  },
+  {
+    "name_ja": "運河化",
+    "name_en": "Canalization",
+    "definition": "発生過程が遺伝的変異や環境変動に対して安定した表現型を生み出す性質。発生システムの頑健性を示す一方で、隠れた遺伝的変異を蓄積させ、環境変化や撹乱時に急な進化的応答を可能にする。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "発生遺伝学",
+    "era_start": 1942,
+    "era_end": null,
+    "keywords_en": "canalization,robustness,development",
+    "key_researchers": ["C. H. Waddington"]
+  },
+  {
+    "name_ja": "エピジェネティック継承",
+    "name_en": "Epigenetic Inheritance",
+    "definition": "DNA配列の変化を伴わず、DNAメチル化、ヒストン修飾、小RNAなどを通じて遺伝子発現状態が細胞世代または個体世代を越えて伝わる現象。環境と遺伝の関係を再考させる進化的意義を持つ。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "拡張進化総合",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "epigenetic inheritance,DNA methylation,gene expression",
+    "key_researchers": ["Eva Jablonka", "Marion J. Lamb"]
+  },
+  {
+    "name_ja": "水平遺伝子伝播",
+    "name_en": "Horizontal Gene Transfer",
+    "definition": "親から子への垂直継承ではなく、異なる系統や種の間で遺伝子が移動する現象。細菌や古細菌で特に重要で、薬剤耐性、代謝能力、ゲノム進化を大きく変化させ、生命系統樹の単純な樹状モデルを複雑にする。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "微生物進化学",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "horizontal gene transfer,lateral gene transfer,microbial evolution",
+    "key_researchers": ["Carl Woese", "W. Ford Doolittle"]
+  },
+  {
+    "name_ja": "内共生説",
+    "name_en": "Endosymbiotic Theory",
+    "definition": "ミトコンドリアや葉緑体が、かつて独立生活していた細菌が祖先真核細胞内に取り込まれ共生体となった結果生じたとする理論。細胞小器官の二重膜、独自DNA、細菌型リボソームなどが根拠となる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "細胞進化学",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "endosymbiosis,mitochondria,chloroplast",
+    "key_researchers": ["Lynn Margulis"]
+  },
+  {
+    "name_ja": "共進化",
+    "name_en": "Coevolution",
+    "definition": "相互作用する複数の種が、互いの選択圧となって相手の形質進化に影響し合う過程。捕食者と被食者、寄生者と宿主、植物と送粉者などで見られ、軍拡競争や相利共生の進化を説明する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "coevolution,reciprocal selection,host-parasite",
+    "key_researchers": ["Paul R. Ehrlich", "Peter H. Raven", "Leigh Van Valen"]
+  },
+  {
+    "name_ja": "赤の女王仮説",
+    "name_en": "Red Queen Hypothesis",
+    "definition": "生物は相互作用する他種や寄生者との競争の中で、現状の適応状態を維持するためにも絶えず進化し続けなければならないという仮説。性の進化、宿主寄生者関係、絶滅リスクの説明に用いられる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "Red Queen,coevolution,host-parasite",
+    "key_researchers": ["Leigh Van Valen"]
+  },
+  {
+    "name_ja": "ニッチ構築",
+    "name_en": "Niche Construction",
+    "definition": "生物が環境を受動的に経験するだけでなく、巣作り、土壌改変、文化的行動などを通じて選択環境を能動的に変化させるという概念。変化した環境は自身や他種の進化にフィードバックする。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "拡張進化総合",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "niche construction,ecological inheritance,feedback",
+    "key_researchers": ["F. John Odling-Smee", "Kevin Laland"]
+  },
+  {
+    "name_ja": "文化進化",
+    "name_en": "Cultural Evolution",
+    "definition": "学習、模倣、教育、記号伝達を通じて行動や知識が世代間に伝わり、変異、選択、継承によって変化する過程。遺伝進化とは異なる継承経路を持つが、人類進化や動物行動の理解に不可欠である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "遺伝子文化共進化",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "cultural evolution,social learning,gene-culture coevolution",
+    "key_researchers": ["Luigi Luca Cavalli-Sforza", "Marcus Feldman", "Robert Boyd"]
+  },
+  {
+    "name_ja": "遺伝子文化共進化",
+    "name_en": "Gene-Culture Coevolution",
+    "definition": "遺伝的進化と文化的変化が相互に影響し合う過程を扱う理論。乳糖耐性と牧畜、食性、社会制度、言語、技術などの文化的実践が選択圧を変え、遺伝子頻度にも影響することを説明する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "遺伝子文化共進化",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "gene-culture coevolution,cultural transmission,human evolution",
+    "key_researchers": ["Luigi Luca Cavalli-Sforza", "Marcus Feldman", "Peter J. Richerson"]
+  },
+  {
+    "name_ja": "進化的ゲーム理論",
+    "name_en": "Evolutionary Game Theory",
+    "definition": "相互作用する個体の戦略の成功が相手の戦略に依存する状況を、ゲーム理論を用いて進化的に分析する枠組み。進化的安定戦略、協力、攻撃性、配偶戦略、頻度依存選択の理解に用いられる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "行動生態学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "evolutionary game theory,ESS,strategy",
+    "key_researchers": ["John Maynard Smith", "George R. Price"]
+  },
+  {
+    "name_ja": "進化的安定戦略",
+    "name_en": "Evolutionarily Stable Strategy",
+    "definition": "集団中で広く採用されたとき、少数の代替戦略に侵入されにくい戦略を指す概念。最適戦略が固定的に一つとは限らず、相手の行動や頻度に依存する社会行動の進化を数学的に説明する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "行動生態学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "ESS,evolutionary stability,game theory",
+    "key_researchers": ["John Maynard Smith", "George R. Price"]
+  },
+  {
+    "name_ja": "適応放散",
+    "name_en": "Adaptive Radiation",
+    "definition": "一つの祖先系統から、異なる生態的ニッチに適応した多数の種が比較的短期間に分化する進化過程。島嶼、湖、空いた生態空間などで顕著に見られ、形態多様性と種多様性の急速な増加を説明する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "adaptive radiation,ecological opportunity,diversification",
+    "key_researchers": ["George Gaylord Simpson", "David Lack"]
+  },
+  {
+    "name_ja": "断続平衡説",
+    "name_en": "Punctuated Equilibrium",
+    "definition": "化石記録では、多くの種が長い形態的停滞期を示し、種分化に伴う比較的短い期間に急速な変化が集中するという仮説。漸進的変化だけでなく、種分化と停滞の時間構造を重視した。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "古生物進化学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "punctuated equilibrium,stasis,speciation",
+    "key_researchers": ["Niles Eldredge", "Stephen Jay Gould"]
+  },
+  {
+    "name_ja": "進化的停滞",
+    "name_en": "Evolutionary Stasis",
+    "definition": "系統が長期間にわたり大きな形態変化を示さず、比較的安定した特徴を保つ現象。安定化選択、発生制約、生態的安定、化石記録の解像度などが関与し、進化が常に連続的変化であるという見方を補正する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "古生物進化学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "stasis,fossil record,punctuated equilibrium",
+    "key_researchers": ["Stephen Jay Gould", "Niles Eldredge"]
+  },
+  {
+    "name_ja": "大進化",
+    "name_en": "Macroevolution",
+    "definition": "種以上の階層で起こる進化パターンや過程を扱う概念で、種分化、絶滅、適応放散、形態革新、長期的多様化を含む。小進化の累積だけで説明できる部分と、階層的過程を考慮すべき部分が議論される。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "古生物進化学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "macroevolution,speciation,extinction",
+    "key_researchers": ["George Gaylord Simpson", "Stephen Jay Gould"]
+  },
+  {
+    "name_ja": "小進化",
+    "name_en": "Microevolution",
+    "definition": "集団内または近縁集団間で、対立遺伝子頻度や表現型分布が世代を通じて変化する過程。突然変異、選択、浮動、移住などの機構により説明され、実験や野外調査で直接観察しやすい進化単位である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "microevolution,allele frequency,population change",
+    "key_researchers": ["Theodosius Dobzhansky", "Ronald A. Fisher"]
+  },
+  {
+    "name_ja": "ゲノム進化",
+    "name_en": "Genome Evolution",
+    "definition": "ゲノムサイズ、遺伝子数、反復配列、染色体構造、遺伝子ファミリー、調節領域が進化の過程でどのように変化するかを扱う分野。比較ゲノム解析により、系統ごとの革新や制約を明らかにする。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "ゲノム進化学",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "genome evolution,comparative genomics,gene family",
+    "key_researchers": ["Susumu Ohno", "Eugene Koonin"]
+  },
+  {
+    "name_ja": "トランスポゾン",
+    "name_en": "Transposable Elements",
+    "definition": "ゲノム内を移動またはコピーされるDNA配列で、挿入変異、遺伝子調節の変化、染色体再編成を引き起こす。かつては利己的DNAと見なされたが、進化的には新しい調節配列や遺伝子機能の素材にもなる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "ゲノム進化学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "transposable elements,selfish DNA,genome evolution",
+    "key_researchers": ["Barbara McClintock", "Orgel Leslie", "Francis Crick"]
+  },
+  {
+    "name_ja": "利己的DNA",
+    "name_en": "Selfish DNA",
+    "definition": "個体の適応度向上に直接寄与しなくても、自身の複製や伝播によってゲノム内で増加するDNA配列を指す概念。トランスポゾンや反復配列の存在を説明し、ゲノムを単なる適応的設計物と見る考えを修正した。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分子進化学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "selfish DNA,transposons,genomic parasites",
+    "key_researchers": ["Leslie Orgel", "Francis Crick", "W. Ford Doolittle"]
+  },
+  {
+    "name_ja": "ミュラーのラチェット",
+    "name_en": "Muller's Ratchet",
+    "definition": "無性生殖集団や組換えの少ないゲノムで、有害突然変異を最も少なく持つ系統が偶然失われると、元に戻れず有害変異が段階的に蓄積する過程。性や組換えの進化的利点を説明する理論の一つである。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "分子進化学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "Muller's ratchet,deleterious mutations,asexual reproduction",
+    "key_researchers": ["Hermann Joseph Muller"]
+  },
+  {
+    "name_ja": "有性生殖の進化",
+    "name_en": "Evolution of Sex",
+    "definition": "有性生殖が、配偶者探索や雄の存在などの費用を伴うにもかかわらず、なぜ広く維持されるのかを問う進化問題。組換えによる有害変異除去、環境変動への対応、寄生者との共進化などが主要な説明である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "進化生態学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "evolution of sex,recombination,Red Queen",
+    "key_researchers": ["John Maynard Smith", "George C. Williams", "William D. Hamilton"]
+  },
+  {
+    "name_ja": "組換え",
+    "name_en": "Recombination",
+    "definition": "減数分裂やDNA修復過程で異なるDNA分子間に遺伝情報の交換が起こる現象。新しい対立遺伝子組み合わせを生み、連鎖不平衡を崩し、有害変異の除去や適応的変異の結合を助ける進化的役割を持つ。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "遺伝学",
+    "era_start": 1911,
+    "era_end": null,
+    "keywords_en": "recombination,crossing over,linkage",
+    "key_researchers": ["Thomas Hunt Morgan", "Alfred Sturtevant"]
+  },
+  {
+    "name_ja": "遺伝的負荷",
+    "name_en": "Genetic Load",
+    "definition": "集団が有害突然変異、分離中の不利な対立遺伝子、または選択の過程によって、理論上可能な最大適応度より低い平均適応度を持つ程度を表す概念。突然変異選択平衡や近交弱勢の理解に用いられる。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "genetic load,deleterious mutation,mean fitness",
+    "key_researchers": ["H. J. Muller", "J. B. S. Haldane"]
+  },
+  {
+    "name_ja": "近交弱勢",
+    "name_en": "Inbreeding Depression",
+    "definition": "近縁個体間の交配によりホモ接合性が増加し、潜在的な有害劣性対立遺伝子が表現されることで生存力や繁殖力が低下する現象。保全遺伝学、育種、野生集団管理で重要なリスク要因である。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "保全遺伝学",
+    "era_start": 1876,
+    "era_end": null,
+    "keywords_en": "inbreeding depression,homozygosity,deleterious alleles",
+    "key_researchers": ["Charles Darwin", "Sewall Wright"]
+  },
+  {
+    "name_ja": "創始者効果",
+    "name_en": "Founder Effect",
+    "definition": "少数の個体が新しい集団を形成した際、元集団の遺伝的多様性の一部だけが偶然持ち込まれ、対立遺伝子頻度が大きく偏る現象。島嶼集団、移住集団、種分化過程で重要な役割を果たす。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "集団遺伝学",
+    "era_start": 1942,
+    "era_end": null,
+    "keywords_en": "founder effect,bottleneck,genetic drift",
+    "key_researchers": ["Ernst Mayr", "Sewall Wright"]
+  },
+  {
+    "name_ja": "ボトルネック効果",
+    "name_en": "Population Bottleneck",
+    "definition": "災害、環境変化、乱獲、感染症などによって集団サイズが急激に縮小し、遺伝的多様性が偶然大きく失われる現象。回復後も多様性低下や近交の影響が残り、適応能力を制限することがある。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "保全遺伝学",
+    "era_start": 1931,
+    "era_end": null,
+    "keywords_en": "population bottleneck,genetic diversity,drift",
+    "key_researchers": ["Sewall Wright", "Ernst Mayr"]
+  },
+  {
+    "name_ja": "保全遺伝学",
+    "name_en": "Conservation Genetics",
+    "definition": "絶滅危惧種や小集団の遺伝的多様性、近交、遺伝子流動、適応能力を評価し、保全管理に応用する分野。分子マーカーやゲノム解析を用いて、繁殖計画、個体群連結、再導入を支援する。",
+    "subfield": "進化・遺伝学",
+    "school_of_thought": "保全生物学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "conservation genetics,genetic diversity,endangered species",
+    "key_researchers": ["Michael Soulé", "Richard Frankham"]
+  }
+]
+tokens used
+14,885

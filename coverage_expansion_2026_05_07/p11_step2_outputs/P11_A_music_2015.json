@@ -1,0 +1,1142 @@
+[
+  {
+    "name_ja": "生成音楽AI",
+    "name_en": "Generative Music AI",
+    "definition": "深層学習や大規模生成モデルを用いて旋律、和声、音色、歌声、編曲、ミックスを自動生成する現象を、創造性、著作権、労働、聴取文化の変化として分析する概念。人間作曲家の補助道具にとどまらず、音楽作品の作者性や真正性を再編する対象として扱われる。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル音楽学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "generative AI,music generation,authorship",
+    "key_researchers": [
+      "Rebecca Fiebrink",
+      "Nick Collins",
+      "Holly Herndon"
+    ]
+  },
+  {
+    "name_ja": "ストリーミング経済学",
+    "name_en": "Streaming Economics",
+    "definition": "Spotify、Apple Music、YouTubeなどの配信基盤が、収益分配、推薦、再生回数、プレイリスト編成、アーティスト労働をどのように変化させたかを研究する概念。音楽の価値が所有からアクセスへ移行したことで、ジャンル形成や制作様式にも影響が及ぶ点を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "音楽産業研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "streaming platforms,royalties,playlist culture",
+    "key_researchers": [
+      "David Hesmondhalgh",
+      "Nancy Baym",
+      "Rasmus Fleischer"
+    ]
+  },
+  {
+    "name_ja": "K-pop理論",
+    "name_en": "K-pop Theory",
+    "definition": "K-popを単なる韓国大衆音楽ではなく、練習生制度、越境ファンダム、映像美学、SNS動員、翻訳、国家ブランド、ポスト植民地主義的近代性が交差する複合文化として分析する概念。音楽、ダンス、アイドル労働、プラットフォーム経済を統合して考える。",
+    "subfield": "音楽学",
+    "school_of_thought": "グローバル・ポピュラー音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "K-pop,idol culture,transnational fandom",
+    "key_researchers": [
+      "John Lie",
+      "Suk-Young Kim",
+      "Crystal S. Anderson"
+    ]
+  },
+  {
+    "name_ja": "脱植民地主義音楽学",
+    "name_en": "Decolonial Musicology",
+    "definition": "西洋中心の音楽史、記譜法、作品概念、正典形成を批判し、植民地主義が知識生産や聴取規範に残した構造を問い直す概念。先住民、ディアスポラ、グローバル・サウスの実践を周縁資料ではなく理論的中心として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "脱植民地主義音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "decoloniality,canon critique,global south",
+    "key_researchers": [
+      "Dylan Robinson",
+      "Tamara Levitz",
+      "Philip V. Bohlman"
+    ]
+  },
+  {
+    "name_ja": "気候音楽",
+    "name_en": "Climate Music",
+    "definition": "気候変動、環境危機、自然災害、エネルギー政治を音楽制作、演奏、サウンドアート、聴取倫理の問題として扱う概念。データの音響化、環境音の記録、エコ批評を通じて、音楽が気候意識や惑星的責任を形成する可能性を検討する。",
+    "subfield": "音楽学",
+    "school_of_thought": "エコ音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate music,ecomusicology,sonification",
+    "key_researchers": [
+      "Aaron S. Allen",
+      "Mark Pedelty",
+      "Denise Von Glahn"
+    ]
+  },
+  {
+    "name_ja": "アルゴリズム的聴取",
+    "name_en": "Algorithmic Listening",
+    "definition": "推薦システム、機械学習分類、音楽情報検索が、聴き手の選択や好みを事前に形成する状況を分析する概念。人間が音楽を聴く前に、プラットフォームがジャンル、ムード、適合性を計算するため、聴取経験そのものが技術的に媒介される。",
+    "subfield": "音楽学",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "algorithmic listening,recommendation systems,music platforms",
+    "key_researchers": [
+      "Robert Prey",
+      "Nick Seaver",
+      "Tiziano Bonini"
+    ]
+  },
+  {
+    "name_ja": "プレイリスト文化",
+    "name_en": "Playlist Culture",
+    "definition": "アルバムやシングルよりも、気分、活動、時間帯、ブランド、アルゴリズムで編成されたプレイリストが音楽経験を組織する現象を指す概念。編集者と機械推薦の境界、楽曲の短尺化、冒頭数秒の設計、ジャンル横断的な聴取を研究対象にする。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "playlist culture,curation,mood listening",
+    "key_researchers": [
+      "Maria Eriksson",
+      "Pelle Snickars",
+      "Jeremy Wade Morris"
+    ]
+  },
+  {
+    "name_ja": "プラットフォーム化された音楽",
+    "name_en": "Platformized Music",
+    "definition": "音楽の制作、流通、評価、収益化が少数のデジタル・プラットフォームの規則や指標に依存するようになった状態を分析する概念。アーティストは作品だけでなく、データ、投稿頻度、ファン反応、検索適性を管理する存在へ変化する。",
+    "subfield": "音楽学",
+    "school_of_thought": "プラットフォーム資本主義批判",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platformization,digital distribution,platform capitalism",
+    "key_researchers": [
+      "David Hesmondhalgh",
+      "José van Dijck",
+      "Thomas Poell"
+    ]
+  },
+  {
+    "name_ja": "音楽データ正義",
+    "name_en": "Music Data Justice",
+    "definition": "音楽データセット、推薦指標、ジャンルタグ、著作権データベースに含まれる偏りや不可視化を批判的に検討する概念。誰の音楽が学習され、分類され、収益化され、削除されるのかを問うことで、デジタル音楽環境の公平性を考える。",
+    "subfield": "音楽学",
+    "school_of_thought": "批判的データ研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "data justice,dataset bias,music metadata",
+    "key_researchers": [
+      "Safiya Umoja Noble",
+      "Catherine D'Ignazio",
+      "Lauren F. Klein"
+    ]
+  },
+  {
+    "name_ja": "音楽情報検索の批判的転回",
+    "name_en": "Critical MIR",
+    "definition": "音楽情報検索を単なる特徴抽出や分類精度の問題ではなく、文化的前提、ジャンル政治、身体性、聴取の多様性を含む知識実践として問い直す概念。技術的モデルが西洋音楽や商業音源を標準化しやすい点を批判する。",
+    "subfield": "音楽学",
+    "school_of_thought": "批判的音楽情報検索",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "critical MIR,music information retrieval,cultural bias",
+    "key_researchers": [
+      "Xavier Serra",
+      "Sally Jo Cunningham",
+      "George Tzanetakis"
+    ]
+  },
+  {
+    "name_ja": "TikTok音楽学",
+    "name_en": "TikTok Musicology",
+    "definition": "TikTok上で楽曲断片、ダンス、ミーム、リップシンク、リミックスが結びつき、音楽のヒットや意味が生成される過程を分析する概念。楽曲全体よりも数秒のフックや参加可能性が重要になり、聴取と制作と拡散の境界が曖昧になる。",
+    "subfield": "音楽学",
+    "school_of_thought": "ソーシャルメディア音楽研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "TikTok,short-form video,viral music",
+    "key_researchers": [
+      "Katherine Meizel",
+      "Paula Harper",
+      "Trevor Boffone"
+    ]
+  },
+  {
+    "name_ja": "ミーム音楽性",
+    "name_en": "Meme Musicality",
+    "definition": "インターネット・ミームにおける反復、引用、音声断片、編集テンポ、共同模倣を音楽的構造として分析する概念。音楽作品として完成していない断片でも、リズム、声、共有文脈を通じて集合的な意味と笑いを形成する点を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "インターネット文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "meme music,remix culture,participatory media",
+    "key_researchers": [
+      "Limor Shifman",
+      "Ryan Milner",
+      "Paula Harper"
+    ]
+  },
+  {
+    "name_ja": "ヴァーチャル・アイドル研究",
+    "name_en": "Virtual Idol Studies",
+    "definition": "初音ミク、VTuber、CGアバター、AI歌手など、身体を持たない、または複数の身体に分散する音楽主体を分析する概念。声、キャラクター、ファン創作、ライブ技術、知的財産が結びつき、演奏者の実在性が再定義される。",
+    "subfield": "音楽学",
+    "school_of_thought": "メディア音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "virtual idols,Vocaloid,VTuber",
+    "key_researchers": [
+      "Patrick W. Galbraith",
+      "Ian Condry",
+      "Kei Garvin"
+    ]
+  },
+  {
+    "name_ja": "ポストヒューマン音楽主体",
+    "name_en": "Posthuman Musical Agency",
+    "definition": "作曲家、演奏家、聴衆を自律した人間主体としてではなく、機械、ソフトウェア、環境、データ、身体補助技術と連結した分散的主体として捉える概念。生成AIやインタラクティブ楽器の普及により、音楽行為の責任と創造性を再考する。",
+    "subfield": "音楽学",
+    "school_of_thought": "ポストヒューマニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "posthumanism,musical agency,human-machine interaction",
+    "key_researchers": [
+      "Georgina Born",
+      "Nick Collins",
+      "Donna Haraway"
+    ]
+  },
+  {
+    "name_ja": "ニュー・マテリアリスト音楽学",
+    "name_en": "New Materialist Musicology",
+    "definition": "音楽を記号や表象だけでなく、楽器、空気、振動、媒体、建築、身体、電力など物質的関係のなかで生じる出来事として捉える概念。作品中心の分析を越え、音がどのような物質的条件で生成され、作用するかを問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "新唯物論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "new materialism,vibration,materiality",
+    "key_researchers": [
+      "Nina Sun Eidsheim",
+      "Georgina Born",
+      "Christoph Cox"
+    ]
+  },
+  {
+    "name_ja": "サウンドスタディーズとの交差",
+    "name_en": "Musicology and Sound Studies",
+    "definition": "音楽作品だけでなく、騒音、声、環境音、録音技術、都市音響、聴覚制度を含めて音文化を研究する方向性を示す概念。音楽学の分析対象を拡張し、耳、空間、権力、メディアの関係を横断的に扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "サウンドスタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "sound studies,aurality,sound culture",
+    "key_researchers": [
+      "Jonathan Sterne",
+      "Emily Thompson",
+      "Nina Sun Eidsheim"
+    ]
+  },
+  {
+    "name_ja": "聴覚的レイシャリゼーション",
+    "name_en": "Aural Racialization",
+    "definition": "声、発音、音色、リズム、ジャンルを通じて人種や民族が聴覚的に識別され、固定化される過程を分析する概念。音楽における人種表象を視覚的イメージだけでなく、聴く行為そのものに埋め込まれた偏見として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "批判的人種音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "race,voice,aurality",
+    "key_researchers": [
+      "Nina Sun Eidsheim",
+      "Jennifer Lynn Stoever",
+      "Daphne A. Brooks"
+    ]
+  },
+  {
+    "name_ja": "ブラック・サウンド研究",
+    "name_en": "Black Sound Studies",
+    "definition": "ブラック・ディアスポラの音楽、声、ノイズ、沈黙、録音文化を、抵抗、記憶、身体性、暴力の歴史と結びつけて分析する概念。ジャズ、ヒップホップ、R&Bだけでなく、聴覚の政治やアーカイブの欠落も研究対象となる。",
+    "subfield": "音楽学",
+    "school_of_thought": "ブラック・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Black sound,Afrodiaspora,sonic politics",
+    "key_researchers": [
+      "Daphne A. Brooks",
+      "Alexander G. Weheliye",
+      "Fred Moten"
+    ]
+  },
+  {
+    "name_ja": "クィア音楽学の再展開",
+    "name_en": "Renewed Queer Musicology",
+    "definition": "ジェンダーやセクシュアリティを作曲家の伝記的属性として扱うだけでなく、声、欲望、パフォーマンス、クラブ文化、聴取共同体における規範の揺らぎとして分析する概念。トランス研究やナイトライフ研究とも結びつく。",
+    "subfield": "音楽学",
+    "school_of_thought": "クィア音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "queer musicology,gender,performance",
+    "key_researchers": [
+      "Suzanne Cusick",
+      "Judith Peraino",
+      "Jodie Taylor"
+    ]
+  },
+  {
+    "name_ja": "トランス音声研究",
+    "name_en": "Trans Voice Studies",
+    "definition": "トランスジェンダーの声、歌唱、発声訓練、声域、身体感覚を、医学的矯正ではなく自己表現と社会的可聴性の問題として扱う概念。声が性別を自然に示すという前提を批判し、音楽実践における移行と多様性を考える。",
+    "subfield": "音楽学",
+    "school_of_thought": "トランス・スタディーズ",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "trans voice,gender,voice studies",
+    "key_researchers": [
+      "A. J. Lowik",
+      "Kay Norton",
+      "Nina Sun Eidsheim"
+    ]
+  },
+  {
+    "name_ja": "障害音楽学",
+    "name_en": "Disability Musicology",
+    "definition": "障害を欠如や克服物語としてではなく、聴取、演奏、楽器設計、身体規範、アクセシビリティを再考する視点として扱う概念。ろう文化、神経多様性、支援技術、インクルーシブな音楽教育を含め、音楽能力の標準を問い直す。",
+    "subfield": "音楽学",
+    "school_of_thought": "障害学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disability musicology,accessibility,embodiment",
+    "key_researchers": [
+      "Joseph N. Straus",
+      "Neil Lerner",
+      "Jessica Holmes"
+    ]
+  },
+  {
+    "name_ja": "ニューロダイバーシティと音楽",
+    "name_en": "Neurodiversity and Music",
+    "definition": "自閉スペクトラム、ADHD、感覚過敏などを病理ではなく多様な認知と聴取の様式として捉え、音楽経験や教育、作曲、パフォーマンスを再考する概念。音への集中、反復、身体反応を標準的聴取から外れた価値ある知覚として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "障害学的音楽研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "neurodiversity,music cognition,accessibility",
+    "key_researchers": [
+      "Adam Ockelford",
+      "Elizabeth Hellmuth Margulis",
+      "Joseph N. Straus"
+    ]
+  },
+  {
+    "name_ja": "音楽とメンタルヘルス研究",
+    "name_en": "Music and Mental Health Studies",
+    "definition": "音楽が不安、抑うつ、トラウマ、孤独、ウェルビーイングに与える影響を、医療、社会、文化の複合的文脈で研究する概念。治療効果を単純化せず、個人の感情調整、共同体形成、商業的セルフケアの問題も含めて考察する。",
+    "subfield": "音楽学",
+    "school_of_thought": "応用音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "mental health,wellbeing,music therapy",
+    "key_researchers": [
+      "Tia DeNora",
+      "Raymond MacDonald",
+      "Felicity Baker"
+    ]
+  },
+  {
+    "name_ja": "パンデミック音楽文化",
+    "name_en": "Pandemic Music Cultures",
+    "definition": "COVID-19以後のオンライン演奏、ベランダ歌唱、遠隔合奏、配信ライブ、音楽家の収入危機を分析する概念。身体的共在が制限された状況で、音楽が孤立、連帯、追悼、デジタル疲労をどのように媒介したかを問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "危機文化研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "pandemic music,livestreaming,remote performance",
+    "key_researchers": [
+      "Eric Drott",
+      "Nicholas Cook",
+      "Tia DeNora"
+    ]
+  },
+  {
+    "name_ja": "配信ライブ研究",
+    "name_en": "Livestreamed Performance Studies",
+    "definition": "ライブ演奏が会場の共在からネットワーク配信へ移ることで、臨場感、観客参加、課金、チャット、カメラ編集、遅延が音楽体験を構成するようになった状況を分析する概念。コンサートの本質を空間だけでなく媒介技術から考える。",
+    "subfield": "音楽学",
+    "school_of_thought": "パフォーマンス研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "livestreaming,online concerts,performance mediation",
+    "key_researchers": [
+      "Philip Auslander",
+      "Nicholas Cook",
+      "Sarah Bay-Cheng"
+    ]
+  },
+  {
+    "name_ja": "没入型音響文化",
+    "name_en": "Immersive Audio Culture",
+    "definition": "Dolby Atmos、空間オーディオ、VR音響、バイノーラル録音などが、音楽制作と聴取に与える変化を分析する概念。ステレオ作品を前提とした分析を越え、聴き手を包囲する空間配置、身体移動、環境的没入を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "音響メディア研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "immersive audio,spatial audio,virtual reality",
+    "key_researchers": [
+      "Agnes S. K. Chan",
+      "Barry Blesser",
+      "Linda-Ruth Salter"
+    ]
+  },
+  {
+    "name_ja": "VR音楽体験",
+    "name_en": "Virtual Reality Music Experience",
+    "definition": "仮想現実空間における演奏、クラブ、インスタレーション、教育、ファン参加を音楽学的に考察する概念。視覚と聴覚の没入、アバター身体、空間音響、参加型デザインが、従来の舞台と客席の関係を変える点を扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル・パフォーマンス研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "virtual reality,music experience,avatar performance",
+    "key_researchers": [
+      "Philip Auslander",
+      "William Gaver",
+      "Atau Tanaka"
+    ]
+  },
+  {
+    "name_ja": "メタバース音楽イベント",
+    "name_en": "Metaverse Music Events",
+    "definition": "Fortnite、Roblox、VRChatなどの仮想空間で行われるコンサートやクラブイベントを、ゲーム、音楽産業、アバター文化の交差として分析する概念。観客は聴くだけでなく、移動、スキン変更、チャット、共同体形成を通じて参加する。",
+    "subfield": "音楽学",
+    "school_of_thought": "ゲーム音楽研究",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "metaverse concerts,virtual worlds,game music",
+    "key_researchers": [
+      "Kiri Miller",
+      "William Gibbons",
+      "Tim Summers"
+    ]
+  },
+  {
+    "name_ja": "ゲーム音楽の手続き性",
+    "name_en": "Procedural Game Music",
+    "definition": "ゲーム内の状況、プレイヤー行動、アルゴリズムに応じて音楽が動的に変化する仕組みを分析する概念。固定された作品ではなく、条件分岐やレイヤー変化によって成立する音楽経験を扱い、作曲とシステム設計の関係を問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ルド音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "procedural music,game audio,ludomusicology",
+    "key_researchers": [
+      "Karen Collins",
+      "Tim Summers",
+      "William Gibbons"
+    ]
+  },
+  {
+    "name_ja": "ルド音楽学",
+    "name_en": "Ludomusicology",
+    "definition": "ビデオゲームにおける音楽を、作品分析、プレイヤー体験、インタラクション、産業、ファン文化の観点から研究する概念。映画音楽との類似だけでなく、操作可能性、失敗、反復、没入が音楽の意味を変える点を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "ゲーム音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ludomusicology,video game music,interactivity",
+    "key_researchers": [
+      "Karen Collins",
+      "Tim Summers",
+      "Michiel Kamp"
+    ]
+  },
+  {
+    "name_ja": "ファンダム音楽学",
+    "name_en": "Fandom Musicology",
+    "definition": "ファンが聴取、解釈、翻訳、二次創作、応援、データ拡散、チャート操作を通じて音楽文化を共同制作する過程を分析する概念。アーティスト中心の研究を補い、ファン共同体が価値、記憶、市場を形成する力を扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ファン研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "fandom,participatory culture,music fans",
+    "key_researchers": [
+      "Henry Jenkins",
+      "Cornel Sandvoss",
+      "Lucy Bennett"
+    ]
+  },
+  {
+    "name_ja": "スタン文化",
+    "name_en": "Stan Culture",
+    "definition": "熱心なオンラインファンが、推しの評価、売上、社会的評判を守るために集団的行動を行う文化を分析する概念。愛着と監視、ケアと攻撃性、チャート動員と政治参加が交差し、音楽受容の能動性を極端な形で示す。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル・ファンダム研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "stan culture,online fandom,pop music",
+    "key_researchers": [
+      "Lucy Bennett",
+      "Crystal Abidin",
+      "Rebecca Williams"
+    ]
+  },
+  {
+    "name_ja": "キャンセル文化と音楽",
+    "name_en": "Cancel Culture and Music",
+    "definition": "音楽家の発言、犯罪、差別、政治的立場が、作品の聴取や市場流通にどう影響するかを分析する概念。作品と作者の分離、ファンの倫理、プラットフォームの対応、アーカイブの扱いをめぐる現代的な論争を対象にする。",
+    "subfield": "音楽学",
+    "school_of_thought": "倫理的音楽批評",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "cancel culture,music ethics,authorship",
+    "key_researchers": [
+      "Kate Eichhorn",
+      "David Hesmondhalgh",
+      "Robin James"
+    ]
+  },
+  {
+    "name_ja": "音楽労働のギグ化",
+    "name_en": "Gigification of Music Labor",
+    "definition": "音楽家、プロデューサー、セッション奏者、教育者が、安定雇用よりも短期契約、配信収益、クラウドワーク、自己ブランディングに依存する状況を分析する概念。創造的自由の言説の裏にある不安定性と自己搾取を問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "文化労働研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "gig economy,music labor,precarity",
+    "key_researchers": [
+      "Angela McRobbie",
+      "David Hesmondhalgh",
+      "Mark Banks"
+    ]
+  },
+  {
+    "name_ja": "クリエイター経済と音楽",
+    "name_en": "Creator Economy and Music",
+    "definition": "ミュージシャンがレーベルや放送局だけでなく、Patreon、YouTube、Bandcamp、SNSを通じて直接ファンと収益関係を結ぶ状況を分析する概念。制作、宣伝、販売、コミュニティ運営が一体化し、音楽家の役割が拡張する。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル文化産業研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "creator economy,direct-to-fan,Bandcamp",
+    "key_researchers": [
+      "Nancy Baym",
+      "Brooke Erin Duffy",
+      "David Hesmondhalgh"
+    ]
+  },
+  {
+    "name_ja": "Bandcamp倫理",
+    "name_en": "Bandcamp Ethics",
+    "definition": "Bandcampをめぐる直接販売、インディペンデント音楽、コミュニティ支援、手数料免除、反プラットフォーム的価値観を分析する概念。大規模ストリーミングとは異なる所有、支援、アーカイブ、ジャンル共同体のあり方を検討する。",
+    "subfield": "音楽学",
+    "school_of_thought": "インディペンデント音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Bandcamp,independent music,direct support",
+    "key_researchers": [
+      "Nancy Baym",
+      "Rasmus Fleischer",
+      "David Arditi"
+    ]
+  },
+  {
+    "name_ja": "音楽NFT批評",
+    "name_en": "Music NFT Critique",
+    "definition": "NFTを用いた音楽販売、所有証明、ファン投資、希少性の演出を、技術的可能性と投機、環境負荷、不平等の両面から分析する概念。デジタル音楽に人工的な所有を再導入する試みとして、その文化的意味を問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ブロックチェーン文化批評",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "music NFT,blockchain,ownership",
+    "key_researchers": [
+      "David Golumbia",
+      "Trevor Pinch",
+      "Jeremy Wade Morris"
+    ]
+  },
+  {
+    "name_ja": "音楽著作権のAI問題",
+    "name_en": "AI Copyright in Music",
+    "definition": "生成AIの学習データ、声の模倣、作風の再現、共同制作物の著作権をめぐる問題を扱う概念。既存楽曲の権利保護と新しい創作の自由が衝突し、作者、実演家、プロンプト利用者、モデル提供者の責任が問われる。",
+    "subfield": "音楽学",
+    "school_of_thought": "音楽法文化研究",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "AI copyright,training data,music law",
+    "key_researchers": [
+      "Pamela Samuelson",
+      "Lawrence Lessig",
+      "Andres Guadamuz"
+    ]
+  },
+  {
+    "name_ja": "ディープフェイク歌声",
+    "name_en": "Deepfake Singing Voice",
+    "definition": "AIによって特定歌手の声質や歌唱癖を模倣する技術と、それがもたらす同意、人格権、ファン受容、追悼表現の問題を分析する概念。声が身体から切り離され再利用されることで、歌手の存在感や権利が再編される。",
+    "subfield": "音楽学",
+    "school_of_thought": "声のメディア研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "deepfake voice,voice cloning,singing synthesis",
+    "key_researchers": [
+      "Nina Sun Eidsheim",
+      "Kate Crawford",
+      "Nick Collins"
+    ]
+  },
+  {
+    "name_ja": "音声合成文化",
+    "name_en": "Singing Voice Synthesis Culture",
+    "definition": "Vocaloid、CeVIO、Synthesizer Vなどの歌声合成技術が、作曲、歌唱、キャラクター文化、ファン創作に与える影響を分析する概念。人間歌手の代理ではなく、ソフトウェア声そのものの表現性と共同制作性を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル声研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "singing synthesis,Vocaloid,synthetic voice",
+    "key_researchers": [
+      "Ian Condry",
+      "Kei Garvin",
+      "Patrick W. Galbraith"
+    ]
+  },
+  {
+    "name_ja": "ASMR音響文化",
+    "name_en": "ASMR Sound Culture",
+    "definition": "ささやき声、接触音、反復音、近接録音によって身体的快感や安心感を生むASMRを、音楽と音響メディアの境界領域として分析する概念。聴覚、親密性、セルフケア、プラットフォーム配信の関係を考察する。",
+    "subfield": "音楽学",
+    "school_of_thought": "親密性のサウンド研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ASMR,intimacy,sound culture",
+    "key_researchers": [
+      "Emma Leigh Waldron",
+      "Joceline Andersen",
+      "Nick Davis"
+    ]
+  },
+  {
+    "name_ja": "ローファイ・ビーツ研究",
+    "name_en": "Lo-fi Beats Studies",
+    "definition": "ローファイ・ヒップホップや勉強用ビーツを、作業、集中、ノスタルジア、アルゴリズム推薦、常時接続の聴取文化として分析する概念。音楽は前景化される作品ではなく、生活時間を整える環境的メディアとして機能する。",
+    "subfield": "音楽学",
+    "school_of_thought": "日常音楽研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "lo-fi beats,ambient listening,study music",
+    "key_researchers": [
+      "Tia DeNora",
+      "Anahid Kassabian",
+      "Adam Harper"
+    ]
+  },
+  {
+    "name_ja": "アンビエントの再政治化",
+    "name_en": "Repoliticized Ambient Music",
+    "definition": "アンビエント音楽を単なる背景音や癒やしではなく、労働、環境、監視、ケア、都市空間の政治と結びつけて再解釈する概念。穏やかな音響がいかに資本主義的生産性や逃避、抵抗の感覚を媒介するかを問う。",
+    "subfield": "音楽学",
+    "school_of_thought": "批判的アンビエント研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ambient music,background listening,politics",
+    "key_researchers": [
+      "Brian Eno",
+      "Anahid Kassabian",
+      "Adam Harper"
+    ]
+  },
+  {
+    "name_ja": "音楽と注意経済",
+    "name_en": "Music and Attention Economy",
+    "definition": "音楽が広告、SNS、短尺動画、通知環境のなかで、限られた注意を獲得し維持するために設計される状況を分析する概念。イントロ短縮、サビ先行、ループ適性、視覚演出が作品構造に影響する点を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "メディア経済批判",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "attention economy,short-form music,platform media",
+    "key_researchers": [
+      "Jonathan Crary",
+      "Yves Citton",
+      "Nancy Baym"
+    ]
+  },
+  {
+    "name_ja": "短尺音楽形式",
+    "name_en": "Short-form Music Forms",
+    "definition": "SNSや動画配信で流通しやすい十五秒から一分程度の音楽断片が、ヒット、記憶、ダンス、広告、ミームの単位になる現象を分析する概念。伝統的な楽曲形式よりも、切り抜き可能性と即時認識性が重要になる。",
+    "subfield": "音楽学",
+    "school_of_thought": "ポスト・アルバム研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "short-form music,hooks,viral clips",
+    "key_researchers": [
+      "Paula Harper",
+      "Jeremy Wade Morris",
+      "Katherine Meizel"
+    ]
+  },
+  {
+    "name_ja": "ポスト・アルバム時代",
+    "name_en": "Post-Album Era",
+    "definition": "アルバムを中心とした音楽経験が相対化され、シングル、プレイリスト、断片動画、連続リリースが主な流通形式となる状況を指す概念。作品のまとまり、物語性、批評の単位が変化し、制作戦略も持続的接触へ向かう。",
+    "subfield": "音楽学",
+    "school_of_thought": "録音文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-album era,singles,streaming",
+    "key_researchers": [
+      "Simon Frith",
+      "Jeremy Wade Morris",
+      "Eric Drott"
+    ]
+  },
+  {
+    "name_ja": "リバイバルとノスタルジア音楽",
+    "name_en": "Revival and Nostalgia Music",
+    "definition": "シティポップ、ディスコ、シンセウェーブ、Y2Kポップなど過去様式の再評価を、単なる懐古ではなく、デジタルアーカイブ、世代記憶、グローバル再発見、アルゴリズム推薦の結果として分析する概念。",
+    "subfield": "音楽学",
+    "school_of_thought": "記憶文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "nostalgia,revival,retromania",
+    "key_researchers": [
+      "Simon Reynolds",
+      "Svetlana Boym",
+      "Christine Yano"
+    ]
+  },
+  {
+    "name_ja": "シティポップのグローバル再発見",
+    "name_en": "Global Rediscovery of City Pop",
+    "definition": "日本の1970年代から1980年代のシティポップが、YouTube、レコード再発、海外DJ、ミーム文化を通じて再評価された現象を分析する概念。地域的な過去の音楽が、デジタル流通により新しい国際的意味を獲得する過程を扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "グローバル日本音楽研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "city pop,Japanese pop,global rediscovery",
+    "key_researchers": [
+      "Christine Yano",
+      "Ian Condry",
+      "Michael Bourdaghs"
+    ]
+  },
+  {
+    "name_ja": "ハイパーポップ分析",
+    "name_en": "Hyperpop Analysis",
+    "definition": "過剰なピッチ補正、圧縮、歪み、デジタル声、ジャンル混交を特徴とするハイパーポップを、インターネット世代の美学、クィア性、ポストジャンル性として分析する概念。音の人工性を隠さず、感情表現の核として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ポストジャンル音楽研究",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "hyperpop,post-genre,digital maximalism",
+    "key_researchers": [
+      "Robin James",
+      "Adam Harper",
+      "Dale Chapman"
+    ]
+  },
+  {
+    "name_ja": "オートチューン美学",
+    "name_en": "Auto-Tune Aesthetics",
+    "definition": "Auto-Tuneやピッチ補正を音程修正の隠れた技術ではなく、声の機械性、感情の変形、ジャンル的記号として分析する概念。ヒップホップ、R&B、ポップでの使用を通じて、人間らしさと人工性の境界が再構成される。",
+    "subfield": "音楽学",
+    "school_of_thought": "録音技術美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Auto-Tune,vocal processing,recording aesthetics",
+    "key_researchers": [
+      "Dale Chapman",
+      "Wayne Marshall",
+      "Alexander G. Weheliye"
+    ]
+  },
+  {
+    "name_ja": "トラップ以後のリズム分析",
+    "name_en": "Post-Trap Rhythm Analysis",
+    "definition": "トラップ以後の細分化されたハイハット、808ベース、シンコペーション、フロウの変化を、グローバルなポップ音楽のリズム語彙として分析する概念。地域ジャンルを越えて拡散したビート構造と身体感覚の変化を扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ポピュラー音楽理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "trap rhythm,808,flow analysis",
+    "key_researchers": [
+      "Kyle Adams",
+      "Adam Krims",
+      "Justin A. Williams"
+    ]
+  },
+  {
+    "name_ja": "グローバル・ラップ研究",
+    "name_en": "Global Rap Studies",
+    "definition": "ヒップホップとラップが各地域の言語、政治、移民経験、階級、若者文化と結びつき、独自の表現形式を生む過程を分析する概念。米国中心の起源論だけでなく、多中心的な翻訳とローカル化を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "グローバル・ヒップホップ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "global rap,hip-hop,localization",
+    "key_researchers": [
+      "Tony Mitchell",
+      "Su Zheng",
+      "Halifu Osumare"
+    ]
+  },
+  {
+    "name_ja": "アフロビーツの越境性",
+    "name_en": "Afrobeats Transnationalism",
+    "definition": "ナイジェリアやガーナを中心とするAfrobeatsが、ディアスポラ、クラブ文化、ストリーミング、国際コラボレーションを通じて世界的ポップ語彙になる過程を分析する概念。アフリカ音楽を周縁ではなくグローバル中心の一つとして扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "アフリカン・ポピュラー音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Afrobeats,transnationalism,African pop",
+    "key_researchers": [
+      "Tejumola Olaniyan",
+      "Jesse Weaver Shipley",
+      "Uchenna Ikonne"
+    ]
+  },
+  {
+    "name_ja": "ラテン・アーバン音楽研究",
+    "name_en": "Latin Urban Music Studies",
+    "definition": "レゲトン、ラテン・トラップ、デンボウを、言語、移民、植民地性、ジェンダー、ダンス、ストリーミング市場の交差として分析する概念。英語圏ポップに従属する周辺ジャンルではなく、世界的なリズムと産業の中心として扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "ラテン音楽研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "reggaeton,Latin trap,dembow",
+    "key_researchers": [
+      "Wayne Marshall",
+      "Petra R. Rivera-Rideau",
+      "Raquel Z. Rivera"
+    ]
+  },
+  {
+    "name_ja": "ポストジャンル音楽",
+    "name_en": "Post-Genre Music",
+    "definition": "ジャンルが固定された分類ではなく、アルゴリズム、ファン共同体、気分タグ、制作ツール、国際的影響によって流動的に組み替えられる状況を指す概念。若い音楽家の実践では、ジャンル横断が例外ではなく基本条件になる。",
+    "subfield": "音楽学",
+    "school_of_thought": "ポピュラー音楽理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-genre,genre fluidity,pop music",
+    "key_researchers": [
+      "David Brackett",
+      "Georgina Born",
+      "Fabian Holt"
+    ]
+  },
+  {
+    "name_ja": "ムード分類と音楽",
+    "name_en": "Mood-Based Music Classification",
+    "definition": "ジャンルやアーティスト名ではなく、chill、focus、sad、workoutなどの気分や用途で音楽が分類される現象を分析する概念。聴取の情動管理が市場化され、楽曲は表現物であると同時に生活機能を果たす素材となる。",
+    "subfield": "音楽学",
+    "school_of_thought": "情動音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "mood classification,affect,playlisting",
+    "key_researchers": [
+      "Tia DeNora",
+      "Anahid Kassabian",
+      "Robert Prey"
+    ]
+  },
+  {
+    "name_ja": "音楽と情動インフラ",
+    "name_en": "Music as Affective Infrastructure",
+    "definition": "音楽を個人の感情表現だけでなく、店舗、交通、職場、SNS、運動、睡眠などの日常環境で情動を調整するインフラとして捉える概念。BGMや推薦音楽が、気分、消費、集中、社会的ふるまいを支える仕組みを扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "情動理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affective infrastructure,mood management,everyday music",
+    "key_researchers": [
+      "Tia DeNora",
+      "Ben Anderson",
+      "Anahid Kassabian"
+    ]
+  },
+  {
+    "name_ja": "音楽アーカイブのデジタル化",
+    "name_en": "Digital Music Archives",
+    "definition": "録音、楽譜、映像、口承資料、ファン資料をデジタル保存し、検索、公開、再利用する実践を分析する概念。保存技術だけでなく、権利、アクセス、メタデータ、植民地主義的収集、失われた声の回復が問題となる。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル・ヒューマニティーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital archives,music heritage,metadata",
+    "key_researchers": [
+      "Timothy D. Taylor",
+      "Trevor Owens",
+      "Philip V. Bohlman"
+    ]
+  },
+  {
+    "name_ja": "計算音楽学",
+    "name_en": "Computational Musicology",
+    "definition": "大規模な楽譜、録音、メタデータを計算的手法で分析し、旋律、和声、様式、影響関係、演奏傾向を研究する概念。統計や機械学習を用いながらも、数値結果を歴史的・文化的解釈と結びつけることが求められる。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "computational musicology,digital humanities,corpus analysis",
+    "key_researchers": [
+      "Ichiro Fujinaga",
+      "David Huron",
+      "Frans Wiering"
+    ]
+  },
+  {
+    "name_ja": "コーパス音楽理論",
+    "name_en": "Corpus Music Theory",
+    "definition": "多数の楽曲データを用いて、和声進行、旋律型、リズム、形式、ジャンル差を実証的に分析する概念。個別作品の精読に加えて、反復する様式や例外を統計的に把握し、音楽理論の一般化可能性を検討する。",
+    "subfield": "音楽学",
+    "school_of_thought": "経験的音楽理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "corpus studies,music theory,empirical analysis",
+    "key_researchers": [
+      "David Temperley",
+      "Trevor de Clercq",
+      "Daniel Shanahan"
+    ]
+  },
+  {
+    "name_ja": "演奏研究のデータ化",
+    "name_en": "Datafication of Performance Studies",
+    "definition": "録音や映像からテンポ、強弱、タイミング、身体動作、表情を抽出し、演奏解釈をデータとして比較する概念。芸術的判断を数値に還元するのではなく、演奏の微細な差異と歴史的変化を新しい方法で可視化する。",
+    "subfield": "音楽学",
+    "school_of_thought": "演奏研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "performance data,expressive timing,music performance",
+    "key_researchers": [
+      "Nicholas Cook",
+      "Daniel Leech-Wilkinson",
+      "Craig Sapp"
+    ]
+  },
+  {
+    "name_ja": "歴史的録音の再評価",
+    "name_en": "Reassessment of Historical Recordings",
+    "definition": "初期録音や放送音源を、単なる過去の記録ではなく、演奏様式、技術制約、聴取習慣、保存政治を示す重要資料として再評価する概念。デジタル復元やオンライン公開により、音楽史の書き方が録音中心に拡張される。",
+    "subfield": "音楽学",
+    "school_of_thought": "録音史研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "historical recordings,recording history,performance practice",
+    "key_researchers": [
+      "Daniel Leech-Wilkinson",
+      "Mark Katz",
+      "Nicholas Cook"
+    ]
+  },
+  {
+    "name_ja": "音楽博物館の脱植民地化",
+    "name_en": "Decolonizing Music Museums",
+    "definition": "楽器博物館や音楽アーカイブが収集してきた資料を、植民地支配、略奪、分類、展示言語の観点から問い直す概念。楽器を民族的標本として固定せず、由来地域の知識、返還、共同キュレーションを重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "博物館批判研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "museum decolonization,musical instruments,repatriation",
+    "key_researchers": [
+      "Dylan Robinson",
+      "Anthony Seeger",
+      "Philip V. Bohlman"
+    ]
+  },
+  {
+    "name_ja": "先住民音楽主権",
+    "name_en": "Indigenous Musical Sovereignty",
+    "definition": "先住民の歌、儀礼音楽、録音、知識を、外部研究者の収集対象ではなく、共同体の主権と管理権を伴う文化実践として扱う概念。公開してよい音、聴いてよい人、保存方法を共同体が決定する権利を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "先住民研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Indigenous music,sovereignty,protocols",
+    "key_researchers": [
+      "Dylan Robinson",
+      "Beverley Diamond",
+      "Aaron Corn"
+    ]
+  },
+  {
+    "name_ja": "移民音楽と境界",
+    "name_en": "Migration Music and Borders",
+    "definition": "移民、難民、ディアスポラ共同体の音楽を、記憶、帰属、国境管理、翻訳、世代間継承の観点から分析する概念。音楽は故郷の再現にとどまらず、新しい都市やデジタル空間で複数のアイデンティティを結び直す。",
+    "subfield": "音楽学",
+    "school_of_thought": "ディアスポラ音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "migration,diaspora,borders",
+    "key_researchers": [
+      "Martin Stokes",
+      "Su Zheng",
+      "Philip V. Bohlman"
+    ]
+  },
+  {
+    "name_ja": "難民サウンドスケープ",
+    "name_en": "Refugee Soundscapes",
+    "definition": "難民キャンプ、移動経路、亡命先都市における音、歌、祈り、騒音、沈黙を、生活実践と政治的状況の表れとして分析する概念。音楽は慰安や記憶だけでなく、可視化されにくい移動経験を伝える媒体となる。",
+    "subfield": "音楽学",
+    "school_of_thought": "人道危機音楽研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "refugees,soundscape,migration",
+    "key_researchers": [
+      "Philip V. Bohlman",
+      "Martin Stokes",
+      "Jim Sykes"
+    ]
+  },
+  {
+    "name_ja": "音楽と監視資本主義",
+    "name_en": "Music and Surveillance Capitalism",
+    "definition": "音楽サービスが聴取履歴、位置情報、気分、行動時間を収集し、推薦や広告、商品設計に利用する状況を分析する概念。聴く行為がデータ化されることで、音楽経験の親密さと監視の構造が結びつく。",
+    "subfield": "音楽学",
+    "school_of_thought": "監視研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "surveillance capitalism,listening data,platforms",
+    "key_researchers": [
+      "Shoshana Zuboff",
+      "Nick Seaver",
+      "Robert Prey"
+    ]
+  },
+  {
+    "name_ja": "スマートスピーカー聴取",
+    "name_en": "Smart Speaker Listening",
+    "definition": "Alexa、Google Assistant、Siriなど音声アシスタントを通じた音楽再生が、検索、家庭空間、子どもの聴取、プライバシー、声による命令に与える影響を分析する概念。画面のない選曲が、音楽発見とプラットフォーム依存を変える。",
+    "subfield": "音楽学",
+    "school_of_thought": "家庭メディア研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "smart speakers,voice assistants,domestic listening",
+    "key_researchers": [
+      "Jonathan Sterne",
+      "Nancy Baym",
+      "Nick Seaver"
+    ]
+  },
+  {
+    "name_ja": "音楽教育のデジタル転回",
+    "name_en": "Digital Turn in Music Education",
+    "definition": "オンライン授業、DAW、動画教材、遠隔合奏、AI伴奏、学習分析が音楽教育に与える変化を分析する概念。対面の技能伝承だけでなく、アクセス格差、評価方法、創作中心学習、プラットフォーム依存を含めて考察する。",
+    "subfield": "音楽学",
+    "school_of_thought": "音楽教育研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital music education,online learning,DAW pedagogy",
+    "key_researchers": [
+      "Lucy Green",
+      "Evan S. Tobias",
+      "David J. Elliott"
+    ]
+  },
+  {
+    "name_ja": "DAWリテラシー",
+    "name_en": "DAW Literacy",
+    "definition": "Digital Audio Workstationを読み書きの道具のように使い、録音、編集、打ち込み、ミックス、サンプリングを通じて音楽を理解し制作する能力を指す概念。楽譜中心の音楽教育を補い、現代的な制作実践に即した音楽的知性を扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "制作実践研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "DAW literacy,music production,pedagogy",
+    "key_researchers": [
+      "Andrew R. Brown",
+      "Evan S. Tobias",
+      "Zack Moir"
+    ]
+  },
+  {
+    "name_ja": "プロデューサー中心音楽論",
+    "name_en": "Producer-Centered Musicology",
+    "definition": "作曲家や演奏家だけでなく、プロデューサー、ビートメイカー、ミックスエンジニア、サウンドデザイナーを音楽生成の中心的主体として分析する概念。録音スタジオやDAW上の判断が、作品の構造と感情を形作る点を重視する。",
+    "subfield": "音楽学",
+    "school_of_thought": "レコード・プロダクション研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "record production,producers,studio practice",
+    "key_researchers": [
+      "Simon Zagorski-Thomas",
+      "Albin Zak",
+      "Mark Katz"
+    ]
+  },
+  {
+    "name_ja": "サンプル文化の再考",
+    "name_en": "Rethinking Sample Culture",
+    "definition": "サンプリングを盗用や引用の問題だけでなく、記憶、アーカイブ、黒人音楽史、技術的身体性、法的制約、創造的再文脈化の実践として分析する概念。デジタル制作の普及により、引用と生成の境界がさらに複雑化する。",
+    "subfield": "音楽学",
+    "school_of_thought": "ヒップホップ音楽学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "sampling,remix,copyright",
+    "key_researchers": [
+      "Joseph Schloss",
+      "Mark Katz",
+      "Kembrew McLeod"
+    ]
+  },
+  {
+    "name_ja": "リミックス倫理",
+    "name_en": "Remix Ethics",
+    "definition": "既存音源、映像、声、文化的記号を再編集するリミックス実践を、創造性、同意、文化的盗用、著作権、共同体規範の観点から分析する概念。参加文化を肯定しつつ、権力差のある引用がもたらす問題も扱う。",
+    "subfield": "音楽学",
+    "school_of_thought": "参加文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "remix ethics,appropriation,participatory culture",
+    "key_researchers": [
+      "Lawrence Lessig",
+      "Eduardo Navas",
+      "Kembrew McLeod"
+    ]
+  },
+  {
+    "name_ja": "文化的盗用と音楽",
+    "name_en": "Cultural Appropriation in Music",
+    "definition": "支配的集団が周縁化された文化の音楽様式、衣装、言語、宗教的要素を利用する際の権力関係を分析する概念。単なる影響関係ではなく、利益配分、表象、歴史的暴力、共同体の同意を含めて判断する。",
+    "subfield": "音楽学",
+    "school_of_thought": "批判的文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "cultural appropriation,power,representation",
+    "key_researchers": [
+      "George Lipsitz",
+      "Steven Feld",
+      "Kembrew McLeod"
+    ]
+  },
+  {
+    "name_ja": "音楽と社会運動の再接続",
+    "name_en": "Music and Social Movements Reconnected",
+    "definition": "Black Lives Matter、MeToo、気候運動、民主化運動などで音楽、チャント、プレイリスト、配信ライブが果たす役割を分析する概念。抗議歌だけでなく、拡散可能な音声、追悼、集会のリズム、オンライン連帯を対象にする。",
+    "subfield": "音楽学",
+    "school_of_thought": "社会運動研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "social movements,protest music,activism",
+    "key_researchers": [
+      "Josh Kun",
+      "George Lipsitz",
+      "Daphne A. Brooks"
+    ]
+  },
+  {
+    "name_ja": "抗議プレイリスト",
+    "name_en": "Protest Playlists",
+    "definition": "社会運動において、プレイリストが記憶、怒り、希望、教育、共同体形成の媒体として機能する現象を分析する概念。従来の抗議歌研究を、ストリーミング上の選曲、共有、コメント、アルゴリズム的可視性へ拡張する。",
+    "subfield": "音楽学",
+    "school_of_thought": "デジタル・アクティヴィズム研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "protest playlists,activism,streaming",
+    "key_researchers": [
+      "Josh Kun",
+      "Nancy Baym",
+      "Robin James"
+    ]
+  }
+]

@@ -1,0 +1,930 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0987-1ab6-7070-97a2-48a9a486dac5
+--------
+user
+「文化人類学・民族誌」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+AIの人類学、デジタル民族誌、ポストヒューマン人類学、気候人類学、存在論的転回
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"文化人類学・民族誌","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "文化相対主義",
+    "name_en": "Cultural Relativism",
+    "definition": "文化相対主義は、価値観や制度や慣習を普遍的な尺度で優劣づけるのではなく、それぞれの歴史的・社会的文脈の中で理解しようとする立場である。植民地主義的偏見や進化主義的序列化への批判として発展した。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "ボアズ学派",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "relativism,culture,context",
+    "key_researchers": ["Franz Boas", "Ruth Benedict"]
+  },
+  {
+    "name_ja": "参与観察",
+    "name_en": "Participant Observation",
+    "definition": "参与観察は、研究者が調査地の日常生活に参加しながら観察し、会話や実践や沈黙を含む社会的経験を記録する民族誌的方法である。外部からの観察だけでなく、身体的関与を通じて意味生成を理解する点に特徴がある。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "フィールドワーク人類学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "fieldwork,ethnography,method",
+    "key_researchers": ["Bronislaw Malinowski"]
+  },
+  {
+    "name_ja": "厚い記述",
+    "name_en": "Thick Description",
+    "definition": "厚い記述は、行為を単なる外形的事実としてではなく、当事者が共有する象徴体系や状況的含意の中で解釈する民族誌的記述である。身振りや儀礼の意味を多層的に読み解き、文化を解釈可能なテキストとして扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "解釈人類学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "thick description,interpretation,meaning",
+    "key_researchers": ["Clifford Geertz"]
+  },
+  {
+    "name_ja": "構造機能主義",
+    "name_en": "Structural Functionalism",
+    "definition": "構造機能主義は、親族、政治、宗教、法などの制度を社会全体の秩序維持に果たす機能から分析する立場である。個人心理よりも社会構造の持続性を重視し、制度間の相互依存を民族誌的に説明した。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "英国社会人類学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "structure,function,social order",
+    "key_researchers": ["A. R. Radcliffe-Brown", "E. E. Evans-Pritchard"]
+  },
+  {
+    "name_ja": "機能主義",
+    "name_en": "Functionalism",
+    "definition": "機能主義は、文化制度や慣習を人間の基本的欲求や社会生活の実践的要請に応答するものとして分析する理論である。儀礼や経済や親族を孤立した要素ではなく、生活世界を成り立たせる働きとして捉えた。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "機能主義人類学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "function,needs,institutions",
+    "key_researchers": ["Bronislaw Malinowski"]
+  },
+  {
+    "name_ja": "構造主義",
+    "name_en": "Structuralism",
+    "definition": "構造主義は、神話、親族、分類、料理などの文化現象の背後にある二項対立や変換規則を分析する立場である。表面的な差異の下に人間精神の普遍的構造を見いだし、文化を関係体系として理解した。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "フランス構造主義",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "structure,myth,binary opposition",
+    "key_researchers": ["Claude Levi-Strauss"]
+  },
+  {
+    "name_ja": "解釈人類学",
+    "name_en": "Interpretive Anthropology",
+    "definition": "解釈人類学は、文化を人びとが意味を編み込む象徴的秩序として捉え、民族誌をその意味の解釈として位置づける潮流である。社会を法則的に説明するよりも、当事者にとって世界がどのように意味づけられるかを重視する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "解釈人類学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "interpretation,symbols,meaning",
+    "key_researchers": ["Clifford Geertz", "Victor Turner"]
+  },
+  {
+    "name_ja": "象徴人類学",
+    "name_en": "Symbolic Anthropology",
+    "definition": "象徴人類学は、儀礼、神話、色彩、身体表現などを社会的意味を担う象徴として分析する分野である。象徴が社会秩序を表現するだけでなく、感情、葛藤、変化を媒介し、共同体の経験を組織する点を明らかにする。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "象徴人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "symbols,ritual,meaning",
+    "key_researchers": ["Victor Turner", "Mary Douglas"]
+  },
+  {
+    "name_ja": "儀礼過程",
+    "name_en": "Ritual Process",
+    "definition": "儀礼過程は、通過儀礼や社会的危機の場面で人びとが通常の秩序から離れ、境界状態を経て新たな位置へ移行する過程を分析する概念である。リミナリティやコミュニタスを通じて、社会構造と変容の関係を説明する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "象徴人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "ritual,liminality,communitas",
+    "key_researchers": ["Victor Turner", "Arnold van Gennep"]
+  },
+  {
+    "name_ja": "リミナリティ",
+    "name_en": "Liminality",
+    "definition": "リミナリティは、通過儀礼や社会的移行において、既存の地位や分類から一時的に外れた境界的状態を指す。そこでは秩序が宙吊りになり、通常は抑制される関係性や創造性が現れ、再統合や変化の契機となる。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "儀礼研究",
+    "era_start": 1909,
+    "era_end": null,
+    "keywords_en": "liminality,transition,ritual",
+    "key_researchers": ["Arnold van Gennep", "Victor Turner"]
+  },
+  {
+    "name_ja": "コミュニタス",
+    "name_en": "Communitas",
+    "definition": "コミュニタスは、リミナルな状況で身分や階層の差異が一時的に弱まり、直接的で平等的な結びつきが生じる状態を指す。巡礼、祭礼、社会運動などで現れ、構造化された社会秩序に対する批判的契機を含む。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "象徴人類学",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "communitas,liminality,solidarity",
+    "key_researchers": ["Victor Turner"]
+  },
+  {
+    "name_ja": "親族体系",
+    "name_en": "Kinship System",
+    "definition": "親族体系は、血縁、婚姻、養子、系譜、呼称、相続などを通じて社会関係を組織する仕組みである。家族を自然な単位として前提にせず、関係の作り方や義務、交換、政治秩序との結びつきを比較分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "親族研究",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "kinship,descent,marriage",
+    "key_researchers": ["Lewis Henry Morgan", "Claude Levi-Strauss"]
+  },
+  {
+    "name_ja": "贈与交換",
+    "name_en": "Gift Exchange",
+    "definition": "贈与交換は、物やサービスのやり取りが単なる経済取引ではなく、義務、名誉、負債、連帯、競争を生み出す社会的実践であることを示す概念である。贈る、受け取る、返礼するという循環が関係を形成する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "交換理論",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "gift,exchange,reciprocity",
+    "key_researchers": ["Marcel Mauss", "Annette Weiner"]
+  },
+  {
+    "name_ja": "互酬性",
+    "name_en": "Reciprocity",
+    "definition": "互酬性は、贈与、労働、食物、情報などの交換が、即時の等価交換ではなく長期的な関係や道徳的義務を通じて維持される仕組みである。一般化された互酬、均衡的互酬、否定的互酬などの類型で分析される。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "経済人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "reciprocity,exchange,obligation",
+    "key_researchers": ["Marshall Sahlins", "Marcel Mauss"]
+  },
+  {
+    "name_ja": "ポトラッチ",
+    "name_en": "Potlatch",
+    "definition": "ポトラッチは、北西海岸先住民社会に見られる競争的贈与儀礼を指し、富の破壊や分配を通じて名誉、地位、権威を構築する実践として分析されてきた。経済合理性だけでは説明できない贈与と権力の関係を示す。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "贈与論",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "potlatch,gift,status",
+    "key_researchers": ["Franz Boas", "Marcel Mauss"]
+  },
+  {
+    "name_ja": "クラ交換",
+    "name_en": "Kula Exchange",
+    "definition": "クラ交換は、トロブリアンド諸島周辺で貝製装飾品が反対方向に循環する広域交換制度である。実用品の取引とは異なり、名声、航海、同盟、物語を結びつける制度として、経済と社会関係の不可分性を示した。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "機能主義人類学",
+    "era_start": 1922,
+    "era_end": null,
+    "keywords_en": "kula,exchange,prestige",
+    "key_researchers": ["Bronislaw Malinowski"]
+  },
+  {
+    "name_ja": "サブスタンティヴィズム",
+    "name_en": "Substantivism",
+    "definition": "サブスタンティヴィズムは、経済を市場合理性や利潤最大化だけで捉えず、親族、宗教、政治、道徳に埋め込まれた生活維持の制度として理解する立場である。形式主義的な普遍経済モデルへの批判として展開した。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "経済人類学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "substantivism,economy,embeddedness",
+    "key_researchers": ["Karl Polanyi", "George Dalton"]
+  },
+  {
+    "name_ja": "形式主義",
+    "name_en": "Formalism",
+    "definition": "形式主義は、人間が希少資源を合理的に配分する主体であるという経済学的前提を、非市場社会を含む多様な社会に適用できるとする立場である。サブスタンティヴィズムとの論争を通じて経済人類学の理論的焦点となった。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "経済人類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "formalism,rational choice,economy",
+    "key_researchers": ["Raymond Firth", "Harold Schneider"]
+  },
+  {
+    "name_ja": "政治人類学",
+    "name_en": "Political Anthropology",
+    "definition": "政治人類学は、国家、首長制、ビッグマン制、紛争解決、権威、支配、抵抗などを民族誌的に分析する分野である。公式制度だけでなく、儀礼、親族、贈与、暴力、言説を通じた権力の生成を扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "政治人類学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "power,authority,politics",
+    "key_researchers": ["E. E. Evans-Pritchard", "Max Gluckman"]
+  },
+  {
+    "name_ja": "分節リネージ体系",
+    "name_en": "Segmentary Lineage System",
+    "definition": "分節リネージ体系は、共通祖先をもつ系譜集団が状況に応じて分裂や連合を行い、政治的対立や協力を組織する仕組みである。国家をもたない社会の秩序形成を説明する概念として、ヌアー研究などで重要となった。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "英国社会人類学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "lineage,segmentation,politics",
+    "key_researchers": ["E. E. Evans-Pritchard", "Meyer Fortes"]
+  },
+  {
+    "name_ja": "首長制",
+    "name_en": "Chiefdom",
+    "definition": "首長制は、親族や儀礼的権威に基づき、首長が再分配、調停、戦争、祭祀を担う政治組織の形態である。国家ほど官僚化されていないが、平等主義的集団よりも階層化された社会として比較研究されてきた。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "政治人類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "chiefdom,redistribution,hierarchy",
+    "key_researchers": ["Elman Service", "Marshall Sahlins"]
+  },
+  {
+    "name_ja": "ビッグマン制",
+    "name_en": "Big Man System",
+    "definition": "ビッグマン制は、世襲的地位ではなく、贈与、弁舌、労働動員、同盟形成によって影響力を獲得する指導者のあり方を指す。メラネシア研究で重視され、権力が固定制度ではなく関係的成果として生じることを示す。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "政治人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "big man,leadership,prestige",
+    "key_researchers": ["Marshall Sahlins", "Maurice Godelier"]
+  },
+  {
+    "name_ja": "ジェンダー人類学",
+    "name_en": "Anthropology of Gender",
+    "definition": "ジェンダー人類学は、性差、役割、身体、労働、親族、権力、欲望が文化的・歴史的に構成される過程を研究する。女性の経験を補足するだけでなく、男性性、クィア性、交差性を含む関係的な権力編成を分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "フェミニスト人類学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "gender,feminism,power",
+    "key_researchers": ["Sherry Ortner", "Gayle Rubin"]
+  },
+  {
+    "name_ja": "フェミニスト人類学",
+    "name_en": "Feminist Anthropology",
+    "definition": "フェミニスト人類学は、民族誌の対象、方法、理論に埋め込まれた男性中心主義を批判し、性別化された権力関係と知識生産を問い直す潮流である。研究者の位置性や調査協力者との関係も反省的に扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "フェミニスト人類学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "feminism,ethnography,reflexivity",
+    "key_researchers": ["Michelle Rosaldo", "Henrietta Moore"]
+  },
+  {
+    "name_ja": "身体技法",
+    "name_en": "Techniques of the Body",
+    "definition": "身体技法は、歩く、眠る、食べる、泳ぐ、出産するなどの身体行為が自然な動作ではなく、社会的に学習される技術であることを示す概念である。身体を文化が刻み込まれる場として捉え、習慣と社会秩序を結びつける。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "身体人類学",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "body,technique,habitus",
+    "key_researchers": ["Marcel Mauss", "Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "ハビトゥス",
+    "name_en": "Habitus",
+    "definition": "ハビトゥスは、社会的経験を通じて身体化された知覚、判断、行為の傾向性を指す。個人の自由な選択と構造的決定の中間に位置し、階級、趣味、身振り、生活様式がどのように再生産されるかを説明する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "実践理論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "habitus,practice,embodiment",
+    "key_researchers": ["Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "実践理論",
+    "name_en": "Practice Theory",
+    "definition": "実践理論は、社会構造と個人行為を対立的に扱うのではなく、日常的実践を通じて構造が再生産され、同時に変化する過程を分析する立場である。規則、身体化、戦略、権力を結びつけて文化を動態的に捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "実践理論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "practice,agency,structure",
+    "key_researchers": ["Pierre Bourdieu", "Sherry Ortner"]
+  },
+  {
+    "name_ja": "エージェンシー",
+    "name_en": "Agency",
+    "definition": "エージェンシーは、個人や集団が構造的制約の中で意味を解釈し、選択し、交渉し、時に抵抗や変革を行う能力を指す。人類学では、権力に完全に決定されない行為主体性を、歴史や身体や関係性の中で検討する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "実践理論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "agency,subjectivity,practice",
+    "key_researchers": ["Sherry Ortner", "Saba Mahmood"]
+  },
+  {
+    "name_ja": "ポストコロニアル人類学",
+    "name_en": "Postcolonial Anthropology",
+    "definition": "ポストコロニアル人類学は、人類学の知識生産が植民地主義、帝国、開発、他者表象とどのように関わってきたかを批判的に検討する。被調査者を受動的対象とせず、歴史的暴力や翻訳の政治を分析に含める。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "postcolonialism,representation,power",
+    "key_researchers": ["Talal Asad", "Edward Said"]
+  },
+  {
+    "name_ja": "表象の危機",
+    "name_en": "Crisis of Representation",
+    "definition": "表象の危機は、民族誌が他者の文化を中立的に記述できるという前提が批判され、記述者の権力、文体、位置性、翻訳の問題が問われた状況を指す。民族誌を透明な報告ではなく、政治的で修辞的な制作物として捉え直した。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "ポストモダン人類学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "representation,reflexivity,writing culture",
+    "key_researchers": ["James Clifford", "George Marcus"]
+  },
+  {
+    "name_ja": "反省的民族誌",
+    "name_en": "Reflexive Ethnography",
+    "definition": "反省的民族誌は、研究者の立場、感情、権力関係、調査過程、記述の選択を民族誌の一部として明示する方法である。観察者を透明な存在とせず、知識が相互作用の中で作られることを記述上の課題とする。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "ポストモダン人類学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "reflexivity,ethnography,positionality",
+    "key_researchers": ["George Marcus", "James Clifford"]
+  },
+  {
+    "name_ja": "マルチサイト民族誌",
+    "name_en": "Multi-sited Ethnography",
+    "definition": "マルチサイト民族誌は、一つの村や地域に限定せず、人、物、資本、メディア、政策、言説の移動を追って複数の場所で調査する方法である。グローバル化した社会関係を、接続と断絶のネットワークとして記述する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "グローバル民族誌",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "multi-sited,globalization,mobility",
+    "key_researchers": ["George Marcus"]
+  },
+  {
+    "name_ja": "グローバリゼーション人類学",
+    "name_en": "Anthropology of Globalization",
+    "definition": "グローバリゼーション人類学は、資本、移民、メディア、宗教、商品、政策が国境を越えて流通し、地域社会で再解釈される過程を研究する。世界的な力とローカルな実践を対立ではなく相互生成的に捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "グローバル人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "globalization,flows,locality",
+    "key_researchers": ["Arjun Appadurai", "Anna Tsing"]
+  },
+  {
+    "name_ja": "ディアスポラ",
+    "name_en": "Diaspora",
+    "definition": "ディアスポラは、移住や追放や交易を通じて故郷を離れた人びとが、複数の場所にまたがって記憶、帰属、ネットワークを維持する状態を指す。国民国家の枠を超えるアイデンティティや政治的実践を分析する概念である。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "移民研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "diaspora,migration,belonging",
+    "key_researchers": ["James Clifford", "Stuart Hall"]
+  },
+  {
+    "name_ja": "トランスナショナリズム",
+    "name_en": "Transnationalism",
+    "definition": "トランスナショナリズムは、移民や企業や宗教運動が国境を越えて継続的な社会関係を形成し、生活、政治、家族、経済を複数国家にまたがって営む現象を指す。単一国家への同化モデルを批判的に補完する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "移民人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "transnationalism,migration,borders",
+    "key_researchers": ["Nina Glick Schiller", "Linda Basch"]
+  },
+  {
+    "name_ja": "医療人類学",
+    "name_en": "Medical Anthropology",
+    "definition": "医療人類学は、病い、治療、身体、苦痛、医療制度、専門知、ケアを文化的・社会的・政治経済的に分析する分野である。生物医学を唯一の基準とせず、患者経験や治療選択の多元性を民族誌的に明らかにする。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "医療人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "medicine,illness,healing",
+    "key_researchers": ["Arthur Kleinman", "Margaret Lock"]
+  },
+  {
+    "name_ja": "病いの語り",
+    "name_en": "Illness Narratives",
+    "definition": "病いの語りは、患者や家族が苦痛、診断、治療、生活変化をどのように物語化し、意味づけるかを分析する概念である。疾患を医学的異常としてだけでなく、社会関係や自己理解を揺さぶる経験として捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "医療人類学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "illness,narrative,suffering",
+    "key_researchers": ["Arthur Kleinman"]
+  },
+  {
+    "name_ja": "シンデミック",
+    "name_en": "Syndemic",
+    "definition": "シンデミックは、複数の疾患や健康問題が貧困、差別、暴力、環境劣化などの社会条件と相互作用して被害を増幅する状況を指す。個別疾患の生物医学的管理だけでなく、構造的不平等への介入を必要とする。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "批判的医療人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "syndemic,health inequality,structural violence",
+    "key_researchers": ["Merrill Singer", "Paul Farmer"]
+  },
+  {
+    "name_ja": "構造的暴力",
+    "name_en": "Structural Violence",
+    "definition": "構造的暴力は、貧困、人種差別、植民地主義、ジェンダー不平等、医療アクセスの欠如などの社会構造が、人びとの生命や健康を損なう暴力として働くことを示す概念である。加害者が見えにくい苦痛を分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "批判的人類学",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "structural violence,inequality,suffering",
+    "key_researchers": ["Johan Galtung", "Paul Farmer"]
+  },
+  {
+    "name_ja": "宗教人類学",
+    "name_en": "Anthropology of Religion",
+    "definition": "宗教人類学は、信仰、儀礼、神話、霊、呪術、聖性、改宗、宗教運動を社会生活の中で分析する分野である。宗教を非合理な残存物とせず、経験、権威、共同性、身体、政治を組織する力として捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "宗教人類学",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "religion,ritual,belief",
+    "key_researchers": ["E. B. Tylor", "Clifford Geertz"]
+  },
+  {
+    "name_ja": "呪術",
+    "name_en": "Magic",
+    "definition": "呪術は、言葉、物、身体動作、儀礼を通じて出来事や関係に働きかける実践として研究される。近代科学の対立物として単純化するのではなく、不確実性、権力、治療、因果理解をめぐる社会的技法として分析される。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "宗教人類学",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "magic,ritual,power",
+    "key_researchers": ["James Frazer", "Bronislaw Malinowski"]
+  },
+  {
+    "name_ja": "シャーマニズム",
+    "name_en": "Shamanism",
+    "definition": "シャーマニズムは、霊的存在との交渉、治療、占い、魂の旅、共同体の危機管理を担う専門者を中心とする実践を指す。普遍的宗教類型としてだけでなく、歴史、植民地状況、観光、国家政策との関係でも分析される。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "宗教人類学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "shamanism,healing,spirits",
+    "key_researchers": ["Mircea Eliade", "Michael Taussig"]
+  },
+  {
+    "name_ja": "トーテミズム",
+    "name_en": "Totemism",
+    "definition": "トーテミズムは、人間集団と動植物や自然物との象徴的・社会的結びつきを指す概念である。かつて宗教進化論で扱われたが、後には分類体系や社会関係を組織する論理として再解釈され、構造主義的分析の対象となった。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "構造主義",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "totemism,classification,symbolism",
+    "key_researchers": ["Emile Durkheim", "Claude Levi-Strauss"]
+  },
+  {
+    "name_ja": "民族分類",
+    "name_en": "Ethnoclassification",
+    "definition": "民族分類は、人びとが植物、動物、病気、色、親族、場所などをどのように分類し、名前づけ、実践に用いるかを研究する概念である。科学分類との差異を欠如としてではなく、生活環境に根ざした知識体系として扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "認知人類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "ethnoclassification,taxonomy,cognition",
+    "key_researchers": ["Brent Berlin", "Harold Conklin"]
+  },
+  {
+    "name_ja": "認知人類学",
+    "name_en": "Cognitive Anthropology",
+    "definition": "認知人類学は、文化を人びとが共有し学習する知識体系として捉え、分類、スキーマ、意味領域、意思決定を分析する分野である。言語やカテゴリーの研究を通じて、文化が心的過程と社会実践を媒介する様子を探る。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "認知人類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "cognition,categories,cultural models",
+    "key_researchers": ["Ward Goodenough", "Roy D'Andrade"]
+  },
+  {
+    "name_ja": "エスノサイエンス",
+    "name_en": "Ethnoscience",
+    "definition": "エスノサイエンスは、特定社会の人びとが自然、身体、環境、技術を理解し分類する知識体系を研究する方法である。外部研究者の分類を押しつけず、現地語のカテゴリーや実践的判断を通じて文化的知識を明らかにする。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "認知人類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "ethnoscience,knowledge,classification",
+    "key_researchers": ["Harold Conklin", "Charles Frake"]
+  },
+  {
+    "name_ja": "エスノメソドロジー",
+    "name_en": "Ethnomethodology",
+    "definition": "エスノメソドロジーは、人びとが会話や相互行為を通じて日常的秩序を実際に作り上げる方法を分析する社会学的潮流であり、人類学にも影響を与えた。規範を外部説明としてではなく、実践の中で達成されるものとして見る。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "相互行為論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "ethnomethodology,interaction,order",
+    "key_researchers": ["Harold Garfinkel"]
+  },
+  {
+    "name_ja": "パフォーマンス人類学",
+    "name_en": "Performance Anthropology",
+    "definition": "パフォーマンス人類学は、儀礼、演劇、語り、祭礼、日常的演技を、社会的意味が身体的・時間的に生成される場として分析する。文化を固定的規範ではなく、演じられ、観客に受け取られ、変化する過程として捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "パフォーマンス研究",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "performance,ritual,embodiment",
+    "key_researchers": ["Victor Turner", "Richard Schechner"]
+  },
+  {
+    "name_ja": "感情人類学",
+    "name_en": "Anthropology of Emotion",
+    "definition": "感情人類学は、怒り、悲しみ、愛、恥、恐怖などの感情を普遍的内面反応としてだけでなく、文化的語彙、身体技法、道徳、権力関係の中で形成される経験として分析する。感情と社会秩序の相互作用を扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "心理人類学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "emotion,affect,culture",
+    "key_researchers": ["Catherine Lutz", "Michelle Rosaldo"]
+  },
+  {
+    "name_ja": "心理人類学",
+    "name_en": "Psychological Anthropology",
+    "definition": "心理人類学は、人格、自己、感情、発達、記憶、トラウマ、精神疾患を文化的文脈の中で研究する分野である。個人心理と社会制度を切り離さず、文化が主観性を形成し、主観性が文化実践に関与する過程を分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "心理人類学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "personality,self,subjectivity",
+    "key_researchers": ["Ruth Benedict", "Margaret Mead"]
+  },
+  {
+    "name_ja": "道徳人類学",
+    "name_en": "Moral Anthropology",
+    "definition": "道徳人類学は、善悪、責任、徳、義務、苦しみ、ケア、宗教的規律が日常生活の中でどのように経験されるかを研究する。抽象的倫理体系よりも、人びとが不確実な状況でどのように生きるべきかを模索する実践に注目する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "道徳人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "morality,ethics,ordinary life",
+    "key_researchers": ["Didier Fassin", "Joel Robbins"]
+  },
+  {
+    "name_ja": "開発人類学",
+    "name_en": "Anthropology of Development",
+    "definition": "開発人類学は、開発援助、近代化政策、NGO、参加型事業、インフラ、貧困削減が地域社会に与える影響を研究する。政策の善意だけでなく、権力、翻訳、専門知、予期せぬ結果を民族誌的に分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "応用人類学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "development,aid,policy",
+    "key_researchers": ["Arturo Escobar", "James Ferguson"]
+  },
+  {
+    "name_ja": "応用人類学",
+    "name_en": "Applied Anthropology",
+    "definition": "応用人類学は、民族誌的知識や人類学的理論を医療、教育、開発、行政、企業、環境管理などの実践的課題に活用する分野である。同時に、介入が誰の利益に奉仕するのかという倫理的・政治的問題を伴う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "応用人類学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "applied anthropology,policy,practice",
+    "key_researchers": ["Sol Tax", "Margaret Mead"]
+  },
+  {
+    "name_ja": "公共人類学",
+    "name_en": "Public Anthropology",
+    "definition": "公共人類学は、学術界内に閉じた議論を超えて、社会問題、政策、メディア、市民運動、教育に人類学的知見を関与させる取り組みである。専門知の権威を一方的に示すのではなく、公共的対話と責任を重視する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "公共人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "public anthropology,engagement,ethics",
+    "key_researchers": ["Robert Borofsky", "Nancy Scheper-Hughes"]
+  },
+  {
+    "name_ja": "先住民人類学",
+    "name_en": "Indigenous Anthropology",
+    "definition": "先住民人類学は、先住民の歴史、土地権、知識、主権、文化復興、植民地経験を研究し、同時に先住民自身による知識生産を重視する分野である。研究倫理、協働、データ主権、脱植民地化が中心的課題となる。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "脱植民地化人類学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "indigenous,sovereignty,decolonization",
+    "key_researchers": ["Linda Tuhiwai Smith", "Vine Deloria Jr."]
+  },
+  {
+    "name_ja": "脱植民地化人類学",
+    "name_en": "Decolonizing Anthropology",
+    "definition": "脱植民地化人類学は、人類学が植民地主義的統治や他者化に加担してきた歴史を批判し、研究関係、方法、引用、所有権、教育を再構成しようとする潮流である。調査対象者との協働や知識の返還を重視する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "脱植民地化理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "decolonization,knowledge,collaboration",
+    "key_researchers": ["Linda Tuhiwai Smith", "Faye Harrison"]
+  },
+  {
+    "name_ja": "存在論的転回",
+    "name_en": "Ontological Turn",
+    "definition": "存在論的転回は、異なる文化が同じ世界を別様に表象しているのではなく、複数の世界や存在のあり方が実践の中で構成されると考える潮流である。自然と文化、主体と客体の近代的区分を問い直し、民族誌的概念を理論化する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "存在論的人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "ontology,worlds,perspectivism",
+    "key_researchers": ["Eduardo Viveiros de Castro", "Philippe Descola"]
+  },
+  {
+    "name_ja": "多自然主義",
+    "name_en": "Multinaturalism",
+    "definition": "多自然主義は、文化が多様で自然は一つだとする多文化主義的前提を反転し、主体にとって共有される文化的形式と複数の身体的自然を想定する概念である。アマゾニアのパースペクティヴィズムを通じて近代的自然観を批判する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "存在論的人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "multinaturalism,perspectivism,ontology",
+    "key_researchers": ["Eduardo Viveiros de Castro"]
+  },
+  {
+    "name_ja": "アニミズム再考",
+    "name_en": "New Animism",
+    "definition": "アニミズム再考は、アニミズムを未発達な宗教観ではなく、人間以外の存在を関係的主体として扱う存在論や実践として捉え直す潮流である。霊や動植物との関係を、象徴表象ではなく社会的相互行為として分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "存在論的人類学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "animism,personhood,ontology",
+    "key_researchers": ["Philippe Descola", "Nurit Bird-David"]
+  },
+  {
+    "name_ja": "マルチスピーシーズ民族誌",
+    "name_en": "Multispecies Ethnography",
+    "definition": "マルチスピーシーズ民族誌は、人間社会を人間だけで構成されるものと見なさず、動物、植物、微生物、菌類などとの相互依存の中で記述する方法である。共生、飼育、感染、絶滅、環境変化を民族誌の中心に置く。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "マルチスピーシーズ研究",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "multispecies,ethnography,more-than-human",
+    "key_researchers": ["Donna Haraway", "Anna Tsing"]
+  },
+  {
+    "name_ja": "ポストヒューマン人類学",
+    "name_en": "Posthuman Anthropology",
+    "definition": "ポストヒューマン人類学は、人間を自律的で中心的な主体とする前提を問い直し、技術、動物、環境、物質、アルゴリズムとの関係の中で人間性が構成される過程を研究する。人間と非人間の境界を民族誌的に再検討する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "ポストヒューマニズム",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "posthumanism,more-than-human,technology",
+    "key_researchers": ["Donna Haraway", "Rosi Braidotti"]
+  },
+  {
+    "name_ja": "アクターネットワーク理論",
+    "name_en": "Actor-Network Theory",
+    "definition": "アクターネットワーク理論は、人間だけでなく技術、文書、装置、物質も行為連関を構成するアクターとして扱う理論である。社会を既存の説明要因とせず、翻訳、媒介、連結を通じてネットワークが形成される過程を追う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "科学技術社会論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "actor-network theory,assemblage,nonhuman",
+    "key_researchers": ["Bruno Latour", "Michel Callon"]
+  },
+  {
+    "name_ja": "物質文化研究",
+    "name_en": "Material Culture Studies",
+    "definition": "物質文化研究は、道具、衣服、住居、商品、遺物、メディア装置などの物が社会関係、記憶、アイデンティティ、権力をどのように媒介するかを分析する分野である。物を受動的対象ではなく実践を形づくる存在として扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "物質文化研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "material culture,objects,mediation",
+    "key_researchers": ["Daniel Miller", "Arjun Appadurai"]
+  },
+  {
+    "name_ja": "アッサンブラージュ",
+    "name_en": "Assemblage",
+    "definition": "アッサンブラージュは、人間、物質、制度、言説、感情、環境が一時的に結びついて特定の効果を生む集合体を指す概念である。固定的構造よりも、異質な要素の接続、分解、再編成を通じて社会現象を理解する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "ポスト構造主義人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "assemblage,heterogeneity,emergence",
+    "key_researchers": ["Gilles Deleuze", "Aihwa Ong"]
+  },
+  {
+    "name_ja": "デジタル民族誌",
+    "name_en": "Digital Ethnography",
+    "definition": "デジタル民族誌は、オンライン空間、SNS、ゲーム、プラットフォーム、モバイル通信を、人びとの日常生活や関係形成の場として調査する方法である。オンラインとオフラインを切り離さず、媒介された実践とデータ環境を記述する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "デジタル人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "digital ethnography,online communities,platforms",
+    "key_researchers": ["Christine Hine", "Tom Boellstorff"]
+  },
+  {
+    "name_ja": "デジタル人類学",
+    "name_en": "Digital Anthropology",
+    "definition": "デジタル人類学は、デジタル技術が親密性、労働、政治、宗教、消費、自己表現、知識生産をどのように変えるかを研究する分野である。同時に、デジタル技術が既存の文化実践に埋め込まれ再解釈される過程も扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "デジタル人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "digital anthropology,technology,media",
+    "key_researchers": ["Daniel Miller", "Heather Horst"]
+  },
+  {
+    "name_ja": "AIの人類学",
+    "name_en": "Anthropology of AI",
+    "definition": "AIの人類学は、人工知能が労働、判断、監視、創造性、専門知、親密性、差別をどのように再編するかを民族誌的に研究する分野である。アルゴリズムを中立的技術ではなく、社会的価値、データ実践、制度権力の結節点として扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "デジタル人類学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "AI,algorithms,ethnography",
+    "key_researchers": ["Lucy Suchman", "Nick Seaver"]
+  },
+  {
+    "name_ja": "アルゴリズム文化",
+    "name_en": "Algorithmic Culture",
+    "definition": "アルゴリズム文化は、検索、推薦、評価、予測、ランキングなどの計算手続きが、嗜好、可視性、労働、政治的判断を形成する文化的条件を指す。人類学では、利用者、開発者、データ、制度が絡む実践として分析される。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "デジタル人類学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "algorithms,culture,platforms",
+    "key_researchers": ["Nick Seaver", "Taina Bucher"]
+  },
+  {
+    "name_ja": "プラットフォーム人類学",
+    "name_en": "Anthropology of Platforms",
+    "definition": "プラットフォーム人類学は、SNS、配車、配信、クラウドワーク、ECなどのプラットフォームが、労働、評価、親密性、消費、政治参加をどのように組織するかを研究する。インターフェース、規約、アルゴリズム、利用者実践を総合的に扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "デジタル人類学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "platforms,digital labor,infrastructure",
+    "key_researchers": ["Sarah T. Roberts", "Mary L. Gray"]
+  },
+  {
+    "name_ja": "インフラストラクチャー研究",
+    "name_en": "Infrastructure Studies",
+    "definition": "インフラストラクチャー研究は、道路、電力、水道、通信、物流、行政システムなどが日常生活と国家権力を支える仕組みを民族誌的に分析する。普段は見えにくい基盤が、故障、遅延、格差、期待を通じて可視化される点に注目する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "インフラ人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "infrastructure,materiality,state",
+    "key_researchers": ["Brian Larkin", "Susan Leigh Star"]
+  },
+  {
+    "name_ja": "気候人類学",
+    "name_en": "Climate Anthropology",
+    "definition": "気候人類学は、気候変動が生活、移動、食料、災害、宗教、政治、未来想像に与える影響を民族誌的に研究する分野である。気候を自然科学的背景に限定せず、不平等、責任、適応、喪失、知識の政治として分析する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "環境人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "climate change,adaptation,anthropocene",
+    "key_researchers": ["Susan Crate", "Kirsten Hastrup"]
+  },
+  {
+    "name_ja": "環境人類学",
+    "name_en": "Environmental Anthropology",
+    "definition": "環境人類学は、人間社会と環境の相互関係を、資源利用、生態知、保全、開発、災害、政治経済の観点から研究する分野である。自然を外部条件としてではなく、文化、権力、歴史と絡み合う関係的領域として捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "環境人類学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "environment,ecology,political ecology",
+    "key_researchers": ["Julian Steward", "Roy Rappaport"]
+  },
+  {
+    "name_ja": "政治生態学",
+    "name_en": "Political Ecology",
+    "definition": "政治生態学は、環境変化や資源利用を、権力、不平等、国家政策、市場、植民地主義、地域知の関係から分析する立場である。自然破壊を人口圧や地域慣行だけに帰さず、広域的な政治経済構造と結びつけて説明する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "政治生態学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "political ecology,environment,power",
+    "key_researchers": ["Piers Blaikie", "Paul Robbins"]
+  },
+  {
+    "name_ja": "人新世人類学",
+    "name_en": "Anthropology of the Anthropocene",
+    "definition": "人新世人類学は、人間活動が地質学的規模で地球環境を変化させる時代における生活、責任、絶滅、資本主義、種間関係を研究する。人類全体を一枚岩にせず、被害と責任の不均等な分布を批判的に扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "環境人類学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "anthropocene,extinction,planetary change",
+    "key_researchers": ["Anna Tsing", "Dipesh Chakrabarty"]
+  },
+  {
+    "name_ja": "災害人類学",
+    "name_en": "Anthropology of Disaster",
+    "definition": "災害人類学は、地震、津波、洪水、感染症、原発事故などを、自然現象だけでなく社会的脆弱性、記憶、復興政策、支援、喪失の経験として分析する。災害が既存の不平等や共同性をどのように露出させるかを重視する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "災害研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "disaster,vulnerability,recovery",
+    "key_researchers": ["Anthony Oliver-Smith", "Susanna Hoffman"]
+  },
+  {
+    "name_ja": "ケアの人類学",
+    "name_en": "Anthropology of Care",
+    "definition": "ケアの人類学は、育児、介護、看護、相互扶助、専門職ケア、制度的支援を、倫理、労働、感情、身体、政治経済の交点として分析する。ケアを私的で自然な行為とせず、社会的に配分され評価される実践として捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "医療・道徳人類学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "care,ethics,labor",
+    "key_researchers": ["Arthur Kleinman", "Veena Das"]
+  },
+  {
+    "name_ja": "親密性の人類学",
+    "name_en": "Anthropology of Intimacy",
+    "definition": "親密性の人類学は、家族、恋愛、友情、性、介護、デジタル交流などの親密な関係が、経済、移動、法制度、道徳、メディアと結びついて形成される過程を研究する。私的領域を社会的・政治的な場として扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "親密性研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "intimacy,kinship,affect",
+    "key_researchers": ["Lauren Berlant", "Jennifer Cole"]
+  },
+  {
+    "name_ja": "観光人類学",
+    "name_en": "Anthropology of Tourism",
+    "definition": "観光人類学は、観光が文化表象、地域経済、遺産化、消費、ホストとゲストの関係、真正性をどのように作り出すかを研究する。観光を表面的娯楽としてではなく、グローバルな移動と地域アイデンティティの交差点として扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "観光人類学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "tourism,authenticity,heritage",
+    "key_researchers": ["Dean MacCannell", "Nelson Graburn"]
+  },
+  {
+    "name_ja": "遺産化",
+    "name_en": "Heritagization",
+    "definition": "遺産化は、場所、祭礼、建築、記憶、技術、食文化などが文化遺産として選別され、保存、展示、観光、政治的承認の対象になる過程を指す。何が守られ、誰が語る権利を持つのかという権力関係を含む。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "遺産研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "heritage,memory,authenticity",
+    "key_researchers": ["Barbara Kirshenblatt-Gimblett", "Laurajane Smith"]
+  },
+  {
+    "name_ja": "記憶の人類学",
+    "name_en": "Anthropology of Memory",
+    "definition": "記憶の人類学は、個人や集団が過去をどのように語り、儀礼化し、沈黙し、物や場所に結びつけるかを研究する。記憶を単なる保存ではなく、権力、喪失、暴力、世代間継承、アイデンティティ形成の実践として扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "記憶研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "memory,history,trauma",
+    "key_researchers": ["Paul Connerton", "Michael Lambek"]
+  },
+  {
+    "name_ja": "食の人類学",
+    "name_en": "Anthropology of Food",
+    "definition": "食の人類学は、食材、料理、食事作法、禁忌、味覚、農業、流通、飢餓を通じて、社会関係やアイデンティティや権力を分析する分野である。食を栄養摂取だけでなく、記憶、階級、ジェンダー、儀礼の媒体として捉える。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "食文化研究",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "food,cuisine,identity",
+    "key_researchers": ["Sidney Mintz", "Mary Douglas"]
+  },
+  {
+    "name_ja": "言語人類学",
+    "name_en": "Linguistic Anthropology",
+    "definition": "言語人類学は、言語を単なる情報伝達手段ではなく、社会関係、権威、アイデンティティ、儀礼、感情、政治を作り出す実践として研究する分野である。発話、沈黙、語用論、言語イデオロギーを民族誌的に扱う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "言語人類学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "language,discourse,ideology",
+    "key_researchers": ["Edward Sapir", "Dell Hymes"]
+  }
+]
+tokens used
+17,588

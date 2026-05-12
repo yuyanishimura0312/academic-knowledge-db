@@ -1,0 +1,732 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e097f-1dee-7f01-b31d-4c50bcb3b8a3
+--------
+user
+「物理学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+量子もつれ、ハイゼンベルク不確定性、BCS理論、アンダーソン局在、Topological insulator
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"物理学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "量子もつれ",
+    "name_en": "Quantum entanglement",
+    "definition": "複数の量子系が空間的に離れていても、一方の測定結果が他方の状態記述と切り離せない相関を示す現象。古典的な隠れた変数では説明しにくく、ベル不等式の破れ、量子情報、量子通信、量子計算の基礎概念となる。",
+    "subfield": "物理学",
+    "school_of_thought": "量子力学",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "entanglement,Bell inequality,nonlocal correlations",
+    "key_researchers": ["Albert Einstein", "Boris Podolsky", "Nathan Rosen", "John Bell", "Erwin Schrödinger"]
+  },
+  {
+    "name_ja": "ハイゼンベルク不確定性",
+    "name_en": "Heisenberg uncertainty principle",
+    "definition": "位置と運動量、エネルギーと時間など、非可換な物理量を同時に任意の精度で定められないという量子力学の根本原理。測定装置の限界ではなく、波動関数と演算子の構造から生じる自然界の基本的制約を表す。",
+    "subfield": "物理学",
+    "school_of_thought": "コペンハーゲン解釈",
+    "era_start": 1927,
+    "era_end": null,
+    "keywords_en": "uncertainty principle,noncommuting observables,quantum measurement",
+    "key_researchers": ["Werner Heisenberg", "Niels Bohr"]
+  },
+  {
+    "name_ja": "BCS理論",
+    "name_en": "BCS theory",
+    "definition": "低温で電子が格子振動を介してクーパー対を形成し、凝縮状態として電気抵抗ゼロやマイスナー効果を示すことを説明する超伝導理論。巨視的量子状態、エネルギーギャップ、対称性の破れを結びつけた凝縮系物理の中心理論である。",
+    "subfield": "物理学",
+    "school_of_thought": "凝縮系物理学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "superconductivity,Cooper pairs,energy gap",
+    "key_researchers": ["John Bardeen", "Leon Cooper", "John Robert Schrieffer"]
+  },
+  {
+    "name_ja": "アンダーソン局在",
+    "name_en": "Anderson localization",
+    "definition": "無秩序なポテンシャル中で波動関数の干渉が拡散を抑え、電子や波が空間的に局在する現象。金属絶縁体転移、無秩序系、メゾスコピック物理、冷却原子系における輸送の理解に重要な役割を果たす。",
+    "subfield": "物理学",
+    "school_of_thought": "無秩序系物理学",
+    "era_start": 1958,
+    "era_end": null,
+    "keywords_en": "localization,disorder,metal-insulator transition",
+    "key_researchers": ["Philip W. Anderson"]
+  },
+  {
+    "name_ja": "トポロジカル絶縁体",
+    "name_en": "Topological insulator",
+    "definition": "内部は絶縁体でありながら、境界や表面には対称性に保護された伝導状態を持つ物質相。バンド構造のトポロジー、スピン軌道相互作用、時間反転対称性に基づき、散乱に強い表面電子状態を特徴とする。",
+    "subfield": "物理学",
+    "school_of_thought": "トポロジカル物質科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "topological insulator,edge states,spin-orbit coupling",
+    "key_researchers": ["Charles L. Kane", "Eugene J. Mele", "Shoucheng Zhang", "Xiao-Liang Qi"]
+  },
+  {
+    "name_ja": "ニュートン力学",
+    "name_en": "Newtonian mechanics",
+    "definition": "力、質量、加速度の関係を運動方程式で記述し、惑星運動から日常的な物体の運動までを統一的に説明する古典力学の体系。絶対時間と絶対空間を前提にし、近代物理学の数理的基盤を築いた。",
+    "subfield": "物理学",
+    "school_of_thought": "古典力学",
+    "era_start": 1687,
+    "era_end": null,
+    "keywords_en": "classical mechanics,force,motion",
+    "key_researchers": ["Isaac Newton"]
+  },
+  {
+    "name_ja": "ラグランジュ力学",
+    "name_en": "Lagrangian mechanics",
+    "definition": "運動エネルギーとポテンシャルエネルギーの差であるラグランジアンから、最小作用の原理を通じて運動方程式を導く力学形式。拘束条件や一般化座標を扱いやすく、場の理論や量子論にも広く用いられる。",
+    "subfield": "物理学",
+    "school_of_thought": "解析力学",
+    "era_start": 1788,
+    "era_end": null,
+    "keywords_en": "Lagrangian,least action,generalized coordinates",
+    "key_researchers": ["Joseph-Louis Lagrange"]
+  },
+  {
+    "name_ja": "ハミルトン力学",
+    "name_en": "Hamiltonian mechanics",
+    "definition": "座標と運動量を対にした相空間上で、ハミルトニアンを用いて系の時間発展を記述する解析力学の形式。正準変換、保存量、量子力学の演算子形式、統計力学の基礎に深く関わる。",
+    "subfield": "物理学",
+    "school_of_thought": "解析力学",
+    "era_start": 1834,
+    "era_end": null,
+    "keywords_en": "Hamiltonian,phase space,canonical equations",
+    "key_researchers": ["William Rowan Hamilton"]
+  },
+  {
+    "name_ja": "マクスウェル方程式",
+    "name_en": "Maxwell's equations",
+    "definition": "電場と磁場の発生、変化、相互関係を四つの方程式で統一的に表す電磁気学の基本法則。光が電磁波であることを示し、電気、磁気、光学を一つの理論体系へ結びつけた。",
+    "subfield": "物理学",
+    "school_of_thought": "古典電磁気学",
+    "era_start": 1865,
+    "era_end": null,
+    "keywords_en": "electromagnetism,Maxwell equations,electromagnetic waves",
+    "key_researchers": ["James Clerk Maxwell", "Michael Faraday"]
+  },
+  {
+    "name_ja": "特殊相対性理論",
+    "name_en": "Special relativity",
+    "definition": "慣性系における物理法則の同等性と光速度不変を原理として、時間の遅れ、長さの収縮、質量エネルギー等価性を導く理論。ニュートン的な絶対時間を改め、時空を統一的に扱う枠組みを与えた。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論",
+    "era_start": 1905,
+    "era_end": null,
+    "keywords_en": "special relativity,spacetime,light speed",
+    "key_researchers": ["Albert Einstein", "Hendrik Lorentz", "Henri Poincaré"]
+  },
+  {
+    "name_ja": "一般相対性理論",
+    "name_en": "General relativity",
+    "definition": "重力を力ではなく、質量とエネルギーによって曲げられた時空の幾何として記述する理論。水星近日点移動、重力レンズ、ブラックホール、宇宙膨張、重力波などを理解する現代重力理論の基礎である。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論",
+    "era_start": 1915,
+    "era_end": null,
+    "keywords_en": "general relativity,curved spacetime,gravity",
+    "key_researchers": ["Albert Einstein", "David Hilbert", "Karl Schwarzschild"]
+  },
+  {
+    "name_ja": "シュレーディンガー方程式",
+    "name_en": "Schrödinger equation",
+    "definition": "量子系の波動関数が時間とともにどのように変化するかを記述する基本方程式。原子、分子、固体中の電子状態を計算する中心的道具であり、エネルギー固有値や確率振幅の概念を具体化する。",
+    "subfield": "物理学",
+    "school_of_thought": "波動力学",
+    "era_start": 1926,
+    "era_end": null,
+    "keywords_en": "Schrodinger equation,wave function,quantum dynamics",
+    "key_researchers": ["Erwin Schrödinger"]
+  },
+  {
+    "name_ja": "ディラック方程式",
+    "name_en": "Dirac equation",
+    "definition": "特殊相対性理論と量子力学を両立させてスピン二分の一粒子を記述する方程式。電子のスピンや磁気モーメントを自然に説明し、反粒子の存在を予言したことで量子場理論への道を開いた。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論的量子力学",
+    "era_start": 1928,
+    "era_end": null,
+    "keywords_en": "Dirac equation,spinor,antimatter",
+    "key_researchers": ["Paul Dirac"]
+  },
+  {
+    "name_ja": "経路積分",
+    "name_en": "Path integral formulation",
+    "definition": "粒子や場の量子振幅を、可能なすべての経路や場の配置に対する作用の重み付き和として表す量子論の定式化。古典極限、摂動論、ゲージ理論、統計力学との対応を直観的かつ強力に示す。",
+    "subfield": "物理学",
+    "school_of_thought": "量子場理論",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "path integral,action,quantum amplitude",
+    "key_researchers": ["Richard Feynman", "Paul Dirac"]
+  },
+  {
+    "name_ja": "量子電磁力学",
+    "name_en": "Quantum electrodynamics",
+    "definition": "電子、陽電子、光子の相互作用を量子場理論として記述する理論。くりこみを通じて極めて高精度な予言を行い、異常磁気モーメントやラムシフトなどの実験結果を説明する標準模型の原型となった。",
+    "subfield": "物理学",
+    "school_of_thought": "量子場理論",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "QED,renormalization,photons",
+    "key_researchers": ["Richard Feynman", "Julian Schwinger", "Sin-Itiro Tomonaga", "Freeman Dyson"]
+  },
+  {
+    "name_ja": "くりこみ群",
+    "name_en": "Renormalization group",
+    "definition": "観測スケールを変えたときに物理量や結合定数がどのように変化するかを記述する枠組み。臨界現象、量子場理論、相転移、有効理論を統一的に扱い、微視的詳細に依存しない普遍性を説明する。",
+    "subfield": "物理学",
+    "school_of_thought": "統計物理学",
+    "era_start": 1953,
+    "era_end": null,
+    "keywords_en": "renormalization group,scaling,universality",
+    "key_researchers": ["Kenneth Wilson", "Murray Gell-Mann", "Francis Low"]
+  },
+  {
+    "name_ja": "標準模型",
+    "name_en": "Standard Model",
+    "definition": "クォーク、レプトン、ゲージボソン、ヒッグス粒子を用いて、電磁相互作用、弱い相互作用、強い相互作用を記述する素粒子物理学の理論体系。多くの実験で検証されているが、重力や暗黒物質は含まない。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "Standard Model,quarks,leptons,gauge bosons",
+    "key_researchers": ["Sheldon Glashow", "Steven Weinberg", "Abdus Salam", "Murray Gell-Mann"]
+  },
+  {
+    "name_ja": "ヒッグス機構",
+    "name_en": "Higgs mechanism",
+    "definition": "ゲージ対称性を保ちながら自発的対称性の破れによって粒子に質量を与える機構。弱い相互作用の媒介粒子が重い理由を説明し、ヒッグス粒子の発見によって標準模型の重要部分が実験的に確認された。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "Higgs mechanism,symmetry breaking,mass generation",
+    "key_researchers": ["Peter Higgs", "François Englert", "Robert Brout", "Gerald Guralnik", "Carl Hagen", "Tom Kibble"]
+  },
+  {
+    "name_ja": "量子色力学",
+    "name_en": "Quantum chromodynamics",
+    "definition": "クォークとグルーオンの間に働く強い相互作用を、色荷に基づく非可換ゲージ理論として記述する理論。漸近的自由性と閉じ込めを特徴とし、陽子や中性子などハドロンの構造理解に不可欠である。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "QCD,quarks,gluons,color confinement",
+    "key_researchers": ["David Gross", "Frank Wilczek", "David Politzer", "Murray Gell-Mann"]
+  },
+  {
+    "name_ja": "電弱統一理論",
+    "name_en": "Electroweak theory",
+    "definition": "電磁相互作用と弱い相互作用を、単一のゲージ理論から現れる低エネルギーの異なる姿として説明する理論。中性カレント、Wボソン、Zボソンの存在を予言し、標準模型の中核を構成する。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "electroweak theory,weak interaction,gauge symmetry",
+    "key_researchers": ["Sheldon Glashow", "Steven Weinberg", "Abdus Salam"]
+  },
+  {
+    "name_ja": "ゲージ対称性",
+    "name_en": "Gauge symmetry",
+    "definition": "物理的に同じ状態を異なる場の表現で記述できる冗長性を表す対称性。電磁気学から標準模型まで、相互作用の形を決定する原理として働き、保存則やゲージ粒子の存在と密接に結びつく。",
+    "subfield": "物理学",
+    "school_of_thought": "場の理論",
+    "era_start": 1918,
+    "era_end": null,
+    "keywords_en": "gauge symmetry,gauge fields,conservation laws",
+    "key_researchers": ["Hermann Weyl", "Chen-Ning Yang", "Robert Mills"]
+  },
+  {
+    "name_ja": "自発的対称性の破れ",
+    "name_en": "Spontaneous symmetry breaking",
+    "definition": "基礎方程式は対称性を持つにもかかわらず、実際に選ばれる基底状態がその対称性を示さない現象。磁性、超伝導、ヒッグス機構、南部ゴールドストーン粒子など、多くの物理現象を統一的に理解させる。",
+    "subfield": "物理学",
+    "school_of_thought": "場の理論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "spontaneous symmetry breaking,order parameter,Goldstone boson",
+    "key_researchers": ["Yoichiro Nambu", "Jeffrey Goldstone", "Philip W. Anderson"]
+  },
+  {
+    "name_ja": "超弦理論",
+    "name_en": "Superstring theory",
+    "definition": "点粒子ではなく一次元の弦を基本対象とし、量子重力と素粒子相互作用の統一を目指す理論。余剰次元、超対称性、ブレーンなどを含み、ブラックホールエントロピーや双対性研究にも大きな影響を与えた。",
+    "subfield": "物理学",
+    "school_of_thought": "量子重力理論",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "string theory,quantum gravity,supersymmetry",
+    "key_researchers": ["Michael Green", "John Schwarz", "Edward Witten"]
+  },
+  {
+    "name_ja": "ループ量子重力",
+    "name_en": "Loop quantum gravity",
+    "definition": "時空そのものを量子化し、面積や体積が離散的なスペクトルを持つ可能性を示す量子重力理論。背景時空を固定せず一般相対性理論の幾何学的性質を保とうとする点で、弦理論と異なる方針を取る。",
+    "subfield": "物理学",
+    "school_of_thought": "量子重力理論",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "loop quantum gravity,spin networks,quantized geometry",
+    "key_researchers": ["Abhay Ashtekar", "Carlo Rovelli", "Lee Smolin"]
+  },
+  {
+    "name_ja": "ブラックホール",
+    "name_en": "Black hole",
+    "definition": "重力が極めて強く、事象の地平面の内側から光さえ脱出できない時空領域。一般相対性理論の解として理解され、降着円盤、ジェット、重力波、情報問題、ホーキング放射など多方面の研究対象である。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論的天体物理学",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "black hole,event horizon,singularity",
+    "key_researchers": ["Karl Schwarzschild", "Subrahmanyan Chandrasekhar", "Stephen Hawking", "Roger Penrose"]
+  },
+  {
+    "name_ja": "ホーキング放射",
+    "name_en": "Hawking radiation",
+    "definition": "量子場を曲がった時空上で考えると、ブラックホールが完全な黒体ではなく熱的放射を出して蒸発しうるという予言。重力、量子論、熱力学を結びつけ、ブラックホール情報問題の中心に位置する。",
+    "subfield": "物理学",
+    "school_of_thought": "量子重力理論",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "Hawking radiation,black hole thermodynamics,quantum fields",
+    "key_researchers": ["Stephen Hawking", "Jacob Bekenstein"]
+  },
+  {
+    "name_ja": "宇宙膨張",
+    "name_en": "Expansion of the universe",
+    "definition": "銀河間の距離が時間とともに増大し、遠方銀河ほど大きな赤方偏移を示すという宇宙論的現象。一般相対性理論の宇宙解、ハッブルの法則、ビッグバン宇宙論、暗黒エネルギー研究の基礎である。",
+    "subfield": "物理学",
+    "school_of_thought": "宇宙論",
+    "era_start": 1929,
+    "era_end": null,
+    "keywords_en": "cosmic expansion,Hubble law,redshift",
+    "key_researchers": ["Edwin Hubble", "Georges Lemaître", "Alexander Friedmann"]
+  },
+  {
+    "name_ja": "ビッグバン宇宙論",
+    "name_en": "Big Bang cosmology",
+    "definition": "宇宙が高温高密度の初期状態から膨張し冷却して現在の構造へ至ったとする標準的宇宙論。宇宙マイクロ波背景放射、軽元素合成、銀河分布などの観測を統一的に説明する枠組みである。",
+    "subfield": "物理学",
+    "school_of_thought": "宇宙論",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "Big Bang,cosmic microwave background,nucleosynthesis",
+    "key_researchers": ["Georges Lemaître", "George Gamow", "Ralph Alpher", "Robert Herman"]
+  },
+  {
+    "name_ja": "インフレーション宇宙論",
+    "name_en": "Cosmic inflation",
+    "definition": "宇宙初期に極めて急速な加速膨張が起こったとする理論。地平線問題や平坦性問題を解決し、量子揺らぎが銀河や大規模構造の種になったと説明する現代宇宙論の重要仮説である。",
+    "subfield": "物理学",
+    "school_of_thought": "宇宙論",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "inflation,early universe,quantum fluctuations",
+    "key_researchers": ["Alan Guth", "Andrei Linde", "Alexei Starobinsky"]
+  },
+  {
+    "name_ja": "暗黒物質",
+    "name_en": "Dark matter",
+    "definition": "光をほとんど放出・吸収しないが、銀河回転曲線、重力レンズ、宇宙大規模構造などを通じて重力的存在が推定される物質成分。粒子候補や修正重力との比較を含め、現代宇宙論の未解決問題である。",
+    "subfield": "物理学",
+    "school_of_thought": "宇宙論",
+    "era_start": 1933,
+    "era_end": null,
+    "keywords_en": "dark matter,galaxy rotation,gravitational lensing",
+    "key_researchers": ["Fritz Zwicky", "Vera Rubin", "Kent Ford"]
+  },
+  {
+    "name_ja": "暗黒エネルギー",
+    "name_en": "Dark energy",
+    "definition": "宇宙膨張の加速を説明するために導入される、負の圧力を持つ有効的なエネルギー成分。宇宙定数、真空エネルギー、動的スカラー場などの解釈があり、宇宙の将来と基礎物理に深く関わる。",
+    "subfield": "物理学",
+    "school_of_thought": "宇宙論",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "dark energy,cosmological constant,accelerating universe",
+    "key_researchers": ["Saul Perlmutter", "Brian Schmidt", "Adam Riess"]
+  },
+  {
+    "name_ja": "熱力学第二法則",
+    "name_en": "Second law of thermodynamics",
+    "definition": "孤立系のエントロピーは時間とともに減少せず、自然過程には不可逆性があることを示す法則。熱機関の効率、時間の矢、統計力学、情報理論との関係を通じて物理学全体に広い意味を持つ。",
+    "subfield": "物理学",
+    "school_of_thought": "熱力学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "entropy,irreversibility,thermodynamics",
+    "key_researchers": ["Rudolf Clausius", "William Thomson", "Ludwig Boltzmann"]
+  },
+  {
+    "name_ja": "エントロピー",
+    "name_en": "Entropy",
+    "definition": "熱力学では不可逆性や利用不能なエネルギーの尺度として、統計力学では微視的状態数の対数として定義される量。相転移、情報、ブラックホール、非平衡過程など多様な現象を結ぶ概念である。",
+    "subfield": "物理学",
+    "school_of_thought": "統計物理学",
+    "era_start": 1865,
+    "era_end": null,
+    "keywords_en": "entropy,statistical mechanics,microstates",
+    "key_researchers": ["Rudolf Clausius", "Ludwig Boltzmann", "J. Willard Gibbs"]
+  },
+  {
+    "name_ja": "ボルツマン分布",
+    "name_en": "Boltzmann distribution",
+    "definition": "熱平衡にある系で、エネルギーの高い状態ほど指数関数的に占有確率が低くなることを示す分布。温度とエネルギーの関係を定量化し、気体分子運動論、化学平衡、統計力学の基本式となる。",
+    "subfield": "物理学",
+    "school_of_thought": "統計物理学",
+    "era_start": 1877,
+    "era_end": null,
+    "keywords_en": "Boltzmann distribution,thermal equilibrium,statistical weight",
+    "key_researchers": ["Ludwig Boltzmann", "J. Willard Gibbs"]
+  },
+  {
+    "name_ja": "相転移",
+    "name_en": "Phase transition",
+    "definition": "温度、圧力、磁場などの制御変数を変えたときに、物質の巨視的性質や対称性が急激に変化する現象。気液転移、磁性転移、超伝導転移などがあり、秩序変数と臨界現象の研究に結びつく。",
+    "subfield": "物理学",
+    "school_of_thought": "統計物理学",
+    "era_start": 1873,
+    "era_end": null,
+    "keywords_en": "phase transition,order parameter,criticality",
+    "key_researchers": ["Johannes Diderik van der Waals", "Lev Landau", "Kenneth Wilson"]
+  },
+  {
+    "name_ja": "臨界現象",
+    "name_en": "Critical phenomena",
+    "definition": "相転移点近傍で相関長が大きくなり、物理量がべき法則や普遍的な臨界指数を示す現象。微視的詳細を越えたスケーリング則を通じて、磁性体、流体、混合物などを統一的に理解できる。",
+    "subfield": "物理学",
+    "school_of_thought": "統計物理学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "critical phenomena,scaling,critical exponents",
+    "key_researchers": ["Lev Landau", "Kenneth Wilson", "Leo Kadanoff"]
+  },
+  {
+    "name_ja": "ブラウン運動",
+    "name_en": "Brownian motion",
+    "definition": "液体や気体中の微粒子が周囲の分子との衝突により不規則に動く現象。原子や分子の実在性を支持する実験的証拠となり、拡散、確率過程、非平衡統計物理の基礎概念となった。",
+    "subfield": "物理学",
+    "school_of_thought": "統計物理学",
+    "era_start": 1827,
+    "era_end": null,
+    "keywords_en": "Brownian motion,diffusion,stochastic process",
+    "key_researchers": ["Robert Brown", "Albert Einstein", "Marian Smoluchowski", "Jean Perrin"]
+  },
+  {
+    "name_ja": "プラズマ",
+    "name_en": "Plasma",
+    "definition": "電子とイオンが分離して集団的な電磁相互作用を示す電離気体状態。恒星、太陽風、核融合装置、放電、宇宙空間に広く存在し、デバイ遮蔽、プラズマ振動、不安定性などを特徴とする。",
+    "subfield": "物理学",
+    "school_of_thought": "プラズマ物理学",
+    "era_start": 1928,
+    "era_end": null,
+    "keywords_en": "plasma,ionized gas,collective behavior",
+    "key_researchers": ["Irving Langmuir", "Hannes Alfvén"]
+  },
+  {
+    "name_ja": "核融合",
+    "name_en": "Nuclear fusion",
+    "definition": "軽い原子核が結合してより重い原子核となり、質量欠損に対応するエネルギーを放出する過程。恒星のエネルギー源であり、制御核融合は高温プラズマ閉じ込めとエネルギー技術の重要課題である。",
+    "subfield": "物理学",
+    "school_of_thought": "原子核物理学",
+    "era_start": 1938,
+    "era_end": null,
+    "keywords_en": "nuclear fusion,stellar energy,plasma confinement",
+    "key_researchers": ["Hans Bethe", "Lyman Spitzer", "Andrei Sakharov"]
+  },
+  {
+    "name_ja": "核分裂",
+    "name_en": "Nuclear fission",
+    "definition": "重い原子核が中性子吸収などをきっかけに二つ程度の軽い核へ分裂し、多数の中性子とエネルギーを放出する現象。連鎖反応、原子炉、核兵器、核廃棄物問題に関わる原子核物理の重要概念である。",
+    "subfield": "物理学",
+    "school_of_thought": "原子核物理学",
+    "era_start": 1938,
+    "era_end": null,
+    "keywords_en": "nuclear fission,chain reaction,neutrons",
+    "key_researchers": ["Otto Hahn", "Lise Meitner", "Fritz Strassmann", "Otto Frisch"]
+  },
+  {
+    "name_ja": "殻模型",
+    "name_en": "Nuclear shell model",
+    "definition": "原子核中の陽子と中性子が平均ポテンシャル内の量子軌道を占有すると考え、魔法数や核スピンを説明する模型。原子の電子殻構造に似た考え方を原子核へ適用し、核構造の理解を大きく進めた。",
+    "subfield": "物理学",
+    "school_of_thought": "原子核物理学",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "nuclear shell model,magic numbers,nuclear structure",
+    "key_researchers": ["Maria Goeppert Mayer", "J. Hans D. Jensen"]
+  },
+  {
+    "name_ja": "バンド理論",
+    "name_en": "Band theory",
+    "definition": "結晶中の電子が周期ポテンシャルのもとで許されたエネルギーバンドと禁制帯を持つことを説明する理論。金属、半導体、絶縁体の違いや電子輸送、光応答、デバイス物理の基礎を与える。",
+    "subfield": "物理学",
+    "school_of_thought": "固体物理学",
+    "era_start": 1928,
+    "era_end": null,
+    "keywords_en": "band theory,crystal lattice,energy bands",
+    "key_researchers": ["Felix Bloch", "Rudolf Peierls", "Alan Wilson"]
+  },
+  {
+    "name_ja": "フェルミ面",
+    "name_en": "Fermi surface",
+    "definition": "絶対零度において電子が占有する状態と空の状態を運動量空間で分ける境界。金属の電気伝導、熱容量、磁気振動、超伝導の発現などを決定する固体電子論の中心概念である。",
+    "subfield": "物理学",
+    "school_of_thought": "固体物理学",
+    "era_start": 1926,
+    "era_end": null,
+    "keywords_en": "Fermi surface,electron gas,metals",
+    "key_researchers": ["Enrico Fermi", "Arnold Sommerfeld", "Lev Landau"]
+  },
+  {
+    "name_ja": "フェルミ液体",
+    "name_en": "Fermi liquid",
+    "definition": "相互作用するフェルミ粒子系を、自由粒子に似た準粒子の集合として記述できる低温状態の理論。金属中電子やヘリウム3の性質を説明し、そこから外れる非フェルミ液体の理解にも基準を与える。",
+    "subfield": "物理学",
+    "school_of_thought": "凝縮系物理学",
+    "era_start": 1956,
+    "era_end": null,
+    "keywords_en": "Fermi liquid,quasiparticles,Landau theory",
+    "key_researchers": ["Lev Landau"]
+  },
+  {
+    "name_ja": "ボース＝アインシュタイン凝縮",
+    "name_en": "Bose-Einstein condensation",
+    "definition": "低温で多数のボース粒子が同じ量子状態を占有し、巨視的な量子波として振る舞う現象。超流動、冷却原子気体、干渉実験を通じて、量子統計と多体量子現象を直接観測できる代表例である。",
+    "subfield": "物理学",
+    "school_of_thought": "量子多体系物理学",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "Bose-Einstein condensate,bosons,macroscopic quantum state",
+    "key_researchers": ["Satyendra Nath Bose", "Albert Einstein", "Eric Cornell", "Carl Wieman", "Wolfgang Ketterle"]
+  },
+  {
+    "name_ja": "超流動",
+    "name_en": "Superfluidity",
+    "definition": "極低温の液体ヘリウムなどで粘性が事実上消え、容器壁を登る流れや量子渦などの特異な流体現象を示す状態。巨視的量子性、ボース凝縮、準粒子励起の理解に深く関わる。",
+    "subfield": "物理学",
+    "school_of_thought": "低温物理学",
+    "era_start": 1937,
+    "era_end": null,
+    "keywords_en": "superfluidity,liquid helium,quantum vortices",
+    "key_researchers": ["Pyotr Kapitsa", "John F. Allen", "Lev Landau", "László Tisza"]
+  },
+  {
+    "name_ja": "量子ホール効果",
+    "name_en": "Quantum Hall effect",
+    "definition": "低温強磁場下の二次元電子系で、ホール伝導度が極めて正確な整数または分数量子値を取る現象。トポロジー、エッジ状態、強相関電子、標準抵抗の実現に重要な役割を果たす。",
+    "subfield": "物理学",
+    "school_of_thought": "凝縮系物理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "quantum Hall effect,edge states,topology",
+    "key_researchers": ["Klaus von Klitzing", "Daniel Tsui", "Horst Störmer", "Robert Laughlin"]
+  },
+  {
+    "name_ja": "強相関電子系",
+    "name_en": "Strongly correlated electron systems",
+    "definition": "電子間相互作用が運動エネルギーと同程度またはそれ以上に重要となり、単純なバンド理論では説明できない物性を示す系。高温超伝導、重い電子系、モット絶縁体、量子スピン液体などの研究を含む。",
+    "subfield": "物理学",
+    "school_of_thought": "凝縮系物理学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "strong correlations,Mott physics,electron interactions",
+    "key_researchers": ["Nevill Mott", "Philip W. Anderson", "Jun Kondo"]
+  },
+  {
+    "name_ja": "モット絶縁体",
+    "name_en": "Mott insulator",
+    "definition": "バンド理論では金属になるはずの電子数を持ちながら、強い電子間反発のために電子が動けず絶縁体となる状態。相関効果が物性を支配する典型例であり、高温超伝導や磁性研究の出発点となる。",
+    "subfield": "物理学",
+    "school_of_thought": "強相関電子物理学",
+    "era_start": 1949,
+    "era_end": null,
+    "keywords_en": "Mott insulator,electron correlation,Hubbard model",
+    "key_researchers": ["Nevill Mott", "John Hubbard"]
+  },
+  {
+    "name_ja": "近藤効果",
+    "name_en": "Kondo effect",
+    "definition": "金属中の磁性不純物が伝導電子と相互作用し、低温で電気抵抗が異常に増加する現象。多体スピン遮蔽、くりこみ群、重い電子系、量子ドット輸送の理解に重要な役割を果たす。",
+    "subfield": "物理学",
+    "school_of_thought": "凝縮系物理学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "Kondo effect,magnetic impurities,many-body screening",
+    "key_researchers": ["Jun Kondo", "Kenneth Wilson", "Philip W. Anderson"]
+  },
+  {
+    "name_ja": "スピントロニクス",
+    "name_en": "Spintronics",
+    "definition": "電子の電荷だけでなくスピン自由度を情報の記録、輸送、制御に利用する物理と技術の分野。巨大磁気抵抗、トンネル磁気抵抗、スピン流、磁気メモリなどを通じてデバイス応用につながる。",
+    "subfield": "物理学",
+    "school_of_thought": "物性物理学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "spintronics,spin current,magnetoresistance",
+    "key_researchers": ["Albert Fert", "Peter Grünberg", "Supriyo Datta"]
+  },
+  {
+    "name_ja": "フォノン",
+    "name_en": "Phonon",
+    "definition": "結晶格子の振動を量子化した準粒子であり、固体中の音波や熱振動を記述する。比熱、熱伝導、電子フォノン相互作用、超伝導、ラマン散乱など固体物理の多くの現象に関わる。",
+    "subfield": "物理学",
+    "school_of_thought": "固体物理学",
+    "era_start": 1932,
+    "era_end": null,
+    "keywords_en": "phonon,lattice vibrations,quasiparticle",
+    "key_researchers": ["Igor Tamm", "Peter Debye", "Max Born"]
+  },
+  {
+    "name_ja": "レーザー",
+    "name_en": "Laser",
+    "definition": "誘導放出を利用して、位相や周波数がそろった高い指向性の光を発生させる装置とその原理。分光、通信、計測、医療、加工、冷却原子実験などに不可欠で、量子光学の中心技術である。",
+    "subfield": "物理学",
+    "school_of_thought": "量子光学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "laser,stimulated emission,coherent light",
+    "key_researchers": ["Albert Einstein", "Charles Townes", "Theodore Maiman", "Arthur Schawlow"]
+  },
+  {
+    "name_ja": "光電効果",
+    "name_en": "Photoelectric effect",
+    "definition": "金属などに一定以上の周波数の光を当てると電子が放出される現象。光のエネルギーが量子化された光子として吸収されることを示し、量子論の成立に決定的な証拠を与えた。",
+    "subfield": "物理学",
+    "school_of_thought": "量子論",
+    "era_start": 1905,
+    "era_end": null,
+    "keywords_en": "photoelectric effect,photons,quantization",
+    "key_researchers": ["Albert Einstein", "Heinrich Hertz", "Philipp Lenard"]
+  },
+  {
+    "name_ja": "コンプトン散乱",
+    "name_en": "Compton scattering",
+    "definition": "X線やガンマ線が電子と衝突して波長を変える散乱現象。光が運動量を持つ粒子として振る舞うことを示し、光量子仮説と量子力学の実在的な成功例として重要である。",
+    "subfield": "物理学",
+    "school_of_thought": "量子論",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "Compton scattering,photons,X-rays",
+    "key_researchers": ["Arthur Compton"]
+  },
+  {
+    "name_ja": "二重スリット実験",
+    "name_en": "Double-slit experiment",
+    "definition": "粒子を二つの狭い隙間へ通すと、一個ずつ送っても干渉縞が現れる実験。波動性と粒子性の二重性、測定による状態の変化、量子力学の確率解釈を最も象徴的に示す。",
+    "subfield": "物理学",
+    "school_of_thought": "量子力学",
+    "era_start": 1801,
+    "era_end": null,
+    "keywords_en": "double-slit experiment,wave-particle duality,interference",
+    "key_researchers": ["Thomas Young", "Richard Feynman"]
+  },
+  {
+    "name_ja": "ベル不等式",
+    "name_en": "Bell inequality",
+    "definition": "局所実在論に従う隠れた変数理論が満たすべき相関の制限を表す不等式。量子もつれ状態ではこの不等式が破れうるため、量子力学の非古典的相関を実験的に検証する基準となる。",
+    "subfield": "物理学",
+    "school_of_thought": "量子基礎論",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "Bell inequality,local realism,quantum nonlocality",
+    "key_researchers": ["John Bell", "Alain Aspect", "John Clauser", "Anton Zeilinger"]
+  },
+  {
+    "name_ja": "量子デコヒーレンス",
+    "name_en": "Quantum decoherence",
+    "definition": "量子系が環境と相互作用することで、重ね合わせ状態の相対位相が実質的に失われ、古典的な確率混合のように見える過程。量子測定問題、量子情報処理、古典世界の出現を理解する鍵である。",
+    "subfield": "物理学",
+    "school_of_thought": "量子基礎論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "decoherence,environment,quantum measurement",
+    "key_researchers": ["H. Dieter Zeh", "Wojciech Zurek"]
+  },
+  {
+    "name_ja": "量子計算",
+    "name_en": "Quantum computing",
+    "definition": "量子ビットの重ね合わせ、干渉、もつれを利用して計算を行う枠組み。特定の問題で古典計算機より大きな優位性が期待され、ショアのアルゴリズム、量子誤り訂正、量子シミュレーションが重要である。",
+    "subfield": "物理学",
+    "school_of_thought": "量子情報科学",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "quantum computing,qubits,quantum algorithms",
+    "key_researchers": ["Richard Feynman", "David Deutsch", "Peter Shor"]
+  },
+  {
+    "name_ja": "量子テレポーテーション",
+    "name_en": "Quantum teleportation",
+    "definition": "未知の量子状態を、共有された量子もつれと古典通信を用いて別の場所の量子系へ転送するプロトコル。物質そのものを移動するのではなく状態情報を再構成するため、量子通信網の基礎技術となる。",
+    "subfield": "物理学",
+    "school_of_thought": "量子情報科学",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_en": "quantum teleportation,entanglement,quantum communication",
+    "key_researchers": ["Charles Bennett", "Gilles Brassard", "William Wootters", "Anton Zeilinger"]
+  },
+  {
+    "name_ja": "CP対称性の破れ",
+    "name_en": "CP violation",
+    "definition": "粒子と反粒子を入れ替え、空間反転も行うCP変換に対して物理法則が完全には不変でない現象。中性K中間子やB中間子で観測され、宇宙に物質が反物質より多い理由を考える上で重要である。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "CP violation,antimatter,weak interaction",
+    "key_researchers": ["James Cronin", "Val Fitch", "Makoto Kobayashi", "Toshihide Maskawa"]
+  },
+  {
+    "name_ja": "ニュートリノ振動",
+    "name_en": "Neutrino oscillation",
+    "definition": "ニュートリノが飛行中に電子型、ミュー型、タウ型の間で変化する現象。ニュートリノに質量があることを示し、標準模型の拡張、太陽ニュートリノ問題、大気ニュートリノ観測に深く関わる。",
+    "subfield": "物理学",
+    "school_of_thought": "素粒子物理学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "neutrino oscillation,neutrino mass,flavor mixing",
+    "key_researchers": ["Bruno Pontecorvo", "Raymond Davis Jr.", "Masatoshi Koshiba", "Takaaki Kajita", "Arthur McDonald"]
+  },
+  {
+    "name_ja": "重力波",
+    "name_en": "Gravitational waves",
+    "definition": "加速する質量分布が時空の歪みとして外へ伝える波で、一般相対性理論が予言する現象。連星ブラックホールや中性子星合体から検出され、電磁波とは異なる宇宙観測の手段を提供する。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論的天体物理学",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "gravitational waves,LIGO,spacetime ripples",
+    "key_researchers": ["Albert Einstein", "Joseph Weber", "Rainer Weiss", "Kip Thorne", "Barry Barish"]
+  },
+  {
+    "name_ja": "中性子星",
+    "name_en": "Neutron star",
+    "definition": "大質量星の重力崩壊後に残る、主に中性子からなる極めて高密度の天体。強磁場、高速回転、超流動、核物質の状態方程式、重力波源として重要で、地上実験では到達しにくい物理を含む。",
+    "subfield": "物理学",
+    "school_of_thought": "相対論的天体物理学",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "neutron star,dense matter,pulsar",
+    "key_researchers": ["Walter Baade", "Fritz Zwicky", "Subrahmanyan Chandrasekhar", "Jocelyn Bell Burnell"]
+  }
+]
+tokens used
+12,511

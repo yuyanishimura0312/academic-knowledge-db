@@ -1,0 +1,855 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e098e-4687-7c21-b531-4a3e2225f752
+--------
+user
+人文学（2015-2025 人文学新概念）の概念60件を JSON 配列で出力。
+
+必須5件:
+新唯物論、ポスト・ヒューマニズム、デジタル人文学、AI倫理学、気候哲学
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"<下記から1つ>","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+subfield候補: 分析哲学・心の哲学、大陸哲学・現象学、倫理学・政治哲学、東洋・非西洋哲学、詩学・文学理論、言語学、文化人類学・民族誌、歴史学・歴史哲学
+
+要件: 主に2015-2025年、内部知識のみ、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "新唯物論",
+    "name_en": "New Materialism",
+    "definition": "物質を受動的な背景ではなく、行為能力や関係生成の力をもつものとして捉え直す思想潮流。人間中心主義を相対化し、身体、環境、技術、非人間的存在が知識や政治を形づくる過程を分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "新唯物論・ポスト構造主義",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "material agency,posthumanism",
+    "key_researchers": ["Karen Barad", "Jane Bennett", "Rosi Braidotti"]
+  },
+  {
+    "name_ja": "ポスト・ヒューマニズム",
+    "name_en": "Posthumanism",
+    "definition": "近代的人間像を普遍的な主体として前提せず、人間、動物、機械、環境が絡み合う存在論を考える概念。AI、バイオ技術、気候危機の時代に、人間性、倫理、責任の範囲を再定義する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "批判的ポストヒューマニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "posthuman,anthropocentrism",
+    "key_researchers": ["Rosi Braidotti", "Donna Haraway", "N. Katherine Hayles"]
+  },
+  {
+    "name_ja": "デジタル人文学",
+    "name_en": "Digital Humanities",
+    "definition": "文学、歴史、哲学、芸術などの人文学資料を、データベース、テキストマイニング、可視化、GIS、機械学習で分析する研究領域。方法論だけでなく、知の公開性やアーカイブの政治性も問う。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "デジタル人文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital archives,text mining",
+    "key_researchers": ["Franco Moretti", "Johanna Drucker", "Matthew K. Gold"]
+  },
+  {
+    "name_ja": "AI倫理学",
+    "name_en": "AI Ethics",
+    "definition": "人工知能の設計、運用、社会実装に伴う公平性、説明責任、透明性、プライバシー、差別、労働、責任配分を扱う倫理学。技術的性能だけでなく、制度や権力構造の問題としてAIを捉える。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学・技術倫理",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "algorithmic fairness,accountability",
+    "key_researchers": ["Luciano Floridi", "Virginia Dignum", "Shannon Vallor"]
+  },
+  {
+    "name_ja": "気候哲学",
+    "name_en": "Climate Philosophy",
+    "definition": "気候変動を単なる環境問題ではなく、責任、正義、世代間倫理、植民地主義、科学的知識、生活形式の変容を含む哲学的問題として考える領域。人新世以後の倫理と政治を検討する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "環境倫理学・気候正義論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate justice,anthropocene",
+    "key_researchers": ["Dale Jamieson", "Stephen Gardiner", "Dipesh Chakrabarty"]
+  },
+  {
+    "name_ja": "人新世批評",
+    "name_en": "Anthropocene Critique",
+    "definition": "人新世を地質年代名としてだけでなく、近代資本主義、植民地主義、産業化、人間中心主義の歴史的帰結として読む批評概念。文学、歴史、哲学を横断して地球環境と権力を結びつける。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "環境人文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "anthropocene,environmental humanities",
+    "key_researchers": ["Dipesh Chakrabarty", "Bruno Latour", "Kathryn Yusoff"]
+  },
+  {
+    "name_ja": "環境人文学",
+    "name_en": "Environmental Humanities",
+    "definition": "環境危機を自然科学だけに委ねず、文学、歴史、哲学、人類学、芸術の知を通じて理解する学際領域。自然観、ケア、物語、先住民知、資源開発の暴力などを総合的に扱う。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "環境批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ecocriticism,environmental justice",
+    "key_researchers": ["Ursula Heise", "Rob Nixon", "Serpil Oppermann"]
+  },
+  {
+    "name_ja": "マルチスピーシーズ民族誌",
+    "name_en": "Multispecies Ethnography",
+    "definition": "人間社会を人間だけの関係としてではなく、動物、植物、菌類、微生物、物質環境との相互作用から記述する民族誌的方法。共生、感染、家畜化、絶滅、ケアの実践を分析対象にする。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "マルチスピーシーズ人類学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "multispecies,ethnography",
+    "key_researchers": ["Anna Tsing", "Eduardo Kohn", "Donna Haraway"]
+  },
+  {
+    "name_ja": "存在論的転回",
+    "name_en": "Ontological Turn",
+    "definition": "文化を異なる世界観の表象としてではなく、異なる存在論や世界の構成そのものとして捉える人類学的潮流。西洋近代の自然と文化の区分を相対化し、他者の実在理解を理論的に尊重する。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "存在論的人類学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ontology,anthropology",
+    "key_researchers": ["Eduardo Viveiros de Castro", "Philippe Descola", "Martin Holbraad"]
+  },
+  {
+    "name_ja": "脱成長思想",
+    "name_en": "Degrowth Thought",
+    "definition": "経済成長を社会の当然の目標とする前提を批判し、持続可能性、ケア、共同性、時間の再配分を重視する思想。気候危機や格差を背景に、豊かさの定義を政治哲学的に問い直す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "エコ社会主義・ポスト成長論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "degrowth,post-growth",
+    "key_researchers": ["Giorgos Kallis", "Jason Hickel", "Serge Latouche"]
+  },
+  {
+    "name_ja": "ケア倫理の再政治化",
+    "name_en": "Repoliticized Ethics of Care",
+    "definition": "ケアを私的な徳や家族内の役割に限定せず、福祉、移民、労働、医療、気候、民主主義を支える公共的実践として捉え直す考え方。依存と脆弱性を政治理論の中心に置く。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フェミニスト倫理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "care ethics,vulnerability",
+    "key_researchers": ["Joan Tronto", "Eva Feder Kittay", "Carol Gilligan"]
+  },
+  {
+    "name_ja": "データ植民地主義",
+    "name_en": "Data Colonialism",
+    "definition": "個人や共同体の生活がデータとして抽出、所有、商品化される過程を、歴史的植民地主義の延長として分析する概念。監視資本主義、プラットフォーム支配、知識の非対称性を批判する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "批判的データ研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "data colonialism,surveillance",
+    "key_researchers": ["Nick Couldry", "Ulises A. Mejias", "Shoshana Zuboff"]
+  },
+  {
+    "name_ja": "アルゴリズム的統治性",
+    "name_en": "Algorithmic Governmentality",
+    "definition": "行政、金融、教育、医療、警察などでアルゴリズムが判断を補助または代替する状況を、統治の新しい形態として分析する概念。主体形成、予測、分類、責任の不可視化を問題にする。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フーコー派統治性研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "algorithmic governance,prediction",
+    "key_researchers": ["Antoinette Rouvroy", "Thomas Berns", "Louise Amoore"]
+  },
+  {
+    "name_ja": "説明可能性の哲学",
+    "name_en": "Philosophy of Explainability",
+    "definition": "AIや複雑なモデルの判断について、何をもって説明とみなすかを問う哲学的研究。因果、理解、信頼、責任、専門家と利用者の関係を扱い、単なる技術的可視化を超えて考える。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "科学哲学・AI哲学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "explainable AI,causality",
+    "key_researchers": ["Tim Miller", "Sandra Wachter", "Luciano Floridi"]
+  },
+  {
+    "name_ja": "機械行為者論",
+    "name_en": "Machine Agency",
+    "definition": "ロボットやAIが人間と相互作用し、判断や行為の連鎖に参加する場合、それらをどの程度行為者として扱えるかを問う概念。責任、意図、道徳的地位、社会的信頼の再構成を扱う。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "技術哲学・行為論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "machine agency,moral status",
+    "key_researchers": ["Peter-Paul Verbeek", "Mark Coeckelbergh", "David Gunkel"]
+  },
+  {
+    "name_ja": "ロボット倫理",
+    "name_en": "Robot Ethics",
+    "definition": "介護、軍事、教育、労働、家庭で用いられるロボットをめぐり、安全性、責任、感情的依存、尊厳、権利、設計者の義務を検討する応用倫理。人間と人工物の関係を再考する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "応用倫理学・技術哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "robot ethics,human-robot interaction",
+    "key_researchers": ["Noel Sharkey", "Kate Darling", "David Gunkel"]
+  },
+  {
+    "name_ja": "デジタル存在論",
+    "name_en": "Digital Ontology",
+    "definition": "デジタル対象、仮想空間、アバター、データ、プラットフォーム上の関係がどのような存在様式をもつかを問う概念。オンラインとオフラインの単純な二分法を超え、現実性の階層を分析する。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "メディア哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital ontology,virtuality",
+    "key_researchers": ["Luciano Floridi", "Yuk Hui", "Pierre Lévy"]
+  },
+  {
+    "name_ja": "情報圏倫理",
+    "name_en": "Infosphere Ethics",
+    "definition": "人間、人工エージェント、データ、ネットワークが構成する情報圏を倫理の対象とする考え方。プライバシーだけでなく、情報環境の健全性、デジタル権利、知識へのアクセスを問題にする。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "情報倫理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "infosphere,information ethics",
+    "key_researchers": ["Luciano Floridi", "Mireille Hildebrandt", "Helen Nissenbaum"]
+  },
+  {
+    "name_ja": "プラットフォーム資本主義批判",
+    "name_en": "Platform Capitalism Critique",
+    "definition": "デジタルプラットフォームが労働、消費、コミュニケーション、知識流通を組織する仕組みを批判的に分析する概念。所有、独占、評価システム、ギグ労働、データ抽出の問題を扱う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "批判理論・メディア研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platform capitalism,gig economy",
+    "key_researchers": ["Nick Srnicek", "Trebor Scholz", "Tiziana Terranova"]
+  },
+  {
+    "name_ja": "監視資本主義",
+    "name_en": "Surveillance Capitalism",
+    "definition": "人間の行動データを収集、予測、介入、商品化する経済体制を指す概念。広告技術やプラットフォームを通じて、自由、民主主義、自己決定がどのように変質するかを批判的に論じる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "批判的メディア理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "surveillance capitalism,behavioral data",
+    "key_researchers": ["Shoshana Zuboff", "David Lyon", "Julie Cohen"]
+  },
+  {
+    "name_ja": "フェミニスト・データ研究",
+    "name_en": "Feminist Data Studies",
+    "definition": "データを中立的な事実の集合としてではなく、分類、欠落、権力、身体、労働、歴史的差別によって形成されるものとして分析する領域。可視化されない人々や経験をめぐる知の政治を問う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フェミニストSTS",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "feminist data,data justice",
+    "key_researchers": ["Catherine D'Ignazio", "Lauren Klein", "Safiya Noble"]
+  },
+  {
+    "name_ja": "データ正義",
+    "name_en": "Data Justice",
+    "definition": "データ収集と分析が社会的弱者に与える影響を、正義、権利、参加、再分配の観点から評価する概念。公平なアルゴリズムだけでなく、誰がデータ化され、誰が利益を得るかを問う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "社会正義論・批判的データ研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "data justice,algorithmic harm",
+    "key_researchers": ["Linnet Taylor", "Virginia Eubanks", "Ruha Benjamin"]
+  },
+  {
+    "name_ja": "アルゴリズム的差別",
+    "name_en": "Algorithmic Discrimination",
+    "definition": "機械学習や自動意思決定が、人種、性別、階級、障害、地域などに基づく不平等を再生産または増幅する現象を指す概念。訓練データ、モデル設計、制度的利用を総合的に検討する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "批判的人種理論・AI倫理",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "algorithmic bias,discrimination",
+    "key_researchers": ["Safiya Noble", "Ruha Benjamin", "Cathy O'Neil"]
+  },
+  {
+    "name_ja": "デジタル・ヘルメノイティクス",
+    "name_en": "Digital Hermeneutics",
+    "definition": "検索エンジン、推薦システム、AI生成テキスト、デジタルアーカイブが解釈の条件を変えることを扱う解釈学。読む主体だけでなく、媒介技術が意味形成に参加する点を重視する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "解釈学・メディア理論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "digital hermeneutics,interpretation",
+    "key_researchers": ["Johanna Drucker", "David M. Berry", "Paul Ricoeur"]
+  },
+  {
+    "name_ja": "遠読",
+    "name_en": "Distant Reading",
+    "definition": "個別作品の精読だけでなく、大量の文学テキストを統計、計量、可視化によって分析する方法。ジャンル、形式、語彙、翻訳、出版市場の長期的変化を捉えるための文学研究概念。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "計量文学研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "distant reading,computational literary studies",
+    "key_researchers": ["Franco Moretti", "Ted Underwood", "Matthew Jockers"]
+  },
+  {
+    "name_ja": "計算文学研究",
+    "name_en": "Computational Literary Studies",
+    "definition": "文学作品や文学史を、自然言語処理、ネットワーク分析、トピックモデル、文体計量などで研究する領域。解釈と計算を対立させず、モデルが何を見える化し何を隠すかを検討する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "デジタル文芸批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "NLP,literary history",
+    "key_researchers": ["Ted Underwood", "Andrew Piper", "Laura Mandell"]
+  },
+  {
+    "name_ja": "世界文学の再編成",
+    "name_en": "Reconfigured World Literature",
+    "definition": "世界文学を西洋中心の正典や翻訳市場の結果としてではなく、植民地主義、移動、出版制度、言語的不平等、デジタル流通のなかで再考する概念。周縁化された文学の接続を重視する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポストコロニアル文学理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "world literature,translation",
+    "key_researchers": ["Pascale Casanova", "David Damrosch", "Emily Apter"]
+  },
+  {
+    "name_ja": "脱植民地的美学",
+    "name_en": "Decolonial Aesthetics",
+    "definition": "美や芸術の基準が欧米近代の制度と植民地主義によって形成されてきたことを批判し、非西洋的感性、身体、記憶、土地との関係から表現を捉え直す概念。美学と政治を結びつける。",
+    "subfield": "東洋・非西洋哲学",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "decolonial aesthetics,coloniality",
+    "key_researchers": ["Walter Mignolo", "Rolando Vázquez", "Ariella Aïsha Azoulay"]
+  },
+  {
+    "name_ja": "脱植民地的知",
+    "name_en": "Decolonial Knowledge",
+    "definition": "近代西洋の学問制度が普遍知としてきたものを問い直し、先住民知、地域的実践、身体化された知、口承、土地に根ざした認識を重視する概念。知識生産の権力関係を批判する。",
+    "subfield": "東洋・非西洋哲学",
+    "school_of_thought": "脱植民地思想",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "decoloniality,epistemic justice",
+    "key_researchers": ["Walter Mignolo", "Boaventura de Sousa Santos", "Linda Tuhiwai Smith"]
+  },
+  {
+    "name_ja": "認識的不正義",
+    "name_en": "Epistemic Injustice",
+    "definition": "社会的偏見や制度的権力により、ある人々の証言や解釈能力が不当に低く扱われる問題を指す概念。性差別、人種差別、障害、階級、植民地主義における知る権利を分析する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "社会認識論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "epistemic injustice,testimony",
+    "key_researchers": ["Miranda Fricker", "José Medina", "Kristie Dotson"]
+  },
+  {
+    "name_ja": "認識的植民地主義",
+    "name_en": "Epistemic Colonialism",
+    "definition": "植民地支配や近代学問が、被支配地域の知識体系を劣位に置き、欧米的認識枠組みを普遍化してきた過程を指す概念。大学、博物館、言語、翻訳、分類の政治を批判する。",
+    "subfield": "東洋・非西洋哲学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "epistemic colonialism,decolonization",
+    "key_researchers": ["Gayatri Spivak", "Ngũgĩ wa Thiong'o", "Linda Tuhiwai Smith"]
+  },
+  {
+    "name_ja": "グローバル思想史",
+    "name_en": "Global Intellectual History",
+    "definition": "思想や概念の歴史を一国史や欧州中心史に閉じず、翻訳、移動、帝国、交易、宗教、学術ネットワークのなかで分析する歴史研究。概念が地域間で変形される過程を重視する。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "グローバルヒストリー",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "global history,intellectual history",
+    "key_researchers": ["Samuel Moyn", "Andrew Sartori", "Sebastian Conrad"]
+  },
+  {
+    "name_ja": "惑星的思考",
+    "name_en": "Planetary Thinking",
+    "definition": "グローバル化を市場や国際関係の拡大としてだけでなく、地球環境、生命圏、植民地主義、技術圏が交差する惑星規模の条件として考える概念。人間社会の有限性を強調する。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "惑星人文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "planetarity,earth system",
+    "key_researchers": ["Gayatri Spivak", "Dipesh Chakrabarty", "Achille Mbembe"]
+  },
+  {
+    "name_ja": "クリティカル・ゾーン思想",
+    "name_en": "Critical Zone Thought",
+    "definition": "地表近くの生命、土壌、水、大気、技術、人間活動が重なる薄い領域を思考の中心に置く概念。抽象的な地球全体ではなく、具体的な依存関係と居住可能性を哲学的に考える。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "ラトゥール派環境哲学",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "critical zone,earthbound",
+    "key_researchers": ["Bruno Latour", "Peter Weibel", "Frédérique Aït-Touati"]
+  },
+  {
+    "name_ja": "アフォーダンス再考",
+    "name_en": "Reconsidered Affordance",
+    "definition": "環境が主体に提供する行為可能性を、認知科学、デザイン、現象学、社会理論の接点で捉え直す概念。人間だけでなく、身体、道具、制度、デジタル環境が行為を形づくる点を扱う。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "エナクティヴィズム・生態心理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affordance,embodied cognition",
+    "key_researchers": ["James J. Gibson", "Anthony Chemero", "Shaun Gallagher"]
+  },
+  {
+    "name_ja": "予測処理論の哲学",
+    "name_en": "Philosophy of Predictive Processing",
+    "definition": "脳や心を、外界からの刺激を受動的に受け取る装置ではなく、予測と誤差修正によって世界を構成するシステムとして理解する哲学的枠組み。知覚、自己、意識、精神疾患を再解釈する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "認知哲学・心の哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "predictive processing,consciousness",
+    "key_researchers": ["Andy Clark", "Jakob Hohwy", "Karl Friston"]
+  },
+  {
+    "name_ja": "エナクティブ認知",
+    "name_en": "Enactive Cognition",
+    "definition": "認知を脳内表象の処理としてではなく、身体をもつ主体が環境と相互作用する実践として捉える理論。知覚、意味、感情、社会性が行為を通じて生成される点を強調する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "エナクティヴィズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "enactivism,embodiment",
+    "key_researchers": ["Francisco Varela", "Evan Thompson", "Shaun Gallagher"]
+  },
+  {
+    "name_ja": "拡張された心",
+    "name_en": "Extended Mind",
+    "definition": "心や認知を頭蓋内に限定せず、ノート、スマートフォン、言語、社会制度、デジタル環境などに拡張された過程として捉える概念。技術と記憶、自己、責任の境界を問い直す。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "拡張認知論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "extended mind,cognitive ecology",
+    "key_researchers": ["Andy Clark", "David Chalmers", "Richard Menary"]
+  },
+  {
+    "name_ja": "4E認知",
+    "name_en": "4E Cognition",
+    "definition": "認知を身体化され、埋め込まれ、行為的で、拡張されたものとして理解する枠組み。脳中心主義を相対化し、身体、環境、道具、社会的相互作用が思考を構成することを重視する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "身体化認知科学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "4E cognition,embodied mind",
+    "key_researchers": ["Shaun Gallagher", "Alva Noë", "Andy Clark"]
+  },
+  {
+    "name_ja": "感情の社会的構成",
+    "name_en": "Social Construction of Emotion",
+    "definition": "感情を個人内部の自然な反応としてだけでなく、言語、規範、身体習慣、文化、政治によって形づくられるものとして捉える概念。怒り、羞恥、共感、恐怖の公共的役割を分析する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "感情哲学・社会構成主義",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "emotion,social construction",
+    "key_researchers": ["Lisa Feldman Barrett", "Martha Nussbaum", "Jesse Prinz"]
+  },
+  {
+    "name_ja": "情動的転回",
+    "name_en": "Affective Turn",
+    "definition": "感情や情動を、個人心理の問題ではなく、身体、メディア、政治、群衆、記憶、権力を動かす力として重視する人文学の潮流。合理的主体モデルを補完し、社会の感覚的次元を扱う。",
+    "subfield": "大陸哲学・現象学",
+    "school_of_thought": "情動理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affect theory,embodiment",
+    "key_researchers": ["Sara Ahmed", "Brian Massumi", "Lauren Berlant"]
+  },
+  {
+    "name_ja": "クィア・テンポラリティ",
+    "name_en": "Queer Temporality",
+    "definition": "人生を結婚、出産、労働、相続へ進む直線的時間として捉える規範を批判し、遅延、反復、逸脱、共同性、喪失の時間を考える概念。性的少数者の経験から近代的時間観を問い直す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "クィア理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "queer temporality,normativity",
+    "key_researchers": ["Jack Halberstam", "José Esteban Muñoz", "Elizabeth Freeman"]
+  },
+  {
+    "name_ja": "トランス哲学",
+    "name_en": "Trans Philosophy",
+    "definition": "ジェンダー、身体、自己同一性、医療、法、言語、承認を、トランス経験から哲学的に考える領域。単なるアイデンティティ論ではなく、規範的身体観と知識生産の枠組みを問い直す。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "フェミニスト哲学・クィア理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "trans philosophy,gender",
+    "key_researchers": ["Talia Mae Bettcher", "C. Riley Snorton", "Susan Stryker"]
+  },
+  {
+    "name_ja": "交差性の再理論化",
+    "name_en": "Retheorized Intersectionality",
+    "definition": "人種、性別、階級、障害、移民性、宗教、性的指向などの抑圧が別々ではなく交差して経験されることを分析する概念。近年はデータ、気候、医療、国境管理にも拡張されている。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "ブラック・フェミニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "intersectionality,oppression",
+    "key_researchers": ["Kimberlé Crenshaw", "Patricia Hill Collins", "bell hooks"]
+  },
+  {
+    "name_ja": "障害正義",
+    "name_en": "Disability Justice",
+    "definition": "障害を個人の欠陥としてではなく、社会制度、環境、労働、医療、監視、差別の問題として捉える概念。障害者の相互依存、ケア、アクセス、交差性を政治哲学の中心に置く。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "障害学・批判的障害理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disability justice,accessibility",
+    "key_researchers": ["Simi Linton", "Alison Kafer", "Leah Lakshmi Piepzna-Samarasinha"]
+  },
+  {
+    "name_ja": "神経多様性",
+    "name_en": "Neurodiversity",
+    "definition": "自閉スペクトラム、ADHD、学習差異などを病理だけでなく、人間の認知的多様性として理解する概念。医療化の限界、教育、労働、自己決定、当事者知の尊重をめぐる議論に関わる。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "障害学・当事者研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "neurodiversity,disability studies",
+    "key_researchers": ["Judy Singer", "Nick Walker", "Melanie Yergeau"]
+  },
+  {
+    "name_ja": "当事者研究",
+    "name_en": "Tojisha Research",
+    "definition": "困難を抱える当事者が、自らの経験を仲間とともに言語化し、知識として共有する実践。精神医療、障害、依存、貧困、ケアの領域で、専門家中心の知を相対化する日本発の概念。",
+    "subfield": "東洋・非西洋哲学",
+    "school_of_thought": "当事者研究・臨床哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "tojisha research,peer knowledge",
+    "key_researchers": ["向谷地生良", "熊谷晋一郎", "綾屋紗月"]
+  },
+  {
+    "name_ja": "臨床哲学の拡張",
+    "name_en": "Expanded Clinical Philosophy",
+    "definition": "哲学を専門的議論に閉じず、医療、教育、福祉、災害、地域、対話実践の現場で働かせる考え方。苦しみやケアの経験を抽象論に還元せず、共同で考える方法として発展している。",
+    "subfield": "東洋・非西洋哲学",
+    "school_of_thought": "臨床哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "clinical philosophy,dialogue",
+    "key_researchers": ["鷲田清一", "中岡成文", "河野哲也"]
+  },
+  {
+    "name_ja": "公共哲学の再興",
+    "name_en": "Renewed Public Philosophy",
+    "definition": "哲学を大学内部の専門知に限定せず、民主主義、教育、医療、科学技術、環境、地域社会の公共的対話に結びつける動向。専門性と市民参加の関係を問い直す実践的概念。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "公共哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "public philosophy,civic dialogue",
+    "key_researchers": ["Michael Sandel", "鷲田清一", "Martha Nussbaum"]
+  },
+  {
+    "name_ja": "ミソインフォメーション研究",
+    "name_en": "Misinformation Studies",
+    "definition": "誤情報、偽情報、陰謀論、プロパガンダがデジタル環境で拡散する仕組みを分析する領域。真理、信頼、専門知、民主主義、感情的動員の問題を、認識論と政治哲学から検討する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "社会認識論・メディア哲学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "misinformation,epistemic trust",
+    "key_researchers": ["C. Thi Nguyen", "Regina Rini", "Quassim Cassam"]
+  },
+  {
+    "name_ja": "陰謀論の認識論",
+    "name_en": "Epistemology of Conspiracy Theories",
+    "definition": "陰謀論を単なる非合理として片づけず、信念形成、証拠、専門家不信、共同体、メディア環境との関係で分析する領域。民主主義社会における知識と疑念の境界を考える。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "社会認識論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "conspiracy theories,social epistemology",
+    "key_researchers": ["Quassim Cassam", "C. Thi Nguyen", "Lee McIntyre"]
+  },
+  {
+    "name_ja": "エコーチェンバー論",
+    "name_en": "Echo Chamber Theory",
+    "definition": "同質的な情報環境のなかで信念が強化され、反対意見や専門知への信頼が低下する現象を分析する概念。SNSだけでなく、共同体の規範、感情、権威の構造にも注目する。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "社会認識論・情報哲学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "echo chambers,polarization",
+    "key_researchers": ["C. Thi Nguyen", "Cass Sunstein", "Regina Rini"]
+  },
+  {
+    "name_ja": "ポスト真実論",
+    "name_en": "Post-Truth Theory",
+    "definition": "客観的事実よりも感情、所属、反復、政治的有用性が世論形成に影響する状況を分析する概念。真理概念の放棄ではなく、信頼制度、メディア、権威の危機として理解される。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "社会認識論・政治哲学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "post-truth,public reason",
+    "key_researchers": ["Lee McIntyre", "Steve Fuller", "Hannah Arendt"]
+  },
+  {
+    "name_ja": "言語イデオロギー批判",
+    "name_en": "Language Ideology Critique",
+    "definition": "標準語、母語、流暢さ、正しさ、中立的翻訳といった観念が、国家、階級、人種、教育制度と結びついていることを分析する概念。多言語社会における言語権力を明らかにする。",
+    "subfield": "言語学",
+    "school_of_thought": "社会言語学・言語人類学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "language ideology,sociolinguistics",
+    "key_researchers": ["Judith Irvine", "Susan Gal", "Jan Blommaert"]
+  },
+  {
+    "name_ja": "トランスランゲージング",
+    "name_en": "Translanguaging",
+    "definition": "多言語話者が複数の言語資源を固定した言語境界に従わず柔軟に用いる実践を指す概念。教育、移民、植民地主義、アイデンティティの文脈で、単一言語主義を批判する。",
+    "subfield": "言語学",
+    "school_of_thought": "応用言語学・批判的多言語主義",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "translanguaging,multilingualism",
+    "key_researchers": ["Ofelia García", "Li Wei", "Suresh Canagarajah"]
+  },
+  {
+    "name_ja": "言語的正義",
+    "name_en": "Linguistic Justice",
+    "definition": "言語の違いが教育、法、医療、移民、学術、デジタル空間で不平等を生む状況を正義の問題として扱う概念。標準語中心主義や英語覇権を批判し、言語的権利を考える。",
+    "subfield": "言語学",
+    "school_of_thought": "批判的社会言語学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "linguistic justice,language rights",
+    "key_researchers": ["Philippe Van Parijs", "Robert Phillipson", "Ingrid Piller"]
+  },
+  {
+    "name_ja": "批判的談話研究のデジタル化",
+    "name_en": "Digital Critical Discourse Studies",
+    "definition": "SNS、ニュースサイト、動画、コメント欄、検索結果などのデジタル言説を、権力、差別、ナショナリズム、感情政治の観点から分析する研究。計量分析と質的解釈を組み合わせる。",
+    "subfield": "言語学",
+    "school_of_thought": "批判的談話分析",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital discourse,critical discourse analysis",
+    "key_researchers": ["Ruth Wodak", "Teun van Dijk", "John E. Richardson"]
+  },
+  {
+    "name_ja": "AI生成言語の言語学",
+    "name_en": "Linguistics of AI-Generated Language",
+    "definition": "大規模言語モデルが生成する文章を、意味、語用論、文体、著者性、対話、翻訳、教育の観点から分析する新しい領域。人間の言語能力と統計的生成の差異や重なりを問う。",
+    "subfield": "言語学",
+    "school_of_thought": "計算言語学・語用論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "large language models,pragmatics",
+    "key_researchers": ["Emily M. Bender", "Timnit Gebru", "Christopher Manning"]
+  },
+  {
+    "name_ja": "生成AI文学論",
+    "name_en": "Generative AI Literary Theory",
+    "definition": "生成AIによる詩、小説、批評、翻訳が、作者性、創造性、模倣、読者、著作権、文学制度に与える影響を考える概念。人間の表現と機械生成物の境界を文学理論から検討する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポストデジタル文学理論",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "generative AI,authorship",
+    "key_researchers": ["N. Katherine Hayles", "Mark Amerika", "Joanna Zylinska"]
+  },
+  {
+    "name_ja": "ポストデジタル美学",
+    "name_en": "Post-Digital Aesthetics",
+    "definition": "デジタル技術が特別な新奇性ではなく日常環境に溶け込んだ後の芸術、文学、デザイン、身体感覚を考える概念。アナログとデジタルの混成、ノイズ、労働、物質性を重視する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "メディア美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-digital,aesthetics",
+    "key_researchers": ["Florian Cramer", "Christian Ulrik Andersen", "Geoff Cox"]
+  },
+  {
+    "name_ja": "メタモダニズム",
+    "name_en": "Metamodernism",
+    "definition": "ポストモダン的な懐疑と、近代的な希望や誠実さのあいだを振動する文化的感性を指す概念。文学、映画、政治、芸術におけるアイロニー以後の情動や共同性を分析する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "現代文化理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "metamodernism,sincerity",
+    "key_researchers": ["Timotheus Vermeulen", "Robin van den Akker", "Alison Gibbons"]
+  },
+  {
+    "name_ja": "新誠実主義",
+    "name_en": "New Sincerity",
+    "definition": "冷笑やアイロニーに距離を置き、脆弱性、信頼、感情、共同性を再び表現の中心に置こうとする文化的傾向。現代文学や映像文化において、ポストモダン以後の倫理的態度として論じられる。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "ポストポストモダン論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "new sincerity,post-postmodernism",
+    "key_researchers": ["David Foster Wallace", "Adam Kelly", "Lee Konstantinou"]
+  },
+  {
+    "name_ja": "遅い暴力",
+    "name_en": "Slow Violence",
+    "definition": "環境破壊、毒性物質、植民地主義、貧困、気候変動のように、即時の事件として見えにくい長期的被害を捉える概念。文学や歴史記述を通じて不可視の苦痛を可視化する。",
+    "subfield": "詩学・文学理論",
+    "school_of_thought": "環境批評・ポストコロニアル理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "slow violence,environmental justice",
+    "key_researchers": ["Rob Nixon", "Amitav Ghosh", "Elizabeth DeLoughrey"]
+  },
+  {
+    "name_ja": "災害人文学",
+    "name_en": "Disaster Humanities",
+    "definition": "地震、津波、感染症、原発事故、気候災害を、記憶、証言、倫理、地域社会、メディア、復興政策の観点から研究する領域。災害を自然現象だけでなく社会的経験として扱う。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "記憶研究・環境人文学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disaster humanities,memory",
+    "key_researchers": ["Rebecca Solnit", "Anne Allison", "Kim Fortun"]
+  },
+  {
+    "name_ja": "パンデミック人文学",
+    "name_en": "Pandemic Humanities",
+    "definition": "感染症を医学的事象に限定せず、隔離、身体、死者の記憶、労働、差別、ケア、国家権力、科学不信の問題として扱う領域。COVID-19以後、人文学的記録と倫理が重視された。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "医療人文学・記憶研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "pandemic,medical humanities",
+    "key_researchers": ["Priscilla Wald", "Arthur Kleinman", "Didier Fassin"]
+  },
+  {
+    "name_ja": "医療人文学",
+    "name_en": "Medical Humanities",
+    "definition": "病い、死、ケア、診断、患者経験、医療制度を、文学、哲学、歴史、倫理、芸術を通じて理解する領域。医学の客観的知と当事者の語りを接続し、医療の人間的側面を問う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "生命倫理学・ナラティブ医学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "medical humanities,narrative medicine",
+    "key_researchers": ["Rita Charon", "Arthur Kleinman", "Havi Carel"]
+  },
+  {
+    "name_ja": "ナラティブ倫理",
+    "name_en": "Narrative Ethics",
+    "definition": "倫理的判断を抽象原理だけでなく、人生の物語、証言、記憶、関係性のなかで理解する考え方。医療、文学、法、ケアの現場で、誰が語り、誰の物語が聞かれるかを問う。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "物語倫理学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "narrative ethics,testimony",
+    "key_researchers": ["Martha Nussbaum", "Rita Charon", "Hilde Lindemann"]
+  },
+  {
+    "name_ja": "記憶の政治",
+    "name_en": "Politics of Memory",
+    "definition": "戦争、植民地支配、ジェノサイド、災害、差別の記憶が、国家、博物館、教育、記念碑、メディアによってどのように形成されるかを分析する概念。忘却と承認の権力を問う。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "記憶研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "memory politics,collective memory",
+    "key_researchers": ["Aleida Assmann", "Pierre Nora", "Michael Rothberg"]
+  },
+  {
+    "name_ja": "多方向的記憶",
+    "name_en": "Multidirectional Memory",
+    "definition": "異なる歴史的暴力の記憶を競合関係としてではなく、相互に照らし合い、連帯や新しい理解を生むものとして捉える概念。ホロコースト、植民地主義、奴隷制、戦争記憶の接続を扱う。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "記憶研究・比較歴史論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "multidirectional memory,trauma",
+    "key_researchers": ["Michael Rothberg", "Marianne Hirsch", "Andreas Huyssen"]
+  },
+  {
+    "name_ja": "アーカイブの政治",
+    "name_en": "Politics of the Archive",
+    "definition": "アーカイブを中立的な保存場所ではなく、何が記録され、分類され、アクセス可能になり、何が失われるかを決める権力装置として捉える概念。デジタル化や脱植民地化とも深く関わる。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "アーカイブ研究・ポストコロニアル理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "archive,archival politics",
+    "key_researchers": ["Jacques Derrida", "Ann Laura Stoler", "Ariella Aïsha Azoulay"]
+  },
+  {
+    "name_ja": "証言研究の再編",
+    "name_en": "Reconfigured Testimony Studies",
+    "definition": "戦争、災害、性暴力、医療、移民経験などの証言を、歴史資料であると同時に倫理的応答を求める語りとして扱う領域。聞き手の責任、沈黙、翻訳、二次証言の問題を扱う。",
+    "subfield": "歴史学・歴史哲学",
+    "school_of_thought": "証言研究・トラウマ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "testimony,witnessing",
+    "key_researchers": ["Shoshana Felman", "Dori Laub", "Marianne Hirsch"]
+  },
+  {
+    "name_ja": "移民の哲学",
+    "name_en": "Philosophy of Migration",
+    "definition": "国境、亡命、市民権、労働、家族、文化的帰属をめぐる倫理と政治を扱う領域。移動の自由、国家主権、難民保護、排外主義をめぐり、正義論を現代的に再構成する。",
+    "subfield": "倫理学・政治哲学",
+    "school_of_thought": "グローバル正義論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "migration,borders",
+    "key_researchers": ["Joseph Carens", "Seyla Benhabib", "Ayelet Shachar"]
+  },
+  {
+    "name_ja": "国境の人類学",
+    "name_en": "Anthropology of Borders",
+    "definition": "国境を地図上の線ではなく、検問、収容、書類、監視技術、労働市場、日常実践によって作られる社会的装置として分析する領域。移民や難民の経験から国家を捉え直す。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "批判的国境研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "border studies,migration",
+    "key_researchers": ["Nicholas De Genova", "Sandro Mezzadra", "Shahram Khosravi"]
+  },
+  {
+    "name_ja": "インフラストラクチャー研究",
+    "name_en": "Infrastructure Studies",
+    "definition": "道路、港湾、電力網、通信網、水道、データセンターなどを、技術設備にとどまらず、政治、感情、労働、環境、国家形成を支えるものとして分析する人類学的・歴史的領域。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "インフラ人類学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "infrastructure,material politics",
+    "key_researchers": ["Brian Larkin", "Susan Leigh Star", "Ashley Carse"]
+  },
+  {
+    "name_ja": "ロジスティクス批判",
+    "name_en": "Logistics Critique",
+    "definition": "物流、サプライチェーン、倉庫、港湾、配送プラットフォームを現代資本主義の中心装置として分析する概念。移動の効率化の背後にある労働搾取、環境負荷、国境管理を問う。",
+    "subfield": "文化人類学・民族誌",
+    "school_of_thought": "批判的物流研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "logistics,supply chains",
+    "key_researchers": ["Deborah Cowen", "Sandro Mezzadra", "Brett Neilson"]
+  }
+]
+tokens used
+14,466

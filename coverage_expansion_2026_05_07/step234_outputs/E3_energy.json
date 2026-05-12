@@ -1,0 +1,40 @@
+度を下げる材料技術である。昼間放射冷却により建物冷房、冷蔵、太陽電池冷却の省エネが期待される。",
+    "impact_summary": "電力を使わない冷却手段を提供し、暑熱適応と冷房需要削減の新しい材料技術を示した。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "受動冷却材料",
+    "era_start": 2014,
+    "era_end": null,
+    "keywords_ja": "放射冷却,赤外窓,受動冷却,冷房削減",
+    "keywords_en": "radiative cooling,atmospheric window,passive cooling,cooling reduction",
+    "key_researchers": ["Aaswath Raman", "Shanhui Fan"],
+    "key_works": ["Passive Radiative Cooling Below Ambient Air Temperature Under Direct Sunlight (2014)"]
+  },
+  {
+    "name_ja": "都市ヒートアイランド緩和",
+    "name_en": "Urban Heat Island Mitigation",
+    "definition": "都市の舗装、建物密度、排熱、緑地不足により気温が上昇する現象を、緑化、クールルーフ、透水性舗装、排熱削減、都市設計で緩和する概念である。冷房需要と健康リスクに関係する。",
+    "impact_summary": "都市の冷房エネルギーと熱中症リスクを減らし、気候適応と建物省エネを結びつけた。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "都市気候エネルギー",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_ja": "ヒートアイランド,緑化,排熱,冷房需要",
+    "keywords_en": "heat island,greening,waste heat,cooling demand",
+    "key_researchers": ["T. R. Oke", "Hashem Akbari"],
+    "key_works": ["Boundary Layer Climates (1987)"]
+  },
+  {
+    "name_ja": "エネルギー・デマンド・サイド・フレキシビリティ市場",
+    "name_en": "Demand-Side Flexibility Market",
+    "definition": "需要家の負荷削減、負荷移動、蓄熱、EV充電制御、分散蓄電を市場で調達し、需給調整や混雑緩和に使う制度である。アグリゲーター、計測、ベースライン算定が重要となる。",
+    "impact_summary": "需要側資源に明確な収益機会を与え、発電所に頼らない柔軟性確保を可能にした。",
+    "subfield": "エネルギー工学",
+    "school_of_thought": "柔軟性市場設計",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_ja": "需要柔軟性,アグリゲーター,ベースライン,市場",
+    "keywords_en": "demand flexibility,aggregator,baseline,market",
+    "key_researchers": ["European Commission", "FERC"],
+    "key_works": ["FERC Order 2222 (2020)"]
+  }
+]

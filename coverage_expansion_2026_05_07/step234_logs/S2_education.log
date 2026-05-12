@@ -1,0 +1,105 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e04d7-e0de-7fb2-8879-986abe5e8ad3
+--------
+user
+あなたは学術概念の専門エージェントです。「教育学・学習科学」分野について、250件の重要な理論・概念・モデル・運動を JSON 配列で出力してください。
+
+以下の必須概念を必ず含めてください：
+- デザイン研究方法論
+- 学習科学コンピュテーショナルアプローチ
+- AI教育研究
+- インクルーシブ教育
+
+各エントリは以下の形式：
+{
+  "name_ja": "日本語名",
+  "name_en": "English Name",
+  "definition": "100文字以上の定義",
+  "impact_summary": "50文字以上の影響まとめ",
+  "subfield": "教育学・学習科学",
+  "school_of_thought": "学派・流派",
+  "era_start": 整数年,
+  "era_end": 整数年または null,
+  "keywords_ja": "カンマ区切り",
+  "keywords_en": "keyword1,keyword2",
+  "key_researchers": ["主要研究者"],
+  "key_works": ["主要著作 (年)"]
+}
+
+重要要件:
+- subfield フィールドは必ず「教育学・学習科学」に統一する（変更不可）
+- 創設期から最新2025年まで時代分布を均等に（特に2015-2025の最新理論を30%以上）
+- 確実に存在する概念のみ。重複なし
+- JSON配列のみ出力（コードフェンス・説明文不要）
+- 250件全て出力するまで止めない
+codex
+[
+  {
+    "name_ja": "インクルーシブ教育",
+    "name_en": "Inclusive Education",
+    "definition": "障害、言語、文化、ジェンダー、貧困などによる排除を減らし、すべての学習者が同じ教育共同体で参加し学ぶ権利を保障する教育理念と制度設計である。",
+    "impact_summary": "特別支援と通常教育の分離を問い直し、学校改革、合理的配慮、参加保障の国際的基準を形成した。",
+    "subfield": "教育学・学習科学",
+    "school_of_thought": "権利基盤教育・批判的教育学",
+    "era_start": 1994,
+    "era_end": null,
+    "keywords_ja": "包摂,合理的配慮,多様性,参加,特別支援",
+    "keywords_en": "inclusion,reasonable accommodation,diversity,participation,special education",
+    "key_researchers": ["Mel Ainscow", "Tony Booth", "Lani Florian"],
+    "key_works": ["The Salamanca Statement (1994)", "Index for Inclusion (2000)"]
+  },
+  {
+    "name_ja": "デザイン研究方法論",
+    "name_en": "Design-Based Research",
+    "definition": "実践現場で学習環境や教材を設計、実装、分析、再設計しながら、局所的改善と一般化可能な理論生成を同時に目指す教育研究方法論である。",
+    "impact_summary": "研究と実践の断絶を縮小し、学習科学における介入研究、設計原理、反復的改善の標準的方法となった。",
+    "subfield": "教育学・学習科学",
+    "school_of_thought": "学習科学・デザイン研究",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_ja": "設計研究,反復改善,介入研究,設計原理,実践知",
+    "keywords_en": "design-based research,iteration,intervention,design principles,learning sciences",
+    "key_researchers": ["Ann Brown", "Allan Collins", "William Sandoval"],
+    "key_works": ["Design Experiments (1992)", "Design-Based Research: An Emerging Paradigm (2003)"]
+  },
+  {
+    "name_ja": "学習科学コンピュテーショナルアプローチ",
+    "name_en": "Computational Approaches in the Learning Sciences",
+    "definition": "学習過程をログ、相互作用データ、モデル、シミュレーション、機械学習によって記述し、個人と集団の理解、協調、知識構築を分析する研究潮流である。",
+    "impact_summary": "大規模データに基づく学習分析、適応支援、協調学習研究を結び、学習科学の方法論を拡張した。",
+    "subfield": "教育学・学習科学",
+    "school_of_thought": "計算学習科学",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_ja": "計算モデル,学習分析,機械学習,ログデータ,シミュレーション",
+    "keywords_en": "computational modeling,learning analytics,machine learning,log data,simulation",
+    "key_researchers": ["Ryan Baker", "Carolyn Rosé", "Vincent Aleven"],
+    "key_works": ["Handbook of Learning Analytics (2017)", "International Handbook of the Learning Sciences (2018)"]
+  },
+  {
+    "name_ja": "AI教育研究",
+    "name_en": "Artificial Intelligence in Education",
+    "definition": "人工知能を用いて学習者モデル、知的チュータリング、自然言語対話、評価、推薦、教師支援を設計し、教育の個別化と質向上を検討する研究領域である。",
+    "impact_summary": "知的学習支援、学習分析、自動評価、生成AI活用を教育研究と政策の主要課題へ押し上げた。",
+    "subfield": "教育学・学習科学",
+    "school_of_thought": "AIED・教育工学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_ja": "人工知能,知的チュータ,学習者モデル,自動評価,生成AI",
+    "keywords_en": "AIED,intelligent tutoring,learner modeling,automated assessment,generative AI",
+    "key_researchers": ["Beverly Park Woolf", "Rose Luckin", "Arthur Graesser"],
+    "key_works": ["Building Intelligent Interactive Tutors (2009)", "Intelligence Unleashed (2016)"]
+  }
+]
+tokens used
+5,138

@@ -1,0 +1,28 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e067f-7db8-7f30-9a77-5beb5c59c32c
+--------
+user
+social_theory（2015-2025の社会科学新概念）の重要概念120件を JSON 配列で出力してください。
+
+必須概念: プラットフォーム資本主義、気候社会学、長期主義、ロングターミズム批判、AI社会学、アルゴリズムバイアス研究、監視資本主義、ケアエコノミー、脱成長、Doughnut経済学
+
+各エントリの形式:
+{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上の定義","impact_summary":"50文字以上の影響","subfield":"分野横断 - 該当サブフィールド名","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"キーワード","keywords_en":"keyword","key_researchers":["名前"],"key_works":["著作 (年)"]}
+
+要件:
+- 主に 2015-2025 年の理論・概念に焦点
+- 内部知識のみ使用、web検索しない
+- subfield フィールドは 社会学理論、政治学、経済学、心理学、教育学・学習科学、メディア・コミュニケーション論、法学・法哲学、地理学・空間論、公共政策・ガバナンス、国際関係論・比較政治、文化研究・批判理論、経営・組織論、開発・グローバル研究 のいずれかを指定
+- 重複なし、120件出力
+- JSON配列のみ（説明・コードフェンス禁止）
+

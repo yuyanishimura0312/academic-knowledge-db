@@ -1,0 +1,820 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e097f-1df0-78a3-99e3-fd237218d04c
+--------
+user
+「医学・臨床科学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+免疫療法、mRNAワクチン、プレシジョンメディシン、AI診断、ゲノム編集治療
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"医学・臨床科学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "免疫療法",
+    "name_en": "Immunotherapy",
+    "definition": "免疫療法は、患者自身の免疫系を利用して疾患、とくにがんや自己免疫疾患、感染症を制御する治療概念である。チェックポイント阻害薬、CAR-T細胞療法、抗体医薬などを含み、腫瘍と宿主免疫の相互作用を治療標的として捉える。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "腫瘍免疫学",
+    "era_start": 1891,
+    "era_end": null,
+    "keywords_en": "immune checkpoint,CAR-T,monoclonal antibody",
+    "key_researchers": ["William Coley", "James P. Allison", "Tasuku Honjo"]
+  },
+  {
+    "name_ja": "mRNAワクチン",
+    "name_en": "mRNA Vaccine",
+    "definition": "mRNAワクチンは、抗原タンパク質を体内で一時的に産生させるメッセンジャーRNAを投与し、免疫応答を誘導するワクチン技術である。迅速な設計と製造が可能で、脂質ナノ粒子による送達技術と組み合わさり感染症やがん免疫療法に応用される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子ワクチン学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "messenger RNA,lipid nanoparticle,vaccine platform",
+    "key_researchers": ["Katalin Kariko", "Drew Weissman", "Robert Malone"]
+  },
+  {
+    "name_ja": "プレシジョンメディシン",
+    "name_en": "Precision Medicine",
+    "definition": "プレシジョンメディシンは、遺伝情報、分子病態、生活環境、臨床データを統合し、患者ごとに最適化された診断、予防、治療を行う医療概念である。従来の平均的治療から、個別のリスクや薬剤反応性に基づく意思決定へ移行させる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "個別化医療",
+    "era_start": 2011,
+    "era_end": null,
+    "keywords_en": "personalized medicine,biomarker,genomics",
+    "key_researchers": ["Francis Collins", "Eric Topol", "Mary-Claire King"]
+  },
+  {
+    "name_ja": "AI診断",
+    "name_en": "AI-assisted Diagnosis",
+    "definition": "AI診断は、機械学習や深層学習を用いて画像、検査値、病理標本、電子カルテなどを解析し、疾患検出や鑑別診断を支援する臨床技術である。医師の判断を代替するだけでなく、見落とし低減、効率化、予後予測にも利用される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "医療情報学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "machine learning,clinical decision support,medical imaging",
+    "key_researchers": ["Edward Shortliffe", "Geoffrey Hinton", "Eric Topol"]
+  },
+  {
+    "name_ja": "ゲノム編集治療",
+    "name_en": "Genome Editing Therapy",
+    "definition": "ゲノム編集治療は、CRISPR-Casなどの技術で疾患原因遺伝子を標的化し、変異の修正、遺伝子破壊、発現制御を行う治療戦略である。遺伝性疾患、血液疾患、がん、感染症に応用されるが、オフターゲット効果や倫理課題も重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "遺伝子治療学",
+    "era_start": 2012,
+    "era_end": null,
+    "keywords_en": "CRISPR-Cas9,gene therapy,off-target effects",
+    "key_researchers": ["Jennifer Doudna", "Emmanuelle Charpentier", "Feng Zhang"]
+  },
+  {
+    "name_ja": "抗菌薬耐性",
+    "name_en": "Antimicrobial Resistance",
+    "definition": "抗菌薬耐性は、細菌や真菌などの病原体が薬剤に抵抗性を獲得し、標準治療が効きにくくなる現象である。抗菌薬の不適切使用、医療関連感染、農畜産での使用が影響し、感染症治療と公衆衛生に重大な脅威をもたらす。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "感染症疫学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "antibiotic resistance,stewardship,superbugs",
+    "key_researchers": ["Alexander Fleming", "Stuart Levy"]
+  },
+  {
+    "name_ja": "エビデンスに基づく医療",
+    "name_en": "Evidence-Based Medicine",
+    "definition": "エビデンスに基づく医療は、臨床研究から得られた最良の科学的根拠、医師の専門性、患者の価値観を統合して診療判断を行う方法論である。ランダム化比較試験、メタ解析、診療ガイドラインを重視し、経験主義だけに依存しない医療を目指す。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "臨床疫学",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "clinical epidemiology,randomized trial,guidelines",
+    "key_researchers": ["David Sackett", "Gordon Guyatt", "Archie Cochrane"]
+  },
+  {
+    "name_ja": "ランダム化比較試験",
+    "name_en": "Randomized Controlled Trial",
+    "definition": "ランダム化比較試験は、対象者を無作為に介入群と対照群へ割り付け、治療や予防法の効果を因果的に評価する研究デザインである。交絡を減らし、盲検化や事前登録と組み合わせることで、臨床介入の有効性と安全性を検証する基盤となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "臨床試験学",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "randomization,control group,causal inference",
+    "key_researchers": ["Austin Bradford Hill", "Richard Doll"]
+  },
+  {
+    "name_ja": "コホート研究",
+    "name_en": "Cohort Study",
+    "definition": "コホート研究は、特定の集団を時間に沿って追跡し、曝露と疾患発生の関連を調べる観察研究である。喫煙、食事、環境要因、遺伝的背景などの長期影響を評価でき、疾患リスク、予後因子、予防医学の根拠形成に重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "疫学",
+    "era_start": 1948,
+    "era_end": null,
+    "keywords_en": "prospective cohort,risk factor,incidence",
+    "key_researchers": ["Thomas Dawber", "Richard Doll"]
+  },
+  {
+    "name_ja": "ケースコントロール研究",
+    "name_en": "Case-Control Study",
+    "definition": "ケースコントロール研究は、疾患を有する症例群と有しない対照群を比較し、過去の曝露や危険因子を推定する観察研究である。まれな疾患や潜伏期間の長い疾患の研究に適し、オッズ比を用いて曝露と疾患の関連を評価する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "疫学",
+    "era_start": 1926,
+    "era_end": null,
+    "keywords_en": "case-control,odds ratio,retrospective study",
+    "key_researchers": ["Janet Lane-Claypon", "Cornfield Jerome"]
+  },
+  {
+    "name_ja": "診療ガイドライン",
+    "name_en": "Clinical Practice Guidelines",
+    "definition": "診療ガイドラインは、疾患の診断、治療、予防に関する推奨を、系統的レビューと専門家合意に基づいて整理した文書である。医療の標準化、質改善、患者説明に役立つ一方、個別事情や新規エビデンスへの柔軟な対応も求められる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "医療品質管理",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "guidelines,recommendation,quality improvement",
+    "key_researchers": ["Gordon Guyatt", "David Eddy"]
+  },
+  {
+    "name_ja": "システマティックレビュー",
+    "name_en": "Systematic Review",
+    "definition": "システマティックレビューは、明確な研究疑問に対して文献検索、選択、質評価、統合を事前規定の手順で行う研究方法である。個別研究のばらつきや出版バイアスを検討し、診療ガイドラインや政策判断の根拠として利用される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "臨床疫学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "systematic review,evidence synthesis,bias assessment",
+    "key_researchers": ["Archie Cochrane", "Iain Chalmers"]
+  },
+  {
+    "name_ja": "メタ解析",
+    "name_en": "Meta-analysis",
+    "definition": "メタ解析は、複数の独立した研究結果を統計的に統合し、効果量や不確実性を推定する方法である。臨床試験や観察研究の知見を量的にまとめ、異質性、感度分析、出版バイアスを検討することで医療判断の精度を高める。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "生物統計学",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "effect size,heterogeneity,forest plot",
+    "key_researchers": ["Gene Glass", "Julian Higgins"]
+  },
+  {
+    "name_ja": "バイオマーカー",
+    "name_en": "Biomarker",
+    "definition": "バイオマーカーは、疾患状態、リスク、治療反応、予後を客観的に示す生体指標である。血液検査、遺伝子変異、タンパク質、画像所見などが含まれ、早期診断、患者層別化、薬剤選択、臨床試験の評価項目に使われる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子診断学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "biomarker,diagnostics,prognosis",
+    "key_researchers": ["Rudolf Virchow", "George Poste"]
+  },
+  {
+    "name_ja": "コンパニオン診断",
+    "name_en": "Companion Diagnostics",
+    "definition": "コンパニオン診断は、特定の治療薬が有効または安全に使える患者を同定するための検査である。HER2、EGFR、ALKなどの分子異常を調べ、標的治療薬の適応判断に用いられ、薬剤開発と診断技術を一体化させる概念である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子腫瘍学",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "companion diagnostics,targeted therapy,patient stratification",
+    "key_researchers": ["Dennis Slamon", "Brian Druker"]
+  },
+  {
+    "name_ja": "分子標的治療",
+    "name_en": "Targeted Therapy",
+    "definition": "分子標的治療は、疾患を駆動する特定の分子、受容体、シグナル伝達経路を選択的に阻害または調節する治療法である。がん領域で特に発展し、従来の細胞傷害性治療よりも病態に即した薬剤選択を可能にした。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子医学",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "targeted therapy,kinase inhibitor,oncogene",
+    "key_researchers": ["Brian Druker", "Tony Hunter", "Dennis Slamon"]
+  },
+  {
+    "name_ja": "チェックポイント阻害薬",
+    "name_en": "Immune Checkpoint Inhibitors",
+    "definition": "チェックポイント阻害薬は、PD-1、PD-L1、CTLA-4など免疫抑制経路を阻害し、T細胞の抗腫瘍応答を再活性化する薬剤である。悪性黒色腫、肺がん、腎がんなどで治療成績を変えたが、免疫関連有害事象の管理が重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "腫瘍免疫学",
+    "era_start": 2011,
+    "era_end": null,
+    "keywords_en": "PD-1,CTLA-4,cancer immunotherapy",
+    "key_researchers": ["James P. Allison", "Tasuku Honjo"]
+  },
+  {
+    "name_ja": "CAR-T細胞療法",
+    "name_en": "CAR T-cell Therapy",
+    "definition": "CAR-T細胞療法は、患者またはドナー由来T細胞にキメラ抗原受容体を導入し、腫瘍細胞を認識して攻撃させる細胞治療である。血液がんで顕著な効果を示し、サイトカイン放出症候群や神経毒性への対応が臨床上の要点となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "細胞治療学",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "CAR-T,adoptive cell therapy,cytokine release syndrome",
+    "key_researchers": ["Zelig Eshhar", "Carl June", "Michel Sadelain"]
+  },
+  {
+    "name_ja": "遺伝子治療",
+    "name_en": "Gene Therapy",
+    "definition": "遺伝子治療は、疾患の原因となる遺伝子異常や発現異常を補正するため、遺伝子を導入、置換、抑制する治療概念である。ウイルスベクターや非ウイルス送達を用い、単一遺伝子疾患、がん、眼科疾患などで臨床応用が進む。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子治療学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "gene therapy,viral vector,transgene",
+    "key_researchers": ["Theodore Friedmann", "W. French Anderson"]
+  },
+  {
+    "name_ja": "再生医療",
+    "name_en": "Regenerative Medicine",
+    "definition": "再生医療は、細胞、組織工学、成長因子、幹細胞技術を用いて損傷組織や臓器の機能回復を目指す医療分野である。移植医療の限界を補い、心筋、神経、角膜、軟骨など多様な組織の修復と置換に応用される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "組織工学",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "regenerative medicine,tissue engineering,stem cells",
+    "key_researchers": ["Robert Langer", "Joseph Vacanti", "Shinya Yamanaka"]
+  },
+  {
+    "name_ja": "iPS細胞",
+    "name_en": "Induced Pluripotent Stem Cells",
+    "definition": "iPS細胞は、体細胞に特定因子を導入して多能性を獲得させた人工多能性幹細胞である。患者由来細胞から疾患モデルや薬剤評価系を作成でき、再生医療や個別化医療に大きな可能性を開いたが、腫瘍化リスク管理が必要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "幹細胞医学",
+    "era_start": 2006,
+    "era_end": null,
+    "keywords_en": "iPSC,pluripotency,reprogramming",
+    "key_researchers": ["Shinya Yamanaka", "Kazutoshi Takahashi"]
+  },
+  {
+    "name_ja": "幹細胞移植",
+    "name_en": "Stem Cell Transplantation",
+    "definition": "幹細胞移植は、造血幹細胞などを移植して血液や免疫系の再構築を図る治療法である。白血病、リンパ腫、先天性免疫不全などで用いられ、自家移植と同種移植があり、移植片対宿主病や感染管理が重要となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "血液腫瘍学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "hematopoietic stem cell,bone marrow transplant,GVHD",
+    "key_researchers": ["E. Donnall Thomas", "Georges Mathe"]
+  },
+  {
+    "name_ja": "臓器移植",
+    "name_en": "Organ Transplantation",
+    "definition": "臓器移植は、不可逆的に機能不全となった臓器をドナー臓器で置換し、生命維持や生活の質改善を図る治療である。腎臓、肝臓、心臓、肺などが対象となり、免疫抑制、拒絶反応、臓器配分倫理が中心課題である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "移植医学",
+    "era_start": 1954,
+    "era_end": null,
+    "keywords_en": "organ transplant,rejection,immunosuppression",
+    "key_researchers": ["Joseph Murray", "Thomas Starzl"]
+  },
+  {
+    "name_ja": "遠隔医療",
+    "name_en": "Telemedicine",
+    "definition": "遠隔医療は、通信技術を用いて離れた場所にいる患者へ診療、相談、モニタリング、専門医支援を提供する医療形態である。慢性疾患管理、へき地医療、感染症流行時の診療継続に有用で、医療アクセスと安全性の改善に寄与する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "デジタルヘルス",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "telemedicine,remote monitoring,digital health",
+    "key_researchers": ["Kenneth Bird", "Rashid Bashshur"]
+  },
+  {
+    "name_ja": "ウェアラブル医療機器",
+    "name_en": "Wearable Medical Devices",
+    "definition": "ウェアラブル医療機器は、身体に装着して心拍、血糖、活動量、睡眠、心電図などを継続的に測定する機器である。日常生活下の生体データを臨床判断に活用し、予防、慢性疾患管理、早期異常検知を支える技術として発展している。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "デジタルヘルス",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "wearables,remote monitoring,continuous data",
+    "key_researchers": ["Eric Topol", "Steven Steinhubl"]
+  },
+  {
+    "name_ja": "電子カルテ",
+    "name_en": "Electronic Health Records",
+    "definition": "電子カルテは、診療記録、検査結果、処方、画像、看護記録などをデジタル形式で管理する医療情報基盤である。情報共有、診療安全、研究利用、医療経営に貢献する一方、相互運用性、入力負担、個人情報保護が課題となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "医療情報学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "electronic health record,interoperability,clinical data",
+    "key_researchers": ["Lawrence Weed", "Clem McDonald"]
+  },
+  {
+    "name_ja": "臨床意思決定支援",
+    "name_en": "Clinical Decision Support",
+    "definition": "臨床意思決定支援は、患者情報と医学知識を組み合わせ、診断、処方、検査、リスク評価に関する推奨や警告を医療者へ提示する仕組みである。電子カルテやAIと連動し、医療安全と標準化を高めるが、警告疲れへの配慮が必要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "医療情報学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "decision support,alert fatigue,clinical informatics",
+    "key_researchers": ["Edward Shortliffe", "Clem McDonald"]
+  },
+  {
+    "name_ja": "画像診断",
+    "name_en": "Medical Imaging",
+    "definition": "画像診断は、X線、CT、MRI、超音波、核医学などを用いて体内構造や機能を可視化し、疾患の発見、病期分類、治療効果判定を行う臨床技術である。非侵襲的に病態を把握でき、救急医療からがん診療まで広く用いられる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "放射線医学",
+    "era_start": 1895,
+    "era_end": null,
+    "keywords_en": "radiology,CT,MRI",
+    "key_researchers": ["Wilhelm Roentgen", "Godfrey Hounsfield", "Paul Lauterbur"]
+  },
+  {
+    "name_ja": "MRI",
+    "name_en": "Magnetic Resonance Imaging",
+    "definition": "MRIは、強力な磁場と電波を用いて体内の水素原子の信号を画像化する診断技術である。軟部組織の描出に優れ、脳、脊髄、関節、心臓、腫瘍診断に不可欠で、放射線被曝がない点も臨床上の利点である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "放射線医学",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "MRI,magnetic resonance,soft tissue imaging",
+    "key_researchers": ["Paul Lauterbur", "Peter Mansfield", "Raymond Damadian"]
+  },
+  {
+    "name_ja": "CT",
+    "name_en": "Computed Tomography",
+    "definition": "CTは、X線を多方向から照射して得たデータをコンピュータで再構成し、体内の断層画像を作る診断技術である。外傷、脳卒中、肺疾患、がん診療に広く使われ、高速撮影と三次元再構成により救急診療を大きく変えた。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "放射線医学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "computed tomography,X-ray,3D reconstruction",
+    "key_researchers": ["Godfrey Hounsfield", "Allan Cormack"]
+  },
+  {
+    "name_ja": "PET",
+    "name_en": "Positron Emission Tomography",
+    "definition": "PETは、陽電子放出核種で標識した薬剤を用いて、糖代謝や受容体発現など体内の機能情報を画像化する核医学検査である。がんの病期診断、認知症評価、心筋バイアビリティ評価に使われ、形態画像と相補的な情報を提供する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "核医学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "PET,FDG,functional imaging",
+    "key_researchers": ["Michael Phelps", "Edward Hoffman"]
+  },
+  {
+    "name_ja": "病理診断",
+    "name_en": "Pathological Diagnosis",
+    "definition": "病理診断は、組織や細胞を顕微鏡、免疫染色、分子検査で解析し、疾患の種類、悪性度、浸潤範囲、治療標的を判定する診断分野である。がん診療では最終診断の基盤となり、治療選択と予後評価に直結する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "病理学",
+    "era_start": 1858,
+    "era_end": null,
+    "keywords_en": "pathology,histology,immunohistochemistry",
+    "key_researchers": ["Rudolf Virchow", "Papanicolaou George"]
+  },
+  {
+    "name_ja": "リキッドバイオプシー",
+    "name_en": "Liquid Biopsy",
+    "definition": "リキッドバイオプシーは、血液などの体液中に存在する循環腫瘍DNA、腫瘍細胞、エクソソームを解析して疾患情報を得る検査である。侵襲が少なく、がんの早期検出、薬剤耐性変異の把握、再発モニタリングに利用される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "分子診断学",
+    "era_start": 1997,
+    "era_end": null,
+    "keywords_en": "liquid biopsy,ctDNA,cancer monitoring",
+    "key_researchers": ["Dennis Lo", "Bert Vogelstein"]
+  },
+  {
+    "name_ja": "次世代シーケンシング",
+    "name_en": "Next-Generation Sequencing",
+    "definition": "次世代シーケンシングは、大量のDNAまたはRNA配列を並列に高速解析する技術である。がん遺伝子パネル、希少疾患診断、感染症ゲノム監視、薬理ゲノム学に応用され、臨床検査と研究の境界を大きく変えた。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "ゲノム医学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "NGS,sequencing,genomic medicine",
+    "key_researchers": ["Shankar Balasubramanian", "David Klenerman", "Jonathan Rothberg"]
+  },
+  {
+    "name_ja": "薬理ゲノム学",
+    "name_en": "Pharmacogenomics",
+    "definition": "薬理ゲノム学は、遺伝的多型が薬物代謝、効果、副作用に及ぼす影響を研究し、薬剤選択や投与量調整へ応用する分野である。CYP酵素、HLA型、標的遺伝子変異などを用い、個別化された安全な薬物療法を支える。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "臨床薬理学",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "pharmacogenomics,CYP450,drug response",
+    "key_researchers": ["Friedrich Vogel", "Werner Kalow"]
+  },
+  {
+    "name_ja": "ワクチン学",
+    "name_en": "Vaccinology",
+    "definition": "ワクチン学は、感染症や一部のがんを予防するため、抗原設計、免疫応答、接種戦略、安全性評価を研究する分野である。弱毒生、 不活化、サブユニット、ウイルスベクター、mRNAなど多様な技術を含み、公衆衛生の中核を担う。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "予防医学",
+    "era_start": 1796,
+    "era_end": null,
+    "keywords_en": "vaccinology,immunization,public health",
+    "key_researchers": ["Edward Jenner", "Louis Pasteur", "Maurice Hilleman"]
+  },
+  {
+    "name_ja": "集団免疫",
+    "name_en": "Herd Immunity",
+    "definition": "集団免疫は、集団内で十分な割合の人が感染やワクチンによって免疫を持つことで、病原体の伝播が抑制され、免疫を持たない人も間接的に保護される現象である。感染力、接触構造、ワクチン効果により必要水準は変動する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "感染症疫学",
+    "era_start": 1923,
+    "era_end": null,
+    "keywords_en": "herd immunity,transmission,vaccination threshold",
+    "key_researchers": ["W. W. C. Topley", "Anderson Roy"]
+  },
+  {
+    "name_ja": "パンデミック対策",
+    "name_en": "Pandemic Preparedness",
+    "definition": "パンデミック対策は、新興感染症が世界的に拡大する事態に備え、監視、検査、ワクチン、治療薬、医療体制、リスクコミュニケーションを整備する公衆衛生戦略である。社会的介入と医療資源配分を組み合わせる必要がある。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "公衆衛生学",
+    "era_start": 1918,
+    "era_end": null,
+    "keywords_en": "pandemic preparedness,surveillance,nonpharmaceutical interventions",
+    "key_researchers": ["Donald Henderson", "Anthony Fauci"]
+  },
+  {
+    "name_ja": "疫学サーベイランス",
+    "name_en": "Epidemiological Surveillance",
+    "definition": "疫学サーベイランスは、疾病発生、死亡、検査陽性、病原体変異などの情報を継続的に収集、解析、還元する公衆衛生活動である。感染症流行の早期検知、政策評価、医療資源配分に不可欠で、データ品質と迅速性が重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "公衆衛生学",
+    "era_start": 1854,
+    "era_end": null,
+    "keywords_en": "surveillance,outbreak detection,public health data",
+    "key_researchers": ["John Snow", "William Farr"]
+  },
+  {
+    "name_ja": "アウトブレイク調査",
+    "name_en": "Outbreak Investigation",
+    "definition": "アウトブレイク調査は、通常より多い疾患発生を確認し、原因、感染源、伝播経路、リスク因子を特定して制御策を実施する疫学的手法である。現場調査、症例定義、接触者追跡、検査解析を組み合わせ、被害拡大を防ぐ。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "実地疫学",
+    "era_start": 1854,
+    "era_end": null,
+    "keywords_en": "outbreak investigation,contact tracing,field epidemiology",
+    "key_researchers": ["John Snow", "Alexander Langmuir"]
+  },
+  {
+    "name_ja": "プライマリケア",
+    "name_en": "Primary Care",
+    "definition": "プライマリケアは、地域で最初に接触する包括的、継続的、協調的な医療であり、急性疾患、慢性疾患、予防、健康相談を幅広く扱う。患者中心性と全人的視点を重視し、専門医療や福祉資源との連携を担う。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "家庭医療学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "primary care,continuity,community medicine",
+    "key_researchers": ["Barbara Starfield", "Ian McWhinney"]
+  },
+  {
+    "name_ja": "慢性疾患管理",
+    "name_en": "Chronic Disease Management",
+    "definition": "慢性疾患管理は、糖尿病、高血圧、心不全、慢性腎臓病など長期にわたる疾患を、継続的評価、生活指導、薬物治療、自己管理支援で制御する医療モデルである。多職種連携と患者教育が治療成績を左右する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "慢性ケアモデル",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "chronic care,self-management,multidisciplinary care",
+    "key_researchers": ["Edward Wagner", "Kate Lorig"]
+  },
+  {
+    "name_ja": "糖尿病管理",
+    "name_en": "Diabetes Management",
+    "definition": "糖尿病管理は、血糖、血圧、脂質、体重、合併症リスクを包括的に評価し、食事、運動、薬物、インスリン、血糖モニタリングを組み合わせる医療実践である。合併症予防と生活の質維持を同時に目指す。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "内分泌代謝学",
+    "era_start": 1921,
+    "era_end": null,
+    "keywords_en": "diabetes,insulin,glycemic control",
+    "key_researchers": ["Frederick Banting", "Charles Best", "Elliott Joslin"]
+  },
+  {
+    "name_ja": "高血圧治療",
+    "name_en": "Hypertension Treatment",
+    "definition": "高血圧治療は、血圧を適切に管理することで脳卒中、心筋梗塞、心不全、腎不全のリスクを低減する臨床実践である。生活習慣改善と降圧薬を組み合わせ、年齢、併存症、臓器障害に応じた目標設定を行う。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "循環器病学",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "hypertension,blood pressure,cardiovascular risk",
+    "key_researchers": ["Edward Freis", "Irvine Page"]
+  },
+  {
+    "name_ja": "心不全管理",
+    "name_en": "Heart Failure Management",
+    "definition": "心不全管理は、心臓のポンプ機能低下に伴う症状、入院、死亡を減らすため、薬物治療、デバイス治療、リハビリ、塩分管理、遠隔モニタリングを統合する医療である。駆出率や原因疾患に応じた層別化が重視される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "循環器病学",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "heart failure,ACE inhibitors,beta blockers",
+    "key_researchers": ["Eugene Braunwald", "Milton Packer"]
+  },
+  {
+    "name_ja": "急性冠症候群",
+    "name_en": "Acute Coronary Syndrome",
+    "definition": "急性冠症候群は、冠動脈プラーク破綻や血栓形成により心筋虚血が急速に生じる病態群で、心筋梗塞と不安定狭心症を含む。迅速な心電図、バイオマーカー評価、再灌流療法が予後を大きく左右する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "循環器救急医学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "acute coronary syndrome,myocardial infarction,reperfusion",
+    "key_researchers": ["Eugene Braunwald", "Valentin Fuster"]
+  },
+  {
+    "name_ja": "脳卒中ユニット",
+    "name_en": "Stroke Unit",
+    "definition": "脳卒中ユニットは、脳梗塞や脳出血の患者を専門チームが集中的に評価、治療、リハビリする専用病棟または診療体制である。早期診断、血栓溶解、血栓回収、嚥下評価、二次予防を統合し、死亡と後遺症を減らす。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "脳卒中医学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "stroke unit,thrombolysis,neurorehabilitation",
+    "key_researchers": ["Vladimir Hachinski", "Kennedy Lees"]
+  },
+  {
+    "name_ja": "がんスクリーニング",
+    "name_en": "Cancer Screening",
+    "definition": "がんスクリーニングは、症状のない集団から早期がんや前がん病変を検出し、死亡率低下を目指す公衆衛生的介入である。乳がん、大腸がん、子宮頸がんなどで実施され、利益と過剰診断、偽陽性のバランスが重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "予防腫瘍学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "cancer screening,early detection,overdiagnosis",
+    "key_researchers": ["George Papanicolaou", "H. Gilbert Welch"]
+  },
+  {
+    "name_ja": "緩和ケア",
+    "name_en": "Palliative Care",
+    "definition": "緩和ケアは、生命を脅かす疾患に伴う苦痛を、身体的、心理的、社会的、スピリチュアルな側面から軽減する医療である。終末期だけでなく診断早期から提供され、患者と家族の生活の質と意思決定を支える。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "全人的医療",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "palliative care,symptom control,quality of life",
+    "key_researchers": ["Cicely Saunders", "Balfour Mount"]
+  },
+  {
+    "name_ja": "疼痛管理",
+    "name_en": "Pain Management",
+    "definition": "疼痛管理は、急性痛、慢性痛、がん疼痛、神経障害性疼痛を評価し、薬物療法、神経ブロック、リハビリ、心理的介入を組み合わせて苦痛を軽減する医療である。痛みを多面的な体験として扱う点が重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "疼痛医学",
+    "era_start": 1965,
+    "era_end": null,
+    "keywords_en": "pain management,opioids,neuropathic pain",
+    "key_researchers": ["Ronald Melzack", "Patrick Wall", "John Bonica"]
+  },
+  {
+    "name_ja": "周術期管理",
+    "name_en": "Perioperative Care",
+    "definition": "周術期管理は、手術前、手術中、手術後の患者状態を最適化し、合併症を減らして回復を促す医療実践である。麻酔、感染予防、栄養、疼痛管理、早期離床、血栓予防を統合し、外科治療の安全性を支える。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "麻酔・外科学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "perioperative care,anesthesia,surgical outcomes",
+    "key_researchers": ["Henry Beecher", "Henrik Kehlet"]
+  },
+  {
+    "name_ja": "低侵襲手術",
+    "name_en": "Minimally Invasive Surgery",
+    "definition": "低侵襲手術は、腹腔鏡、胸腔鏡、内視鏡、ロボット支援技術を用いて小さな切開で手術を行い、痛み、出血、入院期間、回復遅延を減らす外科概念である。視野拡大と精密操作により多くの領域で標準化が進んだ。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "外科学",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "minimally invasive surgery,laparoscopy,robotic surgery",
+    "key_researchers": ["Kurt Semm", "Philippe Mouret"]
+  },
+  {
+    "name_ja": "ロボット支援手術",
+    "name_en": "Robot-assisted Surgery",
+    "definition": "ロボット支援手術は、外科医がコンソールからロボットアームを操作し、高精細な三次元視野と手ぶれ補正を利用して精密な手術を行う技術である。泌尿器科、婦人科、消化器外科などで普及し、教育と費用対効果が論点となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "外科工学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "robotic surgery,da Vinci,surgical precision",
+    "key_researchers": ["Frederic Moll", "Yulun Wang"]
+  },
+  {
+    "name_ja": "集中治療",
+    "name_en": "Intensive Care Medicine",
+    "definition": "集中治療は、生命を脅かす臓器不全を持つ患者に対し、人工呼吸、循環管理、腎代替療法、感染管理、栄養管理を統合して行う専門医療である。多職種チームによる継続監視と迅速な介入が患者転帰に直結する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "救急集中治療医学",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_en": "intensive care,organ failure,mechanical ventilation",
+    "key_researchers": ["Bjorn Ibsen", "Peter Safar"]
+  },
+  {
+    "name_ja": "敗血症管理",
+    "name_en": "Sepsis Management",
+    "definition": "敗血症管理は、感染に対する宿主反応の異常により臓器障害が生じる病態を早期認識し、抗菌薬、感染源制御、輸液、昇圧薬、臓器支持を行う医療である。診断遅延が死亡率を高めるため、時間依存性の対応が重視される。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "救急集中治療医学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "sepsis,septic shock,source control",
+    "key_researchers": ["Roger Bone", "Emanuel Rivers"]
+  },
+  {
+    "name_ja": "人工呼吸管理",
+    "name_en": "Mechanical Ventilation",
+    "definition": "人工呼吸管理は、自発呼吸が不十分な患者に機械的換気を提供し、酸素化と二酸化炭素排出を維持する治療である。ARDS、手術、神経筋疾患、ショックで用いられ、肺保護換気や離脱管理が予後に影響する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "呼吸集中治療",
+    "era_start": 1952,
+    "era_end": null,
+    "keywords_en": "mechanical ventilation,ARDS,lung protective ventilation",
+    "key_researchers": ["Bjorn Ibsen", "Luciano Gattinoni"]
+  },
+  {
+    "name_ja": "救急医療トリアージ",
+    "name_en": "Emergency Triage",
+    "definition": "救急医療トリアージは、多数または緊急度の異なる患者を、重症度、治療緊急性、資源利用可能性に基づいて優先順位付けする仕組みである。災害、救急外来、救急搬送で用いられ、限られた医療資源を最大限有効に使う。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "救急医学",
+    "era_start": 1914,
+    "era_end": null,
+    "keywords_en": "triage,emergency medicine,resource allocation",
+    "key_researchers": ["Dominique Jean Larrey", "Peter Safar"]
+  },
+  {
+    "name_ja": "医療安全",
+    "name_en": "Patient Safety",
+    "definition": "医療安全は、診療過程で生じうる有害事象、誤薬、手術部位誤認、感染、転倒などを予防し、患者への害を最小化する体系的活動である。個人責任だけでなく、システム設計、報告文化、標準化を重視する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "医療品質科学",
+    "era_start": 1999,
+    "era_end": null,
+    "keywords_en": "patient safety,medical errors,safety culture",
+    "key_researchers": ["Lucian Leape", "Donald Berwick"]
+  },
+  {
+    "name_ja": "院内感染対策",
+    "name_en": "Infection Prevention and Control",
+    "definition": "院内感染対策は、医療機関内で発生する感染を予防するため、手指衛生、隔離、環境清掃、抗菌薬適正使用、サーベイランスを行う活動である。患者、医療者、訪問者を守り、耐性菌拡大の抑制にも関与する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "感染制御学",
+    "era_start": 1847,
+    "era_end": null,
+    "keywords_en": "infection control,hand hygiene,nosocomial infection",
+    "key_researchers": ["Ignaz Semmelweis", "Florence Nightingale"]
+  },
+  {
+    "name_ja": "抗菌薬適正使用",
+    "name_en": "Antimicrobial Stewardship",
+    "definition": "抗菌薬適正使用は、感染症治療の有効性を保ちながら、不要または過剰な抗菌薬使用を減らす医療活動である。薬剤選択、投与量、投与期間、培養結果に基づく見直しを行い、耐性菌発生と副作用を抑制する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "感染症薬物療法",
+    "era_start": 1996,
+    "era_end": null,
+    "keywords_en": "antimicrobial stewardship,antibiotic use,resistance prevention",
+    "key_researchers": ["Stuart Levy", "John Bartlett"]
+  },
+  {
+    "name_ja": "メンタルヘルスケア",
+    "name_en": "Mental Health Care",
+    "definition": "メンタルヘルスケアは、うつ病、不安症、統合失調症、双極性障害、依存症などの精神的問題に対して、診断、心理療法、薬物療法、社会支援を提供する医療である。生物心理社会モデルに基づく継続的支援が重要である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "生物心理社会モデル",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "mental health,biopsychosocial model,psychotherapy",
+    "key_researchers": ["George Engel", "Aaron Beck"]
+  },
+  {
+    "name_ja": "認知行動療法",
+    "name_en": "Cognitive Behavioral Therapy",
+    "definition": "認知行動療法は、思考、感情、行動の相互作用に注目し、非適応的な認知や行動パターンを修正する心理療法である。うつ病、不安症、PTSD、不眠症などに有効性が示され、構造化された面接と課題を特徴とする。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "認知行動学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "CBT,cognitive restructuring,behavioral activation",
+    "key_researchers": ["Aaron Beck", "Albert Ellis"]
+  },
+  {
+    "name_ja": "認知症ケア",
+    "name_en": "Dementia Care",
+    "definition": "認知症ケアは、記憶、判断、行動、生活機能の低下を持つ人に対し、診断、薬物療法、非薬物療法、介護支援、家族支援を組み合わせる医療と福祉の実践である。尊厳、生活環境、意思決定支援が中心となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "老年医学",
+    "era_start": 1906,
+    "era_end": null,
+    "keywords_en": "dementia care,Alzheimer disease,person-centered care",
+    "key_researchers": ["Alois Alzheimer", "Tom Kitwood"]
+  },
+  {
+    "name_ja": "老年医学",
+    "name_en": "Geriatric Medicine",
+    "definition": "老年医学は、高齢者に多い多疾患併存、フレイル、認知機能低下、薬剤多剤併用、生活機能障害を総合的に扱う医学分野である。疾患治療だけでなく、機能維持、介護予防、本人の目標に沿った医療を重視する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "総合機能評価",
+    "era_start": 1935,
+    "era_end": null,
+    "keywords_en": "geriatrics,frailty,comprehensive geriatric assessment",
+    "key_researchers": ["Marjory Warren", "Bernard Isaacs"]
+  },
+  {
+    "name_ja": "フレイル",
+    "name_en": "Frailty",
+    "definition": "フレイルは、加齢に伴う予備能力低下により、ストレスに対して転倒、入院、要介護、死亡などの悪化が起こりやすくなる状態である。身体的側面だけでなく、認知、心理、社会的要因を含み、早期介入で改善可能な概念である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "老年医学",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "frailty,aging,resilience",
+    "key_researchers": ["Linda Fried", "Kenneth Rockwood"]
+  },
+  {
+    "name_ja": "リハビリテーション医学",
+    "name_en": "Rehabilitation Medicine",
+    "definition": "リハビリテーション医学は、疾患や外傷による機能障害、活動制限、参加制約を評価し、運動療法、作業療法、言語療法、装具、環境調整で回復と自立を支援する医学である。生活機能を中心に据える点が特徴である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "機能回復医学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "rehabilitation,functional recovery,disability",
+    "key_researchers": ["Howard Rusk", "Ludwig Guttmann"]
+  },
+  {
+    "name_ja": "母子保健",
+    "name_en": "Maternal and Child Health",
+    "definition": "母子保健は、妊娠、出産、産後、乳幼児期を通じて母親と子どもの健康を守る公衆衛生と臨床医療の領域である。妊婦健診、予防接種、栄養、発達評価、周産期医療を含み、世代を超えた健康に影響する。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "公衆衛生学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "maternal health,child health,perinatal care",
+    "key_researchers": ["Virginia Apgar", "Cicely Williams"]
+  },
+  {
+    "name_ja": "周産期医療",
+    "name_en": "Perinatal Medicine",
+    "definition": "周産期医療は、妊娠後期から分娩、新生児期にかけて母体と胎児、新生児の健康を管理する医療分野である。早産、胎児発育不全、妊娠高血圧症候群、新生児集中治療を扱い、母児双方の安全を目指す。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "産科・新生児医学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "perinatal medicine,neonatal care,high-risk pregnancy",
+    "key_researchers": ["Virginia Apgar", "Ian Donald"]
+  },
+  {
+    "name_ja": "医療倫理",
+    "name_en": "Medical Ethics",
+    "definition": "医療倫理は、診療、研究、終末期医療、臓器移植、遺伝子技術などで生じる価値判断を、尊厳、自律、善行、無危害、公正の原則から検討する分野である。患者の意思決定支援と社会的信頼の維持に不可欠である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "生命倫理学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "medical ethics,autonomy,bioethics",
+    "key_researchers": ["Tom Beauchamp", "James Childress"]
+  },
+  {
+    "name_ja": "インフォームドコンセント",
+    "name_en": "Informed Consent",
+    "definition": "インフォームドコンセントは、患者が診療や研究の目的、利益、危険、代替手段を理解したうえで、自発的に同意または拒否する過程である。単なる署名ではなく、患者の自己決定権と医療者の説明責任を支える倫理的・法的概念である。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "患者中心医療",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "informed consent,patient autonomy,shared decision making",
+    "key_researchers": ["Jay Katz", "Ruth Faden"]
+  },
+  {
+    "name_ja": "共有意思決定",
+    "name_en": "Shared Decision Making",
+    "definition": "共有意思決定は、医療者が医学的選択肢と根拠を示し、患者が価値観や生活上の優先事項を伝え、双方で治療方針を決める方法である。複数の合理的選択肢がある場面で特に重要で、患者中心医療を実践する核となる。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "患者中心医療",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "shared decision making,patient preferences,decision aids",
+    "key_researchers": ["Charles Charles", "Glyn Elwyn"]
+  },
+  {
+    "name_ja": "社会的決定要因",
+    "name_en": "Social Determinants of Health",
+    "definition": "社会的決定要因は、所得、教育、雇用、住環境、差別、社会的つながり、医療アクセスなどが健康状態や寿命に影響するという概念である。疾患を個人の生物学だけでなく、社会構造と政策の文脈で理解する視点を与える。",
+    "subfield": "医学・臨床科学",
+    "school_of_thought": "社会医学",
+    "era_start": 1848,
+    "era_end": null,
+    "keywords_en": "social determinants,health inequity,public health",
+    "key_researchers": ["Rudolf Virchow", "Michael Marmot"]
+  }
+]
+tokens used
+14,753

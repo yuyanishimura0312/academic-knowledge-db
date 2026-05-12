@@ -1,0 +1,787 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e09e0-4e54-7d51-b2df-a7f1e2f6da26
+--------
+user
+「美学・芸術哲学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+カント美学、崇高論、趣味判断、感覚の哲学、Everyday aesthetics
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"美学・芸術哲学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "カント美学",
+    "name_en": "Kantian aesthetics",
+    "definition": "カント美学は、美の判断を概念や利害から独立した反省的判断として捉え、主観的でありながら普遍妥当性を要求する点を分析する美学である。自然美、芸術美、趣味、崇高、天才の関係を通じて、近代美学の中心的枠組みを形成した。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ドイツ観念論",
+    "era_start": 1790,
+    "era_end": null,
+    "keywords_en": "judgment,taste,disinterestedness",
+    "key_researchers": ["Immanuel Kant"]
+  },
+  {
+    "name_ja": "崇高論",
+    "name_en": "Theory of the sublime",
+    "definition": "崇高論は、巨大さ、力、恐怖、限界経験などに直面した際に生じる美とは異なる審美的経験を論じる概念である。バークやカント以降、自然、政治、技術、現代芸術の圧倒的表現を理解するための重要な理論となった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "近代美学",
+    "era_start": 1757,
+    "era_end": null,
+    "keywords_en": "sublime,terror,magnitude",
+    "key_researchers": ["Edmund Burke", "Immanuel Kant"]
+  },
+  {
+    "name_ja": "趣味判断",
+    "name_en": "Judgment of taste",
+    "definition": "趣味判断は、対象を美しいと判断する際に、概念的認識や実用的利害ではなく快の感情に基づきながら、他者にも同意を求める判断である。主観性と普遍性の緊張を扱うため、美的判断の哲学的分析において中心的な概念である。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "カント美学",
+    "era_start": 1790,
+    "era_end": null,
+    "keywords_en": "taste,aesthetic judgment,universality",
+    "key_researchers": ["Immanuel Kant", "David Hume"]
+  },
+  {
+    "name_ja": "感覚の哲学",
+    "name_en": "Philosophy of sensation",
+    "definition": "感覚の哲学は、視覚、聴覚、触覚、嗅覚、味覚などの感覚経験が美的価値や芸術理解にどのように関与するかを問う領域である。知覚の身体性、感情、注意、媒体経験を分析し、芸術作品だけでなく環境や日常経験の美学にも関わる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "現象学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "sensation,perception,embodiment",
+    "key_researchers": ["Maurice Merleau-Ponty", "John Dewey"]
+  },
+  {
+    "name_ja": "日常美学",
+    "name_en": "Everyday aesthetics",
+    "definition": "日常美学は、芸術作品や自然美だけでなく、住まい、食事、服装、清掃、移動、都市景観などの日常的経験に含まれる美的価値を分析する領域である。生活実践と感覚的評価の結びつきを重視し、美学の対象を大きく拡張した。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "現代美学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "everyday aesthetics,ordinary experience,environment",
+    "key_researchers": ["Yuriko Saito", "Thomas Leddy"]
+  },
+  {
+    "name_ja": "美的経験",
+    "name_en": "Aesthetic experience",
+    "definition": "美的経験は、対象を実用的、道徳的、科学的目的から離れて、感覚、感情、想像力、注意の働きによって経験するあり方を指す。芸術鑑賞、自然観賞、日常の感覚的充実を説明する基礎概念であり、その自律性や社会性が議論されてきた。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "プラグマティズム美学",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "aesthetic experience,attention,feeling",
+    "key_researchers": ["John Dewey", "Monroe Beardsley"]
+  },
+  {
+    "name_ja": "美的態度",
+    "name_en": "Aesthetic attitude",
+    "definition": "美的態度は、対象を所有、使用、道徳判断などの関心から離し、形態、表現、感覚的性質に注意を向ける心的構えを指す。近代美学では芸術鑑賞の条件として論じられたが、後には社会的文脈や実践から切り離しすぎる点も批判された。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "aesthetic attitude,disinterest,contemplation",
+    "key_researchers": ["Edward Bullough", "Jerome Stolnitz"]
+  },
+  {
+    "name_ja": "無関心性",
+    "name_en": "Disinterestedness",
+    "definition": "無関心性は、美的判断が対象の所有、欲望、利益、道徳的効用から独立して成立するという考えである。カント美学で重要な位置を占め、趣味判断の純粋性を示す一方、フェミニズム美学や社会的美学からは権力や文脈を隠す概念として批判された。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "近代美学",
+    "era_start": 1790,
+    "era_end": null,
+    "keywords_en": "disinterestedness,taste,autonomy",
+    "key_researchers": ["Immanuel Kant", "Jerome Stolnitz"]
+  },
+  {
+    "name_ja": "美的価値",
+    "name_en": "Aesthetic value",
+    "definition": "美的価値は、対象が美しい、優雅である、力強い、調和している、感動的であるなどと評価される際の価値を指す。芸術的価値、認知的価値、道徳的価値との関係が問題となり、価値の客観性、相対性、多元性をめぐる議論の中心にある。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "価値論",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "aesthetic value,evaluation,pluralism",
+    "key_researchers": ["Monroe Beardsley", "Nick Zangwill"]
+  },
+  {
+    "name_ja": "芸術の定義",
+    "name_en": "Definition of art",
+    "definition": "芸術の定義は、何が芸術作品であり、何がそうでないのかを区別する条件を問う問題である。模倣、表現、形式、制度、歴史的連関、意図など多様な基準が提案され、前衛芸術やレディメイドの登場以降、分析美学の重要論点となった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "definition of art,artworld,classification",
+    "key_researchers": ["Arthur Danto", "George Dickie", "Morris Weitz"]
+  },
+  {
+    "name_ja": "模倣説",
+    "name_en": "Mimesis theory",
+    "definition": "模倣説は、芸術を現実、行為、人物、自然、理念などの模倣または再現として理解する古典的理論である。プラトンでは真理から遠い写しとして批判され、アリストテレスでは学習と感情浄化をもたらす人間的活動として評価された。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "古代ギリシア哲学",
+    "era_start": -400,
+    "era_end": null,
+    "keywords_en": "mimesis,representation,imitation",
+    "key_researchers": ["Plato", "Aristotle"]
+  },
+  {
+    "name_ja": "表現説",
+    "name_en": "Expression theory of art",
+    "definition": "表現説は、芸術を作者の感情、内的経験、精神内容の表現として捉える理論である。ロマン主義以降に強まり、作品の価値を感情の真正性や伝達力に求めるが、作者心理への還元や形式的特徴の軽視をめぐって批判も受けてきた。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ロマン主義美学",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "expression,emotion,artist",
+    "key_researchers": ["R. G. Collingwood", "Leo Tolstoy", "Benedetto Croce"]
+  },
+  {
+    "name_ja": "形式主義",
+    "name_en": "Formalism",
+    "definition": "形式主義は、芸術作品の価値や意味を主題、作者、社会的背景よりも、線、色彩、構成、リズム、構造などの形式的性質に求める立場である。近代絵画や音楽の分析に大きな影響を与え、抽象芸術の理論的支柱ともなった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "モダニズム美学",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "formalism,form,significant form",
+    "key_researchers": ["Clive Bell", "Clement Greenberg"]
+  },
+  {
+    "name_ja": "制度的芸術論",
+    "name_en": "Institutional theory of art",
+    "definition": "制度的芸術論は、芸術作品であることを、作品が芸術界の制度や慣習の中で芸術として提示され承認されることによって説明する理論である。デュシャン以後の現代芸術を理解するうえで有力だが、制度の範囲や評価基準の説明不足も問題とされる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "institutional theory,artworld,classification",
+    "key_researchers": ["George Dickie", "Arthur Danto"]
+  },
+  {
+    "name_ja": "芸術界",
+    "name_en": "Artworld",
+    "definition": "芸術界は、作品、作家、批評家、鑑賞者、美術館、ギャラリー、理論、歴史的文脈が相互に関係する社会的かつ解釈的な場を指す。ある物が芸術として理解される条件を説明する概念であり、現代芸術の哲学に大きな影響を与えた。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "artworld,context,interpretation",
+    "key_researchers": ["Arthur Danto", "George Dickie"]
+  },
+  {
+    "name_ja": "芸術の終焉",
+    "name_en": "End of art",
+    "definition": "芸術の終焉は、芸術制作が消滅するという意味ではなく、芸術が特定の歴史的様式や進歩物語に従って発展する時代が終わったという主張である。ヘーゲルやダントーにおいて、芸術の哲学化、多元化、ポスト歴史的状況を考える概念となった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ヘーゲル美学",
+    "era_start": 1820,
+    "era_end": null,
+    "keywords_en": "end of art,history,pluralism",
+    "key_researchers": ["G. W. F. Hegel", "Arthur Danto"]
+  },
+  {
+    "name_ja": "天才論",
+    "name_en": "Theory of genius",
+    "definition": "天才論は、芸術家の創造性を規則に従う技能ではなく、規則を生み出す自然的才能として捉える理論である。カントやロマン主義において重要で、独創性、想像力、霊感の概念を支えたが、個人崇拝や社会的条件の隠蔽としても批判される。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ロマン主義美学",
+    "era_start": 1790,
+    "era_end": null,
+    "keywords_en": "genius,creativity,originality",
+    "key_researchers": ["Immanuel Kant", "Friedrich Schelling"]
+  },
+  {
+    "name_ja": "創造性",
+    "name_en": "Creativity",
+    "definition": "創造性は、既存の規則や慣習を単に適用するのではなく、新しい形式、意味、経験、価値を生み出す能力や過程を指す。芸術家の個人的才能だけでなく、素材、技術、共同制作、社会制度との相互作用としても分析される。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "現代美学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "creativity,innovation,imagination",
+    "key_researchers": ["Margaret Boden", "Berys Gaut"]
+  },
+  {
+    "name_ja": "想像力",
+    "name_en": "Imagination",
+    "definition": "想像力は、現前しないもの、可能なもの、虚構的なもの、感覚的に変形されたものを心的に構成する能力である。美的経験、芸術制作、フィクション理解、比喩、共感に深く関わり、カントから現代分析美学まで幅広く論じられている。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "近代美学",
+    "era_start": 1700,
+    "era_end": null,
+    "keywords_en": "imagination,fiction,possibility",
+    "key_researchers": ["Immanuel Kant", "Kendall Walton"]
+  },
+  {
+    "name_ja": "芸術的意図",
+    "name_en": "Artistic intention",
+    "definition": "芸術的意図は、作者が作品制作や提示において何を意味し、達成し、表現しようとしたかを指す概念である。解釈において作者の意図をどの程度重視すべきかは、意図主義、反意図主義、仮説的意図主義の間で争われている。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "解釈理論",
+    "era_start": 1946,
+    "era_end": null,
+    "keywords_en": "intention,interpretation,author",
+    "key_researchers": ["W. K. Wimsatt", "Monroe Beardsley", "Paisley Livingston"]
+  },
+  {
+    "name_ja": "意図の誤謬",
+    "name_en": "Intentional fallacy",
+    "definition": "意図の誤謬は、作品の意味や価値を作者の意図に還元することを批判する概念である。新批評において提起され、作品を自律した言語的構造として読む態度を支えたが、後には歴史的文脈や制作意図の役割を過小評価する点も議論された。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "新批評",
+    "era_start": 1946,
+    "era_end": null,
+    "keywords_en": "intentional fallacy,author,interpretation",
+    "key_researchers": ["W. K. Wimsatt", "Monroe Beardsley"]
+  },
+  {
+    "name_ja": "芸術解釈",
+    "name_en": "Interpretation of art",
+    "definition": "芸術解釈は、作品が何を意味し、どのように理解されるべきかを、形式、文脈、作者、鑑賞者、歴史、制度などから説明する営みである。複数解釈の妥当性、過剰解釈、意図、証拠、批評実践との関係が主要な論点となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "解釈学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "interpretation,meaning,criticism",
+    "key_researchers": ["Hans-Georg Gadamer", "Arthur Danto"]
+  },
+  {
+    "name_ja": "作品の同一性",
+    "name_en": "Identity of artworks",
+    "definition": "作品の同一性は、ある芸術作品が何によって同じ作品であり続けるのかを問う問題である。絵画の物質的個体性、音楽作品の演奏可能性、文学作品のテキスト性、複製や修復の扱いなど、媒体ごとに異なる条件が分析される。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "存在論的美学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "ontology,artwork identity,type-token",
+    "key_researchers": ["Nelson Goodman", "Jerrold Levinson"]
+  },
+  {
+    "name_ja": "芸術作品の存在論",
+    "name_en": "Ontology of art",
+    "definition": "芸術作品の存在論は、作品が物理的対象、出来事、型、記号構造、実践、制度的対象のいずれとして存在するのかを問う領域である。音楽、演劇、写真、デジタル作品などの違いを通じて、芸術の存在様式を精密に分析する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "ontology,artworks,medium",
+    "key_researchers": ["Nelson Goodman", "Amie Thomasson"]
+  },
+  {
+    "name_ja": "オーセンティシティ",
+    "name_en": "Authenticity",
+    "definition": "オーセンティシティは、芸術作品や演奏、修復、複製が本物であること、または歴史的・表現的に正当であることを指す概念である。作者性、来歴、素材、制作過程、演奏慣習に関わり、美術市場や保存倫理においても重要である。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "芸術存在論",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "authenticity,original,forgery",
+    "key_researchers": ["Nelson Goodman", "Denis Dutton"]
+  },
+  {
+    "name_ja": "贋作問題",
+    "name_en": "Problem of forgery",
+    "definition": "贋作問題は、見た目や感覚的性質が本物と区別できない作品でも、作者や来歴が偽られていれば美的・芸術的価値が変わるのかを問う問題である。知覚可能な性質だけで価値が決まるのか、歴史的事実が評価に関与するのかを明らかにする。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "forgery,authenticity,history",
+    "key_researchers": ["Nelson Goodman", "Denis Dutton"]
+  },
+  {
+    "name_ja": "芸術媒体",
+    "name_en": "Artistic medium",
+    "definition": "芸術媒体は、作品が制作され、提示され、経験されるための物質、技術、記号体系、感覚的条件を指す。絵画、彫刻、映画、写真、音楽、デジタルメディアなどでは媒体固有の可能性と制約が異なり、表現や解釈に影響を与える。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "メディア美学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "medium,materiality,media aesthetics",
+    "key_researchers": ["Clement Greenberg", "Rosalind Krauss"]
+  },
+  {
+    "name_ja": "媒体固有性",
+    "name_en": "Medium specificity",
+    "definition": "媒体固有性は、各芸術媒体には独自の性質、制約、表現可能性があり、優れた作品はそれを自覚的に活用するという考えである。モダニズム美術や映画理論で重要視されたが、複合メディアやインスタレーション芸術の発展により再検討された。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "モダニズム美学",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "medium specificity,modernism,materiality",
+    "key_researchers": ["Clement Greenberg", "Rosalind Krauss"]
+  },
+  {
+    "name_ja": "芸術と道徳",
+    "name_en": "Art and morality",
+    "definition": "芸術と道徳は、作品の倫理的欠陥や美徳が芸術的価値に影響するかを問う論点である。道徳主義、自律主義、倫理的批評の立場があり、差別表現、暴力描写、作者の行為、観客への影響をめぐる現代的議論にも関わる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "倫理的批評",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "ethicism,morality,art criticism",
+    "key_researchers": ["Noel Carroll", "Berys Gaut", "Martha Nussbaum"]
+  },
+  {
+    "name_ja": "美的自律性",
+    "name_en": "Aesthetic autonomy",
+    "definition": "美的自律性は、芸術や美的価値が道徳、政治、宗教、経済、実用性から独立した固有の領域を持つという考えである。近代芸術観を支えた一方、批判理論やフェミニズム美学からは社会的条件を隠すイデオロギーとして批判されている。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "モダニズム美学",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "autonomy,aestheticism,modernism",
+    "key_researchers": ["Immanuel Kant", "Theodor W. Adorno"]
+  },
+  {
+    "name_ja": "芸術の社会性",
+    "name_en": "Sociality of art",
+    "definition": "芸術の社会性は、作品が個人的表現や自律的形式にとどまらず、制度、階級、ジェンダー、政治、公共圏、共同体の中で成立し機能することを重視する概念である。芸術の生産、流通、受容を社会的実践として分析する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "社会美学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "social aesthetics,art and society,public sphere",
+    "key_researchers": ["Pierre Bourdieu", "Theodor W. Adorno"]
+  },
+  {
+    "name_ja": "批判理論美学",
+    "name_en": "Critical theory aesthetics",
+    "definition": "批判理論美学は、芸術を社会の矛盾、商品化、支配、イデオロギーに対する批判的契機として捉える立場である。アドルノやベンヤミンに代表され、芸術の自律性と社会性、文化産業、大衆文化、政治的可能性を緊張関係の中で論じる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "critical theory,aesthetics,culture industry",
+    "key_researchers": ["Theodor W. Adorno", "Walter Benjamin"]
+  },
+  {
+    "name_ja": "アウラ",
+    "name_en": "Aura",
+    "definition": "アウラは、芸術作品が一回的な時間と場所、伝統、儀礼性、真正性に根ざして持つ独特の現前性を指す概念である。ベンヤミンは複製技術の発展によりアウラが衰退すると論じ、写真、映画、メディア文化の美学に大きな影響を与えた。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "批判理論",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "aura,reproduction,authenticity",
+    "key_researchers": ["Walter Benjamin"]
+  },
+  {
+    "name_ja": "文化産業論",
+    "name_en": "Culture industry",
+    "definition": "文化産業論は、映画、ラジオ、音楽、出版などの文化が資本主義的生産と消費の仕組みに組み込まれ、標準化された娯楽として大衆の意識を形成するという批判である。芸術の自律性、商業化、大衆文化の評価をめぐる議論の基礎となった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_en": "culture industry,mass culture,commodification",
+    "key_researchers": ["Theodor W. Adorno", "Max Horkheimer"]
+  },
+  {
+    "name_ja": "キッチュ",
+    "name_en": "Kitsch",
+    "definition": "キッチュは、感傷的、安易、模倣的、商業的と見なされる美的対象や表現を指す概念である。近代美学では高級芸術との対比で批判されたが、ポップアートやポストモダン以降は大衆文化、アイロニー、趣味の政治性を考えるためにも用いられる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "モダニズム批評",
+    "era_start": 1939,
+    "era_end": null,
+    "keywords_en": "kitsch,mass culture,taste",
+    "key_researchers": ["Clement Greenberg", "Hermann Broch"]
+  },
+  {
+    "name_ja": "アヴァンギャルド",
+    "name_en": "Avant-garde",
+    "definition": "アヴァンギャルドは、既存の芸術制度、表現形式、社会秩序に挑戦し、新しい感覚や政治的可能性を開こうとする前衛的実践を指す。ダダ、シュルレアリスム、構成主義などを通じて、芸術と生活の境界を問い直した。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "前衛芸術論",
+    "era_start": 1909,
+    "era_end": null,
+    "keywords_en": "avant-garde,modernism,experiment",
+    "key_researchers": ["Peter Bürger", "Clement Greenberg"]
+  },
+  {
+    "name_ja": "モダニズム美学",
+    "name_en": "Modernist aesthetics",
+    "definition": "モダニズム美学は、芸術が自己の媒体、形式、条件を反省し、伝統的再現や物語から離れて自律的発展を遂げると考える立場である。抽象絵画、純粋音楽、文学実験などと結びつき、形式主義や前衛芸術論の基盤となった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "モダニズム",
+    "era_start": 1860,
+    "era_end": null,
+    "keywords_en": "modernism,autonomy,formalism",
+    "key_researchers": ["Clement Greenberg", "Michael Fried"]
+  },
+  {
+    "name_ja": "ポストモダン美学",
+    "name_en": "Postmodern aesthetics",
+    "definition": "ポストモダン美学は、モダニズムの自律性、進歩史観、純粋形式への信頼を批判し、引用、パロディ、混合、シミュレーション、多元性を重視する立場である。高級芸術と大衆文化、原作と複製、中心と周縁の境界を問い直す。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ポストモダニズム",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "postmodernism,pastiche,pluralism",
+    "key_researchers": ["Jean-François Lyotard", "Fredric Jameson"]
+  },
+  {
+    "name_ja": "シミュラークル",
+    "name_en": "Simulacrum",
+    "definition": "シミュラークルは、原本や実在への参照を失いながら流通する像、記号、複製を指す概念である。ポストモダン美学では、メディア社会において現実と表象の区別が不安定化する状況を説明し、写真、広告、映像文化の分析に用いられる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "simulacrum,simulation,media",
+    "key_researchers": ["Jean Baudrillard", "Gilles Deleuze"]
+  },
+  {
+    "name_ja": "美的判断の相対主義",
+    "name_en": "Aesthetic relativism",
+    "definition": "美的判断の相対主義は、美や芸術的価値の判断が文化、時代、共同体、個人の感受性に依存し、普遍的基準を持たない、または限定的にしか持たないとする立場である。趣味の多様性を説明する一方、批評の妥当性の根拠が問題となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "価値相対主義",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "relativism,taste,cultural difference",
+    "key_researchers": ["David Hume", "Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "標準的趣味",
+    "name_en": "Standard of taste",
+    "definition": "標準的趣味は、美的評価が単なる個人的好みに還元されるのではなく、経験、比較、繊細な感受性、偏見からの自由を備えた鑑賞者によって一定の基準を持ちうるという考えである。ヒュームの議論は趣味の多様性と批評の客観性を調停しようとした。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "経験論美学",
+    "era_start": 1757,
+    "era_end": null,
+    "keywords_en": "standard of taste,criticism,judgment",
+    "key_researchers": ["David Hume"]
+  },
+  {
+    "name_ja": "感性論",
+    "name_en": "Aesthetics as theory of sensibility",
+    "definition": "感性論は、美学を芸術論だけでなく、感覚的認識や感性的経験の哲学として捉える考えである。バウムガルテンにおいて美学は感性的認識の学として構想され、近代以降の美、知覚、経験、表象をめぐる議論の出発点となった。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "啓蒙主義美学",
+    "era_start": 1750,
+    "era_end": null,
+    "keywords_en": "sensibility,aesthetics,perception",
+    "key_researchers": ["Alexander Gottlieb Baumgarten"]
+  },
+  {
+    "name_ja": "美的性質",
+    "name_en": "Aesthetic properties",
+    "definition": "美的性質は、優美、均整、力強さ、繊細さ、陰鬱さ、滑稽さなど、対象が美的に評価される際に帰属される性質である。これらが物理的性質に還元できるのか、知覚や文化的訓練に依存するのかが分析美学で論じられている。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "aesthetic properties,supervenience,perception",
+    "key_researchers": ["Frank Sibley", "Nick Zangwill"]
+  },
+  {
+    "name_ja": "美的述語",
+    "name_en": "Aesthetic predicates",
+    "definition": "美的述語は、対象を優雅、均衡している、派手、重々しい、統一的などと記述・評価する語の働きを指す。単なる感覚的特徴の報告ではなく、訓練された感受性や文脈判断を必要とするため、美的言語の哲学で重要視される。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "日常言語哲学",
+    "era_start": 1959,
+    "era_end": null,
+    "keywords_en": "aesthetic predicates,language,description",
+    "key_researchers": ["Frank Sibley"]
+  },
+  {
+    "name_ja": "芸術批評",
+    "name_en": "Art criticism",
+    "definition": "芸術批評は、作品を記述し、解釈し、評価し、その意義を読者や観客に示す実践である。哲学的には、批評判断の根拠、記述と評価の関係、批評家の権威、公共的対話としての役割が問題となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "批評理論",
+    "era_start": 1700,
+    "era_end": null,
+    "keywords_en": "art criticism,evaluation,interpretation",
+    "key_researchers": ["Clement Greenberg", "Noel Carroll"]
+  },
+  {
+    "name_ja": "鑑賞者論",
+    "name_en": "Theory of the spectator",
+    "definition": "鑑賞者論は、芸術作品や美的対象を経験する主体の役割を分析する理論である。知覚、感情、想像力、身体、文化的訓練、社会的位置が鑑賞に影響することを扱い、受容美学や現象学、フェミニズム美学とも結びつく。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "受容美学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "spectator,reception,audience",
+    "key_researchers": ["Wolfgang Iser", "Hans Robert Jauss"]
+  },
+  {
+    "name_ja": "受容美学",
+    "name_en": "Reception aesthetics",
+    "definition": "受容美学は、作品の意味や価値を作者や作品構造だけでなく、読者や観客による受容の歴史的過程から考える立場である。期待の地平、解釈共同体、読者反応を重視し、文学、美術、演劇、映画の研究に影響を与えた。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "コンスタンツ学派",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "reception,audience,horizon of expectations",
+    "key_researchers": ["Hans Robert Jauss", "Wolfgang Iser"]
+  },
+  {
+    "name_ja": "現象学的美学",
+    "name_en": "Phenomenological aesthetics",
+    "definition": "現象学的美学は、芸術や美的対象が意識、身体、時間性、空間性、知覚の中でどのように現れるかを記述する立場である。作品を単なる物体や記号ではなく、経験の場として捉え、鑑賞者の身体的関与を重視する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "現象学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "phenomenology,embodiment,perception",
+    "key_researchers": ["Roman Ingarden", "Maurice Merleau-Ponty"]
+  },
+  {
+    "name_ja": "プラグマティズム美学",
+    "name_en": "Pragmatist aesthetics",
+    "definition": "プラグマティズム美学は、芸術を生活から切り離された高尚な対象ではなく、経験を統合し豊かにする実践として捉える立場である。デューイ以降、身体、環境、共同性、行為、日常経験との連続性を重視する美学として発展した。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "プラグマティズム",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "pragmatism,experience,practice",
+    "key_researchers": ["John Dewey", "Richard Shusterman"]
+  },
+  {
+    "name_ja": "身体美学",
+    "name_en": "Somaesthetics",
+    "definition": "身体美学は、身体を美的経験の単なる器官ではなく、感覚、運動、習慣、自己形成の中心として捉える領域である。姿勢、呼吸、運動、身体訓練、ファッション、パフォーマンスを含み、芸術と日常の身体実践をつなぐ。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "プラグマティズム美学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "somaesthetics,body,practice",
+    "key_researchers": ["Richard Shusterman"]
+  },
+  {
+    "name_ja": "環境美学",
+    "name_en": "Environmental aesthetics",
+    "definition": "環境美学は、自然景観、都市、建築、庭園、農村、気候、音環境などを美的対象として分析する領域である。芸術中心主義を超えて、環境倫理、場所の経験、生活世界、持続可能性と美的評価の関係を問う。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "環境美学",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "environmental aesthetics,nature,place",
+    "key_researchers": ["Allen Carlson", "Arnold Berleant"]
+  },
+  {
+    "name_ja": "自然美",
+    "name_en": "Natural beauty",
+    "definition": "自然美は、山、海、空、植物、動物、気象、地形など、人工的制作物ではない対象に見いだされる美的価値である。カント以降、芸術美との違い、科学的知識の役割、環境倫理との関係が美学の重要課題となっている。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "環境美学",
+    "era_start": 1700,
+    "era_end": null,
+    "keywords_en": "natural beauty,nature,aesthetic appreciation",
+    "key_researchers": ["Immanuel Kant", "Allen Carlson"]
+  },
+  {
+    "name_ja": "美的関与",
+    "name_en": "Aesthetic engagement",
+    "definition": "美的関与は、鑑賞者が対象を距離を置いて眺めるだけでなく、身体的、感覚的、実践的に環境や作品へ参加する経験を指す。環境美学や日常美学で重視され、観照中心の美的態度論に対する代替概念として提示された。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "環境美学",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "aesthetic engagement,participation,environment",
+    "key_researchers": ["Arnold Berleant"]
+  },
+  {
+    "name_ja": "建築美学",
+    "name_en": "Aesthetics of architecture",
+    "definition": "建築美学は、建築物の形態、空間、機能、素材、身体的移動、都市的文脈、社会的使用を美的に分析する領域である。建築は芸術であると同時に生活環境であるため、実用性と美的価値の関係が特に重要となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "環境美学",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "architecture,space,function",
+    "key_researchers": ["Roger Scruton", "Karsten Harries"]
+  },
+  {
+    "name_ja": "音楽美学",
+    "name_en": "Aesthetics of music",
+    "definition": "音楽美学は、音楽の表現、形式、感情、意味、演奏、作品の同一性、聴取経験を哲学的に考察する領域である。音楽が何を表すのか、感情をどのように喚起するのか、演奏の解釈が作品にどう関わるのかが主要問題である。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "music aesthetics,expression,performance",
+    "key_researchers": ["Eduard Hanslick", "Peter Kivy", "Jerrold Levinson"]
+  },
+  {
+    "name_ja": "映画哲学",
+    "name_en": "Philosophy of film",
+    "definition": "映画哲学は、映画の媒体性、物語、視点、編集、写真的記録性、感情、観客経験、倫理的効果を分析する領域である。映画が現実を記録するのか構成するのか、観客が虚構世界にどう関与するのかが中心的論点となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "映画理論",
+    "era_start": 1916,
+    "era_end": null,
+    "keywords_en": "film philosophy,cinema,medium",
+    "key_researchers": ["Stanley Cavell", "Noel Carroll"]
+  },
+  {
+    "name_ja": "写真美学",
+    "name_en": "Aesthetics of photography",
+    "definition": "写真美学は、写真の記録性、機械的生成、作者性、構図、時間性、証拠性、芸術性をめぐる哲学的研究である。写真が現実との因果的関係を持つ点を重視しつつ、演出、加工、デジタル技術による変化も論じられる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "メディア美学",
+    "era_start": 1839,
+    "era_end": null,
+    "keywords_en": "photography,indexicality,representation",
+    "key_researchers": ["Roland Barthes", "Roger Scruton"]
+  },
+  {
+    "name_ja": "文学美学",
+    "name_en": "Aesthetics of literature",
+    "definition": "文学美学は、文学作品の虚構性、語り、文体、比喩、感情、解釈、作者性、読者経験を哲学的に分析する領域である。文学が知識や道徳的理解を与えるのか、形式的美と内容がどう結びつくのかが重要な論点である。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "文学理論",
+    "era_start": 1750,
+    "era_end": null,
+    "keywords_en": "literature,fiction,narrative",
+    "key_researchers": ["Aristotle", "Martha Nussbaum", "Peter Lamarque"]
+  },
+  {
+    "name_ja": "演劇美学",
+    "name_en": "Aesthetics of theatre",
+    "definition": "演劇美学は、上演、身体、役柄、観客、空間、反復、ライブ性を中心に演劇作品の性質を考察する領域である。台本と上演の関係、俳優の表現、観客との共在、演劇的虚構の成立条件が主要な問題となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "パフォーマンス研究",
+    "era_start": -335,
+    "era_end": null,
+    "keywords_en": "theatre,performance,liveness",
+    "key_researchers": ["Aristotle", "Erika Fischer-Lichte"]
+  },
+  {
+    "name_ja": "パフォーマンス美学",
+    "name_en": "Performance aesthetics",
+    "definition": "パフォーマンス美学は、作品を固定された物体ではなく、時間的に展開する行為、身体、出来事、観客との関係として捉える領域である。演劇、舞踊、音楽、パフォーマンスアートを横断し、ライブ性、反復、即興、共同性を分析する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "パフォーマンス研究",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "performance,liveness,event",
+    "key_researchers": ["Peggy Phelan", "Erika Fischer-Lichte"]
+  },
+  {
+    "name_ja": "舞踊美学",
+    "name_en": "Aesthetics of dance",
+    "definition": "舞踊美学は、身体運動、リズム、空間、表現、振付、即興、観客経験を通じて舞踊の芸術的性質を考える領域である。身体が作品の媒体であり表現主体でもあるため、記譜、再演、身体性、感情表現が重要な論点となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "身体美学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "dance,body,movement",
+    "key_researchers": ["Susanne Langer", "Francis Sparshott"]
+  },
+  {
+    "name_ja": "デジタル美学",
+    "name_en": "Digital aesthetics",
+    "definition": "デジタル美学は、コンピュータ、ネットワーク、アルゴリズム、インターフェース、データ、仮想空間によって成立する美的経験や芸術を分析する領域である。複製可能性、相互作用性、生成性、没入性、プラットフォーム環境が中心的な論点となる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "メディア美学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "digital aesthetics,algorithm,interface",
+    "key_researchers": ["Lev Manovich", "Christiane Paul"]
+  },
+  {
+    "name_ja": "インタラクティブアート",
+    "name_en": "Interactive art",
+    "definition": "インタラクティブアートは、鑑賞者の入力、行為、選択、身体的動きが作品の展開や意味形成に組み込まれる芸術である。作品と観客の境界を変化させ、作者性、制御、参加、システム、体験設計をめぐる哲学的問題を生じさせる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "メディアアート理論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "interactive art,participation,new media",
+    "key_researchers": ["Roy Ascott", "Christiane Paul"]
+  },
+  {
+    "name_ja": "ゲーム美学",
+    "name_en": "Aesthetics of games",
+    "definition": "ゲーム美学は、ビデオゲームや遊戯を、ルール、操作、物語、視覚表現、音響、挑戦、没入、プレイヤー行為の複合として分析する領域である。鑑賞者ではなくプレイヤーが作品進行に関与する点で、従来の芸術美学を拡張する。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "ゲーム研究",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "game aesthetics,play,interactivity",
+    "key_researchers": ["Grant Tavinor", "C. Thi Nguyen"]
+  },
+  {
+    "name_ja": "虚構のパラドックス",
+    "name_en": "Paradox of fiction",
+    "definition": "虚構のパラドックスは、実在しない人物や出来事であると知っていながら、観客や読者がなぜ本物の感情を抱くのかを問う問題である。恐怖、悲しみ、共感などの反応を説明するため、信念、想像、感情の関係が議論される。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "paradox of fiction,emotion,imagination",
+    "key_researchers": ["Colin Radford", "Kendall Walton", "Noel Carroll"]
+  },
+  {
+    "name_ja": "メイクビリーブ理論",
+    "name_en": "Make-believe theory",
+    "definition": "メイクビリーブ理論は、フィクション経験を、作品を小道具として成立する想像上の遊びとして説明する理論である。読者や観客は虚構内容を信じるのではなく、規則に従って想像するため、虚構への感情反応や表象の働きを説明できる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "分析美学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "make-believe,fiction,imagination",
+    "key_researchers": ["Kendall Walton"]
+  },
+  {
+    "name_ja": "芸術における感情",
+    "name_en": "Emotion in art",
+    "definition": "芸術における感情は、作品が感情を表現し、喚起し、構造化し、理解させる仕方を扱う概念である。音楽の悲しさ、映画の恐怖、文学の共感などを通じて、感情が作品内部の性質なのか鑑賞者の反応なのかが問われる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "感情論",
+    "era_start": 1800,
+    "era_end": null,
+    "keywords_en": "emotion,expression,response",
+    "key_researchers": ["Peter Kivy", "Noel Carroll", "Jenefer Robinson"]
+  },
+  {
+    "name_ja": "悲劇論",
+    "name_en": "Theory of tragedy",
+    "definition": "悲劇論は、苦痛、破滅、死、不幸を描く作品がなぜ価値を持ち、観客に深い満足や理解をもたらすのかを問う理論である。アリストテレスのカタルシス論から現代の感情論まで、恐れと憐れみの経験が中心的に論じられる。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "古典美学",
+    "era_start": -335,
+    "era_end": null,
+    "keywords_en": "tragedy,catharsis,pity",
+    "key_researchers": ["Aristotle", "Friedrich Nietzsche"]
+  },
+  {
+    "name_ja": "カタルシス",
+    "name_en": "Catharsis",
+    "definition": "カタルシスは、悲劇を通じて恐れや憐れみなどの感情が浄化、排出、整理、理解されるとされる概念である。アリストテレス以来、悲劇の価値を説明する鍵として解釈され、心理的効果、道徳的学習、感情の構造化をめぐって議論されてきた。",
+    "subfield": "美学・芸術哲学",
+    "school_of_thought": "古典美学",
+    "era_start": -335,
+    "era_end": null,
+    "keywords_en": "catharsis,tragedy,emotion",
+    "key_researchers": ["Aristotle"]
+  }
+]
+tokens used
+34,783

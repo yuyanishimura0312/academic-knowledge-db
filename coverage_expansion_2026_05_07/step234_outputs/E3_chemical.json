@@ -1,0 +1,44 @@
+[
+  {
+    "name_ja": "化学量論",
+    "name_en": "Stoichiometry",
+    "definition": "反応物と生成物の物質量関係を原子数保存に基づいて定量化する概念で、反応式、収率、過剰試薬、物質収支を結び付ける。化学工学では反応器設計、材料合成、プロセス制御の出発点となる。",
+    "impact_summary": "化学反応を数量で扱う共通言語を与え、工業生産と材料合成の設計精度を高めた。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "古典化学量論",
+    "era_start": 1792,
+    "era_end": null,
+    "keywords_ja": "物質収支,反応式,収率,原子保存",
+    "keywords_en": "stoichiometry,mass balance,yield,conservation",
+    "key_researchers": ["Antoine Lavoisier", "Jeremias Richter"],
+    "key_works": ["Traite elementaire de chimie (1789)", "Anfangsgruende der Stoechyometrie (1792)"]
+  },
+  {
+    "name_ja": "質量保存則",
+    "name_en": "Law of Conservation of Mass",
+    "definition": "閉じた系において化学反応の前後で全質量が保存されるという基本法則で、物質収支、反応収支、プロセスフロー解析の根拠となる。化学工学ではプラント設計と運転管理の最重要原理である。",
+    "impact_summary": "反応と分離を含む全プロセスを収支式で設計できるようにし、近代化学工業の計算基盤を築いた。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "古典化学",
+    "era_start": 1789,
+    "era_end": null,
+    "keywords_ja": "質量保存,収支式,閉鎖系,プロセス設計",
+    "keywords_en": "mass conservation,balance equation,closed system,process design",
+    "key_researchers": ["Antoine Lavoisier", "Mikhail Lomonosov"],
+    "key_works": ["Traite elementaire de chimie (1789)"]
+  },
+  {
+    "name_ja": "相律",
+    "name_en": "Gibbs Phase Rule",
+    "definition": "成分数、相数、自由度の関係を熱力学的に表す規則で、平衡状態にある多相系の変数の独立性を判断する。合金、セラミックス、溶液、蒸留、晶析などの相図理解と工程設計に用いられる。",
+    "impact_summary": "複雑な多相平衡を少数の変数で整理し、材料組織制御と分離プロセス設計を体系化した。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "ギブズ熱力学",
+    "era_start": 1876,
+    "era_end": null,
+    "keywords_ja": "相平衡,自由度,相図,多相系",
+    "keywords_en": "phase rule,phase equilibrium,phase diagram,degrees of freedom",
+    "key_researchers": ["Josiah Willard Gibbs"],
+    "key_works": ["On the Equilibrium of Heterogeneous Substances (1876)"]
+  }
+]

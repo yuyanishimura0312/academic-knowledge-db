@@ -40,7 +40,7 @@ PROMPT_T3 = """{table_label}（{focus}）の重要概念{target}件を JSON 配�
 {must_inc}
 
 形式:
-[{{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上","impact_summary":"50文字以上","subfield":"{subfield_list の中から1つ}","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"k","keywords_en":"k","key_researchers":["名前"],"key_works":["著作 (年)"]}}]
+[{{"name_ja":"日本語名","name_en":"English Name","definition":"100文字以上","impact_summary":"50文字以上","subfield":"<下記リストから1つ>","school_of_thought":"学派","era_start":整数年,"era_end":null,"keywords_ja":"k","keywords_en":"k","key_researchers":["名前"],"key_works":["著作 (年)"]}}]
 
 要件:
 - 内部知識のみ使用、web検索しない

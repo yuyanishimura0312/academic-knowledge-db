@@ -1,0 +1,95 @@
+[
+  {
+    "name_ja": "ワットの遠心調速機",
+    "name_en": "Watt Centrifugal Governor",
+    "definition": "蒸気機関の回転速度を機械的な負帰還で自動調整する装置であり、制御対象、センサ、アクチュエータ、フィードバックが一体化した初期の閉ループ制御例である。",
+    "impact_summary": "自動制御の実用的起点となり、安定性解析とフィードバック理論の発展を促した。",
+    "subfield": "システム工学・制御工学",
+    "school_of_thought": "古典制御・機械的フィードバック",
+    "era_start": 1788,
+    "era_end": null,
+    "keywords_ja": "調速機,負帰還,蒸気機関,閉ループ",
+    "keywords_en": "governor,negative feedback,steam engine,closed loop",
+    "key_researchers": [
+      "James Watt",
+      "James Clerk Maxwell"
+    ],
+    "key_works": [
+      "On Governors (1868)"
+    ]
+  },
+  {
+    "name_ja": "フィードバック制御",
+    "name_en": "Feedback Control",
+    "definition": "出力や状態を測定して目標との差を計算し、その誤差に基づき入力を修正する制御原理である。外乱、モデル誤差、環境変動に対して性能を保つ基本機構である。",
+    "impact_summary": "産業プロセス、通信、航空宇宙、ロボットなどほぼ全ての制御システムの基盤になった。",
+    "subfield": "システム工学・制御工学",
+    "school_of_thought": "古典制御・現代制御",
+    "era_start": 1868,
+    "era_end": null,
+    "keywords_ja": "フィードバック,誤差,外乱抑制,安定化",
+    "keywords_en": "feedback,error,disturbance rejection,stabilization",
+    "key_researchers": [
+      "Harold Black",
+      "Norbert Wiener"
+    ],
+    "key_works": [
+      "Stabilized Feedback Amplifiers (1934)",
+      "Cybernetics (1948)"
+    ]
+  },
+  {
+    "name_ja": "マクスウェルの調速機解析",
+    "name_en": "Maxwell Governor Analysis",
+    "definition": "調速機の運動を微分方程式で表し、閉ループ系が発散、振動、収束する条件を解析した先駆的研究である。制御系安定性を数学的対象として扱った。",
+    "impact_summary": "制御工学を経験的調整から数理解析へ移行させ、安定性理論の出発点となった。",
+    "subfield": "システム工学・制御工学",
+    "school_of_thought": "古典制御・安定性解析",
+    "era_start": 1868,
+    "era_end": null,
+    "keywords_ja": "調速機解析,安定性,微分方程式,振動",
+    "keywords_en": "governor analysis,stability,differential equations,oscillation",
+    "key_researchers": [
+      "James Clerk Maxwell"
+    ],
+    "key_works": [
+      "On Governors (1868)"
+    ]
+  },
+  {
+    "name_ja": "ラウス安定判別法",
+    "name_en": "Routh Stability Criterion",
+    "definition": "線形時不変系の特性多項式係数から、根を直接計算せずに右半平面極の有無を判定する代数的手法である。連続時間系の安定性確認に使われる。",
+    "impact_summary": "高次系の安定判定を実用化し、古典制御設計の計算的基盤を整えた。",
+    "subfield": "システム工学・制御工学",
+    "school_of_thought": "古典制御・代数的安定性",
+    "era_start": 1877,
+    "era_end": null,
+    "keywords_ja": "ラウス表,特性方程式,安定判別,右半平面",
+    "keywords_en": "Routh array,characteristic equation,stability criterion,right half plane",
+    "key_researchers": [
+      "Edward John Routh"
+    ],
+    "key_works": [
+      "A Treatise on the Stability of a Given State of Motion (1877)"
+    ]
+  },
+  {
+    "name_ja": "フルヴィッツ安定判別法",
+    "name_en": "Hurwitz Stability Criterion",
+    "definition": "特性多項式から構成されるフルヴィッツ行列の主小行列式を調べ、連続時間線形系の全極が左半平面にあるかを判定する代数的安定条件である。",
+    "impact_summary": "制御系と力学系の安定性判定を厳密化し、後のロバスト安定解析にも影響した。",
+    "subfield": "システム工学・制御工学",
+    "school_of_thought": "古典制御・代数的安定性",
+    "era_start": 1895,
+    "era_end": null,
+    "keywords_ja": "フルヴィッツ行列,安定性,特性多項式,主小行列式",
+    "keywords_en": "Hurwitz matrix,stability,characteristic polynomial,principal minors",
+    "key_researchers": [
+      "Adolf Hurwitz"
+    ],
+    "key_works": [
+      "Über die Bedingungen, unter welchen eine Gleichung nur Wurzeln mit negativen reellen Teilen besitzt (1895)"
+    ]
+  }
+]

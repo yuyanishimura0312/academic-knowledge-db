@@ -1,0 +1,48 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e051c-d1f6-7550-b01a-54c918a58ebb
+--------
+user
+あなたは学術概念の専門エージェントです。「計算機科学」分野について、250件の重要な理論・概念・モデル・運動を JSON 配列で出力してください。
+
+以下の必須概念を必ず含めてください：
+- 量子計算アルゴリズム
+- ゼロ知識証明応用
+- フェデレーテッドラーニング
+- 形式検証実装
+
+各エントリは以下の形式：
+{
+  "name_ja": "日本語名",
+  "name_en": "English Name",
+  "definition": "100文字以上の定義",
+  "impact_summary": "50文字以上の影響まとめ",
+  "subfield": "計算機科学",
+  "school_of_thought": "学派・流派",
+  "era_start": 整数年,
+  "era_end": 整数年または null,
+  "keywords_ja": "カンマ区切り",
+  "keywords_en": "keyword1,keyword2",
+  "key_researchers": ["主要研究者"],
+  "key_works": ["主要著作 (年)"]
+}
+
+重要要件:
+- subfield フィールドは必ず「計算機科学」に統一する（変更不可）
+- 創設期から最新2025年まで時代分布を均等に（特に2015-2025の最新理論を30%以上）
+- 確実に存在する概念のみ。重複なし
+- JSON配列のみ出力（コードフェンス・説明文不要）
+- 250件全て出力するまで止めない
+codex
+[]
+tokens used
+21,944

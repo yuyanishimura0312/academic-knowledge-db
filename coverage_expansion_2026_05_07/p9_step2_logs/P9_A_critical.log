@@ -1,0 +1,919 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e09e4-4ac4-7f51-bdad-f65e537bbdbf
+--------
+user
+「文化批評・芸術社会学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+ポストコロニアル芸術、Decolonial aesthetics、ソーシャリー・エンゲージド・アート、Participatory art、Spectacle critique
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"文化批評・芸術社会学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "ポストコロニアル芸術",
+    "name_en": "Postcolonial art",
+    "definition": "植民地主義と帝国主義の歴史的暴力、表象の非対称性、移民やディアスポラの経験を批判的に扱う芸術実践。西洋中心的な美術史や博物館制度を問い直し、記憶、翻訳、混淆、抵抗の形式を通じて主体性の再構築を試みる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "postcolonialism,representation",
+    "key_researchers": ["Edward Said", "Homi K. Bhabha", "Gayatri Chakravorty Spivak"]
+  },
+  {
+    "name_ja": "脱植民地的美学",
+    "name_en": "Decolonial aesthetics",
+    "definition": "近代西洋が普遍的とみなしてきた美、美術、知識の基準を植民地主義の延長として批判し、先住民的知、身体性、土地、共同体の記憶から別様の感性を構築する考え方。芸術を認識論的脱植民地化の実践として捉える。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "脱植民地理論",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "decoloniality,aesthesis",
+    "key_researchers": ["Walter Mignolo", "Rolando Vázquez", "Aníbal Quijano"]
+  },
+  {
+    "name_ja": "ソーシャリー・エンゲージド・アート",
+    "name_en": "Socially engaged art",
+    "definition": "社会問題や地域課題への関与を作品の中心に据え、鑑賞対象としての作品よりも対話、協働、制度変化、公共的介入の過程を重視する芸術実践。教育、福祉、都市、移民、環境などの領域と交差し、芸術の社会的有効性を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "社会実践芸術論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "social practice,community",
+    "key_researchers": ["Pablo Helguera", "Claire Bishop", "Grant Kester"]
+  },
+  {
+    "name_ja": "参加型芸術",
+    "name_en": "Participatory art",
+    "definition": "観客や市民が作品の成立過程に能動的に関わることを前提とする芸術形式。作者と受け手の境界を揺るがし、共同制作、ワークショップ、身体的参加、公共空間での介入を通じて、芸術の民主化と権力関係の再編を問題化する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "関係性の美学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "participation,audience",
+    "key_researchers": ["Claire Bishop", "Nicolas Bourriaud", "Suzanne Lacy"]
+  },
+  {
+    "name_ja": "スペクタクル批判",
+    "name_en": "Spectacle critique",
+    "definition": "資本主義社会において経験や社会関係がイメージと商品化された視覚的演出に媒介される状況を批判する理論。広告、メディア、都市空間、消費文化、政治的演出を分析し、見ることと支配の関係を明らかにする。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "シチュアシオニスト批判理論",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "spectacle,commodity",
+    "key_researchers": ["Guy Debord", "Raoul Vaneigem", "T. J. Clark"]
+  },
+  {
+    "name_ja": "文化産業",
+    "name_en": "Culture industry",
+    "definition": "映画、ラジオ、雑誌、音楽などの大量文化が標準化された商品として生産され、批判的思考を弱める仕組みを指す概念。娯楽が自由な選択に見えながら、資本主義的管理と同質化を進める点を分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フランクフルト学派",
+    "era_start": 1944,
+    "era_end": null,
+    "keywords_en": "mass culture,standardization",
+    "key_researchers": ["Theodor W. Adorno", "Max Horkheimer"]
+  },
+  {
+    "name_ja": "アウラ",
+    "name_en": "Aura",
+    "definition": "複製技術以前の芸術作品が持つ一回性、場所性、儀礼的権威を示す概念。写真や映画による機械的複製がこのアウラを衰退させる一方で、芸術を大衆的・政治的に再編する可能性も開くと論じられた。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ベンヤミン的メディア論",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "aura,reproducibility",
+    "key_researchers": ["Walter Benjamin"]
+  },
+  {
+    "name_ja": "機械的複製",
+    "name_en": "Mechanical reproduction",
+    "definition": "写真、映画、印刷などの技術によって芸術作品が大量に複製され、作品の一回性や所有、鑑賞制度が変化する現象。芸術の権威を解体すると同時に、政治宣伝や大衆参加の新たな条件を作り出す概念である。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "メディア美学",
+    "era_start": 1936,
+    "era_end": null,
+    "keywords_en": "reproduction,photography",
+    "key_researchers": ["Walter Benjamin", "Miriam Hansen"]
+  },
+  {
+    "name_ja": "関係性の美学",
+    "name_en": "Relational aesthetics",
+    "definition": "作品を独立した物体ではなく、人々の出会い、会話、共同の時間を生み出す装置として捉える理論。1990年代以降の展示空間における食事、交流、サービス、社会的状況の演出を分析し、芸術の関係生成的性格を強調する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "現代美術理論",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_en": "relationality,encounter",
+    "key_researchers": ["Nicolas Bourriaud", "Claire Bishop"]
+  },
+  {
+    "name_ja": "制度批判",
+    "name_en": "Institutional critique",
+    "definition": "美術館、ギャラリー、市場、批評、収蔵制度などが芸術の価値や意味をどのように生産するかを暴く芸術実践と理論。展示空間や資金、所有、権威の構造そのものを作品の対象とし、芸術制度の政治性を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "コンセプチュアル・アート",
+    "era_start": 1968,
+    "era_end": null,
+    "keywords_en": "institution,museum",
+    "key_researchers": ["Hans Haacke", "Andrea Fraser", "Benjamin H. D. Buchloh"]
+  },
+  {
+    "name_ja": "芸術界",
+    "name_en": "Art world",
+    "definition": "芸術家、批評家、キュレーター、ギャラリスト、収集家、観客、制度が相互に支え合い、何が芸術として認められるかを決定する社会的ネットワーク。個人の天才性ではなく、協働と承認の仕組みから芸術を説明する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "芸術社会学",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "artworld,recognition",
+    "key_researchers": ["Arthur Danto", "Howard S. Becker", "George Dickie"]
+  },
+  {
+    "name_ja": "文化資本",
+    "name_en": "Cultural capital",
+    "definition": "教育、趣味、言語能力、鑑賞能力、資格など、社会的地位の再生産に働く文化的資源を指す概念。芸術鑑賞や美的判断が個人の自然な好みではなく、階級構造と教育制度によって形成されることを示す。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ブルデュー社会学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "cultural capital,class",
+    "key_researchers": ["Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "ディスタンクシオン",
+    "name_en": "Distinction",
+    "definition": "趣味や美的判断が社会階級間の差異化と権力維持に用いられる過程を表す概念。高級文化と大衆文化の区別は純粋な美的基準ではなく、教育、生活様式、身体化された習慣によって支えられる社会的分類である。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ブルデュー社会学",
+    "era_start": 1979,
+    "era_end": null,
+    "keywords_en": "taste,distinction",
+    "key_researchers": ["Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "ハビトゥス",
+    "name_en": "Habitus",
+    "definition": "個人が社会環境の中で身につける知覚、判断、行為の持続的な傾向を指す概念。芸術の好みや鑑賞能力もハビトゥスによって形成され、階級や教育歴に応じた自然らしさとして経験される点が重要である。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ブルデュー社会学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "habitus,practice",
+    "key_researchers": ["Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "場の理論",
+    "name_en": "Field theory",
+    "definition": "芸術、文学、学問などを、それぞれ固有のルール、権威、資本、競争関係を持つ社会的な場として分析する理論。芸術作品の価値は孤立した創造性ではなく、場内部の位置取りと闘争の中で成立すると考える。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ブルデュー社会学",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "field,autonomy",
+    "key_researchers": ["Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "ヘゲモニー",
+    "name_en": "Hegemony",
+    "definition": "支配階級が強制だけでなく同意、常識、文化的指導力を通じて社会秩序を維持する仕組みを示す概念。芸術や大衆文化は支配的価値を再生産する場であると同時に、対抗的意味や抵抗の可能性を生む場でもある。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "マルクス主義文化理論",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "hegemony,consent",
+    "key_researchers": ["Antonio Gramsci", "Stuart Hall"]
+  },
+  {
+    "name_ja": "エンコーディング／デコーディング",
+    "name_en": "Encoding/decoding",
+    "definition": "メディアのメッセージが制作者によって特定の意味に符号化され、受け手によって支配的、交渉的、対抗的に読み解かれる過程を説明するモデル。観客を受動的消費者ではなく、意味生成に関わる主体として捉える。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "カルチュラル・スタディーズ",
+    "era_start": 1973,
+    "era_end": null,
+    "keywords_en": "encoding,decoding",
+    "key_researchers": ["Stuart Hall"]
+  },
+  {
+    "name_ja": "サブカルチャー",
+    "name_en": "Subculture",
+    "definition": "支配的文化から相対的に距離を取り、独自のスタイル、音楽、言語、身体表現、消費様式を形成する集団文化。若者文化や労働者階級文化の分析を通じて、抵抗、商品化、アイデンティティ形成の関係を明らかにする。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "バーミンガム学派",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "subculture,style",
+    "key_researchers": ["Dick Hebdige", "Stuart Hall", "Paul Willis"]
+  },
+  {
+    "name_ja": "表象政治",
+    "name_en": "Politics of representation",
+    "definition": "人種、ジェンダー、階級、民族、セクシュアリティなどがメディアや芸術でどのように描かれ、その描写が社会的権力をどう支えるかを問う概念。見えること、語られること、沈黙させられることの政治性を分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "カルチュラル・スタディーズ",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "representation,power",
+    "key_researchers": ["Stuart Hall", "bell hooks", "Edward Said"]
+  },
+  {
+    "name_ja": "オリエンタリズム",
+    "name_en": "Orientalism",
+    "definition": "西洋が東洋を異質で受動的、神秘的、遅れた存在として構築し、その表象を通じて植民地支配や知的優位を正当化する仕組み。美術、文学、学術、博物館展示における他者化の形式を批判的に分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1978,
+    "era_end": null,
+    "keywords_en": "orientalism,othering",
+    "key_researchers": ["Edward Said"]
+  },
+  {
+    "name_ja": "他者化",
+    "name_en": "Othering",
+    "definition": "特定の集団を標準的主体から逸脱した異質な存在として構築し、差別や支配を正当化する表象過程。芸術やメディアにおける視線、分類、展示、語りの形式を通じて、誰が主体として認められるかを問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "othering,difference",
+    "key_researchers": ["Edward Said", "Gayatri Chakravorty Spivak", "Trinh T. Minh-ha"]
+  },
+  {
+    "name_ja": "サバルタン",
+    "name_en": "Subaltern",
+    "definition": "植民地主義、階級、ジェンダー、民族的支配の中で発話の機会や制度的承認を奪われた人々を指す概念。芸術や批評において、代弁の暴力、声の不可能性、記録されない経験をどう扱うかを問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "サバルタン研究",
+    "era_start": 1982,
+    "era_end": null,
+    "keywords_en": "subaltern,voice",
+    "key_researchers": ["Gayatri Chakravorty Spivak", "Ranajit Guha"]
+  },
+  {
+    "name_ja": "ハイブリディティ",
+    "name_en": "Hybridity",
+    "definition": "植民地的接触や移民経験の中で、文化的アイデンティティが純粋な起源に還元されず、混淆、翻訳、模倣、ずれを通じて形成されることを示す概念。芸術における文化的境界の揺らぎを分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストコロニアル理論",
+    "era_start": 1994,
+    "era_end": null,
+    "keywords_en": "hybridity,translation",
+    "key_researchers": ["Homi K. Bhabha"]
+  },
+  {
+    "name_ja": "ディアスポラ美学",
+    "name_en": "Diasporic aesthetics",
+    "definition": "移動、亡命、移民、奴隷制、植民地支配によって形成された離散的経験を美学的に扱う枠組み。故郷と居住地の間で揺れる記憶、言語、身体、音楽、映像表現を通じて、固定的な国民文化観を批判する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ディアスポラ研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "diaspora,memory",
+    "key_researchers": ["Paul Gilroy", "Stuart Hall", "Kobena Mercer"]
+  },
+  {
+    "name_ja": "ブラック・アトランティック",
+    "name_en": "Black Atlantic",
+    "definition": "大西洋奴隷貿易以降の黒人文化を、単一の国民や民族に閉じない横断的ネットワークとして捉える概念。音楽、文学、視覚芸術に現れる移動、記憶、抵抗を分析し、近代性そのものの暴力を問い直す。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ブラック・スタディーズ",
+    "era_start": 1993,
+    "era_end": null,
+    "keywords_en": "Black Atlantic,diaspora",
+    "key_researchers": ["Paul Gilroy"]
+  },
+  {
+    "name_ja": "フェミニスト美術史",
+    "name_en": "Feminist art history",
+    "definition": "美術史における男性中心的な作家像、制度、評価基準を批判し、女性作家やジェンダー化された制作条件を再検討する研究領域。天才神話、身体表象、労働、ケア、家内空間などを分析対象に含める。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フェミニズム理論",
+    "era_start": 1971,
+    "era_end": null,
+    "keywords_en": "feminism,art history",
+    "key_researchers": ["Linda Nochlin", "Griselda Pollock"]
+  },
+  {
+    "name_ja": "男性のまなざし",
+    "name_en": "Male gaze",
+    "definition": "映画や視覚文化において女性が男性主体の欲望に応じて見られる対象として構成される仕組みを示す概念。カメラ、物語、観客の視線がどのようにジェンダー化され、快楽と支配を組織するかを分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フェミニスト映画理論",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "male gaze,visual pleasure",
+    "key_researchers": ["Laura Mulvey"]
+  },
+  {
+    "name_ja": "交差性",
+    "name_en": "Intersectionality",
+    "definition": "人種、ジェンダー、階級、セクシュアリティ、障害などの権力軸が独立してではなく相互に絡み合って差別や経験を形成することを示す概念。芸術や文化実践の分析では、単一属性では捉えられない抑圧と抵抗を明らかにする。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ブラック・フェミニズム",
+    "era_start": 1989,
+    "era_end": null,
+    "keywords_en": "intersectionality,identity",
+    "key_researchers": ["Kimberlé Crenshaw", "Patricia Hill Collins"]
+  },
+  {
+    "name_ja": "クィア美学",
+    "name_en": "Queer aesthetics",
+    "definition": "異性愛規範や固定的な性別二元論を揺るがす感性、形式、身体表現を扱う美学。キャンプ、ドラァグ、逸脱、親密性、失敗、時間性などを通じて、芸術が規範的主体や家族観を批判する方法を分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "クィア理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "queer,aesthetics",
+    "key_researchers": ["Judith Butler", "José Esteban Muñoz", "Eve Kosofsky Sedgwick"]
+  },
+  {
+    "name_ja": "キャンプ",
+    "name_en": "Camp",
+    "definition": "誇張、人工性、悪趣味、演技性を肯定的に楽しむ感性を指す概念。クィア文化や大衆文化の文脈で重要であり、真面目さや高級美術の規範をずらしながら、趣味、ジェンダー、権力を批判的に露出させる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "クィア文化批評",
+    "era_start": 1964,
+    "era_end": null,
+    "keywords_en": "camp,artifice",
+    "key_researchers": ["Susan Sontag", "Esther Newton", "Moe Meyer"]
+  },
+  {
+    "name_ja": "パフォーマティヴィティ",
+    "name_en": "Performativity",
+    "definition": "ジェンダーやアイデンティティが内面の本質ではなく、反復される言説、身振り、規範的行為を通じて成立するという考え方。パフォーマンスアートや身体表現の分析では、主体が演じられながら作られる過程を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポスト構造主義フェミニズム",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "performativity,gender",
+    "key_researchers": ["Judith Butler", "J. L. Austin"]
+  },
+  {
+    "name_ja": "身体政治",
+    "name_en": "Body politics",
+    "definition": "身体が自然な個人所有物ではなく、性別、人種、障害、労働、医療、国家、メディアによって管理される政治的場であることを示す概念。芸術では身体を通じた抵抗、傷、ケア、快楽、規範化の可視化が問題となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フェミニズム文化理論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "body,politics",
+    "key_researchers": ["Michel Foucault", "Judith Butler", "Amelia Jones"]
+  },
+  {
+    "name_ja": "アフェクト理論",
+    "name_en": "Affect theory",
+    "definition": "感情を個人の内面だけでなく、身体、環境、メディア、集団の間を流通する強度や関係として捉える理論。芸術経験における言語化以前の反応、雰囲気、共振、トラウマ、公共的感情を分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "affect,emotion",
+    "key_researchers": ["Brian Massumi", "Sara Ahmed", "Eve Kosofsky Sedgwick"]
+  },
+  {
+    "name_ja": "感情の文化政治",
+    "name_en": "Cultural politics of emotion",
+    "definition": "恐怖、嫌悪、愛、恥、幸福などの感情が社会的に流通し、集団の境界や政治的同一化を形成する過程を分析する概念。芸術やメディアにおいて、感情が権力や排除を支えるだけでなく抵抗にも働く点を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フェミニスト感情理論",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "emotion,affect",
+    "key_researchers": ["Sara Ahmed"]
+  },
+  {
+    "name_ja": "トラウマの表象",
+    "name_en": "Representation of trauma",
+    "definition": "戦争、虐殺、植民地支配、災害、性暴力などの経験が、記憶と忘却、証言と沈黙、再現不可能性の問題を伴って芸術や映像に現れる過程を扱う概念。倫理的な距離と鑑賞者の責任が中心課題となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "トラウマ研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "trauma,memory",
+    "key_researchers": ["Cathy Caruth", "Dominick LaCapra", "Jill Bennett"]
+  },
+  {
+    "name_ja": "記憶の場",
+    "name_en": "Sites of memory",
+    "definition": "記念碑、博物館、アーカイブ、儀礼、地名、映像作品など、集合的記憶が凝縮される場や媒体を指す概念。歴史が生きた記憶から制度化された記憶へ移行する過程を分析し、国家や共同体の自己像を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "記憶研究",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "memory,commemoration",
+    "key_researchers": ["Pierre Nora", "Andreas Huyssen"]
+  },
+  {
+    "name_ja": "集合的記憶",
+    "name_en": "Collective memory",
+    "definition": "個人の記憶が家族、宗教、国家、階級、メディアなどの社会的枠組みによって形成され共有されることを示す概念。芸術や記念実践は、過去を保存するだけでなく、現在の共同体や政治的正当性を作り直す。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "記憶社会学",
+    "era_start": 1925,
+    "era_end": null,
+    "keywords_en": "collective memory,social frames",
+    "key_researchers": ["Maurice Halbwachs", "Jan Assmann"]
+  },
+  {
+    "name_ja": "アーカイブ批判",
+    "name_en": "Archive critique",
+    "definition": "アーカイブを中立的な保存場所ではなく、何が記録され、分類され、忘却されるかを決める権力装置として分析する視点。現代美術では欠落した記録、対抗アーカイブ、架空の資料を用いて歴史記述を問い直す。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "archive,power",
+    "key_researchers": ["Michel Foucault", "Jacques Derrida", "Hal Foster"]
+  },
+  {
+    "name_ja": "ミュージアム研究",
+    "name_en": "Museum studies",
+    "definition": "博物館や美術館を、展示、収集、教育、保存、植民地主義、市場、公共性が交差する制度として研究する領域。展示の物語、分類法、来館者経験、文化財返還を分析し、知識と権威の構築を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ニュー・ミュージオロジー",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "museum,exhibition",
+    "key_researchers": ["Tony Bennett", "Eilean Hooper-Greenhill", "Carol Duncan"]
+  },
+  {
+    "name_ja": "展示の政治",
+    "name_en": "Politics of display",
+    "definition": "展示空間における配置、照明、キャプション、分類、動線が、作品や文化財の意味をどのように作り出すかを問う概念。特に植民地収集品や非西洋美術の展示では、見る主体と見られる対象の権力関係が問題となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ミュージアム批評",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "display,curation",
+    "key_researchers": ["Tony Bennett", "James Clifford", "Mieke Bal"]
+  },
+  {
+    "name_ja": "キュレーション",
+    "name_en": "Curation",
+    "definition": "作品や資料を選択、配置、解釈し、展示や公共的文脈を構成する実践。現代美術では単なる管理や紹介を超え、知識生産、批評、社会的媒介、観客形成に関わる創造的・政治的行為として理解される。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "キュレトリアル研究",
+    "era_start": 1969,
+    "era_end": null,
+    "keywords_en": "curation,exhibition",
+    "key_researchers": ["Harald Szeemann", "Paul O'Neill", "Beatrice von Bismarck"]
+  },
+  {
+    "name_ja": "公共芸術",
+    "name_en": "Public art",
+    "definition": "公共空間に設置または展開される芸術であり、都市景観、記念、住民参加、政策、場所の記憶と密接に関わる。モニュメント型作品だけでなく、一時的介入や社会実践も含み、公共性の意味をめぐる葛藤を可視化する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "公共圏論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "public art,urban space",
+    "key_researchers": ["Suzanne Lacy", "Miwon Kwon", "Rosalyn Deutsche"]
+  },
+  {
+    "name_ja": "サイト・スペシフィシティ",
+    "name_en": "Site-specificity",
+    "definition": "作品が特定の場所の歴史、空間条件、制度、社会関係と不可分に成立するという考え方。移動可能な自律的作品への批判として現れ、土地、建築、地域住民、政治的文脈を作品の構成要素として扱う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストミニマリズム",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "site,place",
+    "key_researchers": ["Miwon Kwon", "Robert Smithson", "Rosalyn Deutsche"]
+  },
+  {
+    "name_ja": "場所の政治",
+    "name_en": "Politics of place",
+    "definition": "場所が単なる地理的背景ではなく、記憶、所有、排除、労働、移動、ジェントリフィケーションによって構築される社会的関係であることを示す視点。芸術実践では地域性を消費する危険と、場所への応答責任が問われる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "批判地理学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "place,spatial politics",
+    "key_researchers": ["Doreen Massey", "Henri Lefebvre", "Miwon Kwon"]
+  },
+  {
+    "name_ja": "空間の生産",
+    "name_en": "Production of space",
+    "definition": "空間は自然に存在する容器ではなく、資本、国家、日常実践、表象によって社会的に生産されるという理論。都市芸術や建築批評では、空間の利用、計画、経験、抵抗がどのように交差するかを分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "批判的都市理論",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "space,urbanism",
+    "key_researchers": ["Henri Lefebvre", "David Harvey"]
+  },
+  {
+    "name_ja": "ジェントリフィケーション批判",
+    "name_en": "Gentrification critique",
+    "definition": "芸術家や文化施設が都市再開発と結びつき、地価上昇や住民排除を促進する過程を批判する視点。創造都市政策やアートイベントが地域活性化を掲げながら、誰の利益に奉仕するのかを社会学的に問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "批判的都市文化研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "gentrification,creative city",
+    "key_researchers": ["Sharon Zukin", "Neil Smith", "Rosalyn Deutsche"]
+  },
+  {
+    "name_ja": "創造都市",
+    "name_en": "Creative city",
+    "definition": "文化産業、芸術、デザイン、観光、創造階級を都市成長の資源として位置づける政策理念。経済活性化の可能性を持つ一方で、文化の道具化、格差拡大、排除、都市ブランド化への批判を伴う重要概念である。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "都市文化政策論",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "creative city,cultural policy",
+    "key_researchers": ["Charles Landry", "Richard Florida", "Sharon Zukin"]
+  },
+  {
+    "name_ja": "文化政策",
+    "name_en": "Cultural policy",
+    "definition": "国家、自治体、財団、国際機関が芸術文化の支援、規制、保存、普及、産業化を行う制度的枠組み。芸術の自律性、公共性、経済効果、社会包摂、ナショナル・アイデンティティの形成をめぐる争点を含む。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "文化政策研究",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "cultural policy,governance",
+    "key_researchers": ["Tony Bennett", "Jim McGuigan", "George Yúdice"]
+  },
+  {
+    "name_ja": "文化的価値",
+    "name_en": "Cultural value",
+    "definition": "芸術や文化活動が持つ美的、社会的、教育的、経済的、象徴的価値をどのように評価するかを問う概念。市場価格や来場者数だけでは測れない価値を扱う一方、評価制度が文化実践を変形する問題も含む。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "文化経済学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "cultural value,evaluation",
+    "key_researchers": ["John Holden", "David Throsby", "Pierre Bourdieu"]
+  },
+  {
+    "name_ja": "文化労働",
+    "name_en": "Cultural labor",
+    "definition": "芸術家、デザイナー、編集者、キュレーター、音楽家、映像制作者などが担う創造的労働を分析する概念。自律性や情熱が強調される一方で、不安定雇用、無償労働、自己搾取、ネットワーク依存が問題となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "労働社会学",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "cultural labor,precarity",
+    "key_researchers": ["Angela McRobbie", "Rosalind Gill", "Andrew Ross"]
+  },
+  {
+    "name_ja": "創造階級",
+    "name_en": "Creative class",
+    "definition": "知識、技術、芸術、デザイン、メディアなど創造性を主要資源とする職業層を都市成長の担い手とみなす概念。都市政策で広く用いられたが、階級格差、労働の不安定化、文化の経済主義化への批判も強い。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "都市経済文化論",
+    "era_start": 2002,
+    "era_end": null,
+    "keywords_en": "creative class,urban economy",
+    "key_researchers": ["Richard Florida", "Jamie Peck"]
+  },
+  {
+    "name_ja": "プロシューマー文化",
+    "name_en": "Prosumer culture",
+    "definition": "消費者が同時に生産者としてコンテンツ、レビュー、ファン作品、データ、コミュニティを生み出す文化状況を指す概念。デジタルメディア環境では参加の拡大とともに、無料労働やプラットフォーム搾取の問題が生じる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "デジタル文化研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "prosumer,participatory culture",
+    "key_researchers": ["Alvin Toffler", "Henry Jenkins", "Tiziana Terranova"]
+  },
+  {
+    "name_ja": "参加型文化",
+    "name_en": "Participatory culture",
+    "definition": "ファン、ユーザー、市民がメディア制作、共有、解釈、流通に能動的に関わる文化形態。デジタル環境では創造性と協働を促す一方、アクセス格差、著作権、商業プラットフォームによる囲い込みが課題となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ファン研究",
+    "era_start": 1992,
+    "era_end": null,
+    "keywords_en": "participatory culture,fandom",
+    "key_researchers": ["Henry Jenkins", "Mizuko Ito"]
+  },
+  {
+    "name_ja": "ファン文化",
+    "name_en": "Fan culture",
+    "definition": "特定の作品、人物、ジャンルをめぐって形成される熱心な受容、解釈、創作、交流の文化。ファンは受動的消費者ではなく、二次創作、批評、収集、イベント参加を通じて文化的意味と共同体を生産する主体である。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ファン研究",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "fandom,audience",
+    "key_researchers": ["Henry Jenkins", "Camille Bacon-Smith", "Matt Hills"]
+  },
+  {
+    "name_ja": "メディア・コンバージェンス",
+    "name_en": "Media convergence",
+    "definition": "映画、テレビ、出版、ゲーム、インターネットなどのメディアが技術的、産業的、文化的に融合し、物語や消費経験が複数媒体へ展開される現象。ユーザー参加やファン実践も含む文化変容として分析される。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "メディア文化研究",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "convergence,transmedia",
+    "key_researchers": ["Henry Jenkins"]
+  },
+  {
+    "name_ja": "シミュラークル",
+    "name_en": "Simulacrum",
+    "definition": "現実の単なるコピーではなく、参照すべき原物を失いながら現実らしさを生産する記号やイメージを指す概念。広告、テーマパーク、テレビ、デジタル画像などを通じて、現実と表象の境界が崩れる状況を分析する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストモダン理論",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "simulacrum,simulation",
+    "key_researchers": ["Jean Baudrillard"]
+  },
+  {
+    "name_ja": "ハイパーリアリティ",
+    "name_en": "Hyperreality",
+    "definition": "メディアや記号によって作られた現実らしさが、実際の経験よりも強く現実として機能する状態を指す概念。消費社会、観光、広告、デジタル空間において、表象が現実を置き換える過程を批判的に捉える。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストモダン理論",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "hyperreality,media",
+    "key_researchers": ["Jean Baudrillard", "Umberto Eco"]
+  },
+  {
+    "name_ja": "ポストモダニズム",
+    "name_en": "Postmodernism",
+    "definition": "大きな物語、進歩史観、芸術の自律性、作者の独創性への信頼が揺らぎ、引用、パロディ、折衷、断片化、シミュレーションが前景化する文化状況。建築、美術、文学、メディア批評で広く論じられた。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストモダン理論",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "postmodernism,pastiche",
+    "key_researchers": ["Jean-François Lyotard", "Fredric Jameson", "Jean Baudrillard"]
+  },
+  {
+    "name_ja": "パスティーシュ",
+    "name_en": "Pastiche",
+    "definition": "過去の様式やジャンルを引用、模倣、組み合わせる表現形式であり、ポストモダン文化の特徴として論じられる。風刺的意図を持つパロディとは異なり、歴史的文脈を失った表層的な様式の再利用として批判されることもある。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポストモダン批評",
+    "era_start": 1984,
+    "era_end": null,
+    "keywords_en": "pastiche,style",
+    "key_researchers": ["Fredric Jameson", "Linda Hutcheon"]
+  },
+  {
+    "name_ja": "インターテクスチュアリティ",
+    "name_en": "Intertextuality",
+    "definition": "作品やテクストの意味が単独で完結せず、他の作品、引用、ジャンル、言説との関係の中で形成されるという考え方。芸術批評では、作者の意図よりも文化的参照網と読者の解釈過程を重視する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "記号論",
+    "era_start": 1966,
+    "era_end": null,
+    "keywords_en": "intertextuality,text",
+    "key_researchers": ["Julia Kristeva", "Roland Barthes", "Mikhail Bakhtin"]
+  },
+  {
+    "name_ja": "作者の死",
+    "name_en": "Death of the author",
+    "definition": "作品の意味を作者の意図や伝記に還元する読みを批判し、テクストが読者や文化的コードとの関係で多義的に生成されるとする概念。芸術批評においても作家中心主義を相対化し、受容と解釈の役割を強調する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ポスト構造主義",
+    "era_start": 1967,
+    "era_end": null,
+    "keywords_en": "authorship,reader",
+    "key_researchers": ["Roland Barthes", "Michel Foucault"]
+  },
+  {
+    "name_ja": "記号論的分析",
+    "name_en": "Semiotic analysis",
+    "definition": "画像、広告、映画、ファッション、建築、日用品などを記号の体系として読み解き、意味がどのような差異やコードによって成立するかを分析する方法。文化を自然なものではなく、社会的に構成された意味作用として捉える。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "構造主義",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "semiotics,sign",
+    "key_researchers": ["Roland Barthes", "Ferdinand de Saussure", "Umberto Eco"]
+  },
+  {
+    "name_ja": "神話作用",
+    "name_en": "Mythologies",
+    "definition": "日常的な商品、広告、写真、スポーツ、食文化などが、歴史的・政治的に作られた意味を自然で当然のものとして見せる働きを指す概念。大衆文化の表層に潜むイデオロギーを記号論的に暴く。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "構造主義文化批評",
+    "era_start": 1957,
+    "era_end": null,
+    "keywords_en": "myth,ideology",
+    "key_researchers": ["Roland Barthes"]
+  },
+  {
+    "name_ja": "イデオロギー批判",
+    "name_en": "Ideology critique",
+    "definition": "社会において当然視される価値、信念、表象が、どのように支配関係や階級構造を隠蔽し再生産するかを明らかにする批判的手法。芸術や文化を単なる反映ではなく、矛盾と支配をめぐる闘争の場として読む。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "マルクス主義批評",
+    "era_start": 1846,
+    "era_end": null,
+    "keywords_en": "ideology,critique",
+    "key_researchers": ["Karl Marx", "Louis Althusser", "Fredric Jameson"]
+  },
+  {
+    "name_ja": "イデオロギー装置",
+    "name_en": "Ideological state apparatus",
+    "definition": "学校、家族、宗教、メディア、文化制度などが、強制ではなく日常的実践と信念を通じて支配的秩序を再生産する仕組み。芸術制度や教育機関が主体形成に関わる点を分析する際の重要概念である。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "構造主義的マルクス主義",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "ideology,state apparatus",
+    "key_researchers": ["Louis Althusser"]
+  },
+  {
+    "name_ja": "生政治",
+    "name_en": "Biopolitics",
+    "definition": "近代権力が領土や法だけでなく、人口、健康、性、出生、死亡、衛生、身体能力を管理対象とする仕組みを示す概念。芸術や視覚文化では、身体の分類、医療化、監視、生命の価値づけを批判的に扱う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フーコー派権力論",
+    "era_start": 1976,
+    "era_end": null,
+    "keywords_en": "biopolitics,body",
+    "key_researchers": ["Michel Foucault", "Giorgio Agamben", "Roberto Esposito"]
+  },
+  {
+    "name_ja": "規律権力",
+    "name_en": "Disciplinary power",
+    "definition": "学校、監獄、病院、軍隊、工場などの制度を通じて身体を訓練し、監視し、標準化する近代的権力の形態。美術館や展示空間の動線、鑑賞作法、教育機能を分析する際にも応用される。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フーコー派権力論",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "discipline,surveillance",
+    "key_researchers": ["Michel Foucault"]
+  },
+  {
+    "name_ja": "パノプティシズム",
+    "name_en": "Panopticism",
+    "definition": "常に見られている可能性によって人々が自己監視を内面化する権力の仕組みを示す概念。監獄モデルから出発し、現代の監視カメラ、デジタル追跡、展示制度、都市空間における視線の管理へ応用される。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "フーコー派権力論",
+    "era_start": 1975,
+    "era_end": null,
+    "keywords_en": "panopticism,surveillance",
+    "key_researchers": ["Michel Foucault", "Jeremy Bentham"]
+  },
+  {
+    "name_ja": "監視文化",
+    "name_en": "Surveillance culture",
+    "definition": "国家、企業、プラットフォーム、個人が映像、データ、位置情報、顔認識を通じて相互に監視する文化状況。現代美術やメディア批評では、可視性、プライバシー、アルゴリズム権力、自己演出の関係が問われる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "監視研究",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "surveillance,data",
+    "key_researchers": ["David Lyon", "Hito Steyerl", "Shoshana Zuboff"]
+  },
+  {
+    "name_ja": "プラットフォーム資本主義",
+    "name_en": "Platform capitalism",
+    "definition": "デジタルプラットフォームがデータ、接続、労働、市場アクセスを独占し、文化生産と流通を組織する現代資本主義の形態。芸術家やクリエイターは可視性を得る一方、アルゴリズムと収益化条件に依存する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "デジタル資本主義批判",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platform capitalism,data",
+    "key_researchers": ["Nick Srnicek", "Tiziana Terranova", "Shoshana Zuboff"]
+  },
+  {
+    "name_ja": "アルゴリズム的可視性",
+    "name_en": "Algorithmic visibility",
+    "definition": "検索、推薦、ランキング、フィード配信のアルゴリズムが、作品や作家、ニュース、文化表現の見え方を決定する状況を指す概念。可視性が中立的な人気ではなく、計算的分類と商業的最適化に左右される点を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "デジタル文化批評",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "algorithm,visibility",
+    "key_researchers": ["Tarleton Gillespie", "Taina Bucher", "Safiya Umoja Noble"]
+  },
+  {
+    "name_ja": "ネットワーク文化",
+    "name_en": "Network culture",
+    "definition": "デジタル通信、ソーシャルメディア、分散型コミュニティによって文化の生産、流通、受容がネットワーク化される状況。芸術作品も固定した物体ではなく、リンク、共有、参加、更新、データの流れの中で成立する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "メディア理論",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "network culture,digital media",
+    "key_researchers": ["Manuel Castells", "Geert Lovink", "Lev Manovich"]
+  },
+  {
+    "name_ja": "データ美学",
+    "name_en": "Data aesthetics",
+    "definition": "データの可視化、計算、パターン認識、統計的表現を美的・批判的素材として扱う芸術と理論。情報を美しく提示するだけでなく、データ収集の権力、欠落、分類、監視、抽象化の政治性を問う。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "デジタル美学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "data,aesthetics",
+    "key_researchers": ["Lev Manovich", "Johanna Drucker", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "ポストインターネット・アート",
+    "name_en": "Post-internet art",
+    "definition": "インターネットを単なる媒体ではなく、画像流通、自己表象、市場、注意経済、物質文化を変える環境として捉える芸術実践。オンラインとオフラインの区別が曖昧になった状況で、作品、展示、商品性を再考する。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "デジタル現代美術",
+    "era_start": 2008,
+    "era_end": null,
+    "keywords_en": "post-internet,network",
+    "key_researchers": ["Marisa Olson", "Gene McHugh", "Artie Vierkant"]
+  },
+  {
+    "name_ja": "ニューメディア・アート",
+    "name_en": "New media art",
+    "definition": "コンピュータ、映像、インターネット、センサー、インタラクティブ技術、VRなどを用いる芸術領域。技術的革新だけでなく、参加性、時間性、コード、インターフェース、保存困難性をめぐる社会的・美学的問題を含む。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "メディア・アート論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "new media,interactivity",
+    "key_researchers": ["Lev Manovich", "Christiane Paul", "Roy Ascott"]
+  },
+  {
+    "name_ja": "インタラクティブ・アート",
+    "name_en": "Interactive art",
+    "definition": "観客の行為、身体、選択、データ入力に応じて作品が変化する芸術形式。鑑賞者を受動的な見る主体から作品の共同生成者へ変える一方、参加の自由が技術的設計や制度的条件に制約される点も問題となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "メディア・アート論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "interactive art,participation",
+    "key_researchers": ["Roy Ascott", "Christiane Paul", "Erkki Huhtamo"]
+  },
+  {
+    "name_ja": "アート・アクティヴィズム",
+    "name_en": "Art activism",
+    "definition": "芸術表現と政治的行動を結びつけ、抗議、啓発、直接行動、公共介入を通じて社会変革を目指す実践。作品の完成度だけでなく、運動との関係、リスク、メディア戦略、参加者のエンパワメントが評価軸となる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "批判的芸術実践",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "activism,political art",
+    "key_researchers": ["Gregory Sholette", "Nato Thompson", "Lucy Lippard"]
+  },
+  {
+    "name_ja": "コミュニティ・アート",
+    "name_en": "Community art",
+    "definition": "地域住民や特定の共同体との協働を通じて制作される芸術実践。専門家による作品提供ではなく、参加者の経験、記憶、課題を重視し、文化的包摂や地域形成に関わるが、代表性や介入の倫理も問われる。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "地域芸術論",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "community art,collaboration",
+    "key_researchers": ["Grant Kester", "Suzanne Lacy", "Arlene Goldbard"]
+  },
+  {
+    "name_ja": "対話型美学",
+    "name_en": "Dialogical aesthetics",
+    "definition": "芸術作品を作者の表現物ではなく、参加者間の対話、相互理解、共同経験を生み出す過程として評価する理論。社会的協働を重視する芸術を擁護し、観客との関係性や倫理的応答を美的価値の中心に置く。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "社会実践芸術論",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "dialogue,collaboration",
+    "key_researchers": ["Grant Kester"]
+  },
+  {
+    "name_ja": "敵対性の美学",
+    "name_en": "Antagonistic aesthetics",
+    "definition": "参加型芸術や関係性の美学に対し、合意や調和だけではなく、対立、緊張、排除、政治的葛藤を可視化することの重要性を強調する立場。民主主義を摩擦のない共同性ではなく、異議申し立ての場として捉える。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "ラディカル・デモクラシー論",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "antagonism,participation",
+    "key_researchers": ["Claire Bishop", "Chantal Mouffe", "Ernesto Laclau"]
+  },
+  {
+    "name_ja": "批判的ペダゴジーと芸術",
+    "name_en": "Critical pedagogy and art",
+    "definition": "教育を知識の一方的伝達ではなく、抑圧の認識と社会変革のための対話的実践として捉え、芸術制作やワークショップに応用する考え方。参加者の経験を出発点に、権力、言語、共同学習を問い直す。",
+    "subfield": "文化批評・芸術社会学",
+    "school_of_thought": "批判的教育学",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "critical pedagogy,education",
+    "key_researchers": ["Paulo Freire", "bell hooks", "Pablo Helguera"]
+  }
+]
+tokens used
+33,584

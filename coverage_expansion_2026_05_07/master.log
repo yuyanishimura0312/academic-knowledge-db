@@ -1,0 +1,128 @@
+[launch_codex_40] Starting at 2026年 5月 7日 木曜日 22時06分53秒 JST
+[launch_codex_40] Prompts dir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07/prompts
+[launch_codex_40] Output dir:  /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07/outputs
+[launch_codex_40] Max parallel: 8
+---
+[start] A1 at 22:06:53
+[start] A3 at 22:06:53
+[start] A4 at 22:06:53
+[start] A5 at 22:06:53
+[start] A2 at 22:06:53
+[start] A8 at 22:06:53
+[start] A6 at 22:06:53
+[start] A7 at 22:06:53
+[done]  A4 rc=0 bytes=   71719 at 22:13:06
+[done]  A8 rc=0 bytes=   69777 at 22:13:20
+[done]  A7 rc=0 bytes=   83654 at 22:14:32
+[done]  A1 rc=0 bytes=   88657 at 22:14:55
+[start] E1 at 22:14:55
+[done]  A5 rc=0 bytes=   86901 at 22:15:30
+[done]  A3 rc=0 bytes=  115414 at 22:17:19
+[done]  E1 rc=0 bytes=   68127 at 22:21:31
+[done]  A6 rc=0 bytes=       0 at 22:22:56
+[done]  A2 rc=0 bytes=       0 at 22:22:56
+[start] E5 at 22:22:56
+[start] E3 at 22:22:56
+[start] E2 at 22:22:56
+[start] E4 at 22:22:56
+[start] E6 at 22:22:56
+[start] E8 at 22:22:56
+[start] H1 at 22:22:56
+[start] E7 at 22:22:56
+[done]  E3 rc=0 bytes=   39809 at 22:27:14
+[done]  E4 rc=0 bytes=   83986 at 22:30:30
+[done]  E7 rc=0 bytes=  100349 at 22:32:03
+[done]  E2 rc=0 bytes=   98911 at 22:32:13
+[start] H4 at 22:32:13
+[start] H2 at 22:32:13
+[start] H3 at 22:32:13
+[done]  H1 rc=0 bytes=   81415 at 22:35:03
+[done]  H4 rc=0 bytes=   58696 at 22:38:23
+[done]  E8 rc=0 bytes=  142396 at 22:38:37
+[done]  H2 rc=0 bytes=   67453 at 22:38:38
+[done]  E6 rc=0 bytes=  207299 at 22:41:09
+[done]  E5 rc=0 bytes=       0 at 22:42:54
+[done]  H3 rc=0 bytes=       0 at 22:42:54
+[start] H5 at 22:42:54
+[start] H6 at 22:42:54
+[start] H7 at 22:42:54
+[start] H8 at 22:42:54
+[start] N1 at 22:42:54
+[start] N2 at 22:42:54
+[start] N3 at 22:42:54
+[start] N4 at 22:42:54
+[done]  H5 rc=0 bytes=   10749 at 22:44:20
+[start] N5 at 22:44:20
+[done]  H6 rc=0 bytes=   68219 at 22:49:14
+[start] N6 at 22:49:14
+[done]  N3 rc=0 bytes=   71664 at 22:49:49
+[done]  H7 rc=0 bytes=   87745 at 22:50:59
+[start] N7 at 22:50:59
+[done]  N1 rc=0 bytes=  115391 at 22:53:22
+[done]  H8 rc=0 bytes=  103105 at 22:53:41
+[start] N8 at 22:53:41
+[start] S1 at 22:53:41
+[done]  N8 rc=0 bytes=       3 at 22:53:58
+[done]  N2 rc=0 bytes=  125402 at 22:54:23
+[start] S2 at 22:54:23
+[start] S3 at 22:54:23
+[done]  S3 rc=0 bytes=       3 at 22:54:40
+[done]  N4 rc=0 bytes=  126660 at 22:55:04
+[start] S4 at 22:55:04
+[done]  N6 rc=0 bytes=  124536 at 23:00:49
+[done]  S1 rc=0 bytes=   89001 at 23:01:47
+[done]  S4 rc=0 bytes=   90283 at 23:03:17
+[done]  N5 rc=0 bytes=  343055 at 23:14:35
+[start] S6 at 23:14:35
+[start] S5 at 23:14:35
+[done]  S5 rc=0 bytes=   90996 at 23:22:36
+[done]  S6 rc=0 bytes=   91022 at 23:22:37
+[done]  S2 rc=0 bytes=  430366 at 23:31:55
+[done]  N7 rc=0 bytes=  403654 at 23:48:56
+[start] S7 at 23:48:56
+[start] S8 at 23:48:56
+[done]  S8 rc=0 bytes=   79648 at 23:55:52
+[done]  S7 rc=0 bytes=   92517 at 23:57:34
+---
+[launch_codex_40] All complete at 2026年 5月 7日 木曜日 23時57分34秒 JST
+Output sizes:
+  A1.json           88657 bytes
+  A2.json               0 bytes
+  A3.json          115414 bytes
+  A4.json           71719 bytes
+  A5.json           86901 bytes
+  A6.json               0 bytes
+  A7.json           83654 bytes
+  A8.json           69777 bytes
+  E1.json           68127 bytes
+  E2.json           98911 bytes
+  E3.json           39809 bytes
+  E4.json           83986 bytes
+  E5.json               0 bytes
+  E6.json          207299 bytes
+  E7.json          100349 bytes
+  E8.json          142396 bytes
+  H1.json           81415 bytes
+  H2.json           67453 bytes
+  H3.json               0 bytes
+  H4.json           58696 bytes
+  H5.json           10749 bytes
+  H6.json           68219 bytes
+  H7.json           87745 bytes
+  H8.json          103105 bytes
+  N1.json          115391 bytes
+  N2.json          125402 bytes
+  N3.json           71664 bytes
+  N4.json          126660 bytes
+  N5.json          343055 bytes
+  N6.json          124536 bytes
+  N7.json          403654 bytes
+  N8.json               3 bytes
+  S1.json           89001 bytes
+  S2.json          430366 bytes
+  S3.json               3 bytes
+  S4.json           90283 bytes
+  S5.json           90996 bytes
+  S6.json           91022 bytes
+  S7.json           92517 bytes
+  S8.json           79648 bytes

@@ -1,0 +1,842 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e09ee-8f42-7352-b720-5a9ec2ddeb98
+--------
+user
+「メディアアート・デジタル芸術」分野の 2015-2025年 の重要概念60件を JSON 配列で出力。
+
+必須概念:
+生成AIアート、ブロックチェーンアート、AIDA Algorithm、AIシネマ、生成音楽
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"メディアアート・デジタル芸術","school_of_thought":"学派/枠組","era_start":年(2015以上),"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、era_start ≥ 2015、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "生成AIアート",
+    "name_en": "Generative AI Art",
+    "definition": "大規模な画像、音声、映像、テキスト生成モデルを用い、作家がプロンプト、学習データ、反復的な選別を通じて作品を構成する実践。作者性、データの来歴、創造性の分配、鑑賞者との対話性をめぐる議論を中心に展開している。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "計算的創造性",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "generative AI,prompting",
+    "key_researchers": ["Lev Manovich", "Joanna Zylinska"]
+  },
+  {
+    "name_ja": "ブロックチェーンアート",
+    "name_en": "Blockchain Art",
+    "definition": "ブロックチェーン上のトークン、スマートコントラクト、分散台帳を用いて作品の所有、来歴、販売、保存を設計する芸術実践。希少性や真正性を技術的に記述する一方で、市場化、投機性、共同所有の制度を問い直す。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "分散型メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "blockchain,provenance",
+    "key_researchers": ["Ruth Catlow", "Marc Garrett"]
+  },
+  {
+    "name_ja": "AIDA Algorithm",
+    "name_en": "AIDA Algorithm",
+    "definition": "注意、関心、欲望、行動という広告理論のAIDAモデルを、作品体験やインタラクション設計のアルゴリズム的枠組として応用する概念。視線誘導、感情喚起、参加行動の連鎖を計算的に設計し、観客の反応を作品の素材に変える。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "体験設計論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "attention,interaction design",
+    "key_researchers": ["Lev Manovich", "Christian Ulrik Andersen"]
+  },
+  {
+    "name_ja": "AIシネマ",
+    "name_en": "AI Cinema",
+    "definition": "脚本生成、編集、合成映像、音声生成、キャラクター制御などにAIを組み込み、映画制作と鑑賞の過程を再編する実践。固定された作品だけでなく、観客やデータに応じて変化する物語映像を含む点が特徴である。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ポストシネマ論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "AI cinema,synthetic media",
+    "key_researchers": ["Shane Denson", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "生成音楽",
+    "name_en": "Generative Music",
+    "definition": "アルゴリズム、確率過程、機械学習、センサー入力などにより、演奏や再生のたびに変化する音楽を生成する概念。作曲家は完成した楽曲だけでなく、音が生じる規則、環境、聴取条件そのものを設計する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "アルゴリズミック作曲",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "generative music,algorithmic composition",
+    "key_researchers": ["Brian Eno", "Nick Collins"]
+  },
+  {
+    "name_ja": "敵対的生成ネットワーク美学",
+    "name_en": "GAN Aesthetics",
+    "definition": "GANによる画像生成で生じるゆがみ、潜在空間の補間、訓練データの痕跡を美的特徴として扱う概念。写実性と異形性の中間に現れる視覚を通じて、機械が学習したイメージ文化の偏りや記憶を可視化する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "機械視覚批評",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "GAN,latent space",
+    "key_researchers": ["Mario Klingemann", "Ahmed Elgammal"]
+  },
+  {
+    "name_ja": "潜在空間探索",
+    "name_en": "Latent Space Exploration",
+    "definition": "機械学習モデル内部の潜在表現を、作家が視覚、音響、身体操作を通じて探索する制作方法。作品は単一の出力ではなく、データ集合とモデルが形成した可能性の地形を移動する体験として提示される。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "データ美学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "latent space,model navigation",
+    "key_researchers": ["Refik Anadol", "Gene Kogan"]
+  },
+  {
+    "name_ja": "ニューラルスタイル変換",
+    "name_en": "Neural Style Transfer",
+    "definition": "深層ニューラルネットワークを用いて、ある画像の内容と別の画像の様式を再結合する表現技法。絵画様式の模倣にとどまらず、スタイルを計算可能な特徴量として扱うことで、画像文化の引用と変換を問い直す。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "計算的イメージ論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "style transfer,neural networks",
+    "key_researchers": ["Leon Gatys", "Alexander Mordvintsev"]
+  },
+  {
+    "name_ja": "拡散モデル芸術",
+    "name_en": "Diffusion Model Art",
+    "definition": "ノイズから画像や映像を段階的に復元する拡散モデルを利用し、プロンプト、条件付け、モデル調整によって作品を生成する実践。偶然性と制御性のあいだで、作者の役割が描画から選択、編集、モデル操作へ移行する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "プロンプト美学",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "diffusion models,text-to-image",
+    "key_researchers": ["Katherine Crowson", "Joanna Zylinska"]
+  },
+  {
+    "name_ja": "プロンプトエンジニアリング美学",
+    "name_en": "Prompt Engineering Aesthetics",
+    "definition": "生成モデルへの自然言語指示を、技術的操作であると同時に詩的、批評的、構成的な表現媒体として扱う考え方。語彙、構文、参照、否定指定の選択が、画像や音の形式だけでなく作品の思想を形作る。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "言語媒介芸術",
+    "era_start": 2022,
+    "era_end": null,
+    "keywords_en": "prompt engineering,text-to-image",
+    "key_researchers": ["Lev Manovich", "Kate Crawford"]
+  },
+  {
+    "name_ja": "合成メディア",
+    "name_en": "Synthetic Media",
+    "definition": "AIによって生成、変換、合成された映像、音声、写真、テキストを総称する概念。現実の記録と人工的生成物の境界が曖昧になる状況で、証拠性、信頼、演技、肖像権、アーカイブのあり方を再検討する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ポスト真実メディア論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "synthetic media,deepfake",
+    "key_researchers": ["Kate Crawford", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "ディープフェイク批評",
+    "name_en": "Deepfake Critique",
+    "definition": "人物の顔や声をAIで置換、合成する技術を、単なる偽情報問題ではなく、身体、アイデンティティ、権力、記録映像の信頼性を問う芸術的素材として扱う枠組。暴力性と解放性の両面を検討する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "批判的メディア実践",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "deepfake,identity",
+    "key_researchers": ["Hito Steyerl", "Wendy Hui Kyong Chun"]
+  },
+  {
+    "name_ja": "ニューラル映像合成",
+    "name_en": "Neural Video Synthesis",
+    "definition": "深層学習によりフレーム生成、動き補間、顔や身体の再演、映像修復を行う制作領域。撮影された映像を素材として固定するのではなく、モデルによって再計算され続ける可塑的な時間イメージとして扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "計算的映像論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "neural rendering,video synthesis",
+    "key_researchers": ["Shane Denson", "Memo Akten"]
+  },
+  {
+    "name_ja": "AI共同創作",
+    "name_en": "Human-AI Co-Creation",
+    "definition": "人間とAIが役割を分担しながら作品を生成する制作モデル。作家はAIを単なる道具ではなく、提案、変形、偶然性、誤読をもたらす共同者として扱い、創作過程における判断と責任の所在を再設計する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ヒューマンAIインタラクション",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "co-creation,human-AI interaction",
+    "key_researchers": ["Rebecca Fiebrink", "Margaret Boden"]
+  },
+  {
+    "name_ja": "計算的創造性",
+    "name_en": "Computational Creativity",
+    "definition": "コンピュータが新規性、価値、驚きを伴う成果を生み出せるかを問う研究と芸術実践の枠組。メディアアートでは、作品の評価だけでなく、生成規則、学習過程、観客の解釈を含めて創造性を分析する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "計算的創造性研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "computational creativity,creative AI",
+    "key_researchers": ["Margaret Boden", "Simon Colton"]
+  },
+  {
+    "name_ja": "AIキュレーション",
+    "name_en": "AI Curation",
+    "definition": "機械学習を用いて作品の分類、推薦、展示構成、アーカイブ探索を支援または自動化する概念。キュレーションの判断をデータ処理へ委ねることで、可視性、評価基準、制度的偏りがどのように再生産されるかを問う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "デジタルキュレーション論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "AI curation,recommendation",
+    "key_researchers": ["Lev Manovich", "Beryl Graham"]
+  },
+  {
+    "name_ja": "データセット美学",
+    "name_en": "Dataset Aesthetics",
+    "definition": "AI作品の見た目や意味が、使用されたデータセットの構成、欠落、分類、偏りに深く依存することを重視する概念。作品は出力だけでなく、収集、ラベル付け、除外、圧縮された文化的記憶の表現として読まれる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "批判的データ研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "dataset bias,data aesthetics",
+    "key_researchers": ["Kate Crawford", "Trevor Paglen"]
+  },
+  {
+    "name_ja": "アルゴリズム監視芸術",
+    "name_en": "Algorithmic Surveillance Art",
+    "definition": "顔認識、行動予測、追跡、スコアリングなどの監視技術を素材化し、社会に埋め込まれた不可視の権力を可視化する実践。観客を観察対象にする展示形式を通じて、同意、プライバシー、分類の暴力を問う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "監視資本主義批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "surveillance,facial recognition",
+    "key_researchers": ["Trevor Paglen", "Zach Blas"]
+  },
+  {
+    "name_ja": "顔認識批評",
+    "name_en": "Facial Recognition Critique",
+    "definition": "顔認識技術が人種、性別、年齢、感情を分類する仕組みを芸術的に検証する枠組。顔を個人識別の透明な窓とみなす発想を批判し、顔が政治的、統計的、商業的に構築される過程を示す。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "バイオメトリック批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "facial recognition,biometrics",
+    "key_researchers": ["Joy Buolamwini", "Zach Blas"]
+  },
+  {
+    "name_ja": "ポストインターネットアート",
+    "name_en": "Post-Internet Art",
+    "definition": "インターネットを特定の媒体ではなく、社会、感性、流通、自己表象を条件づける環境として捉える芸術概念。オンラインとオフラインの区別が薄れた状況で、画像の循環、ブランド、プラットフォーム性を扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ポストインターネット論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-internet,network culture",
+    "key_researchers": ["Marisa Olson", "Gene McHugh"]
+  },
+  {
+    "name_ja": "プラットフォーム美学",
+    "name_en": "Platform Aesthetics",
+    "definition": "SNS、配信サービス、アプリストア、検索エンジンなどのプラットフォームが、作品形式、可視性、収益化、観客行動を規定することを分析する概念。インターフェースや推薦アルゴリズムも作品環境の一部として扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platform studies,algorithmic visibility",
+    "key_researchers": ["Tarleton Gillespie", "Anne Helmond"]
+  },
+  {
+    "name_ja": "ソーシャルメディア・パフォーマンス",
+    "name_en": "Social Media Performance",
+    "definition": "SNS上の投稿、ライブ配信、プロフィール、リアクション、拡散をパフォーマンスの場として用いる実践。身体の同時性だけでなく、通知、アルゴリズム、フォロワー関係が演技や観客性を構成する点が重要である。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ネットワーク・パフォーマンス論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "social media,performance",
+    "key_researchers": ["Gabriella Giannachi", "Wendy Hui Kyong Chun"]
+  },
+  {
+    "name_ja": "ライブコーディング",
+    "name_en": "Live Coding",
+    "definition": "プログラムを書き換える行為を演奏や上演として公開し、音、映像、動きがコード変更に応じて即時生成される実践。制作過程を隠さず見せることで、アルゴリズム、即興性、身体性の関係を再構成する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "アルゴリズム・パフォーマンス",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "live coding,algorithmic performance",
+    "key_researchers": ["Alex McLean", "Nick Collins"]
+  },
+  {
+    "name_ja": "クリエイティブコーディング",
+    "name_en": "Creative Coding",
+    "definition": "プログラミングを効率化や実用機能のためだけでなく、視覚、音響、インタラクションを探究する表現手段として用いる実践。教育、デザイン、アートを横断し、コードの可読性や実験性も作品価値に含める。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "オープンソース芸術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "creative coding,generative visuals",
+    "key_researchers": ["Casey Reas", "Lauren McCarthy"]
+  },
+  {
+    "name_ja": "インタラクティブ・インスタレーション",
+    "name_en": "Interactive Installation",
+    "definition": "センサー、映像、音響、ネットワーク、空間装置を統合し、観客の行動によって変化する展示形式。作品は固定された対象ではなく、環境、身体、装置、反応の循環によってその場で成立する経験として設計される。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "インタラクション美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "interactive installation,sensors",
+    "key_researchers": ["Erkki Huhtamo", "Christiane Paul"]
+  },
+  {
+    "name_ja": "没入型メディアアート",
+    "name_en": "Immersive Media Art",
+    "definition": "大型投影、空間音響、VR、AR、センサー環境などにより、鑑賞者を作品内部へ包み込む表現形式。視覚的壮大さだけでなく、身体の位置、移動、触覚、共同体験が意味形成に関わる点が重視される。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "没入体験論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immersive media,spatial experience",
+    "key_researchers": ["Oliver Grau", "Christiane Paul"]
+  },
+  {
+    "name_ja": "VRアート",
+    "name_en": "Virtual Reality Art",
+    "definition": "ヘッドマウントディスプレイやトラッキング技術を用い、仮想空間内で身体的に体験される作品を制作する領域。視点、スケール、存在感、酔い、操作性を通じて、鑑賞者の身体感覚と空間認識を変容させる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "仮想環境美学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "virtual reality,presence",
+    "key_researchers": ["Char Davies", "Oliver Grau"]
+  },
+  {
+    "name_ja": "ARパブリックアート",
+    "name_en": "Augmented Reality Public Art",
+    "definition": "スマートフォンやARグラスを通じ、公共空間にデジタル情報や仮想オブジェクトを重ねる芸術実践。物理的設置を伴わずに場所の記憶、政治性、観光、広告環境へ介入できる点が特徴である。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "拡張空間論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "augmented reality,public art",
+    "key_researchers": ["Mark Skwarek", "Tamiko Thiel"]
+  },
+  {
+    "name_ja": "XRパフォーマンス",
+    "name_en": "XR Performance",
+    "definition": "VR、AR、MRを組み合わせ、舞台、身体、観客、仮想空間を横断して成立する上演形式。出演者と鑑賞者が異なる現実層を共有するため、臨場感、同期、アバター、遠隔参加が演出上の中心になる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "拡張現実パフォーマンス論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "XR,performance",
+    "key_researchers": ["Gabriella Giannachi", "Steve Benford"]
+  },
+  {
+    "name_ja": "メタバース芸術",
+    "name_en": "Metaverse Art",
+    "definition": "共有仮想空間内で制作、展示、取引、上演される芸術実践。アバター、仮想土地、ゲームエンジン、デジタル所有権が結びつき、作品の場所性、社会性、経済性がプラットフォーム上で再編される。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "仮想世界研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "metaverse,virtual worlds",
+    "key_researchers": ["Tom Boellstorff", "Christiane Paul"]
+  },
+  {
+    "name_ja": "バーチャルプロダクション",
+    "name_en": "Virtual Production",
+    "definition": "ゲームエンジン、LEDウォール、モーションキャプチャ、リアルタイムレンダリングを組み合わせ、撮影とデジタル合成を同時化する制作手法。映画、舞台、展示を横断し、空間設計と映像生成の境界を変える。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "リアルタイム映像制作論",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "virtual production,real-time rendering",
+    "key_researchers": ["Noah Kadner", "Shane Denson"]
+  },
+  {
+    "name_ja": "リアルタイムレンダリング美学",
+    "name_en": "Real-Time Rendering Aesthetics",
+    "definition": "ゲームエンジンやGPU処理によって、映像や空間が即時に計算されること自体を表現条件とする概念。プリレンダー映像とは異なり、入力、環境、観客行動に応じて変化する可変的な映像時間を扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ゲームエンジン美学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "real-time rendering,game engine",
+    "key_researchers": ["Ian Bogost", "Alexander R. Galloway"]
+  },
+  {
+    "name_ja": "ゲームエンジン・シネマ",
+    "name_en": "Game Engine Cinema",
+    "definition": "UnityやUnreal Engineなどのゲームエンジンを用いて、映像作品、ライブ映像、インタラクティブ映画を制作する領域。カメラ、照明、物理、キャラクターが実時間で操作可能になり、映画制作の線形性を揺さぶる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ポストシネマ論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "game engine cinema,machinima",
+    "key_researchers": ["Shane Denson", "Henry Lowood"]
+  },
+  {
+    "name_ja": "マシニマ再考",
+    "name_en": "Machinima Revisited",
+    "definition": "ゲーム空間内で撮影、演出、編集される映像表現を、現代の配信文化やゲームエンジン制作と接続して再評価する概念。プレイヤー操作、バグ、仮想カメラが映画的表現の新しい文法として扱われる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ゲーム映像論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "machinima,virtual camera",
+    "key_researchers": ["Henry Lowood", "Tracy Harwood"]
+  },
+  {
+    "name_ja": "インディーゲームアート",
+    "name_en": "Indie Game Art",
+    "definition": "商業的大作ゲームとは異なる小規模、実験的、個人的なゲーム制作を芸術表現として捉える概念。ルール、失敗、探索、物語、操作感が美的経験を構成し、展示空間とオンライン配布の双方で展開する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ゲームスタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "indie games,art games",
+    "key_researchers": ["Jesper Juul", "Anna Anthropy"]
+  },
+  {
+    "name_ja": "プレイアブル・アート",
+    "name_en": "Playable Art",
+    "definition": "鑑賞だけでなく、操作、選択、失敗、再挑戦を通じて意味が立ち上がる作品形式。ゲームのルールやインターフェースを美術の構成要素として用い、観客を能動的なプレイヤーへ変換する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ルドロジー",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "playable art,ludology",
+    "key_researchers": ["Mary Flanagan", "Ian Bogost"]
+  },
+  {
+    "name_ja": "ボリュメトリック映像",
+    "name_en": "Volumetric Video",
+    "definition": "人物や空間を三次元データとして撮影し、任意の視点から再生可能にする映像技術と表現。VR、AR、舞台記録、遠隔存在に応用され、映像を平面のフレームから空間的な彫刻へ拡張する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "空間映像論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "volumetric video,3D capture",
+    "key_researchers": ["Sarah Kenderdine", "Oliver Grau"]
+  },
+  {
+    "name_ja": "フォトグラメトリ芸術",
+    "name_en": "Photogrammetry Art",
+    "definition": "多数の写真から三次元モデルを生成するフォトグラメトリを用い、場所、遺物、身体、都市をデジタル化する実践。精密な記録でありながら、穴、歪み、欠落が記憶や権力の表現として読まれる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "デジタルアーカイブ批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "photogrammetry,3D scanning",
+    "key_researchers": ["Sarah Kenderdine", "Matthew Fuller"]
+  },
+  {
+    "name_ja": "デジタルツイン芸術",
+    "name_en": "Digital Twin Art",
+    "definition": "都市、建築、環境、身体などの現実対象をデータとシミュレーションで複製し、その変化を作品化する概念。管理技術としてのデジタルツインを転用し、現実の監視、予測、制御への依存を批判的に示す。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "シミュレーション批評",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "digital twin,simulation",
+    "key_researchers": ["Benjamin Bratton", "Shannon Mattern"]
+  },
+  {
+    "name_ja": "スマートシティ・メディアアート",
+    "name_en": "Smart City Media Art",
+    "definition": "都市に埋め込まれたセンサー、データ基盤、公共スクリーン、位置情報を用いて、都市生活の可視化や介入を行う実践。効率化の物語だけでなく、監視、包摂、排除、住民参加の問題を扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "都市メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "smart city,urban media",
+    "key_researchers": ["Shannon Mattern", "Usman Haque"]
+  },
+  {
+    "name_ja": "データビジュアライゼーション・アート",
+    "name_en": "Data Visualization Art",
+    "definition": "統計やセンサー情報を視覚的に表現するだけでなく、データの選択、抽象化、感情的解釈を作品化する領域。科学的説明と美的経験の境界で、見えない社会構造や環境変化を知覚可能にする。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "情報美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "data visualization,information aesthetics",
+    "key_researchers": ["Lev Manovich", "Giorgia Lupi"]
+  },
+  {
+    "name_ja": "気候データ芸術",
+    "name_en": "Climate Data Art",
+    "definition": "気温、海面、炭素排出、生物多様性などの気候データを、映像、音響、インスタレーションへ変換する実践。抽象的で巨大な環境変化を身体的、感情的に理解させ、科学と公共圏を接続する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "環境メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate data,eco art",
+    "key_researchers": ["Andrea Polli", "T. J. Demos"]
+  },
+  {
+    "name_ja": "エコクリティカル・メディアアート",
+    "name_en": "Ecocritical Media Art",
+    "definition": "デジタル技術の環境負荷、電子廃棄物、エネルギー消費、採掘、気候危機を批判的に扱うメディアアートの枠組。非物質的に見えるデジタル文化が、物質的な地球環境に依存することを示す。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "エコクリティシズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ecocriticism,media ecology",
+    "key_researchers": ["Jussi Parikka", "T. J. Demos"]
+  },
+  {
+    "name_ja": "電子廃棄物美学",
+    "name_en": "E-Waste Aesthetics",
+    "definition": "廃棄された電子機器、基板、ケーブル、レアメタル、修理不能な端末を素材や主題とする芸術概念。デジタル文化の背後にある消費サイクル、労働、毒性、グローバルな廃棄物移動を可視化する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "メディア考古学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "e-waste,material media",
+    "key_researchers": ["Jussi Parikka", "Jennifer Gabrys"]
+  },
+  {
+    "name_ja": "バイオデジタルアート",
+    "name_en": "Biodigital Art",
+    "definition": "生物学的プロセス、遺伝情報、微生物、培養組織とデジタル制御やデータ処理を結びつける芸術実践。生命を情報として扱う技術への批判と、非人間的存在との共制作を探る視点を併せ持つ。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "バイオアート",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "biodigital,bioart",
+    "key_researchers": ["Oron Catts", "Ionat Zurr"]
+  },
+  {
+    "name_ja": "バイオフィードバック・アート",
+    "name_en": "Biofeedback Art",
+    "definition": "心拍、脳波、呼吸、筋電、皮膚電気反応などの生体信号を取得し、映像、音響、光、動きへ変換する実践。身体内部の状態を外部化することで、自己認識、医療技術、感情制御の関係を問う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "身体メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "biofeedback,physiological data",
+    "key_researchers": ["Atau Tanaka", "Stelarc"]
+  },
+  {
+    "name_ja": "ウェアラブル・メディアアート",
+    "name_en": "Wearable Media Art",
+    "definition": "センサー、発光素材、通信機能、柔軟な電子回路を衣服や装身具に組み込み、身体と情報環境を接続する実践。ファッション、パフォーマンス、医療、監視の境界で、身体がインターフェース化する状況を扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "身体拡張論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "wearables,e-textiles",
+    "key_researchers": ["Susan Kozel", "Joanna Berzowska"]
+  },
+  {
+    "name_ja": "触覚インターフェース芸術",
+    "name_en": "Haptic Interface Art",
+    "definition": "振動、圧力、抵抗、温度、触感提示を用いて、視覚中心ではないデジタル体験を構成する概念。遠隔接触、身体の境界、感覚の翻訳を扱い、デジタル芸術における触れることの意味を拡張する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "感覚メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "haptics,tactile interface",
+    "key_researchers": ["Susan Kozel", "Chris Salter"]
+  },
+  {
+    "name_ja": "ロボティック・アート",
+    "name_en": "Robotic Art",
+    "definition": "ロボットを造形物、演者、共同制作装置、社会的存在として用いる芸術領域。自律的な動き、反応、失敗、機械的身体を通じて、人間中心の表現、労働、ケア、感情投影の問題を扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ポストヒューマン芸術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "robotic art,autonomy",
+    "key_researchers": ["Ken Goldberg", "Stelarc"]
+  },
+  {
+    "name_ja": "自律エージェント芸術",
+    "name_en": "Autonomous Agent Art",
+    "definition": "ソフトウェアエージェントやロボットが、環境情報に基づいて判断し作品の状態を変える実践。作家は個々の結果よりも、エージェントの行動規則、学習、相互作用の条件を設計する点に重点を置く。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "人工生命芸術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "autonomous agents,artificial life",
+    "key_researchers": ["Jon McCormack", "Ken Rinaldo"]
+  },
+  {
+    "name_ja": "人工生命アート",
+    "name_en": "Artificial Life Art",
+    "definition": "進化、自己組織化、群行動、遺伝的アルゴリズムなどを用いて、生命的な振る舞いを持つシステムを制作する領域。作品は完成物ではなく、時間のなかで変化し続けるプロセスとして鑑賞される。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "人工生命研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "artificial life,evolutionary art",
+    "key_researchers": ["Jon McCormack", "Christa Sommerer"]
+  },
+  {
+    "name_ja": "群知能芸術",
+    "name_en": "Swarm Intelligence Art",
+    "definition": "鳥群、昆虫、細胞、群衆のような分散的な相互作用をアルゴリズムで模倣し、映像、音、ロボット、参加型作品へ応用する概念。中央制御ではなく多数の局所的判断が形を生む点を表現化する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "複雑系芸術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "swarm intelligence,emergence",
+    "key_researchers": ["Mitchel Resnick", "Jon McCormack"]
+  },
+  {
+    "name_ja": "NFTアート",
+    "name_en": "NFT Art",
+    "definition": "非代替性トークンによってデジタル作品の所有証明、販売、二次流通、コミュニティ形成を行う実践。画像や動画そのものだけでなく、スマートコントラクト、メタデータ、取引履歴が作品経験の一部になる。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "暗号芸術",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "NFT,crypto art",
+    "key_researchers": ["Ruth Catlow", "Amy Whitaker"]
+  },
+  {
+    "name_ja": "スマートコントラクト芸術",
+    "name_en": "Smart Contract Art",
+    "definition": "ブロックチェーン上で自動実行される契約コードを作品の構造に組み込む実践。販売条件、版数、変化、参加権、収益分配をコード化し、法、制度、市場、作者性がプログラム可能になる状況を問う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "コード・ロウ批評",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "smart contracts,on-chain art",
+    "key_researchers": ["Primavera De Filippi", "Amy Whitaker"]
+  },
+  {
+    "name_ja": "オンチェーン・ジェネラティブアート",
+    "name_en": "On-Chain Generative Art",
+    "definition": "作品生成のコードやパラメータをブロックチェーン上に保存し、トークン発行時に固有の視覚結果が生成される形式。所有証明だけでなく、生成規則そのものを公開台帳に刻むことで作品の来歴と実行性を結びつける。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "暗号生成芸術",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "on-chain,generative art",
+    "key_researchers": ["Casey Reas", "Tyler Hobbs"]
+  },
+  {
+    "name_ja": "DAOキュレーション",
+    "name_en": "DAO Curation",
+    "definition": "分散型自律組織を用いて、作品購入、展示方針、助成、コレクション管理を共同で決定する概念。キュレーターや美術館の権威を分散させる一方、投票権、資本集中、コミュニティ規範の問題を生む。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "分散型ガバナンス",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "DAO,curation",
+    "key_researchers": ["Ruth Catlow", "Primavera De Filippi"]
+  },
+  {
+    "name_ja": "デジタル来歴管理",
+    "name_en": "Digital Provenance",
+    "definition": "デジタル作品の制作、編集、所有、展示、保存の履歴を技術的かつ制度的に記録する概念。複製が容易な環境で真正性を支えるだけでなく、改変可能性やバージョン差異を作品史として扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "デジタル保存論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "provenance,digital preservation",
+    "key_researchers": ["Christiane Paul", "Richard Rinehart"]
+  },
+  {
+    "name_ja": "デジタル保存とエミュレーション",
+    "name_en": "Digital Preservation and Emulation",
+    "definition": "ソフトウェア、ハードウェア、ネットワーク環境に依存する作品を将来も体験可能にするため、エミュレーション、移植、記録、再制作を行う枠組。オリジナル性を物質ではなく挙動や経験から考える。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "可変メディア保存",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "emulation,digital preservation",
+    "key_researchers": ["Richard Rinehart", "Jon Ippolito"]
+  },
+  {
+    "name_ja": "可変メディア芸術",
+    "name_en": "Variable Media Art",
+    "definition": "作品が特定の媒体や装置に固定されず、技術環境の変化に応じて再実装、再解釈、更新されうると考える概念。保存や展示では、形態の忠実性だけでなく、振る舞い、機能、体験の継承が重視される。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "可変メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "variable media,reinterpretation",
+    "key_researchers": ["Jon Ippolito", "Richard Rinehart"]
+  },
+  {
+    "name_ja": "オンライン展示空間",
+    "name_en": "Online Exhibition Space",
+    "definition": "ウェブサイト、仮想ギャラリー、配信プラットフォーム、共有3D空間を用いて展示を構成する概念。物理会場の代替にとどまらず、アクセス解析、リンク、遠隔参加、非同期鑑賞が展示形式を変える。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ネットワーク・キュレーション",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "online exhibition,virtual gallery",
+    "key_researchers": ["Beryl Graham", "Christiane Paul"]
+  },
+  {
+    "name_ja": "リモート・プレゼンス芸術",
+    "name_en": "Telepresence Art",
+    "definition": "遠隔地の身体、空間、装置をネットワーク越しに結び、離れた場所に存在する感覚を作品化する実践。パンデミック以後は、ビデオ会議、ロボット、VRを通じた共在感や疲労も重要な主題となった。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "テレマティック芸術",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "telepresence,remote interaction",
+    "key_researchers": ["Roy Ascott", "Steve Benford"]
+  },
+  {
+    "name_ja": "ズーム・パフォーマンス",
+    "name_en": "Zoom Performance",
+    "definition": "ビデオ会議システムの画面分割、遅延、ミュート、背景、チャットを舞台装置として用いる上演形式。遠隔性を欠点として隠すのではなく、通信環境そのものを演技、編集、観客参加の構造に組み込む。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "パンデミック・メディア論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "Zoom performance,networked theatre",
+    "key_researchers": ["Gabriella Giannachi", "Steve Dixon"]
+  },
+  {
+    "name_ja": "パンデミック・デジタル芸術",
+    "name_en": "Pandemic Digital Art",
+    "definition": "COVID-19以後の隔離、遠隔労働、オンライン展示、身体接触の制限を背景に発展したデジタル芸術の実践群。ネットワーク越しの共在、孤立、監視、ケア、公共性の再編を主要なテーマとする。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "パンデミック・メディア論",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "pandemic media,online art",
+    "key_researchers": ["Wendy Hui Kyong Chun", "Christiane Paul"]
+  },
+  {
+    "name_ja": "アクセシブル・メディアアート",
+    "name_en": "Accessible Media Art",
+    "definition": "障害、感覚差、言語、移動条件の違いを前提に、作品体験を設計する概念。字幕、音声記述、触覚提示、柔軟な操作方法を追加機能ではなく、表現と倫理の中核として扱う点が特徴である。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "インクルーシブデザイン",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "accessibility,inclusive design",
+    "key_researchers": ["Sara Hendren", "Aimi Hamraie"]
+  },
+  {
+    "name_ja": "フェミニストAIアート",
+    "name_en": "Feminist AI Art",
+    "definition": "AIシステムに埋め込まれた性差別、労働の不可視化、身体規範、分類の暴力を批判し、別のデータ実践や共同制作を試みる芸術枠組。技術を中立的道具とみなさず、権力関係の場として扱う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "フェミニスト技術研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "feminist AI,bias",
+    "key_researchers": ["Safiya Umoja Noble", "Kate Crawford"]
+  },
+  {
+    "name_ja": "脱植民地デジタル芸術",
+    "name_en": "Decolonial Digital Art",
+    "definition": "デジタル技術、データ収集、AI分類、博物館アーカイブが植民地主義的知識体系を再生産する過程を批判する実践。先住民知識、言語、土地、記憶を尊重し、技術の所有と解釈権を問い直す。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "脱植民地メディア論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "decolonial,indigenous media",
+    "key_researchers": ["Linda Tuhiwai Smith", "Jason Edward Lewis"]
+  },
+  {
+    "name_ja": "先住民デジタルメディア",
+    "name_en": "Indigenous Digital Media",
+    "definition": "先住民コミュニティがデジタル技術を用いて、言語、土地、神話、記憶、政治的主張を表現する領域。西洋的な技術進歩観とは異なる時間性、関係性、共同体の権利を作品設計に組み込む。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "先住民メディア研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "indigenous media,digital sovereignty",
+    "key_researchers": ["Jason Edward Lewis", "Skawennati"]
+  },
+  {
+    "name_ja": "データ・ソブリンティ芸術",
+    "name_en": "Data Sovereignty Art",
+    "definition": "個人やコミュニティが自らのデータの収集、保存、利用、解釈を管理する権利を芸術的に扱う概念。特に先住民、移民、周縁化された集団のデータが外部制度に奪われる問題を可視化する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "データ正義",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "data sovereignty,data justice",
+    "key_researchers": ["Tahu Kukutai", "Nick Couldry"]
+  },
+  {
+    "name_ja": "感情コンピューティング芸術",
+    "name_en": "Affective Computing Art",
+    "definition": "表情、声、姿勢、生体信号から感情を推定する技術を素材にし、感情が測定、分類、商品化される状況を扱う実践。感情認識の精度だけでなく、内面をデータ化する制度的欲望を批判する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "感情メディア論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affective computing,emotion recognition",
+    "key_researchers": ["Rosalind Picard", "Lauren McCarthy"]
+  },
+  {
+    "name_ja": "音響空間メディアアート",
+    "name_en": "Spatial Audio Media Art",
+    "definition": "多チャンネル音響、バイノーラル、アンビソニックス、位置追跡を用いて、音が空間内を移動し身体を包む作品を構成する概念。視覚中心の展示に対し、聴覚的な場所性と没入感を重視する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "サウンドアート",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "spatial audio,ambisonics",
+    "key_researchers": ["Brandon LaBelle", "Chris Salter"]
+  },
+  {
+    "name_ja": "機械聴取芸術",
+    "name_en": "Machine Listening Art",
+    "definition": "音声認識、環境音分類、音響イベント検出など、機械が音を聴き分ける技術を素材化する実践。聴く主体が人間だけではなくなる状況で、監視、誤認識、声の政治性、環境音の分類を問う。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "音響メディア批評",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "machine listening,sound recognition",
+    "key_researchers": ["Rebecca Fiebrink", "Nick Collins"]
+  },
+  {
+    "name_ja": "ニューラル音声合成芸術",
+    "name_en": "Neural Voice Synthesis Art",
+    "definition": "深層学習による音声生成、声質変換、歌声合成を用い、声の所有、人格、身体性を問い直す表現。声が本人の身体から切り離され、複製や変換が容易になることで、肖像権や記憶の問題も浮上する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "ポストヒューマン音声論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "voice synthesis,neural audio",
+    "key_researchers": ["Holly Herndon", "Kate Crawford"]
+  },
+  {
+    "name_ja": "チャットボット芸術",
+    "name_en": "Chatbot Art",
+    "definition": "会話エージェントを作品の登場人物、語り手、案内者、共同制作者として用いる実践。自然言語処理の流暢さや失敗を通じて、人間らしさ、対話の権力関係、記憶、感情投影の仕組みを探る。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "会話型インターフェース論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "chatbot,conversational AI",
+    "key_researchers": ["Lauren McCarthy", "Allison Parrish"]
+  },
+  {
+    "name_ja": "大規模言語モデル詩学",
+    "name_en": "Large Language Model Poetics",
+    "definition": "大規模言語モデルが生成する文章、会話、コード、翻訳を詩的素材として扱う概念。言語の統計的予測が、作者性、引用、意味、誤生成、集合的文体をどのように変えるかを作品化する。",
+    "subfield": "メディアアート・デジタル芸術",
+    "school_of_thought": "デジタル詩学",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "large language models,poetics",
+    "key_researchers": ["Allison Parrish", "Nick Montfort"]
+  }
+]
+tokens used
+14,543

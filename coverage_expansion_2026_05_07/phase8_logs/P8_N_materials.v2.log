@@ -1,0 +1,776 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0982-fcbc-78d2-85ea-2d6dac2c55d7
+--------
+user
+「材料科学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念5件:
+グラフェン、Topological materials、メタマテリアル、高エントロピー合金、ペロブスカイト
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"材料科学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "グラフェン",
+    "name_en": "Graphene",
+    "definition": "炭素原子が六角格子状に一原子層で結合した二次元材料で、極めて高い電子移動度、熱伝導率、機械的強度を示す。量子ホール効果、透明導電膜、センサー、複合材料、スピントロニクスなどの基盤材料として研究される。",
+    "subfield": "材料科学",
+    "school_of_thought": "二次元材料科学",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "2D materials,carbon,nanomaterials",
+    "key_researchers": ["Andre Geim", "Konstantin Novoselov"]
+  },
+  {
+    "name_ja": "Topological materials",
+    "name_en": "Topological materials",
+    "definition": "電子バンド構造のトポロジーに由来して、内部は絶縁的でも表面や端で保護された伝導状態を持つ材料群を指す。欠陥や散乱に強い輸送、スピン運動量ロッキング、量子異常ホール効果などが注目される。",
+    "subfield": "材料科学",
+    "school_of_thought": "トポロジカル物質科学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "topological insulator,band topology,quantum materials",
+    "key_researchers": ["Charles Kane", "Shoucheng Zhang"]
+  },
+  {
+    "name_ja": "メタマテリアル",
+    "name_en": "Metamaterials",
+    "definition": "自然材料の化学組成だけでなく、人工的に設計した微細構造によって屈折率、透磁率、音響応答、弾性応答などを制御する材料概念である。負の屈折率、不可視化、超解像、波動制御などに応用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "人工構造材料学",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "negative index,wave control,structured media",
+    "key_researchers": ["John Pendry", "David R. Smith"]
+  },
+  {
+    "name_ja": "高エントロピー合金",
+    "name_en": "High-entropy alloys",
+    "definition": "五種類前後以上の元素をほぼ等原子比または多元組成で混合し、高い混合エントロピーによって単純固溶体や複雑相を安定化する合金設計概念である。高温強度、耐食性、耐摩耗性、極低温靭性などが注目される。",
+    "subfield": "材料科学",
+    "school_of_thought": "多元系合金設計",
+    "era_start": 2004,
+    "era_end": null,
+    "keywords_en": "complex concentrated alloys,solid solution,alloy design",
+    "key_researchers": ["Jien-Wei Yeh", "Brian Cantor"]
+  },
+  {
+    "name_ja": "ペロブスカイト",
+    "name_en": "Perovskite",
+    "definition": "一般にABX3型構造を持つ結晶材料群で、酸化物強誘電体からハライド太陽電池材料まで広い範囲を含む。イオン半径、欠陥、格子歪みの制御により、光吸収、発光、誘電性、触媒活性を調整できる。",
+    "subfield": "材料科学",
+    "school_of_thought": "結晶構造機能材料学",
+    "era_start": 1839,
+    "era_end": null,
+    "keywords_en": "ABX3,halide perovskite,oxide perovskite",
+    "key_researchers": ["Lev Perovski", "Tsutomu Miyasaka"]
+  },
+  {
+    "name_ja": "半導体",
+    "name_en": "Semiconductors",
+    "definition": "金属と絶縁体の中間的な電気伝導性を持ち、不純物添加、電場、光、温度によってキャリア濃度を制御できる材料である。シリコン、化合物半導体、酸化物半導体などが電子デバイスと光デバイスの中心を担う。",
+    "subfield": "材料科学",
+    "school_of_thought": "電子材料学",
+    "era_start": 1947,
+    "era_end": null,
+    "keywords_en": "band gap,doping,electronic materials",
+    "key_researchers": ["William Shockley", "John Bardeen"]
+  },
+  {
+    "name_ja": "バンドギャップ",
+    "name_en": "Band gap",
+    "definition": "固体中で電子が占有できる価電子帯と伝導帯の間に存在するエネルギー差で、半導体や絶縁体の光吸収、電気伝導、発光波長を決定する重要量である。組成、歪み、量子閉じ込め、欠陥により調整される。",
+    "subfield": "材料科学",
+    "school_of_thought": "固体電子論",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "electronic structure,optical absorption,semiconductors",
+    "key_researchers": ["Felix Bloch", "Alan Wilson"]
+  },
+  {
+    "name_ja": "結晶欠陥",
+    "name_en": "Crystal defects",
+    "definition": "結晶中の原子配列の理想周期性からのずれで、空孔、格子間原子、置換原子、転位、粒界、積層欠陥などを含む。欠陥は拡散、強度、電気伝導、光学応答、相変態を大きく左右するため、材料設計の中核概念である。",
+    "subfield": "材料科学",
+    "school_of_thought": "欠陥物性学",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "vacancy,dislocation,grain boundary",
+    "key_researchers": ["Egon Orowan", "Geoffrey Ingram Taylor"]
+  },
+  {
+    "name_ja": "転位",
+    "name_en": "Dislocation",
+    "definition": "結晶格子内に存在する線状欠陥で、すべり変形を担う主要な格子不整合である。刃状転位、らせん転位、混合転位に分類され、金属やセラミックスの降伏、加工硬化、クリープ、破壊靭性の理解に不可欠である。",
+    "subfield": "材料科学",
+    "school_of_thought": "結晶塑性論",
+    "era_start": 1934,
+    "era_end": null,
+    "keywords_en": "plasticity,slip,crystal defects",
+    "key_researchers": ["Egon Orowan", "Michael Polanyi"]
+  },
+  {
+    "name_ja": "粒界",
+    "name_en": "Grain boundary",
+    "definition": "多結晶材料において方位の異なる結晶粒同士が接する界面で、拡散、偏析、腐食、脆化、電気抵抗、機械強度に強く影響する。粒径制御や粒界工学により、金属、セラミックス、電池材料の性能を改善できる。",
+    "subfield": "材料科学",
+    "school_of_thought": "界面材料学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "interfaces,polycrystals,grain boundary engineering",
+    "key_researchers": ["David Turnbull", "Tadashi Watanabe"]
+  },
+  {
+    "name_ja": "相図",
+    "name_en": "Phase diagram",
+    "definition": "温度、圧力、組成などの条件に対して、材料がどの相として安定に存在するかを示す図である。合金、セラミックス、ポリマー、電池材料の凝固、析出、相変態、熱処理条件を設計するための基本的な地図となる。",
+    "subfield": "材料科学",
+    "school_of_thought": "熱力学的材料設計",
+    "era_start": 1875,
+    "era_end": null,
+    "keywords_en": "thermodynamics,phase equilibrium,alloys",
+    "key_researchers": ["Josiah Willard Gibbs", "Hume-Rothery"]
+  },
+  {
+    "name_ja": "拡散",
+    "name_en": "Diffusion",
+    "definition": "原子、イオン、分子、空孔が濃度勾配や化学ポテンシャル差に従って移動する現象である。焼結、酸化、相変態、ドーピング、電池反応、クリープなどを支配し、拡散係数や活性化エネルギーで定量化される。",
+    "subfield": "材料科学",
+    "school_of_thought": "輸送現象材料学",
+    "era_start": 1855,
+    "era_end": null,
+    "keywords_en": "mass transport,Fick laws,activation energy",
+    "key_researchers": ["Adolf Fick", "Lars Onsager"]
+  },
+  {
+    "name_ja": "焼結",
+    "name_en": "Sintering",
+    "definition": "粉末粒子を融点以下または一部液相を伴う温度で加熱し、拡散や粘性流動によって緻密化させるプロセスである。セラミックス、粉末冶金、固体電解質、積層造形部材の微構造と機械的特性を決める重要工程である。",
+    "subfield": "材料科学",
+    "school_of_thought": "粉末プロセス工学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "powder metallurgy,densification,ceramics",
+    "key_researchers": ["Frenkel", "Robert Coble"]
+  },
+  {
+    "name_ja": "アモルファス材料",
+    "name_en": "Amorphous materials",
+    "definition": "長距離の結晶周期性を持たず、短距離秩序を中心とした不規則構造を持つ固体材料である。ガラス、金属ガラス、非晶質半導体などが含まれ、透明性、軟磁性、耐食性、均質な機械応答など独特の性質を示す。",
+    "subfield": "材料科学",
+    "school_of_thought": "非晶質材料学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "glass,short-range order,amorphous solids",
+    "key_researchers": ["William Hume-Rothery", "Pol Duwez"]
+  },
+  {
+    "name_ja": "金属ガラス",
+    "name_en": "Metallic glass",
+    "definition": "金属元素を主成分としながら結晶化せずにガラス状態として固化した材料である。高強度、高弾性限、耐食性、軟磁性を示す一方、せん断帯による脆性的破壊が課題で、バルク金属ガラスや複合化が研究される。",
+    "subfield": "材料科学",
+    "school_of_thought": "非晶質合金学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "bulk metallic glass,amorphous alloy,shear band",
+    "key_researchers": ["Pol Duwez", "Akihisa Inoue"]
+  },
+  {
+    "name_ja": "セラミックス",
+    "name_en": "Ceramics",
+    "definition": "金属元素と非金属元素からなる無機固体材料で、酸化物、炭化物、窒化物、ホウ化物などを含む。高硬度、耐熱性、耐摩耗性、絶縁性、イオン伝導性を持ち、構造材料から電子部品、医療材料まで広く用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "無機材料学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "oxides,nitrides,high-temperature materials",
+    "key_researchers": ["W. David Kingery", "Robert Coble"]
+  },
+  {
+    "name_ja": "ポリマー",
+    "name_en": "Polymers",
+    "definition": "多数の繰り返し単位が共有結合で連なった高分子材料で、熱可塑性樹脂、熱硬化性樹脂、エラストマー、生体高分子などを含む。分子量、分岐、結晶化度、架橋密度により、柔軟性、強度、透明性、耐熱性が変化する。",
+    "subfield": "材料科学",
+    "school_of_thought": "高分子材料学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "macromolecules,plastics,polymer physics",
+    "key_researchers": ["Hermann Staudinger", "Paul Flory"]
+  },
+  {
+    "name_ja": "複合材料",
+    "name_en": "Composite materials",
+    "definition": "繊維、粒子、層状材料などの強化相と母相を組み合わせ、単一材料では得にくい強度、靭性、軽量性、耐熱性、機能性を実現する材料である。炭素繊維強化プラスチックやセラミック基複合材料が代表例である。",
+    "subfield": "材料科学",
+    "school_of_thought": "複合材料設計",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "fiber reinforcement,matrix,lightweight materials",
+    "key_researchers": ["Anthony Kelly", "Stephen Tsai"]
+  },
+  {
+    "name_ja": "炭素繊維強化プラスチック",
+    "name_en": "Carbon fiber reinforced polymer",
+    "definition": "炭素繊維をエポキシなどの高分子母材に埋め込んだ軽量高強度複合材料である。繊維配向、積層構成、界面接着、損傷進展が性能を左右し、航空宇宙、自動車、スポーツ用品、風力発電ブレードに用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "繊維強化複合材料学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "CFRP,carbon fiber,laminates",
+    "key_researchers": ["Roger Bacon", "Stephen Tsai"]
+  },
+  {
+    "name_ja": "ナノ材料",
+    "name_en": "Nanomaterials",
+    "definition": "少なくとも一つの次元がナノメートル領域にある材料群で、量子閉じ込め、大きな比表面積、界面支配性によりバルクとは異なる性質を示す。ナノ粒子、ナノワイヤ、ナノシート、量子ドットなどが含まれる。",
+    "subfield": "材料科学",
+    "school_of_thought": "ナノ材料科学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "nanoscale,quantum confinement,surface effects",
+    "key_researchers": ["Richard Smalley", "Sumio Iijima"]
+  },
+  {
+    "name_ja": "量子ドット",
+    "name_en": "Quantum dots",
+    "definition": "電子や正孔が三次元的にナノスケールで閉じ込められ、サイズに依存した離散的エネルギー準位と発光色を示す半導体ナノ結晶である。ディスプレイ、バイオイメージング、太陽電池、単一光子源などに応用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "量子ナノ材料学",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_en": "nanocrystals,quantum confinement,photoluminescence",
+    "key_researchers": ["Alexei Ekimov", "Louis Brus"]
+  },
+  {
+    "name_ja": "カーボンナノチューブ",
+    "name_en": "Carbon nanotubes",
+    "definition": "グラフェンシートを円筒状に巻いた構造を持つ一次元炭素ナノ材料で、単層型と多層型がある。巻き方により金属性または半導体性を示し、高強度、熱伝導性、電界放出、ナノ電子デバイス応用が研究される。",
+    "subfield": "材料科学",
+    "school_of_thought": "炭素ナノ材料学",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "CNT,one-dimensional materials,carbon",
+    "key_researchers": ["Sumio Iijima", "Mildred Dresselhaus"]
+  },
+  {
+    "name_ja": "フラーレン",
+    "name_en": "Fullerene",
+    "definition": "炭素原子が球状、楕円状、チューブ状の閉じたかご構造を形成する分子性材料で、C60が代表例である。電子受容性、分子結晶性、超伝導、光電変換、有機エレクトロニクス、医療応用の観点から研究される。",
+    "subfield": "材料科学",
+    "school_of_thought": "分子性炭素材料学",
+    "era_start": 1985,
+    "era_end": null,
+    "keywords_en": "C60,carbon cage,molecular materials",
+    "key_researchers": ["Harry Kroto", "Richard Smalley"]
+  },
+  {
+    "name_ja": "MXene",
+    "name_en": "MXene",
+    "definition": "遷移金属炭化物、窒化物、炭窒化物からなる二次元材料群で、MAX相から選択的エッチングにより得られることが多い。表面終端基により親水性や電子構造を調整でき、電池、スーパーキャパシタ、電磁波遮蔽に用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "二次元遷移金属材料学",
+    "era_start": 2011,
+    "era_end": null,
+    "keywords_en": "2D carbides,energy storage,surface terminations",
+    "key_researchers": ["Yury Gogotsi", "Michel Barsoum"]
+  },
+  {
+    "name_ja": "遷移金属ダイカルコゲナイド",
+    "name_en": "Transition metal dichalcogenides",
+    "definition": "MoS2やWS2に代表されるMX2型の層状化合物で、単層化により直接遷移型バンドギャップや強いスピン軌道相互作用を示す。二次元半導体、トランジスタ、光検出器、触媒、バレーエレクトロニクスで重要である。",
+    "subfield": "材料科学",
+    "school_of_thought": "層状半導体材料学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "TMDs,MoS2,layered materials",
+    "key_researchers": ["Robert Frindt", "Kin Fai Mak"]
+  },
+  {
+    "name_ja": "有機半導体",
+    "name_en": "Organic semiconductors",
+    "definition": "π共役分子や高分子が電荷輸送を担う半導体材料で、柔軟性、軽量性、溶液プロセス性を特徴とする。有機EL、有機薄膜トランジスタ、有機太陽電池、ウェアラブル電子デバイスの基盤材料として発展した。",
+    "subfield": "材料科学",
+    "school_of_thought": "有機電子材料学",
+    "era_start": 1977,
+    "era_end": null,
+    "keywords_en": "conjugated polymers,OLED,organic electronics",
+    "key_researchers": ["Hideki Shirakawa", "Alan Heeger"]
+  },
+  {
+    "name_ja": "有機EL材料",
+    "name_en": "OLED materials",
+    "definition": "電流注入により有機分子や高分子が励起され、発光する有機エレクトロルミネッセンス材料である。蛍光、リン光、熱活性化遅延蛍光などの発光機構があり、ディスプレイや照明で高効率化と長寿命化が課題となる。",
+    "subfield": "材料科学",
+    "school_of_thought": "有機発光材料学",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "OLED,electroluminescence,organic emitters",
+    "key_researchers": ["Ching W. Tang", "Chihaya Adachi"]
+  },
+  {
+    "name_ja": "強誘電体",
+    "name_en": "Ferroelectrics",
+    "definition": "外部電場によって反転可能な自発分極を持つ材料で、ヒステリシスを示すことが特徴である。チタン酸バリウム、PZT、ハフニア系薄膜などがあり、圧電素子、メモリ、キャパシタ、センサーに利用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "誘電体材料学",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "polarization,hysteresis,dielectrics",
+    "key_researchers": ["Joseph Valasek", "Arthur von Hippel"]
+  },
+  {
+    "name_ja": "圧電材料",
+    "name_en": "Piezoelectric materials",
+    "definition": "機械的応力を加えると電荷を発生し、逆に電場を加えると変形する材料である。水晶、PZT、窒化アルミニウム、PVDFなどがあり、アクチュエータ、超音波探触子、振動発電、精密位置決めに用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "電気機械結合材料学",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "piezoelectricity,actuators,sensors",
+    "key_researchers": ["Jacques Curie", "Pierre Curie"]
+  },
+  {
+    "name_ja": "磁性材料",
+    "name_en": "Magnetic materials",
+    "definition": "電子スピンや軌道磁気モーメントの秩序により磁化を示す材料群で、強磁性体、フェリ磁性体、反強磁性体、常磁性体を含む。永久磁石、トランス、磁気記録、スピントロニクス、モーターの性能を支える。",
+    "subfield": "材料科学",
+    "school_of_thought": "磁性材料学",
+    "era_start": 1907,
+    "era_end": null,
+    "keywords_en": "ferromagnetism,spin,magnetic storage",
+    "key_researchers": ["Pierre Weiss", "Louis Neel"]
+  },
+  {
+    "name_ja": "スピントロニクス材料",
+    "name_en": "Spintronic materials",
+    "definition": "電子の電荷だけでなくスピン自由度を情報処理や記憶に利用するための材料である。巨大磁気抵抗、多層膜、磁気トンネル接合、スピン軌道トルク材料などがあり、不揮発メモリや低消費電力デバイスに重要である。",
+    "subfield": "材料科学",
+    "school_of_thought": "スピン材料科学",
+    "era_start": 1988,
+    "era_end": null,
+    "keywords_en": "spintronics,GMR,magnetic tunnel junction",
+    "key_researchers": ["Albert Fert", "Peter Grunberg"]
+  },
+  {
+    "name_ja": "超伝導材料",
+    "name_en": "Superconducting materials",
+    "definition": "臨界温度以下で電気抵抗が消失し、マイスナー効果により磁場を排除する材料である。金属合金、銅酸化物、鉄系、MgB2、水素化物などがあり、磁気共鳴、加速器、送電、量子コンピュータで重要である。",
+    "subfield": "材料科学",
+    "school_of_thought": "量子機能材料学",
+    "era_start": 1911,
+    "era_end": null,
+    "keywords_en": "zero resistance,Meissner effect,quantum materials",
+    "key_researchers": ["Heike Kamerlingh Onnes", "John Bardeen"]
+  },
+  {
+    "name_ja": "熱電材料",
+    "name_en": "Thermoelectric materials",
+    "definition": "温度差を電圧に変換するゼーベック効果、または電流で熱を輸送するペルチェ効果を利用する材料である。高い電気伝導、低い熱伝導、大きなゼーベック係数の同時実現が重要で、廃熱発電や冷却に応用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "エネルギー変換材料学",
+    "era_start": 1821,
+    "era_end": null,
+    "keywords_en": "Seebeck effect,figure of merit,waste heat",
+    "key_researchers": ["Thomas Johann Seebeck", "Glen Slack"]
+  },
+  {
+    "name_ja": "固体電解質",
+    "name_en": "Solid electrolytes",
+    "definition": "固体状態でリチウムイオン、ナトリウムイオン、酸化物イオン、プロトンなどを高速に伝導する材料である。全固体電池、燃料電池、センサーに用いられ、イオン伝導率、界面安定性、機械的加工性が重要となる。",
+    "subfield": "材料科学",
+    "school_of_thought": "イオン伝導材料学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "ion conduction,solid-state batteries,electrolytes",
+    "key_researchers": ["John B. Goodenough", "Stanley Whittingham"]
+  },
+  {
+    "name_ja": "リチウムイオン電池材料",
+    "name_en": "Lithium-ion battery materials",
+    "definition": "リチウムイオンの可逆的な挿入、脱離、移動を利用して電気エネルギーを貯蔵する電池材料群である。正極、負極、電解質、セパレータ、界面被膜の設計が容量、安全性、寿命、急速充電性能を支配する。",
+    "subfield": "材料科学",
+    "school_of_thought": "蓄電材料科学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "cathode,anode,energy storage",
+    "key_researchers": ["John B. Goodenough", "Akira Yoshino"]
+  },
+  {
+    "name_ja": "燃料電池材料",
+    "name_en": "Fuel cell materials",
+    "definition": "水素やメタノールなどの化学エネルギーを電気エネルギーへ直接変換する燃料電池を構成する材料である。電解質膜、電極触媒、ガス拡散層、固体酸化物電解質などが性能と耐久性を左右する。",
+    "subfield": "材料科学",
+    "school_of_thought": "電気化学エネルギー材料学",
+    "era_start": 1839,
+    "era_end": null,
+    "keywords_en": "electrocatalysis,proton exchange membrane,SOFC",
+    "key_researchers": ["William Grove", "Francis Thomas Bacon"]
+  },
+  {
+    "name_ja": "触媒材料",
+    "name_en": "Catalytic materials",
+    "definition": "化学反応の活性化エネルギーを下げ、反応速度や選択性を制御する材料である。金属ナノ粒子、酸化物、ゼオライト、単原子触媒、電極触媒などが含まれ、化学産業、環境浄化、エネルギー変換で中心的役割を持つ。",
+    "subfield": "材料科学",
+    "school_of_thought": "表面反応材料学",
+    "era_start": 1835,
+    "era_end": null,
+    "keywords_en": "catalysis,surface reactions,active sites",
+    "key_researchers": ["Jons Jakob Berzelius", "Gerhard Ertl"]
+  },
+  {
+    "name_ja": "光触媒",
+    "name_en": "Photocatalysts",
+    "definition": "光を吸収して電子と正孔を生成し、酸化還元反応を促進する材料である。二酸化チタンが代表的で、水分解、空気浄化、抗菌、自己洗浄、二酸化炭素還元などへの応用を目指してバンド構造と表面反応が設計される。",
+    "subfield": "材料科学",
+    "school_of_thought": "光機能材料学",
+    "era_start": 1972,
+    "era_end": null,
+    "keywords_en": "photocatalysis,TiO2,water splitting",
+    "key_researchers": ["Akira Fujishima", "Kenichi Honda"]
+  },
+  {
+    "name_ja": "プラズモニック材料",
+    "name_en": "Plasmonic materials",
+    "definition": "金属や導電性ナノ構造中の自由電子が光と結合して集団振動を起こす表面プラズモンを利用する材料である。局所電場増強、光吸収制御、センサー、表面増強ラマン散乱、光熱変換に応用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "ナノフォトニック材料学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "surface plasmon,nanophotonics,SERS",
+    "key_researchers": ["Ugo Fano", "Naomi Halas"]
+  },
+  {
+    "name_ja": "フォトニック結晶",
+    "name_en": "Photonic crystals",
+    "definition": "屈折率が周期的に変化する構造により、特定波長の光の伝播を禁止するフォトニックバンドギャップを持つ材料である。光導波路、微小共振器、低しきい値レーザー、光集積回路、発光制御に利用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "光波制御材料学",
+    "era_start": 1987,
+    "era_end": null,
+    "keywords_en": "photonic band gap,optical materials,light control",
+    "key_researchers": ["Eli Yablonovitch", "Sajeev John"]
+  },
+  {
+    "name_ja": "形状記憶合金",
+    "name_en": "Shape memory alloys",
+    "definition": "変形後に加熱や応力除去によって元の形状へ戻る形状記憶効果や超弾性を示す合金である。NiTiが代表的で、マルテンサイト変態に基づく可逆変形を利用し、医療ステント、アクチュエータ、継手に用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "相変態機能材料学",
+    "era_start": 1963,
+    "era_end": null,
+    "keywords_en": "martensitic transformation,superelasticity,NiTi",
+    "key_researchers": ["William Buehler", "Frederick Wang"]
+  },
+  {
+    "name_ja": "マルテンサイト変態",
+    "name_en": "Martensitic transformation",
+    "definition": "拡散を伴わず、原子の協調的なせん断変位によって結晶構造が変化する相変態である。鋼の硬化、形状記憶合金、変態誘起塑性鋼などに関わり、温度、応力、組成による変態開始条件が重要である。",
+    "subfield": "材料科学",
+    "school_of_thought": "変態組織学",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "diffusionless transformation,steel,shape memory",
+    "key_researchers": ["Adolf Martens", "Morris Cohen"]
+  },
+  {
+    "name_ja": "析出強化",
+    "name_en": "Precipitation hardening",
+    "definition": "過飽和固溶体から微細な第二相粒子を析出させ、転位運動を妨げることで合金を強化する手法である。アルミニウム合金、ニッケル基超合金、銅合金などで重要で、時効処理、析出物サイズ、整合性が性能を決める。",
+    "subfield": "材料科学",
+    "school_of_thought": "合金強化機構論",
+    "era_start": 1906,
+    "era_end": null,
+    "keywords_en": "age hardening,precipitates,dislocation strengthening",
+    "key_researchers": ["Alfred Wilm", "Paul Merica"]
+  },
+  {
+    "name_ja": "固溶強化",
+    "name_en": "Solid solution strengthening",
+    "definition": "母相結晶中に異種元素を固溶させ、原子半径差や弾性率差による格子ひずみで転位運動を阻害する強化機構である。鉄鋼、アルミニウム合金、ニッケル合金、高エントロピー合金などの強度設計に広く用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "結晶強化理論",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "solute atoms,lattice strain,strengthening",
+    "key_researchers": ["Hume-Rothery", "Nabarro"]
+  },
+  {
+    "name_ja": "加工硬化",
+    "name_en": "Work hardening",
+    "definition": "塑性変形によって材料内部の転位密度が増加し、さらなる転位運動が困難になることで強度が上昇する現象である。冷間加工、圧延、引抜き、成形工程で重要で、延性、残留応力、再結晶挙動にも影響する。",
+    "subfield": "材料科学",
+    "school_of_thought": "塑性加工材料学",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "strain hardening,dislocation density,plastic deformation",
+    "key_researchers": ["Geoffrey Ingram Taylor", "Egon Orowan"]
+  },
+  {
+    "name_ja": "破壊靭性",
+    "name_en": "Fracture toughness",
+    "definition": "亀裂を含む材料が不安定破壊に抵抗する能力を表す指標で、応力拡大係数やエネルギー解放率で評価される。金属、セラミックス、複合材料、構造材料の安全設計に不可欠で、欠陥寸法と応力状態に依存する。",
+    "subfield": "材料科学",
+    "school_of_thought": "破壊力学",
+    "era_start": 1921,
+    "era_end": null,
+    "keywords_en": "fracture mechanics,crack propagation,KIC",
+    "key_researchers": ["Alan Arnold Griffith", "George Irwin"]
+  },
+  {
+    "name_ja": "疲労",
+    "name_en": "Fatigue",
+    "definition": "繰り返し応力やひずみにより、降伏応力以下でも亀裂が発生・進展して破壊に至る現象である。航空機、橋梁、車両、医療インプラントなどの寿命評価に重要で、表面状態、残留応力、環境、微構造が影響する。",
+    "subfield": "材料科学",
+    "school_of_thought": "材料信頼性工学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "cyclic loading,crack growth,S-N curve",
+    "key_researchers": ["August Wohler", "Paul Paris"]
+  },
+  {
+    "name_ja": "クリープ",
+    "name_en": "Creep",
+    "definition": "高温や長時間荷重下で、材料が時間依存的に塑性変形する現象である。発電タービン、ジェットエンジン、原子炉材料などで寿命を制限し、転位クリープ、拡散クリープ、粒界すべりなどの機構が関与する。",
+    "subfield": "材料科学",
+    "school_of_thought": "高温材料力学",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "high temperature deformation,time-dependent strain,creep rupture",
+    "key_researchers": ["Andrade", "Nabarro"]
+  },
+  {
+    "name_ja": "腐食",
+    "name_en": "Corrosion",
+    "definition": "材料が周囲環境との化学反応または電気化学反応により劣化する現象である。金属の錆、孔食、粒界腐食、応力腐食割れ、酸化などが含まれ、防食設計、表面処理、合金選択、環境制御が重要となる。",
+    "subfield": "材料科学",
+    "school_of_thought": "腐食防食材料学",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "electrochemistry,oxidation,pitting",
+    "key_researchers": ["Marcel Pourbaix", "Ulick Richardson Evans"]
+  },
+  {
+    "name_ja": "表面処理",
+    "name_en": "Surface treatment",
+    "definition": "材料表面に物理的、化学的、電気化学的な処理を施し、耐摩耗性、耐食性、接着性、濡れ性、光学特性、生体適合性を改善する技術群である。めっき、陽極酸化、窒化、コーティング、プラズマ処理などを含む。",
+    "subfield": "材料科学",
+    "school_of_thought": "表面工学",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "coatings,plating,surface engineering",
+    "key_researchers": ["Michael Faraday", "Bunshah"]
+  },
+  {
+    "name_ja": "薄膜材料",
+    "name_en": "Thin films",
+    "definition": "基板上にナノメートルからマイクロメートル程度の厚さで形成された材料で、バルクとは異なる応力、結晶性、界面効果、量子効果を示すことがある。半導体、磁気記録、光学膜、センサー、太陽電池に不可欠である。",
+    "subfield": "材料科学",
+    "school_of_thought": "薄膜プロセス材料学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "deposition,interfaces,thin-film devices",
+    "key_researchers": ["John Thornton", "Donald Mattox"]
+  },
+  {
+    "name_ja": "エピタキシー",
+    "name_en": "Epitaxy",
+    "definition": "基板結晶の方位や格子に従って薄膜結晶を成長させる技術または現象である。格子整合、ミスフィット転位、歪み制御が重要で、半導体レーザー、量子井戸、酸化物ヘテロ構造、窒化物デバイスに用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "結晶成長材料学",
+    "era_start": 1928,
+    "era_end": null,
+    "keywords_en": "crystal growth,lattice mismatch,heterostructures",
+    "key_researchers": ["Royce Murray", "Alfred Cho"]
+  },
+  {
+    "name_ja": "化学気相成長",
+    "name_en": "Chemical vapor deposition",
+    "definition": "気相前駆体を基板表面で化学反応させ、固体薄膜やナノ構造を形成するプロセスである。半導体膜、ダイヤモンド、グラフェン、窒化物、酸化物、保護膜の作製に用いられ、温度、圧力、反応速度が品質を決める。",
+    "subfield": "材料科学",
+    "school_of_thought": "気相プロセス工学",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "CVD,thin films,precursors",
+    "key_researchers": ["John Blocher", "Bernard Lux"]
+  },
+  {
+    "name_ja": "物理気相成長",
+    "name_en": "Physical vapor deposition",
+    "definition": "蒸発、スパッタリング、レーザーアブレーションなど物理的手段で材料を気相化し、基板上に薄膜として堆積するプロセスである。金属膜、硬質膜、光学膜、磁性膜、半導体膜の作製に広く用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "真空薄膜工学",
+    "era_start": 1857,
+    "era_end": null,
+    "keywords_en": "PVD,sputtering,evaporation",
+    "key_researchers": ["Michael Faraday", "Peter Sigmund"]
+  },
+  {
+    "name_ja": "原子層堆積",
+    "name_en": "Atomic layer deposition",
+    "definition": "自己制限的な表面反応を交互に繰り返し、原子層レベルで膜厚を制御する薄膜形成法である。高い被覆性と厚さ均一性を持ち、半導体ゲート絶縁膜、電池電極被覆、触媒、ナノ構造修飾に利用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "精密薄膜化学",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "ALD,self-limiting reaction,conformal coating",
+    "key_researchers": ["Tuomo Suntola", "Markku Leskela"]
+  },
+  {
+    "name_ja": "積層造形材料",
+    "name_en": "Additive manufacturing materials",
+    "definition": "三次元データに基づき材料を層ごとに堆積、溶融、硬化させて部材を作る積層造形に適した材料群である。金属粉末、樹脂、セラミックス、複合材料があり、急冷凝固、残留応力、欠陥制御が重要となる。",
+    "subfield": "材料科学",
+    "school_of_thought": "デジタル製造材料学",
+    "era_start": 1986,
+    "era_end": null,
+    "keywords_en": "3D printing,powder bed fusion,process-structure-property",
+    "key_researchers": ["Chuck Hull", "Ely Sachs"]
+  },
+  {
+    "name_ja": "バイオマテリアル",
+    "name_en": "Biomaterials",
+    "definition": "生体組織や体液と接触して機能するよう設計された材料で、金属、セラミックス、高分子、複合材料を含む。生体適合性、免疫応答、分解性、機械特性、表面化学が重要で、人工関節、ステント、足場材に用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "生体材料学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "biocompatibility,implants,tissue engineering",
+    "key_researchers": ["Buddy Ratner", "Robert Langer"]
+  },
+  {
+    "name_ja": "ハイドロゲル",
+    "name_en": "Hydrogels",
+    "definition": "水を大量に含む三次元高分子ネットワーク材料で、柔軟性、生体類似性、拡散性を持つ。コンタクトレンズ、創傷被覆、薬物送達、組織工学、ソフトロボティクスに用いられ、架橋密度や刺激応答性で性質を調整する。",
+    "subfield": "材料科学",
+    "school_of_thought": "ソフトマテリアル学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "polymer network,water-swollen gels,soft materials",
+    "key_researchers": ["Otto Wichterle", "Toyoichi Tanaka"]
+  },
+  {
+    "name_ja": "自己修復材料",
+    "name_en": "Self-healing materials",
+    "definition": "損傷や亀裂が生じた際に、外部操作または内在的な化学・物理機構によって機能や構造を回復する材料である。マイクロカプセル、可逆結合、動的共有結合、超分子相互作用を利用し、寿命延長と保守低減を目指す。",
+    "subfield": "材料科学",
+    "school_of_thought": "適応材料設計",
+    "era_start": 2001,
+    "era_end": null,
+    "keywords_en": "damage repair,dynamic bonds,autonomous materials",
+    "key_researchers": ["Scott White", "Nancy Sottos"]
+  },
+  {
+    "name_ja": "スマート材料",
+    "name_en": "Smart materials",
+    "definition": "温度、光、電場、磁場、応力、化学環境などの外部刺激に応答して、形状、色、電気特性、粘弾性、透過率などを可逆的に変化させる材料群である。センサー、アクチュエータ、医療、建築、ロボットに応用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "刺激応答材料学",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "stimuli-responsive,actuators,adaptive materials",
+    "key_researchers": ["Andreas Lendlein", "Robert Langer"]
+  },
+  {
+    "name_ja": "ソフトマテリアル",
+    "name_en": "Soft matter materials",
+    "definition": "高分子、ゲル、液晶、コロイド、界面活性剤、エラストマーなど、熱揺らぎや弱い相互作用が構造と応答を支配する材料群である。柔軟性、自己組織化、非線形レオロジー、生体類似性が特徴である。",
+    "subfield": "材料科学",
+    "school_of_thought": "ソフトマター物理",
+    "era_start": 1991,
+    "era_end": null,
+    "keywords_en": "polymers,colloids,rheology",
+    "key_researchers": ["Pierre-Gilles de Gennes", "Toyoichi Tanaka"]
+  },
+  {
+    "name_ja": "液晶材料",
+    "name_en": "Liquid crystal materials",
+    "definition": "液体の流動性と結晶の配向秩序を併せ持つ中間相材料である。ネマチック、スメクチック、コレステリック相などがあり、電場や温度で光学応答を制御できるため、ディスプレイ、センサー、可変光学素子に使われる。",
+    "subfield": "材料科学",
+    "school_of_thought": "異方性ソフト材料学",
+    "era_start": 1888,
+    "era_end": null,
+    "keywords_en": "nematic,anisotropy,display materials",
+    "key_researchers": ["Friedrich Reinitzer", "George Heilmeier"]
+  },
+  {
+    "name_ja": "コロイド",
+    "name_en": "Colloids",
+    "definition": "ナノメートルからマイクロメートル程度の粒子や液滴が連続媒質中に分散した系で、ブラウン運動、界面電荷、凝集、自己組織化が重要である。塗料、インク、食品、医薬、セラミックススラリー、フォトニック材料に関わる。",
+    "subfield": "材料科学",
+    "school_of_thought": "分散系材料学",
+    "era_start": 1861,
+    "era_end": null,
+    "keywords_en": "dispersions,Brownian motion,self-assembly",
+    "key_researchers": ["Thomas Graham", "Jean Perrin"]
+  },
+  {
+    "name_ja": "自己組織化",
+    "name_en": "Self-assembly",
+    "definition": "分子、ナノ粒子、高分子、コロイドなどが、外部から個別配置されることなく相互作用に基づいて秩序構造を形成する現象である。ブロック共重合体、単分子膜、DNAナノ構造、メソポーラス材料の設計原理である。",
+    "subfield": "材料科学",
+    "school_of_thought": "ボトムアップ材料設計",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "bottom-up fabrication,supramolecular chemistry,nanostructures",
+    "key_researchers": ["George Whitesides", "Jean-Marie Lehn"]
+  },
+  {
+    "name_ja": "ブロック共重合体",
+    "name_en": "Block copolymers",
+    "definition": "化学的に異なる高分子鎖ブロックが共有結合で連結した高分子で、相分離によりナノスケールの周期構造を自己組織化する。リソグラフィ、膜材料、エラストマー、薬物送達、ナノテンプレートに利用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "高分子自己組織化材料学",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "microphase separation,polymer self-assembly,nanopatterns",
+    "key_researchers": ["Morton Szwarc", "Frank Bates"]
+  },
+  {
+    "name_ja": "ゼオライト",
+    "name_en": "Zeolites",
+    "definition": "規則的な微細孔を持つ結晶性アルミノケイ酸塩または類縁多孔質材料である。分子ふるい、イオン交換、酸触媒として機能し、石油精製、吸着分離、環境浄化、洗剤、触媒反応で広く用いられる。",
+    "subfield": "材料科学",
+    "school_of_thought": "多孔質無機材料学",
+    "era_start": 1756,
+    "era_end": null,
+    "keywords_en": "microporous materials,molecular sieves,aluminosilicates",
+    "key_researchers": ["Axel Cronstedt", "Richard Barrer"]
+  },
+  {
+    "name_ja": "金属有機構造体",
+    "name_en": "Metal-organic frameworks",
+    "definition": "金属イオンまたは金属クラスターと有機配位子が配位結合で連結した結晶性多孔質材料である。高比表面積と設計可能な細孔を持ち、ガス貯蔵、分離、触媒、薬物送達、センサーに応用される。",
+    "subfield": "材料科学",
+    "school_of_thought": "配位高分子材料学",
+    "era_start": 1995,
+    "era_end": null,
+    "keywords_en": "MOF,porous materials,coordination polymers",
+    "key_researchers": ["Omar Yaghi", "Susumu Kitagawa"]
+  },
+  {
+    "name_ja": "共有結合性有機構造体",
+    "name_en": "Covalent organic frameworks",
+    "definition": "軽元素からなる有機分子ユニットが共有結合で二次元または三次元の結晶性多孔質骨格を形成する材料である。低密度、高表面積、構造設計性を持ち、吸着、分離、触媒、電子材料、エネルギー貯蔵に期待される。",
+    "subfield": "材料科学",
+    "school_of_thought": "有機多孔質材料学",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_en": "COF,crystalline porous polymers,covalent frameworks",
+    "key_researchers": ["Omar Yaghi", "Adrien Cote"]
+  }
+]
+tokens used
+34,289

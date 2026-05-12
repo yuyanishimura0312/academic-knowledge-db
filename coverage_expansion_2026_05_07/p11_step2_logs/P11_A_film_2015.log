@@ -1,0 +1,974 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a0d-c13a-7df0-872e-0343550da12a
+--------
+user
+「映画・映像論」分野の 2015-2025年 の重要概念60件を JSON 配列で出力。
+
+必須概念:
+AIシネマ、Generative film、ストリーミング時代の映画、Climate cinema、K-cinema theory
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"映画・映像論","school_of_thought":"学派","era_start":年(2015以上),"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、era_start ≥ 2015、60件、JSON配列のみ。
+codex
+[
+  {
+    "name_ja": "AIシネマ",
+    "name_en": "AI Cinema",
+    "definition": "機械学習、生成AI、コンピュータビジョン、推薦アルゴリズムを制作・編集・配給・受容の各段階に組み込む映画実践と理論を指す。作家性、労働、著作権、観客データ化をめぐる映画概念の再編を扱う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "メディア考古学・ポストヒューマン映画論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "AI cinema,machine learning,algorithmic authorship",
+    "key_researchers": ["Lev Manovich", "Shane Denson", "Kate Crawford"]
+  },
+  {
+    "name_ja": "Generative film",
+    "name_en": "Generative Film",
+    "definition": "アルゴリズム、リアルタイム処理、生成モデルによって映像や物語が固定作品ではなく可変的に生成される映画形式を指す。完成されたテキストよりも、規則、データセット、実行環境を作品性の中心に置く。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ソフトウェア・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "generative film,procedural cinema,computational media",
+    "key_researchers": ["Lev Manovich", "Noah Wardrip-Fruin", "Holly Willis"]
+  },
+  {
+    "name_ja": "ストリーミング時代の映画",
+    "name_en": "Cinema in the Streaming Era",
+    "definition": "劇場中心の映画制度が配信プラットフォーム、サブスクリプション、グローバル同時公開、視聴データ分析によって再編される状況を扱う概念。映画の尺、ジャンル、公開窓、観客経験の変化を分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "streaming cinema,platformization,subscription video",
+    "key_researchers": ["Amanda D. Lotz", "Ramon Lobato", "Chuck Tryon"]
+  },
+  {
+    "name_ja": "Climate cinema",
+    "name_en": "Climate Cinema",
+    "definition": "気候変動、人新世、環境破壊、災害想像力を映画がどのように可視化し、感情化し、政治化するかを問う概念。終末表象だけでなく、遅い暴力、環境正義、非人間的時間の映像化を含む。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "エコシネマ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "climate cinema,ecocinema,Anthropocene",
+    "key_researchers": ["Adrian Ivakhiv", "Jennifer Fay", "Paula Willoquet-Maricondi"]
+  },
+  {
+    "name_ja": "K-cinema theory",
+    "name_en": "K-cinema Theory",
+    "definition": "韓国映画を国民映画、トランスナショナル映画、ジャンル混淆、産業政策、フェスティバル流通、ストリーミング展開の交点から捉える理論。韓流以後の地域性と世界市場の緊張を分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "トランスナショナル映画研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "K-cinema,Korean cinema,transnational cinema",
+    "key_researchers": ["Kyung Hyun Kim", "Jinhee Choi", "Darcy Paquet"]
+  },
+  {
+    "name_ja": "プラットフォーム映画論",
+    "name_en": "Platform Cinema",
+    "definition": "Netflix、Amazon、Disney+などのプラットフォームが映画制作、資金調達、推薦、分類、国際流通を統合する構造を分析する概念。作品単体よりも、インターフェースとデータ経済が映画経験を形成する点を重視する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "platform cinema,SVOD,algorithmic distribution",
+    "key_researchers": ["Ramon Lobato", "Amanda D. Lotz", "Catherine Johnson"]
+  },
+  {
+    "name_ja": "アルゴリズム的観客",
+    "name_en": "Algorithmic Audience",
+    "definition": "観客が統計的プロファイル、視聴履歴、推薦モデル、離脱率などのデータとして把握される状況を指す。映画受容は個人の解釈だけでなく、計測、予測、誘導される行動として再定義される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "データ化批判",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "algorithmic audience,datafication,recommendation systems",
+    "key_researchers": ["Taina Bucher", "Ted Striphas", "Chuck Tryon"]
+  },
+  {
+    "name_ja": "データ駆動型映画制作",
+    "name_en": "Data-driven Filmmaking",
+    "definition": "視聴ログ、SNS反応、検索傾向、ジャンル嗜好などを企画、脚本、キャスティング、宣伝戦略に用いる制作方式を指す。創造性と統計的最適化の関係、リスク管理、文化的均質化が論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "文化産業論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "data-driven filmmaking,audience analytics,cultural industries",
+    "key_researchers": ["Amanda D. Lotz", "Ramon Lobato", "Philip Napoli"]
+  },
+  {
+    "name_ja": "ポストシネマ",
+    "name_en": "Post-cinema",
+    "definition": "デジタルネットワーク、モバイル画面、ゲーム、SNS、監視映像、配信環境に映画的経験が分散した後の映像文化を指す。古典的な劇場映画を基準にせず、変容した視覚性と時間性を分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ポストシネマ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "post-cinema,digital media,networked images",
+    "key_researchers": ["Shane Denson", "Julia Leyda", "Steven Shaviro"]
+  },
+  {
+    "name_ja": "スクリーン多元性",
+    "name_en": "Screen Multiplicity",
+    "definition": "映画が劇場スクリーンだけでなく、スマートフォン、タブレット、テレビ、公共ディスプレイ、VRヘッドセットで経験される状況を扱う概念。画面サイズ、姿勢、注意、社会性の差異が重要な分析対象となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "スクリーン・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "screen studies,mobile screens,multi-screen viewing",
+    "key_researchers": ["Francesco Casetti", "Nanna Verhoeff", "Anne Friedberg"]
+  },
+  {
+    "name_ja": "モバイル映画経験",
+    "name_en": "Mobile Cinematic Experience",
+    "definition": "スマートフォンやタブレットで映画を見る実践を、単なる劣化した鑑賞ではなく、移動、断片視聴、通知、身体姿勢、個人化された空間と結びついた新しい映像経験として分析する概念。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "モバイルメディア研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "mobile cinema,smartphone viewing,portable screens",
+    "key_researchers": ["Nanna Verhoeff", "Francesco Casetti", "Larissa Hjorth"]
+  },
+  {
+    "name_ja": "縦型映像美学",
+    "name_en": "Vertical Video Aesthetics",
+    "definition": "スマートフォンの縦持ちを前提にした縦長画面の構図、身体表象、空間設計、視線誘導を分析する概念。映画的フレーミングの横長規範を相対化し、SNS映像と映画表現の接続を問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "モバイルメディア研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "vertical video,mobile aesthetics,smartphone cinema",
+    "key_researchers": ["Miriam Ross", "Nanna Verhoeff", "Max Schleser"]
+  },
+  {
+    "name_ja": "短尺プラットフォーム映像",
+    "name_en": "Short-form Platform Video",
+    "definition": "TikTok、YouTube Shorts、Instagram Reelsなどに代表される短尺映像を映画・映像文化の一部として捉える概念。反復、模倣、音源利用、縦型構図、アルゴリズム的拡散が映像表現を規定する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "short-form video,TikTok,platform aesthetics",
+    "key_researchers": ["Crystal Abidin", "Jean Burgess", "Joshua Green"]
+  },
+  {
+    "name_ja": "没入型映画",
+    "name_en": "Immersive Cinema",
+    "definition": "VR、AR、360度映像、ドーム上映、インタラクティブ空間を通じて観客を映像環境内に配置する映画形式を指す。フレーム、視点、編集、観客主体の再設計が中心的な理論課題となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "没入メディア研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immersive cinema,VR film,360 video",
+    "key_researchers": ["Miriam Ross", "Janet H. Murray", "Oliver Grau"]
+  },
+  {
+    "name_ja": "VRドキュメンタリー",
+    "name_en": "VR Documentary",
+    "definition": "仮想現実技術を用いて現実の出来事、場所、証言を体験的に提示するドキュメンタリー形式。共感の演出、証言の倫理、観客の位置取り、操作可能性と事実性の関係が議論される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ドキュメンタリー理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "VR documentary,immersive journalism,empathy machine",
+    "key_researchers": ["Kate Nash", "Mandy Rose", "Sandra Gaudenzi"]
+  },
+  {
+    "name_ja": "インタラクティブ映画",
+    "name_en": "Interactive Film",
+    "definition": "観客の選択、入力、探索によって物語や視点が変化する映画形式を指す。ゲーム、ウェブドキュメンタリー、配信プラットフォームの選択型作品を含み、映画の線形性と作者性を再検討する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "インタラクティブ・ナラティブ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "interactive film,branching narrative,choice-based cinema",
+    "key_researchers": ["Janet H. Murray", "Sandra Gaudenzi", "Mandy Rose"]
+  },
+  {
+    "name_ja": "データベース映画",
+    "name_en": "Database Cinema",
+    "definition": "映像断片、アーカイブ、タグ、検索、組み合わせの論理によって構成される映画形式を指す。物語の連続性よりも、データベースからの選択と配列が意味生成を担う点を重視する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ニュー・メディア理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "database cinema,archive,modular narrative",
+    "key_researchers": ["Lev Manovich", "Marsha Kinder", "Patricia Zimmermann"]
+  },
+  {
+    "name_ja": "デスクトップ映画",
+    "name_en": "Desktop Cinema",
+    "definition": "コンピュータのデスクトップ画面、ブラウザ、チャット、監視カメラ、ビデオ通話などを主な映像空間とする映画形式。現代の労働、親密性、恐怖、調査が画面内画面として表象される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ポストシネマ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "desktop cinema,screenlife,computer screen film",
+    "key_researchers": ["Shane Denson", "Kevin B. Lee", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "スクリーンライフ映画",
+    "name_en": "Screenlife Film",
+    "definition": "物語全体をコンピュータやスマートフォンの画面上で展開させる映画形式を指す。検索、通話、通知、ウィンドウ操作が演技や編集と同等の表現要素となり、デジタル生活の可視化を可能にする。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル映画美学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "screenlife,desktop film,digital interface",
+    "key_researchers": ["Kevin B. Lee", "Shane Denson", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "リモート制作映画",
+    "name_en": "Remote Production Cinema",
+    "definition": "パンデミック以後に顕在化した、遠隔撮影、クラウド編集、ビデオ会議、分散チームによる映画制作を指す概念。制作現場の身体性、労働管理、即興性、低予算表現の変化を分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "制作研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "remote production,pandemic cinema,cloud workflows",
+    "key_researchers": ["John T. Caldwell", "Petr Szczepanik", "Vicki Mayer"]
+  },
+  {
+    "name_ja": "パンデミック映画論",
+    "name_en": "Pandemic Cinema Studies",
+    "definition": "COVID-19以後の映画制作、上映停止、配信移行、隔離表象、感染恐怖、マスクや距離の身体性を分析する概念。危機が映画産業と映像美学を同時に変えた出来事として扱う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "現代映画文化研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "pandemic cinema,COVID-19,quarantine media",
+    "key_researchers": ["Dina Iordanova", "Chuck Tryon", "Catherine Grant"]
+  },
+  {
+    "name_ja": "オンライン映画祭",
+    "name_en": "Online Film Festival",
+    "definition": "映画祭がオンライン上映、ジオブロック、時限配信、リモートQ&Aを組み合わせて実施される形態を指す。フェスティバルの希少性、地域性、批評的発見、業界交流の再編が主要な論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "映画祭研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "online film festival,festival studies,digital circulation",
+    "key_researchers": ["Dina Iordanova", "Marijke de Valck", "Skadi Loist"]
+  },
+  {
+    "name_ja": "映画祭プラットフォーム化",
+    "name_en": "Platformization of Film Festivals",
+    "definition": "映画祭が配信基盤、データ管理、オンライン市場、観客分析を通じてプラットフォーム的に機能する現象を指す。キュレーションの公共性と、アクセス制御やデータ経済の結びつきを分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "映画祭研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "festival platformization,online festivals,curation",
+    "key_researchers": ["Marijke de Valck", "Skadi Loist", "Dina Iordanova"]
+  },
+  {
+    "name_ja": "トランスナショナル配信",
+    "name_en": "Transnational Streaming Distribution",
+    "definition": "配信サービスが国境を越えて映画を流通させる一方、字幕、吹替、検閲、権利処理、地域別カタログによって差異を生む状況を指す。グローバル化とローカル化の同時進行を扱う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "トランスナショナル映画研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "transnational streaming,global distribution,localization",
+    "key_researchers": ["Ramon Lobato", "Michael Curtin", "Jinhee Choi"]
+  },
+  {
+    "name_ja": "グローバルSVOD映画",
+    "name_en": "Global SVOD Cinema",
+    "definition": "サブスクリプション型配信サービスが制作する、国際市場を前提にした映画群を分析する概念。国民映画、ジャンル映画、スター制度、ローカル言語作品が世界的カタログ内で再配置される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "グローバルメディア産業論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "SVOD cinema,global Netflix,streaming originals",
+    "key_researchers": ["Amanda D. Lotz", "Ramon Lobato", "Michael Curtin"]
+  },
+  {
+    "name_ja": "配信オリジナル映画",
+    "name_en": "Streaming Original Film",
+    "definition": "劇場公開ではなく配信サービスのブランド、加入者獲得、カタログ戦略のために制作・買付される映画を指す。作品評価だけでなく、可視性、推薦、賞レース、劇場との制度的対立が論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "文化産業論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "streaming originals,Netflix film,platform production",
+    "key_researchers": ["Chuck Tryon", "Amanda D. Lotz", "Ramon Lobato"]
+  },
+  {
+    "name_ja": "ビンジ視聴美学",
+    "name_en": "Binge-watching Aesthetics",
+    "definition": "連続視聴を前提にした物語構成、クリフハンガー、テンポ、記憶保持、エピソード間の境界の弱化を分析する概念。映画とシリーズの区別が曖昧になる配信環境の時間経験を扱う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "テレビ・映画横断研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "binge-watching,seriality,streaming temporality",
+    "key_researchers": ["Amanda D. Lotz", "Jason Mittell", "Mareike Jenner"]
+  },
+  {
+    "name_ja": "映画とシリーズ性",
+    "name_en": "Cinema and Seriality",
+    "definition": "映画が続編、ユニバース、配信シリーズ、長編エピソード化を通じて連続的な物語経済に組み込まれる現象を指す。単一作品の完結性よりも、拡張可能な世界と継続視聴が重視される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ナラティブ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "seriality,cinematic universe,franchise storytelling",
+    "key_researchers": ["Jason Mittell", "Henry Jenkins", "Derek Johnson"]
+  },
+  {
+    "name_ja": "シネマティック・ユニバース",
+    "name_en": "Cinematic Universe",
+    "definition": "複数の映画、シリーズ、スピンオフ、キャラクター、メディア商品が共有世界を形成する物語・産業モデルを指す。ファン参加、ブランド管理、連続性、断片的消費の調整が中心的問題となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "フランチャイズ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "cinematic universe,franchise,world-building",
+    "key_researchers": ["Henry Jenkins", "Derek Johnson", "Matt Hills"]
+  },
+  {
+    "name_ja": "フランチャイズ映画論",
+    "name_en": "Franchise Film Studies",
+    "definition": "映画を単独作品ではなく、続編、リブート、商品展開、ファンダム、企業IP管理から成る長期的文化資産として分析する概念。物語内容と産業構造の結びつきを重視する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "メディア産業研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "franchise cinema,IP,media industries",
+    "key_researchers": ["Derek Johnson", "Henry Jenkins", "Alisa Perren"]
+  },
+  {
+    "name_ja": "リブート文化",
+    "name_en": "Reboot Culture",
+    "definition": "過去の映画作品やシリーズを新しい世代、技術、政治意識、市場に合わせて再始動する文化を指す。ノスタルジア、リスク回避、多様化、ファン記憶、正典の再構築が分析対象となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "リメイク研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "reboot culture,remake,nostalgia",
+    "key_researchers": ["Constantine Verevis", "Kathleen Loock", "Iain Robert Smith"]
+  },
+  {
+    "name_ja": "レガシー続編",
+    "name_en": "Legacy Sequel",
+    "definition": "旧作の登場人物、世界観、ファン記憶を保持しつつ、新世代の主人公や観客に接続する続編形式を指す。懐古と刷新、世代交代、正典維持、ブランド延命のバランスが論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "フランチャイズ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "legacy sequel,nostalgia,franchise renewal",
+    "key_researchers": ["Kathleen Loock", "Derek Johnson", "Henry Jenkins"]
+  },
+  {
+    "name_ja": "ノスタルジア映画",
+    "name_en": "Nostalgia Cinema",
+    "definition": "過去の時代、映像様式、音楽、ジャンル、メディア記憶を再利用し、現在の不安や欲望を表現する映画を分析する概念。単なる懐古ではなく、歴史認識と商品化された記憶の関係を問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "記憶研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "nostalgia cinema,memory,retro aesthetics",
+    "key_researchers": ["Kathleen Loock", "Christine Sprengler", "Svetlana Boym"]
+  },
+  {
+    "name_ja": "ポストホラー",
+    "name_en": "Post-horror",
+    "definition": "ジャンプスケアや怪物中心の定型から距離を取り、トラウマ、家族、階級、人種、環境不安を遅いテンポと曖昧な恐怖で描く現代ホラーを指す。ジャンルの芸術映画化をめぐる議論を含む。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ジャンル研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "post-horror,elevated horror,genre studies",
+    "key_researchers": ["Adam Lowenstein", "Xavier Aldana Reyes", "Linda Williams"]
+  },
+  {
+    "name_ja": "エレベーテッド・ホラー",
+    "name_en": "Elevated Horror",
+    "definition": "芸術映画的演出、社会批評、心理的複雑性を備えた現代ホラーを指す流通・批評上の概念。用語自体はジャンル映画を階層化する危険もあり、評価語としての政治性が問題化される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ジャンル研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "elevated horror,art horror,prestige genre",
+    "key_researchers": ["Xavier Aldana Reyes", "Adam Lowenstein", "Rick Worland"]
+  },
+  {
+    "name_ja": "スローシネマ以後",
+    "name_en": "Post-slow Cinema",
+    "definition": "長回し、低密度の出来事、沈黙、観察的時間で知られるスローシネマが、配信、フェスティバル、政治映画、環境映画の文脈で再解釈される状況を指す。遅さの制度化と批判性を問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "現代作家主義",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "slow cinema,temporality,festival cinema",
+    "key_researchers": ["Tiago de Luca", "Matthew Flanagan", "Ira Jaffe"]
+  },
+  {
+    "name_ja": "アフェクト映画論",
+    "name_en": "Affect Theory in Cinema",
+    "definition": "映画を意味解釈だけでなく、身体的強度、感情の伝播、雰囲気、触覚性、リズムとして捉える理論。デジタル映像、ホラー、メロドラマ、政治的映像の受容を非言語的次元から分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "アフェクト理論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "affect theory,embodiment,cinematic sensation",
+    "key_researchers": ["Steven Shaviro", "Eugenie Brinkema", "Laura U. Marks"]
+  },
+  {
+    "name_ja": "触覚的視覚性",
+    "name_en": "Haptic Visuality",
+    "definition": "映像を見ることを距離を置いた視覚認識だけでなく、質感、表面、粒子、身体感覚に触れるような経験として捉える概念。デジタル映像やマイノリティ映画の感覚政治を説明する際に重要である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "感覚映画論",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "haptic visuality,sensory cinema,embodiment",
+    "key_researchers": ["Laura U. Marks", "Vivian Sobchack", "Jennifer Barker"]
+  },
+  {
+    "name_ja": "ポストヒューマン映画論",
+    "name_en": "Posthuman Cinema",
+    "definition": "人間中心主義を相対化し、AI、動物、環境、物質、機械、ネットワークを含む主体性の分散として映画を考える理論。視点、身体、倫理、感知能力の境界が再検討される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ポストヒューマニズム",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "posthuman cinema,nonhuman,media ecology",
+    "key_researchers": ["Rosi Braidotti", "Shane Denson", "Donna Haraway"]
+  },
+  {
+    "name_ja": "人新世映画",
+    "name_en": "Anthropocene Cinema",
+    "definition": "人類活動が地質学的規模で地球環境を変化させた時代を、映画がどのように表象し感知させるかを扱う概念。災害、資源採掘、廃棄物、長期的時間、非人間的スケールが中心となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "エコシネマ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "Anthropocene cinema,geology,environmental humanities",
+    "key_researchers": ["Jennifer Fay", "Adrian Ivakhiv", "Sean Cubitt"]
+  },
+  {
+    "name_ja": "エコシネマ",
+    "name_en": "Ecocinema",
+    "definition": "映画を環境倫理、自然表象、エネルギー消費、土地、動植物、環境正義の観点から分析する領域。画面内の自然だけでなく、映画産業そのものの物質的・環境的負荷も問題にする。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "エコシネマ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "ecocinema,environmental film,green media",
+    "key_researchers": ["Paula Willoquet-Maricondi", "Adrian Ivakhiv", "Stephen Rust"]
+  },
+  {
+    "name_ja": "グリーン映画制作",
+    "name_en": "Green Filmmaking",
+    "definition": "撮影、照明、移動、セット建設、ポストプロダクション、配信における環境負荷を低減する制作実践を指す。映画研究では、持続可能性が美学や労働条件、産業規範に与える影響を分析する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "サステナブル・メディア研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "green filmmaking,sustainable production,carbon footprint",
+    "key_researchers": ["Hunter Vaughan", "Nadia Bozak", "Sean Cubitt"]
+  },
+  {
+    "name_ja": "環境メディア・インフラ",
+    "name_en": "Environmental Media Infrastructure",
+    "definition": "映画や配信を支えるデータセンター、電力網、鉱物資源、物流、廃棄物を可視化する概念。映像文化を非物質的な情報としてではなく、地球環境に埋め込まれたインフラとして捉える。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "インフラ研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "media infrastructure,environmental media,data centers",
+    "key_researchers": ["Lisa Parks", "Nicole Starosielski", "Sean Cubitt"]
+  },
+  {
+    "name_ja": "デジタル復元倫理",
+    "name_en": "Ethics of Digital Restoration",
+    "definition": "映画のデジタル修復における色調、粒状性、傷、音質、欠落部分の扱いをめぐる倫理的概念。技術的に鮮明にすることが歴史的真正性を損なう場合もあり、保存と再創造の境界を問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "アーカイブ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital restoration,film preservation,archive ethics",
+    "key_researchers": ["Giovanna Fossati", "Paolo Cherchi Usai", "Caroline Frick"]
+  },
+  {
+    "name_ja": "デジタル映画アーカイブ",
+    "name_en": "Digital Film Archive",
+    "definition": "フィルム、ビデオ、デジタルボーン作品をデータ化し、保存、検索、公開、再利用する制度と技術を指す。アクセス拡大と著作権、フォーマット劣化、メタデータ、文化的記憶の偏りが論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "アーカイブ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital archive,film preservation,metadata",
+    "key_researchers": ["Giovanna Fossati", "Caroline Frick", "Janna Jones"]
+  },
+  {
+    "name_ja": "ボーンデジタル映画保存",
+    "name_en": "Born-digital Film Preservation",
+    "definition": "最初からデジタル形式で制作された映画を、コーデック、ストレージ、ソフトウェア依存性、暗号化、クラウド環境の変化に対応して保存する課題を指す。フィルム保存とは異なる脆弱性を扱う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "アーカイブ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "born-digital preservation,codec,film archive",
+    "key_researchers": ["Giovanna Fossati", "Howard Besser", "Caroline Frick"]
+  },
+  {
+    "name_ja": "映像のオペレーショナル化",
+    "name_en": "Operational Images",
+    "definition": "人間に鑑賞されるためではなく、機械による認識、測定、誘導、制御のために生成される映像を指す。監視、ドローン、医療、軍事、AI視覚において映画的イメージの機能が変化する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "メディア考古学",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "operational images,machine vision,surveillance",
+    "key_researchers": ["Harun Farocki", "Trevor Paglen", "Jussi Parikka"]
+  },
+  {
+    "name_ja": "機械視覚映画論",
+    "name_en": "Machine Vision Cinema",
+    "definition": "コンピュータビジョン、顔認識、物体検出、監視アルゴリズムが映像の制作と解釈を変える状況を扱う概念。人間の視覚を前提としない映像文化が、権力、偏見、主体性を再編する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "監視研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "machine vision,computer vision,algorithmic seeing",
+    "key_researchers": ["Trevor Paglen", "Kate Crawford", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "監視映像美学",
+    "name_en": "Surveillance Aesthetics",
+    "definition": "監視カメラ、ドローン、衛星、スマートフォン、警察映像などの視覚形式が映画表現や社会的想像力に与える影響を分析する概念。視る権力、証拠性、匿名性、暴力の可視化が論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "監視研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "surveillance aesthetics,CCTV,drone vision",
+    "key_researchers": ["Thomas Y. Levin", "Hito Steyerl", "Lisa Parks"]
+  },
+  {
+    "name_ja": "ドローン映画論",
+    "name_en": "Drone Cinema",
+    "definition": "ドローン撮影が生む上空視点、滑走する移動、監視的距離、戦争技術との連続性を分析する概念。美しい空撮表現と、軍事・警察・植民地主義的視線の倫理的緊張を扱う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "視覚文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "drone cinema,aerial vision,surveillance",
+    "key_researchers": ["Lisa Parks", "Grégoire Chamayou", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "ディープフェイク映画論",
+    "name_en": "Deepfake Cinema",
+    "definition": "深層学習による顔交換、声の合成、俳優の若返り、死者の再登場が映画の証拠性、演技、スター性、同意、著作権を変える現象を分析する概念。虚構と偽情報の境界も問われる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "AI倫理研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "deepfake cinema,synthetic media,AI ethics",
+    "key_researchers": ["Henry Ajder", "Kate Crawford", "Hito Steyerl"]
+  },
+  {
+    "name_ja": "合成俳優",
+    "name_en": "Synthetic Performer",
+    "definition": "CG、モーションキャプチャ、AI生成、デジタルダブルによって作られる俳優的存在を指す。演技の所有権、身体労働、声と顔の権利、スターの死後利用、観客の信頼が中心的問題となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "スター研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "synthetic performer,digital double,virtual actor",
+    "key_researchers": ["Lisa Bode", "Kristen Whissel", "Dan North"]
+  },
+  {
+    "name_ja": "デジタル若返り",
+    "name_en": "Digital De-aging",
+    "definition": "俳優の顔や身体をCG、合成、機械学習によって若く見せる技術と表現を指す。スターの時間性、演技の連続性、身体の真正性、産業的ノスタルジアをめぐる映画理論上の論点を生む。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル映画美学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "digital de-aging,digital actor,visual effects",
+    "key_researchers": ["Lisa Bode", "Kristen Whissel", "Stephen Prince"]
+  },
+  {
+    "name_ja": "バーチャルプロダクション",
+    "name_en": "Virtual Production",
+    "definition": "LEDウォール、リアルタイムレンダリング、ゲームエンジン、モーションキャプチャを用いて撮影現場とデジタル環境を統合する制作方式。ポストプロダクションと撮影の境界、演技空間、労働分業を変える。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "制作研究",
+    "era_start": 2019,
+    "era_end": null,
+    "keywords_en": "virtual production,LED volume,real-time rendering",
+    "key_researchers": ["Kristen Whissel", "Julie Turnock", "John T. Caldwell"]
+  },
+  {
+    "name_ja": "ゲームエンジン映画",
+    "name_en": "Game Engine Cinema",
+    "definition": "Unreal EngineやUnityなどのゲームエンジンを映画制作、プリビズ、リアルタイム背景、アニメーション生成に用いる実践を指す。映画とゲームの技術的収束、即時性、可変的空間が重要となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "メディア収束論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "game engine cinema,real-time graphics,virtual production",
+    "key_researchers": ["Henry Jenkins", "Kristen Whissel", "Michael Nitsche"]
+  },
+  {
+    "name_ja": "マシニマ再評価",
+    "name_en": "Machinima Revisited",
+    "definition": "ゲーム内エンジンや仮想空間を用いて映像作品を制作するマシニマを、配信、ゲームエンジン映画、バーチャルプロダクションの先行形態として再評価する概念。プレイと演出の関係を問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ゲーム・映画横断研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "machinima,game cinema,real-time animation",
+    "key_researchers": ["Henry Lowood", "Michael Nitsche", "Tracy Harwood"]
+  },
+  {
+    "name_ja": "メタバース映像",
+    "name_en": "Metaverse Moving Images",
+    "definition": "仮想世界、ソーシャルVR、アバター空間内で制作・上映・共有される映像実践を指す。映画館、観客、身体、共同鑑賞、所有権がプラットフォーム化された仮想環境で再定義される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "没入メディア研究",
+    "era_start": 2020,
+    "era_end": null,
+    "keywords_en": "metaverse,virtual worlds,avatar spectatorship",
+    "key_researchers": ["Tom Boellstorff", "Janet H. Murray", "Miriam Ross"]
+  },
+  {
+    "name_ja": "NFT映画",
+    "name_en": "NFT Cinema",
+    "definition": "ブロックチェーン上のトークンを用いて映画の資金調達、所有、配布、ファン参加、限定アクセスを設計する実践を指す。投機性、著作権、コミュニティ形成、作品価値の金融化が論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル文化経済論",
+    "era_start": 2021,
+    "era_end": null,
+    "keywords_en": "NFT cinema,blockchain,tokenized media",
+    "key_researchers": ["David Golumbia", "Trebor Scholz", "Sarah Banet-Weiser"]
+  },
+  {
+    "name_ja": "ファン編集文化",
+    "name_en": "Fan Edit Culture",
+    "definition": "ファンが既存映画を再編集、修正、再構成し、オンラインで共有する文化を指す。正典への介入、作者性、著作権、批評としての編集、フランチャイズへの参加的所有感が分析される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ファン研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "fan edit,participatory culture,remix",
+    "key_researchers": ["Henry Jenkins", "Francesca Coppa", "Jonathan Gray"]
+  },
+  {
+    "name_ja": "参加型映画批評",
+    "name_en": "Participatory Film Criticism",
+    "definition": "YouTube、Letterboxd、Podcast、SNS上で観客が映画評価、ランキング、解説、ミーム化を行う批評文化を指す。専門批評とアマチュア批評の境界、可視性、コミュニティ規範が変化する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ファン研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "participatory criticism,Letterboxd,film fandom",
+    "key_researchers": ["Matt Hills", "Jonathan Gray", "Henry Jenkins"]
+  },
+  {
+    "name_ja": "ビデオエッセイ",
+    "name_en": "Video Essay",
+    "definition": "映像と音声、字幕、編集を用いて映画を批評・分析する形式を指す。論文的記述では捉えにくいリズム、構図、反復、音響を映像そのもので示すため、研究と批評の方法論を拡張する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "オーディオビジュアル批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "video essay,audiovisual criticism,film analysis",
+    "key_researchers": ["Catherine Grant", "Christian Keathley", "Kevin B. Lee"]
+  },
+  {
+    "name_ja": "オーディオビジュアル映画研究",
+    "name_en": "Audiovisual Film Studies",
+    "definition": "文章だけでなく、映像編集、比較画面、音響分析、リミックスを研究成果の形式として用いる映画研究の方法論。対象である映画と同じメディアを使うことで、分析と表現の距離を縮める。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "オーディオビジュアル批評",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "audiovisual essay,videographic criticism,film studies",
+    "key_researchers": ["Catherine Grant", "Christian Keathley", "Jason Mittell"]
+  },
+  {
+    "name_ja": "デジタル・シネフィリア",
+    "name_en": "Digital Cinephilia",
+    "definition": "配信、SNS、オンライン上映、データベース、スクリーンショット、GIF、動画共有を通じて形成される映画愛好のあり方を指す。希少プリントへの接近よりも、検索可能性と共有可能性が中心となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "シネフィリア研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "digital cinephilia,online film culture,film love",
+    "key_researchers": ["Marijke de Valck", "Catherine Grant", "Adrian Martin"]
+  },
+  {
+    "name_ja": "ミーム映画文化",
+    "name_en": "Meme Film Culture",
+    "definition": "映画の場面、台詞、俳優の表情がミームとして切り出され、SNS上で反復・変形・政治化される文化を指す。映画テキストの意味は作品内だけでなく、拡散と再文脈化の過程で生成される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル文化研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "film memes,remix culture,spreadable media",
+    "key_researchers": ["Limor Shifman", "Henry Jenkins", "Ryan Milner"]
+  },
+  {
+    "name_ja": "キャンセル文化と映画",
+    "name_en": "Cancel Culture and Cinema",
+    "definition": "映画人、作品、表象がSNS上の批判、ボイコット、再評価によって公共的に争点化される現象を扱う概念。倫理的消費、過去作品の再読、権力濫用、ファンダム政治が交差する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "文化政治研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "cancel culture,film ethics,public controversy",
+    "key_researchers": ["Sarah Banet-Weiser", "P. David Marshall", "Jonathan Gray"]
+  },
+  {
+    "name_ja": "MeToo後の映画論",
+    "name_en": "Post-MeToo Film Studies",
+    "definition": "MeToo運動以後の映画産業における性暴力、権力関係、撮影現場の安全、作品評価、スター研究、観客倫理を扱う概念。映画史の再読と制作制度の改革を結びつける視点である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "フェミニスト映画理論",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "MeToo,film industry,gender politics",
+    "key_researchers": ["Laura Mulvey", "B. Ruby Rich", "Sarah Banet-Weiser"]
+  },
+  {
+    "name_ja": "インティマシー・コーディネーション",
+    "name_en": "Intimacy Coordination",
+    "definition": "性的場面や親密な身体接触を含む撮影で、同意、安全、振付、境界設定を専門的に管理する実践を指す。映画研究では演技、労働倫理、身体表象、制作現場の権力関係を再考する契機となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "制作倫理研究",
+    "era_start": 2017,
+    "era_end": null,
+    "keywords_en": "intimacy coordination,consent,production ethics",
+    "key_researchers": ["Ita O'Brien", "Kristen Warner", "B. Ruby Rich"]
+  },
+  {
+    "name_ja": "インクルージョン・ライダー",
+    "name_en": "Inclusion Rider",
+    "definition": "映画制作契約において、出演者やスタッフの多様性を確保する条項を指す。映画研究では、表象の多様性だけでなく、制作現場、雇用、権限分配における制度的変革として分析される。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "文化産業論",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "inclusion rider,diversity,film labor",
+    "key_researchers": ["Stacy L. Smith", "Kristen Warner", "Darnell Hunt"]
+  },
+  {
+    "name_ja": "多様性表象批評",
+    "name_en": "Diversity Representation Critique",
+    "definition": "映画における人種、ジェンダー、セクシュアリティ、障害、階級、年齢の表象を、量的可視性だけでなく物語機能、制作体制、観客共同体、産業的利用の観点から批判的に分析する概念。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "批判的人種・ジェンダー研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "diversity,representation,identity politics",
+    "key_researchers": ["Kristen Warner", "bell hooks", "Richard Dyer"]
+  },
+  {
+    "name_ja": "クィア・ストリーミング映画",
+    "name_en": "Queer Streaming Cinema",
+    "definition": "配信環境で流通するクィア映画やクィア表象を、可視性、ジャンル化、アルゴリズム分類、国際アクセス、検閲の観点から分析する概念。周縁的表象が市場に取り込まれる過程も問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "クィア映画理論",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "queer cinema,streaming,LGBTQ representation",
+    "key_researchers": ["B. Ruby Rich", "Alexander Doty", "Rosalind Galt"]
+  },
+  {
+    "name_ja": "トランス映画表象",
+    "name_en": "Trans Cinema Representation",
+    "definition": "トランスジェンダーの人物、身体、声、人生経験が映画でどのように表象され、誰によって演じられ語られるかを問う概念。キャスティング、医療化、暴力表象、自己表象の権利が重要となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "トランス・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "trans cinema,trans representation,queer film",
+    "key_researchers": ["Susan Stryker", "Eliza Steinbock", "B. Ruby Rich"]
+  },
+  {
+    "name_ja": "障害映画研究の新展開",
+    "name_en": "Contemporary Disability Film Studies",
+    "definition": "障害を欠如や感動物語としてではなく、身体、感覚、アクセス、社会制度、映画形式の問題として捉える概念。字幕、音声解説、上映環境、俳優の当事者性も分析対象に含まれる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "ディスアビリティ・スタディーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "disability film,accessibility,crip theory",
+    "key_researchers": ["Tobin Siebers", "Rosemarie Garland-Thomson", "David T. Mitchell"]
+  },
+  {
+    "name_ja": "アクセシブル映画",
+    "name_en": "Accessible Cinema",
+    "definition": "字幕、音声解説、手話、感覚過敏に配慮した上映、オンライン視聴支援などを通じて多様な観客が映画にアクセスできる状態を指す。美学と福祉を分けず、受容条件を映画経験の一部と見る。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "アクセシビリティ研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "accessible cinema,subtitling,audio description",
+    "key_researchers": ["Pilar Orero", "Louise Fryer", "Aline Remael"]
+  },
+  {
+    "name_ja": "字幕文化論",
+    "name_en": "Subtitle Culture Studies",
+    "definition": "字幕を単なる翻訳補助ではなく、画面構成、読解速度、権力関係、ファン翻訳、アクセシビリティ、国際流通を左右する映像文化の要素として分析する概念。配信時代に重要性が増している。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "翻訳映画研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "subtitles,audiovisual translation,global cinema",
+    "key_researchers": ["Jorge Díaz Cintas", "Aline Remael", "Pilar Orero"]
+  },
+  {
+    "name_ja": "吹替と声の政治",
+    "name_en": "Politics of Dubbing and Voice",
+    "definition": "吹替、声優、音声ローカライズ、AI音声合成が映画の身体、国民性、ジェンダー、人種、親密性をどのように変えるかを扱う概念。声は透明な翻訳ではなく、政治的な再身体化である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "音声・翻訳研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "dubbing,voice,localization",
+    "key_researchers": ["Michel Chion", "Jorge Díaz Cintas", "Aline Remael"]
+  },
+  {
+    "name_ja": "音響的没入",
+    "name_en": "Sonic Immersion",
+    "definition": "Dolby Atmosなどの立体音響、低周波、空間音響設計によって観客を映像空間内に包み込む経験を指す。視覚中心の映画分析を補い、音が身体、空間、感情を組織する仕組みを問う。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "映画音響研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "immersive sound,Dolby Atmos,film sound",
+    "key_researchers": ["Michel Chion", "Gianluca Sergi", "K. J. Donnelly"]
+  },
+  {
+    "name_ja": "ASMR映像美学",
+    "name_en": "ASMR Audiovisual Aesthetics",
+    "definition": "囁き、接触音、微細な動作、近接撮影によって身体的反応を誘発するASMR的表現を映画・映像文化として分析する概念。親密性、触覚性、プラットフォーム文化、音の身体化が重要である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "感覚メディア研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "ASMR,audiovisual intimacy,sound studies",
+    "key_researchers": ["Emma Barratt", "Nick Davis", "Laura U. Marks"]
+  },
+  {
+    "name_ja": "ハイフレームレート映画",
+    "name_en": "High Frame Rate Cinema",
+    "definition": "従来の24fpsを超えるフレームレートで撮影・上映される映画を指す。滑らかさ、現実感、違和感、スペクタクル、映画らしさの喪失をめぐり、技術的革新と美的規範の衝突を示す。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "映画技術史",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "high frame rate,HFR,digital cinema",
+    "key_researchers": ["Kristen Whissel", "Stephen Prince", "Julie Turnock"]
+  },
+  {
+    "name_ja": "HDR映画美学",
+    "name_en": "HDR Cinema Aesthetics",
+    "definition": "高ダイナミックレンジ映像が明暗、色彩、質感、視覚的リアリズムをどのように変えるかを分析する概念。劇場、家庭テレビ、配信端末の差異が作品の見え方を大きく左右する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル映画美学",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "HDR cinema,digital color,display technology",
+    "key_researchers": ["Kristen Whissel", "Barbara Flueckiger", "Stephen Prince"]
+  },
+  {
+    "name_ja": "計算的映画分析",
+    "name_en": "Computational Film Analysis",
+    "definition": "ショット長、色彩、構図、音響、顔、字幕、興行データなどを計算的に抽出し、映画史やジャンルを分析する方法を指す。定量分析と解釈批評の接続が主要な課題である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル・ヒューマニティーズ",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "computational film analysis,digital humanities,distant viewing",
+    "key_researchers": ["Lev Manovich", "Yuri Tsivian", "Taylor Arnold"]
+  },
+  {
+    "name_ja": "遠隔視読",
+    "name_en": "Distant Viewing",
+    "definition": "大量の映像作品をコンピュータ処理によって俯瞰し、パターン、様式、ジャンル、歴史的変化を分析する方法論。近接読解の代替ではなく、見えにくい大規模傾向を発見する補助線である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "デジタル・ヒューマニティーズ",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "distant viewing,computational analysis,visual culture",
+    "key_researchers": ["Taylor Arnold", "Lauren Tilton", "Lev Manovich"]
+  },
+  {
+    "name_ja": "映画データセット批判",
+    "name_en": "Film Dataset Critique",
+    "definition": "映画研究やAI開発で用いられる映像データセットの収集方法、ラベル、偏り、著作権、労働、表象の不均衡を批判的に分析する概念。データは中立ではなく、制度的判断の集積である。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "批判的データ研究",
+    "era_start": 2018,
+    "era_end": null,
+    "keywords_en": "dataset critique,bias,critical data studies",
+    "key_researchers": ["Kate Crawford", "Trevor Paglen", "Mimi Onuoha"]
+  },
+  {
+    "name_ja": "映画推薦システム批判",
+    "name_en": "Film Recommendation System Critique",
+    "definition": "配信サービスの推薦アルゴリズムが映画の発見、評価、ジャンル分類、観客の嗜好形成に与える影響を分析する概念。可視性の偏り、文化的多様性、偶然の出会いの喪失が論点となる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "アルゴリズム批判",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "recommendation systems,algorithmic curation,film discovery",
+    "key_researchers": ["Taina Bucher", "Ted Striphas", "Ramon Lobato"]
+  },
+  {
+    "name_ja": "アルゴリズム的キュレーション",
+    "name_en": "Algorithmic Curation",
+    "definition": "映画の提示順、分類、サムネイル、推薦、ランキングが人間編集者ではなくアルゴリズムによって部分的に決定される状況を指す。キュレーションの権威、透明性、文化的多様性を再考させる。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "プラットフォーム研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "algorithmic curation,ranking,platform governance",
+    "key_researchers": ["Ted Striphas", "Taina Bucher", "Tarleton Gillespie"]
+  },
+  {
+    "name_ja": "サムネイル美学",
+    "name_en": "Thumbnail Aesthetics",
+    "definition": "配信プラットフォームや動画サイトで、作品の第一印象を決める小さな画像が視聴選択を左右する現象を指す。映画ポスターの後継であると同時に、個人化される広告的インターフェースでもある。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "インターフェース研究",
+    "era_start": 2016,
+    "era_end": null,
+    "keywords_en": "thumbnail aesthetics,interface,streaming platforms",
+    "key_researchers": ["Ramon Lobato", "Taina Bucher", "Anne Helmond"]
+  },
+  {
+    "name_ja": "映画インターフェース論",
+    "name_en": "Film Interface Studies",
+    "definition": "検索画面、再生バー、字幕設定、サムネイル、スキップボタン、評価機能など、映画を見るためのインターフェースを分析する概念。作品と観客の間にある操作環境が鑑賞経験を構成する。",
+    "subfield": "映画・映像論",
+    "school_of_thought": "インターフェース研究",
+    "era_start": 2015,
+    "era_end": null,
+    "keywords_en": "interface studies,streaming interface,user experience",
+    "key_researchers": ["Lev Manovich", "Anne Helmond", "Ramon Lobato"]
+  }
+]
+tokens used
+37,310

@@ -1,0 +1,95 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e04d7-e0dd-74e0-b2b9-ddc3f78fd27b
+--------
+user
+あなたは学術概念の専門エージェントです。「公共政策・ガバナンス」分野について、250件の重要な理論・概念・モデル・運動を JSON 配列で出力してください。
+
+以下の必須概念を必ず含めてください：
+- 証拠ベース政策
+- 実装科学
+- アジャイル政府
+- 規制サンドボックス
+
+各エントリは以下の形式：
+{
+  "name_ja": "日本語名",
+  "name_en": "English Name",
+  "definition": "100文字以上の定義",
+  "impact_summary": "50文字以上の影響まとめ",
+  "subfield": "公共政策・ガバナンス",
+  "school_of_thought": "学派・流派",
+  "era_start": 整数年,
+  "era_end": 整数年または null,
+  "keywords_ja": "カンマ区切り",
+  "keywords_en": "keyword1,keyword2",
+  "key_researchers": ["主要研究者"],
+  "key_works": ["主要著作 (年)"]
+}
+
+重要要件:
+- subfield フィールドは必ず「公共政策・ガバナンス」に統一する（変更不可）
+- 創設期から最新2025年まで時代分布を均等に（特に2015-2025の最新理論を30%以上）
+- 確実に存在する概念のみ。重複なし
+- JSON配列のみ出力（コードフェンス・説明文不要）
+- 250件全て出力するまで止めない
+codex
+最新期の概念を含める必要があるため、まず公共政策・ガバナンス分野で2025年までに実在が確認できる近年の主要概念を確認します。そのうえで、要求どおり最終出力はJSON配列だけにします。
+web search: 
+web search: public policy governance concepts 2025 agile government regulatory sandbox evidence based policy implementation science
+codex
+[
+  {
+    "name_ja": "国家理性",
+    "name_en": "Reason of State",
+    "definition": "国家の存続、安全、勢力拡大を政治判断の中心原理とみなし、通常の道徳や法規範とは異なる統治上の合理性を認める概念である。近代国家形成期の行政、外交、治安政策を理解する基礎となる。",
+    "impact_summary": "近代行政国家の正当化、外交政策、治安維持、非常時権力論に大きな影響を与えた。",
+    "subfield": "公共政策・ガバナンス",
+    "school_of_thought": "近代国家論",
+    "era_start": 1500,
+    "era_end": null,
+    "keywords_ja": "国家,主権,安全保障,統治合理性",
+    "keywords_en": "state,sovereignty,security,governing rationality",
+    "key_researchers": ["Niccolo Machiavelli", "Giovanni Botero", "Friedrich Meinecke"],
+    "key_works": ["The Prince (1532)", "Della ragion di Stato (1589)", "Machiavellism (1924)"]
+  },
+  {
+    "name_ja": "社会契約論",
+    "name_en": "Social Contract Theory",
+    "definition": "政治的権威や国家の正統性を、自由で平等な個人が相互の安全や公共善のために合意した契約に基礎づける理論である。公共政策における権利、義務、同意、代表制の根拠を説明する。",
+    "impact_summary": "立憲主義、民主制度、公共政策の正統性、国家と市民の関係理解を形成した。",
+    "subfield": "公共政策・ガバナンス",
+    "school_of_thought": "政治哲学・契約論",
+    "era_start": 1651,
+    "era_end": null,
+    "keywords_ja": "契約,同意,主権,正統性",
+    "keywords_en": "contract,consent,sovereignty,legitimacy",
+    "key_researchers": ["Thomas Hobbes", "John Locke", "Jean-Jacques Rousseau"],
+    "key_works": ["Leviathan (1651)", "Two Treatises of Government (1689)", "The Social Contract (1762)"]
+  },
+  {
+    "name_ja": "権力分立",
+    "name_en": "Separation of Powers",
+    "definition": "立法、行政、司法などの国家権力を異なる機関に分配し、相互抑制と均衡によって専制を防ぐ統治原理である。公共政策では政策形成、執行、審査の制度的境界を設計する基礎となる。",
+    "impact_summary": "憲法設計、行政統制、司法審査、民主的説明責任の制度設計を方向づけた。",
+    "subfield": "公共政策・ガバナンス",
+    "school_of_thought": "立憲主義",
+    "era_start": 1748,
+    "era_end": null,
+    "keywords_ja": "立法,行政,司法,抑制均衡",
+    "keywords_en": "legislature,executive,judiciary,checks and balances",
+    "key_researchers": ["Montesquieu", "James Madison"],
+    "key_works": ["The Spirit of the Laws (1748)", "Federalist No. 51 (1788)"]
+  }
+]
+tokens used
+4,889

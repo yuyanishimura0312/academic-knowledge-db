@@ -1,0 +1,732 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e0a2c-9550-7f61-83f0-336fb474aaa5
+--------
+user
+「化学工学・材料工学」分野の重要概念60件を JSON 配列で出力。
+
+必須概念:
+蒸留設計、化学平衡、反応速度論、触媒設計、分離膜
+
+各エントリ:
+{"name_ja":"日本語","name_en":"English","definition":"100字以上","subfield":"化学工学・材料工学","school_of_thought":"学派","era_start":年,"era_end":null,"keywords_en":"k1,k2","key_researchers":["名前"]}
+
+要件: 内部知識のみ、subfield統一、60件、JSON配列のみ（説明なし）。
+codex
+[
+  {
+    "name_ja": "蒸留設計",
+    "name_en": "Distillation Design",
+    "definition": "液体混合物を沸点差と気液平衡に基づいて分離する装置と操作条件を設計する概念。段数、還流比、塔径、圧力、熱負荷、エネルギー統合を総合的に決め、目的純度と経済性を両立させる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "単位操作学派",
+    "era_start": 1890,
+    "era_end": null,
+    "keywords_en": "distillation,VLE",
+    "key_researchers": ["Warren L. McCabe", "Ernest Thiele"]
+  },
+  {
+    "name_ja": "化学平衡",
+    "name_en": "Chemical Equilibrium",
+    "definition": "可逆反応において正反応と逆反応の速度が等しくなり、巨視的な組成が時間変化しない状態を表す概念。平衡定数、活量、温度依存性を用いて反応収率や相分離挙動を予測する基礎となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "熱力学学派",
+    "era_start": 1860,
+    "era_end": null,
+    "keywords_en": "equilibrium,thermodynamics",
+    "key_researchers": ["Josiah Willard Gibbs", "Jacobus Henricus van 't Hoff"]
+  },
+  {
+    "name_ja": "反応速度論",
+    "name_en": "Chemical Kinetics",
+    "definition": "化学反応がどの速度で進行し、その速度が濃度、温度、圧力、触媒、拡散などにどう依存するかを扱う概念。反応器設計、選択率制御、安全評価、スケールアップの定量的基盤となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "反応工学学派",
+    "era_start": 1880,
+    "era_end": null,
+    "keywords_en": "kinetics,rate law",
+    "key_researchers": ["Svante Arrhenius", "Octave Levenspiel"]
+  },
+  {
+    "name_ja": "触媒設計",
+    "name_en": "Catalyst Design",
+    "definition": "反応速度や選択性を高めるため、活性点、担体、細孔構造、電子状態、安定性を目的に応じて設計する概念。実験、表面科学、計算化学、プロセス条件を結び、産業反応の効率を左右する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "表面反応工学学派",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "catalysis,active sites",
+    "key_researchers": ["Gerhard Ertl", "Paul Sabatier"]
+  },
+  {
+    "name_ja": "分離膜",
+    "name_en": "Separation Membranes",
+    "definition": "選択透過性を持つ薄膜を利用して、気体、液体、イオン、微粒子を分離する概念。膜材料、細孔径、溶解拡散、濃度分極、ファウリングを考慮し、省エネルギー分離技術の中核を担う。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "膜分離工学学派",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "membranes,separation",
+    "key_researchers": ["Richard M. Barrer", "Sidney Loeb"]
+  },
+  {
+    "name_ja": "物質収支",
+    "name_en": "Material Balance",
+    "definition": "プロセスに入る物質、出る物質、蓄積、生成、消費の関係を保存則に基づいて定量化する概念。化学プラントの設計、運転解析、異常診断、環境負荷評価で最初に用いられる基本原理である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "プロセスシステム工学学派",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "mass balance,conservation",
+    "key_researchers": ["Arthur D. Little", "George E. Davis"]
+  },
+  {
+    "name_ja": "エネルギー収支",
+    "name_en": "Energy Balance",
+    "definition": "熱、仕事、内部エネルギー、エンタルピー、反応熱の出入りを第一法則に基づいて整理する概念。熱交換器、反応器、蒸留塔、乾燥機の設計に不可欠で、熱効率と安全性を同時に評価する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "熱工学学派",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "energy balance,enthalpy",
+    "key_researchers": ["James Prescott Joule", "William Rankine"]
+  },
+  {
+    "name_ja": "流体力学",
+    "name_en": "Fluid Mechanics",
+    "definition": "液体や気体の流れ、圧力損失、粘性、乱流、境界層、配管内輸送を扱う概念。化学装置内の混合、伝熱、反応、分離の性能を支配し、ポンプや配管設計の基礎となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "輸送現象学派",
+    "era_start": 1750,
+    "era_end": null,
+    "keywords_en": "fluid mechanics,turbulence",
+    "key_researchers": ["Osborne Reynolds", "Ludwig Prandtl"]
+  },
+  {
+    "name_ja": "伝熱",
+    "name_en": "Heat Transfer",
+    "definition": "熱が伝導、対流、放射によって移動する現象を扱う概念。反応器の温度制御、熱交換器設計、材料加工、乾燥、冷却、エネルギー回収に直結し、装置性能と安全性を左右する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "輸送現象学派",
+    "era_start": 1820,
+    "era_end": null,
+    "keywords_en": "heat transfer,convection",
+    "key_researchers": ["Jean-Baptiste Joseph Fourier", "Ernst Schmidt"]
+  },
+  {
+    "name_ja": "物質移動",
+    "name_en": "Mass Transfer",
+    "definition": "濃度差や化学ポテンシャル差によって成分が相内または相間を移動する現象を扱う概念。吸収、抽出、蒸留、乾燥、膜分離、反応器内拡散を統一的に説明する化学工学の中心原理である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "輸送現象学派",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "mass transfer,diffusion",
+    "key_researchers": ["Robert Byron Bird", "Warren E. Stewart"]
+  },
+  {
+    "name_ja": "輸送現象",
+    "name_en": "Transport Phenomena",
+    "definition": "運動量、熱、物質の移動を共通の保存則と構成式で記述する統一的概念。化学工学の諸操作を個別経験則ではなく連続体力学と熱力学に基づいて解析する枠組みを与える。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "輸送現象学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "transport phenomena,momentum",
+    "key_researchers": ["Robert Byron Bird", "Edwin N. Lightfoot"]
+  },
+  {
+    "name_ja": "反応器設計",
+    "name_en": "Reactor Design",
+    "definition": "反応速度式、物質収支、熱収支、流動状態を組み合わせ、目的の転化率や選択率を得る反応装置を設計する概念。回分、連続槽、管型、固定床、流動床などの選択に関わる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "反応工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "reactor design,CSTR",
+    "key_researchers": ["Octave Levenspiel", "Neal R. Amundson"]
+  },
+  {
+    "name_ja": "相平衡",
+    "name_en": "Phase Equilibrium",
+    "definition": "気相、液相、固相など複数相が共存するとき、各成分の化学ポテンシャルが等しくなる条件を扱う概念。蒸留、抽出、晶析、吸収、材料相図の解析に不可欠な熱力学的基盤である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "熱力学学派",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "phase equilibrium,phase diagram",
+    "key_researchers": ["Josiah Willard Gibbs", "Johannes Diderik van der Waals"]
+  },
+  {
+    "name_ja": "状態方程式",
+    "name_en": "Equation of State",
+    "definition": "圧力、体積、温度、組成の関係を表す数式モデルで、気体や流体混合物の熱力学性質を推算する概念。高圧プロセス、超臨界流体、相平衡計算、プロセスシミュレーションで重要である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "応用熱力学学派",
+    "era_start": 1873,
+    "era_end": null,
+    "keywords_en": "equation of state,PVT",
+    "key_researchers": ["Johannes Diderik van der Waals", "Otto Redlich"]
+  },
+  {
+    "name_ja": "吸収操作",
+    "name_en": "Gas Absorption",
+    "definition": "気体中の特定成分を液体に溶解させて分離または除去する単位操作。物質移動、気液接触、溶解度、反応吸収を考慮し、排ガス処理、酸性ガス除去、化学品回収に広く使われる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "単位操作学派",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "absorption,gas scrubbing",
+    "key_researchers": ["Thomas Kilgore Sherwood", "Robert Pigford"]
+  },
+  {
+    "name_ja": "液液抽出",
+    "name_en": "Liquid-Liquid Extraction",
+    "definition": "互いに混ざりにくい二つの液相間で溶質の分配差を利用して分離する単位操作。分配係数、選択性、相分離性、溶媒回収を設計し、金属精製、医薬品、石油化学で重要である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "単位操作学派",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "liquid extraction,solvent",
+    "key_researchers": ["Treybal Robert E.", "Thomas Kilgore Sherwood"]
+  },
+  {
+    "name_ja": "晶析",
+    "name_en": "Crystallization",
+    "definition": "溶液、融液、気相から結晶を生成し、粒径、形状、純度、多形を制御する概念。過飽和、核生成、成長、凝集、破砕を扱い、医薬品、食品、電子材料の品質を左右する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "粒子・結晶工学学派",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "crystallization,nucleation",
+    "key_researchers": ["John W. Mullin", "Alan G. Jones"]
+  },
+  {
+    "name_ja": "乾燥",
+    "name_en": "Drying",
+    "definition": "固体や液体材料から水分や溶媒を熱と物質移動によって除去する単位操作。乾燥速度、内部拡散、熱劣化、収縮、エネルギー消費を考慮し、粉体、食品、塗膜、医薬品製造に用いられる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "単位操作学派",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "drying,moisture",
+    "key_researchers": ["Thomas Kilgore Sherwood", "Arun S. Mujumdar"]
+  },
+  {
+    "name_ja": "粉体工学",
+    "name_en": "Powder Technology",
+    "definition": "粉体の流動、混合、造粒、圧縮、分級、付着、帯電を扱う概念。粒子径分布や表面性状が装置挙動に大きく影響するため、医薬品、電池材料、セラミックス、触媒製造で重要である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "粒子工学学派",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "powder technology,particles",
+    "key_researchers": ["Koichi Iinoya", "Jim Litster"]
+  },
+  {
+    "name_ja": "混合",
+    "name_en": "Mixing",
+    "definition": "流体、粉体、固液系などを均一化し、濃度、温度、粒子分布、反応場を制御する概念。撹拌槽の翼形状、動力、循環流、スケールアップを扱い、反応と分離の性能に直結する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "単位操作学派",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "mixing,agitation",
+    "key_researchers": ["John H. Rushton", "Edward L. Paul"]
+  },
+  {
+    "name_ja": "プロセス制御",
+    "name_en": "Process Control",
+    "definition": "温度、圧力、流量、組成などのプロセス変数を測定し、フィードバックや予測制御で望ましい状態に保つ概念。品質安定化、安全運転、省エネルギー、異常時対応の基礎となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "プロセスシステム工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "process control,feedback",
+    "key_researchers": ["George Stephanopoulos", "Manfred Morari"]
+  },
+  {
+    "name_ja": "プロセス最適化",
+    "name_en": "Process Optimization",
+    "definition": "収率、利益、エネルギー消費、環境負荷、安全余裕などの目的関数を設定し、制約条件下で最良の設計や運転条件を求める概念。数理計画、シミュレーション、制御と密接に結びつく。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "プロセスシステム工学学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "optimization,process systems",
+    "key_researchers": ["Roger W. H. Sargent", "Ignacio E. Grossmann"]
+  },
+  {
+    "name_ja": "プロセスシミュレーション",
+    "name_en": "Process Simulation",
+    "definition": "熱力学モデル、反応モデル、単位操作モデルを組み合わせ、化学プラント全体の物質・エネルギー流れを計算する概念。設計検討、運転改善、トラブル解析、経済性評価に用いられる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "プロセスシステム工学学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "process simulation,flowsheeting",
+    "key_researchers": ["Roger W. H. Sargent", "Richard H. Britt"]
+  },
+  {
+    "name_ja": "プロセス安全",
+    "name_en": "Process Safety",
+    "definition": "火災、爆発、有害物質放出、暴走反応、設備破損を防ぐため、危険源を同定しリスクを管理する概念。HAZOP、保護層解析、圧力逃し、安全計装を含み、化学産業の信頼性を支える。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "安全工学学派",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "process safety,HAZOP",
+    "key_researchers": ["Trevor Kletz", "Frank P. Lees"]
+  },
+  {
+    "name_ja": "スケールアップ",
+    "name_en": "Scale-Up",
+    "definition": "実験室やパイロット規模で得た知見を商業規模装置へ移す概念。幾何学的相似だけでなく、混合、伝熱、物質移動、反応速度、安全性の相似条件を評価し、失敗リスクを低減する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "実装化学工学学派",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "scale-up,pilot plant",
+    "key_researchers": ["John H. Rushton", "Octave Levenspiel"]
+  },
+  {
+    "name_ja": "固定床反応器",
+    "name_en": "Fixed-Bed Reactor",
+    "definition": "固体触媒を充填した層に流体反応物を通過させる反応器の概念。圧力損失、軸方向分散、外部・内部拡散、発熱反応のホットスポットを考慮し、石油精製や合成化学で用いられる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "反応工学学派",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "fixed-bed reactor,heterogeneous catalysis",
+    "key_researchers": ["Neal R. Amundson", "Rutherford Aris"]
+  },
+  {
+    "name_ja": "流動床",
+    "name_en": "Fluidized Bed",
+    "definition": "粒子層を流体の上昇流で浮遊させ、液体のように流動化して反応や熱交換を行う概念。高い伝熱性と混合性を持つ一方、粒子飛散、摩耗、バブル挙動の制御が重要となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "粒子・反応工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "fluidized bed,particles",
+    "key_researchers": ["Fritz Winkler", "Daizo Kunii"]
+  },
+  {
+    "name_ja": "多孔質材料",
+    "name_en": "Porous Materials",
+    "definition": "内部に多数の細孔を持ち、表面積、孔径分布、連通性によって吸着、触媒、分離、貯蔵性能を発現する材料概念。ゼオライト、活性炭、シリカ、MOFなどが代表である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "材料化学工学学派",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "porous materials,surface area",
+    "key_researchers": ["Stephen Brunauer", "Donald W. Breck"]
+  },
+  {
+    "name_ja": "吸着",
+    "name_en": "Adsorption",
+    "definition": "分子やイオンが固体表面に濃縮される現象を扱う概念。吸着等温線、表面積、細孔構造、拡散、再生操作を考慮し、ガス精製、水処理、触媒、クロマト分離に広く応用される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "表面・界面工学学派",
+    "era_start": 1910,
+    "era_end": null,
+    "keywords_en": "adsorption,isotherm",
+    "key_researchers": ["Irving Langmuir", "Stephen Brunauer"]
+  },
+  {
+    "name_ja": "表面科学",
+    "name_en": "Surface Science",
+    "definition": "固体表面の原子配列、電子状態、吸着、反応、欠陥を理解する概念。触媒、腐食、薄膜成長、半導体、接着の機構解明に不可欠で、材料のバルク性質とは異なる表面特性に注目する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "表面科学学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "surface science,interfaces",
+    "key_researchers": ["Gerhard Ertl", "Gabor A. Somorjai"]
+  },
+  {
+    "name_ja": "界面現象",
+    "name_en": "Interfacial Phenomena",
+    "definition": "異なる相が接する界面で生じる表面張力、濡れ、乳化、吸着、電気二重層などを扱う概念。分散系、塗膜、膜分離、電池、複合材料、微粒子プロセスの挙動を支配する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "コロイド・界面学派",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "interfacial phenomena,wetting",
+    "key_researchers": ["Agnes Pockels", "Irving Langmuir"]
+  },
+  {
+    "name_ja": "コロイド分散",
+    "name_en": "Colloidal Dispersion",
+    "definition": "ナノからマイクロメートル程度の粒子が媒体中に分散した系を扱う概念。ブラウン運動、凝集、静電反発、立体安定化、レオロジーを考慮し、塗料、食品、医薬、セラミックスで重要である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "コロイド・界面学派",
+    "era_start": 1905,
+    "era_end": null,
+    "keywords_en": "colloids,dispersion",
+    "key_researchers": ["Jean Perrin", "Theodor Svedberg"]
+  },
+  {
+    "name_ja": "レオロジー",
+    "name_en": "Rheology",
+    "definition": "流体や軟質材料が応力に対してどのように変形し流動するかを扱う概念。粘弾性、降伏応力、せん断薄化、時間依存性を解析し、高分子、スラリー、食品、塗料加工に応用される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "ソフトマター工学学派",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "rheology,viscoelasticity",
+    "key_researchers": ["Eugene C. Bingham", "Markus Reiner"]
+  },
+  {
+    "name_ja": "高分子材料",
+    "name_en": "Polymeric Materials",
+    "definition": "多数の繰り返し単位からなる巨大分子を基盤とする材料概念。分子量、分岐、結晶性、ガラス転移、粘弾性、成形加工性を制御し、樹脂、繊維、ゴム、膜、医療材料に利用される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "高分子科学学派",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "polymers,macromolecules",
+    "key_researchers": ["Hermann Staudinger", "Paul J. Flory"]
+  },
+  {
+    "name_ja": "重合反応工学",
+    "name_en": "Polymerization Reaction Engineering",
+    "definition": "モノマーから高分子を合成する反応を、速度論、熱除去、分子量分布、相挙動、粘度変化とともに設計する概念。ラジカル、イオン、配位、縮合重合の工業化に不可欠である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "高分子反応工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "polymerization,reactor engineering",
+    "key_researchers": ["Paul J. Flory", "George Odian"]
+  },
+  {
+    "name_ja": "複合材料",
+    "name_en": "Composite Materials",
+    "definition": "二種類以上の材料を組み合わせ、単独材料では得にくい強度、靭性、軽量性、耐熱性、機能性を実現する概念。繊維強化樹脂、粒子分散材、積層材では界面設計が性能を大きく左右する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "構造材料工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "composites,reinforcement",
+    "key_researchers": ["Anthony Kelly", "Stephen W. Tsai"]
+  },
+  {
+    "name_ja": "セラミックス材料",
+    "name_en": "Ceramic Materials",
+    "definition": "金属元素と非金属元素からなる無機固体材料を扱う概念。高硬度、耐熱性、耐食性、電気的機能を持つ一方で脆性が課題となり、焼結、粒界、欠陥制御が材料設計の中心である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "無機材料工学学派",
+    "era_start": 1900,
+    "era_end": null,
+    "keywords_en": "ceramics,sintering",
+    "key_researchers": ["Kingery W. David", "Rustum Roy"]
+  },
+  {
+    "name_ja": "金属材料",
+    "name_en": "Metallic Materials",
+    "definition": "金属結合を持つ材料の構造、相変態、塑性変形、強化機構、腐食、加工を扱う概念。合金設計、熱処理、結晶粒制御を通じて、強度、延性、耐熱性、導電性を目的に合わせて調整する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "冶金材料学派",
+    "era_start": 1850,
+    "era_end": null,
+    "keywords_en": "metals,alloys",
+    "key_researchers": ["William Hume-Rothery", "Robert W. Cahn"]
+  },
+  {
+    "name_ja": "相図",
+    "name_en": "Phase Diagram",
+    "definition": "温度、圧力、組成に対して安定な相の領域と相境界を示す図を用いる概念。合金、セラミックス、高分子、溶液の設計で、相変態、析出、凝固、熱処理条件を判断する基盤となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "材料熱力学学派",
+    "era_start": 1870,
+    "era_end": null,
+    "keywords_en": "phase diagram,phase transformation",
+    "key_researchers": ["Josiah Willard Gibbs", "William Hume-Rothery"]
+  },
+  {
+    "name_ja": "結晶構造",
+    "name_en": "Crystal Structure",
+    "definition": "原子やイオンが周期的に配列した固体構造を扱う概念。格子、単位胞、対称性、欠陥、結晶方位が機械的、電気的、光学的、化学的性質を決定し、材料設計の出発点となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "結晶学派",
+    "era_start": 1912,
+    "era_end": null,
+    "keywords_en": "crystal structure,lattice",
+    "key_researchers": ["William Henry Bragg", "William Lawrence Bragg"]
+  },
+  {
+    "name_ja": "欠陥工学",
+    "name_en": "Defect Engineering",
+    "definition": "空孔、格子間原子、転位、粒界、表面欠陥などを制御して材料特性を調整する概念。半導体、イオン伝導体、触媒、金属強化では、欠陥が機能と劣化の両面を支配する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "固体物性材料学派",
+    "era_start": 1930,
+    "era_end": null,
+    "keywords_en": "defects,dislocations",
+    "key_researchers": ["Geoffrey Ingram Taylor", "Alan Cottrell"]
+  },
+  {
+    "name_ja": "拡散",
+    "name_en": "Diffusion",
+    "definition": "濃度勾配や化学ポテンシャル勾配により原子、分子、イオンが移動する現象を扱う概念。反応、焼結、膜透過、腐食、相変態、半導体ドーピングなど多くの材料・プロセスで律速要因となる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "輸送現象学派",
+    "era_start": 1855,
+    "era_end": null,
+    "keywords_en": "diffusion,Fick laws",
+    "key_researchers": ["Adolf Fick", "Lars Onsager"]
+  },
+  {
+    "name_ja": "焼結",
+    "name_en": "Sintering",
+    "definition": "粉末成形体を加熱し、粒子間結合と緻密化を進めて固体材料を得る概念。拡散、粒成長、気孔消滅、液相形成を制御し、セラミックス、粉末冶金、電池材料、触媒担体の製造に使われる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "粉体材料工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "sintering,densification",
+    "key_researchers": ["Frenkel Yakov", "Robert L. Coble"]
+  },
+  {
+    "name_ja": "薄膜形成",
+    "name_en": "Thin Film Deposition",
+    "definition": "基板上にナノからマイクロメートル厚の材料層を形成する概念。CVD、PVD、スピンコート、ALDなどを用い、組成、厚み、結晶性、界面を制御して電子、光学、保護機能を実現する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "薄膜プロセス工学学派",
+    "era_start": 1950,
+    "era_end": null,
+    "keywords_en": "thin films,deposition",
+    "key_researchers": ["John A. Thornton", "Tuomo Suntola"]
+  },
+  {
+    "name_ja": "化学気相成長",
+    "name_en": "Chemical Vapor Deposition",
+    "definition": "気相前駆体を基板表面で反応させ、固体薄膜を形成するプロセス概念。反応速度、物質移動、表面吸着、温度場を制御し、半導体、炭素材料、耐熱被膜、セラミックス膜の製造に用いられる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "薄膜プロセス工学学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "CVD,vapor deposition",
+    "key_researchers": ["John Blocher", "Bernard S. Meyerson"]
+  },
+  {
+    "name_ja": "原子層堆積",
+    "name_en": "Atomic Layer Deposition",
+    "definition": "自己停止的な表面反応を交互に繰り返し、原子層単位で薄膜厚を制御する概念。高い被覆性と厚み制御性を持ち、半導体微細加工、電池、触媒、バリア膜で重要性が高い。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "ナノ薄膜工学学派",
+    "era_start": 1974,
+    "era_end": null,
+    "keywords_en": "ALD,atomic layer",
+    "key_researchers": ["Tuomo Suntola", "Markku Leskela"]
+  },
+  {
+    "name_ja": "ナノ材料",
+    "name_en": "Nanomaterials",
+    "definition": "少なくとも一つの寸法がナノメートル領域にあり、量子効果、表面効果、サイズ効果により特異な性質を示す材料概念。ナノ粒子、ナノチューブ、量子ドット、薄膜などが含まれる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "ナノテクノロジー学派",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "nanomaterials,size effects",
+    "key_researchers": ["Richard Feynman", "Sumio Iijima"]
+  },
+  {
+    "name_ja": "自己組織化",
+    "name_en": "Self-Assembly",
+    "definition": "分子、粒子、ブロック共重合体などが外部から細かく配置されずに相互作用によって秩序構造を形成する概念。ナノ構造材料、膜、コロイド結晶、バイオ材料のボトムアップ設計で重要である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "ソフトマター材料学派",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "self-assembly,bottom-up",
+    "key_researchers": ["George M. Whitesides", "Samuel I. Stupp"]
+  },
+  {
+    "name_ja": "金属有機構造体",
+    "name_en": "Metal-Organic Frameworks",
+    "definition": "金属イオンまたはクラスターと有機配位子が結合して形成する結晶性多孔質材料の概念。高比表面積と設計可能な細孔を持ち、ガス貯蔵、分離、触媒、センシングに応用される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "多孔性材料学派",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "MOF,porous crystals",
+    "key_researchers": ["Omar M. Yaghi", "Susumu Kitagawa"]
+  },
+  {
+    "name_ja": "ゼオライト",
+    "name_en": "Zeolites",
+    "definition": "規則的なミクロ孔を持つ結晶性アルミノケイ酸塩を中心とした多孔質材料の概念。形状選択性、イオン交換能、酸性点を持ち、石油精製、吸着分離、環境触媒で広く使われる。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "多孔性触媒材料学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "zeolites,micropores",
+    "key_researchers": ["Donald W. Breck", "Richard M. Barrer"]
+  },
+  {
+    "name_ja": "電池材料",
+    "name_en": "Battery Materials",
+    "definition": "電気化学的なエネルギー貯蔵と変換に関わる正極、負極、電解質、セパレータ、集電体材料を扱う概念。イオン輸送、界面反応、劣化、熱安定性を制御し、容量、出力、寿命を決める。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "電気化学材料学派",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "battery materials,electrochemistry",
+    "key_researchers": ["John B. Goodenough", "Akira Yoshino"]
+  },
+  {
+    "name_ja": "燃料電池",
+    "name_en": "Fuel Cells",
+    "definition": "燃料と酸化剤の化学エネルギーを電気化学反応で直接電力に変換する装置概念。電極触媒、電解質膜、ガス拡散層、水管理、熱管理が性能と耐久性を左右し、低炭素電源として注目される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "電気化学工学学派",
+    "era_start": 1839,
+    "era_end": null,
+    "keywords_en": "fuel cells,electrocatalysis",
+    "key_researchers": ["William Grove", "Francis Thomas Bacon"]
+  },
+  {
+    "name_ja": "電気化学反応工学",
+    "name_en": "Electrochemical Reaction Engineering",
+    "definition": "電極反応、イオン輸送、電位分布、物質移動、熱発生を組み合わせて電解槽や電池を設計する概念。水電解、めっき、燃料電池、二酸化炭素還元などのプロセス最適化に必要である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "電気化学工学学派",
+    "era_start": 1960,
+    "era_end": null,
+    "keywords_en": "electrochemical engineering,electrodes",
+    "key_researchers": ["John Newman", "Charles W. Tobias"]
+  },
+  {
+    "name_ja": "腐食工学",
+    "name_en": "Corrosion Engineering",
+    "definition": "材料が環境との化学反応や電気化学反応によって劣化する現象を理解し、防食設計を行う概念。腐食速度、局部腐食、保護皮膜、犠牲防食、材料選定を扱い、設備寿命と安全に直結する。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "劣化・信頼性材料学派",
+    "era_start": 1920,
+    "era_end": null,
+    "keywords_en": "corrosion,degradation",
+    "key_researchers": ["Marcel Pourbaix", "Ulick Richardson Evans"]
+  },
+  {
+    "name_ja": "ライフサイクルアセスメント",
+    "name_en": "Life Cycle Assessment",
+    "definition": "原料採取から製造、使用、廃棄、リサイクルまでの環境影響を定量的に評価する概念。温室効果ガス、エネルギー、水、資源、毒性を考慮し、材料選択やプロセス設計の判断を支える。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "環境システム工学学派",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "life cycle assessment,LCA",
+    "key_researchers": ["Harold Smith", "Robert Hunt"]
+  },
+  {
+    "name_ja": "グリーンケミカルプロセス",
+    "name_en": "Green Chemical Processes",
+    "definition": "有害物質使用、廃棄物発生、エネルギー消費を低減し、再生可能原料や安全な溶媒を活用するプロセス設計概念。反応選択性、触媒、分離、ライフサイクル評価を統合して持続可能性を高める。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "グリーン化学工学学派",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "green chemistry,sustainability",
+    "key_researchers": ["Paul Anastas", "John Warner"]
+  },
+  {
+    "name_ja": "バイオプロセス工学",
+    "name_en": "Bioprocess Engineering",
+    "definition": "微生物、酵素、細胞を用いた物質生産や処理を工学的に設計する概念。培養、滅菌、酸素移動、代謝、分離精製を扱い、医薬品、発酵食品、バイオ燃料、環境浄化に応用される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "生物化学工学学派",
+    "era_start": 1940,
+    "era_end": null,
+    "keywords_en": "bioprocess,fermentation",
+    "key_researchers": ["Elmer Gaden", "Arthur E. Humphrey"]
+  },
+  {
+    "name_ja": "マイクロリアクター",
+    "name_en": "Microreactors",
+    "definition": "微小流路内で反応を行い、高い表面積対体積比によって高速な伝熱・物質移動と精密な滞留時間制御を実現する概念。危険反応、連続合成、迅速条件探索、プロセス強化に有効である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "マイクロプロセス工学学派",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "microreactors,flow chemistry",
+    "key_researchers": ["Klavs F. Jensen", "Volker Hessel"]
+  },
+  {
+    "name_ja": "プロセス強化",
+    "name_en": "Process Intensification",
+    "definition": "装置の小型化、エネルギー効率向上、安全性向上、廃棄物削減を目的に、反応と分離の統合や新規装置を導入する概念。反応蒸留、膜反応器、マイクロリアクターなどが代表例である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "革新的プロセス工学学派",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "process intensification,integrated processes",
+    "key_researchers": ["Colin Ramshaw", "Andrzej Stankiewicz"]
+  },
+  {
+    "name_ja": "反応蒸留",
+    "name_en": "Reactive Distillation",
+    "definition": "化学反応と蒸留分離を同一装置内で同時に行うプロセス概念。生成物除去により平衡制約を緩和し、省エネルギー化や装置削減を実現できるが、反応速度と気液平衡の整合設計が難しい。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "プロセス強化学派",
+    "era_start": 1970,
+    "era_end": null,
+    "keywords_en": "reactive distillation,hybrid process",
+    "key_researchers": ["Michael F. Doherty", "Krishna Sundmacher"]
+  },
+  {
+    "name_ja": "膜反応器",
+    "name_en": "Membrane Reactors",
+    "definition": "反応器と膜分離を組み合わせ、反応物供給や生成物除去を選択的に行う概念。平衡転化率の向上、副反応抑制、触媒保持に利点があり、水素製造、脱水素、酵素反応で研究される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "膜プロセス強化学派",
+    "era_start": 1980,
+    "era_end": null,
+    "keywords_en": "membrane reactors,selective removal",
+    "key_researchers": ["Enrico Drioli", "Kang Li"]
+  },
+  {
+    "name_ja": "プロセスデータ解析",
+    "name_en": "Process Data Analytics",
+    "definition": "センサー、運転履歴、品質測定、シミュレーションから得られるデータを解析し、異常検知、品質予測、運転最適化に用いる概念。統計、機械学習、第一原理モデルを組み合わせる点が特徴である。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "データ駆動プロセス工学学派",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_en": "data analytics,soft sensors",
+    "key_researchers": ["John F. MacGregor", "Richard D. Braatz"]
+  },
+  {
+    "name_ja": "材料インフォマティクス",
+    "name_en": "Materials Informatics",
+    "definition": "材料組成、構造、プロセス、物性データを統計解析や機械学習で結び、新材料探索や物性予測を加速する概念。実験計画、データベース、記述子、最適化を統合して研究開発効率を高める。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "データ駆動材料科学学派",
+    "era_start": 2000,
+    "era_end": null,
+    "keywords_en": "materials informatics,machine learning",
+    "key_researchers": ["Gerbrand Ceder", "Kristin Persson"]
+  },
+  {
+    "name_ja": "デジタルツイン",
+    "name_en": "Digital Twin",
+    "definition": "実設備や材料プロセスに対応する仮想モデルを構築し、センサー情報で継続的に更新して予測や制御に使う概念。プラント運転、保全、品質管理、材料製造条件の最適化に応用される。",
+    "subfield": "化学工学・材料工学",
+    "school_of_thought": "スマートプロセス工学学派",
+    "era_start": 2010,
+    "era_end": null,
+    "keywords_en": "digital twin,model predictive",
+    "key_researchers": ["Michael Grieves", "Richard D. Braatz"]
+  }
+]
+tokens used
+12,156

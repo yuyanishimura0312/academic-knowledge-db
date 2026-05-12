@@ -1,0 +1,107 @@
+warning: `--full-auto` is deprecated; use `--sandbox workspace-write` instead.
+Reading additional input from stdin...
+OpenAI Codex v0.128.0 (research preview)
+--------
+workdir: /Users/nishimura+/projects/research/academic-knowledge-db/coverage_expansion_2026_05_07
+model: gpt-5.5
+provider: openai
+approval: never
+sandbox: workspace-write [workdir, /tmp, $TMPDIR, /Users/nishimura+/.codex/memories]
+reasoning effort: none
+reasoning summaries: none
+session id: 019e05e3-3ac7-77c0-bf2e-2e36c9bdbd3e
+--------
+user
+あなたは学術概念の専門エージェントです。「分析哲学・心の哲学」分野について、250件の重要な理論・概念・モデル・運動を JSON 配列で出力してください。
+
+以下の必須概念を必ず含めてください：
+- 拡張された心
+- 予測的処理
+- ニューラル相関
+- 情報的因果
+
+各エントリは以下の形式：
+{
+  "name_ja": "日本語名",
+  "name_en": "English Name",
+  "definition": "100文字以上の定義",
+  "impact_summary": "50文字以上の影響まとめ",
+  "subfield": "分析哲学・心の哲学",
+  "school_of_thought": "学派・流派",
+  "era_start": 整数年,
+  "era_end": 整数年または null,
+  "keywords_ja": "カンマ区切り",
+  "keywords_en": "keyword1,keyword2",
+  "key_researchers": ["主要研究者"],
+  "key_works": ["主要著作 (年)"]
+}
+
+重要要件:
+- subfield フィールドは必ず「分析哲学・心の哲学」に統一する（変更不可）
+- 創設期から最新2025年まで時代分布を均等に（特に2015-2025の最新理論を30%以上）
+- 確実に存在する概念のみ。重複なし
+- JSON配列のみ出力（コードフェンス・説明文不要）
+- 250件全て出力するまで止めない
+web search: 
+web search: philosophy of mind recent theories 2015 2025 predictive processing extended mind consciousness concepts
+codex
+[
+  {
+    "name_ja": "拡張された心",
+    "name_en": "Extended Mind",
+    "definition": "認知過程は脳内だけで完結せず、ノート、道具、身体、環境との安定した相互作用を含んで構成されうるという心の哲学の立場。信念や記憶の一部が外部媒体に実現される可能性を論じる。",
+    "impact_summary": "心の境界を頭蓋内から環境へ広げ、認知科学、AI、技術哲学、障害研究に大きな影響を与えた。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "4E認知・外在主義",
+    "era_start": 1998,
+    "era_end": null,
+    "keywords_ja": "拡張認知,外在主義,道具,環境,記憶",
+    "keywords_en": "extended cognition,externalism,tools,environment,memory",
+    "key_researchers": ["Andy Clark", "David Chalmers"],
+    "key_works": ["The Extended Mind (1998)", "Supersizing the Mind (2008)"]
+  },
+  {
+    "name_ja": "予測的処理",
+    "name_en": "Predictive Processing",
+    "definition": "脳を感覚入力の受動的受信器ではなく、階層的な予測モデルによって入力を推定し、予測誤差を最小化する能動的推論システムとして捉える理論。知覚、行為、意識を統一的に説明しようとする。",
+    "impact_summary": "知覚哲学、意識研究、精神医学、4E認知の議論を結び直し、現代心の哲学の中心理論となった。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "予測的心・ベイズ脳理論",
+    "era_start": 2005,
+    "era_end": null,
+    "keywords_ja": "予測誤差,ベイズ脳,能動的推論,知覚,階層モデル",
+    "keywords_en": "prediction error,bayesian brain,active inference,perception,hierarchical model",
+    "key_researchers": ["Karl Friston", "Andy Clark", "Jakob Hohwy"],
+    "key_works": ["The Free-Energy Principle (2010)", "Surfing Uncertainty (2016)"]
+  },
+  {
+    "name_ja": "ニューラル相関",
+    "name_en": "Neural Correlates of Consciousness",
+    "definition": "特定の意識経験が成立するために十分または必要とされる最小限の神経機構を特定しようとする研究枠組み。現象的意識と脳活動の対応関係を、哲学的概念分析と実証研究の接点で扱う。",
+    "impact_summary": "意識のハードプロブレムを実験可能な問題へ分解し、神経科学と心の哲学の共同研究を促進した。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "意識の神経科学・自然主義",
+    "era_start": 1990,
+    "era_end": null,
+    "keywords_ja": "意識,神経基盤,相関,脳活動,現象性",
+    "keywords_en": "consciousness,neural basis,correlates,brain activity,phenomenality",
+    "key_researchers": ["Francis Crick", "Christof Koch", "David Chalmers"],
+    "key_works": ["Towards a Neurobiological Theory of Consciousness (1990)", "The Quest for Consciousness (2004)"]
+  },
+  {
+    "name_ja": "情報的因果",
+    "name_en": "Informational Causation",
+    "definition": "心的状態や表象が、単なる物理的押し合いではなく、情報構造、差異、制約、選択可能性を通じて因果的効力をもつと考える立場。意味と因果の関係、精神因果、情報哲学を結びつける。",
+    "impact_summary": "物理主義の中で意味や表象の効力を説明する道を開き、心的因果の再定式化に影響した。",
+    "subfield": "分析哲学・心の哲学",
+    "school_of_thought": "情報哲学・自然主義的意味論",
+    "era_start": 1981,
+    "era_end": null,
+    "keywords_ja": "情報,因果,表象,意味,精神因果",
+    "keywords_en": "information,causation,representation,meaning,mental causation",
+    "key_researchers": ["Fred Dretske", "Luciano Floridi", "Terrence Deacon"],
+    "key_works": ["Knowledge and the Flow of Information (1981)", "Philosophy of Information (2011)"]
+  }
+]
+tokens used
+9,370

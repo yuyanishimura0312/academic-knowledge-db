@@ -6,3 +6,8 @@ __pycache__/
 reports/*.json
 reports/*.csv
 .vercel
+
+# 履歴問題回避: backup ファイルは絶対 tracked しない (100MB超で pre-receive hook 拒否原因)
+academic.db.backup*
+*.db.backup-*
+*.db.backup_*
