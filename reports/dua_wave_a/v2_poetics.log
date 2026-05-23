@@ -1,0 +1,13 @@
+
+=== poetics_text ===
+  [poetics_text] 2308 url_present concepts to verify (workers=15, batch=1000)
+    [poetics_text] 500/2308 (21.7%) rate=18.8/s eta=1.6min v=47 d=5 r=66 u=382
+    [poetics_text] 1000/2308 (43.3%) rate=10.4/s eta=2.1min v=58 d=23 r=66 u=853
+    [poetics_text] 1500/2308 (65.0%) rate=9.3/s eta=1.5min v=222 d=33 r=99 u=1146
+    [poetics_text] 2000/2308 (86.7%) rate=8.2/s eta=0.6min v=272 d=34 r=102 u=1592
+  [poetics_text] DONE: 2308/2308 in 5.0min (7.7/s) — v=325 d=72 r=139 u=1772
+
+=== Final Report ===
+Total elapsed: 5.0min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041946Z.json
+  poetics_text              total=  2308 v=   325 d=    72 r=  139 u=  1772

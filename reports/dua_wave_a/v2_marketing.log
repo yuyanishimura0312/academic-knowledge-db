@@ -1,0 +1,27 @@
+
+=== marketing_sales ===
+  [marketing_sales] 9331 url_present concepts to verify (workers=15, batch=1000)
+    [marketing_sales] 500/9331 (5.4%) rate=33.6/s eta=4.4min v=3 d=6 r=0 u=491
+    [marketing_sales] 1000/9331 (10.7%) rate=31.3/s eta=4.4min v=4 d=18 r=0 u=978
+    [marketing_sales] 1500/9331 (16.1%) rate=32.2/s eta=4.0min v=6 d=24 r=0 u=1470
+    [marketing_sales] 2000/9331 (21.4%) rate=33.8/s eta=3.6min v=6 d=31 r=0 u=1963
+    [marketing_sales] 2500/9331 (26.8%) rate=33.9/s eta=3.4min v=8 d=44 r=0 u=2448
+    [marketing_sales] 3000/9331 (32.2%) rate=34.8/s eta=3.0min v=8 d=54 r=0 u=2938
+    [marketing_sales] 3500/9331 (37.5%) rate=35.5/s eta=2.7min v=8 d=63 r=0 u=3429
+    [marketing_sales] 4000/9331 (42.9%) rate=36.2/s eta=2.5min v=8 d=70 r=0 u=3922
+    [marketing_sales] 4500/9331 (48.2%) rate=36.7/s eta=2.2min v=8 d=81 r=0 u=4411
+    [marketing_sales] 5000/9331 (53.6%) rate=37.3/s eta=1.9min v=8 d=98 r=0 u=4894
+    [marketing_sales] 5500/9331 (58.9%) rate=37.8/s eta=1.7min v=8 d=113 r=0 u=5379
+    [marketing_sales] 6000/9331 (64.3%) rate=38.0/s eta=1.5min v=9 d=135 r=0 u=5856
+    [marketing_sales] 6500/9331 (69.7%) rate=37.8/s eta=1.2min v=10 d=152 r=0 u=6338
+    [marketing_sales] 7000/9331 (75.0%) rate=37.7/s eta=1.0min v=10 d=176 r=0 u=6814
+    [marketing_sales] 7500/9331 (80.4%) rate=37.7/s eta=0.8min v=10 d=200 r=0 u=7290
+    [marketing_sales] 8000/9331 (85.7%) rate=37.8/s eta=0.6min v=10 d=221 r=0 u=7769
+    [marketing_sales] 8500/9331 (91.1%) rate=37.8/s eta=0.4min v=10 d=243 r=0 u=8247
+    [marketing_sales] 9000/9331 (96.5%) rate=37.6/s eta=0.1min v=10 d=268 r=0 u=8722
+  [marketing_sales] DONE: 9331/9331 in 4.2min (37.3/s) — v=10 d=286 r=0 u=9035
+
+=== Final Report ===
+Total elapsed: 4.2min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041946Z.json
+  marketing_sales           total=  9331 v=    10 d=   286 r=    0 u=  9035

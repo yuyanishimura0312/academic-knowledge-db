@@ -1,0 +1,92 @@
+{
+  "start": "2026-05-23T02:50:32.920908+00:00",
+  "elapsed_min": 1.2,
+  "domains": [
+    {
+      "table": "humanities_concept",
+      "total_targets": 3390,
+      "completed": 3390,
+      "elapsed_sec": 69.2,
+      "distribution": {
+        "url_present": 3095,
+        "verified": 275,
+        "dead": 20
+      },
+      "failure_patterns_top": {
+        "http_404": 17,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u02bf' in position 12: ordinal not in ran": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u02bf' in position 13: ordinal not in ran": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 22-23: ordinal not in range(12": 1
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "c057",
+            "url": "https://en.wikipedia.org/wiki/Legitimate_Peripheral_Participation"
+          },
+          {
+            "id": "c130",
+            "url": "https://en.wikipedia.org/wiki/Food_Globalization"
+          },
+          {
+            "id": "c194",
+            "url": "https://en.wikipedia.org/wiki/Ethnographic_Present"
+          },
+          {
+            "id": "c257",
+            "url": "https://en.wikipedia.org/wiki/Boundary_Object"
+          },
+          {
+            "id": "c260",
+            "url": "https://en.wikipedia.org/wiki/Sociotechnical_Imaginaries"
+          },
+          {
+            "id": "hc_gap084",
+            "url": "https://en.wikipedia.org/wiki/Systematicity_of_Metaphor"
+          },
+          {
+            "id": "hc_gap307",
+            "url": "https://en.wikipedia.org/wiki/Collective_Knowledge"
+          },
+          {
+            "id": "hc_gap295",
+            "url": "https://en.wikipedia.org/wiki/T%C5%8Djisha-kenky%C5%AB"
+          },
+          {
+            "id": "hc_fix026",
+            "url": "https://en.wikipedia.org/wiki/Bilingual_Education_Debate"
+          },
+          {
+            "id": "hc_2020_063",
+            "url": "https://en.wikipedia.org/wiki/Copyright_Philosophy_of_AI-Generated_Text"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u02bf' in position 12: ordinal not in ran": [
+          {
+            "id": "5a24ad5b-3689-4960-bf3b-5dfaae9b2dfd",
+            "url": "https://en.wikipedia.org/wiki/Muʿtazila"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u02bf' in position 13: ordinal not in ran": [
+          {
+            "id": "ac4b37ac-f3d6-4cf4-9f21-dd69c6f5c3d7",
+            "url": "https://en.wikipedia.org/wiki/Ashʿariyya"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 22-23: ordinal not in range(12": [
+          {
+            "id": "882e7128-a43f-4647-be85-2e7e112f918c",
+            "url": "https://en.wikipedia.org/wiki/conscientização"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

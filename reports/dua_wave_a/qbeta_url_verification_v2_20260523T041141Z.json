@@ -1,0 +1,71 @@
+{
+  "start_utc": "2026-05-23T04:11:48.298526+00:00",
+  "elapsed_min": 0.1,
+  "domains": [
+    {
+      "table": "humanities_concept",
+      "total_targets": 100,
+      "completed": 100,
+      "elapsed_sec": 6.5,
+      "distribution": {
+        "verified": 26,
+        "dead": 74
+      },
+      "failure_patterns_top": {
+        "http_404": 74
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "c027",
+            "url": "https://en.wikipedia.org/wiki/Formalist-Substantivist_Debate"
+          },
+          {
+            "id": "c079",
+            "url": "https://en.wikipedia.org/wiki/State_of_Exception"
+          },
+          {
+            "id": "c089",
+            "url": "https://en.wikipedia.org/wiki/Participatory_Development"
+          },
+          {
+            "id": "c068",
+            "url": "https://en.wikipedia.org/wiki/Objectification_of_Culture"
+          },
+          {
+            "id": "c084",
+            "url": "https://en.wikipedia.org/wiki/Post-Development"
+          },
+          {
+            "id": "c065",
+            "url": "https://en.wikipedia.org/wiki/Total_Social_Fact"
+          },
+          {
+            "id": "c085",
+            "url": "https://en.wikipedia.org/wiki/Anti-Politics_Machine"
+          },
+          {
+            "id": "c091",
+            "url": "https://en.wikipedia.org/wiki/Biosociality"
+          },
+          {
+            "id": "c087",
+            "url": "https://en.wikipedia.org/wiki/Structural_Violence"
+          },
+          {
+            "id": "c093",
+            "url": "https://en.wikipedia.org/wiki/Local_Biology"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,59 @@
+
+=== startup_theory ===
+  [startup_theory] 6455 concepts to verify
+    [startup_theory] 129/6455 (2.0%) rate=31.5/s eta=3.3min v=0 d=0 r=0 u=129
+    [startup_theory] 258/6455 (4.0%) rate=33.1/s eta=3.1min v=0 d=0 r=0 u=258
+    [startup_theory] 387/6455 (6.0%) rate=36.8/s eta=2.7min v=0 d=3 r=0 u=384
+    [startup_theory] 516/6455 (8.0%) rate=38.8/s eta=2.6min v=0 d=4 r=0 u=512
+    [startup_theory] 645/6455 (10.0%) rate=38.9/s eta=2.5min v=0 d=4 r=0 u=641
+    [startup_theory] 774/6455 (12.0%) rate=40.7/s eta=2.3min v=1 d=4 r=0 u=769
+    [startup_theory] 903/6455 (14.0%) rate=40.5/s eta=2.3min v=1 d=4 r=0 u=898
+    [startup_theory] 1032/6455 (16.0%) rate=39.8/s eta=2.3min v=1 d=8 r=0 u=1023
+    [startup_theory] 1161/6455 (18.0%) rate=38.8/s eta=2.3min v=1 d=8 r=0 u=1152
+    [startup_theory] 1290/6455 (20.0%) rate=38.5/s eta=2.2min v=1 d=9 r=0 u=1280
+    [startup_theory] 1419/6455 (22.0%) rate=39.9/s eta=2.1min v=1 d=49 r=0 u=1369
+    [startup_theory] 1548/6455 (24.0%) rate=43.3/s eta=1.9min v=1 d=176 r=0 u=1371
+    [startup_theory] 1677/6455 (26.0%) rate=46.7/s eta=1.7min v=1 d=298 r=0 u=1378
+    [startup_theory] 1806/6455 (28.0%) rate=50.0/s eta=1.5min v=1 d=418 r=0 u=1387
+    [startup_theory] 1935/6455 (30.0%) rate=53.4/s eta=1.4min v=1 d=544 r=0 u=1390
+    [startup_theory] 2064/6455 (32.0%) rate=56.8/s eta=1.3min v=1 d=665 r=0 u=1398
+    [startup_theory] 2193/6455 (34.0%) rate=60.0/s eta=1.2min v=1 d=787 r=0 u=1405
+    [startup_theory] 2322/6455 (36.0%) rate=63.3/s eta=1.1min v=1 d=916 r=0 u=1405
+    [startup_theory] 2451/6455 (38.0%) rate=66.6/s eta=1.0min v=1 d=1044 r=0 u=1406
+    [startup_theory] 2580/6455 (40.0%) rate=69.9/s eta=0.9min v=1 d=1169 r=0 u=1410
+    [startup_theory] 2709/6455 (42.0%) rate=73.1/s eta=0.9min v=1 d=1295 r=0 u=1413
+    [startup_theory] 2838/6455 (44.0%) rate=74.5/s eta=0.8min v=1 d=1382 r=0 u=1455
+    [startup_theory] 2967/6455 (46.0%) rate=71.8/s eta=0.8min v=1 d=1384 r=0 u=1582
+    [startup_theory] 3096/6455 (48.0%) rate=69.4/s eta=0.8min v=1 d=1385 r=0 u=1710
+    [startup_theory] 3225/6455 (50.0%) rate=67.7/s eta=0.8min v=1 d=1387 r=0 u=1837
+    [startup_theory] 3354/6455 (52.0%) rate=66.0/s eta=0.8min v=1 d=1389 r=0 u=1964
+    [startup_theory] 3483/6455 (54.0%) rate=64.0/s eta=0.8min v=1 d=1389 r=0 u=2093
+    [startup_theory] 3612/6455 (56.0%) rate=63.3/s eta=0.7min v=1 d=1390 r=0 u=2221
+    [startup_theory] 3741/6455 (58.0%) rate=62.2/s eta=0.7min v=1 d=1391 r=0 u=2349
+    [startup_theory] 3870/6455 (60.0%) rate=61.6/s eta=0.7min v=1 d=1391 r=0 u=2478
+    [startup_theory] 3999/6455 (62.0%) rate=61.6/s eta=0.7min v=1 d=1392 r=0 u=2606
+    [startup_theory] 4128/6455 (64.0%) rate=61.6/s eta=0.6min v=1 d=1393 r=0 u=2734
+    [startup_theory] 4257/6455 (65.9%) rate=61.6/s eta=0.6min v=1 d=1395 r=0 u=2861
+    [startup_theory] 4386/6455 (67.9%) rate=60.6/s eta=0.6min v=1 d=1397 r=0 u=2988
+    [startup_theory] 4515/6455 (69.9%) rate=61.0/s eta=0.5min v=1 d=1400 r=0 u=3114
+    [startup_theory] 4644/6455 (71.9%) rate=61.1/s eta=0.5min v=1 d=1400 r=0 u=3243
+    [startup_theory] 4773/6455 (73.9%) rate=61.2/s eta=0.5min v=1 d=1401 r=0 u=3371
+    [startup_theory] 4902/6455 (75.9%) rate=61.0/s eta=0.4min v=1 d=1401 r=0 u=3500
+    [startup_theory] 5031/6455 (77.9%) rate=61.0/s eta=0.4min v=1 d=1402 r=0 u=3628
+    [startup_theory] 5160/6455 (79.9%) rate=62.0/s eta=0.3min v=1 d=1492 r=0 u=3667
+    [startup_theory] 5289/6455 (81.9%) rate=63.5/s eta=0.3min v=1 d=1611 r=0 u=3677
+    [startup_theory] 5418/6455 (83.9%) rate=64.9/s eta=0.3min v=1 d=1732 r=0 u=3685
+    [startup_theory] 5547/6455 (85.9%) rate=66.4/s eta=0.2min v=1 d=1850 r=0 u=3696
+    [startup_theory] 5676/6455 (87.9%) rate=66.9/s eta=0.2min v=1 d=1952 r=0 u=3723
+    [startup_theory] 5805/6455 (89.9%) rate=67.8/s eta=0.2min v=1 d=2037 r=0 u=3767
+    [startup_theory] 5934/6455 (91.9%) rate=67.2/s eta=0.1min v=1 d=2092 r=0 u=3841
+    [startup_theory] 6063/6455 (93.9%) rate=67.2/s eta=0.1min v=1 d=2096 r=0 u=3966
+    [startup_theory] 6192/6455 (95.9%) rate=67.0/s eta=0.1min v=1 d=2098 r=0 u=4093
+    [startup_theory] 6321/6455 (97.9%) rate=66.9/s eta=0.0min v=1 d=2100 r=0 u=4220
+    [startup_theory] 6450/6455 (99.9%) rate=66.6/s eta=0.0min v=1 d=2100 r=0 u=4349
+  [startup_theory] DONE: 6455/6455 in 1.6min (66.0/s) — v=1 d=2100 r=0 u=4354
+
+=== Final Report ===
+Total elapsed: 1.6min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T024951Z.json
+  startup_theory            total=  6455 v=     1 d=  2100 r=    0 u=  4354

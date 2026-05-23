@@ -1,0 +1,59 @@
+
+=== natural_discovery ===
+  [natural_discovery] 3691 concepts to verify
+    [natural_discovery] 73/3691 (2.0%) rate=41.8/s eta=1.4min v=4 d=0 r=0 u=69
+    [natural_discovery] 146/3691 (4.0%) rate=54.9/s eta=1.1min v=4 d=0 r=0 u=142
+    [natural_discovery] 219/3691 (5.9%) rate=55.5/s eta=1.0min v=6 d=0 r=0 u=213
+    [natural_discovery] 292/3691 (7.9%) rate=57.8/s eta=1.0min v=7 d=2 r=0 u=283
+    [natural_discovery] 365/3691 (9.9%) rate=61.1/s eta=0.9min v=7 d=3 r=0 u=355
+    [natural_discovery] 438/3691 (11.9%) rate=62.2/s eta=0.9min v=8 d=4 r=0 u=426
+    [natural_discovery] 511/3691 (13.8%) rate=62.5/s eta=0.8min v=9 d=5 r=0 u=497
+    [natural_discovery] 584/3691 (15.8%) rate=61.9/s eta=0.8min v=11 d=5 r=0 u=568
+    [natural_discovery] 657/3691 (17.8%) rate=62.4/s eta=0.8min v=11 d=6 r=0 u=640
+    [natural_discovery] 730/3691 (19.8%) rate=64.0/s eta=0.8min v=11 d=6 r=0 u=713
+    [natural_discovery] 803/3691 (21.8%) rate=65.6/s eta=0.7min v=11 d=6 r=0 u=786
+    [natural_discovery] 876/3691 (23.7%) rate=65.9/s eta=0.7min v=11 d=6 r=0 u=859
+    [natural_discovery] 949/3691 (25.7%) rate=66.7/s eta=0.7min v=11 d=6 r=0 u=932
+    [natural_discovery] 1022/3691 (27.7%) rate=65.7/s eta=0.7min v=11 d=8 r=0 u=1003
+    [natural_discovery] 1095/3691 (29.7%) rate=64.4/s eta=0.7min v=14 d=8 r=0 u=1073
+    [natural_discovery] 1168/3691 (31.6%) rate=64.4/s eta=0.7min v=14 d=8 r=0 u=1146
+    [natural_discovery] 1241/3691 (33.6%) rate=63.6/s eta=0.6min v=15 d=9 r=0 u=1217
+    [natural_discovery] 1314/3691 (35.6%) rate=64.2/s eta=0.6min v=16 d=10 r=0 u=1288
+    [natural_discovery] 1387/3691 (37.6%) rate=62.8/s eta=0.6min v=18 d=10 r=0 u=1359
+    [natural_discovery] 1460/3691 (39.6%) rate=60.8/s eta=0.6min v=18 d=12 r=0 u=1430
+    [natural_discovery] 1533/3691 (41.5%) rate=58.9/s eta=0.6min v=18 d=15 r=0 u=1500
+    [natural_discovery] 1606/3691 (43.5%) rate=57.4/s eta=0.6min v=18 d=16 r=0 u=1572
+    [natural_discovery] 1679/3691 (45.5%) rate=56.5/s eta=0.6min v=18 d=16 r=0 u=1645
+    [natural_discovery] 1752/3691 (47.5%) rate=55.1/s eta=0.6min v=18 d=16 r=0 u=1718
+    [natural_discovery] 1825/3691 (49.4%) rate=54.6/s eta=0.6min v=18 d=16 r=0 u=1791
+    [natural_discovery] 1898/3691 (51.4%) rate=53.5/s eta=0.6min v=19 d=16 r=0 u=1863
+    [natural_discovery] 1971/3691 (53.4%) rate=52.5/s eta=0.5min v=23 d=17 r=0 u=1931
+    [natural_discovery] 2044/3691 (55.4%) rate=52.6/s eta=0.5min v=29 d=18 r=0 u=1997
+    [natural_discovery] 2117/3691 (57.4%) rate=52.7/s eta=0.5min v=31 d=18 r=0 u=2068
+    [natural_discovery] 2190/3691 (59.3%) rate=52.4/s eta=0.5min v=32 d=18 r=0 u=2140
+    [natural_discovery] 2263/3691 (61.3%) rate=51.8/s eta=0.5min v=34 d=18 r=0 u=2211
+    [natural_discovery] 2336/3691 (63.3%) rate=50.9/s eta=0.4min v=35 d=19 r=0 u=2282
+    [natural_discovery] 2409/3691 (65.3%) rate=50.5/s eta=0.4min v=38 d=19 r=0 u=2352
+    [natural_discovery] 2482/3691 (67.2%) rate=50.4/s eta=0.4min v=40 d=21 r=0 u=2421
+    [natural_discovery] 2555/3691 (69.2%) rate=49.4/s eta=0.4min v=43 d=21 r=0 u=2491
+    [natural_discovery] 2628/3691 (71.2%) rate=49.1/s eta=0.4min v=47 d=21 r=0 u=2560
+    [natural_discovery] 2701/3691 (73.2%) rate=48.6/s eta=0.3min v=50 d=23 r=0 u=2628
+    [natural_discovery] 2774/3691 (75.2%) rate=48.3/s eta=0.3min v=57 d=24 r=0 u=2693
+    [natural_discovery] 2847/3691 (77.1%) rate=47.8/s eta=0.3min v=73 d=24 r=0 u=2750
+    [natural_discovery] 2920/3691 (79.1%) rate=47.8/s eta=0.3min v=81 d=24 r=0 u=2815
+    [natural_discovery] 2993/3691 (81.1%) rate=47.6/s eta=0.2min v=89 d=24 r=0 u=2880
+    [natural_discovery] 3066/3691 (83.1%) rate=47.6/s eta=0.2min v=92 d=24 r=0 u=2950
+    [natural_discovery] 3139/3691 (85.0%) rate=46.9/s eta=0.2min v=97 d=25 r=0 u=3017
+    [natural_discovery] 3212/3691 (87.0%) rate=46.8/s eta=0.2min v=105 d=25 r=0 u=3082
+    [natural_discovery] 3285/3691 (89.0%) rate=46.5/s eta=0.1min v=124 d=25 r=0 u=3136
+    [natural_discovery] 3358/3691 (91.0%) rate=46.4/s eta=0.1min v=138 d=25 r=0 u=3195
+    [natural_discovery] 3431/3691 (93.0%) rate=46.4/s eta=0.1min v=142 d=25 r=0 u=3264
+    [natural_discovery] 3504/3691 (94.9%) rate=46.0/s eta=0.1min v=148 d=27 r=0 u=3329
+    [natural_discovery] 3577/3691 (96.9%) rate=45.9/s eta=0.0min v=150 d=28 r=0 u=3399
+    [natural_discovery] 3650/3691 (98.9%) rate=45.5/s eta=0.0min v=153 d=28 r=0 u=3469
+  [natural_discovery] DONE: 3691/3691 in 1.4min (42.6/s) — v=157 d=28 r=0 u=3506
+
+=== Final Report ===
+Total elapsed: 1.4min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T024930Z.json
+  natural_discovery         total=  3691 v=   157 d=    28 r=    0 u=  3506

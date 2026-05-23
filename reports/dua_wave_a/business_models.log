@@ -1,0 +1,61 @@
+
+=== business_models ===
+  [business_models] 685 concepts to verify
+    [business_models] 13/685 (1.9%) rate=28.7/s eta=0.4min v=1 d=0 r=0 u=12
+    [business_models] 26/685 (3.8%) rate=34.3/s eta=0.3min v=2 d=0 r=0 u=24
+    [business_models] 39/685 (5.7%) rate=37.3/s eta=0.3min v=2 d=0 r=0 u=37
+    [business_models] 52/685 (7.6%) rate=44.4/s eta=0.2min v=2 d=3 r=0 u=47
+    [business_models] 65/685 (9.5%) rate=50.1/s eta=0.2min v=3 d=4 r=0 u=58
+    [business_models] 78/685 (11.4%) rate=56.0/s eta=0.2min v=3 d=4 r=0 u=71
+    [business_models] 91/685 (13.3%) rate=62.2/s eta=0.2min v=5 d=8 r=0 u=78
+    [business_models] 104/685 (15.2%) rate=68.2/s eta=0.1min v=5 d=8 r=0 u=91
+    [business_models] 117/685 (17.1%) rate=69.0/s eta=0.1min v=7 d=8 r=0 u=102
+    [business_models] 130/685 (19.0%) rate=72.8/s eta=0.1min v=7 d=9 r=0 u=114
+    [business_models] 143/685 (20.9%) rate=78.8/s eta=0.1min v=7 d=9 r=0 u=127
+    [business_models] 156/685 (22.8%) rate=85.5/s eta=0.1min v=7 d=9 r=0 u=140
+    [business_models] 169/685 (24.7%) rate=87.7/s eta=0.1min v=7 d=10 r=0 u=152
+    [business_models] 182/685 (26.6%) rate=90.5/s eta=0.1min v=7 d=10 r=0 u=165
+    [business_models] 195/685 (28.5%) rate=93.3/s eta=0.1min v=7 d=11 r=0 u=177
+    [business_models] 208/685 (30.4%) rate=96.3/s eta=0.1min v=7 d=11 r=0 u=190
+    [business_models] 221/685 (32.3%) rate=101.2/s eta=0.1min v=7 d=11 r=0 u=203
+    [business_models] 234/685 (34.2%) rate=103.1/s eta=0.1min v=7 d=11 r=0 u=216
+    [business_models] 247/685 (36.1%) rate=101.8/s eta=0.1min v=7 d=11 r=0 u=229
+    [business_models] 260/685 (38.0%) rate=100.1/s eta=0.1min v=7 d=12 r=0 u=241
+    [business_models] 273/685 (39.9%) rate=98.0/s eta=0.1min v=7 d=12 r=0 u=254
+    [business_models] 286/685 (41.8%) rate=99.5/s eta=0.1min v=7 d=12 r=0 u=267
+    [business_models] 299/685 (43.6%) rate=102.0/s eta=0.1min v=7 d=13 r=0 u=279
+    [business_models] 312/685 (45.5%) rate=101.6/s eta=0.1min v=7 d=16 r=0 u=289
+    [business_models] 325/685 (47.4%) rate=101.3/s eta=0.1min v=7 d=16 r=0 u=302
+    [business_models] 338/685 (49.3%) rate=102.9/s eta=0.1min v=7 d=16 r=0 u=315
+    [business_models] 351/685 (51.2%) rate=104.6/s eta=0.1min v=7 d=16 r=0 u=328
+    [business_models] 364/685 (53.1%) rate=101.2/s eta=0.1min v=7 d=16 r=0 u=341
+    [business_models] 377/685 (55.0%) rate=101.9/s eta=0.1min v=7 d=16 r=0 u=354
+    [business_models] 390/685 (56.9%) rate=104.8/s eta=0.0min v=7 d=16 r=0 u=367
+    [business_models] 403/685 (58.8%) rate=105.0/s eta=0.0min v=7 d=17 r=0 u=379
+    [business_models] 416/685 (60.7%) rate=105.5/s eta=0.0min v=7 d=17 r=0 u=392
+    [business_models] 429/685 (62.6%) rate=106.2/s eta=0.0min v=7 d=17 r=0 u=405
+    [business_models] 442/685 (64.5%) rate=109.2/s eta=0.0min v=7 d=17 r=0 u=418
+    [business_models] 455/685 (66.4%) rate=110.0/s eta=0.0min v=7 d=17 r=0 u=431
+    [business_models] 468/685 (68.3%) rate=112.6/s eta=0.0min v=7 d=17 r=0 u=444
+    [business_models] 481/685 (70.2%) rate=111.5/s eta=0.0min v=8 d=17 r=0 u=456
+    [business_models] 494/685 (72.1%) rate=113.6/s eta=0.0min v=8 d=17 r=0 u=469
+    [business_models] 507/685 (74.0%) rate=115.9/s eta=0.0min v=8 d=18 r=0 u=481
+    [business_models] 520/685 (75.9%) rate=114.8/s eta=0.0min v=8 d=18 r=0 u=494
+    [business_models] 533/685 (77.8%) rate=112.5/s eta=0.0min v=8 d=18 r=0 u=507
+    [business_models] 546/685 (79.7%) rate=110.2/s eta=0.0min v=8 d=19 r=0 u=519
+    [business_models] 559/685 (81.6%) rate=110.4/s eta=0.0min v=8 d=19 r=0 u=532
+    [business_models] 572/685 (83.5%) rate=109.5/s eta=0.0min v=8 d=19 r=0 u=545
+    [business_models] 585/685 (85.4%) rate=110.8/s eta=0.0min v=8 d=19 r=0 u=558
+    [business_models] 598/685 (87.3%) rate=111.2/s eta=0.0min v=8 d=19 r=0 u=571
+    [business_models] 611/685 (89.2%) rate=111.6/s eta=0.0min v=8 d=20 r=0 u=583
+    [business_models] 624/685 (91.1%) rate=108.4/s eta=0.0min v=8 d=20 r=0 u=596
+    [business_models] 637/685 (93.0%) rate=109.5/s eta=0.0min v=8 d=20 r=0 u=609
+    [business_models] 650/685 (94.9%) rate=109.4/s eta=0.0min v=8 d=20 r=0 u=622
+    [business_models] 663/685 (96.8%) rate=109.9/s eta=0.0min v=8 d=21 r=0 u=634
+    [business_models] 676/685 (98.7%) rate=108.0/s eta=0.0min v=8 d=22 r=0 u=646
+  [business_models] DONE: 685/685 in 0.1min (96.8/s) — v=8 d=23 r=0 u=654
+
+=== Final Report ===
+Total elapsed: 0.1min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T024751Z.json
+  business_models           total=   685 v=     8 d=    23 r=    0 u=   654

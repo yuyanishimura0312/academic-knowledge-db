@@ -1,0 +1,59 @@
+
+=== marketing_sales ===
+  [marketing_sales] 9612 concepts to verify
+    [marketing_sales] 192/9612 (2.0%) rate=66.2/s eta=2.4min v=15 d=74 r=0 u=103
+    [marketing_sales] 384/9612 (4.0%) rate=92.5/s eta=1.7min v=20 d=75 r=0 u=289
+    [marketing_sales] 576/9612 (6.0%) rate=105.3/s eta=1.4min v=20 d=78 r=0 u=478
+    [marketing_sales] 768/9612 (8.0%) rate=108.2/s eta=1.4min v=22 d=80 r=0 u=666
+    [marketing_sales] 960/9612 (10.0%) rate=113.3/s eta=1.3min v=22 d=83 r=0 u=855
+    [marketing_sales] 1152/9612 (12.0%) rate=114.7/s eta=1.2min v=23 d=86 r=0 u=1043
+    [marketing_sales] 1344/9612 (14.0%) rate=116.7/s eta=1.2min v=26 d=89 r=0 u=1229
+    [marketing_sales] 1536/9612 (16.0%) rate=111.6/s eta=1.2min v=27 d=91 r=0 u=1418
+    [marketing_sales] 1728/9612 (18.0%) rate=111.4/s eta=1.2min v=27 d=93 r=0 u=1608
+    [marketing_sales] 1920/9612 (20.0%) rate=107.9/s eta=1.2min v=27 d=97 r=0 u=1796
+    [marketing_sales] 2112/9612 (22.0%) rate=97.7/s eta=1.3min v=27 d=100 r=0 u=1985
+    [marketing_sales] 2304/9612 (24.0%) rate=90.4/s eta=1.3min v=27 d=102 r=0 u=2175
+    [marketing_sales] 2496/9612 (26.0%) rate=88.0/s eta=1.3min v=27 d=107 r=0 u=2362
+    [marketing_sales] 2688/9612 (28.0%) rate=86.5/s eta=1.3min v=27 d=111 r=0 u=2550
+    [marketing_sales] 2880/9612 (30.0%) rate=83.9/s eta=1.3min v=27 d=112 r=0 u=2741
+    [marketing_sales] 3072/9612 (32.0%) rate=81.0/s eta=1.3min v=27 d=115 r=0 u=2930
+    [marketing_sales] 3264/9612 (34.0%) rate=76.9/s eta=1.4min v=27 d=116 r=0 u=3121
+    [marketing_sales] 3456/9612 (36.0%) rate=72.3/s eta=1.4min v=27 d=120 r=0 u=3309
+    [marketing_sales] 3648/9612 (38.0%) rate=69.9/s eta=1.4min v=27 d=124 r=0 u=3497
+    [marketing_sales] 3840/9612 (40.0%) rate=65.8/s eta=1.5min v=27 d=126 r=0 u=3687
+    [marketing_sales] 4032/9612 (41.9%) rate=63.9/s eta=1.5min v=27 d=129 r=0 u=3876
+    [marketing_sales] 4224/9612 (43.9%) rate=62.2/s eta=1.4min v=27 d=129 r=0 u=4068
+    [marketing_sales] 4416/9612 (45.9%) rate=60.8/s eta=1.4min v=27 d=130 r=0 u=4259
+    [marketing_sales] 4608/9612 (47.9%) rate=59.4/s eta=1.4min v=27 d=130 r=0 u=4451
+    [marketing_sales] 4800/9612 (49.9%) rate=57.9/s eta=1.4min v=27 d=132 r=0 u=4641
+    [marketing_sales] 4992/9612 (51.9%) rate=56.8/s eta=1.4min v=27 d=135 r=0 u=4830
+    [marketing_sales] 5184/9612 (53.9%) rate=56.5/s eta=1.3min v=27 d=138 r=0 u=5019
+    [marketing_sales] 5376/9612 (55.9%) rate=55.8/s eta=1.3min v=27 d=138 r=0 u=5211
+    [marketing_sales] 5568/9612 (57.9%) rate=55.5/s eta=1.2min v=27 d=141 r=0 u=5400
+    [marketing_sales] 5760/9612 (59.9%) rate=55.1/s eta=1.2min v=27 d=145 r=0 u=5588
+    [marketing_sales] 5952/9612 (61.9%) rate=55.4/s eta=1.1min v=27 d=146 r=0 u=5779
+    [marketing_sales] 6144/9612 (63.9%) rate=55.9/s eta=1.0min v=28 d=189 r=0 u=5927
+    [marketing_sales] 6336/9612 (65.9%) rate=55.9/s eta=1.0min v=28 d=214 r=0 u=6094
+    [marketing_sales] 6528/9612 (67.9%) rate=56.2/s eta=0.9min v=28 d=216 r=0 u=6284
+    [marketing_sales] 6720/9612 (69.9%) rate=56.3/s eta=0.9min v=28 d=218 r=0 u=6474
+    [marketing_sales] 6912/9612 (71.9%) rate=56.4/s eta=0.8min v=28 d=219 r=0 u=6665
+    [marketing_sales] 7104/9612 (73.9%) rate=56.5/s eta=0.7min v=28 d=220 r=0 u=6856
+    [marketing_sales] 7296/9612 (75.9%) rate=56.6/s eta=0.7min v=28 d=221 r=0 u=7047
+    [marketing_sales] 7488/9612 (77.9%) rate=56.8/s eta=0.6min v=28 d=222 r=0 u=7238
+    [marketing_sales] 7680/9612 (79.9%) rate=57.0/s eta=0.6min v=28 d=224 r=0 u=7428
+    [marketing_sales] 7872/9612 (81.9%) rate=57.5/s eta=0.5min v=28 d=228 r=0 u=7616
+    [marketing_sales] 8064/9612 (83.9%) rate=58.0/s eta=0.4min v=28 d=229 r=0 u=7807
+    [marketing_sales] 8256/9612 (85.9%) rate=58.5/s eta=0.4min v=28 d=231 r=0 u=7997
+    [marketing_sales] 8448/9612 (87.9%) rate=59.0/s eta=0.3min v=28 d=233 r=0 u=8187
+    [marketing_sales] 8640/9612 (89.9%) rate=59.7/s eta=0.3min v=28 d=235 r=0 u=8377
+    [marketing_sales] 8832/9612 (91.9%) rate=60.5/s eta=0.2min v=28 d=237 r=0 u=8567
+    [marketing_sales] 9024/9612 (93.9%) rate=61.2/s eta=0.2min v=28 d=241 r=0 u=8755
+    [marketing_sales] 9216/9612 (95.9%) rate=62.0/s eta=0.1min v=28 d=244 r=0 u=8944
+    [marketing_sales] 9408/9612 (97.9%) rate=62.8/s eta=0.1min v=28 d=248 r=0 u=9132
+    [marketing_sales] 9600/9612 (99.9%) rate=63.0/s eta=0.0min v=28 d=251 r=0 u=9321
+  [marketing_sales] DONE: 9612/9612 in 2.5min (62.9/s) — v=28 d=253 r=0 u=9331
+
+=== Final Report ===
+Total elapsed: 2.5min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T024912Z.json
+  marketing_sales           total=  9612 v=    28 d=   253 r=    0 u=  9331

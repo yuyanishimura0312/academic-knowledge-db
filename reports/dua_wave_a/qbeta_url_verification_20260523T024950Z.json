@@ -1,0 +1,72 @@
+{
+  "start": "2026-05-23T02:51:35.315986+00:00",
+  "elapsed_min": 1.7,
+  "domains": [
+    {
+      "table": "arts_question",
+      "total_targets": 5241,
+      "completed": 5241,
+      "elapsed_sec": 104.6,
+      "distribution": {
+        "url_present": 5032,
+        "verified": 178,
+        "dead": 29,
+        "redirect": 2
+      },
+      "failure_patterns_top": {
+        "http_404": 29
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "art084",
+            "url": "https://en.wikipedia.org/wiki/Service-Dominant_Logic"
+          },
+          {
+            "id": "art239",
+            "url": "https://en.wikipedia.org/wiki/Audience_Participation_%26_Game_Theatre"
+          },
+          {
+            "id": "art247",
+            "url": "https://en.wikipedia.org/wiki/AI_Co-Creation_%26_Collaborative_Art"
+          },
+          {
+            "id": "art_r068",
+            "url": "https://en.wikipedia.org/wiki/Remote_Dance_%26_Telematic_Choreography"
+          },
+          {
+            "id": "a3d2ea9f-e6e2-48a5-92b4-ce0aeeffe0c4",
+            "url": "https://en.wikipedia.org/wiki/Benjamin%27s_Art_in_Age_of_Mechanical_Reproduction"
+          },
+          {
+            "id": "05adad2d-4cee-4adb-b084-e48fe8e1cde8",
+            "url": "https://en.wikipedia.org/wiki/Eco-Translatology"
+          },
+          {
+            "id": "8d11bb85-9e6b-47b0-a662-44e8892d7718",
+            "url": "https://en.wikipedia.org/wiki/Customer_Journey_Mapping"
+          },
+          {
+            "id": "e6372e9d-8830-450c-964e-7416f68c20cd",
+            "url": "https://en.wikipedia.org/wiki/Jobs_to_Be_Done"
+          },
+          {
+            "id": "811807a8-089e-495b-9032-aa9abe93ab85",
+            "url": "https://en.wikipedia.org/wiki/Abductive_Reasoning_in_Design"
+          },
+          {
+            "id": "aec05958-8c4e-4a64-ba9d-ba5a1ba4a074",
+            "url": "https://en.wikipedia.org/wiki/New_Objectivity_Architecture"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

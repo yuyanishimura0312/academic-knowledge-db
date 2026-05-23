@@ -1,0 +1,999 @@
+{
+  "start": "2026-05-23T02:48:37.583844+00:00",
+  "elapsed_min": 2.1,
+  "domains": [
+    {
+      "table": "poetics_text",
+      "total_targets": 8084,
+      "completed": 8084,
+      "elapsed_sec": 123.5,
+      "distribution": {
+        "dead": 3214,
+        "verified": 2233,
+        "redirect": 329,
+        "url_present": 2308
+      },
+      "failure_patterns_top": {
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-12: ordinal not in range(12": 666,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-14: ordinal not in range(12": 534,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-13: ordinal not in range(12": 351,
+        "http_404": 335,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-11: ordinal not in range(12": 319,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-15: ordinal not in range(12": 255,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": 116,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-15: ordinal not in range(12": 93,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-17: ordinal not in range(12": 86,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": 79,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-18: ordinal not in range(12": 59,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-19: ordinal not in range(12": 51,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": 42,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-22: ordinal not in range(12": 22,
+        "url_error:[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key ": 21,
+        "conn_refused": 19,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": 16,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-23: ordinal not in range(12": 15,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 27-30: ordinal not in range(12": 12,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-20: ordinal not in range(12": 12,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-27: ordinal not in range(12": 11,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-19: ordinal not in range(12": 8,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": 7,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-18: ordinal not in range(12": 6,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-30: ordinal not in range(12": 5,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-28: ordinal not in range(12": 5,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe9' in position 11: ordinal not in range": 5,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 19-27: ordinal not in range(12": 5,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe8' in position 12: ordinal not in range": 4,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-31: ordinal not in range(12": 3
+      },
+      "failure_samples": {
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-14: ordinal not in range(12": [
+          {
+            "id": "pt_text_shui_waka_tsukuba_yoshinobu",
+            "url": "https://ja.wikisource.org/wiki/拾遺和歌集"
+          },
+          {
+            "id": "pt_text_kokin_kanajo_haru",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          },
+          {
+            "id": "pt_text_kokin_waka_amatsukaze_yasuhide",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          },
+          {
+            "id": "pt_text_kokin_waka_hisakata_mitsune",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          },
+          {
+            "id": "pt_text_kokin_waka_ama_no_hara_akamaro",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          },
+          {
+            "id": "pt_text_gosen_waka_haru_tsurayuki",
+            "url": "https://ja.wikisource.org/wiki/後撰和歌集"
+          },
+          {
+            "id": "pt_text_wakan_roei_kanbun_haru",
+            "url": "https://ja.wikisource.org/wiki/和漢朗詠集"
+          },
+          {
+            "id": "pt_text_kokin_waka_aki_kino_tsurayuki",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          },
+          {
+            "id": "pt_text_kokin_waka_wasureji_komachi",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          },
+          {
+            "id": "pt_text_kokin_waka_kasugano_arihira",
+            "url": "https://ja.wikisource.org/wiki/古今和歌集"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-11: ordinal not in range(12": [
+          {
+            "id": "pt_text_dufu_chunwang",
+            "url": "https://zh.wikisource.org/wiki/春望_(杜甫)"
+          },
+          {
+            "id": "pt_text_wangwei_lu_zhai",
+            "url": "https://zh.wikisource.org/wiki/鹿柴"
+          },
+          {
+            "id": "pt_text_chuci_lisao",
+            "url": "https://zh.wikisource.org/wiki/楚辭/離騷"
+          },
+          {
+            "id": "pt_text_shijing_guanju",
+            "url": "https://zh.wikisource.org/wiki/詩經/關雎"
+          },
+          {
+            "id": "pt_text_taoyuanming_drinking_5",
+            "url": "https://zh.wikisource.org/wiki/飲酒_(陶淵明)"
+          },
+          {
+            "id": "pt_text_okagami_yo_wo_sutete",
+            "url": "https://ja.wikisource.org/wiki/大鏡"
+          },
+          {
+            "id": "pt_text_shijing_shuoshu",
+            "url": "https://zh.wikisource.org/wiki/詩經/碩鼠"
+          },
+          {
+            "id": "pt_text_lishangyin_jinse",
+            "url": "https://zh.wikisource.org/wiki/錦瑟"
+          },
+          {
+            "id": "pt_text_shijing_taoyao",
+            "url": "https://zh.wikisource.org/wiki/詩經/桃夭"
+          },
+          {
+            "id": "pt_text_wangwei_xiangsi",
+            "url": "https://zh.wikisource.org/wiki/相思"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-13: ordinal not in range(12": [
+          {
+            "id": "pt_text_genji_akashi_miyakodori",
+            "url": "https://ja.wikisource.org/wiki/源氏物語"
+          },
+          {
+            "id": "pt_text_genji_suma_tomoshibi",
+            "url": "https://ja.wikisource.org/wiki/源氏物語"
+          },
+          {
+            "id": "pt_text_kokin_waka_karakoromo_narihira",
+            "url": "https://ja.wikisource.org/wiki/伊勢物語"
+          },
+          {
+            "id": "pt_text_ise_monogatari_9",
+            "url": "https://ja.wikisource.org/wiki/伊勢物語"
+          },
+          {
+            "id": "pt_text_sushi_shuidiaogetou",
+            "url": "https://zh.wikisource.org/wiki/水調歌頭_(明月幾時有)"
+          },
+          {
+            "id": "pt_text_ise_monogatari_shiranami",
+            "url": "https://ja.wikisource.org/wiki/伊勢物語"
+          },
+          {
+            "id": "pt_text_tosa_nikki_wasuregai",
+            "url": "https://ja.wikisource.org/wiki/土佐日記"
+          },
+          {
+            "id": "pt_text_ise_monogatari_tsuki_ariake",
+            "url": "https://ja.wikisource.org/wiki/伊勢物語"
+          },
+          {
+            "id": "pt_text_genji_kiritsubo_kagiri",
+            "url": "https://ja.wikisource.org/wiki/源氏物語"
+          },
+          {
+            "id": "pt_text_kagero_nikki_nagekitsutsu",
+            "url": "https://ja.wikisource.org/wiki/蜻蛉日記"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-15: ordinal not in range(12": [
+          {
+            "id": "pt_text_shinkokin_teika",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_gotobain",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_jien_oki",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_shokushi",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_saigyo_kokoro",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_teika_miwataseba",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_jakuren",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_shinkokin_jien_oki2",
+            "url": "https://ja.wikisource.org/wiki/新古今和歌集"
+          },
+          {
+            "id": "pt_text_pushkin_zima",
+            "url": "https://ru.wikisource.org/wiki/Зимнее_утро"
+          },
+          {
+            "id": "pt_text_deng_tu_zi_hao_se_fu",
+            "url": "https://zh.wikisource.org/wiki/登徒子好色賦"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-12: ordinal not in range(12": [
+          {
+            "id": "pt_text_libai_jingyesi",
+            "url": "https://zh.wikisource.org/wiki/靜夜思"
+          },
+          {
+            "id": "pt_text_baijuyi_changhenge",
+            "url": "https://zh.wikisource.org/wiki/長恨歌"
+          },
+          {
+            "id": "pt_text_manyo_hitomaro",
+            "url": "https://ja.wikisource.org/wiki/萬葉集_(西本願寺本)/卷第一"
+          },
+          {
+            "id": "pt_text_liqingzhao_shengshengman",
+            "url": "https://zh.wikisource.org/wiki/聲聲慢_(尋尋覓覓)"
+          },
+          {
+            "id": "pt_text_saigyo_yoshino",
+            "url": "https://ja.wikisource.org/wiki/山家集"
+          },
+          {
+            "id": "pt_text_manyo_001",
+            "url": "https://ja.wikisource.org/wiki/萬葉集_(西本願寺本)/卷第一"
+          },
+          {
+            "id": "pt_text_makura_no_soshi_kusa_no_hana",
+            "url": "https://ja.wikisource.org/wiki/枕草子"
+          },
+          {
+            "id": "pt_text_libai_jiangjinjiu",
+            "url": "https://zh.wikisource.org/wiki/將進酒"
+          },
+          {
+            "id": "pt_text_sushi_nianlujiao",
+            "url": "https://zh.wikisource.org/wiki/念奴嬌_(大江東去)"
+          },
+          {
+            "id": "pt_text_hosshinshu_sutetsuru",
+            "url": "https://ja.wikisource.org/wiki/発心集"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-19: ordinal not in range(12": [
+          {
+            "id": "pt_text_libai_huanghelou",
+            "url": "https://zh.wikisource.org/wiki/黃鶴樓送孟浩然之廣陵"
+          },
+          {
+            "id": "pt_text_huang_he_lou_song_meng_haoran_zhi_guangling",
+            "url": "https://zh.wikisource.org/wiki/黃鶴樓送孟浩然之廣陵"
+          },
+          {
+            "id": "pt_text_zao_chun_cheng_shui_bu_zhang_shi_ba_yuan_wai",
+            "url": "https://zh.wikisource.org/wiki/早春呈水部張十八員外"
+          },
+          {
+            "id": "pt_text_mu_lan_hua_ling_ni_gu_jue_jue_ci",
+            "url": "https://zh.wikisource.org/wiki/木蘭花令·擬古決絕詞"
+          },
+          {
+            "id": "pt_text_shui_diao_ge_tou_mingyue_jishi_you",
+            "url": "https://zh.wikisource.org/wiki/水調歌頭·明月幾時有"
+          },
+          {
+            "id": "pt_text_ru_meng_ling_changji_xiting",
+            "url": "https://zh.wikisource.org/wiki/如夢令·常記溪亭日暮"
+          },
+          {
+            "id": "pt_text_xijiangyue_ye_xing_huangsha",
+            "url": "https://zh.wikisource.org/wiki/西江月·夜行黃沙道中"
+          },
+          {
+            "id": "pt_text_pusaman_shu_jiangxi_zaokoubi",
+            "url": "https://zh.wikisource.org/wiki/菩薩蠻·書江西造口壁"
+          },
+          {
+            "id": "pt_text_linjiang_xian_menghou_loutai",
+            "url": "https://zh.wikisource.org/wiki/臨江仙·夢後樓臺高鎖"
+          },
+          {
+            "id": "pt_text_jiankang_shangxin_ting",
+            "url": "https://zh.wikisource.org/wiki/水龍吟·登建康賞心亭"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "pt_text_issa_yase_kaeru",
+            "url": "https://www.aozora.gr.jp/cards/000044/files/4768_25653.html"
+          },
+          {
+            "id": "pt_text_yosano_akiko_kimi",
+            "url": "https://www.aozora.gr.jp/cards/000885/files/3303_15534.html"
+          },
+          {
+            "id": "pt_text_martial_1_1",
+            "url": "https://www.thelatinlibrary.com/mart.html"
+          },
+          {
+            "id": "pt_text_propertius_1_1",
+            "url": "https://www.thelatinlibrary.com/prop1.html"
+          },
+          {
+            "id": "pt_text_villon_ballade",
+            "url": "https://fr.wikisource.org/wiki/Ballade_des_dames_du_temps_jadis"
+          },
+          {
+            "id": "pt_text_misuzu_watashi",
+            "url": "https://www.aozora.gr.jp/cards/001157/files/52890_47029.html"
+          },
+          {
+            "id": "pt_text_marvell_to_his_coy",
+            "url": "https://www.gutenberg.org/files/8770/8770-h/8770-h.htm"
+          },
+          {
+            "id": "pt_text_basho_shizukasa",
+            "url": "https://www.aozora.gr.jp/cards/000146/files/4938_8479.html"
+          },
+          {
+            "id": "pt_text_basho_natsugusa",
+            "url": "https://www.aozora.gr.jp/cards/000146/files/4938_8479.html"
+          },
+          {
+            "id": "pt_text_chuya_yogoreta",
+            "url": "https://www.aozora.gr.jp/cards/000026/files/47973_27598.html"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": [
+          {
+            "id": "pt_text_pushkin_evgeny_1",
+            "url": "https://ru.wikisource.org/wiki/Евгений_Онегин"
+          },
+          {
+            "id": "pt_text_dai_chu_zi_ji_bei_men_xing",
+            "url": "https://zh.wikisource.org/wiki/代出自薊北門行"
+          },
+          {
+            "id": "pt_text_fu_de_gu_yuan_cao_song_bie",
+            "url": "https://zh.wikisource.org/wiki/賦得古原草送別"
+          },
+          {
+            "id": "pt_text_ji_quan_jiao_shan_zhong_dao_shi",
+            "url": "https://zh.wikisource.org/wiki/寄全椒山中道士"
+          },
+          {
+            "id": "pt_text_jin_tong_xian_ren_ci_han_ge",
+            "url": "https://zh.wikisource.org/wiki/金銅仙人辭漢歌"
+          },
+          {
+            "id": "pt_text_meng_you_tian_mu_yin_liu_bie",
+            "url": "https://zh.wikisource.org/wiki/夢遊天姥吟留別"
+          },
+          {
+            "id": "pt_text_ti_poshansi_hou_chanyuan",
+            "url": "https://zh.wikisource.org/wiki/題破山寺後禪院"
+          },
+          {
+            "id": "pt_text_wang_lushan_pubu",
+            "url": "https://zh.wikisource.org/wiki/望廬山瀑布二首"
+          },
+          {
+            "id": "pt_text_fude_guyuancao_songbie",
+            "url": "https://zh.wikisource.org/wiki/賦得古原草送別"
+          },
+          {
+            "id": "pt_text_ye_shang_shouxiangcheng_wendi",
+            "url": "https://zh.wikisource.org/wiki/夜上受降城聞笛"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": [
+          {
+            "id": "pt_text_libai_zhanzhanghuai",
+            "url": "https://zh.wikisource.org/wiki/宣州謝朓樓餞別校書叔雲"
+          },
+          {
+            "id": "pt_text_sappho_fragment_1",
+            "url": "https://el.wikisource.org/wiki/Ποικιλόθρον%27_ἀθανάτ%27_Ἀφρόδιτα"
+          },
+          {
+            "id": "pt_text_zhi_xuan_cheng_chu_xin_lin_pu",
+            "url": "https://zh.wikisource.org/wiki/之宣城郡出新林浦向板橋"
+          },
+          {
+            "id": "pt_text_ding_feng_bo_mo_ting_chuanlin",
+            "url": "https://zh.wikisource.org/wiki/定風波·莫聽穿林打葉聲"
+          },
+          {
+            "id": "pt_text_yijianmei_hongou_xiangcan",
+            "url": "https://zh.wikisource.org/wiki/一剪梅·紅藕香殘玉簟秋"
+          },
+          {
+            "id": "pt_text_zui_hua_yin_bowu_nongyun",
+            "url": "https://zh.wikisource.org/wiki/醉花陰·薄霧濃雲愁永晝"
+          },
+          {
+            "id": "pt_text_wulingchun_fengzhu_chenxiang",
+            "url": "https://zh.wikisource.org/wiki/武陵春·風住塵香花已盡"
+          },
+          {
+            "id": "pt_text_yong_yu_le_jingkou_beiguting",
+            "url": "https://zh.wikisource.org/wiki/永遇樂·京口北固亭懷古"
+          },
+          {
+            "id": "pt_text_die_lian_hua_tingyuan_shenshen",
+            "url": "https://zh.wikisource.org/wiki/蝶戀花·庭院深深深幾許"
+          },
+          {
+            "id": "pt_text_huan_xi_sha_yiqu_xinci",
+            "url": "https://zh.wikisource.org/wiki/浣溪沙·一曲新詞酒一杯"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-17: ordinal not in range(12": [
+          {
+            "id": "pt_text_wangbo_tengwangge",
+            "url": "https://zh.wikisource.org/wiki/送杜少府之任蜀州"
+          },
+          {
+            "id": "pt_text_sappho_fragment_31",
+            "url": "https://el.wikisource.org/wiki/Φαίνεταί_μοι_κῆνος_ἴσος_θέοισιν"
+          },
+          {
+            "id": "pt_text_shi_bi_jing_she_huan_hu_zhong_zuo",
+            "url": "https://zh.wikisource.org/wiki/石壁精舍還湖中作"
+          },
+          {
+            "id": "pt_text_wan_deng_san_shan_huan_wang_jing_yi",
+            "url": "https://zh.wikisource.org/wiki/晚登三山還望京邑"
+          },
+          {
+            "id": "pt_text_wang_dong_ting_hu_zeng_zhang_cheng_xiang",
+            "url": "https://zh.wikisource.org/wiki/望洞庭湖贈張丞相"
+          },
+          {
+            "id": "pt_text_song_du_shao_fu_zhi_ren_shu_zhou",
+            "url": "https://zh.wikisource.org/wiki/送杜少府之任蜀州"
+          },
+          {
+            "id": "pt_text_feng_xue_su_fu_rong_shan_zhu_ren",
+            "url": "https://zh.wikisource.org/wiki/逢雪宿芙蓉山主人"
+          },
+          {
+            "id": "pt_text_wen_guan_jun_shou_he_nan_he_bei",
+            "url": "https://zh.wikisource.org/wiki/聞官軍收河南河北"
+          },
+          {
+            "id": "pt_text_song_du_shaofu_zhi_ren_shuzhou",
+            "url": "https://zh.wikisource.org/wiki/送杜少府之任蜀州"
+          },
+          {
+            "id": "pt_text_fengxue_su_furongshan_zhuren",
+            "url": "https://zh.wikisource.org/wiki/逢雪宿芙蓉山主人"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u82d4' in position 10: ordinal not in ran": [
+          {
+            "id": "pt_text_ming_yuan_mei",
+            "url": "https://zh.wikisource.org/wiki/苔_(袁枚)"
+          },
+          {
+            "id": "pt_text_yuan_mei_suoyuan_shihua_jichou",
+            "url": "https://zh.wikisource.org/wiki/苔_(袁枚)"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 22-27: ordinal not in range(12": [
+          {
+            "id": "pt_text_tyutchev_silence",
+            "url": "https://ru.wikisource.org/wiki/Silentium!_(Тютчев)"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u1f6e' in position 10: ordinal not in ran": [
+          {
+            "id": "pt_text_simonides_thermopylae_epigram",
+            "url": "https://el.wikisource.org/wiki/Ὦ_ξεῖν%27,_ἀγγέλλειν_Λακεδαιμονίοις"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-18: ordinal not in range(12": [
+          {
+            "id": "pt_text_bai_xue_ge_song_wu_pan_guan_gui_jing",
+            "url": "https://zh.wikisource.org/wiki/白雪歌送武判官歸京"
+          },
+          {
+            "id": "pt_text_jiu_yue_jiu_ri_yi_shan_dong_xiong_di",
+            "url": "https://zh.wikisource.org/wiki/九月九日憶山東兄弟"
+          },
+          {
+            "id": "pt_text_baixue_ge_song_wu_panguan_guijing",
+            "url": "https://zh.wikisource.org/wiki/白雪歌送武判官歸京"
+          },
+          {
+            "id": "pt_text_saixia_qu_yuehei_yanfei",
+            "url": "https://zh.wikisource.org/wiki/和張僕射塞下曲六首"
+          },
+          {
+            "id": "pt_text_shiwuye_wangyue",
+            "url": "https://zh.wikisource.org/wiki/十五夜望月寄杜郎中"
+          },
+          {
+            "id": "pt_text_deng_jin_ling_yu_hua_tai_wang_da_jiang",
+            "url": "https://zh.wikisource.org/wiki/登金陵雨花臺望大江"
+          },
+          {
+            "id": "pt_text_wangwei_jiuyue",
+            "url": "https://zh.wikisource.org/wiki/九月九日憶山東兄弟"
+          },
+          {
+            "id": "pt_text_censhen_baiyu",
+            "url": "https://zh.wikisource.org/wiki/白雪歌送武判官歸京"
+          },
+          {
+            "id": "pt_text_lang_tao_sha_bazhou",
+            "url": "https://zh.wikisource.org/wiki/浪淘沙·把酒祝東風"
+          },
+          {
+            "id": "pt_text_tang_duoling_luye_mantingzhou",
+            "url": "https://zh.wikisource.org/wiki/唐多令·蘆葉滿汀洲"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-22: ordinal not in range(12": [
+          {
+            "id": "pt_text_zou_ma_chuan_xing_feng_song_feng_da_fu_chu_shi_xi_zheng",
+            "url": "https://zh.wikisource.org/wiki/走馬川行奉送封大夫出師西征"
+          },
+          {
+            "id": "pt_text_shuidiao_getou_jiankang",
+            "url": "https://zh.wikisource.org/wiki/水調歌頭·送章德茂大卿使虜"
+          },
+          {
+            "id": "pt_text_mundaka_upanishad_two_birds",
+            "url": "https://sa.wikisource.org/wiki/मुण्डकोपनिषद्"
+          },
+          {
+            "id": "pt_text_dandin_dashakumaracharita",
+            "url": "https://sa.wikisource.org/wiki/दशकुमारचरितम्"
+          },
+          {
+            "id": "pt_text_somadeva_kathasaritsagara",
+            "url": "https://sa.wikisource.org/wiki/कथासरित्सागरः"
+          },
+          {
+            "id": "pt_text_bhoja_champu_ramayana",
+            "url": "https://sa.wikisource.org/wiki/चम्पूरामायणम्"
+          },
+          {
+            "id": "pt_text_lakshmidhara_subhashita_ranjani",
+            "url": "https://sa.wikisource.org/wiki/सुभाषितरञ्जनी"
+          },
+          {
+            "id": "pt_text_vedanta_desika_paduka_sahasra",
+            "url": "https://sa.wikisource.org/wiki/पादुकासहस्रम्"
+          },
+          {
+            "id": "pt_text_chen_yuyi_linjiang_xian_yeyi_xiaoge",
+            "url": "https://zh.wikisource.org/wiki/臨江仙·夜登小閣憶洛中舊遊"
+          },
+          {
+            "id": "pt_text_dashakumaracharita",
+            "url": "https://sa.wikisource.org/wiki/दशकुमारचरितम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u8702' in position 10: ordinal not in ran": [
+          {
+            "id": "pt_text_feng_luo_yin",
+            "url": "https://zh.wikisource.org/wiki/蜂_(羅隱)"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": [
+          {
+            "id": "pt_text_zaochun_cheng_shuibu_zhang_shiba",
+            "url": "https://zh.wikisource.org/wiki/早春呈水部張十八員外二首"
+          },
+          {
+            "id": "pt_text_menander_arbitrants",
+            "url": "https://el.wikisource.org/wiki/Ἐπιτρέποντες"
+          },
+          {
+            "id": "pt_text_anacreontea_ode_1",
+            "url": "https://el.wikisource.org/wiki/Ἀνακρεόντεια"
+          },
+          {
+            "id": "pt_text_anacreontea_ode_2",
+            "url": "https://el.wikisource.org/wiki/Ἀνακρεόντεια"
+          },
+          {
+            "id": "pt_text_anacreontea_ode_3",
+            "url": "https://el.wikisource.org/wiki/Ἀνακρεόντεια"
+          },
+          {
+            "id": "pt_text_anacreontea_ode_4",
+            "url": "https://el.wikisource.org/wiki/Ἀνακρεόντεια"
+          },
+          {
+            "id": "pt_text_anacreontea_ode_5",
+            "url": "https://el.wikisource.org/wiki/Ἀνακρεόντεια"
+          },
+          {
+            "id": "pt_text_he_xin_lang_jishuo_liuchun",
+            "url": "https://zh.wikisource.org/wiki/賀新郎·寄辛幼安和見懷韻"
+          },
+          {
+            "id": "pt_text_kalidasa_kumarasambhava",
+            "url": "https://sa.wikisource.org/wiki/कुमारसम्भवम्"
+          },
+          {
+            "id": "pt_text_sriharsha_naishadhiyacharita",
+            "url": "https://sa.wikisource.org/wiki/नैषधीयचरितम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 27-30: ordinal not in range(12": [
+          {
+            "id": "pt_text_shiraume_ni",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_nanohana_ya",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_ono_irete",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_haru_no_umi",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_funa_zushi_ya",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_yuku_haru_ya_biwa",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_tobadono_e",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_samidare_ya_taiga",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_miteuchi_no",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          },
+          {
+            "id": "pt_text_urei_tsutsu",
+            "url": "https://ja.wikisource.org/wiki/Index:NDL1018320_蕪村全集_part1.pdf"
+          }
+        ],
+        "url_error:[SSL: CERTIFICATE_VERIFY_FAILED] certificate verify failed: Missing Subject Key ": [
+          {
+            "id": "pt_text_zh_dhammapada_shuangyaopin",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0210"
+          },
+          {
+            "id": "pt_text_zh_dhammapada_mingzhepin",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0210"
+          },
+          {
+            "id": "pt_text_zh_lotus_fangbianpin",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0262_002"
+          },
+          {
+            "id": "pt_text_zh_dhammapada_wuchangpin",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0210"
+          },
+          {
+            "id": "pt_text_zh_vimalakirti_rufuerfamen_gatha",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0475_003"
+          },
+          {
+            "id": "pt_text_zh_avataṃsaka_ru_fajiepin_gatha",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0279_078"
+          },
+          {
+            "id": "pt_text_zh_heart_sutra_mantra",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0251"
+          },
+          {
+            "id": "pt_text_zh_baiminglun_gatha",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T1569"
+          },
+          {
+            "id": "pt_text_zh_avataṃsaka_xianxingshijie_gatha",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T0293_040"
+          },
+          {
+            "id": "pt_text_zh_shiermenlun_gatha",
+            "url": "https://cbetaonline.dila.edu.tw/zh/T1568"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\uc774' in position 10: ordinal not in ran": [
+          {
+            "id": "pt_text_seong_sammun_iseom",
+            "url": "https://ko.wikisource.org/wiki/이_몸이_죽어_가서"
+          },
+          {
+            "id": "pt_text_seong_sammun_is_momi",
+            "url": "https://ko.wikisource.org/wiki/이_몸이_죽어_가서"
+          }
+        ],
+        "conn_refused": [
+          {
+            "id": "pt_text_moteatea_tangi",
+            "url": "https://archive.org/details/poetryofnewzeala00grey"
+          },
+          {
+            "id": "pt_text_lakota_war_song",
+            "url": "https://archive.org/details/mythslegendsofsi00mcla"
+          },
+          {
+            "id": "pt_text_moero_grapes",
+            "url": "https://archive.org/details/greekanthology01pato"
+          },
+          {
+            "id": "pt_text_timotheus_persians",
+            "url": "https://archive.org/details/timotheuspersian00timo"
+          },
+          {
+            "id": "pt_text_orphic_hymn_nereus",
+            "url": "https://archive.org/details/orphica00unkngoog/page/247/mode/2up"
+          },
+          {
+            "id": "pt_text_orphic_hymn_poseidon",
+            "url": "https://archive.org/details/orphica00unkngoog/page/247/mode/2up"
+          },
+          {
+            "id": "pt_text_orphic_hymn_amphietus_bacchus",
+            "url": "https://archive.org/details/orphica00unkngoog/page/247/mode/2up"
+          },
+          {
+            "id": "pt_text_orphic_hymn_dionysus_trietericus",
+            "url": "https://archive.org/details/orphica00unkngoog/page/247/mode/2up"
+          },
+          {
+            "id": "pt_text_orphic_hymn_muses",
+            "url": "https://archive.org/details/orphica00unkngoog/page/247/mode/2up"
+          },
+          {
+            "id": "pt_text_orphic_hymn_oceanus",
+            "url": "https://archive.org/details/orphica00unkngoog/page/247/mode/2up"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-23: ordinal not in range(12": [
+          {
+            "id": "pt_text_jiang_cheng_zi_yimao_zhengyue",
+            "url": "https://zh.wikisource.org/wiki/江城子·乙卯正月二十日夜記夢"
+          },
+          {
+            "id": "pt_text_po_zhen_zi_wei_chen_tongfu",
+            "url": "https://zh.wikisource.org/wiki/破陣子·為陳同甫賦壯詞以寄之"
+          },
+          {
+            "id": "pt_text_vishakhadatta_mudrarakshasa",
+            "url": "https://sa.wikisource.org/wiki/मुद्राराक्षसम्"
+          },
+          {
+            "id": "pt_text_bhavabhuti_uttararama",
+            "url": "https://sa.wikisource.org/wiki/उत्तररामचरितम्"
+          },
+          {
+            "id": "pt_text_kshemendra_brihatkathamanjari",
+            "url": "https://sa.wikisource.org/wiki/बृहत्कथामञ्जरी"
+          },
+          {
+            "id": "pt_text_shantideva_bodhicaryavatara",
+            "url": "https://sa.wikisource.org/wiki/बोधिचर्यावतारः"
+          },
+          {
+            "id": "pt_text_shantideva_shikshasamuccaya",
+            "url": "https://sa.wikisource.org/wiki/शिक्षासमुच्चयः"
+          },
+          {
+            "id": "pt_text_utpaladeva_shivastotravali",
+            "url": "https://sa.wikisource.org/wiki/शिवस्तोत्रावली"
+          },
+          {
+            "id": "pt_text_xin_qiji_po_zhenzi_wei_chen_tongfu",
+            "url": "https://zh.wikisource.org/wiki/破陣子·為陳同甫賦壯詞以寄之"
+          },
+          {
+            "id": "pt_text_natya_shastra_rasa",
+            "url": "https://sa.wikisource.org/wiki/नाट्यशास्त्रम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-26: ordinal not in range(12": [
+          {
+            "id": "pt_text_yajurveda_pavamana_mantra",
+            "url": "https://sa.wikisource.org/wiki/बृहदारण्यकोपनिषद्"
+          },
+          {
+            "id": "pt_text_prabodhachandrodaya",
+            "url": "https://sa.wikisource.org/wiki/प्रबोधचन्द्रोदयम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": [
+          {
+            "id": "pt_text_isha_upanishad_opening",
+            "url": "https://sa.wikisource.org/wiki/ईशावास्योपनिषद्"
+          },
+          {
+            "id": "pt_text_kalidasa_vikramorvashiya",
+            "url": "https://sa.wikisource.org/wiki/विक्रमोर्वशीयम्"
+          },
+          {
+            "id": "pt_text_bharavi_kiratarjuniya",
+            "url": "https://sa.wikisource.org/wiki/किरातार्जुनीयम्"
+          },
+          {
+            "id": "pt_text_nagarjuna_mulamadhyamakakarika",
+            "url": "https://sa.wikisource.org/wiki/मूलमध्यमककारिका"
+          },
+          {
+            "id": "pt_text_ishavasya_upanishad",
+            "url": "https://sa.wikisource.org/wiki/ईशावास्योपनिषद्"
+          },
+          {
+            "id": "pt_text_vikramorvashiyam",
+            "url": "https://sa.wikisource.org/wiki/विक्रमोर्वशीयम्"
+          },
+          {
+            "id": "pt_text_kiratarjuniya",
+            "url": "https://sa.wikisource.org/wiki/किरातार्जुनीयम्"
+          },
+          {
+            "id": "pt_text_devimahatmya_prathama_charita",
+            "url": "https://sa.wikisource.org/wiki/देवीमाहात्म्यम्"
+          },
+          {
+            "id": "pt_text_devimahatmya_narayani_stuti",
+            "url": "https://sa.wikisource.org/wiki/देवीमाहात्म्यम्"
+          },
+          {
+            "id": "pt_text_madhyamaka_karika",
+            "url": "https://sa.wikisource.org/wiki/मूलमध्यमककारिका"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-27: ordinal not in range(12": [
+          {
+            "id": "pt_text_kalidasa_abhijnana_shakuntala",
+            "url": "https://sa.wikisource.org/wiki/अभिज्ञानशाकुन्तलम्"
+          },
+          {
+            "id": "pt_text_kalidasa_malavikagnimitra",
+            "url": "https://sa.wikisource.org/wiki/मालविकाग्निमित्रम्"
+          },
+          {
+            "id": "pt_text_shvetashvatara_upanishad",
+            "url": "https://sa.wikisource.org/wiki/श्वेताश्वतरोपनिषद्"
+          },
+          {
+            "id": "pt_text_abhijnanashakuntalam",
+            "url": "https://sa.wikisource.org/wiki/अभिज्ञानशाकुन्तलम्"
+          },
+          {
+            "id": "pt_text_malavikagnimitram",
+            "url": "https://sa.wikisource.org/wiki/मालविकाग्निमित्रम्"
+          },
+          {
+            "id": "pt_text_shiva_mahimna_stotra",
+            "url": "https://sa.wikisource.org/wiki/शिवमहिम्नस्तोत्रम्"
+          },
+          {
+            "id": "pt_text_shvetashvatara_upanishad_opening",
+            "url": "https://sa.wikisource.org/wiki/श्वेताश्वतरोपनिषद्"
+          },
+          {
+            "id": "pt_text_kalidasa_abhijnanasakuntalam",
+            "url": "https://sa.wikisource.org/wiki/अभिज्ञानशाकुन्तलम्"
+          },
+          {
+            "id": "pt_text_kalidasa_malavikagnimitram",
+            "url": "https://sa.wikisource.org/wiki/मालविकाग्निमित्रम्"
+          },
+          {
+            "id": "pt_text_pushpadanta_shivamahimna_stotra",
+            "url": "https://sa.wikisource.org/wiki/शिवमहिम्नस्तोत्रम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": [
+          {
+            "id": "pt_text_bhasa_svapnavasavadatta",
+            "url": "https://sa.wikisource.org/wiki/स्वप्नवासवदत्तम्"
+          },
+          {
+            "id": "pt_text_vetala_panchavimshati",
+            "url": "https://sa.wikisource.org/wiki/वेतालपञ्चविंशतिः"
+          },
+          {
+            "id": "pt_text_vedanta_desika_hayagriva_stotra",
+            "url": "https://sa.wikisource.org/wiki/हयग्रीवस्तोत्रम्"
+          },
+          {
+            "id": "pt_text_svapanavasavadattam",
+            "url": "https://sa.wikisource.org/wiki/स्वप्नवासवदत्तम्"
+          },
+          {
+            "id": "pt_text_bhaktamar_stotra",
+            "url": "https://sa.wikisource.org/wiki/भक्तामरस्तोत्रम्"
+          },
+          {
+            "id": "pt_text_taittiriya_upanishad_shikshavalli",
+            "url": "https://sa.wikisource.org/wiki/तैत्तिरीयोपनिषद्"
+          },
+          {
+            "id": "pt_text_eichin_rakhine_princess",
+            "url": "https://my.wikisource.org/wiki/ရက္ခိုင်မင်းသမီး_ဧချင်း"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-30: ordinal not in range(12": [
+          {
+            "id": "pt_text_bhasa_pratijnayaugandharayana",
+            "url": "https://sa.wikisource.org/wiki/प्रतिज्ञायौगन्धरायणम्"
+          },
+          {
+            "id": "pt_text_subhashita_ratna_bhandagara",
+            "url": "https://sa.wikisource.org/wiki/सुभाषितरत्नभाण्डागारः"
+          },
+          {
+            "id": "pt_text_pratijnayaugandharayanam",
+            "url": "https://sa.wikisource.org/wiki/प्रतिज्ञायौगन्धरायणम्"
+          },
+          {
+            "id": "pt_text_subhashitaratnabhandagara",
+            "url": "https://sa.wikisource.org/wiki/सुभाषितरत्नभाण्डागारः"
+          },
+          {
+            "id": "pt_text_kalyanamandir_stotra",
+            "url": "https://sa.wikisource.org/wiki/कल्याणमन्दिरस्तोत्रम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-28: ordinal not in range(12": [
+          {
+            "id": "pt_text_bilhana_vikramankadeva_charita",
+            "url": "https://sa.wikisource.org/wiki/विक्रमाङ्कदेवचरितम्"
+          },
+          {
+            "id": "pt_text_bhagavata_purana_gopi_gita",
+            "url": "https://sa.wikisource.org/wiki/श्रीमद्भागवतपुराणम्/स्कन्धः_१०/अध्यायः_३१"
+          },
+          {
+            "id": "pt_text_bhagavata_purana_venu_gita",
+            "url": "https://sa.wikisource.org/wiki/श्रीमद्भागवतपुराणम्/स्कन्धः_१०/अध्यायः_२१"
+          },
+          {
+            "id": "pt_text_bhagavata_purana_bhramara_gita",
+            "url": "https://sa.wikisource.org/wiki/श्रीमद्भागवतपुराणम्/स्कन्धः_१०/अध्यायः_४७"
+          },
+          {
+            "id": "pt_text_aditya_hridayam",
+            "url": "https://sa.wikisource.org/wiki/आदित्यहृदयस्तोत्रम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-31: ordinal not in range(12": [
+          {
+            "id": "pt_text_saddharmapundarika_opening",
+            "url": "https://sa.wikisource.org/wiki/सद्धर्मपुण्डरीकसूत्रम्"
+          },
+          {
+            "id": "pt_text_adishankara_dakshinamurti_stotra",
+            "url": "https://sa.wikisource.org/wiki/दक्षिणामूर्तिस्तोत्रम्"
+          },
+          {
+            "id": "pt_text_lalita_sahasranama",
+            "url": "https://sa.wikisource.org/wiki/ललितासहस्रनामस्तोत्रम्"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-34: ordinal not in range(12": [
+          {
+            "id": "pt_text_prajnaparamita_hridaya",
+            "url": "https://sa.wikisource.org/wiki/प्रज्ञापारमिताहृदयसूत्रम्"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

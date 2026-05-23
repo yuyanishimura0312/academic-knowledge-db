@@ -1,0 +1,394 @@
+{
+  "start": "2026-05-23T02:51:45.115309+00:00",
+  "elapsed_min": 2.5,
+  "domains": [
+    {
+      "table": "marketing_sales",
+      "total_targets": 9612,
+      "completed": 9612,
+      "elapsed_sec": 152.7,
+      "distribution": {
+        "verified": 28,
+        "dead": 253,
+        "url_present": 9331
+      },
+      "failure_patterns_top": {
+        "http_404": 180,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": 13,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": 12,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-22: ordinal not in range(12": 10,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-19: ordinal not in range(12": 9,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-18: ordinal not in range(12": 6,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-23: ordinal not in range(12": 6,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": 3,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-13: ordinal not in range(12": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-17: ordinal not in range(12": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe8' in position 12: ordinal not in range": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xf6' in position 12: ordinal not in range": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xf6' in position 27: ordinal not in range": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 24-25: ordinal not in range(12": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-31: ordinal not in range(12": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xf6' in position 32: ordinal not in range": 1
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "ms_0022",
+            "url": "https://en.wikipedia.org/wiki/Mental_and_Physical_Availability"
+          },
+          {
+            "id": "ms_0058",
+            "url": "https://en.wikipedia.org/wiki/Web_Analytics_2.0"
+          },
+          {
+            "id": "ms_0048",
+            "url": "https://en.wikipedia.org/wiki/First_Moment_of_Truth"
+          },
+          {
+            "id": "ms_0017",
+            "url": "https://en.wikipedia.org/wiki/Brand_Identity_Prism"
+          },
+          {
+            "id": "ms_0054",
+            "url": "https://en.wikipedia.org/wiki/Inbound_Marketing"
+          },
+          {
+            "id": "ms_0010",
+            "url": "https://en.wikipedia.org/wiki/Service-Dominant_Logic"
+          },
+          {
+            "id": "ms_0015",
+            "url": "https://en.wikipedia.org/wiki/Brand_Equity_(Aaker)"
+          },
+          {
+            "id": "ms_0016",
+            "url": "https://en.wikipedia.org/wiki/Customer-Based_Brand_Equity_(CBBE)"
+          },
+          {
+            "id": "ms_0005",
+            "url": "https://en.wikipedia.org/wiki/Segmentation_Targeting_Positioning"
+          },
+          {
+            "id": "ms_0044",
+            "url": "https://en.wikipedia.org/wiki/Command_of_the_Message"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xf6' in position 12: ordinal not in range": [
+          {
+            "id": "ms_5140",
+            "url": "https://en.wikipedia.org/wiki/Grönroos_Perceived_Service_Quality"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xf6' in position 27: ordinal not in range": [
+          {
+            "id": "ms_5165",
+            "url": "https://en.wikipedia.org/wiki/Service_Logic_(Grönroos)"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 24-25: ordinal not in range(12": [
+          {
+            "id": "ms_8013",
+            "url": "https://en.wikipedia.org/wiki/Certified_NPO_認定NPO法人_Operations"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-19: ordinal not in range(12": [
+          {
+            "id": "ms_9869",
+            "url": "https://en.wikipedia.org/wiki/嶋口充輝顧客満足経営"
+          },
+          {
+            "id": "ms_9876",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘ブランド研究"
+          },
+          {
+            "id": "ms_9893",
+            "url": "https://en.wikipedia.org/wiki/和田充夫マーケ戦略論"
+          },
+          {
+            "id": "ms_9903",
+            "url": "https://en.wikipedia.org/wiki/石井淳蔵マーケの神話"
+          },
+          {
+            "id": "ms_9905",
+            "url": "https://en.wikipedia.org/wiki/矢作敏行小売国際化論"
+          },
+          {
+            "id": "ms_9910",
+            "url": "https://en.wikipedia.org/wiki/田中洋ブランド構築論"
+          },
+          {
+            "id": "ms_9921",
+            "url": "https://en.wikipedia.org/wiki/田中洋マーケ研究入門"
+          },
+          {
+            "id": "ms_9927",
+            "url": "https://en.wikipedia.org/wiki/石井淳蔵マーケ思想史"
+          },
+          {
+            "id": "ms_10061",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘日本ブランドDNA"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-22: ordinal not in range(12": [
+          {
+            "id": "ms_9870",
+            "url": "https://en.wikipedia.org/wiki/嶋口充輝関係性マーケ日本版"
+          },
+          {
+            "id": "ms_9875",
+            "url": "https://en.wikipedia.org/wiki/恩蔵直人マーケティング戦略"
+          },
+          {
+            "id": "ms_9897",
+            "url": "https://en.wikipedia.org/wiki/石井淳蔵ブランド価値創造論"
+          },
+          {
+            "id": "ms_9919",
+            "url": "https://en.wikipedia.org/wiki/田口尚史サービス研究方法論"
+          },
+          {
+            "id": "ms_9926",
+            "url": "https://en.wikipedia.org/wiki/矢作敏行サプライチェーン論"
+          },
+          {
+            "id": "ms_10026",
+            "url": "https://en.wikipedia.org/wiki/田中洋エンゲージメント戦略"
+          },
+          {
+            "id": "ms_10032",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴パワーブランド本質"
+          },
+          {
+            "id": "ms_10047",
+            "url": "https://en.wikipedia.org/wiki/和田充夫ブランド価値共創論"
+          },
+          {
+            "id": "ms_10060",
+            "url": "https://en.wikipedia.org/wiki/田中洋日本企業ブランド戦略"
+          },
+          {
+            "id": "ms_10073",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴顧客理解とブランド"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": [
+          {
+            "id": "ms_9872",
+            "url": "https://en.wikipedia.org/wiki/田中洋ブランド戦略全書"
+          },
+          {
+            "id": "ms_9873",
+            "url": "https://en.wikipedia.org/wiki/田中洋消費者行動論体系"
+          },
+          {
+            "id": "ms_9874",
+            "url": "https://en.wikipedia.org/wiki/恩蔵直人ブランド戦略論"
+          },
+          {
+            "id": "ms_9877",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘消費者行動研究"
+          },
+          {
+            "id": "ms_9899",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘消費者知識構造"
+          },
+          {
+            "id": "ms_9900",
+            "url": "https://en.wikipedia.org/wiki/田中洋プロモーション論"
+          },
+          {
+            "id": "ms_9918",
+            "url": "https://en.wikipedia.org/wiki/上田隆穂消費者価格知覚"
+          },
+          {
+            "id": "ms_9911",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘ブランド構築論"
+          },
+          {
+            "id": "ms_9920",
+            "url": "https://en.wikipedia.org/wiki/嶋口充輝マーケ近代化論"
+          },
+          {
+            "id": "ms_9925",
+            "url": "https://en.wikipedia.org/wiki/池尾恭一消費者行動研究"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": [
+          {
+            "id": "ms_9871",
+            "url": "https://en.wikipedia.org/wiki/田中洋エンゲージメント論"
+          },
+          {
+            "id": "ms_9885",
+            "url": "https://en.wikipedia.org/wiki/石井淳蔵解釈的マーケ研究"
+          },
+          {
+            "id": "ms_9882",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴ブランドジャパン"
+          },
+          {
+            "id": "ms_9883",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴パワーブランド論"
+          },
+          {
+            "id": "ms_9898",
+            "url": "https://en.wikipedia.org/wiki/嶋口充輝マーケパラダイム"
+          },
+          {
+            "id": "ms_9907",
+            "url": "https://en.wikipedia.org/wiki/和田充夫ブランド価値共創"
+          },
+          {
+            "id": "ms_9909",
+            "url": "https://en.wikipedia.org/wiki/嶋口充輝サービス品質経営"
+          },
+          {
+            "id": "ms_9917",
+            "url": "https://en.wikipedia.org/wiki/近藤隆雄サービス品質測定"
+          },
+          {
+            "id": "ms_10024",
+            "url": "https://en.wikipedia.org/wiki/恩蔵直人ブランド戦略全書"
+          },
+          {
+            "id": "ms_10027",
+            "url": "https://en.wikipedia.org/wiki/田中洋日本ブランド国際化"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-18: ordinal not in range(12": [
+          {
+            "id": "ms_9887",
+            "url": "https://en.wikipedia.org/wiki/池尾恭一マーケ理論"
+          },
+          {
+            "id": "ms_9884",
+            "url": "https://en.wikipedia.org/wiki/石井淳蔵需要創造論"
+          },
+          {
+            "id": "ms_9890",
+            "url": "https://en.wikipedia.org/wiki/矢作敏行流通革新論"
+          },
+          {
+            "id": "ms_9902",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴顧客分析論"
+          },
+          {
+            "id": "ms_9924",
+            "url": "https://en.wikipedia.org/wiki/和田充夫消費社会論"
+          },
+          {
+            "id": "ms_10069",
+            "url": "https://en.wikipedia.org/wiki/原研哉日本デザイン"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-23: ordinal not in range(12": [
+          {
+            "id": "ms_9894",
+            "url": "https://en.wikipedia.org/wiki/近藤隆雄サービスマネジメント"
+          },
+          {
+            "id": "ms_9908",
+            "url": "https://en.wikipedia.org/wiki/池尾恭一マーケ・マネジメント"
+          },
+          {
+            "id": "ms_9913",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴新版マーケサイエンス"
+          },
+          {
+            "id": "ms_10029",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘関与水準ブランド研究"
+          },
+          {
+            "id": "ms_10048",
+            "url": "https://en.wikipedia.org/wiki/青木幸弘ブランドカテゴリ拡張"
+          },
+          {
+            "id": "ms_10050",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴顧客視点ブランド評価"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-13: ordinal not in range(12": [
+          {
+            "id": "ms_9895",
+            "url": "https://en.wikipedia.org/wiki/田口尚史S-Dロジック日本展開"
+          },
+          {
+            "id": "ms_10070",
+            "url": "https://en.wikipedia.org/wiki/深澤直人MUJIブランド"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-17: ordinal not in range(12": [
+          {
+            "id": "ms_9896",
+            "url": "https://en.wikipedia.org/wiki/上田隆穂価格戦略"
+          },
+          {
+            "id": "ms_9915",
+            "url": "https://en.wikipedia.org/wiki/石井淳蔵営業力論"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": [
+          {
+            "id": "ms_10030",
+            "url": "https://en.wikipedia.org/wiki/阿久津聡コーポレートブランド経営"
+          },
+          {
+            "id": "ms_10040",
+            "url": "https://en.wikipedia.org/wiki/原研哉デザイン哲学ブランディング"
+          },
+          {
+            "id": "ms_10033",
+            "url": "https://en.wikipedia.org/wiki/片平秀貴ブランドジャパン年次調査"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": [
+          {
+            "id": "ms_10049",
+            "url": "https://en.wikipedia.org/wiki/田中洋ブランド連想ネットワーク"
+          },
+          {
+            "id": "ms_10057",
+            "url": "https://en.wikipedia.org/wiki/深澤直人デザインのための無意識"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": [
+          {
+            "id": "ms_10056",
+            "url": "https://en.wikipedia.org/wiki/原研哉空白の力"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-31: ordinal not in range(12": [
+          {
+            "id": "ms_10059",
+            "url": "https://en.wikipedia.org/wiki/恩蔵直人マーケティング・マネジメント日本適応"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe8' in position 12: ordinal not in range": [
+          {
+            "id": "ms_13032",
+            "url": "https://en.wikipedia.org/wiki/Drèze-Hoch_Reward_Redemption"
+          },
+          {
+            "id": "ms_13140",
+            "url": "https://en.wikipedia.org/wiki/Drèze-Hoch_Cross-Merchandising"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xf6' in position 32: ordinal not in range": [
+          {
+            "id": "ms_13151",
+            "url": "https://en.wikipedia.org/wiki/De_Wulf-Odekerken-Schröder_Loyalty_Drivers"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

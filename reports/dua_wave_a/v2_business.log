@@ -1,0 +1,10 @@
+
+=== business_models ===
+  [business_models] 654 url_present concepts to verify (workers=15, batch=1000)
+    [business_models] 500/654 (76.5%) rate=42.3/s eta=0.1min v=0 d=12 r=0 u=488
+  [business_models] DONE: 654/654 in 0.3min (40.6/s) — v=0 d=17 r=0 u=637
+
+=== Final Report ===
+Total elapsed: 0.3min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041613Z.json
+  business_models           total=   654 v=     0 d=    17 r=    0 u=   637

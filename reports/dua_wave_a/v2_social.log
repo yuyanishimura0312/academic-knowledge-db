@@ -1,0 +1,19 @@
+
+=== social_theory ===
+  [social_theory] 5045 url_present concepts to verify (workers=15, batch=1000)
+    [social_theory] 500/5045 (9.9%) rate=31.0/s eta=2.4min v=0 d=4 r=0 u=496
+    [social_theory] 1000/5045 (19.8%) rate=30.9/s eta=2.2min v=8 d=11 r=0 u=981
+    [social_theory] 1500/5045 (29.7%) rate=31.3/s eta=1.9min v=12 d=18 r=0 u=1470
+    [social_theory] 2000/5045 (39.6%) rate=30.9/s eta=1.6min v=23 d=26 r=0 u=1951
+    [social_theory] 2500/5045 (49.6%) rate=31.1/s eta=1.4min v=35 d=33 r=0 u=2432
+    [social_theory] 3000/5045 (59.5%) rate=31.2/s eta=1.1min v=43 d=48 r=0 u=2909
+    [social_theory] 3500/5045 (69.4%) rate=30.7/s eta=0.8min v=184 d=49 r=0 u=3267
+    [social_theory] 4000/5045 (79.3%) rate=30.8/s eta=0.6min v=350 d=52 r=0 u=3598
+    [social_theory] 4500/5045 (89.2%) rate=30.8/s eta=0.3min v=564 d=52 r=0 u=3884
+    [social_theory] 5000/5045 (99.1%) rate=31.1/s eta=0.0min v=790 d=53 r=0 u=4157
+  [social_theory] DONE: 5045/5045 in 2.7min (31.0/s) — v=806 d=53 r=0 u=4186
+
+=== Final Report ===
+Total elapsed: 2.7min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041647Z.json
+  social_theory             total=  5045 v=   806 d=    53 r=    0 u=  4186

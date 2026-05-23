@@ -1,0 +1,82 @@
+{
+  "session": "DUA Wave A residual task 2 continuation",
+  "date_utc": "2026-05-23",
+  "session_elapsed_min_approx": 70,
+  "script": "scripts/dua_wave_a/qbeta_url_verification_v2.py",
+  "config": {"workers": 15, "batch_size": 1000, "timeout_sec": 10},
+  "before_to_after_per_domain": {
+    "humanities_concept": {
+      "before": {"verified": 389, "dead": 269, "redirect": 13, "url_present": 3692},
+      "after":  {"verified": 930, "dead": 472, "redirect": 16, "url_present": 3468},
+      "delta":  {"verified": "+541", "dead": "+203", "redirect": "+3", "url_present": "-224"}
+    },
+    "innovation_theory": {
+      "before": {"verified": 22, "dead": 763, "redirect": 0, "url_present": 9054},
+      "after":  {"verified": 30, "dead": 1100, "redirect": 0, "url_present": 8709},
+      "delta":  {"verified": "+8", "dead": "+337", "redirect": "0", "url_present": "-345"}
+    },
+    "social_theory": {
+      "before": {"verified": 143, "dead": 28, "redirect": 0, "url_present": 4886},
+      "after":  {"verified": 949, "dead": 81, "redirect": 0, "url_present": 4441},
+      "delta":  {"verified": "+806", "dead": "+53", "redirect": "0", "url_present": "-445"}
+    },
+    "natural_discovery": {
+      "before": {"verified": 157, "dead": 28, "redirect": 0, "url_present": 4093},
+      "after":  {"verified": 546, "dead": 157, "redirect": 68, "url_present": 3652},
+      "delta":  {"verified": "+389", "dead": "+129", "redirect": "+68", "url_present": "-441"}
+    },
+    "engineering_method": {
+      "before": {"verified": 147, "dead": 13, "redirect": 0, "url_present": 2987},
+      "after":  {"verified": 242, "dead": 50, "redirect": 0, "url_present": 2855},
+      "delta":  {"verified": "+95", "dead": "+37", "redirect": "0", "url_present": "-132"}
+    },
+    "arts_question": {
+      "before": {"verified": 178, "dead": 29, "redirect": 2, "url_present": 5032},
+      "after":  {"verified": 232, "dead": 135, "redirect": 3, "url_present": 4871},
+      "delta":  {"verified": "+54", "dead": "+106", "redirect": "+1", "url_present": "-161"}
+    },
+    "marketing_sales": {
+      "before": {"verified": 28, "dead": 253, "redirect": 0, "url_present": 9331},
+      "after":  {"verified": 38, "dead": 539, "redirect": 0, "url_present": 9035},
+      "delta":  {"verified": "+10", "dead": "+286", "redirect": "0", "url_present": "-296"}
+    },
+    "poetics_text": {
+      "before": {"verified": 2233, "dead": 3214, "redirect": 329, "url_present": 2308},
+      "after":  {"verified": 2558, "dead": 3286, "redirect": 468, "url_present": 1772},
+      "delta":  {"verified": "+325", "dead": "+72", "redirect": "+139", "url_present": "-536"}
+    },
+    "startup_theory": {
+      "before": {"verified": 1, "dead": 2100, "redirect": 0, "url_present": 4354},
+      "after":  {"verified": 2, "dead": 2198, "redirect": 0, "url_present": 4255},
+      "delta":  {"verified": "+1", "dead": "+98", "redirect": "0", "url_present": "-99"}
+    },
+    "business_models": {
+      "before": {"verified": 19, "dead": 62, "redirect": 0, "url_present": 654},
+      "after":  {"verified": 19, "dead": 79, "redirect": 0, "url_present": 637},
+      "delta":  {"verified": "0", "dead": "+17", "redirect": "0", "url_present": "-17"}
+    }
+  },
+  "global_totals_after": {
+    "verified": 5546,
+    "dead": 8097,
+    "redirect": 555,
+    "url_present": 43695,
+    "null_or_empty": 10,
+    "total": 57903
+  },
+  "failure_patterns_top": {
+    "transient_429_wikipedia_rate_limit": 42471,
+    "http_404_definitive_dead": 1329,
+    "socket_timeout_retry_candidate": 305,
+    "transient_500": 29,
+    "dns_fail_definitive_dead": 5,
+    "ssl_err": 1
+  },
+  "rationale_for_residual_url_present": "Residual 43,695 url_present rows: 96.2 percent are Wikipedia 429 rate-limit. Even with 15 workers, en.wikipedia.org per-IP rate-limit blocks us. Wave B+ must use parallel=2-3 with 24h-spaced batch retries",
+  "next_steps_wave_b": [
+    "1. _qbeta_failed_urls の transient_429 42,471 件を retry table へ移動",
+    "2. parallel=2-3, interval=5s, per-domain rotate でゆっくり再実行",
+    "3. Wikipedia URL は in-process cache でドメイン単位スロットル",
+    "4. 24h 経過後に再投入 (Wikipedia rate-limit window が解放)"
+  ]
+}

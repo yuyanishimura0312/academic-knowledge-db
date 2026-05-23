@@ -1,0 +1,59 @@
+
+=== engineering_method ===
+  [engineering_method] 3021 concepts to verify
+    [engineering_method] 60/3021 (2.0%) rate=48.8/s eta=1.0min v=1 d=0 r=0 u=59
+    [engineering_method] 120/3021 (4.0%) rate=58.0/s eta=0.8min v=7 d=0 r=0 u=113
+    [engineering_method] 180/3021 (6.0%) rate=55.2/s eta=0.9min v=8 d=1 r=0 u=171
+    [engineering_method] 240/3021 (7.9%) rate=58.6/s eta=0.8min v=8 d=3 r=0 u=229
+    [engineering_method] 300/3021 (9.9%) rate=56.0/s eta=0.8min v=9 d=3 r=0 u=288
+    [engineering_method] 360/3021 (11.9%) rate=58.3/s eta=0.8min v=10 d=3 r=0 u=347
+    [engineering_method] 420/3021 (13.9%) rate=58.1/s eta=0.7min v=12 d=3 r=0 u=405
+    [engineering_method] 480/3021 (15.9%) rate=56.6/s eta=0.7min v=17 d=3 r=0 u=460
+    [engineering_method] 540/3021 (17.9%) rate=53.0/s eta=0.8min v=23 d=3 r=0 u=514
+    [engineering_method] 600/3021 (19.9%) rate=53.4/s eta=0.8min v=25 d=4 r=0 u=571
+    [engineering_method] 660/3021 (21.8%) rate=49.7/s eta=0.8min v=27 d=4 r=0 u=629
+    [engineering_method] 720/3021 (23.8%) rate=48.1/s eta=0.8min v=27 d=4 r=0 u=689
+    [engineering_method] 780/3021 (25.8%) rate=47.5/s eta=0.8min v=27 d=6 r=0 u=747
+    [engineering_method] 840/3021 (27.8%) rate=49.0/s eta=0.7min v=29 d=6 r=0 u=805
+    [engineering_method] 900/3021 (29.8%) rate=48.3/s eta=0.7min v=31 d=6 r=0 u=863
+    [engineering_method] 960/3021 (31.8%) rate=48.4/s eta=0.7min v=34 d=6 r=0 u=920
+    [engineering_method] 1020/3021 (33.8%) rate=48.5/s eta=0.7min v=35 d=6 r=0 u=979
+    [engineering_method] 1080/3021 (35.7%) rate=48.3/s eta=0.7min v=39 d=6 r=0 u=1035
+    [engineering_method] 1140/3021 (37.7%) rate=45.6/s eta=0.7min v=40 d=6 r=0 u=1094
+    [engineering_method] 1200/3021 (39.7%) rate=45.2/s eta=0.7min v=41 d=6 r=0 u=1153
+    [engineering_method] 1260/3021 (41.7%) rate=45.1/s eta=0.7min v=43 d=7 r=0 u=1210
+    [engineering_method] 1320/3021 (43.7%) rate=44.6/s eta=0.6min v=45 d=8 r=0 u=1267
+    [engineering_method] 1380/3021 (45.7%) rate=44.0/s eta=0.6min v=48 d=9 r=0 u=1323
+    [engineering_method] 1440/3021 (47.7%) rate=44.0/s eta=0.6min v=54 d=9 r=0 u=1377
+    [engineering_method] 1500/3021 (49.7%) rate=43.7/s eta=0.6min v=55 d=9 r=0 u=1436
+    [engineering_method] 1560/3021 (51.6%) rate=43.7/s eta=0.6min v=58 d=9 r=0 u=1493
+    [engineering_method] 1620/3021 (53.6%) rate=43.0/s eta=0.5min v=60 d=9 r=0 u=1551
+    [engineering_method] 1680/3021 (55.6%) rate=42.9/s eta=0.5min v=65 d=9 r=0 u=1606
+    [engineering_method] 1740/3021 (57.6%) rate=42.8/s eta=0.5min v=67 d=10 r=0 u=1663
+    [engineering_method] 1800/3021 (59.6%) rate=42.7/s eta=0.5min v=69 d=10 r=0 u=1721
+    [engineering_method] 1860/3021 (61.6%) rate=42.7/s eta=0.5min v=72 d=10 r=0 u=1778
+    [engineering_method] 1920/3021 (63.6%) rate=42.8/s eta=0.4min v=79 d=10 r=0 u=1831
+    [engineering_method] 1980/3021 (65.5%) rate=43.0/s eta=0.4min v=82 d=11 r=0 u=1887
+    [engineering_method] 2040/3021 (67.5%) rate=43.0/s eta=0.4min v=86 d=11 r=0 u=1943
+    [engineering_method] 2100/3021 (69.5%) rate=42.8/s eta=0.4min v=86 d=11 r=0 u=2003
+    [engineering_method] 2160/3021 (71.5%) rate=43.0/s eta=0.3min v=88 d=11 r=0 u=2061
+    [engineering_method] 2220/3021 (73.5%) rate=42.8/s eta=0.3min v=88 d=11 r=0 u=2121
+    [engineering_method] 2280/3021 (75.5%) rate=41.9/s eta=0.3min v=91 d=11 r=0 u=2178
+    [engineering_method] 2340/3021 (77.5%) rate=41.9/s eta=0.3min v=94 d=11 r=0 u=2235
+    [engineering_method] 2400/3021 (79.4%) rate=41.9/s eta=0.2min v=94 d=11 r=0 u=2295
+    [engineering_method] 2460/3021 (81.4%) rate=41.9/s eta=0.2min v=95 d=11 r=0 u=2354
+    [engineering_method] 2520/3021 (83.4%) rate=42.0/s eta=0.2min v=96 d=12 r=0 u=2412
+    [engineering_method] 2580/3021 (85.4%) rate=41.5/s eta=0.2min v=100 d=12 r=0 u=2468
+    [engineering_method] 2640/3021 (87.4%) rate=41.4/s eta=0.2min v=102 d=12 r=0 u=2526
+    [engineering_method] 2700/3021 (89.4%) rate=41.6/s eta=0.1min v=104 d=12 r=0 u=2584
+    [engineering_method] 2760/3021 (91.4%) rate=41.6/s eta=0.1min v=111 d=12 r=0 u=2637
+    [engineering_method] 2820/3021 (93.3%) rate=41.5/s eta=0.1min v=120 d=13 r=0 u=2687
+    [engineering_method] 2880/3021 (95.3%) rate=41.7/s eta=0.1min v=122 d=13 r=0 u=2745
+    [engineering_method] 2940/3021 (97.3%) rate=41.7/s eta=0.0min v=133 d=13 r=0 u=2794
+    [engineering_method] 3000/3021 (99.3%) rate=41.5/s eta=0.0min v=143 d=13 r=0 u=2844
+  [engineering_method] DONE: 3021/3021 in 1.3min (39.3/s) — v=147 d=13 r=0 u=2861
+
+=== Final Report ===
+Total elapsed: 1.3min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T024943Z.json
+  engineering_method        total=  3021 v=   147 d=    13 r=    0 u=  2861

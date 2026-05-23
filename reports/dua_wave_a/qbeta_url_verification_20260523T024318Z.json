@@ -1,0 +1,70 @@
+{
+  "start": "2026-05-23T02:43:21.871615+00:00",
+  "elapsed_min": 0.1,
+  "domains": [
+    {
+      "table": "business_models",
+      "total_targets": 50,
+      "completed": 50,
+      "elapsed_sec": 3.5,
+      "distribution": {
+        "dead": 39,
+        "verified": 11
+      },
+      "failure_patterns_top": {
+        "http_404": 39
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "BM04_028",
+            "url": "https://en.wikipedia.org/wiki/Pinterest_Promoted_Pins"
+          },
+          {
+            "id": "BM04_044",
+            "url": "https://en.wikipedia.org/wiki/Hulu_Programmatic_CTV"
+          },
+          {
+            "id": "BM04_038",
+            "url": "https://en.wikipedia.org/wiki/Amazon_Sponsored_Display"
+          },
+          {
+            "id": "BM04_026",
+            "url": "https://en.wikipedia.org/wiki/X_Promoted_Tweets"
+          },
+          {
+            "id": "BM04_040",
+            "url": "https://en.wikipedia.org/wiki/Instacart_Sponsored_Products"
+          },
+          {
+            "id": "BM04_035",
+            "url": "https://en.wikipedia.org/wiki/Apple_Search_Ads"
+          },
+          {
+            "id": "BM04_027",
+            "url": "https://en.wikipedia.org/wiki/LinkedIn_Sponsored_Content"
+          },
+          {
+            "id": "BM04_036",
+            "url": "https://en.wikipedia.org/wiki/Google_Universal_App_Campaigns"
+          },
+          {
+            "id": "BM04_030",
+            "url": "https://en.wikipedia.org/wiki/Snapchat_Vertical_Video_Ads"
+          },
+          {
+            "id": "BM04_033",
+            "url": "https://en.wikipedia.org/wiki/Google_Performance_Max"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 20,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 5000,
+    "dry_run": false
+  }
+}

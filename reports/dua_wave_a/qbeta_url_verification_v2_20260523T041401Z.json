@@ -1,0 +1,115 @@
+{
+  "start_utc": "2026-05-23T04:18:05.729032+00:00",
+  "elapsed_min": 4.1,
+  "domains": [
+    {
+      "table": "innovation_theory",
+      "total_targets": 9054,
+      "completed": 9054,
+      "elapsed_sec": 244.4,
+      "distribution": {
+        "dead": 337,
+        "verified": 8,
+        "url_present": 8709
+      },
+      "failure_patterns_top": {
+        "transient_429": 8709,
+        "http_404": 337
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "inno_sys_147",
+            "url": "https://en.wikipedia.org/wiki/Social_Experimentation_and_Living_Labs"
+          },
+          {
+            "id": "inno_sys_158",
+            "url": "https://en.wikipedia.org/wiki/Innovation_System_Functions"
+          },
+          {
+            "id": "inno_sys_152",
+            "url": "https://en.wikipedia.org/wiki/Inclusive_Innovation_Systems"
+          },
+          {
+            "id": "inno_sys_157",
+            "url": "https://en.wikipedia.org/wiki/Catching-Up_Innovation"
+          },
+          {
+            "id": "inno_sys_155",
+            "url": "https://en.wikipedia.org/wiki/Regional_Innovation_Systems_(RIS)"
+          },
+          {
+            "id": "inno_sys_154",
+            "url": "https://en.wikipedia.org/wiki/Public_Value_and_Innovation"
+          },
+          {
+            "id": "inno_sys_124",
+            "url": "https://en.wikipedia.org/wiki/Transition_Pathway_Typology"
+          },
+          {
+            "id": "inno_sys_145",
+            "url": "https://en.wikipedia.org/wiki/Responsible_Research_and_Innovation_(RRI)"
+          },
+          {
+            "id": "inno_sys_142",
+            "url": "https://en.wikipedia.org/wiki/System_Innovation"
+          },
+          {
+            "id": "inno_sys_164",
+            "url": "https://en.wikipedia.org/wiki/Knowledge-Intensive_Business_Services_(KIBS)"
+          }
+        ],
+        "transient_429": [
+          {
+            "id": "inno_know_119",
+            "url": "https://en.wikipedia.org/wiki/Resource-Based_View"
+          },
+          {
+            "id": "inno_know_116",
+            "url": "https://en.wikipedia.org/wiki/Leadership_and_Ambidexterity"
+          },
+          {
+            "id": "inno_know_117",
+            "url": "https://en.wikipedia.org/wiki/Measurement_of_Ambidexterity"
+          },
+          {
+            "id": "inno_know_121",
+            "url": "https://en.wikipedia.org/wiki/Core_Competence"
+          },
+          {
+            "id": "inno_know_122",
+            "url": "https://en.wikipedia.org/wiki/Core_Rigidity"
+          },
+          {
+            "id": "inno_know_123",
+            "url": "https://en.wikipedia.org/wiki/Knowledge-Based_Theory_of_the_Firm"
+          },
+          {
+            "id": "inno_know_124",
+            "url": "https://en.wikipedia.org/wiki/Relational_View"
+          },
+          {
+            "id": "inno_know_125",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_Management_Strategy:_Codification_vs_Personalization"
+          },
+          {
+            "id": "inno_know_127",
+            "url": "https://en.wikipedia.org/wiki/Knowledge_Integration"
+          },
+          {
+            "id": "inno_know_131",
+            "url": "https://en.wikipedia.org/wiki/Cross-Unit_Knowledge_Sharing"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

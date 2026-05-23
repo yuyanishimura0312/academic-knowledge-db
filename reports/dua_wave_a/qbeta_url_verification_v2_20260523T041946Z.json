@@ -1,0 +1,202 @@
+{
+  "start_utc": "2026-05-23T04:24:47.484690+00:00",
+  "elapsed_min": 5.0,
+  "domains": [
+    {
+      "table": "poetics_text",
+      "total_targets": 2308,
+      "completed": 2308,
+      "elapsed_sec": 300.6,
+      "distribution": {
+        "url_present": 1772,
+        "verified": 325,
+        "redirect": 139,
+        "dead": 72
+      },
+      "failure_patterns_top": {
+        "transient_429": 1440,
+        "socket_timeout": 304,
+        "http_404": 72,
+        "transient_500": 28
+      },
+      "failure_samples": {
+        "transient_429": [
+          {
+            "id": "pt_text_pessoa_bicarbonato",
+            "url": "https://pt.wikisource.org/wiki/Tabacaria"
+          },
+          {
+            "id": "pt_text_lucretius_de_rerum_natura_3",
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura/Liber_III"
+          },
+          {
+            "id": "pt_text_lucretius_de_rerum_natura_1",
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura/Liber_I"
+          },
+          {
+            "id": "pt_text_lucretius_de_rerum_natura_2",
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura/Liber_II"
+          },
+          {
+            "id": "pt_text_lucretius_de_rerum_natura_4",
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura/Liber_IV"
+          },
+          {
+            "id": "pt_text_lucretius_de_rerum_natura_5",
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura/Liber_V"
+          },
+          {
+            "id": "pt_text_virgil_eclogue_5",
+            "url": "https://la.wikisource.org/wiki/Bucolica/Ecloga_V"
+          },
+          {
+            "id": "pt_text_virgil_eclogue_2",
+            "url": "https://la.wikisource.org/wiki/Bucolica/Ecloga_II"
+          },
+          {
+            "id": "pt_text_virgil_eclogue_4",
+            "url": "https://la.wikisource.org/wiki/Bucolica/Ecloga_IV"
+          },
+          {
+            "id": "pt_text_lucretius_de_rerum_natura_6",
+            "url": "https://la.wikisource.org/wiki/De_rerum_natura/Liber_VI"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "pt_text_calpurnius_ecloga_i",
+            "url": "https://la.wikisource.org/wiki/Bucolica_(Calpurnius_Siculus)"
+          },
+          {
+            "id": "pt_text_de_bello_gildonico",
+            "url": "https://la.wikisource.org/wiki/De_bello_Gildonico"
+          },
+          {
+            "id": "pt_text_king_horn",
+            "url": "https://en.wikisource.org/wiki/King_Horn"
+          },
+          {
+            "id": "pt_text_spenser_epithalamion",
+            "url": "https://en.wikisource.org/wiki/Amoretti_and_Epithalamion/Epithalamion"
+          },
+          {
+            "id": "pt_text_corinna_going_a_maying",
+            "url": "https://en.wikisource.org/wiki/Hesperides/Corinna%27s_Going_a-Maying"
+          },
+          {
+            "id": "pt_text_camoes_lusiadas_canto_iii_ines",
+            "url": "https://pt.wikisource.org/wiki/Os_Lus%C3%ADadas/III"
+          },
+          {
+            "id": "pt_text_epithalamion_spenser",
+            "url": "https://en.wikisource.org/wiki/Amoretti_and_Epithalamion/Epithalamion"
+          },
+          {
+            "id": "pt_text_yoruba_oriki_shango",
+            "url": "https://archive.org/details/yorubaspeakingp00elliuoft"
+          },
+          {
+            "id": "pt_text_yoruba_oriki_orunmila",
+            "url": "https://archive.org/details/yorubaspeakingp00elliuoft"
+          },
+          {
+            "id": "pt_text_yoruba_oriki_obatala",
+            "url": "https://archive.org/details/yorubaspeakingp00elliuoft"
+          }
+        ],
+        "socket_timeout": [
+          {
+            "id": "pt_text_akan_ananse_song",
+            "url": "https://archive.org/details/akantwi-folktales"
+          },
+          {
+            "id": "pt_text_akan_funeral_dirge",
+            "url": "https://archive.org/details/ashantiproverbs00rattrich"
+          },
+          {
+            "id": "pt_text_swahili_utenzi_wa_tambuka",
+            "url": "https://archive.org/details/utenziwa-tambuka"
+          },
+          {
+            "id": "pt_text_swahili_utenzi_wa_ras_alghuli",
+            "url": "https://archive.org/details/swahilipoetry"
+          },
+          {
+            "id": "pt_text_swahili_utenzi_wa_shufaka",
+            "url": "https://archive.org/details/swahilipoetry"
+          },
+          {
+            "id": "pt_text_swahili_inkishafi",
+            "url": "https://archive.org/details/alinkishafi"
+          },
+          {
+            "id": "pt_text_swahili_mwana_kupona",
+            "url": "https://archive.org/details/swahilipoetry"
+          },
+          {
+            "id": "pt_text_swahili_utenzi_wa_ayubu",
+            "url": "https://archive.org/details/swahilipoetry"
+          },
+          {
+            "id": "pt_text_swahili_utenzi_wa_mikidadi",
+            "url": "https://archive.org/details/swahilipoetry"
+          },
+          {
+            "id": "pt_text_swahili_siu_poem",
+            "url": "https://archive.org/details/swahilipoetry"
+          }
+        ],
+        "transient_500": [
+          {
+            "id": "pt_text_orph_arg",
+            "url": "http://www.perseus.tufts.edu/hopper/text"
+          },
+          {
+            "id": "pt_text_opppian_hal",
+            "url": "http://www.perseus.tufts.edu/hopper/text"
+          },
+          {
+            "id": "pt_text_tyrtaeus_eunomia_2",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=2"
+          },
+          {
+            "id": "pt_text_tyrtaeus_martial_10",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=2"
+          },
+          {
+            "id": "pt_text_tyrtaeus_stand_firm_11",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=2"
+          },
+          {
+            "id": "pt_text_tyrtaeus_arete_12",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=2"
+          },
+          {
+            "id": "pt_text_tyrtaeus_young_old",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=2"
+          },
+          {
+            "id": "pt_text_mimnermus_nanno",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=4"
+          },
+          {
+            "id": "pt_text_mimnermus_old_age",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=4"
+          },
+          {
+            "id": "pt_text_mimnermus_leaves",
+            "url": "https://www.perseus.tufts.edu/hopper/text?doc=Perseus:text:2008.01.0479:text=4"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

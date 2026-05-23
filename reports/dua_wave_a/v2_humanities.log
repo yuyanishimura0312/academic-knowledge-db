@@ -1,0 +1,16 @@
+
+=== humanities_concept ===
+  [humanities_concept] 3592 url_present concepts to verify (workers=15, batch=1000)
+    [humanities_concept] 500/3592 (13.9%) rate=33.5/s eta=1.5min v=9 d=50 r=0 u=441
+    [humanities_concept] 1000/3592 (27.8%) rate=34.2/s eta=1.3min v=15 d=71 r=0 u=914
+    [humanities_concept] 1500/3592 (41.8%) rate=32.7/s eta=1.1min v=25 d=92 r=0 u=1383
+    [humanities_concept] 2000/3592 (55.7%) rate=34.3/s eta=0.8min v=38 d=105 r=0 u=1857
+    [humanities_concept] 2500/3592 (69.6%) rate=35.4/s eta=0.5min v=47 d=122 r=0 u=2331
+    [humanities_concept] 3000/3592 (83.5%) rate=36.1/s eta=0.3min v=226 d=125 r=3 u=2646
+    [humanities_concept] 3500/3592 (97.4%) rate=36.7/s eta=0.0min v=459 d=129 r=3 u=2909
+  [humanities_concept] DONE: 3592/3592 in 1.6min (36.7/s) — v=515 d=129 r=3 u=2945
+
+=== Final Report ===
+Total elapsed: 1.6min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041203Z.json
+  humanities_concept        total=  3592 v=   515 d=   129 r=    3 u=  2945

@@ -1,0 +1,870 @@
+{
+  "start": "2026-05-23T02:46:10.714112+00:00",
+  "elapsed_min": 1.3,
+  "domains": [
+    {
+      "table": "innovation_theory",
+      "total_targets": 9670,
+      "completed": 9670,
+      "elapsed_sec": 79.9,
+      "distribution": {
+        "url_present": 9054,
+        "dead": 599,
+        "verified": 17
+      },
+      "failure_patterns_top": {
+        "http_404": 175,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": 50,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-19: ordinal not in range(12": 48,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": 38,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": 33,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-18: ordinal not in range(12": 30,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-22: ordinal not in range(12": 29,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-23: ordinal not in range(12": 27,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": 23,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-17: ordinal not in range(12": 21,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": 17,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-14: ordinal not in range(12": 14,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-26: ordinal not in range(12": 13,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-28: ordinal not in range(12": 12,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-27: ordinal not in range(12": 11,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-15: ordinal not in range(12": 11,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-13: ordinal not in range(12": 7,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-30: ordinal not in range(12": 5,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-29: ordinal not in range(12": 5,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-31: ordinal not in range(12": 3,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-11: ordinal not in range(12": 3,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 23-24: ordinal not in range(12": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-12: ordinal not in range(12": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 12-24: ordinal not in range(12": 2,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe9' in position 32: ordinal not in range": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe1' in position 24: ordinal not in range": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2192' in position 43: ordinal not in ran": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-32: ordinal not in range(12": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-33: ordinal not in range(12": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-39: ordinal not in range(12": 1
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "inno_sys_159",
+            "url": "https://en.wikipedia.org/wiki/Network_Governance_and_Innovation"
+          },
+          {
+            "id": "inno_sys_197",
+            "url": "https://en.wikipedia.org/wiki/Legitimacy_of_Innovation_Policy"
+          },
+          {
+            "id": "inno_know_105",
+            "url": "https://en.wikipedia.org/wiki/Boundary_Object"
+          },
+          {
+            "id": "inno_sys_168",
+            "url": "https://en.wikipedia.org/wiki/Circular_Economy_and_Innovation"
+          },
+          {
+            "id": "inno_sys_182",
+            "url": "https://en.wikipedia.org/wiki/Innovation_Democracy"
+          },
+          {
+            "id": "inno_sys_187",
+            "url": "https://en.wikipedia.org/wiki/Feminist_STS_and_Innovation"
+          },
+          {
+            "id": "inno_know_103",
+            "url": "https://en.wikipedia.org/wiki/Landscape_of_Practice"
+          },
+          {
+            "id": "inno_sys_185",
+            "url": "https://en.wikipedia.org/wiki/Space_Economy_Innovation_System"
+          },
+          {
+            "id": "inno_sys_163",
+            "url": "https://en.wikipedia.org/wiki/Cross-Sector_Innovation"
+          },
+          {
+            "id": "inno_sys_150",
+            "url": "https://en.wikipedia.org/wiki/AI_and_Innovation_Systems"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe9' in position 32: ordinal not in range": [
+          {
+            "id": "inno_inst_035",
+            "url": "https://en.wikipedia.org/wiki/Critique_of_VoC:_Hancké"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 23-24: ordinal not in range(12": [
+          {
+            "id": "inno_para_026",
+            "url": "https://en.wikipedia.org/wiki/Freeman_&_Louçã:_Long_Waves_and_Technological_Paradigms"
+          },
+          {
+            "id": "inno_para_130",
+            "url": "https://en.wikipedia.org/wiki/Freeman_&_Louçã:_Historical_Analysis_of_Long_Waves"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe1' in position 24: ordinal not in range": [
+          {
+            "id": "inno_para_106",
+            "url": "https://en.wikipedia.org/wiki/Utterback_&_Suárez:_Dominant_Design_and_Firm_Survival"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2192' in position 43: ordinal not in ran": [
+          {
+            "id": "inno_para_115",
+            "url": "https://en.wikipedia.org/wiki/Telecom_Standards_Competition_(2G→5G)_and_Technology_Regime"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": [
+          {
+            "id": "inno_know_301",
+            "url": "https://en.wikipedia.org/wiki/吸収能力の二段階モデル"
+          },
+          {
+            "id": "inno_know_307",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と国際知識移転"
+          },
+          {
+            "id": "inno_know_315",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と知識の近接性"
+          },
+          {
+            "id": "inno_know_314",
+            "url": "https://en.wikipedia.org/wiki/吸収能力のダークサイド"
+          },
+          {
+            "id": "inno_know_329",
+            "url": "https://en.wikipedia.org/wiki/吸収能力とデジタル変革"
+          },
+          {
+            "id": "inno_know_367",
+            "url": "https://en.wikipedia.org/wiki/システム思考と組織学習"
+          },
+          {
+            "id": "inno_know_385",
+            "url": "https://en.wikipedia.org/wiki/生成的学習と適応的学習"
+          },
+          {
+            "id": "inno_know_390",
+            "url": "https://en.wikipedia.org/wiki/組織学習とサービス革新"
+          },
+          {
+            "id": "inno_know_399",
+            "url": "https://en.wikipedia.org/wiki/実践共同体の育成と支援"
+          },
+          {
+            "id": "inno_know_405",
+            "url": "https://en.wikipedia.org/wiki/産業コミュニティと実践"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": [
+          {
+            "id": "inno_know_302",
+            "url": "https://en.wikipedia.org/wiki/潜在的吸収能力"
+          },
+          {
+            "id": "inno_know_303",
+            "url": "https://en.wikipedia.org/wiki/実現的吸収能力"
+          },
+          {
+            "id": "inno_know_312",
+            "url": "https://en.wikipedia.org/wiki/探索的吸収能力"
+          },
+          {
+            "id": "inno_know_320",
+            "url": "https://en.wikipedia.org/wiki/相対的吸収能力"
+          },
+          {
+            "id": "inno_know_379",
+            "url": "https://en.wikipedia.org/wiki/組織学習の障壁"
+          },
+          {
+            "id": "inno_know_397",
+            "url": "https://en.wikipedia.org/wiki/仮想実践共同体"
+          },
+          {
+            "id": "inno_know_392",
+            "url": "https://en.wikipedia.org/wiki/正統的周辺参加"
+          },
+          {
+            "id": "inno_know_403",
+            "url": "https://en.wikipedia.org/wiki/知識ブローカー"
+          },
+          {
+            "id": "inno_know_428",
+            "url": "https://en.wikipedia.org/wiki/ナレッジマップ"
+          },
+          {
+            "id": "inno_know_504",
+            "url": "https://en.wikipedia.org/wiki/組織間学習曲線"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-18: ordinal not in range(12": [
+          {
+            "id": "inno_know_304",
+            "url": "https://en.wikipedia.org/wiki/吸収能力の先行要因"
+          },
+          {
+            "id": "inno_know_305",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と組織境界"
+          },
+          {
+            "id": "inno_know_310",
+            "url": "https://en.wikipedia.org/wiki/吸収能力の測定手法"
+          },
+          {
+            "id": "inno_know_313",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と競争優位"
+          },
+          {
+            "id": "inno_know_317",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と組織構造"
+          },
+          {
+            "id": "inno_know_363",
+            "url": "https://en.wikipedia.org/wiki/使用理論と信奉理論"
+          },
+          {
+            "id": "inno_know_365",
+            "url": "https://en.wikipedia.org/wiki/トリプルループ学習"
+          },
+          {
+            "id": "inno_know_361",
+            "url": "https://en.wikipedia.org/wiki/シングルループ学習"
+          },
+          {
+            "id": "inno_know_376",
+            "url": "https://en.wikipedia.org/wiki/振り返りと組織学習"
+          },
+          {
+            "id": "inno_know_381",
+            "url": "https://en.wikipedia.org/wiki/組織学習と知識移転"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": [
+          {
+            "id": "inno_know_306",
+            "url": "https://en.wikipedia.org/wiki/吸収能力のルーティン基盤"
+          },
+          {
+            "id": "inno_know_309",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と組織学習の統合"
+          },
+          {
+            "id": "inno_know_321",
+            "url": "https://en.wikipedia.org/wiki/吸収能力とベンチャー企業"
+          },
+          {
+            "id": "inno_know_330",
+            "url": "https://en.wikipedia.org/wiki/吸収能力の組織文化的基盤"
+          },
+          {
+            "id": "inno_know_346",
+            "url": "https://en.wikipedia.org/wiki/資産オーケストレーション"
+          },
+          {
+            "id": "inno_know_382",
+            "url": "https://en.wikipedia.org/wiki/組織学習とリーダーシップ"
+          },
+          {
+            "id": "inno_know_377",
+            "url": "https://en.wikipedia.org/wiki/組織学習の行動科学的基盤"
+          },
+          {
+            "id": "inno_know_378",
+            "url": "https://en.wikipedia.org/wiki/組織学習とイノベーション"
+          },
+          {
+            "id": "inno_know_389",
+            "url": "https://en.wikipedia.org/wiki/組織学習の制度理論的視点"
+          },
+          {
+            "id": "inno_know_394",
+            "url": "https://en.wikipedia.org/wiki/実践共同体のレパートリー"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-19: ordinal not in range(12": [
+          {
+            "id": "inno_know_308",
+            "url": "https://en.wikipedia.org/wiki/産業レベルの吸収能力"
+          },
+          {
+            "id": "inno_know_326",
+            "url": "https://en.wikipedia.org/wiki/吸収能力の進化的視点"
+          },
+          {
+            "id": "inno_know_325",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と技術多様化"
+          },
+          {
+            "id": "inno_know_333",
+            "url": "https://en.wikipedia.org/wiki/掌握能力のミクロ基盤"
+          },
+          {
+            "id": "inno_know_328",
+            "url": "https://en.wikipedia.org/wiki/吸収能力の地理的次元"
+          },
+          {
+            "id": "inno_know_335",
+            "url": "https://en.wikipedia.org/wiki/マネジャーのメタ能力"
+          },
+          {
+            "id": "inno_know_332",
+            "url": "https://en.wikipedia.org/wiki/感知能力のミクロ基盤"
+          },
+          {
+            "id": "inno_know_334",
+            "url": "https://en.wikipedia.org/wiki/変革能力のミクロ基盤"
+          },
+          {
+            "id": "inno_know_368",
+            "url": "https://en.wikipedia.org/wiki/メンタルモデルの変革"
+          },
+          {
+            "id": "inno_know_372",
+            "url": "https://en.wikipedia.org/wiki/知識ベース組織の学習"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-17: ordinal not in range(12": [
+          {
+            "id": "inno_know_311",
+            "url": "https://en.wikipedia.org/wiki/組合せ的吸収能力"
+          },
+          {
+            "id": "inno_know_362",
+            "url": "https://en.wikipedia.org/wiki/ダブルループ学習"
+          },
+          {
+            "id": "inno_know_364",
+            "url": "https://en.wikipedia.org/wiki/防衛的ルーティン"
+          },
+          {
+            "id": "inno_know_401",
+            "url": "https://en.wikipedia.org/wiki/実践共同体と権力"
+          },
+          {
+            "id": "inno_know_402",
+            "url": "https://en.wikipedia.org/wiki/境界オブジェクト"
+          },
+          {
+            "id": "inno_know_404",
+            "url": "https://en.wikipedia.org/wiki/専門職実践共同体"
+          },
+          {
+            "id": "inno_know_412",
+            "url": "https://en.wikipedia.org/wiki/学際的実践共同体"
+          },
+          {
+            "id": "inno_know_433",
+            "url": "https://en.wikipedia.org/wiki/知識移転の粘着性"
+          },
+          {
+            "id": "inno_know_442",
+            "url": "https://en.wikipedia.org/wiki/知識の信頼性評価"
+          },
+          {
+            "id": "inno_know_477",
+            "url": "https://en.wikipedia.org/wiki/マーシャル外部性"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-23: ordinal not in range(12": [
+          {
+            "id": "inno_know_318",
+            "url": "https://en.wikipedia.org/wiki/吸収能力とイノベーション成果"
+          },
+          {
+            "id": "inno_know_316",
+            "url": "https://en.wikipedia.org/wiki/ゲートキーパー機能と吸収能力"
+          },
+          {
+            "id": "inno_know_324",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と認知的フレーミング"
+          },
+          {
+            "id": "inno_know_322",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と知識スピルオーバー"
+          },
+          {
+            "id": "inno_know_327",
+            "url": "https://en.wikipedia.org/wiki/吸収能力とオープンサイエンス"
+          },
+          {
+            "id": "inno_know_345",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとSME"
+          },
+          {
+            "id": "inno_know_344",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとIT"
+          },
+          {
+            "id": "inno_know_357",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとR&D組織"
+          },
+          {
+            "id": "inno_know_384",
+            "url": "https://en.wikipedia.org/wiki/組織学習と企業パフォーマンス"
+          },
+          {
+            "id": "inno_know_406",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とアイデンティティ"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": [
+          {
+            "id": "inno_know_319",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と外部パートナーシップ"
+          },
+          {
+            "id": "inno_know_398",
+            "url": "https://en.wikipedia.org/wiki/実践共同体と組織イノベーション"
+          },
+          {
+            "id": "inno_know_422",
+            "url": "https://en.wikipedia.org/wiki/ベストプラクティスデータベース"
+          },
+          {
+            "id": "inno_know_427",
+            "url": "https://en.wikipedia.org/wiki/トランザクティブメモリシステム"
+          },
+          {
+            "id": "inno_know_420",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とスクールベース学習"
+          },
+          {
+            "id": "inno_know_431",
+            "url": "https://en.wikipedia.org/wiki/知識ガバナンスとインセンティブ"
+          },
+          {
+            "id": "inno_know_437",
+            "url": "https://en.wikipedia.org/wiki/ラーニングマネジメントシステム"
+          },
+          {
+            "id": "inno_know_445",
+            "url": "https://en.wikipedia.org/wiki/ナレッジマネジメントと競争戦略"
+          },
+          {
+            "id": "inno_know_449",
+            "url": "https://en.wikipedia.org/wiki/セマンティックウェブと知識管理"
+          },
+          {
+            "id": "inno_know_538",
+            "url": "https://en.wikipedia.org/wiki/知識の開示と保護のトレードオフ"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-22: ordinal not in range(12": [
+          {
+            "id": "inno_know_323",
+            "url": "https://en.wikipedia.org/wiki/吸収能力と学習の経路依存性"
+          },
+          {
+            "id": "inno_know_400",
+            "url": "https://en.wikipedia.org/wiki/実践共同体のライフサイクル"
+          },
+          {
+            "id": "inno_know_410",
+            "url": "https://en.wikipedia.org/wiki/エピステミックコミュニティ"
+          },
+          {
+            "id": "inno_know_423",
+            "url": "https://en.wikipedia.org/wiki/専門家ネットワークシステム"
+          },
+          {
+            "id": "inno_know_434",
+            "url": "https://en.wikipedia.org/wiki/知識シェアリングの動機付け"
+          },
+          {
+            "id": "inno_know_415",
+            "url": "https://en.wikipedia.org/wiki/実践共同体と持続的競争優位"
+          },
+          {
+            "id": "inno_know_546",
+            "url": "https://en.wikipedia.org/wiki/イノベーションの認知的基盤"
+          },
+          {
+            "id": "inno_know_553",
+            "url": "https://en.wikipedia.org/wiki/協調的認知とイノベーション"
+          },
+          {
+            "id": "inno_know_589",
+            "url": "https://en.wikipedia.org/wiki/コンピタンスのヒエラルキー"
+          },
+          {
+            "id": "inno_know_590",
+            "url": "https://en.wikipedia.org/wiki/知識創造とコンピタンス進化"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-28: ordinal not in range(12": [
+          {
+            "id": "inno_know_331",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティのミクロ基盤"
+          },
+          {
+            "id": "inno_know_336",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティの進化的解釈"
+          },
+          {
+            "id": "inno_know_358",
+            "url": "https://en.wikipedia.org/wiki/パス依存性とダイナミックケイパビリティ"
+          },
+          {
+            "id": "inno_know_359",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとガバナンス"
+          },
+          {
+            "id": "inno_know_374",
+            "url": "https://en.wikipedia.org/wiki/フィードフォワードとフィードバック学習"
+          },
+          {
+            "id": "inno_know_413",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とイノベーションエコシステム"
+          },
+          {
+            "id": "inno_know_414",
+            "url": "https://en.wikipedia.org/wiki/コミュニティ・オブ・プラクティスの評価"
+          },
+          {
+            "id": "inno_know_441",
+            "url": "https://en.wikipedia.org/wiki/ナレッジマネジメントとビジネスプロセス"
+          },
+          {
+            "id": "inno_know_460",
+            "url": "https://en.wikipedia.org/wiki/知識資産とインテレクチュアルキャピタル"
+          },
+          {
+            "id": "inno_know_576",
+            "url": "https://en.wikipedia.org/wiki/オープンイノベーションのネットワーク論"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": [
+          {
+            "id": "inno_know_340",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティの測定"
+          },
+          {
+            "id": "inno_know_342",
+            "url": "https://en.wikipedia.org/wiki/ゼロ次・一次・二次ケイパビリティ"
+          },
+          {
+            "id": "inno_know_352",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティと信頼"
+          },
+          {
+            "id": "inno_know_366",
+            "url": "https://en.wikipedia.org/wiki/学習する組織の五つのディシプリン"
+          },
+          {
+            "id": "inno_know_396",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とナレッジマネジメント"
+          },
+          {
+            "id": "inno_know_435",
+            "url": "https://en.wikipedia.org/wiki/プロセス志向ナレッジマネジメント"
+          },
+          {
+            "id": "inno_know_446",
+            "url": "https://en.wikipedia.org/wiki/ナレッジマネジメントの文化的課題"
+          },
+          {
+            "id": "inno_know_450",
+            "url": "https://en.wikipedia.org/wiki/ナレッジマネジメントと組織の境界"
+          },
+          {
+            "id": "inno_know_480",
+            "url": "https://en.wikipedia.org/wiki/スピルオーバーの横取りと適切占有"
+          },
+          {
+            "id": "inno_know_473",
+            "url": "https://en.wikipedia.org/wiki/地理的近接性と知識スピルオーバー"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-32: ordinal not in range(12": [
+          {
+            "id": "inno_know_338",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとビジネスモデル革新"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-27: ordinal not in range(12": [
+          {
+            "id": "inno_know_337",
+            "url": "https://en.wikipedia.org/wiki/知識蓄積とダイナミックケイパビリティ"
+          },
+          {
+            "id": "inno_know_339",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティと組織設計"
+          },
+          {
+            "id": "inno_know_348",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティと競争均衡"
+          },
+          {
+            "id": "inno_know_353",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティと知識統合"
+          },
+          {
+            "id": "inno_know_351",
+            "url": "https://en.wikipedia.org/wiki/組織慣性とダイナミックケイパビリティ"
+          },
+          {
+            "id": "inno_know_360",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティと知識創造"
+          },
+          {
+            "id": "inno_know_432",
+            "url": "https://en.wikipedia.org/wiki/エンタープライズソーシャルメディアとKM"
+          },
+          {
+            "id": "inno_know_469",
+            "url": "https://en.wikipedia.org/wiki/知識活性化（ナレッジイネイブリング）"
+          },
+          {
+            "id": "inno_know_580",
+            "url": "https://en.wikipedia.org/wiki/オンラインプラットフォームと知識共創"
+          },
+          {
+            "id": "inno_know_625",
+            "url": "https://en.wikipedia.org/wiki/知識の具現化とソーシャルプラクティス"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-30: ordinal not in range(12": [
+          {
+            "id": "inno_know_347",
+            "url": "https://en.wikipedia.org/wiki/プロセスとしてのダイナミックケイパビリティ"
+          },
+          {
+            "id": "inno_know_350",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティの企業家論的基盤"
+          },
+          {
+            "id": "inno_know_660",
+            "url": "https://en.wikipedia.org/wiki/科学的ソリューションとエンジニアリング知識"
+          },
+          {
+            "id": "inno_know_494",
+            "url": "https://en.wikipedia.org/wiki/スタートアップエコシステムとスピルオーバー"
+          },
+          {
+            "id": "inno_know_499",
+            "url": "https://en.wikipedia.org/wiki/グローバル知識ネットワークとスピルオーバー"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-31: ordinal not in range(12": [
+          {
+            "id": "inno_know_343",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとアライアンス管理"
+          },
+          {
+            "id": "inno_know_355",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとプラットフォーム"
+          },
+          {
+            "id": "inno_know_356",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとサステナビリティ"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-33: ordinal not in range(12": [
+          {
+            "id": "inno_know_341",
+            "url": "https://en.wikipedia.org/wiki/アドホックな問題解決とダイナミックケイパビリティ"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-39: ordinal not in range(12": [
+          {
+            "id": "inno_know_349",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとナレッジリコンフィギュレーション"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-34: ordinal not in range(12": [
+          {
+            "id": "inno_know_354",
+            "url": "https://en.wikipedia.org/wiki/ダイナミックケイパビリティとオープンイノベーション"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-14: ordinal not in range(12": [
+          {
+            "id": "inno_know_369",
+            "url": "https://en.wikipedia.org/wiki/組織的記憶"
+          },
+          {
+            "id": "inno_know_373",
+            "url": "https://en.wikipedia.org/wiki/組織学習の4Iモデル"
+          },
+          {
+            "id": "inno_know_380",
+            "url": "https://en.wikipedia.org/wiki/チーム学習"
+          },
+          {
+            "id": "inno_know_383",
+            "url": "https://en.wikipedia.org/wiki/組織学習とHRM"
+          },
+          {
+            "id": "inno_know_393",
+            "url": "https://en.wikipedia.org/wiki/意味の交渉"
+          },
+          {
+            "id": "inno_know_391",
+            "url": "https://en.wikipedia.org/wiki/実践共同体"
+          },
+          {
+            "id": "inno_know_512",
+            "url": "https://en.wikipedia.org/wiki/学習曲線のS字型修正"
+          },
+          {
+            "id": "inno_know_523",
+            "url": "https://en.wikipedia.org/wiki/構造的資本"
+          },
+          {
+            "id": "inno_know_528",
+            "url": "https://en.wikipedia.org/wiki/トービンのqとIC"
+          },
+          {
+            "id": "inno_know_565",
+            "url": "https://en.wikipedia.org/wiki/学習組織とHRD"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-15: ordinal not in range(12": [
+          {
+            "id": "inno_know_370",
+            "url": "https://en.wikipedia.org/wiki/組織的脱学習"
+          },
+          {
+            "id": "inno_know_408",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とR&D"
+          },
+          {
+            "id": "inno_know_411",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とICT"
+          },
+          {
+            "id": "inno_know_451",
+            "url": "https://en.wikipedia.org/wiki/暗黙知の概念"
+          },
+          {
+            "id": "inno_know_458",
+            "url": "https://en.wikipedia.org/wiki/知識ビジョン"
+          },
+          {
+            "id": "inno_know_530",
+            "url": "https://en.wikipedia.org/wiki/知識資本論（Lev）"
+          },
+          {
+            "id": "inno_know_541",
+            "url": "https://en.wikipedia.org/wiki/知識保護制度"
+          },
+          {
+            "id": "inno_know_542",
+            "url": "https://en.wikipedia.org/wiki/知識コモンズ"
+          },
+          {
+            "id": "inno_know_551",
+            "url": "https://en.wikipedia.org/wiki/注意基盤理論"
+          },
+          {
+            "id": "inno_know_558",
+            "url": "https://en.wikipedia.org/wiki/認知的柔軟性"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-13: ordinal not in range(12": [
+          {
+            "id": "inno_know_375",
+            "url": "https://en.wikipedia.org/wiki/行動学習"
+          },
+          {
+            "id": "inno_know_430",
+            "url": "https://en.wikipedia.org/wiki/知識監査"
+          },
+          {
+            "id": "inno_know_502",
+            "url": "https://en.wikipedia.org/wiki/経験曲線"
+          },
+          {
+            "id": "inno_know_501",
+            "url": "https://en.wikipedia.org/wiki/学習曲線"
+          },
+          {
+            "id": "inno_know_522",
+            "url": "https://en.wikipedia.org/wiki/人的資本"
+          },
+          {
+            "id": "inno_know_524",
+            "url": "https://en.wikipedia.org/wiki/関係資本"
+          },
+          {
+            "id": "inno_know_548",
+            "url": "https://en.wikipedia.org/wiki/設計思考"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-26: ordinal not in range(12": [
+          {
+            "id": "inno_know_416",
+            "url": "https://en.wikipedia.org/wiki/実践共同体とオープンイノベーション"
+          },
+          {
+            "id": "inno_know_439",
+            "url": "https://en.wikipedia.org/wiki/ナレッジマネジメントの成熟度モデル"
+          },
+          {
+            "id": "inno_know_476",
+            "url": "https://en.wikipedia.org/wiki/内生的成長理論と知識スピルオーバー"
+          },
+          {
+            "id": "inno_know_479",
+            "url": "https://en.wikipedia.org/wiki/知識スピルオーバーとベンチャー創業"
+          },
+          {
+            "id": "inno_know_549",
+            "url": "https://en.wikipedia.org/wiki/ドミナントロジックとイノベーション"
+          },
+          {
+            "id": "inno_know_583",
+            "url": "https://en.wikipedia.org/wiki/コアコンピタンスのコア・リジリティ"
+          },
+          {
+            "id": "inno_know_596",
+            "url": "https://en.wikipedia.org/wiki/コンピタンス感知とアウトサイドイン"
+          },
+          {
+            "id": "inno_know_662",
+            "url": "https://en.wikipedia.org/wiki/アナロジカルリーズニングと技術革新"
+          },
+          {
+            "id": "inno_know_675",
+            "url": "https://en.wikipedia.org/wiki/インターフェース知識とモジュール化"
+          },
+          {
+            "id": "inno_know_697",
+            "url": "https://en.wikipedia.org/wiki/証拠の体系化とナレッジマネジメント"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-12: ordinal not in range(12": [
+          {
+            "id": "inno_know_426",
+            "url": "https://en.wikipedia.org/wiki/個人化vs.コード化戦略"
+          },
+          {
+            "id": "inno_know_638",
+            "url": "https://en.wikipedia.org/wiki/対話型AIと学習支援"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 12-22: ordinal not in range(12": [
+          {
+            "id": "inno_know_429",
+            "url": "https://en.wikipedia.org/wiki/AIとナレッジマネジメント"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 14-16: ordinal not in range(12": [
+          {
+            "id": "inno_know_452",
+            "url": "https://en.wikipedia.org/wiki/SECIモデル"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

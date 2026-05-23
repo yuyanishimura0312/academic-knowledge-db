@@ -1,0 +1,19 @@
+
+=== arts_question ===
+  [arts_question] 5032 url_present concepts to verify (workers=15, batch=1000)
+    [arts_question] 500/5032 (9.9%) rate=30.9/s eta=2.4min v=3 d=6 r=0 u=491
+    [arts_question] 1000/5032 (19.9%) rate=31.3/s eta=2.1min v=10 d=16 r=0 u=974
+    [arts_question] 1500/5032 (29.8%) rate=32.4/s eta=1.8min v=22 d=28 r=0 u=1450
+    [arts_question] 2000/5032 (39.7%) rate=31.9/s eta=1.6min v=34 d=44 r=0 u=1922
+    [arts_question] 2500/5032 (49.7%) rate=32.7/s eta=1.3min v=34 d=61 r=0 u=2405
+    [arts_question] 3000/5032 (59.6%) rate=34.0/s eta=1.0min v=36 d=76 r=0 u=2888
+    [arts_question] 3500/5032 (69.6%) rate=35.1/s eta=0.7min v=41 d=85 r=0 u=3374
+    [arts_question] 4000/5032 (79.5%) rate=33.9/s eta=0.5min v=43 d=89 r=1 u=3867
+    [arts_question] 4500/5032 (89.4%) rate=33.6/s eta=0.3min v=51 d=96 r=1 u=4352
+    [arts_question] 5000/5032 (99.4%) rate=34.0/s eta=0.0min v=53 d=106 r=1 u=4840
+  [arts_question] DONE: 5032/5032 in 2.5min (34.1/s) — v=54 d=106 r=1 u=4871
+
+=== Final Report ===
+Total elapsed: 2.5min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041813Z.json
+  arts_question             total=  5032 v=    54 d=   106 r=    1 u=  4871

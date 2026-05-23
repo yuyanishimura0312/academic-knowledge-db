@@ -1,0 +1,92 @@
+{
+  "start": "2026-05-23T02:47:58.831954+00:00",
+  "elapsed_min": 0.1,
+  "domains": [
+    {
+      "table": "business_models",
+      "total_targets": 685,
+      "completed": 685,
+      "elapsed_sec": 7.1,
+      "distribution": {
+        "url_present": 654,
+        "verified": 8,
+        "dead": 23
+      },
+      "failure_patterns_top": {
+        "http_404": 20,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 29: ordinal not in ran": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 39: ordinal not in ran": 1,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 38: ordinal not in ran": 1
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "BM01_064",
+            "url": "https://en.wikipedia.org/wiki/Timmers_E-Mall"
+          },
+          {
+            "id": "BM01_045",
+            "url": "https://en.wikipedia.org/wiki/Self-Service"
+          },
+          {
+            "id": "BM01_025",
+            "url": "https://en.wikipedia.org/wiki/Leverage_Customer_Data"
+          },
+          {
+            "id": "BM01_058",
+            "url": "https://en.wikipedia.org/wiki/Magretta_Business_Model_Framework"
+          },
+          {
+            "id": "BM01_029",
+            "url": "https://en.wikipedia.org/wiki/Make_More_of_It"
+          },
+          {
+            "id": "BM01_027",
+            "url": "https://en.wikipedia.org/wiki/Lock-In"
+          },
+          {
+            "id": "BM01_019",
+            "url": "https://en.wikipedia.org/wiki/From_Push-to-Pull"
+          },
+          {
+            "id": "BM01_032",
+            "url": "https://en.wikipedia.org/wiki/Open_Business_Model"
+          },
+          {
+            "id": "BM01_043",
+            "url": "https://en.wikipedia.org/wiki/Reverse_Innovation"
+          },
+          {
+            "id": "BM02_014",
+            "url": "https://en.wikipedia.org/wiki/Flat-Rate-Plus-Premium-Add-On"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 29: ordinal not in ran": [
+          {
+            "id": "BM09_046",
+            "url": "https://en.wikipedia.org/wiki/Tires-as-a-Service_—_Michelin_Pay-per-km"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 39: ordinal not in ran": [
+          {
+            "id": "BM09_045",
+            "url": "https://en.wikipedia.org/wiki/Lighting-as-a-Service_(LaaS)_—_Philips_Pay-per-Lux"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 38: ordinal not in ran": [
+          {
+            "id": "BM09_047",
+            "url": "https://en.wikipedia.org/wiki/Compressed_Air-as-a-Service_—_Atlas_Copco"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

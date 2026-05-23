@@ -1,0 +1,59 @@
+
+=== poetics_text ===
+  [poetics_text] 8084 concepts to verify
+    [poetics_text] 161/8084 (2.0%) rate=104.3/s eta=1.3min v=43 d=117 r=1 u=0
+    [poetics_text] 322/8084 (4.0%) rate=100.1/s eta=1.3min v=139 d=175 r=8 u=0
+    [poetics_text] 483/8084 (6.0%) rate=77.2/s eta=1.6min v=196 d=185 r=52 u=50
+    [poetics_text] 644/8084 (8.0%) rate=77.9/s eta=1.6min v=214 d=190 r=52 u=188
+    [poetics_text] 805/8084 (10.0%) rate=93.1/s eta=1.3min v=216 d=298 r=52 u=239
+    [poetics_text] 966/8084 (11.9%) rate=110.2/s eta=1.1min v=216 d=454 r=52 u=244
+    [poetics_text] 1127/8084 (13.9%) rate=126.9/s eta=0.9min v=217 d=608 r=52 u=250
+    [poetics_text] 1288/8084 (15.9%) rate=143.2/s eta=0.8min v=220 d=752 r=52 u=264
+    [poetics_text] 1449/8084 (17.9%) rate=158.8/s eta=0.7min v=221 d=912 r=52 u=264
+    [poetics_text] 1610/8084 (19.9%) rate=168.9/s eta=0.6min v=237 d=1055 r=52 u=266
+    [poetics_text] 1771/8084 (21.9%) rate=153.4/s eta=0.7min v=357 d=1094 r=52 u=268
+    [poetics_text] 1932/8084 (23.9%) rate=127.0/s eta=0.8min v=456 d=1156 r=52 u=268
+    [poetics_text] 2093/8084 (25.9%) rate=125.1/s eta=0.8min v=492 d=1171 r=52 u=378
+    [poetics_text] 2254/8084 (27.9%) rate=124.5/s eta=0.8min v=495 d=1173 r=52 u=534
+    [poetics_text] 2415/8084 (29.9%) rate=122.4/s eta=0.8min v=507 d=1183 r=52 u=673
+    [poetics_text] 2576/8084 (31.9%) rate=114.1/s eta=0.8min v=526 d=1185 r=52 u=813
+    [poetics_text] 2737/8084 (33.9%) rate=81.4/s eta=1.1min v=542 d=1204 r=52 u=939
+    [poetics_text] 2898/8084 (35.8%) rate=74.0/s eta=1.2min v=563 d=1302 r=52 u=981
+    [poetics_text] 3059/8084 (37.8%) rate=75.9/s eta=1.1min v=574 d=1447 r=53 u=985
+    [poetics_text] 3220/8084 (39.8%) rate=71.8/s eta=1.1min v=616 d=1532 r=57 u=1015
+    [poetics_text] 3381/8084 (41.8%) rate=72.0/s eta=1.1min v=619 d=1669 r=59 u=1034
+    [poetics_text] 3542/8084 (43.8%) rate=70.5/s eta=1.1min v=678 d=1689 r=60 u=1115
+    [poetics_text] 3703/8084 (45.8%) rate=68.7/s eta=1.1min v=718 d=1732 r=111 u=1142
+    [poetics_text] 3864/8084 (47.8%) rate=71.5/s eta=1.0min v=721 d=1881 r=112 u=1150
+    [poetics_text] 4025/8084 (49.8%) rate=72.7/s eta=0.9min v=732 d=1916 r=127 u=1250
+    [poetics_text] 4186/8084 (51.8%) rate=72.5/s eta=0.9min v=815 d=1918 r=148 u=1305
+    [poetics_text] 4347/8084 (53.8%) rate=72.6/s eta=0.9min v=878 d=1918 r=160 u=1391
+    [poetics_text] 4508/8084 (55.8%) rate=73.3/s eta=0.8min v=921 d=1926 r=160 u=1501
+    [poetics_text] 4669/8084 (57.8%) rate=74.0/s eta=0.8min v=1037 d=1951 r=160 u=1521
+    [poetics_text] 4830/8084 (59.7%) rate=76.0/s eta=0.7min v=1073 d=2071 r=160 u=1526
+    [poetics_text] 4991/8084 (61.7%) rate=76.7/s eta=0.7min v=1128 d=2166 r=171 u=1526
+    [poetics_text] 5152/8084 (63.7%) rate=78.5/s eta=0.6min v=1141 d=2297 r=188 u=1526
+    [poetics_text] 5313/8084 (65.7%) rate=79.1/s eta=0.6min v=1253 d=2311 r=195 u=1554
+    [poetics_text] 5474/8084 (67.7%) rate=81.4/s eta=0.5min v=1254 d=2459 r=195 u=1566
+    [poetics_text] 5635/8084 (69.7%) rate=83.0/s eta=0.5min v=1255 d=2575 r=196 u=1609
+    [poetics_text] 5796/8084 (71.7%) rate=84.2/s eta=0.5min v=1259 d=2661 r=197 u=1679
+    [poetics_text] 5957/8084 (73.7%) rate=85.1/s eta=0.4min v=1268 d=2728 r=202 u=1759
+    [poetics_text] 6118/8084 (75.7%) rate=86.3/s eta=0.4min v=1274 d=2799 r=203 u=1842
+    [poetics_text] 6279/8084 (77.7%) rate=75.4/s eta=0.4min v=1344 d=2807 r=209 u=1919
+    [poetics_text] 6440/8084 (79.7%) rate=74.8/s eta=0.4min v=1465 d=2809 r=210 u=1956
+    [poetics_text] 6601/8084 (81.7%) rate=75.1/s eta=0.3min v=1562 d=2873 r=210 u=1956
+    [poetics_text] 6762/8084 (83.6%) rate=76.8/s eta=0.3min v=1575 d=3021 r=210 u=1956
+    [poetics_text] 6923/8084 (85.6%) rate=75.0/s eta=0.3min v=1655 d=3058 r=214 u=1996
+    [poetics_text] 7084/8084 (87.6%) rate=72.8/s eta=0.2min v=1755 d=3059 r=214 u=2056
+    [poetics_text] 7245/8084 (89.6%) rate=71.0/s eta=0.2min v=1767 d=3072 r=214 u=2192
+    [poetics_text] 7406/8084 (91.6%) rate=68.0/s eta=0.2min v=1827 d=3143 r=214 u=2222
+    [poetics_text] 7567/8084 (93.6%) rate=68.1/s eta=0.1min v=1920 d=3198 r=214 u=2235
+    [poetics_text] 7728/8084 (95.6%) rate=67.7/s eta=0.1min v=2008 d=3206 r=240 u=2274
+    [poetics_text] 7889/8084 (97.6%) rate=66.2/s eta=0.0min v=2070 d=3207 r=304 u=2308
+    [poetics_text] 8050/8084 (99.6%) rate=66.0/s eta=0.0min v=2211 d=3214 r=317 u=2308
+  [poetics_text] DONE: 8084/8084 in 2.1min (65.5/s) — v=2233 d=3214 r=329 u=2308
+
+=== Final Report ===
+Total elapsed: 2.1min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T024634Z.json
+  poetics_text              total=  8084 v=  2233 d=  3214 r=  329 u=  2308

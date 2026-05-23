@@ -1,0 +1,115 @@
+{
+  "start_utc": "2026-05-23T04:19:30.097182+00:00",
+  "elapsed_min": 2.7,
+  "domains": [
+    {
+      "table": "social_theory",
+      "total_targets": 5045,
+      "completed": 5045,
+      "elapsed_sec": 162.9,
+      "distribution": {
+        "url_present": 4186,
+        "dead": 53,
+        "verified": 806
+      },
+      "failure_patterns_top": {
+        "transient_429": 4186,
+        "http_404": 53
+      },
+      "failure_samples": {
+        "transient_429": [
+          {
+            "id": "9901ed63-6e37-4d29-935a-23fa283bec8e",
+            "url": "https://en.wikipedia.org/wiki/Ecological_Theory_of_Direct_Perception"
+          },
+          {
+            "id": "2fd99977-a920-4d22-ad72-2bcb6693c32e",
+            "url": "https://en.wikipedia.org/wiki/Episodic_vs._Semantic_Memory_Distinction"
+          },
+          {
+            "id": "0913bec6-9096-46b4-aca4-17afb5bc8611",
+            "url": "https://en.wikipedia.org/wiki/Spotlight_Model_of_Visual_Attention"
+          },
+          {
+            "id": "1436488e-4527-476a-9524-9b7a00b6e2c8",
+            "url": "https://en.wikipedia.org/wiki/Filter_Theory_of_Selective_Attention"
+          },
+          {
+            "id": "85304000-7408-41bf-b080-03825e900093",
+            "url": "https://en.wikipedia.org/wiki/Feature_Integration_Theory"
+          },
+          {
+            "id": "56b14456-89c4-4606-958c-14d35421d04b",
+            "url": "https://en.wikipedia.org/wiki/Gestalt_Theory_of_Perception"
+          },
+          {
+            "id": "35f9aafb-8096-4678-8fab-3ad321f8ccb9",
+            "url": "https://en.wikipedia.org/wiki/Change_Blindness_and_Inattentional_Blindness"
+          },
+          {
+            "id": "bb0092b5-ce0d-4388-8cb2-d8f4411d956e",
+            "url": "https://en.wikipedia.org/wiki/Levels_of_Processing_Theory"
+          },
+          {
+            "id": "8b3bb8c7-d939-4538-b7f9-11d496d42e4e",
+            "url": "https://en.wikipedia.org/wiki/Cognitive_Map_Theory"
+          },
+          {
+            "id": "e4383d74-72a7-4938-83d0-6fc31347b889",
+            "url": "https://en.wikipedia.org/wiki/Multi-Store_Model_of_Memory"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "e01aa2dc-11bd-49df-a2dd-eae4fae9722e",
+            "url": "https://en.wikipedia.org/wiki/Adult_Attachment_Theory"
+          },
+          {
+            "id": "2f24857a-f835-476c-9971-f95af83ca04a",
+            "url": "https://en.wikipedia.org/wiki/Self-Regulated_Learning_Model_%28Zimmerman%29"
+          },
+          {
+            "id": "89",
+            "url": "https://en.wikipedia.org/wiki/Behavioral_Couple_Therapy_%28BCT%29_%2F_Integrative_Behavioral_Couple_Therapy_%28IBCT%29"
+          },
+          {
+            "id": "8d82fb82-27ac-4ecc-8ef9-1a0eb8175b5a",
+            "url": "https://en.wikipedia.org/wiki/Grit%3A_Perseverance_and_Passion_for_Long-Term_Goals"
+          },
+          {
+            "id": "52b25313-4de8-43a9-a2b5-06e6a9d93549",
+            "url": "https://en.wikipedia.org/wiki/Psychology_of_Climate_Change"
+          },
+          {
+            "id": "c4200457-098e-471a-9246-6ed3db55657b",
+            "url": "https://en.wikipedia.org/wiki/Typology_of_Allyship_Action_%28Reactive-Proactive_%C3%97_Level_of_Action%29"
+          },
+          {
+            "id": "5ab84114-df8f-42c5-92a2-d4ac4276dd2f",
+            "url": "https://en.wikipedia.org/wiki/Just-in-Time_Adaptive_Interventions%3A_Updated_Framework_for_Behavior_Change"
+          },
+          {
+            "id": "ffe4fc65-7997-4727-8e03-b315288acc23",
+            "url": "https://en.wikipedia.org/wiki/Communication_Theory_of_Society"
+          },
+          {
+            "id": "6cba0e8b-b047-4d95-852e-85a3d4f7de7d",
+            "url": "https://en.wikipedia.org/wiki/Emotional_Labor"
+          },
+          {
+            "id": "bc654b5d-c9fd-4cd5-a2e2-c85e2a46f617",
+            "url": "https://en.wikipedia.org/wiki/Microfoundations_of_Organizational_Social_Networks"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

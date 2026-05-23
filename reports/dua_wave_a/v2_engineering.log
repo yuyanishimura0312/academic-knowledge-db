@@ -1,0 +1,14 @@
+
+=== engineering_method ===
+  [engineering_method] 2987 url_present concepts to verify (workers=15, batch=1000)
+    [engineering_method] 500/2987 (16.7%) rate=41.8/s eta=1.0min v=4 d=8 r=0 u=488
+    [engineering_method] 1000/2987 (33.5%) rate=36.4/s eta=0.9min v=7 d=15 r=0 u=978
+    [engineering_method] 1500/2987 (50.2%) rate=35.2/s eta=0.7min v=10 d=21 r=0 u=1469
+    [engineering_method] 2000/2987 (67.0%) rate=33.7/s eta=0.5min v=13 d=31 r=0 u=1956
+    [engineering_method] 2500/2987 (83.7%) rate=32.5/s eta=0.2min v=19 d=36 r=0 u=2445
+  [engineering_method] DONE: 2987/2987 in 1.5min (32.2/s) — v=95 d=37 r=0 u=2855
+
+=== Final Report ===
+Total elapsed: 1.5min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_v2_20260523T041635Z.json
+  engineering_method        total=  2987 v=    95 d=    37 r=    0 u=  2855

@@ -1,0 +1,123 @@
+{
+  "start_utc": "2026-05-23T04:13:41.144144+00:00",
+  "elapsed_min": 1.6,
+  "domains": [
+    {
+      "table": "humanities_concept",
+      "total_targets": 3592,
+      "completed": 3592,
+      "elapsed_sec": 97.8,
+      "distribution": {
+        "verified": 515,
+        "dead": 129,
+        "url_present": 2945,
+        "redirect": 3
+      },
+      "failure_patterns_top": {
+        "transient_429": 2945,
+        "http_404": 128,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe9' in position 13: ordinal not in range": 1
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "c364",
+            "url": "https://en.wikipedia.org/wiki/Temporariness_%28Anthropological_Analysis%29"
+          },
+          {
+            "id": "c379",
+            "url": "https://en.wikipedia.org/wiki/Language_Death%2FEndangerment"
+          },
+          {
+            "id": "c376",
+            "url": "https://en.wikipedia.org/wiki/Literacy_Practices"
+          },
+          {
+            "id": "c373",
+            "url": "https://en.wikipedia.org/wiki/Cultural_Reproduction_%28Education%29"
+          },
+          {
+            "id": "c365",
+            "url": "https://en.wikipedia.org/wiki/Home_%28Anthropological_Concept%29"
+          },
+          {
+            "id": "c378",
+            "url": "https://en.wikipedia.org/wiki/Language_Ideology"
+          },
+          {
+            "id": "c366",
+            "url": "https://en.wikipedia.org/wiki/Displacement_%28Anthropological_Analysis%29"
+          },
+          {
+            "id": "c362",
+            "url": "https://en.wikipedia.org/wiki/Denaturalization%2FStatelessness"
+          },
+          {
+            "id": "c372",
+            "url": "https://en.wikipedia.org/wiki/Hidden_Curriculum"
+          },
+          {
+            "id": "c371",
+            "url": "https://en.wikipedia.org/wiki/Anthropology_of_Education"
+          }
+        ],
+        "transient_429": [
+          {
+            "id": "c210",
+            "url": "https://en.wikipedia.org/wiki/Matrilineality_and_Patrilineality"
+          },
+          {
+            "id": "c217",
+            "url": "https://en.wikipedia.org/wiki/Front_Stage_and_Back_Stage"
+          },
+          {
+            "id": "c216",
+            "url": "https://en.wikipedia.org/wiki/Frame_Analysis"
+          },
+          {
+            "id": "c218",
+            "url": "https://en.wikipedia.org/wiki/Pluriverse"
+          },
+          {
+            "id": "c221",
+            "url": "https://en.wikipedia.org/wiki/Social_Life_of_Things"
+          },
+          {
+            "id": "c225",
+            "url": "https://en.wikipedia.org/wiki/Making_of_Markets"
+          },
+          {
+            "id": "c224",
+            "url": "https://en.wikipedia.org/wiki/Performativity_of_Economics"
+          },
+          {
+            "id": "c213",
+            "url": "https://en.wikipedia.org/wiki/Techniques_of_the_Body"
+          },
+          {
+            "id": "c212",
+            "url": "https://en.wikipedia.org/wiki/Rites_of_Passage"
+          },
+          {
+            "id": "c223",
+            "url": "https://en.wikipedia.org/wiki/Anthropology_of_Degrowth"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\xe9' in position 13: ordinal not in range": [
+          {
+            "id": "dua_df4aec8aec58",
+            "url": "https://en.wikipedia.org/wiki/José_Carlos_Mariátegui"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

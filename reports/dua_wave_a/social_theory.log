@@ -1,0 +1,59 @@
+
+=== social_theory ===
+  [social_theory] 3324 concepts to verify
+    [social_theory] 66/3324 (2.0%) rate=23.2/s eta=2.3min v=1 d=0 r=0 u=65
+    [social_theory] 132/3324 (4.0%) rate=29.5/s eta=1.8min v=1 d=0 r=0 u=131
+    [social_theory] 198/3324 (6.0%) rate=32.6/s eta=1.6min v=1 d=0 r=0 u=197
+    [social_theory] 264/3324 (7.9%) rate=34.6/s eta=1.5min v=2 d=1 r=0 u=261
+    [social_theory] 330/3324 (9.9%) rate=36.0/s eta=1.4min v=3 d=1 r=0 u=326
+    [social_theory] 396/3324 (11.9%) rate=36.5/s eta=1.3min v=3 d=1 r=0 u=392
+    [social_theory] 462/3324 (13.9%) rate=36.1/s eta=1.3min v=3 d=3 r=0 u=456
+    [social_theory] 528/3324 (15.9%) rate=36.5/s eta=1.3min v=3 d=3 r=0 u=522
+    [social_theory] 594/3324 (17.9%) rate=37.0/s eta=1.2min v=3 d=3 r=0 u=588
+    [social_theory] 660/3324 (19.9%) rate=37.8/s eta=1.2min v=4 d=3 r=0 u=653
+    [social_theory] 726/3324 (21.8%) rate=38.3/s eta=1.1min v=6 d=5 r=0 u=715
+    [social_theory] 792/3324 (23.8%) rate=38.1/s eta=1.1min v=11 d=6 r=0 u=775
+    [social_theory] 858/3324 (25.8%) rate=38.9/s eta=1.1min v=12 d=6 r=0 u=840
+    [social_theory] 924/3324 (27.8%) rate=39.7/s eta=1.0min v=13 d=7 r=0 u=904
+    [social_theory] 990/3324 (29.8%) rate=39.3/s eta=1.0min v=15 d=7 r=0 u=968
+    [social_theory] 1056/3324 (31.8%) rate=39.0/s eta=1.0min v=17 d=8 r=0 u=1031
+    [social_theory] 1122/3324 (33.8%) rate=39.3/s eta=0.9min v=21 d=8 r=0 u=1093
+    [social_theory] 1188/3324 (35.7%) rate=39.2/s eta=0.9min v=22 d=9 r=0 u=1157
+    [social_theory] 1254/3324 (37.7%) rate=39.5/s eta=0.9min v=25 d=9 r=0 u=1220
+    [social_theory] 1320/3324 (39.7%) rate=39.8/s eta=0.8min v=28 d=10 r=0 u=1282
+    [social_theory] 1386/3324 (41.7%) rate=39.4/s eta=0.8min v=31 d=10 r=0 u=1345
+    [social_theory] 1452/3324 (43.7%) rate=39.7/s eta=0.8min v=32 d=12 r=0 u=1408
+    [social_theory] 1518/3324 (45.7%) rate=40.0/s eta=0.8min v=33 d=13 r=0 u=1472
+    [social_theory] 1584/3324 (47.7%) rate=40.0/s eta=0.7min v=37 d=14 r=0 u=1533
+    [social_theory] 1650/3324 (49.6%) rate=40.5/s eta=0.7min v=40 d=15 r=0 u=1595
+    [social_theory] 1716/3324 (51.6%) rate=40.9/s eta=0.7min v=42 d=16 r=0 u=1658
+    [social_theory] 1782/3324 (53.6%) rate=41.2/s eta=0.6min v=46 d=16 r=0 u=1720
+    [social_theory] 1848/3324 (55.6%) rate=41.2/s eta=0.6min v=50 d=17 r=0 u=1781
+    [social_theory] 1914/3324 (57.6%) rate=41.8/s eta=0.6min v=56 d=18 r=0 u=1840
+    [social_theory] 1980/3324 (59.6%) rate=42.3/s eta=0.5min v=62 d=19 r=0 u=1899
+    [social_theory] 2046/3324 (61.6%) rate=42.7/s eta=0.5min v=69 d=19 r=0 u=1958
+    [social_theory] 2112/3324 (63.5%) rate=43.3/s eta=0.5min v=77 d=19 r=0 u=2016
+    [social_theory] 2178/3324 (65.5%) rate=42.7/s eta=0.4min v=81 d=19 r=0 u=2078
+    [social_theory] 2244/3324 (67.5%) rate=42.8/s eta=0.4min v=91 d=20 r=0 u=2133
+    [social_theory] 2310/3324 (69.5%) rate=43.0/s eta=0.4min v=100 d=20 r=0 u=2190
+    [social_theory] 2376/3324 (71.5%) rate=43.3/s eta=0.4min v=104 d=20 r=0 u=2252
+    [social_theory] 2442/3324 (73.5%) rate=43.8/s eta=0.3min v=107 d=21 r=0 u=2314
+    [social_theory] 2508/3324 (75.5%) rate=44.1/s eta=0.3min v=110 d=21 r=0 u=2377
+    [social_theory] 2574/3324 (77.4%) rate=44.5/s eta=0.3min v=112 d=22 r=0 u=2440
+    [social_theory] 2640/3324 (79.4%) rate=44.9/s eta=0.3min v=115 d=23 r=0 u=2502
+    [social_theory] 2706/3324 (81.4%) rate=45.3/s eta=0.2min v=117 d=23 r=0 u=2566
+    [social_theory] 2772/3324 (83.4%) rate=45.4/s eta=0.2min v=123 d=23 r=0 u=2626
+    [social_theory] 2838/3324 (85.4%) rate=45.9/s eta=0.2min v=124 d=23 r=0 u=2691
+    [social_theory] 2904/3324 (87.4%) rate=46.2/s eta=0.2min v=124 d=23 r=0 u=2757
+    [social_theory] 2970/3324 (89.4%) rate=46.6/s eta=0.1min v=126 d=23 r=0 u=2821
+    [social_theory] 3036/3324 (91.3%) rate=46.8/s eta=0.1min v=128 d=25 r=0 u=2883
+    [social_theory] 3102/3324 (93.3%) rate=47.5/s eta=0.1min v=130 d=26 r=0 u=2946
+    [social_theory] 3168/3324 (95.3%) rate=47.9/s eta=0.1min v=134 d=26 r=0 u=3008
+    [social_theory] 3234/3324 (97.3%) rate=48.2/s eta=0.0min v=137 d=28 r=0 u=3069
+    [social_theory] 3300/3324 (99.3%) rate=48.6/s eta=0.0min v=141 d=28 r=0 u=3131
+  [social_theory] DONE: 3324/3324 in 1.2min (44.7/s) — v=143 d=28 r=0 u=3153
+
+=== Final Report ===
+Total elapsed: 1.2min
+Report saved: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_verification_20260523T025011Z.json
+  social_theory             total=  3324 v=   143 d=    28 r=    0 u=  3153

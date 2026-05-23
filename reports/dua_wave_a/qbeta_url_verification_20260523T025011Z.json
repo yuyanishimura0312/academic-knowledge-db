@@ -1,0 +1,71 @@
+{
+  "start": "2026-05-23T02:51:25.304221+00:00",
+  "elapsed_min": 1.2,
+  "domains": [
+    {
+      "table": "social_theory",
+      "total_targets": 3324,
+      "completed": 3324,
+      "elapsed_sec": 74.3,
+      "distribution": {
+        "url_present": 3153,
+        "verified": 143,
+        "dead": 28
+      },
+      "failure_patterns_top": {
+        "http_404": 28
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "56",
+            "url": "https://en.wikipedia.org/wiki/Item_Response_Theory_%28IRT%29"
+          },
+          {
+            "id": "b53d5749-3bd8-46a6-b0a6-a7f38ce48fa0",
+            "url": "https://en.wikipedia.org/wiki/Goal_Setting_Theory"
+          },
+          {
+            "id": "45800373-caf1-4812-acd7-6b6dcb1983c5",
+            "url": "https://en.wikipedia.org/wiki/False_Confession_Research"
+          },
+          {
+            "id": "st_gap022",
+            "url": "https://en.wikipedia.org/wiki/Subgame_Perfect_Equilibrium"
+          },
+          {
+            "id": "4232690b-b53b-4dc2-a7c8-51acfa3d6a50",
+            "url": "https://en.wikipedia.org/wiki/Value-Directed_Remembering%3A_A_Dual-Process_Lifespan_Perspective"
+          },
+          {
+            "id": "st_gap096",
+            "url": "https://en.wikipedia.org/wiki/Sociotechnical_Imaginaries"
+          },
+          {
+            "id": "st_gap176",
+            "url": "https://en.wikipedia.org/wiki/Critical_Juncture"
+          },
+          {
+            "id": "e9f2edc5-8e08-45b1-820c-e927d4f76612",
+            "url": "https://en.wikipedia.org/wiki/Cleavage_Theory"
+          },
+          {
+            "id": "44911b06-d970-406a-8f8d-582a57d2db12",
+            "url": "https://en.wikipedia.org/wiki/Multi-level_Governance"
+          },
+          {
+            "id": "cba8e2a6-174a-4bef-849f-529d432dbb52",
+            "url": "https://en.wikipedia.org/wiki/Experimentalist_Governance"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

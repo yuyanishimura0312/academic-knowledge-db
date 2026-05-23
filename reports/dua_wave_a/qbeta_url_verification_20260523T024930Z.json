@@ -1,0 +1,71 @@
+{
+  "start": "2026-05-23T02:50:56.869493+00:00",
+  "elapsed_min": 1.4,
+  "domains": [
+    {
+      "table": "natural_discovery",
+      "total_targets": 3691,
+      "completed": 3691,
+      "elapsed_sec": 86.7,
+      "distribution": {
+        "url_present": 3506,
+        "verified": 157,
+        "dead": 28
+      },
+      "failure_patterns_top": {
+        "http_404": 28
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "5c3fc3df-c000-4475-ab9c-0afa9adb136c",
+            "url": "https://en.wikipedia.org/wiki/Ecological_Speciation"
+          },
+          {
+            "id": "3cc89c76-5eb8-4aa4-ba03-344bc55f6c4b",
+            "url": "https://en.wikipedia.org/wiki/Adaptive_Landscape_%28Fitness_Landscape%29"
+          },
+          {
+            "id": "e6b5bcd1-81bd-49a5-833f-ecaef65beeee",
+            "url": "https://en.wikipedia.org/wiki/Evolutionary_Psychology_Approach"
+          },
+          {
+            "id": "4fb610d3-7679-4cac-9df6-c1bbf9aa81eb",
+            "url": "https://en.wikipedia.org/wiki/Sexual_Selection_and_Speciation"
+          },
+          {
+            "id": "3d7f8ad4-2dd6-4c2f-8754-6e05a6cff0bf",
+            "url": "https://en.wikipedia.org/wiki/Ecosystem_Degradation_and_Human_Health"
+          },
+          {
+            "id": "caaf19a1-2533-42d6-ab88-8a62fa84fd48",
+            "url": "https://en.wikipedia.org/wiki/Landscape-Scale_Conservation_of_Rare_Species"
+          },
+          {
+            "id": "c1de5763-9d17-4248-b6b8-289430b206fc",
+            "url": "https://en.wikipedia.org/wiki/Reproductive_Interference"
+          },
+          {
+            "id": "nd_gap012",
+            "url": "https://en.wikipedia.org/wiki/Slow-Roll_Inflation"
+          },
+          {
+            "id": "nd_gap225",
+            "url": "https://en.wikipedia.org/wiki/Big_Bang_Nucleosynthesis_%28BBN%29"
+          },
+          {
+            "id": "nd_gap212",
+            "url": "https://en.wikipedia.org/wiki/Baryon_Acoustic_Oscillations_%28BAO%29"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

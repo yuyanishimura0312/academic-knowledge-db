@@ -1,0 +1,27 @@
+{
+  "start": "2026-05-23T02:55:25.830444+00:00",
+  "elapsed_min": 2.8,
+  "domains": [
+    {
+      "table": "humanities_concept",
+      "total_targets": 3095,
+      "completed": 3095,
+      "elapsed_sec": 168.7,
+      "distribution": {
+        "url_present": 2719,
+        "verified": 114,
+        "dead": 249,
+        "redirect": 13
+      },
+      "failure_patterns_top": {
+        "http_404": 249
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 8,
+    "user_agent": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15",
+    "timeout_sec": 15,
+    "per_req_sleep_sec": 0.05
+  }
+}

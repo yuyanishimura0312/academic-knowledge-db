@@ -1,0 +1,114 @@
+{
+  "start_utc": "2026-05-23T04:16:29.704145+00:00",
+  "elapsed_min": 0.3,
+  "domains": [
+    {
+      "table": "business_models",
+      "total_targets": 654,
+      "completed": 654,
+      "elapsed_sec": 16.1,
+      "distribution": {
+        "url_present": 637,
+        "dead": 17
+      },
+      "failure_patterns_top": {
+        "transient_429": 637,
+        "http_404": 17
+      },
+      "failure_samples": {
+        "transient_429": [
+          {
+            "id": "BM01_021",
+            "url": "https://en.wikipedia.org/wiki/Hidden_Revenue"
+          },
+          {
+            "id": "BM01_033",
+            "url": "https://en.wikipedia.org/wiki/Open_Source"
+          },
+          {
+            "id": "BM01_040",
+            "url": "https://en.wikipedia.org/wiki/Rent_Instead_of_Buy"
+          },
+          {
+            "id": "BM01_018",
+            "url": "https://en.wikipedia.org/wiki/Freemium"
+          },
+          {
+            "id": "BM01_035",
+            "url": "https://en.wikipedia.org/wiki/Pay_Per_Use"
+          },
+          {
+            "id": "BM01_036",
+            "url": "https://en.wikipedia.org/wiki/Pay_What_You_Want"
+          },
+          {
+            "id": "BM01_024",
+            "url": "https://en.wikipedia.org/wiki/Layer_Player"
+          },
+          {
+            "id": "BM01_034",
+            "url": "https://en.wikipedia.org/wiki/Orchestrator"
+          },
+          {
+            "id": "BM01_022",
+            "url": "https://en.wikipedia.org/wiki/Ingredient_Branding"
+          },
+          {
+            "id": "BM01_031",
+            "url": "https://en.wikipedia.org/wiki/No_Frills"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "BM01_047",
+            "url": "https://en.wikipedia.org/wiki/Solution_Provider"
+          },
+          {
+            "id": "BM02_084",
+            "url": "https://en.wikipedia.org/wiki/Cloud_Storage_SaaS_Subscription"
+          },
+          {
+            "id": "BM08_017",
+            "url": "https://en.wikipedia.org/wiki/Inference-as-a-Service_Tiered_Pricing"
+          },
+          {
+            "id": "BM03_036",
+            "url": "https://en.wikipedia.org/wiki/Travel_Platform_(Airbnb)"
+          },
+          {
+            "id": "BM03_060",
+            "url": "https://en.wikipedia.org/wiki/AI_Model_Marketplace"
+          },
+          {
+            "id": "BM05_057",
+            "url": "https://en.wikipedia.org/wiki/Lemon_Squeezy_SaaS_Monetization"
+          },
+          {
+            "id": "BM07_048",
+            "url": "https://en.wikipedia.org/wiki/Data_Licensing_/_Data_Sales"
+          },
+          {
+            "id": "BM08_085",
+            "url": "https://en.wikipedia.org/wiki/Reserved_AI_Capacity_Pricing"
+          },
+          {
+            "id": "BM09_051",
+            "url": "https://en.wikipedia.org/wiki/Fleet_Management_Subscription_(BM09_variant)"
+          },
+          {
+            "id": "BM09_013",
+            "url": "https://en.wikipedia.org/wiki/Drone-as-a-Service_(DaaS)"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

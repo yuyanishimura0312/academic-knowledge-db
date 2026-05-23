@@ -1,0 +1,115 @@
+{
+  "start_utc": "2026-05-23T04:18:08.787828+00:00",
+  "elapsed_min": 1.5,
+  "domains": [
+    {
+      "table": "engineering_method",
+      "total_targets": 2987,
+      "completed": 2987,
+      "elapsed_sec": 92.8,
+      "distribution": {
+        "url_present": 2855,
+        "dead": 37,
+        "verified": 95
+      },
+      "failure_patterns_top": {
+        "transient_429": 2855,
+        "http_404": 37
+      },
+      "failure_samples": {
+        "transient_429": [
+          {
+            "id": "eng007",
+            "url": "https://en.wikipedia.org/wiki/Diffusion_Model"
+          },
+          {
+            "id": "eng013",
+            "url": "https://en.wikipedia.org/wiki/Bidirectional_Encoder_Representations_from_Transformers"
+          },
+          {
+            "id": "eng016",
+            "url": "https://en.wikipedia.org/wiki/Retrieval-Augmented_Generation"
+          },
+          {
+            "id": "eng005",
+            "url": "https://en.wikipedia.org/wiki/Generative_Adversarial_Network_%28GAN%29"
+          },
+          {
+            "id": "eng015",
+            "url": "https://en.wikipedia.org/wiki/Word2Vec"
+          },
+          {
+            "id": "eng008",
+            "url": "https://en.wikipedia.org/wiki/Batch_Normalization"
+          },
+          {
+            "id": "eng011",
+            "url": "https://en.wikipedia.org/wiki/Neural_Architecture_Search_%28NAS%29"
+          },
+          {
+            "id": "eng009",
+            "url": "https://en.wikipedia.org/wiki/Dropout"
+          },
+          {
+            "id": "eng001",
+            "url": "https://en.wikipedia.org/wiki/Transformer_Architecture"
+          },
+          {
+            "id": "eng014",
+            "url": "https://en.wikipedia.org/wiki/GPT_Series_%28Large_Language_Models%29"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "eng046",
+            "url": "https://en.wikipedia.org/wiki/Local_Interpretable_Model-agnostic_Explanations"
+          },
+          {
+            "id": "eng196",
+            "url": "https://en.wikipedia.org/wiki/NP-Completeness_Theory"
+          },
+          {
+            "id": "eng310",
+            "url": "https://en.wikipedia.org/wiki/Wind_Turbine_Wake_Modeling"
+          },
+          {
+            "id": "eng335",
+            "url": "https://en.wikipedia.org/wiki/Single-Cell_RNA_Sequencing"
+          },
+          {
+            "id": "eng381",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_Microbial_Consortia_for_Remediation"
+          },
+          {
+            "id": "eng408",
+            "url": "https://en.wikipedia.org/wiki/Green_Hydrogen_Cost_Reduction_Roadmap"
+          },
+          {
+            "id": "0d2f70ab-a012-4f75-bb38-37505d24d7e7",
+            "url": "https://en.wikipedia.org/wiki/Morse_Code_Communication"
+          },
+          {
+            "id": "c3363ff9-2b10-48a3-9b2c-63905c0cbbf4",
+            "url": "https://en.wikipedia.org/wiki/Reinforced_Concrete_Construction"
+          },
+          {
+            "id": "46c0362e-1ab8-424f-a32b-9d23c0de916c",
+            "url": "https://en.wikipedia.org/wiki/Time-Sharing_Systems"
+          },
+          {
+            "id": "f6d4a7a6-7a50-412d-beb2-d88f6df23ed3",
+            "url": "https://en.wikipedia.org/wiki/Sequence-to-Sequence_Learning"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

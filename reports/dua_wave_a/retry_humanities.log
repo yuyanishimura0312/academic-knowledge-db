@@ -1,0 +1,57 @@
+
+=== humanities_concept (budget: 60.0min) ===
+  [humanities_concept] 3095 concepts to retry
+    [humanities_concept] 61/3095 (2.0%) rate=0.4/s eta=138.4min v=2 d=4 r=0 u=55
+    [humanities_concept] 122/3095 (3.9%) rate=0.7/s eta=67.8min v=4 d=10 r=0 u=108
+    [humanities_concept] 183/3095 (5.9%) rate=1.1/s eta=44.3min v=5 d=12 r=0 u=166
+    [humanities_concept] 244/3095 (7.9%) rate=1.5/s eta=32.5min v=7 d=20 r=0 u=217
+    [humanities_concept] 305/3095 (9.9%) rate=1.8/s eta=25.5min v=8 d=25 r=0 u=272
+    [humanities_concept] 366/3095 (11.8%) rate=2.2/s eta=20.8min v=10 d=25 r=0 u=331
+    [humanities_concept] 427/3095 (13.8%) rate=2.6/s eta=17.4min v=12 d=30 r=1 u=384
+    [humanities_concept] 488/3095 (15.8%) rate=2.9/s eta=14.9min v=13 d=32 r=2 u=441
+    [humanities_concept] 549/3095 (17.7%) rate=3.3/s eta=12.9min v=13 d=37 r=2 u=497
+    [humanities_concept] 610/3095 (19.7%) rate=3.7/s eta=11.3min v=13 d=43 r=2 u=552
+    [humanities_concept] 671/3095 (21.7%) rate=4.0/s eta=10.1min v=14 d=48 r=2 u=607
+    [humanities_concept] 732/3095 (23.7%) rate=4.4/s eta=9.0min v=18 d=51 r=2 u=661
+    [humanities_concept] 793/3095 (25.6%) rate=4.7/s eta=8.1min v=21 d=55 r=2 u=715
+    [humanities_concept] 854/3095 (27.6%) rate=5.1/s eta=7.3min v=21 d=60 r=2 u=771
+    [humanities_concept] 915/3095 (29.6%) rate=5.5/s eta=6.6min v=23 d=63 r=2 u=827
+    [humanities_concept] 976/3095 (31.5%) rate=5.8/s eta=6.0min v=25 d=67 r=2 u=882
+    [humanities_concept] 1037/3095 (33.5%) rate=6.2/s eta=5.5min v=28 d=72 r=2 u=935
+    [humanities_concept] 1098/3095 (35.5%) rate=6.6/s eta=5.1min v=31 d=77 r=2 u=988
+    [humanities_concept] 1159/3095 (37.4%) rate=6.9/s eta=4.6min v=34 d=81 r=3 u=1041
+    [humanities_concept] 1220/3095 (39.4%) rate=7.3/s eta=4.3min v=36 d=84 r=4 u=1096
+    [humanities_concept] 1281/3095 (41.4%) rate=7.7/s eta=3.9min v=37 d=88 r=5 u=1151
+    [humanities_concept] 1342/3095 (43.4%) rate=8.0/s eta=3.6min v=39 d=94 r=5 u=1204
+    [humanities_concept] 1403/3095 (45.3%) rate=8.4/s eta=3.4min v=43 d=100 r=6 u=1254
+    [humanities_concept] 1464/3095 (47.3%) rate=8.8/s eta=3.1min v=43 d=104 r=6 u=1311
+    [humanities_concept] 1525/3095 (49.3%) rate=9.1/s eta=2.9min v=45 d=105 r=6 u=1369
+    [humanities_concept] 1586/3095 (51.2%) rate=9.5/s eta=2.6min v=47 d=110 r=6 u=1423
+    [humanities_concept] 1647/3095 (53.2%) rate=9.9/s eta=2.4min v=54 d=115 r=6 u=1472
+    [humanities_concept] 1708/3095 (55.2%) rate=10.2/s eta=2.3min v=60 d=118 r=6 u=1524
+    [humanities_concept] 1769/3095 (57.2%) rate=10.6/s eta=2.1min v=63 d=127 r=7 u=1572
+    [humanities_concept] 1830/3095 (59.1%) rate=11.0/s eta=1.9min v=67 d=137 r=7 u=1619
+    [humanities_concept] 1891/3095 (61.1%) rate=11.3/s eta=1.8min v=70 d=145 r=7 u=1669
+    [humanities_concept] 1952/3095 (63.1%) rate=11.7/s eta=1.6min v=72 d=155 r=7 u=1718
+    [humanities_concept] 2013/3095 (65.0%) rate=12.1/s eta=1.5min v=79 d=166 r=9 u=1759
+    [humanities_concept] 2074/3095 (67.0%) rate=12.4/s eta=1.4min v=84 d=171 r=9 u=1810
+    [humanities_concept] 2135/3095 (69.0%) rate=12.8/s eta=1.3min v=89 d=177 r=9 u=1860
+    [humanities_concept] 2196/3095 (71.0%) rate=13.1/s eta=1.1min v=91 d=186 r=9 u=1910
+    [humanities_concept] 2257/3095 (72.9%) rate=13.5/s eta=1.0min v=93 d=189 r=9 u=1966
+    [humanities_concept] 2318/3095 (74.9%) rate=13.9/s eta=0.9min v=94 d=195 r=10 u=2019
+    [humanities_concept] 2379/3095 (76.9%) rate=14.2/s eta=0.8min v=94 d=198 r=10 u=2077
+    [humanities_concept] 2440/3095 (78.8%) rate=14.6/s eta=0.7min v=98 d=201 r=10 u=2131
+    [humanities_concept] 2501/3095 (80.8%) rate=15.0/s eta=0.7min v=102 d=202 r=10 u=2187
+    [humanities_concept] 2562/3095 (82.8%) rate=15.3/s eta=0.6min v=102 d=212 r=11 u=2237
+    [humanities_concept] 2623/3095 (84.7%) rate=15.7/s eta=0.5min v=102 d=215 r=11 u=2295
+    [humanities_concept] 2684/3095 (86.7%) rate=16.1/s eta=0.4min v=106 d=221 r=11 u=2346
+    [humanities_concept] 2745/3095 (88.7%) rate=16.4/s eta=0.4min v=106 d=226 r=12 u=2401
+    [humanities_concept] 2806/3095 (90.7%) rate=16.8/s eta=0.3min v=107 d=233 r=12 u=2454
+    [humanities_concept] 2867/3095 (92.6%) rate=17.2/s eta=0.2min v=107 d=235 r=12 u=2513
+    [humanities_concept] 2928/3095 (94.6%) rate=17.5/s eta=0.2min v=108 d=240 r=12 u=2568
+    [humanities_concept] 2989/3095 (96.6%) rate=17.9/s eta=0.1min v=110 d=243 r=12 u=2624
+    [humanities_concept] 3050/3095 (98.5%) rate=18.3/s eta=0.0min v=111 d=246 r=12 u=2681
+  [humanities_concept] DONE: 3095/3095 in 2.8min — v=114 d=249 r=13 u=2719
+
+Report: /Users/nishimura+/projects/research/academic-knowledge-db/reports/dua_wave_a/qbeta_url_retry_20260523T025237Z.json
+Total elapsed: 2.8min

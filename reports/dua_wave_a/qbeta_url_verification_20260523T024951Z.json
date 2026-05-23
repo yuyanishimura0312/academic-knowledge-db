@@ -1,0 +1,1110 @@
+{
+  "start": "2026-05-23T02:51:29.521504+00:00",
+  "elapsed_min": 1.6,
+  "domains": [
+    {
+      "table": "startup_theory",
+      "total_targets": 6455,
+      "completed": 6455,
+      "elapsed_sec": 97.8,
+      "distribution": {
+        "url_present": 4354,
+        "dead": 2100,
+        "verified": 1
+      },
+      "failure_patterns_top": {
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 39: ordinal not in ran": 142,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 36: ordinal not in ran": 141,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 37: ordinal not in ran": 117,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 35: ordinal not in ran": 116,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 34: ordinal not in ran": 95,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 38: ordinal not in ran": 95,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 41: ordinal not in ran": 94,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 44: ordinal not in ran": 72,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 40: ordinal not in ran": 71,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 42: ordinal not in ran": 70,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-21: ordinal not in range(12": 62,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-19: ordinal not in range(12": 51,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 46: ordinal not in ran": 48,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 49: ordinal not in ran": 48,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 45: ordinal not in ran": 47,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 33: ordinal not in ran": 46,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-22: ordinal not in range(12": 44,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-20: ordinal not in range(12": 43,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-18: ordinal not in range(12": 42,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-23: ordinal not in range(12": 39,
+        "http_404": 37,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 54: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 47: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 52: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 43: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 30: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 31: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 29: ordinal not in ran": 24,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-25: ordinal not in range(12": 22,
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-24: ordinal not in range(12": 21
+      },
+      "failure_samples": {
+        "http_404": [
+          {
+            "id": "su_cog_257",
+            "url": "https://en.wikipedia.org/wiki/Fear_of_Failure_in_Entrepreneurship:_Recent_Advances"
+          },
+          {
+            "id": "su_cog_361",
+            "url": "https://en.wikipedia.org/wiki/Flow_States_in_Entrepreneurship:_Contextual_Variations"
+          },
+          {
+            "id": "su_cog_370",
+            "url": "https://en.wikipedia.org/wiki/Prospect_Theory_Applied_to_Entrepreneurship:_Industry_Applications"
+          },
+          {
+            "id": "su_cog_401",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Alertness:_Policy_Implications"
+          },
+          {
+            "id": "su_opp_222",
+            "url": "https://en.wikipedia.org/wiki/Blue_Ocean_Strategy:_Practical_Implications"
+          },
+          {
+            "id": "su_opp_268",
+            "url": "https://en.wikipedia.org/wiki/Lean_Validation_and_MVP:_Mediating_Mechanisms"
+          },
+          {
+            "id": "su_opp_286",
+            "url": "https://en.wikipedia.org/wiki/Opportunity_Framework_(Shane_&_Venkataraman_2000):_Industry_Applications"
+          },
+          {
+            "id": "su_opp_306",
+            "url": "https://en.wikipedia.org/wiki/Prior_Knowledge_and_Opportunity_Recognition_(Shane_2000):_Educational_Implications"
+          },
+          {
+            "id": "su_opp_588",
+            "url": "https://en.wikipedia.org/wiki/Discovery_vs_Creation_Theory_(Alvarez_&_Barney_2007):_Regulatory_Environment"
+          },
+          {
+            "id": "su_opp_621",
+            "url": "https://en.wikipedia.org/wiki/Prior_Knowledge_and_Opportunity_Recognition_(Shane_2000):_AI-Augmented_Discovery"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2013' in position 15: ordinal not in ran": [
+          {
+            "id": "su_exit_004",
+            "url": "https://en.wikipedia.org/wiki/SPAC_–_Special_Purpose_Acquisition_Company"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 39: ordinal not in ran": [
+          {
+            "id": "su_tech_030",
+            "url": "https://en.wikipedia.org/wiki/University_Spinoff_Formation_—_Supply_Chain_Design"
+          },
+          {
+            "id": "su_tech_040",
+            "url": "https://en.wikipedia.org/wiki/Patent_Strategy_for_Startups_—_Partnership_Models"
+          },
+          {
+            "id": "su_tech_046",
+            "url": "https://en.wikipedia.org/wiki/Dual-Use_Technology_Startups_—_Technology_Validation"
+          },
+          {
+            "id": "su_tech_053",
+            "url": "https://en.wikipedia.org/wiki/Space_Tech_Startup_Ecosystem_—_Co-founder_Dynamics"
+          },
+          {
+            "id": "su_tech_057",
+            "url": "https://en.wikipedia.org/wiki/Computational_Drug_Discovery_—_Grant_Strategy"
+          },
+          {
+            "id": "su_tech_059",
+            "url": "https://en.wikipedia.org/wiki/University_Spinoff_Formation_—_Manufacturing_Scale-up"
+          },
+          {
+            "id": "su_tech_069",
+            "url": "https://en.wikipedia.org/wiki/Patent_Strategy_for_Startups_—_Regulatory_Navigation"
+          },
+          {
+            "id": "su_tech_075",
+            "url": "https://en.wikipedia.org/wiki/Dual-Use_Technology_Startups_—_International_Expansion"
+          },
+          {
+            "id": "su_tech_082",
+            "url": "https://en.wikipedia.org/wiki/Space_Tech_Startup_Ecosystem_—_Mentorship_Networks"
+          },
+          {
+            "id": "su_tech_086",
+            "url": "https://en.wikipedia.org/wiki/Computational_Drug_Discovery_—_Research_Collaboration"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 54: ordinal not in ran": [
+          {
+            "id": "su_tech_031",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_060",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Supply_Chain_Design"
+          },
+          {
+            "id": "su_tech_089",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Manufacturing_Scale-up"
+          },
+          {
+            "id": "su_tech_118",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Clinical_Translation"
+          },
+          {
+            "id": "su_tech_147",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Grant_Strategy"
+          },
+          {
+            "id": "su_tech_176",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Research_Collaboration"
+          },
+          {
+            "id": "su_tech_205",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Government_Support"
+          },
+          {
+            "id": "su_tech_234",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Accelerator_Impact"
+          },
+          {
+            "id": "su_tech_263",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Co-founder_Dynamics"
+          },
+          {
+            "id": "su_tech_292",
+            "url": "https://en.wikipedia.org/wiki/Technology_Transfer_Office_(TTO)_Management_—_Mentorship_Networks"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 34: ordinal not in ran": [
+          {
+            "id": "su_tech_032",
+            "url": "https://en.wikipedia.org/wiki/Bayh-Dole_Act_Framework_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_034",
+            "url": "https://en.wikipedia.org/wiki/AI/ML_Startup_Ecosystem_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_061",
+            "url": "https://en.wikipedia.org/wiki/Bayh-Dole_Act_Framework_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_063",
+            "url": "https://en.wikipedia.org/wiki/AI/ML_Startup_Ecosystem_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_090",
+            "url": "https://en.wikipedia.org/wiki/Bayh-Dole_Act_Framework_—_Supply_Chain_Design"
+          },
+          {
+            "id": "su_tech_092",
+            "url": "https://en.wikipedia.org/wiki/AI/ML_Startup_Ecosystem_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_119",
+            "url": "https://en.wikipedia.org/wiki/Bayh-Dole_Act_Framework_—_Manufacturing_Scale-up"
+          },
+          {
+            "id": "su_tech_121",
+            "url": "https://en.wikipedia.org/wiki/AI/ML_Startup_Ecosystem_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_148",
+            "url": "https://en.wikipedia.org/wiki/Bayh-Dole_Act_Framework_—_Clinical_Translation"
+          },
+          {
+            "id": "su_tech_150",
+            "url": "https://en.wikipedia.org/wiki/AI/ML_Startup_Ecosystem_—_Supply_Chain_Design"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 36: ordinal not in ran": [
+          {
+            "id": "su_tech_033",
+            "url": "https://en.wikipedia.org/wiki/Biotech_Startup_Formation_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_043",
+            "url": "https://en.wikipedia.org/wiki/DARPA_Model_of_Innovation_—_Talent_Acquisition"
+          },
+          {
+            "id": "su_tech_054",
+            "url": "https://en.wikipedia.org/wiki/Robotics_Startup_Strategy_—_Accelerator_Impact"
+          },
+          {
+            "id": "su_tech_062",
+            "url": "https://en.wikipedia.org/wiki/Biotech_Startup_Formation_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_072",
+            "url": "https://en.wikipedia.org/wiki/DARPA_Model_of_Innovation_—_IP_Monetization"
+          },
+          {
+            "id": "su_tech_083",
+            "url": "https://en.wikipedia.org/wiki/Robotics_Startup_Strategy_—_Co-founder_Dynamics"
+          },
+          {
+            "id": "su_tech_091",
+            "url": "https://en.wikipedia.org/wiki/Biotech_Startup_Formation_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_101",
+            "url": "https://en.wikipedia.org/wiki/DARPA_Model_of_Innovation_—_Exit_Strategies"
+          },
+          {
+            "id": "su_tech_112",
+            "url": "https://en.wikipedia.org/wiki/Robotics_Startup_Strategy_—_Mentorship_Networks"
+          },
+          {
+            "id": "su_tech_120",
+            "url": "https://en.wikipedia.org/wiki/Biotech_Startup_Formation_—_Supply_Chain_Design"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 46: ordinal not in ran": [
+          {
+            "id": "su_tech_035",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Failure_Modes"
+          },
+          {
+            "id": "su_tech_064",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_093",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_122",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_151",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_180",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Supply_Chain_Design"
+          },
+          {
+            "id": "su_tech_209",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Manufacturing_Scale-up"
+          },
+          {
+            "id": "su_tech_238",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Clinical_Translation"
+          },
+          {
+            "id": "su_tech_267",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Grant_Strategy"
+          },
+          {
+            "id": "su_tech_296",
+            "url": "https://en.wikipedia.org/wiki/Quantum_Computing_Startup_Landscape_—_Research_Collaboration"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 37: ordinal not in ran": [
+          {
+            "id": "su_tech_036",
+            "url": "https://en.wikipedia.org/wiki/Cleantech_Venture_Strategy_—_Scaling_Challenges"
+          },
+          {
+            "id": "su_tech_055",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_Biology_Ventures_—_Government_Support"
+          },
+          {
+            "id": "su_tech_065",
+            "url": "https://en.wikipedia.org/wiki/Cleantech_Venture_Strategy_—_Failure_Modes"
+          },
+          {
+            "id": "su_tech_084",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_Biology_Ventures_—_Accelerator_Impact"
+          },
+          {
+            "id": "su_tech_094",
+            "url": "https://en.wikipedia.org/wiki/Cleantech_Venture_Strategy_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_113",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_Biology_Ventures_—_Co-founder_Dynamics"
+          },
+          {
+            "id": "su_tech_123",
+            "url": "https://en.wikipedia.org/wiki/Cleantech_Venture_Strategy_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_142",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_Biology_Ventures_—_Mentorship_Networks"
+          },
+          {
+            "id": "su_tech_152",
+            "url": "https://en.wikipedia.org/wiki/Cleantech_Venture_Strategy_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_171",
+            "url": "https://en.wikipedia.org/wiki/Synthetic_Biology_Ventures_—_Board_Composition"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 38: ordinal not in ran": [
+          {
+            "id": "su_tech_037",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_tech_066",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Scaling_Challenges"
+          },
+          {
+            "id": "su_tech_095",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Failure_Modes"
+          },
+          {
+            "id": "su_tech_124",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_153",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_182",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_211",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_240",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Supply_Chain_Design"
+          },
+          {
+            "id": "su_tech_269",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Manufacturing_Scale-up"
+          },
+          {
+            "id": "su_tech_298",
+            "url": "https://en.wikipedia.org/wiki/Hardware_Startup_Challenges_—_Clinical_Translation"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 47: ordinal not in ran": [
+          {
+            "id": "su_tech_038",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Team_Composition"
+          },
+          {
+            "id": "su_tech_067",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_tech_096",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Scaling_Challenges"
+          },
+          {
+            "id": "su_tech_125",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Failure_Modes"
+          },
+          {
+            "id": "su_tech_154",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_183",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_212",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Investment_Patterns"
+          },
+          {
+            "id": "su_tech_241",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Ecosystem_Dynamics"
+          },
+          {
+            "id": "su_tech_270",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Supply_Chain_Design"
+          },
+          {
+            "id": "su_tech_299",
+            "url": "https://en.wikipedia.org/wiki/Deep_Tech_Definition_(BCG_Framework)_—_Manufacturing_Scale-up"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 41: ordinal not in ran": [
+          {
+            "id": "su_tech_039",
+            "url": "https://en.wikipedia.org/wiki/Science-Based_Entrepreneurship_—_Regulatory_Navigation"
+          },
+          {
+            "id": "su_tech_049",
+            "url": "https://en.wikipedia.org/wiki/Spin-in_Technology_Acquisition_—_Pivot_Dynamics"
+          },
+          {
+            "id": "su_tech_056",
+            "url": "https://en.wikipedia.org/wiki/Medical_Device_Startup_Pathway_—_Research_Collaboration"
+          },
+          {
+            "id": "su_tech_068",
+            "url": "https://en.wikipedia.org/wiki/Science-Based_Entrepreneurship_—_Team_Composition"
+          },
+          {
+            "id": "su_tech_078",
+            "url": "https://en.wikipedia.org/wiki/Spin-in_Technology_Acquisition_—_Revenue_Models"
+          },
+          {
+            "id": "su_tech_085",
+            "url": "https://en.wikipedia.org/wiki/Medical_Device_Startup_Pathway_—_Government_Support"
+          },
+          {
+            "id": "su_tech_097",
+            "url": "https://en.wikipedia.org/wiki/Science-Based_Entrepreneurship_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_tech_107",
+            "url": "https://en.wikipedia.org/wiki/Spin-in_Technology_Acquisition_—_Customer_Discovery"
+          },
+          {
+            "id": "su_tech_114",
+            "url": "https://en.wikipedia.org/wiki/Medical_Device_Startup_Pathway_—_Accelerator_Impact"
+          },
+          {
+            "id": "su_tech_126",
+            "url": "https://en.wikipedia.org/wiki/Science-Based_Entrepreneurship_—_Scaling_Challenges"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 44: ordinal not in ran": [
+          {
+            "id": "su_tech_041",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Exit_Strategies"
+          },
+          {
+            "id": "su_tech_070",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Partnership_Models"
+          },
+          {
+            "id": "su_tech_099",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Regulatory_Navigation"
+          },
+          {
+            "id": "su_tech_128",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Team_Composition"
+          },
+          {
+            "id": "su_tech_157",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_tech_186",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Scaling_Challenges"
+          },
+          {
+            "id": "su_tech_215",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Failure_Modes"
+          },
+          {
+            "id": "su_tech_244",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_273",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Policy_Frameworks"
+          },
+          {
+            "id": "su_tech_302",
+            "url": "https://en.wikipedia.org/wiki/Technology_Readiness_Levels_(TRL)_—_Investment_Patterns"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 52: ordinal not in ran": [
+          {
+            "id": "su_tech_042",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_IP_Monetization"
+          },
+          {
+            "id": "su_tech_071",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Exit_Strategies"
+          },
+          {
+            "id": "su_tech_100",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Partnership_Models"
+          },
+          {
+            "id": "su_tech_129",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Regulatory_Navigation"
+          },
+          {
+            "id": "su_tech_158",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Team_Composition"
+          },
+          {
+            "id": "su_tech_187",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_tech_216",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Scaling_Challenges"
+          },
+          {
+            "id": "su_tech_245",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Failure_Modes"
+          },
+          {
+            "id": "su_tech_274",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Success_Factors"
+          },
+          {
+            "id": "su_tech_303",
+            "url": "https://en.wikipedia.org/wiki/Valley_of_Death_in_Tech_Commercialization_—_Policy_Frameworks"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 40: ordinal not in ran": [
+          {
+            "id": "su_tech_044",
+            "url": "https://en.wikipedia.org/wiki/Tough_Tech_(The_Engine_Model)_—_Corporate_Collaboration"
+          },
+          {
+            "id": "su_tech_048",
+            "url": "https://en.wikipedia.org/wiki/Technology_Licensing_Strategy_—_Revenue_Models"
+          },
+          {
+            "id": "su_tech_073",
+            "url": "https://en.wikipedia.org/wiki/Tough_Tech_(The_Engine_Model)_—_Talent_Acquisition"
+          },
+          {
+            "id": "su_tech_077",
+            "url": "https://en.wikipedia.org/wiki/Technology_Licensing_Strategy_—_Customer_Discovery"
+          },
+          {
+            "id": "su_tech_102",
+            "url": "https://en.wikipedia.org/wiki/Tough_Tech_(The_Engine_Model)_—_IP_Monetization"
+          },
+          {
+            "id": "su_tech_106",
+            "url": "https://en.wikipedia.org/wiki/Technology_Licensing_Strategy_—_Technology_Validation"
+          },
+          {
+            "id": "su_tech_131",
+            "url": "https://en.wikipedia.org/wiki/Tough_Tech_(The_Engine_Model)_—_Exit_Strategies"
+          },
+          {
+            "id": "su_tech_135",
+            "url": "https://en.wikipedia.org/wiki/Technology_Licensing_Strategy_—_International_Expansion"
+          },
+          {
+            "id": "su_tech_160",
+            "url": "https://en.wikipedia.org/wiki/Tough_Tech_(The_Engine_Model)_—_Partnership_Models"
+          },
+          {
+            "id": "su_tech_164",
+            "url": "https://en.wikipedia.org/wiki/Technology_Licensing_Strategy_—_Corporate_Collaboration"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 43: ordinal not in ran": [
+          {
+            "id": "su_tech_045",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_International_Expansion"
+          },
+          {
+            "id": "su_tech_074",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Corporate_Collaboration"
+          },
+          {
+            "id": "su_tech_103",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Talent_Acquisition"
+          },
+          {
+            "id": "su_tech_132",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_IP_Monetization"
+          },
+          {
+            "id": "su_tech_161",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Exit_Strategies"
+          },
+          {
+            "id": "su_tech_190",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Partnership_Models"
+          },
+          {
+            "id": "su_tech_219",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Regulatory_Navigation"
+          },
+          {
+            "id": "su_tech_248",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Team_Composition"
+          },
+          {
+            "id": "su_tech_277",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_tech_306",
+            "url": "https://en.wikipedia.org/wiki/Academic_Entrepreneurship_Intent_—_Scaling_Challenges"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 35: ordinal not in ran": [
+          {
+            "id": "su_tech_047",
+            "url": "https://en.wikipedia.org/wiki/Lab-to-Market_Transition_—_Customer_Discovery"
+          },
+          {
+            "id": "su_tech_051",
+            "url": "https://en.wikipedia.org/wiki/SBIR/STTR_Grant_Programs_—_Board_Composition"
+          },
+          {
+            "id": "su_tech_076",
+            "url": "https://en.wikipedia.org/wiki/Lab-to-Market_Transition_—_Technology_Validation"
+          },
+          {
+            "id": "su_tech_080",
+            "url": "https://en.wikipedia.org/wiki/SBIR/STTR_Grant_Programs_—_Governance_Structures"
+          },
+          {
+            "id": "su_tech_105",
+            "url": "https://en.wikipedia.org/wiki/Lab-to-Market_Transition_—_International_Expansion"
+          },
+          {
+            "id": "su_tech_109",
+            "url": "https://en.wikipedia.org/wiki/SBIR/STTR_Grant_Programs_—_Pivot_Dynamics"
+          },
+          {
+            "id": "su_tech_134",
+            "url": "https://en.wikipedia.org/wiki/Lab-to-Market_Transition_—_Corporate_Collaboration"
+          },
+          {
+            "id": "su_tech_138",
+            "url": "https://en.wikipedia.org/wiki/SBIR/STTR_Grant_Programs_—_Revenue_Models"
+          },
+          {
+            "id": "su_tech_163",
+            "url": "https://en.wikipedia.org/wiki/Lab-to-Market_Transition_—_Talent_Acquisition"
+          },
+          {
+            "id": "su_tech_167",
+            "url": "https://en.wikipedia.org/wiki/SBIR/STTR_Grant_Programs_—_Customer_Discovery"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 42: ordinal not in ran": [
+          {
+            "id": "su_tech_050",
+            "url": "https://en.wikipedia.org/wiki/Incubator_vs_Accelerator_Models_—_Governance_Structures"
+          },
+          {
+            "id": "su_tech_052",
+            "url": "https://en.wikipedia.org/wiki/Nanotechnology_Startup_Dynamics_—_Mentorship_Networks"
+          },
+          {
+            "id": "su_tech_079",
+            "url": "https://en.wikipedia.org/wiki/Incubator_vs_Accelerator_Models_—_Pivot_Dynamics"
+          },
+          {
+            "id": "su_tech_081",
+            "url": "https://en.wikipedia.org/wiki/Nanotechnology_Startup_Dynamics_—_Board_Composition"
+          },
+          {
+            "id": "su_tech_108",
+            "url": "https://en.wikipedia.org/wiki/Incubator_vs_Accelerator_Models_—_Revenue_Models"
+          },
+          {
+            "id": "su_tech_110",
+            "url": "https://en.wikipedia.org/wiki/Nanotechnology_Startup_Dynamics_—_Governance_Structures"
+          },
+          {
+            "id": "su_tech_137",
+            "url": "https://en.wikipedia.org/wiki/Incubator_vs_Accelerator_Models_—_Customer_Discovery"
+          },
+          {
+            "id": "su_tech_139",
+            "url": "https://en.wikipedia.org/wiki/Nanotechnology_Startup_Dynamics_—_Pivot_Dynamics"
+          },
+          {
+            "id": "su_tech_166",
+            "url": "https://en.wikipedia.org/wiki/Incubator_vs_Accelerator_Models_—_Technology_Validation"
+          },
+          {
+            "id": "su_tech_168",
+            "url": "https://en.wikipedia.org/wiki/Nanotechnology_Startup_Dynamics_—_Revenue_Models"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 45: ordinal not in ran": [
+          {
+            "id": "su_tech_058",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Clinical_Translation"
+          },
+          {
+            "id": "su_tech_087",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Grant_Strategy"
+          },
+          {
+            "id": "su_tech_116",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Research_Collaboration"
+          },
+          {
+            "id": "su_tech_145",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Government_Support"
+          },
+          {
+            "id": "su_tech_174",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Accelerator_Impact"
+          },
+          {
+            "id": "su_tech_203",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Co-founder_Dynamics"
+          },
+          {
+            "id": "su_tech_232",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Mentorship_Networks"
+          },
+          {
+            "id": "su_tech_261",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Board_Composition"
+          },
+          {
+            "id": "su_tech_290",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Governance_Structures"
+          },
+          {
+            "id": "su_tech_319",
+            "url": "https://en.wikipedia.org/wiki/Carbon_Capture_Technology_Ventures_—_Pivot_Dynamics"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 49: ordinal not in ran": [
+          {
+            "id": "su_plat_030",
+            "url": "https://en.wikipedia.org/wiki/Platform_Leadership_(Gawer_&_Cusumano)_—_Personalization_at_Scale"
+          },
+          {
+            "id": "su_plat_045",
+            "url": "https://en.wikipedia.org/wiki/Embedded_Finance_and_Fintech_Platforms_—_Trust_and_Safety"
+          },
+          {
+            "id": "su_plat_059",
+            "url": "https://en.wikipedia.org/wiki/Platform_Leadership_(Gawer_&_Cusumano)_—_Algorithmic_Curation"
+          },
+          {
+            "id": "su_plat_074",
+            "url": "https://en.wikipedia.org/wiki/Embedded_Finance_and_Fintech_Platforms_—_Pricing_Optimization"
+          },
+          {
+            "id": "su_plat_088",
+            "url": "https://en.wikipedia.org/wiki/Platform_Leadership_(Gawer_&_Cusumano)_—_Platform_Tipping_Points"
+          },
+          {
+            "id": "su_plat_103",
+            "url": "https://en.wikipedia.org/wiki/Embedded_Finance_and_Fintech_Platforms_—_API_Ecosystem"
+          },
+          {
+            "id": "su_plat_117",
+            "url": "https://en.wikipedia.org/wiki/Platform_Leadership_(Gawer_&_Cusumano)_—_Complementor_Management"
+          },
+          {
+            "id": "su_plat_132",
+            "url": "https://en.wikipedia.org/wiki/Embedded_Finance_and_Fintech_Platforms_—_Partnership_Architecture"
+          },
+          {
+            "id": "su_plat_146",
+            "url": "https://en.wikipedia.org/wiki/Platform_Leadership_(Gawer_&_Cusumano)_—_Platform_Switching_Costs"
+          },
+          {
+            "id": "su_plat_161",
+            "url": "https://en.wikipedia.org/wiki/Embedded_Finance_and_Fintech_Platforms_—_Data_Strategy"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 30: ordinal not in ran": [
+          {
+            "id": "su_plat_040",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Community_Building"
+          },
+          {
+            "id": "su_plat_069",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Enterprise_Adoption"
+          },
+          {
+            "id": "su_plat_098",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_International_Expansion"
+          },
+          {
+            "id": "su_plat_127",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Revenue_Model_Innovation"
+          },
+          {
+            "id": "su_plat_156",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Network_Effect_Measurement"
+          },
+          {
+            "id": "su_plat_185",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Regulatory_Challenges"
+          },
+          {
+            "id": "su_plat_214",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Governance_Design"
+          },
+          {
+            "id": "su_plat_243",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Scaling_Mechanics"
+          },
+          {
+            "id": "su_plat_272",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Investment_Thesis"
+          },
+          {
+            "id": "su_plat_301",
+            "url": "https://en.wikipedia.org/wiki/App_Store_Economics_—_Competitive_Dynamics"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 31: ordinal not in ran": [
+          {
+            "id": "su_plat_042",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Partnership_Architecture"
+          },
+          {
+            "id": "su_plat_071",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Data_Strategy"
+          },
+          {
+            "id": "su_plat_100",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Community_Building"
+          },
+          {
+            "id": "su_plat_129",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Enterprise_Adoption"
+          },
+          {
+            "id": "su_plat_158",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_International_Expansion"
+          },
+          {
+            "id": "su_plat_187",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Revenue_Model_Innovation"
+          },
+          {
+            "id": "su_plat_216",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Network_Effect_Measurement"
+          },
+          {
+            "id": "su_plat_245",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Regulatory_Challenges"
+          },
+          {
+            "id": "su_plat_274",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Governance_Design"
+          },
+          {
+            "id": "su_plat_303",
+            "url": "https://en.wikipedia.org/wiki/Data_Network_Effects_—_Scaling_Mechanics"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 29: ordinal not in ran": [
+          {
+            "id": "su_plat_046",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Developer_Relations"
+          },
+          {
+            "id": "su_plat_075",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Trust_and_Safety"
+          },
+          {
+            "id": "su_plat_104",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Pricing_Optimization"
+          },
+          {
+            "id": "su_plat_133",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_API_Ecosystem"
+          },
+          {
+            "id": "su_plat_162",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Partnership_Architecture"
+          },
+          {
+            "id": "su_plat_191",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Data_Strategy"
+          },
+          {
+            "id": "su_plat_220",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Community_Building"
+          },
+          {
+            "id": "su_plat_249",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Enterprise_Adoption"
+          },
+          {
+            "id": "su_plat_278",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_International_Expansion"
+          },
+          {
+            "id": "su_plat_307",
+            "url": "https://en.wikipedia.org/wiki/Super_App_Strategy_—_Revenue_Model_Innovation"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode character '\\u2014' in position 33: ordinal not in ran": [
+          {
+            "id": "su_plat_049",
+            "url": "https://en.wikipedia.org/wiki/Vertical_SaaS_Strategy_—_Retention_Engineering"
+          },
+          {
+            "id": "su_plat_057",
+            "url": "https://en.wikipedia.org/wiki/Subscription_Box_Model_—_Complementor_Management"
+          },
+          {
+            "id": "su_plat_078",
+            "url": "https://en.wikipedia.org/wiki/Vertical_SaaS_Strategy_—_User_Acquisition"
+          },
+          {
+            "id": "su_plat_086",
+            "url": "https://en.wikipedia.org/wiki/Subscription_Box_Model_—_Platform_Switching_Costs"
+          },
+          {
+            "id": "su_plat_107",
+            "url": "https://en.wikipedia.org/wiki/Vertical_SaaS_Strategy_—_Content_Moderation"
+          },
+          {
+            "id": "su_plat_115",
+            "url": "https://en.wikipedia.org/wiki/Subscription_Box_Model_—_Competitive_Moat_Building"
+          },
+          {
+            "id": "su_plat_136",
+            "url": "https://en.wikipedia.org/wiki/Vertical_SaaS_Strategy_—_Developer_Relations"
+          },
+          {
+            "id": "su_plat_144",
+            "url": "https://en.wikipedia.org/wiki/Subscription_Box_Model_—_Market_Entry_Strategy"
+          },
+          {
+            "id": "su_plat_165",
+            "url": "https://en.wikipedia.org/wiki/Vertical_SaaS_Strategy_—_Trust_and_Safety"
+          },
+          {
+            "id": "su_plat_173",
+            "url": "https://en.wikipedia.org/wiki/Subscription_Box_Model_—_Ecosystem_Governance"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-24: ordinal not in range(12": [
+          {
+            "id": "su_vc_251",
+            "url": "https://en.wikipedia.org/wiki/クラウドファンディング段階投資Theory"
+          },
+          {
+            "id": "su_vc_259",
+            "url": "https://en.wikipedia.org/wiki/ファンドオブファンズの選定基準Theory"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-22: ordinal not in range(12": [
+          {
+            "id": "su_vc_252",
+            "url": "https://en.wikipedia.org/wiki/ICOホワイトペーパー設計Theory"
+          },
+          {
+            "id": "su_vc_253",
+            "url": "https://en.wikipedia.org/wiki/STOセキュリティトークンTheory"
+          },
+          {
+            "id": "su_vc_256",
+            "url": "https://en.wikipedia.org/wiki/MRR基準ベンチャーデットTheory"
+          },
+          {
+            "id": "su_vc_293",
+            "url": "https://en.wikipedia.org/wiki/VC_ポートフォリオ再構成Theory"
+          },
+          {
+            "id": "su_vc_303",
+            "url": "https://en.wikipedia.org/wiki/VC_持続可能ファイナンスTheory"
+          },
+          {
+            "id": "su_vc_345",
+            "url": "https://en.wikipedia.org/wiki/VC_暗号資産インフラ投資Theory"
+          },
+          {
+            "id": "su_vc_357",
+            "url": "https://en.wikipedia.org/wiki/VC_ジェンダーレンズ投資Theory"
+          },
+          {
+            "id": "su_vc_363",
+            "url": "https://en.wikipedia.org/wiki/VC_ゾンビユニコーン問題Theory"
+          },
+          {
+            "id": "su_vc_369",
+            "url": "https://en.wikipedia.org/wiki/VC_コミュニティラウンドTheory"
+          },
+          {
+            "id": "su_vc_367",
+            "url": "https://en.wikipedia.org/wiki/VC_サブスクリプション型LPTheory"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 13-21: ordinal not in range(12": [
+          {
+            "id": "su_vc_254",
+            "url": "https://en.wikipedia.org/wiki/NFTファンドレイジングTheory"
+          },
+          {
+            "id": "su_vc_285",
+            "url": "https://en.wikipedia.org/wiki/VC_サイバーリスク管理Theory"
+          },
+          {
+            "id": "su_vc_288",
+            "url": "https://en.wikipedia.org/wiki/VC_ハンドオフプロセスTheory"
+          },
+          {
+            "id": "su_vc_290",
+            "url": "https://en.wikipedia.org/wiki/VC_コンソーシアム調達Theory"
+          },
+          {
+            "id": "su_vc_300",
+            "url": "https://en.wikipedia.org/wiki/VC_グローバル分散戦略Theory"
+          },
+          {
+            "id": "su_vc_311",
+            "url": "https://en.wikipedia.org/wiki/VC_デジタルツイン投資Theory"
+          },
+          {
+            "id": "su_vc_315",
+            "url": "https://en.wikipedia.org/wiki/VC_代替タンパク質投資Theory"
+          },
+          {
+            "id": "su_vc_324",
+            "url": "https://en.wikipedia.org/wiki/VC_農業保険テック投資Theory"
+          },
+          {
+            "id": "su_vc_327",
+            "url": "https://en.wikipedia.org/wiki/VC_エネルギー貯蔵投資Theory"
+          },
+          {
+            "id": "su_vc_412",
+            "url": "https://en.wikipedia.org/wiki/VC_合成コントロール法Theory"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-21: ordinal not in range(12": [
+          {
+            "id": "su_vc_255",
+            "url": "https://en.wikipedia.org/wiki/ベンチャーデット条件設計Theory"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-16: ordinal not in range(12": [
+          {
+            "id": "su_vc_257",
+            "url": "https://en.wikipedia.org/wiki/収益連動融資のSaaS適用Theory"
+          },
+          {
+            "id": "su_vc_270",
+            "url": "https://en.wikipedia.org/wiki/ハードル率設計Theory"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-20: ordinal not in range(12": [
+          {
+            "id": "su_vc_258",
+            "url": "https://en.wikipedia.org/wiki/収益連動融資の農業適用Theory"
+          }
+        ],
+        "exception:UnicodeEncodeError:'ascii' codec can't encode characters in position 10-25: ordinal not in range(12": [
+          {
+            "id": "su_vc_260",
+            "url": "https://en.wikipedia.org/wiki/ファンドオブファンズの二重手数料Theory"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 64,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 2000,
+    "dry_run": false
+  }
+}

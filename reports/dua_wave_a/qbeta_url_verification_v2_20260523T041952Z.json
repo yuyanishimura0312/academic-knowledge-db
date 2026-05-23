@@ -1,0 +1,115 @@
+{
+  "start_utc": "2026-05-23T04:21:53.119675+00:00",
+  "elapsed_min": 2.0,
+  "domains": [
+    {
+      "table": "startup_theory",
+      "total_targets": 4354,
+      "completed": 4354,
+      "elapsed_sec": 120.6,
+      "distribution": {
+        "url_present": 4255,
+        "dead": 98,
+        "verified": 1
+      },
+      "failure_patterns_top": {
+        "transient_429": 4255,
+        "http_404": 98
+      },
+      "failure_samples": {
+        "transient_429": [
+          {
+            "id": "su_cog_012",
+            "url": "https://en.wikipedia.org/wiki/Metacognition_in_Entrepreneurship"
+          },
+          {
+            "id": "su_cog_002",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Alertness"
+          },
+          {
+            "id": "su_cog_007",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Self-Efficacy"
+          },
+          {
+            "id": "su_cog_011",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Resilience"
+          },
+          {
+            "id": "su_cog_006",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Bricolage"
+          },
+          {
+            "id": "su_cog_015",
+            "url": "https://en.wikipedia.org/wiki/Social_Cognitive_Theory_of_Entrepreneurship"
+          },
+          {
+            "id": "su_cog_013",
+            "url": "https://en.wikipedia.org/wiki/Pattern_Recognition_in_Entrepreneurship"
+          },
+          {
+            "id": "su_cog_009",
+            "url": "https://en.wikipedia.org/wiki/Prospect_Theory_Applied_to_Entrepreneurship"
+          },
+          {
+            "id": "su_cog_003",
+            "url": "https://en.wikipedia.org/wiki/Overconfidence_Bias_in_Entrepreneurship"
+          },
+          {
+            "id": "su_cog_008",
+            "url": "https://en.wikipedia.org/wiki/Heuristics_in_Startup_Decision-Making"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "su_cog_020",
+            "url": "https://en.wikipedia.org/wiki/Effectuation_Theory:_Perspectives"
+          },
+          {
+            "id": "su_cog_066",
+            "url": "https://en.wikipedia.org/wiki/Prospect_Theory_Applied_to_Entrepreneurship:_Extensions"
+          },
+          {
+            "id": "su_cog_109",
+            "url": "https://en.wikipedia.org/wiki/Counterfactual_Thinking_in_Entrepreneurship:_Meta-Analysis"
+          },
+          {
+            "id": "su_cog_129",
+            "url": "https://en.wikipedia.org/wiki/Social_Cognitive_Theory_of_Entrepreneurship:_Measurement"
+          },
+          {
+            "id": "su_cog_159",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Self-Efficacy:_Longitudinal_Analysis"
+          },
+          {
+            "id": "su_cog_192",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Alertness:_Integration"
+          },
+          {
+            "id": "su_cog_206",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Mindset:_Integration"
+          },
+          {
+            "id": "su_cog_236",
+            "url": "https://en.wikipedia.org/wiki/Heuristics_in_Startup_Decision-Making:_Refinement"
+          },
+          {
+            "id": "su_cog_421",
+            "url": "https://en.wikipedia.org/wiki/Overconfidence_Bias_in_Entrepreneurship:_Future_Directions"
+          },
+          {
+            "id": "su_cog_496",
+            "url": "https://en.wikipedia.org/wiki/Entrepreneurial_Alertness:_Emerging_Evidence"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}

@@ -1,0 +1,123 @@
+{
+  "start_utc": "2026-05-23T04:20:41.661361+00:00",
+  "elapsed_min": 2.5,
+  "domains": [
+    {
+      "table": "arts_question",
+      "total_targets": 5032,
+      "completed": 5032,
+      "elapsed_sec": 147.7,
+      "distribution": {
+        "url_present": 4871,
+        "dead": 106,
+        "verified": 54,
+        "redirect": 1
+      },
+      "failure_patterns_top": {
+        "transient_429": 4871,
+        "http_404": 105,
+        "dns_fail": 1
+      },
+      "failure_samples": {
+        "transient_429": [
+          {
+            "id": "art011",
+            "url": "https://en.wikipedia.org/wiki/Limited_Animation"
+          },
+          {
+            "id": "art007",
+            "url": "https://en.wikipedia.org/wiki/Generative_Music_%26_AI_Composition"
+          },
+          {
+            "id": "art002",
+            "url": "https://en.wikipedia.org/wiki/Diffusion_Model_Image_Generation"
+          },
+          {
+            "id": "art009",
+            "url": "https://en.wikipedia.org/wiki/12_Principles_of_Animation"
+          },
+          {
+            "id": "art010",
+            "url": "https://en.wikipedia.org/wiki/Uncanny_Valley"
+          },
+          {
+            "id": "art014",
+            "url": "https://en.wikipedia.org/wiki/Cel-Shaded_3DCG_%2F_Toon_Shading"
+          },
+          {
+            "id": "art005",
+            "url": "https://en.wikipedia.org/wiki/Creative_Adversarial_Network"
+          },
+          {
+            "id": "art006",
+            "url": "https://en.wikipedia.org/wiki/Prompt_Engineering_as_Artistic_Practice"
+          },
+          {
+            "id": "art012",
+            "url": "https://en.wikipedia.org/wiki/Procedural_Animation"
+          },
+          {
+            "id": "art021",
+            "url": "https://en.wikipedia.org/wiki/Relational_Aesthetics_%26_Installation"
+          }
+        ],
+        "http_404": [
+          {
+            "id": "art048",
+            "url": "https://en.wikipedia.org/wiki/Design_Justice"
+          },
+          {
+            "id": "art092",
+            "url": "https://en.wikipedia.org/wiki/Transmedia_Storytelling"
+          },
+          {
+            "id": "art226",
+            "url": "https://en.wikipedia.org/wiki/Orientalism_%26_Visual_Culture"
+          },
+          {
+            "id": "art336",
+            "url": "https://en.wikipedia.org/wiki/Aesthetics_of_Pain"
+          },
+          {
+            "id": "art_r031",
+            "url": "https://en.wikipedia.org/wiki/Walking_Simulators_%26_Indie_Game_Artistry"
+          },
+          {
+            "id": "d05b7e2d-6a50-414d-827e-91b143bfdcf6",
+            "url": "https://en.wikipedia.org/wiki/Descartes_and_the_Aesthetics_of_Reason"
+          },
+          {
+            "id": "69e44e0a-3331-4095-a63c-e3c93cedb99c",
+            "url": "https://en.wikipedia.org/wiki/Winckelmann%27s_Neoclassicism"
+          },
+          {
+            "id": "c12f2c9f-abc8-4490-a9fd-71f6fd38b6fb",
+            "url": "https://en.wikipedia.org/wiki/Data_Visual_Culture"
+          },
+          {
+            "id": "b3d01c9d-e80a-44c7-aa72-0ef98e8c3df7",
+            "url": "https://en.wikipedia.org/wiki/South-South_Comparative_Literature"
+          },
+          {
+            "id": "e00b9d01-5344-499c-b11f-848fe190e231",
+            "url": "https://en.wikipedia.org/wiki/Art_Worlds"
+          }
+        ],
+        "dns_fail": [
+          {
+            "id": "9f351a0b-c032-4728-8ebe-27ace23a5174",
+            "url": "https://en.wikipedia.org/wiki/Revisionary_Ratios"
+          }
+        ]
+      }
+    }
+  ],
+  "config": {
+    "concurrent_workers": 15,
+    "timeout_sec": 10,
+    "user_agent": "Mozilla/5.0 (research; academic-knowledge-db DUA-Wave-A)",
+    "batch_size": 1000,
+    "dry_run": false,
+    "version": "v2"
+  }
+}
