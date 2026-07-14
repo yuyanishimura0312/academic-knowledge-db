@@ -11,3 +11,5 @@ reports/*.csv
 academic.db.backup*
 *.db.backup-*
 *.db.backup_*
+*.db.pre-*
+*.db.pre_*
