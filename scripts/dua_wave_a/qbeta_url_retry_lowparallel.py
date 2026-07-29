@@ -35,7 +35,7 @@ REPORTS_DIR = Path.home() / "projects/research/academic-knowledge-db/reports/dua
 REPORTS_DIR.mkdir(parents=True, exist_ok=True)
 
 # More browser-like UA to avoid 403 from some sites
-USER_AGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/17.0 Safari/605.1.15"
+USER_AGENT = "MiratukuResearchBot/1.0 (research data collection; contact: info@emerging-future.org)"
 REQUEST_TIMEOUT_SEC = 15
 MAX_REDIRECT_HOPS = 5
 CONCURRENT_WORKERS = 8  # Low parallel to be friendly to Wikipedia
