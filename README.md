@@ -118,3 +118,13 @@ Full design documentation: [academic-domain-research](https://github.com/yuyanis
 | 05_agent-team-v3-design.md | v3 redesign (count → coverage rate) |
 | 06_literature-reference-patterns.md | 5 literature reference patterns |
 | 07_pattern-mixing-design.md | Pattern mixing strategies |
+
+## 担当（照会体・保守役・返却先）— 2026-11-04 追記
+
+- 対象: 詩学（Poetics）の表（`poetics_*`。三項リンク `cross_db_refs` を含む）
+- 照会体: `poetics`
+- 保守役: 新設しない（独立の保守役を立てると KOS/ONT と同じ owner 不在の型が増えるため）。PLAN-v4 段3 の是正は本体が行い、`ak-quality-lead`／`ak-quality-worker` の既存経路に結果を報告する。URL の3値再検査は四半期（観測点: dead の増加）
+- 返却先: 是正の書き込み → `ak-quality-worker`（本体が依頼文と是正データを渡す。本体は直接書かない）／外へ出す文章の射程 → `claim-discipline-reviewer`
+- 利用体（RITE 体制で確認済み）: `rite`・`report-prose-stylist`
+
+出所: RITE 改修 PLAN-v4 §7-3・§8-3（段9）。エージェント定義が引くと書くDBと、DB側が名指す担当の突合の結果、DB側に無かった行を足した（additive）。突合の記録は `~/work/rite-editorial-renewal/docs/run/stage6-links.md`。
