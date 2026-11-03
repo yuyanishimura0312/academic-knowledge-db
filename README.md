@@ -127,4 +127,6 @@ Full design documentation: [academic-domain-research](https://github.com/yuyanis
 - 返却先: 是正の書き込み → `ak-quality-worker`（本体が依頼文と是正データを渡す。本体は直接書かない）／外へ出す文章の射程 → `claim-discipline-reviewer`
 - 利用体（RITE 体制で確認済み）: `rite`・`report-prose-stylist`
 
+- 段3 詩学是正の報告（2026-11-04・ak-quality-lead 宛）: URL 3値は添え表 `poetics_url_check`（検査は継続中・再開は `etl/stage3_poetics_url_check.py`）、三項リンクは `cp_*` の対応表が無く識別子での解決 0 件（全件 unresolved・ビュー `v_poetics_link_usable`）。詳細 `~/work/rite-editorial-renewal/docs/run/stage3-poetics.md`
+
 出所: RITE 改修 PLAN-v4 §7-3・§8-3（段9）。エージェント定義が引くと書くDBと、DB側が名指す担当の突合の結果、DB側に無かった行を足した（additive）。突合の記録は `~/work/rite-editorial-renewal/docs/run/stage6-links.md`。
